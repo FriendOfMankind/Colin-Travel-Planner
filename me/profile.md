@@ -15,6 +15,9 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 
 2013 Subaru Legacy. AWD, ~5.9 in ground clearance, low front air dam. **Not high-clearance.** Road quality is a trip-breaker, not an inconvenience — check the access road before getting attached to a campground.
 
+**Road evidence:**
+- Divide Road → Twin Arches, Big South Fork (5 unpaved miles): easy maintained gravel, no concern. *(confirmed: kentucky-2026 log, 2026-09-27)*
+
 ## Renting a car
 
 Under 25 — the young-renter surcharge runs $15–35/day, up to ~$245 on a week. AAA membership is the standard workaround; also check whether the credit card already covers rental collision before buying the counter product.

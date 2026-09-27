@@ -43,24 +43,24 @@ open questions rather than silent edits:
 Coordinates: AllTrails does not return trailhead coordinates, so every
 waypoint here is verified:false and unplotted. Use the Places tab.
 ==========================================================================
-## Retro: not yet written
+## Retro (in progress, started 2026-09-27)
 
-The trip ended 2026-09-27. Nothing below is answered yet. These are the questions the plan couldn't answer and the trip could. They're collected here so the retro interview (`/retro kentucky-2026`) asks them instead of a generic "how was it?". Each answer flows somewhere specific, shown after the →.
+Answers so far are from the retro interview on 2026-09-27; a ticked box has its answer after the ✅. These are the questions the plan couldn't answer and the trip could. They're collected here so the retro interview (`/retro kentucky-2026`) asks them instead of a generic "how was it?". Each answer flows somewhere specific, shown after the →.
 
 **Gear questions this trip was named to answer** (from `me/gear.md`, `answeredBy: kentucky-2026`)
-- [ ] Did the REI Siesta 20 sleep warm at ~50°F? Note Wednesday and Saturday mornings. → `me/gear.md`, and it decides whether October needs the liner
-- [ ] Is the liner needed, or does the Siesta 20 cover the mid-30s on its own? → `me/gear.md` (liner: need → own or drop). **Decide before Oct 15.**
-- [ ] Did Starlink hold a usable link under the canopy at Koomer Ridge? → `me/gear.md`, and the October lecture plan at Davidson River
+- [x] Did the REI Siesta 20 sleep warm at ~50°F? ✅ **Warm, no issues.** Still no data near 32°F. → `me/gear.md`, and it decides whether October needs the liner
+- [x] Is the liner needed, or does the Siesta 20 cover the mid-30s on its own? ✅ Not answerable from 50°F nights. **Decision: buying one** for October as margin. → `me/gear.md` (liner: need → own or drop). **Decide before Oct 15.**
+- [x] Did Starlink hold a usable link under the canopy at Koomer Ridge? ✅ **Had to move** to a better sky view in the campground, then it worked. → `me/gear.md`, and the October lecture plan at Davidson River
 
 **Plan questions the field answered**
-- [ ] Wednesday's K-L2 quesadillas during the lecture: did it work? The page said both "confirmed workable" and "conflict". → `kitchen/`, and settles the contradiction
+- [x] Wednesday's K-L2 quesadillas during the lecture: did it work? ✅ **Cooked during the lecture itself. Not a big deal.** The "conflict" warning was wrong, and the "workable" side of the contradiction wins. → `kitchen/`, and settles the contradiction
 - [ ] Angel Falls: clifftop overlook, riverside rapids, or both? → this log; the answer helps anyone planning Big South Fork again
-- [ ] Divide Road to Twin Arches: maintained gravel, or did you turn around? → this log + `me/profile.md` vehicle notes if it changes the rule
-- [ ] Honey Creek: did it happen (rain?), counter-clockwise, and did the one-hour-per-mile budget hold? → this log + `me/hiking.md`
+- [x] Divide Road to Twin Arches: maintained gravel, or did you turn around? ✅ **Easy gravel.** → this log + `me/profile.md` vehicle notes if it changes the rule
+- [x] Honey Creek: did it happen, and did the one-hour-per-mile budget hold? ✅ **Full loop, ~3.5 h** against a 6 h budget. Direction not yet confirmed. → this log + `me/hiking.md`
 - [ ] Did the block of ice from Kroger get the rotisserie chicken safely to Friday dinner? → `kitchen/` cooler doctrine
 
 **Preference questions**
 - [ ] Did "hike out, sit up to an hour, hike back" feel right in practice, or too slow? → `me/hiking.md`
-- [ ] Dried figs (Day 4) and dried mango (Day 5): any OAS reaction? Salsa or pepperoncini? → `me/food.md` (closes an open allergy question)
+- [x] Dried figs (Day 4) and dried mango (Day 5): any OAS reaction? Salsa or pepperoncini? ✅ **Didn't eat any of them.** So dried fruit is still an open allergy question, and the planned lunches weren't what got eaten. What was eaten instead is still unknown. → `me/food.md` (closes an open allergy question)
 - [ ] Restaurants: Sky Bridge Station hot dogs, The Brick, Miguel's, the Whistle Stop. Worth it? → `me/food.md`, and the "restaurants for a named dish" rule
 - [ ] Best moment, worst moment, and what you'd cut → this log

@@ -43,7 +43,9 @@ export function buildIndex() {
     const verified = places.filter((p) => p.verified).length;
     const log = existsSync(join(ROOT, "trips", slug, "log.md")) ? read(`trips/${slug}/log.md`) : "";
     const entries = (log.match(/^## \d{4}-\d{2}-\d{2}/gm) ?? []).length;
-    const retro = /^## Retro(?!: not yet written)/m.test(log) ? "written" : /^## Retro: not yet written/m.test(log) ? "pending" : "—";
+    const retro = /^## Retro \(in progress/m.test(log) ? "in progress"
+      : /^## Retro: not yet written/m.test(log) ? "pending"
+      : /^## Retro/m.test(log) ? "written" : "—";
     return { slug, r, page, places: places.length, verified, entries, retro };
   });
 
