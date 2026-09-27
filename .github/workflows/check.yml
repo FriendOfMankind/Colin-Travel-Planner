@@ -1,0 +1,14 @@
+# The format round-trip tests and a stale-INDEX check. The Trees round-trip
+# tests skip here (no Trees checkout in CI); they run locally before import.
+name: check
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm ci
+      - run: npm test
+      - run: node tools/index.mjs --check

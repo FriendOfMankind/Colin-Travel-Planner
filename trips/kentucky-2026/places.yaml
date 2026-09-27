@@ -1,0 +1,203 @@
+# Red River Gorge + Big South Fork — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: Red River Gorge
+    places:
+      - name: Koomer Ridge Campground
+        note: Nights 1–2. Walk-in tent site.
+        maps: Koomer Ridge Campground Slade KY
+        verified: true
+        lat: 37.784032
+        lng: -83.632634
+        source: Recreation.gov facility 10311270 (RIDB bulk export)
+        icon: ⛺
+        days: 1–2
+        wpNote: Walk-in tent site
+      - name: Nada Tunnel
+        note: One lane, 900 ft, hand-cut 1910–11
+        maps: Nada Tunnel Red River Gorge KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Princess Arch Trailhead
+        note: The KY 715 overlook cluster
+        maps: Princess Arch Trailhead Red River Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Auxier Ridge Trailhead
+        note: Via Tunnel Ridge Rd. Wednesday's dark start.
+        maps: Auxier Ridge Trailhead Red River Gorge
+        verified: true
+        lat: 37.82823
+        lng: -83.677587
+        source: OSM way 225745556, footway at the Tunnel Ridge Rd lot
+        icon: 🌄
+        days: "2"
+        wpNote: Via Tunnel Ridge Rd
+      - name: Gray's Arch Picnic Area
+        note: Thursday morning
+        maps: Grays Arch Picnic Area Red River Gorge
+        verified: true
+        lat: 37.807934
+        lng: -83.657265
+        source: Checked on satellite imagery; Tunnel Ridge Road parking area. Independently re-placed from Google Maps Sept 2026 to **10 m** — corroborated.
+        icon: 🥾
+        days: "3"
+      - name: Chimney Top Rock
+        note: ✅ Tuesday sunset. Faces W/NW — confirmed.
+        maps: Chimney Top Rock Red River Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Silvermine Arch Trailhead
+        note: ⭐ Leaves from Koomer Ridge. 3.0 mi out-and-back, arch + rock shelter. Unscheduled — the standby if plans move.
+        maps: Silvermine Arch Trailhead Koomer Ridge KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Sky Bridge
+        note: Cut — faces E/SE, wrong light for an evening
+        maps: Sky Bridge Red River Gorge KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Rock Bridge Recreation Area
+        note: The only arch spanning water
+        maps: Rock Bridge Recreation Area Red River Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Miguel's Pizza
+        note: ✅ 7:00 AM–9:45 PM. Build your own, 45 toppings.
+        maps: Miguels Pizza Slade KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Red River Rockhouse
+        note: ⚠️ 12–9 PM, CLOSED Tue + Wed — your only two Gorge nights. Off this trip. Next time.
+        maps: Red River Rockhouse Campton KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Sky Bridge Station
+        note: Gourmet hot dogs. Live music Fri/Sat.
+        maps: Sky Bridge Station Pine Ridge KY
+        verified: false
+        lat: null
+        lng: null
+      - name: The Brick
+        note: Strawberry cheesecake, across the street
+        maps: The Brick Pine Ridge KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Kroger Stanton
+        note: The only resupply. BLOCK ice + rotisserie chicken.
+        maps: Kroger Stanton Kentucky
+        verified: false
+        lat: null
+        lng: null
+  - group: Big South Fork
+    places:
+      - name: Bandy Creek Campground
+        note: Nights 3–5. Free hot showers. Bear country.
+        maps: Bandy Creek Campground Oneida TN
+        verified: true
+        lat: 36.488329
+        lng: -84.697519
+        source: Recreation.gov facility 232506, agreeing with OSM node 13121679831 to 36 m, and with a Google Maps placement Sept 2026 to **65 m** — three sources inside the campground.
+        icon: ⛺
+        days: 3–5
+        wpNote: Bear country
+      - name: Bandy Creek Visitor Center
+        note: 9–5 ET. Ask about Honey Creek and the Twin Arches road.
+        maps: Bandy Creek Visitor Center Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: East Rim Trailhead
+        note: Sunset Overlook — **Friday** now, not Thursday. No railings.
+        maps: East Rim Trailhead Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: Twin Arches Trailhead
+        note: 5 unpaved miles off Divide Road
+        maps: Twin Arches Trailhead Big South Fork
+        verified: true
+        lat: 36.5417
+        lng: -84.7357
+        source: OSM node 12269314919, Big South Fork — not the same-named arch in Red River Gorge
+        icon: 🪨
+        days: "4"
+        wpNote: 5 unpaved miles
+      - name: Sawmill Trailhead
+        note: Slave Falls + Needle Arch
+        maps: Sawmill Trailhead Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: John Litton Farm Loop
+        note: Cut from Friday. Trailhead is at Bandy Creek if the day opens up.
+        maps: John Litton Farm Loop Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: Honey Creek Trailhead
+        note: Small lot ~1 mi before the road ends
+        maps: Honey Creek Trailhead Big South Fork
+        verified: true
+        lat: 36.421268
+        lng: -84.651813
+        source: Checked on satellite imagery; matches OSM node 3373114451, amenity=parking, to 7 m. Independently re-placed from Google Maps Sept 2026 to **3 m** — corroborated twice.
+        icon: 🪜
+        days: "5"
+        wpNote: Small lot ~1 mi before road end
+      - name: Honey Creek Overlook
+        note: Drive the last mile up
+        maps: Honey Creek Overlook Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: Leatherwood Ford / Angel Falls TH
+        star: true
+        note: Thursday, on the way in. TN 297, 15 min short of camp. 3.7 mi flat river walk to the rapids.
+        maps: Leatherwood Ford Big South Fork
+        verified: true
+        lat: 36.476828
+        lng: -84.667818
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🏞️
+        days: "3"
+        wpNote: On TN 297, ~15 min short of camp — Thursday's stop on the drive in
+  - group: The drive home
+    places:
+      - name: Blue Heron Mining Community
+        note: Free, self-guided ghost structures
+        maps: Blue Heron Mining Community Stearns KY
+        verified: true
+        lat: 36.669947
+        lng: -84.547655
+        source: Google Maps, confirmed twice by Colin Sept 2026 — supersedes Recreation.gov facility 232505, which pinned a point 2.7 km away
+        icon: 🏚️
+        days: "6"
+      - name: Devil's Jump Overlook
+        note: 0.1 mi, paved
+        maps: Devils Jump Overlook Big South Fork
+        verified: false
+        lat: null
+        lng: null
+      - name: The Whistle Stop
+        note: Opens 11:00 Sunday. Fried green tomatoes.
+        maps: The Whistle Stop Stearns KY
+        verified: false
+        lat: null
+        lng: null
+      - name: Yahoo Falls
+        note: Declined — 40 min of driving for a 30 min walk on an 8-hour driving day.
+        maps: Yahoo Falls Kentucky
+        verified: false
+        lat: null
+        lng: null

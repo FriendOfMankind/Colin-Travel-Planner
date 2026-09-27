@@ -1,0 +1,60 @@
+{
+  "generatedBy": "Trees tools/sun.mjs",
+  "note": "**Derived, not typed.** Every figure here now comes from `node tools/sun.mjs kentucky-2026` against each day's verified waypoint — NOAA solar position with refraction and horizon dip, moon rise/set to about ±4 minutes. That replaced a hand-recomputed table whose sunsets ran **1–3 minutes late every single day**. A gorge wall or a ridge still takes the light earlier than any of these numbers.\n\n**Moon: settled, and it changed the Wednesday risk read.** Waxing gibbous all week, **full on Sept 26** — computed by `tools/sun.mjs`, not looked up. Two consequences and they cut opposite ways. ⚠️ **Wednesday's 6:15 AM walk out Auxier Ridge is moonless** — the moon sets at 4:09 AM, two hours before you leave the car. Nothing overhead helps; the headlamp is the entire plan. ✅ **Every evening is moonlit** — during the Friday walk back from the unfenced East Rim the moon is 98% lit and 9–18° up in the east. Still carry the headlamp, but that walk is not through black woods.",
+  "rows": [
+    {
+      "date": "Tue 9/22",
+      "location": "Koomer Ridge / Chimney Top",
+      "firstLight": "6:56",
+      "sunrise": "7:22",
+      "sunset": "7:31 PM",
+      "dark": "7:57 PM",
+      "moon": "83% — moonset 3:06 AM. Waxing gibbous."
+    },
+    {
+      "date": "Wed 9/23",
+      "location": "Auxier Ridge",
+      "firstLight": "6:57",
+      "sunrise": "7:23",
+      "sunset": "7:29 PM",
+      "dark": "7:56 PM",
+      "moon": "90% — moonset 4:09 AM. ⚠️ **Gone two hours before the dark ridge walk starts.**"
+    },
+    {
+      "date": "Thu 9/24",
+      "location": "Bandy Creek / Leatherwood Ford",
+      "firstLight": "7:02",
+      "sunrise": "7:28",
+      "sunset": "7:32 PM",
+      "dark": "7:58 PM",
+      "moon": "95% — moonset 5:18 AM"
+    },
+    {
+      "date": "Fri 9/25",
+      "location": "Bandy Creek / East Rim",
+      "firstLight": "7:03",
+      "sunrise": "7:29",
+      "sunset": "7:31 PM",
+      "dark": "7:56 PM",
+      "moon": "98% — ~9° up at sunset, ~18° by 8:20. The rim walk-out is lit."
+    },
+    {
+      "date": "Sat 9/26",
+      "location": "Honey Creek",
+      "firstLight": "7:04",
+      "sunrise": "7:29",
+      "sunset": "7:29 PM",
+      "dark": "7:55 PM",
+      "moon": "100% — **full moon**, rising about sunset"
+    },
+    {
+      "date": "Sun 9/27",
+      "location": "Blue Heron / Stearns",
+      "firstLight": "7:04",
+      "sunrise": "7:30",
+      "sunset": "7:27 PM",
+      "dark": "7:53 PM",
+      "moon": "99% — moonset 8:32 AM. Still reads full."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "colin-travel-planner",
+  "private": true,
+  "type": "module",
+  "description": "Trail Notes, rebuilt: plain Markdown + YAML files an AI can read, edit and check, rendered into an offline-capable site.",
+  "scripts": {
+    "test": "node --test \"tools/test/*.test.mjs\"",
+    "index": "node tools/index.mjs",
+    "import": "node tools/import-trees.mjs"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
+}
