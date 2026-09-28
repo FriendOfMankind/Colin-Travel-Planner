@@ -33,8 +33,8 @@ dislikes:
     terms: [ egg salad ]
   - what: Rice balls / onigiri
     terms: [ rice ball, onigiri ]
-  - what: Ramen, both instant and upgraded
-    terms: [ ramen ]
+  - what: Ramen as a planned meal, loaded or upgraded (egg, sausage, pork). Plain cup ramen as trailhead fuel is fine; was "Ramen, both instant and upgraded" until 2026-09-27
+    terms: [ loaded ramen, upgraded ramen, ramen with egg ]
   - what: Pork chop with cooked apple
     terms: [ pork chop ]
   - what: White chicken chili
@@ -73,7 +73,7 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
 
 **Actually eaten, and liked:**
 - **Breakfast:** oatmeal, every day, happily.
-- **Lunch:** ramen, mac & cheese, and bought grocery-store lunches (chicken tenders and similar).
+- **Lunch:** mac & cheese, bought grocery-store lunches (chicken tenders and similar), and twice **cup ramen at the trailhead with instant mashed potatoes stirred in** to soak up the water: "not very nutritious, but delicious and easy."
 - **Dinner:** a boiled carb + canned/packaged meat + one canned extra. Specifically:
   - **Brami pasta + pasta sauce + meat mixed in** (chicken pouch or sausage). "Would happily eat it every night."
   - **Couscous + black beans:** liked.
@@ -84,9 +84,19 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
 
 **The formula he actually wants** *(stated 2026-09-27)*: a meal that's **mostly shelf-stable, lives in the car trunk for the whole trip, ideally bought in bulk**, plus one or two fresh or canned add-ons (a fresh protein, a vegetable, a can of something). **About 2 options per meal slot** is enough variety. The add-on is what keeps a repeated base interesting.
 
-**Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,000 kcal. *(stated 2026-09-27)* Exact macro targets are pending body weight.
+**Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,000 kcal. *(stated 2026-09-27)*
 
-⚠️ **Contradiction, unresolved:** ramen is on the rejected list below (both Menu Bench ramen dishes voted "no"), yet he ate ramen for lunch most days in Kentucky. Ask which is true; don't guess.
+**Working macro targets** (body weight ~185 lb / ~84 kg, *stated 2026-09-27*). These come from standard sports-nutrition ranges, not from a dietitian, so treat them as a starting point:
+
+| | Per day | Basis |
+|---|---|---|
+| Protein | **~130–150 g** | ~1.6–1.8 g/kg, the recovery range for endurance days |
+| Carbs | **~400–450 g** | ~5 g/kg, the low end of the range for long active days |
+| Fat | **~70–85 g** | whatever's left of ~3,000 kcal |
+
+A day of long miles at 185 lb likely burns more than 3,000 kcal. If he comes home lighter or runs out of steam on day 3+, the kcal target is the first thing to raise. *(hypothesis, not yet observed)*
+
+**Resolved 2026-09-27:** ramen was on the rejected list, yet he ate cup ramen twice on the trip. Both are true: the Menu Bench "no" votes were for loaded/upgraded ramen as a *meal*, and plain cup ramen is a quick trailhead fuel he likes. The rejected entry was narrowed to match.
 
 
 

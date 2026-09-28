@@ -48,11 +48,24 @@ waypoint here is verified:false and unplotted. Use the Places tab.
 Recorded in the retro interview. The planned menu (frozen chili, burritos, ribeye, tortilla plates with figs and mango) largely didn't happen:
 
 - Breakfast: oatmeal every day.
-- Lunch: ramen and mac & cheese most days, plus some grocery-store lunches (chicken tenders and similar).
+- Lunch: mac & cheese, grocery-store lunches (chicken tenders and similar), and twice cup ramen at a trailhead with instant mashed potatoes stirred in.
 - Dinner: boiled carb + canned/packaged meat + a canned extra. Brami pasta with sauce and a chicken pouch or sausage. Did the couscous: black beans good, sun-dried tomatoes and chickpeas not so much. Instant rice underwhelming.
 - *"I ended up going back to things I had in stock, staples."*
 
 **Lesson for the kitchen:** a 23-recipe library with freeze-flat meals is the plan Colin wrote; a trunk full of staples is what Colin eats. Design future trips around the second, and treat elaborate recipes as optional upgrades. → `me/food.md`
+
+## 2026-09-27 · Plan vs. what actually happened, day by day
+
+| Day | Plan | Actual | Gap |
+|---|---|---|---|
+| 1 Tue | Drive; Nada Tunnel; Princess/Whistling/Angel Windows; Sky Bridge Station + The Brick; Chimney Top sunset | **Basically as planned** | none |
+| 2 Wed | 5:45 wake, dark walk out Auxier Ridge for sunrise, out-and-back; lecture 11–3; Rock Bridge + Creation Falls; chili at camp | **Stayed at camp until the lecture ended.** Then **Double Arch + Courthouse Rock / Auxier Ridge** in the afternoon. That was all | Dawn walk skipped; Rock Bridge skipped; Double Arch, which the plan called "permanently impossible", happened after class |
+| 3 Thu | *pending* | | |
+| 4 Fri | *pending* | | |
+| 5 Sat | Honey Creek loop, 6 h budget | Full loop, ~3.5 h | 2.5 h faster |
+| 6 Sun | *pending* | | |
+
+**Emerging pattern (hypothesis, one data point):** a pre-dawn start squeezed in *before* a fixed commitment didn't happen. The same objective moved to the afternoon *after* the commitment did. Two more trips of evidence before it becomes a planning rule. Watch for it on the October lecture Wednesday.
 
 ## Retro (in progress, started 2026-09-27)
 
