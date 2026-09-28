@@ -2,7 +2,7 @@
 
 This repo *is* the assistant's memory. Colin asks questions and makes changes from the Claude app; a website renders the same files for glancing at in the field. There's no database and no hidden state: if it isn't in a file here, it isn't known.
 
-**Status: Phase 1 prototype** (plan: see "Where this is going" below). Only `kentucky-2026` and `me/` have been migrated. The other five trips and the 33 wishlist entries still live in the old repo, `FriendOfMankind/Trees`, which is the live copy until cutover.
+**Status: Phase 1 prototype, partly into Phase 2** (plan: see "Where this is going" below). Migrated so far: `me/`, `trips/kentucky-2026/` (done, retro written), `trips/appalachians-2026/` (Oct 15–25, the next trip), plus the new `kitchen/staples.md` food menu. The other four trips and the 33 wishlist entries still live in the old repo, `FriendOfMankind/Trees`, which is the live copy of *plans* until cutover. `INDEX.md` is the authoritative list of what's here; if this paragraph and INDEX disagree, trust INDEX.
 
 ## Start every question here
 
@@ -11,6 +11,7 @@ This repo *is* the assistant's memory. Colin asks questions and makes changes fr
    - Preferences, constraints, gear, calendar: `me/*.md` (one topic per file)
    - A trip's plan: `trips/<slug>/trip.md`
    - Where a place is: `trips/<slug>/places.yaml`
+   - What to eat, with macros: `kitchen/staples.md`
    - **What actually happened / past experience: `trips/<slug>/log.md`**
 3. **Cite the file** you got an answer from. On a phone that's how Colin knows whether you read it or remembered it.
 4. **Say which kind of fact it is:** verified (has a source), recalled (from Colin's memory), planned (a decision, not an observation) or unknown. "Not recorded" is a correct and useful answer. A confident guess is not.

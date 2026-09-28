@@ -61,9 +61,9 @@ The paragraph above was written before any of this was confirmed. Current state:
 
 - **Roasted nuts: fine. Confirmed.** Every nut in a recipe is a buying instruction (buy roasted), not a restriction. *(confirmed Sept 2026, source: Trees CLAUDE.md)*
 - **Raw fruit: open.** Recipes that carry it are flagged `review: oas` in the kitchen and stay flagged until this is answered.
-- **Dried fruit: open.** Same flag. Kentucky's Day 4 lunch carried figs and Day 5 carried dried mango, so **the Kentucky retro can answer this.**
+- **Dried fruit: open.** Same flag. Kentucky's plan carried figs (Day 4) and dried mango (Day 5), but **he didn't eat either**, so the retro couldn't answer it *(confirmed: kentucky-2026 log, 2026-09-27)*. October is planned without dried fruit, and the September crate's apricots and mango wait. Answering it needs a deliberate test: a small amount at home, not on a trail.
 - **Cooked fruit: open, and possibly moot.** See the patterns section. Both cooked-fruit dishes on the Menu Bench were rejected.
-- **Raw vegetables:** the profile says they "can irritate". No specific trigger is recorded. Kentucky carried raw salsa and pepperoncini, so the retro can ask about those.
+- **Raw vegetables:** the profile says they "can irritate". No specific trigger is recorded. Kentucky's plan carried raw salsa and pepperoncini, but he didn't eat those either *(confirmed: kentucky-2026 log)*, so this is still open.
 
 The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This file is the person, not the menu.
 
