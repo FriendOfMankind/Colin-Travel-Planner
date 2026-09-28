@@ -53,7 +53,7 @@ dislikes:
 
 # Food
 
-Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround, but which specific foods trigger it is not yet recorded. Restaurants are for high value, not convenience — a reputable place with a big menu is worth choosing from, a mediocre one is worth skipping entirely. Wants authentic local food and fresh dessert, bought rather than made. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,000 kcal/day** on a hiking trip, confirmed. **No coffee, no beer.**
+Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround, but which specific foods trigger it is not yet recorded. Restaurants are for high value, not convenience — a reputable place with a big menu is worth choosing from, a mediocre one is worth skipping entirely. Wants authentic local food and fresh dessert, bought rather than made. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,300 kcal/day** on a hiking trip (was ~3,000; raised 2026-09-28, see the macro table below). **No coffee, no beer.**
 
 ## Oral allergy syndrome: what's actually known
 
@@ -88,17 +88,18 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
 
 **The formula he actually wants** *(stated 2026-09-27)*: a meal that's **mostly shelf-stable, lives in the car trunk for the whole trip, ideally bought in bulk**, plus one or two fresh or canned add-ons (a fresh protein, a vegetable, a can of something). **About 2 options per meal slot** is enough variety. The add-on is what keeps a repeated base interesting.
 
-**Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,000 kcal. *(stated 2026-09-27)*
+**Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,300 kcal (was ~3,000, raised 2026-09-28). *(stated 2026-09-27)*
 
 **Working macro targets** (body weight ~185 lb / ~84 kg, *stated 2026-09-27*). These come from standard sports-nutrition ranges, not from a dietitian, so treat them as a starting point:
 
 | | Per day | Basis |
 |---|---|---|
-| Protein | **~130–150 g** | ~1.6–1.8 g/kg, the recovery range for endurance days |
-| Carbs | **~400–450 g** | ~5 g/kg, the low end of the range for long active days |
-| Fat | **~70–85 g** | whatever's left of ~3,000 kcal |
+| **Calories** | **~3,300** (was 3,000) | raised 2026-09-28: the staples menu lands at 3,150–3,500, and 3,000 was likely low for 185 lb on long days *(stated 2026-09-28)* |
+| Protein | **~130–150 g** | ~1.6–1.8 g/kg, the recovery range for endurance days. Going over is harmless |
+| Carbs | **~400–475 g** | ~5–5.5 g/kg, the fuel for long active days |
+| Fat | **~70–95 g** | whatever's left of ~3,300 kcal |
 
-A day of long miles at 185 lb likely burns more than 3,000 kcal. If he comes home lighter or runs out of steam on day 3+, the kcal target is the first thing to raise. *(hypothesis, not yet observed)*
+A day of long miles at 185 lb likely burns more than 3,000 kcal. If he comes home lighter or runs out of steam on day 3+, raise the kcal target again. *(hypothesis, not yet observed)*
 
 **Resolved 2026-09-27:** ramen was on the rejected list, yet he ate cup ramen twice on the trip. Both are true: the Menu Bench "no" votes were for loaded/upgraded ramen as a *meal*, and plain cup ramen is a quick trailhead fuel he likes. The rejected entry was narrowed to match.
 

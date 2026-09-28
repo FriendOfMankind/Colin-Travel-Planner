@@ -50,7 +50,7 @@ Written at migration, three days after Kentucky ended and 17 days before this tr
 ## 2026-09-28 · Decisions
 
 - **Oct 15:** a first-come NRG primitive site is settled. *(confirmed 2026-09-28)*
-- **Food:** **staples + 1–2 real cooks.** Build around `kitchen/staples.md` (oatmeal, Brami + sauce + meat, couscous + black beans, mac & cheese) and keep one or two special meals. *Which ones is still open.* The Oct 21 rest-day dinner at Davidson River (water, table, no pressure) is the obvious candidate. The recipe timeline and the three Menu Bench conflicts go once this is written into the plan. *(stated 2026-09-28)*
+- **Food:** **staples + 1–2 real cooks.** Build around `kitchen/staples.md` (oatmeal, Brami + sauce + meat, couscous + black beans, mac & cheese) and keep one or two special meals. **The one real cook: pierogi + kielbasa on Oct 21** *(chosen 2026-09-28)*, bought frozen on that afternoon's Brevard run, replacing the shrimp orzo. Written into the plan in Trees and re-imported. The recipe timeline and the three Menu Bench conflicts go once this is written into the plan. *(stated 2026-09-28)*
 - **Liner:** ordered/owned. *(stated 2026-09-28)*
 
 ## 2026-09-28 · Ruins check: explorable or polished?

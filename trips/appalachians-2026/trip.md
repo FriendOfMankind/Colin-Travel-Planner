@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@a55e491 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@0ccddf1 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Bridge Day + Southern Appalachians
 
@@ -354,7 +354,7 @@ overnight:
 **Meals**
 - B: **O-B4** made — hot oats+ with an extra 20g pecans (~1,050 kcal)
 - L: **O-L5** packed — salmon or chicken pouch, 2 tortillas, hot sauce, string cheese, Fritos, dried mango (~850 kcal)
-- D: bought — The Falls Landing, mountain trout. **Resupply today: block ice, shrimp for Wednesday, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.**
+- D: bought — The Falls Landing, mountain trout. **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
 
 #### Highlights
 
@@ -386,7 +386,7 @@ overnight:
 - 7:30 → 10:15 (2h 45m) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
 - 10:15 → 11:00 (45m) · stop · Set up the laptop, **verify Starlink**.
 - 11:00 → 3:00 (4h) · lecture! · **REMOTE LECTURE.** Class runs 11:10–2:30; the padding is setup and overrun.
-- 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel.
+- 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
 - 5:00 → 5:30 (30m) · stop! · ⭐ **Download offline maps — Linville + Mount Rogers.** Last reliable signal on the trip.
 - 5:30 → 6:30 (60m) · stop! · ⭐ **Repack for two nights with no water and no service.** Charge everything. Starlink packed and accessible.
 - 6:30 → (—) · food · Dinner at camp. **In bed early — tomorrow starts at 5:45.** Sunset 6:49.
@@ -394,7 +394,7 @@ overnight:
 **Meals**
 - B: **O-B5** made — sausage and pepper hash with eggs on top: 150g smoked sausage, 300g potatoes, pepper, onion, 2 eggs, cheddar, sourdough. ~30 min, cleanup HIGH and that is fine — **last morning with a sink and a table** (~1,100 kcal). Deliberately drains Zone 2.
 - L: **O-L6** made — quesadillas from whatever remains: leftover chicken, cheese, peppers, tortillas, salsa. **This slot exists to empty the cooler. Cook what is left, do not be precious** (~800 kcal)
-- D: **O-D3** ⭐ made — garlic butter shrimp with orzo, blistered green beans, lemon, parsley, parmesan. ~25 min. **Shrimp 2 min a side, do not walk away — it is the one thing here you can ruin.** Last high-cleanup meal of the trip (~1,000 kcal)
+- D: ⭐ made — **pierogi + kielbasa**, the trip's one real cook (chosen Sept 28). Frozen potato-and-cheese pierogi and a small pack of kielbasa, both bought on this afternoon's Brevard run. Boil the pierogi ~4 min with frozen green beans until they float, drain, then brown them in the pot with butter and the sliced kielbasa. One pot, no measuring (~850 kcal). Replaces the shrimp orzo: Kentucky showed the elaborate cooks don't happen.
 
 #### Highlights
 
@@ -634,7 +634,7 @@ The structural problem of this trip in three rows. **The breakfast burrito is th
 | Days | Where | State |
 | --- | --- | --- |
 | 1–3 · Oct 15–17 | Arrowhead, WV | **Fayetteville eats five slots**, so the cooler is only carrying Zone 1 mass that stays frozen for later. **Block ice Oct 16.** Barely open it. |
-| 4–7 · Oct 18–21 | Davidson River, NC | Both Zone 1 dinners consumed (O-D1 Sunday, O-D2 Monday). **Block ice Brevard Oct 20 — the last cold of the trip.** It carries the shrimp to Wednesday. |
+| 4–7 · Oct 18–21 | Davidson River, NC | Both Zone 1 dinners consumed (O-D1 Sunday, O-D2 Monday). **Block ice Brevard Oct 20 — the last cold of the trip.** Wednesday's pierogi are bought frozen in Brevard that same afternoon, so they never need to survive the cooler. |
 | 8–11 · Oct 22–25 | Linville → Hurricane → home | **Cooler is empty. Wipe it out the morning of Oct 22 and it becomes the dry box and the water carrier.** Everything from O-B6 onward is shelf-stable. |
 
 ### Critical slots
@@ -694,7 +694,7 @@ Four slots decide whether you actually eat on the hard leg, and all four collaps
 *The only real resupply of the trip and the last cold you get.*
 
 - **1 block of ice** — the last cold of the trip
-- 250g frozen raw shrimp (O-D3) · 150g smoked sausage or andouille (O-B5)
+- 150g smoked sausage or andouille (O-B5)
 - **1× 12oz vacuum-packed kielbasa — keep it sealed until Oct 24. This is the last dinner. Protect it.**
 - Eggs (half dozen) · potatoes 800g, **pre-diced if available** · bell peppers ×2 · onions ×2 · garlic ×2 · lemons ×3 · parsley
 - Frozen green beans

@@ -2,10 +2,10 @@
 topic: staples
 summary: "The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners."
 targets:
-  kcal: 3000
+  kcal: 3300
   protein_g: [130, 150]
-  carbs_g: [400, 450]
-  fat_g: [70, 85]
+  carbs_g: [400, 475]
+  fat_g: [70, 95]
 ---
 
 # Staples
@@ -191,16 +191,16 @@ Quantities are in *servings* of each food above.
 | ≈ S · Trail snacks (a handful of trail mix, a bar, 2 oz pretzels) | 660 | 21 | 108 | 19 |
 | OLD-B · For comparison: 3 Quaker maple packets | 480 | 12 | 99 | 6 |
 
-**Per day**, against the targets in `me/food.md` (3000 kcal · 130–150 g protein · 400–450 g carbs · 70–85 g fat)
+**Per day**, against the targets in `me/food.md` (3300 kcal · 130–150 g protein · 400–475 g carbs · 70–95 g fat)
 
 | Day | kcal | Protein g | Carbs g | Fat g | vs target |
 |---|---|---|---|---|---|
-| Day A: B1 · L2 · D1 · snacks | 3512 | 199 | 475 | 98 | protein +49, carbs +25, fat +13 |
-| Day B: B2 · L1 · D2 · snacks | 3357 | 172 | 416 | 115 | protein +22, fat +30 |
-| Day C: B1 · L1 · D2 · snacks | 3513 | 186 | 450 | 114 | protein +36, fat +29 |
-| Day D: B1 · L2 · D7 · snacks | 3185 | 170 | 433 | 87 | protein +20, fat +2 |
-| Day E: B2 · L1 · D6 · snacks | 3154 | 162 | 403 | 101 | protein +12, fat +16 |
-| Day F: B1 · L1 · D4 · snacks | 3152 | 160 | 434 | 89 | protein +10, fat +4 |
+| Day A: B1 · L2 · D1 · snacks | 3512 | 199 | 475 | 98 | protein +49, fat +3 |
+| Day B: B2 · L1 · D2 · snacks | 3357 | 172 | 416 | 115 | protein +22, fat +20 |
+| Day C: B1 · L1 · D2 · snacks | 3513 | 186 | 450 | 114 | protein +36, fat +19 |
+| Day D: B1 · L2 · D7 · snacks | 3185 | 170 | 433 | 87 | protein +20 |
+| Day E: B2 · L1 · D6 · snacks | 3154 | 162 | 403 | 101 | protein +12, fat +6 |
+| Day F: B1 · L1 · D4 · snacks | 3152 | 160 | 434 | 89 | protein +10 |
 
 <!-- /GENERATED -->
 
