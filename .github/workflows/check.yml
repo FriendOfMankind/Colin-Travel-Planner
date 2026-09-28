@@ -12,3 +12,4 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: node tools/index.mjs --check
+      - run: node tools/macros.mjs --check

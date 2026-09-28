@@ -56,6 +56,7 @@ After any trip, run a retro the same way: plan vs. what actually happened, day b
 npm install                                   # once; build-time only (yaml)
 npm test                                      # format round-trip tests
 node tools/index.mjs                          # regenerate INDEX.md; --check in CI
+node tools/macros.mjs                         # recompute kitchen/staples.md totals; --check in CI
 TREES=../Trees node tools/import-trees.mjs kentucky-2026   # re-import a trip
 node tools/import-trees.mjs --me              # me/*.md; refuses to overwrite without --force
 ```

@@ -19,7 +19,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Food and the camp kitchen: `kitchen/`
 
-- `kitchen/staples.md`: Trunk-staple foods with nutrition read off real labels, and the daily menu built from them against the macro targets in me/food.md.
+- `kitchen/staples.md`: The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two options per meal slot.
 
 ## Planned trips
 
