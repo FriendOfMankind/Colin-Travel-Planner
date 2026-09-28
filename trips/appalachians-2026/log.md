@@ -52,3 +52,15 @@ Written at migration, three days after Kentucky ended and 17 days before this tr
 - **Oct 15:** a first-come NRG primitive site is settled. *(confirmed 2026-09-28)*
 - **Food:** **staples + 1–2 real cooks.** Build around `kitchen/staples.md` (oatmeal, Brami + sauce + meat, couscous + black beans, mac & cheese) and keep one or two special meals. *Which ones is still open.* The Oct 21 rest-day dinner at Davidson River (water, table, no pressure) is the obvious candidate. The recipe timeline and the three Menu Bench conflicts go once this is written into the plan. *(stated 2026-09-28)*
 - **Liner:** ordered/owned. *(stated 2026-09-28)*
+
+## 2026-09-28 · Ruins check: explorable or polished?
+
+Asked for after Blue Heron disappointed (too polished, not much to explore). **Source quality: search-result snippets only.** nps.gov is blocked from this environment, so these come from trip reports, Tripadvisor/AllTrails reviews, blogs and Facebook hiking groups, quoted as they appeared in search results. Good enough to rank the three; not good enough to promise opening details.
+
+| Site | Plan | Verdict | Evidence |
+|---|---|---|---|
+| **Kaymoor** (Kaymoor Miners Trail) | Only a *fallback* (Day 2, if Keeneys Creek Road is too rough) | **Most likely your thing.** Steep 0.5 mi descent plus "800+ steps" to the mine site; reviewers describe "the abandoned mine and buildings" as "super cool." It's the hard-to-reach, raw-feeling option, the closest match to Blevins farm. One report says the riverside town site isn't reachable from this trail; another says it's ~3 mi to walk down to the town ruins. **Unresolved.** | AllTrails 4.6★ (2,903 reviews), Tripadvisor, greatamericanhikes.com, Facebook |
+| **Nuttallburg** | Day 2, 2.5 h ⭐ | **Probably good, and better with the climb.** You can walk through the tipple structure, and there's "a quarter mile or more of coke oven ruins." A trail climbs from the tipple to **the mine entrance at the top**: "very challenging but worth it." Grounds are maintained (no graffiti), so it's somewhere between Blue Heron and a true ruin. The climb is what makes it more than a walk-by. | Tripadvisor 3.9★, annestravels.net, traveltheparks.com, Facebook |
+| **Thurmond** | Day 4, 1 h 15 m | **Blue Heron risk.** About 30 structures, most still standing, but "you can't go into any of them" (nuttyhiker.com; that may have changed). The depot is a restored NPS visitor center. It's a walk along a street of façades by the tracks: interesting history, but you look from outside. | thurmondwv.org, nuttyhiker.com, Reddit r/AbandonedPorn, Facebook |
+
+**Suggestion (not applied):** keep Nuttallburg and add the tipple-to-mine-entrance climb; cut Thurmond to a 20–30 min drive-through on the way south; and consider promoting Kaymoor from fallback to planned. All three are plan changes, so they go in Trees after Colin's call.
