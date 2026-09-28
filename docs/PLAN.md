@@ -32,7 +32,7 @@ INDEX.md                   GENERATED. One line per file: path · status · dates
                            The AI reads this first, then opens only what it needs.
 me/                        who Colin is. One topic per file, each short (<3k tokens)
   profile.md               home base, vehicle, ceilings, trip shape
-  food.md                  OAS (what's confirmed vs open), spice 1–2/5, no coffee/beer, restaurant rule
+  food.md                  OAS (what's confirmed vs open), spice ceiling, no coffee/beer, restaurant rule
   hiking.md                distance/gain ceiling, difficulty appetite, crowds
   camping.md               PRINCIPLES (car camping only, access roads, dawn starts…)
   declined.md              DECLINED + AVOID; `terms` stay in frontmatter so the validator can grep them

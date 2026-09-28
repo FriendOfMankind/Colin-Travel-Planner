@@ -51,7 +51,7 @@ Written at migration, three days after Kentucky ended and 17 days before this tr
 
 - **Oct 15:** a first-come NRG primitive site is settled. *(confirmed 2026-09-28)*
 - **Food:** **staples + 1–2 real cooks.** Build around `kitchen/staples.md` (oatmeal, Brami + sauce + meat, couscous + black beans, mac & cheese) and keep one or two special meals. **The one real cook: pierogi + kielbasa on Oct 21** *(chosen 2026-09-28)*, bought frozen on that afternoon's Brevard run, replacing the shrimp orzo. Written into the plan in Trees and re-imported. The recipe timeline and the three Menu Bench conflicts go once this is written into the plan. *(stated 2026-09-28)*
-- **Liner:** ordered/owned. *(stated 2026-09-28)*
+- **Liner:** ordered/owned. *(stated 2026-09-28)* **Update, later 2026-09-28: bought** *(stated 2026-09-28)*, and `me/gear.md` says so. ⚠️ **Stale in the plan:** `trip.md` still says the liner is "recommended, not confirmed purchased" (Weather section, Packing → Sleep, and the Reservations & checks box). That text is imported from Trees, so the fix goes there and gets re-imported; don't hand-edit `trip.md`.
 
 ## 2026-09-28 · Ruins check: explorable or polished?
 

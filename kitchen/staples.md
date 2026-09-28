@@ -16,7 +16,7 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 - **No measuring water.** Every meal here is forgiving: pasta gets drained; couscous, oats and potato flakes get stirred until they look right, with a splash more water if they're too thick or a longer simmer if they're too thin.
 - **Buy in bulk, keep in the car.** Fresh add-ons are optional upgrades, never load-bearing.
 
-**Where the numbers come from.** Brami and the Quaker packet are from label photos (`basis: label`). Everything else is an **estimate** from typical US nutrition labels for that kind of product (`basis: estimate`): expect ±15% by brand. Totals are computed by `node tools/macros.mjs`, never added by hand. **Constraints respected:** OAS (fruit and veg are all cooked here; roasted nuts are fine), spice ≤ 2/5 (mild taco seasoning only), and nothing from the rejected list. The ramen bomb stays plain, because loaded ramen was voted down, so its protein sits on the side.
+**Where the numbers come from.** Brami and the Quaker packet are from label photos (`basis: label`). Everything else is an **estimate** from typical US nutrition labels for that kind of product (`basis: estimate`): expect ±15% by brand. Totals are computed by `node tools/macros.mjs`, never added by hand. **Constraints respected:** OAS (fruit and veg are all cooked here; roasted nuts are fine), spice within the 2–3/5 ceiling (was ≤ 2 until 2026-09-28; every recipe here is still mild), and nothing from the rejected list. The ramen bomb stays plain, because loaded ramen was voted down, so its protein sits on the side.
 
 ## What changed from what you ate in Kentucky
 

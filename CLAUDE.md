@@ -48,7 +48,7 @@ After any trip, run a retro the same way: plan vs. what actually happened, day b
 3. **Warnings are for what can hurt someone or kill the day**, not general advice.
 4. **An honest `outline` beats a fake `planned`.** Say what you don't know.
 5. **Never hand-type a sunrise, sunset or booking-window date.** They're computed.
-6. **Colin has oral allergy syndrome.** Roasted nuts are confirmed fine; raw and dried fruit are still open. Spice ceiling 1–2 of 5. No coffee, no beer. Current details are in `me/food.md`.
+6. **Colin has oral allergy syndrome.** Roasted nuts are confirmed fine; raw and dried fruit are still open. Spice ceiling 2–3 of 5 (was 1–2 until 2026-09-28). No coffee, no beer. Current details are in `me/food.md`.
 7. The working style Colin wants from you is in `me/working-rules.md`. Read it.
 
 ## Commands

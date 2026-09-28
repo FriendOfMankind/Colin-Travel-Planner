@@ -10,6 +10,7 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 - **Home base:** Avon, Ohio — west Cleveland metro. Drive times are measured from there; flights from CLE.
 - **Group:** Solo. One person, one tent, one portion.
 - **Trip shape:** 2–5 campgrounds per trip, 5–10 nights, 4–8 hikes. Occasional motel night for a shower.
+- **Favourite national park:** Big Bend. *(stated 2026-09-28)* Why it's the favourite, and when he went, is not recorded.
 
 ## Vehicle
 
