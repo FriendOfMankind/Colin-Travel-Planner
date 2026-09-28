@@ -66,6 +66,7 @@ page:
   theme: forest
   vehicle: 2013 Subaru Legacy. AWD, ~5.9 in ground clearance, low front air dam. The five unpaved miles to Twin Arches off Divide Road are the one road on this trip that needs a condition check first.
   gettingThere: I-71 S → Cincinnati → I-75 S → Mountain Pkwy → Exit 33 Slade. 5h 35m outbound (Google +15%), ~7h back from Stearns.
+  footerNote: Transcribed from the Sept 2026 master file. Hike stats show both the plan's figure and AllTrails where they disagree — neither is automatically right. [← All trips](../../index.html)
   stats:
     - num: 6 days
       lbl: Length

@@ -1,0 +1,269 @@
+# Bridge Day + Southern Appalachians — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: New River Gorge
+    places:
+      - name: Arrowhead Bike Farm
+        note: Nights 1–3. Long Point TH is on site.
+        maps: Arrowhead Bike Farm Fayetteville WV
+        verified: true
+        lat: 38.0403
+        lng: -81.0805
+        icon: ⛺
+        days: 1–3
+        wpNote: From the source file. Long Point trailhead on site.
+      - name: Canyon Rim Visitor Center
+        note: Ask about Keeneys Creek Rd
+        maps: Canyon Rim Visitor Center Lansing WV
+        verified: true
+        lat: 38.070905
+        lng: -81.075728
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🌉
+        days: "1"
+      - name: Fayette Station Road
+        note: 8-mi one-way loop to the gorge floor
+        maps: Fayette Station Road Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Nuttall lot — Endless Wall
+        note: NOT Fern Creek
+        maps: Nuttall Trailhead Endless Wall New River Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Long Point Trailhead
+        note: Head-on bridge view
+        maps: Long Point Trailhead Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Nuttallburg
+        note: 80 coke ovens. Via Keeneys Creek Rd.
+        maps: Nuttallburg Winona WV
+        verified: true
+        lat: 38.050062
+        lng: -81.040005
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🏚️
+        days: "2"
+        wpNote: Via Keeneys Creek Rd — clearance question
+      - name: Kaymoor Top
+        note: The Nuttallburg fallback, 5 min from camp
+        maps: Kaymoor Top New River Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Thurmond Depot
+        note: Population 5
+        maps: Thurmond Depot Thurmond WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Fayetteville HS shuttle lot
+        note: Bridge Day shuttle, $3 cash
+        maps: Fayetteville High School Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Fayette County Courthouse
+        note: Chili cook-off, 3 PM Saturday
+        maps: Fayette County Courthouse Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Secret Sandwich Society
+        note: ⭐ Brussels sprouts, then the McKinley
+        maps: Secret Sandwich Society Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Pies & Pints
+        note: ⭐ Black bean pizza with pork
+        maps: Pies and Pints Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Cathedral Café
+        note: ⭐ The carrot cake. That's the whole reason to go.
+        maps: Cathedral Cafe Fayetteville WV
+        verified: false
+        lat: null
+        lng: null
+      - name: Tudor's Biscuit World, Oak Hill
+        note: Bridge Day breakfast, 6 AM
+        maps: Tudors Biscuit World Oak Hill WV
+        verified: false
+        lat: null
+        lng: null
+  - group: Pisgah
+    places:
+      - name: Davidson River Campground
+        note: Nights 4–7. Test Starlink on arrival.
+        maps: Davidson River Campground Pisgah Forest NC
+        verified: true
+        lat: 35.281165
+        lng: -82.722225
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 4–7
+      - name: Looking Glass Falls
+        note: Roadside
+        maps: Looking Glass Falls Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Moore Cove Falls TH
+        note: Walk behind the water
+        maps: Moore Cove Falls Trailhead Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Sliding Rock
+        note: Looking, not sliding
+        maps: Sliding Rock Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Black Balsam Knob TH
+        note: BRP MP 420. Decide the route first.
+        maps: Black Balsam Knob Trailhead Canton NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Graveyard Fields
+        note: MP 418.8
+        maps: Graveyard Fields Blue Ridge Parkway
+        verified: false
+        lat: null
+        lng: null
+      - name: Devil's Courthouse
+        note: MP 422
+        maps: Devils Courthouse Blue Ridge Parkway
+        verified: false
+        lat: null
+        lng: null
+      - name: Looking Glass Rock Overlook
+        note: MP 417 — Skinny Dip Falls
+        maps: Looking Glass Rock Overlook Blue Ridge Parkway
+        verified: false
+        lat: null
+        lng: null
+      - name: Looking Glass Rock TH
+        note: ✅ 6.0 mi / 1,699 ft confirmed
+        maps: Looking Glass Rock Trailhead Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Daniel Ridge TH
+        note: Turn LEFT at the junction
+        maps: Daniel Ridge Loop Trailhead Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: The Falls Landing
+        note: ⭐ Mountain trout. Reserve ahead.
+        maps: The Falls Landing Brevard NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Dolly's Dairy Bar
+        note: 100+ flavors
+        maps: Dollys Dairy Bar Pisgah Forest NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Bracken Mountain Bakery
+        note: Trail food for the Linville resupply
+        maps: Bracken Mountain Bakery Brevard NC
+        verified: false
+        lat: null
+        lng: null
+  - group: Linville Gorge
+    places:
+      - name: Gingercake Rd turnoff
+        note: ⚠️ The SECOND intersection. Map search is unreliable here.
+        maps: Gingercake Road Jonas Ridge NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Hawksbill Mountain Trailhead
+        note: Boulder-marked lot. Trail on the RIGHT.
+        maps: Hawksbill Mountain Trailhead Linville Gorge
+        verified: false
+        lat: null
+        lng: null
+      - name: Spence Ridge parking
+        note: Verified coordinate from the source file. 200-ft walk east into the forest.
+        maps: 35.904183, -81.878217
+        verified: false
+        lat: null
+        lng: null
+      - name: Table Rock picnic area
+        note: End of FS 210, roughest stretch
+        maps: Table Rock Picnic Area Linville Gorge NC
+        verified: true
+        lat: 35.896515
+        lng: -81.869363
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🪨
+        days: 8–9
+        wpNote: End of FS 210
+      - name: Linville Falls Visitor Center
+        note: ⚠️ Helene damage — verify access
+        maps: Linville Falls Visitor Center Linville Falls NC
+        verified: false
+        lat: null
+        lng: null
+      - name: Mortimer Campground
+        note: The bail-out, ~10 mi
+        maps: Mortimer Campground Pisgah National Forest
+        verified: false
+        lat: null
+        lng: null
+  - group: Mount Rogers
+    places:
+      - name: Massie Gap
+        note: Entrance fee. Take Wilburn Ridge, not the AT.
+        maps: Massie Gap Grayson Highlands State Park
+        verified: true
+        lat: 36.634289
+        lng: -81.510294
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🐴
+        days: "10"
+      - name: Hurricane Campground
+        note: ⚠️ Follow written directions, NOT GPS. Marion exit 45 → VA-16 S → SR 650.
+        maps: Hurricane Campground Mount Rogers National Recreation Area
+        verified: true
+        lat: 36.723242
+        lng: -81.490372
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: "10"
+        wpNote: Follow written directions, not GPS
+      - name: Damascus VA
+        note: ~35 min, the only real town on this leg
+        maps: Damascus Virginia
+        verified: false
+        lat: null
+        lng: null
+  - group: Waypoints with no field entry
+    places:
+      - name: Spence Ridge parking, FS 210
+        verified: true
+        lat: 35.904183
+        lng: -81.878217
+        icon: ⛺
+        days: 8–9
+        wpNote: From the source file. A 200-ft walk east into the forest — right at the Forest Order threshold.
+      - name: Hawksbill Trailhead
+        verified: true
+        lat: 35.914433
+        lng: -81.878363
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🌄
+        days: 8–9
+        wpNote: Boulder-marked lot

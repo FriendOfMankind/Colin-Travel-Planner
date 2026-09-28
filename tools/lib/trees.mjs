@@ -62,7 +62,10 @@ export function convertTrip(slug) {
   const data = tripData(slug);
 
   delete reg.page; // derivable: trips/<slug>/
-  const { slug: _s, stats, overviewCards, route, footerNote, ...meta } = data.meta;
+  const { slug: _s, stats, overviewCards, route, ...meta } = data.meta;
+  // Trees mixed "1" and 1 for night numbers; a Markdown table can't tell
+  // them apart, so numeric strings become numbers on the way in.
+  for (const r of data.lodging?.rows ?? []) if (/^\d+$/.test(r.night)) r.night = Number(r.night);
   const page = {
     meta: { ...convert(meta, true), stats: convert(stats, true), route: htmlToMd(route), overviewCards: convert(overviewCards) },
     days: data.days?.map((d) => {
@@ -102,7 +105,6 @@ export function convertTrip(slug) {
     places: mergePlaces(data.places ?? [], data.waypoints ?? []),
     sun: data.sunMoon ? { note: htmlToMd(data.sunMoonNote), rows: convert(data.sunMoon, true) } : null,
     history,
-    footerNote: footerNote && htmlToMd(footerNote),
   };
 }
 

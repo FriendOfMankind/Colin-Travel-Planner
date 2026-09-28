@@ -15,7 +15,7 @@ import { htmlToMd, htmlToMdInline } from "../lib/md.mjs";
 
 const { TREES } = await import("../lib/trees.mjs").catch(() => ({ TREES: null }));
 const haveTrees = TREES && existsSync(join(TREES, "data/trips.js"));
-const SLUGS = ["kentucky-2026"];
+const SLUGS = ["kentucky-2026", "appalachians-2026"];
 const plain = (v) => JSON.parse(JSON.stringify(v));
 
 test("html → markdown covers the tags Trees used", () => {

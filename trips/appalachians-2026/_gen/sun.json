@@ -1,0 +1,105 @@
+{
+  "generatedBy": "Trees tools/sun.mjs",
+  "note": "Recomputed with the NOAA solar position algorithm for each day's coordinates. The source file ran roughly 3–4 minutes optimistic on every entry — always in the direction of *more* daylight than exists. Individually trivial; on Day 1 and Day 9 it's the difference between finishing in twilight and finishing with a headlamp. Sea-level times with standard refraction: a ridge or gorge wall takes light earlier. Moon phase not yet worked out.",
+  "rows": [
+    {
+      "date": "Thu 10/15",
+      "location": "Arrowhead / Long Point WV",
+      "firstLight": "7:06",
+      "sunrise": "7:33",
+      "sunset": "6:48 PM",
+      "dark": "~7:17 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Fri 10/16",
+      "location": "Endless Wall / Nuttallburg",
+      "firstLight": "7:07",
+      "sunrise": "7:33",
+      "sunset": "6:46 PM",
+      "dark": "~7:15 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Sat 10/17",
+      "location": "Bridge Day, Fayetteville",
+      "firstLight": "7:08",
+      "sunrise": "7:35",
+      "sunset": "6:45 PM",
+      "dark": "~7:14 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Sun 10/18",
+      "location": "Thurmond → Brevard",
+      "firstLight": "7:13",
+      "sunrise": "7:39",
+      "sunset": "6:53 PM",
+      "dark": "~7:21 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Mon 10/19",
+      "location": "Black Balsam, 6,000 ft",
+      "firstLight": "7:15",
+      "sunrise": "7:41",
+      "sunset": "6:52 PM",
+      "dark": "~7:20 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Tue 10/20",
+      "location": "Looking Glass Rock",
+      "firstLight": "7:15",
+      "sunrise": "7:41",
+      "sunset": "6:51 PM",
+      "dark": "~7:19 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Wed 10/21",
+      "location": "Davidson River",
+      "firstLight": "7:16",
+      "sunrise": "7:42",
+      "sunset": "6:49 PM",
+      "dark": "~7:17 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Thu 10/22",
+      "location": "Linville / The Chimneys",
+      "firstLight": "7:14",
+      "sunrise": "7:40",
+      "sunset": "6:44 PM",
+      "dark": "~7:12 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Fri 10/23",
+      "location": "Hawksbill summit, 4,009 ft",
+      "firstLight": "7:15",
+      "sunrise": "7:41",
+      "sunset": "6:43 PM",
+      "dark": "~7:11 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Sat 10/24",
+      "location": "Massie Gap / Mount Rogers",
+      "firstLight": "7:15",
+      "sunrise": "7:41",
+      "sunset": "6:39 PM",
+      "dark": "~7:07 PM",
+      "moon": "—"
+    },
+    {
+      "date": "Sun 10/25",
+      "location": "Hurricane Campground VA",
+      "firstLight": "7:16",
+      "sunrise": "7:42",
+      "sunset": "6:37 PM",
+      "dark": "~7:05 PM",
+      "moon": "—"
+    }
+  ]
+}
