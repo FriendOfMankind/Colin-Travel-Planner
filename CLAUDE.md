@@ -2,7 +2,7 @@
 
 This repo *is* the assistant's memory. Colin asks questions and makes changes from the Claude app; a website renders the same files for glancing at in the field. There's no database and no hidden state: if it isn't in a file here, it isn't known.
 
-**Status: Phase 1 prototype, partly into Phase 2** (plan: see "Where this is going" below). Migrated so far: `me/`, `trips/kentucky-2026/` (done, retro written), `trips/appalachians-2026/` (Oct 15–25, the next trip), plus the new `kitchen/staples.md` food menu. The other four trips and the 33 wishlist entries still live in the old repo, `FriendOfMankind/Trees`, which is the live copy of *plans* until cutover. `INDEX.md` is the authoritative list of what's here; if this paragraph and INDEX disagree, trust INDEX.
+**Status: Phase 1 passed; Phase 2 (migration) in progress** (plan: see "Where this is going" below). Migrated so far: `me/`, `trips/kentucky-2026/` (done, retro written), `trips/appalachians-2026/` (Oct 15–25, the next trip), plus the new `kitchen/staples.md` food menu. The other four trips and the 33 wishlist entries still live in the old repo, `FriendOfMankind/Trees`, which is the live copy of *plans* until cutover. `INDEX.md` is the authoritative list of what's here; if this paragraph and INDEX disagree, trust INDEX.
 
 ## Start every question here
 
@@ -70,4 +70,4 @@ After any change: `npm test && node tools/index.mjs`, and commit `INDEX.md` with
 
 ## Where this is going
 
-The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **This is where things are now.** (2) Migrate everything, then port the validator. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro`, `/backfill`, `/new-trip`, `/preflight`. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
+The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **Done: eval run 1 passed on 2026-09-28** (see the run log in `evals/questions.md`). (2) Migrate everything, then port the validator. **In progress:** Kentucky and Appalachians are migrated. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro`, `/backfill`, `/new-trip`, `/preflight`. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
