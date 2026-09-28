@@ -78,7 +78,7 @@ page:
       lbl: Campgrounds booked
 ---
 
-<!-- Imported from Trees@c6e693c by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@9f3ecb9 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Red River Gorge + Big South Fork
 
@@ -439,6 +439,8 @@ Climate normals, not a forecast — the 10-day forecast reaches Sept 22 around S
 
 Five nights, one 48qt cooler, one resupply on Thursday. Solo, one burner, one pot, one pan. No coffee, no alcohol. Every quantity is one serving.
 
+**Four stops, in this order** — the groups below are sorted by which one they belong to, because *when* a thing gets bought is the only question that matters once the list exists. **1. Meijer, Sept 13** — everything shelf-stable, at Bridge Day quantities, one trip for both 2026 trips. **2. Meijer, the day you cook** — the chili and burrito ingredients, bought the day they go in the pot, not a week early. **3. Meijer, morning of Sept 22** — Zone 2, straight from the checkout into the cooler. **4. Kroger, Stanton KY, Thursday** — block ice and the rotisserie chicken.
+
 ### Cooler
 
 **Zone 1 is your ice** — cooked meals frozen flat in quart bags, which chill everything above them and then get eaten. **Zone 2 is the zone that ruins trips** (eggs, dairy, produce, raw meat): keep it small, eat it early. Zone 3 is shelf-stable and takes no cooler space at all. ⚠️ Climate normals for these dates run 75–77°F, warmer than the 70–75°F the meal plan assumed, which shortens the window before Thursday's resupply.
@@ -461,33 +463,60 @@ Five nights, one 48qt cooler, one resupply on Thursday. Solo, one burner, one po
 ### Pre-mix into labeled bags at home
 
 - Oats ×2 — 2 packets · 25g milk powder · nuts · dried fruit · salt (K-B1 Wed, K-B5 Sun)
-- Hot chocolate — packets · 15g whole milk powder · pinch of salt. **For the dark Auxier Ridge start; the fat and sugar do more at 50°F than caffeine would.**
+- Hot chocolate — packets · 15g whole milk powder · pinch of salt. **For the dark Auxier Ridge start; the fat and sugar do more at 50°F than caffeine would.** ⚠️ **With one thermos this cannot happen on Wednesday** — the oats are already in it and the kitchen doctrine says the meal wins. Mix the bag anyway; it works any other morning, or in the mug at camp.
 
-### Buy at home
+### Stop 1 — Meijer, Sept 13, shelf-stable (buys Bridge Day too)
 
-- Sub fixings for K-L1: sourdough, Genoa salami, provolone, pepperoncini, oil, oregano
-- Eggs, spinach, bell peppers, sourdough loaf, tortillas
-- Chicken pouch (7oz) · hard salami · aged cheddar · provolone · sun-dried tomato pesto
-- Trail mix 900g · bars ×8 · jerky 200g · waffles ×6 · dried mango 250g · almonds 250g
-- Honey mustard packets · dried figs · banana chips · cocoa
-- Olive oil squeeze bottle, hard cheese, crushed chips, starch pouches — the four things that turn a can into a meal
+*Sept 13. Everything in this group keeps until Oct 25, so buy the October quantity once and split it into two crates. **Bracketed numbers are Bridge Day's own Zone 3 figures**, taken from `appalachians-2026`, not estimated here. ⚠️ **Nuts: roasted, always.** Raw is the OAS trigger and off-the-shelf trail mix is usually raw almonds and cashews — read the bag, or buy roasted nuts and dried fruit separately and mix them yourself.*
 
-### Resupply — Kroger, Stanton KY, Thursday
+- Instant oats packets — 4 here [a ~13-packet box covers October too] · whole milk powder 50g [250g]
+- Roasted pecans [200g] · roasted almonds 250g [500g] · dates · dried figs · banana chips · dried mango 250g [400g] · dried apricots [400g]
+- Trail mix 900g [1.5kg] — **check the label for raw nuts** · bars ×8 [×16] · jerky 200g [400g] · waffles ×6 [×10] · dark chocolate
+- Cocoa packets [×12] · peanut butter packets · honey packets · honey mustard packets
+- Chicken pouch 7oz ×1 (K-L2 Wednesday) [October: chicken ×3, salmon ×2]
+- Couscous · instant rice · chickpeas **pull-tab** · sun-dried tomatoes — **all four moved off the Kroger list.** Nothing shelf-stable belongs in a 45-minute resupply on a four-hour driving day.
+- Olive oil squeeze bottle · individual Fritos · tortillas · oregano · salt, pepper, garlic powder, paprika
+- Quart freezer bags · gallon bags · foil · **parchment** — Friday night's pressed wrap is parchment first, then foil
 
-*The only one this trip.*
+### Stop 2 — Meijer, the day you cook
+
+*These two meals *are* the ice, so they have to be cooked, bagged and frozen flat before Sept 22 — which puts them outside the buy-now / buy-departure-morning split. ⚠️ **Buy the meat the day you actually cook it.** Ground beef and fresh chorizo keep 1–2 days in a fridge, so bought on the Sept 13 run and cooked on the 20th they spoil; bought Saturday and cooked Sunday they are frozen flat by Monday and the problem is gone. **Quantities are deliberately absent** — they live in MEALS-trip1-kentucky.md, which is not in this repo. Cook to your own portion rather than to a number invented here.*
+
+- Ground beef, beans and chili fixings · cheddar (K-D1, Wednesday dinner)
+- Chorizo · potatoes · flour tortilla (K-B2, Thursday breakfast — built, foiled and frozen whole)
+
+### Stop 3 — Meijer, morning of Sept 22, into the cooler
+
+*The zone that ruins trips, and the reason the final stop is the morning of departure rather than the night before: it goes from the checkout into the cooler and the cooler goes into the car. Only four meals happen before Thursday's resupply, and that is the entire reason five nights fit in one 48qt — so keep this list exactly this short.*
+
+- Sub fixings for K-L1: sourdough roll · Genoa salami · provolone · pepperoncini
+- ⚠️ **The K-L1 recipe carries a whole raw apple, and crisp raw fruit is the one OAS form still out.** Swap it for a ripe banana, fruit leather or dried fruit — all confirmed fine, and all already on the shelf-stable list above.
+- Eggs (half dozen) · spinach · bell peppers ×2 · sourdough loaf
+- Hard salami · aged cheddar · provolone
+
+### Stop 4 — Kroger, Stanton KY, Thursday
+
+*The only one this trip, and now shorter than it was: the shelf-stable half moved to Meijer. What is left is cold, and cold is the one thing that cannot ride down from Ohio.*
 
 - **1 BLOCK of ice** — not cubes
 - **Rotisserie chicken** — covers K-D2 Thursday and K-D3 Friday. The correct move for one person.
 - 400g russet potatoes (**cook double Friday** — half is Saturday's breakfast) · 400g baby potatoes
 - 1× 12oz ribeye for Saturday · butter · garlic · thyme · balsamic · beef broth
-- Couscous · chickpeas (pull-tab) · feta · sun-dried tomatoes in oil · lemon
+- Feta · lemon
 - Frozen green beans · frozen broccoli · red onion · bell peppers · salsa
 
-### Kit
+### Kit — and what is actually confirmed owned
 
-- **Wide-mouth thermos** — hot oats on the ridge Wednesday, hot couscous dinner at the Sunset Overlook Thursday. Two meals depend on it.
-- One burner, 2L pot with lid, 8–10" pan, insulated mug, spork, long spoon, folding knife, spatula
-- 48qt cooler, pre-chilled · wash basin · biodegradable soap · 2 bandanas
+*⚠️ **The gear locker in `data/profile.js` confirms one burner, pot, pan, mug and spork — and nothing else on this list.** The long spoon, the spatula, the basin, the soap and the bandanas have ridden on both trips' kit lists without ever being marked owned. Open the drawer before Meijer, not at Koomer Ridge.*
+
+- **Wide-mouth thermos** — **confirmed owned.** Hot oats on the ridge Wednesday, hot couscous dinner at the Sunset Overlook Thursday. Two meals depend on it.
+- One burner, 2L pot with lid, 8–10" pan, insulated mug, spork — **confirmed owned**
+- **Long-handled spoon — not in the gear locker.** October calls it the single most important item on the Linville leg; here it is what gets oats out of the bottom of a thermos without wearing them.
+- **Thin silicone spatula — not in the gear locker**, and a spork fails on eggs. Three meals this trip are pan eggs.
+- **Fuel canisters — marked `need`.** October budgets 3 for eleven days, so 1 plus a spare covers five nights here; 4 now covers both trips. You are driving, so the no-fly rule does not apply — but confirm Meijer stocks the screw-on isobutane your burner takes, not just green propane bottles.
+- Wash basin · biodegradable soap · sponge · 2 bandanas (one pot wipe, one towel) — **none confirmed owned**
+- 48qt cooler, pre-chilled · folding knife
+- **A second wide-mouth thermos — deliberately declined Sept 2026** ("one, and staying at one"). Re-opening it only because you will be standing in the aisle: with one flask, Wednesday's hot oats and Wednesday's hot chocolate compete and the drink loses. That is the trade you already accepted, not a mistake — but $20 ends it for this trip and for Hawksbill in October.
 - Bear-aware food storage for Bandy Creek — sorted before dark Thursday
 
 ## Packing

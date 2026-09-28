@@ -64,3 +64,11 @@ Asked for after Blue Heron disappointed (too polished, not much to explore). **S
 | **Thurmond** | Day 4, 1 h 15 m | **Blue Heron risk.** About 30 structures, most still standing, but "you can't go into any of them" (nuttyhiker.com; that may have changed). The depot is a restored NPS visitor center. It's a walk along a street of façades by the tracks: interesting history, but you look from outside. | thurmondwv.org, nuttyhiker.com, Reddit r/AbandonedPorn, Facebook |
 
 **Suggestion (not applied):** keep Nuttallburg and add the tipple-to-mine-entrance climb; cut Thurmond to a 20–30 min drive-through on the way south; and consider promoting Kaymoor from fallback to planned. All three are plan changes, so they go in Trees after Colin's call.
+
+## 2026-09-28 · Plan rewritten: food and ruins
+
+Applied in Trees and re-imported, after Colin said go:
+- **Food:** every meal now comes from `kitchen/staples.md`. No-water nights (Oct 15, 22, 23) use only absorb-the-water meals. Pierogi + kielbasa is the one real cook, Oct 21. The Oct 24 kielbasa dinner is simplified to the staples version (no breadcrumbs, rosemary or sun-dried tomato). No dried fruit anywhere until the allergy question is answered. The three Menu Bench conflicts are gone.
+- **Ruins:** the Nuttallburg Conveyor Trail climb is core, not optional. **Kaymoor Miners Trail added Day 4 at 7:55.** Thurmond cut to a 25-min look. Sliding Rock dropped, and Looking Glass Falls is optional. Arrival at Davidson River moves from ~2:30 to ~3:50, and the Starlink test stays.
+- **Found during the merge:** the Trees default branch had a Meijer-first shopping plan with **a Sept 13 crate run.** If that crate was bought, use it first; the provisions list now says how. *Was it bought? Unknown; ask Colin.*
+- Trees also added 4 never-confirmed utensils (long spoon, silicone spatula, wash kit, bandanas), ported to `me/gear.md` as `unknown`.

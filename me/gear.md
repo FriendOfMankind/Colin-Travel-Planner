@@ -193,12 +193,25 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   question:
     text: Does the frozen-meals-as-ice system actually reach the first resupply, and does the breakfast burrito survive to day 8?
     answeredBy: appalachians-2026
+    answer: "Moot (2026-09-28). October no longer carries freezer meals or the burrito; the staples menu replaced them after Kentucky's cooler held only a pound of beef. The real question now is whether a small cooler of eggs, cheese and frozen veg is all a trip needs."
 - name: Olive oil in a squeeze bottle
   state: own
   note: "One of the four things that turn a can into a meal: oil, hard cheese, crushed chips, starch pouch."
 - name: Fuel canisters
   state: need
-  note: Cannot fly. Buy on arrival on any fly-in trip.
+  note: "Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down. Confirm the burner takes screw-on isobutane before buying."
+- name: Long-handled spoon
+  state: unknown
+  note: "Added in Trees Sept 2026 because it rode on both 2026 kit lists without being here. Needed for eating out of a deep bag or thermos (the Oct 23 oats bag). Never confirmed owned."
+- name: Thin silicone spatula
+  state: unknown
+  note: "A spork will fail on eggs, and the potato scramble and quesadillas both need one. Never confirmed owned."
+- name: Wash basin, sponge, biodegradable soap
+  state: unknown
+  note: "Every draining or high-cleanup meal assumes these exist. Never confirmed owned."
+- name: Bandanas ×2
+  state: unknown
+  note: "One pot wipe, one towel. Never confirmed owned."
 ```
 
 ## Vehicle & road
