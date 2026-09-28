@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@9f3ecb9 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@4b94f51 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Bridge Day + Southern Appalachians
 
@@ -643,7 +643,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Stop 1 — Meijer, trunk crate (shelf-stable)
 
-*If the September crate (Sept 13 run) is already bought, **use it first**: maple packets work in power oats in place of plain oats (less protein, more sugar — add the whey), pecans top the oats, and the dried apricots and mango wait until the dried-fruit allergy question is answered. Buy only what the crate is missing.*
+***The September crate (Sept 13 run) is bought** (confirmed Sept 28) — **use it first**: maple packets work in power oats in place of plain oats (less protein, more sugar — add the whey), pecans top the oats, and the dried apricots and mango wait until the dried-fruit allergy question is answered. Buy only what the crate is missing.*
 
 - Plain oats (big canister) · whole milk powder · whey protein · peanut butter jar + 6 PB packets · brown sugar
 - Plain potato flakes · real bacon bits · 1 ramen block · couscous · Brami ×2 boxes · dried tortellini · Stove Top ×1 box · gravy packets ×2 · bouillon
