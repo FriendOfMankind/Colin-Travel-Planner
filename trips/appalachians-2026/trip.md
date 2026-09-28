@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@3f245b6 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@dbeff01 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Bridge Day + Southern Appalachians
 
@@ -194,7 +194,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: 2 hours before dark. The walk up is the variable — if it takes 3 hours, skip the deck and go straight to the chili.
+slack: ~1h 30m before dark, and the jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **The parking call decides whether this version works.**
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -206,18 +206,17 @@ overnight:
 ```
 
 **Schedule**
-- 5:45 → 6:45 (60m) · stop · Wake, breakfast, day bag and **CASH**. Breakfast option: **Tudor's Biscuit World**, Oak Hill, ~15 min — a real WV institution, not a tourist stop.
-- 6:45 → 7:00 (15m) · drive! · → top of Fayette Station Rd, park. ⚠️ **CALL 800-927-0263 TO CONFIRM PARKING.** This is the one detail standing between the walk-to-the-bottom plan and improvising at 7 AM.
-- 7:00 → 8:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Sunrise 7:35 — you start in the dark.
-- 8:30 → 9:00 (30m) · stop · Position at the bottom before the 9:00 opening.
-- 9:00 → 11:30 (2h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
-- 11:30 → 1:45 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
-- 1:45 → 2:00 (15m) · drive · → Fayetteville High School shuttle lot. · 📍 Fayetteville High School Fayetteville WV
-- 2:00 → 2:25 (25m) · shuttle · Shuttle, $3 cash.
-- 2:25 → 3:00 (35m) · stop · **Bridge deck** — vendors, rappel teams working the catwalk, final jumps. **Watching the rappellers is the sustained action** — jumpers are gone in seconds.
-- 3:00 → 3:25 (25m) · shuttle · Shuttle back.
-- 3:25 → 4:40 (1h 15m) · event · **Chili cook-off**, Fayette County Courthouse. The food event of the day, plus 200+ vendors. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
-- 4:40 → 4:50 (10m) · drive · → Arrowhead. Sunset 6:45.
+- 6:45 → 7:45 (60m) · stop! · **No 5:45 alarm — chosen Sept 28.** This later start only works if the parking call (below) says the Fayette Station lot still has space around 8:00; if it fills at dawn, fall back to the old plan (wake 5:45, park 7:00). Then: wake, breakfast, day bag and **CASH**. Breakfast option: **Tudor's Biscuit World**, Oak Hill, ~15 min — a real WV institution, not a tourist stop.
+- 7:45 → 8:00 (15m) · drive! · → top of Fayette Station Rd, park. ⚠️ **CALL 800-927-0263 TO CONFIRM PARKING.** This is the one detail standing between the walk-to-the-bottom plan and improvising at 7 AM.
+- 8:00 → 9:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Full daylight by now (sunrise 7:35).
+- 9:30 → 12:00 (2h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
+- 12:00 → 2:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
+- 2:15 → 2:30 (15m) · drive · → Fayetteville High School shuttle lot. · 📍 Fayetteville High School Fayetteville WV
+- 2:30 → 2:55 (25m) · shuttle · Shuttle, $3 cash.
+- 2:55 → 3:30 (35m) · stop · **Bridge deck** — vendors, rappel teams working the catwalk, final jumps. **Watching the rappellers is the sustained action** — jumpers are gone in seconds.
+- 3:30 → 3:55 (25m) · shuttle · Shuttle back.
+- 3:55 → 5:10 (1h 15m) · event · **Chili cook-off**, Fayette County Courthouse. The food event of the day, plus 200+ vendors. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
+- 5:10 → 5:20 (10m) · drive · → Arrowhead. Sunset 6:45.
 
 **Meals**
 - B: bought — Tudor’s Biscuit World, Oak Hill, 6 AM
@@ -283,7 +282,7 @@ date: 2026-10-19
 tagline: Grassy summits with no trees, four trailheads, one stretch of road.
 type: activity
 driving: ~1h 30m
-slack: "**~1h 20m.** Was 15 minutes. Taking the short Black Balsam bought it, and nothing had to be cut."
+slack: "**~1h 45m of protected slack mid-afternoon**, plus Devil's Courthouse as the first cut. Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -295,23 +294,25 @@ overnight:
 ```
 
 **Schedule**
-- 7:45 → 8:30 (45m) · drive · → Black Balsam trailhead, off BRP MP 420. Sunrise 7:41. · 📍 Black Balsam Knob Trailhead Canton NC
-- 8:30 → 9:50 (1h 20m) · hike · ✅ **Black Balsam Knob via Art Loeb — the short route, 1.4 mi / 357 ft.** AllTrails moving time 46 min. Open grassy summit, real 360°, no trees. **This is the chosen version**; the Tennent Mountain extension is 3.8 mi / 780 ft and the Graveyard Ridge loop is 9.7 mi / 1,666 ft if you ever want them.
-- 9:50 → 11:30 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot, no driving.
-- 11:30 → 12:10 (40m) · stop · Lunch at the trailhead. Hot soup in the thermos — at 5,000 ft in wind it does more than the calories.
-- 12:10 → 12:20 (10m) · drive · → Graveyard Fields, MP 418.8. · 📍 Graveyard Fields Blue Ridge Parkway
-- 12:20 → 2:10 (1h 50m) · hike · **Graveyard Fields loop.** ✅ AllTrails: 3.3 mi / 416 ft — slightly longer than the ~3 mi estimate.
-- 2:10 → 2:25 (15m) · drive · → Devil's Courthouse, MP 422. · 📍 Devils Courthouse Blue Ridge Parkway
-- 2:25 → 3:10 (45m) · hike · Devil's Courthouse — short, steep, five-state view. Reopened Aug 2025.
-- 3:10 → 3:25 (15m) · drive · → Looking Glass Rock Overlook, MP 417. · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
-- 3:25 → 4:25 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in.
-- 4:25 → 5:25 (35m + 25m) · dessert · → **Dolly's Dairy Bar.** 100+ flavors with combos named after the adventures in the forest. · 📍 Dollys Dairy Bar Pisgah Forest NC
-- 5:25 → 5:35 (10m) · drive · → camp. Sunset 6:52 — you are back with an hour of light to spare.
+- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Warm up in the tent, hot breakfast at camp. Nothing today needs you before 9.
+- 9:00 → 9:35 (35m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead). · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
+- 9:35 → 10:35 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in. Pools and a footbridge. Wade if you're brave; it's October at ~5,000 ft.
+- 10:35 → 10:50 (15m) · drive · → Graveyard Fields, MP 418.8. It's a Monday, which is the point: this lot is the Parkway's worst on weekends. · 📍 Graveyard Fields Blue Ridge Parkway
+- 10:50 → 12:40 (1h 50m) · hike · **Graveyard Fields loop.** ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
+- 12:40 → 1:20 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
+- 1:20 → 1:35 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
+- 1:35 → 3:15 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
+- 3:15 → 5:00 (1h 45m) · stop · **Protected slack — leave it empty.** Sit, nap in the car, scout photo angles. *Optional, first thing dropped:* Devil's Courthouse (MP 422, short and steep, five-state view).
+- 5:00 → 5:40 (40m) · food · Cook dinner at the lot and pour it into the thermos: trunk chili. Layers on — puffy, hat, gloves. It will be cold and windy on top.
+- 5:40 → 6:10 (30m) · hike · ✅ **Up Black Balsam Knob** via the Art Loeb short route (1.4 mi RT / 357 ft total).
+- 6:10 → 7:00 (50m) · sunset · ⭐ **SUNSET ON BLACK BALSAM, 6:52.** Open grassy bald, real 360°, no trees — the best golden-hour spot on the trip. Dinner from the thermos on the summit.
+- 7:00 → 7:25 (25m) · hike · Down by headlamp. Dark ~7:20.
+- 7:25 → 8:10 (45m) · drive! · → camp. Parkway and US 276 in the dark — slow for deer. Bed right after. · 📍 Davidson River Campground Pisgah Forest NC
 
 **Meals**
-- B: made — **loaded potato scramble** (~820 kcal)
-- L: thermos — **tortellini in broth**, made right after breakfast: bouillon + dried tortellini boiled until tender, peas and a chicken pouch in at the end, parmesan. Hot soup in the wind on the Parkway, and the water becomes the broth (~760 kcal)
-- D: made — **trunk chili + Fritos**: drained kidney and black beans, a can of diced tomatoes, mild chili seasoning, 2 chicken pouches, water until it looks like chili, simmer 10 min, crushed Fritos and cheddar on top (~920 kcal)
+- B: made — **loaded potato scramble**, slow, at camp (~820 kcal)
+- L: made at the Graveyard Fields lot — **ramen bomb + jerky** (~750 kcal)
+- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 5:00 and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
 
 #### Highlights
 
@@ -328,7 +329,7 @@ date: 2026-10-20
 tagline: Switchbacks to a bare granite slab, then the quiet side of the road.
 type: activity
 driving: ~1h
-slack: Comfortable. Dinner is the fixed point.
+slack: '**Loose.** One outing, then a shower and a real dinner. Daniel Ridge Loop was cut Sept 28 ("too much planned" is the known failure mode); it stays in Hikes as an option if the legs insist.'
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -340,15 +341,14 @@ overnight:
 ```
 
 **Schedule**
-- 7:45 → 7:55 (10m) · drive · → Looking Glass Rock TH. Sunrise 7:41. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
-- 7:55 → 12:25 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ **AllTrails confirms: 6.0 mi / 1,699 ft**, ~3h 30m typical — the plan's 4h 30m has real margin in it.
-- 12:25 → 12:35 (10m) · drive · → Daniel Ridge trailhead. · 📍 Daniel Ridge Loop Trailhead Pisgah Forest NC
-- 12:35 → 1:05 (30m) · stop · Lunch.
-- 1:05 → 3:20 (2h 15m) · hike · **Daniel Ridge Loop + Falls**, ~4 mi. Turn **left** instead of right at the Looking Glass junction — quieter than anything else on that road.
-- 3:20 → 3:40 (20m) · drive · → Brevard. · 📍 Brevard NC
-- 3:40 → 4:40 (60m) · shop! · **RESUPPLY — the only one this trip.** Water, fuel, food for the Linville leg. **Buy block ice** — the last cold of the trip. Also: **Bracken Mountain Bakery** for trail food.
-- 5:00 → 6:30 (1h 30m) · food · **Dinner: The Falls Landing.** Downtown since 1993, the town's serious restaurant. **Reserve ahead.** ⭐ **Fresh NC mountain trout** — the owner steers people to it personally; comes with a potato cake reviewers single out. Mountain trout is *the* regional dish. · 📍 The Falls Landing Brevard NC
-- 6:30 → 6:50 (20m) · drive · → camp. Sunset 6:51.
+- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack the thermos lunch.
+- 9:00 → 9:10 (10m) · drive · → Looking Glass Rock TH. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
+- 9:10 → 1:40 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ AllTrails: 6.0 mi / 1,699 ft, ~3h 30m typical; the extra hour is lunch on the slab.
+- 1:40 → 2:00 (20m) · drive · → Brevard. · 📍 Brevard NC
+- 2:00 → 3:00 (60m) · shop! · **RESUPPLY — the only one this trip.** Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
+- 3:00 → 4:45 (1h 45m) · stop · **Camp: hot shower and nothing else.** This is the afternoon Daniel Ridge used to fill.
+- 5:00 → 6:30 (1h 30m) · food · **Dinner: The Falls Landing.** Downtown since 1993, the town's serious restaurant. **Reserve ahead.** ⭐ **Fresh NC mountain trout.** · 📍 The Falls Landing Brevard NC
+- 6:30 → 6:50 (20m) · drive · → camp. Sunset 6:51. Early to bed.
 
 **Meals**
 - B: made — **power oats** (~980 kcal)
@@ -500,7 +500,7 @@ noSignal: Hurricane Campground, VA — no cell service at all and no pay phone. 
 tagline: Virginia's high point, wild ponies, and a rock slot you take your pack off for.
 type: activity + transfer
 driving: ~3h
-slack: 3 hours.
+slack: "~25 min before sunset (6:39) at check-in — much tighter than the old 3 hours. ⚠️ **Saturday + peak color at Grayson Highlands**: a 10:15 arrival may meet a full Massie Gap lot and crowds on Wilburn Ridge. See Open questions."
 overnight:
   name: Hurricane Campground
   place: Mount Rogers NRA, VA
@@ -512,13 +512,13 @@ overnight:
 ```
 
 **Schedule**
-- 5:45 → 6:30 (45m) · stop · Break camp.
-- 6:30 → 9:00 (2h 30m) · drive · FS 210 → **Massie Gap.** US 221 N → NC 194 → US 58 W. Sunrise 7:41. · 📍 Massie Gap Grayson Highlands State Park
-- 9:00 → 9:20 (20m) · stop · Park entrance fee, gear up.
-- 9:20 → 3:20 (6h) · hike · **Mount Rogers via Wilburn Ridge**, 8.0 mi / ~1,455 ft, topping at 5,729 ft — Virginia's high point.<br><br>⚠️ **The summit is wooded with no view.** The ridge is the entire payoff — take Wilburn Ridge, **not** the direct AT approach.<br><br>⭐ **FATMAN'S SQUEEZE** near Rhododendron Gap — a rock slot you physically squeeze through. Pack off.<br><br>⭐ **The ponies** are entirely unbothered by people and will walk right up. Don't feed them.
-- 3:20 → 3:50 (30m) · drive! · → **Hurricane Campground.** ⚠️ **Follow these directions, not GPS** — both the Forest Service and Recreation.gov say so in bold. From I-81, **Marion exit 45** → **VA-16 South** → 15 miles → **SR 650** (5 mi south of Sugar Grove) → right → 2 miles to the paved entrance road. One camper let GPS route them onto 650 from the northwest and got four miles of gravel. · 📍 Hurricane Campground Mount Rogers National Recreation Area
-- 3:50 → 5:00 (1h 10m) · stop · Check in, set up, **hot shower.** $20. Sunset 6:39.
-- 5:00 → (—) · food · Cook. Last night. Damascus is ~35 min if you want a town; the leg is otherwise thin for food.
+- 7:00 → 7:45 (45m) · stop · Slow start in the cold — warm up in the tent, hot oats, then break camp. (No 5:45 alarm, chosen Sept 28.)
+- 7:45 → 10:15 (2h 30m) · drive · FS 210 → **Massie Gap.** US 221 N → NC 194 → US 58 W. Sunrise 7:41. · 📍 Massie Gap Grayson Highlands State Park
+- 10:15 → 10:35 (20m) · stop · Park entrance fee, gear up.
+- 10:35 → 4:35 (6h) · hike · **Mount Rogers via Wilburn Ridge**, 8.0 mi / ~1,455 ft, topping at 5,729 ft — Virginia's high point.<br><br>⚠️ **The summit is wooded with no view.** The ridge is the entire payoff — take Wilburn Ridge, **not** the direct AT approach.<br><br>⭐ **FATMAN'S SQUEEZE** near Rhododendron Gap — a rock slot you physically squeeze through. Pack off.<br><br>⭐ **The ponies** are entirely unbothered by people and will walk right up. Don't feed them.
+- 4:35 → 5:05 (30m) · drive! · → **Hurricane Campground.** ⚠️ **Follow these directions, not GPS** — both the Forest Service and Recreation.gov say so in bold. From I-81, **Marion exit 45** → **VA-16 South** → 15 miles → **SR 650** (5 mi south of Sugar Grove) → right → 2 miles to the paved entrance road. One camper let GPS route them onto 650 from the northwest and got four miles of gravel. · 📍 Hurricane Campground Mount Rogers National Recreation Area
+- 5:05 → 6:15 (1h 10m) · stop · Check in, set up, **hot shower.** $20. Sunset 6:39.
+- 6:15 → (—) · food · Cook. Last night. Damascus is ~35 min if you want a town; the leg is otherwise thin for food.
 
 **Meals**
 - B: **O-B8** ⚠️ still no water — 2 bagels, PB packets, honey, a shelf-stable protein shake. **No dishes, no water, no decisions in the dark** (~750 kcal)
@@ -747,6 +747,11 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [ ] Text the trip plan home, flagging Oct 22–24 as no-service days
 
 ## Open questions
+
+### Oct 24: sleep in, or beat the Saturday crowd at Grayson Highlands?
+
+**Blocks:** Day 10 — decide before the trip
+Colin dropped the 5:45 alarm on Sept 28 (slow mornings), which moves the Massie Gap arrival to ~10:15 on a **peak-color Saturday**. Grayson Highlands is one of the region's busiest weekend spots, and his rule is to skip a packed viewpoint. Three options: **(a)** keep the late start and accept the crowd and a possibly full lot; **(b)** an earned early start (crowd-beating is one of the reasons he gave for one); **(c)** swap the day's hike for something quieter near Hurricane. Parking capacity and fill times are not verified — ask the park.
 
 ### Oct 15 is now a first-come primitive site, and that is the one thing left to get right.
 
