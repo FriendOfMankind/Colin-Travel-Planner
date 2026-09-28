@@ -39,6 +39,21 @@
     });
   }
 
+
+  /** "1h 30m" / "45m" / "35m + 25m" → minutes; "—" or blank → 0. */
+  const estMin = (e) => { let m = 0; for (const x of String(e ?? "").matchAll(/(\d+)\s*h/g)) m += 60 * +x[1]; for (const x of String(e ?? "").matchAll(/(\d+)\s*m\b/g)) m += +x[1]; return m; };
+  const hm = (m) => m >= 60 ? `${Math.floor(m / 60)}h${m % 60 ? " " + (m % 60) + "m" : ""}` : `${m}m`;
+  const clock = (t) => { const h = Math.floor(t / 60) % 24, m = t % 60; return `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`; };
+  function load(d) {
+    const mins = startMinutes(d.schedule);
+    const sum = (kinds) => d.schedule.reduce((a, r, i) => a + (kinds.includes(r.kind) && !/optional/i.test(r.time) ? estMin(r.est) : 0), 0);
+    const first = mins.find((m, i) => m != null && !/optional/i.test(d.schedule[i].time + d.schedule[i].title));
+    return { wake: first, hike: sum(["hike", "view", "ruins"]), drive: sum(["drive", "shuttle"]) };
+  }
+  function askPrompt(t, d, where) {
+    return `I'm on ${t.title}, Day ${d.n} (${fmt(d.date)}: ${strip(d.title)}).${where ? ` The plan says I should be at: ${where}.` : ""} Something came up: [describe it]. Using the trip plan in trips/${t.slug}/ and my preferences in me/, give me 2–3 alternatives for the rest of today, and tell me what each one costs (time, a booking, or tomorrow).`;
+  }
+
   const tripState = (t, today) => {
     if (!t.start) return "idea";
     if (today < t.start) return "upcoming";
@@ -57,7 +72,7 @@
       <div class="srow k-${esc(r.kind)}${r.warn ? " warn" : ""}${i === nextIdx ? " is-next" : ""}">
         <div><span class="t">${esc(r.time)}</span><span class="k">${esc(r.kind)}</span></div>
         <div>
-          <div class="what">${r.star ? '<span class="star" title="Highlight">★</span>' : ""}${r.title}</div>
+          <div class="what">${r.star ? '<span class="star" title="Highlight">★</span>' : ""}${r.title}${r.checked ? ' <span class="chip accent" title="Distance and time checked against AllTrails" style="vertical-align:2px">stats checked</span>' : ""}</div>
           ${(r.est || r.maps) ? `<div class="extra">${r.est && r.est !== "—" ? `<span class="chip">${esc(r.est)}</span>` : ""}${r.maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(r.maps)}">Maps ↗</a>` : ""}</div>` : ""}
           ${r.detail ? `<details><summary>Details</summary><div>${r.detail}</div></details>` : ""}
         </div>
@@ -72,7 +87,7 @@
         <span class="caret" aria-hidden="true">›</span>
       </summary>
       <div class="day-body">
-        ${opts.today && nextIdx >= 0 ? `<div class="nextup"><div class="eyebrow">Next up · ${esc(d.schedule[nextIdx].time)}</div><div class="what">${d.schedule[nextIdx].title}</div>${d.schedule[nextIdx].maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(d.schedule[nextIdx].maps)}">Maps ↗</a>` : ""}</div>` : ""}
+        ${opts.today && !opts.hideNext && nextIdx >= 0 ? `<div class="nextup"><div class="eyebrow">Next up · ${esc(d.schedule[nextIdx].time)}</div><div class="what">${d.schedule[nextIdx].title}</div>${d.schedule[nextIdx].maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(d.schedule[nextIdx].maps)}">Maps ↗</a>` : ""}</div>` : ""}
         ${opts.today ? `<div><div class="eyebrow" style="margin-bottom:4px">Schedule</div><div class="sched">${rows}</div></div>` : ""}
         ${d.tagline ? `<div class="muted" style="font-style:italic">${d.tagline}</div>` : ""}
         <div class="facts">
@@ -84,6 +99,7 @@
         ${opts.today ? "" : `<div><div class="eyebrow" style="margin-bottom:4px">Schedule</div><div class="sched">${rows}</div></div>`}
         ${Object.keys(d.meals).length ? `<div><div class="eyebrow" style="margin-bottom:6px">Food</div><div class="meals">${["b", "l", "d"].filter((k) => d.meals[k]).map((k) => `<b>${k.toUpperCase()}</b><div>${d.meals[k]}</div>`).join("")}</div></div>` : ""}
         ${d.warnings ? `<div class="callout prose">${d.warnings}</div>` : ""}
+        <div class="row"><button type="button" class="btn ask" data-ask="${esc(askPrompt(t, d, nextIdx >= 0 ? strip(d.schedule[nextIdx].title) : ""))}">Ask Claude about this day</button><span class="ask-msg muted" style="font-size:12.5px"></span></div>
         ${d.highlights ? `<details class="fold panel"><summary>Why this day</summary><div class="prose">${d.highlights}</div></details>` : ""}
       </div>
     </details>`;
@@ -126,9 +142,25 @@
     let top = "";
     if (active) {
       const d = active.days.find((x) => x.date === n.date);
+      const mins = startMinutes(d.schedule);
+      const cur = mins.findIndex((m, i) => m != null && m <= n.minutes && (mins[i + 1] ?? 1e9) > n.minutes);
+      const nxt = mins.findIndex((m) => m != null && m > n.minutes);
+      const sunset = d.sun && /(\d+):(\d+)/.exec(d.sun.sunset);
+      const sunsetMin = sunset ? ((+sunset[1] % 12) + 12) * 60 + +sunset[2] : null;
+      const tomorrow = active.days.find((x) => x.n === d.n + 1);
+      const tFirst = tomorrow?.schedule.find((r) => !/optional/i.test(r.time));
       top = `<div class="stack">
         <div class="eyebrow">${esc(active.title)} · Day ${d.n} of ${active.days.length}</div>
-        ${dayCard(active, d, { open: true, today: true, nowMinutes: n.minutes })}
+        <div class="pace panel">
+          <div><div class="eyebrow">The plan has you at</div><div class="pace-now">${cur >= 0 ? `<span class="mono">${esc(d.schedule[cur].time)}</span> ${d.schedule[cur].title}` : nxt >= 0 ? "Before the day's first item" : "Done for the day"}</div></div>
+          <div class="pace-grid">
+            <div><div class="eyebrow">Next</div><div>${nxt >= 0 ? `<span class="mono">${esc(d.schedule[nxt].time.split("→")[0].trim())}</span> ${d.schedule[nxt].title}` : "—"}</div></div>
+            <div><div class="eyebrow">To sunset</div><div class="mono">${sunsetMin != null ? (sunsetMin > n.minutes ? hm(sunsetMin - n.minutes) : "after sunset") : "—"}</div></div>
+            <div><div class="eyebrow">Tomorrow starts</div><div>${tFirst ? `<span class="mono">${esc(tFirst.time.split("→")[0].trim())}</span> ${tFirst.title}` : "Home"}</div></div>
+          </div>
+          ${d.slack ? `<div class="pace-slack"><div class="eyebrow">If you're behind</div><div>${d.slack}</div></div>` : ""}
+        </div>
+        ${dayCard(active, d, { open: true, today: true, hideNext: true, nowMinutes: n.minutes })}
         <div class="row"><a class="btn" href="#t-${active.slug}-plan">Whole plan</a><a class="btn" href="#t-${active.slug}-places">Places</a></div>
       </div>`;
     } else if (next) {
@@ -197,7 +229,18 @@
     const n = now();
     let body = "";
     if (sec === "plan") {
+      const loads = t.days.map(load);
+      const maxM = Math.max(600, ...loads.map((l) => l.hike + l.drive));
       body = `<div class="stack">
+        <div class="panel glance">
+          <div class="glance-head"><span>Day</span><span>Wake</span><span>On foot / driving</span><span>Sleep</span></div>
+          ${t.days.map((d, i) => { const l = loads[i]; const early = l.wake != null && l.wake < 6 * 60 + 30; return `<a class="glance-row${d.date === n.date ? " is-today" : ""}" href="#t-${t.slug}-plan" data-day="${d.n}">
+            <span class="gd"><b>${d.n}</b> ${short(d.date).w}</span>
+            <span class="gw mono${early ? " early" : ""}">${l.wake != null ? clock(l.wake).replace(" AM", "").replace(" PM", "p") : "—"}</span>
+            <span class="gb"><span class="bars"><i class="h" style="width:${(100 * l.hike) / maxM}%"></i><i class="dr" style="width:${(100 * l.drive) / maxM}%"></i></span><span class="mono gl">${hm(l.hike)} · ${hm(l.drive)}</span></span>
+            <span class="gs">${d.overnight ? strip(d.overnight.name).replace(/ Campground| — .*/g, "") : "Home"}</span></a>`; }).join("")}
+          <div class="glance-key muted"><span><i class="h"></i> on foot</span><span><i class="dr"></i> driving</span><span><span class="mono early" style="padding:0 4px">6:00</span> wake before 6:30</span></div>
+        </div>
         ${t.days.map((d) => dayCard(t, d, { open: d.date === n.date, today: d.date === n.date, nowMinutes: d.date === n.date ? n.minutes : null })).join("")}
         ${t.route ? `<details class="fold panel"><summary>Route and overview</summary><div class="prose">${t.route}${t.overview.map((c) => `<h3>${c.h}</h3>${c.p}`).join("")}</div></details>` : ""}
         ${t.notes.length ? `<details class="fold panel"><summary>Why the plan looks like this</summary><div class="prose">${t.notes.map((x) => `<h3>${x.h}</h3>${x.body}`).join("")}</div></details>` : ""}
@@ -209,7 +252,7 @@
           <div class="pm">${p.note || ""}${p.days ? ` · Day ${esc(p.days)}` : ""}</div>
           <div class="loc ${p.verified ? "ok" : "no"}">${p.verified ? `✓ ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}` : "Not located: search only"}</div></div>
           ${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")}
-        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name}</td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
+        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
         <div class="muted" style="font-size:12.5px">Map view comes next: pins for the ${t.located.verified} located places, from the vendored map library so it works offline.</div>
       </div>`;
     } else if (sec === "prep") {
@@ -283,6 +326,16 @@
     if (el.id === "pv" && el.value) { store.set("previewAt", el.value); render(); }
   });
   $view.addEventListener("click", (e) => {
+    const g = e.target.closest(".glance-row");
+    if (g) { e.preventDefault(); const el = document.getElementById("day-" + g.dataset.day); if (el) { el.open = true; el.scrollIntoView({ block: "start", behavior: "smooth" }); } return; }
+    const a = e.target.closest("[data-ask]");
+    if (a) {
+      const msg = a.parentElement.querySelector(".ask-msg");
+      const text = a.dataset.ask;
+      const fallback = () => { msg.innerHTML = `<textarea readonly rows="4" style="width:100%;font:12px var(--mono)">${esc(text)}</textarea>`; msg.querySelector("textarea").select(); };
+      try { navigator.clipboard.writeText(text).then(() => { msg.textContent = "Copied. Paste it into the Claude app and fill in what came up."; }, fallback); } catch { fallback(); }
+      return;
+    }
     if (e.target.id === "pv-trip") { store.set("previewAt", "2026-10-18T09:00"); render(); }
     if (e.target.id === "pv-clear") { store.set("previewAt", null); render(); }
   });

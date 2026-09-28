@@ -38,6 +38,16 @@ A trip has **4 sections instead of 12**:
 
 Design tokens: topo-map neutrals, a forest accent, blaze yellow reserved for *today*, and a separate warning red. The type is Barlow Condensed (signage), IBM Plex Sans (reading) and IBM Plex Mono (times and numbers). There's a light and a dark theme.
 
+## v2 (2026-09-28): what the site is for, per Colin
+
+*"At a trailhead I'd be looking at AllTrails… I use this site to PLAN trips and make sure I'm on pace during the trips, and the AI to ask about alternatives if something comes up."*
+
+So the site is **a planner and a pace check, not a field navigator**:
+- **Trip at a glance** (top of Plan): one row per day with wake time (early alarms highlighted), hours on foot versus driving as bars, and the overnight. Overloaded days and alarms show up before they're lived. Optional rows don't count.
+- **Now during a trip = pace check:** *the plan has you at…*, the next item, time to sunset, tomorrow's first item, and the slack line under "if you're behind".
+- **Ask Claude about this day:** copies a ready-made question with the day's context, for pasting into the Claude app.
+- **AllTrails links** on hikes instead of trying to be a trail app.
+
 ## Not built yet (before it can replace Trees)
 
 - **Offline:** a service worker and bundled fonts. Right now the fonts come from Google, and the prototype is a published preview, not the Pages site.

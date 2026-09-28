@@ -30,8 +30,12 @@ const mdi = (s) => (s ? marked.parseInline(String(s)) : "");
     not the reasoning: split a short title from the detail. */
 export function splitRow(text) {
   let t = String(text).trim();
-  let star = false;
-  if (/^⭐\s*/.test(t)) { star = true; t = t.replace(/^⭐\s*/, ""); }
+  let star = false, checked = false;
+  for (;;) {
+    if (/^⭐\s*/.test(t)) { star = true; t = t.replace(/^⭐\s*/, ""); continue; }
+    if (/^✅\s*/.test(t)) { checked = true; t = t.replace(/^✅\s*/, ""); continue; }
+    break;
+  }
   let title, rest = "";
   const bold = /^\*\*(.+?)\*\*\s*(.*)$/s.exec(t);
   if (bold) {
@@ -47,7 +51,7 @@ export function splitRow(text) {
   if (title === title.toUpperCase() && /[A-Z]{4}/.test(title)) {
     title = title.toLowerCase().replace(/(^|\s|\(|\/)([a-z])/g, (m, a, b) => a + b.toUpperCase());
   }
-  return { title: mdi(title), detail: mdi(rest), star };
+  return { title: mdi(title), detail: mdi(rest), star, checked };
 }
 
 const addDays = (iso, n) => {
