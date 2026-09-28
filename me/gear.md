@@ -22,7 +22,7 @@ Two more optional item fields, used by the clothing categories:
 
 ## Sleep system
 
-Rebuilt for cold in 2026. This was the weak link and no longer is — the only open item is the liner.
+Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is owned (2026-09-28); the open item is whether bag + liner is warm enough at 32°F, which October answers.
 
 ```yaml
 - name: REI Co-op Siesta 20 sleeping bag
@@ -34,7 +34,7 @@ Rebuilt for cold in 2026. This was the weak link and no longer is — the only o
     answer: "Partly. Warm with no issues at ~50°F. The 32°F half is still untested; Kentucky never got that cold. (confirmed: kentucky-2026 log, 2026-09-27)"
 - name: Sleeping bag liner
   state: own
-  note: "Ordered/owned as of 2026-09-28 (was: need). For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing. Flip to `own` once bought; needed before Oct 15."
+  note: "Ordered/owned as of 2026-09-28 (was: need). For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing."
   question:
     text: Is it needed, or does the Siesta 20 cover the mid-30s on its own?
     answeredBy: kentucky-2026

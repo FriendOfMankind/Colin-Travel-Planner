@@ -6,9 +6,7 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 
 # Booking windows
 
-Booking timing. The recreation.gov row previously said "10:00 AM ET" here —
-that was invented. This version follows the Sept 2026 bucket list, which
-marks it verified. Re-check anything that would end a trip if wrong.
+Booking timing. **History of the recreation.gov row, because it has flipped twice:** an early version said "10:00 AM ET" with no source; it was then changed to "7 AM local"; in Sept 2026 it was corrected back to **10:00 AM ET** (= 7 AM PT, one instant nationwide), this time citing recreation.gov's own booking-tips article. The row below is the current value. *(Rewritten 2026-09-28: the old paragraph said "10 AM ET was invented" directly above a row saying 10 AM ET, which a fresh session rightly flagged as a contradiction.)* Re-check anything that would end a trip if wrong.
 
 `system` is the id a trip's `booking` declaration references, and
 `leadMonths` is what lets the hub work out the actual date the window opens

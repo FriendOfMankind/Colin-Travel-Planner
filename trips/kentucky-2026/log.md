@@ -89,7 +89,7 @@ Answers so far are from the retro interview on 2026-09-27; a ticked box has its 
 - [x] Wednesday's K-L2 quesadillas during the lecture: did it work? ✅ **Cooked during the lecture itself. Not a big deal.** The "conflict" warning was wrong, and the "workable" side of the contradiction wins. → `kitchen/`, and settles the contradiction
 - [ ] Angel Falls: clifftop overlook, riverside rapids, or both? *Not asked; hiked it Thursday.*
 - [x] Divide Road to Twin Arches: maintained gravel, or did you turn around? ✅ **Easy gravel.** → this log + `me/profile.md` vehicle notes if it changes the rule
-- [x] Honey Creek: did it happen, and did the one-hour-per-mile budget hold? ✅ **Full loop, ~3.5 h** against a 6 h budget. Direction not yet confirmed. → this log + `me/hiking.md`
+- [x] Honey Creek: did it happen, and did the one-hour-per-mile budget hold? ✅ **Full loop, counter-clockwise, ~3.5 h** against a 6 h budget. (Direction confirmed later in the same retro.) → this log + `me/hiking.md`
 - [x] Did the block ice keep the rotisserie chicken? ✅ Moot: no chicken bought, and the cooler held only 1 lb ground beef and veggies.
 
 **Preference questions**

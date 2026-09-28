@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@4b94f51 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@3f245b6 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Bridge Day + Southern Appalachians
 
@@ -181,7 +181,7 @@ overnight:
 
 #### Highlights
 
-Nuttallburg is the best ruin on either 2026 trip: a stabilized 90-acre historic district with a conveyor running down the hillside above the treetops, and a Henry Ford vertical-integration story attached to it.
+Nuttallburg is the best-preserved ruin on the trip: a stabilized 90-acre historic district with a conveyor running down the hillside above the treetops, and a Henry Ford vertical-integration story attached to it. The climb to the headhouse is what makes it more than a walk-by. For raw and unrestored, the Blevins-farm kind, the pick is **Kaymoor on Day 4** (Sept 28 ruins check).
 
 #### Warnings
 
@@ -699,7 +699,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 ### Sleep — colder than September
 
 - [ ] REI Siesta 20 — mid-30s at Linville and Hurricane
-- [ ] Sleeping bag liner ⚠️ recommended, not confirmed purchased. Decide after the September shakedown.
+- [ ] Sleeping bag liner — bought (Sept 28). For the mid-30s nights at FS 210 and Hurricane.
 - [ ] Therm-a-Rest MondoKing 3D
 - [ ] Puffy, hat, gloves — Hawksbill at 7:15 AM at 4,009 ft, and the Mount Rogers ridge
 
@@ -725,12 +725,11 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ## Reservations & checks
 
-- [ ] ⚠️ Oct 15 dinner — the meal plan still puts you at the Arrowhead biergarten that night. Pack a camp dinner or plan a Fayetteville stop.
+- [x] ✅ Oct 15 dinner — Stove Top + chicken + gravy at the primitive site, carried water. Settled Sept 28 (the old biergarten plan is gone).
 - [ ] Price and phone-check ONE motel in Newland / Linville Falls / Morganton before leaving Ohio — the Linville bail-out is first-come too
 - [ ] ⚠️ CALL 800-927-0263 — Fayette Station Road parking on Bridge Day.
 - [ ] Sign the Arrowhead waiver before arrival — every camper needs one
 - [ ] Mix the five pre-portioned bags at home: oats ×5, oats XL (double-bagged), couscous, rice, hot chocolate ×3
-- [ ] Freeze the breakfast burrito hardest — it has to survive nine days and be edible Oct 22
 - [ ] Buy block ice twice: Fayetteville Oct 16, Brevard Oct 20
 - [ ] Fill three 1-gallon water jugs in Brevard before leaving for Linville — ~12 L total carry
 - [ ] Buy pull-tab cans only — a forgotten can opener at Linville means no dinner
@@ -748,19 +747,6 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [ ] Text the trip plan home, flagging Oct 22–24 as no-service days
 
 ## Open questions
-
-### Three October meals were voted down on the Menu Bench and are still on the plan.
-
-**Blocks:** Day 5 lunch, day 5 dinner and day 8 lunch. None is urgent — this trip is Oct 15 — but day 8 is the one that matters.
-The Sept 2026 vote rejected 20 of 88 candidate dishes, and three of them are scheduled here. The validator reports all three every run.
-
-**O-L7, day 8 lunch — the important one.** It is the waterless pouch plate, on a site with nothing to wash with, and "eating a pouch straight as the meal" was a no. **Summer sausage and cheese board** is the clean swap: voted yes, Zone 3 only, zero cleanup, no water, and it holds up on day 8 when the ice is gone.
-
-**O-D2, day 5 dinner** — white chicken chili, voted no. The beef-and-bean version of the same frozen-flat bag was voted yes, so the swap costs nothing structurally: same Zone 1 behaviour, same prep, same night. Beef stew and lentil-and-sausage stew were also both yes.
-
-**O-L4, day 5 lunch** — the hummus cups. Only that component was rejected; the tortillas, salami and thermos of hot soup were not. Swap the hummus for hard cheese and the meal survives intact.
-
-Not changed automatically: swapping a meal changes a day, and this is a planned trip with a written cooler timeline behind it.
 
 ### Oct 15 is now a first-come primitive site, and that is the one thing left to get right.
 

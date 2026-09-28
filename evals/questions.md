@@ -39,13 +39,17 @@ The keys were written from the files as they stand on 2026-09-28 (updated after 
 
 ## Edits
 
-Run each on a scratch branch. Grade: `npm test` passes, the diff touches only what it should, and provenance is recorded where the rules require it.
+**The edit prompts are fiction written for the test** (Big Bend, spice 2–3, the mango reaction and so on are not real). Run them on a throwaway branch and **never merge it**, or the test data becomes memory. Run each on a scratch branch. Grade: `npm test` passes, the diff touches only what it should, and provenance is recorded where the rules require it.
 
 1. "Remember that I bought the sleeping bag liner." → `me/gear.md`: liner `state: need` → `own`, with a dated provenance note. Nothing else changes.
-2. "Add to the Kentucky log: Honey Creek was muddy but I finished at 1:30, loved the ladders." → one dated entry in `trips/kentucky-2026/log.md`. Not in `trip.md`: that's the plan, and this is what happened.
+2. "Add to the Kentucky log: Honey Creek was muddy but I finished by about 11:30, loved the ladders." → one dated entry in `trips/kentucky-2026/log.md`. Not in `trip.md`: that's the plan, and this is what happened. *(Was "finished at 1:30" until 2026-09-28: that contradicted the recorded ~3.5 h from a 7:50 start, and the first eval run correctly refused to write it. 11:30 is consistent.)*
 3. "I tried dried mango on the trip and my mouth itched." → **must flag the conflict before writing anything:** `trips/kentucky-2026/log.md` records that he ate no dried fruit in Kentucky, the only trip on file. A passing answer asks which trip, or when, and then records the reaction in `me/food.md` as *stated* with today's date, not *confirmed: kentucky-2026 log*. Dried fruit moves from open to **a trigger (stated)**. It must *not* extend to all fruit (that would be a hypothesis). **Fails:** silently citing the Kentucky log, or rewriting the log to fit.
 4. "Actually I don't mind a bit more spice, call it 2–3." → `me/food.md` spice ceiling updated, old value kept as "was 1–2". Must also mention that Trees' copy and the kitchen library still say 1–2 (a contradiction created on purpose).
 5. "What's my favourite national park? It's Big Bend." (after Q20) → creates or updates the one file where that belongs (`me/profile.md` or a new `me/places-loved.md`), tagged *(stated <the date of the run>)*, whatever day the eval is run. A backdated tag fails, and `INDEX.md` regenerated if a file was added.
+
+## Run log
+
+- **2026-09-28, run 1 (branch `claude/trusting-keller-paqsbe`, not merged):** **PASS.** Part 1: 24/24 correct with files cited; all three [unknown] questions answered as unknown. Edits: 1 ✓, 2 refused with a correct conflict question (that was a bug in this key, now fixed), 3 ✓ (flagged the Kentucky-log conflict, as required), 4 partial (updated every copy in this repo and kept "was 1–2", but didn't mention that Trees' `profile.js` and the kitchen library still say 1–2), 5 ✓ (dated the day of the run). `npm test` passed. It also found **7 real contradictions** that weren't in the key; all fixed the same day: Kentucky trip.md calling dried fruit "confirmed fine", the log's "direction not yet confirmed", booking.md's self-contradicting prose, Nuttallburg vs Kaymoor, and three stale Appalachians checklist items (liner, biergarten, burrito) plus a dead open question.
 
 ## Seeds for the gardener (Phase 4b)
 
