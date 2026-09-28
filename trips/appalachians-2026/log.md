@@ -35,7 +35,7 @@ file. Everything else is unplotted — use the Places tab.
 Written at migration, three days after Kentucky ended and 17 days before this trip leaves. Every item cites the Kentucky evidence it rests on (`trips/kentucky-2026/log.md`). **Nothing below has changed the plan yet.** During migration, plan edits go into Trees and get re-imported, and each one needs Colin's call first.
 
 **Stale or contradictory in the plan right now**
-- **The registry `next:` still says "Call Arrowhead… leaving Oct 15 with no bed"**, but Day 1 and the open questions show Oct 15 was solved as a first-come primitive site inside New River Gorge (Army Camp / Glade Creek / Grandview Sandbar / Stone Cliff). Registry last updated 2026-09-04. → Needs a new `next:` in Trees.
+- ~~**The registry `next:` still says "Call Arrowhead… leaving Oct 15 with no bed"**, but Day 1 and the open questions show Oct 15 was solved as a first-come primitive site inside New River Gorge (Army Camp / Glade Creek / Grandview Sandbar / Stone Cliff). Registry last updated 2026-09-04. → Needs a new `next:` in Trees.~~ **Fixed 2026-09-28** in Trees and re-imported.
 
 **What Kentucky says about this plan**
 1. **Food: the plan is the kind that didn't happen last time.** October carries a written cooler timeline, freeze-flat bags, a sausage hash, shrimp with orzo and three meals the Menu Bench rejected. In Kentucky the equivalent plan collapsed into oatmeal, mac & cheese, Brami + sauce + meat, couscous + black beans, and a cooler holding one pound of ground beef. Either plan October around trunk staples (`kitchen/staples.md`) with a couple of fresh add-ons, or keep the recipes knowing they probably won't get cooked. **Colin's call.** If staples win, the three Menu Bench conflicts disappear with them.
@@ -46,3 +46,9 @@ Written at migration, three days after Kentucky ended and 17 days before this tr
 6. **Pace.** Honey Creek took 3.5 h against 6. Table Rock is budgeted 5 h 30 m for 7.5 mi / ~2,100 ft. **Keep the budget.** One data point doesn't cut a solo hike's margin, but expect slack in the afternoon.
 7. **Coal ghost towns.** Blue Heron disappointed because it was polished and interpretive; an abandoned farm explored at night was a highlight. Before the trip, find out which of this trip's ruins are explorable versus stabilized-with-signage. **Not researched yet; don't assume.**
 8. **The last day.** Kentucky's final day went straight home, and the planned stops were dropped. Day 11 is 7 h 30 m of driving plus an optional loop. Treat the loop as unlikely and don't hang anything on it.
+
+## 2026-09-28 · Decisions
+
+- **Oct 15:** a first-come NRG primitive site is settled. *(confirmed 2026-09-28)*
+- **Food:** **staples + 1–2 real cooks.** Build around `kitchen/staples.md` (oatmeal, Brami + sauce + meat, couscous + black beans, mac & cheese) and keep one or two special meals. *Which ones is still open.* The Oct 21 rest-day dinner at Davidson River (water, table, no pressure) is the obvious candidate. The recipe timeline and the three Menu Bench conflicts go once this is written into the plan. *(stated 2026-09-28)*
+- **Liner:** ordered/owned. *(stated 2026-09-28)*

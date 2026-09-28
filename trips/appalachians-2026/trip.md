@@ -26,7 +26,7 @@ tags:
   - first-come
   - solo
   - lodging gap
-next: Call Arrowhead 304-900-5501 — the reservation moved to Oct 16–18 by phone, leaving Oct 15 with no bed and nothing in writing
+next: "Oct 15 is settled: a first-come NRG primitive site, chosen at Canyon Rim Visitor Center on arrival. Before leaving: build the food list from staples + 1–2 real cooks (Kentucky lesson), and print the Hurricane confirmation"
 booking:
   - system: private
     what: Arrowhead Bike Farm (Oct 16–18)
@@ -40,7 +40,7 @@ booking:
     what: Hurricane Campground (Oct 24)
     target: 2026-10-24
     booked: true
-updated: 2026-09-04
+updated: 2026-09-28
 map:
   center: [ 37.2, -81.9 ]
   zoom: 7
@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@c6e693c by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@a55e491 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
 
 # Bridge Day + Southern Appalachians
 

@@ -33,8 +33,8 @@ Rebuilt for cold in 2026. This was the weak link and no longer is — the only o
     answeredBy: kentucky-2026
     answer: "Partly. Warm with no issues at ~50°F. The 32°F half is still untested; Kentucky never got that cold. (confirmed: kentucky-2026 log, 2026-09-27)"
 - name: Sleeping bag liner
-  state: need
-  note: "For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing. Flip to `own` once bought; needed before Oct 15."
+  state: own
+  note: "Ordered/owned as of 2026-09-28 (was: need). For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing. Flip to `own` once bought; needed before Oct 15."
   question:
     text: Is it needed, or does the Siesta 20 cover the mid-30s on its own?
     answeredBy: kentucky-2026
