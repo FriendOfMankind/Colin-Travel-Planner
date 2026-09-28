@@ -14,7 +14,7 @@ declined:
     terms: [ via ferrata ]
   - what: The Cumberland Falls moonbow
     terms: [ moonbow ]
-  - what: Stargazing
+  - what: Dedicated stargazing sessions (driving to a dark-sky site, waiting up for it). Stars seen during a night hike or night exploring are great; narrowed 2026-09-27, was "Stargazing"
     terms: [ stargazing, stargaze ]
   - what: Breweries
     terms: [ brewery, breweries ]
@@ -36,4 +36,4 @@ declined list is from the Sept 2026 handoff; Maui was planned earlier. The
 validator now reports this every run rather than leaving it as a comment
 nobody reads. Resolve it in one direction — don't silence it.
 
-⚠️ **New conflict, 2026-09-27, unresolved:** stargazing is declined, but watching the stars at Blevins farm on the Kentucky trip was part of the highlight. Maybe the decline was about *dedicated* stargazing sessions (driving to a dark-sky site, waiting up), and stars as a side effect of a night hike are fine. Ask Colin; don't pick. (`trips/kentucky-2026/log.md`)
+**Resolved 2026-09-27:** stars at Blevins farm during a night exploration were part of a highlight. The rule is *incidental is great, dedicated sessions are no*, and the entry above was narrowed to match. *(confirmed: kentucky-2026 log)* The Maui 5/19 "dark-sky window" still needs checking against this once Maui is migrated: is it a dedicated session, or part of something else?

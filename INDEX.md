@@ -19,7 +19,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · planned · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro in progress · updated 2026-09-06
+- **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · planned · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-06
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 
 ## Per trip, which file answers what

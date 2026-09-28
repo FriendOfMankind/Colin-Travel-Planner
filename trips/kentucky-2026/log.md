@@ -61,7 +61,7 @@ Recorded in the retro interview. The planned menu (frozen chili, burritos, ribey
 | 1 Tue | Drive; Nada Tunnel; Princess/Whistling/Angel Windows; Sky Bridge Station + The Brick; Chimney Top sunset | **Basically as planned** | none |
 | 2 Wed | 5:45 wake, dark walk out Auxier Ridge for sunrise, out-and-back; lecture 11–3; Rock Bridge + Creation Falls; chili at camp | **Stayed at camp until the lecture ended.** Then **Double Arch + Courthouse Rock / Auxier Ridge** in the afternoon. That was all | Dawn walk skipped; Rock Bridge skipped; Double Arch, which the plan called "permanently impossible", happened after class |
 | 3 Thu | Gray's Arch; Miguel's lunch; Kroger (block ice + rotisserie chicken); drive south; Angel Falls + boulder dinner; camp before dark | **No Gray's Arch.** Did **Rock Bridge + Creation Falls** (Wednesday's cut, recovered), then **Angel Falls**, then **East Rim + Sunset Point**. No rotisserie chicken | Did *more* than planned, including the rim sunset the plan had moved off Thursday to make the day "survivable" |
-| 4 Fri | Twin Arches; Slave Falls + Needle Arch; afternoon off; East Rim sunset | Twin Arches (Divide Road easy gravel). **Blevins farm at sunset instead of the East Rim**, explored the abandoned farm after dark by full moon and headlamp, heard owls, watched stars. "Scary but awesome… felt like Slenderman." Slave Falls: *not asked* | Swapped a viewpoint for night exploration of a ruin. **The highlight of the trip** |
+| 4 Fri | Twin Arches; Slave Falls + Needle Arch; afternoon off; East Rim sunset | Twin Arches (Divide Road easy gravel), **Slave Falls + Needle Arch**. **Blevins farm at sunset instead of the East Rim**, explored the abandoned farm after dark by full moon and headlamp, heard owls, watched stars. "Scary but awesome… felt like Slenderman." | Swapped a viewpoint for night exploration of a ruin. A highlight |
 | 5 Sat | Honey Creek loop CCW, 6 h budget | Full loop, **counter-clockwise, ~3.5 h** | 2.5 h faster |
 | 6 Sun | Blue Heron; hour at Devil's Jump; Whistle Stop lunch; 7 h home | Blue Heron: **"wasn't that cool, very polished, not much to explore."** Then **booked it home** | Devil's Jump and the Whistle Stop dropped |
 
@@ -76,7 +76,7 @@ Also: **Miguel's was Wednesday dinner, not Thursday lunch.** "Very good." Day 2 
 5. **Energy runs out on the last day, not in the middle.** Sunday's stops went; it was straight home.
 6. **Restaurants that earned it:** Miguel's (very good). Sky Bridge Station and The Brick happened on Day 1; no verdict recorded yet.
 
-## Retro (in progress, started 2026-09-27)
+## Retro (2026-09-27)
 
 Answers so far are from the retro interview on 2026-09-27; a ticked box has its answer after the ✅. These are the questions the plan couldn't answer and the trip could. They're collected here so the retro interview (`/retro kentucky-2026`) asks them instead of a generic "how was it?". Each answer flows somewhere specific, shown after the →.
 
@@ -87,13 +87,15 @@ Answers so far are from the retro interview on 2026-09-27; a ticked box has its 
 
 **Plan questions the field answered**
 - [x] Wednesday's K-L2 quesadillas during the lecture: did it work? ✅ **Cooked during the lecture itself. Not a big deal.** The "conflict" warning was wrong, and the "workable" side of the contradiction wins. → `kitchen/`, and settles the contradiction
-- [ ] Angel Falls: clifftop overlook, riverside rapids, or both? → this log; the answer helps anyone planning Big South Fork again
+- [ ] Angel Falls: clifftop overlook, riverside rapids, or both? *Not asked; hiked it Thursday.*
 - [x] Divide Road to Twin Arches: maintained gravel, or did you turn around? ✅ **Easy gravel.** → this log + `me/profile.md` vehicle notes if it changes the rule
 - [x] Honey Creek: did it happen, and did the one-hour-per-mile budget hold? ✅ **Full loop, ~3.5 h** against a 6 h budget. Direction not yet confirmed. → this log + `me/hiking.md`
-- [ ] Did the block of ice from Kroger get the rotisserie chicken safely to Friday dinner? → `kitchen/` cooler doctrine
+- [x] Did the block ice keep the rotisserie chicken? ✅ Moot: no chicken bought, and the cooler held only 1 lb ground beef and veggies.
 
 **Preference questions**
-- [ ] Did "hike out, sit up to an hour, hike back" feel right in practice, or too slow? → `me/hiking.md`
+- [x] Did "one outing per day" hold up? ✅ **"One outing a day is realistic."** Thursday's five stops were along the transfer drive.
 - [x] Dried figs (Day 4) and dried mango (Day 5): any OAS reaction? Salsa or pepperoncini? ✅ **Didn't eat any of them.** So dried fruit is still an open allergy question, and the planned lunches weren't what got eaten. What was eaten instead: see *What actually got eaten* above. → `me/food.md` (closes an open allergy question)
-- [ ] Restaurants: Sky Bridge Station hot dogs, The Brick, Miguel's, the Whistle Stop. Worth it? → `me/food.md`, and the "restaurants for a named dish" rule
-- [ ] Best moment, worst moment, and what you'd cut → this log
+- [x] Restaurants? ✅ Miguel's (Wed dinner): very good. Whistle Stop: skipped. Sky Bridge Station / The Brick: no verdict given.
+- [x] Best moment, worst moment? ✅ **Best: Honey Creek.** Close second: Blevins farm at night. Letdown: Blue Heron (too polished).
+
+**Status:** the retro is complete. The trip should become `status: done` in the registry. During migration the registry lives in Trees, so that edit goes there first, then gets re-imported.

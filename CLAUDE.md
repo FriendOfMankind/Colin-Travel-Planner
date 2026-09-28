@@ -34,6 +34,12 @@ This repo *is* the assistant's memory. Colin asks questions and makes changes fr
 - **Hypotheses stay hypotheses.** A pattern you *infer* (e.g. "maybe mayonnaise is the problem") gets written as a hypothesis and never enforced until Colin confirms it. See the patterns section in `me/food.md`.
 - **Nothing gets deleted to make a warning go away.** Resolve it in the data or argue with it out loud.
 
+## Ask Colin, don't assume
+
+Colin wants to be asked. When a fact is missing, two files disagree, or a preference is being *inferred* rather than stated, ask him, **multiple choice where possible** (he's usually on a phone), a few questions per round, with an "Other" escape. Then write each answer to the one file it belongs in, with a provenance tag, and commit. The Kentucky retro (`trips/kentucky-2026/log.md`, 2026-09-27) is the worked example: 4 rounds that answered 3 gear questions, resolved 2 contradictions (ramen, stargazing), sharpened a principle (ruins) and produced a plan-vs-actual table.
+
+After any trip, run a retro the same way: plan vs. what actually happened, day by day, then the patterns. Plans are hypotheses; logs are evidence.
+
 ## Non-negotiables (carried over from Trees)
 
 1. **Never invent a coordinate.** `verified: false` with null lat/lng is the correct output for an unknown location. A pin 200 m off routes someone to a locked gate on a one-lane road with no cell service.
