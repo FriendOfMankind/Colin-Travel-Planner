@@ -72,3 +72,20 @@ Applied in Trees and re-imported, after Colin said go:
 - **Ruins:** the Nuttallburg Conveyor Trail climb is core, not optional. **Kaymoor Miners Trail added Day 4 at 7:55.** Thurmond cut to a 25-min look. Sliding Rock dropped, and Looking Glass Falls is optional. Arrival at Davidson River moves from ~2:30 to ~3:50, and the Starlink test stays.
 - **Found during the merge:** the Trees default branch had a Meijer-first shopping plan with **a Sept 13 crate run.** If that crate was bought, use it first; the provisions list now says how. **Bought** *(confirmed 2026-09-28)*. Use it first: maple packets in the power oats (add whey), pecans on top, and the dried fruit waits on the allergy question.
 - Trees also added 4 never-confirmed utensils (long spoon, silicone spatula, wash kit, bandanas), ported to `me/gear.md` as `unknown`.
+
+## 2026-09-28 · Dialled in after the traveller interview
+
+The interview rewrote several standing assumptions (`me/principles.md` 4, `me/camping.md`, `me/travel-style.md`, `me/hiking.md`). Applied to this trip, in Trees and re-imported:
+
+| Day | Change | Why |
+|---|---|---|
+| 3 Bridge Day | Wake 6:45, not 5:45. **Only valid if the parking call says there's space around 8:00**; otherwise fall back to the early plan | Slow mornings. Bridge Day stays as the one deliberate crowd *(Colin: "exception, keep it")* |
+| 5 Parkway | 5 hikes → Skinny Dip, Graveyard Fields, Sam Knob, 1h45 of protected slack, then **Black Balsam at sunset (6:52)** with thermos dinner on the summit | "Too much planned" is the known failure mode; photography "a lot"; sunsets over sunrises |
+| 6 Looking Glass | One outing after a slow morning; **Daniel Ridge cut**; an afternoon shower block | Same |
+| 10 Mount Rogers | Wake 7:00, not 5:45; arrive ~10:15 | Slow mornings, but this creates a **Saturday-crowd** problem at Grayson, now an open question |
+
+**Kept on purpose:** the 5:45 on Oct 22 (the race for a first-come FS 210 site) and the Oct 23 **Hawksbill sunrise**. Colin chose both as earned exceptions.
+
+**Rest day:** Oct 21, the lecture day with a light afternoon, counts. *(Colin, 2026-09-28)*
+
+**Still at odds with his stated preferences, and left as they are:** Oct 15 and both FS 210 nights have no water or showers, and FS 210 runs mid-30s, below his "40s fine". These are the price of the trip's structure (a first-come Linville corridor). Worth a line in the retro: did three no-shower nights and two cold ones cost more than the scenery was worth?

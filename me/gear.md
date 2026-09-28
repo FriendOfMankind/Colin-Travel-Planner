@@ -88,6 +88,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: In the pack regardless of the hour.
 - name: Camp shoes
   state: own
+- name: Packraft
+  state: rent
+  note: "Only if a trip needs it: rent it or decide per trip, not a purchase. Outfitter floats and guided rafts cover most rivers. *(stated 2026-09-28)* See [adventures.md](adventures.md)."
 ```
 
 ## Clothing — the layer system
@@ -181,15 +184,30 @@ Counts are transcribed from the Maui 2027 packing list, which is the only place 
 
 One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
+**History:** on Sept 14 2026 Colin said most of this category was *not* owned; it had been marked `own` since the file was written, copied from a packing list. That correction sat unmerged on a Trees branch and never reached this file. **Re-confirmed item by item on 2026-09-28**, below.
+
 ```yaml
-- name: One burner, pot, pan, mug, spork
+- name: One burner
   state: own
+  note: "*(confirmed Sept 16 2026)* Confirm it takes screw-on isobutane before buying canisters."
+- name: 2L pot with lid
+  state: own
+  note: "*(confirmed 2026-09-28)*"
+- name: 8–10 in pan
+  state: own
+  note: "*(confirmed 2026-09-28)*"
+- name: Insulated mug + spork
+  state: own
+  note: "*(confirmed 2026-09-28)*"
+- name: Folding knife
+  state: own
+  note: "*(confirmed 2026-09-28)*"
 - name: Wide-mouth thermos
   state: own
-  note: "**One, and staying at one — decided Sept 2026.** Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped. Plan around that rather than around a second flask. A second one would unlock the pre-dawn hot chocolate."
-- name: 48 qt cooler
+  note: "*(confirmed owned 2026-09-28; how many not recorded.)* **One, and staying at one — decided Sept 2026.** Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped. Plan around that rather than around a second flask. A second one would unlock the pre-dawn hot chocolate."
+- name: Cooler
   state: own
-  note: Frozen meals in flat quart bags *are* the ice. Holds ~2.5 days unaided in 75°F — buy a **block** of ice at resupply, not cubes.
+  note: "*(confirmed owned 2026-09-28; size not recorded. This entry used to say 48 qt, which was never confirmed.)* Frozen meals in flat quart bags *are* the ice. Buy a **block** of ice at resupply, not cubes."
   question:
     text: Does the frozen-meals-as-ice system actually reach the first resupply, and does the breakfast burrito survive to day 8?
     answeredBy: appalachians-2026
@@ -201,11 +219,11 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   state: need
   note: "Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down. Confirm the burner takes screw-on isobutane before buying."
 - name: Long-handled spoon
-  state: unknown
-  note: "Added in Trees Sept 2026 because it rode on both 2026 kit lists without being here. Needed for eating out of a deep bag or thermos (the Oct 23 oats bag). Never confirmed owned."
+  state: need
+  note: "**Not owned** *(2026-09-28)*. **Buy before Oct 15:** the Oct 23 power-oats bag and thermos meals are eaten from deep containers."
 - name: Thin silicone spatula
-  state: unknown
-  note: "A spork will fail on eggs, and the potato scramble and quesadillas both need one. Never confirmed owned."
+  state: need
+  note: "**Not owned** *(2026-09-28)*. Buy before Oct 15: the potato scramble (3 mornings) and the lecture-day quesadillas need one; a spork fails on eggs."
 - name: Wash basin, sponge, biodegradable soap
   state: unknown
   note: "Every draining or high-cleanup meal assumes these exist. Never confirmed owned."

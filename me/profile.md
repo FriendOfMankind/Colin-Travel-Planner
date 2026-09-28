@@ -9,7 +9,13 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 - **Name:** Colin
 - **Home base:** Avon, Ohio — west Cleveland metro. Drive times are measured from there; flights from CLE.
 - **Group:** Solo. One person, one tent, one portion.
-- **Trip shape:** 2–5 campgrounds per trip, 5–10 nights, 4–8 hikes. Occasional motel night for a shower.
+- **Trip shape:** 2–5 campgrounds per trip, 5–10 nights, 4–8 hikes.
+- **Showers: daily if possible.** Prefer campgrounds with showers; a no-shower stretch needs a reason. *(stated 2026-09-28; was: "occasional motel night for a shower")*
+
+## Experience
+
+- **Plenty of car camping before the solo trips, mostly with other people.** Long road trips include **Colorado and back** and **Las Vegas and back** from Ohio. *(recalled, stated 2026-09-28; dates and details not recorded)*
+- Solo planning in this system started in 2026. Kentucky (Sept 2026) is the first logged solo trip.
 
 ## Vehicle
 

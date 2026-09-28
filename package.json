@@ -9,6 +9,7 @@
     "import": "node tools/import-trees.mjs"
   },
   "devDependencies": {
+    "marked": "^14.1.4",
     "yaml": "^2.9.1"
   }
 }

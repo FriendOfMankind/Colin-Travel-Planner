@@ -6,8 +6,10 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## About Colin: `me/`
 
+- `me/adventures.md`: Beyond hiking: rivers, caves, wildlife, fossils and rare natural things. The swap rule for when one earns a day, and the limits on each.
 - `me/booking.md`: When each reservation system opens. The Agenda derives real dates from these; never hand-compute one.
 - `me/calendar.md`: Term dates, blocked dates and the horizon. Free windows are computed from this, never listed by hand.
+- `me/camping.md`: Camp style: which sites he enjoys, what evenings are for, rain days, and the cold he's comfortable in.
 - `me/checklist.md`: Runs on every trip, whatever the destination.
 - `me/declined.md`: Activities considered and declined. Re-proposing these wastes his time.
 - `me/food.md`: Allergy, spice ceiling, calorie target, what's never on the menu, and dishes already rejected.
@@ -15,6 +17,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - `me/hiking.md`: Distance and gain ceiling, appetite for difficulty, crowds, and the shape of a good day (hike out, sit, hike back).
 - `me/principles.md`: The locked rule set every itinerary is built to. Breaking one needs a written reason.
 - `me/profile.md`: Who, from where, in what car. The facts every plan starts from.
+- `me/travel-style.md`: What makes a trip great, where trips go wrong, how detailed a plan should be, and how far he'll drive.
 - `me/working-rules.md`: How Claude should behave when working with Colin.
 
 ## Food and the camp kitchen: `kitchen/`
@@ -23,7 +26,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 9 open questions · 9/38 places located · log 5 entries · updated 2026-09-28
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 10 open questions · 9/38 places located · log 6 entries · updated 2026-09-28
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · planned · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-06
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
