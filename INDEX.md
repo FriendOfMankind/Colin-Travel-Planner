@@ -17,6 +17,10 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - `me/profile.md`: Who, from where, in what car. The facts every plan starts from.
 - `me/working-rules.md`: How Claude should behave when working with Colin.
 
+## Food and the camp kitchen: `kitchen/`
+
+- `kitchen/staples.md`: Trunk-staple foods with nutrition read off real labels, and the daily menu built from them against the macro targets in me/food.md.
+
 ## Planned trips
 
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · planned · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-06

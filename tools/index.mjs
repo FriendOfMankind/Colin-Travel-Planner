@@ -35,6 +35,15 @@ export function buildIndex() {
     out.push(`- \`me/${f}\`: ${data.summary ?? "(no summary in frontmatter)"}`);
   }
 
+  const kitchen = ls("kitchen").filter((f) => f.endsWith(".md")).sort();
+  if (kitchen.length) {
+    out.push("", "## Food and the camp kitchen: `kitchen/`", "");
+    for (const f of kitchen) {
+      const { data } = splitFrontmatter(read(`kitchen/${f}`));
+      out.push(`- \`kitchen/${f}\`: ${data.summary ?? "(no summary in frontmatter)"}`);
+    }
+  }
+
   const trips = ls("trips").filter((s) => existsSync(join(ROOT, "trips", s, "trip.md"))).sort();
   const rows = trips.map((slug) => {
     const { registry: r, page } = parseTrip(read(`trips/${slug}/trip.md`));
