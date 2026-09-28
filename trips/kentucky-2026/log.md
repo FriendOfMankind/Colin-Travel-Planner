@@ -43,6 +43,17 @@ open questions rather than silent edits:
 Coordinates: AllTrails does not return trailhead coordinates, so every
 waypoint here is verified:false and unplotted. Use the Places tab.
 ==========================================================================
+## 2026-09-27 · What actually got eaten
+
+Recorded in the retro interview. The planned menu (frozen chili, burritos, ribeye, tortilla plates with figs and mango) largely didn't happen:
+
+- Breakfast: oatmeal every day.
+- Lunch: ramen and mac & cheese most days, plus some grocery-store lunches (chicken tenders and similar).
+- Dinner: boiled carb + canned/packaged meat + a canned extra. Brami pasta with sauce and a chicken pouch or sausage. Did the couscous: black beans good, sun-dried tomatoes and chickpeas not so much. Instant rice underwhelming.
+- *"I ended up going back to things I had in stock, staples."*
+
+**Lesson for the kitchen:** a 23-recipe library with freeze-flat meals is the plan Colin wrote; a trunk full of staples is what Colin eats. Design future trips around the second, and treat elaborate recipes as optional upgrades. → `me/food.md`
+
 ## Retro (in progress, started 2026-09-27)
 
 Answers so far are from the retro interview on 2026-09-27; a ticked box has its answer after the ✅. These are the questions the plan couldn't answer and the trip could. They're collected here so the retro interview (`/retro kentucky-2026`) asks them instead of a generic "how was it?". Each answer flows somewhere specific, shown after the →.
@@ -61,6 +72,6 @@ Answers so far are from the retro interview on 2026-09-27; a ticked box has its 
 
 **Preference questions**
 - [ ] Did "hike out, sit up to an hour, hike back" feel right in practice, or too slow? → `me/hiking.md`
-- [x] Dried figs (Day 4) and dried mango (Day 5): any OAS reaction? Salsa or pepperoncini? ✅ **Didn't eat any of them.** So dried fruit is still an open allergy question, and the planned lunches weren't what got eaten. What was eaten instead is still unknown. → `me/food.md` (closes an open allergy question)
+- [x] Dried figs (Day 4) and dried mango (Day 5): any OAS reaction? Salsa or pepperoncini? ✅ **Didn't eat any of them.** So dried fruit is still an open allergy question, and the planned lunches weren't what got eaten. What was eaten instead: see *What actually got eaten* above. → `me/food.md` (closes an open allergy question)
 - [ ] Restaurants: Sky Bridge Station hot dogs, The Brick, Miguel's, the Whistle Stop. Worth it? → `me/food.md`, and the "restaurants for a named dish" rule
 - [ ] Best moment, worst moment, and what you'd cut → this log

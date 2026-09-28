@@ -67,7 +67,28 @@ The paragraph above was written before any of this was confirmed. Current state:
 
 The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This file is the person, not the menu.
 
-## Never — coffee and beer
+## What actually works on the road (evidence)
+
+From Kentucky 2026, where the detailed meal plan mostly didn't survive contact with the trip: *"I ended up going back to things I had in stock, staples."* *(confirmed: kentucky-2026 log, 2026-09-27)*
+
+**Actually eaten, and liked:**
+- **Breakfast:** oatmeal, every day, happily.
+- **Lunch:** ramen, mac & cheese, and bought grocery-store lunches (chicken tenders and similar).
+- **Dinner:** a boiled carb + canned/packaged meat + one canned extra. Specifically:
+  - **Brami pasta + pasta sauce + meat mixed in** (chicken pouch or sausage). "Would happily eat it every night."
+  - **Couscous + black beans:** liked.
+
+**Tried, and didn't land:**
+- Sun-dried tomatoes and chickpeas in the couscous: "not as much"
+- Instant rice: "not as good as I was expecting"
+
+**The formula he actually wants** *(stated 2026-09-27)*: a meal that's **mostly shelf-stable, lives in the car trunk for the whole trip, ideally bought in bulk**, plus one or two fresh or canned add-ons (a fresh protein, a vegetable, a can of something). **About 2 options per meal slot** is enough variety. The add-on is what keeps a repeated base interesting.
+
+**Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,000 kcal. *(stated 2026-09-27)* Exact macro targets are pending body weight.
+
+⚠️ **Contradiction, unresolved:** ramen is on the rejected list below (both Menu Bench ramen dishes voted "no"), yet he ate ramen for lunch most days in Kentucky. Ask which is true; don't guess.
+
+
 
 Listed in frontmatter as `avoid`; the validator greps every itinerary for those terms.
 
