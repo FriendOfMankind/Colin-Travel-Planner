@@ -78,6 +78,10 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
   - **Brami pasta + pasta sauce + meat mixed in** (chicken pouch or sausage). "Would happily eat it every night."
   - **Couscous + black beans:** liked.
 
+**The cooler barely mattered.** The whole trip's cooler load was one pound of frozen ground beef (mixed into mac & cheese) and some vegetables. No rotisserie chicken, no freezer meals. A small cooler, or none, may be enough when the plan is trunk staples. *(confirmed: kentucky-2026 log)*
+
+**Restaurants:** Miguel's Pizza (Slade KY), "very good." *(confirmed: kentucky-2026 log)*
+
 **Tried, and didn't land:**
 - Sun-dried tomatoes and chickpeas in the couscous: "not as much"
 - Instant rice: "not as good as I was expecting"

@@ -19,3 +19,4 @@ in its Notes, not a quiet exception.
 8. **Every day carries a slack line** saying how much margin exists and what gets cut first.
 9. **Cook at camp; eat out for a named dish.** The restaurant entry is the order, not the address.
 10. **Ruins count as scenery.** Coal towns, homesteads, tipples and ghost structures are destinations, not filler.
+    **Sharpened 2026-09-27:** *explorable, unrestored* ruins. Abandoned farm by moonlight and headlamp (Blevins farm, Big South Fork) was the trip's highlight; the stabilized, interpretive Blue Heron coal town was "very polished, not much to explore." Prefer ruins you can wander over ones behind signage. *(confirmed: kentucky-2026 log)*

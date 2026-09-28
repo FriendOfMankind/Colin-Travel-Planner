@@ -60,12 +60,21 @@ Recorded in the retro interview. The planned menu (frozen chili, burritos, ribey
 |---|---|---|---|
 | 1 Tue | Drive; Nada Tunnel; Princess/Whistling/Angel Windows; Sky Bridge Station + The Brick; Chimney Top sunset | **Basically as planned** | none |
 | 2 Wed | 5:45 wake, dark walk out Auxier Ridge for sunrise, out-and-back; lecture 11–3; Rock Bridge + Creation Falls; chili at camp | **Stayed at camp until the lecture ended.** Then **Double Arch + Courthouse Rock / Auxier Ridge** in the afternoon. That was all | Dawn walk skipped; Rock Bridge skipped; Double Arch, which the plan called "permanently impossible", happened after class |
-| 3 Thu | *pending* | | |
-| 4 Fri | *pending* | | |
-| 5 Sat | Honey Creek loop, 6 h budget | Full loop, ~3.5 h | 2.5 h faster |
-| 6 Sun | *pending* | | |
+| 3 Thu | Gray's Arch; Miguel's lunch; Kroger (block ice + rotisserie chicken); drive south; Angel Falls + boulder dinner; camp before dark | **No Gray's Arch.** Did **Rock Bridge + Creation Falls** (Wednesday's cut, recovered), then **Angel Falls**, then **East Rim + Sunset Point**. No rotisserie chicken | Did *more* than planned, including the rim sunset the plan had moved off Thursday to make the day "survivable" |
+| 4 Fri | Twin Arches; Slave Falls + Needle Arch; afternoon off; East Rim sunset | Twin Arches (Divide Road easy gravel). **Blevins farm at sunset instead of the East Rim**, explored the abandoned farm after dark by full moon and headlamp, heard owls, watched stars. "Scary but awesome… felt like Slenderman." Slave Falls: *not asked* | Swapped a viewpoint for night exploration of a ruin. **The highlight of the trip** |
+| 5 Sat | Honey Creek loop CCW, 6 h budget | Full loop, **counter-clockwise, ~3.5 h** | 2.5 h faster |
+| 6 Sun | Blue Heron; hour at Devil's Jump; Whistle Stop lunch; 7 h home | Blue Heron: **"wasn't that cool, very polished, not much to explore."** Then **booked it home** | Devil's Jump and the Whistle Stop dropped |
 
-**Emerging pattern (hypothesis, one data point):** a pre-dawn start squeezed in *before* a fixed commitment didn't happen. The same objective moved to the afternoon *after* the commitment did. Two more trips of evidence before it becomes a planning rule. Watch for it on the October lecture Wednesday.
+Also: **Miguel's was Wednesday dinner, not Thursday lunch.** "Very good." Day 2 dinner at camp didn't happen.
+
+### What the gap says
+
+1. **The plan underestimated him.** Honey Creek took 3.5 h against 6. Thursday carried five destinations, the exact load the plan had cut. The plan was built for a slower, more cautious traveler than the one who showed up. *(evidence: this trip only)*
+2. **Pre-dawn before a commitment didn't happen.** The Auxier sunrise walk before the lecture was skipped, and the ridge was done after class instead. Watch for this on the October lecture Wednesday. *(hypothesis, one data point)*
+3. **Unrestored ruins at night > polished interpretive sites.** Blevins farm by moonlight was the high point; Blue Heron was a letdown. → `me/principles.md` (principle 10 sharpened)
+4. **The cooler was barely used.** One pound of frozen ground beef (mixed into mac & cheese) and some veggies. No rotisserie chicken, no Zone 1 freezer meals. The cooler-zone doctrine was designed for a trip that didn't happen. → `me/food.md`
+5. **Energy runs out on the last day, not in the middle.** Sunday's stops went; it was straight home.
+6. **Restaurants that earned it:** Miguel's (very good). Sky Bridge Station and The Brick happened on Day 1; no verdict recorded yet.
 
 ## Retro (in progress, started 2026-09-27)
 

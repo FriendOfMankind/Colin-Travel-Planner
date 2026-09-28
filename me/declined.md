@@ -35,3 +35,5 @@ the Maui 2027 page schedules a dark-sky window on the morning of 5/19. The
 declined list is from the Sept 2026 handoff; Maui was planned earlier. The
 validator now reports this every run rather than leaving it as a comment
 nobody reads. Resolve it in one direction — don't silence it.
+
+⚠️ **New conflict, 2026-09-27, unresolved:** stargazing is declined, but watching the stars at Blevins farm on the Kentucky trip was part of the highlight. Maybe the decline was about *dedicated* stargazing sessions (driving to a dark-sky site, waiting up), and stars as a side effect of a night hike are fine. Ask Colin; don't pick. (`trips/kentucky-2026/log.md`)
