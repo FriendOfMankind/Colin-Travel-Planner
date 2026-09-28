@@ -44,7 +44,7 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 
 *(stated 2026-09-28)*
 
-- **Big mammals** (elk, bears, wild horses): dawn and dusk. That lines up with principle 4 (dawn starts).
+- **Big mammals** (elk, bears, wild horses): dawn and dusk. **Dusk is the default** (principle 4: slow mornings, sunsets over sunrises); a dawn outing for wildlife has to earn the alarm like any other. *(updated 2026-09-28; was "lines up with principle 4 (dawn starts)", which was rewritten the same day)*
 - **Weird and rare small things:** salamanders, hellbenders, rare orchids, synchronous fireflies and the like.
 - **Whatever is rare locally:** for each destination, say what's special *there*, not a generic list.
 - **Rare natural things:** rare plants, champion trees, odd geology.
