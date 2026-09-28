@@ -1,6 +1,6 @@
 ---
 topic: staples
-summary: "The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two options per meal slot."
+summary: "The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners."
 targets:
   kcal: 3000
   protein_g: [130, 150]
@@ -43,6 +43,22 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 - **D1 · Brami + sauce + chicken.** Boil a pot of water, cook the pasta, and add frozen broccoli for the last 3 minutes. Drain. Stir in marinara and 2 chicken pouches, warm through, and top with parmesan. *Fresh upgrade:* brown 4 oz ground beef in the pot first and set it aside on the lid, then use it in place of the chicken.
 - **D2 · Cheeseburger mac.** Brown 4 oz ground beef in the pot. Add water and pasta and boil, adding the peas for the last 3 min. Pour off most of the water, leaving a splash. Stir in milk powder and cheddar until it's creamy. (No butter needed: the beef brings the fat.)
 
+**More dinners** *(added 2026-09-28; Colin picked these from his own Menu Bench "yes" votes)*
+- **D3 · Kielbasa + white beans + Brami.** The Brami formula with a different protein. Boil the pasta with the broccoli, drain most of the water, then add the drained cannellini and sliced kielbasa and warm through with parmesan and a little oil.
+- **D4 · Tortellini in broth.** The most forgiving meal here, because it's a soup. Fill the pot with however much water, add 2 bouillon cubes and the dried tortellini, and boil until tender (~10 min for dried). Whatever water is left is the broth; add more if it boils down. Drop in the peas and chicken for the last 2 minutes, and top with parmesan. Good as a cold-morning lunch too.
+- **D5 · Pierogi + kielbasa.** Boil the frozen pierogi for ~4 min (they float when done) with the green beans, then drain. Put them back in the pot with butter and sliced kielbasa and let them brown for a few minutes. The frozen box is ice on day one, so this is a first- or second-night dinner.
+- **D6 · Trunk chili + Fritos.** Everything shelf-stable: dump in drained kidney + black beans, a can of diced tomatoes with its juice, mild chili seasoning and 2 chicken pouches. Add water until it looks like chili and simmer 10 min. Crush Fritos on top, add cheese. *Fresh upgrade:* brown 4 oz ground beef first in place of the chicken.
+- **D7 · Stove Top + chicken, the full version.** Thanksgiving in one pot, and a thru-hiker classic because the stuffing does the water math for you:
+  1. Boil roughly a mug and a half of water with the butter, half the gravy packet and the frozen green beans. The gravy turns plain stuffing into a real dinner.
+  2. Add both chicken pouches, then kill the heat.
+  3. Dump in half a box of stuffing (3 oz) and stir once. Lid on, 5 minutes.
+  4. Fix it by eye: soggy means lid off and a minute back on the flame; dry and crumbly means a splash of hot water.
+
+  **It's the lightest dinner here** (~600 kcal with half a box). On a big day, use the whole box: ~+330 kcal, same pot, just more water. **Skip the dried cranberries** that usually go with it, since dried fruit is still an open allergy question in `me/food.md`.
+- **D8 · Mashed potatoes + gravy + sausage.** Brown the sliced kielbasa in the pot, add water and the peas, then stir in potato flakes and milk powder until it's thick. Make the gravy in your mug with hot water from the pot and pour it over. The mug is the one exception to one pot, because gravy needs its own container.
+
+**Kielbasa note:** it isn't a trunk item. Unopened vacuum packs keep well in a cooler, but they're a fresh add-on. The recipes use **turkey kielbasa** because regular pork kielbasa has 16 g of fat per 2 oz against 5 g, and the calculator showed fat is the macro that runs over. Use regular if you like it better and accept the fat.
+
 **Trail snacks:** a handful of trail mix, a bar, and a couple of ounces of pretzels. The pretzels are cheap, salty carbs, which the rest of the menu is short on.
 
 ## Foods
@@ -75,6 +91,19 @@ Per serving. `basis: label` came from a photo; `basis: estimate` is typical-labe
 - { id: marinara,     name: Jarred marinara, serving: 1/2 cup, kcal: 70, protein_g: 2, carbs_g: 10, fat_g: 2.5, basis: estimate }
 - { id: broccoli,     name: Frozen broccoli (add-on), serving: 1 cup, kcal: 25, protein_g: 2.5, carbs_g: 4, fat_g: 0.3, basis: estimate }
 - { id: peas,         name: Frozen peas (add-on), serving: 1/2 cup, kcal: 60, protein_g: 4, carbs_g: 10, fat_g: 0.3, basis: estimate }
+- { id: kielbasa,     name: Kielbasa, pork/beef smoked (cooler), serving: 2 oz (56 g), kcal: 180, protein_g: 7, carbs_g: 3, fat_g: 16, basis: estimate }
+- { id: turkey_kielbasa, name: Turkey kielbasa, smoked (cooler), serving: 2 oz (56 g), kcal: 90, protein_g: 8, carbs_g: 4, fat_g: 5, basis: estimate }
+- { id: cannellini,   name: Cannellini beans, canned, drained, serving: 1/2 cup (~1/3 can), kcal: 100, protein_g: 7, carbs_g: 18, fat_g: 0.5, basis: estimate }
+- { id: kidney_beans, name: Kidney or pinto beans, canned, drained, serving: 1/2 cup, kcal: 110, protein_g: 7, carbs_g: 20, fat_g: 0.5, basis: estimate }
+- { id: tortellini,   name: Dried cheese tortellini (shelf-stable), serving: 1 cup dry (~75 g), kcal: 280, protein_g: 12, carbs_g: 42, fat_g: 7, basis: estimate }
+- { id: bouillon,     name: Chicken bouillon cube or tsp, serving: 1 cube, kcal: 10, protein_g: 0.5, carbs_g: 1, fat_g: 0.5, basis: estimate }
+- { id: pierogi,      name: Frozen potato & cheese pierogi, serving: 3 pierogi (~120 g), kcal: 200, protein_g: 6, carbs_g: 33, fat_g: 4.5, basis: estimate }
+- { id: diced_tomato, name: Canned diced tomatoes, serving: 1/2 cup, kcal: 25, protein_g: 1, carbs_g: 5, fat_g: 0, basis: estimate }
+- { id: chili_mild,   name: Mild chili seasoning, serving: 1 tbsp, kcal: 25, protein_g: 1, carbs_g: 4, fat_g: 0.5, basis: estimate }
+- { id: fritos,       name: Fritos, serving: 1 oz (28 g), kcal: 160, protein_g: 2, carbs_g: 16, fat_g: 10, basis: estimate }
+- { id: stuffing,     name: Stove Top stuffing mix, dry, serving: 1 oz (28 g, 1/6 box), kcal: 110, protein_g: 3, carbs_g: 21, fat_g: 1, basis: estimate }
+- { id: gravy,        name: Gravy mix packet, brown or turkey, serving: 1 packet (makes ~1 cup), kcal: 80, protein_g: 2, carbs_g: 12, fat_g: 2, basis: estimate }
+- { id: green_beans,  name: Frozen green beans (add-on), serving: 1/2 cup, kcal: 20, protein_g: 1, carbs_g: 4, fat_g: 0, basis: estimate }
 - { id: jerky,        name: Beef jerky, serving: 1 oz (28 g), kcal: 80, protein_g: 11, carbs_g: 6, fat_g: 1, basis: estimate }
 - { id: pretzels,     name: Pretzels, serving: 1 oz (28 g), kcal: 110, protein_g: 3, carbs_g: 23, fat_g: 1, basis: estimate }
 - { id: trail_mix,    name: Trail mix with roasted nuts, serving: 1/4 cup (40 g), kcal: 190, protein_g: 5, carbs_g: 18, fat_g: 12, basis: estimate }
@@ -104,6 +133,24 @@ Quantities are in *servings* of each food above.
 - id: D2
   name: Cheeseburger mac
   items: { brami: 2.5, milk_powder: 1, cheddar: 1.5, ground_beef: 1, peas: 1 }
+- id: D3
+  name: Kielbasa + white beans + Brami
+  items: { brami: 2.5, cannellini: 2, turkey_kielbasa: 2, parmesan: 1, broccoli: 1, olive_oil: 0.5 }
+- id: D4
+  name: Tortellini in broth
+  items: { tortellini: 2, bouillon: 2, chicken_pouch: 1, parmesan: 1, peas: 1 }
+- id: D5
+  name: Pierogi + kielbasa
+  items: { pierogi: 3, turkey_kielbasa: 2, butter: 0.5, green_beans: 1 }
+- id: D6
+  name: Trunk chili + Fritos
+  items: { kidney_beans: 2, black_beans: 1, diced_tomato: 2, chili_mild: 1, chicken_pouch: 2, fritos: 1.5, cheddar: 1 }
+- id: D7
+  name: Stove Top + chicken + gravy + green beans
+  items: { stuffing: 3, chicken_pouch: 2, butter: 0.5, gravy: 0.5, green_beans: 1 }
+- id: D8
+  name: Mashed potatoes + gravy + sausage
+  items: { potato_flakes: 4, milk_powder: 1, gravy: 1, turkey_kielbasa: 2, peas: 1 }
 - id: S
   name: Trail snacks (a handful of trail mix, a bar, 2 oz pretzels)
   items: { trail_mix: 1, bar: 1, pretzels: 2 }
@@ -118,6 +165,9 @@ Quantities are in *servings* of each food above.
 - { name: "Day A: B1 · L2 · D1 · snacks", meals: [B1, L2, D1, S] }
 - { name: "Day B: B2 · L1 · D2 · snacks", meals: [B2, L1, D2, S] }
 - { name: "Day C: B1 · L1 · D2 · snacks", meals: [B1, L1, D2, S] }
+- { name: "Day D: B1 · L2 · D7 · snacks", meals: [B1, L2, D7, S] }
+- { name: "Day E: B2 · L1 · D6 · snacks", meals: [B2, L1, D6, S] }
+- { name: "Day F: B1 · L1 · D4 · snacks", meals: [B1, L1, D4, S] }
 ```
 
 <!-- GENERATED by tools/macros.mjs — do not edit by hand -->
@@ -132,6 +182,12 @@ Quantities are in *servings* of each food above.
 | ≈ L2 · Couscous + black beans + chicken | 945 | 53 | 134 | 21 |
 | ≈ D1 · Brami + marinara + chicken + broccoli | 927 | 70 | 114 | 24 |
 | ≈ D2 · Cheeseburger mac | 1123 | 74 | 112 | 45 |
+| ≈ D3 · Kielbasa + white beans + Brami | 1007 | 66 | 138 | 26 |
+| ≈ D4 · Tortellini in broth | 762 | 48 | 96 | 20 |
+| ≈ D5 · Pierogi + kielbasa | 850 | 35 | 111 | 29 |
+| ≈ D6 · Trunk chili + Fritos | 920 | 64 | 98 | 31 |
+| ≈ D7 · Stove Top + chicken + gravy + green beans | 600 | 41 | 73 | 14 |
+| ≈ D8 · Mashed potatoes + gravy + sausage | 890 | 40 | 137 | 20 |
 | ≈ S · Trail snacks (a handful of trail mix, a bar, 2 oz pretzels) | 660 | 21 | 108 | 19 |
 | OLD-B · For comparison: 3 Quaker maple packets | 480 | 12 | 99 | 6 |
 
@@ -142,11 +198,14 @@ Quantities are in *servings* of each food above.
 | Day A: B1 · L2 · D1 · snacks | 3512 | 199 | 475 | 98 | protein +49, carbs +25, fat +13 |
 | Day B: B2 · L1 · D2 · snacks | 3357 | 172 | 416 | 115 | protein +22, fat +30 |
 | Day C: B1 · L1 · D2 · snacks | 3513 | 186 | 450 | 114 | protein +36, fat +29 |
+| Day D: B1 · L2 · D7 · snacks | 3185 | 170 | 433 | 87 | protein +20, fat +2 |
+| Day E: B2 · L1 · D6 · snacks | 3154 | 162 | 403 | 101 | protein +12, fat +16 |
+| Day F: B1 · L1 · D4 · snacks | 3152 | 160 | 434 | 89 | protein +10, fat +4 |
 
 <!-- /GENERATED -->
 
 ## Shopping list: bulk, lives in the trunk
 
-Oats (big canister) · whole milk powder · whey · peanut butter · brown sugar · plain potato flakes · real bacon bits · ramen blocks · couscous · black beans (pull-tab cans) · mild taco seasoning · chicken pouches or cans · beef jerky · pretzels · Brami (or another bean/lentil pasta) · jarred marinara · parmesan · olive oil (squeeze bottle) · trail mix · bars.
+Oats (big canister) · whole milk powder · whey · peanut butter · brown sugar · plain potato flakes · real bacon bits · ramen blocks · couscous · black beans (pull-tab cans) · mild taco seasoning · chicken pouches or cans · beef jerky · pretzels · Brami · dried tortellini · bouillon · Stove Top · gravy packets · kidney + cannellini beans · diced tomatoes · mild chili seasoning · Fritos (or another bean/lentil pasta) · jarred marinara · parmesan · olive oil (squeeze bottle) · trail mix · bars.
 
-**Fresh add-ons (cooler, optional):** eggs, cheddar, butter, ground beef, frozen broccoli and peas. The frozen veg doubles as ice for the first day or two.
+**Fresh add-ons (cooler, optional):** eggs, cheddar, butter, ground beef, turkey kielbasa, frozen pierogi, frozen broccoli, peas and green beans. The frozen veg doubles as ice for the first day or two.
