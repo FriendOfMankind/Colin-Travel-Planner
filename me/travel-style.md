@@ -15,7 +15,13 @@ From the traveller interview on 2026-09-28 unless marked.
 
 *(stated 2026-09-28)*
 
-**Physical challenge was not picked**, yet Honey Creek (ropes, ladders) was the best part of Kentucky. *Hypothesis:* the challenge is the price of reaching somewhere empty and scenic, not the point in itself. Unconfirmed; ask before building a trip around difficulty.
+**Challenge through scenery, not challenge for its own sake.** Honey Creek was the best part of Kentucky because *"it was beautiful and the hike was challenging because of it, so it's fun to climb up awesome unique scenery."* The challenge is part fun and part price. *(stated 2026-09-28; was a hypothesis that it was only the price)* Planning rule: hard is good when the terrain itself is the scenery (ladders, rock, falls). A long uphill grind to a view is a cost.
+
+4. **Photography: a lot.** Golden hour and angles shape where he is and when. *(stated 2026-09-28)* Planning rule: put the scenic viewpoint of the day at **sunset golden hour** (sunrise only as a rare, earned exception, per `me/principles.md` 4), and use the computed sun tables to time it.
+
+## Budget
+
+**Not tracked.** He spends what the trip takes. *(stated 2026-09-28)* Don't optimise plans for cost; pick on quality. (Trees' old intake brief said "$1–2k excluding airfare"; treat that as a rough scale, not a limit.)
 
 ## Where trips go wrong
 
