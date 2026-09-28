@@ -23,6 +23,12 @@ From the traveller interview on 2026-09-28 unless marked.
 
 **Not tracked.** He spends what the trip takes. *(stated 2026-09-28)* Don't optimise plans for cost; pick on quality. (Trees' old intake brief said "$1–2k excluding airfare"; treat that as a rough scale, not a limit.)
 
+## Crowds, water, rest
+
+- **A packed iconic viewpoint gets skipped.** Find something empty instead. *(stated 2026-09-28)* Stronger than "schedule against the crowd": if the timing can't beat the crowd, drop the spot.
+- **Swimming holes, rivers and lakes: loves them.** Plan them in when it's warm enough. *(stated 2026-09-28)*
+- **One real rest day on a 10+ day trip.** *(stated 2026-09-28)* A day taken up by the remote lecture doesn't count as rest.
+
 ## Where trips go wrong
 
 - **Too much planned.** Days get overstuffed and rushed. *(stated 2026-09-28)*

@@ -27,7 +27,12 @@ Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by a
 
 ## Difficulty
 
-Welcomes sustained low-consequence difficulty — scrambles, ladders, route-finding, wet rock. More cautious about single high-consequence moves.
+Welcomes sustained low-consequence difficulty: scrambles, ladders, wet rock, exposure and unfenced edges. More cautious about single high-consequence moves.
+
+**Solo limits** *(stated 2026-09-28)*:
+- **Comfortable:** night hiking with a headlamp, exposure and cliff edges, remote no-signal days, faint trails that can still be followed (with a GPX loaded).
+- **Not wanted:** super-technical hikes, and real route-finding where getting lost is the risk. *"I don't wanna get lost alone."* (was: "route-finding" listed as welcome)
+- Honey Creek (poor blazing, GPX loaded) sits at the edge of this and went fine. Faint trail plus GPX is the model; no trail is the line.
 
 ## Crowds
 
