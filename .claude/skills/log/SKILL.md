@@ -39,6 +39,17 @@ git push -u origin <session branch>
 
 Then open a PR into `main` and **merge it once checks pass.** Colin invoking `/log` is his approval for this one change, but only if the diff touches nothing beyond that `log.md` and `INDEX.md`. If anything else changed, stop and ask. Unmerged, the next session won't see the note, and memory that the next session can't see isn't memory.
 
+## Verify it landed. Never skip this step.
+
+A note on an unmerged branch is invisible to the next session. On 2026-09-28 a phone `/remember` wrote a whole `me/adventures.md` to its session branch, never opened a PR, and reported success anyway. Nobody knew until a later session found the branch. So after merging:
+
+```bash
+git fetch origin main && git merge-base --is-ancestor HEAD origin/main && echo IN-MAIN
+```
+
+- **`IN-MAIN` printed:** say "Saved to memory."
+- **Otherwise** (no GitHub tools, no permission, checks failed, merge refused): **say so plainly as the first line of your reply.** For example: *"⚠️ Saved on branch `<name>` but NOT in memory yet. Merge PR #N (or tell a session with GitHub access to) or the next session won't see it."* Never report success for a change that isn't on `main`.
+
 ## 4. Reply
 
 One or two lines: what was saved and where, plus any ⚠️ or /remember offer. No summary of the trip.

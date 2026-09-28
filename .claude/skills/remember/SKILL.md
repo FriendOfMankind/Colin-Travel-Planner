@@ -40,6 +40,17 @@ npm test && node tools/index.mjs && node tools/macros.mjs --check
 
 Commit (`remember: <what>`), push, open a PR into `main`, and merge once checks pass, but only if the diff is limited to the file(s) this fact belongs in plus `INDEX.md`. Anything broader, ask first.
 
+## Verify it landed. Never skip this step.
+
+A note on an unmerged branch is invisible to the next session. On 2026-09-28 a phone `/remember` wrote a whole `me/adventures.md` to its session branch, never opened a PR, and reported success anyway. Nobody knew until a later session found the branch. So after merging:
+
+```bash
+git fetch origin main && git merge-base --is-ancestor HEAD origin/main && echo IN-MAIN
+```
+
+- **`IN-MAIN` printed:** say "Saved to memory."
+- **Otherwise** (no GitHub tools, no permission, checks failed, merge refused): **say so plainly as the first line of your reply.** For example: *"⚠️ Saved on branch `<name>` but NOT in memory yet. Merge PR #N (or tell a session with GitHub access to) or the next session won't see it."* Never report success for a change that isn't on `main`.
+
 ## 5. Reply
 
 One line on what changed, plus any conflict you resolved or Trees copy left stale.
