@@ -12,7 +12,7 @@ in its Notes, not a quiet exception.
 1. **Car camping only.** Camp with the car, drive to trailheads, day hike. No hike-in nights, no permit lotteries, no overnight wilderness quotas. This rule is locked and it has already removed real destinations from the list.
 2. **Check the access road first.** 5.9 inches of clearance and a low air dam. This is now the single most common way a good campground turns out to be unusable.
 3. **On any fly-in trip, night one and the last night are reservable.** First-come only in the middle, and only with a named reservable fallback inside 45 minutes. No arrival time solves structural oversubscription.
-4. **Dawn starts.** The light, the empty trailhead and the cool air are all before 8 AM. Plan around first light, not around opening hours.
+4. **Slow mornings; sunsets over sunrises.** Wake, warm up in the tent, cook a hot breakfast, fuel up, *then* hike. Plan the day's viewpoint for **sunset**, not sunrise. An early alarm has to earn it: a sunrise that lands somewhere specific, morning fog doing something special, or beating a crowd (usually a combination), and even then it's an exception. *(stated 2026-09-28; was: "Dawn starts. Plan around first light", which Kentucky contradicted: the pre-dawn Auxier walk was skipped. confirmed: kentucky-2026 log)*
 5. **Schedule against the crowd, not around it.** Popular trailheads Mon–Thu. Put the hard, empty hike on the busiest day — that's why it stays empty.
 6. **Every risky day gets a hard turnaround time and a bail-out named in advance**, decided before the forest road, not at it.
 7. **Drive estimates are Google plus 15%**, and stop durations are set at the slow end. Optimistic driving is how a day runs out of daylight.

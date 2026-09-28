@@ -10,6 +10,12 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 
 Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by accident.
 
+## Pace: how to budget
+
+**Plan hikes at AllTrails' posted time** *(stated 2026-09-28)*. The margin is wanted even though he often beats it: finishing early is slack for sitting, not a reason to cram more in.
+
+**Trailhead driving on a non-transfer day: 1–2 hours is fine.** *(stated 2026-09-28)*
+
 ## Pace: evidence so far
 
 - **Hard scramble terrain: faster than the posted budget.** Honey Creek Loop (4.6 mi, 820 ft, ropes, ladders, creek crossings) took **~3.5 h** against the trailhead signs' "one hour per mile" (~6 h budget). *(confirmed: kentucky-2026 log, 2026-09-27)*
