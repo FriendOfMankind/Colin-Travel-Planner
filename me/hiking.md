@@ -6,6 +6,8 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 
 # Hiking
 
+When a non-hike beats the hike (a raft instead of a riverside trail, a guided cave instead of a long walk to a small one), the swap rule in [adventures.md](adventures.md) decides. *(stated 2026-09-28)*
+
 ## Daily ceiling
 
 Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by accident.

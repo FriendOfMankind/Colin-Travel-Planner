@@ -88,6 +88,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: In the pack regardless of the hour.
 - name: Camp shoes
   state: own
+- name: Packraft
+  state: rent
+  note: "Only if a trip needs it: rent it or decide per trip, not a purchase. Outfitter floats and guided rafts cover most rivers. *(stated 2026-09-28)* See [adventures.md](adventures.md)."
 ```
 
 ## Clothing — the layer system
