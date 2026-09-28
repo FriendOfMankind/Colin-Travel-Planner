@@ -26,6 +26,16 @@ This repo *is* the assistant's memory. Colin asks questions and makes changes fr
   `- 6:15 → 6:40 (25m) · drive · Text in Markdown · 📍 Maps search string`
   A `!` after the kind (`stop!`) means warn. The maps part is optional and always last.
 
+## Skills: the on-the-road tools
+
+- **`/log`**: something happened on a trip. It goes to that trip's `log.md`, and the skill self-merges a log-only change.
+- **`/remember`**: a standing fact or preference. It goes to the one `me/` or `kitchen/` file it belongs in, after a conflict check, and self-merges when narrow.
+- **`/retro <slug>`**: the post-trip interview. It writes a plan-vs-actual table, patterns and carry-forward. Colin merges it himself.
+
+## Branches
+
+**`main` is the memory.** Every session opens its PR into `main`. A note sitting on an unmerged session branch is invisible to the next session, so small `/log` and `/remember` changes merge themselves once checks pass (see each skill for the limits). Anything bigger waits for Colin.
+
 ## Memory: how the brain stays true
 
 - **Capture fast, file carefully.** A new fact from Colin goes to the one file it belongs in, with a provenance tag in italics:
@@ -70,4 +80,4 @@ After any change: `npm test && node tools/index.mjs`, and commit `INDEX.md` with
 
 ## Where this is going
 
-The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **Done: eval run 1 passed on 2026-09-28** (see the run log in `evals/questions.md`). (2) Migrate everything, then port the validator. **In progress:** Kentucky and Appalachians are migrated. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro`, `/backfill`, `/new-trip`, `/preflight`. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
+The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **Done: eval run 1 passed on 2026-09-28** (see the run log in `evals/questions.md`). (2) Migrate everything, then port the validator. **In progress:** Kentucky and Appalachians are migrated. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro` **built 2026-09-28 for the October trip**; `/backfill`, `/new-trip`, `/preflight` still to come. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
