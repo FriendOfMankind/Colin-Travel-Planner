@@ -8,6 +8,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - `me/booking.md`: When each reservation system opens. The Agenda derives real dates from these; never hand-compute one.
 - `me/calendar.md`: Term dates, blocked dates and the horizon. Free windows are computed from this, never listed by hand.
+- `me/camping.md`: Camp style: which sites he enjoys, what evenings are for, rain days, and the cold he's comfortable in.
 - `me/checklist.md`: Runs on every trip, whatever the destination.
 - `me/declined.md`: Activities considered and declined. Re-proposing these wastes his time.
 - `me/food.md`: Allergy, spice ceiling, calorie target, what's never on the menu, and dishes already rejected.
