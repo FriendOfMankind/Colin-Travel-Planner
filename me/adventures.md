@@ -60,3 +60,26 @@ Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly week
 - **Which sites count:** public land where casual collecting is legal (national forest, BLM, riverbeds and the like) and fossil sites. **Fee-dig gem mines and rock shops/museums were offered and not selected.** Don't push them as side quests. *(stated 2026-09-29)*
 - **Keeping historic artifacts: not selected.** Arrowheads and relics are illegal to remove on federal and state land (ARPA), and he didn't pick it. Relics at ruins are photographed and left.
 - **The legality of collecting depends on who manages the land, so check it per site.** Never plan or flag a collecting stop without naming who owns the land and what their rule is, with a source. Recalled general rules, not verified for any specific site: national parks prohibit collecting; national forests generally allow small casual amounts of common rocks and invertebrate fossils; vertebrate fossils are protected on federal land.
+
+### Destination leads to keep in mind
+
+Colin asked to keep these in mind when planning future trips. *(stated 2026-09-29)* **Every entry below is recalled by Claude, not verified.** Before any of these reaches a plan, confirm the land manager, the current collecting rule, the fee or permit, and the access road (the Legacy isn't high-clearance, see [profile.md](profile.md)). Watch for active mining claims on BLM and national forest land: digging on one is theft.
+
+**Near home (a weekend from Avon):**
+- **Caesar Creek Lake spillway, OH.** Ordovician fossils. Army Corps land; recalled free permit from the visitor center. The cheap test of whether hours of ground-staring are actually fun before building a big trip around it.
+- **Penn Dixie Fossil Park, Hamburg NY.** Devonian trilobites, keep what you find, entry fee. A fossil site, so it counts despite the fee.
+- **Flint Ridge, OH.** Collecting is banned at the state memorial itself; legal collecting is on nearby private, fee-based land. Probably doesn't fit.
+
+**East and south:**
+- **Ouachita National Forest, AR.** Quartz crystals. Free hand-digging at Crystal Vista is recalled with low confidence.
+- **Western NC national forests.** Casual collecting is generally allowed there; most of the famous Spruce Pine gem sites are fee-digs. Could pair with an Appalachians trip.
+
+**West (the strongest; a theme trip candidate):**
+- **Sunstone Public Collection Area, OR (BLM).** Free Oregon sunstones. Remote, on gravel.
+- **Crystal Park / Pike NF, CO.** Smoky quartz, amazonite. Mining claims are common here.
+- **Emerald Creek, ID (Idaho Panhandle NF).** Star garnets; recalled cheap permit.
+- **House Range, UT (BLM).** Cambrian trilobites.
+- **Dugway geode beds, UT (BLM).** Free geodes, but remote with rough roads. Questionable for the Legacy until road reports say otherwise.
+- **Garnet Hill near Ely, NV (BLM).** Garnets in the rock.
+
+**Photos only, no collecting:** national parks and monuments, including Big Bend, Fossil Butte, Petrified Forest and Badlands; also Falls of the Ohio.
