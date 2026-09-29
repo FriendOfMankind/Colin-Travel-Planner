@@ -1,6 +1,6 @@
 ---
 topic: travel-style
-summary: "What makes a trip great, where trips go wrong, how detailed a plan should be, and how far he'll drive."
+summary: "What makes a trip great, where trips go wrong, how detailed a plan should be, how far he'll drive, and the city-trip type."
 ---
 
 # Travel style
@@ -43,3 +43,16 @@ From the traveller interview on 2026-09-28 unless marked.
 
 - **Transfer or getting-there days: 8 h+ is fine** (Colorado and Vegas road trips). *(stated 2026-09-28)*
 - **Non-transfer days: 1–2 h** to trailheads (`me/hiking.md`).
+
+## City trips
+
+**A trip built around exploring a big city is on the radar.** *(stated 2026-09-29, not yet tried)* The shape he wants:
+
+- **One home base:** a hotel for the whole stay, not a new bed each night. This is a planned exception to principle 1 (car camping), so its reason goes in that trip's Notes. See the urban-routes section of [adventures.md](adventures.md).
+- **Planned walking routes, one per day,** each built to be especially interesting or beautiful, or to hit specific areas: architecture, industrial zones, stairways, bridges, waterfront, odd places. Built on purpose, not picked off a list. The same rules as any other day apply: the ~10 mi ceiling ([hiking.md](hiking.md)), sunset for the viewpoint, a slack line and a named first cut.
+- **Restaurants along the way,** each one a named dish (principle 9), used to anchor the route.
+- **Crowds:** walk weekday mornings; the packed-viewpoint rule still applies.
+- **Horizon:** a city trip survives a two-week PTO allowance, so on the horizon test it ranks below the trips that don't (see [calendar.md](calendar.md)). That's a reason to schedule it later, not to skip it.
+
+Researched 2026-09-29, not saved as ideas yet: Pittsburgh (800+ public stairways, Carrie Blast Furnaces), San Francisco (the 17.1 mi Crosstown Trail, best in two halves), Philadelphia, and Atlanta's BeltLine. Route sources: AllTrails for the named routes, Komoot for building custom ones, GPSmyCity for themed self-guided walks.
+
