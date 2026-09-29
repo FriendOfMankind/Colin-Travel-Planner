@@ -6,7 +6,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## About Colin: `me/`
 
-- `me/adventures.md`: Beyond hiking: rivers, caves, wildlife, fossils and rare natural things. The swap rule for when one earns a day, and the limits on each.
+- `me/adventures.md`: Beyond hiking: rivers, caves, wildlife, fossils, rare natural things and urban routes. The swap rule for when one earns a day, and the limits on each.
 - `me/booking.md`: When each reservation system opens. The Agenda derives real dates from these; never hand-compute one.
 - `me/calendar.md`: Term dates, blocked dates and the horizon. Free windows are computed from this, never listed by hand.
 - `me/camping.md`: Camp style: which sites he enjoys, what evenings are for, rain days, and the cold he's comfortable in.
