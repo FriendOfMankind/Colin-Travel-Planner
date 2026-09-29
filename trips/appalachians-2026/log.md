@@ -134,3 +134,9 @@ Colin's idea: skip the car and the parking question entirely, and walk from the 
 That makes the round trip ~8 mi and ~1,650 ft, which is under the ~10 mi ceiling. It compares with the plan's 9 mi / ~800 ft road walk, which needs parking. Google's trail times are rough, so budget the climb out at ~2.5 h. *(Correction: on 2026-09-29 Claude said the Kaymoor route was "8.6 mi one way from Kaymoor Top". That's the whole trail's length, not the Kaymoor Top → Fayette Station piece. Maps shows 4.3 mi.)*
 
 **Unknowns, all for the Canyon Rim call ((304) 574-2115):** (1) are park trails open to hikers on Bridge Day? The plan says "closed and patrolled", which is unverified. (2) Did the August floods damage the Fayetteville Trail or the Wolf Creek crossings? (3) Can a walker use the flood-closed stretch of Fayette Station Rd to reach the viewing area under the bridge?
+
+## 2026-09-29 · Bridge Day: shuttle is an acceptable fallback
+
+> "I'll take the shuttle if I can't find parking, no big deal, but we have options."
+
+The parking call to 800-927-0263 drops from blocking to nice-to-have. The order of preference is now: walk from Arrowhead (if the park says the trails are open) → park at the top and walk down → the shuttle to the deck. *(stated 2026-09-29)* One thing to know: the regular shuttle only goes to the **deck**. Getting to the bottom by bus needs a pre-sold "Into the Gorge" ticket, and those sell out, so the shuttle fallback means seeing it from the deck. Fares on officialbridgeday.com disagree with each other ($3 in one place, $5 in another), so bring cash for $5.
