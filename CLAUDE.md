@@ -71,7 +71,10 @@ node tools/index.mjs                          # regenerate INDEX.md; --check in 
 node tools/macros.mjs                         # recompute kitchen/staples.md totals; --check in CI
 TREES=../Trees node tools/import-trees.mjs kentucky-2026   # re-import a trip
 node tools/import-trees.mjs --me              # me/*.md; refuses to overwrite without --force
+node tools/build.mjs                          # site/index.html (one offline page)
 ```
+
+**The site, until Phase 3:** a private claude.ai page, https://claude.ai/artifact/FWuwTKkLnDTCYn9z4QNaP9. After content changes, run `node tools/build.mjs` and republish `site/index.html` to **that URL** (the Artifact tool's `url`), never as a new page.
 
 After any change: `npm test && node tools/index.mjs`, and commit `INDEX.md` with it.
 
