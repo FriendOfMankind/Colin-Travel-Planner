@@ -17,7 +17,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - `me/hiking.md`: Distance and gain ceiling, appetite for difficulty, crowds, and the shape of a good day (hike out, sit, hike back).
 - `me/principles.md`: The locked rule set every itinerary is built to. Breaking one needs a written reason.
 - `me/profile.md`: Who, from where, in what car. The facts every plan starts from.
-- `me/travel-style.md`: What makes a trip great, where trips go wrong, how detailed a plan should be, and how far he'll drive.
+- `me/travel-style.md`: What makes a trip great, where trips go wrong, how detailed a plan should be, how far he'll drive, and the city-trip type.
 - `me/working-rules.md`: How Claude should behave when working with Colin.
 
 ## Food and the camp kitchen: `kitchen/`
