@@ -248,3 +248,8 @@ details.fold > div { padding: 0 16px 14px; }
 .pace-grid .mono { font-size: 12.5px; color: var(--muted); margin-right: 3px; }
 .pace-slack { font-size: 13.5px; border-top: 1px solid var(--line); padding-top: 10px; }
 @media (max-width: 480px) { .pace-grid { grid-template-columns: 1fr 1fr; } .glance-head, .glance-row { grid-template-columns: 50px 44px 1fr 30%; gap: 8px; padding-inline: 12px; } }
+
+/* idea filters */
+.filters { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 8px; scrollbar-width: none; }
+.filters::-webkit-scrollbar { display: none; }
+.filters .chip { border: 0; cursor: pointer; flex: none; }

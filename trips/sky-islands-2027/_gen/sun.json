@@ -1,0 +1,105 @@
+{
+  "generatedBy": "Trees tools/sun.mjs",
+  "note": "Computed with `tools/sun.mjs` (NOAA solar position, refraction and horizon dip), against regional coordinates and camp elevations — good to about a minute. **All times are MST. Arizona does not observe daylight saving**, so these do not jump on March 14 even though the rest of the country does. Note the new moon on March 7–8: the darkest week of the month falls mid-trip, in one of the least light-polluted corners of the lower 48. Nothing in the itinerary is built around that, deliberately — see the notes.",
+  "rows": [
+    {
+      "date": "Fri 3/5",
+      "location": "Tucson",
+      "firstLight": "6:22 AM",
+      "sunrise": "6:43 AM",
+      "sunset": "6:29 PM",
+      "dark": "6:49 PM",
+      "moon": "5.6% waning"
+    },
+    {
+      "date": "Sat 3/6",
+      "location": "Tucson",
+      "firstLight": "6:21 AM",
+      "sunrise": "6:42 AM",
+      "sunset": "6:30 PM",
+      "dark": "6:50 PM",
+      "moon": "2% waning"
+    },
+    {
+      "date": "Sun 3/7",
+      "location": "Cochise Stronghold",
+      "firstLight": "6:13 AM",
+      "sunrise": "6:31 AM",
+      "sunset": "6:25 PM",
+      "dark": "6:44 PM",
+      "moon": "0.2% new"
+    },
+    {
+      "date": "Mon 3/8",
+      "location": "Chiricahua NM",
+      "firstLight": "6:11 AM",
+      "sunrise": "6:30 AM",
+      "sunset": "6:25 PM",
+      "dark": "6:44 PM",
+      "moon": "0.3% new"
+    },
+    {
+      "date": "Tue 3/9",
+      "location": "Chiricahua NM",
+      "firstLight": "6:10 AM",
+      "sunrise": "6:29 AM",
+      "sunset": "6:26 PM",
+      "dark": "6:45 PM",
+      "moon": "2.5%"
+    },
+    {
+      "date": "Wed 3/10",
+      "location": "Chiricahua NM",
+      "firstLight": "6:09 AM",
+      "sunrise": "6:28 AM",
+      "sunset": "6:27 PM",
+      "dark": "6:46 PM",
+      "moon": "6.8%"
+    },
+    {
+      "date": "Thu 3/11",
+      "location": "Cave Creek / Portal",
+      "firstLight": "6:07 AM",
+      "sunrise": "6:26 AM",
+      "sunset": "6:27 PM",
+      "dark": "6:46 PM",
+      "moon": "13.1%"
+    },
+    {
+      "date": "Fri 3/12",
+      "location": "Cave Creek / Portal",
+      "firstLight": "6:06 AM",
+      "sunrise": "6:25 AM",
+      "sunset": "6:27 PM",
+      "dark": "6:46 PM",
+      "moon": "21.2%"
+    },
+    {
+      "date": "Sat 3/13",
+      "location": "Cave Creek / Portal",
+      "firstLight": "6:05 AM",
+      "sunrise": "6:23 AM",
+      "sunset": "6:28 PM",
+      "dark": "6:47 PM",
+      "moon": "30.9%"
+    },
+    {
+      "date": "Sun 3/14",
+      "location": "Tucson",
+      "firstLight": "6:11 AM",
+      "sunrise": "6:32 AM",
+      "sunset": "6:35 PM",
+      "dark": "6:56 PM",
+      "moon": "41.7%"
+    },
+    {
+      "date": "Mon 3/15",
+      "location": "Tucson",
+      "firstLight": "6:10 AM",
+      "sunrise": "6:30 AM",
+      "sunset": "6:36 PM",
+      "dark": "6:57 PM",
+      "moon": "52.9% first qtr"
+    }
+  ]
+}

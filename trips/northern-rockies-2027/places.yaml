@@ -1,0 +1,220 @@
+# The Long Way to Glacier — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: The drive out
+    places:
+      - name: Chicago I-90 corridor
+        note: ⚠️ Days 1 and 21. Before 10 AM or after 7 PM, nothing between.
+        maps: I-90 Chicago Skyway
+        verified: false
+        lat: null
+        lng: null
+      - name: Rapid City
+        note: Day 4 resupply — a drive-through now that the Black Hills stop is cut.
+        maps: Rapid City South Dakota
+        verified: false
+        lat: null
+        lng: null
+  - group: Badlands
+    places:
+      - name: Cedar Pass Campground
+        note: Nights 2–3. Water. Fee unverified.
+        maps: Cedar Pass Campground Badlands
+        verified: true
+        lat: 43.746051
+        lng: -101.94829
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 2, 3
+        wpNote: Badlands NP. Water. No shade in the park.
+      - name: Notch Trail
+        note: Day 3. 1.2 mi, log ladder, ledge traverse.
+        maps: Notch Trail Badlands National Park
+        verified: false
+        lat: null
+        lng: null
+      - name: Sage Creek Rim Road
+        note: Day 3 evening. Bison, prairie dogs. Gravel — assess.
+        maps: Sage Creek Rim Road Badlands
+        verified: false
+        lat: null
+        lng: null
+  - group: Bighorns
+    places:
+      - name: West Tensleep Lake Campground
+        note: Nights 4–6, ~9,100 ft. Trailhead at camp.
+        maps: West Tensleep Lake Campground Wyoming
+        verified: true
+        lat: 44.258406
+        lng: -107.215584
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 4, 5, 6
+        wpNote: ~9,100 ft, Bighorn NF. Cloud Peak Wilderness trailhead at camp.
+      - name: Buffalo, WY
+        note: Day 4. Last fuel before the Skyway.
+        maps: Buffalo Wyoming
+        verified: false
+        lat: null
+        lng: null
+      - name: Crazy Woman Canyon Road
+        note: 🚨 Day 6. Unpaved, narrow. Decide at the road.
+        maps: Crazy Woman Canyon Road Wyoming
+        verified: true
+        lat: 44.1871
+        lng: -106.805739
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⚠️
+        days: "6"
+        wpNote: Unpaved, narrow, shelf sections. Clearance decision.
+  - group: Beartooth + Yellowstone NE
+    places:
+      - name: Island Lake Campground
+        note: Nights 7–9, 9,518 ft. Season dates contradicted by two sources.
+        maps: Island Lake Campground Beartooth
+        verified: true
+        lat: 44.941089
+        lng: -109.539231
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 7, 8, 9
+        wpNote: 9,518 ft, Shoshone NF. Highest camp of the trip.
+      - name: Cody, WY
+        note: Day 7. Last full resupply before Great Falls. Paid showers here if wanted.
+        maps: Cody Wyoming
+        verified: false
+        lat: null
+        lng: null
+      - name: Chief Joseph Scenic Byway
+        note: Day 7. Paved. Dead Indian Pass.
+        maps: Chief Joseph Scenic Byway Wyoming
+        verified: true
+        lat: 44.728724
+        lng: -109.230771
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🛣️
+        days: "7"
+        wpNote: WY-296. Paved. Dead Indian Pass.
+      - name: Clay Butte Lookout
+        note: Day 9. Gravel spur — assess.
+        maps: Clay Butte Lookout Wyoming
+        verified: true
+        lat: 44.944603
+        lng: -109.62669
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 👁️
+        days: "9"
+        wpNote: Fire tower. Gravel spur — assess before driving it.
+      - name: Slough Creek Campground
+        note: 🚨 Night 10. 16 sites, fills in minutes.
+        maps: Slough Creek Campground Yellowstone
+        verified: true
+        lat: 44.948578
+        lng: -110.308987
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: "10"
+        wpNote: Yellowstone. 16 sites, fills in minutes. Grizzly country.
+      - name: Pebble Creek Campground
+        note: ⚠️ Closed for flood recovery since 2022. Check 2027 status.
+        maps: Pebble Creek Campground Yellowstone
+        verified: false
+        lat: null
+        lng: null
+      - name: Lamar Valley
+        note: Day 10 evening. Pull-outs only. Grizzly country.
+        maps: Lamar Valley Yellowstone
+        verified: true
+        lat: 44.868566
+        lng: -110.174462
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🦬
+        days: "10"
+        wpNote: Pull-outs only. 25 yd from bison, 100 yd from bears and wolves.
+  - group: Glacier
+    places:
+      - name: Many Glacier Campground
+        note: 🚨 Nights 11–14. Book mid-January 2027.
+        maps: Many Glacier Campground Glacier National Park
+        verified: true
+        lat: 48.796608
+        lng: -113.677575
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 11–14
+        wpNote: Book mid-January 2027. No walk-up fallback in July.
+      - name: Apgar Campground
+        note: 🚨 Nights 15–17. Same January booking. First shower in 15 days.
+        maps: Apgar Campground Glacier National Park
+        verified: true
+        lat: 48.525647
+        lng: -113.981772
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 15–17
+        wpNote: Glacier west side. First shower in fifteen days.
+      - name: Great Falls, MT
+        note: Day 11. Final resupply and the one realistic laundry stop.
+        maps: Great Falls Montana
+        verified: false
+        lat: null
+        lng: null
+      - name: Iceberg Lake Trailhead
+        note: Day 13. Lot fills by 7 AM. Bear corridor.
+        maps: Iceberg Lake Trailhead Many Glacier
+        verified: true
+        lat: 48.799409
+        lng: -113.677568
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🧊
+        days: "13"
+        wpNote: Bear corridor. Lot fills by 7 AM.
+      - name: Grinnell Glacier Trailhead
+        note: Day 14. Snowfields into late July.
+        maps: Grinnell Glacier Trailhead Many Glacier
+        verified: true
+        lat: 48.797347
+        lng: -113.668127
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🏔️
+        days: "14"
+        wpNote: Snowfields on the upper traverse into late July.
+      - name: Logan Pass
+        note: ⚠️ 3-hour parking cap from July 1. $1 shuttle.
+        maps: Logan Pass Visitor Center Glacier
+        verified: true
+        lat: 48.696605
+        lng: -113.718158
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🅿️
+        days: 15, 16
+        wpNote: 3-hour parking cap from July 1. $1 ticketed shuttle.
+  - group: The drive home
+    places:
+      - name: Cottonwood Campground
+        note: Nights 18–19. Wild horses.
+        maps: Cottonwood Campground Theodore Roosevelt
+        verified: true
+        lat: 46.95097
+        lng: -103.531968
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ⛺
+        days: 18, 19
+        wpNote: Theodore Roosevelt NP South Unit. Wild horses and bison.
+      - name: Painted Canyon Overlook
+        note: Day 19 evening.
+        maps: Painted Canyon Overlook Theodore Roosevelt
+        verified: false
+        lat: null
+        lng: null
+  - group: Waypoints with no field entry
+    places:
+      - name: Notch Trailhead
+        verified: true
+        lat: 43.760258
+        lng: -101.928149
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🪜
+        days: "3"
+        wpNote: Log ladder and ledge traverse. Dawn only in July.

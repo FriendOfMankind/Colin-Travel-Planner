@@ -94,7 +94,9 @@ The interview rewrote several standing assumptions (`me/principles.md` 4, `me/ca
 
 **Pre-mix at home: match the menu.** Oats ×4 (the Oct 23 one double-bagged as the power-oats bag), couscous ×2, hot chocolate ×3. **No rice.** No meal on the current menu uses it. *(chosen 2026-09-29)* The old "five bags" list (oats ×5, oats XL, couscous, rice, hot chocolate ×3) came from the pre-staples recipe plan. Counted against `trip.md`: oats on Oct 18, 20, 22 (thermos) and 23 (bag); couscous on Oct 20 (thermos lunch) and Oct 22 (dinner); hot chocolate on Oct 24 plus spares.
 
-**Pending in Trees.** Found 2026-09-29 by reading `trip.md` end to end. These need fixing in Trees and a re-import; this session couldn't reach Trees. Until then, **this list wins over `trip.md`:**
+**Fixed 2026-09-29 at cutover:** all six below were corrected in Trees and imported, and `trip.md` is curated here from now on. Kept as the record.
+
+~~**Pending in Trees.**~~ Found 2026-09-29 by reading `trip.md` end to end. These need fixing in Trees and a re-import; this session couldn't reach Trees. Until then, **this list wins over `trip.md`:**
 
 1. **Frontmatter `nights:`** says "7 confirmed, 1 uncovered". It should be 7 reserved, 3 first-come (Oct 15, 22, 23), matching the Lodging table.
 2. **Packing → Camp kitchen** says "48qt cooler ⚠️ eleven days on one cooler; the cooler timeline is in MEALS-trip2-october.md". Stale: the cooler is small now, with no freezer meals (Provisions → Cooler), and 48 qt was never confirmed (`me/gear.md`).

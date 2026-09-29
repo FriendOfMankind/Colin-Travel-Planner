@@ -48,7 +48,9 @@ So the site is **a planner and a pace check, not a field navigator**:
 - **Ask Claude about this day:** copies a ready-made question with the day's context, for pasting into the Claude app.
 - **AllTrails links** on hikes instead of trying to be a trail app.
 
-## Not built yet (before it can replace Trees)
+## Not built yet
+
+Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it. Its last snapshot still works offline for Appalachians.
 
 - **Offline:** a service worker and bundled fonts. Right now the fonts come from Google, and the prototype is a published preview, not the Pages site.
 - **The map view:** vendored Leaflet, verified pins only, routes where they're generated.

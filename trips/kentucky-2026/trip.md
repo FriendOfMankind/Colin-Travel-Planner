@@ -7,7 +7,7 @@ title: Red River Gorge + Big South Fork
 subtitle: Arches, ladders, and a coal town
 emoji: 🪨
 theme: forest
-status: planned
+status: done
 pinned: true
 start: 2026-09-22
 dates: Sept 22–27, 2026
@@ -19,7 +19,7 @@ nights: 5 nights camping
 distance: ~1,000 mi round trip
 budget: TBD
 tags: [ car camping, arches, scrambling, ruins, solo, lecture day ]
-next: "~Sept 16: first forecast that reaches Honey Creek Saturday. No Honey Creek after rain."
+next: "Done. The retro is in log.md (2026-09-27)."
 booking:
   - system: recreation.gov
     what: Koomer Ridge (Sept 22–23)
@@ -29,7 +29,7 @@ booking:
     what: Bandy Creek (Sept 24–26)
     target: 2026-09-24
     booked: true
-updated: 2026-09-06
+updated: 2026-09-29
 map:
   center: [ 37, -84.2 ]
   zoom: 8
@@ -78,7 +78,7 @@ page:
       lbl: Campgrounds booked
 ---
 
-<!-- Imported from Trees@3f245b6 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@008d775 at cutover (2026-09-29). Curated here now; Trees is frozen. -->
 
 # Red River Gorge + Big South Fork
 

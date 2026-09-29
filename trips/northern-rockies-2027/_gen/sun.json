@@ -1,0 +1,168 @@
+{
+  "generatedBy": "Trees tools/sun.mjs",
+  "note": "Computed with `tools/sun.mjs` (NOAA solar position, refraction and horizon dip) against regional coordinates and camp elevations — good to about a minute. Everything above is Mountain Time; the route never leaves it. **Note how the day lengthens as you go north:** Badlands gives about 16h 30m of usable light, Glacier about **17 hours** — first light 5:08 AM, dark 10:12 PM. Full moon falls July 17–18, which after the 21-day recut lands at **Many Glacier** rather than on the Beartooth Plateau. Nothing is built around that, deliberately — night-sky watching is on the hub's declined list and this page is not going to quietly schedule it.",
+  "rows": [
+    {
+      "date": "Wed 7/7",
+      "location": "Badlands",
+      "firstLight": "4:37 AM",
+      "sunrise": "5:08 AM",
+      "sunset": "8:37 PM",
+      "dark": "9:07 PM",
+      "moon": "18.6% waxing"
+    },
+    {
+      "date": "Thu 7/8",
+      "location": "Badlands",
+      "firstLight": "4:38 AM",
+      "sunrise": "5:08 AM",
+      "sunset": "8:36 PM",
+      "dark": "9:06 PM",
+      "moon": "28.4%"
+    },
+    {
+      "date": "Fri 7/9",
+      "location": "Bighorns",
+      "firstLight": "4:58 AM",
+      "sunrise": "5:23 AM",
+      "sunset": "9:04 PM",
+      "dark": "9:29 PM",
+      "moon": "39.2%"
+    },
+    {
+      "date": "Sat 7/10",
+      "location": "Bighorns",
+      "firstLight": "4:58 AM",
+      "sunrise": "5:24 AM",
+      "sunset": "9:03 PM",
+      "dark": "9:29 PM",
+      "moon": "50.1% first qtr"
+    },
+    {
+      "date": "Sun 7/11",
+      "location": "Bighorns",
+      "firstLight": "4:59 AM",
+      "sunrise": "5:25 AM",
+      "sunset": "9:03 PM",
+      "dark": "9:28 PM",
+      "moon": "60.6%"
+    },
+    {
+      "date": "Mon 7/12",
+      "location": "Beartooth",
+      "firstLight": "5:07 AM",
+      "sunrise": "5:32 AM",
+      "sunset": "9:14 PM",
+      "dark": "9:40 PM",
+      "moon": "70.5%"
+    },
+    {
+      "date": "Tue 7/13",
+      "location": "Beartooth",
+      "firstLight": "5:08 AM",
+      "sunrise": "5:33 AM",
+      "sunset": "9:13 PM",
+      "dark": "9:39 PM",
+      "moon": "79.3%"
+    },
+    {
+      "date": "Wed 7/14",
+      "location": "Beartooth",
+      "firstLight": "5:09 AM",
+      "sunrise": "5:34 AM",
+      "sunset": "9:13 PM",
+      "dark": "9:38 PM",
+      "moon": "86.7%"
+    },
+    {
+      "date": "Thu 7/15",
+      "location": "Lamar / Slough Creek",
+      "firstLight": "5:13 AM",
+      "sunrise": "5:40 AM",
+      "sunset": "9:13 PM",
+      "dark": "9:40 PM",
+      "moon": "92.6%"
+    },
+    {
+      "date": "Fri 7/16",
+      "location": "Many Glacier",
+      "firstLight": "5:08 AM",
+      "sunrise": "5:40 AM",
+      "sunset": "9:40 PM",
+      "dark": "10:12 PM",
+      "moon": "96.8%"
+    },
+    {
+      "date": "Sat 7/17",
+      "location": "Many Glacier",
+      "firstLight": "5:09 AM",
+      "sunrise": "5:41 AM",
+      "sunset": "9:39 PM",
+      "dark": "10:11 PM",
+      "moon": "99.3% FULL"
+    },
+    {
+      "date": "Sun 7/18",
+      "location": "Many Glacier",
+      "firstLight": "5:10 AM",
+      "sunrise": "5:42 AM",
+      "sunset": "9:38 PM",
+      "dark": "10:10 PM",
+      "moon": "100% FULL"
+    },
+    {
+      "date": "Mon 7/19",
+      "location": "Many Glacier",
+      "firstLight": "5:12 AM",
+      "sunrise": "5:43 AM",
+      "sunset": "9:37 PM",
+      "dark": "10:08 PM",
+      "moon": "98.9%"
+    },
+    {
+      "date": "Tue 7/20",
+      "location": "Glacier — west",
+      "firstLight": "5:13 AM",
+      "sunrise": "5:44 AM",
+      "sunset": "9:36 PM",
+      "dark": "10:07 PM",
+      "moon": "96.1%"
+    },
+    {
+      "date": "Wed 7/21",
+      "location": "Glacier — west",
+      "firstLight": "5:14 AM",
+      "sunrise": "5:45 AM",
+      "sunset": "9:35 PM",
+      "dark": "10:06 PM",
+      "moon": "91.6%"
+    },
+    {
+      "date": "Thu 7/22",
+      "location": "Glacier — west",
+      "firstLight": "5:16 AM",
+      "sunrise": "5:47 AM",
+      "sunset": "9:34 PM",
+      "dark": "10:05 PM",
+      "moon": "85.5%"
+    },
+    {
+      "date": "Fri 7/23",
+      "location": "Theodore Roosevelt",
+      "firstLight": "4:45 AM",
+      "sunrise": "5:17 AM",
+      "sunset": "8:43 PM",
+      "dark": "9:14 PM",
+      "moon": "78.3%"
+    },
+    {
+      "date": "Sat 7/24",
+      "location": "Theodore Roosevelt",
+      "firstLight": "4:47 AM",
+      "sunrise": "5:18 AM",
+      "sunset": "8:41 PM",
+      "dark": "9:13 PM",
+      "moon": "69.7%"
+    }
+  ]
+}

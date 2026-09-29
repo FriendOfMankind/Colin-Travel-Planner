@@ -26,7 +26,7 @@ Append to `trips/<slug>/log.md`, **after the last dated entry and before any `##
 ```
 
 - **Don't add facts he didn't say.** No invented times, distances, names or ratings. If the plan gives useful context, like which day this is, cite the plan and label it as the plan.
-- If the note **contradicts the plan** or a `me/` fact, add a line starting `⚠️ Differs from` naming the file, and tell him in your reply. Don't edit the plan. `trip.md` is re-imported from Trees during migration.
+- If the note **contradicts the plan** or a `me/` fact, add a line starting `⚠️ Differs from` naming the file, and tell him in your reply. Don't edit the plan from here: a plan change is Colin's call, made as its own edit to `trip.md`.
 - If the note implies a **standing preference or a gear change** ("never again", "loved it", "the spatula broke"), don't edit `me/` from here. End your reply with a one-line offer: *"Want me to /remember that?"*
 
 ## 3. Save it

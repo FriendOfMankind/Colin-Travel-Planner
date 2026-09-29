@@ -1,0 +1,60 @@
+{
+  "generatedBy": "Trees tools/sun.mjs",
+  "note": "**Calculated, not looked up** — NOAA solar algorithm against regional coordinates, good to about a minute. Moon illumination is computed too and needs no coordinates at all, so it is exact: **new moon falls on Jan 8, mid-trip, in Death Valley.**\n\nThe number that matters is still the daylight: **roughly 9 hours 50 minutes**, versus about 14 on a June trip. Everything is planned around that.\n\nThe moon has one practical consequence and it is not the obvious one. **There is no moonlight to walk by** on the Death Valley mornings — a 6:00 AM start at Golden Canyon is genuinely dark, and the headlamp is doing real work rather than sitting in the pack. (Death Valley is also about as dark as skies get in the lower 48 and this is the darkest week of the year to be there. Stargazing is on the declined list so nothing is scheduled around it — the fact is here in case that changes.)",
+  "rows": [
+    {
+      "date": "Sat 1/2",
+      "location": "Valley of Fire",
+      "firstLight": "6:21 AM",
+      "sunrise": "6:50 AM",
+      "sunset": "4:33 PM",
+      "dark": "5:02 PM",
+      "moon": "21% waning crescent"
+    },
+    {
+      "date": "Mon 1/4",
+      "location": "Death Valley",
+      "firstLight": "6:31 AM",
+      "sunrise": "6:59 AM",
+      "sunset": "4:44 PM",
+      "dark": "5:13 PM",
+      "moon": "8% waning crescent"
+    },
+    {
+      "date": "Fri 1/8",
+      "location": "Death Valley",
+      "firstLight": "6:31 AM",
+      "sunrise": "6:59 AM",
+      "sunset": "4:48 PM",
+      "dark": "5:16 PM",
+      "moon": "**1% — new moon**"
+    },
+    {
+      "date": "Sun 1/10",
+      "location": "Mojave Preserve",
+      "firstLight": "6:22 AM",
+      "sunrise": "6:50 AM",
+      "sunset": "4:47 PM",
+      "dark": "5:15 PM",
+      "moon": "8% waxing crescent"
+    },
+    {
+      "date": "Tue 1/12",
+      "location": "Joshua Tree",
+      "firstLight": "6:23 AM",
+      "sunrise": "6:50 AM",
+      "sunset": "4:54 PM",
+      "dark": "5:22 PM",
+      "moon": "21% waxing crescent"
+    },
+    {
+      "date": "Thu 1/14",
+      "location": "Joshua Tree",
+      "firstLight": "6:22 AM",
+      "sunrise": "6:49 AM",
+      "sunset": "4:56 PM",
+      "dark": "5:23 PM",
+      "moon": "40% waxing crescent"
+    }
+  ]
+}

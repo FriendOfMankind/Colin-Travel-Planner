@@ -207,12 +207,12 @@
 
   V.trips = () => {
     const today = now().date;
-    const groups = { active: [], upcoming: [], past: [] };
+    const groups = { active: [], upcoming: [], past: [], idea: [] };
     for (const t of D.trips) (groups[tripState(t, today)] ?? []).push(t);
     const row = (t) => {
       const s = t.start ? short(t.start) : null;
       const st = tripState(t, today);
-      const meta = st === "past" ? (t.log.retro.length ? "Retro written" : "Retro pending") : st === "upcoming" ? `${daysBetween(today, t.start)} days out · ${t.days.length} days` : "On the road";
+      const meta = st === "past" ? (t.log.retro.length ? "Retro written" : "Retro pending") : st === "upcoming" ? `${daysBetween(today, t.start)} days out · ${t.days.length} days` : st === "idea" ? `${t.status} · ${t.datesLabel ?? "no dates"}` : "On the road";
       return `<a class="trip-row" href="#t-${t.slug}-${st === "past" ? "journal" : "plan"}">
         <div class="date">${s ? `${s.m}<b>${s.d}</b>` : "—"}</div>
         <div><h3>${esc(t.title)}</h3><div class="meta">${esc(t.region ?? "")} · ${esc(meta)}</div></div>
@@ -220,9 +220,37 @@
     };
     const block = (title, list) => list.length ? `<div class="section"><h2>${title}</h2><div class="panel divide">${list.map(row).join("")}</div></div>` : "";
     return `<div class="stack"><h1>Trips</h1>
-      ${block("On the road", groups.active)}${block("Coming up", groups.upcoming)}${block("Done", groups.past.reverse())}
-      <div class="section"><h2>Ideas</h2><div class="panel pad muted" style="font-size:14px">Maui, Sky Islands, Mojave, Northern Rockies and 33 wishlist ideas still live in the old site. They move here in Phase 2.</div></div>
+      ${block("On the road", groups.active)}${block("Coming up", groups.upcoming)}${block("Not scheduled", groups.idea)}${block("Done", groups.past.reverse())}
+      ${ideasBlock()}
     </div>`;
+  };
+
+  /* Ideas: filter by month and by drive/fly, both remembered on this phone. */
+  function ideasBlock() {
+    const month = store.get("ideaMonth", 0), mode = store.get("ideaMode", "");
+    const list = (D.ideas ?? []).filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
+    const chip = (key, val, label, cur) => `<button type="button" class="chip${cur === val ? " accent" : ""}" data-filter="${key}" data-val="${esc(val)}">${label}</button>`;
+    const modes = [...new Set((D.ideas ?? []).map((i) => i.mode).filter(Boolean))].sort();
+    return `<div class="section"><h2>Ideas <span class="muted" style="font-weight:400">${list.length} of ${(D.ideas ?? []).length}</span></h2>
+      <div class="filters">${chip("ideaMonth", 0, "Any month", month)}${MON.map((m, i) => chip("ideaMonth", i + 1, m, month)).join("")}</div>
+      <div class="filters">${chip("ideaMode", "", "Any way", mode)}${modes.map((m) => chip("ideaMode", m, m, mode)).join("")}</div>
+      <div class="panel divide">${list.map((i) => `<a class="trip-row" href="#w-${i.slug}">
+        <div class="date">${esc(i.mode)}</div>
+        <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
+        <span class="go" aria-hidden="true">›</span></a>`).join("") || '<div class="pad muted">Nothing on the list fits that. Which is itself a daydream prompt.</div>'}</div></div>`;
+  }
+
+  V.idea = (i) => {
+    const ask = `Let's daydream about ${i.title} (wishlist/${i.slug}.md). /daydream ${i.slug} — [what caught your eye: an activity, a season, a question]`;
+    return `<div class="stack"><a class="back" href="#trips">← Trips</a>
+      <div><div class="eyebrow">Idea · ${esc(i.region)}</div><h1>${esc(i.title)}</h1><p class="muted" style="margin:0">${esc(i.subtitle)}</p></div>
+      <div class="row" style="flex-wrap:wrap;gap:6px">${i.months.map((m) => `<span class="chip">${MON[m - 1]}</span>`).join("")}${i.mode ? `<span class="chip accent">${esc(i.mode)}</span>` : ""}${i.length ? `<span class="chip">${esc(i.length)}</span>` : ""}</div>
+      ${i.window ? `<div class="panel pad"><div class="eyebrow">When</div><div>${i.window}</div></div>` : ""}
+      <div class="panel pad prose">${i.why}</div>
+      <div class="panel pad"><div class="eyebrow">Next</div><div class="prose">${i.next}</div></div>
+      <div class="section"><h2>Research notes</h2><div class="panel pad prose">${i.notes || '<p class="muted">Nothing yet. Every fact <code>/daydream</code> finds lands here with its source.</p>'}</div></div>
+      <div class="row"><button type="button" class="btn ask" data-ask="${esc(ask)}">Daydream about this</button><span class="ask-msg muted" style="font-size:12.5px"></span></div>
+      <p class="muted" style="font-size:12.5px">Updated ${esc(i.updated)} · <code>wishlist/${esc(i.slug)}.md</code></p></div>`;
   };
 
   V.trip = (t, sec) => {
@@ -310,6 +338,8 @@
     const tm = /^t-(.+?)(?:-(plan|places|prep|journal))?$/.exec(h);
     if (tm && D.trips.find((t) => t.slug === tm[1])) {
       html = V.trip(D.trips.find((t) => t.slug === tm[1]), tm[2] ?? "plan"); tab = "trips";
+    } else if (h.startsWith("w-") && (D.ideas ?? []).find((i) => i.slug === h.slice(2))) {
+      html = V.idea(D.ideas.find((i) => i.slug === h.slice(2))); tab = "trips";
     } else if (h.startsWith("me-") && D.me.find((m) => m.id === h.slice(3))) {
       html = V.meFile(D.me.find((m) => m.id === h.slice(3))); tab = "me";
     } else if (V[h] && ["now", "trips", "kitchen", "me"].includes(h)) { html = V[h](); tab = h; }
@@ -336,6 +366,8 @@
       try { navigator.clipboard.writeText(text).then(() => { msg.textContent = "Copied. Paste it into the Claude app and fill in what came up."; }, fallback); } catch { fallback(); }
       return;
     }
+    const f = e.target.closest("[data-filter]");
+    if (f) { const v = f.dataset.val, y = window.scrollY; store.set(f.dataset.filter, f.dataset.filter === "ideaMonth" ? Number(v) : v); render(); window.scrollTo(0, y); return; }
     if (e.target.id === "pv-trip") { store.set("previewAt", "2026-10-18T09:00"); render(); }
     if (e.target.id === "pv-clear") { store.set("previewAt", null); render(); }
   });

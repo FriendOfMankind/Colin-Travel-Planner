@@ -98,4 +98,4 @@ Answers so far are from the retro interview on 2026-09-27; a ticked box has its 
 - [x] Restaurants? ✅ Miguel's (Wed dinner): very good. Whistle Stop: skipped. Sky Bridge Station / The Brick: no verdict given.
 - [x] Best moment, worst moment? ✅ **Best: Honey Creek.** Close second: Blevins farm at night. Letdown: Blue Heron (too polished).
 
-**Status:** the retro is complete. The trip should become `status: done` in the registry. During migration the registry lives in Trees, so that edit goes there first, then gets re-imported.
+**Status:** the retro is complete. The trip should become `status: done` in the registry. During migration the registry lives in Trees, so that edit goes there first, then gets re-imported. **Done 2026-09-29 at cutover:** `status: done` in `trip.md`.
