@@ -17,7 +17,7 @@ Ruins already have their own rule: *explorable, unrestored* ruins count as desti
 1. **If hiking is the best way to experience something, hike it.** Must-do hikes aren't displaced.
 2. **An activity earns a slot when missing it would be a regret** and it doesn't cost a must-do hike.
 3. **It's strongest when it *replaces* a weaker version of the same experience.** A rafting trip replaces a riverside hike. A real cave replaces a long hike to a small cave.
-4. **Or it rides along with a hike.** Wildlife, rare plants and rock hunting are things to look for *on* a hike, not separate outings.
+4. **Or it rides along with a hike.** Wildlife, rare plants and rock hunting are things to look for *on* a hike, not separate outings. **Exception for rockhounding and fossils:** nearby collecting sites also get flagged as optional side quests that Colin picks from. See [Fossils and rockhounding](#fossils-and-rockhounding). *(exception stated 2026-09-29)*
 
 That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave tour *is* the day's outing.
 
@@ -56,5 +56,7 @@ Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly week
 *(stated 2026-09-28)*
 
 - **Fossil hunting and rockhounding: yes,** ideally combined with a hike.
+- **Flag nearby sites on every trip as optional side quests.** For each trip, point out public-land collecting spots and fossil sites near the route, even when there's no hike to pair them with. Colin decides whether any gets a slot. Don't schedule one unless he picks it. Say what can realistically be found there and how far off the route it is. *(stated 2026-09-29)*
+- **Which sites count:** public land where casual collecting is legal (national forest, BLM, riverbeds and the like) and fossil sites. **Fee-dig gem mines and rock shops/museums were offered and not selected.** Don't push them as side quests. *(stated 2026-09-29)*
 - **Keeping historic artifacts: not selected.** Arrowheads and relics are illegal to remove on federal and state land (ARPA), and he didn't pick it. Relics at ruins are photographed and left.
-- **The legality of collecting depends on who manages the land, so check it per site.** Never plan a collecting stop without naming who owns the land and what their rule is, with a source. Recalled general rules, not verified for any specific site: national parks prohibit collecting; national forests generally allow small casual amounts of common rocks and invertebrate fossils; vertebrate fossils are protected on federal land.
+- **The legality of collecting depends on who manages the land, so check it per site.** Never plan or flag a collecting stop without naming who owns the land and what their rule is, with a source. Recalled general rules, not verified for any specific site: national parks prohibit collecting; national forests generally allow small casual amounts of common rocks and invertebrate fossils; vertebrate fossils are protected on federal land.
