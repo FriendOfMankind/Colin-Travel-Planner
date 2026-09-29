@@ -102,3 +102,22 @@ The interview rewrote several standing assumptions (`me/principles.md` 4, `me/ca
 4. **Liner.** Reservations says "decide after the September Kentucky shakedown", and Weather says "the liner recommendation … is unconfirmed". Both are stale: the liner is owned *(stated 2026-09-28, `me/gear.md`)*.
 5. **Open question "Which Black Balsam route?"** is resolved. The hike table marks the 1.4 mi Art Loeb route as chosen, and Day 5 has 1h45m of protected slack, not 15 min. Close it.
 6. **Open question "Keeneys Creek Road"** still offers Kaymoor as the fallback. Kaymoor is already scheduled on Day 4, and the Day 2 text says so. The fallback is simply "skip Nuttallburg".
+
+## 2026-09-29 · August floods: NRG roads and trails the plan depends on
+
+**Source quality: search-result snippets and news pages.** nps.gov is blocked from this environment. **Current status is unknown**, and the park has to confirm it. Nothing below has changed the plan yet.
+
+Flash floods on **Aug 15–16, 2026** closed several river-level roads in New River Gorge *(source: wvexplorer.com 2026-08-16; wvnews.com 2026-08-20; woay.com)*.
+
+| Plan item | What was reported | Status now |
+|---|---|---|
+| **Day 3 · walk down Fayette Station Rd** | Road closed from the Tunney Hunsaker Bridge to Outpost Campground (downed trees, Aug 16). **Extended Aug 18 from Teays Landing to the start of the two-way section**, which is the exact walk-down route. | "No official reopening as of Sept 22, though park alerts no longer list the closure" *(fayettevilleinsider.com, secondary)*. The AllTrails page still carries a closure notice "as of August 2026". **Unknown.** It's also unknown whether pedestrians can use it on Bridge Day. |
+| **Day 2 · Nuttallburg** | **Nuttallburg Road washed out, "impassable"**. AllTrails, Aug 2026: road closed, trail open. The NPS closures page (snippet, undated) says a Nuttallburg trail is "closed above the Conveyor Trail" for "structural damage to trail and bridges", which may be the Headhouse climb the plan made core. | **Unknown.** Probably no road access. |
+| **Day 1 · Oct 15 primitive site** | **Glade Creek Road and Glade Creek Campground closed** just beyond Grandview Sandbar (mudslide). Cunard Road closed by slides, and Brooklyn Campground with it. | **Unknown.** Glade Creek is off the list until the park says otherwise. That leaves Army Camp, Grandview Sandbar and Stone Cliff, all unconfirmed. |
+| Day 4 · Thurmond | "Passable" as of Aug 16. | OK as of August. |
+
+Official Bridge Day info *(officialbridgeday.com, read 2026-09-29)*: walking down Fayette Station Road is allowed ("4+ mile distance one way", yield to vehicles), and no private vehicles are allowed on it that day. **Bag rule:** "Prohibited bags include: backpacks … camera bags"; allowed are clear backpacks and fanny packs (subject to search). That applies to the bridge deck, and the plan's "day bag" would be turned away.
+
+**The call that decides all three rows:** Canyon Rim Visitor Center, **(304) 574-2115** *(nps.gov/neri/planyourvisit/crvc.htm, search snippet)*. It's a better first call than the Chamber, because the road status comes before the parking question.
+
+**Linville, also found:** the NPS **Linville Falls Campground** on the Parkway is "expected to remain closed for the 2026 camping season" *(wlos.com, 2026 season announcement)*. Reservable options near the gorge: **Linville Falls Campground** (a different, private one: linvillefalls.com, primitive tent area) and **Lake James State Park** (20 walk-in sites, open year-round, NC State Parks reservations). Drive times to the Hawksbill trailhead haven't been measured, and October availability hasn't been checked.
