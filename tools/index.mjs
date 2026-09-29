@@ -14,6 +14,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip, splitFrontmatter } from "./lib/format.mjs";
+import { parseIdea, summarize } from "./lib/wishlist.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -73,13 +74,30 @@ export function buildIndex() {
         `updated ${r.updated ?? "?"}`,
       ].filter(Boolean).join(" · ");
       out.push(`- **${r.title}** (\`trips/${slug}/\`) · ${r.status} · ${bits}`);
-      if (r.why) out.push(`  ${r.why}`);
+      if (r.why) out.push(`  ${summarize(r.why)}`);
     }
   };
   section("Planned trips", byStatus("planned"));
   section("Outlines", byStatus("outline"));
-  section("Wishlist", byStatus("wishlist"));
   section("Done", byStatus("done"));
+
+  const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map((f) => ({ f, ...parseIdea(read(`wishlist/${f}`)) }));
+  if (ideas.length) {
+    out.push("", "## Wishlist: `wishlist/`", "",
+      "Ideas, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what \"what fits May?\" matches against.", "");
+    const MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    for (const { f, fm, entries } of ideas) {
+      const bits = [
+        fm.region, fm.mode,
+        fm.months?.length ? fm.months.map((m) => MON[m]).join("/") : "no months",
+        fm.days ? `${fm.days} days` : fm.nights ?? null,
+        entries.length ? `${entries.length} research note${entries.length === 1 ? "" : "s"}` : null,
+        `updated ${fm.updated ?? "?"}`,
+      ].filter(Boolean).join(" · ");
+      out.push(`- **${fm.title}** (\`wishlist/${f}\`) · ${bits}`);
+      if (fm.subtitle) out.push(`  ${fm.subtitle}`);
+    }
+  }
 
   out.push(
     "",

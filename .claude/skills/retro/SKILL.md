@@ -42,11 +42,11 @@ Then, with provenance `*(confirmed: <slug> log)*`:
 - Gear `answer:` fields and state changes go in `me/gear.md`.
 - Preferences go in `me/*.md`, updated in place with "was:" notes. Hypotheses stay hypotheses.
 - Food reality goes in `me/food.md` and `kitchen/staples.md`.
-- **Carry-forward:** add a dated entry to the *next* trip's `log.md` listing what this trip implies for it. Don't change its plan; plan changes go through Trees and need Colin's call.
+- **Carry-forward:** add a dated entry to the *next* trip's `log.md` listing what this trip implies for it. Don't change its plan; plan changes need Colin's call.
 
 ## 3. Close it out
 
 - **Hunt for stale promises:** grep for lines saying this trip "will answer" or "can settle" something, and rewrite each with what actually happened.
-- The trip's `status: done` lives in the Trees registry until cutover. Say that in the log and in your reply.
+- Set the trip's `status: done` in its `trip.md` frontmatter, and point `next:` at the retro.
 - Run `npm test && node tools/index.mjs`, commit, push, and open a PR into `main`. A retro touches many files, so **Colin merges it himself.** Don't self-merge.
 - Reply with the 3–5 findings that change future plans, plus anything still open.

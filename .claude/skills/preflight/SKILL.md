@@ -5,7 +5,7 @@ description: Read-only pre-departure check for an upcoming trip at T-14, T-7 and
 
 # /preflight: what's left before we leave
 
-**Read-only.** Preflight finds problems; it doesn't fix them. The report goes in the reply. Fixes happen afterwards, with Colin's say-so, through the normal routes: `trip.md` via Trees and re-import during migration, `me/` via `/remember`, decisions and findings via `log.md`.
+**Read-only.** Preflight finds problems; it doesn't fix them. The report goes in the reply. Fixes happen afterwards, with Colin's say-so, through the normal routes: `trip.md` edited directly, `me/` via `/remember`, decisions and findings via `log.md`.
 
 ## 1. Which trip, and how far out
 
@@ -19,7 +19,7 @@ description: Read-only pre-departure check for an upcoming trip at T-14, T-7 and
 ## 2. Read, in this order
 
 1. `trips/<slug>/trip.md`: frontmatter (`booking`, `nights`, `next`), **Reservations & checks**, **Open questions**, **Packing**, **Provisions**, and every Day's `slack:` and `!` lines.
-2. `trips/<slug>/log.md`: **every entry after the last Trees import.** Decisions and "pending in Trees" lists there **override `trip.md`** until re-import. Say so whenever you rely on one.
+2. `trips/<slug>/log.md`: every entry. A decision logged there but not yet reflected in `trip.md` is **stale-plan drift**: report it as stale and name both files. Don't silently pick one.
 3. `me/gear.md`: every item with `state: need` or `unknown`, and any `question:` with `answeredBy: <slug>`.
 4. `me/checklist.md`: the universal list, run against this trip.
 5. `me/calendar.md`: make sure no trip day is a class day, apart from the known remote lecture.
@@ -55,6 +55,6 @@ Use the AccuWeather tools for the camp nights that matter most: the coldest ones
 
 - First line: `<trip> · T-<n> · <count> blocking · <count> to buy · <count> stale`.
 - Then the tiers, with the most urgent first inside each. One line per item, citing a file.
-- End with a **multiple-choice** offer for what to do next, e.g. (a) write the stale list to `log.md` as "pending in Trees", (b) `/remember` a gear change, (c) nothing.
+- End with a **multiple-choice** offer for what to do next, e.g. (a) fix the stale lines in `trip.md`, (b) `/remember` a gear change, (c) nothing.
 
-If he picks (a), write it as a normal log entry and save it the way `/log` does, including its "verify it landed" step.
+If he picks (a), make only those edits, add a one-line dated note to `log.md` saying what was fixed, and save it the way `/log` does, including its "verify it landed" step. Anything beyond the stale lines is a plan change and waits for him.

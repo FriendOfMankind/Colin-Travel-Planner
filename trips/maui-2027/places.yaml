@@ -1,0 +1,214 @@
+# Full Circle Maui — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: Arrival and the west side — Days 1, 7, 8
+    places:
+      - name: Kahului Airport (OGG)
+        maps: Kahului Airport OGG Maui
+        verified: true
+        lat: 20.893591
+        lng: -156.438126
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ✈️
+        days: 1, 8
+      - name: Camp Olowalu
+        note: Office 7 AM–6 PM. (808) 661-4303
+        maps: Camp Olowalu
+        verified: true
+        lat: 20.80951
+        lng: -156.616477
+        icon: ⛺
+        days: 1, 7
+        wpNote: Office 7 AM–6 PM. (808) 661-4303
+      - name: Olowalu reef, mile marker 14
+        note: Turtle cleaning station, straight off the beach
+        maps: Olowalu mile marker 14 snorkeling Maui
+        verified: false
+        lat: null
+        lng: null
+      - name: Puʻu Kekaʻa (Black Rock)
+        note: Backup cliff jump. Strong current past the point.
+        maps: Puu Kekaa Black Rock Kaanapali
+        verified: true
+        lat: 20.9269462
+        lng: -156.6963223
+        icon: 🤿
+        days: flex
+        wpNote: Backup cliff jump. Strong current past the point.
+  - group: South Maui and the Kahului resupply — Day 2
+    places:
+      - name: La Pérouse Bay
+        note: No cell service. Rough final mile.
+        maps: La Perouse Bay Maui
+        verified: true
+        lat: 20.5979905
+        lng: -156.4204539
+        icon: 🌋
+        days: "2"
+        wpNote: No cell service. Rough final mile.
+      - name: Makena Big Beach (Oneloa)
+        note: Dangerous shore break — swim, don't bodysurf
+        maps: Makena Big Beach Oneloa Maui
+        verified: false
+        lat: null
+        lng: null
+      - name: Costco Kahului
+        note: Cheapest gas on the island. Fuel canisters can't fly — buy here.
+        maps: Costco Kahului Maui
+        verified: true
+        lat: 20.886954
+        lng: -156.448935
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🛒
+        days: "2"
+        wpNote: Cheapest gas on island
+      - name: Mana Foods, Paia
+        note: 8:00 AM–8:30 PM. Last real grocery before Hāna.
+        maps: Mana Foods Paia
+        verified: false
+        lat: null
+        lng: null
+  - group: Hāna and the east — Days 2–5
+    places:
+      - name: Waiʻānapanapa State Park
+        note: Gate closes 6 PM. (808) 248-4843
+        maps: Waianapanapa State Park
+        verified: true
+        lat: 20.7834865
+        lng: -155.997711
+        icon: ⛺
+        days: 2–5
+        wpNote: Gate closes 6 PM. (808) 248-4843
+      - name: Kīpahulu Visitor Center
+        note: 9 AM–5 PM. (808) 248-7375
+        maps: Kipahulu Visitor Center Haleakala
+        verified: true
+        lat: 20.6616396
+        lng: -156.0444889
+        icon: 🌳
+        days: 3, 5
+        wpNote: 9 AM–5 PM. (808) 248-7375
+      - name: Hāmoa Beach
+        maps: Hamoa Beach Hana Maui
+        verified: true
+        lat: 20.720033
+        lng: -155.986632
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🏖️
+        days: "4"
+      - name: Waioka Pond (Venus Pool)
+        note: Grey-area access, flash flood corridor — see Notes before going
+        maps: Waioka Pond Venus Pool Hana
+        verified: false
+        lat: null
+        lng: null
+      - name: Hāna gas station
+        note: Last fuel for 38 miles westbound
+        maps: gas station Hana Maui
+        verified: false
+        lat: null
+        lng: null
+  - group: The back road and Haleakalā — Days 5–7
+    places:
+      - name: Piʻilani Highway east end (Kīpahulu)
+        note: Gas up in Hāna first. Zero cell service across.
+        maps: Piilani Highway Kipahulu Maui
+        verified: false
+        lat: null
+        lng: null
+      - name: Grandma's Coffee House, Keokea
+        maps: Grandmas Coffee House Keokea Maui
+        verified: true
+        lat: 20.705486
+        lng: -156.356546
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: ☕
+        days: "5"
+      - name: Hosmer Grove Campground
+        note: 5G service. After-hours check-in pavilion.
+        maps: Hosmer Grove Campground Haleakala
+        verified: true
+        lat: 20.7684079
+        lng: -156.2375389
+        icon: ⛺
+        days: 5–7
+        wpNote: 5G service. After-hours check-in pavilion.
+      - name: Halemauʻu Trailhead
+        note: Small lot, pit toilet
+        maps: Halemauu Trailhead Haleakala
+        verified: true
+        lat: 20.7522771
+        lng: -156.2284596
+        icon: 🥾
+        days: "6"
+        wpNote: Small lot, pit toilet
+      - name: Haleakalā Visitor Center
+        note: 6 AM–12 PM. Sunrise lot fills — arrive by 5:00 AM.
+        maps: Haleakala Visitor Center summit
+        verified: true
+        lat: 20.7150988
+        lng: -156.2497954
+        icon: 🌅
+        days: "7"
+        wpNote: 6 AM–12 PM. Sunrise lot fills — arrive by 5:00 AM.
+      - name: Komoda Store & Bakery, Makawao
+        note: Cream puffs. Closes when sold out.
+        maps: Komoda Store and Bakery Makawao
+        verified: true
+        lat: 20.854112
+        lng: -156.310647
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🥐
+        days: "7"
+        wpNote: Closes when sold out
+  - group: The last morning — Day 8
+    places:
+      - name: Waiheʻe Ridge Trailhead
+        note: 7 AM–7 PM. Small lot, fills.
+        maps: Waihee Ridge Trail trailhead Maui
+        verified: true
+        lat: 20.9529323
+        lng: -156.5316222
+        icon: 🥾
+        days: "8"
+        wpNote: 7 AM–7 PM. Small lot.
+      - name: Leoda's Kitchen and Pie Shop
+        note: On the way back to OGG from Olowalu
+        maps: Leodas Kitchen and Pie Shop Olowalu
+        verified: false
+        lat: null
+        lng: null
+  - group: Waypoints with no field entry
+    places:
+      - name: Makena Big Beach
+        verified: true
+        lat: 20.631533
+        lng: -156.444941
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🏖️
+        days: "2"
+        wpNote: Dangerous shore break
+      - name: Mana Foods
+        verified: true
+        lat: 20.915528
+        lng: -156.380073
+        icon: 🛒
+        days: "2"
+        wpNote: 8:00 AM–8:30 PM. Last real grocery before Hāna.
+      - name: Waioka Pond
+        verified: true
+        lat: 20.704076
+        lng: -155.994829
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🤿
+        days: "4"
+        wpNote: Grey-area access — see notes
+      - name: Piʻilani Hwy east end (Kīpahulu)
+        verified: true
+        lat: 20.661391
+        lng: -156.046036
+        source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
+        icon: 🛣️
+        days: "5"
+        wpNote: Gas up in Hāna first

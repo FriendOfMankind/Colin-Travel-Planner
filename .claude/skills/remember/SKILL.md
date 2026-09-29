@@ -20,7 +20,7 @@ grep -rin "<keyword>" me/ kitchen/ trips/*/log.md
 - **Conflicts with evidence** (a `log.md` says otherwise): don't write yet. Ask one multiple-choice question naming both sides.
   - Worked example: "I tried dried mango on the trip and my mouth itched" while the Kentucky log says no dried fruit was eaten. The answer is to ask which trip or when, not to cite the Kentucky log.
 - **Supersedes an older line:** change that line in place, and keep a short `(was: …)` if the history matters. Never add a second line saying the new thing.
-- **Other copies elsewhere:** grep this repo *and* note Trees' copy (`data/profile.js`, `data/meals.js`). This repo can't fix Trees in one step, so **tell Colin in your reply** that Trees still says the old thing.
+- **Other copies elsewhere:** grep the whole repo, `trips/*/trip.md` and `wishlist/` included, and fix every copy in the same change. Trees has been frozen since 2026-09-29, so its copy doesn't count.
 
 ## 3. Write it with provenance
 
@@ -53,4 +53,4 @@ git fetch origin main && git merge-base --is-ancestor HEAD origin/main && echo I
 
 ## 5. Reply
 
-One line on what changed, plus any conflict you resolved or Trees copy left stale.
+One line on what changed, plus any conflict you resolved.

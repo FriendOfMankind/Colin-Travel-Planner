@@ -15,7 +15,7 @@ window: Mid-late October — peak color moves down the elevation band
 region: New River Gorge → Pisgah → Linville → Mount Rogers
 country: USA
 coords: [ 37.2, -81.4 ]
-nights: 10 nights — 7 confirmed, 1 uncovered
+nights: 10 nights — 7 reserved, 3 first-come (Oct 15, 22, 23)
 distance: ~1,600 mi round trip
 budget: TBD
 tags:
@@ -64,7 +64,7 @@ page:
       lbl: On foot
 ---
 
-<!-- Imported from Trees@dbeff01 by tools/import-trees.mjs. Edit here from now on; re-importing overwrites this file until cutover. -->
+<!-- Imported from Trees@008d775 at cutover (2026-09-29). Curated here now; Trees is frozen. -->
 
 # Bridge Day + Southern Appalachians
 
@@ -621,7 +621,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 | FS 210, Linville | ~3,800 ft | — | mid 30s | No water on site. Two consecutive nights. |
 | Hurricane, VA | ~2,900 ft | — | mid 30s | Hot showers. Relentless wind on the Mount Rogers ridge. |
 
-**Siesta 20 + MondoKing covers all of it.** The liner recommendation stands for the last three nights and is unconfirmed. September's Kentucky trip is the shakedown — note there whether the bag actually sleeps warm before deciding. **Color gradient:** balds above 5,000 ft peak late Sept/early Oct; the 3,000–5,000 ft corridor peaks the second and third weeks of October; the last week is best low. You're chasing color downhill and **Linville on Oct 22–23 is the bullseye.**
+**Siesta 20 + MondoKing covers all of it.** The liner is bought (Sept 28) and goes in for the last three nights; the Siesta 20 has only been tested at ~50°F, so FS 210 is its real test. **Color gradient:** balds above 5,000 ft peak late Sept/early Oct; the 3,000–5,000 ft corridor peaks the second and third weeks of October; the last week is best low. You're chasing color downhill and **Linville on Oct 22–23 is the bullseye.**
 
 ## Provisions
 
@@ -657,7 +657,9 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Stop 1 (the dry half) — pre-mix at home
 
-- Power oats bag for Oct 23, double-bagged: oats · milk powder · a scoop of whey (PB packet goes in after)
+- Oats ×4 — the Oct 23 one double-bagged as the power-oats bag: oats · milk powder · a scoop of whey (PB packet goes in after)
+- Couscous ×2 (Oct 20 thermos lunch, Oct 22 dinner)
+- Hot chocolate ×3 (Oct 24, plus spares)
 
 ### Stop 2 — Meijer, morning of Oct 15, into the cooler
 
@@ -720,7 +722,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - [ ] One burner, pot, pan, mug, spork
 - [ ] Wide-mouth thermos — Hawksbill sunrise at 4,009 ft in the dark
-- [ ] 48qt cooler ⚠️ eleven days on one cooler. The cooler timeline is in MEALS-trip2-october.md and is not yet on this page.
+- [ ] Cooler: eggs, cheese, frozen veg and the Oct 24 kielbasa. No freezer meals. Size unconfirmed (see gear); a small one is enough.
 - [ ] Block ice at the Brevard resupply — the last cold of the trip
 
 ## Reservations & checks
@@ -729,7 +731,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [ ] Price and phone-check ONE motel in Newland / Linville Falls / Morganton before leaving Ohio — the Linville bail-out is first-come too
 - [ ] ⚠️ CALL 800-927-0263 — Fayette Station Road parking on Bridge Day.
 - [ ] Sign the Arrowhead waiver before arrival — every camper needs one
-- [ ] Mix the five pre-portioned bags at home: oats ×5, oats XL (double-bagged), couscous, rice, hot chocolate ×3
+- [ ] Pre-mix at home to match the menu: oats ×4 (the Oct 23 one double-bagged as the power-oats bag), couscous ×2, hot chocolate ×3. No rice
 - [ ] Buy block ice twice: Fayetteville Oct 16, Brevard Oct 20
 - [ ] Fill three 1-gallon water jugs in Brevard before leaving for Linville — ~12 L total carry
 - [ ] Buy pull-tab cans only — a forgotten can opener at Linville means no dinner
@@ -739,7 +741,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
 - [ ] Decide the FS 210 bail-out BEFORE the trip: Mortimer Campground, or a motel in Newland / Linville Falls / Morganton
-- [ ] Sleeping bag liner — decide after the September Kentucky shakedown
+- [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
 - [ ] Check burn ban status across WV, NC and VA
 - [ ] Verify Linville Falls trail and spur road access from the closed Parkway corridor
@@ -782,11 +784,6 @@ Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/)
 **Blocks:** Day 3 — the whole day
 The walk-to-the-bottom plan is free and legal; the roads are open to pedestrians even though the trails are closed and patrolled. What's unconfirmed is **where you can legally park at the top.** Fayette County Chamber, 800-927-0263. Get this before departure — the fallback (Fayetteville HS at 7:45, shuttle at 8:30, deck 9–3) is a completely different day and you don't want to discover it at 7 AM.
 
-### Which Black Balsam route?
-
-**Blocks:** Day 5 — and Day 5 has only 15 minutes of slack
-The plan says ~4 mi via Art Loeb to Tennent Mountain in 2h 30m. AllTrails lists a 1.4 mi out-and-back to Black Balsam alone, and a 9.7 mi / 1,666 ft Graveyard Ridge loop. Your figure sits between them, which is consistent with an out-and-back along the ridge to Tennent — but on a day with 15 minutes of margin, guessing wrong by five miles ends the day in the dark. Decide the exact route, then re-check whether Sam Knob still fits.
-
 ### The two Linville nights have no fallback written down.
 
 **Blocks:** Days 8–9
@@ -795,17 +792,12 @@ Bail-outs are named in the master file — Mortimer, or a motel in Newland, Linv
 ### Keeneys Creek Road for 5.9 inches of clearance.
 
 **Blocks:** Day 2 afternoon
-Some sources recommend high clearance. The fallback is Kaymoor Top, five minutes from camp, same corridor, conveyor and coke ovens down a long stairway — a genuinely good substitute rather than a consolation. Ask a ranger at Canyon Rim on Day 1 and be willing to take the substitute.
+Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. ⚠️ Since the Aug 15–16 floods, Nuttallburg Road itself was reported washed out — ask Canyon Rim, (304) 574-2115, before counting on either.
 
 ### Table Rock loop routing with the Spence Ridge bridge out.
 
 **Blocks:** Day 9 afternoon
 The east-rim loop shouldn't need the washed-out river bridge, but that's an inference, not a confirmation. Grandfather Ranger District, (828) 652-2144. If it does need it, the release valve is the 2.4 mi out-and-back through The Chimneys.
-
-### Mix the five bags before you leave Ohio.
-
-**Blocks:** Days 8–10, the no-water leg
-Four of the hard-leg meals collapse to one primitive: boil water, pour into a labeled bag, eat from the bag, pack it out. That only works if the bags already exist. Five get mixed at the kitchen table in October — oats ×5, oats XL double-bagged, couscous, rice, hot chocolate ×3. Do that and Linville is solved before you pull out of the driveway. Skip it and O-D4 becomes a protein bar in the dark at 35°F.
 
 ### Print the confirmations, especially Hurricane.
 

@@ -1,0 +1,104 @@
+# Mojave Winter Loop — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: Waypoints with no field entry
+    places:
+      - name: Atlatl Rock Campground, Valley of Fire
+        verified: false
+        lat: null
+        lng: null
+        icon: ⛺
+        days: 1, 2
+        wpNote: Reserve at reservenevada.com. Park office 702-397-2088, Mon–Fri 9–4. Showers and dump station on site.
+      - name: Fire Wave trailhead
+        verified: false
+        lat: null
+        lng: null
+        icon: 🌊
+        days: "2"
+        wpNote: ⚠️ **On the park's seasonal closure list from May 15; reopening date not published.** Confirm before Day 2. White Domes end of the scenic road. Loose sand.
+      - name: Furnace Creek Campground
+        verified: false
+        lat: null
+        lng: null
+        icon: ⛺
+        days: 3–8
+        wpNote: ✅ 136 sites (45 tent-only, 35 walk-to). Reservable Oct 15–Apr 15, 6-month window, 1-877-444-6777. Potable water, dump station and camp store year-round. **No ice, no firewood, no cell reception.** $30–60/nt.
+      - name: Sunset Campground — the fallback
+        verified: false
+        lat: null
+        lng: null
+        icon: 🅿️
+        days: 3–8
+        wpNote: ✅ 230 sites, first-come, seasonal late fall–late April, and NPS says it "rarely fills". **No fire grate or picnic table at the sites** and no vegetation — it is a gravel lot with a view. The named bail-out.
+      - name: Golden Canyon trailhead
+        verified: false
+        lat: null
+        lng: null
+        icon: 🥾
+        days: "4"
+        wpNote: Flash flood corridor. Check the forecast at the visitor center.
+      - name: Dante's View
+        verified: false
+        lat: null
+        lng: null
+        icon: 🏔️
+        days: "5"
+        wpNote: 5,575 ft, paved, vehicle length restriction near the top. Very windy.
+      - name: Mosaic Canyon trailhead
+        verified: false
+        lat: null
+        lng: null
+        icon: 🪨
+        days: "6"
+        wpNote: Near Stovepipe Wells. Polished marble, scrambling, slick when damp.
+      - name: Ubehebe Crater
+        verified: false
+        lat: null
+        lng: null
+        icon: 🌋
+        days: "7"
+        wpNote: Paved to the rim. Racetrack Playa road starts here and is CUT.
+      - name: Hole-in-the-Wall Campground
+        verified: false
+        lat: null
+        lng: null
+        icon: ⛺
+        days: 9, 10
+        wpNote: ✅ Reservation-ONLY, 38 sites, 6-month rolling window. Free WiFi 24/7; generator hours 8 AM–7 PM. Preserve info (760) 252-6100. ⚠️ Access road surface still unconfirmed — 10 mi north on Black Canyon Road.
+      - name: Texas Springs Campground — DV fallback 2
+        verified: false
+        lat: null
+        lng: null
+        icon: 🏕️
+        days: 3–8
+        wpNote: ✅ 106 sites, first-come, seasonal late fall–mid April, in the hills above Furnace Creek. **No generators allowed**, which makes it the quieter option. Fee at pay stations.
+      - name: Mesquite Spring Campground
+        verified: false
+        lat: null
+        lng: null
+        icon: 🏕️
+        days: "7"
+        wpNote: ✅ 40 sites, first-come, 1,800 ft, potable water, 2 mi off Scotty’s Castle Road. The northern-park base — worth knowing on the Ubehebe day.
+      - name: Kelso Dunes trailhead
+        verified: false
+        lat: null
+        lng: null
+        icon: 🏜️
+        days: "10"
+        wpNote: No water, no shade. Hard turnaround 1:30 PM.
+      - name: Jumbo Rocks Campground
+        verified: false
+        lat: null
+        lng: null
+        icon: ⛺
+        days: 11–13
+        wpNote: ✅ Reservable year-round, 124 sites, $30/nt, 4,380 ft. **No water — fill at Black Rock or Cottonwood, or in Twentynine Palms.** Pit toilets, tables, fire grates. Gates never close. Generators 7–9 AM, 12–2 PM, 5–7 PM.
+      - name: Ryan Mountain trailhead
+        verified: false
+        lat: null
+        lng: null
+        icon: ⛰️
+        days: "12"
+        wpNote: Exposed and windy. The one real climb of the trip.
