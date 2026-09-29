@@ -121,3 +121,16 @@ Official Bridge Day info *(officialbridgeday.com, read 2026-09-29)*: walking dow
 **The call that decides all three rows:** Canyon Rim Visitor Center, **(304) 574-2115** *(nps.gov/neri/planyourvisit/crvc.htm, search snippet)*. It's a better first call than the Chamber, because the road status comes before the parking question.
 
 **Linville, also found:** the NPS **Linville Falls Campground** on the Parkway is "expected to remain closed for the 2026 camping season" *(wlos.com, 2026 season announcement)*. Reservable options near the gorge: **Linville Falls Campground** (a different, private one: linvillefalls.com, primitive tent area) and **Lake James State Park** (20 walk-in sites, open year-round, NC State Parks reservations). Drive times to the Hawksbill trailhead haven't been measured, and October availability hasn't been checked.
+
+## 2026-09-29 · Bridge Day on foot from Arrowhead (candidate, not applied)
+
+Colin's idea: skip the car and the parking question entirely, and walk from the tent to the gorge floor. **Google Maps walking directions** (Colin's screenshot, 2026-09-29), from Arrowhead Bike Farm to Fayette Station Road near river level:
+
+| Route | One way | Time (Google) | Elevation |
+|---|---|---|---|
+| **via Fayetteville Trail** (Wolf Creek Falls) | 4.0 mi | 1h 57m | ~1,972 ft at Arrowhead → ~974 ft at the road: **~1,300 ft of climbing on the way back** |
+| via Kaymoor Trail | 4.3 mi | 1h 58m | not shown |
+
+That makes the round trip ~8 mi and ~1,650 ft, which is under the ~10 mi ceiling. It compares with the plan's 9 mi / ~800 ft road walk, which needs parking. Google's trail times are rough, so budget the climb out at ~2.5 h. *(Correction: on 2026-09-29 Claude said the Kaymoor route was "8.6 mi one way from Kaymoor Top". That's the whole trail's length, not the Kaymoor Top → Fayette Station piece. Maps shows 4.3 mi.)*
+
+**Unknowns, all for the Canyon Rim call ((304) 574-2115):** (1) are park trails open to hikers on Bridge Day? The plan says "closed and patrolled", which is unverified. (2) Did the August floods damage the Fayetteville Trail or the Wolf Creek crossings? (3) Can a walker use the flood-closed stretch of Fayette Station Rd to reach the viewing area under the bridge?
