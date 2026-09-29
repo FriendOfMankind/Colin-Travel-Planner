@@ -89,3 +89,16 @@ The interview rewrote several standing assumptions (`me/principles.md` 4, `me/ca
 **Rest day:** Oct 21, the lecture day with a light afternoon, counts. *(Colin, 2026-09-28)*
 
 **Still at odds with his stated preferences, and left as they are:** Oct 15 and both FS 210 nights have no water or showers, and FS 210 runs mid-30s, below his "40s fine". These are the price of the trip's structure (a first-come Linville corridor). Worth a line in the retro: did three no-shower nights and two cold ones cost more than the scenery was worth?
+
+## 2026-09-29 · Pre-mix decided; stale lines waiting for Trees
+
+**Pre-mix at home: match the menu.** Oats ×4 (the Oct 23 one double-bagged as the power-oats bag), couscous ×2, hot chocolate ×3. **No rice.** No meal on the current menu uses it. *(chosen 2026-09-29)* The old "five bags" list (oats ×5, oats XL, couscous, rice, hot chocolate ×3) came from the pre-staples recipe plan. Counted against `trip.md`: oats on Oct 18, 20, 22 (thermos) and 23 (bag); couscous on Oct 20 (thermos lunch) and Oct 22 (dinner); hot chocolate on Oct 24 plus spares.
+
+**Pending in Trees.** Found 2026-09-29 by reading `trip.md` end to end. These need fixing in Trees and a re-import; this session couldn't reach Trees. Until then, **this list wins over `trip.md`:**
+
+1. **Frontmatter `nights:`** says "7 confirmed, 1 uncovered". It should be 7 reserved, 3 first-come (Oct 15, 22, 23), matching the Lodging table.
+2. **Packing → Camp kitchen** says "48qt cooler ⚠️ eleven days on one cooler; the cooler timeline is in MEALS-trip2-october.md". Stale: the cooler is small now, with no freezer meals (Provisions → Cooler), and 48 qt was never confirmed (`me/gear.md`).
+3. **Reservations → "Mix the five pre-portioned bags"** and the open question **"Mix the five bags before you leave Ohio"**: replace both with the pre-mix above. Provisions → "pre-mix at home" should list all three items, not just the power-oats bag. The open question also cites **O-D4**, a meal code that no longer exists.
+4. **Liner.** Reservations says "decide after the September Kentucky shakedown", and Weather says "the liner recommendation … is unconfirmed". Both are stale: the liner is owned *(stated 2026-09-28, `me/gear.md`)*.
+5. **Open question "Which Black Balsam route?"** is resolved. The hike table marks the 1.4 mi Art Loeb route as chosen, and Day 5 has 1h45m of protected slack, not 15 min. Close it.
+6. **Open question "Keeneys Creek Road"** still offers Kaymoor as the fallback. Kaymoor is already scheduled on Day 4, and the Day 2 text says so. The fallback is simply "skip Nuttallburg".
