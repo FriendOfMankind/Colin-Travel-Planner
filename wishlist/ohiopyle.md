@@ -12,7 +12,7 @@ country: USA
 coords: [ 39.87, -79.49 ]
 budget: ~$150. Tank of gas, 3.5 hrs.
 tags: [ car camping, swimming, weekend, cheap, close ]
-updated: 2026-09-04
+updated: 2026-09-29
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -31,3 +31,7 @@ The obvious cheap counterweight to an expensive year — but the water is cold b
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-09-29 · Paired with Pittsburgh
+- Now the park half of [Pittsburgh + Ohiopyle](pittsburgh.md), the first city-trip test run. The combined plan and its research live there.
+

@@ -44,7 +44,10 @@ export function parseIdea(md) {
   const top = sections(body).children[0] ?? { children: [] };
   const sec = (t) => top.children.find((c) => c.title === t);
   const notesSec = sec("Research notes");
-  const notes = notesSec?.text.replace(NOTES_INTRO, "").trim() ?? "";
+  // The dated entries are ### children of this section, so take its raw text
+  // up to the next ## (or the end) rather than the section's own paragraph.
+  const raw = /^## Research notes[^\n]*\n([\s\S]*?)(?=^## |(?![\s\S]))/m.exec(body)?.[1] ?? "";
+  const notes = raw.replace(NOTES_INTRO, "").trim();
   return {
     fm, why: sec("Why")?.text ?? "", next: sec("Next")?.text ?? "",
     notes, entries: notesSec?.children.filter((c) => /^\d{4}-\d{2}-\d{2}/.test(c.title)) ?? [],
