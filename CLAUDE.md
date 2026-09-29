@@ -31,6 +31,7 @@ This repo *is* the assistant's memory. Colin asks questions and makes changes fr
 - **`/log`**: something happened on a trip. It goes to that trip's `log.md`, and the skill self-merges a log-only change.
 - **`/remember`**: a standing fact or preference. It goes to the one `me/` or `kitchen/` file it belongs in, after a conflict check, and self-merges when narrow.
 - **`/retro <slug>`**: the post-trip interview. It writes a plan-vs-actual table, patterns and carry-forward. Colin merges it himself.
+- **`/preflight`**: the read-only pre-departure check (T-14/T-7/T-1). Open calls, gear gaps, contradictions inside the plan, and the forecast once it's in range. It reports; it never edits.
 
 ## Branches
 
@@ -80,4 +81,4 @@ After any change: `npm test && node tools/index.mjs`, and commit `INDEX.md` with
 
 ## Where this is going
 
-The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **Done: eval run 1 passed on 2026-09-28** (see the run log in `evals/questions.md`). (2) Migrate everything, then port the validator. **In progress:** Kentucky and Appalachians are migrated. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro` **built 2026-09-28 for the October trip**; `/backfill`, `/new-trip`, `/preflight` still to come. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
+The approved plan, in order: (1) prototype the format on Kentucky + `me/` and prove it with `evals/`. **Done: eval run 1 passed on 2026-09-28** (see the run log in `evals/questions.md`). (2) Migrate everything, then port the validator. **In progress:** Kentucky and Appalachians are migrated. (3) A GitHub Action builds the website from these files. (4) Skills: `/log`, `/remember`, `/retro` **built 2026-09-28 for the October trip**; `/preflight` built 2026-09-29; `/backfill`, `/new-trip` still to come. (4b) `/gardener`, a weekly contradiction-and-staleness sweep that **opens a PR and never auto-merges**. (5) Cut over and freeze Trees.
