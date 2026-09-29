@@ -1,6 +1,6 @@
 ---
 topic: adventures
-summary: "Beyond hiking: rivers, caves, wildlife, fossils and rare natural things. The swap rule for when one earns a day, and the limits on each."
+summary: "Beyond hiking: rivers, caves, wildlife, fossils, rare natural things and urban routes. The swap rule for when one earns a day, and the limits on each."
 source: Colin, 2026-09-28 (two multiple-choice rounds in a planning session)
 ---
 
@@ -50,6 +50,15 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 - **Rare natural things:** rare plants, champion trees, odd geology.
 
 Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly weeks, rut, migrations) have fixed windows, so name the window and its source, never a guessed date.
+
+## Urban routes and industrial ruins
+
+*(stated 2026-09-29, not yet tested on a trip)*
+
+- **Urban hiking counts.** That means routes through towns with a strong character, notable architecture, old or abandoned structures, strange industrial zones, a bridge worth crossing on foot, or a coastline walk. These are reasonable add-ons to a trip, and the swap rule above applies: an urban route can be the day's one outing.
+- **A night or two in a city hotel is acceptable when the route earns it.** It's a *planned* exception to principle 1 ([principles.md](principles.md)), so the reason goes in that trip's Notes. It is not the "bail to a motel" option that [camping.md](camping.md) records as not chosen.
+- **Abandoned buildings: Colin decides place by place.** For each one, give him the facts, not a verdict: who owns it (if known), whether entry is legal (public, guided or open vs. posted or fenced), and the hazards (unsound structure, asbestos, mold, and being solo with no one to raise the alarm). Name any legal alternative alongside it: a guided tour, a public ruin, a view from the street. Never present a trespass as an ordinary stop, and never leave out that it is one.
+- **Crowds still matter.** The packed-viewpoint rule in [travel-style.md](travel-style.md) applies, and a city usually beats it on timing (a weekday morning) rather than by skipping it.
 
 ## Fossils and rockhounding
 
