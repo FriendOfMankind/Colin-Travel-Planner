@@ -43,6 +43,13 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 ## Changing things
 
 - **Every change is a file edit on a branch, then a PR into `main`.** `main` is the memory: an unmerged note is invisible to the next session. The skills above say when they may merge themselves. Everything else waits for Colin.
+- **Branch discipline** (the mixups this prevents are in `docs/GUIDE.md`):
+  - Start from the latest `main`. If the briefing's branch check says "behind", run `git pull origin main` first.
+  - One branch and one PR per piece of work, always **into** `main`. Never open a PR *from* `main`.
+  - Don't leave the checkout on `main` after committing work: the app's "Create PR" button uses the current branch.
+  - If this chat's earlier PR is already merged, restart the branch from `main` before new work.
+  - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
+  - When Colin says "merged": pull `main`, confirm, and republish the site.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
 - **Update, don't append.** When a fact changes, change it in place and keep a short "(was: …)" note. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
@@ -88,4 +95,4 @@ Next, in order. Change this list when one lands:
 3. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
 4. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
 
-Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.
+Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

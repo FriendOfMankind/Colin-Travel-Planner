@@ -20,4 +20,4 @@ tools/              the briefing (now.mjs), INDEX + site generators, format libr
 .claude/            skills (/log /remember /daydream /preflight /retro) and the session-start hook
 ```
 
-[`CLAUDE.md`](CLAUDE.md) has the rules for answering, editing and remembering.
+[`CLAUDE.md`](CLAUDE.md) has the rules for answering, editing and remembering. [`docs/GUIDE.md`](docs/GUIDE.md) is the how-to for using it from Claude Code without branch and merge mixups.
