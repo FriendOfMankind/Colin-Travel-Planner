@@ -30,7 +30,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Full Circle Maui** (`trips/maui-2027/`) · planned · May 13–20, 2027 · 8 days · 18/25 places located · log 1 entry · updated 2026-09-03
   Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 1 entry · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
@@ -77,13 +77,13 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Maui return leg — with a real catch
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
-- **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · only-now · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-05
+- **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
-- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-06
+- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-30
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
