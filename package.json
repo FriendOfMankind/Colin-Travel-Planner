@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node --test \"tools/test/*.test.mjs\"",
     "index": "node tools/index.mjs",
-    "import": "node tools/import-trees.mjs"
+    "now": "node tools/now.mjs"
   },
   "devDependencies": {
     "marked": "^14.1.4",

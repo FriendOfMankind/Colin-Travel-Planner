@@ -2,8 +2,8 @@
 
 Colin's travel planner and second brain. Every trip (planned, dreamed or done), every preference and every lesson from the road lives here as plain Markdown and YAML. Two ways in:
 
-- **Ask or change things from the Claude app.** "Where do I sleep on the 17th?" "Remember I bought the liner." "Log: Honey Creek was muddy." Claude reads [`INDEX.md`](INDEX.md) first, then only the files it needs. Every change is a commit.
-- **Glance at the website in the field.** It's generated from the same files and works offline. Today that's a private claude.ai page (see `CLAUDE.md`). It isn't offline-capable yet; see `docs/SITE.md`. The old Trees site was frozen on 2026-09-29.
+- **Ask or change things from the Claude app.** "Where do I sleep on the 17th?" "Remember I bought the liner." "Log: Honey Creek was muddy." Every session opens with a briefing computed from these files (`tools/now.mjs`): the next trip, what's open, what's due. Every change is a commit.
+- **Glance at the website in the field.** It's generated from the same files. Today that's a private claude.ai page (see `CLAUDE.md`), and it isn't offline-capable yet. The old Trees site was frozen on 2026-09-29.
 
 ## Layout
 
@@ -16,7 +16,8 @@ trips/<slug>/
   log.md            what actually happened: planning history, trip notes, the retro
 wishlist/<slug>.md  ideas: the pitch, the next step, dated research notes (/daydream)
 evals/              the test that decides whether this format works for an AI
-tools/              INDEX + site generators, format library + tests, the (retired) Trees importer
+tools/              the briefing (now.mjs), INDEX + site generators, format library + tests
+.claude/            skills (/log /remember /daydream /preflight /retro) and the session-start hook
 ```
 
-[`CLAUDE.md`](CLAUDE.md) has the rules for answering, editing and remembering.
+[`CLAUDE.md`](CLAUDE.md) has the rules for answering, editing and remembering. [`docs/GUIDE.md`](docs/GUIDE.md) is the how-to for using it from Claude Code without branch and merge mixups.
