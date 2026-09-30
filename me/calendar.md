@@ -58,8 +58,8 @@ terms:
 blocked:
   - start: 2026-12-25
     end: 2026-12-30
-    name: Frisco, CO — family (DATES UNCONFIRMED)
-    confirmed: false
+    name: Frisco, CO — family (confirmed 2026-09-30; was "DATES UNCONFIRMED")
+    confirmed: true
   - date: 2027-05-08
     name: 🎓 Commencement
     confirmed: true
