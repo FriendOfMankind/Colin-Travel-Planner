@@ -9,6 +9,7 @@
      ---
      slug, title, subtitle, status: wishlist
      months, mode, days, nights, window  ← what the calendar matches against
+     horizon (optional)  only-now | confirmed | keeps | weekend; derived if absent (bucket.mjs)
      region, country, coords (display only, a region centroid, never a pin)
      tags, budget, target, updated, source
      ---
@@ -20,7 +21,7 @@
 
 import { splitFrontmatter, sections, toYaml } from "./format.mjs";
 
-const FIELDS = ["slug", "title", "subtitle", "status", "months", "mode", "days", "nights", "window", "dates", "start",
+const FIELDS = ["slug", "title", "subtitle", "status", "months", "mode", "horizon", "days", "nights", "window", "dates", "start",
   "target", "region", "country", "coords", "distance", "budget", "tags", "booking", "updated", "source"];
 
 export const NOTES_INTRO = "Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.";

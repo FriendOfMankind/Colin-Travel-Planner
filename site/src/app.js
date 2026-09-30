@@ -225,20 +225,70 @@
     </div>`;
   };
 
-  /* Ideas: filter by month and by drive/fly, both remembered on this phone. */
+  /* Potential trips: grouped by the horizon test (me/calendar.md), filtered
+     by month and drive/fly. Filters are remembered on this phone. */
+  const HORIZON = {
+    "only-now": ["Only now", "Won't fit two weeks of PTO after Aug 2027. The free summer is for these."],
+    confirmed: ["Confirmed", "Happening, no trip page yet."],
+    keeps: ["Keeps", "Fits in PTO later. No rush."],
+    weekend: ["Weekend", "Inside the weekend radius. Weekends outlast the horizon."],
+  };
   function ideasBlock() {
     const month = store.get("ideaMonth", 0), mode = store.get("ideaMode", "");
-    const list = (D.ideas ?? []).filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
+    const all = D.ideas ?? [];
+    const list = all.filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
     const chip = (key, val, label, cur) => `<button type="button" class="chip${cur === val ? " accent" : ""}" data-filter="${key}" data-val="${esc(val)}">${label}</button>`;
-    const modes = [...new Set((D.ideas ?? []).map((i) => i.mode).filter(Boolean))].sort();
-    return `<div class="section"><h2>Ideas <span class="muted" style="font-weight:400">${list.length} of ${(D.ideas ?? []).length}</span></h2>
+    const modes = [...new Set(all.map((i) => i.mode).filter(Boolean))].sort();
+    const row = (i) => `<a class="trip-row" href="#w-${i.slug}">
+        <div class="date">${esc(i.mode)}</div>
+        <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
+        <span class="go" aria-hidden="true">›</span></a>`;
+    const groups = Object.keys(HORIZON).map((h) => [h, list.filter((i) => i.horizon === h)]).filter(([, l]) => l.length);
+    return `<div class="section"><h2>Potential trips <span class="muted" style="font-weight:400">${list.length} of ${all.length}</span></h2>
       <div class="filters">${chip("ideaMonth", 0, "Any month", month)}${MON.map((m, i) => chip("ideaMonth", i + 1, m, month)).join("")}</div>
       <div class="filters">${chip("ideaMode", "", "Any way", mode)}${modes.map((m) => chip("ideaMode", m, m, mode)).join("")}</div>
-      <div class="panel divide">${list.map((i) => `<a class="trip-row" href="#w-${i.slug}">
-        <div class="date">${esc(i.mode)}</div>
-        <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
-        <span class="go" aria-hidden="true">›</span></a>`).join("") || '<div class="pad muted">Nothing on the list fits that. Which is itself a daydream prompt.</div>'}</div></div>`;
+      ${groups.map(([h, l]) => `<div class="section" style="margin-top:10px"><div><div class="eyebrow">${HORIZON[h][0]} · ${l.length}</div><div class="muted" style="font-size:12.5px">${HORIZON[h][1]}</div></div><div class="panel divide">${l.map(row).join("")}</div></div>`).join("")
+        || '<div class="panel pad muted">Nothing on the list fits that. Which is itself a daydream prompt.</div>'}</div>`;
   }
+
+  /* ------------------------------------------------------------ bucket */
+  const KIND_LABEL = { hike: "Hike", walk: "City walk", view: "View", waterfall: "Waterfall", lake: "Lake", swim: "Swim", river: "River", campground: "Campground", city: "City", ruin: "Ruin", cave: "Cave", geology: "Geology", wildlife: "Wildlife", fossil: "Fossils & rocks", food: "Food", drive: "Drive", other: "Other" };
+  /** Items tied to a trip or idea, plus (for a trip) the wanted ones in its states. */
+  function bucketFor({ trip, idea, states = [] }) {
+    return (D.bucket ?? []).filter((b) => (trip && b.trip === trip) || (idea && b.wishlist === idea) || (states.includes(b.state) && b.status === "want" && !b.trip));
+  }
+  function bucketRow(b, opts = {}) {
+    const link = b.trip ? D.trips.find((t) => t.slug === b.trip) : null;
+    const idea = b.wishlist ? (D.ideas ?? []).find((i) => i.slug === b.wishlist) : null;
+    const mark = b.status === "done" ? '<span class="chip accent">✓ done</span>' : b.status === "dropped" ? '<span class="chip warn">dropped</span>' : "";
+    return `<div class="place"><div>
+      <div class="pn">${esc(b.name)} ${mark}</div>
+      <div class="pm"><span class="chip">${esc(KIND_LABEL[b.kind] ?? b.kind)}</span> ${esc(b.where)}${b.months.length ? ` · ${b.months.map((m) => MON[m - 1]).join("/")}` : ""}</div>
+      <div class="pm">${b.why}</div>
+      ${b.verdict ? `<div class="pm"><b>Verdict:</b> ${b.verdict}</div>` : ""}${b.reason ? `<div class="pm"><b>Dropped:</b> ${b.reason}</div>` : ""}
+      ${!opts.noLinks && (link || idea) ? `<div class="pm">${link ? `<a href="#t-${link.slug}-${b.status === "done" ? "journal" : "plan"}">${esc(link.title)} ›</a>` : ""}${idea ? `<a href="#w-${idea.slug}">${esc(idea.title)} ›</a>` : ""}</div>` : ""}
+    </div></div>`;
+  }
+
+  V.bucket = () => {
+    const all = D.bucket ?? [];
+    const status = store.get("bStatus", "want"), kind = store.get("bKind", ""), state = store.get("bState", "");
+    const list = all.filter((b) => (!status || b.status === status) && (!kind || b.kind === kind) && (!state || b.state === state));
+    const chip = (key, val, label, cur) => `<button type="button" class="chip${cur === val ? " accent" : ""}" data-filter="${key}" data-val="${esc(val)}">${label}</button>`;
+    const kinds = Object.keys(KIND_LABEL).filter((k) => all.some((b) => b.kind === k));
+    const states = [...new Set(all.map((b) => b.state))].sort();
+    const n = (s) => all.filter((b) => b.status === s).length;
+    const byState = {};
+    for (const b of list) (byState[b.state] ??= []).push(b);
+    return `<div class="stack"><h1>Bucket list</h1>
+      <p class="muted" style="margin:0">Single places worth the detour, too small to be a trip. ${n("want")} to do, ${n("done")} done. Add one by telling Claude: <span class="mono">save that spot…</span></p>
+      <div class="filters">${chip("bStatus", "want", `Want ${n("want")}`, status)}${chip("bStatus", "done", `Done ${n("done")}`, status)}${n("dropped") ? chip("bStatus", "dropped", `Dropped ${n("dropped")}`, status) : ""}${chip("bStatus", "", "All", status)}</div>
+      <div class="filters">${chip("bKind", "", "Any kind", kind)}${kinds.map((k) => chip("bKind", k, KIND_LABEL[k], kind)).join("")}</div>
+      <div class="filters">${chip("bState", "", "Anywhere", state)}${states.map((s) => chip("bState", s, s, state)).join("")}</div>
+      ${Object.keys(byState).sort().map((st) => `<div class="section" style="margin-top:10px"><div class="eyebrow">${esc(st)} · ${byState[st].length}</div><div class="panel divide">${byState[st].map((b) => bucketRow(b)).join("")}</div></div>`).join("")
+        || '<div class="panel pad muted">Nothing matches.</div>'}
+      <p class="muted" style="font-size:12.5px"><code>bucket.yaml</code></p></div>`;
+  };
 
   V.idea = (i) => {
     const ask = `Let's daydream about ${i.title} (wishlist/${i.slug}.md). /daydream ${i.slug} — [what caught your eye: an activity, a season, a question]`;
@@ -248,6 +298,7 @@
       ${i.window ? `<div class="panel pad"><div class="eyebrow">When</div><div>${i.window}</div></div>` : ""}
       <div class="panel pad prose">${i.why}</div>
       <div class="panel pad"><div class="eyebrow">Next</div><div class="prose">${i.next}</div></div>
+      ${bucketFor({ idea: i.slug }).length ? `<div class="section"><h2>On the bucket list</h2><div class="panel divide">${bucketFor({ idea: i.slug }).map((b) => bucketRow(b, { noLinks: true })).join("")}</div></div>` : ""}
       <div class="section"><h2>Research notes</h2><div class="panel pad prose">${i.notes || '<p class="muted">Nothing yet. Every fact <code>/daydream</code> finds lands here with its source.</p>'}</div></div>
       <div class="row"><button type="button" class="btn ask" data-ask="${esc(ask)}">Daydream about this</button><span class="ask-msg muted" style="font-size:12.5px"></span></div>
       <p class="muted" style="font-size:12.5px">Updated ${esc(i.updated)} · <code>wishlist/${esc(i.slug)}.md</code></p></div>`;
@@ -281,6 +332,9 @@
           <div class="loc ${p.verified ? "ok" : "no"}">${p.verified ? `✓ ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}` : "Not located: search only"}</div></div>
           ${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")}
         ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
+        ${(() => { const bl = bucketFor({ trip: t.slug, states: t.states }); if (!bl.length) return "";
+          const on = bl.filter((b) => b.trip === t.slug), near = bl.filter((b) => b.trip !== t.slug);
+          return `<div class="section"><h2>Bucket list</h2>${on.length ? `<div class="eyebrow">On this trip</div><div class="panel divide">${on.map((b) => bucketRow(b, { noLinks: true })).join("")}</div>` : ""}${near.length ? `<div class="eyebrow" style="margin-top:6px">Also in ${esc(t.states.join(", "))}, not on the plan</div><div class="panel divide">${near.map((b) => bucketRow(b)).join("")}</div>` : ""}</div>`; })()}
         <div class="muted" style="font-size:12.5px">Map view comes next: pins for the ${t.located.verified} located places, from the vendored map library so it works offline.</div>
       </div>`;
     } else if (sec === "prep") {
@@ -342,7 +396,7 @@
       html = V.idea(D.ideas.find((i) => i.slug === h.slice(2))); tab = "trips";
     } else if (h.startsWith("me-") && D.me.find((m) => m.id === h.slice(3))) {
       html = V.meFile(D.me.find((m) => m.id === h.slice(3))); tab = "me";
-    } else if (V[h] && ["now", "trips", "kitchen", "me"].includes(h)) { html = V[h](); tab = h; }
+    } else if (V[h] && ["now", "trips", "bucket", "kitchen", "me"].includes(h)) { html = V[h](); tab = h; }
     else html = V.now();
     $view.innerHTML = html + `<div class="foot">Built ${esc(D.builtAt.slice(0, 16).replace("T", " "))} UTC from the Colin-Travel-Planner files.</div>`;
     document.querySelectorAll(".tabbar a").forEach((a) => { if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });

@@ -14,6 +14,7 @@ start: null
 dates: Jul 6–26, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
 region: Avon OH → SD → WY → MT → ND → home
+states: [ SD, WY, MT, ND ]
 country: USA
 coords: [ 46, -106.5 ]
 nights: 20 nights

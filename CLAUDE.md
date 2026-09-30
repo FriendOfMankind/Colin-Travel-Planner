@@ -18,7 +18,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A trip's plan | `trips/<slug>/trip.md` |
 | What actually happened / past experience | `trips/<slug>/log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
-| An idea and its research | `wishlist/<slug>.md` |
+| A potential trip and its research | `wishlist/<slug>.md` |
+| A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
 | What's in the repo | `INDEX.md` (generated) |
 
@@ -36,7 +37,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 |---|---|---|---|
 | "log: …" | `/log` | that trip's `log.md` | yes, if log-only |
 | "remember …" | `/remember` | the one `me/` or `kitchen/` file | yes, if narrow |
-| "what about …" / "daydream" | `/daydream` | `wishlist/` | yes, if wishlist-only |
+| "what about …" / "daydream" / "save that spot" | `/daydream` | `wishlist/`, `bucket.yaml` | yes, if only those |
 | "am I ready?" | `/preflight` | nothing; it reports | n/a |
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
 
@@ -54,6 +55,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 - **Update, don't append.** When a fact changes, change it in place and keep a short "(was: …)" note. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
 - **Hypotheses stay hypotheses** until Colin confirms them.
+- **Three sizes, pointing down, never copying.** `trips/` (dated), `wishlist/` (potential trips: places plus a season), `bucket.yaml` (single places). A bucket item that belongs to a trip or idea carries `trip:` or `wishlist:` and a one-line `why`; its facts stay in the trip or idea. **When planning any trip, check `bucket.yaml` for its `states`.** Potential trips sort by `horizon` (only-now / confirmed / keeps / weekend), the test in `me/calendar.md`.
 - **Machine data is YAML, judgment is Markdown.** Schedule lines have one shape:
   `- 6:15 → 6:40 (25m) · drive · Text · 📍 Maps search`. A `!` after the kind means warn.
 - **After content changes, rebuild and republish the site:** `node tools/build.mjs`, then publish `site/index.html` to https://claude.ai/artifact/FWuwTKkLnDTCYn9z4QNaP9 (the Artifact tool's `url`). Never publish it as a new page.
@@ -78,7 +80,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 
 ```bash
 npm install            # the session hook does this
-npm test               # format, trips, wishlist and date tests
+npm test               # format, trips, wishlist, bucket and date tests
 node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a date)
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
@@ -87,7 +89,7 @@ node tools/build.mjs   # site/index.html
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 6 trips, 34 ideas, the kitchen, the site (a private claude.ai page), the five skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 6 trips, 34 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the five skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.

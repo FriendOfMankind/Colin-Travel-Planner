@@ -14,7 +14,8 @@ This is the sandbox. Exploring is the point, and nothing here needs a date or a 
 | "/daydream capitol-reef", "tell me more about the Uintas" | **Riff on one idea** | `wishlist/<slug>.md`, all of it, research notes included |
 | "I want to raft something big", "where can I see hellbenders?" | **Chase an activity** | `me/adventures.md` (his rules for that activity), then search |
 | "hidden gems in the Southwest", "what's weird near Utah?" | **Find gems** | `me/principles.md`, `me/hiking.md`, then search |
-| "what fits 10 days in May?", "something I can drive to in April" | **Match a window** | `INDEX.md` wishlist lines (`months`, `mode`), `me/calendar.md` |
+| "what fits 10 days in May?", "something I can drive to in April" | **Match a window** | `INDEX.md` wishlist lines (`months`, `mode`, `horizon`), `me/calendar.md` |
+| "save that spot", "add X to the bucket list", "I did Y back in 2022" | **Bucket it** | `bucket.yaml` (grep it first), then the trip or idea it might belong to |
 
 If it's unclear, ask one multiple-choice question. Don't guess.
 
@@ -27,7 +28,7 @@ Always read `INDEX.md` first (it lists every idea with its months and mode), plu
 - `me/adventures.md`: rivers, caves, wildlife, fossils, and the swap rule for when one earns a day
 - `me/calendar.md`: the horizon (full-time work starts 2027-08-31) and `modeFit`, which sets the minimum days a fly or drive trip is worth
 
-**Search before you add.** `grep -ril "<place or activity>" wishlist/ trips/`. The idea may already exist, or may already have been declined on purpose. `wishlist/kenai-peninsula.md` records a PNW + Alaska bundle that was considered and declined. Don't re-open a decision like that cold. Name it, and ask whether he wants to.
+**Search before you add.** `grep -ril "<place or activity>" wishlist/ trips/ bucket.yaml`. The idea may already exist, or may already have been declined on purpose. `wishlist/kenai-peninsula.md` records a PNW + Alaska bundle that was considered and declined. Don't re-open a decision like that cold. Name it, and ask whether he wants to.
 
 ## 3. Research
 
@@ -44,6 +45,7 @@ Reply conversationally: what you found, what surprised you, what it costs, and w
 - **Keep the notes** on an existing idea (the default when riffing)
 - **Add it** as a new idea
 - **Update the pitch:** the idea's *Why* or *Next* changed because of what we learned
+- **Bucket it:** it's one place, not a trip. It goes in `bucket.yaml`
 - **Drop it**, with a one-line reason in the notes so it isn't re-researched from scratch
 - **Nothing:** it was just chat
 
@@ -72,6 +74,14 @@ Don't write anything he didn't pick.
 
 **Never invent:** a coordinate (leave `coords` out unless you copied a region centroid from a source), a price, a fee, a booking window or opening hours. Write `TBD` or name the source. A sunrise or booking-window date is computed, never typed.
 
+**A bucket item** is one entry in `bucket.yaml`. The schema is at the top of that file, and `npm test` enforces it:
+
+- `id` (kebab-case), `name`, `kind`, `where`, `state` (two-letter code), a one-line `why`, `status: want | done | dropped`, `source`, `added` (today). Optional: `months`.
+- **Too small for a trip, or part of one?** If it belongs to a trip or a wishlist idea, add `trip:` or `wishlist:` and keep `why` to one line. The facts stay in that file. Never copy a price, an hour or a rule into the bucket list.
+- **Done** needs `trip:` (preferred) or `when:` ("2022", "high school"). Put Colin's own verdict in `verdict:`, in his words. **Dropped** needs a one-line `reason:`.
+- **No coordinates, ever.** Places get located in a trip's `places.yaml`.
+- An idea's `horizon` is derived from `mode` and `days`. Set `horizon:` in its frontmatter only when the file's own reasoning says otherwise (Kenai is 14 days but `only-now`).
+
 **Promoting an idea to a trip** means `trips/<slug>/` with a real `trip.md`. That's `/new-trip`'s job, and `/new-trip` isn't built yet for this repo. Say so, and keep the research here until it is.
 
 ## 6. Save it
@@ -82,7 +92,7 @@ git add -A && git commit -m "daydream: <slug> — <what was learned>"
 git push -u origin <session branch>
 ```
 
-Open a PR into `main` and **merge it once checks pass**, but only if the diff touches nothing beyond `wishlist/` and `INDEX.md`. Picking "keep" or "add" is Colin's approval for that. Anything else (a `me/` change, a trip plan) waits for him. A preference that surfaced while daydreaming ("I'd never do a boat tour") belongs to `/remember`, not in a wishlist note. Offer it.
+Open a PR into `main` and **merge it once checks pass**, but only if the diff touches nothing beyond `wishlist/`, `bucket.yaml` and `INDEX.md`. Picking "keep", "add" or "bucket it" is Colin's approval for that. Anything else (a `me/` change, a trip plan) waits for him. A preference that surfaced while daydreaming ("I'd never do a boat tour") belongs to `/remember`, not in a wishlist note. Offer it.
 
 ## Verify it landed. Never skip this step.
 

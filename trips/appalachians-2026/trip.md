@@ -13,6 +13,7 @@ start: 2026-10-15
 dates: Oct 15–25, 2026
 window: Mid-late October — peak color moves down the elevation band
 region: New River Gorge → Pisgah → Linville → Mount Rogers
+states: [ WV, NC, VA ]
 country: USA
 coords: [ 37.2, -81.4 ]
 nights: 10 nights — 7 reserved, 3 first-come (Oct 15, 22, 23)

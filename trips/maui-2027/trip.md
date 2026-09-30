@@ -13,6 +13,7 @@ start: 2027-05-13
 dates: May 13–20, 2027
 window: May — dry season leeward, before summer crowds
 region: Maui, Hawaii
+states: [ HI ]
 country: USA
 coords: [ 20.79, -156.32 ]
 nights: 7 nights camping

@@ -47,76 +47,111 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Wishlist: `wishlist/`
 
-Ideas, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what "what fits May?" matches against.
+Potential trips, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what "what fits May?" matches against. `horizon` is the test from `me/calendar.md`: **only-now** can't survive two weeks of PTO after 2027-08-31, **keeps** can, **weekend** is inside the weekend radius, **confirmed** is happening but has no trip page yet. "(derived)" means it was computed from mode and length, not decided.
 
-- **Beartooth Plateau** (`wishlist/beartooth-plateau.md`) · Montana / Wyoming · drive · Jun/Jul/Aug/Sep · 12 days · updated 2026-09-06
+- **Beartooth Plateau** (`wishlist/beartooth-plateau.md`) · Montana / Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · 12 days · updated 2026-09-06
   Paved to 9,500 ft
-- **Bighorns / Cloud Peak** (`wishlist/bighorns.md`) · Wyoming · drive · Jun/Jul/Aug/Sep · updated 2026-09-06
+- **Bighorns / Cloud Peak** (`wishlist/bighorns.md`) · Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · updated 2026-09-06
   Unspent and cheap to reach
-- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · May/Jun/Jul/Aug/Sep · 2 nights · updated 2026-09-04
+- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · updated 2026-09-04
   Colorado's one world-class May option
-- **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · Apr/May/Oct · 5–7 nights · updated 2026-09-04
+- **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · keeps (derived) · Apr/May/Oct · 5–7 nights · updated 2026-09-04
   The penciled 2027 shoulder trip
-- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · updated 2026-09-04
+- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · updated 2026-09-04
   Maui return leg — the pick
-- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
+- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   The reliable Colorado option in May
-- **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-09-04
+- **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-09-04
   Maui return leg — the sleeper
-- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · Jul/Aug/Sep/Oct · 10 days · updated 2026-09-06
+- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 10 days · updated 2026-09-06
   Committed — the best payoff per dollar
-- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · Dec · 6 days · updated 2026-09-30
+- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · updated 2026-09-30
   Family, not a plan
-- **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · Jul/Aug/Sep · updated 2026-09-06
+- **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-06
   Highest hit rate — and the bureaucracy just went away
-- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · Apr/May/Oct · 6–8 nights · updated 2026-09-04
+- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · updated 2026-09-04
   Warm desert water, which barely exists out west
-- **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · Jul/Aug/Sep · updated 2026-09-03
+- **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Darkest sky in the lower 48
-- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · May/Jun · 2–3 nights · updated 2026-09-06
+- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · updated 2026-09-06
   Maui return leg — with a real catch
-- **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · Jul/Aug/Sep · updated 2026-09-03
+- **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
-- **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-05
+- **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · only-now · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-05
   The one that gets harder to justify, not easier
-- **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · Jul/Aug/Sep · updated 2026-09-03
+- **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Best day-hike fit in California
-- **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
+- **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
-- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-06
+- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-06
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
-- **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · Jul/Aug/Sep · updated 2026-09-03
+- **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
-- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · May/Jun/Jul/Aug/Sep · 2–3 nights · 1 research note · updated 2026-09-29
+- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep · 2–3 nights · 1 research note · updated 2026-09-29
   Best swimming per mile driven on the whole list
-- **Olympic + Rainier** (`wishlist/olympic-rainier.md`) · Washington · fly · Jul/Aug/Sep · updated 2026-09-03
+- **Olympic + Rainier** (`wishlist/olympic-rainier.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Motel nights are functional here
-- **Oregon Coast + Crater Lake** (`wishlist/oregon-coast-crater.md`) · Oregon / Northern California · fly · Sep · 12 nights, three landscapes · updated 2026-09-03
+- **Oregon Coast + Crater Lake** (`wishlist/oregon-coast-crater.md`) · Oregon / Northern California · fly · keeps (derived) · Sep · 12 nights, three landscapes · updated 2026-09-03
   Inverts the effort-equals-payoff model
-- **Owens Valley + Alabama Hills** (`wishlist/owens-valley.md`) · Lone Pine, California · fly · Apr/May/Oct · 3–4 nights · updated 2026-09-04
+- **Owens Valley + Alabama Hills** (`wishlist/owens-valley.md`) · Lone Pine, California · fly · keeps (derived) · Apr/May/Oct · 3–4 nights · updated 2026-09-04
   Maui bookend — the outbound leg
-- **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · Mar/Apr/May/Oct · 2–3 nights · updated 2026-09-04
+- **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · keeps (derived) · Mar/Apr/May/Oct · 2–3 nights · updated 2026-09-04
   A volcano the San Andreas tore in half
-- **Pittsburgh + Ohiopyle** (`wishlist/pittsburgh.md`) · Western Pennsylvania · weekend · May/Jun/Jul/Aug/Sep/Oct · ~3: 1–2 in a Pittsburgh hotel, 1–2 at Kentuck (Ohiopyle) · 1 research note · updated 2026-09-29
+- **Pittsburgh + Ohiopyle** (`wishlist/pittsburgh.md`) · Western Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep/Oct · ~3: 1–2 in a Pittsburgh hotel, 1–2 at Kentuck (Ohiopyle) · 1 research note · updated 2026-09-29
   The first city trip, as a test run
-- **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · Apr/May/Jun · 3–4 nights · updated 2026-09-04
+- **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · keeps (derived) · Apr/May/Jun · 3–4 nights · updated 2026-09-04
   The Maui return leg
-- **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · Jul/Aug/Sep · updated 2026-09-04
+- **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-04
   Booked once, then pivoted away
-- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · Jul/Aug/Sep · updated 2026-09-03
+- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Ice Lakes Basin is the marquee
-- **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-09-04
+- **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-09-04
   The big-tree bookend
-- **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
+- **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · keeps (derived) · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
   Land of a Thousand Waterfalls
-- **Great Smokies — the east side** (`wishlist/smokies-east.md`) · Tennessee / North Carolina · drive · Apr/May/Oct · 4–6 nights · updated 2026-09-04
+- **Great Smokies — the east side** (`wishlist/smokies-east.md`) · Tennessee / North Carolina · drive · keeps (derived) · Apr/May/Oct · 4–6 nights · updated 2026-09-04
   Where it stops being a traffic jam
-- **Snowy Range / Medicine Bow** (`wishlist/snowy-range.md`) · Centennial, Wyoming · fly · Jul/Aug/Sep/Oct · ~6 nights · updated 2026-09-06
+- **Snowy Range / Medicine Bow** (`wishlist/snowy-range.md`) · Centennial, Wyoming · fly · keeps (derived) · Jul/Aug/Sep/Oct · ~6 nights · updated 2026-09-06
   The sleeper of the whole list
-- **South Cumberland + Fall Creek Falls** (`wishlist/south-cumberland.md`) · Tennessee · drive · Apr/May/Oct/Nov · 4–5 nights · updated 2026-09-04
+- **South Cumberland + Fall Creek Falls** (`wishlist/south-cumberland.md`) · Tennessee · drive · keeps (derived) · Apr/May/Oct/Nov · 4–5 nights · updated 2026-09-04
   The Plateau's real gems
-- **Wichita Mountains** (`wishlist/wichita-mountains.md`) · Oklahoma · drive · Nov/Dec/Jan/Feb/Mar/Apr · 3–4 nights · updated 2026-09-04
+- **Wichita Mountains** (`wishlist/wichita-mountains.md`) · Oklahoma · drive · keeps (derived) · Nov/Dec/Jan/Feb/Mar/Apr · 3–4 nights · updated 2026-09-04
   Free-roaming bison and granite domes
+
+## Bucket list: `bucket.yaml`
+
+Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
+
+71 items · want 60 · done 11
+
+By kind: hike 26 · fossil 12 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · other 1 · wildlife 1
+
+- **AK** (1): Harding Icefield Trail
+- **AL** (1): Sipsey box canyons
+- **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
+- **AZ** (2): Heart of Rocks Loop, Cochise Stronghold
+- **CA** (8): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail
+- **CO** (4): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park
+- **GA** (1): Atlanta BeltLine
+- **HI** (3): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway)
+- **ID** (1): Emerald Creek garnet area
+- **KY** (6): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓
+- **MT** (3): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212)
+- **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
+- **NL** (2): The Tablelands, L'Anse aux Meadows
+- **NV** (4): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill
+- **NY** (2): Letchworth Gorge falls, Penn Dixie Fossil Park
+- **OH** (2): Caesar Creek Lake spillway, Flint Ridge
+- **OK** (1): Wichita Mountains bison and granite
+- **OR** (1): Sunstone Public Collection Area
+- **PA** (4): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia
+- **SD** (1): Notch Trail
+- **TN** (7): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer
+- **UT** (6): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds
+- **VA** (1): Mount Rogers via Wilburn Ridge
+- **WA** (1): Maple Pass Loop
+- **WV** (2): Bridge Day, Kaymoor Miners Trail
+- **WY** (2): Medicine Bow Peak, Crazy Woman Canyon Road
 
 ## Per trip, which file answers what
 

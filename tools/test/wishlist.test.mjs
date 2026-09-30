@@ -8,6 +8,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { emitIdea, parseIdea, summarize } from "../lib/wishlist.mjs";
+import { HORIZONS } from "../lib/bucket.mjs";
 
 const DIR = join(dirname(fileURLToPath(import.meta.url)), "..", "..", "wishlist");
 const files = readdirSync(DIR).filter((f) => f.endsWith(".md"));
@@ -26,6 +27,7 @@ for (const f of files) {
     assert.ok(["drive", "fly", "weekend"].includes(fm.mode), "mode: drive | fly | weekend");
     assert.ok(fm.updated, "updated");
     assert.ok(fm.source, "source");
+    if (fm.horizon != null) assert.ok(HORIZONS.includes(fm.horizon), `horizon: ${HORIZONS.join(" | ")}`);
     // Semantic round trip: hand edits may format YAML differently, but
     // nothing may be lost. The dated research notes are what this guards.
     const again = parseIdea(emitIdea(idea));

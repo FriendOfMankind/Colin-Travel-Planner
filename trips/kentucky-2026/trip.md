@@ -13,6 +13,7 @@ start: 2026-09-22
 dates: Sept 22–27, 2026
 window: Late September — before the leaves, after the heat
 region: Slade KY → Bandy Creek TN
+states: [ KY, TN ]
 country: USA
 coords: [ 37, -84.2 ]
 nights: 5 nights camping

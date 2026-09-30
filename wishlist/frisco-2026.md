@@ -5,6 +5,7 @@ subtitle: Family, not a plan
 status: wishlist
 months: [ 12 ]
 mode: fly
+horizon: confirmed
 days: 6
 nights: ~5 nights
 window: Fixed by family

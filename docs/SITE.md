@@ -48,6 +48,14 @@ So the site is **a planner and a pace check, not a field navigator**:
 - **Ask Claude about this day:** copies a ready-made question with the day's context, for pasting into the Claude app.
 - **AllTrails links** on hikes instead of trying to be a trail app.
 
+## v3 (2026-09-30): the bucket list and the horizon
+
+Colin: *"a comprehensive bucket list of little things here and there"*, next to the trip list, with potential trips kept separate from it.
+
+- **A fifth tab, Bucket**, renders `bucket.yaml`: single places filtered by want/done, kind and state, grouped by state. Done items show his verdict.
+- **Trips → Potential trips** are grouped by the horizon test (Only now · Confirmed · Keeps · Weekend) instead of A–Z. Month and drive/fly filters stay.
+- **A trip's Places section** lists its bucket items, plus the wanted ones in the trip's `states` that aren't on the plan. **An idea page** lists the items that point to it.
+
 ## Not built yet
 
 Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it. Its last snapshot still works offline for Appalachians.
