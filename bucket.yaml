@@ -874,3 +874,47 @@ items:
     status: want
     source: gfp.sd.gov, mickelsontrailaffiliates.com (search snippets, 2026-09-30)
     added: 2026-09-30
+
+  - id: acadia-carriage-roads
+    name: Acadia carriage roads
+    kind: other
+    where: Mount Desert Island, Maine
+    state: ME
+    why: Car-free broken-stone roads built for exactly a hybrid bike
+    status: want
+    wishlist: acadia
+    source: wishlist/acadia.md (daydream 2026-09-30)
+    added: 2026-09-30
+
+  - id: grand-island-loop
+    name: Grand Island loop
+    kind: other
+    where: Munising, Michigan
+    state: MI
+    why: A car-free island loop past Superior cliffs, ferry-only
+    status: want
+    wishlist: munising
+    source: wishlist/munising.md (daydream 2026-09-30)
+    added: 2026-09-30
+
+  - id: sleeping-bear-heritage-trail
+    name: Sleeping Bear Heritage Trail
+    kind: other
+    where: Glen Arbor, Michigan
+    state: MI
+    why: Ride from camp to the Dune Climb, then swim
+    status: want
+    wishlist: sleeping-bear
+    source: wishlist/sleeping-bear.md (daydream 2026-09-30)
+    added: 2026-09-30
+
+  - id: greenbrier-river-trail
+    name: Greenbrier River Trail
+    kind: other
+    where: Marlinton, West Virginia
+    state: WV
+    why: River-valley rail trail with tunnels and swimming holes
+    status: want
+    wishlist: greenbrier-valley
+    source: wishlist/greenbrier-valley.md (daydream 2026-09-30)
+    added: 2026-09-30

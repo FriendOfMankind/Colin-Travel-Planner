@@ -12,7 +12,7 @@ country: USA
 coords: [ 39.87, -79.49 ]
 budget: ~$150. Tank of gas, 3.5 hrs.
 tags: [ car camping, swimming, weekend, cheap, close ]
-updated: 2026-09-29
+updated: 2026-09-30
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -35,3 +35,5 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 ### 2026-09-29 · Paired with Pittsburgh
 - Now the park half of [Pittsburgh + Ohiopyle](pittsburgh.md), the first city-trip test run. The combined plan and its research live there.
 
+### 2026-09-30 · The bike changes this weekend
+- Colin owns a hybrid bike and a trunk rack (`me/gear.md`). The Great Allegheny Passage runs through Ohiopyle, 📋 free and open dawn to dusk *(source: wilderness-voyageurs.com, search snippet, 2026-09-30)*, so out-and-back rides from Kentuck add a day or two without adding a drive. Bucket item: `great-allegheny-passage`.

@@ -49,6 +49,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 Potential trips, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what "what fits May?" matches against. `horizon` is the test from `me/calendar.md`: **only-now** can't survive two weeks of PTO after 2027-08-31, **keeps** can, **weekend** is inside the weekend radius, **confirmed** is happening but has no trip page yet. "(derived)" means it was computed from mode and length, not decided.
 
+- **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-09-30
+  The bike trip, if there's only one
 - **Beartooth Plateau** (`wishlist/beartooth-plateau.md`) · Montana / Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · 12 days · updated 2026-09-06
   Paved to 9,500 ft
 - **Bighorns / Cloud Peak** (`wishlist/bighorns.md`) · Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · updated 2026-09-06
@@ -75,6 +77,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Darkest sky in the lower 48
 - **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · updated 2026-09-06
   Maui return leg — with a real catch
+- **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 1 research note · updated 2026-09-30
+  78 miles of river, two tunnels, and nobody
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
@@ -83,11 +87,13 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
+- **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 1 research note · updated 2026-09-30
+  Raw, car-free, and ferry-only
 - **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-30
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
-- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep · 2–3 nights · 1 research note · updated 2026-09-29
+- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep · 2–3 nights · 2 research notes · updated 2026-09-30
   Best swimming per mile driven on the whole list
 - **Olympic + Rainier** (`wishlist/olympic-rainier.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Motel nights are functional here
@@ -109,6 +115,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The big-tree bookend
 - **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · keeps (derived) · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
   Land of a Thousand Waterfalls
+- **Sleeping Bear Dunes** (`wishlist/sleeping-bear.md`) · Leelanau / Glen Arbor, Michigan · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 1 research note · updated 2026-09-30
+  Ride out of camp, swim at the end
 - **Great Smokies — the east side** (`wishlist/smokies-east.md`) · Tennessee / North Carolina · drive · keeps (derived) · Apr/May/Oct · 4–6 nights · updated 2026-09-04
   Where it stops being a traffic jam
 - **Snowy Range / Medicine Bow** (`wishlist/snowy-range.md`) · Centennial, Wyoming · fly · keeps (derived) · Jul/Aug/Sep/Oct · ~6 nights · updated 2026-09-06
@@ -122,9 +130,9 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-76 items · want 65 · done 11
+80 items · want 69 · done 11
 
-By kind: hike 26 · fossil 12 · other 6 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · wildlife 1
+By kind: hike 26 · fossil 12 · other 10 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
@@ -136,6 +144,8 @@ By kind: hike 26 · fossil 12 · other 6 · view 6 · ruin 5 · waterfall 5 · d
 - **HI** (3): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway)
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
 - **KY** (6): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓
+- **ME** (1): Acadia carriage roads
+- **MI** (2): Grand Island loop, Sleeping Bear Heritage Trail
 - **MT** (3): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212)
 - **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
 - **NL** (2): The Tablelands, L'Anse aux Meadows
@@ -150,7 +160,7 @@ By kind: hike 26 · fossil 12 · other 6 · view 6 · ruin 5 · waterfall 5 · d
 - **UT** (6): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
-- **WV** (2): Bridge Day, Kaymoor Miners Trail
+- **WV** (3): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail
 - **WY** (2): Medicine Bow Peak, Crazy Woman Canyon Road
 
 ## Per trip, which file answers what
