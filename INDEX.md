@@ -122,9 +122,9 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-71 items · want 60 · done 11
+76 items · want 65 · done 11
 
-By kind: hike 26 · fossil 12 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · other 1 · wildlife 1
+By kind: hike 26 · fossil 12 · other 6 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
@@ -134,7 +134,7 @@ By kind: hike 26 · fossil 12 · view 6 · ruin 5 · waterfall 5 · drive 4 · w
 - **CO** (4): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park
 - **GA** (1): Atlanta BeltLine
 - **HI** (3): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway)
-- **ID** (1): Emerald Creek garnet area
+- **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
 - **KY** (6): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓
 - **MT** (3): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212)
 - **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
@@ -144,11 +144,11 @@ By kind: hike 26 · fossil 12 · view 6 · ruin 5 · waterfall 5 · drive 4 · w
 - **OH** (2): Caesar Creek Lake spillway, Flint Ridge
 - **OK** (1): Wichita Mountains bison and granite
 - **OR** (1): Sunstone Public Collection Area
-- **PA** (4): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia
-- **SD** (1): Notch Trail
+- **PA** (6): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail
+- **SD** (2): Notch Trail, George S. Mickelson Trail
 - **TN** (7): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer
 - **UT** (6): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds
-- **VA** (1): Mount Rogers via Wilburn Ridge
+- **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
 - **WV** (2): Bridge Day, Kaymoor Miners Trail
 - **WY** (2): Medicine Bow Peak, Crazy Woman Canyon Road

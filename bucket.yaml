@@ -819,3 +819,58 @@ items:
     status: want
     source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
     added: 2026-09-30
+
+  # ------------------------------------- scenic rides (rail trails, gravel)
+  # Day rides, parked at a trailhead or shuttled to the top. No bikepacking.
+
+  - id: route-of-the-hiawatha
+    name: Route of the Hiawatha
+    kind: other
+    where: Lookout Pass, Idaho / Montana line
+    state: ID
+    why: 15 mi of railbed, 10 dark tunnels, 7 trestles; shuttle back up. West of Glacier, not on its route
+    status: want
+    months: [6, 7, 8, 9]
+    source: ridethehiawatha.com (home and FAQ, search snippets, 2026-09-30)
+    added: 2026-09-30
+
+  - id: virginia-creeper-trail
+    name: Virginia Creeper Trail
+    kind: other
+    where: Whitetop to Damascus, Virginia
+    state: VA
+    why: The shuttle-up, coast-down ride. Upper half (Whitetop to Damascus) closed since Helene
+    status: want
+    source: damascus.org Helene updates, visitdamascus.org, fs.usda.gov (search snippets, 2026-09-30)
+    added: 2026-09-30
+
+  - id: great-allegheny-passage
+    name: Great Allegheny Passage
+    kind: other
+    where: Ohiopyle to the Eastern Continental Divide, Pennsylvania
+    state: PA
+    why: Rail trail through Ohiopyle; the bike doubles that weekend's range
+    status: want
+    wishlist: ohiopyle
+    source: gaptrail.org, wilderness-voyageurs.com (search snippets, 2026-09-30)
+    added: 2026-09-30
+
+  - id: pine-creek-rail-trail
+    name: Pine Creek Rail Trail
+    kind: other
+    where: Pine Creek Gorge ("PA Grand Canyon"), Wellsboro, Pennsylvania
+    state: PA
+    why: 62 mi of smooth stone along the floor of a gorge; outfitter shuttles for one-way
+    status: want
+    source: susquehannagreenway.org, pinecrk.com (search snippets, 2026-09-30)
+    added: 2026-09-30
+
+  - id: mickelson-trail
+    name: George S. Mickelson Trail
+    kind: other
+    where: Black Hills, South Dakota
+    state: SD
+    why: 109 mi of railbed, 100+ bridges; the 4 tunnels are between Hill City and Rochford
+    status: want
+    source: gfp.sd.gov, mickelsontrailaffiliates.com (search snippets, 2026-09-30)
+    added: 2026-09-30
