@@ -63,8 +63,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-09-04
   Maui return leg — the sleeper
-- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 10 days · updated 2026-09-06
-  Committed — the best payoff per dollar
+- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · updated 2026-09-30
+  The best payoff per dollar, as a week
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · updated 2026-09-30
   Family, not a plan
 - **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-06
