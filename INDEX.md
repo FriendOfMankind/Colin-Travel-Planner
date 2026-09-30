@@ -65,7 +65,7 @@ Ideas, not plans: one file each, with a Why, a Next and dated research notes. `m
   Maui return leg — the sleeper
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · Jul/Aug/Sep/Oct · 10 days · updated 2026-09-06
   Committed — the best payoff per dollar
-- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · Dec · 6 days · updated 2026-09-06
+- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · Dec · 6 days · updated 2026-09-30
   Family, not a plan
 - **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · Jul/Aug/Sep · updated 2026-09-06
   Highest hit rate — and the bureaucracy just went away
