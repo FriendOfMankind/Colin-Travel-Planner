@@ -1,27 +1,29 @@
 ---
 slug: eastern-sierra
 title: Eastern Sierra
-subtitle: Committed — the best payoff per dollar
+subtitle: The best payoff per dollar, as a week
 status: wishlist
 months: [ 7, 8, 9, 10 ]
 mode: fly
-days: 10
-nights: ~8 nights
+days: 7
+nights: ~6 nights
 window: July–early October; September for aspen and fewer people
 region: Bishop / Mammoth, California
 country: USA
 coords: [ 37.36, -118.55 ]
 budget: Cheap flights (Reno), cheap car
-tags: [ car camping, alpine, paved trailheads, committed ]
-updated: 2026-09-06
+tags: [ car camping, alpine, paved trailheads, fly-in ]
+updated: 2026-09-30
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
 # Eastern Sierra
 
-*Committed — the best payoff per dollar*
+*The best payoff per dollar, as a week*
 
 ## Why
+
+⭐ **Colin wants to do it, as a ~week trip**: fly in, rent a car, done in about seven days. *(stated 2026-09-30; was: planned as 10 days, subtitled "Committed", which contradicted the drop below)* That shape is exactly why it keeps: a week fits PTO any year.
 
 ✅ Four Jeffrey CG at 8,100 ft with bear boxes and a trailhead under a mile up the road. Little Lakes Valley from Mosquito Flat is the highest paved trailhead in the Sierra — the single best expression of the car-camping rule set.
 
