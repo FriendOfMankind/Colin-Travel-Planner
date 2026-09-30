@@ -10,6 +10,7 @@ groups:
         verified: true
         lat: 38.0403
         lng: -81.0805
+        source: "Colin's MASTER-trip2-october-2026.md (Sept 2026), per the Trees transcription notes in log.md"
         icon: ⛺
         days: 1–3
         wpNote: From the source file. Long Point trailhead on site.
@@ -198,9 +199,13 @@ groups:
       - name: Spence Ridge parking
         note: Verified coordinate from the source file. 200-ft walk east into the forest.
         maps: 35.904183, -81.878217
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 35.904183
+        lng: -81.878217
+        source: "Colin's MASTER-trip2-october-2026.md (Sept 2026), per the Trees transcription notes in log.md"
+        icon: ⛺
+        days: 8–9
+        wpNote: A 200-ft walk east into the forest — right at the Forest Order threshold.
       - name: Table Rock picnic area
         note: End of FS 210, roughest stretch
         maps: Table Rock Picnic Area Linville Gorge NC
@@ -252,13 +257,6 @@ groups:
         lng: null
   - group: Waypoints with no field entry
     places:
-      - name: Spence Ridge parking, FS 210
-        verified: true
-        lat: 35.904183
-        lng: -81.878217
-        icon: ⛺
-        days: 8–9
-        wpNote: From the source file. A 200-ft walk east into the forest — right at the Forest Order threshold.
       - name: Hawksbill Trailhead
         verified: true
         lat: 35.914433

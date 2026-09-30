@@ -1,5 +1,7 @@
 # Colin-Travel-Planner — AI-first rebuild of Trail Notes
 
+> **Historical design doc (Sept 2026).** Kept for the reasoning behind the format. What's built and what's next now live in `CLAUDE.md`. The Trees importer it describes was retired after the 2026-09-29 cutover.
+
 ## Context
 
 Trees (the old repo) is a static site whose content lives in JS objects: `data/trips.js` (39 registry entries), `data/profile.js`, `data/meals.js`, and 6 trip pages at 40–90 KB of `data.js` each, carrying ~1,500 inline HTML tags. It has a good discipline layer: a validator, `verified` flags, `[V]/[U]/[?]` intake, and computed sun and booking dates. It also has a good display: hub tabs, trip tabs, offline support, print, and GPX/ICS export.

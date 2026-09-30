@@ -26,7 +26,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/38 places located · log 10 entries · updated 2026-09-28
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/37 places located · log 10 entries · updated 2026-09-28
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Full Circle Maui** (`trips/maui-2027/`) · planned · May 13–20, 2027 · 8 days · 18/25 places located · log 1 entry · updated 2026-09-03
   Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.

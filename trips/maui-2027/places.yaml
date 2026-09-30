@@ -16,6 +16,7 @@ groups:
         note: Office 7 AM–6 PM. (808) 661-4303
         maps: Camp Olowalu
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.80951
         lng: -156.616477
         icon: ⛺
@@ -31,6 +32,7 @@ groups:
         note: Backup cliff jump. Strong current past the point.
         maps: Puu Kekaa Black Rock Kaanapali
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.9269462
         lng: -156.6963223
         icon: 🤿
@@ -42,6 +44,7 @@ groups:
         note: No cell service. Rough final mile.
         maps: La Perouse Bay Maui
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.5979905
         lng: -156.4204539
         icon: 🌋
@@ -75,6 +78,7 @@ groups:
         note: Gate closes 6 PM. (808) 248-4843
         maps: Waianapanapa State Park
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.7834865
         lng: -155.997711
         icon: ⛺
@@ -84,6 +88,7 @@ groups:
         note: 9 AM–5 PM. (808) 248-7375
         maps: Kipahulu Visitor Center Haleakala
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.6616396
         lng: -156.0444889
         icon: 🌳
@@ -129,6 +134,7 @@ groups:
         note: 5G service. After-hours check-in pavilion.
         maps: Hosmer Grove Campground Haleakala
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.7684079
         lng: -156.2375389
         icon: ⛺
@@ -138,6 +144,7 @@ groups:
         note: Small lot, pit toilet
         maps: Halemauu Trailhead Haleakala
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.7522771
         lng: -156.2284596
         icon: 🥾
@@ -147,6 +154,7 @@ groups:
         note: 6 AM–12 PM. Sunrise lot fills — arrive by 5:00 AM.
         maps: Haleakala Visitor Center summit
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.7150988
         lng: -156.2497954
         icon: 🌅
@@ -168,6 +176,7 @@ groups:
         note: 7 AM–7 PM. Small lot, fills.
         maps: Waihee Ridge Trail trailhead Maui
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.9529323
         lng: -156.5316222
         icon: 🥾
@@ -191,6 +200,7 @@ groups:
         wpNote: Dangerous shore break
       - name: Mana Foods
         verified: true
+        source: "UNRECORDED: marked verified in Trees with no source. Re-check in mapbench before the trip."
         lat: 20.915528
         lng: -156.380073
         icon: 🛒
