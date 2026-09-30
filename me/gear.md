@@ -88,6 +88,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: In the pack regardless of the hour.
 - name: Camp shoes
   state: own
+- name: Hybrid bike
+  state: own
+  note: "Owned; Colin calls it a mountain bike, and it's a hybrid. *(stated 2026-09-30)* Right tool for rail trails and gravel, not for technical singletrack. Not recorded: how it rides on the Legacy (roof, hitch or trunk rack), and whether he has a helmet, a lock, a flat kit, or a 300–400 lumen bar light (the Hiawatha requires one). See the scenic rides in [bucket.yaml](../bucket.yaml)."
 - name: Packraft
   state: rent
   note: "Only if a trip needs it: rent it or decide per trip, not a purchase. Outfitter floats and guided rafts cover most rivers. *(stated 2026-09-28)* See [adventures.md](adventures.md)."

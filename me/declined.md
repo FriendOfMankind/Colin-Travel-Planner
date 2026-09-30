@@ -3,8 +3,8 @@ topic: declined
 summary: Activities considered and declined. Re-proposing these wastes his time.
 source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 2026 handoff, the 2026 MASTER trip files, the MEALS files and the Sept 3 2026 bucket list)
 declined:
-  - what: Mountain biking, including renting one in Brevard
-    terms: [ mountain bike, mountain biking ]
+  - what: Technical mountain biking (Pisgah-style singletrack), including renting one in Brevard. Scenic day rides on rail trails and gravel are wanted; narrowed 2026-09-30, was "Mountain biking, including renting one in Brevard"
+    terms: [ singletrack ]
   - what: Bridge Walk, highline and zipline tickets (New River Gorge)
     terms: [ bridge walk, highline, zipline ]
     allow: [ highline trail ]
