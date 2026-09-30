@@ -87,7 +87,7 @@ Ideas, not plans: one file each, with a Why, a Next and dated research notes. `m
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
-- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · May/Jun/Jul/Aug/Sep · 2–3 nights · updated 2026-09-04
+- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · May/Jun/Jul/Aug/Sep · 2–3 nights · 1 research note · updated 2026-09-29
   Best swimming per mile driven on the whole list
 - **Olympic + Rainier** (`wishlist/olympic-rainier.md`) · Washington · fly · Jul/Aug/Sep · updated 2026-09-03
   Motel nights are functional here
@@ -97,6 +97,8 @@ Ideas, not plans: one file each, with a Why, a Next and dated research notes. `m
   Maui bookend — the outbound leg
 - **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · Mar/Apr/May/Oct · 2–3 nights · updated 2026-09-04
   A volcano the San Andreas tore in half
+- **Pittsburgh + Ohiopyle** (`wishlist/pittsburgh.md`) · Western Pennsylvania · weekend · May/Jun/Jul/Aug/Sep/Oct · ~3: 1–2 in a Pittsburgh hotel, 1–2 at Kentuck (Ohiopyle) · 1 research note · updated 2026-09-29
+  The first city trip, as a test run
 - **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · Apr/May/Jun · 3–4 nights · updated 2026-09-04
   The Maui return leg
 - **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · Jul/Aug/Sep · updated 2026-09-04

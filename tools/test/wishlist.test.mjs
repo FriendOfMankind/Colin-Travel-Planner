@@ -26,7 +26,12 @@ for (const f of files) {
     assert.ok(["drive", "fly", "weekend"].includes(fm.mode), "mode: drive | fly | weekend");
     assert.ok(fm.updated, "updated");
     assert.ok(fm.source, "source");
-    assert.equal(emitIdea(idea), text, "emit(parse(file)) must reproduce the file exactly");
+    // Semantic round trip: hand edits may format YAML differently, but
+    // nothing may be lost. The dated research notes are what this guards.
+    const again = parseIdea(emitIdea(idea));
+    assert.deepEqual(again.fm, fm, "frontmatter survives");
+    for (const k of ["why", "next", "notes"]) assert.equal(again[k], idea[k], `${k} survives`);
+    assert.equal(again.entries.length, (text.match(/^### \d{4}-\d{2}-\d{2}/gm) ?? []).length, "every dated note is parsed");
   });
 }
 
