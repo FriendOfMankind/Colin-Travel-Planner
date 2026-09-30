@@ -88,6 +88,24 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: In the pack regardless of the hour.
 - name: Camp shoes
   state: own
+- name: Hybrid bike
+  state: own
+  note: "Owned; Colin calls it a mountain bike, and it's a hybrid. *(stated 2026-09-30)* Right tool for rail trails and gravel, not for technical singletrack. See the scenic rides in [bucket.yaml](../bucket.yaml)."
+- name: Trunk bike rack
+  state: own
+  note: "*(stated 2026-09-30)* On a sedan it sits across the trunk lid, and the trunk is where camp lives. Worth checking before the first bike trip: can the trunk open with the rack on, or does the bike come off every time?"
+- name: Bike helmet
+  state: need
+  note: "*(stated 2026-09-30)*"
+- name: Bike lock
+  state: need
+  note: "*(stated 2026-09-30)* For the bike at camp overnight and at trailheads."
+- name: Flat kit (spare tube, tire levers, pump)
+  state: need
+  note: "*(stated 2026-09-30)*"
+- name: Bike light, 300–400 lumen handlebar
+  state: need
+  note: "*(stated 2026-09-30)* The Hiawatha requires one for its tunnels *(source: ridethehiawatha.com FAQ, search snippet, 2026-09-30)*. A headlamp isn't enough for a 1.66 mi tunnel."
 - name: Packraft
   state: rent
   note: "Only if a trip needs it: rent it or decide per trip, not a purchase. Outfitter floats and guided rafts cover most rivers. *(stated 2026-09-28)* See [adventures.md](adventures.md)."
