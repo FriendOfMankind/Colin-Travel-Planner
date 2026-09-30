@@ -102,7 +102,7 @@ code { font-family: var(--mono); font-size: .9em; background: var(--sunk); paddi
 .seg .count { font: 500 11px var(--mono); opacity: .8; margin-left: 3px; }
 
 /* tab bar */
-.tabbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: grid; grid-template-columns: repeat(4, 1fr); background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.tabbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: grid; grid-template-columns: repeat(5, 1fr); background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
 .tabbar a { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 9px 0 8px; text-decoration: none; color: var(--muted); font: 600 12px/1 var(--display); text-transform: uppercase; letter-spacing: .08em; }
 .tabbar svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
 .tabbar a[aria-current="page"] { color: var(--accent); }
@@ -253,3 +253,4 @@ details.fold > div { padding: 0 16px 14px; }
 .filters { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 8px; scrollbar-width: none; }
 .filters::-webkit-scrollbar { display: none; }
 .filters .chip { border: 0; cursor: pointer; flex: none; }
+.place .pm a { margin-right: 12px; }

@@ -16,6 +16,7 @@ import YAML from "yaml";
 import { marked } from "marked";
 import { parseTrip, splitFrontmatter, sections } from "./lib/format.mjs";
 import { parseIdea, summarize } from "./lib/wishlist.mjs";
+import { parseBucket, horizonOf } from "./lib/bucket.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -83,7 +84,7 @@ function buildTrip(slug) {
 
   return {
     slug, title: r.title, subtitle: r.subtitle, status: r.status, start: r.start ?? null, end,
-    datesLabel: r.dates, region: r.region, theme: r.theme, why: mdi(r.why), next: mdi(r.next),
+    datesLabel: r.dates, region: r.region, states: r.states ?? [], theme: r.theme, why: mdi(r.why), next: mdi(r.next),
     nights: r.nights, distance: r.distance, budget: r.budget, tags: r.tags ?? [],
     booking: (r.booking ?? []).map((b) => ({ ...b, what: mdi(b.what) })),
     located: { verified: allPlaces.filter((p) => p.verified).length, total: allPlaces.length },
@@ -193,9 +194,20 @@ function buildIdea(f) {
     slug: fm.slug ?? f.replace(/\.md$/, ""), title: fm.title, subtitle: fm.subtitle ?? "",
     region: fm.region ?? "", mode: fm.mode ?? "", months: fm.months ?? [],
     length: fm.days ? `${fm.days} days` : fm.nights ?? "", window: mdi(fm.window), budget: mdi(fm.budget),
-    tags: fm.tags ?? [], target: fm.target ?? null, updated: fm.updated ?? "",
+    tags: fm.tags ?? [], target: fm.target ?? null, updated: fm.updated ?? "", ...horizonOf(fm),
     teaser: mdi(summarize(why, 160)), why: md(why), next: md(next), notes: md(notes), noteCount: entries.length,
   };
+}
+
+/* -------------------------------------------------------------- bucket */
+
+function buildBucket() {
+  if (!has("bucket.yaml")) return [];
+  return parseBucket(read("bucket.yaml")).items.map((it) => ({
+    id: it.id, name: it.name, kind: it.kind, where: it.where, state: it.state, status: it.status,
+    months: it.months ?? [], why: mdi(it.why), verdict: mdi(it.verdict), reason: mdi(it.reason),
+    trip: it.trip ?? null, wishlist: it.wishlist ?? null, when: it.when ?? null,
+  }));
 }
 
 /* --------------------------------------------------------------- write */
@@ -203,7 +215,8 @@ function buildIdea(f) {
 const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map(buildTrip)
   .sort((a, b) => (a.start ?? "9") < (b.start ?? "9") ? -1 : 1);
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map(buildIdea);
-const data = { builtAt: new Date().toISOString(), trips, ideas, me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen() };
+const bucket = buildBucket();
+const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen() };
 
 const tpl = read("site/src/template.html")
   .replace("/*__CSS__*/", () => read("site/src/app.css"))
@@ -211,4 +224,4 @@ const tpl = read("site/src/template.html")
   .replace("/*__DATA__*/", () => JSON.stringify(data).replace(/</g, "\\u003c"));
 mkdirSync(join(ROOT, "site"), { recursive: true });
 writeFileSync(join(ROOT, "site/index.html"), tpl);
-console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals`);
+console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals`);

@@ -13,6 +13,7 @@ start: null
 dates: null
 window: ⭐ Dec–Feb only. Every one of these is lethal or miserable May–September, which is exactly why they belong in the January window.
 region: Las Vegas → Death Valley → Mojave → Joshua Tree
+states: [ NV, CA ]
 country: USA
 coords: [ 36.2, -116.8 ]
 nights: 13 nights camping

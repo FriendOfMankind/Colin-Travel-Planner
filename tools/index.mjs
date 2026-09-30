@@ -15,6 +15,7 @@ import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip, splitFrontmatter } from "./lib/format.mjs";
 import { parseIdea, summarize } from "./lib/wishlist.mjs";
+import { parseBucket, horizonOf } from "./lib/bucket.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -84,11 +85,12 @@ export function buildIndex() {
   const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map((f) => ({ f, ...parseIdea(read(`wishlist/${f}`)) }));
   if (ideas.length) {
     out.push("", "## Wishlist: `wishlist/`", "",
-      "Ideas, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what \"what fits May?\" matches against.", "");
+      "Potential trips, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what \"what fits May?\" matches against. `horizon` is the test from `me/calendar.md`: **only-now** can't survive two weeks of PTO after 2027-08-31, **keeps** can, **weekend** is inside the weekend radius, **confirmed** is happening but has no trip page yet. \"(derived)\" means it was computed from mode and length, not decided.", "");
     const MON = ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
     for (const { f, fm, entries } of ideas) {
       const bits = [
         fm.region, fm.mode,
+        (({ horizon, derived }) => `${horizon}${derived ? " (derived)" : ""}`)(horizonOf(fm)),
         fm.months?.length ? fm.months.map((m) => MON[m]).join("/") : "no months",
         fm.days ? `${fm.days} days` : fm.nights ?? null,
         entries.length ? `${entries.length} research note${entries.length === 1 ? "" : "s"}` : null,
@@ -96,6 +98,21 @@ export function buildIndex() {
       ].filter(Boolean).join(" · ");
       out.push(`- **${fm.title}** (\`wishlist/${f}\`) · ${bits}`);
       if (fm.subtitle) out.push(`  ${fm.subtitle}`);
+    }
+  }
+
+  if (existsSync(join(ROOT, "bucket.yaml"))) {
+    const { items } = parseBucket(read("bucket.yaml"));
+    const count = (k) => Object.entries(items.reduce((a, it) => ((a[it[k]] = (a[it[k]] ?? 0) + 1), a), {}))
+      .sort((a, b) => b[1] - a[1] || (a[0] < b[0] ? -1 : 1)).map(([v, n]) => `${v} ${n}`).join(" · ");
+    out.push("", "## Bucket list: `bucket.yaml`", "",
+      "Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.", "",
+      `${items.length} items · ${count("status")}`, "", `By kind: ${count("kind")}`, "");
+    const byState = {};
+    for (const it of items) (byState[it.state] ??= []).push(it);
+    for (const st of Object.keys(byState).sort()) {
+      const names = byState[st].map((it) => `${it.name}${it.status === "done" ? " ✓" : it.status === "dropped" ? " ✗" : ""}`);
+      out.push(`- **${st}** (${names.length}): ${names.join(", ")}`);
     }
   }
 

@@ -32,6 +32,11 @@ for (const slug of slugs) {
     for (const k of Object.keys(a.page)) assert.deepEqual(plain(b.page[k]), plain(a.page[k]), `section: ${k}`);
   });
 
+  test(`${slug}: states is a list of two-letter codes (the bucket list matches on it)`, () => {
+    const { registry: r } = parseTrip(readFileSync(join(TRIPS, slug, "trip.md"), "utf8"));
+    assert.ok(Array.isArray(r.states) && r.states.length && r.states.every((s) => /^[A-Z]{2}$/.test(s)), "states: [ OH, PA ]");
+  });
+
   const placesFile = join(TRIPS, slug, "places.yaml");
   if (existsSync(placesFile)) {
     test(`${slug}: no coordinate without provenance`, () => {

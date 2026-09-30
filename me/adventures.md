@@ -72,23 +72,6 @@ Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly week
 
 ### Destination leads to keep in mind
 
-Colin asked to keep these in mind when planning future trips. *(stated 2026-09-29)* **Every entry below is recalled by Claude, not verified.** Before any of these reaches a plan, confirm the land manager, the current collecting rule, the fee or permit, and the access road (the Legacy isn't high-clearance, see [profile.md](profile.md)). Watch for active mining claims on BLM and national forest land: digging on one is theft.
-
-**Near home (a weekend from Avon):**
-- **Caesar Creek Lake spillway, OH.** Ordovician fossils. Army Corps land; recalled free permit from the visitor center. The cheap test of whether hours of ground-staring are actually fun before building a big trip around it.
-- **Penn Dixie Fossil Park, Hamburg NY.** Devonian trilobites, keep what you find, entry fee. A fossil site, so it counts despite the fee.
-- **Flint Ridge, OH.** Collecting is banned at the state memorial itself; legal collecting is on nearby private, fee-based land. Probably doesn't fit.
-
-**East and south:**
-- **Ouachita National Forest, AR.** Quartz crystals. Free hand-digging at Crystal Vista is recalled with low confidence.
-- **Western NC national forests.** Casual collecting is generally allowed there; most of the famous Spruce Pine gem sites are fee-digs. Could pair with an Appalachians trip.
-
-**West (the strongest; a theme trip candidate):**
-- **Sunstone Public Collection Area, OR (BLM).** Free Oregon sunstones. Remote, on gravel.
-- **Crystal Park / Pike NF, CO.** Smoky quartz, amazonite. Mining claims are common here.
-- **Emerald Creek, ID (Idaho Panhandle NF).** Star garnets; recalled cheap permit.
-- **House Range, UT (BLM).** Cambrian trilobites.
-- **Dugway geode beds, UT (BLM).** Free geodes, but remote with rough roads. Questionable for the Legacy until road reports say otherwise.
-- **Garnet Hill near Ely, NV (BLM).** Garnets in the rock.
+Colin asked to keep these in mind when planning future trips. *(stated 2026-09-29)* **The leads now live in [`bucket.yaml`](../bucket.yaml) as `kind: fossil`** *(moved 2026-09-30, was: a list in this file)*, so they show up on the site's Bucket tab and next to any trip that passes through their state. **Every one is recalled by Claude, not verified.** Before any reaches a plan, confirm the land manager, the current collecting rule, the fee or permit, and the access road (the Legacy isn't high-clearance, see [profile.md](profile.md)). Watch for active mining claims on BLM and national forest land: digging on one is theft.
 
 **Photos only, no collecting:** national parks and monuments, including Big Bend, Fossil Butte, Petrified Forest and Badlands; also Falls of the Ohio.

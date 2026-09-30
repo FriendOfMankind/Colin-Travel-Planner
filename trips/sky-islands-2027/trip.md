@@ -14,6 +14,7 @@ start: null
 dates: Mar 5–15, 2027 (target, unbooked)
 window: Nov–Apr — ⭐ Feb, March and April are the good months, and they are also the full ones
 region: Tucson → Dragoons → Chiricahua → Cave Creek
+states: [ AZ ]
 country: USA
 coords: [ 32, -109.35 ]
 nights: 10 nights camping

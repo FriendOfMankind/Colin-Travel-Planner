@@ -54,5 +54,5 @@ From the traveller interview on 2026-09-28 unless marked.
 - **Crowds:** walk weekday mornings; the packed-viewpoint rule still applies.
 - **Horizon:** a city trip survives a two-week PTO allowance, so on the horizon test it ranks below the trips that don't (see [calendar.md](calendar.md)). That's a reason to schedule it later, not to skip it.
 
-Researched 2026-09-29, not saved as ideas yet: Pittsburgh (800+ public stairways, Carrie Blast Furnaces), San Francisco (the 17.1 mi Crosstown Trail, best in two halves), Philadelphia, and Atlanta's BeltLine. Route sources: AllTrails for the named routes, Komoot for building custom ones, GPSmyCity for themed self-guided walks.
+Researched 2026-09-29: Pittsburgh, San Francisco's Crosstown Trail, Philadelphia and Atlanta's BeltLine. They now live in [`bucket.yaml`](../bucket.yaml) (`kind: walk` / `city`), and Pittsburgh is also a potential trip (`wishlist/pittsburgh.md`) *(moved 2026-09-30; was: listed here, "not saved as ideas yet")*. Route sources: AllTrails for the named routes, Komoot for building custom ones, GPSmyCity for themed self-guided walks.
 

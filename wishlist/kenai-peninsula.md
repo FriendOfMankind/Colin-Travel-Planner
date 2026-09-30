@@ -5,6 +5,7 @@ subtitle: The one that gets harder to justify, not easier
 status: wishlist
 months: [ 6, 7, 8, 9 ]
 mode: fly
+horizon: only-now
 days: 14
 nights: 8 nights, 4 camps
 window: Late June for light, early September for color and fewer bugs

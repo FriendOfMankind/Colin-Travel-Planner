@@ -1,0 +1,821 @@
+# The bucket list: single places worth going out of the way for, too small to
+# be a trip on their own. Potential trips live in wishlist/, dated trips in
+# trips/. Schema and rules: tools/lib/bucket.mjs (tested by npm test).
+#
+# - kind: hike walk view waterfall lake swim river campground city ruin cave
+#         geology wildlife fossil food drive other
+# - status: want | done | dropped. done needs trip: (or when:), dropped needs reason:
+# - state: two-letter state/province code. where: the human version
+# - wishlist: / trip: point at the idea or trip the item belongs to. The facts
+#   stay there; `why` is one line, never a second copy of a price, hour or rule
+# - no coordinates here, ever. Places are located in a trip's places.yaml
+# - verdict: optional, for done items, in Colin's words
+note: Seeded 2026-09-30 from the trip logs, the trips, the wishlist, and the lists that used to sit in me/adventures.md (fossil leads) and me/travel-style.md (city walks). Colin fills in the done gaps.
+
+items:
+
+  # ---------------------------------------------------------------- done
+
+  - id: honey-creek-loop
+    name: Honey Creek Loop
+    kind: hike
+    where: Big South Fork, Tennessee
+    state: TN
+    why: Ladders and ropes up sandstone; hard because the scenery is
+    status: done
+    trip: kentucky-2026
+    verdict: Best moment of the trip. Full loop counter-clockwise in ~3.5 h against a 6 h budget
+    source: kentucky-2026 log (retro 2026-09-27)
+    added: 2026-09-30
+
+  - id: blevins-farm
+    name: Oscar Blevins farm by moonlight
+    kind: ruin
+    where: Bandy Creek, Big South Fork, Tennessee
+    state: TN
+    why: An abandoned farm explored after dark by full moon and headlamp
+    status: done
+    trip: kentucky-2026
+    verdict: '"Scary but awesome… felt like Slenderman." Close second best moment; owls and stars'
+    source: kentucky-2026 log (retro 2026-09-27)
+    added: 2026-09-30
+
+  - id: twin-arches
+    name: Twin Arches
+    kind: hike
+    where: Big South Fork, Tennessee
+    state: TN
+    why: Two sandstone arches side by side, reached on easy gravel
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: angel-falls-bsf
+    name: Angel Falls Trail
+    kind: hike
+    where: Leatherwood Ford, Big South Fork, Tennessee
+    state: TN
+    why: River trail to the Big South Fork rapids
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: east-rim-sunset
+    name: East Rim + Sunset Point
+    kind: view
+    where: Big South Fork, Tennessee
+    state: TN
+    why: Gorge-rim sunset over the Big South Fork
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: double-arch
+    name: Double Arch + Courthouse Rock
+    kind: hike
+    where: Red River Gorge, Kentucky
+    state: KY
+    why: Arch-and-ridge walk the plan had written off as impossible, done after class
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: rock-bridge-creation-falls
+    name: Rock Bridge + Creation Falls
+    kind: waterfall
+    where: Red River Gorge, Kentucky
+    state: KY
+    why: Recovered on Thursday after Wednesday's cut
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: chimney-top-rock
+    name: Chimney Top Rock at sunset
+    kind: view
+    where: Red River Gorge, Kentucky
+    state: KY
+    why: Short walk to a gorge overlook, timed for sunset
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: nada-tunnel
+    name: Nada Tunnel
+    kind: drive
+    where: Red River Gorge, Kentucky
+    state: KY
+    why: A one-lane logging-railroad tunnel you drive through, the gateway to the Gorge
+    status: done
+    trip: kentucky-2026
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: miguels-pizza
+    name: Miguel's Pizza
+    kind: food
+    where: Slade, Kentucky
+    state: KY
+    why: The named dish in Slade
+    status: done
+    trip: kentucky-2026
+    verdict: Very good. Which pizza wasn't recorded
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  - id: blue-heron
+    name: Blue Heron coal town
+    kind: ruin
+    where: Big South Fork, Kentucky
+    state: KY
+    why: The stabilized, interpretive coal town
+    status: done
+    trip: kentucky-2026
+    verdict: '"Wasn''t that cool, very polished, not much to explore." The reason principle 10 now says unrestored'
+    source: kentucky-2026 log
+    added: 2026-09-30
+
+  # ------------------------------------------------ on a planned trip
+
+  - id: bridge-day
+    name: Bridge Day
+    kind: other
+    where: New River Gorge, West Virginia
+    state: WV
+    months: [10]
+    why: BASE jumpers off the New River Gorge Bridge, watched from the gorge floor
+    status: want
+    trip: appalachians-2026
+    source: appalachians-2026 trip.md
+    added: 2026-09-30
+
+  - id: kaymoor-miners-trail
+    name: Kaymoor Miners Trail
+    kind: ruin
+    where: New River Gorge, West Virginia
+    state: WV
+    why: Stairs down to an abandoned coal mine and coke ovens on the gorge wall
+    status: want
+    trip: appalachians-2026
+    source: appalachians-2026 trip.md
+    added: 2026-09-30
+
+  - id: hawksbill-linville
+    name: Hawksbill at sunrise
+    kind: view
+    where: Linville Gorge, North Carolina
+    state: NC
+    why: The earned sunrise of the October trip, over the gorge in peak color
+    status: want
+    trip: appalachians-2026
+    source: appalachians-2026 trip.md
+    added: 2026-09-30
+
+  - id: black-balsam-knob
+    name: Black Balsam Knob
+    kind: hike
+    where: Blue Ridge Parkway, North Carolina
+    state: NC
+    why: Open grassy bald with a real 360°, the October trip's best golden-hour spot
+    status: want
+    trip: appalachians-2026
+    source: appalachians-2026 trip.md
+    added: 2026-09-30
+
+  - id: mount-rogers-wilburn-ridge
+    name: Mount Rogers via Wilburn Ridge
+    kind: hike
+    where: Grayson Highlands, Virginia
+    state: VA
+    why: Rocky highland balds with wild ponies
+    status: want
+    trip: appalachians-2026
+    source: appalachians-2026 trip.md
+    added: 2026-09-30
+
+  - id: sliding-sands
+    name: Keonehe'ehe'e (Sliding Sands)
+    kind: hike
+    where: Haleakalā summit, Maui
+    state: HI
+    why: Down from the 10,000 ft summit into Haleakalā's cinder desert
+    status: want
+    trip: maui-2027
+    source: maui-2027 trip.md
+    added: 2026-09-30
+
+  - id: pipiwai-trail
+    name: Pīpīwai Trail
+    kind: hike
+    where: Kīpahulu, Maui
+    state: HI
+    why: Through the Kīpahulu bamboo forest
+    status: want
+    trip: maui-2027
+    source: maui-2027 trip.md
+    added: 2026-09-30
+
+  - id: hoapili-trail
+    name: Hoapili Trail (King's Highway)
+    kind: hike
+    where: La Perouse Bay, Maui
+    state: HI
+    why: An old stone road across Maui's youngest lava field
+    status: want
+    trip: maui-2027
+    source: maui-2027 trip.md
+    added: 2026-09-30
+
+  - id: heart-of-rocks
+    name: Heart of Rocks Loop
+    kind: hike
+    where: Chiricahua NM, Arizona
+    state: AZ
+    why: A forest of rhyolite hoodoos, welded ash from the Turkey Creek caldera
+    status: want
+    trip: sky-islands-2027
+    source: sky-islands-2027 trip.md
+    added: 2026-09-30
+
+  - id: cochise-stronghold
+    name: Cochise Stronghold
+    kind: hike
+    where: Dragoon Mountains, Arizona
+    state: AZ
+    why: The Dragoons, 1.4 billion years old, in sight of the Chiricahuas
+    status: want
+    trip: sky-islands-2027
+    source: sky-islands-2027 trip.md
+    added: 2026-09-30
+
+  # ---------------------------------------------------- on an outline
+
+  - id: grinnell-glacier
+    name: Grinnell Glacier
+    kind: hike
+    where: Many Glacier, Glacier NP, Montana
+    state: MT
+    why: A glacier from a day hike, at the soft ceiling, with a shorter bail-out
+    status: want
+    trip: northern-rockies-2027
+    source: northern-rockies-2027 trip.md
+    added: 2026-09-30
+
+  - id: iceberg-lake
+    name: Iceberg Lake
+    kind: hike
+    where: Many Glacier, Glacier NP, Montana
+    state: MT
+    why: Many Glacier's other marquee hike, from the same trailhead as Ptarmigan
+    status: want
+    trip: northern-rockies-2027
+    source: northern-rockies-2027 trip.md
+    added: 2026-09-30
+
+  - id: beartooth-highway
+    name: Beartooth Highway (US-212)
+    kind: drive
+    where: Red Lodge MT to Cooke City, Montana / Wyoming
+    state: MT
+    why: Paved above 9,500 ft; emptiness and short approaches at the same time
+    status: want
+    trip: northern-rockies-2027
+    source: northern-rockies-2027 trip.md; wishlist/beartooth-plateau.md
+    added: 2026-09-30
+
+  - id: badlands-notch-trail
+    name: Notch Trail
+    kind: hike
+    where: Badlands NP, South Dakota
+    state: SD
+    why: A log ladder up an eroding badlands wall
+    status: want
+    trip: northern-rockies-2027
+    source: northern-rockies-2027 trip.md
+    added: 2026-09-30
+
+  - id: fire-wave
+    name: Fire Wave
+    kind: hike
+    where: Valley of Fire, Nevada
+    state: NV
+    why: Striped Aztec sandstone, a short walk from the road
+    status: want
+    trip: mojave-winter-2027
+    months: [11, 12, 1, 2, 3]
+    source: mojave-winter-2027 trip.md
+    added: 2026-09-30
+
+  - id: golden-canyon-zabriskie
+    name: Golden Canyon → Manly Beacon → Zabriskie
+    kind: hike
+    where: Death Valley, California
+    state: CA
+    why: Badlands of old lakebed, through the canyon and over the top
+    status: want
+    trip: mojave-winter-2027
+    months: [11, 12, 1, 2, 3]
+    source: mojave-winter-2027 trip.md
+    added: 2026-09-30
+
+  - id: kelso-dunes
+    name: Kelso Dunes
+    kind: hike
+    where: Mojave National Preserve, California
+    state: CA
+    why: The Mojave Preserve's big dunes
+    status: want
+    trip: mojave-winter-2027
+    months: [11, 12, 1, 2, 3]
+    source: mojave-winter-2027 trip.md
+    added: 2026-09-30
+
+  # ---------------------------------------------- in a potential trip
+
+  - id: tablelands
+    name: The Tablelands
+    kind: geology
+    where: Gros Morne NP, Newfoundland
+    state: NL
+    months: [6, 7, 8, 9]
+    why: You walk on exposed Earth's mantle. The rock that confirmed plate tectonics
+    status: want
+    wishlist: newfoundland
+    source: wishlist/newfoundland.md
+    added: 2026-09-30
+
+  - id: lanse-aux-meadows
+    name: L'Anse aux Meadows
+    kind: ruin
+    where: Northern Peninsula, Newfoundland
+    state: NL
+    months: [6, 7, 8, 9]
+    why: North America's only confirmed Norse settlement, c. 1000 AD
+    status: want
+    wishlist: newfoundland
+    source: wishlist/newfoundland.md
+    added: 2026-09-30
+
+  - id: harding-icefield
+    name: Harding Icefield Trail
+    kind: hike
+    where: Exit Glacier, Kenai Fjords, Alaska
+    state: AK
+    months: [7, 8, 9]
+    why: The best single payoff on the whole list
+    status: want
+    wishlist: kenai-peninsula
+    source: wishlist/kenai-peninsula.md
+    added: 2026-09-30
+
+  - id: little-lakes-valley
+    name: Little Lakes Valley
+    kind: hike
+    where: Mosquito Flat, Eastern Sierra, California
+    state: CA
+    months: [7, 8, 9]
+    why: A chain of alpine lakes from the highest paved trailhead in the Sierra
+    status: want
+    wishlist: eastern-sierra
+    source: wishlist/eastern-sierra.md
+    added: 2026-09-30
+
+  - id: alabama-hills
+    name: Alabama Hills
+    kind: view
+    where: Lone Pine, California
+    state: CA
+    why: Weathered granite with a 10,000 ft fault escarpment behind it
+    status: want
+    wishlist: owens-valley
+    source: wishlist/owens-valley.md
+    added: 2026-09-30
+
+  - id: hemmed-in-hollow
+    name: Hemmed-In Hollow
+    kind: waterfall
+    where: Buffalo National River, Arkansas
+    state: AR
+    months: [3, 4, 5]
+    why: Tallest waterfall between the Rockies and the Appalachians; spring flow only
+    status: want
+    wishlist: buffalo-river
+    source: wishlist/buffalo-river.md
+    added: 2026-09-30
+
+  - id: cassidy-arch
+    name: Cassidy Arch
+    kind: hike
+    where: Capitol Reef, Utah
+    state: UT
+    why: Up onto the Waterpocket Fold, a 100-mile wrinkle in the crust
+    status: want
+    wishlist: capitol-reef
+    source: wishlist/capitol-reef.md
+    added: 2026-09-30
+
+  - id: painted-wall
+    name: Painted Wall
+    kind: view
+    where: Black Canyon of the Gunnison, Colorado
+    state: CO
+    why: Colorado's tallest cliff, in 1.7-billion-year-old gneiss
+    status: want
+    wishlist: black-canyon
+    source: wishlist/black-canyon.md
+    added: 2026-09-30
+
+  - id: dinosaur-quarry-wall
+    name: Quarry Exhibit Hall
+    kind: fossil
+    where: Dinosaur NM, Utah
+    state: UT
+    why: A rock face with ~1,500 dinosaur bones still in it. Photos only (NPS)
+    status: want
+    wishlist: dinosaur-nm
+    source: wishlist/dinosaur-nm.md
+    added: 2026-09-30
+
+  - id: meadow-run-waterslides
+    name: Meadow Run natural waterslides
+    kind: swim
+    where: Ohiopyle, Pennsylvania
+    state: PA
+    months: [6, 7, 8]
+    why: Real sliding down rock chutes, 3.5 h from home
+    status: want
+    wishlist: ohiopyle
+    source: wishlist/ohiopyle.md
+    added: 2026-09-30
+
+  - id: letchworth-gorge
+    name: Letchworth Gorge falls
+    kind: waterfall
+    where: Letchworth SP, New York
+    state: NY
+    months: [4, 5, 6]
+    why: Three big waterfalls in a 600 ft gorge; spring for volume
+    status: want
+    wishlist: letchworth
+    source: wishlist/letchworth.md
+    added: 2026-09-30
+
+  - id: point-reyes-earthquake-trail
+    name: Earthquake Trail
+    kind: geology
+    where: Point Reyes, California
+    state: CA
+    why: A fence line offset ~20 ft by the 1906 San Andreas rupture
+    status: want
+    wishlist: point-reyes-marin
+    source: wishlist/point-reyes-marin.md
+    added: 2026-09-30
+
+  - id: pinnacles-talus-caves
+    name: Pinnacles talus caves
+    kind: cave
+    where: Pinnacles NP, California
+    state: CA
+    why: Boulder caves in half a volcano the San Andreas carried 195 miles north
+    status: want
+    wishlist: pinnacles
+    source: wishlist/pinnacles.md
+    added: 2026-09-30
+
+  - id: ice-lakes-basin
+    name: Ice Lakes Basin
+    kind: hike
+    where: San Juan Mountains, Colorado
+    state: CO
+    months: [7, 8, 9]
+    why: The San Juans' marquee hike, from South Mineral CG at the trailhead
+    status: want
+    wishlist: san-juans
+    source: wishlist/san-juans.md
+    added: 2026-09-30
+
+  - id: lamoille-canyon
+    name: Lamoille Canyon
+    kind: drive
+    where: Ruby Mountains, Nevada
+    state: NV
+    months: [7, 8, 9]
+    why: A paved road into a glacial cirque, with near-zero people
+    status: want
+    wishlist: ruby-mountains
+    source: wishlist/ruby-mountains.md
+    added: 2026-09-30
+
+  - id: lassen-cinder-cone
+    name: Cinder Cone
+    kind: hike
+    where: Lassen Volcanic, California
+    state: CA
+    months: [7, 8, 9]
+    why: 4 mi, inside the ceiling, in California's least-visited real national park
+    status: want
+    wishlist: lassen
+    source: wishlist/lassen.md
+    added: 2026-09-30
+
+  - id: maple-pass
+    name: Maple Pass Loop
+    kind: hike
+    where: North Cascades, Washington
+    state: WA
+    months: [7, 8, 9]
+    why: The North Cascades loop that was fully planned once
+    status: want
+    wishlist: north-cascades
+    source: wishlist/north-cascades.md
+    added: 2026-09-30
+
+  - id: medicine-bow-peak
+    name: Medicine Bow Peak
+    kind: hike
+    where: Snowy Range, Wyoming
+    state: WY
+    months: [7, 8, 9]
+    why: A 12,013 ft summit inside the day-hike ceiling, no permits
+    status: want
+    wishlist: snowy-range
+    source: wishlist/snowy-range.md
+    added: 2026-09-30
+
+  - id: stone-door
+    name: Stone Door
+    kind: view
+    where: Savage Gulf, Tennessee
+    state: TN
+    why: Savage Gulf's marquee, on the same plateau rock as Big South Fork
+    status: want
+    wishlist: south-cumberland
+    source: wishlist/south-cumberland.md
+    added: 2026-09-30
+
+  - id: medano-creek
+    name: Medano Creek
+    kind: swim
+    where: Great Sand Dunes, Colorado
+    state: CO
+    months: [5, 6]
+    why: Sand plus running water. Depends entirely on snowpack; it ran dry in 2026
+    status: want
+    wishlist: great-sand-dunes
+    source: wishlist/great-sand-dunes.md
+    added: 2026-09-30
+
+  - id: crazy-woman-canyon
+    name: Crazy Woman Canyon Road
+    kind: campground
+    where: Bighorn Mountains, Wyoming
+    state: WY
+    why: Dispersed sites on a creek between canyon walls
+    status: want
+    wishlist: bighorns
+    source: wishlist/bighorns.md
+    added: 2026-09-30
+
+  - id: mirror-lake-highway
+    name: Mirror Lake Highway
+    kind: drive
+    where: High Uintas, Utah
+    state: UT
+    months: [7, 8, 9]
+    why: The spine of an absurdly lake-dense range, campgrounds strung along it
+    status: want
+    wishlist: high-uintas
+    source: wishlist/high-uintas.md
+    added: 2026-09-30
+
+  - id: wheeler-peak-bristlecones
+    name: Wheeler Peak bristlecone grove
+    kind: hike
+    where: Great Basin NP, Nevada
+    state: NV
+    months: [7, 8, 9]
+    why: Bristlecone groves under Wheeler Peak, and functionally nobody there
+    status: want
+    wishlist: great-basin
+    source: wishlist/great-basin.md
+    added: 2026-09-30
+
+  - id: wichitas-bison
+    name: Wichita Mountains bison and granite
+    kind: wildlife
+    where: Wichita Mountains NWR, Oklahoma
+    state: OK
+    why: Free-roaming bison among granite domes almost nobody outside Oklahoma has heard of
+    status: want
+    wishlist: wichita-mountains
+    source: wishlist/wichita-mountains.md
+    added: 2026-09-30
+
+  - id: sipsey-waterfalls
+    name: Sipsey box canyons
+    kind: waterfall
+    where: Bankhead NF, Alabama
+    state: AL
+    months: [2, 3, 4]
+    why: Dozens of waterfalls and old growth in sandstone box canyons; early spring only
+    status: want
+    wishlist: sipsey-wilderness
+    source: wishlist/sipsey-wilderness.md
+    added: 2026-09-30
+
+  - id: lower-calf-creek-falls
+    name: Lower Calf Creek Falls
+    kind: waterfall
+    where: Grand Staircase–Escalante, Utah
+    state: UT
+    why: Warm swimmable desert water, which is rare out west
+    status: want
+    wishlist: grand-staircase
+    source: wishlist/grand-staircase.md
+    added: 2026-09-30
+
+  - id: mount-cammerer
+    name: Mount Cammerer
+    kind: hike
+    where: Great Smoky Mountains, Tennessee / North Carolina
+    state: TN
+    why: The day hike on the quiet east side of the Smokies
+    status: want
+    wishlist: smokies-east
+    source: wishlist/smokies-east.md
+    added: 2026-09-30
+
+  # ---------------------------------- city walks (moved from travel-style)
+
+  - id: sf-crosstown-trail
+    name: Crosstown Trail
+    kind: walk
+    where: San Francisco, California
+    state: CA
+    why: 17.1 mi across the city, corner to corner; best in two halves
+    status: want
+    source: me/travel-style.md city research, 2026-09-29 (moved 2026-09-30)
+    added: 2026-09-30
+
+  - id: pittsburgh-steps
+    name: South Side Slopes steps
+    kind: walk
+    where: Pittsburgh, Pennsylvania
+    state: PA
+    why: About 2,500 steps in one neighborhood, in a city with 800+ public stairways
+    status: want
+    wishlist: pittsburgh
+    source: me/travel-style.md city research, 2026-09-29; wishlist/pittsburgh.md
+    added: 2026-09-30
+
+  - id: carrie-blast-furnaces
+    name: Carrie Blast Furnaces
+    kind: ruin
+    where: Rankin, Pennsylvania
+    state: PA
+    why: The industrial tour the Pittsburgh city-day route is built around
+    status: want
+    wishlist: pittsburgh
+    source: me/travel-style.md city research, 2026-09-29; wishlist/pittsburgh.md
+    added: 2026-09-30
+
+  - id: atlanta-beltline
+    name: Atlanta BeltLine
+    kind: walk
+    where: Atlanta, Georgia
+    state: GA
+    why: Researched as a city walk. No route built yet
+    status: want
+    source: me/travel-style.md city research, 2026-09-29 (moved 2026-09-30)
+    added: 2026-09-30
+
+  - id: philadelphia
+    name: Philadelphia
+    kind: city
+    where: Philadelphia, Pennsylvania
+    state: PA
+    why: Researched as a city-trip candidate. No route built yet
+    status: want
+    source: me/travel-style.md city research, 2026-09-29 (moved 2026-09-30)
+    added: 2026-09-30
+
+  # ------------------------ fossil and rock leads (moved from adventures)
+  # All recalled by Claude, NOT verified. Before one reaches a plan, confirm
+  # the land manager, the collecting rule, the fee or permit, the access road
+  # (5.9 in clearance) and any mining claim. Rules: me/adventures.md.
+
+  - id: caesar-creek-spillway
+    name: Caesar Creek Lake spillway
+    kind: fossil
+    where: Waynesville, Ohio
+    state: OH
+    why: Ordovician fossils. The cheap test of whether hours of ground-staring are fun. Recalled free permit (Army Corps)
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: penn-dixie
+    name: Penn Dixie Fossil Park
+    kind: fossil
+    where: Hamburg, New York
+    state: NY
+    why: Devonian trilobites, keep what you find. Entry fee, but it's a fossil site
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: flint-ridge
+    name: Flint Ridge
+    kind: fossil
+    where: Glenford, Ohio
+    state: OH
+    why: Banned at the state memorial; legal digging is on nearby private fee land. Probably doesn't fit
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: crystal-vista
+    name: Crystal Vista quartz digging
+    kind: fossil
+    where: Ouachita NF, Arkansas
+    state: AR
+    why: Quartz crystals. Free hand-digging recalled with low confidence
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: wnc-rockhounding
+    name: Western NC national forests
+    kind: fossil
+    where: Pisgah / Nantahala NF, North Carolina
+    state: NC
+    why: Casual collecting generally allowed; most famous Spruce Pine sites are fee-digs (not selected)
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: sunstone-area
+    name: Sunstone Public Collection Area
+    kind: fossil
+    where: Plush, Oregon (BLM)
+    state: OR
+    why: Free Oregon sunstones. Remote, on gravel
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: crystal-park
+    name: Crystal Park
+    kind: fossil
+    where: Pike NF, Colorado
+    state: CO
+    why: Smoky quartz and amazonite. Mining claims are common here
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: emerald-creek
+    name: Emerald Creek garnet area
+    kind: fossil
+    where: Idaho Panhandle NF, Idaho
+    state: ID
+    why: Star garnets. Recalled cheap permit
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: house-range-trilobites
+    name: House Range trilobites
+    kind: fossil
+    where: West of Delta, Utah (BLM)
+    state: UT
+    why: Cambrian trilobites
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: dugway-geodes
+    name: Dugway geode beds
+    kind: fossil
+    where: West desert, Utah (BLM)
+    state: UT
+    why: Free geodes, but remote with rough roads. Questionable for the Legacy
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
+
+  - id: garnet-hill
+    name: Garnet Hill
+    kind: fossil
+    where: Near Ely, Nevada (BLM)
+    state: NV
+    why: Garnets in the rock
+    status: want
+    source: recalled by Claude, not verified (moved from me/adventures.md 2026-09-30)
+    added: 2026-09-30
