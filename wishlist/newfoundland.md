@@ -23,7 +23,7 @@ tags:
   - passport
   - ferry
   - long haul
-updated: 2026-09-06
+updated: 2026-09-30
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -32,6 +32,8 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 *The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip*
 
 ## Why
+
+⭐ **Leaning in for summer 2027, by road** *(stated 2026-09-30, tentative: "maybe we make it a road trip")*. Flying to Deer Lake later was the alternative, and it's exactly the flight + rental + campgrounds stack that bang for buck (`me/travel-style.md`) weighs against; the drive's big line is the ferry. Kenai moves to a future PTO year instead. ⚠️ **It collides with the Glacier road trip (Jul 6–26) as shaped**: go early for icebergs (~late May, giving up the Argentia routing), or take Argentia (June 19+ in 2026) and slide Glacier to mid-July. Maui ends May 20.
 
 ⭐ **The single best geology destination on this list, and it is not close.** The **Tablelands** at Gros Morne is exposed oceanic **mantle** — peridotite obducted onto the continent — and it is the reason the park is a UNESCO World Heritage Site: it is the physical evidence that confirmed plate tectonics. ✅ AllTrails: **4.9 mi, 705 ft, Moderate**, and open all of June. Everything else on the geology-as-through-line list is rock; this is the layer underneath the rock.
 
@@ -53,7 +55,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Next
 
-Decide the trade first — Newfoundland or the Maritimes, and peak icebergs or the Argentia no-backtrack routing. Then check whether a valid passport exists, because that has the longest lead time of anything here
+**Passport first**: whether Colin has a valid one isn't recorded, and it's the longest lead time here. Then the timing trade: peak icebergs (leave ~late May, backtrack) or the Argentia routing (June 19+, and Glacier slides to mid-July). *(was: "Newfoundland or the Maritimes" first; the Maritimes were already ruled out above)*
 
 ## Research notes
 

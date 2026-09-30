@@ -74,3 +74,9 @@ COULD NOT VERIFY:
     Places list, which is the correct outcome rather than a gap.
   - Drive times are Google-style estimates + 15%, unconfirmed.
 ==========================================================================
+
+## 2026-09-30 · Still a candidate, not confirmed
+
+- **Not confirmed** *(stated 2026-09-30)*. Nothing records whether Bonita Canyon (the Sept 8–10 release for Mar 8–10) was booked; treat it as not booked until Colin says otherwise. `trip.md` still says `planned`; whether to drop it to `outline` is Colin's call, asked 2026-09-30.
+- **Why it beats Mojave on bang for buck, in his words:** "more worth it than Mojave" *(stated 2026-09-30)*. Same cost stack (flight + rental + campgrounds), but March is this trip's peak season and spring break costs zero classes.
+- **Possible second person** to split the car, gas and campgrounds *(stated 2026-09-30, "may be able to")*. If it happens, every "solo" assumption in the plan changes: tent, portions, the fare, and who drives.
