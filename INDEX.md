@@ -59,7 +59,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Colorado's one world-class May option
 - **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · keeps (derived) · Apr/May/Oct · 5–7 nights · updated 2026-09-04
   The penciled 2027 shoulder trip
-- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · updated 2026-09-04
+- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 1 research note · updated 2026-10-01
   Maui return leg — the pick
 - **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   The reliable Colorado option in May
@@ -71,13 +71,13 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Family, not a plan
 - **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-06
   Highest hit rate — and the bureaucracy just went away
-- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · updated 2026-09-04
+- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 1 research note · updated 2026-10-01
   Warm desert water, which barely exists out west
 - **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Darkest sky in the lower 48
 - **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · updated 2026-09-06
   Maui return leg — with a real catch
-- **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 1 research note · updated 2026-09-30
+- **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 2 research notes · updated 2026-10-01
   78 miles of river, two tunnels, and nobody
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
@@ -87,7 +87,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
-- **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 1 research note · updated 2026-09-30
+- **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 2 research notes · updated 2026-10-01
   Raw, car-free, and ferry-only
 - **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 26 days · updated 2026-09-30
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
@@ -109,7 +109,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The Maui return leg
 - **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-04
   Booked once, then pivoted away
-- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
+- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-01
   Ice Lakes Basin is the marquee
 - **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-09-04
   The big-tree bookend
@@ -130,23 +130,23 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-80 items · want 69 · done 11
+91 items · want 80 · done 11
 
-By kind: hike 26 · fossil 12 · other 10 · view 6 · ruin 5 · waterfall 5 · drive 4 · walk 3 · geology 2 · swim 2 · campground 1 · cave 1 · city 1 · food 1 · wildlife 1
+By kind: hike 27 · fossil 12 · other 10 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · swim 3 · walk 3 · geology 2 · river 2 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
 - **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
-- **AZ** (2): Heart of Rocks Loop, Cochise Stronghold
-- **CA** (8): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail
-- **CO** (4): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park
+- **AZ** (3): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour
+- **CA** (9): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep
+- **CO** (5): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep
 - **GA** (1): Atlanta BeltLine
-- **HI** (3): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway)
+- **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
-- **KY** (6): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓
+- **KY** (7): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓, Mammoth Cave, Wild Cave Tour
 - **ME** (1): Acadia carriage roads
-- **MI** (2): Grand Island loop, Sleeping Bear Heritage Trail
-- **MT** (3): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212)
+- **MI** (3): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak
+- **MT** (4): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft
 - **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
 - **NL** (2): The Tablelands, L'Anse aux Meadows
 - **NV** (4): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill
@@ -157,10 +157,10 @@ By kind: hike 26 · fossil 12 · other 10 · view 6 · ruin 5 · waterfall 5 · 
 - **PA** (6): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail
 - **SD** (2): Notch Trail, George S. Mickelson Trail
 - **TN** (7): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer
-- **UT** (6): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds
+- **UT** (8): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot)
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
-- **WV** (3): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail
+- **WV** (5): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail, Upper Gauley, guided raft, Lost World Caverns, wild cave tour
 - **WY** (2): Medicine Bow Peak, Crazy Woman Canyon Road
 
 ## Per trip, which file answers what

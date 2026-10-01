@@ -918,3 +918,133 @@ items:
     wishlist: greenbrier-valley
     source: wishlist/greenbrier-valley.md (daydream 2026-09-30)
     added: 2026-09-30
+
+  # ------------------- paid experiences (a guide, a boat or a rented vehicle)
+  # Daydream 2026-10-01: "bucket list paid activities, tours, rentals". The
+  # test: pay when it reaches something feet and the Legacy can't. Guided
+  # ones are likely done with a friend or two (me/adventures.md).
+
+  - id: upper-gauley-raft
+    name: Upper Gauley, guided raft
+    kind: river
+    where: Summersville Dam, West Virginia
+    state: WV
+    months: [9, 10]
+    why: Fall dam-release big water; weekend-sized from Avon, a trip with friends rather than a squeeze into a transfer day
+    status: want
+    source: lrh-wc.usace.army.mil/wm/?wwsched (read 2026-10-01; 2026 releases end Oct 17–18)
+    added: 2026-10-01
+
+  - id: kartchner-big-room
+    name: Kartchner Caverns, Big Room tour
+    kind: cave
+    where: Benson, Arizona
+    state: AZ
+    months: [3]
+    why: A living wet show cave on the I-10 leg; the Big Room is seasonal (bats) and March is inside the season
+    status: want
+    trip: sky-islands-2027
+    source: azstateparks.com/kartchner (search snippet, 2026-10-01)
+    added: 2026-10-01
+
+  - id: molokini-snorkel
+    name: Molokini Crater, dawn small-boat snorkel
+    kind: swim
+    where: Off Kihei, Maui
+    state: HI
+    months: [5]
+    why: Snorkel a sunken crater rim and the back wall; has to beat the shore snorkels already planned to earn a slot
+    status: want
+    trip: maui-2027
+    source: tripadvisor / mauimagicsnorkel.com (search snippets, 2026-10-01)
+    added: 2026-10-01
+
+  - id: middle-fork-flathead-raft
+    name: Middle Fork Flathead, half-day raft
+    kind: river
+    where: West Glacier, Montana
+    state: MT
+    months: [7]
+    why: A maybe. Easier water by late July than the big-water bar in me/adventures.md
+    status: want
+    trip: northern-rockies-2027
+    source: greatnorthernresort.com (search snippet, 2026-10-01)
+    added: 2026-10-01
+
+  - id: racetrack-playa-jeep
+    name: Racetrack Playa by rented Jeep
+    kind: drive
+    where: Death Valley, California
+    state: CA
+    why: Cut from the Mojave loop for clearance only; a one-day Jeep rental would bring it back (rentals not checked)
+    status: want
+    trip: mojave-winter-2027
+    source: mojave-winter-2027 trip.md; daydream 2026-10-01
+    added: 2026-10-01
+
+  - id: alpine-loop-jeep
+    name: Alpine Loop by rented Jeep
+    kind: drive
+    where: Ouray / Silverton / Lake City, Colorado
+    state: CO
+    months: [7, 8, 9]
+    why: The rented-vehicle day; two 12,000+ ft passes and the Animas Forks ghost town, past the Legacy's clearance
+    status: want
+    wishlist: san-juans
+    source: wishlist/san-juans.md (daydream 2026-10-01)
+    added: 2026-10-01
+
+  - id: goblins-lair-rappel
+    name: Goblin's Lair, guided rappel
+    kind: cave
+    where: Goblin Valley State Park, Utah
+    state: UT
+    why: A guided rappel down into a cavern, the closest real thing to a cave with ropes
+    status: want
+    wishlist: capitol-reef
+    source: wishlist/capitol-reef.md (daydream 2026-10-01)
+    added: 2026-10-01
+
+  - id: escalante-canyoneering
+    name: Guided slot canyoneering (Egypt slot)
+    kind: hike
+    where: Escalante, Utah
+    state: UT
+    why: Short rappels through a slot canyon with a guide supplying the ropes and the judgment
+    status: want
+    wishlist: grand-staircase
+    source: wishlist/grand-staircase.md (daydream 2026-10-01)
+    added: 2026-10-01
+
+  - id: pictured-rocks-kayak
+    name: Pictured Rocks, guided sea kayak
+    kind: view
+    where: Munising, Michigan
+    state: MI
+    months: [6, 7, 8, 9]
+    why: The cliffs and sea caves are best seen from the water, and Lake Superior is no place to rent and wing it
+    status: want
+    wishlist: munising
+    source: wishlist/munising.md (daydream 2026-10-01)
+    added: 2026-10-01
+
+  - id: lost-world-wild-cave
+    name: Lost World Caverns, wild cave tour
+    kind: cave
+    where: Lewisburg, West Virginia
+    state: WV
+    why: Four hours of crawling and mud off the show-cave route
+    status: want
+    wishlist: greenbrier-valley
+    source: wishlist/greenbrier-valley.md (daydream 2026-10-01)
+    added: 2026-10-01
+
+  - id: mammoth-wild-cave
+    name: Mammoth Cave, Wild Cave Tour
+    kind: cave
+    where: Mammoth Cave National Park, Kentucky
+    state: KY
+    why: The benchmark crawl-and-climb tour in the East; no trip or idea carries it yet
+    status: want
+    source: tripadvisor (4.8★, search snippet, 2026-10-01); nps.gov/maca cave tours (search snippet, 2026-10-01)
+    added: 2026-10-01

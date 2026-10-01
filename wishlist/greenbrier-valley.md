@@ -11,7 +11,7 @@ region: Marlinton / Watoga, West Virginia
 country: USA
 budget: Drive, ~5–6 hrs from Avon (⚠️ estimate)
 tags: [ car camping, bike, rail trail, swimming, river, summer ]
-updated: 2026-09-30
+updated: 2026-10-01
 source: daydream 2026-09-30 (scenic bike + hike destinations; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead)
 ---
 
@@ -33,3 +33,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 
 ### 2026-09-30 · Found while looking for a dedicated bike trip
 - Paired as a potential summer drive trip, shorter than Acadia or Munising
+
+### 2026-10-01 · Paid experiences: wild cave tour
+- 📋 Lost World Caverns (Lewisburg) runs a four-hour guided wild cave tour: crawl, climb, get muddy *(source: lostworldcaverns.com/tours/wild-cave-tour, search snippet, 2026-10-01)*. ACE Adventure Resort also sells an all-day version with Lost World *(source: aceraft.com, search snippet, 2026-10-01)*
+- ⚠️ Price, minimum group size and drive time from the rail trail: not checked

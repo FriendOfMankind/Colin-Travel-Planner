@@ -11,7 +11,7 @@ region: Munising, Michigan (UP)
 country: USA
 budget: Drive, ~9–10 hrs from Avon (⚠️ estimate)
 tags: [ car camping, bike, island, cliffs, lake superior, summer ]
-updated: 2026-09-30
+updated: 2026-10-01
 source: daydream 2026-09-30 (scenic bike + hike destinations; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead)
 ---
 
@@ -35,3 +35,8 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Described as "Pictured Rocks' peaceful little sister, wild cliffs, remote trails, no crowds" *(source: facebook Upper Peninsula Travel group, search snippet, 2026-09-30)*
 - ⚠️ Bikes on the Pictured Rocks trails themselves: not checked (probably not)
 - ⚠️ Campgrounds not researched
+
+### 2026-10-01 · Paid experiences: guided sea kayak
+- 📋 Pictured Rocks is "best viewed from the water", the sandstone cliffs, sea caves and formations up close *(source: munising.org/water-activities/kayaking, search snippet, 2026-10-01)*
+- 📋 Paddling Michigan runs daily tours of 2 to 8 hours; Pictured Rocks Kayaking launches from a boat to paddle the iconic stretch *(source: paddlingmichigan.com, picturedrockskayaking.com, search snippets, 2026-10-01)*. Prices TBD
+- ⚠️ Guided rather than rented, because the stretch is open Lake Superior. A judgment, not a checked rule
