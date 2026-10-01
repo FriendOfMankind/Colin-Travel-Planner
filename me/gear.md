@@ -314,9 +314,12 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ## Safety & documents
 
-**Satellite messenger: not owned, and not wanted** *(stated 2026-10-01)*. Don't propose buying one. ⚠️ This conflicts with `trips/maui-2027/trip.md`, which plans a rental for the no-signal Piʻilani stretch; that call is still open on the Maui page.
+**Satellite messenger: not owned, and not wanted** *(stated 2026-10-01)*. Don't propose buying one. The phone is the satellite baseline instead (below). ⚠️ `trips/maui-2027/trip.md` still plans a rental for the no-signal Piʻilani stretch; whether the phone covers Hawaii decides that, and it's unchecked.
 
 ```yaml
+- name: iPhone 16 Plus
+  state: own
+  note: "*(stated 2026-10-01)* The off-grid lifeline. Apple's satellite features (Emergency SOS, Messages, Find My and Roadside Assistance via satellite) cover iPhone 14 and later, and free access was extended for the 14, 15 and 16 *(source: macrumors.com, 2026-09-09, search snippet read 2026-10-01)*. Works only with no cell or Wi-Fi and a clear view of the sky *(source: support.apple.com/en-us/101573, search snippet, 2026-10-01)*. ⚠️ Untested by Colin: run the demo (Settings → Emergency SOS) at home, then in a gorge. When the free period ends: not recorded."
 - name: First aid kit
   state: own
 - name: Printed permits + reservations
