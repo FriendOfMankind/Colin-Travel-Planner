@@ -49,6 +49,8 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 - **Whatever is rare locally:** for each destination, say what's special *there*, not a generic list.
 - **Rare natural things:** rare plants, champion trees, odd geology.
 
+**A general inclination, not a trip driver.** *(stated 2026-10-01)* Asked whether wildlife should become the reason for a trip, Colin said "meh, a general inclination", so swap rule 4 stands. Researched 2026-09-30 and deliberately not saved, so they aren't re-researched cold: Platte River sandhill cranes (March), Benezette elk rut (mid-Sept to late Oct), Delaware Bay horseshoe crabs (May to early June), Bruce Peninsula orchids, Smokies salamanders, synchronous fireflies (lottery events), Magee Marsh warblers (May).
+
 Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly weeks, rut, migrations) have fixed windows, so name the window and its source, never a guessed date.
 
 ## Urban routes and industrial ruins
