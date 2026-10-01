@@ -109,6 +109,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 - name: Packraft
   state: rent
   note: "Only if a trip needs it: rent it or decide per trip, not a purchase. Outfitter floats and guided rafts cover most rivers. *(stated 2026-09-28)* See [adventures.md](adventures.md)."
+- name: Snorkel, mask and fins
+  state: own
+  note: "*(stated 2026-10-01)* Owned, so a snorkel charter only needs the boat. Maui's packing list already has them going in checked luggage."
 ```
 
 ## Clothing — the layer system
