@@ -21,6 +21,16 @@ Ruins already have their own rule: *explorable, unrestored* ruins count as desti
 
 That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave tour *is* the day's outing.
 
+## Paid outings: guides, boats and rentals
+
+*(stated 2026-10-01)*
+
+- **Guided tours are likely done with a friend or two,** not solo. Planning rule: a guided outing (a raft, a wild cave, canyoneering) is a reason to bring people, so flag it as a with-friends option rather than scheduling it into a solo trip by default. Solo guided pricing can run about double per person (see `wishlist/grand-staircase.md`).
+- **The Gauley is a separate trip with other people,** not a squeeze into a solo transfer day.
+- **Fishing: not an interest on its own.** Maybe something worth it turns up on a southern US road trip. Don't propose fishing charters otherwise.
+- **Own vs. rent:** own gear that's cheap, fits the trunk and gets used without a guide (the bike, snorkel gear; see [gear.md](gear.md)). Rent or hire the rest: vehicles, boats, guides.
+- Options researched 2026-10-01 live in [`bucket.yaml`](../bucket.yaml) under *paid experiences*.
+
 ## Rivers and water
 
 *(stated 2026-09-28)*
