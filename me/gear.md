@@ -201,6 +201,25 @@ Counts are transcribed from the Maui 2027 packing list, which is the only place 
   note: Confirmed Sept 2026 — a dedicated dry set that never leaves the tent. Sleeping in the clothes you hiked in is how a 20°F bag underperforms.
 ```
 
+## Water
+
+Smartwater 1 L bottles are the storage system: portable, and they stack in the trunk. *(stated 2026-10-01)*
+
+```yaml
+- name: Smartwater 1 L bottles
+  state: own
+  note: "*(stated 2026-10-01)* The everyday water storage, carried and stacked by the dozen."
+- name: Water filter (current)
+  state: own
+  note: "*(stated 2026-10-01)* Owned, but it doesn't attach to a bottle. Model not recorded."
+- name: Sawyer Squeeze
+  state: need
+  note: "*(stated 2026-10-01, wants one)* Users report it threads onto Smartwater bottles *(source: thruhiker Facebook group, search snippet, 2026-10-01)*. Hand-tighten only, because over-tightening damages the gasket *(source: sawyer.com/faqs, search snippet, 2026-10-01)*. **Never let it freeze:** Sawyer won't say freezing is safe and there's no test for damage, so a frozen filter means a new one *(source: backpackinglight.com forum quoting Sawyer, search snippet, 2026-10-01)*. On nights near 32°F it sleeps in the bag, not in the car."
+- name: Water jugs
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)* Linville needs ~12 L and Sky Islands 5+ gallons of capacity beyond the bottles (see those trips)."
+```
+
 ## Camp kitchen
 
 One burner, one pot, one pan. The meal plans are built to that exact constraint.
@@ -251,6 +270,32 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 - name: Bandanas ×2
   state: unknown
   note: "One pot wipe, one towel. Never confirmed owned."
+```
+
+## Camp comfort & night
+
+```yaml
+- name: Camp chair
+  state: need
+  note: "*(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
+- name: Big flashlight (1,000+ lumen, rechargeable)
+  state: need
+  note: "*(stated 2026-10-01, wants one)* For night exploring (Blevins farm). Candidates: Fenix PD36R Pro *(source: gearjunkie.com best flashlights 2026, search snippet, 2026-10-01)*; Sofirn SC33 or Wurkkos TS22 *(source: reddit r/flashlight, search snippet, 2026-10-01)*. Specs and prices not checked. ⚠️ Recalled, not verified: spare lithium batteries fly in carry-on only."
+- name: Lantern
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+- name: Shower towel
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+- name: Binoculars
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+- name: Phone tripod + remote
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+- name: Camp pillow
+  state: own
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
 ```
 
 ## Vehicle & road
