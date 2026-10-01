@@ -304,12 +304,17 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 - name: Spare, jack, tire plug kit
   state: need
   note: On maintained gravel the realistic failure mode is a cut sidewall, not getting stuck. Confirm the spare is actually inflated before FS 210.
+- name: 12V tire inflator
+  state: own
+  note: "*(stated 2026-10-01)* What makes the plug kit useful: plug, then reinflate on the spot."
 - name: AAA membership
   state: own
   note: Waives the under-25 renter fee on fly-in trips. Verify it still applies at booking — this changes.
 ```
 
 ## Safety & documents
+
+**Satellite messenger: not owned, and not wanted** *(stated 2026-10-01)*. Don't propose buying one. ⚠️ This conflicts with `trips/maui-2027/trip.md`, which plans a rental for the no-signal Piʻilani stretch; that call is still open on the Maui page.
 
 ```yaml
 - name: First aid kit
