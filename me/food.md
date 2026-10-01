@@ -88,6 +88,8 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
 
 **The formula he actually wants** *(stated 2026-09-27)*: a meal that's **mostly shelf-stable, lives in the car trunk for the whole trip, ideally bought in bulk**, plus one or two fresh or canned add-ons (a fresh protein, a vegetable, a can of something). **About 2 options per meal slot** is enough variety. The add-on is what keeps a repeated base interesting.
 
+**Leaning toward Knorr-style sides as the base** *(stated 2026-10-01)*: Knorr rice and pasta side packets plus chicken pouches, with a canned bean of some kind. That's the same formula as above with the flavour built in. ⚠️ **Open:** Kentucky's "instant rice: not as good as I was expecting" (above) may or may not cover Knorr rice sides, which are seasoned and cook ~7 min. Test one at home before a trip relies on it. Pasta sides don't have that problem.
+
 **Goal on a hiking day:** fuel + recover, meaning enough carbs to hike strong and solid protein to recover, at ~3,300 kcal (was ~3,000, raised 2026-09-28). *(stated 2026-09-27)*
 
 **Working macro targets** (body weight ~185 lb / ~84 kg, *stated 2026-09-27*). These come from standard sports-nutrition ranges, not from a dietitian, so treat them as a starting point:
