@@ -78,6 +78,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 ```yaml
 - name: Day pack
   state: own
+- name: Salomon ADV Skin 12 (hydration vest)
+  state: own
+  note: "*(stated 2026-10-01)* Day-hiking vest. Unconfirmed whether it *is* the Day pack above or a second pack. **Care:** air it out after every hike with the flasks out and the pockets open. Rinse in lukewarm water after sweaty days, and rinse the zippers too, because salt is what kills them. Hand-wash with non-detergent soap when it stinks. A low-temperature machine wash is OK occasionally, not regularly. Don't tumble-dry. Store it dry with the zippers closed, out of the sun. *(source: salomon.com, How to Clean Your Hydration Pack, 2026-10-01)*"
 - name: Trekking poles
   state: own
   note: The alternative to trusting muddy fixed ropes.
