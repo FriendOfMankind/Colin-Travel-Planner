@@ -42,8 +42,9 @@ Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is 
 - name: Therm-a-Rest MondoKing 3D, 25 in Large
   state: own
   note: R-7.0. Overkill for anything on the current list, which is the correct problem to have.
-- name: 2-person tent
+- name: Naturehike Mongar 2 tent
   state: own
+  note: "2-person ultralight backpacking tent. *(stated 2026-10-01; source: naturehike.com/products/mongar-2-person-ultralight-backpacking-tent)* (was: model not recorded)"
 - name: Puffy, hat, gloves
   state: own
   note: Lives in **Clothing — the layer system** below. Listed here too because the puffy is a sleep layer on any night the bag is marginal.
