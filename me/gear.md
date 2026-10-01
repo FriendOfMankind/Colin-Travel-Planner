@@ -123,21 +123,21 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 The three layers that decide whether a cold, wet, exposed morning is fine or a bail-out. **Counts here are pack counts for a 5–10 night trip, not an inventory.** Confirmed Sept 2026 except the two still marked *unknown*: the **midlayer** and the **sun hat**.
 
 ```yaml
-- name: Rain shell
+- name: "Rain shell: Carhartt Shoreline Vapor Jacket (style 101570)"
   type: shell
   qty: 1
   state: own
-  note: Confirmed Sept 2026. Guaranteed use at Hāna and Hosmer; the Mount Rogers ridge note calls shell and gloves not optional.
-- name: Fleece or midlayer
+  note: "Model from the tag, photo 2026-10-01. Storm Defender 2.5-layer waterproof breathable membrane, 100% nylon *(source: dungarees.com product listing, search snippet, 2026-10-01)*: a real waterproof shell. The brick print inside is the membrane, not insulation. Backup: a Frogg Toggs rain jacket, owned *(stated 2026-10-01)*. Confirmed Sept 2026. Guaranteed use at Hāna and Hosmer; the Mount Rogers ridge note calls shell and gloves not optional."
+- name: "Midlayer: YoColorado grid fleece hoodie (snap front)"
   type: midlayer
   qty: 1
-  state: unknown
-  note: "The layer between the hiking shirt and the puffy — a fleece, grid fleece or light synthetic. Its job is to be worn *while moving* on a cold morning, which the puffy cannot do without soaking it in sweat. **Colin asked what this is in Sept 2026, which is itself the answer: there probably isn't one.** Confirm before the next cold trip."
+  state: own
+  note: "*(identified from a photo 2026-10-01; was: unknown. Colin had been counting it as his puffy.)* The brand's grid fleece hoodies are 95% polyester / 5% spandex *(source: yocolorado.com, search snippet, 2026-10-01)*; exact model not confirmed. The layer between the hiking shirt and the puffy — a fleece, grid fleece or light synthetic. Its job is to be worn *while moving* on a cold morning, which the puffy cannot do without soaking it in sweat. **Colin asked what this is in Sept 2026, which is itself the answer: there probably isn't one.** Answered: it's the YoColorado."
 - name: Puffy jacket
   type: insulation
   qty: 1
-  state: own
-  note: "Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional."
+  state: need
+  note: "*(was: own. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece, so there's probably no real puffy; 'I may need a puffy', stated 2026-10-01.)* Lead candidate: Decathlon Forclaz MT100 Hooded Synthetic, $69.99, synthetic, 125 g/m² polyester wadding, ~370 g in L, comfort rated 5°C to -5°C *(source: decathlon.com product page, 2026-10-01)*. Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional."
 - name: Warm hat
   type: insulation
   qty: 1
@@ -172,7 +172,7 @@ Counts are transcribed from the Maui 2027 packing list, which is the only place 
   type: legs
   qty: 1
   state: own
-  note: Enough owned (confirmed Sept 2026). Brush, sun and cold mornings. Packing only one means one wet day ends the pants — consider two on any trip with a creek crossing.
+  note: "One pair of Gerry nylon stretch hiking pants, 34x32 *(photo + stated 2026-10-01)*. Enough owned (confirmed Sept 2026). Brush, sun and cold mornings. Packing only one means one wet day ends the pants — consider two on any trip with a creek crossing."
 - name: Shorts
   type: legs
   qty: 2
