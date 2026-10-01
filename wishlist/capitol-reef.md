@@ -12,7 +12,7 @@ country: USA
 coords: [ 38.29, -111.26 ]
 budget: ~3.5 hr drive from SLC
 tags: [ car camping, geology, red rock, may, maui bookend, uncrowded ]
-updated: 2026-09-04
+updated: 2026-10-01
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -35,3 +35,8 @@ Fruita books 6 months out and has 71 sites — that is the only real constraint 
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-10-01 · Paid experiences: Goblin's Lair rappel
+- 📋 Guided trips rappel about 100 ft down into Goblin's Lair, a cavern in Goblin Valley State Park, with all gear and instruction included *(source: viator.com Goblin Valley canyoneering listing, and a Goblin Valley State Park Facebook post naming Get In The Wild Adventures, search snippets, 2026-10-01)*
+- ⚠️ Distance from Torrey, price, permit and season: not checked
+- Why it's here: the closest real thing to "a cave with rappels" found anywhere; in the East, guided caving is crawling, not ropes
