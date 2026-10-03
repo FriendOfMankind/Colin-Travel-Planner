@@ -55,13 +55,13 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Paved to 9,500 ft
 - **Bighorns / Cloud Peak** (`wishlist/bighorns.md`) · Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · updated 2026-09-06
   Unspent and cheap to reach
-- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · updated 2026-09-04
+- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-03
   Colorado's one world-class May option
 - **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · keeps (derived) · Apr/May/Oct · 5–7 nights · updated 2026-09-04
   The penciled 2027 shoulder trip
-- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 1 research note · updated 2026-10-01
+- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 2 research notes · updated 2026-10-03
   Maui return leg — the pick
-- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
+- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 1 research note · updated 2026-10-03
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-09-04
   Maui return leg — the sleeper
@@ -71,11 +71,11 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Family, not a plan
 - **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-06
   Highest hit rate — and the bureaucracy just went away
-- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 1 research note · updated 2026-10-01
+- **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 2 research notes · updated 2026-10-03
   Warm desert water, which barely exists out west
-- **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
+- **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-03
   Darkest sky in the lower 48
-- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · updated 2026-09-06
+- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · 1 research note · updated 2026-10-03
   Maui return leg — with a real catch
 - **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 2 research notes · updated 2026-10-01
   78 miles of river, two tunnels, and nobody
@@ -109,7 +109,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The Maui return leg
 - **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-04
   Booked once, then pivoted away
-- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-01
+- **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · 2 research notes · updated 2026-10-03
   Ice Lakes Basin is the marquee
 - **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-09-04
   The big-tree bookend

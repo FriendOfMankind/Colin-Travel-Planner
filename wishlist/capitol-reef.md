@@ -12,7 +12,7 @@ country: USA
 coords: [ 38.29, -111.26 ]
 budget: ~3.5 hr drive from SLC
 tags: [ car camping, geology, red rock, may, maui bookend, uncrowded ]
-updated: 2026-10-01
+updated: 2026-10-03
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -40,3 +40,10 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Guided trips rappel about 100 ft down into Goblin's Lair, a cavern in Goblin Valley State Park, with all gear and instruction included *(source: viator.com Goblin Valley canyoneering listing, and a Goblin Valley State Park Facebook post naming Get In The Wild Adventures, search snippets, 2026-10-01)*
 - ⚠️ Distance from Torrey, price, permit and season: not checked
 - Why it's here: the closest real thing to "a cave with rappels" found anywhere; in the East, guided caving is crawling, not ropes
+
+### 2026-10-03 · Free camping and showers
+- Context: Colin daydreaming a dispersed-first drive-out western loop, showering at places that sell one. Not a standing preference *(stated 2026-10-03; `me/camping.md` still says developed + showers)*
+- 📋 BLM land along Hwy 24 east of the park has dispersed sites "reachable by standard vehicle on maintained surfaces" *(source: thedyrt.com Capitol Reef dispersed, search snippet, 2026-10-03)*. Within 150 ft of roads *(source: wereintherockies.com, search snippet, 2026-10-03)*
+- 📋 Dixie/Fishlake NF land nearby also allows dispersed camping; the Loa ranger office is the contact *(source: nps.gov/care camping-alternatives, search snippet, 2026-10-03)*
+- 📋 Shower: the Chuckwagon Lodge in Torrey is "currently the only place offering public showers for a fee" *(source: nps.gov/care local-services, search snippet, 2026-10-03)*. About $5, and only "a couple" of stalls *(source: yelp and facebook, search snippets, 2026-10-03)*
+- ⚠️ Road surface of the specific Hwy 24 sites for 5.9 in clearance: not checked

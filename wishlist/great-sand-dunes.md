@@ -12,7 +12,7 @@ country: USA
 coords: [ 37.79, -105.59 ]
 budget: ~4 hr from DEN
 tags: [ car camping, dunes, swimming, may, maui bookend ]
-updated: 2026-09-06
+updated: 2026-10-03
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -37,3 +37,9 @@ Check Sangre de Cristo snowpack in March 2027 before this becomes a plan — and
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-10-03 · Free camping and showers
+- Context: Colin daydreaming a dispersed-first drive-out western loop, showering at places that sell one. Not a standing preference *(stated 2026-10-03; `me/camping.md` still says developed + showers)*
+- 📋 Free BLM dispersed camping along the valley floor on Blanca Peak / Mount Blanca Road near Zapata Falls, about 15 min from the park *(source: rvshare.com, thedyrt.com, facebook, search snippets, 2026-10-03)*. The road is unpaved; roughness for 5.9 in clearance not checked
+- 📋 Zapata Falls BLM campground: 23 sites *(source: blm.gov, search snippet, 2026-10-03)*, about $11/night *(source: ramble.camp 2026 guide, search snippet, 2026-10-03)*
+- 📋 Shower: Great Sand Dunes Oasis (campground and store at the entrance) has showers *(source: greatdunes.com, yelp, search snippets, 2026-10-03)*. ⚠️ Whether non-guests can pay to use them: not confirmed
