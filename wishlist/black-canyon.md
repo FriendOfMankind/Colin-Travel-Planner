@@ -12,7 +12,7 @@ country: USA
 coords: [ 38.57, -107.72 ]
 budget: ~5 hr from DEN, ~1.5 hr from Montrose
 tags: [ car camping, geology, slot canyons, may, maui bookend, rim park ]
-updated: 2026-09-04
+updated: 2026-10-03
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -35,3 +35,9 @@ Check whether the South Rim opening date and the wildfire loop closures still ap
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-10-03 · Free camping and showers
+- Context: Colin daydreaming a dispersed-first drive-out western loop, showering at places that sell one. Not a standing preference *(stated 2026-10-03; `me/camping.md` still says developed + showers)*
+- 📋 Free BLM dispersed camping about 10 min from the park entrance: no water, no restrooms *(source: thedyrt.com, facebook, reddit r/coloradohikers, search snippets, 2026-10-03)*
+- 📋 South Rim Campground is reservation-only *(source: nps.gov/blca camping, search snippet, 2026-10-03)*
+- ⚠️ Shower near the park: not found. Montrose is the likely town
