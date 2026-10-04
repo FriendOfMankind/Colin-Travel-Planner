@@ -53,7 +53,7 @@ dislikes:
 
 # Food
 
-Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround, but which specific foods trigger it is not yet recorded. Restaurants: **local legends** (the place everyone names, like Miguel's), **dessert and treats**, and a **big cheap refuel** after a hard day all count *(stated 2026-09-28; was: "restaurants are for high value, not convenience… a mediocre one is worth skipping entirely", which was too strict)*. Wants authentic local food and fresh dessert, bought rather than made. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,300 kcal/day** on a hiking trip (was ~3,000; raised 2026-09-28, see the macro table below). **No coffee, no beer.**
+Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround, but which specific foods trigger it is not yet recorded. Restaurants: **local legends** (the place everyone names, like Miguel's), **dessert and treats**, and a **big cheap refuel** after a hard day all count *(stated 2026-09-28; was: "restaurants are for high value, not convenience… a mediocre one is worth skipping entirely", which was too strict)*. Wants authentic local food and fresh dessert, bought rather than made. **Loves seafood** *(stated 2026-10-04)*: fish and chips, cod and the like are named-dish material. Shellfish not asked separately. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,300 kcal/day** on a hiking trip (was ~3,000; raised 2026-09-28, see the macro table below). **No coffee, no beer.**
 
 ## Oral allergy syndrome: what's actually known
 
