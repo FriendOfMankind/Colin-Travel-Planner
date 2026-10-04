@@ -72,18 +72,18 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - Colin has a passport *(stated 2026-10-03)*
 
 ### 2026-10-03 · Draft day-by-day: May 23 → June 23, 2027 (outline, nothing booked)
-Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. All drive times are ⚠️ guesses, not routed; principle 7 (Google +15%) hasn't been applied. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
+Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. Drive times are routed (+15% per principle 7) in the 2026-10-04 legs note below *(was: "⚠️ guesses, not routed")*. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
 
 | # | Date | Plan |
 |---|---|---|
-| 1 | Sun 5/23 | Avon → upstate NY / Vermont, ~8 h ⚠️. Camp TBD |
-| 2 | Mon 5/24 | → Acadia ~6 h ⚠️. Ocean Path at sunset (8:03) |
+| 1 | Sun 5/23 | Avon → Albany area, **8 h 29 m**. Camp TBD |
+| 2 | Mon 5/24 | → Acadia, **7 h 58 m**. Ocean Path at sunset (8:03) |
 | 3 | Tue 5/25 | **Beehive + Gorham + Ocean Path loop**: 3.6 mi / 807 ft, Hard, iron rungs |
 | 4 | Wed 5/26 | **Carriage roads by bike.** Route TBD. Blackwoods doesn't connect by bike (see `wishlist/acadia.md`) |
-| 5 | Thu 5/27 | Acadia → Cape Breton, long transfer ⚠️ (border at Calais) |
+| 5 | Thu 5/27 | Acadia → Cape Breton, **11 h 30 m** to Ingonish (border at Calais). The longest outbound day |
 | 6 | Fri 5/28 | **Skyline Trail loop** 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back) at sunset (8:45) |
 | 7 | Sat 5/29 | Ferry North Sydney → Port aux Basques (~7 h). Sailing time TBD |
-| 8 | Sun 5/30 | → Gros Morne south side. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Evening light (sunset ~9:18) |
+| 8 | Sun 5/30 | → Gros Morne south side, **4 h 13 m** from Port aux Basques. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Evening light (sunset ~9:18) |
 | 9 | Mon 5/31 | **Green Gardens** 6.6 mi / 1,289 ft: sea stacks, sea caves, beach, waterfall |
 | 10 | Tue 6/1 | **Lookout Trail, Woody Point** 6.3 mi / 1,581 ft. Move to the north side |
 | 11 | Wed 6/2 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
@@ -93,12 +93,12 @@ Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 
 | 15 | Sun 6/6 | Labrador Straits coast, ferry back, → St. Anthony |
 | 16 | Mon 6/7 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
 | 17 | Tue 6/8 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
-| 18 | Wed 6/9 | St. Anthony → **Twillingate**, transfer ⚠️ (it's partway to Bonavista) |
+| 18 | Wed 6/9 | St. Anthony → **Twillingate**, **9 h 51 m**. The longest day on the island; the Northern Peninsula is a dead end, so any exit costs this |
 | 19 | Thu 6/10 | **Long Point Lighthouse** 3 mi / 603 ft, sunset there. Iceberg/whale boat here if St. Anthony's didn't happen |
-| 20 | Fri 6/11 | → Bonavista Peninsula ⚠️. **Elliston puffins** in the hour before sunset |
+| 20 | Fri 6/11 | → Bonavista, **4 h 47 m**. **Elliston puffins** in the hour before sunset |
 | 21 | Sat 6/12 | Dungeon PP + Cape Bonavista midday, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
 | 22 | Sun 6/13 | **Rest** (Trinity) |
-| 23 | Mon 6/14 | → St. John's ~3 h ⚠️. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
+| 23 | Mon 6/14 | → St. John's, **3 h 20 m**. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
 | 24 | Tue 6/15 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
 | 25 | Wed 6/16 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row |
 | 26 | Thu 6/17 | **The Spout** as an out-and-back (distance TBD), or a Witless Bay boat. Full moon: a night walk on a headland |
@@ -122,4 +122,47 @@ Notes from building it:
 - Colin: Acadia stays as the 2-day sampler ("keep it simple"); Labrador/Red Bay is planned as in ("it seems worth it") *(stated 2026-10-04)*
 - Iceberg counts swing wildly: 📋 2019 had more than 1,500 cross 48°N, 2021 had one *(source: theindependent.ca, page read 2026-10-03)*. Check IcebergFinder in mid-May 2027
 - ✅ Marine Atlantic: changing or cancelling a reservation is free outside 48 hours, $25 inside, re-priced at the current rate *(source: marineatlantic.ca FAQ, page read 2026-10-03)*. So the start can slide; the Argentia exit is what's pinned
+
+### 2026-10-04 · Routed legs, campgrounds, moose
+Colin: Twillingate stays, "I'm probably never going to go back here so I don't want to leave things on the table" *(stated 2026-10-04)*. Acadia stays the sampler: "I can return there on PTO" *(stated 2026-10-04)*.
+
+**Legs** ✅ routed via firecrawl-maps directions, 2026-10-04. Raw time → **+15%** (principle 7). Time-of-day-free, no traffic.
+
+| Leg | Raw | +15% |
+|---|---|---|
+| Avon → Albany | 7 h 22 m | **8 h 29 m** |
+| Albany → Bar Harbor | 6 h 56 m | **7 h 58 m** |
+| Bar Harbor → Ingonish (via Calais, NB) | 10 h 00 m | **11 h 30 m** |
+| Ingonish → Skyline Trail | 1 h 22 m | 1 h 34 m |
+| Ingonish → North Sydney | 1 h 34 m | 1 h 48 m |
+| Port aux Basques → Woody Point | 3 h 40 m | **4 h 13 m** |
+| Woody Point → Rocky Harbour | 59 m | 1 h 08 m |
+| Rocky Harbour → St. Barbe | 2 h 34 m | 2 h 57 m |
+| Blanc-Sablon → Red Bay | 1 h 07 m | 1 h 17 m |
+| St. Barbe → St. Anthony | 1 h 24 m | 1 h 37 m |
+| St. Anthony → L'Anse aux Meadows | 37 m | 43 m |
+| St. Anthony → Twillingate | 8 h 34 m | **9 h 51 m** |
+| Twillingate → Bonavista | 4 h 10 m | **4 h 47 m** |
+| Bonavista → Trinity | 44 m | 51 m |
+| Trinity → St. John's | 2 h 54 m | 3 h 20 m |
+| St. John's → Ferryland | 1 h 10 m | 1 h 20 m |
+| St. John's → Cape St. Mary's | 2 h 12 m | 2 h 32 m |
+| Cape St. Mary's → Argentia | 1 h 10 m | 1 h 21 m |
+| North Sydney → Bangor | 8 h 54 m | **10 h 14 m** |
+| Bangor → Avon | not routed (the tool failed twice) | ⚠️ ~13 h guess |
+
+- The Bar Harbor–Yarmouth ferry route comes out *slower* (~12 h 20 m raw), so the drive through New Brunswick stands
+- St. Anthony → Gander is 7 h 47 m raw, so Twillingate is a waypoint on the only road out, not a detour
+
+**Campgrounds** (open dates are 2026; 2027 not announced)
+- 📋 ParksNL 2026: Butter Pot, La Manche, Lockston Path, Notre Dame and others open **May 15**; **Pistolet Bay, Pinware River, Dildo Run and Blow Me Down open May 29**. Reservations opened **April 22, 2026, 7:00 a.m.** at nlcamping.ca *(source: gov.nl.ca/releases/2026/tcar/0414n03, page read 2026-10-04)*. Every provincial-park night in the draft falls after its opening
+- 📋 Parks Canada launches each location's reservations in **January**, on location-specific dates *(source: parks.canada.ca/voyage-travel/reserve, search snippet, 2026-10-04)*. Gros Morne and Cape Breton both use it
+- 📋 Cape Breton Highlands camping May 15–Oct 26, 2026; Broad Cove is the named campground *(source: parks.canada.ca/pn-np/ns/cbreton, search snippet, 2026-10-04)*. ⚠️ Chéticamp campground (the Skyline side) season: not found
+- 📋 Acadia: reservations open on a rolling basis, first release at 10 a.m. on Dec 1 for May arrivals *(source: nps.gov/acad camping, search snippet, 2026-10-04)*. ⚠️ Blackwoods and Seawall opening dates conflict across sources (Blackwoods May 1 or May 6; Seawall May 20 or May 25)
+- 📋 Showers: ParksNL sells showers to non-campers ($5.09), so at least some parks have them; Dildo Run lists a comfort station *(source: parksnl.ca/reservations; newfoundlandlabrador.com, search snippets, 2026-10-04)*. Which parks have showers: not confirmed
+- Draft pairing: Trout River or Lomond (south Gros Morne) · Berry Hill or Shallow Bay (north) · Pinware River (Labrador) · Pistolet Bay (St. Anthony) · Dildo Run (Twillingate) · Lockston Path (Trinity/Bonavista) · **La Manche** (Avalon) · Argentia is a ferry night
+
+**⭐ La Manche: explorable ruins inside a campground.** 📋 An abandoned village on the East Coast Trail with a 50 m suspension bridge, inside La Manche Provincial Park *(source: eastcoasttrail.com + Visit NL, search snippets, 2026-10-04)*. ✅ AllTrails La Manche Village Path: 4.4 mi / 475 ft point-to-point; the village end is reachable from the park. The best principle-10 match on the Avalon. Ferryland and the Spout are on the same coast, so La Manche makes a good base for the whole Southern Shore block
+
+**🚨 Moose: the sunset plan has to change shape.** 📋 "The majority of accidents occur between dusk and dawn" *(source: gov.nl.ca/ti/roads/department/moose, search snippet, 2026-10-04)*. A forum puts it at 400–600 collisions a year *(Facebook group, search snippet, unverified)*. Sunsets run ~8:45–9:25 PM and dark ~9:40–10:10 PM, so **every sunset viewpoint needs a camp within a short drive**, never a long drive back after dark. Same on Cape Breton's Cabot Trail. This is what decides which campground goes with which sunset
 
