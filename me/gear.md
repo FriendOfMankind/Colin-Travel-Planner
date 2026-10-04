@@ -57,11 +57,14 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 ```yaml
 - name: Starlink
   state: own
-  note: Needs sky view. Both Koomer Ridge and Davidson River are forested. **Test on arrival day, not the morning of the lecture.**
+  note: "Needs sky view. Both Koomer Ridge and Davidson River are forested. **Test on arrival day, not the morning of the lecture.** Plan: **Roam Unlimited** *(stated 2026-10-04)*. 📋 Abroad it works for up to 30 days at a time *(starlink.com support, search snippet, 2026-10-04)*, so a Canada trip over 30 days needs a plan change."
   question:
     text: Does it hold a usable link under canopy at Koomer Ridge, or does the lecture need a different plan?
     answeredBy: kentucky-2026
     answer: "Not at the tent site. It worked after moving to a better sky view elsewhere in the campground. Lesson: the arrival-day test is load-bearing, so do it at every forested site. (confirmed: kentucky-2026 log, 2026-09-27)"
+- name: Phone
+  state: own
+  note: "Carrier: **Verizon** *(stated 2026-10-04)*. Plan name not recorded. Whether Canada roaming is included or costs a daily TravelPass depends on the plan, and sources disagree (saily.com says unlimited plans include Canada; monito.com says some unlimited tiers pay TravelPass, search snippets, 2026-10-04). Check in the Verizon app before crossing."
 - name: Portable power bank
   state: own
   note: Four hours of laptop plus Starlink is the real draw, not the phone.
@@ -87,6 +90,12 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 - name: Boots with real grip
   state: own
   note: Wet rock and wet rope are the recurring hazard.
+- name: Insect repellent
+  state: own
+  note: "*(stated 2026-10-04)* Type not recorded."
+- name: Bug head net
+  state: need
+  note: "*(stated 2026-10-04: \"I can get bug stuff\")* For black-fly season: still evenings in the woods, central Newfoundland in late May and June (`wishlist/newfoundland.md`)."
 - name: Headlamp + spare batteries
   state: own
   note: In the pack regardless of the hour.
