@@ -198,3 +198,9 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
 - St. Anthony's normal *high* is ~52°F. In the wind on a headland that's a cold day, not just a cold night
 - The October Appalachians trip (mid-30s nights) is the test that matters. Log how bag + liner + R-7 pad + sleep layer felt at 35°F; that answers whether this trip needs a warmer bag
 
+
+### 2026-10-04 · Ferry details
+- ✅ **Argentia route 2026: June 19 – October 3, three overnight sailings a week, ~16.5 h**, 518 km. "Seasonal crossings and cabins on the Argentia route are in high demand, so don't delay" *(source: marineatlantic.ca/argentia-2026, page read 2026-10-04)*. (was: "June 19 to Sept 30"; it was extended to Oct 3)
+- 📋 The Argentia terminal is open **Mon and Thu–Sat 9:00–19:00**, closed Sun, Tue and Wed *(source: marineatlantic.ca terminal page, search snippet, 2026-10-04)*. ⚠️ Inference, not confirmed: departures from Argentia are probably Mon/Thu/Sat. If that holds in 2027, the draft's Mon 6/21 sailing lines up
+- 📋 The commercial schedule shows Argentia-route departure times of 11:45, 23:45 and 06:30 depending on the day *(marineatlantic.ca commercial schedule, search snippet; which direction each belongs to isn't clear)*
+- ✅ St. Barbe ↔ Blanc-Sablon: 1 h 45 m, 36 km; book through Labrador Marine (mylmi.labradormarine.com, 1-866-535-2567). Times and fares are only in linked PDFs, not read *(source: gov.nl.ca/ti/ferryservices/schedules/j-pollo, page read 2026-10-04)*

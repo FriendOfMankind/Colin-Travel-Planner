@@ -89,7 +89,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Four hours away and never once mentioned
 - **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 2 research notes · updated 2026-10-01
   Raw, car-free, and ferry-only
-- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 33 days · 6 research notes · updated 2026-10-04
+- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 33 days · 7 research notes · updated 2026-10-04
   The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
