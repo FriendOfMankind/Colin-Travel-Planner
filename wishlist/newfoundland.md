@@ -166,3 +166,15 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
 
 **🚨 Moose: the sunset plan has to change shape.** 📋 "The majority of accidents occur between dusk and dawn" *(source: gov.nl.ca/ti/roads/department/moose, search snippet, 2026-10-04)*. A forum puts it at 400–600 collisions a year *(Facebook group, search snippet, unverified)*. Sunsets run ~8:45–9:25 PM and dark ~9:40–10:10 PM, so **every sunset viewpoint needs a camp within a short drive**, never a long drive back after dark. Same on Cape Breton's Cabot Trail. This is what decides which campground goes with which sunset
 
+
+### 2026-10-04 · Decisions: moose, showers, ferry bed; food leads
+- **Moose: "drive slow, accept it"** *(stated 2026-10-04)*. Sunset spots stay where they are, with careful drives back after dark. The warning above still stands as written; it's his call. Where a camp near the sunset costs nothing, prefer it anyway
+- **Showers: camp wherever is best, buy showers in town or at a park** *(stated 2026-10-04)*. ParksNL sells non-camper showers ($5.09, 2026)
+- **Argentia ferry bed: decide on price** once 2027 cabin prices are posted *(stated 2026-10-04)*
+- **Seafood: loves it** *(stated 2026-10-04)*. Named-dish leads, all 📋 search snippets 2026-10-04 and ⚠️ unchecked for late-May/June opening:
+  - **Chafe's Landing, Petty Harbour**: cod tongues and fish and chips ("best cod tongues of anywhere we ate on the rock", TripAdvisor). Petty Harbour sits next to Cape Spear, so it's lunch on the sunrise day
+  - **Ches's, St. John's**: fish and chips, a Reddit thread's #1 in town
+  - **Java Jack's, Rocky Harbour**: fish and chips, "light batter" (Wanderlog). **The Old Loft, Woody Point** as the south-side alternative (Reddit)
+  - **Little Dairy King, Cape Bonavista**: fish and chips plus ice cream with the ocean view (Facebook group). Dessert counts
+  - **D&T Seafood, Twillingate**: fish cakes (Wanderlog)
+  - **Haven Inn, St. Anthony**: fish cakes and toutons for breakfast (YouTube)
