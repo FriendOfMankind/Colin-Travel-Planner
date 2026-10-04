@@ -72,7 +72,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - Colin has a passport *(stated 2026-10-03)*
 
 ### 2026-10-03 · Draft day-by-day: May 23 → June 23, 2027 (outline, nothing booked)
-Leaving May 23 *(stated 2026-10-03)*. 32 days, or 33 with Twillingate *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. All drive times are ⚠️ guesses, not routed; principle 7 (Google +15%) hasn't been applied. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
+Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. All drive times are ⚠️ guesses, not routed; principle 7 (Google +15%) hasn't been applied. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
 
 | # | Date | Plan |
 |---|---|---|
@@ -93,11 +93,10 @@ Leaving May 23 *(stated 2026-10-03)*. 32 days, or 33 with Twillingate *(frontmat
 | 15 | Sun 6/6 | Labrador Straits coast, ferry back, → St. Anthony |
 | 16 | Mon 6/7 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
 | 17 | Tue 6/8 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
-| 18 | Wed 6/9 | **Flex**: the second iceberg day, a weather spare, or rest |
-| (+1) | | **Twillingate, proposed cut:** Long Point Lighthouse 3 mi / 603 ft. It duplicates St. Anthony's icebergs and lighthouse |
-| 19 | Thu 6/10 | St. Anthony → Bonavista Peninsula, long transfer ⚠️ |
-| 20 | Fri 6/11 | Dungeon PP, Cape Bonavista, **Elliston puffins** in the hour before sunset |
-| 21 | Sat 6/12 | **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
+| 18 | Wed 6/9 | St. Anthony → **Twillingate**, transfer ⚠️ (it's partway to Bonavista) |
+| 19 | Thu 6/10 | **Long Point Lighthouse** 3 mi / 603 ft, sunset there. Iceberg/whale boat here if St. Anthony's didn't happen |
+| 20 | Fri 6/11 | → Bonavista Peninsula ⚠️. **Elliston puffins** in the hour before sunset |
+| 21 | Sat 6/12 | Dungeon PP + Cape Bonavista midday, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
 | 22 | Sun 6/13 | **Rest** (Trinity) |
 | 23 | Mon 6/14 | → St. John's ~3 h ⚠️. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
 | 24 | Tue 6/15 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
@@ -108,7 +107,7 @@ Leaving May 23 *(stated 2026-10-03)*. 32 days, or 33 with Twillingate *(frontmat
 | 29 | Sun 6/20 | Argentia → North Sydney overnight (~16 h), if 2027 sails that day |
 | 30–32 | 6/21–6/23 | North Sydney → Avon, ~1,290 mi. Home 6/23; Glacier leaves 7/6 |
 
-*(was, 2026-10-03: 31 days with no bike day, no Skyline Trail and Twillingate in, home 6/22)*
+*(was, 2026-10-03: 31 days with no bike day, no Skyline Trail and Twillingate in, home 6/22. Then, briefly, Twillingate was a proposed cut as "a duplicate of St. Anthony". Search snippets disagreed, so it stayed in and replaced the 6/9 flex day, 2026-10-04.)*
 
 Notes from building it:
 - 📋 **Precipice, Jordan Cliffs and Valley Cove at Acadia close March 1 for peregrine nesting** and reopen around mid-August *(source: nps.gov/acad peregrine page + Ellsworth American, search snippets, 2026-10-03)*. The Beehive isn't on that list, so it's the ladder route in May
@@ -117,4 +116,10 @@ Notes from building it:
 - ⚠️ Gear that matters here: the puffy is still "need" (`me/gear.md`) and late-May lows are likely under the 40s he's comfortable in (not checked). Bug net for blackflies inland. Bike gear: the trunk-rack question and the helmet, lock, flat kit and light are all open in `me/gear.md`. Fuel canisters on a Marine Atlantic vehicle deck: rules not checked. Canadian border food rules: not checked
 - ⚠️ Food: partridgeberry desserts are the obvious local treat, but cooked fruit is "open, possibly moot" (`me/food.md`)
 - Ruins check (principle 10, sharpened): L'Anse aux Meadows and Norstead are interpretive, Blue Heron territory. Red Bay's Saddle Island and the Ferryland dig are the rawer ones. Resettled outports as explorable ruins: ⚠️ lead, not researched
+
+### 2026-10-04 · Twillingate vs St. Anthony, Acadia, Labrador
+- 📋 Several sources rank **Twillingate above St. Anthony** for icebergs: "the longer track record and the most reliable grounding of icebergs in Notre Dame Bay" *(source: canada-spirit.com, search snippet, 2026-10-04)*; forum posts recommend Twillingate first *(source: Facebook group, TripAdvisor, search snippets, 2026-10-04)*. 📋 St. Anthony holds bergs later, to about the first week of August *(source: icebergfinder.com/s/tips, search snippet, 2026-10-04)*. The two are complementary, not duplicates. Twillingate stays, and the flex day is what pays for it
+- Colin: Acadia stays as the 2-day sampler ("keep it simple"); Labrador/Red Bay is planned as in ("it seems worth it") *(stated 2026-10-04)*
+- Iceberg counts swing wildly: 📋 2019 had more than 1,500 cross 48°N, 2021 had one *(source: theindependent.ca, page read 2026-10-03)*. Check IcebergFinder in mid-May 2027
+- ✅ Marine Atlantic: changing or cancelling a reservation is free outside 48 hours, $25 inside, re-priced at the current rate *(source: marineatlantic.ca FAQ, page read 2026-10-03)*. So the start can slide; the Argentia exit is what's pinned
 
