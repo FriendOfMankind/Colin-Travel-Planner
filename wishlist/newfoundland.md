@@ -280,7 +280,10 @@ Draft only, built to the repo's schedule-line shape. Drive legs ✅ routed (fire
 - 10:05 → 11:00 (55m) · stop · Sand Beach, a second breakfast
 - 11:00 → 2:00 · stop · Back to camp. Shower and nothing
 - 3:00 → 4:30 · food · **Jordan Pond House: popovers.** 📋 Open for 2026, restaurant from May 15 *(jordanpondhouse.com, snippet)*. ⚠️ Popovers come with strawberry jam, and cooked fruit is still "open" for OAS (`me/food.md`); ask for butter
-- Evening: sunset 8:03, **spot not settled**. 📋 Cadillac Summit Road needs a vehicle reservation from **May 20** (2026); 70% of slots release at 10 AM ET two days ahead; daytime entry slots run to 8 PM *(nps.gov/acad vehicle reservations, snippet)*. Cadillac at sunset is also the packed iconic viewpoint `me/travel-style.md` says to skip. See the questions
+- 7:15 → 7:52 (37m) · drive · → **Seal Cove** (public boat launch off Cape Rd) · 📍 Seal Cove Picnic Area Acadia
+- 7:55 → 8:40 · sunset · Sunset 8:03, **facing west across the water toward small islands**. 📋 "Peaceful and crowd-free… a locals' secret"; drive-up; no park pass needed *(thewellwornshoes.com/acadia-sunset-spots, page read 2026-10-04)*. Chosen over Cadillac (reservations, crowds) *(Colin: "find something quieter", stated 2026-10-04)*. Drive-up keeps the one-outing rule, since the Beehive was today's outing
+- 8:40 → 9:17 (37m) · drive! · → camp in the dark
+- Alternatives from the same source: **Pretty Marsh** (true west over Bartlett Island; short trail and a stairway; seasonal access "late May through mid-October", so 5/25 may be right at opening) · Ship Harbor (southwest, 1.3 mi loop)
 - Slack: big afternoon gap on purpose. First cut: the popovers
 
 **Wed 5/26 · Bike day** · sun: set 8:04
