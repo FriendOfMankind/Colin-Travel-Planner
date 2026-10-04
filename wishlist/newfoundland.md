@@ -5,7 +5,7 @@ subtitle: The Earth's mantle, a Viking hall, and icebergs — the June trip that
 status: wishlist
 months: [ 6, 7, 8, 9 ]
 mode: drive
-days: 32
+days: 33
 nights: ~22 nights
 window: June–September. ⭐ June is genuinely peak here rather than a compromise — icebergs, 17-hour days, no heat.
 region: Newfoundland, via the Maritimes
@@ -71,8 +71,8 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - ⚠️ Gem lead: **Red Bay, Labrador**, 16th-century Basque whaling station, UNESCO *(recalled, not checked)*. 📋 The St. Barbe–Blanc Sablon ferry is 1 hr 45 min, operates May to early January, reservations open in April *(source: gov.nl.ca ferry schedule; parks.canada.ca/lhn-nhs/nl/redbay, search snippets, 2026-10-03)*. Fits "ruins count as scenery"; costs 1–2 days off the Northern Peninsula
 - Colin has a passport *(stated 2026-10-03)*
 
-### 2026-10-03 · Draft day-by-day: May 23 → June 23, 2027 (outline, nothing booked)
-Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. Drive times are routed (+15% per principle 7) in the 2026-10-04 legs note below *(was: "⚠️ guesses, not routed")*. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
+### 2026-10-03 · Draft day-by-day: May 23 → June 24, 2027 (outline, nothing booked)
+Leaving May 23 *(stated 2026-10-03)*. 33 days *(frontmatter `days` was 26, then 31, then 32; +1 for Fundy, 2026-10-04)*. Sun times from day 7 on were computed for the date one day earlier, so they're off by a minute or so. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. Drive times are routed (+15% per principle 7) in the 2026-10-04 legs note below *(was: "⚠️ guesses, not routed")*. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
 
 | # | Date | Plan |
 |---|---|---|
@@ -80,32 +80,33 @@ Leaving May 23 *(stated 2026-10-03)*. 32 days *(frontmatter `days` was 26, then 
 | 2 | Mon 5/24 | → Acadia, **7 h 58 m**. Ocean Path at sunset (8:03) |
 | 3 | Tue 5/25 | **Beehive + Gorham + Ocean Path loop**: 3.6 mi / 807 ft, Hard, iron rungs |
 | 4 | Wed 5/26 | **Carriage roads by bike.** Route TBD. Blackwoods doesn't connect by bike (see `wishlist/acadia.md`) |
-| 5 | Thu 5/27 | Acadia → Cape Breton, **11 h 30 m** to Ingonish (border at Calais). The longest outbound day |
-| 6 | Fri 5/28 | **Skyline Trail loop** 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back) at sunset (8:45) |
-| 7 | Sat 5/29 | Ferry North Sydney → Port aux Basques (~7 h). Sailing time TBD |
-| 8 | Sun 5/30 | → Gros Morne south side, **4 h 13 m** from Port aux Basques. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Evening light (sunset ~9:18) |
-| 9 | Mon 5/31 | **Green Gardens** 6.6 mi / 1,289 ft: sea stacks, sea caves, beach, waterfall |
-| 10 | Tue 6/1 | **Lookout Trail, Woody Point** 6.3 mi / 1,581 ft. Move to the north side |
-| 11 | Wed 6/2 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
-| 12 | Thu 6/3 | **Rest.** Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard) is the alternative if the weather is perfect |
-| 13 | Fri 6/4 | Viking Trail north: The Arches, Port au Choix NHS, Flower's Cove thrombolites ⚠️ (recalled), to St. Barbe |
-| 14 | Sat 6/5 | Ferry → Blanc-Sablon, ~1 h to **Red Bay**: Saddle Island tour (10, 11 or 2). Night in Labrador, TBD |
-| 15 | Sun 6/6 | Labrador Straits coast, ferry back, → St. Anthony |
-| 16 | Mon 6/7 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
-| 17 | Tue 6/8 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
-| 18 | Wed 6/9 | St. Anthony → **Twillingate**, **9 h 51 m**. The longest day on the island; the Northern Peninsula is a dead end, so any exit costs this |
-| 19 | Thu 6/10 | **Long Point Lighthouse** 3 mi / 603 ft, sunset there. Iceberg/whale boat here if St. Anthony's didn't happen |
-| 20 | Fri 6/11 | → Bonavista, **4 h 47 m**. **Elliston puffins** in the hour before sunset |
-| 21 | Sat 6/12 | Dungeon PP + Cape Bonavista midday, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
-| 22 | Sun 6/13 | **Rest** (Trinity) |
-| 23 | Mon 6/14 | → St. John's, **3 h 20 m**. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
-| 24 | Tue 6/15 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
-| 25 | Wed 6/16 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row |
-| 26 | Thu 6/17 | **The Spout** as an out-and-back (distance TBD), or a Witless Bay boat. Full moon: a night walk on a headland |
-| 27 | Fri 6/18 | Ferryland: Colony of Avalon dig + **lighthouse trail** 1.2 mi |
-| 28 | Sat 6/19 | → **Cape St. Mary's** gannets 1.7 mi / 295 ft, then Argentia |
-| 29 | Sun 6/20 | Argentia → North Sydney overnight (~16 h), if 2027 sails that day |
-| 30–32 | 6/21–6/23 | North Sydney → Avon, ~1,290 mi. Home 6/23; Glacier leaves 7/6 |
+| 5 | Thu 5/27 | Acadia → **Fundy NP** (Alma, NB), **5 h 27 m** via Calais. **Matthews Head** 2.9 mi / 492 ft, a coastal headland loop, toward sunset (8:56) |
+| 6 | Fri 5/28 | **Hopewell Rocks at low tide** (40 m from Alma; walk the sea floor; tide-dependent), then → **Chéticamp**, **6 h 04 m**. If the low tide is early, the Skyline sunset fits tonight and the trip gets its day back |
+| 7 | Sat 5/29 | **Skyline Trail loop** 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back) at sunset (8:45; computed for 5/28). 28 m from Chéticamp |
+| 8 | Sun 5/30 | Chéticamp → North Sydney **2 h 07 m**, ferry → Port aux Basques (~7 h). Sailing time TBD |
+| 9 | Mon 5/31 | → Gros Morne south side, **4 h 13 m** from Port aux Basques. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Evening light (sunset ~9:18) |
+| 10 | Tue 6/1 | **Green Gardens** 6.6 mi / 1,289 ft: sea stacks, sea caves, beach, waterfall |
+| 11 | Wed 6/2 | **Lookout Trail, Woody Point** 6.3 mi / 1,581 ft. Move to the north side |
+| 12 | Thu 6/3 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
+| 13 | Fri 6/4 | **Rest.** Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard) is the alternative if the weather is perfect |
+| 14 | Sat 6/5 | Viking Trail north: The Arches, Port au Choix NHS, Flower's Cove thrombolites ⚠️ (recalled), to St. Barbe |
+| 15 | Sun 6/6 | Ferry → Blanc-Sablon, ~1 h to **Red Bay**: Saddle Island tour (10, 11 or 2). Night in Labrador, TBD |
+| 16 | Mon 6/7 | Labrador Straits coast, ferry back, → St. Anthony |
+| 17 | Tue 6/8 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
+| 18 | Wed 6/9 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
+| 19 | Thu 6/10 | St. Anthony → **Twillingate**, **9 h 51 m**. The longest day on the island; the Northern Peninsula is a dead end, so any exit costs this |
+| 20 | Fri 6/11 | **Long Point Lighthouse** 3 mi / 603 ft, sunset there. Iceberg/whale boat here if St. Anthony's didn't happen |
+| 21 | Sat 6/12 | → Bonavista, **4 h 47 m**. **Elliston puffins** in the hour before sunset |
+| 22 | Sun 6/13 | Dungeon PP + Cape Bonavista midday, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
+| 23 | Mon 6/14 | **Rest** (Trinity) |
+| 24 | Tue 6/15 | → St. John's, **3 h 20 m**. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
+| 25 | Wed 6/16 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
+| 26 | Thu 6/17 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row |
+| 27 | Fri 6/18 | **The Spout** as an out-and-back (distance TBD), or a Witless Bay boat. Full moon: a night walk on a headland |
+| 28 | Sat 6/19 | Ferryland: Colony of Avalon dig + **lighthouse trail** 1.2 mi |
+| 29 | Sun 6/20 | → **Cape St. Mary's** gannets 1.7 mi / 295 ft, then Argentia |
+| 30 | Mon 6/21 | Argentia → North Sydney overnight (~16 h), if 2027 sails that day |
+| 31–33 | 6/22–6/24 | North Sydney → Avon: **10 h 14 m** to Bangor, then ~13 h ⚠️ unrouted. Home Thu 6/24; Glacier leaves 7/6 |
 
 *(was, 2026-10-03: 31 days with no bike day, no Skyline Trail and Twillingate in, home 6/22. Then, briefly, Twillingate was a proposed cut as "a duplicate of St. Anthony". Search snippets disagreed, so it stayed in and replaced the 6/9 flex day, 2026-10-04.)*
 
@@ -178,3 +179,22 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
   - **Little Dairy King, Cape Bonavista**: fish and chips plus ice cream with the ocean view (Facebook group). Dessert counts
   - **D&T Seafood, Twillingate**: fish cakes (Wanderlog)
   - **Haven Inn, St. Anthony**: fish cakes and toutons for breakfast (YouTube)
+
+### 2026-10-04 · Fundy split, and the cold is real
+- Colin: split the Acadia → Cape Breton day at **Fundy** *(stated 2026-10-04)*. ✅ Routed: Bar Harbor → Alma 4 h 44 m (+15% **5 h 27 m**) · Alma → Hopewell Rocks 35 m · Hopewell → Chéticamp 5 h 16 m (+15% **6 h 04 m**) · Chéticamp → Skyline Trail 24 m · Chéticamp → North Sydney 1 h 50 m (+15% **2 h 07 m**) *(firecrawl-maps, 2026-10-04)*
+- ✅ AllTrails Fundy NP: **Matthews Head** 2.9 mi / 492 ft loop, coastal · Third Vault Falls 4.6 mi / 718 ft · Laverty Falls 3 mi / 557 ft · Dickson Falls 0.6 mi
+- 📋 Hopewell Rocks: you walk the ocean floor around low tide (a local group says roughly 3½ h either side); admission covers two days so you can see high and low tide; "all services May to October" *(sources: parcsnbparks.ca tide tables page, TripAdvisor, Facebook group, canadianbucketlist.com, search snippets, 2026-10-04)*. ⚠️ The 5/28/2027 tide time is unknown; it's a tide table, never typed by hand
+- 📋 Fundy NP: Headquarters and Chignecto campgrounds; Chignecto listed as open May 1 on a third-party site; reservations launched Feb 7 in 2025 *(sources: parks.canada.ca/pn-np/nb/fundy; rvezy; Fundy NP Facebook, search snippets, 2026-10-04)*
+- Computed sun, Fundy 5/27: sunset 8:56, dark 9:33 *(Trees tools/sun.mjs)*
+
+**🚨 Cold: below what he's tested, and below the bag's comfort.** ✅ AccuWeather climate for these exact dates (2026-10-04):
+| Place | Dates | Normal low / high | 2026 actual |
+|---|---|---|---|
+| Bar Harbor | May 23–28 | 44–46° / 65–66° | lows 37–55° |
+| Rocky Harbour (Gros Morne) | May 29–Jun 12 | **37–41° / 60–65°** | **lows 21° (5/31), 25° (5/30)**, mostly 33–39°; highs often 46–56° |
+| St. Anthony | Jun 4–11 | **35–37° / 51–53°** | lows 33–37°, **highs 42–47°** most days |
+
+- He's comfortable "down to the 40s" (`me/camping.md`); the Siesta 20 is only proven to ~50°F (`me/gear.md`). Normal lows on the island sit **in the 30s for about two weeks straight**, and 2026 had two nights in the 20s at Gros Morne
+- St. Anthony's normal *high* is ~52°F. In the wind on a headland that's a cold day, not just a cold night
+- The October Appalachians trip (mid-30s nights) is the test that matters. Log how bag + liner + R-7 pad + sleep layer felt at 35°F; that answers whether this trip needs a warmer bag
+
