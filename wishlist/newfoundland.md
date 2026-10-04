@@ -12,7 +12,7 @@ region: Newfoundland, via the Maritimes
 country: Canada
 coords: [ 49, -56 ]
 distance: "~5,700 mi + four ferry crossings (was: ~4,500 mi + two ferry crossings)"
-budget: "~US$3,100 core, ~$3,470 with extras (2026-10-04 estimate, see Research notes); was: Ferry ~$350–400 USD round trip"
+budget: "~US$3,100 core, ~$3,300 with extras (2026-10-04 estimate, see Research notes); was: Ferry ~$350–400 USD round trip"
 tags:
   - car camping
   - geology
@@ -455,7 +455,7 @@ Same rules as the Acadia/Gros Morne block above: drive legs ✅ routed (firecraw
 - 10:00 → 10:29 (29m) · drive · → Ferryland · 📍 Ferryland Newfoundland
 - 10:30 → 1:00 · ruins · **Colony of Avalon** dig (1620s). ⚠️ Hours not checked
 - 1:00 → 2:00 · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m)
-- **The Spout:** ✅ AllTrails' Shoal Bay Road → Spout Path is 13.8 mi / 1,620 ft point-to-point (5 h 46 m), far over the ceiling. **The distance from Shoal Bay Road to the Spout itself is unknown.** Shoal Bay Road trailhead is 46 m from La Manche. Ask before planning it
+- **The Spout: dropped** *(stated 2026-10-04: "skip")*. Witless Bay covers that coast. (was: an open question; AllTrails only lists the full 13.8 mi path)
 - Slack: loose
 
 **Sun 6/20 · Cape St. Mary's → Argentia** · sunset 9:01
@@ -471,7 +471,7 @@ All CAD figures ✅ read on official pages 2026-10-04 unless marked. **USD conve
 
 | Item | Basis | CAD | ≈ USD |
 |---|---|---|---|
-| **Fuel, ~5,700 mi** | Routed legs + ⚠️ estimated local driving; **25 mpg assumed** (EPA 27 combined for a 2013 Legacy 2.5i, Edmunds; minus ~10% for a loaded car and a bike rack, ⚠️ guess). US ~2,150 mi at **$4.38/gal** (AAA national average, Oct 2026); Canada ~3,550 mi at **~C$1.86/L** (Canadian national average, Gas Wizard, Oct 2026) | ~1,000 | **~1,100** total |
+| **Fuel, ~5,700 mi** | Routed legs + ⚠️ estimated local driving; **25 mpg**, confirmed as realistic *(stated 2026-10-04)* (EPA 27 combined for a 2013 Legacy 2.5i, Edmunds). US ~2,150 mi at **$4.38/gal** (AAA national average, Oct 2026); Canada ~3,550 mi at **~C$1.86/L** (Canadian national average, Gas Wizard, Oct 2026) | ~1,000 | **~1,100** total |
 | Ferry North Sydney → Port aux Basques | adult $21.92 + car $57.12 (marineatlantic.ca) | 79 | 57 |
 | Ferry Argentia → North Sydney | adult $60.40 + car $121.81 | 182 | 131 |
 | ↳ two-bed cabin (optional) | $176.75 (pod $105.50) | 177 | 127 |
@@ -484,10 +484,10 @@ All CAD figures ✅ read on official pages 2026-10-04 unless marked. **USD conve
 | Hopewell Rocks | $18.15 (parcsnbparks.ca) | 18 | 13 |
 | Boats | Iceberg (~$89–100) + Witless Bay (~$94) | ~190 | ~137 |
 | ↳ Western Brook Pond boat (optional) | $99 (2026) | 99 | 71 |
-| Food | ⚠️ **assumption, not his number**: ~$20/day groceries × 33 + ~12 named restaurant meals × ~$25 | | ~960 |
-| Phone in Canada | ⚠️ $0 if his Verizon plan includes Canada; up to ~$6/day × 28 if it needs TravelPass (monito.com snippet) | | 0–170 |
+| Food | ~$20/day groceries, confirmed as a fair upper bound ("probably less", *stated 2026-10-04*) × 33 + ~12 named restaurant meals × ~$25 | | ~960 |
+| Phone in Canada | His Verizon plan covers Canada *(stated 2026-10-04)* | | 0 |
 
-- **Core total ≈ US$3,100** (≈ $95/day over 33 days); **with the cabin, the Western Brook boat and phone roaming ≈ US$3,470**. One-time gear (puffy, head net, rain pants, bike kit, plug kit) is extra, roughly $250–300 ⚠️
+- **Core total ≈ US$3,100** (≈ $95/day over 33 days); **with the cabin and the Western Brook boat ≈ US$3,300** *(was: ≈ $3,470 including up to $170 of phone roaming, before Colin confirmed Canada is covered)*. One-time gear (puffy, head net, rain pants, bike kit, plug kit) is extra, roughly $250–300 ⚠️
 - **The biggest swing is fuel**: a 2026 gas spike (Nova Scotia prices fell back to ~185.4 ¢/L in April 2026 after a jump, CityNews Halifax) means 2027 prices are a guess either way. Every $0.50/gal swing in the US ≈ $43; every C$0.20/L swing in Canada ≈ C$108
 - Bang for buck (`me/travel-style.md`): no airfare and no rental. ~$95/day for 33 days, against Kenai's flight + rental + campgrounds stack. Ferries are only ~$240 USD total thanks to the 2025 federal rate cut (the Why section notes it could lapse)
 - Total distance is ~5,700 mi, not the ~4,500 in the frontmatter (that predates Fundy, Labrador, Twillingate and the Avalon)
