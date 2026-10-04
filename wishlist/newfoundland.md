@@ -260,3 +260,81 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
 - **Bugs** 📋: "in central NL the black flies can be unbearable at times in late May early June. If there is no wind and you are in the woods…" (Reddit); "the downside of June is more black flies (mosquitoes aren't really the major menace)" (Fodor's) *(search snippets, 2026-10-04)*. Coastal wind is the protection, as the Why section already says. Woods and still evenings are the problem. ⚠️ No bug gear is recorded in `me/gear.md`: a head net and repellent are the obvious gap
 - **Cell coverage** 📋: Bell has the widest coverage in NL and Nova Scotia; "Rogers will not work on the Northern Peninsula in the St. Barbe area" and the Cabot Trail is Bell-only, per locals *(Reddit, Facebook group, whistleout.ca, search snippets, 2026-10-04)*. Which Canadian network a US carrier roams on decides how much signal there'll be. ⚠️ His carrier isn't recorded
 
+
+### 2026-10-04 · Hour by hour: Acadia (days 2–4) and Gros Morne (days 9–13)
+Draft only, built to the repo's schedule-line shape. Drive legs ✅ routed (firecrawl-maps, 2026-10-04) +15%. Hike times are AllTrails' posted times where AllTrails gives one; **⚠️ marks my estimate where it doesn't**. Sun ✅ computed (Trees `tools/sun.mjs`, regional point). Campgrounds assumed: Blackwoods (Acadia), Trout River then Berry Hill (Gros Morne). Colin also confirmed 2026-10-04: Starlink is **Roam Unlimited**, phone is **Verizon** (`me/gear.md`).
+
+**Mon 5/24 · Albany → Acadia** · sun: rise 4:57, set 8:02, dark 8:37
+- 8:30 → 4:30 (8h) · drive · Albany → Blackwoods (7 h 58 m with the padding, plus a lunch stop) · 📍 Blackwoods Campground Acadia
+- 4:30 → 5:15 (45m) · camp · Check in, pitch, shower
+- 5:15 → 6:15 (1h) · food · Dinner at camp
+- 6:30 → 6:47 (17m) · drive · → Sand Beach · 📍 Sand Beach Acadia
+- 6:50 → 8:30 (1h 40m) · sunset · **Ocean Path** toward Thunder Hole and Otter Cliffs. ⚠️ This coast faces east, so it's evening light on pink granite, not a sun setting over the water
+- 8:30 → 8:47 (17m) · drive! · → camp, at dusk
+- Slack: loose. First cut: the Ocean Path walk itself (it's also tomorrow's loop)
+
+**Tue 5/25 · Beehive** · sun: rise 4:56, set 8:03
+- 6:15 → 6:45 (30m) · wake · Quick breakfast. **This early start breaks principle 4 on purpose: the Beehive is "very popular" and AllTrails reviewers say to arrive early.** It's a weekday before Memorial Day, so an early start should beat the crowd
+- 6:45 → 7:02 (17m) · drive · → Sand Beach lot · 📍 Sand Beach Acadia
+- 7:05 → 10:05 (3h) · hike · **Beehive → The Bowl → Gorham Mountain → Ocean Path**, 3.6 mi / 807 ft, Hard. **Counter-clockwise, so you climb the ladders instead of descending them** (AllTrails). ⚠️ AllTrails gives no time; 3 h is my estimate, with a sit on Gorham
+- 10:05 → 11:00 (55m) · stop · Sand Beach, a second breakfast
+- 11:00 → 2:00 · stop · Back to camp. Shower and nothing
+- 3:00 → 4:30 · food · **Jordan Pond House: popovers.** 📋 Open for 2026, restaurant from May 15 *(jordanpondhouse.com, snippet)*. ⚠️ Popovers come with strawberry jam, and cooked fruit is still "open" for OAS (`me/food.md`); ask for butter
+- Evening: sunset 8:03, **spot not settled**. 📋 Cadillac Summit Road needs a vehicle reservation from **May 20** (2026); 70% of slots release at 10 AM ET two days ahead; daytime entry slots run to 8 PM *(nps.gov/acad vehicle reservations, snippet)*. Cadillac at sunset is also the packed iconic viewpoint `me/travel-style.md` says to skip. See the questions
+- Slack: big afternoon gap on purpose. First cut: the popovers
+
+**Wed 5/26 · Bike day** · sun: set 8:04
+- 7:30 → 9:15 · wake · Slow morning, hot breakfast
+- 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot · 📍 Eagle Lake Bridge Acadia
+- 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). ⚠️ AllTrails' 239 min is walking pace; 3 h on a hybrid, stops included, is my estimate
+- 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's the lunch stop if the popovers didn't happen yesterday
+- 1:30 → 8:00 · stop · Pack the car for tomorrow's border day; shower; early dinner
+- Slack: very loose. First cut: Day Mountain (the 4.1 mi loop instead)
+
+**Mon 5/31 · Port aux Basques → Gros Morne south** · sun: rise 5:20, set 9:18, dark 10:00
+- (morning) · drive · Port aux Basques → **Corner Brook, 2 h 39 m** · 📍 Corner Brook NL
+- +1h · shop · **The real shop**: perishables, block ice, stove fuel (Canadian Tire). It's Monday, so stores are open
+- → **Trout River Campground, 2 h 09 m** · 📍 Trout River Campground Gros Morne
+- 6:30 → 6:50 (20m) · drive · → Tablelands trailhead · 📍 Tablelands Trail Gros Morne
+- 6:50 → 9:30 (2h 40m) · hike · **Tablelands**, 4.8 mi / 603 ft. Exposed mantle, "similar to the surface of Mars" (AllTrails). No shade. Sunset 9:18 in the bowl. ⚠️ AllTrails gives no time; ~2 h 15 m walking is my estimate, plus the sit
+- 9:30 → 9:50 (20m) · drive! · → camp in the dark. Moose: your call was drive slow
+- Slack: depends on the ferry. If Port aux Basques runs late, Tablelands moves to tomorrow evening and Green Gardens takes the morning
+
+**Tue 6/1 · Green Gardens** · sun: set 9:19
+- 8:00 → 9:45 · wake · Slow morning
+- 9:45 → 9:58 (13m) · drive · → Green Gardens trailhead · 📍 Green Gardens Trail Gros Morne
+- 10:00 → 2:15 (4h 15m) · hike · **Green Gardens**, 6.6 mi / 1,289 ft, out-and-back (AllTrails 3 h 15 m + **1 h sitting** on the sea meadow above the stacks). Sea caves and a waterfall. The climb is on the way *back*
+- 2:15 → 2:30 (13m) · drive · → camp
+- 2:30 → 8:30 · stop · Shower, dinner
+- 8:45 → 9:30 · sunset · Trout River pond / beach, a walk from camp
+- Slack: comfortable. First cut: the sunset walk
+
+**Wed 6/2 · Lookout Trail, then north** · sun: set 9:20
+- 8:00 → 9:30 · wake · Break camp
+- 9:30 → 9:54 (24m) · drive · → Woody Point · 📍 Lookout Trail Woody Point
+- 10:00 → 2:30 (4h 30m) · hike · **Lookout Trail via Woody Point**, 6.3 mi / 1,581 ft (AllTrails 3 h 28 m + 1 h at the top over Bonne Bay)
+- 2:30 → 3:30 · food · **The Old Loft, Woody Point**: fish and chips (📋 Reddit). ⚠️ Late-May opening: not checked
+- 3:30 → 4:45 (1h 15m) · drive · → **Berry Hill Campground** · 📍 Berry Hill Campground Gros Morne
+- 4:45 → 8:30 · camp · Set up, shower
+- 8:45 → 8:54 (9m) · drive · → Lobster Cove Head lighthouse · 📍 Lobster Cove Head Lighthouse
+- 9:00 → 9:45 · sunset · Sunset 9:20 over the Gulf. ⚠️ This is the only west-facing ocean sunset so far; the facing is from the map, not checked on site
+- Slack: tight-ish (the longest hike plus a move). First cut: the Old Loft
+
+**Thu 6/3 · Western Brook Pond** · sun: set 9:21 · new moon (dark skies, but no dedicated stargazing, per `me/declined.md`)
+- 8:00 → 9:45 · wake · Slow morning
+- 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
+- 10:10 → 12:30 · hike · **Western Brook Pond trail**, 3.3 mi / 180 ft (AllTrails 1 h 07 m) plus the dock view of the landlocked fjord. **The boat runs only if it reaches 15 riders**; ask at the dock
+- 12:30 → 2:00 · food · Rocky Harbour: **Java Jack's** fish and chips (📋 Wanderlog)
+- 2:00 → 8:30 · stop · Laundry and resupply in Rocky Harbour (small stores)
+- 8:50 → 9:40 · sunset · Lobster Cove again, or Green Point (⚠️ not routed)
+- Slack: loose
+
+**Fri 6/4 · Rest** · nothing scheduled. Weather-perfect alternative: the Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard)
+
+### 2026-10-04 · Trip gear list (Newfoundland-specific)
+Pulled from `me/gear.md` states plus what this trip adds. **Bold = trip-critical.**
+- **Buy before May:** **puffy** (need; buying soon) · **bug head net** (need) · **bike helmet, lock, flat kit, light** (all need) · **offline maps: Google regions + AllTrails/Gaia** (both need; the island has big no-signal stretches) · **spare, jack, tire plug kit** (need; 9–10 h days on remote two-lane roads) · Sawyer Squeeze (need) · camp chair (need) · big flashlight (need) · long spoon and spatula (need)
+- **Buy in Canada:** **stove fuel canisters** at Canadian Tire, Deer Lake or Corner Brook (sidesteps the ferry question) · block ice and perishables per the food plan
+- **Check:** trunk bike rack vs. trunk access (open question in `me/gear.md`) · Starlink Roam's 30-day abroad limit (~27 days planned) · Verizon's Canada roaming on the actual plan · sun hat and sunglasses (unknown)
+- **Not in `me/gear.md` at all:** **rain pants** (shell owned; pants not recorded) · **the passport** (in this file only) · a warm sleep layer for 20s nights beyond what's listed (decide after October)
+- Documents: passport, vehicle registration and insurance proof for the border, printed ferry and campground confirmations (`me/checklist.md`)
