@@ -11,8 +11,8 @@ window: June–September. ⭐ June is genuinely peak here rather than a compromi
 region: Newfoundland, via the Maritimes
 country: Canada
 coords: [ 49, -56 ]
-distance: ~4,500 mi + two ferry crossings
-budget: Ferry ~$350–400 USD round trip; no airfare at all
+distance: "~5,700 mi + four ferry crossings (was: ~4,500 mi + two ferry crossings)"
+budget: "~US$3,100 core, ~$3,470 with extras (2026-10-04 estimate, see Research notes); was: Ferry ~$350–400 USD round trip"
 tags:
   - car camping
   - geology
@@ -341,3 +341,153 @@ Pulled from `me/gear.md` states plus what this trip adds. **Bold = trip-critical
 - **Check:** trunk bike rack vs. trunk access (open question in `me/gear.md`) · Starlink Roam's 30-day abroad limit (~27 days planned) · Verizon's Canada roaming on the actual plan · sun hat and sunglasses (unknown)
 - **Not in `me/gear.md` at all:** **rain pants** (shell owned; pants not recorded) · **the passport** (in this file only) · a warm sleep layer for 20s nights beyond what's listed (decide after October)
 - Documents: passport, vehicle registration and insurance proof for the border, printed ferry and campground confirmations (`me/checklist.md`)
+
+### 2026-10-04 · Hour by hour: Northern Peninsula, Twillingate → Trinity, the Avalon (days 14–30)
+Same rules as the Acadia/Gros Morne block above: drive legs ✅ routed (firecrawl-maps, 2026-10-04) **+15%**; hike times are AllTrails' posted times, **⚠️ = my estimate**; sun ✅ computed (Trees `tools/sun.mjs`, regional points, NL time). Colin: "do all of these and just pop in and ask me questions" *(stated 2026-10-04)*.
+
+**⚠️ Time-zone trap on the Labrador day.** ✅ Red Bay and the Labrador Straits keep **Newfoundland time**, but **Blanc-Sablon (Québec) is on Atlantic time, 30 min behind** *(Wikipedia "Newfoundland Time Zone"; timeanddate.com for L'Anse-au-Clair, 2026-10-04)*. 📋 One Reddit thread claims the ferry itself runs on Eastern time. Confirm which clock the ferry schedule uses (Labrador Marine 1-866-535-2567) before trusting any time below.
+
+**Sat 6/5 · Berry Hill → St. Barbe** · sunset 9:27
+- 9:00 → 10:01 (1h 01m) · drive · → The Arches PP · 📍 The Arches Provincial Park
+- 10:05 → 10:45 (40m) · stop · Sea arches. ⚠️ Walk length not checked
+- 10:45 → 12:07 (1h 22m) · drive · → Port au Choix NHS · 📍 Port au Choix National Historic Site
+- 12:10 → 3:00 (2h 50m) · ruins · Port au Choix. ⚠️ Recalled, not checked: Phillip's Garden is a Dorset Paleo-Inuit site reached by a walk over open barrens. Lunch here
+- 3:00 → 4:31 (1h 31m) · drive · → Flower's Cove. ⚠️ Thrombolites (recalled, not checked)
+- 4:45 → 5:03 (18m) · drive · → **St. Barbe RV Park**, across from the ferry. 📋 Tent sites, showers, laundromat, kitchen *(NL tourism listing; Those Young Guys blog, snippets)* · 📍 St. Barbe RV Park
+- Evening: laundry. Slack: comfortable. First cut: Flower's Cove
+
+**Sun 6/6 · Red Bay** · sunset 9:29 · ⚠️ ferry times unconfirmed
+- 7:15 · stop · At the St. Barbe terminal **1 h early** (TripAdvisor)
+- 8:15 → 10:00 (1h 45m) · ferry · St. Barbe → Blanc-Sablon (TripAdvisor example sailing)
+- 10:00 → 11:17 (1h 17m) · drive · → Red Bay · 📍 Red Bay National Historic Site
+- 11:30 → 12:30 · food · **Whaler's Restaurant**: fish and chips ("outstanding", Facebook group)
+- 12:30 → 1:45 · ruins · Interpretation centre
+- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2, per Parks Canada's Facebook)
+- 4:15 → 4:47 (32m) · drive · → **Pinware River PP** · 📍 Pinware River Provincial Park
+- Slack: loose. First cut: none; this is the day
+
+**Mon 6/7 · Point Amour → ferry → St. Anthony** · sunset 9:30
+- 9:00 → 9:35 (35m) · drive · → Point Amour lighthouse · 📍 Point Amour Lighthouse
+- 9:40 → 11:00 · stop · Lighthouse and the coast. ⚠️ "Tallest lighthouse in Atlantic Canada" is recalled, not checked
+- (afternoon) · ferry · Blanc-Sablon → St. Barbe. ⚠️ Sailing time TBD (TripAdvisor mentions an 8 PM return; there may be a midday one)
+- → **Pistolet Bay PP, 1 h 47 m** from St. Barbe · 📍 Pistolet Bay Provincial Park
+- Slack: depends on the ferry
+
+**Tue 6/8 · L'Anse aux Meadows, Cobbler, Fortune** · sunset 9:26
+- 9:00 → 9:40 (40m) · drive · → L'Anse aux Meadows · 📍 L'Anse aux Meadows National Historic Site
+- 9:45 → 11:45 (2h) · ruins · Norse site: sod outlines plus reconstructions (the interpretive kind)
+- 11:45 → 12:00 · drive · → Quirpon (⚠️ not routed; same road, short)
+- 12:00 → 1:15 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland
+- 1:15 → 1:25 (10m) · drive · → Gunner's Cove · 📍 Gunners Cove Newfoundland
+- 1:30 → 5:00 (3h 30m) · hike · **Gunner's Cove → Fortune** out-and-back, ~6.2 mi. ⚠️ ~2 h 45 m is my estimate; plus 45 m at the ruins. Don't enter the standing house
+- 5:00 → 5:32 (32m) · drive · → Pistolet Bay
+- ~9 mi total. Slack: moderate. First cut: the Cobbler Loop
+
+**Wed 6/9 · Little Brehat + icebergs** · sunset 9:27
+- 8:00 → 9:30 · wake · Slow morning; check IcebergFinder
+- 9:30 → 10:03 (33m) · drive · → Great Brehat · 📍 Great Brehat Newfoundland
+- 10:05 → 12:00 · hike · **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m) + a sit
+- 12:00 → 12:45 · food · Lunch in St. Anthony
+- 1:00 → 3:30 · boat · **Northland Discovery, the 1:00 PM sailing** ($89 CAD, 2025 rate) if the bergs are in. Otherwise Cape St. Anthony Trail as a partial out-and-back
+- 4:00 · shop · **Resupply in St. Anthony** before tomorrow's long day. ⚠️ Store not checked
+- Slack: loose
+
+**Thu 6/10 · Pistolet Bay → Twillingate** · sunset 9:15
+- 7:30 → ~6:00 · drive · **9 h 36 m** to **Dildo Run PP**, with lunch and fuel. Your 8 h+ transfer rule covers it · 📍 Dildo Run Provincial Park
+- Resupply on the way: ⚠️ Grand Falls-Windsor or Lewisporte, stores not checked
+- No sunset plan. Slack: none; it's the whole day
+
+**Fri 6/11 · Twillingate** · sunset 9:15
+- 8:00 → 10:00 · wake · Slow morning
+- (midday) · boat · Twillingate iceberg boat **only if St. Anthony's didn't happen** (~$100+, Facebook group). ⚠️ Times TBD
+- (afternoon) · food · **D&T Seafood**: fish cakes (Wanderlog)
+- 7:30 → 8:02 (32m) · drive · → Long Point · 📍 Long Point Lighthouse Twillingate
+- 8:05 → 9:45 · sunset · **Long Point Lighthouse** trail, 3 mi / 603 ft (⚠️ ~1 h 30 m is my estimate; AllTrails gives none), with sunset 9:15 from the cliffs
+- 9:45 → 10:17 (32m) · drive! · → camp in the dark
+- Slack: loose
+
+**Sat 6/12 · → Bonavista** · sunset 9:04
+- 9:00 → 1:26 (4h 26m) · drive · Dildo Run → Bonavista/Elliston · 📍 Elliston Newfoundland
+- 1:30 → 5:00 · stop · **Dungeon PP** (a collapsed sea cave, now a UNESCO Geosite per its map listing) + Cape Bonavista lighthouse
+- 5:00 → 6:00 · food · **Little Dairy King**, Cape Bonavista: fish and chips + ice cream (Facebook group)
+- 7:50 → 8:50 · stop · **Elliston puffins**, in the hour before sunset, 0.5 mi (AllTrails 11 m)
+- 8:50 → 9:41 (51m) · drive! · → **Lockston Path PP** · 📍 Lockston Path Provincial Park
+- Slack: moderate. First cut: Cape Bonavista lighthouse
+
+**Sun 6/13 · Trinity** · sunset 9:05
+- Morning/afternoon: **decide on the day** (stated 2026-10-04): **B-36 crash** 1.3 mi (AllTrails 56 m; 1 h 25 m each way) **or British Harbour** 7.7 mi / 1,414 ft (AllTrails 3 h 42 m; 23 m away) **or nothing**
+- 7:45 → 8:01 (16m) · drive · → Skerwink trailhead · 📍 Skerwink Trail Trinity East
+- 8:05 → 9:45 · sunset · **Skerwink Trail**, 3.2 mi / 396 ft (AllTrails 1 h 20 m), with sunset 9:05 at the sea stacks
+- 9:45 → 10:01 (16m) · drive · → camp
+
+**Mon 6/14 · Rest** (Trinity). The other ruins option is there if you want it
+
+**Tue 6/15 · → Avalon** · sunset 9:00
+- 10:00 → 1:01 (3h 01m) · drive · Lockston → **Butter Pot PP** · 📍 Butter Pot Provincial Park
+- 5:30 → 6:10 (40m) · drive · → St. John's
+- 6:15 → 7:15 · food · **Ches's**: fish and chips (Reddit's #1). ⚠️ Hours not checked
+- 7:30 → 9:30 · sunset · **North Head / Signal Hill**, 2.2 mi / 508 ft (AllTrails 1 h 10 m), sunset 9:00
+- 9:30 → 10:10 (40m) · drive! · → camp. Early night; tomorrow starts at 3:30
+
+**Wed 6/16 · Cape Spear sunrise** · first light 4:22, sunrise 5:03 · moon 95%
+- 3:30 → 4:19 (49m) · drive! · → Cape Spear, **at peak moose hour** (dawn). Slow · 📍 Cape Spear Lighthouse
+- 4:20 → 5:30 · sunrise · The easternmost point in North America
+- 5:30 → 7:55 · hike · **Cape Spear Path**, 5.9 mi / 643 ft out-and-back (AllTrails 2 h 21 m)
+- 8:00 → 8:17 (17m) · drive · → Petty Harbour
+- (morning) · wake · Nap in the car or back at camp
+- 12:00 → 1:00 · food · **Chafe's Landing**: cod tongues + fish and chips. ⚠️ Hours not checked
+- Afternoon off. Slack: very loose after 8 AM, on purpose
+
+**Thu 6/17 · St. John's walking day** · sunset 9:00 · **full moon 98%**
+- 10:00 → 10:40 (40m) · drive · → Quidi Vidi · 📍 Quidi Vidi Village
+- 10:45 → 3:00 · walk · Quidi Vidi → harbour → Water St / Duckworth → Jellybean Row. ⚠️ Route not built; the AllTrails Signal Hill–North Head + Quidi Vidi loop (5.4 mi, 2 h 08 m) is a ready-made version
+- Evening: **full-moon rise over the Atlantic from Signal Hill**. Signal Hill faces east and a full moon rises around sunset. ⚠️ Moonrise time not computed (the tool gives moonset only)
+- Slack: loose
+
+**Fri 6/18 · → La Manche, Witless Bay boat** · moon 99.9%
+- 9:30 → 10:22 (52m) · drive · Butter Pot → **La Manche PP** · 📍 La Manche Provincial Park
+- 11:00 → 11:30 (30m) · drive · → Bay Bulls · 📍 Bay Bulls Newfoundland
+- (midday) · boat · **Witless Bay**: Gatherall's (C$94) or O'Brien's (from $95). Puffins, whales, maybe bergs. ⚠️ Times TBD
+- 3:30 → 4:00 (30m) · drive · → La Manche
+- (evening) · ruins · **La Manche village + the suspension bridge** from the park, ⚠️ distance from the campground not checked. **Full moon: walk it again after dark** (night hiking by full moon is a yes, `me/hiking.md`)
+
+**Sat 6/19 · Ferryland (+ the Spout?)**
+- 10:00 → 10:29 (29m) · drive · → Ferryland · 📍 Ferryland Newfoundland
+- 10:30 → 1:00 · ruins · **Colony of Avalon** dig (1620s). ⚠️ Hours not checked
+- 1:00 → 2:00 · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m)
+- **The Spout:** ✅ AllTrails' Shoal Bay Road → Spout Path is 13.8 mi / 1,620 ft point-to-point (5 h 46 m), far over the ceiling. **The distance from Shoal Bay Road to the Spout itself is unknown.** Shoal Bay Road trailhead is 46 m from La Manche. Ask before planning it
+- Slack: loose
+
+**Sun 6/20 · Cape St. Mary's → Argentia** · sunset 9:01
+- 10:00 → 12:46 (2h 46m) · drive · La Manche → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
+- 1:00 → 3:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit
+- 3:00 → 4:21 (1h 21m) · drive · → Argentia / Placentia
+- ⚠️ **Tonight's camp near Argentia: not researched.** The 2027 sailing day and time decide whether this is a night or the boat
+
+**Mon 6/21 · Argentia → North Sydney** (~16.5 h overnight). Two-bed cabin C$176.75 (2026); decide on price *(stated 2026-10-04)*
+
+### 2026-10-04 · Budget (rough, and what moves it)
+All CAD figures ✅ read on official pages 2026-10-04 unless marked. **USD conversion uses an assumed ~0.72 USD per CAD (⚠️ not checked).** Taxes may not be included in ferry and camping rates.
+
+| Item | Basis | CAD | ≈ USD |
+|---|---|---|---|
+| **Fuel, ~5,700 mi** | Routed legs + ⚠️ estimated local driving; **25 mpg assumed** (EPA 27 combined for a 2013 Legacy 2.5i, Edmunds; minus ~10% for a loaded car and a bike rack, ⚠️ guess). US ~2,150 mi at **$4.38/gal** (AAA national average, Oct 2026); Canada ~3,550 mi at **~C$1.86/L** (Canadian national average, Gas Wizard, Oct 2026) | ~1,000 | **~1,100** total |
+| Ferry North Sydney → Port aux Basques | adult $21.92 + car $57.12 (marineatlantic.ca) | 79 | 57 |
+| Ferry Argentia → North Sydney | adult $60.40 + car $121.81 | 182 | 131 |
+| ↳ two-bed cabin (optional) | $176.75 (pod $105.50) | 177 | 127 |
+| Belle Isle ferry, both ways | vehicle + driver $35.25 each way (labradormarine.com) | 71 | 51 |
+| Camping, US | Albany ⚠️~$35 · Blackwoods 3 × $30 (nps.gov) · 2 nights on the drive home ⚠️~$70 | | ~195 |
+| Camping, Gros Morne | 5 × $34 peak / $31.75 (parks.canada.ca fees page) | 170 | 122 |
+| Camping, ParksNL | J.T. Cheeseman + 15 more nights × $20.15 unserviced (parksnl.ca) | 322 | 232 |
+| Camping, Fundy + Chéticamp + St. Barbe RV | ⚠️ fees not found, ~$30/night × 4 | ~120 | ~86 |
+| **Parks Canada Discovery Pass** | $83.50 adult. Beats daily admission ($12.25/day at Gros Morne alone) across ~10 Parks Canada stops | 84 | 60 |
+| Hopewell Rocks | $18.15 (parcsnbparks.ca) | 18 | 13 |
+| Boats | Iceberg (~$89–100) + Witless Bay (~$94) | ~190 | ~137 |
+| ↳ Western Brook Pond boat (optional) | $99 (2026) | 99 | 71 |
+| Food | ⚠️ **assumption, not his number**: ~$20/day groceries × 33 + ~12 named restaurant meals × ~$25 | | ~960 |
+| Phone in Canada | ⚠️ $0 if his Verizon plan includes Canada; up to ~$6/day × 28 if it needs TravelPass (monito.com snippet) | | 0–170 |
+
+- **Core total ≈ US$3,100** (≈ $95/day over 33 days); **with the cabin, the Western Brook boat and phone roaming ≈ US$3,470**. One-time gear (puffy, head net, rain pants, bike kit, plug kit) is extra, roughly $250–300 ⚠️
+- **The biggest swing is fuel**: a 2026 gas spike (Nova Scotia prices fell back to ~185.4 ¢/L in April 2026 after a jump, CityNews Halifax) means 2027 prices are a guess either way. Every $0.50/gal swing in the US ≈ $43; every C$0.20/L swing in Canada ≈ C$108
+- Bang for buck (`me/travel-style.md`): no airfare and no rental. ~$95/day for 33 days, against Kenai's flight + rental + campgrounds stack. Ferries are only ~$240 USD total thanks to the 2025 federal rate cut (the Why section notes it could lapse)
+- Total distance is ~5,700 mi, not the ~4,500 in the frontmatter (that predates Fundy, Labrador, Twillingate and the Avalon)
