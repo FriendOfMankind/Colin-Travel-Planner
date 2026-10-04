@@ -46,8 +46,8 @@ Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is 
   state: own
   note: "2-person ultralight backpacking tent. *(stated 2026-10-01; source: naturehike.com/products/mongar-2-person-ultralight-backpacking-tent)* (was: model not recorded)"
 - name: Puffy, hat, gloves
-  state: need
-  note: "A pointer, not a second copy: the puffy jacket, warm hat and gloves each have their own entry in **Clothing — the layer system** below, and this state follows the puffy's. Listed here because the puffy is a sleep layer on any night the bag is marginal. *(was: state own, which contradicted the puffy's need from 2026-10-01; fixed 2026-10-04)*"
+  state: own
+  note: "A pointer, not a second copy: the puffy jacket, warm hat and gloves each have their own entry in **Clothing — the layer system** below, and this state follows the puffy's. Listed here because the puffy is a sleep layer on any night the bag is marginal. *(was: need until the Pajar puffy was bought 2026-10-04)*"
 ```
 
 ## Connectivity — the trip-critical one
@@ -147,11 +147,11 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   qty: 1
   state: own
   note: "*(identified from a photo 2026-10-01; was: unknown. Colin had been counting it as his puffy.)* The brand's grid fleece hoodies are 95% polyester / 5% spandex *(source: yocolorado.com, search snippet, 2026-10-01)*; exact model not confirmed. The layer between the hiking shirt and the puffy — a fleece, grid fleece or light synthetic. Its job is to be worn *while moving* on a cold morning, which the puffy cannot do without soaking it in sweat. **Colin asked what this is in Sept 2026, which is itself the answer: there probably isn't one.** Answered: it's the YoColorado."
-- name: Puffy jacket
+- name: "Puffy jacket: Pajar Canada (model unknown)"
   type: insulation
   qty: 1
-  state: need
-  note: "*(was: own. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece, so there's probably no real puffy; 'I may need a puffy', stated 2026-10-01.)* **Buying one soon** *(stated 2026-10-04)*. Lead candidate: Decathlon Forclaz MT100 Hooded Synthetic, $69.99, synthetic, 125 g/m² polyester wadding, ~370 g in L, comfort rated 5°C to -5°C *(source: decathlon.com product page, 2026-10-01)*. Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional."
+  state: own
+  note: "**Bought 2026-10-04 at Sierra** *(stated + tag photo 2026-10-04)*. 3M Thinsulate synthetic insulation, \"100% synthetic everything\" per Colin; model and warmth rating not on the tag he found. Ribbed knit cuffs and hem: built as a streetwear jacket, so expect it bulkier than a hiking puffy and keep the cuffs out of the rain under the shell. *(was: need. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece; the lead candidate had been the Decathlon Forclaz MT100 Hooded Synthetic.)* Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional. Real-world warmth is a question the Appalachians trip answers."
 - name: Warm hat
   type: insulation
   qty: 1
@@ -160,7 +160,12 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   type: insulation
   qty: 1
   state: own
-  note: Confirmed Sept 2026. One pair — a wet pair with no spare is how a cold ridge morning ends early.
+  note: Confirmed Sept 2026. One pair — a wet pair with no spare is how a cold ridge morning ends early. What kind they are is not recorded.
+- name: "Liner gloves: Eddie Bauer Alpine Double Fleece Glove Liner"
+  type: insulation
+  qty: 1
+  state: own
+  note: "**Bought 2026-10-04 at Sierra** *(tag photo 2026-10-04)*. 95% polyester / 5% spandex, polyester lining, touchscreen tips, gripper palm. Size not recorded. The second pair the Gloves note asked for. Fleece isn't windproof: on the Mount Rogers ridge they go under the other pair, or into the shell's pockets."
 - name: Sun hat
   type: sun
   qty: 1
@@ -184,9 +189,9 @@ Counts are transcribed from the Maui 2027 packing list, which is the only place 
   note: Enough owned (confirmed Sept 2026). Pack count from the Maui list. Merino or synthetic — cotton holds water and stops insulating.
 - name: Long pants
   type: legs
-  qty: 1
+  qty: 2
   state: own
-  note: "One pair of Gerry nylon stretch hiking pants, 34x32 *(photo + stated 2026-10-01)*. Enough owned (confirmed Sept 2026). Brush, sun and cold mornings. Packing only one means one wet day ends the pants — consider two on any trip with a creek crossing."
+  note: "One pair of Gerry nylon stretch hiking pants, 34x32 *(photo + stated 2026-10-01)*, plus **4 pairs of nylon hiking pants bought 2026-10-04 at Sierra** *(stated 2026-10-04; brand and size not recorded)*. Pack count 2 *(was: 1)*, because packing only one means one wet day ends the pants. Brush, sun and cold mornings."
 - name: Shorts
   type: legs
   qty: 2
@@ -196,12 +201,17 @@ Counts are transcribed from the Maui 2027 packing list, which is the only place 
   type: socks
   qty: 4
   state: own
-  note: "“Plenty”, confirmed Sept 2026 — so the pack count is a choice, not a ceiling. Still the highest-leverage number here: wet feet on day three of eight is a whole-trip problem, not a day problem."
+  note: "“Plenty”, confirmed Sept 2026, plus more merino socks bought 2026-10-04 at Sierra *(stated 2026-10-04; count not recorded)* — so the pack count is a choice, not a ceiling. Still the highest-leverage number here: wet feet on day three of eight is a whole-trip problem, not a day problem."
 - name: Liner socks
   type: socks
   qty: null
   state: own
   note: Owned (confirmed Sept 2026); pack count never set. Blister insurance on the long descents.
+- name: "Base layer: Terramar 2.0 Merino lightweight crew & pant set"
+  type: base
+  qty: 1
+  state: own
+  note: "**Bought 2026-10-04 at Sierra** *(box photo 2026-10-04)*. Men's L, black, merino wool blend (exact % not recorded). Fills the gap under the nylon hiking pants on mid-30s mornings. Keep it separate from the sleep layer, which never leaves the tent."
 - name: Underwear
   type: base
   qty: null
