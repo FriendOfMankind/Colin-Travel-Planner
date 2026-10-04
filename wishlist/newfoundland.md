@@ -90,15 +90,15 @@ Leaving May 23 *(stated 2026-10-03)*. 33 days *(frontmatter `days` was 26, then 
 | 12 | Thu 6/3 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
 | 13 | Fri 6/4 | **Rest.** Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard) is the alternative if the weather is perfect |
 | 14 | Sat 6/5 | Viking Trail north: The Arches, Port au Choix NHS, Flower's Cove thrombolites ⚠️ (recalled), to St. Barbe |
-| 15 | Sun 6/6 | Ferry → Blanc-Sablon, ~1 h to **Red Bay**: Saddle Island tour (10, 11 or 2). Night in Labrador, TBD |
+| 15 | Sun 6/6 | Ferry → Blanc-Sablon (be there 1 h early), **1 h 17 m** to **Red Bay**: Saddle Island tour (10, 11 or 2). Fish and chips at the Whaler's Restaurant. Night at **Pinware River PP** |
 | 16 | Mon 6/7 | Labrador Straits coast, ferry back, → St. Anthony |
 | 17 | Tue 6/8 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
-| 18 | Wed 6/9 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
+| 18 | Wed 6/9 | **Little Brehat** 3.6 mi / 364 ft: an abandoned outport, 14 m from St. Anthony. Iceberg boat if IcebergFinder says go. Cape St. Anthony Trail (5.5 mi point-to-point) as a partial out-and-back if the legs want more *(Little Brehat added 2026-10-04)* |
 | 19 | Thu 6/10 | St. Anthony → **Twillingate**, **9 h 51 m**. The longest day on the island; the Northern Peninsula is a dead end, so any exit costs this |
 | 20 | Fri 6/11 | **Long Point Lighthouse** 3 mi / 603 ft, sunset there. Iceberg/whale boat here if St. Anthony's didn't happen |
 | 21 | Sat 6/12 | → Bonavista, **4 h 47 m**. **Elliston puffins** in the hour before sunset |
 | 22 | Sun 6/13 | Dungeon PP + Cape Bonavista midday, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
-| 23 | Mon 6/14 | **Rest** (Trinity) |
+| 23 | Mon 6/14 | **Rest** (Trinity). Ruins options, decided on the day: B-36 crash 1.3 mi (1 h 14 m away) or British Harbour 7.7 mi (20 m away) *(stated 2026-10-04: "I can decide day of")* |
 | 24 | Tue 6/15 | → St. John's, **3 h 20 m**. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
 | 25 | Wed 6/16 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
 | 26 | Thu 6/17 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row |
@@ -228,3 +228,29 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
 | **La Manche** (already in) | Southern Shore | 4.4 mi | Foundations, walls, the suspension bridge | Inside a provincial park |
 
 **Acadia bike day** ✅ AllTrails carriage-road loops: **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft, rated 4.9 · a short Carriage + Around Mountain loop, 4.1 mi / 308 ft · the big Aunt Betty + Around Mountain loop, 23.3 mi / 1,348 ft. The 11-mile loop is the right size for a hybrid and a first ride. ⚠️ Where to park and start: not checked
+
+### 2026-10-04 · Fortune, Red Bay, Gros Morne camps, food and the border
+**Fortune, in detail** ✅ AllTrails Fortune Path: 10.8 mi / 954 ft point-to-point, Moderate, 4–4.5 h; "best June through November"; part of the GNTA's Iceberg Trail network. AllTrails says two trailheads:
+- **From Gunner's Cove (Route 436): ~5 km to Fortune, "a gentler walk"**. Out-and-back ≈ 6.2 mi (my arithmetic from 5 km each way)
+- From Quirpon: 8 km around the Cobbler, "more rugged… greater exposure", and its start is badly marked *(liveruralnl.com, page read 2026-10-03)*
+- The Cobbler Loop alone: ~4 km round trip
+- Remains: one family home still standing, collapsed others, outbuildings, an old motor on the beach *(liveruralnl.com)*. Resettlement year not found. 📋 Province-wide, 1954–75 resettlement abandoned ~300 communities *(Wikipedia, snippet)*
+- GNTA lists the risks: high cliffs, cold water, moose, coyotes
+- **Fit:** the Gunner's Cove out-and-back (~6 mi) pairs with L'Anse aux Meadows, which is on the same road (Route 436). It could replace Burnt Cape on 6/8 or follow it. Iceberg views along the way are a bonus
+
+**Red Bay day**
+- 📋 TripAdvisor example: the 8:15 AM St. Barbe ferry over, the 8:00 PM Blanc-Sablon ferry back; be at the terminal 1 h early both ways. So a same-day trip works, but it's long. **"Schedules can vary and there are time zone changes"** (NL tourism, snippet): Blanc-Sablon is in Québec. ⚠️ Which clock each side uses: not checked. Confirm sailing times with Labrador Marine (1-866-535-2567)
+- The draft keeps the overnight at **Pinware River PP** (ParksNL; opened May 29 in 2026). That's calmer than racing the evening ferry
+- 📋 Whaler's Restaurant, Red Bay: "fish & chips were outstanding" (Facebook group)
+
+**Gros Morne camps**
+- 📋 236 sites across five Parks Canada campgrounds *(parks.canada.ca, snippet)*. Reddit: "Trout River sites are great, smaller campground and more secluded. Berry Hill is a bit bigger, more central"
+- Pick: **Trout River** for the south side (Tablelands, Green Gardens, Lookout); **Berry Hill** for the north (Western Brook, Lobster Cove Head, Rocky Harbour food). Which ones have showers is unconfirmed; showers in town are fine (`me/profile.md`)
+
+**Food: shops and the border**
+- Grocery: 📋 Rocky Harbour has small stores (Dominion, Colemans, Barnes) and frozen-only meat according to TripAdvisor; Deer Lake has Colemans and Foodland; **Corner Brook (30 m south of Deer Lake) has the big-box stores**; stove fuel from Canadian Tire or Home Hardware in Deer Lake *(TripAdvisor, Facebook, Reddit snippets, 2026-10-04)*
+- Two-shop rule (principle 9b), Canadian version: the shelf-stable crate comes from home; **the main perishables shop is Corner Brook or Deer Lake on the drive in from Port aux Basques**; top up in St. Anthony, Gander (on the way to Twillingate) and St. John's. ⚠️ Specific stores in St. Anthony and Gander: not checked
+- ✅ **Into Canada** (CFIA personal-use limits, per person): meat 20 kg, dairy 20 kg, eggs 5 dozen, fresh fruit 20 kg, fresh vegetables 20 kg, fish 40 kg. Declare all food at the border *(inspection.canada.ca, page read 2026-10-04; CBSA)*. ⚠️ Global Affairs Canada also sets dollar/quantity limits on some foods (Memo D19-10-2), not read. Supply-managed dairy and poultry are the usual catch
+- ✅ **Back into the US** (APHIS, updated Mar 31 2026): meat from Canada up to **50 lb**; poultry and eggs allowed **unless a temporary bird-flu restriction is in place**; fresh produce only with proof it was **grown in Canada**, and **no citrus, tomatoes or peppers** even if US-grown. Canned goods without meat are fine. Declare everything *(aphis.usda.gov; help.cbp.gov, page read 2026-10-04)*. Practical rule: run the cooler down before Calais on the way home
+- ⚠️ Stove fuel: whether Marine Atlantic allows butane/isobutane canisters in a vehicle isn't checked. Buying fuel in Deer Lake sidesteps the problem on the way in
+
