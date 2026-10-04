@@ -67,7 +67,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 3. **Never hand-type a sunrise, sunset or booking-window date.** They're computed (`tools/now.mjs` computes booking windows).
 4. **Warnings are for what can hurt him or kill the day,** not general advice.
 5. **An honest `outline` beats a fake `planned`.**
-6. **Oral allergy syndrome:** roasted nuts fine; raw and dried fruit still open. Spice ceiling 1–2 of 5. No coffee, no beer. Details in `me/food.md`.
+6. **Oral allergy syndrome:** roasted nuts, cooked fruit and dried fruit fine; raw fruit still open. Spice ceiling 1–2 of 5. No coffee, no beer. Details in `me/food.md`.
 7. **Nothing gets deleted to make a warning go away.** Fix the data, or argue with the check out loud.
 
 ## Limits of this environment

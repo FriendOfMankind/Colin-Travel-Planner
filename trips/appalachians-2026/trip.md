@@ -626,7 +626,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ## Provisions
 
-**Rebuilt Sept 28 around staples**, after Kentucky showed the recipe timeline doesn't survive the trip: the planned meals collapsed into oatmeal, mac, Brami and couscous. Everything below is one pot and eyeball-the-water, from the staples menu in the new planner (`kitchen/staples.md`), plus restaurants where they earn it and **one real cook: pierogi + kielbasa on Oct 21**. kcal figures are estimates. No coffee, no alcohol, no raw or dried fruit (the allergy question is still open).
+**Rebuilt Sept 28 around staples**, after Kentucky showed the recipe timeline doesn't survive the trip: the planned meals collapsed into oatmeal, mac, Brami and couscous. Everything below is one pot and eyeball-the-water, from the staples menu in the new planner (`kitchen/staples.md`), plus restaurants where they earn it and **one real cook: pierogi + kielbasa on Oct 21**. kcal figures are estimates. No coffee, no alcohol, no raw fruit (still an open allergy question). *Dried and cooked fruit were cleared on 2026-10-04 (`me/food.md`), so the crate's apricots and mango can come along. (was: "no raw or dried fruit")*
 
 ### Cooler
 
@@ -644,7 +644,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Stop 1 — Meijer, trunk crate (shelf-stable)
 
-***The September crate (Sept 13 run) is bought** (confirmed Sept 28) — **use it first**: maple packets work in power oats in place of plain oats (less protein, more sugar — add the whey), pecans top the oats, and the dried apricots and mango wait until the dried-fruit allergy question is answered. Buy only what the crate is missing.*
+***The September crate (Sept 13 run) is bought** (confirmed Sept 28) — **use it first**: maple packets work in power oats in place of plain oats (less protein, more sugar — add the whey), pecans top the oats, and the dried apricots and mango are usable: dried fruit was cleared 2026-10-04 (`me/food.md`; was: "wait until the dried-fruit allergy question is answered"). Buy only what the crate is missing.*
 
 - Plain oats (big canister) · whole milk powder · whey protein · peanut butter jar + 6 PB packets · brown sugar
 - Plain potato flakes · real bacon bits · 1 ramen block · couscous · Brami ×2 boxes · dried tortellini · Stove Top ×1 box · gravy packets ×2 · bouillon
