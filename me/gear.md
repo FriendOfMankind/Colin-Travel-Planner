@@ -46,8 +46,8 @@ Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is 
   state: own
   note: "2-person ultralight backpacking tent. *(stated 2026-10-01; source: naturehike.com/products/mongar-2-person-ultralight-backpacking-tent)* (was: model not recorded)"
 - name: Puffy, hat, gloves
-  state: own
-  note: Lives in **Clothing — the layer system** below. Listed here too because the puffy is a sleep layer on any night the bag is marginal.
+  state: need
+  note: "A pointer, not a second copy: the puffy jacket, warm hat and gloves each have their own entry in **Clothing — the layer system** below, and this state follows the puffy's. Listed here because the puffy is a sleep layer on any night the bag is marginal. *(was: state own, which contradicted the puffy's need from 2026-10-01; fixed 2026-10-04)*"
 ```
 
 ## Connectivity — the trip-critical one
@@ -137,7 +137,7 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   type: insulation
   qty: 1
   state: need
-  note: "*(was: own. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece, so there's probably no real puffy; 'I may need a puffy', stated 2026-10-01.)* Lead candidate: Decathlon Forclaz MT100 Hooded Synthetic, $69.99, synthetic, 125 g/m² polyester wadding, ~370 g in L, comfort rated 5°C to -5°C *(source: decathlon.com product page, 2026-10-01)*. Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional."
+  note: "*(was: own. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece, so there's probably no real puffy; 'I may need a puffy', stated 2026-10-01.)* **Buying one soon** *(stated 2026-10-04)*. Lead candidate: Decathlon Forclaz MT100 Hooded Synthetic, $69.99, synthetic, 125 g/m² polyester wadding, ~370 g in L, comfort rated 5°C to -5°C *(source: decathlon.com product page, 2026-10-01)*. Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional."
 - name: Warm hat
   type: insulation
   qty: 1
