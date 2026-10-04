@@ -10,7 +10,7 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 - **Home base:** Avon, Ohio — west Cleveland metro. Drive times are measured from there; flights from CLE.
 - **Group:** Solo. One person, one tent, one portion.
 - **Trip shape:** 2–5 campgrounds per trip, 5–10 nights, 4–8 hikes.
-- **Showers: daily if possible.** Prefer campgrounds with showers; a no-shower stretch needs a reason. *(stated 2026-09-28; was: "occasional motel night for a shower")*
+- **Showers: daily if possible.** Prefer campgrounds with showers, but **showers don't pick the campground**: when the best site has none, buy a shower in town or at a nearby park. *(stated 2026-10-04, asked about Newfoundland's provincial parks; was: "a no-shower stretch needs a reason" (stated 2026-09-28), and before that "occasional motel night for a shower")*
 
 ## Experience
 
