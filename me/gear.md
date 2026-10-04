@@ -64,7 +64,7 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
     answer: "Not at the tent site. It worked after moving to a better sky view elsewhere in the campground. Lesson: the arrival-day test is load-bearing, so do it at every forested site. (confirmed: kentucky-2026 log, 2026-09-27)"
 - name: Phone
   state: own
-  note: "Carrier: **Verizon** *(stated 2026-10-04)*. Plan name not recorded. Whether Canada roaming is included or costs a daily TravelPass depends on the plan, and sources disagree (saily.com says unlimited plans include Canada; monito.com says some unlimited tiers pay TravelPass, search snippets, 2026-10-04). Check in the Verizon app before crossing."
+  note: "Carrier: **Verizon** *(stated 2026-10-04)*. **His plan covers Canada** *(stated 2026-10-04)*. Plan name not recorded. *(was: \"whether Canada roaming is included… depends on the plan\")*"
 - name: Portable power bank
   state: own
   note: Four hours of laptop plus Starlink is the real draw, not the phone.
