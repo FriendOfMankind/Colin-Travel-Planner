@@ -21,7 +21,7 @@ From the traveller interview on 2026-09-28 unless marked.
 
 ## Budget
 
-**Bang for buck is the test.** There's no fixed budget, but a trip has to earn what it costs. The worked example is Mojave in January: flight + rental car + campgrounds, solo, "kind of forcing it". That stack of costs has to buy something that couldn't be had cheaper or at a better time. *(stated 2026-09-30; was: "Not tracked. He spends what the trip takes. Don't optimise plans for cost; pick on quality." (stated 2026-09-28), which contradicted the Sept 6 Mojave deferral "because the money is going to better places")* Planning rule: pick on quality per dollar, not quality alone, and say what the expensive parts buy. (Trees' old intake brief said "$1–2k excluding airfare"; treat that as a rough scale, not a limit.)
+**Bang for buck is the test.** There's no fixed budget, but a trip has to earn what it costs. The worked example is Mojave in January: flight + rental car + campgrounds, solo, "kind of forcing it". That stack of costs has to buy something that couldn't be had cheaper or at a better time. *(stated 2026-09-30; was: "Not tracked. He spends what the trip takes. Don't optimise plans for cost; pick on quality." (stated 2026-09-28), which contradicted the Sept 6 Mojave deferral "because the money is going to better places")* Planning rule: pick on quality per dollar, not quality alone, and say what the expensive parts buy. (Trees' old intake brief said "$1–2k excluding airfare"; treat that as a rough scale, not a limit.) **Summer 2027: still no budget, and some financial support may come, but keep a running cost estimate for each trip** so the summer total stays visible *(stated 2026-10-04)*. Newfoundland's is in `wishlist/newfoundland.md`.
 
 ## Crowds, water, rest
 
