@@ -147,6 +147,11 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   qty: 1
   state: own
   note: "*(identified from a photo 2026-10-01; was: unknown. Colin had been counting it as his puffy.)* The brand's grid fleece hoodies are 95% polyester / 5% spandex *(source: yocolorado.com, search snippet, 2026-10-01)*; exact model not confirmed. The layer between the hiking shirt and the puffy — a fleece, grid fleece or light synthetic. Its job is to be worn *while moving* on a cold morning, which the puffy cannot do without soaking it in sweat. **Colin asked what this is in Sept 2026, which is itself the answer: there probably isn't one.** Answered: it's the YoColorado."
+- name: "Camp layer: Eddie Bauer Sparrow Shirt Jacket"
+  type: insulation
+  qty: 1
+  state: own
+  note: "**Bought 2026-10-04 at Sierra** *(tag photo 2026-10-04)*. Printed fleece with a bonded sherpa interior, button front, button cuffs, relaxed fit. A camp-and-car layer, not a hiking midlayer: heavy, slow to dry once wet, and not windproof. The YoColorado stays the midlayer you hike in. Colin plans to bring it alongside the puffy, so one dry warm layer survives if the other gets wet *(stated 2026-10-04)*. Synthetic fleece melts from campfire sparks."
 - name: "Puffy jacket: Pajar Canada (model unknown)"
   type: insulation
   qty: 1
