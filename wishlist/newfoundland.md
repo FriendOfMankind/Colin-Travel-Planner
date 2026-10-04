@@ -5,7 +5,7 @@ subtitle: The Earth's mantle, a Viking hall, and icebergs — the June trip that
 status: wishlist
 months: [ 6, 7, 8, 9 ]
 mode: drive
-days: 31
+days: 32
 nights: ~22 nights
 window: June–September. ⭐ June is genuinely peak here rather than a compromise — icebergs, 17-hour days, no heat.
 region: Newfoundland, via the Maritimes
@@ -23,7 +23,7 @@ tags:
   - passport
   - ferry
   - long haul
-updated: 2026-10-03
+updated: 2026-10-04
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -71,46 +71,50 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - ⚠️ Gem lead: **Red Bay, Labrador**, 16th-century Basque whaling station, UNESCO *(recalled, not checked)*. 📋 The St. Barbe–Blanc Sablon ferry is 1 hr 45 min, operates May to early January, reservations open in April *(source: gov.nl.ca ferry schedule; parks.canada.ca/lhn-nhs/nl/redbay, search snippets, 2026-10-03)*. Fits "ruins count as scenery"; costs 1–2 days off the Northern Peninsula
 - Colin has a passport *(stated 2026-10-03)*
 
-### 2026-10-03 · Draft day-by-day: May 23 → June 22, 2027 (outline, nothing booked)
-Leaving May 23 *(stated 2026-10-03)*. 31 days *(frontmatter `days` was 26)*. All drive times are ⚠️ guesses, not routed; principle 7 (Google +15%) hasn't been applied. Trail stats ✅ AllTrails 2026-10-03. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
+### 2026-10-03 · Draft day-by-day: May 23 → June 23, 2027 (outline, nothing booked)
+Leaving May 23 *(stated 2026-10-03)*. 32 days, or 33 with Twillingate *(frontmatter `days` was 26, then 31)*. Revised 2026-10-04 with three decisions: **bring the bike**, **Cape Spear sunrise is in**, **Cape Breton's Skyline Trail is in** *(stated 2026-10-04)*. All drive times are ⚠️ guesses, not routed; principle 7 (Google +15%) hasn't been applied. Trail stats ✅ AllTrails. Sun times computed (Trees `tools/sun.mjs`) at a regional point, not a trailhead. Campgrounds TBD unless named. **The Avalon block flexes on the 2027 Argentia sailing days.**
 
 | # | Date | Plan |
 |---|---|---|
 | 1 | Sun 5/23 | Avon → upstate NY / Vermont, ~8 h ⚠️. Camp TBD |
 | 2 | Mon 5/24 | → Acadia ~6 h ⚠️. Ocean Path at sunset (8:03) |
-| 3 | Tue 5/25 | **Beehive + Gorham + Ocean Path loop**: 3.6 mi / 807 ft, Hard, iron rungs. Carriage roads by bike if the bike comes |
-| 4 | Wed 5/26 | Acadia → Cape Breton, long transfer ⚠️ (border at Calais) |
-| 5 | Thu 5/27 | Day ferry North Sydney → Port aux Basques (~7 h). Camp near PaB, TBD |
-| 6 | Fri 5/28 | → Gros Morne south side. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Stay for evening light (sunset ~9:18) |
-| 7 | Sat 5/29 | **Green Gardens** 6.6 mi / 1,289 ft: sea stacks, sea caves, beach, waterfall. The weekend hard one, per principle 5 |
-| 8 | Sun 5/30 | **Lookout Trail, Woody Point** 6.3 mi / 1,581 ft (or the Gros Morne Lookout loop, 3.6 mi / 1,125 ft). Move to the north side |
-| 9 | Mon 5/31 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
-| 10 | Tue 6/1 | **Rest.** Showers, laundry. Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard) is the alternative if the weather is perfect |
-| 11 | Wed 6/2 | Viking Trail north: The Arches, Port au Choix NHS, the Flower's Cove thrombolites ⚠️ (recalled), to St. Barbe |
-| 12 | Thu 6/3 | Ferry → Blanc-Sablon, ~1 h drive to **Red Bay**: Saddle Island tour (10, 11 or 2). Night in Labrador, TBD |
-| 13 | Fri 6/4 | Labrador Straits coast, ferry back, → St. Anthony |
-| 14 | Sat 6/5 | **L'Anse aux Meadows** (opens June 1) + **Burnt Cape** 5.5 mi / 403 ft, limestone barrens |
-| 15 | Sun 6/6 | **Cape St. Anthony Trail** 5.5 mi / 843 ft, point-to-point (shuttle unsolved). Iceberg boat if IcebergFinder says go |
-| 16 | Mon 6/7 | **Flex**: the second iceberg day, a weather spare, or rest |
-| 17 | Tue 6/8 | St. Anthony → Twillingate, long transfer ⚠️ |
-| 18 | Wed 6/9 | **Long Point Lighthouse** 3 mi / 603 ft. Sunset there. Boat alternative to St. Anthony |
-| 19 | Thu 6/10 | → Bonavista Peninsula. **Elliston puffins** in the hour before sunset |
-| 20 | Fri 6/11 | Dungeon PP, Cape Bonavista, then **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
-| 21 | Sat 6/12 | **Rest** (Trinity) |
-| 22 | Sun 6/13 | → St. John's ~3 h ⚠️. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
-| 23 | Mon 6/14 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row (the city-trip shape in `me/travel-style.md`) |
-| 24 | Tue 6/15 | **Cape Spear Path** 5.9 mi / 643 ft. The easternmost point; whether its sunrise earns the alarm is Colin's call |
-| 25 | Wed 6/16 | **Spout Path** (9.6 mi / 1,272 ft point-to-point): out-and-back to the Spout instead, distance TBD. Or a Witless Bay boat |
-| 26 | Thu 6/17 | Ferryland: Colony of Avalon dig (1620s) + **lighthouse trail** 1.2 mi. Full moon (98%): a night walk on a headland |
-| 27 | Fri 6/18 | → **Cape St. Mary's** gannets 1.7 mi / 295 ft, near Argentia |
-| 28 | Sat 6/19+ | Argentia → North Sydney overnight (~16 h), if 2027 sails that day |
-| 29–31 | 6/20–6/22 | North Sydney → Avon, ~1,290 mi. Home 6/22; Glacier leaves 7/6 |
+| 3 | Tue 5/25 | **Beehive + Gorham + Ocean Path loop**: 3.6 mi / 807 ft, Hard, iron rungs |
+| 4 | Wed 5/26 | **Carriage roads by bike.** Route TBD. Blackwoods doesn't connect by bike (see `wishlist/acadia.md`) |
+| 5 | Thu 5/27 | Acadia → Cape Breton, long transfer ⚠️ (border at Calais) |
+| 6 | Fri 5/28 | **Skyline Trail loop** 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back) at sunset (8:45) |
+| 7 | Sat 5/29 | Ferry North Sydney → Port aux Basques (~7 h). Sailing time TBD |
+| 8 | Sun 5/30 | → Gros Morne south side. **Tablelands Trail** 4.8 mi / 603 ft: the mantle. Evening light (sunset ~9:18) |
+| 9 | Mon 5/31 | **Green Gardens** 6.6 mi / 1,289 ft: sea stacks, sea caves, beach, waterfall |
+| 10 | Tue 6/1 | **Lookout Trail, Woody Point** 6.3 mi / 1,581 ft. Move to the north side |
+| 11 | Wed 6/2 | **Western Brook Pond** 3.3 mi / 180 ft; the $99 boat only if it reaches 15 riders. Sunset at Lobster Cove Head |
+| 12 | Thu 6/3 | **Rest.** Tablelands Off-Trail Loop (7.3 mi / 1,738 ft, Hard) is the alternative if the weather is perfect |
+| 13 | Fri 6/4 | Viking Trail north: The Arches, Port au Choix NHS, Flower's Cove thrombolites ⚠️ (recalled), to St. Barbe |
+| 14 | Sat 6/5 | Ferry → Blanc-Sablon, ~1 h to **Red Bay**: Saddle Island tour (10, 11 or 2). Night in Labrador, TBD |
+| 15 | Sun 6/6 | Labrador Straits coast, ferry back, → St. Anthony |
+| 16 | Mon 6/7 | **L'Anse aux Meadows** + **Burnt Cape** 5.5 mi / 403 ft |
+| 17 | Tue 6/8 | **Cape St. Anthony Trail** 5.5 mi / 843 ft (point-to-point, so out-and-back). Iceberg boat if IcebergFinder says go |
+| 18 | Wed 6/9 | **Flex**: the second iceberg day, a weather spare, or rest |
+| (+1) | | **Twillingate, proposed cut:** Long Point Lighthouse 3 mi / 603 ft. It duplicates St. Anthony's icebergs and lighthouse |
+| 19 | Thu 6/10 | St. Anthony → Bonavista Peninsula, long transfer ⚠️ |
+| 20 | Fri 6/11 | Dungeon PP, Cape Bonavista, **Elliston puffins** in the hour before sunset |
+| 21 | Sat 6/12 | **Skerwink Trail** 3.2 mi / 396 ft (4.9★) at sunset |
+| 22 | Sun 6/13 | **Rest** (Trinity) |
+| 23 | Mon 6/14 | → St. John's ~3 h ⚠️. **North Head / Signal Hill** 2.2 mi / 508 ft at sunset |
+| 24 | Tue 6/15 | **Cape Spear at sunrise** (first light 4:22, sunrise 5:02), then the Cape Spear Path 5.9 mi / 643 ft. Afternoon off |
+| 25 | Wed 6/16 | St. John's walking day: Quidi Vidi, the harbour, Jellybean Row |
+| 26 | Thu 6/17 | **The Spout** as an out-and-back (distance TBD), or a Witless Bay boat. Full moon: a night walk on a headland |
+| 27 | Fri 6/18 | Ferryland: Colony of Avalon dig + **lighthouse trail** 1.2 mi |
+| 28 | Sat 6/19 | → **Cape St. Mary's** gannets 1.7 mi / 295 ft, then Argentia |
+| 29 | Sun 6/20 | Argentia → North Sydney overnight (~16 h), if 2027 sails that day |
+| 30–32 | 6/21–6/23 | North Sydney → Avon, ~1,290 mi. Home 6/23; Glacier leaves 7/6 |
+
+*(was, 2026-10-03: 31 days with no bike day, no Skyline Trail and Twillingate in, home 6/22)*
 
 Notes from building it:
 - 📋 **Precipice, Jordan Cliffs and Valley Cove at Acadia close March 1 for peregrine nesting** and reopen around mid-August *(source: nps.gov/acad peregrine page + Ellsworth American, search snippets, 2026-10-03)*. The Beehive isn't on that list, so it's the ladder route in May
 - 📋 Elliston puffins are back on land from about mid-May to mid-August; best in the first hours after sunrise or the hour before sunset *(source: newfoundlandlabrador.com + a Facebook group, search snippets, 2026-10-03)*. 0.5 mi walk, no boat needed
-- Computed sun: Acadia 5/25 sunset 8:03 · Gros Morne 5/31 sunset 9:18, dark 10:00 · St. Anthony 6/7 sunset 9:25, dark 10:11 · St. John's 6/17 sunset 9:00, full moon *(Trees tools/sun.mjs, 2026-10-03)*
-- ⚠️ Gear that matters here: the puffy is still "need" (`me/gear.md`) and late-May lows are likely under the 40s he's comfortable in (not checked). Bug net for blackflies inland. Fuel canisters on a Marine Atlantic vehicle deck: rules not checked. Canadian border food rules: not checked
+- Computed sun: Skyline 5/28 sunset 8:45 · Cape Spear 6/15 first light 4:22, sunrise 5:02 · Acadia 5/25 sunset 8:03 · Gros Morne 5/31 sunset 9:18, dark 10:00 · St. Anthony 6/7 sunset 9:25, dark 10:11 · St. John's 6/17 sunset 9:00, full moon *(Trees tools/sun.mjs, 2026-10-03)*
+- ⚠️ Gear that matters here: the puffy is still "need" (`me/gear.md`) and late-May lows are likely under the 40s he's comfortable in (not checked). Bug net for blackflies inland. Bike gear: the trunk-rack question and the helmet, lock, flat kit and light are all open in `me/gear.md`. Fuel canisters on a Marine Atlantic vehicle deck: rules not checked. Canadian border food rules: not checked
 - ⚠️ Food: partridgeberry desserts are the obvious local treat, but cooked fruit is "open, possibly moot" (`me/food.md`)
 - Ruins check (principle 10, sharpened): L'Anse aux Meadows and Norstead are interpretive, Blue Heron territory. Red Bay's Saddle Island and the Ferryland dig are the rawer ones. Resettled outports as explorable ruins: ⚠️ lead, not researched
 
