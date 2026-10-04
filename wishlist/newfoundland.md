@@ -204,3 +204,27 @@ Colin: Twillingate stays, "I'm probably never going to go back here so I don't w
 - 📋 The Argentia terminal is open **Mon and Thu–Sat 9:00–19:00**, closed Sun, Tue and Wed *(source: marineatlantic.ca terminal page, search snippet, 2026-10-04)*. ⚠️ Inference, not confirmed: departures from Argentia are probably Mon/Thu/Sat. If that holds in 2027, the draft's Mon 6/21 sailing lines up
 - 📋 The commercial schedule shows Argentia-route departure times of 11:45, 23:45 and 06:30 depending on the day *(marineatlantic.ca commercial schedule, search snippet; which direction each belongs to isn't clear)*
 - ✅ St. Barbe ↔ Blanc-Sablon: 1 h 45 m, 36 km; book through Labrador Marine (mylmi.labradormarine.com, 1-866-535-2567). Times and fares are only in linked PDFs, not read *(source: gov.nl.ca/ti/ferryservices/schedules/j-pollo, page read 2026-10-04)*
+
+### 2026-10-04 · Cold, boats, raw ruins, bike routes
+- Colin on the cold: "I'll be able to handle the cold" *(stated 2026-10-04)*. Buying a puffy soon (`me/gear.md`). The October Appalachians nights are still the test to log
+- Hopewell Rocks: **skip it if the tide doesn't fit, decide on the day** *(stated 2026-10-04)*
+
+**Boats** (prices in CAD; all 📋 search snippets 2026-10-04 unless marked)
+| Where | Operator | Price | Season / notes |
+|---|---|---|---|
+| St. Anthony | Northland Discovery Boat Tours | adult **$89** (2025 rate, own site); $85 on a booking portal | May 20 – Sep 30 (NL tourism listing); 9:30, 1:00 and 4:00 departures (portal). Icebergs, humpbacks. 1-844-999-2374 |
+| Twillingate | Twillingate Adventure Tours; Iceberg Quest | ~$100 + tax per Facebook group; someone saw a price jump to $145 | Ran by **May 9, 2026** (dated video). 709-893-2151 |
+| Witless Bay (Bay Bulls) | Gatherall's · O'Brien's | Gatherall's **C$94** adult; O'Brien's "from $95" on its own site (a third-party site says C$74) | The ecological reserve with "1/2 a million Atlantic Puffins" (O'Brien's) plus humpbacks and sometimes bergs |
+- Planning rule from `me/adventures.md`: paid outings lean "with friends", but a boat isn't a guided adventure. This is a seat on a boat, fine solo
+- ⚠️ Pick at most two boats across the trip: St. Anthony **or** Twillingate (icebergs, decided by IcebergFinder), plus Witless Bay (puffins + whales). That's ~$180–200 CAD total
+
+**⭐ Raw ruins: explorable, unrestored, principle 10.** For each: who owns it, whether it's legal, hazards (per `me/adventures.md`)
+| Ruin | Near | Hike ✅ AllTrails | What's there | Access / hazards |
+|---|---|---|---|---|
+| **Little Brehat** (resettled outport) | Great Brehat, ✅ 14 m from St. Anthony | 3.6 mi / 364 ft, Easy, out-and-back | 📋 an abandoned community past Great Brehat *(AllTrails, Trailforks, liveruralnl, snippets)* | Public trail. What stands: not described. Fits the St. Anthony days |
+| **Fortune** (resettled outport) | Quirpon, by L'Anse aux Meadows | Fortune Path 10.8 mi / 954 ft point-to-point; Fortune is ~5 mi (8 km) in from Quirpon | One family home still standing, collapsed ones, outbuildings, an old motor on the beach *(liveruralnl.com, page read)* | Trail start badly marked; wet feet; out-and-back ~10 mi is at the ceiling. Who owns the house: unknown. Don't go inside a standing outport house: unsound, solo |
+| **British Harbour + Kerley's Harbour** (resettled 1963) | New Bonaventure, ✅ 20 m from Trinity | British Harbour Trail 7.7 mi / 1,414 ft out-and-back | Overgrown cemeteries, foundations, root cellars, the former church; some homes are now **private summer cabins** *(CBC, page read)* | Public trail; the cabins are private, so look, don't enter. Best match for the Trinity rest-day area |
+| **B-36 bomber crash** (Mar 18, 1953) | Burgoyne's Cove, ✅ 1 h 14 m from Trinity | 1.3 mi / 524 ft out-and-back | Mangled fuselage, wings, engine parts, a mostly intact tail section in a bog gully, a memorial plaque *(hiddennewfoundland.ca, page read)* | A memorial site; legal status not stated. Treat it as a grave: look, don't take |
+| **La Manche** (already in) | Southern Shore | 4.4 mi | Foundations, walls, the suspension bridge | Inside a provincial park |
+
+**Acadia bike day** ✅ AllTrails carriage-road loops: **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft, rated 4.9 · a short Carriage + Around Mountain loop, 4.1 mi / 308 ft · the big Aunt Betty + Around Mountain loop, 23.3 mi / 1,348 ft. The 11-mile loop is the right size for a hybrid and a first ride. ⚠️ Where to park and start: not checked
