@@ -65,6 +65,31 @@ trip's start date.
   what: Baxter State Park
   when: Rolling 4 months
   note: First night plus 3 consecutive nights bookable online together as of summer 2026. Separate Day Use Parking Reservation for the Katahdin trailheads.
+- system: acadia-np
+  leadMonths: null
+  what: Acadia NP campgrounds (Blackwoods, Seawall, Schoodic Woods) on recreation.gov
+  when: Released in blocks, not a plain 6-month roll. For a May 20 arrival, booking opens **10 AM ET on Dec 1** (first release) or 10 AM ET on May 10 (second release)
+  note: 📋 nps.gov/acad camping page, search snippet, 2026-10-04 (nps.gov is blocked here). Confirm the release that covers the actual nights. Campground opening dates conflict across sources (Blackwoods May 1 or May 6; Seawall May 20 or May 25). *(added 2026-10-04 for wishlist/newfoundland)*
+- system: parks-canada
+  leadMonths: null
+  what: Parks Canada campgrounds (Gros Morne, Cape Breton Highlands, Fundy)
+  when: Each location launches its season's reservations on its own date, **in January** (sometimes early February)
+  note: 📋 parks.canada.ca/voyage-travel/reserve, search snippet, 2026-10-04. The per-park launch dates get posted in winter; look them up then. reservation.pc.gc.ca or 1-877-737-3783. *(added 2026-10-04)*
+- system: parksnl
+  leadMonths: null
+  what: Newfoundland and Labrador provincial parks (ParksNL)
+  when: The whole season opens on one date in spring. **2026 was April 22, 7:00 AM NDT** (6:30 AM in most of Labrador)
+  note: ✅ gov.nl.ca news release 2026-04-14, page read 2026-10-04. Book at nlcamping.ca or 1-877-214-2267. The 2027 date isn't announced; watch for a mid-April release. *(added 2026-10-04)*
+- system: marine-atlantic
+  leadMonths: null
+  what: Marine Atlantic ferries (North Sydney ↔ Port aux Basques, North Sydney ↔ Argentia)
+  when: No published window; "book early for best availability". Vehicle space and cabins can sell out
+  note: ✅ marineatlantic.ca FAQ, page read 2026-10-03. Changing or cancelling is free outside 48 h before sailing and $25 inside it, re-priced at the current rate. So book early and move it if needed. Argentia is seasonal (June 19 to Sept 30 in 2026). *(added 2026-10-04)*
+- system: belle-isle-ferry
+  leadMonths: null
+  what: Strait of Belle Isle ferry (St. Barbe ↔ Blanc-Sablon)
+  when: Reservations reportedly open in April
+  note: 📋 Facebook group, search snippet, 2026-10-03; unverified. gov.nl.ca ferry schedules page, 1-866-535-2567. *(added 2026-10-04)*
 - system: flights
   leadMonths: null
   what: Flights
