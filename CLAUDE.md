@@ -89,7 +89,7 @@ node tools/build.mjs   # site/index.html
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 6 trips, 34 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the five skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (one shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the five skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.

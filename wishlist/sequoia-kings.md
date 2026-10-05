@@ -11,8 +11,8 @@ region: Central California
 country: USA
 coords: [ 36.55, -118.75 ]
 budget: ~4 hr from LAX, ~1.5 hr from Fresno
-tags: [ car camping, old growth, granite, may, maui bookend ]
-updated: 2026-09-04
+tags: [ car camping, old growth, granite, may ]
+updated: 2026-10-05
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -21,6 +21,8 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 *The big-tree bookend*
 
 ## Why
+
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
 ⚠️ Giant Forest and Grant Grove are reachable in May when the high country is not. The largest trees on Earth by volume, plus glaciated granite. ⚠️ **Mineral King — the quiet corner — is a narrow 25-mile road that usually opens late May**, so an early-May trip gets the busy half of the park. Fits the outbound leg from LAX better than the return.
 

@@ -29,7 +29,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ✅ Four Jeffrey CG at 8,100 ft with bear boxes and a trailhead under a mile up the road. Little Lakes Valley from Mosquito Flat is the highest paved trailhead in the Sierra — the single best expression of the car-camping rule set.
 
-🔻 **Confirmed Sept 6 2026 as the flex — the first of the three summer trips to drop.** Not because it is the weakest; it is arguably the best value on the list. Because it is the only one that **survives the horizon**. Ten days on cheap Reno flights and a cheap car is a trip a two-week PTO allowance still holds in 2028 and every year after. [Kenai](#kenai-peninsula) and a three-week drive are not. Spending the last free summer on the one trip that keeps is the trade this whole plan exists to avoid.
+🔻 **Confirmed Sept 6 2026 as the flex — the first of the three summer trips to drop.** Not because it is the weakest; it is arguably the best value on the list. Because it is the only one that **survives the horizon**. Ten days on cheap Reno flights and a cheap car is a trip a two-week PTO allowance still holds in 2028 and every year after. Kenai (`wishlist/kenai-peninsula.md`) and a three-week drive are not. Spending the last free summer on the one trip that keeps is the trade this whole plan exists to avoid.
 
 🔻 **Dropped from 2027, Sept 6 2026** *(superseded 2026-09-30, below)*. "I can do the Sierras some other time" — and that is exactly right, because it is the one trip on this list where "some other time" is genuinely available. The July target is removed, freeing the whole month for the road trip. **This entry is not weaker for it; it is the plan working as designed.** September for the aspen, whenever the PTO year allows.
 

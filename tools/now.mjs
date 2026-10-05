@@ -128,8 +128,10 @@ if (gear.length) say("", `## Gear not settled (me/gear.md)`, `- ${gear.join(" ·
 
 const later = upcoming.filter((t) => t !== next);
 if (later.length) say("", `## After that`, ...later.map((t) => `- ${fmt(t.start)} · ${t.r.title} (${t.r.status}${t.dated ? "" : ", target"})`));
-const undated = trips.filter((t) => !t.start && t.r.status !== "done");
+const undated = trips.filter((t) => !t.start && !["done", "shelved"].includes(t.r.status));
 if (undated.length) say(...undated.map((t) => `- no date · ${t.r.title} (${t.r.status})`));
+const shelved = trips.filter((t) => t.r.status === "shelved");
+if (shelved.length) say(`- shelved, not live: ${shelved.map((t) => t.r.title).join(", ")}`);
 
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md"));
 if (ideas.length) say("", `## Ideas`, `${ideas.length} in wishlist/ (see INDEX.md). Explore one with /daydream.`);

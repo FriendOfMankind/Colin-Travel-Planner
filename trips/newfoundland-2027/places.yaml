@@ -1,0 +1,369 @@
+# Newfoundland by Road — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one. None of these is placed yet:
+# place them in Trees' mapbench.html and paste the JSON back.
+groups:
+- group: The drive
+  places:
+  - name: Albany area transit night
+    note: Night 1. Not identified.
+    maps: Albany NY
+    verified: false
+    lat: null
+    lng: null
+  - name: Calais border crossing
+    note: Days 5 and 31. Passport, declare all food.
+    maps: Calais Maine border crossing
+    verified: false
+    lat: null
+    lng: null
+  - name: Bangor
+    note: Day 31–32. Transit.
+    maps: Bangor Maine
+    verified: false
+    lat: null
+    lng: null
+- group: Acadia
+  places:
+  - name: Blackwoods Campground
+    note: Nights 2–4. Doesn't connect to the carriage roads by bike.
+    maps: Blackwoods Campground Acadia
+    verified: false
+    lat: null
+    lng: null
+  - name: Sand Beach
+    note: Days 2–3. Ocean Path and the Beehive start here.
+    maps: Sand Beach Acadia
+    verified: false
+    lat: null
+    lng: null
+  - name: Beehive Trailhead
+    note: Day 3. Iron rungs.
+    maps: Beehive Trailhead Acadia
+    verified: false
+    lat: null
+    lng: null
+  - name: Jordan Pond House
+    note: Day 3 or 4. Popovers; ask for butter.
+    maps: Jordan Pond House
+    verified: false
+    lat: null
+    lng: null
+  - name: Seal Cove
+    note: Day 3 sunset, west-facing.
+    maps: Seal Cove Picnic Area Acadia
+    verified: false
+    lat: null
+    lng: null
+  - name: Eagle Lake carriage road lot
+    note: Day 4 bike start. Parking not checked.
+    maps: Eagle Lake Bridge Acadia
+    verified: false
+    lat: null
+    lng: null
+- group: Fundy
+  places:
+  - name: Fundy NP campground
+    note: Night 5. Headquarters or Chignecto.
+    maps: Fundy National Park Headquarters Campground
+    verified: false
+    lat: null
+    lng: null
+  - name: Matthews Head Trail
+    note: Day 5 evening.
+    maps: Matthews Head Trail Fundy National Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Hopewell Rocks
+    note: Day 6 morning, only if the tide fits.
+    maps: Hopewell Rocks
+    verified: false
+    lat: null
+    lng: null
+- group: Cape Breton
+  places:
+  - name: Chéticamp Campground
+    note: Nights 6–7. Season not found.
+    maps: Cheticamp Campground Cape Breton Highlands
+    verified: false
+    lat: null
+    lng: null
+  - name: Skyline Trail
+    note: Day 7 sunset.
+    maps: Skyline Trail Cape Breton Highlands
+    verified: false
+    lat: null
+    lng: null
+  - name: Celtic Shores Coastal Trail, Inverness
+    note: Day 7 optional ride.
+    maps: Celtic Shores Coastal Trail Inverness
+    verified: false
+    lat: null
+    lng: null
+  - name: Marine Atlantic North Sydney
+    note: Day 8 out, Day 31 back in.
+    maps: Marine Atlantic North Sydney
+    verified: false
+    lat: null
+    lng: null
+- group: Port aux Basques and Gros Morne
+  places:
+  - name: J.T. Cheeseman Provincial Park
+    note: Night 8. Opening date not confirmed.
+    maps: J.T. Cheeseman Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Corner Brook
+    note: Day 9. The real shop; Canadian Tire for fuel.
+    maps: Corner Brook NL
+    verified: false
+    lat: null
+    lng: null
+  - name: Trout River Campground
+    note: Nights 9–10.
+    maps: Trout River Campground Gros Morne
+    verified: false
+    lat: null
+    lng: null
+  - name: Tablelands Trail
+    note: Day 9 sunset. The mantle.
+    maps: Tablelands Trail Gros Morne
+    verified: false
+    lat: null
+    lng: null
+  - name: Green Gardens Trail
+    note: Day 10.
+    maps: Green Gardens Trail Gros Morne
+    verified: false
+    lat: null
+    lng: null
+  - name: Lookout Trail, Woody Point
+    note: Day 11.
+    maps: Lookout Trail Woody Point
+    verified: false
+    lat: null
+    lng: null
+  - name: The Old Loft, Woody Point
+    note: Day 11 lunch.
+    maps: The Old Loft Woody Point
+    verified: false
+    lat: null
+    lng: null
+  - name: Berry Hill Campground
+    note: Nights 11–13.
+    maps: Berry Hill Campground Gros Morne
+    verified: false
+    lat: null
+    lng: null
+  - name: Lobster Cove Head
+    note: Days 11–12 sunset.
+    maps: Lobster Cove Head Lighthouse
+    verified: false
+    lat: null
+    lng: null
+  - name: Western Brook Pond Trail
+    note: Day 12.
+    maps: Western Brook Pond Trail Gros Morne
+    verified: false
+    lat: null
+    lng: null
+  - name: Java Jack's, Rocky Harbour
+    note: Day 12 lunch.
+    maps: Java Jacks Rocky Harbour
+    verified: false
+    lat: null
+    lng: null
+- group: Northern Peninsula and Labrador
+  places:
+  - name: The Arches Provincial Park
+    note: Day 14.
+    maps: The Arches Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Port au Choix National Historic Site
+    note: Day 14.
+    maps: Port au Choix National Historic Site
+    verified: false
+    lat: null
+    lng: null
+  - name: St. Barbe RV Park
+    note: Night 14.
+    maps: St. Barbe RV Park
+    verified: false
+    lat: null
+    lng: null
+  - name: St. Barbe Ferry Terminal
+    note: Days 15–16. Be there 1 h early.
+    maps: St. Barbe Ferry Terminal
+    verified: false
+    lat: null
+    lng: null
+  - name: Red Bay National Historic Site
+    note: Day 15. Saddle Island tour.
+    maps: Red Bay National Historic Site
+    verified: false
+    lat: null
+    lng: null
+  - name: Pinware River Provincial Park
+    note: Night 15.
+    maps: Pinware River Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Point Amour Lighthouse
+    note: Day 16.
+    maps: Point Amour Lighthouse
+    verified: false
+    lat: null
+    lng: null
+  - name: Pistolet Bay Provincial Park
+    note: Nights 16–18.
+    maps: Pistolet Bay Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: L'Anse aux Meadows National Historic Site
+    note: Day 17.
+    maps: L'Anse aux Meadows National Historic Site
+    verified: false
+    lat: null
+    lng: null
+  - name: Quirpon (Cobbler Loop)
+    note: Day 17.
+    maps: Quirpon Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Gunner's Cove (Fortune trailhead)
+    note: Day 17. Start badly marked from the Quirpon side; this is the gentler one.
+    maps: Gunners Cove Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Great Brehat (Little Brehat trailhead)
+    note: Day 18.
+    maps: Great Brehat Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Northland Discovery Boat Tours
+    note: Day 18, 1 PM sailing.
+    maps: Northland Discovery Boat Tours St. Anthony
+    verified: false
+    lat: null
+    lng: null
+- group: Gander, Twillingate, Bonavista, Trinity
+  places:
+  - name: Gander International Airport
+    note: Day 19. Friends land.
+    maps: Gander International Airport
+    verified: false
+    lat: null
+    lng: null
+  - name: Long Point Lighthouse
+    note: Day 20 sunset.
+    maps: Long Point Lighthouse Twillingate
+    verified: false
+    lat: null
+    lng: null
+  - name: Dungeon Provincial Park
+    note: Day 21.
+    maps: Dungeon Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Elliston Puffin Viewing Site
+    note: Day 21, the hour before sunset.
+    maps: Elliston Puffin Viewing Site
+    verified: false
+    lat: null
+    lng: null
+  - name: Skerwink Trail
+    note: Day 22 sunset.
+    maps: Skerwink Trail Trinity East
+    verified: false
+    lat: null
+    lng: null
+  - name: B-36 crash site
+    note: Day 22 option. A memorial.
+    maps: B-36 crash site Burgoyne's Cove
+    verified: false
+    lat: null
+    lng: null
+  - name: British Harbour Trail
+    note: Day 22 option.
+    maps: British Harbour Trail New Bonaventure
+    verified: false
+    lat: null
+    lng: null
+- group: St. John's and the Avalon
+  places:
+  - name: Signal Hill National Historic Site
+    note: Days 24 and 26.
+    maps: Signal Hill National Historic Site
+    verified: false
+    lat: null
+    lng: null
+  - name: Ches's Fish and Chips
+    note: Day 24.
+    maps: Ches's Fish and Chips St. John's
+    verified: false
+    lat: null
+    lng: null
+  - name: Cape Spear Lighthouse
+    note: Day 25 sunrise.
+    maps: Cape Spear Lighthouse
+    verified: false
+    lat: null
+    lng: null
+  - name: Chafe's Landing, Petty Harbour
+    note: Day 25 lunch.
+    maps: Chafe's Landing Petty Harbour
+    verified: false
+    lat: null
+    lng: null
+  - name: Quidi Vidi Village
+    note: Day 26.
+    maps: Quidi Vidi Village
+    verified: false
+    lat: null
+    lng: null
+  - name: Bay Bulls (Witless Bay boats)
+    note: Day 27.
+    maps: Bay Bulls Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: La Manche Provincial Park
+    note: Day 27 ruins; night 28 (assumed).
+    maps: La Manche Provincial Park
+    verified: false
+    lat: null
+    lng: null
+  - name: St. John's International Airport
+    note: Day 28. Friends fly out.
+    maps: St. John's International Airport
+    verified: false
+    lat: null
+    lng: null
+  - name: Colony of Avalon, Ferryland
+    note: Day 28.
+    maps: Colony of Avalon Ferryland
+    verified: false
+    lat: null
+    lng: null
+  - name: Cape St. Mary's Ecological Reserve
+    note: Day 29. Gannets.
+    maps: Cape St. Mary's Ecological Reserve
+    verified: false
+    lat: null
+    lng: null
+  - name: Marine Atlantic Argentia Terminal
+    note: Day 30. The pin.
+    maps: Marine Atlantic Argentia Terminal
+    verified: false
+    lat: null
+    lng: null

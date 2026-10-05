@@ -1,7 +1,7 @@
 ---
 slug: dinosaur-nm
 title: Dinosaur National Monument
-subtitle: Maui return leg — the sleeper
+subtitle: The quarry wall and the Green River — the sleeper
 status: wishlist
 months: [ 4, 5, 6, 7, 8, 9, 10 ]
 mode: fly
@@ -11,16 +11,18 @@ region: Jensen, Utah / Colorado
 country: USA
 coords: [ 40.44, -109.3 ]
 budget: ✅ 191 mi, just over 3 hr from SLC — the shortest transfer of any option
-tags: [ car camping, geology, fossils, river, may, maui bookend, empty ]
-updated: 2026-09-04
+tags: [ car camping, geology, fossils, river, may, empty ]
+updated: 2026-10-05
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
 # Dinosaur National Monument
 
-*Maui return leg — the sleeper*
+*The quarry wall and the Green River — the sleeper*
 
 ## Why
+
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the sleeper")*
 
 The **Quarry Exhibit Hall is a rock face with roughly 1,500 dinosaur bones still embedded in it** — an in-situ Jurassic bone bed under a building, not a museum with casts. Then **Split Mountain**, where the Green River cuts *straight through* an anticline instead of going around it, which is the textbook example of an antecedent stream.
 

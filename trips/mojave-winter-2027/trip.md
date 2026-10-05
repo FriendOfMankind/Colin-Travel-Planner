@@ -4,7 +4,7 @@ title: Mojave Winter Loop
 subtitle: Death Valley, Joshua Tree, and the desert that only exists in January
 emoji: 🏜️
 theme: desert
-status: outline
+status: shelved
 pinned: false
 months: [ 12, 1, 2 ]
 mode: fly

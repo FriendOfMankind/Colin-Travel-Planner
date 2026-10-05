@@ -95,7 +95,7 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: "*(stated 2026-10-04)* Type not recorded."
 - name: Bug head net
   state: need
-  note: "*(stated 2026-10-04: \"I can get bug stuff\")* For black-fly season: still evenings in the woods, central Newfoundland in late May and June (`wishlist/newfoundland.md`)."
+  note: "*(stated 2026-10-04: \"I can get bug stuff\")* For black-fly season: still evenings in the woods, central Newfoundland in late May and June (`trips/newfoundland-2027/`)."
 - name: Headlamp + spare batteries
   state: own
   note: In the pack regardless of the hour.
@@ -141,7 +141,7 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   type: shell
   qty: 1
   state: need
-  note: "*(stated 2026-10-04: \"willing to get\")* Not owned. For Newfoundland's default fog and drizzle (`wishlist/newfoundland.md`); the jacket alone leaves wet legs on a sea-meadow hike."
+  note: "*(stated 2026-10-04: \"willing to get\")* Not owned. For Newfoundland's default fog and drizzle (`trips/newfoundland-2027/`); the jacket alone leaves wet legs on a sea-meadow hike."
 - name: "Midlayer: YoColorado grid fleece hoodie (snap front)"
   type: midlayer
   qty: 1
@@ -355,7 +355,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   note: "*(stated 2026-10-01)* The off-grid lifeline. Apple's satellite features (Emergency SOS, Messages, Find My and Roadside Assistance via satellite) cover iPhone 14 and later, and free access was extended for the 14, 15 and 16 *(source: macrumors.com, 2026-09-09, search snippet read 2026-10-01)*. Works only with no cell or Wi-Fi and a clear view of the sky *(source: support.apple.com/en-us/101573, search snippet, 2026-10-01)*. ⚠️ Untested by Colin: run the demo (Settings → Emergency SOS) at home, then in a gorge. When the free period ends: not recorded."
 - name: Passport
   state: own
-  note: "*(stated 2026-10-03)* Valid for travel is assumed; the expiry date isn't recorded. Needed for Canada by road (`wishlist/newfoundland.md`)."
+  note: "*(stated 2026-10-03)* Valid for travel is assumed; the expiry date isn't recorded. Needed for Canada by road (`trips/newfoundland-2027/`)."
 - name: First aid kit
   state: own
 - name: Printed permits + reservations

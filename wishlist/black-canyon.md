@@ -11,8 +11,8 @@ region: Montrose, Colorado
 country: USA
 coords: [ 38.57, -107.72 ]
 budget: ~5 hr from DEN, ~1.5 hr from Montrose
-tags: [ car camping, geology, slot canyons, may, maui bookend, rim park ]
-updated: 2026-10-03
+tags: [ car camping, geology, slot canyons, may, rim park ]
+updated: 2026-10-05
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -21,6 +21,8 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 *Colorado's one world-class May option*
 
 ## Why
+
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
 **Precambrian gneiss and schist, roughly 1.7–2 billion years old** — the oldest rock you can stand next to in the region, and the Gunnison cut 2,000+ ft straight down into it. Narrow enough that parts of the floor get about half an hour of sun a day. The Painted Wall is Colorado's tallest cliff.
 

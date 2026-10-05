@@ -81,6 +81,7 @@ export function buildIndex() {
   section("Planned trips", byStatus("planned"));
   section("Outlines", byStatus("outline"));
   section("Done", byStatus("done"));
+  section("Shelved (built, deferred on purpose; not a live plan)", byStatus("shelved"));
 
   const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map((f) => ({ f, ...parseIdea(read(`wishlist/${f}`)) }));
   if (ideas.length) {

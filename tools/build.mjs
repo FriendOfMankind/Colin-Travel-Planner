@@ -23,6 +23,12 @@ const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
 const has = (rel) => existsSync(join(ROOT, rel));
 const ls = (rel) => (has(rel) ? readdirSync(join(ROOT, rel)) : []);
 marked.setOptions({ gfm: true, breaks: false });
+// GFM strikes text between two single tildes, and these files use "~" to mean
+// "about" ("~45 min … ~1½ mugs"). Only ~~double~~ strikes through here.
+marked.use({ tokenizer: { del(src) {
+  const m = /^~~(?=[^\s~])([\s\S]*?[^\s~])~~(?!~)/.exec(src);
+  if (m) return { type: "del", raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
+} } });
 const md = (s) => (s ? marked.parse(String(s)) : "");
 const mdi = (s) => (s ? marked.parseInline(String(s)) : "");
 

@@ -1,7 +1,7 @@
 ---
 slug: capitol-reef
 title: Capitol Reef
-subtitle: Maui return leg — the pick
+subtitle: The Waterpocket Fold, and the least-visited of the Mighty Five
 status: wishlist
 months: [ 5, 6, 7, 8, 9, 10 ]
 mode: fly
@@ -11,16 +11,18 @@ region: Torrey, Utah
 country: USA
 coords: [ 38.29, -111.26 ]
 budget: ~3.5 hr drive from SLC
-tags: [ car camping, geology, red rock, may, maui bookend, uncrowded ]
-updated: 2026-10-03
+tags: [ car camping, geology, red rock, may, uncrowded ]
+updated: 2026-10-05
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
 # Capitol Reef
 
-*Maui return leg — the pick*
+*The Waterpocket Fold, and the least-visited of the Mighty Five*
 
 ## Why
+
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the pick")*
 
 The **Waterpocket Fold is a 100-mile wrinkle in the Earth's crust** — a monocline about as well exposed as any on the planet, and the entire reason the park exists. ✅ **Least-visited of Utah's Mighty Five**, so it passes the crowd test that Zion and Arches fail outright: no shuttle, no timed entry, no permit lottery.
 
