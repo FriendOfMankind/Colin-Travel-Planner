@@ -491,3 +491,26 @@ All CAD figures ✅ read on official pages 2026-10-04 unless marked. **USD conve
 - **The biggest swing is fuel**: a 2026 gas spike (Nova Scotia prices fell back to ~185.4 ¢/L in April 2026 after a jump, CityNews Halifax) means 2027 prices are a guess either way. Every $0.50/gal swing in the US ≈ $43; every C$0.20/L swing in Canada ≈ C$108
 - Bang for buck (`me/travel-style.md`): no airfare and no rental. ~$95/day for 33 days, against Kenai's flight + rental + campgrounds stack. Ferries are only ~$240 USD total thanks to the 2025 federal rate cut (the Why section notes it could lapse)
 - Total distance is ~5,700 mi, not the ~4,500 in the frontmatter (that predates Fundy, Labrador, Twillingate and the Avalon)
+
+### 2026-10-05 · Friends joining for about a week
+Colin: people are interested in joining **for Newfoundland only**: they'd fly in, stay about a week, and fly home; **likely hotels instead of campgrounds**; they want the **boat tours and highlights** *(stated 2026-10-05)*. Not yet known: how many people, where they fly from, and whether Colin stays in the hotels too.
+
+**Where they can fly in** (📋 search snippets, 2026-10-05)
+- **St. John's (YYT)** is the main airport, with the most connections (United lists routes from several US hubs via connections; PAL flies YYT–Deer Lake daily)
+- **Gander (YQX)**: Air Canada, non-stop to Halifax and Toronto *(halifaxstanfield.ca; flightsfrom.com)*
+- **Deer Lake (YDF)**: daily flights to St. John's, Toronto, Halifax and Montreal *(deerlakeairport.com; Skyscanner)*
+- ✅ Routed: Gander airport → Twillingate **1 h 31 m** (+15% 1 h 45 m) · Deer Lake airport → Rocky Harbour **54 m** · Trinity → St. John's airport **2 h 54 m** *(firecrawl-maps, 2026-10-05)*
+
+**The windows**
+| Window | Fly in → out | Nights | What they get | Catch |
+|---|---|---|---|---|
+| **A · East, recommended** | **Gander Thu 6/10 → St. John's Sat 6/19** (open-jaw) | ~9 | Twillingate icebergs + boat, Elliston puffins, Skerwink, Trinity, St. John's, Cape Spear, Witless Bay puffin/whale boat, La Manche, full moon | Open-jaw flights cost more; Gander has few flights |
+| **A′ · East, shorter** | **St. John's in/out**, Sat 6/12 or Mon 6/14 → Sat 6/19 | 5–7 | Trinity/Bonavista + the whole Avalon; one airport, simplest flights | Misses Twillingate's icebergs |
+| B · West | Deer Lake in/out, ~5/31 → 6/5 | ~5 | Gros Morne: Tablelands, Green Gardens, Western Brook (a group helps reach the boat's 15-rider minimum) | The coldest stretch (2026 lows hit 21–25°F); no iceberg or whale boats; services just opening |
+| C · North | Deer Lake / St. Anthony, ~6/5 → 6/9 | ~5 | Icebergs, L'Anse aux Meadows, Labrador | 4+ h from Deer Lake each way; St. Anthony's airport is tiny; the Labrador ferry day |
+
+**Logistics they'll ask about**
+- 🚨 **The car.** The Legacy seats 5, but the trunk is full of camp gear with a bike rack across the lid. One guest with light bags can fit; **two or more means a rental car.** 📋 Newfoundland's summer rental shortage: "booked for nearly the whole summer" at St. John's (CTV News); "you need to book 4–6 months out" (Reddit); one 18-day midsize SUV ran C$2,662 (Facebook group) *(search snippets, 2026-10-05)*. So **book any rental by ~January 2027**, and the open-jaw window adds a one-way fee (⚠️ not priced)
+- **Hotels.** 📋 Twillingate averages ~$124/night (TripAdvisor); St. John's ~$112–205 (Skyscanner) *(snippets, 2026-10-05)*. A Facebook thread says book early for June. Trinity: not priced
+- **Boats** already in the plan: Twillingate (~$100+), Witless Bay (C$94–95). St. Anthony's isn't on their path in window A
+- **Colin's plan barely changes in window A.** Days 19–29 already run Twillingate → Bonavista → Trinity → Avalon. The changes: a Gander pickup on 6/10 or 6/11 (1 h 45 m each way from Twillingate), hotels instead of Dildo Run, Lockston Path, Butter Pot and La Manche, and an airport drop on 6/19 before his Argentia sailing. The 3:30 AM Cape Spear sunrise becomes a "who's in?"
