@@ -14,7 +14,7 @@ The keys were written from the files as they stand on 2026-09-28 (updated after 
 |---|---|---|---|
 | 1 | What's my spice limit? | 1–2 of 5; background heat, not the point | `me/food.md` |
 | 2 | Can I eat almonds? | Yes if roasted: roasted nuts are confirmed fine; the buying instruction is "roasted" | `me/food.md` |
-| 3 | Are dried figs OK for my allergy? | **[unknown]** Dried fruit is still open. The Kentucky retro didn't settle it, because he didn't eat any | `me/food.md`, `trips/kentucky-2026/log.md` |
+| 3 | Are dried figs OK for my allergy? | Yes: dried fruit is fine *(stated 2026-10-04)*. Before that it was open, because Kentucky's planned dried fruit went uneaten *(key updated 2026-10-04; was **[unknown]**)* | `me/food.md` |
 | 4 | Would you put a brewery stop on a trip for me? | No. Breweries are declined, and beer is on the avoid list | `me/declined.md`, `me/food.md` |
 | 5 | How much ground clearance does my car have? | ~5.9 in, low front air dam, not high-clearance | `me/profile.md` |
 | 6 | What's my daily hiking ceiling? | Soft ~10 mi / ~2,500 ft, exceeded only when the payoff justifies it | `me/hiking.md` |

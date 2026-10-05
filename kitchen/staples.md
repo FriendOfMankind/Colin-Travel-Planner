@@ -54,7 +54,7 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
   3. Dump in half a box of stuffing (3 oz) and stir once. Lid on, 5 minutes.
   4. Fix it by eye: soggy means lid off and a minute back on the flame; dry and crumbly means a splash of hot water.
 
-  **It's the lightest dinner here** (~600 kcal with half a box). On a big day, use the whole box: ~+330 kcal, same pot, just more water. **Skip the dried cranberries** that usually go with it, since dried fruit is still an open allergy question in `me/food.md`.
+  **It's the lightest dinner here** (~600 kcal with half a box). On a big day, use the whole box: ~+330 kcal, same pot, just more water. The dried cranberries that usually go with it are back on the table: dried fruit is fine *(stated 2026-10-04, `me/food.md`; was: "skip them, still an open allergy question")*. They aren't in the macro rows.
 - **D8 · Mashed potatoes + gravy + sausage.** Brown the sliced kielbasa in the pot, add water and the peas, then stir in potato flakes and milk powder until it's thick. Make the gravy in your mug with hot water from the pot and pour it over. The mug is the one exception to one pot, because gravy needs its own container.
 
 **Kielbasa note:** it isn't a trunk item. Unopened vacuum packs keep well in a cooler, but they're a fresh add-on. The recipes use **turkey kielbasa** because regular pork kielbasa has 16 g of fat per 2 oz against 5 g, and the calculator showed fat is the macro that runs over. Use regular if you like it better and accept the fat.

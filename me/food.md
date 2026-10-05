@@ -61,8 +61,8 @@ The paragraph above was written before any of this was confirmed. Current state:
 
 - **Roasted nuts: fine. Confirmed.** Every nut in a recipe is a buying instruction (buy roasted), not a restriction. *(confirmed Sept 2026, source: Trees CLAUDE.md)*
 - **Raw fruit: open.** Recipes that carry it are flagged `review: oas` in the kitchen and stay flagged until this is answered.
-- **Dried fruit: open.** Same flag. Kentucky's plan carried figs (Day 4) and dried mango (Day 5), but **he didn't eat either**, so the retro couldn't answer it *(confirmed: kentucky-2026 log, 2026-09-27)*. October is planned without dried fruit, and the September crate's apricots and mango wait. Answering it needs a deliberate test: a small amount at home, not on a trail.
-- **Cooked fruit: open, and possibly moot.** See the patterns section. Both cooked-fruit dishes on the Menu Bench were rejected.
+- **Dried fruit: fine.** *(stated 2026-10-04: "cooked and dried fruit is fine")* So the September crate's apricots and mango are usable. *(was: open; Kentucky's planned figs and mango went uneaten, so the retro couldn't answer it, confirmed: kentucky-2026 log)*
+- **Cooked fruit: fine.** *(stated 2026-10-04)* Jam, pie and the like are allowed. *(was: "open, and possibly moot", because both cooked-fruit dishes on the Menu Bench were rejected. Those were dish rejections, not an allergy answer; see the patterns section.)*
 - **Raw vegetables:** the profile says they "can irritate". No specific trigger is recorded. Kentucky's plan carried raw salsa and pepperoncini, but he didn't eat those either *(confirmed: kentucky-2026 log)*, so this is still open.
 
 The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This file is the person, not the menu.
@@ -145,7 +145,8 @@ a preference list starts banning food nobody objected to:
     were both YES, so it is not legumes in general.
   - cold pizza, rice balls and egg salad rejected → leftovers repurposed as
     a cold lunch may be the objection, not the food.
-  - pork chop with apple AND griddled banana both rejected → <b>cooked fruit
-    may be out too</b>, which matters: cooked fruit was the proposed
-    workaround for the raw-fruit allergy. If both are out, fruit leaves the
-    plan entirely and the two raw apples need a non-fruit replacement.
+  - pork chop with apple AND griddled banana both rejected → those two
+    dishes are out. *(Updated 2026-10-04: cooked fruit is fine for the
+    allergy (stated), so this is taste, not OAS. Was: "cooked fruit may be
+    out too … fruit leaves the plan entirely".)* The two raw apples still
+    need a replacement while raw fruit stays open.
