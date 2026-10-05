@@ -28,8 +28,6 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/37 places located · log 10 entries · updated 2026-09-28
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
-- **Full Circle Maui** (`trips/maui-2027/`) · planned · May 13–20, 2027 · 8 days · 18/25 places located · log 1 entry · updated 2026-09-03
-  Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
 - **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
@@ -47,6 +45,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Shelved (built, deferred on purpose; not a live plan)
 
+- **Full Circle Maui** (`trips/maui-2027/`) · shelved · Shelved (was May 13–20, 2027). Aimed at spring 2028 as the friends trip · 8 days · 18/25 places located · log 2 entries · updated 2026-10-05
+  Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
 - **Mojave Winter Loop** (`trips/mojave-winter-2027/`) · shelved · no dates · 14 days · 6 open questions · 0/14 places located · log 1 entry · updated 2026-09-06
   🛑 **Deferred, Sept 6 2026 — not happening in January 2027.** His call, and it is not a scheduling problem: he would rather put the money into better places at better times of year than into the one window that happened…
 

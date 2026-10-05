@@ -22,7 +22,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
 **Precambrian gneiss and schist, roughly 1.7–2 billion years old** — the oldest rock you can stand next to in the region, and the Gunnison cut 2,000+ ft straight down into it. Narrow enough that parts of the floor get about half an hour of sun a day. The Painted Wall is Colorado's tallest cliff.
 

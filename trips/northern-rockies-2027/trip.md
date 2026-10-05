@@ -1112,6 +1112,6 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-[Maui](../maui-2027/) is May 13–20. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 6–26. Eastern Sierra is the probable August week. *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
+[Maui](../maui-2027/) is shelved for spring 2028 *(was: May 13–20, 2027; changed 2026-10-05)*. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 6–26. Eastern Sierra is the probable August week. *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
 
 The Eastern Sierra is **back in 2027 as the probable August week** (`wishlist/eastern-sierra.md`, stated 2026-09-30). It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. *(was: "dropped from 2027 by choice")* **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.

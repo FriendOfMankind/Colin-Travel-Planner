@@ -22,7 +22,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the sleeper")*
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the sleeper")*
 
 The **Quarry Exhibit Hall is a rock face with roughly 1,500 dinosaur bones still embedded in it** — an in-situ Jurassic bone bed under a building, not a museum with casts. Then **Split Mountain**, where the Green River cuts *straight through* an anticline instead of going around it, which is the textbook example of an antecedent stream.
 

@@ -22,7 +22,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
 ⚠️ A 23-million-year-old volcanic field split by the San Andreas and carried **195 miles north** from where it erupted — the other half is still down at Neenach. Talus caves, rhyolite spires, condors. ⚠️ Two real problems for May: **over 80% of annual visitation happens in spring** with long queues 10 AM–3 PM, and **Bear Gulch Cave closes mid-May to mid-July** for bat pupping. Midweek only, and check which caves are open.
 

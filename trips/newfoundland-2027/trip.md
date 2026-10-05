@@ -97,11 +97,11 @@ Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breto
 ### Dates
 
 May 23 – June 24, 2027 (target)
-33 days / 32 nights. Starts three days after Maui ends (May 20); ends twelve days before Glacier (July 6).
+33 days / 32 nights. Ends twelve days before Glacier (July 6). *(was: "Starts three days after Maui ends (May 20)"; Maui moved to spring 2028, 2026-10-05.)* Starting earlier doesn't buy island days: the Argentia ferry pins the end, and the Gros Morne and northern ParksNL campgrounds opened May 22 and May 29 in 2026.
 
 ### Group
 
-Solo, except June 10–19: up to 3 friends flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05; not committed)*.
+Solo, except June 10–19: up to 3 friends flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05; not committed)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
 
 ### Why this direction
 

@@ -22,7 +22,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui ends, so Maui flies straight home. This stands alone now, for a PTO year. *(was: subtitle "The Maui return leg")*
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: subtitle "The Maui return leg")*
 
 The San Andreas runs straight through it — the Earthquake Trail has a fence line **offset about 20 feet by the 1906 rupture**, and the whole peninsula is a slab of granite rafted roughly 300 miles north from the southern Sierra. Tule elk at Tomales Point (~9.4 mi, nearly flat), Bear Valley out to Arch Rock, Chimney Rock. **Maximally unlike Maui** — cold fog, dairy ranches and a transform fault, three days after a shield volcano.
 
