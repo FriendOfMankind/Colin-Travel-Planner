@@ -286,7 +286,7 @@ items:
     why: Paved above 9,500 ft; emptiness and short approaches at the same time
     status: want
     trip: northern-rockies-2027
-    source: northern-rockies-2027 trip.md; wishlist/beartooth-plateau.md
+    source: northern-rockies-2027 trip.md (wishlist/beartooth-plateau.md folded into its log, 2026-10-05)
     added: 2026-09-30
 
   - id: badlands-notch-trail
@@ -346,8 +346,8 @@ items:
     months: [6, 7, 8, 9]
     why: You walk on exposed Earth's mantle. The rock that confirmed plate tectonics
     status: want
-    wishlist: newfoundland
-    source: wishlist/newfoundland.md
+    trip: newfoundland-2027
+    source: trips/newfoundland-2027/ (was wishlist/newfoundland.md)
     added: 2026-09-30
 
   - id: lanse-aux-meadows
@@ -358,8 +358,8 @@ items:
     months: [6, 7, 8, 9]
     why: North America's only confirmed Norse settlement, c. 1000 AD
     status: want
-    wishlist: newfoundland
-    source: wishlist/newfoundland.md
+    trip: newfoundland-2027
+    source: trips/newfoundland-2027/ (was wishlist/newfoundland.md)
     added: 2026-09-30
 
   - id: harding-icefield
@@ -450,8 +450,8 @@ items:
     months: [6, 7, 8]
     why: Real sliding down rock chutes, 3.5 h from home
     status: want
-    wishlist: ohiopyle
-    source: wishlist/ohiopyle.md
+    wishlist: pittsburgh
+    source: wishlist/pittsburgh.md (was wishlist/ohiopyle.md, merged 2026-10-05)
     added: 2026-09-30
 
   - id: letchworth-gorge
@@ -578,8 +578,8 @@ items:
     state: WY
     why: Dispersed sites on a creek between canyon walls
     status: want
-    wishlist: bighorns
-    source: wishlist/bighorns.md
+    trip: northern-rockies-2027
+    source: northern-rockies-2027 log (was wishlist/bighorns.md, folded in 2026-10-05)
     added: 2026-09-30
 
   - id: mirror-lake-highway
@@ -851,7 +851,7 @@ items:
     state: PA
     why: Rail trail through Ohiopyle; the bike doubles that weekend's range
     status: want
-    wishlist: ohiopyle
+    wishlist: pittsburgh
     source: gaptrail.org, wilderness-voyageurs.com (search snippets, 2026-09-30)
     added: 2026-09-30
 
@@ -882,9 +882,31 @@ items:
     state: ME
     why: Car-free broken-stone roads built for exactly a hybrid bike
     status: want
+    trip: newfoundland-2027
     wishlist: acadia
-    source: wishlist/acadia.md (daydream 2026-09-30)
+    source: wishlist/acadia.md (daydream 2026-09-30); ridden on Day 4 of trips/newfoundland-2027
     added: 2026-09-30
+
+  - id: celtic-shores-coastal-trail
+    name: Celtic Shores Coastal Trail
+    kind: other
+    where: Port Hastings to Inverness, Cape Breton, Nova Scotia
+    state: NS
+    why: 92 km of smooth rail trail along the Gulf, on the road to Chéticamp; built for a hybrid
+    status: want
+    trip: newfoundland-2027
+    source: celticshores.ca, destinationtrailsnovascotia.com, AllTrails (search snippets, 2026-10-05)
+    added: 2026-10-05
+
+  - id: down-east-sunrise-trail
+    name: Down East Sunrise Trail
+    kind: other
+    where: Ellsworth to Ayers Junction, Maine
+    state: ME
+    why: 88 mi of gravel railbed through Downeast marsh and coast; shared with ATVs, wide tires
+    status: want
+    source: sunrisetrail.org, AllTrails (search snippets, 2026-10-05)
+    added: 2026-10-05
 
   - id: grand-island-loop
     name: Grand Island loop

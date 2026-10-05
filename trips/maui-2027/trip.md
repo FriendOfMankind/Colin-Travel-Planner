@@ -7,10 +7,10 @@ title: Full Circle Maui
 subtitle: Counterclockwise island loop, solo
 emoji: 🌺
 theme: ocean
-status: planned
+status: shelved
 pinned: false
-start: 2027-05-13
-dates: May 13–20, 2027
+start: null
+dates: "Shelved (was May 13–20, 2027). Aimed at spring 2028 as the friends trip"
 window: May — dry season leeward, before summer crowds
 region: Maui, Hawaii
 states: [ HI ]
@@ -20,7 +20,7 @@ nights: 7 nights camping
 distance: ~400 mi driving
 budget: ~$1,362
 tags: [ car camping, volcanic, snorkeling, solo, road loop, altitude ]
-next: Confirm the Waiʻānapanapa booking window (1 year vs 90 days) so the alarm is set correctly
+next: "Nothing for 2027; don't book anything. Shelved 2026-10-05 for spring 2028 with friends. When that's real, rebuild it as a group trip: this plan is a solo camping loop, and every booking rule here needs re-verifying for 2028"
 booking:
   - system: state-park
     what: Waiʻānapanapa SP camping (5/14–5/16)
@@ -30,7 +30,7 @@ booking:
     what: Hosmer Grove (5/17–5/18)
     target: 2027-05-17
     note: 6 sites total. Book the morning it drops.
-updated: 2026-09-03
+updated: 2026-10-05
 map:
   center: [ 20.79, -156.32 ]
   zoom: 10

@@ -69,7 +69,7 @@ trip's start date.
   leadMonths: null
   what: Acadia NP campgrounds (Blackwoods, Seawall, Schoodic Woods) on recreation.gov
   when: Released in blocks, not a plain 6-month roll. For a May 20 arrival, booking opens **10 AM ET on Dec 1** (first release) or 10 AM ET on May 10 (second release)
-  note: 📋 nps.gov/acad camping page, search snippet, 2026-10-04 (nps.gov is blocked here). Confirm the release that covers the actual nights. Campground opening dates conflict across sources (Blackwoods May 1 or May 6; Seawall May 20 or May 25). *(added 2026-10-04 for wishlist/newfoundland)*
+  note: 📋 nps.gov/acad camping page, search snippet, 2026-10-04 (nps.gov is blocked here). Confirm the release that covers the actual nights. Campground opening dates conflict across sources (Blackwoods May 1 or May 6; Seawall May 20 or May 25). *(added 2026-10-04 for Newfoundland, now trips/newfoundland-2027)*
 - system: parks-canada
   leadMonths: null
   what: Parks Canada campgrounds (Gros Morne, Cape Breton Highlands, Fundy)

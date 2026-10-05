@@ -11,8 +11,8 @@ region: Fruita / Grand Junction, Colorado
 country: USA
 coords: [ 39.05, -108.7 ]
 budget: ~4 hr from DEN, 20 min from Grand Junction
-tags: [ car camping, red rock, geology, may, maui bookend ]
-updated: 2026-10-03
+tags: [ car camping, red rock, geology, may ]
+updated: 2026-10-05
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -21,6 +21,8 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 *The reliable Colorado option in May*
 
 ## Why
+
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
 Sheer red rock canyons and monoliths off Rim Rock Drive, at 4,700–6,600 ft — **low enough to be snow-free in May when the Colorado mountains are still unusable**. Monument Canyon, Window Rock, Canyon Rim and the Alcove Nature Trail all leave from near the visitor center.
 

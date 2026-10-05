@@ -10,7 +10,7 @@ window: "May–Oct is when the furnace tours and the waterslides both run. A sch
 region: Western Pennsylvania
 country: USA
 tags: [ city trip, urban hiking, stairs, industrial, state park, weekend, close ]
-updated: 2026-09-29
+updated: 2026-10-05
 source: daydream 2026-09-29
 ---
 
@@ -20,7 +20,7 @@ source: daydream 2026-09-29
 
 ## Why
 
-The cheapest way to find out whether a city trip actually works for Colin (see City trips in `me/travel-style.md`): a hotel base, one planned walking route, a named dish, then a state park and a campsite. Pittsburgh sits between home and [Ohiopyle](ohiopyle.md), so the park doesn't add a detour.
+The cheapest way to find out whether a city trip actually works for Colin (see City trips in `me/travel-style.md`): a hotel base, one planned walking route, a named dish, then a state park and a campsite. Pittsburgh sits between home and Ohiopyle, so the park doesn't add a detour. Ohiopyle alone, as a swim-and-bike weekend, is the same trip minus the city day.
 
 The rough shape:
 1. **Avon → McConnells Mill State Park → Pittsburgh.** Kildoo Trail, about 2 mi along Slippery Rock Creek gorge, starting at the covered bridge beside the historic gristmill. Then check in to the hotel.
@@ -50,3 +50,8 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - ✅ Ohiopyle (Kentuck) campground: hot showers, flush toilets, open through Dec 12 2026, tent sites bookable same day and up to 11 months ahead *(source: pennsylvaniastateparks.reserveamerica.com, 2026-09-29)*.
 - 📋 Meadow Run slides run "during summer months when water levels and temperatures are appropriate" *(source: ohiopyle.org, search snippet, 2026-09-29)*.
 - ⚠️ Not checked: drive times, a sunset spot (Mount Washington via the inclines is recalled, not verified), hotel area, parking, and the named dish.
+
+### 2026-10-05 · Merged in from wishlist/ohiopyle.md
+- `wishlist/ohiopyle.md` ("Best swimming per mile driven on the whole list") was half of this trip filed twice. Merged here on Colin's call *(stated 2026-10-05)*. What it said:
+- ⚠️ **Meadow Run natural waterslides**: actual sliding on rock, not a novelty plunge. Ferncliff Peninsula, Baughman Rock, the Youghiogheny. Kentuck Campground. Ranked #2 on the swimming list, ~3.5 h from home *(recalled, Trees bucket list Sept 2026)*. Cold before May
+- Colin owns a hybrid bike and a trunk rack (`me/gear.md`). 📋 The Great Allegheny Passage runs through Ohiopyle, free and open dawn to dusk *(source: wilderness-voyageurs.com, search snippet, 2026-09-30)*, so out-and-back rides from Kentuck add a day without adding a drive. Bucket item: `great-allegheny-passage`

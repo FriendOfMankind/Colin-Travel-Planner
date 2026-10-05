@@ -28,16 +28,14 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/37 places located · log 10 entries · updated 2026-09-28
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
-- **Full Circle Maui** (`trips/maui-2027/`) · planned · May 13–20, 2027 · 8 days · 18/25 places located · log 1 entry · updated 2026-09-03
-  Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
 - **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
 
-- **Mojave Winter Loop** (`trips/mojave-winter-2027/`) · outline · no dates · 14 days · 6 open questions · 0/14 places located · log 1 entry · updated 2026-09-06
-  🛑 **Deferred, Sept 6 2026 — not happening in January 2027.** His call, and it is not a scheduling problem: he would rather put the money into better places at better times of year than into the one window that happened…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 6–26, 2027 (target, unbooked) · 21 days · 7 open questions · 15/24 places located · log 1 entry · updated 2026-09-06
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 6 open questions · 0/58 places located · log 16 entries · updated 2026-10-05
+  ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 6–26, 2027 (target, unbooked) · 21 days · 7 open questions · 15/24 places located · log 2 entries · updated 2026-09-06
   ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list…
 
 ## Done
@@ -45,38 +43,39 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 
+## Shelved (built, deferred on purpose; not a live plan)
+
+- **Full Circle Maui** (`trips/maui-2027/`) · shelved · Shelved (was May 13–20, 2027). Aimed at spring 2028 as the friends trip · 8 days · 18/25 places located · log 2 entries · updated 2026-10-05
+  Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
+- **Mojave Winter Loop** (`trips/mojave-winter-2027/`) · shelved · no dates · 14 days · 6 open questions · 0/14 places located · log 1 entry · updated 2026-09-06
+  🛑 **Deferred, Sept 6 2026 — not happening in January 2027.** His call, and it is not a scheduling problem: he would rather put the money into better places at better times of year than into the one window that happened…
+
 ## Wishlist: `wishlist/`
 
 Potential trips, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what "what fits May?" matches against. `horizon` is the test from `me/calendar.md`: **only-now** can't survive two weeks of PTO after 2027-08-31, **keeps** can, **weekend** is inside the weekend radius, **confirmed** is happening but has no trip page yet. "(derived)" means it was computed from mode and length, not decided.
 
-- **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-09-30
+- **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-05
   The bike trip, if there's only one
-- **Beartooth Plateau** (`wishlist/beartooth-plateau.md`) · Montana / Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · 12 days · updated 2026-09-06
-  Paved to 9,500 ft
-- **Bighorns / Cloud Peak** (`wishlist/bighorns.md`) · Wyoming · drive · keeps (derived) · Jun/Jul/Aug/Sep · updated 2026-09-06
-  Unspent and cheap to reach
-- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-03
+- **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-05
   Colorado's one world-class May option
 - **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · keeps (derived) · Apr/May/Oct · 5–7 nights · updated 2026-09-04
   The penciled 2027 shoulder trip
-- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 2 research notes · updated 2026-10-03
-  Maui return leg — the pick
-- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 1 research note · updated 2026-10-03
+- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 2 research notes · updated 2026-10-05
+  The Waterpocket Fold, and the least-visited of the Mighty Five
+- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 1 research note · updated 2026-10-05
   The reliable Colorado option in May
-- **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-09-04
-  Maui return leg — the sleeper
+- **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
+  The quarry wall and the Green River — the sleeper
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · updated 2026-09-30
   The best payoff per dollar, as a week
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · updated 2026-09-30
   Family, not a plan
-- **Glacier National Park** (`wishlist/glacier-np.md`) · Montana · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-06
-  Highest hit rate — and the bureaucracy just went away
 - **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 2 research notes · updated 2026-10-03
   Warm desert water, which barely exists out west
 - **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-03
   Darkest sky in the lower 48
-- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · 1 research note · updated 2026-10-03
-  Maui return leg — with a real catch
+- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · 1 research note · updated 2026-10-05
+  Dunes and a snowmelt creek — with a real catch
 - **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 2 research notes · updated 2026-10-01
   78 miles of river, two tunnels, and nobody
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
@@ -89,29 +88,25 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Four hours away and never once mentioned
 - **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 2 research notes · updated 2026-10-01
   Raw, car-free, and ferry-only
-- **Newfoundland** (`wishlist/newfoundland.md`) · Newfoundland, via the Maritimes · drive · only-now (derived) · Jun/Jul/Aug/Sep · 33 days · 15 research notes · updated 2026-10-04
-  The Earth's mantle, a Viking hall, and icebergs — the June trip that actually is a June trip
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
-- **Ohiopyle** (`wishlist/ohiopyle.md`) · Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep · 2–3 nights · 2 research notes · updated 2026-09-30
-  Best swimming per mile driven on the whole list
 - **Olympic + Rainier** (`wishlist/olympic-rainier.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Motel nights are functional here
 - **Oregon Coast + Crater Lake** (`wishlist/oregon-coast-crater.md`) · Oregon / Northern California · fly · keeps (derived) · Sep · 12 nights, three landscapes · updated 2026-09-03
   Inverts the effort-equals-payoff model
-- **Owens Valley + Alabama Hills** (`wishlist/owens-valley.md`) · Lone Pine, California · fly · keeps (derived) · Apr/May/Oct · 3–4 nights · updated 2026-09-04
-  Maui bookend — the outbound leg
-- **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · keeps (derived) · Mar/Apr/May/Oct · 2–3 nights · updated 2026-09-04
+- **Owens Valley + Alabama Hills** (`wishlist/owens-valley.md`) · Lone Pine, California · fly · keeps (derived) · Apr/May/Oct · 3–4 nights · updated 2026-10-05
+  Alabama Hills granite under the Sierra wall
+- **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · keeps (derived) · Mar/Apr/May/Oct · 2–3 nights · updated 2026-10-05
   A volcano the San Andreas tore in half
-- **Pittsburgh + Ohiopyle** (`wishlist/pittsburgh.md`) · Western Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep/Oct · ~3: 1–2 in a Pittsburgh hotel, 1–2 at Kentuck (Ohiopyle) · 1 research note · updated 2026-09-29
+- **Pittsburgh + Ohiopyle** (`wishlist/pittsburgh.md`) · Western Pennsylvania · weekend · weekend (derived) · May/Jun/Jul/Aug/Sep/Oct · ~3: 1–2 in a Pittsburgh hotel, 1–2 at Kentuck (Ohiopyle) · 2 research notes · updated 2026-10-05
   The first city trip, as a test run
-- **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · keeps (derived) · Apr/May/Jun · 3–4 nights · updated 2026-09-04
-  The Maui return leg
+- **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · keeps (derived) · Apr/May/Jun · 3–4 nights · updated 2026-10-05
+  The San Andreas, tule elk and redwoods
 - **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-04
   Booked once, then pivoted away
 - **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · 2 research notes · updated 2026-10-03
   Ice Lakes Basin is the marquee
-- **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-09-04
+- **Sequoia + Kings Canyon** (`wishlist/sequoia-kings.md`) · Central California · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 3–4 nights · updated 2026-10-05
   The big-tree bookend
 - **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · keeps (derived) · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
   Land of a Thousand Waterfalls
@@ -130,9 +125,9 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-91 items · want 80 · done 11
+93 items · want 82 · done 11
 
-By kind: hike 27 · fossil 12 · other 10 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · swim 3 · walk 3 · geology 2 · river 2 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 27 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · swim 3 · walk 3 · geology 2 · river 2 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
@@ -144,11 +139,12 @@ By kind: hike 27 · fossil 12 · other 10 · view 7 · drive 6 · cave 5 · ruin
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
 - **KY** (7): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓, Mammoth Cave, Wild Cave Tour
-- **ME** (1): Acadia carriage roads
+- **ME** (2): Acadia carriage roads, Down East Sunrise Trail
 - **MI** (3): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak
 - **MT** (4): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft
 - **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
 - **NL** (2): The Tablelands, L'Anse aux Meadows
+- **NS** (1): Celtic Shores Coastal Trail
 - **NV** (4): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill
 - **NY** (2): Letchworth Gorge falls, Penn Dixie Fossil Park
 - **OH** (2): Caesar Creek Lake spillway, Flint Ridge

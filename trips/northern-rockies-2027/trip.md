@@ -78,7 +78,7 @@ page:
 
 # The Long Way to Glacier
 
-> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90 and home on I-94, so no road is driven twice: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, with Theodore Roosevelt catching the drive home.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is **20 nights across 9 places to sleep**, still roughly double the longest trip on record. **Days 6 and 17 are deliberately soft** and that is the mitigation.<br><br>⚠️ Ends July 26 on purpose — **nineteen days of turnaround before Kenai on Aug 14.**
+> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90 and home on I-94, so no road is driven twice: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, with Theodore Roosevelt catching the drive home.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is **20 nights across 9 places to sleep**, still roughly double the longest trip on record. **Days 6 and 17 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the July 26 end no longer protects anything; Eastern Sierra is the probable August week. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, twelve days before this leaves**, and the car will have just done ~5,700 mi. *(was: "nineteen days of turnaround before Kenai on Aug 14")*
 
 ## Overview
 
@@ -113,9 +113,9 @@ This was a 25-day draft. The four days came off the **front end** — Custer Sta
 
 The profile says 2–5 campgrounds, 5–10 nights. This is **20 nights across 9 places to sleep** — the Appalachians run was 11 days. **Days 6 and 17 are deliberately soft** and that is the mitigation.
 
-### Timing vs Alaska
+### Timing vs Newfoundland
 
-Home July 26. **Kenai starts Aug 14** — nineteen days of turnaround. The 25-day version left fifteen; the PNW version would have left six.
+**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 6. Twelve days to service the car after ~5,700 mi and repack. Kenai was the old reason this ends July 26, and it moved to a PTO year on 2026-09-30. *(was: "Timing vs Alaska: Kenai starts Aug 14, nineteen days of turnaround")*
 
 ## Days
 
@@ -880,7 +880,7 @@ Longer than any day on the way out, at day 20. **Two-hour stops, no exceptions.*
 
 ```yaml
 date: 2027-07-26
-tagline: Nineteen days until Alaska.
+tagline: The long way home, and nothing waiting at the end of it.
 type: travel
 driving: ~650 mi, ~11h
 slack: All of it — nothing is waiting.
@@ -889,7 +889,7 @@ overnight: null
 
 **Schedule**
 - 6:00 AM (11h) · drive! · → Avon OH. **Time the Chicago window one last time** — before 10 AM or after 7 PM.
-- arrival · note · **Kenai leaves Aug 14.** Nineteen days to unpack, service the car, do laundry and repack for a fly-in trip. That gap is why this trip ends July 26.
+- arrival · note · Nothing booked behind this. Eastern Sierra is the probable August week (`wishlist/eastern-sierra.md`). *(was: "Kenai leaves Aug 14"; Kenai moved to a PTO year, 2026-09-30)*
 
 **Meals**
 - B: packed
@@ -902,7 +902,7 @@ overnight: null
 
 #### Warnings
 
-The car has done 4,300 miles. **Get it looked at before Alaska, not after.**
+The car has now done ~10,000 miles in two months (Newfoundland, then this). **Get it looked at before it goes anywhere else.** *(was: "before Alaska")*
 
 ## Hikes
 
@@ -1047,7 +1047,7 @@ Download offline Google Maps for the whole corridor before leaving: Chicago–Ma
 
 ### Why this is a July trip, and why that mattered more than the destination
 
-The June road trip was checked destination by destination and June turned out to be the gap month in this entire wishlist. [Beartooth](#beartooth-plateau) needs late June at absolute minimum — US-212 opened May 23 in 2026 and was **closed again by snow until June 9**. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Lake Superior is peak blackfly. Utah is too hot, and Colorado's high country is still melting.
+The June road trip was checked destination by destination and June turned out to be the gap month in this entire wishlist. Beartooth needs late June at absolute minimum — US-212 opened May 23 in 2026 and was **closed again by snow until June 9**. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Lake Superior is peak blackfly. Utah is too hot, and Colorado's high country is still melting.
 
 **Moving the trip three weeks fixed more than any destination swap did.** Every anchor on this route is comfortably in season in mid-July and none of them was in June. That is the whole reason this page exists in this shape.
 
@@ -1112,6 +1112,6 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-This trip is the middle of three things and the only one that is drivable. [Maui](../maui-2027/) is May 13–20. This is July 6–26. [Kenai](#kenai-peninsula) is targeted at August 14–27, and **this route ends July 26 leaving nineteen days of turnaround before it** — the 25-day version left fifteen, and the PNW alternative would have left six, which is why it was dropped.
+[Maui](../maui-2027/) is shelved for spring 2028 *(was: May 13–20, 2027; changed 2026-10-05)*. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 6–26. Eastern Sierra is the probable August week. *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
 
-The Eastern Sierra was the fourth item and it was **dropped from 2027 by choice**, correctly: it is ten days on cheap Reno flights and a cheap car, a trip that survives a two-week PTO allowance in 2028 and every year after. A 4,300-mile drive and Alaska do not. **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.
+The Eastern Sierra is **back in 2027 as the probable August week** (`wishlist/eastern-sierra.md`, stated 2026-09-30). It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. *(was: "dropped from 2027 by choice")* **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.
