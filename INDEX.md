@@ -26,7 +26,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/37 places located · log 10 entries · updated 2026-09-28
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 15–25, 2026 · 11 days · 8 open questions · 9/37 places located · log 11 entries · updated 2026-10-06
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…

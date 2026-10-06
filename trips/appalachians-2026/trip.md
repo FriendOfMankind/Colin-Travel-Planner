@@ -41,7 +41,7 @@ booking:
     what: Hurricane Campground (Oct 24)
     target: 2026-10-24
     booked: true
-updated: 2026-09-28
+updated: 2026-10-06
 map:
   center: [ 37.2, -81.9 ]
   zoom: 7
@@ -128,7 +128,7 @@ overnight:
 - 2:55 → 3:55 (60m) · drive · **Fayette Station Road** — 8-mile one-way loop, hairpins to the gorge floor, passes directly under the bridge, crosses the Tunney Hunsaker Bridge, through the Fayette and South Fayette townsites. · 📍 Fayette Station Road Fayetteville WV
 - 3:55 → 4:10 (15m) · drive · Road exit onto US-19.
 - 4:10 → 5:20 (1h 10m) · camp! · ⚠️ **Claim a primitive site and pitch before dark.** Army Camp, Glade Creek, Grandview Sandbar or Stone Cliff — free, first-come, no water, pit toilets. Drive one and take what is open rather than shopping around; it is the Thursday of Bridge Day weekend. **Carry your own water in.**
-- 5:20 → 6:05 (45m) · hike · **Walk to Long Point from the tent**, ~1.6 mi each way. · 📍 Long Point Trailhead Fayetteville WV
+- 5:20 → 6:05 (45m) · hike · **Drive to the Long Point trailhead, then walk out**, ~1.6 mi each way. The trailhead is near Arrowhead, not at tonight's site, and the drive time depends on which campground you got (not measured). (was: "Walk to Long Point from the tent") · 📍 Long Point Trailhead Fayetteville WV
 - 6:05 → 7:05 (60m) · sunset · ⭐ **Long Point through sunset, 6:48** (recomputed; the plan said 6:52). Head-on bridge view — the classic angle.
 - 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required** — civil twilight ends ~7:17 and it's fully dark before you're off the trail.
 
@@ -195,7 +195,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: ~1h 30m before dark, and the jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **The parking call decides whether this version works.**
+slack: "~45m before the chili cook-off opens at 3, then ~2h before dark. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -212,12 +212,10 @@ overnight:
 - 8:00 → 9:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Full daylight by now (sunrise 7:35).
 - 9:30 → 12:00 (2h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
 - 12:00 → 2:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
-- 2:15 → 2:30 (15m) · drive · → Fayetteville High School shuttle lot. · 📍 Fayetteville High School Fayetteville WV
-- 2:30 → 2:55 (25m) · shuttle · Shuttle, $3 cash.
-- 2:55 → 3:30 (35m) · stop · **Bridge deck** — vendors, rappel teams working the catwalk, final jumps. **Watching the rappellers is the sustained action** — jumpers are gone in seconds.
-- 3:30 → 3:55 (25m) · shuttle · Shuttle back.
-- 3:55 → 5:10 (1h 15m) · event · **Chili cook-off**, Fayette County Courthouse. The food event of the day, plus 200+ vendors. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
-- 5:10 → 5:20 (10m) · drive · → Arrowhead. Sunset 6:45.
+- 2:15 → 2:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
+- 2:30 → 3:00 (30m) · stop · Sit down. You just climbed 800 ft. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
+- 3:00 → 4:30 (1h 30m) · event · **Chili cook-off**, Fayette County Courthouse, 3–6 PM *(source: visitfayettevillewv.com Bridge Day 2026 page, 2026-10-06)*. The food event of the day. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
+- 4:30 → 4:40 (10m) · drive · → Arrowhead. Sunset 6:45.
 
 **Meals**
 - B: bought — Tudor’s Biscuit World, Oak Hill, 6 AM
@@ -226,11 +224,11 @@ overnight:
 
 #### Highlights
 
-The free, legal version: the roads are open to pedestrians even though the trails are closed and patrolled. You watch from directly below the jump zone instead of from the deck with everyone else.
+The free, legal version: the roads are open to pedestrians even though the trails are closed and patrolled. You watch from directly below the jump zone instead of from the deck with everyone else. **The bottom is the whole day now** — no deck. The rappellers are visible from below too.
 
 #### Warnings
 
-**Rules:** US-19 closed 7 AM–5 PM, all four lanes; local traffic only from Ames Heights Rd (N) and Rt 16 (S). Private vehicles cannot reach Fayette Station or Teays Landing — the road closes below Teays Landing at 6 PM Friday and cars there get towed. Riverbank spectating between Fayette Station Rapid and Fleaflicker Rapid is prohibited. No pets, bikes, carts or strollers on the bridge. **Fallback if the walk-down is closed in 2026:** leave camp 7:30, park at Fayetteville HS by 7:45, shuttle at 8:30, deck 9–3, chili at 3.
+**Rules:** US-19 closed 7 AM–5 PM, all four lanes; local traffic only from Ames Heights Rd (N) and Rt 16 (S). Private vehicles cannot reach Fayette Station or Teays Landing — the road closes below Teays Landing at 6 PM Friday and cars there get towed. Riverbank spectating between Fayette Station Rapid and Fleaflicker Rapid is prohibited. No pets, bikes, carts or strollers on the bridge. **Fallback if the walk-down is closed in 2026:** leave camp 7:30, park at Fayetteville HS by 7:45, shuttle at 8:30 ($5 cash), deck until 3, chili at 3. ⚠️ The last shuttle *to* the event is 1:30 PM, so the fallback has to start in the morning. **Bags on the bridge:** no backpacks or camera bags; clear bags and fanny packs only *(source: officialbridgeday.com, 2026-10-06)*.
 
 ### Day 4 — 2026-10-18 · Kaymoor, Thurmond, Then South
 
@@ -591,7 +589,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | Trailhead is at the campground. Returns after dark — headlamp. |
+| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | Trailhead is near Arrowhead — a drive from the Oct 15 site (was: "at the campground"). Returns after dark — headlamp. |
 | Endless Wall → Diamond Point | 2 | 5.4 mi | 508 ft | Moderate | 3h | Verified in source. Nuttall lot, not Fern Creek. Must be Friday — closed Saturday. |
 | Nuttallburg + Conveyor Trail | 2 | ~1.0 mi (est) | — | Easy–steep | 1h 30m | The climb to the headhouse is now core, not optional (Sept 28). Keeneys Creek Rd access is the clearance question. |
 | ⭐ Kaymoor Miners Trail | 4 | ~1 mi RT + 800+ steps (from reports) | Steep — unmeasured | Strenuous (stairs) | 2h (est) | Promoted from fallback Sept 28: unrestored mine buildings, the trip's best match for the Blevins-farm kind of ruin. Distance and gain are from trip reports, not measured. |
@@ -708,8 +706,8 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Bridge Day
 
-- [ ] CASH — shuttle is $3, chili cook-off and 200+ vendors are cash
-- [ ] Day bag only — no packs, pets, bikes, carts or strollers on the bridge
+- [ ] CASH — chili cook-off is cash; the shuttle (fallback only) is $5 cash *(officialbridgeday.com FAQ, 2026-10-06; was: "$3")*
+- [ ] Bag: a normal day pack is fine for the gorge-floor plan. **Only if the fallback puts you on the bridge:** no backpacks or camera bags, clear bag or fanny pack only (was: "Day bag only")
 - [ ] Layers for 9 miles with 800 ft of climb on the return
 
 ### The lecture kit
@@ -793,7 +791,7 @@ Bail-outs are named in the master file — Mortimer, or a motel in Newland, Linv
 ### Keeneys Creek Road for 5.9 inches of clearance.
 
 **Blocks:** Day 2 afternoon
-Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. ⚠️ Since the Aug 15–16 floods, Nuttallburg Road itself was reported washed out — ask Canyon Rim, (304) 574-2115, before counting on either.
+Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. **Keeneys Creek Road to Nuttallburg reopened after the August floods** *(source: wvnstv.com, 2026-09-03, citing the park's Facebook; read 2026-10-06)* (was: "reported washed out"). Still open: clearance for 5.9 in, and an undated park closure of the Keeneys Creek *Rail Trail* above the Conveyor Trail junction *(nps.gov, search snippet)* — read literally that's not the headhouse climb, but confirm. Canyon Rim, (304) 574-2115.
 
 ### Table Rock loop routing with the Spence Ridge bridge out.
 
