@@ -1070,3 +1070,117 @@ items:
     status: want
     source: tripadvisor (4.8★, search snippet, 2026-10-01); nps.gov/maca cave tours (search snippet, 2026-10-01)
     added: 2026-10-01
+
+  # ------------------------------ stream walks (the creek is the trail)
+
+  - id: zion-narrows-bottom-up
+    name: The Narrows, bottom-up
+    kind: hike
+    where: Zion National Park, Utah
+    state: UT
+    why: The benchmark river-as-trail. Day hike upstream from Temple of Sinawava, no permit
+    status: want
+    source: zionguru.com/rentals/narrows (search snippet, 2026-10-06); daydream 2026-10-06
+    added: 2026-10-06
+
+  - id: west-fork-oak-creek
+    name: West Fork of Oak Creek
+    kind: hike
+    where: Oak Creek Canyon, north of Sedona, Arizona
+    state: AZ
+    why: About 13 creek crossings under red and white walls. Burned in the 2026 Pocket Fire; check conditions first
+    status: want
+    source: alltrails.com/trail/us/arizona/west-fork-trail; azfamily.com 2026-09-14 (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: kanarra-creek
+    name: Kanarra Creek falls
+    kind: hike
+    where: Kanarraville, near Cedar City, Utah
+    state: UT
+    why: Wade a slot canyon and climb a ladder up a waterfall; Honey Creek in water form
+    status: want
+    source: visitcedarcity.com, kanarrafalls.com (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: sulphur-creek
+    name: Sulphur Creek route
+    kind: hike
+    where: Capitol Reef National Park, Utah
+    state: UT
+    why: Wade through the park's oldest rock and downclimb three small waterfalls
+    status: want
+    wishlist: capitol-reef
+    source: nps.gov/care/planyourvisit/sulphur-creek.htm (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: gold-strike-hot-springs
+    name: Gold Strike Canyon to Arizona Hot Springs
+    kind: hike
+    where: Lake Mead NRA, near Hoover Dam, Nevada / Arizona
+    state: NV
+    why: A hot-water canyon with fixed ropes and a ladder; winter only
+    status: want
+    source: travelnevada.com/hot-springs/gold-strike-hot-springs; alltrails.com (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: gila-middle-fork-jordan
+    name: Middle Fork Gila to Jordan Hot Springs
+    kind: hike
+    where: Gila Wilderness, near Gila Cliff Dwellings, New Mexico
+    state: NM
+    why: Over the 10-mile ceiling, with many river crossings and a hot spring at the end
+    status: want
+    source: alltrails.com/trail/us/new-mexico/jordan-hot-springs (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: wire-pass-buckskin
+    name: Wire Pass into Buckskin Gulch
+    kind: hike
+    where: Paria Canyon–Vermilion Cliffs Wilderness, Utah / Arizona
+    state: UT
+    why: Into one of the longest slots anywhere; mud and pools. The access road is a clearance question
+    status: want
+    source: blm.gov/visit/wire-pass (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: willis-creek
+    name: Willis Creek slot
+    kind: hike
+    where: Grand Staircase–Escalante, Utah
+    state: UT
+    why: Easy ankle-deep creek through a slot
+    status: want
+    wishlist: grand-staircase
+    source: wishlist/grand-staircase.md
+    added: 2026-10-06
+
+  - id: fern-canyon
+    name: Fern Canyon
+    kind: hike
+    where: Prairie Creek Redwoods State Park, California
+    state: CA
+    why: Walk the creek between 50-foot walls of ferns
+    status: want
+    source: redwoodparksconservancy.org/fern-canyon (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: johnsons-shut-ins
+    name: Johnson's Shut-Ins
+    kind: river
+    where: St. Francois Mountains, Missouri
+    state: MO
+    why: The Black River squeezed through volcanic rock into chutes and pools
+    status: want
+    source: visitmo.com, missourilife.com (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: red-creek-dolly-sods
+    name: Red Creek
+    kind: hike
+    where: Dolly Sods Wilderness, West Virginia
+    state: WV
+    why: Fords and waterfalls up a creek on a Canada-like plateau; unblazed in places
+    status: want
+    source: hikingproject.com, myhikes.org (search snippets, 2026-10-06)
+    added: 2026-10-06
