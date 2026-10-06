@@ -69,6 +69,8 @@ The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This fi
 
 ## What actually works on the road (evidence)
 
+From the Southwest trip (May 2026, five friends): grocery runs and camp cooking were planned, and it came out **about half cooked, half bought** *(confirmed: southwest-2026 log)*. That's a group trip, so it's weak evidence for solo trips.
+
 From Kentucky 2026, where the detailed meal plan mostly didn't survive contact with the trip: *"I ended up going back to things I had in stock, staples."* *(confirmed: kentucky-2026 log, 2026-09-27)*
 
 **Actually eaten, and liked:**

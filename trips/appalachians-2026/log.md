@@ -195,3 +195,10 @@ Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Go
 - **Last-minute batch: 15/night, Wednesdays at 10 AM ET for the coming weekend → Wed Oct 21, 10:00.** Day 7 now has a 9:30 block to get Starlink up and grab it before the lecture setup.
 - **Camping on Table Rock needs no permit, any night.** That settles the AllTrails conflict in `trip.md`'s favor, and it gives a no-permit Friday option too (still first-come).
 - Permits are Fri/Sat only, inside the Wilderness. Stay limit: 2 nights.
+
+## 2026-10-06 · Carry-forward from the Southwest retro
+
+From `trips/southwest-2026/log.md` (May 2026, a group trip). Not plan changes; the calls are Colin's:
+- **Stargazing walkable from camp is a yes** (`me/declined.md`, narrowed today). Any clear night at FS 210 or on Table Rock counts. No drive-out session.
+- **The last day is a drive home.** Two trips now say anything planned for it gets dropped. Plan Oct 25 as travel.
+- **Clearance instinct was right at Valley of the Gods.** Keeneys Creek Road is the open clearance question on this trip.

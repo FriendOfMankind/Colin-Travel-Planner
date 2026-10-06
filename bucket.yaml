@@ -1079,7 +1079,9 @@ items:
     where: Zion National Park, Utah
     state: UT
     why: The benchmark river-as-trail. Day hike upstream from Temple of Sinawava, no permit
-    status: want
+    status: done
+    trip: southwest-2026
+    verdict: 'Done, not far in "because of distractions." E-biking the canyon road the same day was the bigger highlight'
     source: zionguru.com/rentals/narrows (search snippet, 2026-10-06); daydream 2026-10-06
     added: 2026-10-06
 
@@ -1088,9 +1090,23 @@ items:
     kind: hike
     where: Oak Creek Canyon, north of Sedona, Arizona
     state: AZ
-    why: About 13 creek crossings under red and white walls. Burned in the 2026 Pocket Fire; check conditions first
-    status: want
+    why: About 13 creek crossings under red and white walls. Burned in the 2026 Pocket Fire (after his visit)
+    status: done
+    trip: southwest-2026
+    verdict: '"We walked all the way up the creek and it was worth it… took our time but it was a blast." Unplanned, after Monument Valley'
     source: alltrails.com/trail/us/arizona/west-fork-trail; azfamily.com 2026-09-14 (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: zapata-falls
+    name: Zapata Falls
+    kind: waterfall
+    where: Above Great Sand Dunes, Colorado
+    state: CO
+    why: Wade into a rock crevasse where a waterfall drops; a short walk from the campground
+    status: done
+    trip: southwest-2026
+    wishlist: great-sand-dunes
+    source: hikingproject.com/gem/930 (search snippet, 2026-10-06); Colin (stated 2026-10-06)
     added: 2026-10-06
 
   - id: kanarra-creek
