@@ -128,16 +128,16 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-111 items · want 100 · done 11
+112 items · want 98 · done 14
 
-By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · geology 3 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · waterfall 6 · cave 5 · ruin 5 · geology 3 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
 - **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
-- **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek
+- **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek ✓
 - **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
-- **CO** (5): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep
+- **CO** (6): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Zapata Falls ✓
 - **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
@@ -159,7 +159,7 @@ By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin
 - **PA** (6): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail
 - **SD** (2): Notch Trail, George S. Mickelson Trail
 - **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
-- **UT** (13): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot
+- **UT** (13): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up ✓, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
 - **WV** (6): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail, Upper Gauley, guided raft, Lost World Caverns, wild cave tour, Red Creek
