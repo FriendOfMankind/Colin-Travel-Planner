@@ -127,9 +127,9 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-104 items · want 93 · done 11
+111 items · want 100 · done 11
 
-By kind: hike 37 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · river 3 · swim 3 · walk 3 · geology 2 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · geology 3 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
@@ -137,26 +137,27 @@ By kind: hike 37 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin
 - **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek
 - **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
 - **CO** (5): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep
-- **GA** (1): Atlanta BeltLine
+- **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
 - **KY** (7): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓, Mammoth Cave, Wild Cave Tour
+- **MD** (1): Billy Goat Trail, Section A
 - **ME** (2): Acadia carriage roads, Down East Sunrise Trail
 - **MI** (3): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak
 - **MO** (1): Johnson's Shut-Ins
 - **MT** (4): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft
-- **NC** (3): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests
+- **NC** (4): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests, Big Creek to Mouse Creek Falls
 - **NL** (2): The Tablelands, L'Anse aux Meadows
 - **NM** (1): Middle Fork Gila to Jordan Hot Springs
 - **NS** (1): Celtic Shores Coastal Trail
 - **NV** (5): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill, Gold Strike Canyon to Arizona Hot Springs
-- **NY** (2): Letchworth Gorge falls, Penn Dixie Fossil Park
+- **NY** (3): Letchworth Gorge falls, Penn Dixie Fossil Park, Watkins Glen Gorge Trail
 - **OH** (2): Caesar Creek Lake spillway, Flint Ridge
 - **OK** (1): Wichita Mountains bison and granite
-- **OR** (1): Sunstone Public Collection Area
+- **OR** (3): Sunstone Public Collection Area, Eagle Creek to Tunnel Falls, Tamolitch Blue Pool
 - **PA** (6): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail
 - **SD** (2): Notch Trail, George S. Mickelson Trail
-- **TN** (7): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer
+- **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
 - **UT** (13): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
