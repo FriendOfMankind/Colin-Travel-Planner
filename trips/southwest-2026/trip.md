@@ -19,7 +19,7 @@ nights: 22 nights (10 camping, 8 hotel, 4 free with family)
 distance: ~5,700 mi round trip
 budget: TBD
 tags: [ group, friends, car camping, hotels, national parks, vegas, rafting, road trip ]
-next: "Done. The retro is in progress in log.md (started 2026-10-06)."
+next: "Done. The retro is in log.md (2026-10-06)."
 updated: 2026-10-06
 ---
 

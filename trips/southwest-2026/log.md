@@ -39,3 +39,49 @@ Answers so far, from a daydream about stream hikes that turned up the trip:
 - **Days 17–18** (Canyonlands, Moab, the Fisher Towers raft): basically as planned. The option offered was "skipped the sunrise, did the rest", so Mesa Arch at dawn is read as **skipped**. *(recalled, stated 2026-10-06)*
 - **Day 19** (Devil's Garden at 6:30 AM for 7.8 mi, Dead Horse Point, Delicate Arch at golden hour): **basically as planned. All three.** *(recalled, stated 2026-10-06)*
 - **Days 20–23** changed: **skipped Frisco and "booked it home."** *(recalled, stated 2026-10-06)* Maroon Bells and Silver Bar weren't flagged as changed.
+
+### Round 4 (2026-10-06): patterns and preferences
+
+- **Stargazing:** "at camp is the line." Walkable from camp is great; driving out and waiting is still a no. `me/declined.md` narrowed to match. *(stated 2026-10-06)*
+- **Why some days went soft (7, 8) and others went big (19):** "group mood." *(stated 2026-10-06)*
+- **Food:** about half cooked at camp, half bought. *(recalled, stated 2026-10-06)*
+- **Top moments:** e-bikes up Zion's canyon road, West Fork of Oak Creek, and the raft / Arches / Vegas. *(stated 2026-10-06)*
+
+## 2026-10-06 · Plan vs. what actually happened, day by day
+
+| Day | Plan | Actual | Gap |
+|---|---|---|---|
+| 1–3 | Cleveland → Leawood, rest, → Zapata Falls CG | As planned | — |
+| 4 | Dunes early, → Mesa Verde | As planned; Medano Creek flowing | — |
+| 5 | Mesa Verde tour, Four Corners, Goosenecks, Valley of the Gods camp | Camped at Goosenecks SP instead | Valley of the Gods needs clearance |
+| 6 | Monument Valley → Sedona, Cathedral Rock sunset | West Fork of Oak Creek, all the way up; hotel after dark; no Cathedral Rock | Unplanned stream hike beat the planned sunset |
+| 7 | Devil's Bridge, Slide Rock, Grasshopper Point | Devil's Bridge, Mexican food, a massage, sleep | 2 of 3 cut |
+| 8 | Doe Mountain, Subway Cave, Desert View, rim stargazing | Doe Mountain skipped, "took it slow"; sunset + stars at the rim | 1 cut; Subway Cave not asked |
+| 9 | Ooh Aah Point, → Boulder Beach | As planned, plus a lot of frisbee | — |
+| 10 | Hoover tour, airport pickup, Red Rock drive, Vegas | Hoover; Ben came himself; Red Rock skipped | 1 cut |
+| 11–13 | Vegas ×2, → Zion | As planned | — |
+| 14 | E-bikes + the Narrows | E-bikes were the highlight; not far up the Narrows | The bike beat the famous hike |
+| 15–18 | Bryce, Capitol Reef, Canyonlands, the raft | As planned; Mesa Arch sunrise skipped | — |
+| 19 | Devil's Garden 6:30 AM, Dead Horse, Delicate at golden hour | All three | — |
+| 20–23 | Colorado NM, Maroon Bells, Frisco, 2 days home | Frisco skipped, "booked it home" | Last stop dropped |
+
+### What the gap says
+
+1. **The trip ends when the last destination ends.** Frisco was dropped for a straight run home, just like Kentucky's final Sunday. **Evidence (2 trips).** Now in `me/hiking.md`.
+2. **The access road decides the free campsite.** Valley of the Gods failed on clearance, and instinct caught it before research did. **Evidence (2+ trips)**; principle 2 already says so.
+3. **Unplanned water beats planned views.** West Fork (unplanned) was a top moment, and Cathedral Rock's sunset was the cost. **Hypothesis (one data point).** It fits today's stream-hike daydream, but one trip isn't a rule.
+4. **Riding can beat the famous hike.** The e-bikes outranked the Narrows. **Hypothesis (one data point)**, and "distractions" cut the Narrows short, so it wasn't a fair test. It agrees with the scenic-rides section of the bucket list.
+5. **With a group, pace follows mood, not the plan.** Days 7–8 went soft and day 19 went huge. Colin's reason: "group mood." **Hypothesis**, and it applies to group trips only. Kentucky (solo) ran *over* plan instead.
+6. **Stargazing at camp is a yes.** **Evidence** for the narrowed rule: Blevins farm (incidental) and three camp nights here.
+
+## Retro (2026-10-06)
+
+- [x] Did the trip follow the plan? Mostly. Six days changed, all by cutting or swapping, never by adding a stop, except West Fork.
+- [x] The Narrows? Done, not far, "because of distractions."
+- [x] Zapata Falls? Waded in. Done.
+- [x] Stargazing vs. `me/declined.md`? Loved it. Rule narrowed: at camp yes, driving out no.
+- [x] Medano Creek on May 11? Flowing.
+- [x] Food? About half and half.
+- [x] Highlights? E-bikes in Zion, West Fork, and the raft / Arches / Vegas.
+- [ ] Subway Cave (day 8): not asked.
+- [ ] Mesa Verde tour, Maroon Lake sunrise, Crater Lake loop: covered by "basically as planned", not asked one by one.
