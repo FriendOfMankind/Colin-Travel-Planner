@@ -90,7 +90,7 @@ Solo.
 
 ### The one real risk
 
-**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing on FS 210 is reservable.** The early start is the mitigation unless a paid site is booked instead: **Linville Falls Campground (private), 828-765-2681**, is the one reservable option close enough to keep the Hawksbill sunrise (see Open questions). (was: "Nothing in the corridor is reservable — Mortimer isn't either", corrected 2026-10-06)
+**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing on FS 210 is reservable.** **No reservation, by choice (2026-10-06):** the 6:30 AM start is the mitigation. Fallbacks: Old NC 105 → motel (see Notes). (was: "Nothing in the corridor is reservable — Mortimer isn't either", corrected 2026-10-06)
 
 ### The open call
 
@@ -571,7 +571,7 @@ Sunrise is 7:42 and the optional loop starts at 6:00 — that's a headlamp walk,
 ## Lodging
 
 ```yaml
-summary: 10 nights · 7 reserved, 3 first-come (Oct 15 in NRG, Oct 22–23 at Linville). Nothing on FS 210 or in NRG is reservable; near Linville, a private campground is (see Open questions).
+summary: 10 nights · 7 reserved, 3 first-come (Oct 15 in NRG, Oct 22–23 at Linville). Nothing on FS 210 or in NRG is reservable; FS 210 is a race by choice (Notes).
 total: Arrowhead $25.44 · Hurricane $20 · Davidson River reserved
 ```
 
@@ -739,7 +739,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Arrowhead ref ROTXCV — confirmed Oct 16–18, 2 nights, on the booking site
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
-- [ ] Decide Oct 22–23 BEFORE the trip: book Linville Falls Campground (private, 828-765-2681; refund only if cancelled by Oct 15), or keep FS 210 with the ladder Old NC 105 → motel in Newland / Linville Falls / Morganton (was: "Mortimer Campground, or a motel")
+- [x] ✅ Oct 22–23: race for FS 210, no reservation (decided 2026-10-06). Ladder: Old NC 105 → motel in Newland / Linville Falls / Morganton
 - [ ] Grandfather Ranger District call: add **is Old NC 105 open, and passable for 5.9 in clearance?**
 - [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
@@ -765,24 +765,6 @@ Arrowhead is confirmed Oct 16–18, which covers Bridge Day night and hands off 
 What that costs you: the Long Point trailhead is at Arrowhead, so on Oct 15 it becomes a drive rather than a walk from the tent. Water has to be carried in. And access roads to the riverside sites get rough after rain. **Ask at Canyon Rim Visitor Center when you arrive** which sites have space and which road is passable — that is a 5-minute conversation that saves an hour of driving in the dark.
 
 Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisit/campgrounds.htm) · [The Dyrt](https://thedyrt.com/camping/west-virginia/near/new-river-gorge-national-river/with/dispersed)
-
-### Linville: book a site, or race for FS 210?
-
-**Blocks:** Days 8–9 — decide before Oct 15 (the refund cutoff below)
-You asked whether there is a reservable campground worth taking instead of racing for FS 210. *(was: "There isn't." — wrong; corrected 2026-10-06.)*
-
-There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use, for roadside camping on FS 210, or for camping on Table Rock, so the Fri/Sat quota through Oct 31 does not apply to what you are actually doing. The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
-
-**What is reservable nearby (researched 2026-10-06):**
-- ⭐ **Linville Falls Campground (private)**, 717 Gurney Franklin Rd, **828-765-2681**. Primitive tent area, bathhouse with showers, hot-water dish sink, free Starlink Wi-Fi. One-night deposit; **$25 cancellation fee, full refund only with 7+ days notice — i.e. cancel by Oct 15**, before you'd know whether FS 210 has room *(source: linvillefalls.com/policies, read 2026-10-06)*. Tent price and Oct 22–23 availability: **TBD, call**. Drive to the Hawksbill lot: ~30–40 min, an estimate from the plan's own leg times, not measured. **The only reservable option close enough to keep the 7:41 sunrise.**
-- **Mortimer Campground** is *not* a close bail-out. 📋 recreation.gov says all 17 sites are reservable ≥3 days ahead *(search snippet, 2026-10-06)*, but it's ~21 mi from the gorge on washboard gravel at 1,400 ft in Wilson Creek *(outdoorithm.com, 2026-10-06)*. A sunrise from there is a ~4:45 alarm. (was: "~10 mi" and "not on recreation.gov")
-- **Lake James State Park** walk-in sites are reservable (NC Parks keeps $15 + $3/night on cancellation; *ncparks.gov, search snippet*), but it's ~1,200 ft south of Morganton; drive to Hawksbill not measured, likely 1h+. Out for the same reason.
-
-**So it's a choice between two plan A's, not insurance.** Booking the private site removes the race, the 5:45 Oct 22 alarm, the 12 L water haul and two no-shower nights, at the cost of ~2 nights' fees and a ~30-min drive in the dark before the sunrise. Keeping FS 210 keeps the trailhead camp and the free price. **Colin's call.**
-
-**If FS 210 stays plan A, the ladder is:** FS 210 → **Old NC 105 (Kistler Memorial Hwy)** dispersed on the west rim (~14 roadside sites, first-come, no water; north end near Linville Falls, on your route; Helene-damaged, current status and clearance unknown — ask Grandfather RD) → a motel in Newland, Linville Falls or Morganton. *(Old 105: thedyrt.com and Facebook group snippets, 2026-10-06.)*
-
-Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/) · [Linville Gorge overnight permits](https://www.recreation.gov/permits/4675331) · [Linville Falls Campground policies](https://linvillefalls.com/policies/) · [Mortimer on Outdoorithm](https://outdoorithm.com/campgrounds/nc/national-forests-in-north-carolina/mortimer-campground)
 
 ### Fayette Station Road parking on Bridge Day.
 
@@ -821,6 +803,25 @@ Three Google Maps regions: **Fayetteville–Oak Hill–Beckley**, **Brevard–As
 
 ## Notes
 
+### Linville: racing for FS 210, by choice
+
+**Decided 2026-10-06: no reservation, race for FS 210.** *(Colin: "I'm down for the race, no reservation")* The research below stays so the options aren't re-researched.
+
+You asked whether there is a reservable campground worth taking instead of racing for FS 210. *(was: "There isn't." — wrong; corrected 2026-10-06.)*
+
+There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use, for roadside camping on FS 210, or for camping on Table Rock, so the Fri/Sat quota through Oct 31 does not apply to what you are actually doing. The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
+
+**What is reservable nearby (researched 2026-10-06):**
+- ⭐ **Linville Falls Campground (private)**, 717 Gurney Franklin Rd, **828-765-2681**. Primitive tent area, bathhouse with showers, hot-water dish sink, free Starlink Wi-Fi. One-night deposit; **$25 cancellation fee, full refund only with 7+ days notice — i.e. cancel by Oct 15**, before you'd know whether FS 210 has room *(source: linvillefalls.com/policies, read 2026-10-06)*. Tent price and Oct 22–23 availability: **TBD, call**. Drive to the Hawksbill lot: ~30–40 min, an estimate from the plan's own leg times, not measured. **The only reservable option close enough to keep the 7:41 sunrise.**
+- **Mortimer Campground** is *not* a close bail-out. 📋 recreation.gov says all 17 sites are reservable ≥3 days ahead *(search snippet, 2026-10-06)*, but it's ~21 mi from the gorge on washboard gravel at 1,400 ft in Wilson Creek *(outdoorithm.com, 2026-10-06)*. A sunrise from there is a ~4:45 alarm. (was: "~10 mi" and "not on recreation.gov")
+- **Lake James State Park** walk-in sites are reservable (NC Parks keeps $15 + $3/night on cancellation; *ncparks.gov, search snippet*), but it's ~1,200 ft south of Morganton; drive to Hawksbill not measured, likely 1h+. Out for the same reason.
+
+**So it's a choice between two plan A's, not insurance.** Booking the private site removes the race, the 5:45 Oct 22 alarm, the 12 L water haul and two no-shower nights, at the cost of ~2 nights' fees and a ~30-min drive in the dark before the sunrise. Keeping FS 210 keeps the trailhead camp and the free price. **FS 210 chosen.**
+
+**If FS 210 stays plan A, the ladder is:** FS 210 → **Old NC 105 (Kistler Memorial Hwy)** dispersed on the west rim (~14 roadside sites, first-come, no water; north end near Linville Falls, on your route; Helene-damaged, current status and clearance unknown — ask Grandfather RD) → a motel in Newland, Linville Falls or Morganton. *(Old 105: thedyrt.com and Facebook group snippets, 2026-10-06.)*
+
+Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/) · [Linville Gorge overnight permits](https://www.recreation.gov/permits/4675331) · [Linville Falls Campground policies](https://linvillefalls.com/policies/) · [Mortimer on Outdoorithm](https://outdoorithm.com/campgrounds/nc/national-forests-in-north-carolina/mortimer-campground)
+
 ### The lodging in the master file does not match the lodging in your inbox
 
 The master file says Arrowhead Bike Farm, Oct 15–17, three nights, reserved. The confirmation email says the original booking was Oct 15 3 PM to Oct 17 11 AM — **two nights**. On Sept 1 you asked to move it forward a day to Oct 16–18 and were told by phone that it was done, with no revised confirmation ever sent. So the plan, the original booking, and the current booking are three different things, and only one of them is written down anywhere.
@@ -829,7 +830,7 @@ The move itself was the right instinct: the original dates left you with no bed 
 
 ### Thursday Oct 22 is the trip's single point of failure
 
-You wake at a site you paid for and go to sleep somewhere you have no claim on. First-come dispersed camping on FS 210, on the Thursday of peak color week, with no cell service and no reservation possible anywhere in the corridor. The mitigation is already built in: leave Davidson River at 6:30 despite a noon checkout, drive FS 210 once from the top, and take the first open Hawksbill site rather than pushing south hoping for better. What is *not* built in is a bail-out that has actually been called. Old NC 105 and motels in Newland, Linville Falls and Morganton are named but unverified; the one reservable alternative, Linville Falls Campground (private), is in Open questions. Decided in advance means a phone number and a price.
+You wake at a site you paid for and go to sleep somewhere you have no claim on. First-come dispersed camping on FS 210, on the Thursday of peak color week, with no cell service and no reservation possible anywhere in the corridor. The mitigation is already built in: leave Davidson River at 6:30 despite a noon checkout, drive FS 210 once from the top, and take the first open Hawksbill site rather than pushing south hoping for better. What is *not* built in is a bail-out that has actually been called. Old NC 105 and motels in Newland, Linville Falls and Morganton are named but unverified; a reservable private campground was considered and passed on (Notes). Decided in advance means a phone number and a price.
 
 ### Why Hawksbill is on the schedule twice
 
