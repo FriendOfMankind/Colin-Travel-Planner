@@ -175,3 +175,15 @@ Asked: "is it worth making a reservation?" for Oct 22–23. **The plan said noth
 > "I'm down for the race, no reservation, I'll will a campsite into existence."
 
 *(stated 2026-10-06)* The private Linville Falls campground is passed on. Fallbacks stay Old NC 105 → motel. The open question is closed and its research moved to `trip.md` § Notes. For the retro: did the race cost more than a $~60 site would have?
+
+## 2026-10-06 · Wilderness permit as the FS 210 backstop
+
+> "I'll get a wilderness permit! That will secure me SOMEWHERE"
+
+*(chosen 2026-10-06)* Book a Linville Gorge Wilderness overnight permit for **Fri Oct 23**. Thursday needs none. 📋 35 of the 50/night quota opens 1 month ahead, so it's bookable now; the other 15 release Wed Oct 21, 10 AM ET *(recreation.gov permit 4675332 and reservenature.com, search snippets)*. Fee and cancellation: TBD.
+
+**What it doesn't do:** reserve a site. Wilderness has no designated sites, and the sleep kit (Siesta 20, MondoKing 3D) is car-camping bulk with no backpacking pack in `me/gear.md`. It works only as a short walk-in (multiple trips), e.g. the camping ~¼ mi down from the Table Rock lot *(Facebook snippet)*, ≥200 ft from trailhead parking.
+
+**Searched for reports of people failing to find an FS 210 site:** found none, only worry posts and "roads riddled with dispersed sites" on a fall weekend *(Reddit snippets)*. Absence of reports, not evidence of space.
+
+⚠️ **Conflicts to settle with Grandfather RD, (828) 652-2144:** `trip.md` said no permit is needed for camping on Table Rock; AllTrails says Fri/Sat/Sun need one. A USFS order closes rare-plant areas on "Table Rock Mountain" and "The Chimneys" *(fs.usda.gov alerts, read 2026-10-06, text truncated)*.
