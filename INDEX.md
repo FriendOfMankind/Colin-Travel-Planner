@@ -70,7 +70,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The quarry wall and the Green River — the sleeper
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · updated 2026-09-30
   The best payoff per dollar, as a week
-- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · updated 2026-09-30
+- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 1 research note · updated 2026-10-06
   Family, not a plan
 - **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 2 research notes · updated 2026-10-03
   Warm desert water, which barely exists out west
@@ -127,16 +127,16 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-111 items · want 100 · done 11
+118 items · want 107 · done 11
 
-By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · geology 3 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · geology 4 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
 - **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
 - **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek
 - **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
-- **CO** (5): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep
+- **CO** (6): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Snowmobile to Georgia Pass
 - **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
@@ -145,8 +145,9 @@ By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin
 - **ME** (2): Acadia carriage roads, Down East Sunrise Trail
 - **MI** (3): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak
 - **MO** (1): Johnson's Shut-Ins
-- **MT** (4): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft
+- **MT** (5): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft, Makoshika State Park
 - **NC** (4): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests, Big Creek to Mouse Creek Falls
+- **ND** (1): Theodore Roosevelt cross-country
 - **NL** (2): The Tablelands, L'Anse aux Meadows
 - **NM** (1): Middle Fork Gila to Jordan Hot Springs
 - **NS** (1): Celtic Shores Coastal Trail
@@ -155,14 +156,14 @@ By kind: hike 43 · fossil 12 · other 12 · view 7 · drive 6 · cave 5 · ruin
 - **OH** (2): Caesar Creek Lake spillway, Flint Ridge
 - **OK** (1): Wichita Mountains bison and granite
 - **OR** (3): Sunstone Public Collection Area, Eagle Creek to Tunnel Falls, Tamolitch Blue Pool
-- **PA** (6): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail
-- **SD** (2): Notch Trail, George S. Mickelson Trail
+- **PA** (7): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail, Hickory Run Boulder Field
+- **SD** (3): Notch Trail, George S. Mickelson Trail, Badlands off-trail wander
 - **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
-- **UT** (13): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot
+- **UT** (14): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
 - **WV** (6): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail, Upper Gauley, guided raft, Lost World Caverns, wild cave tour, Red Creek
-- **WY** (2): Medicine Bow Peak, Crazy Woman Canyon Road
+- **WY** (3): Medicine Bow Peak, Crazy Woman Canyon Road, Yellowstone in winter, by guided snowmobile
 
 ## Per trip, which file answers what
 

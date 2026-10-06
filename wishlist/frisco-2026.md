@@ -16,7 +16,7 @@ country: USA
 coords: [ 39.57, -106.1 ]
 budget: n/a
 tags: [ family, fixed, winter ]
-updated: 2026-09-30
+updated: 2026-10-06
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -39,3 +39,9 @@ Price CLE → DEN for Dec 25–30. The trip that depended on these dates is gone
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-10-06 · A snowmobile day to the Divide
+- 📋 Good Times Adventures (Summit County, outside Breckenridge) runs a ~2 h guided snowmobile tour: 40+ mi of groomed trail up the Swan River valley to **Georgia Pass, 11,585 ft, on the Continental Divide**. Beginners and families OK; guide, sled, helmet, suit and boots included; listed from **$258 per person** *(source: experiences.brp.com, search snippet, 2026-10-06)*
+- ⚠️ Whether they run on or around Dec 25, and how far ahead December fills: not checked
+- Fits Colin's "paid outing, better with people" rule (`me/adventures.md`). Family is the people here
+- Colin: wants it on this idea *(stated 2026-10-06)*. In `bucket.yaml` as `summit-snowmobile-georgia-pass`
