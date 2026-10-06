@@ -1259,3 +1259,87 @@ items:
     wishlist: south-cumberland
     source: hikingproject.com, en.wikipedia.org/wiki/Fiery_Gizzard_Trail (search snippets, 2026-10-06)
     added: 2026-10-06
+
+  # ------------------- wander zones (unmarked, but hard to get lost in)
+  # Daydream 2026-10-06: "wild but explorable, not exactly marked trails".
+  # The filter is me/hiking.md's solo line: no trail is fine only where
+  # sightlines, a bounded valley or a nearby road make getting lost unlikely.
+
+  - id: badlands-open-hike
+    name: Badlands off-trail wander
+    kind: hike
+    where: Badlands National Park, South Dakota
+    state: SD
+    months: [7]
+    why: Open-hike policy, so any ridge or gully is fair game; a sunset wander from Cedar Pass
+    status: want
+    trip: northern-rockies-2027
+    source: unofficialnetworks.com 2025-06-27; nps.gov/thingstodo/hiking-badl.htm (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: trnp-cross-country
+    name: Theodore Roosevelt cross-country
+    kind: hike
+    where: Theodore Roosevelt National Park, North Dakota
+    state: ND
+    months: [7]
+    why: Backcountry open to cross-country travel; badlands wandering on the drive home
+    status: want
+    trip: northern-rockies-2027
+    source: nps.gov/thro horseback-riding page (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: makoshika
+    name: Makoshika State Park
+    kind: fossil
+    where: Glendive, Montana (on I-94)
+    state: MT
+    months: [7]
+    why: Hell Creek badlands where T. rex and Triceratops were dug out; right on the I-94 drive home
+    status: want
+    trip: northern-rockies-2027
+    source: en.wikipedia.org/wiki/Makoshika_State_Park; mtdinotrail.org (search snippets, 2026-10-06)
+    added: 2026-10-06
+
+  - id: summit-snowmobile-georgia-pass
+    name: Snowmobile to Georgia Pass
+    kind: other
+    where: Breckenridge / Summit County, Colorado
+    state: CO
+    months: [12]
+    why: Guided ride up to the Continental Divide at 11,585 ft, beginners welcome; minutes from the Frisco condo
+    status: want
+    wishlist: frisco-2026
+    source: experiences.brp.com Good Times Adventures listing (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: white-rim-ebike
+    name: White Rim Road by e-bike
+    kind: other
+    where: Island in the Sky, Canyonlands, Utah
+    state: UT
+    why: E-bikes allowed; down the Shafer switchbacks onto the rim below the rim. Zion's e-bike day with a cliff edge
+    status: want
+    source: nps.gov/cany/planyourvisit/whiterimroad.htm (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: yellowstone-winter-oversnow
+    name: Yellowstone in winter, by guided snowmobile
+    kind: other
+    where: West Yellowstone or Mammoth to Old Faithful, Wyoming
+    state: WY
+    months: [12, 1, 2, 3]
+    why: Old Faithful in snow, reachable only by guided snowmobile or snowcoach; a with-friends outing
+    status: want
+    source: nps.gov/yell/planyourvisit/snowmobiling.htm (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: hickory-run-boulder-field
+    name: Hickory Run Boulder Field
+    kind: geology
+    where: Hickory Run State Park, Pennsylvania
+    state: PA
+    why: A flat ice-age field of boulders with no path across; pick your own line
+    status: want
+    source: pa.gov Hickory Run State Park (search snippet, 2026-10-06)
+    added: 2026-10-06
