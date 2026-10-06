@@ -48,6 +48,7 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 - **Show caves: fine.**
 - **Rock shelters, crevices and slot passages reached on a hike: yes.** Already proven in Kentucky.
 - **Solo unguided wild caving: not selected.** Don't plan it. It's the kind of single high-consequence move [hiking.md](hiking.md) is cautious about, with no one to raise the alarm.
+- **Developed, permitted caves explored on your own: yes.** Lava tubes like Craters of the Moon's, where the park issues a free permit and the caves are mapped and known, don't count as wild caving. *(stated 2026-10-06)* Bring two or three lights each, and expect the white-nose screening on gear that has been in other caves.
 - Unknown, check per trip: whether a cave is under a white-nose syndrome closure. Not recorded here. Check the managing agency's current orders.
 
 ## Wildlife and rare natural things
