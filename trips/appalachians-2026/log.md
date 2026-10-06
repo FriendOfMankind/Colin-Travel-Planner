@@ -169,3 +169,9 @@ Asked: "is it worth making a reservation?" for Oct 22–23. **The plan said noth
 - 📋 BRP Linville Falls Spur Road **open** as of Oct 4, 2026; the NPS campground there is still closed *(nps.gov/blri road status, search snippet)*.
 
 **Claude's read (not a decision):** the private campground isn't insurance, because the refund cutoff comes before you'd know about FS 210. It's a choice between two plan A's. It would remove the trip's single point of failure plus the no-water, no-shower nights the 09-28 entry flagged as at odds with his preferences. **Colin's call; call the campground first.**
+
+## 2026-10-06 · Decided: race for FS 210, no reservation
+
+> "I'm down for the race, no reservation, I'll will a campsite into existence."
+
+*(stated 2026-10-06)* The private Linville Falls campground is passed on. Fallbacks stay Old NC 105 → motel. The open question is closed and its research moved to `trip.md` § Notes. For the retro: did the race cost more than a $~60 site would have?
