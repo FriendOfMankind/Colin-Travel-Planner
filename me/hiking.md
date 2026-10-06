@@ -22,7 +22,7 @@ Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by a
 
 - **Hard scramble terrain: faster than the posted budget.** Honey Creek Loop (4.6 mi, 820 ft, ropes, ladders, creek crossings) took **~3.5 h** against the trailhead signs' "one hour per mile" (~6 h budget). *(confirmed: kentucky-2026 log, 2026-09-27)*
 - **Daily load: more than planned, and happily.** Kentucky Thursday was Rock Bridge + Creation Falls, Angel Falls, then the East Rim and Sunset Point: five destinations on a day the plan had cut to three to make it "survivable." *(confirmed: kentucky-2026 log)*
-- **Last day: nothing.** Sunday's planned stops were dropped for a straight drive home. Plan the final day as travel only, with anything else a bonus.
+- **Last day: nothing.** Sunday's planned stops were dropped for a straight drive home. Plan the final day as travel only, with anything else a bonus. **Second trip, same result:** the Southwest trip skipped its Frisco night and "booked it home" *(confirmed: southwest-2026 log)*. Two trips now, so this is evidence, not a hunch: the trip ends when the last destination ends.
 - **Night hiking to a destination is a yes**, with a headlamp and a full moon. *(confirmed: Blevins farm, kentucky-2026 log)*
 
   Honey Creek is one data point. Don't cut a budget on it yet, especially solo, where the slack is the safety margin. After two or three more hard days it can become a rule of thumb.

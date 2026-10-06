@@ -12,7 +12,7 @@ country: USA
 coords: [ 38.29, -111.26 ]
 budget: ~3.5 hr drive from SLC
 tags: [ car camping, geology, red rock, may, uncrowded ]
-updated: 2026-10-05
+updated: 2026-10-06
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -49,3 +49,6 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Dixie/Fishlake NF land nearby also allows dispersed camping; the Loa ranger office is the contact *(source: nps.gov/care camping-alternatives, search snippet, 2026-10-03)*
 - 📋 Shower: the Chuckwagon Lodge in Torrey is "currently the only place offering public showers for a fee" *(source: nps.gov/care local-services, search snippet, 2026-10-03)*. About $5, and only "a couple" of stalls *(source: yelp and facebook, search snippets, 2026-10-03)*
 - ⚠️ Road surface of the specific Hwy 24 sites for 5.9 in clearance: not checked
+
+### 2026-10-06 · Already been (southwest-2026)
+- Colin camped at **Fruita** and hiked **Hickman Bridge** on May 23, 2026, on a group trip *(confirmed: southwest-2026 log)*. A return is for what that day didn't reach: Sulphur Creek (in `bucket.yaml`), Cassidy Arch, Cathedral Valley
