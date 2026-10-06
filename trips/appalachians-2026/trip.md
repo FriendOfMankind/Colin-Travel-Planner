@@ -381,7 +381,8 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 10:15 (2h 45m) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
+- 7:30 → 9:30 (2h) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
+- 9:30 → 10:15 (45m) · stop! · ⭐ **Starlink up by 9:45, logged into recreation.gov, on the "Linville Gorge Wilderness Overnight Permits – 3 Days in Advance" page. 10:00 AM sharp: book 1 person, Fri Oct 23.** 15 permits per night; how fast they go is unknown. Cell at Davidson River is extremely limited, so this needs Starlink.
 - 10:15 → 11:00 (45m) · stop · Set up the laptop, **verify Starlink**.
 - 11:00 → 3:00 (4h) · lecture! · **REMOTE LECTURE.** Class runs 11:10–2:30; the padding is setup and overrun.
 - 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
@@ -740,8 +741,8 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
 - [x] ✅ Oct 22–23: race for FS 210, no reservation (decided 2026-10-06). Ladder: Old NC 105 → motel in Newland / Linville Falls / Morganton
-- [ ] **Book a Linville Gorge Wilderness overnight permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full: hike in to a spot near the car. 📋 70% of the 50/night quota opens 1 month ahead, so it's bookable now; 30% releases Wed Oct 21, 10 AM ET *(recreation.gov/permits/4675332 and reservenature.com, search snippets, 2026-10-06)*. Fee and cancellation: TBD. Thursday needs no permit.
-- [ ] Grandfather Ranger District call: add **is Old NC 105 open, and passable for 5.9 in clearance?**, **does camping near Table Rock need the Fri/Sat permit?**, and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
+- [ ] **Wed Oct 21, 10:00 AM ET: book a Linville Gorge Wilderness permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full. The 1-month batch (35/night, opened Sept 1) is gone *(Colin checked, 2026-10-06)*; the last-minute batch is **15/night, released each Wednesday at 10 AM for the coming weekend** *(source: recreation.gov permit page, pasted by Colin 2026-10-06; was: "bookable now", wrong)*. Set up the recreation.gov account and payment before leaving Ohio. Fee and cancellation: TBD. Thursday needs no permit.
+- [ ] Grandfather Ranger District call: add **is Old NC 105 open, and passable for 5.9 in clearance?** and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
 - [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
 - [ ] Check burn ban status across WV, NC and VA
@@ -810,7 +811,7 @@ Three Google Maps regions: **Fayetteville–Oak Hill–Beckley**, **Brevard–As
 
 You asked whether there is a reservable campground worth taking instead of racing for FS 210. *(was: "There isn't." — wrong; corrected 2026-10-06.)*
 
-There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use or for roadside camping on FS 210. ⚠️ *Conflict:* this file said no permit is needed for camping on Table Rock; AllTrails' Table Rock Trail page says one is required Fri/Sat/Sun *(search snippet, 2026-10-06)*. Ask Grandfather RD. **A Fri Oct 23 wilderness permit is now the backstop** (Reservations & checks). The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
+There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use or for roadside camping on FS 210. ✅ **No permit for camping on Table Rock either**, any night: "Permits are not required for day use, roadside camping, or camping on Table Rock" *(source: recreation.gov permit page, pasted by Colin 2026-10-06; settles the AllTrails snippet that said otherwise)*. Permits cover Fri and Sat nights inside the Wilderness only (e.g. Hawksbill, Shortoff); stay limit 2 nights. **A Fri Oct 23 wilderness permit is the backstop** (Reservations & checks). The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
 
 **What is reservable nearby (researched 2026-10-06):**
 - ⭐ **Linville Falls Campground (private)**, 717 Gurney Franklin Rd, **828-765-2681**. Primitive tent area, bathhouse with showers, hot-water dish sink, free Starlink Wi-Fi. One-night deposit; **$25 cancellation fee, full refund only with 7+ days notice — i.e. cancel by Oct 15**, before you'd know whether FS 210 has room *(source: linvillefalls.com/policies, read 2026-10-06)*. Tent price and Oct 22–23 availability: **TBD, call**. Drive to the Hawksbill lot: ~30–40 min, an estimate from the plan's own leg times, not measured. **The only reservable option close enough to keep the 7:41 sunrise.**

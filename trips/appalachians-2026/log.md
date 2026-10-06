@@ -187,3 +187,11 @@ Asked: "is it worth making a reservation?" for Oct 22–23. **The plan said noth
 **Searched for reports of people failing to find an FS 210 site:** found none, only worry posts and "roads riddled with dispersed sites" on a fall weekend *(Reddit snippets)*. Absence of reports, not evidence of space.
 
 ⚠️ **Conflicts to settle with Grandfather RD, (828) 652-2144:** `trip.md` said no permit is needed for camping on Table Rock; AllTrails says Fri/Sat/Sun need one. A USFS order closes rare-plant areas on "Table Rock Mountain" and "The Chimneys" *(fs.usda.gov alerts, read 2026-10-06, text truncated)*.
+
+## 2026-10-06 · Permit timing, from the official page
+
+Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Gorge Wilderness overnight permits, 2026-10-06)*:
+- The 1-month batch (35/night) opens on the **1st of the prior month**, so Oct 23's opened Sept 1. Colin checked, and it's gone. Claude's earlier "bookable now, opened ~Sep 23" was **wrong**.
+- **Last-minute batch: 15/night, Wednesdays at 10 AM ET for the coming weekend → Wed Oct 21, 10:00.** Day 7 now has a 9:30 block to get Starlink up and grab it before the lecture setup.
+- **Camping on Table Rock needs no permit, any night.** That settles the AllTrails conflict in `trip.md`'s favor, and it gives a no-permit Friday option too (still first-come).
+- Permits are Fri/Sat only, inside the Wilderness. Stay limit: 2 nights.
