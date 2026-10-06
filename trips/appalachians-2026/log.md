@@ -157,3 +157,15 @@ The parking call to 800-927-0263 drops from blocking to nice-to-have. The order 
 - Day 1 said "walk to Long Point from the tent", which was left over from when Oct 15 was at Arrowhead. It's a drive now.
 
 **Forecast (AccuWeather, fetched 2026-10-06):** reaches only Oct 14. Fayetteville is dry, highs ~70, lows 46–55 that week. Not a trip forecast; re-check at T-7.
+
+## 2026-10-06 · Linville: what's reservable after all
+
+Asked: "is it worth making a reservation?" for Oct 22–23. **The plan said nothing near Linville was reservable. That was wrong.** Fixed in `trip.md` (Open questions, Day 8, Overview, Lodging, Reservations).
+
+- **Linville Falls Campground (private)**, 828-765-2681: primitive tent area, showers, hot-water dish sink, Starlink Wi-Fi. $25 cancellation fee; full refund only 7+ days out, so **cancel by Oct 15** *(source: linvillefalls.com/policies, read 2026-10-06)*. Price and availability TBD. ~30–40 min to Hawksbill (estimate). The only reservable site that keeps the sunrise.
+- **Mortimer**: 📋 reservable ≥3 days ahead on recreation.gov *(search snippet)*, but **~21 mi** from the gorge on washboard gravel *(outdoorithm.com)*. The plan's "~10 mi" and "not on recreation.gov" were both wrong. Dropped as a bail-out.
+- **Lake James SP**: reservable *(ncparks.gov snippet)*, but likely 1h+ to Hawksbill (not measured). Out.
+- **Old NC 105 (Kistler Memorial Hwy)**: free first-come dispersed on the west rim, ~14 sites, a few with views *(thedyrt.com, Facebook group, snippets)*. North end near Linville Falls. Helene-damaged; an undated USFS post says NCDOT closed it for grading; the USFS alerts page (read 2026-10-06) lists no current closure. **Status and clearance unknown.** It replaces Mortimer as the second rung. ⚠️ Lead, unverified: Wiseman's View is off Old 105 and faces Hawksbill and Table Rock across the gorge.
+- 📋 BRP Linville Falls Spur Road **open** as of Oct 4, 2026; the NPS campground there is still closed *(nps.gov/blri road status, search snippet)*.
+
+**Claude's read (not a decision):** the private campground isn't insurance, because the refund cutoff comes before you'd know about FS 210. It's a choice between two plan A's. It would remove the trip's single point of failure plus the no-water, no-shower nights the 09-28 entry flagged as at odds with his preferences. **Colin's call; call the campground first.**
