@@ -32,3 +32,10 @@ Answers so far, from a daydream about stream hikes that turned up the trip:
 - **Days 11–12:** Vegas "was awesome to walk around and explore, got the full experience." *(recalled, stated 2026-10-06)*
 - **Day 13:** as planned, to Zion's Watchman. *(recalled, stated 2026-10-06)*
 - **Day 14 (from this round):** **e-biking the canyon road was the highlight, more than the Narrows.** They didn't get far into the Narrows "because of distractions." *(recalled, stated 2026-10-06)*
+
+### Round 3 (2026-10-06): days 15–23
+
+- **Days 15–16** (Bryce: Navajo + Queens Garden, Bryce Point sunset, stargazing; Capitol Reef: Fruita, Hickman Bridge): basically as planned. *(recalled, stated 2026-10-06)*
+- **Days 17–18** (Canyonlands, Moab, the Fisher Towers raft): basically as planned. The option offered was "skipped the sunrise, did the rest", so Mesa Arch at dawn is read as **skipped**. *(recalled, stated 2026-10-06)*
+- **Day 19** (Devil's Garden at 6:30 AM for 7.8 mi, Dead Horse Point, Delicate Arch at golden hour): **basically as planned. All three.** *(recalled, stated 2026-10-06)*
+- **Days 20–23** changed: **skipped Frisco and "booked it home."** *(recalled, stated 2026-10-06)* Maroon Bells and Silver Bar weren't flagged as changed.
