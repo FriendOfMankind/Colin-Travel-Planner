@@ -1184,3 +1184,78 @@ items:
     status: want
     source: hikingproject.com, myhikes.org (search snippets, 2026-10-06)
     added: 2026-10-06
+
+  # ------------------------- streamside (walk beside it, any season)
+
+  - id: eagle-creek-tunnel-falls
+    name: Eagle Creek to Tunnel Falls
+    kind: hike
+    where: Columbia River Gorge, Oregon
+    state: OR
+    why: A cliff-ledge trail above the creek, then a path behind a waterfall. Closed since the 2017 fire; check if it has reopened
+    status: want
+    source: oregonhikers.org forum (search snippet, 2026-10-06); daydream 2026-10-06
+    added: 2026-10-06
+
+  - id: tamolitch-blue-pool
+    name: Tamolitch Blue Pool
+    kind: geology
+    where: McKenzie River Trail, Willamette NF, Oregon
+    state: OR
+    why: The river disappears into lava and resurfaces as a blue pool
+    status: want
+    source: fs.usda.gov McKenzie River Trail 3507 (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: tallulah-gorge-floor
+    name: Tallulah Gorge floor
+    kind: hike
+    where: Tallulah Gorge State Park, Georgia
+    state: GA
+    why: Boulder-hop the river bottom under a suspension bridge; free same-day permit, capped
+    status: want
+    source: gastateparks.org/tallulahgorge (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: billy-goat-trail-a
+    name: Billy Goat Trail, Section A
+    kind: hike
+    where: Great Falls, C&O Canal, Maryland
+    state: MD
+    why: Rock scramble on ledges above the Potomac's Mather Gorge
+    status: want
+    source: nps.gov/choh/planyourvisit/billy-goat-trail.htm (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: watkins-glen-gorge
+    name: Watkins Glen Gorge Trail
+    kind: hike
+    where: Watkins Glen State Park, New York
+    state: NY
+    months: [5, 6, 7, 8, 9, 10]
+    why: 19 waterfalls in two miles, the path passing behind some; polished, not raw
+    status: want
+    source: parks.ny.gov Watkins Glen (search snippet, 2026-10-06)
+    added: 2026-10-06
+
+  - id: big-creek-smokies
+    name: Big Creek to Mouse Creek Falls
+    kind: hike
+    where: Great Smoky Mountains NP, North Carolina
+    state: NC
+    why: Rapids and Midnight Hole beside an old railroad grade, then a 45-foot falls
+    status: want
+    wishlist: smokies-east
+    source: wncmagazine.com (search snippet, 2026-10-06); wishlist/smokies-east.md
+    added: 2026-10-06
+
+  - id: fiery-gizzard
+    name: Fiery Gizzard Trail
+    kind: hike
+    where: South Cumberland State Park, Tennessee
+    state: TN
+    why: Creeks, waterfalls, house-sized boulders and old hemlocks on one gorge trail
+    status: want
+    wishlist: south-cumberland
+    source: hikingproject.com, en.wikipedia.org/wiki/Fiery_Gizzard_Trail (search snippets, 2026-10-06)
+    added: 2026-10-06
