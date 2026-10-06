@@ -38,7 +38,7 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 - **Guided whitewater, big water (Class IV–V), is a yes.** Gauley season and the Upper New are in range. A guide steers, and swims can happen.
 - **Outfitter floats and tubes: yes.** The outfitter's shuttle solves the one-car problem.
 - **Own packraft: only if a trip needs it.** Rent or decide per trip. Not a purchase yet. See `Packraft` in [gear.md](gear.md).
-- **Swimming holes and creek walks: summer trips only.** Don't plan a swim in shoulder-season water.
+- **In-water creek walks and swimming holes need warm water:** summer in the East and Northwest; spring or fall in the desert, never in monsoon season (flash floods). **Streamside trails are any season.** *(stated 2026-10-06; was: "Swimming holes and creek walks: summer trips only", which would have cut desert stream walks and walk-beside trails)*
 
 ## Caves
 
