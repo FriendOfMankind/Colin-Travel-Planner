@@ -144,3 +144,54 @@ That makes the round trip ~8 mi and ~1,650 ft, which is under the ~10 mi ceiling
 The parking call to 800-927-0263 drops from blocking to nice-to-have. The order of preference is now: walk from Arrowhead (if the park says the trails are open) → park at the top and walk down → the shuttle to the deck. *(stated 2026-09-29)* One thing to know: the regular shuttle only goes to the **deck**. Getting to the bottom by bus needs a pre-sold "Into the Gorge" ticket, and those sell out, so the shuttle fallback means seeing it from the deck. Fares on officialbridgeday.com disagree with each other ($3 in one place, $5 in another), so bring cash for $5.
 
 **Into the Gorge, checked 2026-09-29:** "Bridge Day 2026 Into The Gorge Tickets … **$75.00 Sold Out**. Registration … is full." *(source: fayettecounty.chambermaster.com/eventregistration/register/15123, the official buy link from officialbridgeday.com/activities)*. It's off the table unless someone resells; the Chamber is 304-465-5617 *(source: officialbridgeday.com blog, 2017, so possibly stale)*. What it would have been: a bus down Fayette Station Rd to the Tunney Hunsaker Bridge, with no food vendors at the bottom.
+
+## 2026-10-06 · Bridge Day is bottom-only; T-9 findings
+
+**Decided: Bridge Day is gorge floor only, no deck.** *(chosen 2026-10-06)* The plan had a 2:30 shuttle to the deck for "final jumps", but the Park & Ride shuttle to the event ends at **1:30 PM** and Bridge Day ends at **3:00 PM** *(source: officialbridgeday.com/bridge-day-info, read 2026-10-06; the page still links a 2025 press release and shuttle map, so the times may be carried over, but the 2026 Visit Fayetteville page has the same schedule)*. Day 3 now runs walk down → watch → walk up → chili cook-off at 3 (3–6 PM, *visitfayettevillewv.com Bridge Day 2026 page, read 2026-10-06*). The shuttle fallback still works, but it has to be a morning plan.
+
+**Found while checking, and fixed in `trip.md` in the same change:**
+- ✅ **Keeneys Creek Road to Nuttallburg reopened** *(wvnstv.com 2026-09-03, citing the park's Facebook; read 2026-10-06)*. That supersedes the Nuttallburg row's "probably no road access" in the 2026-09-29 flood table. Clearance for 5.9 in is still unknown.
+- 📋 The park's undated Nuttallburg closure is the Keeneys Creek **Rail Trail** above the Conveyor Trail junction *(nps.gov, search snippet)*. Read literally, that isn't the headhouse climb. Unconfirmed.
+- ⚠️ **Fayette Station Rd: sources conflict.** A park Facebook post titled "08/18/26 Fayette Station road will reopen Wednesday morning, 08/19/26" *(search snippet)* vs. this log's "closure extended Aug 18" and AllTrails' standing closure notice. Still unknown: ask Canyon Rim, (304) 574-2115.
+- Shuttle fare is **$5 cash** (official FAQ; the same page also says $3). Bag rule on the bridge: clear bags and fanny packs only. Both are only relevant on the fallback now.
+- Day 1 said "walk to Long Point from the tent", which was left over from when Oct 15 was at Arrowhead. It's a drive now.
+
+**Forecast (AccuWeather, fetched 2026-10-06):** reaches only Oct 14. Fayetteville is dry, highs ~70, lows 46–55 that week. Not a trip forecast; re-check at T-7.
+
+## 2026-10-06 · Linville: what's reservable after all
+
+Asked: "is it worth making a reservation?" for Oct 22–23. **The plan said nothing near Linville was reservable. That was wrong.** Fixed in `trip.md` (Open questions, Day 8, Overview, Lodging, Reservations).
+
+- **Linville Falls Campground (private)**, 828-765-2681: primitive tent area, showers, hot-water dish sink, Starlink Wi-Fi. $25 cancellation fee; full refund only 7+ days out, so **cancel by Oct 15** *(source: linvillefalls.com/policies, read 2026-10-06)*. Price and availability TBD. ~30–40 min to Hawksbill (estimate). The only reservable site that keeps the sunrise.
+- **Mortimer**: 📋 reservable ≥3 days ahead on recreation.gov *(search snippet)*, but **~21 mi** from the gorge on washboard gravel *(outdoorithm.com)*. The plan's "~10 mi" and "not on recreation.gov" were both wrong. Dropped as a bail-out.
+- **Lake James SP**: reservable *(ncparks.gov snippet)*, but likely 1h+ to Hawksbill (not measured). Out.
+- **Old NC 105 (Kistler Memorial Hwy)**: free first-come dispersed on the west rim, ~14 sites, a few with views *(thedyrt.com, Facebook group, snippets)*. North end near Linville Falls. Helene-damaged; an undated USFS post says NCDOT closed it for grading; the USFS alerts page (read 2026-10-06) lists no current closure. **Status and clearance unknown.** It replaces Mortimer as the second rung. ⚠️ Lead, unverified: Wiseman's View is off Old 105 and faces Hawksbill and Table Rock across the gorge.
+- 📋 BRP Linville Falls Spur Road **open** as of Oct 4, 2026; the NPS campground there is still closed *(nps.gov/blri road status, search snippet)*.
+
+**Claude's read (not a decision):** the private campground isn't insurance, because the refund cutoff comes before you'd know about FS 210. It's a choice between two plan A's. It would remove the trip's single point of failure plus the no-water, no-shower nights the 09-28 entry flagged as at odds with his preferences. **Colin's call; call the campground first.**
+
+## 2026-10-06 · Decided: race for FS 210, no reservation
+
+> "I'm down for the race, no reservation, I'll will a campsite into existence."
+
+*(stated 2026-10-06)* The private Linville Falls campground is passed on. Fallbacks stay Old NC 105 → motel. The open question is closed and its research moved to `trip.md` § Notes. For the retro: did the race cost more than a $~60 site would have?
+
+## 2026-10-06 · Wilderness permit as the FS 210 backstop
+
+> "I'll get a wilderness permit! That will secure me SOMEWHERE"
+
+*(chosen 2026-10-06)* Book a Linville Gorge Wilderness overnight permit for **Fri Oct 23**. Thursday needs none. 📋 35 of the 50/night quota opens 1 month ahead, so it's bookable now; the other 15 release Wed Oct 21, 10 AM ET *(recreation.gov permit 4675332 and reservenature.com, search snippets)*. Fee and cancellation: TBD.
+
+**What it doesn't do:** reserve a site. Wilderness has no designated sites, and the sleep kit (Siesta 20, MondoKing 3D) is car-camping bulk with no backpacking pack in `me/gear.md`. It works only as a short walk-in (multiple trips), e.g. the camping ~¼ mi down from the Table Rock lot *(Facebook snippet)*, ≥200 ft from trailhead parking.
+
+**Searched for reports of people failing to find an FS 210 site:** found none, only worry posts and "roads riddled with dispersed sites" on a fall weekend *(Reddit snippets)*. Absence of reports, not evidence of space.
+
+⚠️ **Conflicts to settle with Grandfather RD, (828) 652-2144:** `trip.md` said no permit is needed for camping on Table Rock; AllTrails says Fri/Sat/Sun need one. A USFS order closes rare-plant areas on "Table Rock Mountain" and "The Chimneys" *(fs.usda.gov alerts, read 2026-10-06, text truncated)*.
+
+## 2026-10-06 · Permit timing, from the official page
+
+Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Gorge Wilderness overnight permits, 2026-10-06)*:
+- The 1-month batch (35/night) opens on the **1st of the prior month**, so Oct 23's opened Sept 1. Colin checked, and it's gone. Claude's earlier "bookable now, opened ~Sep 23" was **wrong**.
+- **Last-minute batch: 15/night, Wednesdays at 10 AM ET for the coming weekend → Wed Oct 21, 10:00.** Day 7 now has a 9:30 block to get Starlink up and grab it before the lecture setup.
+- **Camping on Table Rock needs no permit, any night.** That settles the AllTrails conflict in `trip.md`'s favor, and it gives a no-permit Friday option too (still first-come).
+- Permits are Fri/Sat only, inside the Wilderness. Stay limit: 2 nights.

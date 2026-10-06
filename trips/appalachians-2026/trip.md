@@ -41,7 +41,7 @@ booking:
     what: Hurricane Campground (Oct 24)
     target: 2026-10-24
     booked: true
-updated: 2026-09-28
+updated: 2026-10-06
 map:
   center: [ 37.2, -81.9 ]
   zoom: 7
@@ -90,7 +90,7 @@ Solo.
 
 ### The one real risk
 
-**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing in the corridor is reservable — Mortimer isn't either.** The early start is the whole mitigation.
+**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing on FS 210 is reservable.** **No reservation, by choice (2026-10-06):** the 6:30 AM start is the mitigation. Fallbacks: Old NC 105 → motel (see Notes). (was: "Nothing in the corridor is reservable — Mortimer isn't either", corrected 2026-10-06)
 
 ### The open call
 
@@ -128,7 +128,7 @@ overnight:
 - 2:55 → 3:55 (60m) · drive · **Fayette Station Road** — 8-mile one-way loop, hairpins to the gorge floor, passes directly under the bridge, crosses the Tunney Hunsaker Bridge, through the Fayette and South Fayette townsites. · 📍 Fayette Station Road Fayetteville WV
 - 3:55 → 4:10 (15m) · drive · Road exit onto US-19.
 - 4:10 → 5:20 (1h 10m) · camp! · ⚠️ **Claim a primitive site and pitch before dark.** Army Camp, Glade Creek, Grandview Sandbar or Stone Cliff — free, first-come, no water, pit toilets. Drive one and take what is open rather than shopping around; it is the Thursday of Bridge Day weekend. **Carry your own water in.**
-- 5:20 → 6:05 (45m) · hike · **Walk to Long Point from the tent**, ~1.6 mi each way. · 📍 Long Point Trailhead Fayetteville WV
+- 5:20 → 6:05 (45m) · hike · **Drive to the Long Point trailhead, then walk out**, ~1.6 mi each way. The trailhead is near Arrowhead, not at tonight's site, and the drive time depends on which campground you got (not measured). (was: "Walk to Long Point from the tent") · 📍 Long Point Trailhead Fayetteville WV
 - 6:05 → 7:05 (60m) · sunset · ⭐ **Long Point through sunset, 6:48** (recomputed; the plan said 6:52). Head-on bridge view — the classic angle.
 - 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required** — civil twilight ends ~7:17 and it's fully dark before you're off the trail.
 
@@ -195,7 +195,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: ~1h 30m before dark, and the jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **The parking call decides whether this version works.**
+slack: "~45m before the chili cook-off opens at 3, then ~2h before dark. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -212,12 +212,10 @@ overnight:
 - 8:00 → 9:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Full daylight by now (sunrise 7:35).
 - 9:30 → 12:00 (2h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
 - 12:00 → 2:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
-- 2:15 → 2:30 (15m) · drive · → Fayetteville High School shuttle lot. · 📍 Fayetteville High School Fayetteville WV
-- 2:30 → 2:55 (25m) · shuttle · Shuttle, $3 cash.
-- 2:55 → 3:30 (35m) · stop · **Bridge deck** — vendors, rappel teams working the catwalk, final jumps. **Watching the rappellers is the sustained action** — jumpers are gone in seconds.
-- 3:30 → 3:55 (25m) · shuttle · Shuttle back.
-- 3:55 → 5:10 (1h 15m) · event · **Chili cook-off**, Fayette County Courthouse. The food event of the day, plus 200+ vendors. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
-- 5:10 → 5:20 (10m) · drive · → Arrowhead. Sunset 6:45.
+- 2:15 → 2:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
+- 2:30 → 3:00 (30m) · stop · Sit down. You just climbed 800 ft. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
+- 3:00 → 4:30 (1h 30m) · event · **Chili cook-off**, Fayette County Courthouse, 3–6 PM *(source: visitfayettevillewv.com Bridge Day 2026 page, 2026-10-06)*. The food event of the day. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
+- 4:30 → 4:40 (10m) · drive · → Arrowhead. Sunset 6:45.
 
 **Meals**
 - B: bought — Tudor’s Biscuit World, Oak Hill, 6 AM
@@ -226,11 +224,11 @@ overnight:
 
 #### Highlights
 
-The free, legal version: the roads are open to pedestrians even though the trails are closed and patrolled. You watch from directly below the jump zone instead of from the deck with everyone else.
+The free, legal version: the roads are open to pedestrians even though the trails are closed and patrolled. You watch from directly below the jump zone instead of from the deck with everyone else. **The bottom is the whole day now** — no deck. The rappellers are visible from below too.
 
 #### Warnings
 
-**Rules:** US-19 closed 7 AM–5 PM, all four lanes; local traffic only from Ames Heights Rd (N) and Rt 16 (S). Private vehicles cannot reach Fayette Station or Teays Landing — the road closes below Teays Landing at 6 PM Friday and cars there get towed. Riverbank spectating between Fayette Station Rapid and Fleaflicker Rapid is prohibited. No pets, bikes, carts or strollers on the bridge. **Fallback if the walk-down is closed in 2026:** leave camp 7:30, park at Fayetteville HS by 7:45, shuttle at 8:30, deck 9–3, chili at 3.
+**Rules:** US-19 closed 7 AM–5 PM, all four lanes; local traffic only from Ames Heights Rd (N) and Rt 16 (S). Private vehicles cannot reach Fayette Station or Teays Landing — the road closes below Teays Landing at 6 PM Friday and cars there get towed. Riverbank spectating between Fayette Station Rapid and Fleaflicker Rapid is prohibited. No pets, bikes, carts or strollers on the bridge. **Fallback if the walk-down is closed in 2026:** leave camp 7:30, park at Fayetteville HS by 7:45, shuttle at 8:30 ($5 cash), deck until 3, chili at 3. ⚠️ The last shuttle *to* the event is 1:30 PM, so the fallback has to start in the morning. **Bags on the bridge:** no backpacks or camera bags; clear bags and fanny packs only *(source: officialbridgeday.com, 2026-10-06)*.
 
 ### Day 4 — 2026-10-18 · Kaymoor, Thurmond, Then South
 
@@ -383,7 +381,8 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 10:15 (2h 45m) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
+- 7:30 → 9:30 (2h) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
+- 9:30 → 10:15 (45m) · stop! · ⭐ **Starlink up by 9:45, logged into recreation.gov, on the "Linville Gorge Wilderness Overnight Permits – 3 Days in Advance" page. 10:00 AM sharp: book 1 person, Fri Oct 23.** 15 permits per night; how fast they go is unknown. Cell at Davidson River is extremely limited, so this needs Starlink.
 - 10:15 → 11:00 (45m) · stop · Set up the laptop, **verify Starlink**.
 - 11:00 → 3:00 (4h) · lecture! · **REMOTE LECTURE.** Class runs 11:10–2:30; the padding is setup and overrun.
 - 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
@@ -448,7 +447,7 @@ Peak color week in the corridor the whole trip was sequenced around. Hawksbill t
 
 #### Warnings
 
-**The single point of failure of the trip.** First-come dispersed, on the Thursday of peak color week, no cell service, no reservation possible anywhere in the corridor. **Bail-outs, decided before turning onto the forest road:** Mortimer Campground (~10 mi), or a motel in Newland, Linville Falls, or Morganton. **Road:** FS 210 is maintained gravel — passenger cars do it routinely and a Prius has reportedly made it with care. The realistic failure mode is a cut sidewall, not getting stuck: spare, jack, tire plug kit. Roughness increases with distance; the first ~3 miles to Hawksbill are tamer than the last stretch to the picnic area at ~9.5 miles.
+**The single point of failure of the trip.** First-come dispersed, on the Thursday of peak color week, no cell service, no reservation possible anywhere in the corridor. **Bail-outs, decided before turning onto the forest road:** Old NC 105 (Kistler Memorial Hwy) dispersed on the west rim — also first-come, road status unknown — or a motel in Newland, Linville Falls, or Morganton. (was: "Mortimer Campground (~10 mi)" — it's ~21 mi of washboard gravel away, corrected 2026-10-06) **Road:** FS 210 is maintained gravel — passenger cars do it routinely and a Prius has reportedly made it with care. The realistic failure mode is a cut sidewall, not getting stuck: spare, jack, tire plug kit. Roughness increases with distance; the first ~3 miles to Hawksbill are tamer than the last stretch to the picnic area at ~9.5 miles.
 
 ### Day 9 — 2026-10-23 · Hawksbill at Sunrise
 
@@ -573,7 +572,7 @@ Sunrise is 7:42 and the optional loop starts at 6:00 — that's a headlamp walk,
 ## Lodging
 
 ```yaml
-summary: 10 nights · 7 reserved, 3 first-come (Oct 15 in NRG, Oct 22–23 at Linville). Nothing in either first-come area is reservable at any price.
+summary: 10 nights · 7 reserved, 3 first-come (Oct 15 in NRG, Oct 22–23 at Linville). Nothing on FS 210 or in NRG is reservable; FS 210 is a race by choice (Notes).
 total: Arrowhead $25.44 · Hurricane $20 · Davidson River reserved
 ```
 
@@ -591,7 +590,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | Trailhead is at the campground. Returns after dark — headlamp. |
+| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | Trailhead is near Arrowhead — a drive from the Oct 15 site (was: "at the campground"). Returns after dark — headlamp. |
 | Endless Wall → Diamond Point | 2 | 5.4 mi | 508 ft | Moderate | 3h | Verified in source. Nuttall lot, not Fern Creek. Must be Friday — closed Saturday. |
 | Nuttallburg + Conveyor Trail | 2 | ~1.0 mi (est) | — | Easy–steep | 1h 30m | The climb to the headhouse is now core, not optional (Sept 28). Keeneys Creek Rd access is the clearance question. |
 | ⭐ Kaymoor Miners Trail | 4 | ~1 mi RT + 800+ steps (from reports) | Steep — unmeasured | Strenuous (stairs) | 2h (est) | Promoted from fallback Sept 28: unrestored mine buildings, the trip's best match for the Blevins-farm kind of ruin. Distance and gain are from trip reports, not measured. |
@@ -708,8 +707,8 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Bridge Day
 
-- [ ] CASH — shuttle is $3, chili cook-off and 200+ vendors are cash
-- [ ] Day bag only — no packs, pets, bikes, carts or strollers on the bridge
+- [ ] CASH — chili cook-off is cash; the shuttle (fallback only) is $5 cash *(officialbridgeday.com FAQ, 2026-10-06; was: "$3")*
+- [ ] Bag: a normal day pack is fine for the gorge-floor plan. **Only if the fallback puts you on the bridge:** no backpacks or camera bags, clear bag or fanny pack only (was: "Day bag only")
 - [ ] Layers for 9 miles with 800 ft of climb on the return
 
 ### The lecture kit
@@ -741,11 +740,13 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Arrowhead ref ROTXCV — confirmed Oct 16–18, 2 nights, on the booking site
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
-- [ ] Decide the FS 210 bail-out BEFORE the trip: Mortimer Campground, or a motel in Newland / Linville Falls / Morganton
+- [x] ✅ Oct 22–23: race for FS 210, no reservation (decided 2026-10-06). Ladder: Old NC 105 → motel in Newland / Linville Falls / Morganton
+- [ ] **Wed Oct 21, 10:00 AM ET: book a Linville Gorge Wilderness permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full. The 1-month batch (35/night, opened Sept 1) is gone *(Colin checked, 2026-10-06)*; the last-minute batch is **15/night, released each Wednesday at 10 AM for the coming weekend** *(source: recreation.gov permit page, pasted by Colin 2026-10-06; was: "bookable now", wrong)*. Set up the recreation.gov account and payment before leaving Ohio. Fee and cancellation: TBD. Thursday needs no permit.
+- [ ] Grandfather Ranger District call: add **is Old NC 105 open, and passable for 5.9 in clearance?** and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
 - [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
 - [ ] Check burn ban status across WV, NC and VA
-- [ ] Verify Linville Falls trail and spur road access from the closed Parkway corridor
+- [ ] Verify Linville Falls trail and spur road access from the closed Parkway corridor. 📋 Spur Road **open** as of Oct 4, 2026; NPS campground there still closed *(nps.gov/blri road status, search snippet, 2026-10-06)*. Trail access not confirmed
 - [ ] Wednesday Oct 21: download offline maps for Linville and Mount Rogers — last reliable signal
 - [ ] Text the trip plan home, flagging Oct 22–24 as no-service days
 
@@ -767,19 +768,6 @@ What that costs you: the Long Point trailhead is at Arrowhead, so on Oct 15 it b
 
 Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisit/campgrounds.htm) · [The Dyrt](https://thedyrt.com/camping/west-virginia/near/new-river-gorge-national-river/with/dispersed)
 
-### Linville has no reservable option. Not in the gorge, and not as a bail-out.
-
-**Blocks:** Days 8–9 — and it changes the risk, not the plan
-You asked whether there is a reservable campground worth taking instead of racing for FS 210. **There isn't.**
-
-There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use, for roadside camping on FS 210, or for camping on Table Rock, so the Fri/Sat quota through Oct 31 does not apply to what you are actually doing. The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are the whole inventory, and they are first-come.
-
-**The bail-out is also first-come.** Mortimer Campground is 17 USFS sites at $20–30 with flush toilets, showers and potable water — genuinely nice, and **not on recreation.gov**. You cannot pre-book it either.
-
-So the honest read: the FS 210 gamble has no insurance policy available, which makes the 6:30 AM departure from Davidson River the entire mitigation rather than one of two. The realistic fallback ladder is FS 210 → Mortimer (also a race) → a motel in Newland, Linville Falls or Morganton. **Price and phone-check one motel before you leave Ohio** so the fallback is a decision, not a search at 8 PM with no signal.
-
-Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/) · [Linville Gorge overnight permits](https://www.recreation.gov/permits/4675331) · [USFS Mortimer](https://www.fs.usda.gov/r08/northcarolina/recreation/mortimer-campground)
-
 ### Fayette Station Road parking on Bridge Day.
 
 **Blocks:** Day 3 — the whole day
@@ -788,12 +776,12 @@ The walk-to-the-bottom plan is free and legal; the roads are open to pedestrians
 ### The two Linville nights have no fallback written down.
 
 **Blocks:** Days 8–9
-Bail-outs are named in the master file — Mortimer, or a motel in Newland, Linville Falls or Morganton — but none has been called, priced, or checked for October availability. "Decided in advance" means a phone number and a rough price, not a list of towns. This is the difference between a plan and a hope.
+Bail-outs: Old NC 105 dispersed, or a motel in Newland, Linville Falls or Morganton (was: "Mortimer" — too far; see above). None has been called, priced, or checked for October availability. "Decided in advance" means a phone number and a rough price, not a list of towns. This is the difference between a plan and a hope.
 
 ### Keeneys Creek Road for 5.9 inches of clearance.
 
 **Blocks:** Day 2 afternoon
-Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. ⚠️ Since the Aug 15–16 floods, Nuttallburg Road itself was reported washed out — ask Canyon Rim, (304) 574-2115, before counting on either.
+Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. **Keeneys Creek Road to Nuttallburg reopened after the August floods** *(source: wvnstv.com, 2026-09-03, citing the park's Facebook; read 2026-10-06)* (was: "reported washed out"). Still open: clearance for 5.9 in, and an undated park closure of the Keeneys Creek *Rail Trail* above the Conveyor Trail junction *(nps.gov, search snippet)* — read literally that's not the headhouse climb, but confirm. Canyon Rim, (304) 574-2115.
 
 ### Table Rock loop routing with the Spence Ridge bridge out.
 
@@ -817,6 +805,25 @@ Three Google Maps regions: **Fayetteville–Oak Hill–Beckley**, **Brevard–As
 
 ## Notes
 
+### Linville: racing for FS 210, by choice
+
+**Decided 2026-10-06: no reservation, race for FS 210.** *(Colin: "I'm down for the race, no reservation")* The research below stays so the options aren't re-researched.
+
+You asked whether there is a reservable campground worth taking instead of racing for FS 210. *(was: "There isn't." — wrong; corrected 2026-10-06.)*
+
+There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use or for roadside camping on FS 210. ✅ **No permit for camping on Table Rock either**, any night: "Permits are not required for day use, roadside camping, or camping on Table Rock" *(source: recreation.gov permit page, pasted by Colin 2026-10-06; settles the AllTrails snippet that said otherwise)*. Permits cover Fri and Sat nights inside the Wilderness only (e.g. Hawksbill, Shortoff); stay limit 2 nights. **A Fri Oct 23 wilderness permit is the backstop** (Reservations & checks). The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
+
+**What is reservable nearby (researched 2026-10-06):**
+- ⭐ **Linville Falls Campground (private)**, 717 Gurney Franklin Rd, **828-765-2681**. Primitive tent area, bathhouse with showers, hot-water dish sink, free Starlink Wi-Fi. One-night deposit; **$25 cancellation fee, full refund only with 7+ days notice — i.e. cancel by Oct 15**, before you'd know whether FS 210 has room *(source: linvillefalls.com/policies, read 2026-10-06)*. Tent price and Oct 22–23 availability: **TBD, call**. Drive to the Hawksbill lot: ~30–40 min, an estimate from the plan's own leg times, not measured. **The only reservable option close enough to keep the 7:41 sunrise.**
+- **Mortimer Campground** is *not* a close bail-out. 📋 recreation.gov says all 17 sites are reservable ≥3 days ahead *(search snippet, 2026-10-06)*, but it's ~21 mi from the gorge on washboard gravel at 1,400 ft in Wilson Creek *(outdoorithm.com, 2026-10-06)*. A sunrise from there is a ~4:45 alarm. (was: "~10 mi" and "not on recreation.gov")
+- **Lake James State Park** walk-in sites are reservable (NC Parks keeps $15 + $3/night on cancellation; *ncparks.gov, search snippet*), but it's ~1,200 ft south of Morganton; drive to Hawksbill not measured, likely 1h+. Out for the same reason.
+
+**So it's a choice between two plan A's, not insurance.** Booking the private site removes the race, the 5:45 Oct 22 alarm, the 12 L water haul and two no-shower nights, at the cost of ~2 nights' fees and a ~30-min drive in the dark before the sunrise. Keeping FS 210 keeps the trailhead camp and the free price. **FS 210 chosen.**
+
+**If FS 210 stays plan A, the ladder is:** FS 210 → **Old NC 105 (Kistler Memorial Hwy)** dispersed on the west rim (~14 roadside sites, first-come, no water; north end near Linville Falls, on your route; Helene-damaged, current status and clearance unknown — ask Grandfather RD) → a motel in Newland, Linville Falls or Morganton. *(Old 105: thedyrt.com and Facebook group snippets, 2026-10-06.)*
+
+Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/) · [Linville Gorge overnight permits](https://www.recreation.gov/permits/4675331) · [Linville Falls Campground policies](https://linvillefalls.com/policies/) · [Mortimer on Outdoorithm](https://outdoorithm.com/campgrounds/nc/national-forests-in-north-carolina/mortimer-campground)
+
 ### The lodging in the master file does not match the lodging in your inbox
 
 The master file says Arrowhead Bike Farm, Oct 15–17, three nights, reserved. The confirmation email says the original booking was Oct 15 3 PM to Oct 17 11 AM — **two nights**. On Sept 1 you asked to move it forward a day to Oct 16–18 and were told by phone that it was done, with no revised confirmation ever sent. So the plan, the original booking, and the current booking are three different things, and only one of them is written down anywhere.
@@ -825,7 +832,7 @@ The move itself was the right instinct: the original dates left you with no bed 
 
 ### Thursday Oct 22 is the trip's single point of failure
 
-You wake at a site you paid for and go to sleep somewhere you have no claim on. First-come dispersed camping on FS 210, on the Thursday of peak color week, with no cell service and no reservation possible anywhere in the corridor. The mitigation is already built in: leave Davidson River at 6:30 despite a noon checkout, drive FS 210 once from the top, and take the first open Hawksbill site rather than pushing south hoping for better. What is *not* built in is a bail-out that has actually been called. Mortimer Campground and motels in Newland, Linville Falls and Morganton are named but unverified. Decided in advance means a phone number and a price.
+You wake at a site you paid for and go to sleep somewhere you have no claim on. First-come dispersed camping on FS 210, on the Thursday of peak color week, with no cell service and no reservation possible anywhere in the corridor. The mitigation is already built in: leave Davidson River at 6:30 despite a noon checkout, drive FS 210 once from the top, and take the first open Hawksbill site rather than pushing south hoping for better. What is *not* built in is a bail-out that has actually been called. Old NC 105 and motels in Newland, Linville Falls and Morganton are named but unverified; a reservable private campground was considered and passed on (Notes). Decided in advance means a phone number and a price.
 
 ### Why Hawksbill is on the schedule twice
 
