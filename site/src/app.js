@@ -67,7 +67,7 @@
     const n = r.links.length;
     return `<div class="route"><div class="eyebrow" style="margin-bottom:6px">Day route · ${r.total} stops${r.pinned ? ` · ${r.pinned} pinned` : ""}</div>
       <div class="row">${r.links.map((l, i) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${n > 1 ? `Part ${i + 1} of ${n}` : "Open in Google Maps"} ↗</a>`).join("")}</div>
-      <div class="muted" style="font-size:12.5px;margin-top:6px">${r.links.map((l, i) => `${n > 1 ? `<b>${i + 1}.</b> ` : ""}${l.from ? esc(l.from) : "You"} → ${l.stops.map(esc).join(" → ")}`).join("<br>")}</div></div>`;
+      <div class="muted" style="font-size:12.5px;margin-top:6px">${r.links.map((l, i) => `${n > 1 ? `<b>${i + 1}.</b> ` : ""}${l.from ? esc(l.from) : "Your location"} → ${l.stops.map(esc).join(" → ")}`).join("<br>")}</div></div>`;
   }
   function dayCard(t, d, opts = {}) {
     const s = short(d.date);

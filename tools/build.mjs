@@ -17,7 +17,7 @@ import { marked } from "marked";
 import { parseTrip, splitFrontmatter, sections } from "./lib/format.mjs";
 import { parseIdea, summarize } from "./lib/wishlist.mjs";
 import { parseBucket, horizonOf } from "./lib/bucket.mjs";
-import { dayStops, routeLinks } from "./lib/route.mjs";
+import { dayStops, routeLinks, campStop } from "./lib/route.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -81,6 +81,16 @@ function parseLog(text) {
   return { entries, retro };
 }
 
+// Home, for day 1's start and a "Home" overnight: me/profile.md's "Home base".
+const HOME = (() => { const m = /\*\*Home base:\*\* ([^—\n]+)/.exec(read("me/profile.md")); return m ? { label: "Home", q: m[1].trim(), pinned: false } : null; })();
+const camp = (o, places) => (o?.name === "Home" ? HOME : campStop(o?.name, places));
+
+function dayRoute(d, prev, places) {
+  const r = dayStops(d.schedule ?? [], places, { start: prev ? camp(prev.overnight, places) : HOME, end: camp(d.overnight, places) });
+  const all = [r.start, ...r.stops].filter(Boolean);
+  return all.length >= 2 ? { pinned: all.filter((x) => x.pinned).length, total: all.length, links: routeLinks(r) } : null;
+}
+
 function buildTrip(slug) {
   const { registry: r, page } = parseTrip(read(`trips/${slug}/trip.md`));
   const places = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups : [];
@@ -108,7 +118,7 @@ function buildTrip(slug) {
       schedule: (d.schedule ?? []).map((s) => ({ time: s.time, est: s.est ?? "", kind: s.kind, warn: !!s.warn, maps: s.maps ?? null, ...splitRow(s.text) })),
       meals: Object.fromEntries(Object.entries(d.meals ?? {}).map(([k, v]) => [k, mdi(v)])),
       highlights: md(d.highlights), warnings: md(d.warnings),
-      route: (() => { const st = dayStops(d.schedule ?? [], allPlaces); return st.length >= 2 ? { pinned: st.filter((x) => x.pinned).length, total: st.length, links: routeLinks(st) } : null; })(),
+      route: dayRoute(d, page.days[i - 1], allPlaces),
       sun: sun?.rows?.[i] ?? null,
     })),
     hikes: (page.hikes?.rows ?? []).map((h) => Object.fromEntries(Object.entries(h).map(([k, v]) => [k, typeof v === "string" ? mdi(v) : v]))),
