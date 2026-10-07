@@ -63,6 +63,12 @@
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 
   /* --------------------------------------------------------- pieces */
+  function routeBlock(r) {
+    const n = r.links.length;
+    return `<div class="route"><div class="eyebrow" style="margin-bottom:6px">Day route · ${r.total} stops${r.pinned ? ` · ${r.pinned} pinned` : ""}</div>
+      <div class="row">${r.links.map((l, i) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${n > 1 ? `Part ${i + 1} of ${n}` : "Open in Google Maps"} ↗</a>`).join("")}</div>
+      <div class="muted" style="font-size:12.5px;margin-top:6px">${r.links.map((l, i) => `${n > 1 ? `<b>${i + 1}.</b> ` : ""}${l.from ? esc(l.from) : "You"} → ${l.stops.map(esc).join(" → ")}`).join("<br>")}</div></div>`;
+  }
   function dayCard(t, d, opts = {}) {
     const s = short(d.date);
     const mins = startMinutes(d.schedule);
@@ -96,6 +102,7 @@
           ${d.slack ? `<div><div class="eyebrow">Slack</div><div style="font-size:13.5px">${d.slack}</div></div>` : ""}
         </div>
         ${d.noSignal ? `<div class="nosignal"><b>No signal:</b> ${d.noSignal}</div>` : ""}
+        ${d.route ? routeBlock(d.route) : ""}
         ${opts.today ? "" : `<div><div class="eyebrow" style="margin-bottom:4px">Schedule</div><div class="sched">${rows}</div></div>`}
         ${Object.keys(d.meals).length ? `<div><div class="eyebrow" style="margin-bottom:6px">Food</div><div class="meals">${["b", "l", "d"].filter((k) => d.meals[k]).map((k) => `<b>${k.toUpperCase()}</b><div>${d.meals[k]}</div>`).join("")}</div></div>` : ""}
         ${d.warnings ? `<div class="callout prose">${d.warnings}</div>` : ""}
