@@ -261,10 +261,22 @@ Passport: Colin has one *(stated 2026-10-03)*; expiry not recorded. Next is the 
 
 ## 2026-10-07 · Red Bay and the Labrador clocks, from a YouTube transcript
 Source for everything below: "Things to do in Labrador Canada", Parenting to Go, YouTube, uploaded 2024-06-27, transcript read 2026-10-07. ⚠️ It was a **hosted press trip** (Parks Canada and Western Newfoundland), so expect the tone to be glowing.
-- ⚠️ **Time zones contradict the plan.** The vlog says Blanc-Sablon is "an hour and a half behind Newfoundland time", and the 30-minute drive into Labrador puts you "back on Atlantic time". The plan said 30 min, unsourced. `trip.md` Day 15 now carries both. Not verified. Labrador Marine (1-866-535-2567) settles it
+- ⚠️ **Time zones contradict the plan.** The vlog says Blanc-Sablon is "an hour and a half behind Newfoundland time", and that the 30-minute drive into Labrador puts you "back on Atlantic time". The 1.5 h holds up (see the checks below), but the second half is wrong: the Labrador Straits are on Newfoundland time. The plan said 30 min, unsourced; `trip.md` Day 15 is fixed
 - The Strait crossing "can be smooth… or very rough". They saw an iceberg on the way over. There's indoor and outdoor seating, no Wi-Fi, and breakfast for sale on board
 - **Saddle Island**: the Parks Canada boat is included with the Red Bay entrance fee and only runs when the water is calm. Locals' advice was "listen to the weather" and go early, before the wind picks up
 - **Tracey Hill** trail: 689 steps up, for the view over Red Bay. A short easy trail passes whalebones
 - **Whaler's Restaurant**: fish and chips, soups, hot turkey sandwiches, and bakeapple (cloudberry). How the bakeapple is served wasn't said; cooked is fine, raw is still open (`me/food.md`). "Most communities in Labrador usually have one restaurant"
 - Point Amour lighthouse: 132 steps to the top
 - Whalers Quest Ocean Adventures runs boat tours from Red Bay. Price and season not found
+
+## 2026-10-07 · Opening-date checks
+All 📋 search snippets, 2026-10-07, unless marked. These are 2026 dates; 2027 will be similar but isn't posted yet.
+- **Clocks:** Blanc-Sablon is AST with no DST (timeanddate.com), so it's 1 h 30 m behind Newfoundland Daylight Time in June. "As you travel east into L'Anse au Clair, you will enter Newfoundland Time Zone" (newfoundlandlabrador.com, Expedition 51). The Independent says the same: Newfoundland time from L'Anse au Clair to south of Black Tickle. A 2021 Reddit post says "the ferry uses Eastern time". That's old and unconfirmed, so ask Labrador Marine
+- **Western Brook Pond boat:** Parks Canada says "Mid May to mid October… a 2 hour boat tour". ✅ bontours.ca (page read): $99 + HST, **minimum 15 people**, 24 h cancellation, 3 km gravel walk to the dock, carry cash. The "June 19 – September 7, 2026" on that page is free Parks Canada admission (the Canada Strong Pass), **not** the boat season
+- **Red Bay NHS:** open June 1 – Oct 7, 2026, daily 9–5 (parks.canada.ca). Saddle Island tours at 10, 11 and 2, June–September (Gros Morne NP Facebook); NL tourism says "early June – early October"
+- **Port au Choix NHS:** June 1 – Oct 2, 2026, daily 9–5 (parks.canada.ca)
+- **Chéticamp campground:** May 15 – Oct 26, 2026 (parks.canada.ca)
+- **Fundy:** campgrounds from May 15 (Fundy NP Facebook); Headquarters campground listed year-round (parks.canada.ca)
+- **Colony of Avalon:** June–October 2026; tours 9:00, 10:30, 12:00, 1:30, 3:00 (colonyofavalon.ca)
+- **Gatherall's, Witless Bay:** May 14 – Sept 20 (gatheralls.com); puffins in the first week of the 2026 season (their Facebook, May 2026)
+- **Acadia's peregrine closures** in 2026: Jordan Cliffs, Penobscot East, Precipice, Valley Cove (WABI, Mar 2026). **The Beehive wasn't on that list**

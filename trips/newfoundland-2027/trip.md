@@ -488,7 +488,7 @@ overnight:
 **Schedule**
 - 8:00 → 9:45 · wake · Slow morning
 - 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
-- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). The $99 boat only if it reaches 15 riders; ask at the dock
+- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). The $99 boat only if it reaches 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*, so early June is in season; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet
 - 12:30 → 2:00 · food · **Java Jack's, Rocky Harbour**: fish and chips
 - 2:00 → 8:30 · stop · Laundry and a small resupply in Rocky Harbour
 - 8:50 → 9:40 · sunset · Lobster Cove again, or Green Point (not routed). New moon
@@ -546,7 +546,7 @@ overnight:
 - 9:00 → 10:01 (1h 01m) · drive · → The Arches PP · 📍 The Arches Provincial Park
 - 10:05 → 10:45 (40m) · stop · Sea arches. Walk length not checked
 - 10:45 → 12:07 (1h 22m) · drive · → Port au Choix NHS · 📍 Port au Choix National Historic Site
-- 12:10 → 3:00 (2h 50m) · ruins · Port au Choix. Phillip's Garden, a Dorset site over open barrens, is recalled, not checked. Lunch here
+- 12:10 → 3:00 (2h 50m) · ruins · Port au Choix, open daily 9–5 from June 1 in 2026 (parks.canada.ca, snippet). Phillip's Garden, a Dorset site over open barrens, is recalled, not checked. Lunch here
 - 3:00 → 4:31 (1h 31m) · drive · → Flower's Cove. Thrombolites, recalled, not checked
 - 4:45 → 5:03 (18m) · drive · → St. Barbe RV Park · 📍 St. Barbe RV Park
 
@@ -575,7 +575,7 @@ overnight:
 
 **Schedule**
 - 7:15 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
-- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap, sources disagree**: a 2024 vlog puts Blanc-Sablon **1 h 30 m** behind Newfoundland time, with the Labrador side on Atlantic time again 30 min up the road, so three clocks in two days *(was: "Blanc-Sablon is on Atlantic time, 30 min behind Newfoundland time", unsourced; changed 2026-10-07)*. One thread says the ferry runs on Eastern. Not verified: confirm which clock each schedule uses
+- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread says the ferry schedule runs on Eastern. Not verified: confirm which clock each schedule uses
 - 10:00 → 11:17 (1h 17m) · drive · → Red Bay · 📍 Red Bay National Historic Site
 - 11:30 → 12:30 · food · **Whaler's Restaurant**: fish and chips
 - 12:30 → 1:45 · ruins · Interpretation centre
@@ -959,7 +959,7 @@ overnight:
 **Schedule**
 - morning · drive · Friends to St. John's airport (YYT). Flight times TBD · 📍 St. John's International Airport
 - (1h 20m) · drive · St. John's → Ferryland · 📍 Ferryland Newfoundland
-- midday · ruins · **Colony of Avalon** dig (1620s). Hours not checked · 📍 Colony of Avalon Ferryland
+- midday · ruins · **Colony of Avalon** dig (1620s). Season June–October; 2026 tours at 9:00, 10:30, 12:00, 1:30 and 3:00 (colonyofavalon.ca, snippet) · 📍 Colony of Avalon Ferryland
 - afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m)
 - evening · camp · → La Manche PP
 
@@ -1108,7 +1108,7 @@ total: Not totalled; the hotel week isn't priced
 | 3 | Tue 5/25 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Same booking |
 | 4 | Wed 5/26 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Same booking |
 | 5 | Thu 5/27 | Fundy NP, NB | Parks Canada | Headquarters or Chignecto | ~$30 est. | January launch |
-| 6 | Fri 5/28 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; season not found |
+| 6 | Fri 5/28 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
 | 7 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | Same booking |
 | 8 | Sun 5/30 | Port aux Basques, NL | ParksNL | J.T. Cheeseman | C$20.15 | Mid-April; opening date not confirmed |
 | 9 | Mon 5/31 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
