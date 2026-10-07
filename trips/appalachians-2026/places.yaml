@@ -5,14 +5,14 @@ groups:
   - group: New River Gorge
     places:
       - name: Arrowhead Bike Farm
-        note: Nights 1–3. Long Point TH is on site.
+        note: "Nights 2–3 (Oct 16–17). Long Point TH is on site. (was: Nights 1–3; Oct 15 is Stone Cliff, fixed 2026-10-07)"
         maps: Arrowhead Bike Farm Fayetteville WV
         verified: true
         lat: 38.0403
         lng: -81.0805
         source: "Colin's MASTER-trip2-october-2026.md (Sept 2026), per the Trees transcription notes in log.md"
         icon: ⛺
-        days: 1–3
+        days: 2–3
         wpNote: From the source file. Long Point trailhead on site.
       - name: Canyon Rim Visitor Center
         note: Ask about Keeneys Creek Rd
@@ -22,7 +22,13 @@ groups:
         lng: -81.075728
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🌉
-        days: "1"
+        days: "2"
+      - name: Stone Cliff Campground
+        note: Night 1. Walk-in tent sites on the river; the Stone Cliff Trail starts here.
+        maps: Stone Cliff Campground Thurmond WV
+        verified: false
+        lat: null
+        lng: null
       - name: Fayette Station Road
         note: 8-mi one-way loop to the gorge floor
         maps: Fayette Station Road Fayetteville WV
