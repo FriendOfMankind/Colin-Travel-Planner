@@ -575,11 +575,11 @@ overnight:
 
 **Schedule**
 - 7:15 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
-- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap**: Blanc-Sablon is on Atlantic time, 30 min behind Newfoundland time, and one thread says the ferry runs on Eastern. Confirm which clock the schedule uses
+- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap, sources disagree**: a 2024 vlog puts Blanc-Sablon **1 h 30 m** behind Newfoundland time, with the Labrador side on Atlantic time again 30 min up the road, so three clocks in two days *(was: "Blanc-Sablon is on Atlantic time, 30 min behind Newfoundland time", unsourced; changed 2026-10-07)*. One thread says the ferry runs on Eastern. Not verified: confirm which clock each schedule uses
 - 10:00 → 11:17 (1h 17m) · drive · → Red Bay · 📍 Red Bay National Historic Site
 - 11:30 → 12:30 · food · **Whaler's Restaurant**: fish and chips
 - 12:30 → 1:45 · ruins · Interpretation centre
-- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2)
+- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2). The crossing is weather-dependent; if the morning is calm, ask about going earlier
 - 4:15 → 4:47 (32m) · drive · → Pinware River PP · 📍 Pinware River Provincial Park
 
 **Meals**

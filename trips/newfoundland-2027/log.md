@@ -258,3 +258,13 @@ Built into `trips/newfoundland-2027/trip.md` on Colin's ask ("build the Newfound
 ### Next (as of 2026-10-04)
 
 Passport: Colin has one *(stated 2026-10-03)*; expiry not recorded. Next is the shape: departure date after Maui, the road to North Sydney (Maine/Acadia or Quebec), and whether Labrador's Red Bay earns a day. Then, once Marine Atlantic posts 2027, the Argentia sailing days, which set the end date. *(was: "Passport first", then the iceberg-vs-Argentia trade, which the west-to-east routing dissolves)*
+
+## 2026-10-07 · Red Bay and the Labrador clocks, from a YouTube transcript
+Source for everything below: "Things to do in Labrador Canada", Parenting to Go, YouTube, uploaded 2024-06-27, transcript read 2026-10-07. ⚠️ It was a **hosted press trip** (Parks Canada and Western Newfoundland), so expect the tone to be glowing.
+- ⚠️ **Time zones contradict the plan.** The vlog says Blanc-Sablon is "an hour and a half behind Newfoundland time", and the 30-minute drive into Labrador puts you "back on Atlantic time". The plan said 30 min, unsourced. `trip.md` Day 15 now carries both. Not verified. Labrador Marine (1-866-535-2567) settles it
+- The Strait crossing "can be smooth… or very rough". They saw an iceberg on the way over. There's indoor and outdoor seating, no Wi-Fi, and breakfast for sale on board
+- **Saddle Island**: the Parks Canada boat is included with the Red Bay entrance fee and only runs when the water is calm. Locals' advice was "listen to the weather" and go early, before the wind picks up
+- **Tracey Hill** trail: 689 steps up, for the view over Red Bay. A short easy trail passes whalebones
+- **Whaler's Restaurant**: fish and chips, soups, hot turkey sandwiches, and bakeapple (cloudberry). How the bakeapple is served wasn't said; cooked is fine, raw is still open (`me/food.md`). "Most communities in Labrador usually have one restaurant"
+- Point Amour lighthouse: 132 steps to the top
+- Whalers Quest Ocean Adventures runs boat tours from Red Bay. Price and season not found
