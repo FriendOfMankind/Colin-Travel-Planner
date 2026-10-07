@@ -195,3 +195,12 @@ Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Go
 - **Last-minute batch: 15/night, Wednesdays at 10 AM ET for the coming weekend → Wed Oct 21, 10:00.** Day 7 now has a 9:30 block to get Starlink up and grab it before the lecture setup.
 - **Camping on Table Rock needs no permit, any night.** That settles the AllTrails conflict in `trip.md`'s favor, and it gives a no-permit Friday option too (still first-come).
 - Permits are Fri/Sat only, inside the Wilderness. Stay limit: 2 nights.
+
+## 2026-10-07 · Decided: Stone Cliff on Oct 15, Long Point to Day 2, shorter Bridge Day watch
+
+- **Oct 15 is Stone Cliff.** Colin first leaned toward Glade Creek, but the 2026-09-29 entry has it closed after the August slide. Today's search found only an ambiguous Facebook post title hinting at a reopening, and the post itself couldn't be opened. Ranked: Stone Cliff → Glade Creek (if reopened) → Grandview Sandbar → Army Camp. Stone Cliff is the closest to Fayetteville and a beach site. *(chosen 2026-10-07)*
+- **Fill risk, from reviews:** Stone Cliff "quiet during the week", "arriving on a Friday or Saturday is probably a no go" *(campendium.com, read 2026-10-07)*. Army Camp "completely full" at 4 PM on a November Friday *(campendium.com)*. Nothing found about Thursdays. So the site gets claimed at ~1:40 PM, before any sightseeing.
+- **Day 1 is now camp + the Stone Cliff Trail** (5.8 mi, 377 ft, AllTrails). Canyon Rim moved to Day 2 at 11:15, on the way from the Nuttall lot and right before Keeneys Creek Road. Long Point moved to Day 2 sunset, walked from Arrowhead. The Fayette Station drive was cut, since Day 3 walks the road. *(chosen 2026-10-07)*
+- **Bridge Day watch: 1–2 hours,** not 2h 30m. *(stated 2026-10-07)*
+- **Watch:** Day 2 is now ~9–10 mi on foot, the day before a 9-mile Day 3. Long Point is the first cut.
+- **Fixed in passing:** places.yaml had Arrowhead as nights 1–3. It's nights 2–3.

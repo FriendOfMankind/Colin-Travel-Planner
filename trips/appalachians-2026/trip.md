@@ -27,7 +27,7 @@ tags:
   - first-come
   - solo
   - lodging gap
-next: "Oct 15 is settled: a first-come NRG primitive site, chosen at Canyon Rim Visitor Center on arrival. Before leaving: build the food list from staples + 1–2 real cooks (Kentucky lesson), and print the Hurricane confirmation"
+next: "Oct 15 is Stone Cliff, claimed at ~1:40 PM on the way in (decided 2026-10-07; first-come, 7 sites). Before leaving: build the food list from staples + 1–2 real cooks (Kentucky lesson), and print the Hurricane confirmation"
 booking:
   - system: private
     what: Arrowhead Bike Farm (Oct 16–18)
@@ -106,31 +106,28 @@ Wed Oct 21, 11:00–3:00, at camp over Starlink. Confirmed on both 2026 trips. O
 
 ```yaml
 date: 2026-10-15
-tagline: Five and a half hours, a free site by the river, then the bridge head-on at sunset.
+tagline: Five and a half hours, a tent on a river beach, then the river trail.
 type: travel + activity
-driving: ~6h 05m
-slack: "**None after dark, and now you are also site-hunting.** If the drive runs 90 min long, cut Fayette Station Road — claiming a site in daylight beats a scenic drive. Long Point is what to protect after that."
+driving: "~6h (estimate: 5h 35m measured to Canyon Rim, plus ~25m to Stone Cliff)"
+slack: "**Claim the site first, everything else after.** If the drive runs long, shorten the Stone Cliff Trail. It's an out-and-back, so turn around whenever. (was: Canyon Rim + Fayette Station Road, then claim a site at 4:10 and drive to Long Point for sunset; changed 2026-10-07)"
 overnight:
-  name: NRG primitive campground — first-come
-  place: New River Gorge NP, WV
-  kind: Primitive, free, no reservations
+  name: Stone Cliff Campground — first-come
+  place: New River Gorge NP, near Thurmond, WV
+  kind: Primitive, walk-in tent sites on the river, free, no reservations
   cost: Free
-  checkin: None — drive in and take a site
+  checkin: None — walk in and take a site
   confirmation: ❌ No reservation exists or is possible. **Every NRG park campground is first-come, year-round.**
-  notes: "Four free options, all inside the park, all with fire rings, grills, tables and pit toilets, and **none with drinking water**: **Army Camp** (11 sites, near Prince), **Glade Creek** (11 sites, riverside, Glade Creek Trail from camp), **Grandview Sandbar**, and **Stone Cliff**. Seven of the park's eight campgrounds sit right on the river. ⚠️ Access roads to the riverside sites get rough after rain, and this is the Thursday before Bridge Day."
+  notes: "**5 walk-in tent sites on the river sand plus 2 in the woods, no drive-in sites, no drinking water, composting toilets** *(source: nps.gov Stone Cliff page and wildernessportal.com, search snippets, 2026-10-07; one Campendium review says 11 sites, unknown which is current)*. Reviews: \"quiet during the week\"; \"arriving on a Friday or Saturday is probably a no go\" *(campendium.com, read 2026-10-07)*. **If full,** the next-best are, in order: **Glade Creek** (only if the park says it reopened after the August slide), **Grandview Sandbar**, **Army Camp**, all near Prince, ~40 min away (estimate, not measured). Army Camp has cell reception and filled by 4 PM on a November Friday in one review *(campendium.com)*. Chosen 2026-10-07 (was: \"NRG primitive campground — first-come\", any of the four)."
 ```
 
 **Schedule**
-- 7:30 → 1:05 (5h 35m) · drive · Avon OH → New River Gorge, I-77 S. · 📍 Canyon Rim Visitor Center Lansing WV
-- 1:05 → 1:50 (45m) · stop! · ⚠️ **Decide the campground now, not at 5 PM.** Ask at Canyon Rim which of Army Camp, Glade Creek, Grandview Sandbar and Stone Cliff still has space and which access road is passable after recent rain.
-- 1:50 → 2:05 (15m) · drive · → Canyon Rim Visitor Center. · 📍 Canyon Rim Visitor Center Lansing WV
-- 2:05 → 2:55 (50m) · stop! · Both decks plus the boardwalk. ⚠️ **Ask a ranger about Keeneys Creek Road** — that's tomorrow's Nuttallburg access and it's the day's biggest variable.
-- 2:55 → 3:55 (60m) · drive · **Fayette Station Road** — 8-mile one-way loop, hairpins to the gorge floor, passes directly under the bridge, crosses the Tunney Hunsaker Bridge, through the Fayette and South Fayette townsites. · 📍 Fayette Station Road Fayetteville WV
-- 3:55 → 4:10 (15m) · drive · Road exit onto US-19.
-- 4:10 → 5:20 (1h 10m) · camp! · ⚠️ **Claim a primitive site and pitch before dark.** Army Camp, Glade Creek, Grandview Sandbar or Stone Cliff — free, first-come, no water, pit toilets. Drive one and take what is open rather than shopping around; it is the Thursday of Bridge Day weekend. **Carry your own water in.**
-- 5:20 → 6:05 (45m) · hike · **Drive to the Long Point trailhead, then walk out**, ~1.6 mi each way. The trailhead is near Arrowhead, not at tonight's site, and the drive time depends on which campground you got (not measured). (was: "Walk to Long Point from the tent") · 📍 Long Point Trailhead Fayetteville WV
-- 6:05 → 7:05 (60m) · sunset · ⭐ **Long Point through sunset, 6:48** (recomputed; the plan said 6:52). Head-on bridge view — the classic angle.
-- 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required** — civil twilight ends ~7:17 and it's fully dark before you're off the trail.
+- 7:30 → 1:05 (5h 35m) · drive · Avon OH → Glen Jean exit off US-19. (Time was measured to Canyon Rim; to Glen Jean is not measured.) · 📍 Glen Jean WV
+- 1:05 → 1:15 (10m) · stop! · ⚠️ **Call Canyon Rim, (304) 574-2115, while you still have signal.** Is Stone Cliff open and is the road in passable? If not, which of Glade Creek, Grandview Sandbar or Army Camp is.
+- 1:15 → 1:40 (25m) · drive · → **Stone Cliff**, via WV-25 toward Thurmond, then the gravel road just before the river bridge *(campflare.com directions, snippet)*. · 📍 Stone Cliff Campground Thurmond WV
+- 1:40 → 2:40 (1h) · camp! · ⚠️ **Claim a site and pitch.** Walk-in: carry the tent, food and **all your water** from the car. Early afternoon on a weekday is when these still have room; the old 4:10 claim was the risky part.
+- 2:40 → 5:40 (3h) · hike · ⭐ **Stone Cliff Trail, out-and-back along the river from camp.** ✅ AllTrails: 5.8 mi, 377 ft, Moderate, ~2h moving, so about an hour of this is sitting by the water. Turn around wherever the day says. *(AllTrails, 2026-10-07)*
+- 5:40 → 6:40 (1h) · food · Dinner on the beach (below).
+- 6:40 → (—) · sunset · Sunset 6:48 from the river. The gorge walls take the light earlier. Then bed.
 
 **Meals**
 - B: home
@@ -139,20 +136,20 @@ overnight:
 
 #### Highlights
 
-Fayette Station Road drops you to the gorge floor and back in one afternoon, and Long Point gives the head-on bridge view at sunset. ⚠️ Note the change: **the Long Point trailhead is at Arrowhead, which you are not at tonight** — from a river campground it is a drive, not a walk from the tent.
+A tent on New River sand and a river trail from the campsite, after five and a half hours in the car. Nothing to drive to after you arrive. The bridge views moved to Day 2: Canyon Rim on the way to lunch, Long Point at sunset from Arrowhead. Fayette Station Road was cut because Day 3 walks it anyway. (was: Canyon Rim, Fayette Station drive and Long Point sunset all on Day 1; changed 2026-10-07)
 
 #### Warnings
 
-Two things now compete for the same afternoon: claiming a first-come site and getting to Long Point for sunset. **The site wins.** Sunset is 6:48 and it is fully dark by 7:17, so the Long Point return is a headlamp walk either way — that part was always true. What is new is that you cannot arrive at a campsite after dark and expect one, on the Thursday before 100,000 people show up in Fayette County. If it is 5:30 and you have no site, skip Long Point and sort the tent.
+**Stone Cliff has 7 sites and it's the Thursday before Bridge Day.** The 1:05 call and the 1:40 arrival are the mitigation. If it's full, the fallbacks are ~40 min south near Prince (estimate), and you still have the whole afternoon. **No water at any NRG campground.** Carry it from the car.
 
 ### Day 2 — 2026-10-16 · Endless Wall and a Ford Coal Town
 
 ```yaml
 date: 2026-10-16
-tagline: The rim in the morning, 80 coke ovens in the afternoon.
+tagline: The rim in the morning, 80 coke ovens in the afternoon, the bridge head-on at sunset.
 type: activity
 driving: ~1h 50m
-slack: ~1h 15m.
+slack: "**~0.** Canyon Rim and Long Point used it up (was: ~1h 15m; changed 2026-10-07). If you're behind or your legs are done, cut Long Point first. Day 3 is 9 miles."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -166,27 +163,32 @@ overnight:
 **Schedule**
 - 7:45 → 8:05 (20m) · drive · → **Nuttall lot** — NOT Fern Creek. Same distance to the overlook, consistently fewer people. · 📍 Nuttall Trailhead Endless Wall New River Gorge
 - 8:05 → 11:05 (3h) · hike! · **Endless Wall loop → Diamond Point**, 5.4 mi / ~508 ft. Small lots and roadside parking is prohibited — if it's full, come back after 11. ⚠️ **This MUST be today** — all bridge-overlook trails close tomorrow for Bridge Day security.
-- 11:05 → 11:20 (15m) · drive · → downtown Fayetteville. · 📍 Secret Sandwich Society Fayetteville WV
-- 11:20 → 12:35 (1h 15m) · food · **Secret Sandwich Society.** ⚠️ Weekend waits run 35–50 min; Friday lunch is the right slot. ⭐ **The Brussels sprouts** — feta, hot honey, balsamic; the dish locals name unprompted. Then the **McKinley**. **Key lime pie to go.**
-- 12:35 → 1:10 (35m) · drive! · → **Nuttallburg** via Keeneys Creek Rd. One lane, steep, drops into the gorge — trees over the hood, rock walls close. · 📍 Nuttallburg Winona WV
-- 1:10 → 2:10 (1h) · ruins · ⭐ **NUTTALLBURG.** Coal tipple on the C&O tracks, a rust-colored steel conveyor swooping down the hillside above the treetops, **80 coke ovens you can walk into**, town ruins. Nothing has run since 1958 — no glass in the windows, no graffiti either, grounds maintained. The Nuttall family gave it to the Park Service in 1998.<br><br>**The Henry Ford angle:** Fordson Coal took the mining rights in 1920 trying to vertically integrate coal into the steel supply. Edsel oversaw the investment — the tipple and conveyor are from the 1923–26 rebuild. Ford mothballed the No. 2 mine within a year of visiting.
-- 2:10 → 3:40 (1h 30m) · hike · ⭐ **Conveyor Trail up to the headhouse and mine entrance — not optional any more.** ~0.5 mi steep, climbing alongside the conveyor. Trip reports call it *"very challenging but worth it"*, and it is what separates Nuttallburg from a walk-by: Blue Heron in Kentucky was polished and flat and disappointed; this is the part you climb into. Also nearby if time is left: **Seldom Seen**, a former community reduced to foundation blocks.
-- 3:40 → 4:20 (40m) · drive · → Arrowhead.
-- 4:20 → 6:00 (1h 40m) · stop · Camp, shower, rest. Sunset 6:46.
-- 6:00 → 7:30 (1h 30m) · food · Dinner — **Pies & Pints** (founded here before spreading to five states). ⭐ **The black bean pizza with pork** — the tourist order is Grape & Gorgonzola; this is the local one. Pimento cheese fries. Or Arrowhead, open till 10 tonight.
+- 11:05 → 11:15 (10m) · drive · → **Canyon Rim Visitor Center** (drive time not measured). · 📍 Canyon Rim Visitor Center Lansing WV
+- 11:15 → 11:40 (25m) · stop! · Both decks plus the boardwalk. ⚠️ **Ask a ranger about Keeneys Creek Road** for 5.9 in of clearance. You drive it in two hours. Visitor center hours aren't recorded; check them. (moved from Day 1, 2026-10-07)
+- 11:40 → 11:55 (15m) · drive · → downtown Fayetteville. · 📍 Secret Sandwich Society Fayetteville WV
+- 11:55 → 1:10 (1h 15m) · food · **Secret Sandwich Society.** ⚠️ Weekend waits run 35–50 min; Friday lunch is the right slot. ⭐ **The Brussels sprouts** — feta, hot honey, balsamic; the dish locals name unprompted. Then the **McKinley**. **Key lime pie to go.**
+- 1:10 → 1:45 (35m) · drive! · → **Nuttallburg** via Keeneys Creek Rd. One lane, steep, drops into the gorge — trees over the hood, rock walls close. · 📍 Nuttallburg Winona WV
+- 1:45 → 2:45 (1h) · ruins · ⭐ **NUTTALLBURG.** Coal tipple on the C&O tracks, a rust-colored steel conveyor swooping down the hillside above the treetops, **80 coke ovens you can walk into**, town ruins. Nothing has run since 1958 — no glass in the windows, no graffiti either, grounds maintained. The Nuttall family gave it to the Park Service in 1998.<br><br>**The Henry Ford angle:** Fordson Coal took the mining rights in 1920 trying to vertically integrate coal into the steel supply. Edsel oversaw the investment — the tipple and conveyor are from the 1923–26 rebuild. Ford mothballed the No. 2 mine within a year of visiting.
+- 2:45 → 4:15 (1h 30m) · hike · ⭐ **Conveyor Trail up to the headhouse and mine entrance — not optional any more.** ~0.5 mi steep, climbing alongside the conveyor. Trip reports call it *"very challenging but worth it"*, and it is what separates Nuttallburg from a walk-by: Blue Heron in Kentucky was polished and flat and disappointed; this is the part you climb into. Also nearby if time is left: **Seldom Seen**, a former community reduced to foundation blocks.
+- 4:15 → 4:55 (40m) · drive · → Arrowhead.
+- 4:55 → 5:35 (40m) · stop · Check in (from 3 PM), pitch. The shower waits until after dark.
+- 5:35 → 6:20 (45m) · hike · **Walk to Long Point from the tent**, ~1.6 mi each way. The trailhead is at Arrowhead. (moved from Day 1, 2026-10-07) · 📍 Long Point Trailhead Fayetteville WV
+- 6:20 → 7:05 (45m) · sunset · ⭐ **Long Point through sunset, 6:46.** Head-on bridge view, the classic angle, the night before Bridge Day.
+- 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required.** Fully dark ~7:15.
+- 7:50 → 9:00 (1h 10m) · food · Dinner at **Arrowhead** (kitchen till 10 PM Friday). Pies & Pints only if it's still open, which isn't recorded (was: Pies & Pints at 6:00). ⭐ If you make it there: **the black bean pizza with pork**, the local order, and pimento cheese fries.
 
 **Meals**
 - B: made — **loaded potato scramble**: potato flakes stirred into boiling water until thick, milk powder, butter, 2 eggs stirred in over low heat until set, cheddar, bacon bits. One pot (~820 kcal)
 - L: bought — Secret Sandwich Society
-- D: bought — Pies &amp; Pints, or Arrowhead. **Tonight: build tomorrow’s Bridge Day muffuletta and press it under the cooler lid.**
+- D: bought — Arrowhead after Long Point, or Pies &amp; Pints if open. **Tonight: build tomorrow’s Bridge Day muffuletta and press it under the cooler lid.**
 
 #### Highlights
 
-Nuttallburg is the best-preserved ruin on the trip: a stabilized 90-acre historic district with a conveyor running down the hillside above the treetops, and a Henry Ford vertical-integration story attached to it. The climb to the headhouse is what makes it more than a walk-by. For raw and unrestored, the Blevins-farm kind, the pick is **Kaymoor on Day 4** (Sept 28 ruins check).
+Nuttallburg is the best-preserved ruin on the trip: a stabilized 90-acre historic district with a conveyor running down the hillside above the treetops, and a Henry Ford vertical-integration story attached to it. The climb to the headhouse is what makes it more than a walk-by. For raw and unrestored, the Blevins-farm kind, the pick is **Kaymoor on Day 4** (Sept 28 ruins check). Long Point at sunset closes the day, walked from the tent.
 
 #### Warnings
 
-**Keeneys Creek Road is the variable.** Some sources recommend high clearance and you have 5.9 inches. Ask at Canyon Rim on Day 1. **If it's a no:** skip Nuttallburg and take the afternoon easy — you are not losing the coal ruins, because **Kaymoor is now scheduled on Day 4 morning** (promoted Sept 28), same corridor, conveyor and coke ovens, reached by a long stairway down.
+**Keeneys Creek Road is the variable.** Some sources recommend high clearance and you have 5.9 inches. Ask at Canyon Rim at 11:15, two hours before you drive it. **If it's a no:** skip Nuttallburg and take the afternoon easy — you are not losing the coal ruins, because **Kaymoor is now scheduled on Day 4 morning** (promoted Sept 28), same corridor, conveyor and coke ovens, reached by a long stairway down.
 
 ### Day 3 — 2026-10-17 · Bridge Day, From the Bottom
 
@@ -195,7 +197,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: "~45m before the chili cook-off opens at 3, then ~2h before dark. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
+slack: "~1h 30m before the chili cook-off opens at 3, then ~2h before dark. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -210,10 +212,10 @@ overnight:
 - 6:45 → 7:45 (60m) · stop! · **No 5:45 alarm — chosen Sept 28.** This later start only works if the parking call (below) says the Fayette Station lot still has space around 8:00; if it fills at dawn, fall back to the old plan (wake 5:45, park 7:00). Then: wake, breakfast, day bag and **CASH**. Breakfast option: **Tudor's Biscuit World**, Oak Hill, ~15 min — a real WV institution, not a tourist stop.
 - 7:45 → 8:00 (15m) · drive! · → top of Fayette Station Rd, park. ⚠️ **CALL 800-927-0263 TO CONFIRM PARKING.** This is the one detail standing between the walk-to-the-bottom plan and improvising at 7 AM.
 - 8:00 → 9:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Full daylight by now (sunrise 7:35).
-- 9:30 → 12:00 (2h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
-- 12:00 → 2:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
-- 2:15 → 2:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
-- 2:30 → 3:00 (30m) · stop · Sit down. You just climbed 800 ft. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
+- 9:30 → 11:00 (1h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** Plan on 1–2 hours and stay longer only if it's still fun (was: 2h 30m; changed 2026-10-07). 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
+- 11:00 → 1:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
+- 1:15 → 1:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
+- 1:30 → 3:00 (1h 30m) · stop · Sit down. You just climbed 800 ft. Wander Fayetteville if your legs want to. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
 - 3:00 → 4:30 (1h 30m) · event · **Chili cook-off**, Fayette County Courthouse, 3–6 PM *(source: visitfayettevillewv.com Bridge Day 2026 page, 2026-10-06)*. The food event of the day. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
 - 4:30 → 4:40 (10m) · drive · → Arrowhead. Sunset 6:45.
 
@@ -578,7 +580,7 @@ total: Arrowhead $25.44 · Hurricane $20 · Davidson River reserved
 
 | Night | Date | Location | Type | Name | Cost | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Oct 15 | New River Gorge, WV | Primitive, no water | Army Camp / Glade Creek / Grandview Sandbar / Stone Cliff | Free | First-come — nothing to reserve |
+| 1 | Oct 15 | New River Gorge, WV | Primitive walk-in, no water | Stone Cliff (fallbacks: Glade Creek if reopened → Grandview Sandbar → Army Camp) | Free | First-come — nothing to reserve |
 | 2–3 | Oct 16–17 | Fayetteville, WV | Private | Arrowhead Bike Farm | $25.44 | ✅ Ref ROTXCV — confirmed on the booking site |
 | 4–7 | Oct 18–21 | Brevard, NC | USFS | Davidson River | Reserved | ✅ 0864063574-1 + phone-confirmed open |
 | 8–9 | Oct 22–23 | Linville Gorge, NC | Dispersed, no facilities | FS 210 roadside | Free | ❌ FIRST-COME — no reservation possible |
@@ -590,7 +592,8 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | Trailhead is near Arrowhead — a drive from the Oct 15 site (was: "at the campground"). Returns after dark — headlamp. |
+| Stone Cliff Trail | 1 | ✅ 5.8 mi | ✅ 377 ft | Moderate | ~2h moving | From the Oct 15 campground, along the river. Out-and-back, so turn around anywhere. *(AllTrails, 2026-10-07)* |
+| Long Point | 2 | ~3.0 mi (est) | — | Easy | 1h 30m | From the tent at Arrowhead (moved from Day 1, 2026-10-07). Returns after dark — headlamp. |
 | Endless Wall → Diamond Point | 2 | 5.4 mi | 508 ft | Moderate | 3h | Verified in source. Nuttall lot, not Fern Creek. Must be Friday — closed Saturday. |
 | Nuttallburg + Conveyor Trail | 2 | ~1.0 mi (est) | — | Easy–steep | 1h 30m | The climb to the headhouse is now core, not optional (Sept 28). Keeneys Creek Rd access is the clearance question. |
 | ⭐ Kaymoor Miners Trail | 4 | ~1 mi RT + 800+ steps (from reports) | Steep — unmeasured | Strenuous (stairs) | 2h (est) | Promoted from fallback Sept 28: unrestored mine buildings, the trip's best match for the Blevins-farm kind of ruin. Distance and gain are from trip reports, not measured. |
@@ -736,7 +739,8 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [ ] Fill three 1-gallon water jugs in Brevard before leaving for Linville — ~12 L total carry
 - [ ] Buy pull-tab cans only — a forgotten can opener at Linville means no dinner
 - [ ] Call Grandfather Ranger District (828) 652-2144 — FS 210 site availability, the 200-ft camping Forest Order, and Table Rock loop routing given the washed-out Spence Ridge bridge
-- [ ] Day 1 at Canyon Rim Visitor Center: ask about Keeneys Creek Road condition for a 5.9 in clearance car
+- [ ] Day 1, 1:05: call Canyon Rim (304) 574-2115 for Stone Cliff status
+- [ ] Day 2 at Canyon Rim Visitor Center (11:15): ask about Keeneys Creek Road condition for a 5.9 in clearance car
 - [x] ✅ Arrowhead ref ROTXCV — confirmed Oct 16–18, 2 nights, on the booking site
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
@@ -757,16 +761,16 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 **Blocks:** Day 10 — decide before the trip
 Colin dropped the 5:45 alarm on Sept 28 (slow mornings), which moves the Massie Gap arrival to ~10:15 on a **peak-color Saturday**. Grayson Highlands is one of the region's busiest weekend spots, and his rule is to skip a packed viewpoint. Three options: **(a)** keep the late start and accept the crowd and a possibly full lot; **(b)** an earned early start (crowd-beating is one of the reasons he gave for one); **(c)** swap the day's hike for something quieter near Hurricane. Parking capacity and fill times are not verified — ask the park.
 
-### Oct 15 is now a first-come primitive site, and that is the one thing left to get right.
+### Oct 15 is Stone Cliff, first-come, and that is the one thing left to get right.
 
 **Blocks:** Day 1
-Arrowhead is confirmed Oct 16–18, which covers Bridge Day night and hands off to Davidson River's 2 PM check-in on Oct 18. Oct 15 is solved by camping primitive inside the park instead.
+Arrowhead is confirmed Oct 16–18, which covers Bridge Day night and hands off to Davidson River's 2 PM check-in on Oct 18. **Oct 15 is Stone Cliff** *(decided 2026-10-07; was: any of four NRG primitive sites, chosen at Canyon Rim at 1:05)*. It's the closest to Fayetteville, a tent on the river sand, and the Stone Cliff Trail starts from camp.
 
-**Four free options, all first-come, all with fire rings, grills, tables and pit toilets, none with drinking water:** Army Camp (11 sites, near Prince), Glade Creek (11 sites, riverside, with the Glade Creek Trail leaving from camp), Grandview Sandbar, and Stone Cliff. Every campground in New River Gorge is first-come year-round — **there is nothing to reserve, so there is nothing to forget to book.**
+**The risk is that it fills.** It has 7 sites. Reviews call it quiet on weekdays and "a no go" on Fridays and Saturdays *(campendium.com, read 2026-10-07)*, and this is the Thursday before Bridge Day. No source found reports Thursdays specifically. The mitigation: arrive ~1:40 PM, not 4:10, and call Canyon Rim **(304) 574-2115** from Glen Jean first.
 
-What that costs you: the Long Point trailhead is at Arrowhead, so on Oct 15 it becomes a drive rather than a walk from the tent. Water has to be carried in. And access roads to the riverside sites get rough after rain. **Ask at Canyon Rim Visitor Center when you arrive** which sites have space and which road is passable — that is a 5-minute conversation that saves an hour of driving in the dark.
+**Fallbacks, in order:** Glade Creek (**closed after the August slide**, per log.md 2026-09-29; take it only if the park says it reopened) → Grandview Sandbar → Army Camp. All are near Prince, ~40 min from Stone Cliff (estimate), all free and first-come with no water. Grandview Sandbar and Glade Creek "typically fill up fast" *(Facebook group, snippet, undated)*.
 
-Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisit/campgrounds.htm) · [The Dyrt](https://thedyrt.com/camping/west-virginia/near/new-river-gorge-national-river/with/dispersed)
+Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisit/campgrounds.htm) · [Campendium: Stone Cliff](https://maps.campendium.com/us/oak-hill-wv/camping-rv/stone-cliff-campground) · [AllTrails: Stone Cliff Trail](https://www.alltrails.com/trail/us/west-virginia/stone-cliff-trail--2)
 
 ### Fayette Station Road parking on Bridge Day.
 
@@ -848,7 +852,7 @@ Davidson River is forested and Starlink needs sky view. Test it Sunday Oct 18 on
 
 ### Sun times were optimistic in one direction
 
-Every sunrise and sunset in the source file ran roughly 3–4 minutes in the direction of more daylight than exists. Recomputed values are used throughout. Individually that's noise. It matters twice: Day 1, where you finish a 1.6-mile walk back from Long Point after full dark and the source already flagged it; and Day 9, where sunrise on Hawksbill is 7:41 rather than 7:38, meaning three more minutes standing on an exposed 4,009 ft summit in the mid-30s before the light arrives. Bring the layers you'd bring anyway, and don't trust a clock you didn't derive.
+Every sunrise and sunset in the source file ran roughly 3–4 minutes in the direction of more daylight than exists. Recomputed values are used throughout. Individually that's noise. It matters twice: Day 2 (was Day 1 until 2026-10-07), where you finish a 1.6-mile walk back from Long Point after full dark and the source already flagged it; and Day 9, where sunrise on Hawksbill is 7:41 rather than 7:38, meaning three more minutes standing on an exposed 4,009 ft summit in the mid-30s before the light arrives. Bring the layers you'd bring anyway, and don't trust a clock you didn't derive.
 
 ### Fayetteville eats five restaurant slots in three days
 
