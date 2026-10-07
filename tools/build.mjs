@@ -17,6 +17,7 @@ import { marked } from "marked";
 import { parseTrip, splitFrontmatter, sections } from "./lib/format.mjs";
 import { parseIdea, summarize } from "./lib/wishlist.mjs";
 import { parseBucket, horizonOf } from "./lib/bucket.mjs";
+import { dayStops, routeLinks } from "./lib/route.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -107,6 +108,7 @@ function buildTrip(slug) {
       schedule: (d.schedule ?? []).map((s) => ({ time: s.time, est: s.est ?? "", kind: s.kind, warn: !!s.warn, maps: s.maps ?? null, ...splitRow(s.text) })),
       meals: Object.fromEntries(Object.entries(d.meals ?? {}).map(([k, v]) => [k, mdi(v)])),
       highlights: md(d.highlights), warnings: md(d.warnings),
+      route: (() => { const st = dayStops(d.schedule ?? [], allPlaces); return st.length >= 2 ? { pinned: st.filter((x) => x.pinned).length, total: st.length, links: routeLinks(st) } : null; })(),
       sun: sun?.rows?.[i] ?? null,
     })),
     hikes: (page.hikes?.rows ?? []).map((h) => Object.fromEntries(Object.entries(h).map(([k, v]) => [k, typeof v === "string" ? mdi(v) : v]))),
