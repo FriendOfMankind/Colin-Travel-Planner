@@ -1228,7 +1228,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 ### Check
 
 - [ ] Reserve a rental bike in Bar Harbor for May 26
-- [ ] Sienna: trim and seat layout, and the bed measurements (open question below)
+- [ ] Sienna: three working belts in the 3rd row; 2nd row comes out at home
 - [ ] Sun hat and sunglasses (unknown)
 - [ ] A warmer sleep layer for 20s nights — decide after the October trip
 
@@ -1275,12 +1275,12 @@ The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 s
 **Blocks:** Day 28
 The friends' window replaced the earlier La Manche nights; this one was carried over, not re-decided.
 
-### Solo nights: the 2nd row, and where the friends sit
+### The van layout: 2nd row out, friends in the 3rd row
 
-**Blocks:** the van bed on solo nights, and seating for Days 19–28
+**Blocks:** nothing now; one belt check left
 **The bed:** sleeping pad on top of storage totes (black with yellow lids), no frame *(stated 2026-10-08; was: a bought platform, considered)*. Colin has slept in the Sienna before, **with the 2nd row out** *(stated 2026-10-08)*. He's 6 ft or taller. With the 2nd row in, owners report about 6 ft of bed *(Facebook, snippet)*, which is too short.
 **The conflict:** the 2nd row can't ride along on the solo weeks, and it was assumed the friends need it.
-⚠️ **Proposal, not confirmed:** leave the 2nd row at home and seat the friends in the **3rd row**. The 2011–2020 Sienna's 3rd row is a split bench that seats three *(recalled; check the belts in this van)*, so driver + front passenger + three in back is five seats for four people, and the totes and luggage ride on the floor where the 2nd row was. Comfort for long drives isn't known; the friends' week legs are short. **Needs Colin:** is the 2nd row removable in this van, and does the 3rd row have three working belts?
+**The plan:** leave the 2nd row at home for the whole trip and seat the friends in the **3rd row**, a split bench for three *(recalled; count the belts in this van)*. Driver + front passenger + three in back is five seats for four people; the totes and luggage ride on the floor where the 2nd row was. Comfort isn't a worry: Colin drove Ohio → Las Vegas and back in this van with 5 friends *(stated 2026-10-08)*, and the friends' week legs are short. *(was: a proposal, 2026-10-08.)* **Still to check:** three working belts in the 3rd row.
 
 ### Does the sleep system work at 35°F?
 
