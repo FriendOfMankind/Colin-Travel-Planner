@@ -56,13 +56,13 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Cape Spear**: grounds open year-round, so sunrise works; dawn wind. ⚠️ **North Head**: a cliff ledge with chains, so do it in daylight (Day 24 updated). ⬜ St. John's walking route, Quidi Vidi
 - ✅ **Witless Bay boats**: Gatherall's runs from May 14
 - ✅ **La Manche**: 1.8 mi / 308 ft out and back to the suspension bridge (AllTrails)
-- 🟡 **St. Vincent's Beach**: whales close to shore in capelin season; it's on the Irish Loop right after Mistaken Point (routed). A decision for Colin
+- 🟡 **St. Vincent's Beach**: whales close to shore in capelin season; it's on the Irish Loop right after Mistaken Point (routed). **Chosen 2026-10-08** (Day 29)
 
 ## 7. Avalon solo and home (Days 28–33)
 - ✅ **Colony of Avalon**: June–October, five tour times
 - ✅ **Cape St. Mary's**: 1.5 km trail, free, ~70,000 seabirds (2022 video)
 - 🟡 **Night of June 20**: Argentia Sunset RV Park (2.5 km from the ferry; tents unconfirmed), a Hipcamp, or free Chance Cove PP on the Irish Loop. Depends on the Mistaken Point decision
-- 🟡 **⭐ Mistaken Point** (new): 565-million-year-old Ediacaran fossils, UNESCO; daily 10:30/12:30 guided tours, 6 km, $23, reservations required. A decision for Colin
+- 🟡 **⭐ Mistaken Point** (new): 565-million-year-old Ediacaran fossils, UNESCO; daily 10:30/12:30 guided tours, 6 km, $23, reservations required. **Chosen 2026-10-08** (Day 29)
 - 🟡 **North Sydney arrival**: The Black Spoon for seafood chowder (2024 video). ⬜ arrival time
 
 ## 8. Cross-cutting

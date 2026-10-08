@@ -92,7 +92,7 @@ page:
 
 ## Overview
 
-Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Straight up the Viking Trail to the tip of the Northern Peninsula (L'Anse aux Meadows, two outports, icebergs), across the Strait of Belle Isle for a night in Labrador and Red Bay, then back south through Gros Morne (five nights, north side then south) and across the island to Gander. *(was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)* From Gander it's the friends' week: Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
+Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Straight up the Viking Trail to the tip of the Northern Peninsula (L'Anse aux Meadows, two outports, icebergs), across the Strait of Belle Isle for a night in Labrador and Red Bay, then back south through Gros Morne (five nights, north side then south) and across the island to Gander. *(was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)* From Gander it's the friends' week: Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland, the Mistaken Point fossils and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
 
 ### Dates
 
@@ -987,42 +987,49 @@ overnight:
 - L: packed
 - D: made at camp
 
-### Day 29 — 2027-06-20 · The gannets, then Argentia
+### Day 29 — 2027-06-20 · Mistaken Point, and whales from the beach
 
 ```yaml
 date: 2027-06-20
-tagline: A sea stack covered in gannets, a few metres from the cliff edge.
+tagline: Stand on a 565-million-year-old seafloor covered in the oldest complex life on Earth, then watch humpbacks from the sand.
 type: travel + activity
-driving: 4h 07m (routed +15%)
-slack: Depends on the 2027 sailing day.
+driving: 4h 08m (routed +15%) plus the 30-min drive inside the tour
+slack: Tight. First cut — the St. Vincent's whale stop.
 overnight:
-  name: TBD — near Argentia / Placentia
-  place: Placentia, NL
-  kind: Not researched
+  name: Argentia Sunset RV Park
+  place: Argentia, NL, 2.5 km from the ferry
+  kind: Private RV park (40 serviced sites, washrooms, showers)
   cost: TBD
   checkin: TBD
   confirmation: TBD
-  notes: ⚠️ Not researched. The 2027 sailing day and time decide whether this is a night ashore or the boat.
+  notes: Tents aren't mentioned on its page; call 709-227-6363 or email argentiarvpark@gmail.com. Fallback is the Placentia Paradise Hipcamp.
 ```
 
 **Schedule**
-- 10:00 → 12:46 (2h 46m) · drive · La Manche → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
-- 1:00 → 3:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit
-- 3:00 → 4:21 (1h 21m) · drive · → Argentia / Placentia · 📍 Placentia NL
+- 8:20 → 9:39 (1h 19m) · drive · La Manche → Mistaken Point Interpretation Centre, Portugal Cove South. Some locals call the Southern Shore roads rough *(Facebook, via Colin's scrape, unconfirmed)* · 📍 Edge of Avalon Interpretive Centre Portugal Cove South
+- 9:45 · stop · Check in at the Interpretation Centre; fees are paid on the day
+- 10:30 → 2:30 (4h) · geology · **Mistaken Point guided tour**: a 30-min drive in your own car, then a 6 km round-trip walk over coastal barrens to fossil beds of Ediacaran life dated 565 and 579 million years, the oldest multicellular fossils known. $23, **reservations required and they fill well ahead**; daily at 10:30 or 12:30 mid-May to mid-October; cancelled for thunderstorms or very high wind *(mistakenpoint.ca/tour, page read 2026-10-08; gov.nl.ca, snippet)*. Pack lunch
+- 2:30 → 3:10 (40m) · drive · → St. Vincent's Beach, on the Irish Loop heading west · 📍 St. Vincent's Beach Newfoundland
+- 3:10 → 4:30 · stop · **Whales from the beach**: the beach drops to 42 ft right away, so in capelin season (June–July, timing unpredictable) humpbacks feed 10–50 m offshore *(YouTube, Kill or Cure, 2026)*. A waiting game; leave by 4:30 regardless
+- 4:30 → 6:39 (2h 09m) · drive · St. Vincent's → Argentia via Route 90 and 91 · 📍 Argentia Sunset RV Park
 
 **Meals**
 - B: made at camp
 - L: packed
-- D: made or bought
+- D: made at camp
+
+#### Highlights
+
+Added 2026-10-08 *(Colin picked option A; was: Cape St. Mary's on this day and a free Monday morning)*. Ferryland on Day 28 and Mistaken Point today give the Irish Loop the two days locals recommend.
 
 ### Day 30 — 2027-06-21 · Argentia → North Sydney
 
 ```yaml
 date: 2027-06-21
-tagline: Sixteen and a half hours at sea, overnight.
-type: travel
-driving: none
-slack: n/a
+tagline: Gannets in the morning, then sixteen hours at sea overnight.
+type: activity + ferry
+driving: 2h 36m (routed +15%)
+slack: Fixed by the 3 PM check-in. If the morning is socked in, skip the gannets and sit tight in Argentia.
 overnight:
   name: Marine Atlantic, Argentia route
   place: At sea
@@ -1034,6 +1041,9 @@ overnight:
 ```
 
 **Schedule**
+- 8:30 → 9:48 (1h 18m) · drive · Argentia → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
+- 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
+- 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
 - 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
 - 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
 
@@ -1151,7 +1161,7 @@ total: Not totalled; the hotel week isn't priced
 | 26 | Thu 6/17 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
 | 27 | Fri 6/18 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
 | 28 | Sat 6/19 | Southern Shore, NL | ParksNL | La Manche | C$20.15 | Assumed, not decided |
-| 29 | Sun 6/20 | Placentia, NL | TBD | TBD | TBD | Not researched |
+| 29 | Sun 6/20 | Argentia, NL | Private RV park | Argentia Sunset RV Park | TBD | Tents unconfirmed; 709-227-6363 |
 | 30 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | Book once 2027 is posted |
 | 31 | Tue 6/22 | NS / NB / ME | Transit | TBD | ~$35 est. | Not identified |
 | 32 | Wed 6/23 | New York | Transit | TBD | ~$35 est. | Not identified |
@@ -1186,7 +1196,8 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 | Cape Spear Path | 25 | 5.9 mi | 643 ft | Moderate | 2h 21m | After sunrise |
 | La Manche Village Path | 27 | 4.4 mi pt-to-pt | 475 ft | — | — | Walked from the park end |
 | Ferryland lighthouse | 28 | 1.2 mi | — | Easy | 27m | |
-| Cape St. Mary's gannets | 29 | 1.7 mi | 295 ft | Easy | 48m | Long sit at the colony |
+| Mistaken Point fossils (guided only) | 29 | ~3.7 mi (6 km) | — | Casual–moderate | 3½–4 h incl. drive | Reservation required |
+| Cape St. Mary's gannets | 30 | 1.7 mi | 295 ft | Easy | 48m | Long sit at the colony |
 
 ## Weather
 
@@ -1238,6 +1249,8 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] ParksNL season opening (mid-April 2027) — Pinware River, Pistolet Bay, La Manche, J.T. Cheeseman
 - [ ] Strait of Belle Isle ferry both ways, and which clock its schedule uses (1-866-535-2567)
 - [ ] Red Bay Saddle Island tour times
+- [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
+- [ ] Argentia Sunset RV Park: tents allowed? (709-227-6363)
 - [ ] Friends: headcount, then a rental car by ~January if two or more
 - [ ] Hotels for 6/10–6/18 (Gander, Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
@@ -1252,10 +1265,10 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 **Blocks:** the rental car, the hotel bookings and the open-jaw flights
 **Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. So the plan assumes a rental car. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
 
-### Where's the night of June 20?
+### Does Argentia Sunset RV Park take tents?
 
 **Blocks:** Day 29
-The sailing is Monday at 5 PM, so June 20 can be anywhere within a couple of hours. **Argentia Sunset RV Park**: 40 serviced sites, washrooms and showers, 2.5 km from the ferry, reservations 709-227-6363 or argentiarvpark@gmail.com *(portofargentia.ca, page read 2026-10-08)*. It's an RV park; whether it takes tents isn't stated. A Hipcamp ("Placentia Paradise") is listed minutes from the ferry *(snippet)*. Locals on Facebook say the provincial parks near Argentia are day-use only *(snippet)*
+The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 serviced sites, washrooms, showers, reservations at 709-227-6363 or argentiarvpark@gmail.com *(portofargentia.ca, page read 2026-10-08)*. Its page doesn't mention tents. The fallback is the Placentia Paradise Hipcamp, "minutes from the Argentia ferry" *(snippet)*. Locals say the provincial parks near Argentia are day-use only *(Facebook, snippet)*. *(was: "Where's the night of June 20?")*
 
 ### Is La Manche still the June 19 camp?
 
