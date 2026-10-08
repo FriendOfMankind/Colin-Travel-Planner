@@ -357,7 +357,7 @@ overnight:
   cost: $20.15 CAD unserviced (ParksNL)
   checkin: TBD
   confirmation: TBD
-  notes: ⚠️ J.T. Cheeseman's 2026 opening date wasn't in the ParksNL list; confirm it's open by May 30.
+  notes: ⚠️ J.T. Cheeseman's 2026 opening date wasn't in the ParksNL list; confirm it's open by May 30. Locals' most-agreed advice is to book the first night off the ferry; Cheeseman fills fast (Facebook, via Colin's scrape, 2026-10-07).
 ```
 
 **Schedule**
@@ -389,7 +389,7 @@ overnight:
 ```
 
 **Schedule**
-- 8:00 → 10:39 (2h 39m) · drive · Port aux Basques → Corner Brook · 📍 Corner Brook NL
+- 8:00 → 10:39 (2h 39m) · drive! · Port aux Basques → Corner Brook. **Wreckhouse**, on the Trans-Canada just north of Port aux Basques, has dangerous crosswinds; locals say to ask the truckers on the ferry whether the wind is up *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Corner Brook NL
 - 10:40 → 11:40 · shop · **The real shop**: perishables, block ice, stove fuel at Canadian Tire. It's a Monday, so everything's open
 - 11:45 → 4:11 (4h 26m) · drive · Corner Brook → St. Barbe up Route 430, past Gros Morne. Lunch on the road. **Fill the tank in Corner Brook or Deer Lake**: gas stations are sparse up the peninsula, and about halfway up the road gets broken and potholed *(YouTube, True North RVing, 2024)*. The 4 h 26 m is the routed Port aux Basques → St. Barbe leg minus the Corner Brook leg · 📍 St. Barbe RV Park
 - evening · camp · Pitch, shower, early night
@@ -778,7 +778,7 @@ overnight:
 - 9:00 → 1:30 · drive · Twillingate → Bonavista · 📍 Bonavista NL
 - 1:30 → 5:00 · stop · **Dungeon PP** (a collapsed sea cave) + Cape Bonavista lighthouse · 📍 Dungeon Provincial Park
 - 5:00 → 6:00 · food · **Little Dairy King**, Cape Bonavista: fish and chips + ice cream
-- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed · 📍 Elliston Puffin Viewing Site
+- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed. Locals say **first light is best**, and the birds are sometimes out at sea, so allow a second try; Trinity is 51 min away for a dawn run on Day 22 or 23 *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Elliston Puffin Viewing Site
 - 8:50 → 9:41 (51m) · drive! · → Trinity hotel
 
 **Meals**
@@ -834,6 +834,7 @@ overnight:
 
 **Schedule**
 - OPTIONAL · ruins · Whichever ruin yesterday skipped
+- OPTIONAL · geology · **Discovery UNESCO Geopark**: **Port Union's 560-million-year-old fossils** (Murphy's Cove trail) and the **Tickle Cove Sea Arch** on the Route 235 loop, which locals call a must-see *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Neither is checked against an official source
 
 **Meals**
 - B: bought
@@ -976,7 +977,7 @@ overnight:
 - morning · drive · Friends to St. John's airport (YYT). Flight times TBD · 📍 St. John's International Airport
 - (1h 20m) · drive · St. John's → Ferryland · 📍 Ferryland Newfoundland
 - midday · ruins · **Colony of Avalon** dig (1620s). Season June–October; 2026 tours at 9:00, 10:30, 12:00, 1:30 and 3:00 (colonyofavalon.ca, snippet) · 📍 Colony of Avalon Ferryland
-- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m)
+- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m). The road out is narrow and rough with a gate partway; park and walk from the gate *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Food: **The Squid Jigger**, Ferryland, for seafood chowder ("best" per the same thread; hours not checked)
 - evening · camp · → La Manche PP
 
 **Meals**

@@ -390,3 +390,21 @@ Transcripts read 2026-10-08. All of it is secondhand: one group's trip, in one s
 - ✅ **Skyline Trail parking reservations**: required **June 26 – Oct 25, 2026**, 8 AM – 9 PM, in 4-hour slots, opening May 6. **Not needed on May 29.** In spring "snow may still linger on the plateau". Parks Canada runs a guided Skyline Sunset Hike (cbisland.com "Skyline Trail 101", written by Parks Canada, page read)
 **Mistaken Point, continued**: 📋 "The tour may be cancelled due to dangerous weather conditions such as thunderstorms or very high winds" (gov.nl.ca). Fog alone isn't listed as a reason. A fall visitor booked "a couple of days ahead"; summer fills up (TripAdvisor). 📋 **Chance Cove Provincial Park** on the Irish Loop: free, with no designated sites, camping allowed on the parking lot or picnic area or near the beach, pit toilets (NL Tourism, Reddit, a blog)
 **Not found**: anything on Pinware River PP beyond opening dates; the 2027 Hopewell tide table; Trout River Pond boat schedules (the Wild Gros Morne site only lists Bonne Bay tours in snippets)
+
+## 2026-10-08 · Colin's Facebook scrape: Discovering Newfoundland
+Source: Colin ran an Apify Facebook-groups scrape of **Discovering Newfoundland** (scraped 2026-10-07): 144 top posts and 520 comments from 15 trip-planning threads, with business ads filtered out. That's about one week of recent posts (late September–early October 2026), so it's mostly fall-trip advice. All 📋 secondhand. Only the parts that touch this plan are listed; the full summary he pasted covered the whole island.
+- **The first night off the Port aux Basques ferry**: "the most-agreed-on advice in the group" is to book it; **J.T. Cheeseman fills fast** (beach, two small waterfalls, "very clean washrooms"). Added to Day 8
+- **Wreckhouse** (Trans-Canada near the ferry): dangerous crosswinds; ask the truckers on the ferry. Added to Day 9 as a warning
+- **Moose**: "don't drive at night"; a park sign at Terra Nova reportedly showed ~19 collisions by early October. Densest on the Northern Peninsula and in Gros Morne, rare on Bonavista. **Headlights flashed at you mean a moose ahead.** Matches the plan's moose note
+- **Book ahead**: Gros Morne and Terra Nova national parks, and Cheeseman. Most other places are fine on weekdays; ~30-site provincial parks fill on weekends
+- **Route 430**: fine even for 40 ft rigs, nearly level north of Gros Morne. **Skip the Roddickton cutoff** (potholes). The plan doesn't use it
+- **"Southern Shore loops: some locals say worse than the 480"** (Route 480 being the potholed Burgeo road). That bears on the Mistaken Point / Irish Loop option (Route 10). Unconfirmed
+- **Ferryland lighthouse road**: narrow and rough with a gate partway; walk the rest. The Squid Jigger in Ferryland for seafood chowder. Added to Day 28
+- **Elliston puffins: first light is best**; they sometimes go out to sea, so allow a couple of tries. Added to Day 21. (The plan has them at dusk; Kill or Cure, 2026, saw them at an unspecified time)
+- **Bonavista**: base in one place and day-trip (the plan already bases in Trinity). **Discovery UNESCO Geopark, Port Union's 560-million-year-old fossils, the Tickle Cove Sea Arch** (a local must-see), Keels, the Trinity walking tour ($15). Geology options added to Day 23
+- **Western Brook boat: "book it"**. **Tablelands: caribou often seen**. **Shallow Bay beach at Cow Head** (white sand) and the Cow Head lighthouse hike are near Berry Hill
+- **Twillingate**: zodiac tours "get closer to the rocks than the big boats"; Spillers Cove. Good to know for the friends
+- **Rental cars**: book months ahead for June; Gander → St. John's one-way works, with a drop fee "worth it". Local companies named: King of Car Rentals, NL Car Rentals (St. John's), Centsible Cars (Mount Pearl), plus Avis, Alamo, Costco Travel and Turo
+- **Salmonier Nature Park** (Route 90): "guaranteed moose and native wildlife". It's on the Irish Loop option's route
+- **Free camping**: big here, and iOverlander is the app. **St. Vincent's Beach** is named as a boondocking spot, which bears on the night of June 20 in the Irish Loop option. Unconfirmed
+- Spam warning from the scrape: a guidebook called "Where the Atlantic Begins" by "Adrian Vale" reads like AI-generated promo. Ignore
