@@ -65,9 +65,9 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 - name: Phone
   state: own
   note: "Carrier: **Verizon** *(stated 2026-10-04)*. **His plan covers Canada** *(stated 2026-10-04)*. Plan name not recorded. *(was: \"whether Canada roaming is included… depends on the plan\")*"
-- name: Portable power bank
+- name: "Portable power station: Nebo Rambler 200"
   state: own
-  note: Four hours of laptop plus Starlink is the real draw, not the phone.
+  note: "*(model stated 2026-10-08; was: \"Portable power bank\", model not recorded. Confirmed the same unit 2026-10-08.)* 230.4 Wh, 200 W AC output (400 W surge); recharges from the car's 12 V socket in ~2.5 h, or from a wall in ~6.5 h *(nebo.acgbrands.com and an eBay listing, search snippets, 2026-10-08)*. Four hours of laptop plus Starlink is the real draw, not the phone. **Too small to run a heated blanket through a night:** about 4 h at a typical 12 V blanket's ~50 W *(arithmetic on recalled blanket wattage)*. Top it up while driving."
 - name: Offline maps — Google Maps regions
   state: need
   note: Downloaded before leaving home. Covers driving only.

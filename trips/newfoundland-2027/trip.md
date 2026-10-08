@@ -32,7 +32,7 @@ tags:
   - bike
   - long haul
   - friends for a week
-next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches in **January**, then ParksNL in **mid-April**. The one thing worth doing now is the friends: get a headcount, because two or more guests means a rental car, and Newfoundland rentals sell out by ~January"
+next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches in **January**, then ParksNL in **mid-April**. The one thing worth doing now is the friends' headcount, for the hotels and their flights. The car is solved: the Sienna seats everyone *(was: \"two or more guests means a rental car\", until 2026-10-08)*"
 booking:
   - system: acadia-np
     what: Blackwoods, Acadia (May 24–26)
@@ -72,7 +72,7 @@ page:
   dates: Sunday, May 23 – Thursday, June 24, 2027
   emoji: 🧊
   theme: ocean
-  vehicle: "2013 Subaru Legacy, 25 mpg *(stated 2026-10-04)*, bike on a trunk rack. Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. The car does ~5,700 mi here and ~4,300 more to Glacier twelve days later, so service it before *and* between."
+  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. Trim and seat layout not recorded. Bike carrying not worked out (the trunk rack was for the Subaru). Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
   gettingThere: "Driving, plus four ferries: Marine Atlantic in (7 h) and out (Argentia, ~16.5 h overnight), and the Strait of Belle Isle there and back. **Passport required** *(owned, stated 2026-10-03; expiry not recorded)*. Declare all food at both borders, and run the cooler down before Calais on the way home."
   footerNote: "Outline, promoted from `wishlist/newfoundland.md` on 2026-10-05; the research behind every line is in `log.md`. Drive times are routed (firecrawl-maps, 2026-10-04/05) +15%. Sun times were computed with Trees `tools/sun.mjs` at regional points, not at trailheads, because no place here has a verified coordinate yet. Every campground opening date is 2026's; 2027's aren't announced."
   stats:
@@ -88,7 +88,7 @@ page:
 
 # Newfoundland by Road
 
-> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **planning for 3**, not confirmed). Colin stays in their hotels for those nine nights. The open risk is the car: three guests means a rental, and Newfoundland's summer rentals sell out months ahead.
+> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **planning for 3**, not confirmed). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
 
 ## Overview
 
@@ -121,7 +121,7 @@ Most collisions happen dusk to dawn, and sunsets here run 8:45–9:30 PM. Colin'
 
 ### The bike
 
-Comes along on the trunk rack *(stated 2026-10-04)*. One planned ride (Acadia carriage roads, Day 4) and one optional (Celtic Shores rail trail, Day 7). See the bike note at the bottom.
+Comes along *(stated 2026-10-04)*; how is open, because the trunk rack was for the Subaru (see **How does the bike ride on the Sienna?**). One planned ride (Acadia carriage roads, Day 4) and one optional (Celtic Shores rail trail, Day 7). See the bike note at the bottom.
 
 ## Days
 
@@ -389,7 +389,7 @@ overnight:
 ```
 
 **Schedule**
-- 8:00 → 10:39 (2h 39m) · drive! · Port aux Basques → Corner Brook. **Wreckhouse**, on the Trans-Canada just north of Port aux Basques, has dangerous crosswinds; locals say to ask the truckers on the ferry whether the wind is up *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Corner Brook NL
+- 8:00 → 10:39 (2h 39m) · drive! · Port aux Basques → Corner Brook. **Wreckhouse**, on the Trans-Canada just north of Port aux Basques, has dangerous crosswinds; locals say to ask the truckers on the ferry whether the wind is up *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. A minivan catches more of it than the Subaru would · 📍 Corner Brook NL
 - 10:40 → 11:40 · shop · **The real shop**: perishables, block ice, stove fuel at Canadian Tire. It's a Monday, so everything's open
 - 11:45 → 4:11 (4h 26m) · drive · Corner Brook → St. Barbe up Route 430, past Gros Morne. Lunch on the road. **Fill the tank in Corner Brook or Deer Lake**: gas stations are sparse up the peninsula, and about halfway up the road gets broken and potholed *(YouTube, True North RVing, 2024)*. The 4 h 26 m is the routed Port aux Basques → St. Barbe leg minus the Corner Brook leg · 📍 St. Barbe RV Park
 - evening · camp · Pitch, shower, early night
@@ -1228,7 +1228,8 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 ### Check
 
-- [ ] Trunk bike rack vs. trunk access (open in `me/gear.md`)
+- [ ] Bike on the Sienna: hitch? rack? (open question below)
+- [ ] Sienna: trim and seat layout, and the bed measurements (open question below)
 - [ ] Sun hat and sunglasses (unknown)
 - [ ] A warmer sleep layer for 20s nights — decide after the October trip
 
@@ -1251,7 +1252,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Red Bay Saddle Island tour times
 - [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
 - [ ] Argentia Sunset RV Park: tents allowed? (709-227-6363)
-- [ ] Friends: headcount, then a rental car by ~January if two or more
+- [ ] Friends: headcount (no rental needed: the Sienna, 2026-10-08)
 - [ ] Hotels for 6/10–6/18 (Gander, Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
 - [ ] Hopewell Rocks tide table for May 28
@@ -1262,8 +1263,8 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 ### Is the headcount for the friends' week known?
 
-**Blocks:** the rental car, the hotel bookings and the open-jaw flights
-**Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. So the plan assumes a rental car. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
+**Blocks:** the hotel bookings and the open-jaw flights *(was: also the rental car)*
+**Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. **No rental:** Colin has a 2019 Sienna for this trip, which seats all four *(stated 2026-10-08; was: "So the plan assumes a rental car… Book by ~January. The open-jaw adds a one-way fee")*. Friends stay in hotels as planned *(confirmed 2026-10-08)*.
 
 ### Does Argentia Sunset RV Park take tents?
 
@@ -1279,6 +1280,16 @@ The friends' window replaced the earlier La Manche nights; this one was carried 
 
 **Blocks:** Day 7
 It's on the way and the day is free until the Skyline sunset. See the bike note below.
+
+### Solo nights: van bed or tent?
+
+**Blocks:** whether a sleeping platform, blackouts and window screens get bought
+Colin is 6 ft or taller *(stated 2026-10-08)*, and the friends need the 2nd row for Days 19–28, so it can't be left at home. Sienna sleeping platforms for 2011–2020 vans need the 2nd row **removed** and the 3rd row stowed *(cartocamp.com, page read 2026-10-08; US$671)*. With the 2nd row in, owners report about 6 ft of bed *(Facebook, snippet; model year unknown)*, which is too short. ⚠️ Unverified lead: on the 7-seat captain's-chair trim, a bed may run between the chairs once they're slid forward. **Needs a tape measure:** with the 3rd row stowed and the 2nd row slid fully forward, the floor length from the closed liftgate to the 2nd-row seatbacks, and the gap between the seats if it has captain's chairs. Until then the tent stays the plan.
+
+### How does the bike ride on the Sienna?
+
+**Blocks:** Day 4 (Acadia carriage roads)
+The trunk rack was bought for the Subaru (`me/gear.md`). Does the Sienna have a hitch? Inside works on solo days only if the bed doesn't need the floor.
 
 ### Does the sleep system work at 35°F?
 
@@ -1309,7 +1320,7 @@ Researched 2026-10-05 against a hybrid, a trunk rack and this exact route. Ranke
 
 ### Budget
 
-From the 2026-10-04 estimate, as camped: **~US$3,100 core** (≈ $95/day), ~$3,300 with the Argentia cabin and the Western Brook boat. Fuel is the biggest line (~$1,100 at 25 mpg). Ferries ~$240 USD total thanks to the 2025 federal rate cut, which could lapse. **The friends' week replaces ~9 ParksNL nights (C$20 each) with hotels at ~$110–205/night; the split depends on the headcount. Not recomputed.** Gear is extra (~$250–300). Full table in `log.md`.
+From the 2026-10-04 estimate, as camped: **~US$3,100 core** (≈ $95/day), ~$3,300 with the Argentia cabin and the Western Brook boat. Fuel is the biggest line (~$1,100 at 25 mpg; ~$1,300 at the Sienna's ~21, recalled mpg, not recomputed properly). Ferries ~$240 USD total thanks to the 2025 federal rate cut, which could lapse. **The friends' week replaces ~9 ParksNL nights (C$20 each) with hotels at ~$110–205/night; the split depends on the headcount. Not recomputed.** Gear is extra (~$250–300). Full table in `log.md`.
 
 ### Food
 
