@@ -436,3 +436,9 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
 - **Cold-night plan** *(stated 2026-10-08)*: if it gets too cold, run the engine and heater briefly while awake, add layers, then shut it off before sleeping again. He'll fill up often. Power station: Nebo Rambler 200 (230 Wh; see `me/gear.md`), which is too small for an all-night heated blanket
 - Conditions for the engine warm-up to be safe: awake the whole time, engine **off** before sleeping, the tailpipe clear (not backed against a bank, brush or snow). ⚠️ Not checked: whether ParksNL and Parks Canada quiet hours restrict idling at night
 - Free heat that beats both: a hard-sided bottle (Nalgene-type) of water boiled on the stove, in the bag at your feet *(general practice; check the bottle is rated for boiling water)*
+
+## 2026-10-08 · The van bed, and the bike stays home
+- Bed: sleeping pad on storage totes (black, yellow lids), no frame. Colin has slept in the Sienna before, with the 2nd row out *(stated 2026-10-08)*
+- The Sienna has no hitch, probably *(stated 2026-10-08)*. 📋 Owners report trunk-rack trouble with the Sienna's spoiler, the trim above the rear window and the bumper sensors *(Facebook, siennachat.com, r/ToyotaSienna, snippets)*
+- **Decided: the bike stays home; rent one in Bar Harbor for Day 4** *(decided 2026-10-08)*. 📋 Bar Harbor Bicycle Shop, "less than a one mile to the first carriage road"; Acadia Bike, 106 Cottage St, 1.7 mi *(their sites, snippets)*. "Bike rentals often book out" in peak season *(Facebook travelmaine, snippet)*. Celtic Shores (Day 7, optional) dropped
+- ⚠️ Proposal, pending Colin: 2nd row stays home for the whole trip and the friends ride in the 3-seat 3rd row, with luggage where the 2nd row was

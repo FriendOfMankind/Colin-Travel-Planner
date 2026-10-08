@@ -10,11 +10,12 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
 - ✅ **Acadia: the Beehive**: not on the 2026 peregrine closure list (WABI). Re-check in spring
 - 🟡 **Acadia: carriage roads**: mud-season closure usually lifts mid-May; no Island Explorer bus until late June. ⬜ where to park
+- 🟡 **Bar Harbor bike rental** (Day 4): Bar Harbor Bicycle Shop and Acadia Bike exist ✅. ⬜ open on May 26? helmets included?
 - ✅ **Fundy campgrounds**: from May 15
 - 🟡 **Hopewell Rocks**: open 9–5 only in late May ✅. ⬜ the 2027 tide on 5/28 (from NB Parks' tide table, never typed)
 - ✅ **Chéticamp campground**: May 15 – Oct 26 (2026)
 - ✅ **Skyline Trail**: no parking reservation needed in late May (2026 rule: June 26 – Oct 25); spring snow possible
-- 🟡 **Celtic Shores rail trail**: snippets only
+- ~~Celtic Shores rail trail~~: dropped with the bike *(2026-10-08)*
 
 ## 2. Ferries
 - ✅ **North Sydney → Port aux Basques**: fares, and the 2027 schedule (midday plus overnight daily; check in 2 h before). Confirm the May 30 time in the booking engine

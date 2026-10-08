@@ -72,7 +72,7 @@ page:
   dates: Sunday, May 23 – Thursday, June 24, 2027
   emoji: 🧊
   theme: ocean
-  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. Trim and seat layout not recorded. Bike carrying not worked out (the trunk rack was for the Subaru). Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
+  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. Trim not recorded. No hitch, as far as Colin knows *(stated 2026-10-08)*, so the bike stays home. Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
   gettingThere: "Driving, plus four ferries: Marine Atlantic in (7 h) and out (Argentia, ~16.5 h overnight), and the Strait of Belle Isle there and back. **Passport required** *(owned, stated 2026-10-03; expiry not recorded)*. Declare all food at both borders, and run the cooler down before Calais on the way home."
   footerNote: "Outline, promoted from `wishlist/newfoundland.md` on 2026-10-05; the research behind every line is in `log.md`. Drive times are routed (firecrawl-maps, 2026-10-04/05) +15%. Sun times were computed with Trees `tools/sun.mjs` at regional points, not at trailheads, because no place here has a verified coordinate yet. Every campground opening date is 2026's; 2027's aren't announced."
   stats:
@@ -121,7 +121,7 @@ Most collisions happen dusk to dawn, and sunsets here run 8:45–9:30 PM. Colin'
 
 ### The bike
 
-Comes along *(stated 2026-10-04)*; how is open, because the trunk rack was for the Subaru (see **How does the bike ride on the Sienna?**). One planned ride (Acadia carriage roads, Day 4) and one optional (Celtic Shores rail trail, Day 7). See the bike note at the bottom.
+**Stays home; rent one in Bar Harbor for Day 4** *(decided 2026-10-08; was: "comes along on the trunk rack", stated 2026-10-04)*. The Sienna has no hitch as far as Colin knows, a liftgate strap rack has fit complaints on Siennas, and a roof mount pushes the van's height toward Marine Atlantic's 7 ft 6 in line. The optional Celtic Shores ride (Day 7) drops with it. See the bike note at the bottom.
 
 ## Days
 
@@ -227,7 +227,7 @@ Iron rungs and exposed ledges. Wet granite turns this into a different hike; if 
 
 ```yaml
 date: 2027-05-26
-tagline: Eleven car-free miles of broken stone, built for exactly this bike.
+tagline: Eleven car-free miles of broken stone, on a rented bike.
 type: activity
 driving: ~35 min round trip
 slack: Very loose. First cut — Day Mountain.
@@ -243,6 +243,7 @@ overnight:
 
 **Schedule**
 - 7:30 → 9:15 · wake · Slow morning, hot breakfast
+- 9:00 · bike · **Pick up a rental in Bar Harbor** *(decided 2026-10-08)*: Bar Harbor Bicycle Shop ("less than a one mile to the first carriage road") or Acadia Bike, 106 Cottage St (1.7 mi to the carriage roads) *(their sites, snippets, 2026-10-08)*. Whether either is open on May 26 isn't checked, and Facebook says rentals book out in peak season, so reserve. If you ride from the shop, the drive below drops · 📍 Bar Harbor Bicycle Shop
 - 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked. The carriage roads close every spring for mud season (from March 12 in 2026) and reopen when they dry, "generally mid-May" *(nps.gov, snippet; Reddit, snippet)*. Check NPS conditions the week before. The Island Explorer bus doesn't start until late June (June 23 in 2026), so drive · 📍 Eagle Lake Bridge Acadia
 - 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). 3 h on a hybrid with stops is an estimate. Short version: 4.1 mi / 308 ft
 - 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's lunch if yesterday skipped the popovers
@@ -332,7 +333,6 @@ overnight:
 ```
 
 **Schedule**
-- OPTIONAL midday · ride · **Celtic Shores Coastal Trail**, a 92 km rail trail, mostly smooth hard-packed, "hybrid or mountain bikes are best suited". The Inverness–Mabou section is 8.7 mi / 49 ft one way (AllTrails). ⚠️ Chéticamp → Inverness not routed · 📍 Celtic Shores Coastal Trail Inverness
 - 7:30 → 7:58 (28m) · drive · → Skyline Trail · 📍 Skyline Trail Cape Breton Highlands
 - 8:00 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:45, computed for 5/28. **No parking reservation needed in late May**: in 2026 they were required only June 26 – Oct 25, 8 AM – 9 PM; re-check the 2027 window in spring. In spring "snow may still linger on the plateau" *(cbisland.com Skyline Trail 101, by Parks Canada, page read 2026-10-08)*
 - 9:45 → 10:15 (30m) · drive! · → camp. Moose on the Cabot Trail
@@ -1176,7 +1176,6 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 | Beehive → Bowl → Gorham → Ocean Path | 3 | 3.6 mi | 807 ft | Hard | ~3h est. | Iron rungs; counter-clockwise |
 | Carriage roads: Around the Mountain + Eagle Lake + Day Mtn (bike) | 4 | 11.1 mi | 800 ft | — | ~3h est. | 4.9★. Short version 4.1 mi / 308 ft |
 | Matthews Head | 5 | 2.9 mi | 492 ft | Moderate | — | Coastal loop, Fundy |
-| Celtic Shores: Inverness–Mabou (bike, optional) | 7 | 8.7 mi one way | 49 ft | Moderate | — | Rail trail |
 | Skyline Trail loop | 7 | 6 mi | 629 ft | Moderate | — | Or 4.2 mi / 515 ft out-and-back |
 | Cobbler Loop | 10 | 2.7 mi | 141 ft | Easy | 55m | 4.9★, from Quirpon |
 | Gunner's Cove → Fortune | 11 | ~6.2 mi | — | — | ~2h 45m est. | Abandoned outport; my arithmetic |
@@ -1216,7 +1215,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Puffy (need; buying soon)
 - [ ] Bug head net + repellent (need)
 - [ ] Rain pants (need)
-- [ ] Bike helmet, lock, flat kit, light (all need)
+- [ ] Bike gear: none needed this trip (renting in Bar Harbor; whether the shop includes a helmet isn't checked)
 - [ ] Offline maps: Google regions + AllTrails or Gaia (both need; the island has long no-signal stretches)
 - [ ] Spare, jack, tire plug kit (need)
 - [ ] Sawyer Squeeze, camp chair, big flashlight, long spoon, spatula (need)
@@ -1228,7 +1227,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 ### Check
 
-- [ ] Bike on the Sienna: hitch? rack? (open question below)
+- [ ] Reserve a rental bike in Bar Harbor for May 26
 - [ ] Sienna: trim and seat layout, and the bed measurements (open question below)
 - [ ] Sun hat and sunglasses (unknown)
 - [ ] A warmer sleep layer for 20s nights — decide after the October trip
@@ -1276,20 +1275,12 @@ The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 s
 **Blocks:** Day 28
 The friends' window replaced the earlier La Manche nights; this one was carried over, not re-decided.
 
-### Second bike day: Celtic Shores on Day 7?
+### Solo nights: the 2nd row, and where the friends sit
 
-**Blocks:** Day 7
-It's on the way and the day is free until the Skyline sunset. See the bike note below.
-
-### Solo nights: van bed or tent?
-
-**Blocks:** whether a sleeping platform, blackouts and window screens get bought
-Colin is 6 ft or taller *(stated 2026-10-08)*, and the friends need the 2nd row for Days 19–28, so it can't be left at home. Sienna sleeping platforms for 2011–2020 vans need the 2nd row **removed** and the 3rd row stowed *(cartocamp.com, page read 2026-10-08; US$671)*. With the 2nd row in, owners report about 6 ft of bed *(Facebook, snippet; model year unknown)*, which is too short. ⚠️ Unverified lead: on the 7-seat captain's-chair trim, a bed may run between the chairs once they're slid forward. **Needs a tape measure:** with the 3rd row stowed and the 2nd row slid fully forward, the floor length from the closed liftgate to the 2nd-row seatbacks, and the gap between the seats if it has captain's chairs. Until then the tent stays the plan.
-
-### How does the bike ride on the Sienna?
-
-**Blocks:** Day 4 (Acadia carriage roads)
-The trunk rack was bought for the Subaru (`me/gear.md`). Does the Sienna have a hitch? Inside works on solo days only if the bed doesn't need the floor.
+**Blocks:** the van bed on solo nights, and seating for Days 19–28
+**The bed:** sleeping pad on top of storage totes (black with yellow lids), no frame *(stated 2026-10-08; was: a bought platform, considered)*. Colin has slept in the Sienna before, **with the 2nd row out** *(stated 2026-10-08)*. He's 6 ft or taller. With the 2nd row in, owners report about 6 ft of bed *(Facebook, snippet)*, which is too short.
+**The conflict:** the 2nd row can't ride along on the solo weeks, and it was assumed the friends need it.
+⚠️ **Proposal, not confirmed:** leave the 2nd row at home and seat the friends in the **3rd row**. The 2011–2020 Sienna's 3rd row is a split bench that seats three *(recalled; check the belts in this van)*, so driver + front passenger + three in back is five seats for four people, and the totes and luggage ride on the floor where the 2nd row was. Comfort for long drives isn't known; the friends' week legs are short. **Needs Colin:** is the 2nd row removable in this van, and does the 3rd row have three working belts?
 
 ### Does the sleep system work at 35°F?
 
@@ -1310,7 +1301,7 @@ Download before leaving: Mount Desert Island; Fundy + Hopewell; Cape Breton (the
 
 ### Bike: where it earns the rack
 
-Researched 2026-10-05 against a hybrid, a trunk rack and this exact route. Ranked:
+**The bike stays home this trip** *(decided 2026-10-08)*; Day 4 uses a rental, and the rest of this list is kept for a future trip with a hitch. Researched 2026-10-05 against a hybrid, a trunk rack and this exact route. Ranked:
 1. **Acadia carriage roads** (Day 4): the best match in the East and already planned.
 2. **Celtic Shores Coastal Trail, Cape Breton** (optional, Day 7): ✅ 92 km multi-use rail trail, Port Hastings to Inverness; "hybrid or mountain bikes are best suited", "most of the trail is smooth and hard-packed" *(celticshores.ca, destinationtrailsnovascotia.com, search snippets)*. AllTrails splits it into ~9–13 mi sections; the Inverness–Mabou section is 8.7 mi / 49 ft one way and the Ceilidh Coastal section from Port Hastings is 12.7 mi with beach views. Day 6's drive already passes Port Hastings and Inverness, and Day 7 is free until the Skyline sunset.
 3. **Down East Sunrise Trail, Maine** (not scheduled): 87.9 mi of gravel railbed from Ellsworth east, on the Day 5 drive line. Shared with ATVs; 1.75 in+ tires recommended *(AllTrails; sunrisetrail.org, search snippets)*. Only worth it if Day 5 had spare time, which it doesn't.
