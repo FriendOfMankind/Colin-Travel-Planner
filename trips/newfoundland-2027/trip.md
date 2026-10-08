@@ -534,6 +534,7 @@ overnight:
 - 1:50 → 2:57 (~1h 07m) · drive · → Point Amour. Derived from the Red Bay → Pinware and Pinware → Point Amour legs · 📍 Point Amour Lighthouse
 - 3:00 → 4:30 · stop · **Point Amour lighthouse**: 132 steps to the top, the tallest in Atlantic Canada. **Open 9:30–5:00, closed Saturdays and Sundays** in 2026 *(seethesites.ca, snippet, 2026-10-08)*, so Friday afternoon is the only window *(was: 4:40 → 5:40, after closing)*
 - 4:35 → 5:10 (35m) · drive · → Pinware River PP
+- OPTIONAL 8:00 → 10:00 · boat · **Whaler's Quest Sunset Cruise, Red Bay**: harbour at sunset with traditional music and stories, $100 adult / $90 student, daily 8–10 PM from mid-May *(listing pasted by Colin 2026-10-08; NL Tourism lists it from June 1 in 2026, snippet)*. It works Thursday or Friday night. ⚠️ It means a 32-min drive back to Pinware after 10 PM, in moose dark · 📍 Whaler's Quest Ocean Adventures Red Bay
 
 **Meals**
 - B: made at camp
@@ -977,7 +978,8 @@ overnight:
 - morning · drive · Friends to St. John's airport (YYT). Flight times TBD · 📍 St. John's International Airport
 - (1h 20m) · drive · St. John's → Ferryland · 📍 Ferryland Newfoundland
 - midday · ruins · **Colony of Avalon** dig (1620s). Season June–October; 2026 tours at 9:00, 10:30, 12:00, 1:30 and 3:00 (colonyofavalon.ca, snippet) · 📍 Colony of Avalon Ferryland
-- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m). The road out is narrow and rough with a gate partway; park and walk from the gate *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Food: **The Squid Jigger**, Ferryland, for seafood chowder ("best" per the same thread; hours not checked)
+- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m). The road out is narrow and rough with a gate partway; park and walk from the gate *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Food: **The Squid Jigger**, 75 Main Rd, Ferryland, for seafood chowder ("best" per the same thread; TripAdvisor reviews agree; hours not checked). The Lighthouse Picnics at the end of the trail book out, so prebook if wanted; otherwise bring your own lunch *(Facebook, Irish Loop thread, via Colin 2026-10-08)*
+- OPTIONAL afternoon · music · **Sullivan's Songhouse**, Calvert, next door to Ferryland: traditional music, "a must… book in advance", Wednesday and Saturday afternoons only, ~$30. **June 19 is a Saturday** *(Facebook, via Colin 2026-10-08; sullivanssonghouse.com not read)*
 - evening · camp · → La Manche PP
 
 **Meals**
