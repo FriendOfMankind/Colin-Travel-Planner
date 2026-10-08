@@ -391,7 +391,7 @@ overnight:
 **Schedule**
 - 8:00 → 10:39 (2h 39m) · drive · Port aux Basques → Corner Brook · 📍 Corner Brook NL
 - 10:40 → 11:40 · shop · **The real shop**: perishables, block ice, stove fuel at Canadian Tire. It's a Monday, so everything's open
-- 11:45 → 4:11 (4h 26m) · drive · Corner Brook → St. Barbe up Route 430, past Gros Morne. Lunch on the road. The 4 h 26 m is the routed Port aux Basques → St. Barbe leg minus the Corner Brook leg · 📍 St. Barbe RV Park
+- 11:45 → 4:11 (4h 26m) · drive · Corner Brook → St. Barbe up Route 430, past Gros Morne. Lunch on the road. **Fill the tank in Corner Brook or Deer Lake**: gas stations are sparse up the peninsula, and about halfway up the road gets broken and potholed *(YouTube, True North RVing, 2024)*. The 4 h 26 m is the routed Port aux Basques → St. Barbe leg minus the Corner Brook leg · 📍 St. Barbe RV Park
 - evening · camp · Pitch, shower, early night
 
 **Meals**
@@ -429,6 +429,7 @@ overnight:
 - 1:15 → 1:30 · drive · → Quirpon (same road, not routed)
 - 1:30 → 2:45 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland · 📍 Quirpon Newfoundland
 - 2:45 → ~3:30 · drive · → Pistolet Bay. Not routed · 📍 Pistolet Bay Provincial Park
+- OPTIONAL evening · food · **The Norseman, L'Anse aux Meadows**: pan-fried cod. "The best meal we had in Newfoundland" *(YouTube, True North RVing, 2024)*; binoculars at the tables for icebergs. Hours and prices not checked. White Cape Harbour, just before L'Anse aux Meadows, was full of icebergs in spring 2026 *(YouTube, Life Is Short DIY, 2026)*
 
 **Meals**
 - B: made at camp
@@ -457,7 +458,7 @@ overnight:
 - 8:00 → 9:00 · wake · Check IcebergFinder
 - 9:00 → 9:32 (32m) · drive · → Gunner's Cove · 📍 Gunners Cove Newfoundland
 - 9:35 → 1:05 (3h 30m) · hike · **Gunner's Cove → Fortune** and back, ~6.2 mi (my arithmetic from 5 km each way); ~2 h 45 m walking is an estimate, plus time at the ruins. **Don't enter the standing house**
-- 4:00 → 6:30 · boat · OPTIONAL: **Northland Discovery, the 4 PM sailing** ($89 CAD, 2025 rate) if the bergs are in today. Otherwise tomorrow at 9:30 · 📍 Northland Discovery Boat Tours St. Anthony
+- 4:00 → 6:30 · boat · OPTIONAL: **Northland Discovery, the 4 PM sailing** ($89 CAD, 2025 rate) if the bergs are in today. The same company runs **Dark Tickle Expeditions** out of St. Lunaire-Griquet, 25 min north of St. Anthony, and that may be closer to where the bergs are *(discovernorthland.com, snippet)*. Otherwise tomorrow at 9:30 · 📍 Northland Discovery Boat Tours St. Anthony
 - OPTIONAL · hike · If there's no boat today: **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m), 33 m from camp. With Fortune that's 9.8 mi, right at the ceiling · 📍 Great Brehat Newfoundland
 - evening · shop · Small resupply in St. Anthony. Store not checked
 
@@ -493,7 +494,7 @@ overnight:
 - 9:30 → 12:00 · boat · **Northland Discovery, the 9:30 sailing**, if yesterday's didn't happen. If no bergs, a slow morning on the Cape St. Anthony Trail · 📍 Northland Discovery Boat Tours St. Anthony
 - 12:15 → 1:52 (1h 37m) · drive! · St. Anthony → St. Barbe. Packed lunch in the car. **Check-in closes 2:30**; leave the boat dock by 12:15 · 📍 St. Barbe Ferry Terminal
 - 2:30 · stop · Check in, 1 h early
-- 3:30 → 5:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. Thursday's afternoon sailing in the spring schedule *(Labrador Marine PDF, 2024; 2027 not posted)*. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
+- 3:30 → 5:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. Thursday's afternoon sailing in the spring schedule *(Labrador Marine PDF, 2024; 2027 not posted)*. **Sailings get moved at short notice**: in spring 2026 a booked 10:30 was moved to 8:00 AM by text message *(YouTube, Life Is Short DIY, 2026)*. Put a phone number on the booking and check messages the night before. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
 - 5:15 → ~6:00 (~45m) · drive · → Pinware River PP. Derived from the Blanc-Sablon → Red Bay and Pinware → Red Bay legs, not routed directly · 📍 Pinware River Provincial Park
 
 **Meals**
@@ -625,7 +626,7 @@ overnight:
 **Schedule**
 - 8:00 → 8:45 · wake · Break camp
 - 8:45 → 10:00 (1h 15m) · drive · Berry Hill → Woody Point · 📍 Lookout Trail Woody Point
-- 10:00 → 2:30 (4h 30m) · hike · **Lookout Trail via Woody Point**, 6.3 mi / 1,581 ft (AllTrails 3 h 28 m + 1 h at the top)
+- 10:00 → 2:30 (4h 30m) · hike · **Lookout Trail via Woody Point**, 6.3 mi / 1,581 ft (AllTrails 3 h 28 m + 1 h at the top). Snow patches on the upper trail at the end of May 2026, and red chairs at the summit *(YouTube, Life Is Short DIY, 2026)*
 - 2:30 → 3:30 · food · **The Old Loft, Woody Point**: fish and chips. Opening date not checked
 - 3:30 → 3:54 (24m) · drive · → Trout River Campground · 📍 Trout River Campground Gros Morne
 
@@ -657,7 +658,7 @@ overnight:
 - 9:45 → 9:58 (13m) · drive · → Green Gardens trailhead · 📍 Green Gardens Trail Gros Morne
 - 10:00 → 2:15 (4h 15m) · hike · **Green Gardens**, 6.6 mi / 1,289 ft out-and-back (AllTrails 3 h 15 m + 1 h on the sea meadow)
 - 2:15 → 2:30 (13m) · drive · → camp
-- 9:00 → 9:45 · sunset · Trout River pond and beach, a walk from camp. Sunset 9:26, computed for Trout River
+- 9:00 → 9:45 · sunset · Trout River pond and beach, a walk from camp. Sunset 9:26, computed for Trout River. Or the **Eastern Point Trail** above the town: Gulf views and a little blue shelter at the top *(YouTube, Life Is Short DIY, 2026; a Facebook commenter recommends it too)*. Length not checked
 
 **Meals**
 - B: made at camp

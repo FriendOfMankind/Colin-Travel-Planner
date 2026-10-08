@@ -311,3 +311,30 @@ All 📋 search snippets, 2026-10-07, unless marked. These are 2026 dates; 2027 
   - One commenter, a resident of 8 years, prefers the **Bonne Bay boat tour** to the pond. Someone who'd just done the pond called it unforgettable. Opinion is split
   - **New leads** (not checked): **Eastern Point Trail in Trout River**; a lookout on the rocks at **Cow Head** with a view of Bonne Bay and the fjord; driving "the Gulch"; ranger-led hikes at the Tablelands
   - Ignored: Meta's AI summary at the top of the thread ("most recommend skipping the boat"). It's a machine summary, and it's skewed by the asker's one-day constraint
+
+## 2026-10-08 · YouTube sweep: the Northern Peninsula, Labrador, Gros Morne
+Transcripts read 2026-10-08. All of it is secondhand: one group's trip, in one season.
+**⭐ "At the Edge of North America", Life Is Short DIY, uploaded 2026-08-24, 47 min.** A 25-day van trip in **spring 2026**, nearly this route. Their findings:
+- "Early in the season, some of these attractions and roads were still preparing to open", so they went east first and came back west later. Supports the margin worries in the north-first order
+- **Northern Peninsula: "nearly every night… temperatures hovered around freezing or just below"**, and they ran a diesel heater in the van. A young couple tented beside them. This adds to the sleep-system question (`trip.md`, The cold)
+- **Labrador ferry: the booked 10:30 sailing was moved to 8:00 AM by text message**, which forced a 4 AM start from St. Anthony. Now noted on Day 12
+- **Moose: more than 20 in ~30 minutes on the empty highway around 4:45–5:15 AM**; ~30 over the trip. Dawn is as bad as dusk
+- The Strait crossing was rough ("strong winds and rough seas"). Red Bay was rain, low cloud, "a few degrees above freezing". **The Saddle Island boat ran with seven visitors**, so it has no 15-person minimum like Western Brook
+- Clocks confirmed: Red Bay on Newfoundland daylight time, Blanc-Sablon on Atlantic Standard all year, 90 min apart; the Blanc-Sablon ferry "operates exclusively on Newfoundland time"; "many visitors… never change their clocks"
+- Lookout Trail: snow patches on the upper trail at the end of May; red chairs at the summit. Green Gardens: "just over 3 hours". Trout River: waterfront campsite, lobster boats in the morning; **Eastern Point Trail** with a blue shelter at the top
+- **White Cape Harbour**, a few km before L'Anse aux Meadows: "filled with icebergs… what seemed like a dozen"
+- Point Amour stop worked on the drive back from Red Bay
+**"Icebergs and Vikings", True North RVing, Ep. 4, uploaded 2024-10-20** (2024 trip):
+- Route 430: "about halfway up the peninsula… broken sections and potholes"; "there's not an abundance of gas stations, so fuel up when you can". Gros Morne → St. Lunaire took ~6 h with lunch and fog
+- **Pistolet Bay: "only 30 sites, and they're dry"** (no hookups). Camping up there is limited, so reserve. Viking RV Park is mostly a parking lot
+- **Icebergs vary a lot by year**: 2023 had hundreds into July; **2024 had few, mostly along the Northern Peninsula, and "Twillingate… had none"**. Stay flexible. Resources: IcebergFinder and the Facebook group **"Newfoundland and Labrador Iceberg Reports"** ("very active… updates every day")
+- **Dark Tickle Expeditions** (St. Lunaire-Griquet) iceberg boat, survival suits supplied; they saw 6–7 bergs. Northland Discovery runs it *(discovernorthland.com, snippet)*
+- **The Norseman, L'Anse aux Meadows**: "the best meal we had in Newfoundland", pan-fried cod; binoculars at the tables. Norstead (Viking village with a replica ship) is just up the road. Screech-in at Skipper Hot's, Straitsview. St. Anthony: Fishing Point trail, 476 steps up the cliffs
+**"The Viking Trail", Must Do Canada, uploaded 2020-06-02** (June 2019 trip):
+- **"A lot of bad weather between fog, rain and wind… some of our boat trips were cancelled."** That was June, on this route
+- **Trout River Pond boat tour**: a glacier-carved pond with the mantle on one side and ocean crust on the other. This is a possible Western Brook Plan B. The operator now appears to be **Wild Gros Morne** (TripAdvisor review, snippet); 2027 season and price not checked
+- Green Gardens ~4 h round trip with a staircase down to the beach. Burnt Cape Ecological Reserve guided tour (arctic plants). Bard Island lookout at Englee (whales; also in the SqWatch Dog 2025 video)
+- **The Iceberg Festival** starts the first Friday of June and runs 10 days. ✅ 2026 was **June 5–14**, in St. Anthony, St. Lunaire-Griquet, L'Anse aux Meadows, Main Brook, Quirpon and Conche *(theicebergfestival.ca, snippet)*. 2027 by the same rule would be about **June 4–13** (an inference; not posted). The plan has Colin at the tip June 1–3, so he misses it by a day
+**"Must See Places on the Northern Peninsula", SqWatch Dog AdVANtures, uploaded 2025-11-30** (fall trip): **a black bear walked into their camp** at the Underground Salmon Pool and nearly into their van. Food goes in the car. The Daily Catch (St. Lunaire) fish and chips and partridgeberry pie (cooked fruit, still open for OAS). Caribou on the road at the Port au Choix lighthouse
+**Also read:** Phillip's Garden (Destination Earth, 2021): 18 Dorset dwellings, ~2,200 years old, seen as depressions in the ground, in a separate section from the Port au Choix visitor centre; caribou near the lighthouse. NL Tourism (2014): the walk to the Western Brook dock is ~40 min. The Gulch hike up the far end is a hard backcountry trip; for Colin it's out
+**Not found on YouTube:** anything specific on Pistolet Bay, Pinware River or the Fortune trail
