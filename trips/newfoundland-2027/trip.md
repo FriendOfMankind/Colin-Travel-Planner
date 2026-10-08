@@ -205,7 +205,7 @@ overnight:
 - 6:45 → 7:02 (17m) · drive · → Sand Beach lot · 📍 Sand Beach Acadia
 - 7:05 → 10:05 (3h) · hike · **Beehive → The Bowl → Gorham Mountain → Ocean Path**, 3.6 mi / 807 ft, Hard. Counter-clockwise so you climb the ladders, not descend them. 3 h is an estimate · 📍 Beehive Trailhead Acadia
 - 10:05 → 11:00 (55m) · stop · Sand Beach, second breakfast
-- 3:00 → 4:30 · food · **Jordan Pond House popovers.** They come with strawberry jam and cooked fruit is still open for OAS; ask for butter · 📍 Jordan Pond House
+- 3:00 → 4:30 · food · **Jordan Pond House popovers.** They come with strawberry jam and cooked fruit is still open for OAS; ask for butter. The restaurant opened May 15 in 2026; parking is "very limited" and peak waits run ~40 min *(jordanpondhouse.com, snippet, 2026-10-08)* · 📍 Jordan Pond House
 - 7:15 → 7:52 (37m) · drive · → Seal Cove · 📍 Seal Cove Picnic Area Acadia
 - 7:55 → 8:40 · sunset · Sunset 8:03, facing west across the water. Quiet and drive-up; chosen over Cadillac (Colin: "find something quieter", stated 2026-10-04)
 - 8:40 → 9:17 (37m) · drive! · → camp in the dark
@@ -243,7 +243,7 @@ overnight:
 
 **Schedule**
 - 7:30 → 9:15 · wake · Slow morning, hot breakfast
-- 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked · 📍 Eagle Lake Bridge Acadia
+- 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked. The carriage roads close every spring for mud season (from March 12 in 2026) and reopen when they dry, "generally mid-May" *(nps.gov, snippet; Reddit, snippet)*. Check NPS conditions the week before. The Island Explorer bus doesn't start until late June (June 23 in 2026), so drive · 📍 Eagle Lake Bridge Acadia
 - 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). 3 h on a hybrid with stops is an estimate. Short version: 4.1 mi / 308 ft
 - 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's lunch if yesterday skipped the popovers
 - 1:30 → 8:00 · stop · Pack for the border, shower, early dinner
@@ -304,7 +304,7 @@ overnight:
 ```
 
 **Schedule**
-- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/28/2027 tide time comes from a tide table, never typed · 📍 Hopewell Rocks
+- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/28/2027 tide time comes from a tide table, never typed. **The park is open 9:00–5:00 only, May 15 – June 20** (2026 hours), so the low tide has to fall inside that window *(parcsnbparks.ca, snippet, 2026-10-08)*. NB Parks posts its own tide tables · 📍 Hopewell Rocks
 - (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton · 📍 Cheticamp Campground Cape Breton Highlands
 - evening · sunset · If the low tide was early, the Skyline sunset fits tonight and Day 7 frees up
 
@@ -334,7 +334,7 @@ overnight:
 **Schedule**
 - OPTIONAL midday · ride · **Celtic Shores Coastal Trail**, a 92 km rail trail, mostly smooth hard-packed, "hybrid or mountain bikes are best suited". The Inverness–Mabou section is 8.7 mi / 49 ft one way (AllTrails). ⚠️ Chéticamp → Inverness not routed · 📍 Celtic Shores Coastal Trail Inverness
 - 7:30 → 7:58 (28m) · drive · → Skyline Trail · 📍 Skyline Trail Cape Breton Highlands
-- 8:00 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:45, computed for 5/28
+- 8:00 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:45, computed for 5/28. **No parking reservation needed in late May**: in 2026 they were required only June 26 – Oct 25, 8 AM – 9 PM; re-check the 2027 window in spring. In spring "snow may still linger on the plateau" *(cbisland.com Skyline Trail 101, by Parks Canada, page read 2026-10-08)*
 - 9:45 → 10:15 (30m) · drive! · → camp. Moose on the Cabot Trail
 
 **Meals**
@@ -861,7 +861,7 @@ overnight:
 **Schedule**
 - 10:00 → 1:20 (3h 20m) · drive · Trinity → St. John's · 📍 St. John's NL
 - 6:15 → 7:15 · food · **Ches's**: fish and chips. Hours not checked · 📍 Ches's Fish and Chips St. John's
-- 7:30 → 9:30 · sunset · **North Head / Signal Hill**, 2.2 mi / 508 ft (AllTrails 1 h 10 m), sunset 9:00 · 📍 Signal Hill National Historic Site
+- 7:30 → 9:30 · sunset! · **North Head / Signal Hill**, 2.2 mi / 508 ft (AllTrails 1 h 10 m), sunset 9:00. ⚠️ **Part of the trail is a ~3 ft ledge along the Narrows cliff, with chains to hold** *(YouTube, Discovering Newfoundland 2022 and Vanderson Vibes 2025)*. Do that section first, in daylight, and watch the sunset from Cabot Tower, not from the ledge. Skip the ledge in wind or rain · 📍 Signal Hill National Historic Site
 
 **Meals**
 - B: bought
@@ -889,7 +889,7 @@ overnight:
 **Schedule**
 - pre-dawn · drive! · → Cape Spear, at peak moose hour. Slow. St. John's → Cape Spear isn't routed, so the leave time is TBD. A "who's in?" for the friends · 📍 Cape Spear Lighthouse
 - 4:20 → 5:30 · sunrise · First light 4:22, sunrise 5:03. The easternmost point in North America
-- 5:30 → 7:55 · hike · **Cape Spear Path**, 5.9 mi / 643 ft out-and-back (AllTrails 2 h 21 m)
+- 5:30 → 7:55 · hike · **Cape Spear Path**, 5.9 mi / 643 ft out-and-back (AllTrails 2 h 21 m). The grounds are open year-round, so a pre-dawn arrival works; the lighthouse building opens June 1 *(parks.canada.ca, snippet)*. Dawn wind here can be "brutal" *(YouTube, Vanderson Vibes, 2025)*
 - 8:00 → 8:17 (17m) · drive · → Petty Harbour
 - 12:00 → 1:00 · food · **Chafe's Landing, Petty Harbour**: cod tongues + fish and chips. Hours not checked · 📍 Chafe's Landing Petty Harbour
 
