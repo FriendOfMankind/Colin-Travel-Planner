@@ -4,7 +4,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
-*Last refreshed 2026-10-08 (after /research rounds 1–4).*
+*Last refreshed 2026-10-08 (after /research rounds 1–4, and the Sienna).*
 
 ## 1. Getting there (Days 1–7)
 - ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
@@ -49,7 +49,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Port au Choix**: open June 1; Phillip's Garden; caribou at the lighthouse
 
 ## 6. Friends' week (Days 19–28)
-- 🟡 **Rental car**: shortage ✅; rough one-way price $1.5–1.7k for 7–10 days plus ~$150 drop (secondhand). Waiting on the headcount
+- ✅ **Rental car**: not needed. Colin has a 2019 Sienna for this trip *(2026-10-08)*
 - ⬜ **Hotels**: Gander, Twillingate, Trinity, St. John's
 - 🟡 **Twillingate icebergs**: none in 2024, plenty on June 5 2025 (Iceberg Quest video). A gamble either way
 - ✅ **Elliston puffins and the Skerwink**: busy, go early; capelin and whales in June–July (2026 video)
@@ -66,6 +66,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **North Sydney arrival**: The Black Spoon for seafood chowder (2024 video). ⬜ arrival time
 
 ## 8. Cross-cutting
+- 🟡 **Van camping in the Sienna**: 2011–2020 platforms need the 2nd row out ✅ (CarToCamp); liftgate shelters ✅ (Napier). ⬜ the van's own measurements (Colin, tape measure). ✅ Marine Atlantic counts roof boxes toward the 7 ft 6 in height line
 - ✅ **Moose**: dusk *and* dawn
 - 🟡 **Cell signal and offline maps**: Rogers dead around St. Barbe. ⬜ carrier check for Colin's plan
 - 🟡 **Blackflies and mosquitoes**: no good source yet. 🔒 Facebook groups

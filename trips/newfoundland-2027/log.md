@@ -422,3 +422,14 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
 - **Option A** *(stated 2026-10-08)*: Sunday June 20 is Mistaken Point (10:30 tour) → St. Vincent's Beach → Argentia Sunset RV Park; Monday June 21 is Cape St. Mary's in the morning → check in at Argentia by 3 → the 5 PM ferry. *(was: Cape St. Mary's on Sunday and a free Monday morning)*
 - ✅ Routed: St. Vincent's → Argentia terminal 1 h 52 m via Route 90 and 91 (+15%: 2 h 09 m) *(firecrawl-maps, 2026-10-08)*. Day 29 totals 4 h 08 m of driving; Day 30, 2 h 36 m
 - New to book: the Mistaken Point tour (reservations required). New to ask: whether Argentia Sunset RV Park takes tents
+
+## 2026-10-08 · The Sienna: no rental, and a van to sleep in
+- **Colin has a 2019 Toyota Sienna for this trip only.** The Subaru still does Glacier. Friends' week stays in hotels; the van just replaces the rental *(stated 2026-10-08)*. That removes the biggest open cost (~$1.5–1.7k + ~$150 drop, secondhand estimate) and the St. John's rental shortage
+- Colin is 6 ft or taller; trim and seat layout not known yet *(stated 2026-10-08)*
+- ✅ CarToCamp Sienna sleeping platform, US$671.25: "For Toyota Sienna models 2011-2020 second row seats must be removed and third row seats stowed" *(cartocamp.com, page read 2026-10-08)*. That collides with the friends' week, which needs the 2nd row
+- 📋 With the 2nd row installed, "6 feet of usable length" *(Facebook Sienna camper group, snippet; model year unknown)*. Too short for him
+- 📋 The 2019 FWD is ~21 mpg combined *(recalled, EPA; not checked)*. ~40 more gallons than the Subaru over 5,700 mi
+- ✅ Marine Atlantic: "Roof racks or cargo carriers" count toward height; 7 ft 6 in is the line between Low and High *(marineatlantic.ca FAQ, page read 2026-10-08; the quote is from the Automobile + Trailer section)*. Measure before adding a roof box
+- ✅ Liftgate shelters, Napier Outdoors' Sienna page: Sportz Cove $150, Cove Bug Shield $35, Cove bundle $170 on sale (reg. $194), Sportz SUV Tent with 6×6 ft screen room $450 *(napieroutdoors.com, page read 2026-10-08)*. Fitment by model year isn't stated on the collection page
+- 📋 Sienna owners: cracking a window an inch "got pretty wet inside. Also got bugs in the van" *(siennachat.com, snippet)*. Rain guards plus window screens is the usual fix *(Facebook car-camping group, snippet)*
+- ⚠️ No propane heater or idling engine while sleeping in the van (carbon monoxide). A 12 V heated blanket on a power station is the safe version
