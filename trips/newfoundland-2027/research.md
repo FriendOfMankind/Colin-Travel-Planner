@@ -29,7 +29,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Iceberg boats**: Northland, Dark Tickle, Iceberg Alley Boat Tours, Daily Catch Ocean Tours, Linkum Zodiac (Quirpon); the festival list has times
 - 🟡 **Fortune**: one blog plus AllTrails. No video
 - 🟡 **Little Brehat**: AllTrails only (now optional)
-- ✅ **Iceberg Festival**: 2026 schedule read; 2027 ≈ June 4–13 (inferred). The verdict is in `log.md`
+- ✅ **Iceberg Festival**: researched, then **skipped** *(decided 2026-10-08)*. Details in `log.md`
 - 🟡 **Black bears**: one 2025 camp encounter. Food in the car
 - ✅ **Cold**: spring 2026 nights near or below freezing, from several sources
 
