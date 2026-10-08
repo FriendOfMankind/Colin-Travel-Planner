@@ -18,6 +18,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A trip's plan | `trips/<slug>/trip.md` |
 | What actually happened / past experience | `trips/<slug>/log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
+| A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
@@ -40,6 +41,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | "what about …" / "daydream" / "save that spot" | `/daydream` | `wishlist/`, `bucket.yaml` | yes, if only those |
 | "am I ready?" | `/preflight` | nothing; it reports | n/a |
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
+| "research …" / "do a sweep" / "youtube research" | `/research` | log, `research.md`, plain facts in `trip.md` | no, Colin merges |
 
 ## Changing things
 
@@ -73,6 +75,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 ## Limits of this environment
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
+- **Social sources, tested 2026-10-07:** YouTube gives the full transcript and description through Firecrawl scrape, but not the comments. Reddit and Instagram show up in search, but only as snippets: Firecrawl refuses to scrape both, and old.reddit.com is blocked. Facebook groups need a login, so assume they're unreachable. For anything you can't read, ask Colin to fetch it (`me/working-rules.md`).
 - Coordinates come from Colin, placed in Trees' `mapbench.html`, never from a guess.
 - This session can't delete remote branches. GitHub's "Automatically delete head branches" setting handles merged ones.
 
@@ -89,7 +92,7 @@ node tools/build.mjs   # site/index.html
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 7 trips (two shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the five skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (two shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the six skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.

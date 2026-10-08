@@ -12,7 +12,7 @@ status: outline
 pinned: true
 start: null
 dates: May 23 – Jun 24, 2027 (target, unbooked)
-window: Late May to late June. ⭐ June is peak here rather than a compromise — icebergs, 17-hour days, no heat. The Argentia ferry (seasonal, from ~June 19) sets the end.
+window: Late May to late June. ⭐ June is peak here rather than a compromise — icebergs, 17-hour days, no heat. The Argentia ferry (seasonal, June 16 – Sept 30 in 2027) sets the end.
 region: Avon OH → Acadia → Fundy → Cape Breton → Newfoundland → Labrador Straits → the Avalon → home
 states: [ OH, NY, ME, NB, NS, NL ]
 country: Canada
@@ -41,28 +41,28 @@ booking:
   - system: parks-canada
     what: Fundy (May 27) · Chéticamp, Cape Breton Highlands (May 28–29)
     target: 2027-05-27
-    note: Each park launches its own reservation date in January. Fundy launched Feb 7 in 2025. Chéticamp campground's season wasn't found.
+    note: Each park launches its own reservation date in January. Fundy launched Feb 7 in 2025. Chéticamp ran May 15 – Oct 26 in 2026 (parks.canada.ca, snippet).
   - system: marine-atlantic
     what: North Sydney → Port aux Basques (May 30)
     target: 2027-05-30
     note: No published window. Book early; changes are free outside 48 h.
   - system: parks-canada
-    what: Gros Morne — Trout River (May 31–Jun 1), Berry Hill (Jun 2–4)
-    target: 2027-05-31
+    what: Gros Morne — Berry Hill (Jun 5–6), Trout River (Jun 7–9)
+    target: 2027-06-05
     note: Same January launch. Berry Hill opened May 22 in 2026; Trout River's opening wasn't found.
   - system: parksnl
-    what: ParksNL — Pinware River (Jun 6), Pistolet Bay (Jun 7–9), La Manche (Jun 19)
-    target: 2027-06-06
-    note: Whole season opens one spring morning (Apr 22, 7 AM NDT, in 2026). Pinware and Pistolet opened May 29 in 2026.
+    what: ParksNL — Pistolet Bay (Jun 1–2), Pinware River (Jun 3–4), La Manche (Jun 19)
+    target: 2027-06-01
+    note: Whole season opens one spring morning (Apr 22, 7 AM NDT, in 2026). Pinware and Pistolet opened May 29 in 2026, so June 1 has three days of margin; check the 2027 opening dates when they post.
   - system: belle-isle-ferry
-    what: St. Barbe ↔ Blanc-Sablon (Jun 6 over, Jun 7 back)
-    target: 2027-06-06
-    note: Reservations reportedly open in April (unverified). Labrador Marine 1-866-535-2567.
+    what: St. Barbe ↔ Blanc-Sablon (Thu Jun 3, 3:30 PM over · Sat Jun 5, 10:30 AM back)
+    target: 2027-06-03
+    note: Times from the 2024 spring schedule, all in Newfoundland Time; confirm against 2027. Regular vehicles can book full-fare reservations; check in 1 h early. Reservations reportedly open in April (unverified). Labrador Marine 1-866-535-2567.
   - system: marine-atlantic
     what: Argentia → North Sydney, overnight (Jun 21) + cabin decision
     target: 2027-06-21
-    note: The pin that sets the whole end of the trip. Seasonal; 2026 ran June 19 – Oct 3, three sailings a week. Cabins "in high demand".
-updated: 2026-10-05
+    note: Posted for 2027. From Argentia Mon, Thu and Sat at 17.00, June 16 – Sept 30 (marineatlantic.ca schedule, read 2026-10-08). Check in 2 h before. Cabins "in high demand" and book out months ahead.
+updated: 2026-10-08
 map:
   center: [ 47.5, -60 ]
   zoom: 5
@@ -88,11 +88,11 @@ page:
 
 # Newfoundland by Road
 
-> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out, up to 3, not committed). Colin stays in their hotels for those nine nights. The open risk is the car: two or more guests means a rental, and Newfoundland's summer rentals sell out months ahead.
+> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **planning for 3**, not confirmed). Colin stays in their hotels for those nine nights. The open risk is the car: three guests means a rental, and Newfoundland's summer rentals sell out months ahead.
 
 ## Overview
 
-Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Gros Morne (five days, south side then north), up the Viking Trail to the Strait of Belle Isle and a night in Labrador for Red Bay, the tip of the Northern Peninsula, then the long day back south. From Gander it's the friends' week: Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
+Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Straight up the Viking Trail to the tip of the Northern Peninsula (L'Anse aux Meadows, two outports, icebergs), across the Strait of Belle Isle for a night in Labrador and Red Bay, then back south through Gros Morne (five nights, north side then south) and across the island to Gander. *(was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)* From Gander it's the friends' week: Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland, the Mistaken Point fossils and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
 
 ### Dates
 
@@ -101,7 +101,7 @@ May 23 – June 24, 2027 (target)
 
 ### Group
 
-Solo, except June 10–19: up to 3 friends flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05; not committed)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
+Solo, except June 10–19: **planning for 3 friends** *(stated 2026-10-08; was: "up to 3")* flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05; not committed)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
 
 ### Why this direction
 
@@ -109,7 +109,7 @@ The Argentia ferry only runs from ~June 19, and icebergs peak late May to early 
 
 ### The pin
 
-The **Argentia sailing day** sets the end of the trip and isn't known until Marine Atlantic posts 2027. The terminal is open Mon and Thu–Sat (2026), so the draft guesses a Monday 6/21 sailing. The Avalon block flexes around it.
+The **Argentia sailing** sets the end of the trip: **Monday June 21, 5:00 PM**, a posted 2027 sailing. Marine Atlantic's schedule runs to Sept 30 2027 and sails from Argentia on Mondays, Thursdays and Saturdays at 17:00, June 16 – Sept 30 *(source: marineatlantic.ca/sailing-information/schedule, read 2026-10-08)*. *(was: "isn't known until Marine Atlantic posts 2027… the draft guesses a Monday 6/21 sailing")* Check in at least 2 h before.
 
 ### The cold
 
@@ -205,7 +205,7 @@ overnight:
 - 6:45 → 7:02 (17m) · drive · → Sand Beach lot · 📍 Sand Beach Acadia
 - 7:05 → 10:05 (3h) · hike · **Beehive → The Bowl → Gorham Mountain → Ocean Path**, 3.6 mi / 807 ft, Hard. Counter-clockwise so you climb the ladders, not descend them. 3 h is an estimate · 📍 Beehive Trailhead Acadia
 - 10:05 → 11:00 (55m) · stop · Sand Beach, second breakfast
-- 3:00 → 4:30 · food · **Jordan Pond House popovers.** They come with strawberry jam and cooked fruit is still open for OAS; ask for butter · 📍 Jordan Pond House
+- 3:00 → 4:30 · food · **Jordan Pond House popovers.** They come with strawberry jam and cooked fruit is still open for OAS; ask for butter. The restaurant opened May 15 in 2026; parking is "very limited" and peak waits run ~40 min *(jordanpondhouse.com, snippet, 2026-10-08)* · 📍 Jordan Pond House
 - 7:15 → 7:52 (37m) · drive · → Seal Cove · 📍 Seal Cove Picnic Area Acadia
 - 7:55 → 8:40 · sunset · Sunset 8:03, facing west across the water. Quiet and drive-up; chosen over Cadillac (Colin: "find something quieter", stated 2026-10-04)
 - 8:40 → 9:17 (37m) · drive! · → camp in the dark
@@ -243,7 +243,7 @@ overnight:
 
 **Schedule**
 - 7:30 → 9:15 · wake · Slow morning, hot breakfast
-- 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked · 📍 Eagle Lake Bridge Acadia
+- 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked. The carriage roads close every spring for mud season (from March 12 in 2026) and reopen when they dry, "generally mid-May" *(nps.gov, snippet; Reddit, snippet)*. Check NPS conditions the week before. The Island Explorer bus doesn't start until late June (June 23 in 2026), so drive · 📍 Eagle Lake Bridge Acadia
 - 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). 3 h on a hybrid with stops is an estimate. Short version: 4.1 mi / 308 ft
 - 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's lunch if yesterday skipped the popovers
 - 1:30 → 8:00 · stop · Pack for the border, shower, early dinner
@@ -304,7 +304,7 @@ overnight:
 ```
 
 **Schedule**
-- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/28/2027 tide time comes from a tide table, never typed · 📍 Hopewell Rocks
+- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/28/2027 tide time comes from a tide table, never typed. **The park is open 9:00–5:00 only, May 15 – June 20** (2026 hours), so the low tide has to fall inside that window *(parcsnbparks.ca, snippet, 2026-10-08)*. NB Parks posts its own tide tables · 📍 Hopewell Rocks
 - (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton · 📍 Cheticamp Campground Cape Breton Highlands
 - evening · sunset · If the low tide was early, the Skyline sunset fits tonight and Day 7 frees up
 
@@ -334,7 +334,7 @@ overnight:
 **Schedule**
 - OPTIONAL midday · ride · **Celtic Shores Coastal Trail**, a 92 km rail trail, mostly smooth hard-packed, "hybrid or mountain bikes are best suited". The Inverness–Mabou section is 8.7 mi / 49 ft one way (AllTrails). ⚠️ Chéticamp → Inverness not routed · 📍 Celtic Shores Coastal Trail Inverness
 - 7:30 → 7:58 (28m) · drive · → Skyline Trail · 📍 Skyline Trail Cape Breton Highlands
-- 8:00 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:45, computed for 5/28
+- 8:00 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:45, computed for 5/28. **No parking reservation needed in late May**: in 2026 they were required only June 26 – Oct 25, 8 AM – 9 PM; re-check the 2027 window in spring. In spring "snow may still linger on the plateau" *(cbisland.com Skyline Trail 101, by Parks Canada, page read 2026-10-08)*
 - 9:45 → 10:15 (30m) · drive! · → camp. Moose on the Cabot Trail
 
 **Meals**
@@ -349,7 +349,7 @@ date: 2027-05-30
 tagline: Seven hours on the Gulf of St. Lawrence and you're on the Rock.
 type: travel
 driving: 2h 07m to North Sydney (routed +15%)
-slack: Sailing time TBD.
+slack: Tight in the morning; check-in closes 2 h before sailing.
 overnight:
   name: TBD — J.T. Cheeseman PP or Port aux Basques
   place: Port aux Basques, NL
@@ -357,12 +357,12 @@ overnight:
   cost: $20.15 CAD unserviced (ParksNL)
   checkin: TBD
   confirmation: TBD
-  notes: ⚠️ J.T. Cheeseman's 2026 opening date wasn't in the ParksNL list; confirm it's open by May 30.
+  notes: ⚠️ J.T. Cheeseman's 2026 opening date wasn't in the ParksNL list; confirm it's open by May 30. Locals' most-agreed advice is to book the first night off the ferry; Cheeseman fills fast (Facebook, via Colin's scrape, 2026-10-07).
 ```
 
 **Schedule**
-- morning (2h 07m) · drive · Chéticamp → North Sydney terminal · 📍 Marine Atlantic North Sydney
-- TBD (7h) · ferry · **North Sydney → Port aux Basques.** Sailing time TBD
+- 7:30 → 9:37 (2h 07m) · drive · Chéticamp → North Sydney terminal. **Check in at least 2 h before sailing** *(marineatlantic.ca)* · 📍 Marine Atlantic North Sydney
+- midday (7h) · ferry · **North Sydney → Port aux Basques.** The posted 2026–27 schedule has a midday sailing (11:45 or 12:15) and an overnight one (23:15 or 23:30) every day; the page doesn't label which week-block covers May 30, so confirm in the booking engine *(marineatlantic.ca schedule, read 2026-10-08)*. Arrival early evening *(was: sailing time TBD)*
 - evening · camp · Port aux Basques area · 📍 J.T. Cheeseman Provincial Park
 
 **Meals**
@@ -370,31 +370,29 @@ overnight:
 - L: packed
 - D: bought on board or made at camp
 
-### Day 9 — 2027-05-31 · The mantle
+### Day 9 — 2027-05-31 · Straight up the Viking Trail
 
 ```yaml
 date: 2027-05-31
-tagline: The real shop in Corner Brook, then walk on the inside of the planet at sunset.
-type: travel + activity
-driving: 4h 48m total (routed +15%)
-slack: Depends on yesterday's ferry. If it ran late, Tablelands moves to tomorrow evening.
+tagline: The real shop in Corner Brook, then past Gros Morne without stopping, all the way to the Strait.
+type: travel
+driving: 7h 05m total (routed +15%), plus the shop
+slack: Depends on yesterday's ferry. Nothing is booked tonight except the camp.
 overnight:
-  name: Trout River Campground
-  place: Gros Morne NP, NL (south side)
-  kind: National park campground
-  cost: $34 peak / $31.75 CAD (parks.canada.ca)
+  name: St. Barbe RV Park
+  place: St. Barbe, NL
+  kind: Private campground
+  cost: ⚠️ fee not found, ~$30 est.
   checkin: TBD
   confirmation: TBD
-  notes: Smaller and more secluded (Reddit). Opening date not found. Showers unconfirmed; buy one in town if needed.
+  notes: Tent sites, showers, laundromat, kitchen (NL tourism listing). Across from the ferry. The only St. Barbe night (was two, until the Thursday crossing, 2026-10-08).
 ```
 
 **Schedule**
-- morning (2h 39m) · drive · Port aux Basques → Corner Brook · 📍 Corner Brook NL
-- +1h · shop · **The real shop**: perishables, block ice, stove fuel at Canadian Tire. It's a Monday, so everything's open
-- (2h 09m) · drive · → Trout River Campground · 📍 Trout River Campground Gros Morne
-- 6:30 → 6:50 (20m) · drive · → Tablelands trailhead · 📍 Tablelands Trail Gros Morne
-- 6:50 → 9:30 (2h 40m) · hike · **Tablelands**, 4.8 mi / 603 ft. Exposed mantle, no shade. Sunset 9:18 in the bowl; ~2 h 15 m walking is an estimate
-- 9:30 → 9:50 (20m) · drive! · → camp in the dark
+- 8:00 → 10:39 (2h 39m) · drive! · Port aux Basques → Corner Brook. **Wreckhouse**, on the Trans-Canada just north of Port aux Basques, has dangerous crosswinds; locals say to ask the truckers on the ferry whether the wind is up *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Corner Brook NL
+- 10:40 → 11:40 · shop · **The real shop**: perishables, block ice, stove fuel at Canadian Tire. It's a Monday, so everything's open
+- 11:45 → 4:11 (4h 26m) · drive · Corner Brook → St. Barbe up Route 430, past Gros Morne. Lunch on the road. **Fill the tank in Corner Brook or Deer Lake**: gas stations are sparse up the peninsula, and about halfway up the road gets broken and potholed *(YouTube, True North RVing, 2024)*. The 4 h 26 m is the routed Port aux Basques → St. Barbe leg minus the Corner Brook leg · 📍 St. Barbe RV Park
+- evening · camp · Pitch, shower, early night
 
 **Meals**
 - B: made at camp
@@ -403,18 +401,189 @@ overnight:
 
 #### Highlights
 
-Peridotite obducted onto the continent: orange-brown, nearly bare, and the physical evidence that confirmed plate tectonics. The single best geology day on the whole list.
+The long day moved here on purpose *(decided 2026-10-08: north first)*. It's 7 hours on day one off the ferry instead of 9 hours on the day the friends land. Gros Morne goes by the window; it comes back on Day 14.
 
-### Day 10 — 2027-06-01 · Green Gardens
+### Day 10 — 2027-06-01 · Thrombolites, the Norse, the Cobbler
 
 ```yaml
 date: 2027-06-01
-tagline: Sea stacks, sea caves and a meadow above them, with the climb on the way back.
-type: activity
-driving: 26 min round trip
-slack: Comfortable. First cut — the sunset walk.
+tagline: Some of the oldest life on Earth, then a Norse hall from 1000 AD on its opening day.
+type: travel + activity
+driving: ~2h 30m in legs
+slack: Moderate. First cut — the Cobbler Loop.
 overnight:
-  name: Trout River Campground
+  name: Pistolet Bay Provincial Park
+  place: Near St. Anthony, NL
+  kind: Provincial park (ParksNL)
+  cost: $20.15 CAD
+  checkin: TBD
+  confirmation: TBD
+  notes: Opened May 29 in 2026, so tonight has three days of margin. Base for two nights.
+```
+
+**Schedule**
+- 8:30 → 8:48 (18m) · drive · → Flower's Cove · 📍 Flower's Cove Newfoundland
+- 8:50 → 9:30 · stop · **Thrombolites**: microbial reefs, among the oldest forms of life. Recalled, not checked
+- 9:30 → ~11:15 · drive · → L'Anse aux Meadows. Not routed; St. Barbe → St. Anthony is 1 h 37 m and L'Anse is off the same road · 📍 L'Anse aux Meadows National Historic Site
+- 11:15 → 1:15 (2h) · ruins · **Norse site**: sod outlines plus reconstructions. Opens June 1 (2026 date), so this is opening day. Lunch here
+- 1:15 → 1:30 · drive · → Quirpon (same road, not routed)
+- 1:30 → 2:45 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland · 📍 Quirpon Newfoundland
+- 2:45 → ~3:30 · drive · → Pistolet Bay. Not routed · 📍 Pistolet Bay Provincial Park
+- OPTIONAL evening · food · **The Norseman, L'Anse aux Meadows**: pan-fried cod. "The best meal we had in Newfoundland" *(YouTube, True North RVing, 2024)*; binoculars at the tables for icebergs. Hours and prices not checked. White Cape Harbour, just before L'Anse aux Meadows, was full of icebergs in spring 2026 *(YouTube, Life Is Short DIY, 2026)*
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+### Day 11 — 2027-06-02 · Fortune
+
+```yaml
+date: 2027-06-02
+tagline: An abandoned outport on the iceberg coast, and maybe the boat out to the bergs.
+type: activity
+driving: ~1h 30m total
+slack: Loose. The boat goes today at 4 or tomorrow at 9.30, whichever IcebergFinder likes.
+overnight:
+  name: Pistolet Bay Provincial Park
+  place: Near St. Anthony, NL
+  kind: Provincial park (ParksNL)
+  cost: $20.15 CAD
+  checkin: n/a — night 2 of 2
+  confirmation: TBD
+  notes: Pack most of the car tonight; tomorrow ends on a ferry.
+```
+
+**Schedule**
+- 8:00 → 9:00 · wake · Check IcebergFinder
+- 9:00 → 9:32 (32m) · drive · → Gunner's Cove · 📍 Gunners Cove Newfoundland
+- 9:35 → 1:05 (3h 30m) · hike · **Gunner's Cove → Fortune** and back, ~6.2 mi (my arithmetic from 5 km each way); ~2 h 45 m walking is an estimate, plus time at the ruins. **Don't enter the standing house**
+- 4:00 → 6:30 · boat · OPTIONAL: **Northland Discovery, the 4 PM sailing** ($89 CAD, 2025 rate) if the bergs are in today. The same company runs **Dark Tickle Expeditions** out of St. Lunaire-Griquet, 25 min north of St. Anthony, and that may be closer to where the bergs are *(discovernorthland.com, snippet)*. Otherwise tomorrow at 9:30 · 📍 Northland Discovery Boat Tours St. Anthony
+- OPTIONAL · hike · If there's no boat today: **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m), 33 m from camp. With Fortune that's 9.8 mi, right at the ceiling · 📍 Great Brehat Newfoundland
+- evening · shop · Small resupply in St. Anthony. Store not checked
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Warnings
+
+Fortune is a resettled outport: one house still standing, others collapsed. Unsound buildings, solo, no signal. Look, don't enter. High cliffs and cold water on the trail.
+
+### Day 12 — 2027-06-03 · The bergs, then over to Labrador
+
+```yaml
+date: 2027-06-03
+tagline: A morning boat out to the icebergs, then the afternoon ferry across the Strait.
+type: activity + ferry
+driving: 1h 37m + ~45m
+slack: Tight around the ferry. First cut — the 9.30 boat, if yesterday's ran.
+overnight:
+  name: Pinware River Provincial Park
+  place: Labrador Straits, NL
+  kind: Provincial park (ParksNL)
+  cost: $20.15 CAD
+  checkin: TBD
+  confirmation: TBD
+  notes: Opened May 30 in 2025 and May 29 in 2026. Night 1 of 2.
+```
+
+**Schedule**
+- 7:30 → 9:00 · wake · Break camp; check IcebergFinder
+- 9:30 → 12:00 · boat · **Northland Discovery, the 9:30 sailing**, if yesterday's didn't happen. If no bergs, a slow morning on the Cape St. Anthony Trail · 📍 Northland Discovery Boat Tours St. Anthony
+- 12:15 → 1:52 (1h 37m) · drive! · St. Anthony → St. Barbe. Packed lunch in the car. **Check-in closes 2:30**; leave the boat dock by 12:15 · 📍 St. Barbe Ferry Terminal
+- 2:30 · stop · Check in, 1 h early
+- 3:30 → 5:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. Thursday's afternoon sailing in the spring schedule *(Labrador Marine PDF, 2024; 2027 not posted)*. **Sailings get moved at short notice**: in spring 2026 a booked 10:30 was moved to 8:00 AM by text message *(YouTube, Life Is Short DIY, 2026)*. Put a phone number on the booking and check messages the night before. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
+- 5:15 → ~6:00 (~45m) · drive · → Pinware River PP. Derived from the Blanc-Sablon → Red Bay and Pinware → Red Bay legs, not routed directly · 📍 Pinware River Provincial Park
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+The Thursday crossing *(decided 2026-10-08, option 1A)* turns Labrador into a full day: three chances at Saddle Island instead of one, and Point Amour during opening hours. It cost Little Brehat, now an optional add-on on Day 11.
+
+### Day 13 — 2027-06-04 · Red Bay, Labrador
+
+```yaml
+date: 2027-06-04
+tagline: A whole day at a 16th-century Basque whaling station, then the tallest lighthouse in Atlantic Canada.
+type: activity
+driving: ~2h 15m in legs
+slack: Tight if Saddle Island slips. First cut — Point Amour, which can't move to Saturday because the tower is closed weekends.
+overnight:
+  name: Pinware River Provincial Park
+  place: Labrador Straits, NL
+  kind: Provincial park (ParksNL)
+  cost: $20.15 CAD
+  checkin: n/a — night 2 of 2
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 8:00 → 9:15 · wake · Slow morning
+- 9:25 → 9:57 (32m) · drive · → Red Bay · 📍 Red Bay National Historic Site
+- 10:00 → 12:00 · ruins · **Saddle Island** guided tour, the 10 AM slot. The crossing only runs when the water is calm; if it's rough, 11 and 2 are the fallbacks. ⚠️ NL tourism says the island opens "early June", so call Red Bay (709-920-2142) in late May to confirm it's running
+- 12:00 → 1:00 · food · **Whaler's Restaurant**: fish and chips, and bakeapple if it's served cooked (`me/food.md`)
+- 1:00 → 1:50 · ruins · Interpretation centre and the whale exhibit. Open from June 1 in 2026 (parks.canada.ca, snippet)
+- OPTIONAL · hike · **Tracey Hill and Boney Shore**: 3 mi / 501 ft, Easy (AllTrails 1 h 23 m, 4.7★); 689 steps up for the view over the harbour *(YouTube, 2024)*. Only if you skip Point Amour
+- 1:50 → 2:57 (~1h 07m) · drive · → Point Amour. Derived from the Red Bay → Pinware and Pinware → Point Amour legs · 📍 Point Amour Lighthouse
+- 3:00 → 4:30 · stop · **Point Amour lighthouse**: 132 steps to the top, the tallest in Atlantic Canada. **Open 9:30–5:00, closed Saturdays and Sundays** in 2026 *(seethesites.ca, snippet, 2026-10-08)*, so Friday afternoon is the only window *(was: 4:40 → 5:40, after closing)*
+- 4:35 → 5:10 (35m) · drive · → Pinware River PP
+- OPTIONAL 8:00 → 10:00 · boat · **Whaler's Quest Sunset Cruise, Red Bay**: harbour at sunset with traditional music and stories, $100 adult / $90 student, daily 8–10 PM from mid-May *(listing pasted by Colin 2026-10-08; NL Tourism lists it from June 1 in 2026, snippet)*. It works Thursday or Friday night. ⚠️ It means a 32-min drive back to Pinware after 10 PM, in moose dark · 📍 Whaler's Quest Ocean Adventures Red Bay
+
+**Meals**
+- B: made at camp
+- L: bought (Whaler's)
+- D: made at camp
+
+### Day 14 — 2027-06-05 · Back across, and down to Gros Morne
+
+```yaml
+date: 2027-06-05
+tagline: The only Saturday ferry, then a Paleo-Inuit site and sea arches on the way south.
+type: travel + activity
+driving: ~3h 50m in legs + ferry, partly not routed
+slack: Moderate once the 10:30 sailing is made. It's the only Saturday sailing, so missing it costs a whole day, and Day 18's rest day absorbs that.
+overnight:
+  name: Berry Hill Campground
+  place: Gros Morne NP, NL (north side)
+  kind: National park campground
+  cost: ~$34 CAD
+  checkin: TBD
+  confirmation: TBD
+  notes: Bigger and more central. Opened May 22 in 2026. Night 1 of 2.
+```
+
+**Schedule**
+- 8:30 → ~9:15 (~45m) · drive · Pinware → Blanc-Sablon. Derived, not routed · 📍 Blanc-Sablon Ferry Terminal
+- 9:30 · stop · Check in, 1 h early (Newfoundland Time; your phone may say Québec time here)
+- 10:30 → 12:15 (1h 45m) · ferry · Blanc-Sablon → St. Barbe. **Saturday's only spring sailing from Blanc-Sablon** *(Labrador Marine 2024 PDF)*. Miss it and the next one is Sunday at 10:30
+- (~1h) · drive · St. Barbe → Port au Choix. Not routed; estimated from the two routed legs out of Port aux Basques · 📍 Port au Choix National Historic Site
+- 2h · ruins · **Port au Choix**, open daily 9–5 from June 1 in 2026 (parks.canada.ca, snippet). Phillip's Garden, a Dorset site over open barrens, is recalled, not checked
+- (1h 22m) · drive · → The Arches PP · 📍 The Arches Provincial Park
+- 30m · stop · Sea arches. Walk length not checked
+- (1h 01m) · drive · → Berry Hill · 📍 Berry Hill Campground Gros Morne
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+### Day 15 — 2027-06-06 · Western Brook Pond
+
+```yaml
+date: 2027-06-06
+tagline: A landlocked fjord, and the boat runs only if fifteen people show up.
+type: activity
+driving: ~1h total
+slack: Loose. If the boat doesn't sail, tomorrow morning is the retry.
+overnight:
+  name: Berry Hill Campground
   place: Gros Morne NP, NL
   kind: National park campground
   cost: ~$34 CAD
@@ -425,58 +594,58 @@ overnight:
 
 **Schedule**
 - 8:00 → 9:45 · wake · Slow morning
-- 9:45 → 9:58 (13m) · drive · → Green Gardens trailhead · 📍 Green Gardens Trail Gros Morne
-- 10:00 → 2:15 (4h 15m) · hike · **Green Gardens**, 6.6 mi / 1,289 ft out-and-back (AllTrails 3 h 15 m + 1 h on the sea meadow)
-- 2:15 → 2:30 (13m) · drive · → camp
-- 8:45 → 9:30 · sunset · Trout River pond and beach, a walk from camp
+- 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
+- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). **The $99 boat: going for it** *(stated 2026-10-08: "THE experience of Gros Morne")*. Book online once 2027 opens (24 h free cancellation). It only sails with 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet. Tour times not checked
+- 12:30 → 2:00 · food · **Java Jack's, Rocky Harbour**: fish and chips
+- 2:00 → 8:30 · stop · Laundry and a small resupply in Rocky Harbour
+- 8:50 → 8:59 (9m) · drive · → Lobster Cove Head · 📍 Lobster Cove Head Lighthouse
+- 9:00 → 9:45 · sunset · Sunset 9:24 over the Gulf, computed for Rocky Harbour. The facing is from the map, not checked
 
 **Meals**
 - B: made at camp
-- L: packed
+- L: bought (Java Jack's)
 - D: made at camp
 
-### Day 11 — 2027-06-02 · Lookout Trail, then north
+### Day 16 — 2027-06-07 · Lookout Trail, then the south side
 
 ```yaml
-date: 2027-06-02
-tagline: The view over Bonne Bay, fish and chips, and the only west-facing ocean sunset yet.
+date: 2027-06-07
+tagline: The view over Bonne Bay, fish and chips, and camp under the Tablelands.
 type: activity + travel
-driving: ~2h total
-slack: Tight-ish (the longest hike plus a move). First cut — the Old Loft.
+driving: ~1h 40m total
+slack: Tight-ish (the longest hike plus a move). First cut — the Old Loft. If yesterday's boat didn't sail, retry it this morning and move Lookout to Day 18.
 overnight:
-  name: Berry Hill Campground
-  place: Gros Morne NP, NL (north side)
+  name: Trout River Campground
+  place: Gros Morne NP, NL (south side)
   kind: National park campground
-  cost: ~$34 CAD
+  cost: $34 peak / $31.75 CAD (parks.canada.ca)
   checkin: TBD
   confirmation: TBD
-  notes: Bigger and more central. Opened May 22 in 2026.
+  notes: Smaller and more secluded (Reddit). Opening date not found. Showers unconfirmed; buy one in town if needed. Night 1 of 3.
 ```
 
 **Schedule**
-- 8:00 → 9:30 · wake · Break camp
-- 9:30 → 9:54 (24m) · drive · → Woody Point · 📍 Lookout Trail Woody Point
-- 10:00 → 2:30 (4h 30m) · hike · **Lookout Trail via Woody Point**, 6.3 mi / 1,581 ft (AllTrails 3 h 28 m + 1 h at the top)
-- 2:30 → 3:30 · food · **The Old Loft, Woody Point**: fish and chips. Late-May opening not checked
-- 3:30 → 4:45 (1h 15m) · drive · → Berry Hill · 📍 Berry Hill Campground Gros Morne
-- 8:45 → 8:54 (9m) · drive · → Lobster Cove Head · 📍 Lobster Cove Head Lighthouse
-- 9:00 → 9:45 · sunset · Sunset 9:20 over the Gulf. The facing is from the map, not checked
+- 8:00 → 8:45 · wake · Break camp
+- 8:45 → 10:00 (1h 15m) · drive · Berry Hill → Woody Point · 📍 Lookout Trail Woody Point
+- 10:00 → 2:30 (4h 30m) · hike · **Lookout Trail via Woody Point**, 6.3 mi / 1,581 ft (AllTrails 3 h 28 m + 1 h at the top). Snow patches on the upper trail at the end of May 2026, and red chairs at the summit *(YouTube, Life Is Short DIY, 2026)*
+- 2:30 → 3:30 · food · **The Old Loft, Woody Point**: fish and chips. Opening date not checked
+- 3:30 → 3:54 (24m) · drive · → Trout River Campground · 📍 Trout River Campground Gros Morne
 
 **Meals**
 - B: made at camp
 - L: bought (the Old Loft) or packed
 - D: made at camp
 
-### Day 12 — 2027-06-03 · Western Brook Pond
+### Day 17 — 2027-06-08 · Green Gardens
 
 ```yaml
-date: 2027-06-03
-tagline: A landlocked fjord, and the boat runs only if fifteen people show up.
+date: 2027-06-08
+tagline: Sea stacks, sea caves and a meadow above them, with the climb on the way back.
 type: activity
-driving: ~1h total
-slack: Loose.
+driving: 26 min round trip
+slack: Comfortable. First cut — the sunset walk.
 overnight:
-  name: Berry Hill Campground
+  name: Trout River Campground
   place: Gros Morne NP, NL
   kind: National park campground
   cost: ~$34 CAD
@@ -487,210 +656,57 @@ overnight:
 
 **Schedule**
 - 8:00 → 9:45 · wake · Slow morning
-- 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
-- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). The $99 boat only if it reaches 15 riders; ask at the dock
-- 12:30 → 2:00 · food · **Java Jack's, Rocky Harbour**: fish and chips
-- 2:00 → 8:30 · stop · Laundry and a small resupply in Rocky Harbour
-- 8:50 → 9:40 · sunset · Lobster Cove again, or Green Point (not routed). New moon
+- 9:45 → 9:58 (13m) · drive · → Green Gardens trailhead · 📍 Green Gardens Trail Gros Morne
+- 10:00 → 2:15 (4h 15m) · hike · **Green Gardens**, 6.6 mi / 1,289 ft out-and-back (AllTrails 3 h 15 m + 1 h on the sea meadow)
+- 2:15 → 2:30 (13m) · drive · → camp
+- 9:00 → 9:45 · sunset · Trout River pond and beach, a walk from camp. Sunset 9:26, computed for Trout River. Or the **Eastern Point Trail** above the town: 1.6 mi / 190 ft, Easy (AllTrails 38 m, 4.7★). Gulf views and a little blue shelter at the top *(YouTube, Life Is Short DIY, 2026; a Facebook commenter recommends it too)*
 
 **Meals**
 - B: made at camp
-- L: bought (Java Jack's)
+- L: packed
 - D: made at camp
 
-### Day 13 — 2027-06-04 · Rest
+### Day 18 — 2027-06-09 · Rest, then the mantle at sunset
 
 ```yaml
-date: 2027-06-04
-tagline: Nothing scheduled, on purpose, on day thirteen.
-type: rest
-driving: none
-slack: All of it.
+date: 2027-06-09
+tagline: A day off, then walk on the inside of the planet as the last thing before the friends.
+type: rest + activity
+driving: 40 min round trip
+slack: All day. It's also the buffer for the Labrador return ferry and the boat retry.
 overnight:
-  name: Berry Hill Campground
+  name: Trout River Campground
   place: Gros Morne NP, NL
   kind: National park campground
   cost: ~$34 CAD
   checkin: n/a — night 3 of 3
   confirmation: TBD
-  notes: ""
+  notes: Pack the car tonight.
 ```
 
 **Schedule**
-- OPTIONAL · hike · **Tablelands Off-Trail Loop**, 7.3 mi / 1,738 ft, Hard, only if the weather is perfect · 📍 Tablelands Trail Gros Morne
+- OPTIONAL · hike · **Tablelands Off-Trail Loop**, 7.3 mi / 1,738 ft, Hard, instead of the evening walk, only if the weather is perfect · 📍 Tablelands Trail Gros Morne
+- 6:30 → 6:50 (20m) · drive · → Tablelands trailhead · 📍 Tablelands Trail Gros Morne
+- 6:50 → 9:40 (2h 50m) · hike · **Tablelands**, 4.8 mi / 603 ft. Exposed mantle, no shade. Sunset 9:27, computed for Trout River at sea level, so it's earlier in the bowl; ~2 h 15 m walking is an estimate
+- 9:40 → 10:00 (20m) · drive! · → camp in the dark. Moose
 
 **Meals**
 - B: made at camp
 - L: made at camp
 - D: made at camp
 
-### Day 14 — 2027-06-05 · Up the Viking Trail
+#### Highlights
 
-```yaml
-date: 2027-06-05
-tagline: Sea arches, a Paleo-Inuit site on open barrens, and a night across from the ferry.
-type: travel + activity
-driving: ~3h 30m in legs
-slack: Comfortable. First cut — Flower's Cove.
-overnight:
-  name: St. Barbe RV Park
-  place: St. Barbe, NL
-  kind: Private campground
-  cost: ⚠️ fee not found, ~$30 est.
-  checkin: TBD
-  confirmation: TBD
-  notes: Tent sites, showers, laundromat, kitchen (NL tourism listing). Across from the ferry.
-```
+Peridotite obducted onto the continent: orange-brown, nearly bare, and the physical evidence that confirmed plate tectonics. The single best geology day on the whole list, now the finale of the solo half instead of the opener.
 
-**Schedule**
-- 9:00 → 10:01 (1h 01m) · drive · → The Arches PP · 📍 The Arches Provincial Park
-- 10:05 → 10:45 (40m) · stop · Sea arches. Walk length not checked
-- 10:45 → 12:07 (1h 22m) · drive · → Port au Choix NHS · 📍 Port au Choix National Historic Site
-- 12:10 → 3:00 (2h 50m) · ruins · Port au Choix. Phillip's Garden, a Dorset site over open barrens, is recalled, not checked. Lunch here
-- 3:00 → 4:31 (1h 31m) · drive · → Flower's Cove. Thrombolites, recalled, not checked
-- 4:45 → 5:03 (18m) · drive · → St. Barbe RV Park · 📍 St. Barbe RV Park
-
-**Meals**
-- B: made at camp
-- L: packed
-- D: made at camp
-
-### Day 15 — 2027-06-06 · Red Bay, Labrador
-
-```yaml
-date: 2027-06-06
-tagline: Across the strait to a 16th-century Basque whaling station.
-type: activity + ferry
-driving: 1h 49m
-slack: Loose. First cut — none; this is the day.
-overnight:
-  name: Pinware River Provincial Park
-  place: Labrador Straits, NL
-  kind: Provincial park (ParksNL)
-  cost: $20.15 CAD
-  checkin: TBD
-  confirmation: TBD
-  notes: Opened May 29 in 2026.
-```
-
-**Schedule**
-- 7:15 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
-- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap**: Blanc-Sablon is on Atlantic time, 30 min behind Newfoundland time, and one thread says the ferry runs on Eastern. Confirm which clock the schedule uses
-- 10:00 → 11:17 (1h 17m) · drive · → Red Bay · 📍 Red Bay National Historic Site
-- 11:30 → 12:30 · food · **Whaler's Restaurant**: fish and chips
-- 12:30 → 1:45 · ruins · Interpretation centre
-- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2)
-- 4:15 → 4:47 (32m) · drive · → Pinware River PP · 📍 Pinware River Provincial Park
-
-**Meals**
-- B: made at camp
-- L: bought (Whaler's)
-- D: made at camp
-
-### Day 16 — 2027-06-07 · Point Amour, back across
-
-```yaml
-date: 2027-06-07
-tagline: A lighthouse on the Labrador coast, the ferry, and up to the tip.
-type: travel
-driving: ~2h 20m + ferry
-slack: Depends on the ferry.
-overnight:
-  name: Pistolet Bay Provincial Park
-  place: Near St. Anthony, NL
-  kind: Provincial park (ParksNL)
-  cost: $20.15 CAD
-  checkin: TBD
-  confirmation: TBD
-  notes: Opened May 29 in 2026. Base for three nights.
-```
-
-**Schedule**
-- 9:00 → 9:35 (35m) · drive · → Point Amour lighthouse · 📍 Point Amour Lighthouse
-- 9:40 → 11:00 · stop · Lighthouse and the coast
-- afternoon (1h 45m) · ferry · Blanc-Sablon → St. Barbe. Sailing time TBD
-- (1h 47m) · drive · → Pistolet Bay · 📍 Pistolet Bay Provincial Park
-
-**Meals**
-- B: made at camp
-- L: packed
-- D: made at camp
-
-### Day 17 — 2027-06-08 · L'Anse aux Meadows, the Cobbler, Fortune
-
-```yaml
-date: 2027-06-08
-tagline: A Norse hall from 1000 AD, then a rugged headland and an abandoned outport.
-type: activity
-driving: ~1h 30m total
-slack: Moderate. First cut — the Cobbler Loop.
-overnight:
-  name: Pistolet Bay Provincial Park
-  place: Near St. Anthony, NL
-  kind: Provincial park (ParksNL)
-  cost: $20.15 CAD
-  checkin: n/a — night 2 of 3
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- 9:00 → 9:40 (40m) · drive · → L'Anse aux Meadows · 📍 L'Anse aux Meadows National Historic Site
-- 9:45 → 11:45 (2h) · ruins · Norse site: sod outlines plus reconstructions
-- 11:45 → 12:00 · drive · → Quirpon (same road, not routed)
-- 12:00 → 1:15 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland · 📍 Quirpon Newfoundland
-- 1:15 → 1:25 (10m) · drive · → Gunner's Cove · 📍 Gunners Cove Newfoundland
-- 1:30 → 5:00 (3h 30m) · hike · **Gunner's Cove → Fortune** and back, ~6.2 mi (my arithmetic from 5 km each way); ~2 h 45 m walking is an estimate, plus time at the ruins. **Don't enter the standing house**
-- 5:00 → 5:32 (32m) · drive · → Pistolet Bay
-
-**Meals**
-- B: made at camp
-- L: packed
-- D: made at camp
-
-#### Warnings
-
-Fortune is a resettled outport: one house still standing, others collapsed. Unsound buildings, solo, no signal. Look, don't enter. High cliffs and cold water on both trails.
-
-### Day 18 — 2027-06-09 · Little Brehat and the icebergs
-
-```yaml
-date: 2027-06-09
-tagline: Another abandoned outport, then a boat out to the bergs if they're in.
-type: activity
-driving: ~1h 30m total
-slack: Loose.
-overnight:
-  name: Pistolet Bay Provincial Park
-  place: Near St. Anthony, NL
-  kind: Provincial park (ParksNL)
-  cost: $20.15 CAD
-  checkin: n/a — night 3 of 3
-  confirmation: TBD
-  notes: Pack the car tonight; tomorrow is nine hours.
-```
-
-**Schedule**
-- 8:00 → 9:30 · wake · Slow morning; check IcebergFinder
-- 9:30 → 10:03 (33m) · drive · → Great Brehat · 📍 Great Brehat Newfoundland
-- 10:05 → 12:00 · hike · **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m) + a sit
-- 12:00 → 12:45 · food · Lunch in St. Anthony
-- 1:00 → 3:30 · boat · **Northland Discovery, the 1 PM sailing** ($89 CAD, 2025 rate) if the bergs are in. Otherwise a partial out-and-back on the Cape St. Anthony Trail · 📍 Northland Discovery Boat Tours St. Anthony
-- 4:00 · shop · Resupply in St. Anthony. Store not checked
-
-**Meals**
-- B: made at camp
-- L: bought
-- D: made at camp
-
-### Day 19 — 2027-06-10 · The long day south, and the friends land
+### Day 19 — 2027-06-10 · Across the island, and the friends land
 
 ```yaml
 date: 2027-06-10
-tagline: The Northern Peninsula is a dead end, and this is what leaving it costs.
+tagline: Four and a half hours on the Trans-Canada, then the airport.
 type: travel
-driving: ~9h (St. Anthony → Gander is 8h 57m with the padding)
-slack: None; it's the whole day.
+driving: 4h 48m (Trout River → Gander airport, routed +15%)
+slack: Comfortable; arrive mid-afternoon.
 overnight:
   name: TBD — hotel in Gander
   place: Gander, NL
@@ -702,12 +718,13 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → ~5:00 · drive · Pistolet Bay → Gander, with lunch and fuel. The Pistolet Bay → St. Anthony leg isn't routed · 📍 Gander NL
+- 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor · 📍 Gander NL
+- afternoon · stop · Hotel check-in, a shower, a real bed
 - evening · stop · **Pick up the friends at Gander airport (YQX).** Flight times TBD · 📍 Gander International Airport
 
 **Meals**
 - B: made at camp
-- L: packed
+- L: bought
 - D: bought
 
 ### Day 20 — 2027-06-11 · Twillingate
@@ -762,7 +779,7 @@ overnight:
 - 9:00 → 1:30 · drive · Twillingate → Bonavista · 📍 Bonavista NL
 - 1:30 → 5:00 · stop · **Dungeon PP** (a collapsed sea cave) + Cape Bonavista lighthouse · 📍 Dungeon Provincial Park
 - 5:00 → 6:00 · food · **Little Dairy King**, Cape Bonavista: fish and chips + ice cream
-- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed · 📍 Elliston Puffin Viewing Site
+- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed. Locals say **first light is best**, and the birds are sometimes out at sea, so allow a second try; Trinity is 51 min away for a dawn run on Day 22 or 23 *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Elliston Puffin Viewing Site
 - 8:50 → 9:41 (51m) · drive! · → Trinity hotel
 
 **Meals**
@@ -818,6 +835,7 @@ overnight:
 
 **Schedule**
 - OPTIONAL · ruins · Whichever ruin yesterday skipped
+- OPTIONAL · geology · **Discovery UNESCO Geopark**: **Port Union's 560-million-year-old fossils** (Murphy's Cove trail) and the **Tickle Cove Sea Arch** on the Route 235 loop, which locals call a must-see *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Neither is checked against an official source
 
 **Meals**
 - B: bought
@@ -845,7 +863,7 @@ overnight:
 **Schedule**
 - 10:00 → 1:20 (3h 20m) · drive · Trinity → St. John's · 📍 St. John's NL
 - 6:15 → 7:15 · food · **Ches's**: fish and chips. Hours not checked · 📍 Ches's Fish and Chips St. John's
-- 7:30 → 9:30 · sunset · **North Head / Signal Hill**, 2.2 mi / 508 ft (AllTrails 1 h 10 m), sunset 9:00 · 📍 Signal Hill National Historic Site
+- 7:30 → 9:30 · sunset! · **North Head / Signal Hill**, 2.2 mi / 508 ft (AllTrails 1 h 10 m), sunset 9:00. ⚠️ **Part of the trail is a ~3 ft ledge along the Narrows cliff, with chains to hold** *(YouTube, Discovering Newfoundland 2022 and Vanderson Vibes 2025)*. Do that section first, in daylight, and watch the sunset from Cabot Tower, not from the ledge. Skip the ledge in wind or rain · 📍 Signal Hill National Historic Site
 
 **Meals**
 - B: bought
@@ -873,7 +891,7 @@ overnight:
 **Schedule**
 - pre-dawn · drive! · → Cape Spear, at peak moose hour. Slow. St. John's → Cape Spear isn't routed, so the leave time is TBD. A "who's in?" for the friends · 📍 Cape Spear Lighthouse
 - 4:20 → 5:30 · sunrise · First light 4:22, sunrise 5:03. The easternmost point in North America
-- 5:30 → 7:55 · hike · **Cape Spear Path**, 5.9 mi / 643 ft out-and-back (AllTrails 2 h 21 m)
+- 5:30 → 7:55 · hike · **Cape Spear Path**, 5.9 mi / 643 ft out-and-back (AllTrails 2 h 21 m). The grounds are open year-round, so a pre-dawn arrival works; the lighthouse building opens June 1 *(parks.canada.ca, snippet)*. Dawn wind here can be "brutal" *(YouTube, Vanderson Vibes, 2025)*
 - 8:00 → 8:17 (17m) · drive · → Petty Harbour
 - 12:00 → 1:00 · food · **Chafe's Landing, Petty Harbour**: cod tongues + fish and chips. Hours not checked · 📍 Chafe's Landing Petty Harbour
 
@@ -930,7 +948,7 @@ overnight:
 **Schedule**
 - morning · drive · St. John's → Bay Bulls. Not routed · 📍 Bay Bulls Newfoundland
 - midday · boat · **Witless Bay**: Gatherall's (C$94) or O'Brien's (from $95). Puffins, whales, maybe bergs. Times TBD · 📍 Gatheralls Puffin and Whale Watch Bay Bulls
-- afternoon · ruins · **La Manche village + the suspension bridge**, from the park. La Manche Village Path is 4.4 mi point-to-point; the walk in from the park lot isn't measured · 📍 La Manche Provincial Park
+- afternoon · ruins · **La Manche village + the suspension bridge**, from the park. From the park it's **1.8 mi / 308 ft out and back** to the suspension bridge (AllTrails "La Manche Suspension Bridge", 50 m, 4.6★) *(was: "the walk in from the park lot isn't measured")* · 📍 La Manche Provincial Park
 - evening · drive! · → St. John's. Full moon (99.9%), moose at dusk
 
 **Meals**
@@ -959,8 +977,9 @@ overnight:
 **Schedule**
 - morning · drive · Friends to St. John's airport (YYT). Flight times TBD · 📍 St. John's International Airport
 - (1h 20m) · drive · St. John's → Ferryland · 📍 Ferryland Newfoundland
-- midday · ruins · **Colony of Avalon** dig (1620s). Hours not checked · 📍 Colony of Avalon Ferryland
-- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m)
+- midday · ruins · **Colony of Avalon** dig (1620s). Season June–October; 2026 tours at 9:00, 10:30, 12:00, 1:30 and 3:00 (colonyofavalon.ca, snippet) · 📍 Colony of Avalon Ferryland
+- afternoon (1h) · hike · **Ferryland lighthouse**, 1.2 mi (AllTrails 27 m). The road out is narrow and rough with a gate partway; park and walk from the gate *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)*. Food: **The Squid Jigger**, 75 Main Rd, Ferryland, for seafood chowder ("best" per the same thread; TripAdvisor reviews agree; hours not checked). The Lighthouse Picnics at the end of the trail book out, so prebook if wanted; otherwise bring your own lunch *(Facebook, Irish Loop thread, via Colin 2026-10-08)*
+- OPTIONAL afternoon · music · **Sullivan's Songhouse**, Calvert, next door to Ferryland: traditional music, "a must… book in advance", Wednesday and Saturday afternoons only, ~$30. **June 19 is a Saturday** *(Facebook, via Colin 2026-10-08; sullivanssonghouse.com not read)*
 - evening · camp · → La Manche PP
 
 **Meals**
@@ -968,54 +987,65 @@ overnight:
 - L: packed
 - D: made at camp
 
-### Day 29 — 2027-06-20 · The gannets, then Argentia
+### Day 29 — 2027-06-20 · Mistaken Point, and whales from the beach
 
 ```yaml
 date: 2027-06-20
-tagline: A sea stack covered in gannets, a few metres from the cliff edge.
+tagline: Stand on a 565-million-year-old seafloor covered in the oldest complex life on Earth, then watch humpbacks from the sand.
 type: travel + activity
-driving: 4h 07m (routed +15%)
-slack: Depends on the 2027 sailing day.
+driving: 4h 08m (routed +15%) plus the 30-min drive inside the tour
+slack: Tight. First cut — the St. Vincent's whale stop.
 overnight:
-  name: TBD — near Argentia / Placentia
-  place: Placentia, NL
-  kind: Not researched
+  name: Argentia Sunset RV Park
+  place: Argentia, NL, 2.5 km from the ferry
+  kind: Private RV park (40 serviced sites, washrooms, showers)
   cost: TBD
   checkin: TBD
   confirmation: TBD
-  notes: ⚠️ Not researched. The 2027 sailing day and time decide whether this is a night ashore or the boat.
+  notes: Tents aren't mentioned on its page; call 709-227-6363 or email argentiarvpark@gmail.com. Fallback is the Placentia Paradise Hipcamp.
 ```
 
 **Schedule**
-- 10:00 → 12:46 (2h 46m) · drive · La Manche → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
-- 1:00 → 3:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit
-- 3:00 → 4:21 (1h 21m) · drive · → Argentia / Placentia · 📍 Placentia NL
+- 8:20 → 9:39 (1h 19m) · drive · La Manche → Mistaken Point Interpretation Centre, Portugal Cove South. Some locals call the Southern Shore roads rough *(Facebook, via Colin's scrape, unconfirmed)* · 📍 Edge of Avalon Interpretive Centre Portugal Cove South
+- 9:45 · stop · Check in at the Interpretation Centre; fees are paid on the day
+- 10:30 → 2:30 (4h) · geology · **Mistaken Point guided tour**: a 30-min drive in your own car, then a 6 km round-trip walk over coastal barrens to fossil beds of Ediacaran life dated 565 and 579 million years, the oldest multicellular fossils known. $23, **reservations required and they fill well ahead**; daily at 10:30 or 12:30 mid-May to mid-October; cancelled for thunderstorms or very high wind *(mistakenpoint.ca/tour, page read 2026-10-08; gov.nl.ca, snippet)*. Pack lunch
+- 2:30 → 3:10 (40m) · drive · → St. Vincent's Beach, on the Irish Loop heading west · 📍 St. Vincent's Beach Newfoundland
+- 3:10 → 4:30 · stop · **Whales from the beach**: the beach drops to 42 ft right away, so in capelin season (June–July, timing unpredictable) humpbacks feed 10–50 m offshore *(YouTube, Kill or Cure, 2026)*. A waiting game; leave by 4:30 regardless
+- 4:30 → 6:39 (2h 09m) · drive · St. Vincent's → Argentia via Route 90 and 91 · 📍 Argentia Sunset RV Park
 
 **Meals**
 - B: made at camp
 - L: packed
-- D: made or bought
+- D: made at camp
+
+#### Highlights
+
+Added 2026-10-08 *(Colin picked option A; was: Cape St. Mary's on this day and a free Monday morning)*. Ferryland on Day 28 and Mistaken Point today give the Irish Loop the two days locals recommend.
 
 ### Day 30 — 2027-06-21 · Argentia → North Sydney
 
 ```yaml
 date: 2027-06-21
-tagline: Sixteen and a half hours at sea, overnight.
-type: travel
-driving: none
-slack: n/a
+tagline: Gannets in the morning, then sixteen hours at sea overnight.
+type: activity + ferry
+driving: 2h 36m (routed +15%)
+slack: Fixed by the 3 PM check-in. If the morning is socked in, skip the gannets and sit tight in Argentia.
 overnight:
   name: Marine Atlantic, Argentia route
   place: At sea
   kind: Ferry — cabin or seat
   cost: adult C$60.40 + car C$121.81; two-bed cabin C$176.75 (2026)
-  checkin: TBD
+  checkin: 3.00 PM at the latest (2 h before)
   confirmation: TBD
-  notes: Cabin decided on price once 2027 is posted *(stated 2026-10-04)*. Departure time TBD; 2026 had 11:45, 23:45 and 06:30 departures on the route, direction unclear.
+  notes: Departs 5.00 PM Monday, a posted 2027 sailing (was TBD). Cabin decided on price *(stated 2026-10-04)*. Cabins book out months ahead; a 2024 traveller got one off the waitlist mid-crossing for about $223.
 ```
 
 **Schedule**
-- TBD (16h 30m) · ferry · **Argentia → North Sydney**, if 2027 sails Monday · 📍 Marine Atlantic Argentia Terminal
+- 8:30 → 9:48 (1h 18m) · drive · Argentia → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
+- 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
+- 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
+- 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
+- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
 
 **Meals**
 - B: made or bought
@@ -1108,19 +1138,19 @@ total: Not totalled; the hotel week isn't priced
 | 3 | Tue 5/25 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Same booking |
 | 4 | Wed 5/26 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Same booking |
 | 5 | Thu 5/27 | Fundy NP, NB | Parks Canada | Headquarters or Chignecto | ~$30 est. | January launch |
-| 6 | Fri 5/28 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; season not found |
+| 6 | Fri 5/28 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
 | 7 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | Same booking |
 | 8 | Sun 5/30 | Port aux Basques, NL | ParksNL | J.T. Cheeseman | C$20.15 | Mid-April; opening date not confirmed |
-| 9 | Mon 5/31 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
-| 10 | Tue 6/1 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
-| 11 | Wed 6/2 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | January launch |
-| 12 | Thu 6/3 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Same booking |
-| 13 | Fri 6/4 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Same booking |
-| 14 | Sat 6/5 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
-| 15 | Sun 6/6 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Mid-April |
-| 16 | Mon 6/7 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
-| 17 | Tue 6/8 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
-| 18 | Wed 6/9 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
+| 9 | Mon 5/31 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
+| 10 | Tue 6/1 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
+| 11 | Wed 6/2 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
+| 12 | Thu 6/3 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Mid-April |
+| 13 | Fri 6/4 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Same booking |
+| 14 | Sat 6/5 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | January launch |
+| 15 | Sun 6/6 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Same booking |
+| 16 | Mon 6/7 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
+| 17 | Tue 6/8 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
+| 18 | Wed 6/9 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 19 | Thu 6/10 | Gander, NL | Hotel | TBD | TBD, split | Friends' week |
 | 20 | Fri 6/11 | Twillingate, NL | Hotel | TBD | ~$124 avg, split | Friends' week |
 | 21 | Sat 6/12 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
@@ -1131,7 +1161,7 @@ total: Not totalled; the hotel week isn't priced
 | 26 | Thu 6/17 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
 | 27 | Fri 6/18 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
 | 28 | Sat 6/19 | Southern Shore, NL | ParksNL | La Manche | C$20.15 | Assumed, not decided |
-| 29 | Sun 6/20 | Placentia, NL | TBD | TBD | TBD | Not researched |
+| 29 | Sun 6/20 | Argentia, NL | Private RV park | Argentia Sunset RV Park | TBD | Tents unconfirmed; 709-227-6363 |
 | 30 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | Book once 2027 is posted |
 | 31 | Tue 6/22 | NS / NB / ME | Transit | TBD | ~$35 est. | Not identified |
 | 32 | Wed 6/23 | New York | Transit | TBD | ~$35 est. | Not identified |
@@ -1148,14 +1178,15 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 | Matthews Head | 5 | 2.9 mi | 492 ft | Moderate | — | Coastal loop, Fundy |
 | Celtic Shores: Inverness–Mabou (bike, optional) | 7 | 8.7 mi one way | 49 ft | Moderate | — | Rail trail |
 | Skyline Trail loop | 7 | 6 mi | 629 ft | Moderate | — | Or 4.2 mi / 515 ft out-and-back |
-| Tablelands Trail | 9 | 4.8 mi | 603 ft | Moderate | ~2h 15m est. | The mantle |
-| Green Gardens | 10 | 6.6 mi | 1,289 ft | Moderate | 3h 15m | Sea stacks, caves |
-| Lookout Trail via Woody Point | 11 | 6.3 mi | 1,581 ft | Moderate | 3h 28m | Over Bonne Bay |
-| Western Brook Pond | 12 | 3.3 mi | 180 ft | Easy | 1h 07m | Boat needs 15 riders |
-| Tablelands Off-Trail Loop (optional) | 13 | 7.3 mi | 1,738 ft | Hard | — | Weather-perfect only |
-| Cobbler Loop | 17 | 2.7 mi | 141 ft | Easy | 55m | 4.9★, from Quirpon |
-| Gunner's Cove → Fortune | 17 | ~6.2 mi | — | — | ~2h 45m est. | Abandoned outport; my arithmetic |
-| Little Brehat | 18 | 3.6 mi | 364 ft | Easy | 1h 24m | Abandoned outport |
+| Cobbler Loop | 10 | 2.7 mi | 141 ft | Easy | 55m | 4.9★, from Quirpon |
+| Gunner's Cove → Fortune | 11 | ~6.2 mi | — | — | ~2h 45m est. | Abandoned outport; my arithmetic |
+| Little Brehat (optional) | 11 | 3.6 mi | 364 ft | Easy | 1h 24m | Abandoned outport. Only if there's no boat that day *(cut from Day 12, 2026-10-08)* |
+| Tracey Hill | 13 | not measured | 689 steps | — | — | Red Bay view *(YouTube, 2024)* |
+| Western Brook Pond | 15 | 3.3 mi | 180 ft | Easy | 1h 07m | Boat needs 15 riders |
+| Lookout Trail via Woody Point | 16 | 6.3 mi | 1,581 ft | Moderate | 3h 28m | Over Bonne Bay |
+| Green Gardens | 17 | 6.6 mi | 1,289 ft | Moderate | 3h 15m | Sea stacks, caves |
+| Tablelands Trail | 18 | 4.8 mi | 603 ft | Moderate | ~2h 15m est. | The mantle |
+| Tablelands Off-Trail Loop (optional) | 18 | 7.3 mi | 1,738 ft | Hard | — | Weather-perfect only |
 | Long Point Lighthouse | 20 | 3 mi | 603 ft | Moderate | ~1h 30m est. | Sunset |
 | Elliston puffins | 21 | 0.5 mi | — | Easy | 11m | |
 | B-36 crash site (optional) | 22 | 1.3 mi | 524 ft | — | 56m | Memorial |
@@ -1165,7 +1196,8 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 | Cape Spear Path | 25 | 5.9 mi | 643 ft | Moderate | 2h 21m | After sunrise |
 | La Manche Village Path | 27 | 4.4 mi pt-to-pt | 475 ft | — | — | Walked from the park end |
 | Ferryland lighthouse | 28 | 1.2 mi | — | Easy | 27m | |
-| Cape St. Mary's gannets | 29 | 1.7 mi | 295 ft | Easy | 48m | Long sit at the colony |
+| Mistaken Point fossils (guided only) | 29 | ~3.7 mi (6 km) | — | Casual–moderate | 3½–4 h incl. drive | Reservation required |
+| Cape St. Mary's gannets | 30 | 1.7 mi | 295 ft | Easy | 48m | Long sit at the colony |
 
 ## Weather
 
@@ -1212,11 +1244,13 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Blackwoods, Acadia (May 24–26) — first release Dec 1, 10 AM ET
 - [ ] Parks Canada launch dates for Fundy, Cape Breton and Gros Morne — posted in January
 - [ ] Marine Atlantic, North Sydney → Port aux Basques (May 30)
-- [ ] Marine Atlantic 2027 Argentia schedule: which days sail *from* Argentia — sets the end date
+- [x] Marine Atlantic 2027 Argentia schedule: posted. Mon, Thu and Sat at 17:00 from Argentia (read 2026-10-08)
 - [ ] Marine Atlantic, Argentia → North Sydney (Jun 21) + cabin
 - [ ] ParksNL season opening (mid-April 2027) — Pinware River, Pistolet Bay, La Manche, J.T. Cheeseman
 - [ ] Strait of Belle Isle ferry both ways, and which clock its schedule uses (1-866-535-2567)
 - [ ] Red Bay Saddle Island tour times
+- [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
+- [ ] Argentia Sunset RV Park: tents allowed? (709-227-6363)
 - [ ] Friends: headcount, then a rental car by ~January if two or more
 - [ ] Hotels for 6/10–6/18 (Gander, Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
@@ -1229,17 +1263,12 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 ### Is the headcount for the friends' week known?
 
 **Blocks:** the rental car, the hotel bookings and the open-jaw flights
-Up to 3, from Cleveland, not committed *(stated 2026-10-05)*. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
+**Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. So the plan assumes a rental car. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
 
-### Which days does Argentia sail from in 2027?
-
-**Blocks:** the end of the trip
-Unknown until Marine Atlantic posts 2027. The 2026 terminal hours suggest Mon/Thu/Sat, which is an inference. The Avalon days flex around it.
-
-### Where's the night of June 20?
+### Does Argentia Sunset RV Park take tents?
 
 **Blocks:** Day 29
-Near Argentia/Placentia, not researched. Depends on the sailing time.
+The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 serviced sites, washrooms, showers, reservations at 709-227-6363 or argentiarvpark@gmail.com *(portofargentia.ca, page read 2026-10-08)*. Its page doesn't mention tents. The fallback is the Placentia Paradise Hipcamp, "minutes from the Argentia ferry" *(snippet)*. Locals say the provincial parks near Argentia are day-use only *(Facebook, snippet)*. *(was: "Where's the night of June 20?")*
 
 ### Is La Manche still the June 19 camp?
 
