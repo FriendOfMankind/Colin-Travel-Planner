@@ -488,7 +488,7 @@ overnight:
 **Schedule**
 - 8:00 → 9:45 · wake · Slow morning
 - 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
-- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). The $99 boat only if it reaches 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*, so early June is in season; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet
+- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). **The $99 boat: going for it** *(stated 2026-10-08: "THE experience of Gros Morne")*. It only sails with 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*, so early June is in season; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet
 - 12:30 → 2:00 · food · **Java Jack's, Rocky Harbour**: fish and chips
 - 2:00 → 8:30 · stop · Laundry and a small resupply in Rocky Harbour
 - 8:50 → 9:40 · sunset · Lobster Cove again, or Green Point (not routed). New moon
@@ -1229,7 +1229,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 ### Is the headcount for the friends' week known?
 
 **Blocks:** the rental car, the hotel bookings and the open-jaw flights
-Up to 3, from Cleveland, not committed *(stated 2026-10-05)*. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
+**Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. So the plan assumes a rental car. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
 
 ### Which days does Argentia sail from in 2027?
 

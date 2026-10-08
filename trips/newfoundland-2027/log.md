@@ -280,3 +280,9 @@ All 📋 search snippets, 2026-10-07, unless marked. These are 2026 dates; 2027 
 - **Colony of Avalon:** June–October 2026; tours 9:00, 10:30, 12:00, 1:30, 3:00 (colonyofavalon.ca)
 - **Gatherall's, Witless Bay:** May 14 – Sept 20 (gatheralls.com); puffins in the first week of the 2026 season (their Facebook, May 2026)
 - **Acadia's peregrine closures** in 2026: Jordan Cliffs, Penobscot East, Precipice, Valley Cove (WABI, Mar 2026). **The Beehive wasn't on that list**
+
+## 2026-10-08 · Friends, the boat, and the Day 19 drive
+- **Planning for 3 friends** *(stated 2026-10-08)*. Not confirmed yet: Colin is asking in a set order, which takes about a week. Three guests means a rental car
+- **Western Brook Pond boat: going for it** *(stated 2026-10-08)*
+- Colin on Day 19: find a more efficient order that's just as fun; the friends' dates can shift later *(stated 2026-10-08)*
+- ✅ Routed today (raw → **+15%**, firecrawl-maps, 2026-10-08): Port aux Basques → St. Barbe 6 h 09 m → **7 h 05 m** · Port aux Basques → Port au Choix 5 h 30 m → 6 h 20 m · St. Anthony → Rocky Harbour 3 h 57 m → **4 h 33 m** · Rocky Harbour → Gander 3 h 52 m → 4 h 27 m · Trout River → Gander airport 4 h 10 m → **4 h 48 m** · St. Anthony → Grand Falls-Windsor 6 h 50 m → 7 h 52 m
