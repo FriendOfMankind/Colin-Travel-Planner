@@ -353,3 +353,10 @@ Transcripts read 2026-10-08. All of it is secondhand: one group's trip, in one s
 - **Cape St. Mary's, Adventures With Todd, uploaded 2022-10-29**: a 1.5 km trail over subarctic barrens, ~70,000 seabirds, "this world class site is FREE". The transcript is mostly music
 - **Tablelands and Green Gardens, A Flaneur's Quest, uploaded 2025-07-27** (late June or July 2025): the Gros Morne campgrounds were **completely full**; staff said it was "already so busy… like high season" before July. The Tablelands parking lot was full. Showers are available at the Irving gas station. Book Gros Morne early (it opens in January) even for June
 - Search found but not read yet: Skyline Trail vlogs, a 7 h Port aux Basques ferry vlog, and Bonavista/Elliston van-life videos. La Manche searches returned junk
+
+## 2026-10-08 · Could the friends do the festival? Flights into the north
+- Colin: the festival "wouldn't be fun alone"; he's open to it if the friends can be part of it without upending the plan. Nothing is committed *(stated 2026-10-08)*
+- 📋 **Deer Lake (YDF)**: Air Canada ~12 direct flights a week from Toronto, Porter ~7 a week (Porter's Toronto service is June–September), daily direct from Halifax. Fares from ~$138–180 one way, current fares, not June 2027 *(Expedia, Kayak, Deer Lake Airport Facebook, snippets, 2026-10-08)*. So Cleveland → Toronto → Deer Lake is one connection
+- 📋 **St. Anthony (YAY)**: PAL Airlines only. St. John's ↔ St. Anthony direct (~1 h 30 m); Deer Lake → St. Anthony has a stop, from ~CA$721 (Expedia); there's a 20-minute hop to Blanc-Sablon. Too thin and pricey to plan the friends around
+- Derived: Deer Lake airport → St. Anthony ≈ 4 h 51 m raw (Deer Lake → Rocky Harbour 54 m plus Rocky Harbour → St. Anthony 3 h 57 m), ≈ 5 h 35 m with the padding. Not routed directly
+- 📋 Globus sells a "Newfoundland & Labrador with Iceberg Celebration" coach tour, and TripAdvisor and Facebook threads ask whether rooms are hard to find during the festival. Expect festival-week rooms at the tip to go early. The threads themselves weren't read (🔒)
