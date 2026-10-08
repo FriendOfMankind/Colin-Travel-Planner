@@ -299,3 +299,15 @@ All 📋 search snippets, 2026-10-07, unless marked. These are 2026 dates; 2027 
 - ✅ **L'Anse aux Meadows** opened June 1 in 2025 too ("It's June 1, opening day", National Parks Traveler, 2025-08) and is June 1 – Oct 2 in 2026 (parks.canada.ca, snippet). Two years running
 - 📋 **ParksNL**: Pinware River and Pistolet Bay opened **May 30 in 2025** (gov.nl.ca release, snippet) and May 29 in 2026. NL tourism lists Pinware as "Jun 1 – Sep 17", an older or different listing, so the sources disagree. Reservations launch around the third week of April, with the season dates
 - 📋 **Western Brook boat**: "Departures depend on wind and weather conditions. Reservations are recommended" (parks.canada.ca, snippet). A blog says it runs mid-May to early October, weather-dependent, 15-person minimum (hikebiketravel.com). Not found: how often early-June departures fail. There's a Facebook thread "What are chances of Gros Morne boat tour cancellation?" (Discovering Newfoundland group) that I can't read
+
+## 2026-10-08 · Labrador by Thursday ferry; the Western Brook thread
+- **Decided: cross to Labrador on Thursday's 3:30 PM sailing, back on Saturday's 10:30 AM, and cut Little Brehat** *(stated 2026-10-08, option 1A)*. Two nights at Pinware and a full Friday in Red Bay: three Saddle Island slots instead of one, and Point Amour during opening hours. Little Brehat stays as an optional add-on on Day 11 if there's no boat that day. *(was: Friday 10:30 over, which left one 2 PM shot at Saddle Island, and a second St. Barbe night)*
+- **Western Brook: what locals and visitors say** *(source: "What are chances of Gros Morne boat tour cancellation?", Discovering Newfoundland Facebook group, Aug 2026, pasted by Colin 2026-10-08; 10 of 17 comments, some truncated)*. The asker had one day in October, so most answers are about how to spend a single day, not about odds
+  - **No one gave a cancellation rate.** That question is still open
+  - The walk to the dock is "definitely worth it" on its own (three separate commenters)
+  - "Book the boat tour and if it gets cancelled do the walk." Someone went the week before: it started windy and rainy, then the wind died and it was "amazing"
+  - In fog you may not see much of either the pond or the Tablelands
+  - Shuttle to the dock: "$10, or it was last year"; one commenter says the walk is "more authentic". Matches bontours.ca ($10 golf cart, cash)
+  - One commenter, a resident of 8 years, prefers the **Bonne Bay boat tour** to the pond. Someone who'd just done the pond called it unforgettable. Opinion is split
+  - **New leads** (not checked): **Eastern Point Trail in Trout River**; a lookout on the rocks at **Cow Head** with a view of Bonne Bay and the fjord; driving "the Gulch"; ranger-led hikes at the Tablelands
+  - Ignored: Meta's AI summary at the top of the thread ("most recommend skipping the boat"). It's a machine summary, and it's skewed by the asker's one-day constraint

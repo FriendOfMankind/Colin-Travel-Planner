@@ -51,13 +51,13 @@ booking:
     target: 2027-06-05
     note: Same January launch. Berry Hill opened May 22 in 2026; Trout River's opening wasn't found.
   - system: parksnl
-    what: ParksNL — Pistolet Bay (Jun 1–2), Pinware River (Jun 4), La Manche (Jun 19)
+    what: ParksNL — Pistolet Bay (Jun 1–2), Pinware River (Jun 3–4), La Manche (Jun 19)
     target: 2027-06-01
     note: Whole season opens one spring morning (Apr 22, 7 AM NDT, in 2026). Pinware and Pistolet opened May 29 in 2026, so June 1 has three days of margin; check the 2027 opening dates when they post.
   - system: belle-isle-ferry
-    what: St. Barbe ↔ Blanc-Sablon (Jun 4 over, Jun 5 back)
-    target: 2027-06-04
-    note: Reservations reportedly open in April (unverified). Labrador Marine 1-866-535-2567.
+    what: St. Barbe ↔ Blanc-Sablon (Thu Jun 3, 3:30 PM over · Sat Jun 5, 10:30 AM back)
+    target: 2027-06-03
+    note: Times from the 2024 spring schedule, all in Newfoundland Time; confirm against 2027. Regular vehicles can book full-fare reservations; check in 1 h early. Reservations reportedly open in April (unverified). Labrador Marine 1-866-535-2567.
   - system: marine-atlantic
     what: Argentia → North Sydney, overnight (Jun 21) + cabin decision
     target: 2027-06-21
@@ -385,7 +385,7 @@ overnight:
   cost: ⚠️ fee not found, ~$30 est.
   checkin: TBD
   confirmation: TBD
-  notes: Tent sites, showers, laundromat, kitchen (NL tourism listing). Across from the ferry. Night 1 of 2 here (again on Jun 3).
+  notes: Tent sites, showers, laundromat, kitchen (NL tourism listing). Across from the ferry. The only St. Barbe night (was two, until the Thursday crossing, 2026-10-08).
 ```
 
 **Schedule**
@@ -442,7 +442,7 @@ date: 2027-06-02
 tagline: An abandoned outport on the iceberg coast, and maybe the boat out to the bergs.
 type: activity
 driving: ~1h 30m total
-slack: Loose. The boat goes today or tomorrow, whichever IcebergFinder likes.
+slack: Loose. The boat goes today at 4 or tomorrow at 9.30, whichever IcebergFinder likes.
 overnight:
   name: Pistolet Bay Provincial Park
   place: Near St. Anthony, NL
@@ -450,15 +450,16 @@ overnight:
   cost: $20.15 CAD
   checkin: n/a — night 2 of 2
   confirmation: TBD
-  notes: ""
+  notes: Pack most of the car tonight; tomorrow ends on a ferry.
 ```
 
 **Schedule**
 - 8:00 → 9:00 · wake · Check IcebergFinder
 - 9:00 → 9:32 (32m) · drive · → Gunner's Cove · 📍 Gunners Cove Newfoundland
 - 9:35 → 1:05 (3h 30m) · hike · **Gunner's Cove → Fortune** and back, ~6.2 mi (my arithmetic from 5 km each way); ~2 h 45 m walking is an estimate, plus time at the ruins. **Don't enter the standing house**
-- afternoon · boat · OPTIONAL: **Northland Discovery, the 4 PM sailing** ($89 CAD, 2025 rate) if the bergs are in today. Otherwise tomorrow · 📍 Northland Discovery Boat Tours St. Anthony
-- 4:00 · shop · Small resupply in St. Anthony. Store not checked
+- 4:00 → 6:30 · boat · OPTIONAL: **Northland Discovery, the 4 PM sailing** ($89 CAD, 2025 rate) if the bergs are in today. Otherwise tomorrow at 9:30 · 📍 Northland Discovery Boat Tours St. Anthony
+- OPTIONAL · hike · If there's no boat today: **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m), 33 m from camp. With Fortune that's 9.8 mi, right at the ceiling · 📍 Great Brehat Newfoundland
+- evening · shop · Small resupply in St. Anthony. Store not checked
 
 **Meals**
 - B: made at camp
@@ -469,45 +470,14 @@ overnight:
 
 Fortune is a resettled outport: one house still standing, others collapsed. Unsound buildings, solo, no signal. Look, don't enter. High cliffs and cold water on the trail.
 
-### Day 12 — 2027-06-03 · Little Brehat, the icebergs, back to the ferry
+### Day 12 — 2027-06-03 · The bergs, then over to Labrador
 
 ```yaml
 date: 2027-06-03
-tagline: Another abandoned outport, a boat out to the bergs, then down to the dock for the morning ferry.
-type: activity + travel
-driving: ~2h 30m total
-slack: Moderate. First cut — Little Brehat.
-overnight:
-  name: St. Barbe RV Park
-  place: St. Barbe, NL
-  kind: Private campground
-  cost: ⚠️ fee not found, ~$30 est.
-  checkin: TBD
-  confirmation: TBD
-  notes: Night 2 of 2 here. Sleeping by the dock makes the 9.30 AM check-in easy (was the 8.15 sailing, which the spring schedule does not have; see Day 13).
-```
-
-**Schedule**
-- 7:30 → 9:00 · wake · Break camp; check IcebergFinder
-- 9:00 → 9:33 (33m) · drive · → Great Brehat · 📍 Great Brehat Newfoundland
-- 9:35 → 11:30 · hike · **Little Brehat**, 3.6 mi / 364 ft (AllTrails 1 h 24 m) + a sit
-- 11:30 → 12:30 · food · Lunch in St. Anthony
-- 1:00 → 3:30 · boat · **Northland Discovery, the 1 PM sailing** if yesterday's didn't happen. If no bergs, a partial out-and-back on the Cape St. Anthony Trail · 📍 Northland Discovery Boat Tours St. Anthony
-- 3:45 → 5:22 (1h 37m) · drive · St. Anthony → St. Barbe · 📍 St. Barbe RV Park
-
-**Meals**
-- B: made at camp
-- L: bought
-- D: made at camp
-
-### Day 13 — 2027-06-04 · Red Bay, Labrador
-
-```yaml
-date: 2027-06-04
-tagline: Across the strait to a 16th-century Basque whaling station.
+tagline: A morning boat out to the icebergs, then the afternoon ferry across the Strait.
 type: activity + ferry
-driving: 1h 49m
-slack: Loose. First cut — none; this is the day.
+driving: 1h 37m + ~45m
+slack: Tight around the ferry. First cut — the 9.30 boat, if yesterday's ran.
 overnight:
   name: Pinware River Provincial Park
   place: Labrador Straits, NL
@@ -515,30 +485,67 @@ overnight:
   cost: $20.15 CAD
   checkin: TBD
   confirmation: TBD
-  notes: Opened May 29 in 2026.
+  notes: Opened May 30 in 2025 and May 29 in 2026. Night 1 of 2.
 ```
 
 **Schedule**
-- 9:30 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
-- 10:30 → 12:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. The spring schedule (May 1 – Jun 18) leaves St. Barbe at 10:30 AM and 3:30 PM Monday to Thursday and on Fridays, **and all times are Newfoundland Time** *(source: Labrador Marine schedule PDF, updated May 16 2024, read 2026-10-08; 2027 not posted)*. *(was: 8:15 → 10:00, from a TripAdvisor example that doesn't match the spring schedule.)* **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
-- 12:15 → 1:32 (1h 17m) · drive · → Red Bay. Eat a packed lunch in the car · 📍 Red Bay National Historic Site
-- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2). With the 10:30 ferry, **2 PM is the only slot you can reach, so it's one shot**. The crossing is weather-dependent; if the morning is calm, ask about going earlier. ⚠️ NL tourism says the island opens "early June", so on June 4 confirm it's running
-- 4:00 → 5:00 · ruins · Interpretation centre, open from June 1 to 5 PM in 2026 (parks.canada.ca, snippet)
-- 5:15 → 6:15 · food · **Whaler's Restaurant**: fish and chips. Evening hours not checked
-- 6:30 → 7:02 (32m) · drive · → Pinware River PP · 📍 Pinware River Provincial Park
+- 7:30 → 9:00 · wake · Break camp; check IcebergFinder
+- 9:30 → 12:00 · boat · **Northland Discovery, the 9:30 sailing**, if yesterday's didn't happen. If no bergs, a slow morning on the Cape St. Anthony Trail · 📍 Northland Discovery Boat Tours St. Anthony
+- 12:15 → 1:52 (1h 37m) · drive! · St. Anthony → St. Barbe. Packed lunch in the car. **Check-in closes 2:30**; leave the boat dock by 12:15 · 📍 St. Barbe Ferry Terminal
+- 2:30 · stop · Check in, 1 h early
+- 3:30 → 5:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. Thursday's afternoon sailing in the spring schedule *(Labrador Marine PDF, 2024; 2027 not posted)*. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
+- 5:15 → ~6:00 (~45m) · drive · → Pinware River PP. Derived from the Blanc-Sablon → Red Bay and Pinware → Red Bay legs, not routed directly · 📍 Pinware River Provincial Park
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+The Thursday crossing *(decided 2026-10-08, option 1A)* turns Labrador into a full day: three chances at Saddle Island instead of one, and Point Amour during opening hours. It cost Little Brehat, now an optional add-on on Day 11.
+
+### Day 13 — 2027-06-04 · Red Bay, Labrador
+
+```yaml
+date: 2027-06-04
+tagline: A whole day at a 16th-century Basque whaling station, then the tallest lighthouse in Atlantic Canada.
+type: activity
+driving: ~2h 15m in legs
+slack: Loose. First cut — Point Amour.
+overnight:
+  name: Pinware River Provincial Park
+  place: Labrador Straits, NL
+  kind: Provincial park (ParksNL)
+  cost: $20.15 CAD
+  checkin: n/a — night 2 of 2
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 8:00 → 9:15 · wake · Slow morning
+- 9:25 → 9:57 (32m) · drive · → Red Bay · 📍 Red Bay National Historic Site
+- 10:00 → 12:00 · ruins · **Saddle Island** guided tour, the 10 AM slot. The crossing only runs when the water is calm; if it's rough, 11 and 2 are the fallbacks. ⚠️ NL tourism says the island opens "early June", so call Red Bay (709-920-2142) in late May to confirm it's running
+- 12:00 → 1:00 · food · **Whaler's Restaurant**: fish and chips, and bakeapple if it's served cooked (`me/food.md`)
+- 1:00 → 2:30 · ruins · Interpretation centre and the whale exhibit. Open from June 1 in 2026 (parks.canada.ca, snippet)
+- 2:30 → 3:30 · hike · **Tracey Hill**: 689 steps up for the view over the harbour *(YouTube, 2024)*. Distance not measured
+- 3:30 → ~4:40 (~1h 07m) · drive · → Point Amour. Derived from the Red Bay → Pinware and Pinware → Point Amour legs · 📍 Point Amour Lighthouse
+- 4:40 → 5:40 · stop · **Point Amour lighthouse**: 132 steps to the top, the tallest in Atlantic Canada. Hours not checked
+- 5:45 → 6:20 (35m) · drive · → Pinware River PP
 
 **Meals**
 - B: made at camp
 - L: bought (Whaler's)
 - D: made at camp
 
-### Day 14 — 2027-06-05 · Point Amour, back across, and down to Gros Morne
+### Day 14 — 2027-06-05 · Back across, and down to Gros Morne
 
 ```yaml
 date: 2027-06-05
-tagline: A lighthouse on the Labrador coast, the ferry, a Paleo-Inuit site and sea arches on the way south.
+tagline: The only Saturday ferry, then a Paleo-Inuit site and sea arches on the way south.
 type: travel + activity
-driving: ~4h 30m in legs + ferry, partly not routed
+driving: ~3h 50m in legs + ferry, partly not routed
 slack: Moderate once the 10:30 sailing is made. It's the only Saturday sailing, so missing it costs a whole day, and Day 18's rest day absorbs that.
 overnight:
   name: Berry Hill Campground
@@ -551,9 +558,8 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 8:05 (35m) · drive · → Point Amour lighthouse · 📍 Point Amour Lighthouse
-- 8:05 → 8:45 · stop · The lighthouse from outside and the coast. The tower climb (132 steps) probably isn't open this early; hours not checked
-- 9:30 · stop · Check in at Blanc-Sablon, 1 h early (Newfoundland Time)
+- 8:30 → ~9:15 (~45m) · drive · Pinware → Blanc-Sablon. Derived, not routed · 📍 Blanc-Sablon Ferry Terminal
+- 9:30 · stop · Check in, 1 h early (Newfoundland Time; your phone may say Québec time here)
 - 10:30 → 12:15 (1h 45m) · ferry · Blanc-Sablon → St. Barbe. **Saturday's only spring sailing from Blanc-Sablon** *(Labrador Marine 2024 PDF)*. Miss it and the next one is Sunday at 10:30
 - (~1h) · drive · St. Barbe → Port au Choix. Not routed; estimated from the two routed legs out of Port aux Basques · 📍 Port au Choix National Historic Site
 - 2h · ruins · **Port au Choix**, open daily 9–5 from June 1 in 2026 (parks.canada.ca, snippet). Phillip's Garden, a Dorset site over open barrens, is recalled, not checked
@@ -1123,8 +1129,8 @@ total: Not totalled; the hotel week isn't priced
 | 9 | Mon 5/31 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
 | 10 | Tue 6/1 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
 | 11 | Wed 6/2 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
-| 12 | Thu 6/3 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
-| 13 | Fri 6/4 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Mid-April |
+| 12 | Thu 6/3 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Mid-April |
+| 13 | Fri 6/4 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Same booking |
 | 14 | Sat 6/5 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | January launch |
 | 15 | Sun 6/6 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Same booking |
 | 16 | Mon 6/7 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
@@ -1159,7 +1165,8 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 | Skyline Trail loop | 7 | 6 mi | 629 ft | Moderate | — | Or 4.2 mi / 515 ft out-and-back |
 | Cobbler Loop | 10 | 2.7 mi | 141 ft | Easy | 55m | 4.9★, from Quirpon |
 | Gunner's Cove → Fortune | 11 | ~6.2 mi | — | — | ~2h 45m est. | Abandoned outport; my arithmetic |
-| Little Brehat | 12 | 3.6 mi | 364 ft | Easy | 1h 24m | Abandoned outport |
+| Little Brehat (optional) | 11 | 3.6 mi | 364 ft | Easy | 1h 24m | Abandoned outport. Only if there's no boat that day *(cut from Day 12, 2026-10-08)* |
+| Tracey Hill | 13 | not measured | 689 steps | — | — | Red Bay view *(YouTube, 2024)* |
 | Western Brook Pond | 15 | 3.3 mi | 180 ft | Easy | 1h 07m | Boat needs 15 riders |
 | Lookout Trail via Woody Point | 16 | 6.3 mi | 1,581 ft | Moderate | 3h 28m | Over Bonne Bay |
 | Green Gardens | 17 | 6.6 mi | 1,289 ft | Moderate | 3h 15m | Sea stacks, caves |
