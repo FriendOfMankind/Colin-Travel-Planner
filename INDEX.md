@@ -17,6 +17,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - `me/hiking.md`: Distance and gain ceiling, appetite for difficulty, crowds, and the shape of a good day (hike out, sit, hike back).
 - `me/principles.md`: The locked rule set every itinerary is built to. Breaking one needs a written reason.
 - `me/profile.md`: Who, from where, in what car. The facts every plan starts from.
+- `me/research.md`: How Colin wants trips researched. Locals' knowledge first, a research tree per trip, YouTube sweeps, fetch lists for walled sources, and concerns brought with context and a first pass of research done.
 - `me/travel-style.md`: What makes a trip great, where trips go wrong, how detailed a plan should be, how far he'll drive, and the city-trip type.
 - `me/working-rules.md`: How Claude should behave when working with Colin.
 
@@ -33,7 +34,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 6 open questions · 0/58 places located · log 23 entries · updated 2026-10-08
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 6 open questions · 0/58 places located · log 24 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 6–26, 2027 (target, unbooked) · 21 days · 7 open questions · 15/24 places located · log 2 entries · updated 2026-09-06
   ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list…

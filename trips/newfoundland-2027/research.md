@@ -1,0 +1,76 @@
+# Newfoundland 2027: research tree
+
+What's known, what's thin, and what's still a gap, leg by leg. Findings live in `log.md` (dated, with sources); this file is the map. Refreshed by `/research`.
+
+✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
+
+*Last refreshed 2026-10-08.*
+
+## 1. Getting there (Days 1–7)
+- ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
+- ✅ **Acadia: the Beehive**: not on the 2026 peregrine closure list (WABI). Re-check in spring
+- 🟡 **Acadia: carriage-road bike start**: where to park isn't checked
+- ✅ **Fundy campgrounds**: from May 15
+- ⬜ **Hopewell Rocks tide on 5/28**: comes from a tide table later, never typed
+- ✅ **Chéticamp campground**: May 15 – Oct 26 (2026)
+- 🟡 **Skyline Trail**: AllTrails stats only. Videos found but not read (`_56vn4LJd4M`, `SgHvgSw5Pzs`)
+- 🟡 **Celtic Shores rail trail**: snippets only
+
+## 2. Ferries
+- 🟡 **North Sydney → Port aux Basques**: fares ✅. ⬜ 2027 sailing times. Video found, not read (`oaXzEjyw7uU`)
+- ✅ **Strait of Belle Isle**: 2024 spring schedule (Newfoundland Time), crossings get moved at short notice, rough crossings are common
+- 🟡 **Argentia → North Sydney**: 2026 season ✅, onboard experience ✅ (2024 video). ⬜ **2027 sailing days, the pin for the whole end of the trip**
+
+## 3. Northern Peninsula (Days 9–12)
+- ✅ **Route 430**: fuel is sparse, potholes about halfway up
+- 🟡 **Pistolet Bay**: ~30 dry sites, opened May 29–30 in 2025–26. No video or review found. 🔒 conditions in early June
+- ✅ **L'Anse aux Meadows**: opens June 1 (two years running)
+- ✅ **Iceberg variability and where to look**: IcebergFinder, plus 🔒 the "Newfoundland and Labrador Iceberg Reports" Facebook group from mid-May
+- ✅ **Iceberg boats**: Northland, Dark Tickle, Iceberg Alley Boat Tours, Daily Catch Ocean Tours, Linkum Zodiac (Quirpon); the festival list has times
+- 🟡 **Fortune**: one blog plus AllTrails. No video
+- 🟡 **Little Brehat**: AllTrails only (now optional)
+- ✅ **Iceberg Festival**: 2026 schedule read; 2027 ≈ June 4–13 (inferred). The verdict is in `log.md`
+- 🟡 **Black bears**: one 2025 camp encounter. Food in the car
+- ✅ **Cold**: spring 2026 nights near or below freezing, from several sources
+
+## 4. Labrador (Days 12–14)
+- ✅ **Clocks**: Blanc-Sablon is 90 min behind; the ferry and Red Bay run on Newfoundland Time
+- ✅ **Red Bay and Saddle Island**: opens June 1; tours at 10, 11 and 2; the boat ran with 7 people in spring 2026; calm water only
+- 🟡 **Point Amour**: visited by vloggers. ⬜ tower hours
+- ⬜ **Pinware River PP**: nothing beyond opening dates. 🔒
+- 🟡 **Whaler's Restaurant**: two secondhand mentions, hours not checked
+
+## 5. Gros Morne (Days 14–19)
+- 🟡 **Western Brook boat**: season ✅, price ✅, 15-person minimum ✅. ⬜ how often early-June sailings fail (no one in the Facebook thread knew)
+- 🟡 **Plan B: the Trout River Pond boat**: seems to be run by Wild Gros Morne now. ⬜ 2027 season and price
+- ✅ **Tablelands, Green Gardens, Lookout**: stats, spring conditions (snow up top on Lookout in late May)
+- 🟡 **Trout River campground**: ⬜ opening date. Gros Morne campgrounds were full before July in 2025
+- 🟡 **Eastern Point Trail**: recommended twice. ⬜ length
+- ✅ **Port au Choix**: open June 1; Phillip's Garden; caribou at the lighthouse
+
+## 6. Friends' week (Days 19–28)
+- 🟡 **Rental car**: shortage ✅. ⬜ price, one-way fee. Waiting on the headcount
+- ⬜ **Hotels**: Gander, Twillingate, Trinity, St. John's
+- 🟡 **Twillingate icebergs**: none in 2024, plenty on June 5 2025 (Iceberg Quest video). A gamble either way
+- ✅ **Elliston puffins and the Skerwink**: busy, go early; capelin and whales in June–July (2026 video)
+- ⬜ **St. John's, Signal Hill, Cape Spear**: not swept yet
+- ✅ **Witless Bay boats**: Gatherall's runs from May 14
+- ⬜ **La Manche**: searches returned junk. Next: AllTrails, or 🔒 Facebook
+- 🟡 **New lead: St. Vincent's Beach**: whales come within 10–50 m of shore in capelin season (2026 video). It may be on the Day 29 drive. ⬜ routing
+
+## 7. Avalon solo and home (Days 28–33)
+- ✅ **Colony of Avalon**: June–October, five tour times
+- ✅ **Cape St. Mary's**: 1.5 km trail, free, ~70,000 seabirds (2022 video)
+- ⬜ **Night of June 20** near Argentia/Placentia
+- 🟡 **North Sydney arrival**: The Black Spoon for seafood chowder (2024 video). ⬜ arrival time
+
+## 8. Cross-cutting
+- ✅ **Moose**: dusk *and* dawn
+- 🟡 **Cell signal and offline maps**: Rogers dead around St. Barbe. ⬜ carrier check for Colin's plan
+- 🟡 **Blackflies and mosquitoes**: no good source yet. 🔒 Facebook groups
+
+## Fetch list for Colin (🔒)
+1. **Discovering Newfoundland** (Facebook): "Saddle Island", "Point Amour hours", "Pistolet Bay"
+2. **Newfoundland and Labrador Iceberg Reports** (Facebook): join; check daily from mid-May 2027
+3. **Instagram location tags**: *Pistolet Bay Provincial Park*, *Pinware River Provincial Park*. Early-June posts on bugs, cold and how full it is
+4. **Discovering Newfoundland**: "La Manche June", "blackflies June Gros Morne"
