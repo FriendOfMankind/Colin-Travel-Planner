@@ -12,7 +12,7 @@ status: outline
 pinned: true
 start: null
 dates: May 23 – Jun 24, 2027 (target, unbooked)
-window: Late May to late June. ⭐ June is peak here rather than a compromise — icebergs, 17-hour days, no heat. The Argentia ferry (seasonal, from ~June 19) sets the end.
+window: Late May to late June. ⭐ June is peak here rather than a compromise — icebergs, 17-hour days, no heat. The Argentia ferry (seasonal, June 16 – Sept 30 in 2027) sets the end.
 region: Avon OH → Acadia → Fundy → Cape Breton → Newfoundland → Labrador Straits → the Avalon → home
 states: [ OH, NY, ME, NB, NS, NL ]
 country: Canada
@@ -61,7 +61,7 @@ booking:
   - system: marine-atlantic
     what: Argentia → North Sydney, overnight (Jun 21) + cabin decision
     target: 2027-06-21
-    note: The pin that sets the whole end of the trip. Seasonal; 2026 ran June 19 – Oct 3, three sailings a week. Cabins "in high demand".
+    note: Posted for 2027. From Argentia Mon, Thu and Sat at 17.00, June 16 – Sept 30 (marineatlantic.ca schedule, read 2026-10-08). Check in 2 h before. Cabins "in high demand" and book out months ahead.
 updated: 2026-10-08
 map:
   center: [ 47.5, -60 ]
@@ -109,7 +109,7 @@ The Argentia ferry only runs from ~June 19, and icebergs peak late May to early 
 
 ### The pin
 
-The **Argentia sailing day** sets the end of the trip and isn't known until Marine Atlantic posts 2027. The terminal is open Mon and Thu–Sat (2026), so the draft guesses a Monday 6/21 sailing. The Avalon block flexes around it.
+The **Argentia sailing** sets the end of the trip: **Monday June 21, 5:00 PM**, a posted 2027 sailing. Marine Atlantic's schedule runs to Sept 30 2027 and sails from Argentia on Mondays, Thursdays and Saturdays at 17:00, June 16 – Sept 30 *(source: marineatlantic.ca/sailing-information/schedule, read 2026-10-08)*. *(was: "isn't known until Marine Atlantic posts 2027… the draft guesses a Monday 6/21 sailing")* Check in at least 2 h before.
 
 ### The cold
 
@@ -349,7 +349,7 @@ date: 2027-05-30
 tagline: Seven hours on the Gulf of St. Lawrence and you're on the Rock.
 type: travel
 driving: 2h 07m to North Sydney (routed +15%)
-slack: Sailing time TBD.
+slack: Tight in the morning; check-in closes 2 h before sailing.
 overnight:
   name: TBD — J.T. Cheeseman PP or Port aux Basques
   place: Port aux Basques, NL
@@ -361,8 +361,8 @@ overnight:
 ```
 
 **Schedule**
-- morning (2h 07m) · drive · Chéticamp → North Sydney terminal · 📍 Marine Atlantic North Sydney
-- TBD (7h) · ferry · **North Sydney → Port aux Basques.** Sailing time TBD
+- 7:30 → 9:37 (2h 07m) · drive · Chéticamp → North Sydney terminal. **Check in at least 2 h before sailing** *(marineatlantic.ca)* · 📍 Marine Atlantic North Sydney
+- midday (7h) · ferry · **North Sydney → Port aux Basques.** The posted 2026–27 schedule has a midday sailing (11:45 or 12:15) and an overnight one (23:15 or 23:30) every day; the page doesn't label which week-block covers May 30, so confirm in the booking engine *(marineatlantic.ca schedule, read 2026-10-08)*. Arrival early evening *(was: sailing time TBD)*
 - evening · camp · Port aux Basques area · 📍 J.T. Cheeseman Provincial Park
 
 **Meals**
@@ -513,7 +513,7 @@ date: 2027-06-04
 tagline: A whole day at a 16th-century Basque whaling station, then the tallest lighthouse in Atlantic Canada.
 type: activity
 driving: ~2h 15m in legs
-slack: Loose. First cut — Point Amour.
+slack: Tight if Saddle Island slips. First cut — Point Amour, which can't move to Saturday because the tower is closed weekends.
 overnight:
   name: Pinware River Provincial Park
   place: Labrador Straits, NL
@@ -529,11 +529,11 @@ overnight:
 - 9:25 → 9:57 (32m) · drive · → Red Bay · 📍 Red Bay National Historic Site
 - 10:00 → 12:00 · ruins · **Saddle Island** guided tour, the 10 AM slot. The crossing only runs when the water is calm; if it's rough, 11 and 2 are the fallbacks. ⚠️ NL tourism says the island opens "early June", so call Red Bay (709-920-2142) in late May to confirm it's running
 - 12:00 → 1:00 · food · **Whaler's Restaurant**: fish and chips, and bakeapple if it's served cooked (`me/food.md`)
-- 1:00 → 2:30 · ruins · Interpretation centre and the whale exhibit. Open from June 1 in 2026 (parks.canada.ca, snippet)
-- 2:30 → 3:30 · hike · **Tracey Hill**: 689 steps up for the view over the harbour *(YouTube, 2024)*. Distance not measured
-- 3:30 → ~4:40 (~1h 07m) · drive · → Point Amour. Derived from the Red Bay → Pinware and Pinware → Point Amour legs · 📍 Point Amour Lighthouse
-- 4:40 → 5:40 · stop · **Point Amour lighthouse**: 132 steps to the top, the tallest in Atlantic Canada. Hours not checked
-- 5:45 → 6:20 (35m) · drive · → Pinware River PP
+- 1:00 → 1:50 · ruins · Interpretation centre and the whale exhibit. Open from June 1 in 2026 (parks.canada.ca, snippet)
+- OPTIONAL · hike · **Tracey Hill and Boney Shore**: 3 mi / 501 ft, Easy (AllTrails 1 h 23 m, 4.7★); 689 steps up for the view over the harbour *(YouTube, 2024)*. Only if you skip Point Amour
+- 1:50 → 2:57 (~1h 07m) · drive · → Point Amour. Derived from the Red Bay → Pinware and Pinware → Point Amour legs · 📍 Point Amour Lighthouse
+- 3:00 → 4:30 · stop · **Point Amour lighthouse**: 132 steps to the top, the tallest in Atlantic Canada. **Open 9:30–5:00, closed Saturdays and Sundays** in 2026 *(seethesites.ca, snippet, 2026-10-08)*, so Friday afternoon is the only window *(was: 4:40 → 5:40, after closing)*
+- 4:35 → 5:10 (35m) · drive · → Pinware River PP
 
 **Meals**
 - B: made at camp
@@ -658,7 +658,7 @@ overnight:
 - 9:45 → 9:58 (13m) · drive · → Green Gardens trailhead · 📍 Green Gardens Trail Gros Morne
 - 10:00 → 2:15 (4h 15m) · hike · **Green Gardens**, 6.6 mi / 1,289 ft out-and-back (AllTrails 3 h 15 m + 1 h on the sea meadow)
 - 2:15 → 2:30 (13m) · drive · → camp
-- 9:00 → 9:45 · sunset · Trout River pond and beach, a walk from camp. Sunset 9:26, computed for Trout River. Or the **Eastern Point Trail** above the town: Gulf views and a little blue shelter at the top *(YouTube, Life Is Short DIY, 2026; a Facebook commenter recommends it too)*. Length not checked
+- 9:00 → 9:45 · sunset · Trout River pond and beach, a walk from camp. Sunset 9:26, computed for Trout River. Or the **Eastern Point Trail** above the town: 1.6 mi / 190 ft, Easy (AllTrails 38 m, 4.7★). Gulf views and a little blue shelter at the top *(YouTube, Life Is Short DIY, 2026; a Facebook commenter recommends it too)*
 
 **Meals**
 - B: made at camp
@@ -946,7 +946,7 @@ overnight:
 **Schedule**
 - morning · drive · St. John's → Bay Bulls. Not routed · 📍 Bay Bulls Newfoundland
 - midday · boat · **Witless Bay**: Gatherall's (C$94) or O'Brien's (from $95). Puffins, whales, maybe bergs. Times TBD · 📍 Gatheralls Puffin and Whale Watch Bay Bulls
-- afternoon · ruins · **La Manche village + the suspension bridge**, from the park. La Manche Village Path is 4.4 mi point-to-point; the walk in from the park lot isn't measured · 📍 La Manche Provincial Park
+- afternoon · ruins · **La Manche village + the suspension bridge**, from the park. From the park it's **1.8 mi / 308 ft out and back** to the suspension bridge (AllTrails "La Manche Suspension Bridge", 50 m, 4.6★) *(was: "the walk in from the park lot isn't measured")* · 📍 La Manche Provincial Park
 - evening · drive! · → St. John's. Full moon (99.9%), moose at dusk
 
 **Meals**
@@ -1025,13 +1025,14 @@ overnight:
   place: At sea
   kind: Ferry — cabin or seat
   cost: adult C$60.40 + car C$121.81; two-bed cabin C$176.75 (2026)
-  checkin: TBD
+  checkin: 3.00 PM at the latest (2 h before)
   confirmation: TBD
-  notes: Cabin decided on price once 2027 is posted *(stated 2026-10-04)*. Departure time TBD; 2026 had 11:45, 23:45 and 06:30 departures on the route, direction unclear.
+  notes: Departs 5.00 PM Monday, a posted 2027 sailing (was TBD). Cabin decided on price *(stated 2026-10-04)*. Cabins book out months ahead; a 2024 traveller got one off the waitlist mid-crossing for about $223.
 ```
 
 **Schedule**
-- TBD (16h 30m) · ferry · **Argentia → North Sydney**, if 2027 sails Monday · 📍 Marine Atlantic Argentia Terminal
+- 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
+- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
 
 **Meals**
 - B: made or bought
@@ -1229,7 +1230,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Blackwoods, Acadia (May 24–26) — first release Dec 1, 10 AM ET
 - [ ] Parks Canada launch dates for Fundy, Cape Breton and Gros Morne — posted in January
 - [ ] Marine Atlantic, North Sydney → Port aux Basques (May 30)
-- [ ] Marine Atlantic 2027 Argentia schedule: which days sail *from* Argentia — sets the end date
+- [x] Marine Atlantic 2027 Argentia schedule: posted. Mon, Thu and Sat at 17:00 from Argentia (read 2026-10-08)
 - [ ] Marine Atlantic, Argentia → North Sydney (Jun 21) + cabin
 - [ ] ParksNL season opening (mid-April 2027) — Pinware River, Pistolet Bay, La Manche, J.T. Cheeseman
 - [ ] Strait of Belle Isle ferry both ways, and which clock its schedule uses (1-866-535-2567)
@@ -1248,15 +1249,10 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 **Blocks:** the rental car, the hotel bookings and the open-jaw flights
 **Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. So the plan assumes a rental car. One guest with light bags fits in the Legacy; two or more means a rental, and Newfoundland's summer rentals are "booked for nearly the whole summer" at St. John's (CTV, snippet). Book by ~January. The open-jaw adds a one-way fee, not priced.
 
-### Which days does Argentia sail from in 2027?
-
-**Blocks:** the end of the trip
-Unknown until Marine Atlantic posts 2027. The 2026 terminal hours suggest Mon/Thu/Sat, which is an inference. The Avalon days flex around it.
-
 ### Where's the night of June 20?
 
 **Blocks:** Day 29
-Near Argentia/Placentia, not researched. Depends on the sailing time.
+The sailing is Monday at 5 PM, so June 20 can be anywhere within a couple of hours. **Argentia Sunset RV Park**: 40 serviced sites, washrooms and showers, 2.5 km from the ferry, reservations 709-227-6363 or argentiarvpark@gmail.com *(portofargentia.ca, page read 2026-10-08)*. It's an RV park; whether it takes tents isn't stated. A Hipcamp ("Placentia Paradise") is listed minutes from the ferry *(snippet)*. Locals on Facebook say the provincial parks near Argentia are day-use only *(snippet)*
 
 ### Is La Manche still the June 19 camp?
 
