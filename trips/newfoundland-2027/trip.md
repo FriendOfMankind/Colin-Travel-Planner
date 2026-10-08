@@ -72,7 +72,7 @@ page:
   dates: Sunday, May 23 – Thursday, June 24, 2027
   emoji: 🧊
   theme: ocean
-  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. Trim not recorded. No hitch, as far as Colin knows *(stated 2026-10-08)*, so the bike stays home. Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
+  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. **Layout:** the 2nd row stays home; solo nights are a sleeping pad on storage totes with the 3rd row folded flat, and on the friends' week the three friends ride in the 3rd row (three belts, confirmed) with the luggage where the 2nd row was. Colin has slept in it before, and drove Ohio → Vegas and back with six aboard *(stated 2026-10-08)*. Trim not recorded. No hitch, as far as Colin knows *(stated 2026-10-08)*, so the bike stays home. Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
   gettingThere: "Driving, plus four ferries: Marine Atlantic in (7 h) and out (Argentia, ~16.5 h overnight), and the Strait of Belle Isle there and back. **Passport required** *(owned, stated 2026-10-03; expiry not recorded)*. Declare all food at both borders, and run the cooler down before Calais on the way home."
   footerNote: "Outline, promoted from `wishlist/newfoundland.md` on 2026-10-05; the research behind every line is in `log.md`. Drive times are routed (firecrawl-maps, 2026-10-04/05) +15%. Sun times were computed with Trees `tools/sun.mjs` at regional points, not at trailheads, because no place here has a verified coordinate yet. Every campground opening date is 2026's; 2027's aren't announced."
   stats:
@@ -1275,13 +1275,6 @@ The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 s
 
 **Blocks:** Day 28
 The friends' window replaced the earlier La Manche nights; this one was carried over, not re-decided.
-
-### The van layout: 2nd row out, friends in the 3rd row
-
-**Blocks:** nothing. Settled 2026-10-08; kept here as the record
-**The bed:** sleeping pad on top of storage totes (black with yellow lids), no frame *(stated 2026-10-08; was: a bought platform, considered)*. Colin has slept in the Sienna before, **with the 2nd row out** *(stated 2026-10-08)*. He's 6 ft or taller. With the 2nd row in, owners report about 6 ft of bed *(Facebook, snippet)*, which is too short.
-**The conflict:** the 2nd row can't ride along on the solo weeks, and it was assumed the friends need it.
-**The plan:** leave the 2nd row at home for the whole trip and seat the friends in the **3rd row**, a split bench with three belts *(confirmed by Colin 2026-10-08)*. Driver + front passenger + three in back is five seats for four people; the totes and luggage ride on the floor where the 2nd row was. Comfort isn't a worry: Colin drove Ohio → Las Vegas and back in this van with 5 friends *(stated 2026-10-08)*, and the friends' week legs are short. *(was: a proposal, 2026-10-08.)*
 
 ### Does the sleep system work at 35°F?
 
