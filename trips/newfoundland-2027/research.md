@@ -10,7 +10,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
 - ✅ **Acadia: the Beehive**: not on the 2026 peregrine closure list (WABI). Re-check in spring
 - 🟡 **Acadia: carriage roads**: mud-season closure usually lifts mid-May; no Island Explorer bus until late June. ⬜ where to park
-- 🟡 **Bar Harbor bike rental** (Day 4): Bar Harbor Bicycle Shop and Acadia Bike exist ✅. ⬜ open on May 26? helmets included?
+- 🟡 **Bar Harbor bike rental** (Day 4): prices ✅ (basic bike $41–45/day, helmets included; 2026 pages). ⬜ open on May 26?
 - ✅ **Fundy campgrounds**: from May 15
 - 🟡 **Hopewell Rocks**: open 9–5 only in late May ✅. ⬜ the 2027 tide on 5/28 (from NB Parks' tide table, never typed)
 - ✅ **Chéticamp campground**: May 15 – Oct 26 (2026)

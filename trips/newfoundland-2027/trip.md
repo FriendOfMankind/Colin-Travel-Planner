@@ -243,7 +243,7 @@ overnight:
 
 **Schedule**
 - 7:30 → 9:15 · wake · Slow morning, hot breakfast
-- 9:00 · bike · **Pick up a rental in Bar Harbor** *(decided 2026-10-08)*: Bar Harbor Bicycle Shop ("less than a one mile to the first carriage road") or Acadia Bike, 106 Cottage St (1.7 mi to the carriage roads) *(their sites, snippets, 2026-10-08)*. Whether either is open on May 26 isn't checked, and Facebook says rentals book out in peak season, so reserve. If you ride from the shop, the drive below drops · 📍 Bar Harbor Bicycle Shop
+- 9:00 · bike · **Pick up a rental in Bar Harbor** *(decided 2026-10-08)*: Bar Harbor Bicycle Shop ("less than a one mile to the first carriage road") or Acadia Bike, 106 Cottage St (1.7 mi to the carriage roads) *(their sites, snippets, 2026-10-08)*. **Prices (current site, 2026; 2027 not posted):** Acadia Bike, basic bike $41 full day reserved, $43 walk-in, $36 half day (walk-in only, no reservations), plus Maine sales tax; free helmet; back by 5 PM. Bar Harbor Bicycle Shop, basic Trek Verve $45/day, e-bike $105/day, helmet included *(acadiafun.com/bikesandebikes and barharborbike.com/booknow, pages read 2026-10-08)*. Whether either is open on May 26 isn't checked, and Facebook says rentals book out in peak season, so reserve. If you ride from the shop, the drive below drops · 📍 Bar Harbor Bicycle Shop
 - 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked. The carriage roads close every spring for mud season (from March 12 in 2026) and reopen when they dry, "generally mid-May" *(nps.gov, snippet; Reddit, snippet)*. Check NPS conditions the week before. The Island Explorer bus doesn't start until late June (June 23 in 2026), so drive · 📍 Eagle Lake Bridge Acadia
 - 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). 3 h on a hybrid with stops is an estimate. Short version: 4.1 mi / 308 ft
 - 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's lunch if yesterday skipped the popovers
@@ -1215,7 +1215,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Puffy (need; buying soon)
 - [ ] Bug head net + repellent (need)
 - [ ] Rain pants (need)
-- [ ] Bike gear: none needed this trip (renting in Bar Harbor; whether the shop includes a helmet isn't checked)
+- [ ] Bike gear: none needed this trip (renting in Bar Harbor; both shops include a helmet)
 - [ ] Offline maps: Google regions + AllTrails or Gaia (both need; the island has long no-signal stretches)
 - [ ] Spare, jack, tire plug kit (need)
 - [ ] Sawyer Squeeze, camp chair, big flashlight, long spoon, spatula (need)
