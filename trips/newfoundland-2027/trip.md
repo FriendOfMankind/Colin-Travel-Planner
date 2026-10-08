@@ -484,7 +484,7 @@ overnight:
   cost: ⚠️ fee not found, ~$30 est.
   checkin: TBD
   confirmation: TBD
-  notes: Night 2 of 2 here. Sleeping by the dock is what makes the 8:15 AM sailing possible.
+  notes: Night 2 of 2 here. Sleeping by the dock makes the 9.30 AM check-in easy (was the 8.15 sailing, which the spring schedule does not have; see Day 13).
 ```
 
 **Schedule**
@@ -519,13 +519,13 @@ overnight:
 ```
 
 **Schedule**
-- 7:15 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
-- 8:15 → 10:00 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread says the ferry schedule runs on Eastern. Not verified: confirm which clock each schedule uses
-- 10:00 → 11:17 (1h 17m) · drive · → Red Bay · 📍 Red Bay National Historic Site
-- 11:30 → 12:30 · food · **Whaler's Restaurant**: fish and chips
-- 12:30 → 1:45 · ruins · Interpretation centre. Open from June 1 in 2026 (parks.canada.ca, snippet)
-- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2). The crossing is weather-dependent; if the morning is calm, ask about going earlier. ⚠️ NL tourism says the island opens "early June", so on June 4 confirm it's running
-- 4:15 → 4:47 (32m) · drive · → Pinware River PP · 📍 Pinware River Provincial Park
+- 9:30 · stop · At the St. Barbe terminal **1 h early** · 📍 St. Barbe Ferry Terminal
+- 10:30 → 12:15 (1h 45m) · ferry! · St. Barbe → Blanc-Sablon. The spring schedule (May 1 – Jun 18) leaves St. Barbe at 10:30 AM and 3:30 PM Monday to Thursday and on Fridays, **and all times are Newfoundland Time** *(source: Labrador Marine schedule PDF, updated May 16 2024, read 2026-10-08; 2027 not posted)*. *(was: 8:15 → 10:00, from a TripAdvisor example that doesn't match the spring schedule.)* **Time-zone trap**: Blanc-Sablon is on Atlantic time with no daylight saving *(source: timeanddate.com, snippet, 2026-10-07)*, so in June it's **1 h 30 m** behind Newfoundland time. A vlog says the same. Then **L'Anse au Clair and Red Bay are back on Newfoundland time** *(source: newfoundlandlabrador.com Expedition 51, snippet, 2026-10-07)*. So the clock goes back 1.5 h at the dock and forward again 10 minutes later *(was: "30 min behind", unsourced; changed 2026-10-07)*. One Reddit thread said the ferry runs on Eastern; Labrador Marine's own PDF says Newfoundland Time *(2024)*. Phones may flip to Québec time near Blanc-Sablon, so go by the ferry's clock
+- 12:15 → 1:32 (1h 17m) · drive · → Red Bay. Eat a packed lunch in the car · 📍 Red Bay National Historic Site
+- 2:00 → 4:00 · ruins · **Saddle Island** guided tour, the 2 PM slot (10, 11 or 2). With the 10:30 ferry, **2 PM is the only slot you can reach, so it's one shot**. The crossing is weather-dependent; if the morning is calm, ask about going earlier. ⚠️ NL tourism says the island opens "early June", so on June 4 confirm it's running
+- 4:00 → 5:00 · ruins · Interpretation centre, open from June 1 to 5 PM in 2026 (parks.canada.ca, snippet)
+- 5:15 → 6:15 · food · **Whaler's Restaurant**: fish and chips. Evening hours not checked
+- 6:30 → 7:02 (32m) · drive · → Pinware River PP · 📍 Pinware River Provincial Park
 
 **Meals**
 - B: made at camp
@@ -539,7 +539,7 @@ date: 2027-06-05
 tagline: A lighthouse on the Labrador coast, the ferry, a Paleo-Inuit site and sea arches on the way south.
 type: travel + activity
 driving: ~4h 30m in legs + ferry, partly not routed
-slack: Depends on the return sailing. If it's only the evening one, sleep at St. Barbe again and do Port au Choix and the Arches tomorrow morning; Day 18's rest day absorbs it.
+slack: Moderate once the 10:30 sailing is made. It's the only Saturday sailing, so missing it costs a whole day, and Day 18's rest day absorbs that.
 overnight:
   name: Berry Hill Campground
   place: Gros Morne NP, NL (north side)
@@ -551,9 +551,10 @@ overnight:
 ```
 
 **Schedule**
-- 8:00 → 8:35 (35m) · drive · → Point Amour lighthouse · 📍 Point Amour Lighthouse
-- 8:40 → 10:00 · stop · Lighthouse (132 steps) and the coast
-- late morning (1h 45m) · ferry · Blanc-Sablon → St. Barbe. **Sailing time TBD**; the day needs one before ~1 PM
+- 7:30 → 8:05 (35m) · drive · → Point Amour lighthouse · 📍 Point Amour Lighthouse
+- 8:05 → 8:45 · stop · The lighthouse from outside and the coast. The tower climb (132 steps) probably isn't open this early; hours not checked
+- 9:30 · stop · Check in at Blanc-Sablon, 1 h early (Newfoundland Time)
+- 10:30 → 12:15 (1h 45m) · ferry · Blanc-Sablon → St. Barbe. **Saturday's only spring sailing from Blanc-Sablon** *(Labrador Marine 2024 PDF)*. Miss it and the next one is Sunday at 10:30
 - (~1h) · drive · St. Barbe → Port au Choix. Not routed; estimated from the two routed legs out of Port aux Basques · 📍 Port au Choix National Historic Site
 - 2h · ruins · **Port au Choix**, open daily 9–5 from June 1 in 2026 (parks.canada.ca, snippet). Phillip's Garden, a Dorset site over open barrens, is recalled, not checked
 - (1h 22m) · drive · → The Arches PP · 📍 The Arches Provincial Park
