@@ -4,7 +4,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
-*Last refreshed 2026-10-08 (after /research rounds 1–4, and the Sienna).*
+*Last refreshed 2026-10-10 (friends confirmed; flights into Gander).*
 
 ## 1. Getting there (Days 1–7)
 - ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
@@ -51,7 +51,10 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ## 6. Friends' week (Days 19–28)
 - ✅ **Rental car**: not needed. Colin has a 2019 Sienna for this trip *(2026-10-08)*
+- ✅ **Headcount**: 3 friends, confirmed 2026-10-10
+- 🟡 **Their flights**: Gander has ~1 Toronto nonstop a day (landed ~1:39 PM, fall 2026). ⬜ June 2027 schedule, CLE → YYZ connection times
 - ⬜ **Hotels**: Gander, Twillingate, Trinity, St. John's
+- 🟡 **Group extras**: screech-in, trad sessions (weekend only, as found), Trinity EcoTours, Fogo Island (idea). All in `log.md` 2026-10-10
 - 🟡 **Twillingate icebergs**: none in 2024, plenty on June 5 2025 (Iceberg Quest video). A gamble either way
 - ✅ **Elliston puffins and the Skerwink**: busy, go early; capelin and whales in June–July (2026 video)
 - ✅ **Cape Spear**: grounds open year-round, so sunrise works; dawn wind. ⚠️ **North Head**: a cliff ledge with chains, so do it in daylight (Day 24 updated). ⬜ St. John's walking route, Quidi Vidi
