@@ -57,8 +57,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 - **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-05
   The bike trip, if there's only one
-- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · TBD — Columbia Gorge / Oregon, Idaho (Boise to Stanley) or Reno / Tahoe are the shortlist · fly · keeps (derived) · Aug · 7 days · 3 research notes · updated 2026-10-10
-  Fly in, rent a car, motels, a week of water and edge with friends
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 4 research notes · updated 2026-10-10
+  Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one
 - **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-05
@@ -71,7 +71,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
-- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 1 research note · updated 2026-10-10
+- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 2 research notes · updated 2026-10-10
   The best payoff per dollar, as a week
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 1 research note · updated 2026-10-06
   Family, not a plan
