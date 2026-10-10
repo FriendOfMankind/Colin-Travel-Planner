@@ -479,3 +479,16 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
 - **Fogo still works on June 10 with a 2:45 landing** (inference from the 2024 ferry schedule, not routed): out of the airport ~3:15 → Farewell ~4:15 → in line for the **6:00** direct boat with the **8:30** as backup → Fogo ~6:45 → Brimstone Head for sunset. Day 20: the 7:00 or 10:00 boat back → Twillingate by about noon for the boat. Two ways to fit it:
   - **A · Swap the Gander night for Fogo.** Nothing else moves. Costs: Colin's Day 19 grows from ~5 h on the road to roughly 8 h including the ferry line, and Fogo gets one evening, not a full day
   - **B · Two nights on Fogo.** A full day on the island; Twillingate moves to 6/12; Trinity drops from 3 nights to 2, and the Day 23 rest day is what pays for it
+
+## 2026-10-10 · Escape by the Sea, and what a full Fogo day adds
+- **Colin found Escape by the Sea** (Fogo Island), about $300/night *(stated 2026-10-10)*. ✅ Four cottages, two of them 2-bedroom at **$289/night May 1 – Sept 30** (1-bedroom $239); **27 Burnt Point Road, Seldom**, off the main road between forest and a beach *(escapebythesea.ca home and /cottages, pages read 2026-10-10)*. Currency not stated (presumably CAD). Cancellation policy and minimum stay not seen. Not booked
+  - ⚠️ The booking link Colin sent has `adults=1` and a check-in timestamp of **June 11 00:00 UTC**, which is the evening of June 10 in Newfoundland time. Whether the Wix widget reads it as 6/10 or 6/11 wasn't checked
+- 📋 **Seldom is on the south side, a few minutes from the Stag Harbour ferry**; Stag Harbour → the town of Fogo (Brimstone Head) is ~30 min; Brimstone Head → Tilting ~25 min *(thedailybeast.com 2022; happiestoutdoors.ca 2024)*. The longest drive between communities is ~30 min *(ehcanadatravel.com 2023)*. Not routed
+- 📋 **What a full day adds** over one evening:
+  - **Tilting**: NL's first Registered Heritage District, an Irish fishing village with the Lane House Museum, the Dwyer Premises, the Old Irish Cemetery (said to be the oldest exclusively Irish cemetery in North America) and Sandy Cove Beach; **Turpin's Trail** to the Squish Studio *(newfoundlandlabrador.com; ehcanadatravel.com; traveldudes.com)*
+  - **Joe Batt's Arm**: Joe Batt's Point Trail, 4.6 km return, past the Long Studio to a bronze Great Auk monument; Brett House museum *(newfoundlandlabrador.com; travelblissnow.com 2023)*
+  - **Fogo Head** and **Lion's Den** trails, the Marconi Wireless Interpretation Centre (Fogo), the Marine Interpretation Centre (Seldom) *(newfoundlandlabrador.com)*
+  - **Boats**: Ketanja Boat Tours, 3 h to Little Fogo Islands, mid-May to end of September *(travelblissnow.com 2023)*; Fogo's iceberg season is late April to June *(fogoislandinn.ca)*
+  - **Growlers Ice Cream**, usually opens late May *(fogoislandinn.ca)*
+  - The four Saunders studios are only reachable on foot, 5–15 min from a road, and are closed inside unless the artist invites you *(happiestoutdoors.ca 2024)*
+- **Where a second Fogo night could come from** (reasoning): the friends' week is 9 fixed nights, so extending Colin's trip doesn't add one. It comes out of Trinity (3 → 2, losing the Day 23 rest day), St. John's (4 → 3, losing the loose city day), or the friends adding a 10th night
