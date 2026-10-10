@@ -30,7 +30,7 @@ Horizon: a week with friends keeps in any year on PTO. Its real only-now part is
 
 ## Next
 
-Pick the region (see the shortlist), and get the friends' answers to the questions in the latest note: who's coming, ages (the under-25 rental rules decide the car), and what "edge" means to the group.
+Pick the region from the showdown below (Oregon, Tahoe and Idaho, in the judge's order), then get the friends' buy-in *(was: "Pick the region (see the shortlist)…", 2026-10-10)*.
 
 ## Research notes
 
@@ -76,17 +76,68 @@ Each one has a real raft run, swimming, and spots locals know. All three carry t
 - 📋 Idaho edge options found: Perrine Bridge in Twin Falls is billed as the only US bridge open to BASE jumping year-round, with tandem jumps sold (visitsouthidaho.com); kayak to Shoshone Falls (212 ft); Dierkes Lake cliff jumps (worldtosarah.blog, 2026-07-22). Tandem BASE is above "fun-scary"
 - 📋 Tahoe jump spots: Rooster Rock (D.L. Bliss), Angora Lakes with 10–65 ft ledges, Bonsai Rock (Tahoe Daily Tribune, 2021). Legality not checked
 
-### 2026-10-10 · Showdown round 1: three drafts, NOT fact-checked yet
-- ⚠️ Three competing builder agents drafted routes. The session hit its usage limit before the one-up, fact-check and judge rounds ran, so **every line below is an unverified draft**. The fact-checker still has to audit 59–72 claims per route.
+### 2026-10-10 · The showdown: three routes, fact-checked and judged
+- How it ran: three builder agents drafted blind, each read the other two drafts and revised to beat them, an independent fact-checker audited every claim, the builders fixed what failed, and a judge scored all three. Every price is a 2025–26 figure; **every 2027 price, hour and booking window is TBD**. Full output: `showdown-final.json` in the session scratchpad (not committed; ~210 KB).
+- **Ranking: oregon > tahoe > idaho.** Scores (out of 50): oregon 40, tahoe 39, idaho 38. Every route got a **B** from the fact-checker.
+- The judge, verbatim: I'd book Oregon, but only just, and only if someone owns the South Sister permit release.
 
-**Waterfalls to Volcanoes: The Oregon Send** — Oregon: Columbia River Gorge, Central Oregon (Bend), and the McKenzie River
-- Sun Aug 8 – Mon Aug 16 2027, 8 nights (Hood River 3, Bend 4, Eugene/McKenzie 1). Bases: Hood River, OR ×3, Bend, OR ×4, Eugene/Springfield (or McKenzie Bridge) ×1
-- Signature moments: Choosing, in the boat, whether to run Husum Falls, the roughly 10-ft Class V drop Wildwater calls the tallest commercially rafted waterfall in the US · Holding a steel cable on a cliff ledge, then walking through the tunnel behind 175-ft Tunnel Falls · The 12-ft jump at Pirate's Cove in a desert canyon, between Class IV rapids · Standing on the 10,358-ft South Sister summit, looking at Broken Top, Bachelor and (on a clear day) Jefferson and Hood · Soaking in terraced forest hot springs at dusk on the last night, after a day crossing a lava field where NASA trained astronauts
+#### Hot Water, White Water, Lava Tubes: The Idaho Triple (idaho, score 38/50)
+- Sat Aug 7 - Sun Aug 15 2027, 8 nights: 2 in Lowman, 4 in Stanley, 2 in Twin Falls. For a 7-night version, drop Stanley night 4 (cut the Day 5 Redfish boat day) and fly out Sat Aug 14.
+- Bases: Lowman (South Fork Payette) ×2, Stanley ×4, Twin Falls ×2
+- Fact-check: 24 verified, 37 plausible but unverified, 1 outdated, 3 false, 1 unsupported; all fixed or downgraded in the final
+- Days:
+  - Sat Aug 7 2027 · travel · Land, pick up the minivan, first hot-spring soak on the Payette
+  - Sun Aug 8 2027 · big · South Fork Payette Canyon: 25 Class III/IV rapids and the Big Falls portage
+  - Mon Aug 9 2027 · medium · Over Banner Summit: a gold dredge, a ghost town, a dynamited dam and a river soak
+  - Tue Aug 10 2027 · big · The big hike: Sawtooth Lake (or the Goat Lake scree scramble)
+  - Wed Aug 11 2027 · chill · Your own boat on Redfish Lake: go find the jump rocks, then golden hour under Mt Heyburn
+  - Thu Aug 12 2027 · medium · Class III in your own inflatable kayak on the Salmon, plus Jump Rock
+  - Fri Aug 13 2027 · travel · Galena Summit, an 800-ft lava tube, then golden hour at the BASE-jump bridge
+  - Sat Aug 14 2027 · big · Ride under the BASE jumpers, kayak to Shoshone Falls, Hidden Lakes jumps, private night soak at Banbury
+  - Sun Aug 15 2027 · chill · Blue Heart Springs by kayak, then home
+- Best (judge): It has the best texture of the three: Class IV with the Big Falls portage on the South Fork Payette, Sawtooth Lake, running your own inflatable kayak on the Salmon, the gold dredge and Custer ghost town, an 800-ft lava tube, riding under the Perrine Bridge, and hot water almost every night. Enterprise BOI's minivan rule for under-25s is verified word for word.
+- Weakest (judge): In 2026, smoke advisories ran Aug 4-12 over these exact dates, covering the Lowman base and the Snake River Plain, and the plan admits Idaho has no indoor version of this trip. The headline Redfish jump rocks are 'Unverified, 0 jumpers'. Banbury is mid-renovation. Stanley lodging is a floor price, and Day 7 is 4.5-5 h of driving.
+- Top risk: SMOKE IS THE #1 RISK, AND IT HIT THESE EXACT DATES IN 2026. NWS Boise/Idaho DEQ air quality alerts ran almost continuously Aug 4-12, 2026, 'Unhealthy' at times, covering Ada, Boise County (Lowman) and Valley counties (govonestop.com alerts 08-04 and 08-07; boisedev.com 08-10 📋). The Idaho smoke blog had moderate-to-severe smoke across the Snake River Plain at the same time 📋. My earlier claim…
 
-**Hot Water, White Water, Lava Tubes: The Idaho Triple** — Idaho: Payette River canyons, the Sawtooths/Stanley and the Snake River Canyon at Twin Falls (BOI round trip)
-- Sat Aug 7 - Sat Aug 14 2027, 7 nights (2 Lowman, 3 Stanley, 2 Twin Falls). Bases: Lowman (South Fork Payette) ×2, Stanley ×3, Twin Falls ×2
-- Signature moments: Carrying your raft around 25-foot Big Falls on the South Fork Payette, then running the Class IV rapids below it. · Swimming in Sawtooth Lake under Mount Regan after 4.9 miles of climbing (or topping out the Goat Lake scree). · Each of you alone in an inflatable kayak in Salmon River Class III, then building your own pool at Sunbeam the same week. · Paddling under the 486-ft Perrine Bridge while BASE jumpers land around you, then sitting at the foot of 212-ft Shoshone Falls. · Walking through a lava tube at Craters of the Moon and floating into Blue Heart Springs' 58°F turquoise cove on the last morning.
+#### Waterfalls to Volcanoes: The Oregon Send (oregon, score 40/50)
+- Sun Aug 8 – Mon Aug 16 2027, 8 nights: Hood River 3 (Aug 8-10), Bend 3 (Aug 11-13), Belknap Hot Springs, McKenzie Bridge 2 (Aug 14-15). 7-night version: drop the second Belknap night and fly out Sun Aug 15. You keep the…
+- Bases: Hood River, OR ×3, Bend, OR ×3, Belknap Hot Springs Resort, McKenzie Bridge, OR ×2
+- Fact-check: 29 verified, 7 plausible but unverified, 3 outdated, 0 false, 1 unsupported; all fixed or downgraded in the final
+- Days:
+  - Sun Aug 8 2027 · travel · Land, minivan, a pioneer-cemetery swimming hole and the Rowena Loops at sunset
+  - Mon Aug 9 2027 · medium · Husum Falls, then a glacier-river confluence swim and Lost Lake at golden hour
+  - Tue Aug 10 2027 · big · The big Gorge hike: cables, High Bridge, and the tunnel behind Tunnel Falls
+  - Wed Aug 11 2027 · medium · Desert whitewater, the Pirate's Cove jump, then the Shaniko wool-boom town
+  - Thu Aug 12 2027 · big · South Sister: 10,358 ft, no rope
+  - Fri Aug 13 2027 · medium · Steelhead Falls jumps, then golden hour on top of Misery Ridge
+  - Sat Aug 14 2027 · chill · Float through Bend, cross the lava field where NASA trained astronauts, dusk soak in the guests-only pool
+  - Sun Aug 15 2027 · medium · Row over a 3,000-year-old drowned forest, the blue pool, then a soak through dusk at Terwilliger
+  - Mon Aug 16 2027 · travel · Home
+- Best (judge): Husum Falls on the White Salmon. It's a verified, optional 10-ft Class V raft drop, and Wildwater says August is the one window when it actually runs. The trip also has the Deschutes 12-ft guided jump, the bolted cables and tunnel at Tunnel Falls, and an unroped 10,358-ft summit on South Sister. That's the most real fun-scary moments of the three.
+- Weakest (judge): Two of its four marquee days depend on things nobody can confirm yet. Eagle Creek's 2027 status is unknown because the canyon takes storm damage most years. South Sister needs a $1 permit from a release capped at 150 a day, and the 10-day release lands on the day Colin gets home. Enterprise's minivan rule for under-25s is national policy, not confirmed at the PDX counter.
+- Top risk: SMOKE is the main risk, and it's bigger than the last draft admitted. oregonsmoke.org's August 2026 archive shows DEQ advisories running almost back to back from Aug 14 to Sept 2. They covered Hood River, southern Wasco (Maupin and Shaniko), Jefferson (Steelhead Falls) and Crook counties, with Deschutes (Bend) added Aug 31. Bend hit 'hazardous' in July 2026. 2025 was mild (2 USG days in Bend).…
 
-**Granite & Gold: Yuba to Tioga in Eight Nights** — Reno / Lake Tahoe / Eastern Sierra (Yuba foothills, South Lake Tahoe, June Lake and Tioga Pass), a loop from RNO back to RNO
-- Sat Aug 7 to Sun Aug 15 2027, 8 nights (inside the Aug 6-16 window). Bases: Nevada City, CA ×2, South Lake Tahoe, CA ×3, June Lake, CA ×3
-- Signature moments: Troublemaker on Chili Bar: the run's last and biggest rapid (RiverBrain rates it III to IV), two holes and Gunsight Rock, with five of you paddling hard · Finding the hidden jump rock above Hoyt's Crossing: a hands-on scramble with a wire cable, then a 16-ft leap into dark green Yuba water · Paddling across Emerald Bay to Tahoe's only island and climbing up to Lora Knight's stone tea-house ruins · Standing on the exposed granite ridge of Clouds Rest at 9,930 ft, level with Half Dome · Bodie at 3pm, floating in Mono Lake at sunset, then fish tacos at a gas station, all in one day
+#### Granite & Gold: Tunnel Chute, Two Ghost-Mine Ruins and a Night Soak (tahoe, score 39/50)
+- Sat Aug 7 to Sun Aug 15 2027, 8 nights: 2 in Nevada City (Aug 7-8), 3 in South Lake Tahoe (Aug 9-11), 3 in June Lake (Aug 12-14). For 7 nights (Aug 7-14), drop the Emerald Bay day (Day 5) and the third Tahoe night.
+- Bases: Nevada City, CA ×2, South Lake Tahoe, CA ×3, June Lake, CA ×3
+- Fact-check: 22 verified, 18 plausible but unverified, 2 outdated, 0 false, 1 unsupported; all fixed or downgraded in the final
+- Days:
+  - Sat Aug 7 2027 · travel · Land in Reno, evening swim at Edwards Crossing
+  - Sun Aug 8 2027 · big · Class IV on the Middle Fork American: Tunnel Chute, Kanaka Falls, 18 miles
+  - Mon Aug 9 2027 · medium · Weekday morning at Hoyt's Crossing, over the mountains to Tahoe, sunset on the beach
+  - Tue Aug 10 2027 · medium · Upper Angora jumps, the waterfalls and 1863 resort at Glen Alpine
+  - Wed Aug 11 2027 · medium · Emerald Bay: kayak to Tahoe's only island and the stone tea-house shell, then the Rubicon cliffs
+  - Thu Aug 12 2027 · travel · Over to the desert: Travertine soak, Bodie ghost town, Mono Lake float at sunset
+  - Fri Aug 13 2027 · big · The big one: Clouds Rest, looking down on Half Dome, then a hot-spring soak
+  - Sat Aug 14 2027 · medium · 1870s mine ruins at 10,800 ft, then into a volcano at golden hour
+  - Sun Aug 15 2027 · travel · 395 north to Reno
+- Best (judge): The widest range of the three, and almost none of it needs a permit. Class IV on the Middle Fork American runs on dam-regulated flows. Then come Emerald Bay and the Fannette Island tea house, Bodie, a Mono Lake float at sunset, and Clouds Rest looking down on Half Dome. Enterprise's minivan policy was read and confirmed for the RNO location itself.
+- Weakest (judge): It costs the most and drives the most: 2.5 h and 2+ h transfer days, a 3 h exit, and 4 dirt stretches where Enterprise's damage waiver (CDW) doesn't cover road damage. The Double Eagle cabin keeps your deposit as credit if you cancel inside 30 days, so the 'escape the smoke' plan has a real cost. Two 10,000-ft days back to back, plus a meet time and a Sunday dinner that are still unconfirmed.
+- Top risk: SMOKE (the trip-killer). Tahoe was rated unhealthy in Aug 2024 and hazy from the Garnet Fire in Sep 2025, and Mammoth's town page says smoke impacts happen May-Oct (📋). Check fire.airnow.gov and the HRRR smoke forecast from T-5. The three bases are 150+ miles apart.
+- B1, Tahoe smoky: add the Malakoff Diggins or a second Yuba day and go east a day early. The SLT rooms are refundable.
+- B2,…
+
+#### Across all three
+- **Car**: Enterprise lets 21–24s rent a minivan (the Enterprise BOI and RNO location pages, read by the fact-checker; PDX relies on the national policy, "at most locations"). Young-renter fee $25/day; additional driver $15/day; whether each extra young driver also pays $25/day is TBD. **Avoid Hertz**: its 2026 terms allow only one driver aged 20–24 per contract. On a debit card, Enterprise BOI allows no extra drivers, so pay by credit card. Enterprise's damage waiver excludes damage from unpaved roads
+- **Smoke** decided the ranking more than fun did: in 2026, Idaho advisories ran Aug 4–12 (these exact dates), Oregon's started Aug 14 (just after) and Tahoe had unhealthy days in Aug 2024. That's one season per region, not a pattern
+- Ideas the judge says the winner should steal: From Idaho: the layered smoke plan. Book refundable lodging and changeable fares, check smoke at T-7 and T-1, and use AQI day rules (under 100 as planned;… · From Tahoe: check credit-card or personal rental coverage for unpaved-road damage before the trip, because Enterprise's waiver (CDW) excludes it. Oregon has… · From Tahoe: a no-permit big hike as a real backup. If the South Sister permit fails, Mt Washington or the Broken Top area could stand in for Newberry, so the… · From Idaho: get every driver fee in writing (the young-renter fee per driver and the $15/day additional-driver fee) and pay by credit card. Hold Oregon to the… · From Idaho: Day 4/5-style weather flex. Oregon's Days 5 and 6 can swap, and that swap should be written in as the default storm or smoke move, not only as the… · From Tahoe: book the big guided river trip on a weekday or Sunday to beat crowds and save money, as WET recommends. Check whether Deschutes River Adventures'… · From Idaho: name the first cut for every overloaded day ('if late, X goes, not Y'). Oregon Day 4 (Maupin, Shaniko, Bend) and Day 8 (Clear Lake, Blue Pool,…
