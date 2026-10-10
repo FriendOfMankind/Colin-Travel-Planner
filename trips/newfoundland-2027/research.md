@@ -70,10 +70,10 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Van camping in the Sienna**: 2011–2020 platforms need the 2nd row out ✅ (CarToCamp); liftgate shelters ✅ (Napier). ⬜ the van's own measurements (Colin, tape measure). ✅ Marine Atlantic counts roof boxes toward the 7 ft 6 in height line
 - ✅ **Moose**: dusk *and* dawn
 - 🟡 **Cell signal and offline maps**: Rogers dead around St. Barbe. ⬜ carrier check for Colin's plan
-- 🟡 **Blackflies and mosquitoes**: no good source yet. 🔒 Facebook groups
+- 🟡 **Blackflies and mosquitoes**: locals split by region and year (r/newfoundland, 2018 and 2026 threads). West coast in June "about as bad as I could imagine"; central NL late May and early June can be unbearable in the woods with no wind; Avalon light. ⬜ a recent same-season report from Gros Morne *(refreshed 2026-10-10)*
 
 ## Fetch list for Colin (🔒)
 1. **Discovering Newfoundland** (Facebook): "Saddle Island", "Point Amour hours", "Pistolet Bay"
 2. **Newfoundland and Labrador Iceberg Reports** (Facebook): join; check daily from mid-May 2027
 3. **Instagram location tags**: *Pistolet Bay Provincial Park*, *Pinware River Provincial Park*. Early-June posts on bugs, cold and how full it is
-4. **Discovering Newfoundland**: "La Manche June", "blackflies June Gros Morne"
+4. **Discovering Newfoundland**: "La Manche June" (blackflies now partly answered from Reddit; still worth "blackflies Gros Morne" for a recent report)

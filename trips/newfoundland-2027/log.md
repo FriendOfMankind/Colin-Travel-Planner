@@ -451,3 +451,13 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
 ## 2026-10-10 · Friends' proposal page synced with the plan
 - Updated https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc to match `trip.md` as of today: the Sienna (back bench for three, luggage in the middle, no rental), "4 of us" instead of "up to 4", Colin reaching Gander mid-afternoon from Trout River, the North Head ledge warning, Cape Spear's computed sunrise (5:03) instead of a hand-guessed 3:30 AM leave, the Elliston dawn backup, the Discovery Geopark option, La Manche's 1.8 mi, and an honest hike range (most 1–6 mi, British Harbour 7.7). Costs, the Dec 1 ask and the short St. John's option are unchanged
 - ⚠️ The page still says "3 friends" as planning, not a confirmed headcount
+
+## 2026-10-10 · Bugs, from r/newfoundland (first Reddit read via Apify)
+- 📋 Locals split on early-season bugs, by region and by year *(source: r/newfoundland via Apify, thread "bugs at the end of spring May early June", Feb 2018)*:
+  - "Bugs are almost non existent that early in the year", with snow patches still up high in the backcountry
+  - Central NL: "black flies can be unbearable at times in late May early June", worst in the woods with no wind
+  - West coast in June: "about as bad as I could imagine". Mosquitoes back off by about 11 pm; a small campfire drives off the blackflies. Avalon: "virtually non-existent"
+  - "black flies are only really bad in Labrador"
+- 📋 A 2026 thread: "Juneuary" on the east coast; blackflies "pretty fierce late June early July"; later in summer is better for both weather and bugs *(source: r/newfoundland via Apify, thread "Four Weeks in Newfoundland - Best Time?", Apr 2026)*
+- ⚠️ Read for the plan: Gros Morne and the Northern Peninsula land in late May to early June, right where the west-coast and central reports disagree. Pack a head net and long sleeves; don't count on bug-free. Five strangers is five data points, mostly from 2018
+- ⚠️ Gem leads from the same 2026 thread, one commenter each: **Burgeo** detour off the ferry road ("worth the drive but watch the potholes"); **Terra Nova** as an underrated alternative to Gros Morne; Lark Harbour on the Bay of Islands. Not in the plan; a question for Colin

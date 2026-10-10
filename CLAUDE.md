@@ -75,7 +75,11 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 ## Limits of this environment
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
-- **Social sources, tested 2026-10-07:** YouTube gives the full transcript and description through Firecrawl scrape, but not the comments. Reddit and Instagram show up in search, but only as snippets: Firecrawl refuses to scrape both, and old.reddit.com is blocked. Facebook groups need a login, so assume they're unreachable. For anything you can't read, ask Colin to fetch it (`me/working-rules.md`).
+- **Social sources, re-tested 2026-10-10** (supersedes the 2026-10-07 test; details in `me/research.md`):
+  - **Reddit: readable through the Apify MCP**, full threads with comments, dates and upvotes (`trudax/reddit-scraper-lite`). Plain web search almost never surfaces Reddit, and Firecrawl and old.reddit.com still refuse it, so go straight to Apify.
+  - **YouTube:** Firecrawl scrape gives the transcript and description. Apify (`streamers/youtube-comments-scraper`) gives comments.
+  - **Instagram and Facebook:** untested through Apify. Facebook *private* groups need a login: unreachable, fetch list.
+  - For anything you still can't read, ask Colin to fetch it (`me/working-rules.md`).
 - Coordinates come from Colin, placed in Trees' `mapbench.html`, never from a guess.
 - This session can't delete remote branches. GitHub's "Automatically delete head branches" setting handles merged ones.
 
