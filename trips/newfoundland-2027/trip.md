@@ -32,7 +32,7 @@ tags:
   - bike
   - long haul
   - friends for a week
-next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches in **January**, then ParksNL in **mid-April**. The one thing worth doing now is the friends' headcount, for the hotels and their flights. The car is solved: the Sienna seats everyone *(was: \"two or more guests means a rental car\", until 2026-10-08)*"
+next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches in **January**, then ParksNL in **mid-April**. The friends are confirmed (3, June 10–19), so the live items are their flights (Gander has about one Toronto nonstop a day) and the hotels. The car is solved: the Sienna seats everyone *(was: \"two or more guests means a rental car\", until 2026-10-08; \"the one thing worth doing now is the friends' headcount\", until 2026-10-10)*"
 booking:
   - system: acadia-np
     what: Blackwoods, Acadia (May 24–26)
@@ -88,7 +88,7 @@ page:
 
 # Newfoundland by Road
 
-> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **planning for 3**, not confirmed). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
+> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **3 friends, confirmed 2026-10-10**; was: "planning for 3, not confirmed"). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
 
 ## Overview
 
@@ -101,7 +101,7 @@ May 23 – June 24, 2027 (target)
 
 ### Group
 
-Solo, except June 10–19: **planning for 3 friends** *(stated 2026-10-08; was: "up to 3")* flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05; not committed)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
+Solo, except June 10–19: **3 friends, confirmed** *(stated 2026-10-10: all three can fly out June 10–19; was: "planning for 3, not confirmed", 2026-10-08, and before that "up to 3")*, flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
 
 ### Why this direction
 
@@ -720,7 +720,7 @@ overnight:
 **Schedule**
 - 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor · 📍 Gander NL
 - afternoon · stop · Hotel check-in, a shower, a real bed
-- evening · stop · **Pick up the friends at Gander airport (YQX).** Flight times TBD · 📍 Gander International Airport
+- evening · stop · **Pick up the friends at Gander airport (YQX).** Flight times TBD. ⚠️ If they take the Toronto nonstop, it landed **~1:39 PM** on the fall 2026 schedule, *before* the 2:18 arrival above; June 2027 times aren't published *(kayak.com and eoob.net, search snippets, 2026-10-10)*. Retime the morning once their flight is picked · 📍 Gander International Airport
 
 **Meals**
 - B: made at camp
