@@ -10,7 +10,7 @@ nights: ~6, motels or hotels, hopping
 window: August 2027, between the Glacier trip (home Aug 2) and the Aug 31 start
 region: Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)*
 country: USA
-budget: ~$1,300–1,800 pp before flights, the car's base rate and gas (estimate, 2025–26 unit prices; showdown 2026-10-10)
+budget: ~$1,100–1,450 pp before flights, the car's base rate and gas, beds shared (estimate, 2025–26 prices; was ~$1,300–1,800 with two Tahoe rooms)
 tags: [ friends, fly-in, motels, rafting, swimming holes, hot springs, ghost towns, august, tahoe ]
 updated: 2026-10-10
 source: daydream 2026-10-10 (Colin's brief; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead or my inference)
@@ -30,7 +30,7 @@ Horizon: a week with friends keeps in any year on PTO. Its real only-now part is
 
 ## Next
 
-**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". Next: get the friends' buy-in and the headcount, then turn this into a trip page. The bookings that decide everything are the Middle Fork raft (limited availability), the Enterprise RNO minivan (driver fees in writing) and the Double Eagle cabin (its deposit turns into credit inside 30 days) *(was: "Pick the region from the showdown below…")*
+**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". **Next: get the group committed before building anything out** *(stated 2026-10-10)*. The pitch for them is the proposal doc "Tahoe Boys Trip 2027" (https://claude.ai/code/artifact/75209b9e-8088-4f68-b9de-8c3b04101fd7, private until Colin shares it). Only once they're in does this become a trip page. The bookings that decide everything are the Middle Fork raft (limited availability), the Enterprise RNO minivan (driver fees in writing) and the Double Eagle cabin (its deposit turns into credit inside 30 days) *(was: "Pick the region from the showdown below…")*
 
 ## Research notes
 
@@ -322,3 +322,8 @@ FLIGHTS, CLE-RNO round trip: TBD. Google Flights shows a typical $385-660, with 
 - BLM Travertine 2027 ceremonial closure order: check in July.
 - Flights CLE-RNO: TBD, not priced.
 - No booking needed: Edwards, Hoyt's, Angora, Glen Alpine, Kayak Tahoe (first come first served), Bodie, South Tufa, Gaylor, Panum, Wild Willy's.
+
+### 2026-10-10 · Colin's calls on the chosen route
+- **Not building it out yet.** First make sure the group is in and committed; the proposal doc is the tool for that *(stated 2026-10-10)*
+- **Sharing beds is fine, and so is an air mattress on the floor**; "we are willing to cut corners financially" *(stated 2026-10-10)*. So: one 2-queen room plus an air mattress at South Lake Tahoe instead of two rooms (was: two rooms, $192–317 pp → now ~$95–160 pp), and food at ~$40–60/day (my estimate, was $60–80). The proposal's total is **~$1,100–1,450 pp** before flights, the car's base rate and gas *(was ~$1,300–1,800)*
+- **Keep Clouds Rest**: "that seems like a big challenge and a full day's worth of adventure" *(stated 2026-10-10)*. Gaylor/Great Sierra Mine stays optional the day after
