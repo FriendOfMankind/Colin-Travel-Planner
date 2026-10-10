@@ -227,7 +227,7 @@ Colin: people are interested in joining **for Newfoundland only**: they'd fly in
 - **Decided 2026-10-05:** window **Thu 6/10 → Sat 6/19, Gander in, St. John's out**; **no more than 3 people, flying from Cleveland**, not yet committed; **Colin stays in the hotels with them**; Colin says the car will have room and gear can wait in the hotel *(all stated 2026-10-05)*. The four-adults-in-a-Legacy question stays open until the headcount is known
 - Lodging shape for the guest stretch: Gander (6/10; Colin arrives ~5 PM after the ~9 h drive from Pistolet Bay) → Twillingate (6/11) → Trinity area (6/12–6/14) → St. John's (6/15–6/18, with the Witless Bay and La Manche day trips run from there) → airport 6/19. This replaces the Dildo Run, Lockston Path, Butter Pot and La Manche nights. Colin's 6/19–6/21 (Ferryland, Cape St. Mary's, Argentia) is unchanged
 - 📋 Flights from Cleveland (search snippets, 2026-10-05; current fares, not June 2027): **CLE → Gander, one-way from ~$521**, no direct flights (Google Flights); **St. John's → CLE, one-way from ~$295–436** (Skyscanner, Expedia). Expect a connection through Toronto or Halifax
-- A shareable summary page for the friends was published as a separate artifact (2026-10-05)
+- A shareable summary page for the friends was published as a separate artifact (2026-10-05): https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc *(URL added 2026-10-10)*
 
 ## 2026-10-05 · Promoted from the wishlist
 
@@ -447,3 +447,7 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
 - ✅ Acadia Bike (106 Cottage St): basic rental $41 full day reserved, $43 walk-in, $36 half day (walk-in only); multi-day $36/day, weekly $180; Maine sales tax added; "Free helmets are included"; "All rentals must be returned by 5 p.m." *(acadiafun.com/bikesandebikes, page read 2026-10-08)*
 - ✅ Bar Harbor Bicycle Shop: basic Trek Verve 3 $45/day, e-bike $105/day, gravel $80/day; basic and e-bikes "come with a Helmet and Platform (flat) Pedals" *(barharborbike.com/booknow, page read 2026-10-08)*
 - ⬜ Neither page gives a season opening date, so whether they're open on Wed May 26 isn't known
+
+## 2026-10-10 · Friends' proposal page synced with the plan
+- Updated https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc to match `trip.md` as of today: the Sienna (back bench for three, luggage in the middle, no rental), "4 of us" instead of "up to 4", Colin reaching Gander mid-afternoon from Trout River, the North Head ledge warning, Cape Spear's computed sunrise (5:03) instead of a hand-guessed 3:30 AM leave, the Elliston dawn backup, the Discovery Geopark option, La Manche's 1.8 mi, and an honest hike range (most 1–6 mi, British Harbour 7.7). Costs, the Dec 1 ask and the short St. John's option are unchanged
+- ⚠️ The page still says "3 friends" as planning, not a confirmed headcount
