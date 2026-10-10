@@ -13,7 +13,7 @@ country: USA
 coords: [ 37.36, -118.55 ]
 budget: Cheap flights (Reno), cheap car
 tags: [ car camping, alpine, paved trailheads, fly-in ]
-updated: 2026-09-30
+updated: 2026-10-10
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -40,3 +40,8 @@ Aim August 2027, after the road trips. Check Four Jeffrey's reservable/first-com
 ## Research notes
 
 Dated entries, newest last. What was found while daydreaming, with a source on every fact. `/daydream` writes here.
+
+### 2026-10-10 · The August slot, and Four Jeffrey
+- Context: Colin asked what fills summer 2027 after Newfoundland. This is still the "probable August week" *(stated 2026-09-30)*; the Glacier trip ends Jul 26 and work starts Aug 31.
+- 📋 **Four Jeffrey**: 106 sites, "both reservation and first come, first served campsites", $34/night plus $10 per extra vehicle, 8,100 ft, flush toilets, water, bear boxes (fs.usda.gov Inyo page, snippet, 2026-10-10). The exact split isn't stated. Reservable sites are on recreation.gov, so the 6-month window applies to those *(answers half of this file's Next)*
+- ⚠️ **A Reno hub covers more than the Sierra.** Lassen (`wishlist/lassen.md`) is roughly 2.5–3 h from Reno and Bishop roughly 3.5 h *(my estimate, not routed)*. An 8–10 day version could do 2–3 nights at Lassen and 5–6 in the Sierra on one flight and one rental. That's the pairing `lassen.md` already suggests. Not priced
