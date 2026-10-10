@@ -920,6 +920,7 @@ overnight:
 
 **Schedule**
 - 10:00 → 3:00 · walk · Quidi Vidi → the harbour → Water St / Duckworth → Jellybean Row. Route not built; the AllTrails Signal Hill–North Head + Quidi Vidi loop (5.4 mi, 2 h 08 m) is a ready-made version · 📍 Quidi Vidi Village
+- OPTIONAL 3:00 → 4:00 · stop · **Screech-in**: a shot of Screech rum, a recitation and kissing a frozen cod. Christian's Pub on George St is the one everyone names; Spirit of Newfoundland (208 Gower St) runs one at 3 PM by booking, $25 + HST *(spiritofnewfoundland.com, search snippet, 2026-10-10)*. Colin's in *(stated 2026-10-10)* · 📍 Christian's Pub St. John's
 - evening · stop · **Full-moon rise from Signal Hill** (98%). Moonrise not computed; the tool gives moonset only
 
 **Meals**
