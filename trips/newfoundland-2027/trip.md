@@ -706,7 +706,7 @@ date: 2027-06-10
 tagline: The Trans-Canada, the airport, an unbookable ferry, and sunset on one of the four corners of the flat earth.
 type: travel
 driving: 4h 48m (Trout River → Gander airport, routed +15%) + ~1h (Gander → Farewell, not routed) + the ferry
-slack: Thin. The 8:30 PM boat is the only backup for the 6:00.
+slack: Thin but covered. Three or four evening boats, a morning check of 511NL, and a written Plan B (below).
 overnight:
   name: Escape by the Sea (2-bedroom cottage)
   place: 27 Burnt Point Road, Seldom, Fogo Island, NL
@@ -721,7 +721,9 @@ overnight:
 - 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor. Fill the tank before Fogo · 📍 Gander NL
 - 2:45 → 3:15 · stop · **Pick up the friends at Gander airport (YQX).** The flights land **~2:45 PM** on every date Colin checked, after a night in Toronto *(stated 2026-10-10; was: "~1:39 PM on the fall 2026 schedule")*, so the 2:18 arrival leaves ~25 min of margin. Not booked · 📍 Gander International Airport
 - 3:15 → ~4:15 (~1h) · drive · Gander → **Farewell ferry terminal**, Route 330 then Route 335. ~1 h per fogoislandinn.ca; not routed · 📍 Farewell Ferry Terminal
-- ~4:15 → 6:00 · ferry! · **Get in line for the 6:00 PM direct boat** (MV Veteran, 45 min). **It can't be reserved**, and summer lines can mean waiting out a sailing; locals say an hour early. Backup: **8:30 PM** *(2024 two-vessel summer schedule, gov.nl.ca PDF, snippet; 2027's not posted. happiestoutdoors.ca 2024)*. If both are missed, there's no plan B on the Farewell side yet
+- morning · stop · **Check the NL511 app** (or 709-627-3492) before leaving Trout River. The real threat is a boat out of service or weather, not the line, and it's known by morning. If a vessel is down, go straight to Plan B and save the drive
+- ~4:15 → 6:00 · ferry! · **Get in line for the 6:00 PM direct boat** (MV Veteran, 45 min, 64 cars). **It can't be reserved**; locals say arrive an hour early, and ~1 h 45 m is planned. Evening departures from Farewell on the 2026 schedule: **direct 6:00 and 8:30** (unchanged since 2024), plus the second boat via Change Islands (Beaumont Hamel, 1 h 15 m) at **3:45** and two evening runs whose cells are blank in the PDF, so whether they reach Fogo or stop at Change Islands isn't clear. Thursday's reduced-capacity dangerous-goods trips are the morning and 2:30 runs, not the evening ones *(gov.nl.ca FICI two-vessel summer schedule 2026, PDF read in full 2026-10-10; 2027's not posted)*. Ask in line which boat you're queued for
+- if both direct boats leave without you · stop! · **Plan B: Twillingate tonight.** ~1 h from Farewell, and tomorrow's boat is there anyway; Fogo becomes a skipped stop, not a lost day. Book that from the ferry line after the 6:00 goes; mid-week in mid-June, but "book early for June" applies, so have two Twillingate names ready. **This is why the cottage's cancellation terms matter**: ask Escape by the Sea what happens if the ferry strands a guest
 - 6:00 → 6:45 · ferry · Farewell → Stag Harbour, Fogo Island
 - 6:45 → 7:15 · stop · Seldom, a few minutes from the dock: drop bags at the cottage
 - 7:15 → ~7:45 (~30m) · drive · → **Brimstone Head Park**, Fogo (town). ~30 min from Stag Harbour per a 2022 article; not routed · 📍 Brimstone Head Fogo Island
