@@ -720,7 +720,7 @@ overnight:
 **Schedule**
 - 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor · 📍 Gander NL
 - afternoon · stop · Hotel check-in, a shower, a real bed
-- evening · stop · **Pick up the friends at Gander airport (YQX).** Flight times TBD. ⚠️ If they take the Toronto nonstop, it landed **~1:39 PM** on the fall 2026 schedule, *before* the 2:18 arrival above; June 2027 times aren't published *(kayak.com and eoob.net, search snippets, 2026-10-10)*. Retime the morning once their flight is picked · 📍 Gander International Airport
+- evening · stop · **Pick up the friends at Gander airport (YQX).** The flights land **~2:45 PM** on every date Colin checked, after a night in Toronto *(stated 2026-10-10; was: "~1:39 PM on the fall 2026 schedule")*, so the 2:18 arrival above leaves ~25 min of margin. Not booked · 📍 Gander International Airport
 
 **Meals**
 - B: made at camp
