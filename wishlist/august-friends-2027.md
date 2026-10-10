@@ -60,3 +60,18 @@ Each one has a real raft run, swimming, and spots locals know. All three carry t
 - 📋 Hertz rents from age 20, with a young-renter fee of **$25/day** (hertz.com, snippet). Expedia's RNO page warns that **vans and SUVs often have age limits** for under-25s. Five guys plus luggage in a compact won't work. If someone in the group is 25+, they should be the renter (`me/profile.md`: AAA is the usual workaround).
 
 **My pick, so far:** Idaho, for water plus hot springs plus the strongest locals'-spots culture, with the Gorge a close second because of Husum Falls. Not priced, and the smoke risk isn't checked.
+
+### 2026-10-10 · The group's answers (the brief the route-builders got)
+- Group: Colin plus **probably 3–4 friends**, all **21+ and under 25** in August 2027; one rental car, cost split *(stated 2026-10-10)*
+- **Early August (~Aug 7–15)**, 6–8 nights, so ~5 days home after Glacier *(stated 2026-10-10)*
+- Flights: everyone from CLE; **open-jaw is fine** *(stated 2026-10-10)*
+- Edge: **"fun-scary, not scary"** *(stated 2026-10-10)*
+- Budget: "No set limit, just high value… if we set a budget of 1500, we're not gonna try to book the most expensive hotel just to get to the 1500 mark" *(stated 2026-10-10)*
+- Pace: **2–3 bases**. Day shape varies; a busy day gets followed by something more relaxed, "a little bit more wiggle room for most days" *(stated 2026-10-10)*
+- Hiking: at least one "decently long hiking adventure", more if worth it, plus "shorter hikes to scenic spots or hidden gem stuff" *(stated 2026-10-10)*
+- Evenings: dinner together most nights; a sunset spot or a night hot spring when one's good; a chill motel night is fine *(stated 2026-10-10)*
+- Region-specific calls (Twin Falls, how far Oregon and Tahoe roam): "let the agent decide" *(stated 2026-10-10)*
+- 📋 **Crater Lake swimming is out for 2027**: Cleetwood Cove trail, the only lake access, is closed for the 2026–2028 summers (discoverklamath.com; travel oregon, snippets, 2026-10-10)
+- 📋 **Smoke**: southwestern Idaho was under air quality advisories Aug 3–7 2026 (idahonews.com, boisedev.com); Oregon had late-Aug/early-Sept 2025 smoke from the Emigrant Fire (Oregon DEQ). Every route needs a plan B
+- 📋 Idaho edge options found: Perrine Bridge in Twin Falls is billed as the only US bridge open to BASE jumping year-round, with tandem jumps sold (visitsouthidaho.com); kayak to Shoshone Falls (212 ft); Dierkes Lake cliff jumps (worldtosarah.blog, 2026-07-22). Tandem BASE is above "fun-scary"
+- 📋 Tahoe jump spots: Rooster Rock (D.L. Bliss), Angora Lakes with 10–65 ft ledges, Bonsai Rock (Tahoe Daily Tribune, 2021). Legality not checked
