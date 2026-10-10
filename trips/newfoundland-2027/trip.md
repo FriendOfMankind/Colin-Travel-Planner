@@ -760,7 +760,7 @@ overnight:
 - 8:05 → 9:45 · sunset · **Long Point Lighthouse** trail, 3 mi / 603 ft (~1 h 30 m is an estimate), sunset 9:15 from the cliffs
 
 **Meals**
-- B: hotel or bought
+- B: at the cottage (full kitchen), before the ferry
 - L: bought
 - D: bought
 
