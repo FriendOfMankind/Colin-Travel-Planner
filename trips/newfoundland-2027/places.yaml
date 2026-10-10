@@ -255,11 +255,29 @@ groups:
     verified: false
     lat: null
     lng: null
-- group: Gander, Twillingate, Bonavista, Trinity
+- group: Gander, Fogo Island, Twillingate, Bonavista, Trinity
   places:
   - name: Gander International Airport
     note: Day 19. Friends land.
     maps: Gander International Airport
+    verified: false
+    lat: null
+    lng: null
+  - name: Farewell Ferry Terminal
+    note: Day 19. The Fogo ferry; can't be reserved.
+    maps: Farewell Ferry Terminal
+    verified: false
+    lat: null
+    lng: null
+  - name: Escape by the Sea
+    note: Day 19 overnight. 27 Burnt Point Road, Seldom (escapebythesea.ca).
+    maps: Escape by the Sea Seldom Fogo Island
+    verified: false
+    lat: null
+    lng: null
+  - name: Brimstone Head
+    note: Day 19 sunset.
+    maps: Brimstone Head Fogo Island
     verified: false
     lat: null
     lng: null

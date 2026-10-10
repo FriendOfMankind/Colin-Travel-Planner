@@ -92,7 +92,7 @@ page:
 
 ## Overview
 
-Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Straight up the Viking Trail to the tip of the Northern Peninsula (L'Anse aux Meadows, two outports, icebergs), across the Strait of Belle Isle for a night in Labrador and Red Bay, then back south through Gros Morne (five nights, north side then south) and across the island to Gander. *(was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)* From Gander it's the friends' week: Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland, the Mistaken Point fossils and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
+Two days to Maine, a two-day Acadia sampler with one bike day, Fundy, Cape Breton's Skyline Trail, then the Marine Atlantic ferry to Port aux Basques. Straight up the Viking Trail to the tip of the Northern Peninsula (L'Anse aux Meadows, two outports, icebergs), across the Strait of Belle Isle for a night in Labrador and Red Bay, then back south through Gros Morne (five nights, north side then south) and across the island to Gander, then a night on Fogo Island. *(was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)* From Gander it's the friends' week: Fogo Island, Twillingate, Bonavista and Trinity, St. John's and the Southern Shore. Ferryland, the Mistaken Point fossils and the gannets at Cape St. Mary's alone, then the overnight Argentia ferry and three days home.
 
 ### Dates
 
@@ -699,42 +699,48 @@ overnight:
 
 Peridotite obducted onto the continent: orange-brown, nearly bare, and the physical evidence that confirmed plate tectonics. The single best geology day on the whole list, now the finale of the solo half instead of the opener.
 
-### Day 19 — 2027-06-10 · Across the island, and the friends land
+### Day 19 — 2027-06-10 · Across the island, the friends land, and Fogo Island
 
 ```yaml
 date: 2027-06-10
-tagline: Four and a half hours on the Trans-Canada, then the airport.
+tagline: The Trans-Canada, the airport, an unbookable ferry, and sunset on one of the four corners of the flat earth.
 type: travel
-driving: 4h 48m (Trout River → Gander airport, routed +15%)
-slack: Comfortable; arrive mid-afternoon.
+driving: 4h 48m (Trout River → Gander airport, routed +15%) + ~1h (Gander → Farewell, not routed) + the ferry
+slack: Thin. The 8:30 PM boat is the only backup for the 6:00.
 overnight:
-  name: TBD — hotel in Gander
-  place: Gander, NL
-  kind: Hotel (friends' week)
-  cost: TBD, split
+  name: Escape by the Sea (2-bedroom cottage)
+  place: 27 Burnt Point Road, Seldom, Fogo Island, NL
+  kind: Cottage (friends' week)
+  cost: $289/night (2-bedroom, May 1 – Sept 30; currency not stated, presumably CAD), split four ways
   checkin: TBD
   confirmation: TBD
-  notes: First of nine hotel nights with the friends (6/10–6/18). Was Dildo Run PP before the friends' window *(changed 2026-10-05)*.
+  notes: "Found by Colin, not booked *(stated 2026-10-10)*. Rate from escapebythesea.ca (read 2026-10-10). Cancellation policy not seen. Book for **4 adults**. First of nine nights with the friends (6/10–6/18). *(was: a TBD hotel in Gander; changed 2026-10-10 to one night on Fogo. Two nights were considered and declined: \"more variety and bang for our buck\")*"
 ```
 
 **Schedule**
-- 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor · 📍 Gander NL
-- afternoon · stop · Hotel check-in, a shower, a real bed
-- evening · stop · **Pick up the friends at Gander airport (YQX).** The flights land **~2:45 PM** on every date Colin checked, after a night in Toronto *(stated 2026-10-10; was: "~1:39 PM on the fall 2026 schedule")*, so the 2:18 arrival above leaves ~25 min of margin. Not booked · 📍 Gander International Airport
+- 9:30 → 2:18 (4h 48m) · drive · Trout River → Gander, with lunch and fuel in Deer Lake or Grand Falls-Windsor. Fill the tank before Fogo · 📍 Gander NL
+- 2:45 → 3:15 · stop · **Pick up the friends at Gander airport (YQX).** The flights land **~2:45 PM** on every date Colin checked, after a night in Toronto *(stated 2026-10-10; was: "~1:39 PM on the fall 2026 schedule")*, so the 2:18 arrival leaves ~25 min of margin. Not booked · 📍 Gander International Airport
+- 3:15 → ~4:15 (~1h) · drive · Gander → **Farewell ferry terminal**, Route 330 then Route 335. ~1 h per fogoislandinn.ca; not routed · 📍 Farewell Ferry Terminal
+- ~4:15 → 6:00 · ferry! · **Get in line for the 6:00 PM direct boat** (MV Veteran, 45 min). **It can't be reserved**, and summer lines can mean waiting out a sailing; locals say an hour early. Backup: **8:30 PM** *(2024 two-vessel summer schedule, gov.nl.ca PDF, snippet; 2027's not posted. happiestoutdoors.ca 2024)*. If both are missed, there's no plan B on the Farewell side yet
+- 6:00 → 6:45 · ferry · Farewell → Stag Harbour, Fogo Island
+- 6:45 → 7:15 · stop · Seldom, a few minutes from the dock: drop bags at the cottage
+- 7:15 → ~7:45 (~30m) · drive · → **Brimstone Head Park**, Fogo (town). ~30 min from Stag Harbour per a 2022 article; not routed · 📍 Brimstone Head Fogo Island
+- ~7:45 → 9:30 · sunset · **Brimstone Head**: a short, steep climb with stairs, ~1.2–2 km return, to one of the "four corners of the flat earth" (the Canadian Flat Earth Society's claim, not ours). Sunset **9:12 PM** *(computed, Trees tools/sun.mjs at Tilting's published coordinate as the regional point)*. Dinner before or after, place not chosen
+- 9:30 → ~10:00 · drive! · → Seldom in the dark. Moose hour; slow
 
 **Meals**
 - B: made at camp
 - L: bought
-- D: bought
+- D: bought or cooked at the cottage (full kitchen)
 
-### Day 20 — 2027-06-11 · Twillingate
+### Day 20 — 2027-06-11 · Ferry back, then Twillingate
 
 ```yaml
 date: 2027-06-11
-tagline: The most reliable iceberg grounds in Notre Dame Bay, and a lighthouse sunset.
+tagline: A morning boat off Fogo, then the most reliable iceberg grounds in Notre Dame Bay, and a lighthouse sunset.
 type: activity
-driving: 1h 45m (routed +15%) + local
-slack: Loose.
+driving: ~1h (Farewell → Twillingate, not routed) + the ferry + local
+slack: Moderate. The Twillingate boat time decides which ferry to take.
 overnight:
   name: TBD — hotel in Twillingate
   place: Twillingate, NL
@@ -746,7 +752,8 @@ overnight:
 ```
 
 **Schedule**
-- morning (1h 45m) · drive · Gander → Twillingate · 📍 Twillingate NL
+- 7:00 or 10:00 → +45m · ferry · **Fogo → Farewell**, direct boat, from Stag Harbour (minutes from the cottage). Take the 7:00 for a morning iceberg boat, the 10:00 for an afternoon one *(2024 schedule, gov.nl.ca PDF, snippet)*. The ride back is free; the fare is collected one way *(CBC, older page)* · 📍 Fogo Island Ferry Terminal Stag Harbour
+- (~1h) · drive · Farewell → Twillingate. ~1 h per happiestoutdoors.ca; not routed *(was: Gander → Twillingate, 1h 45m routed)* · 📍 Twillingate NL
 - midday · boat · **Twillingate iceberg boat** (~$100+ per a Facebook group). The friends want this one; it's the main iceberg boat if St. Anthony's didn't run. Times TBD · 📍 Twillingate Adventure Tours
 - afternoon · food · **D&T Seafood**: fish cakes
 - 7:30 → 8:02 (32m) · drive · → Long Point · 📍 Long Point Lighthouse Twillingate
@@ -1152,7 +1159,7 @@ total: Not totalled; the hotel week isn't priced
 | 16 | Mon 6/7 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
 | 17 | Tue 6/8 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 18 | Wed 6/9 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
-| 19 | Thu 6/10 | Gander, NL | Hotel | TBD | TBD, split | Friends' week |
+| 19 | Thu 6/10 | Fogo Island, NL | Cottage | Escape by the Sea, Seldom (found, not booked) | $289, split | Friends' week. The ferry can't be reserved |
 | 20 | Fri 6/11 | Twillingate, NL | Hotel | TBD | ~$124 avg, split | Friends' week |
 | 21 | Sat 6/12 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
 | 22 | Sun 6/13 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
@@ -1254,7 +1261,8 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
 - [ ] Argentia Sunset RV Park: tents allowed? (709-227-6363)
 - [ ] Friends: headcount (no rental needed: the Sienna, 2026-10-08)
-- [ ] Hotels for 6/10–6/18 (Gander, Twillingate, Trinity, St. John's)
+- [ ] Fogo cottage for 6/10, 4 adults (Escape by the Sea; check the cancellation policy)
+- [ ] Hotels for 6/11–6/18 (Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
 - [ ] Hopewell Rocks tide table for May 28
 - [ ] Starlink Roam: ~27 days in Canada against the 30-day abroad limit
@@ -1290,7 +1298,7 @@ No place on this trip has a verified coordinate yet. Every stop has a Maps searc
 
 ### Offline regions
 
-Download before leaving: Mount Desert Island; Fundy + Hopewell; Cape Breton (the Cabot Trail is Bell-only for signal); Gros Morne; the Northern Peninsula + Labrador Straits ("Rogers will not work on the Northern Peninsula in the St. Barbe area"); Gander–Twillingate; Bonavista–Trinity; the Avalon.
+Download before leaving: Mount Desert Island; Fundy + Hopewell; Cape Breton (the Cabot Trail is Bell-only for signal); Gros Morne; the Northern Peninsula + Labrador Straits ("Rogers will not work on the Northern Peninsula in the St. Barbe area"); Gander–Fogo–Twillingate; Bonavista–Trinity; the Avalon.
 
 ## Notes
 

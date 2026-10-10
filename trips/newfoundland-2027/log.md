@@ -492,3 +492,7 @@ Pasted by Colin 2026-10-08. All 📋, from Discovering Newfoundland and a Newfou
   - **Growlers Ice Cream**, usually opens late May *(fogoislandinn.ca)*
   - The four Saunders studios are only reachable on foot, 5–15 min from a road, and are closed inside unless the artist invites you *(happiestoutdoors.ca 2024)*
 - **Where a second Fogo night could come from** (reasoning): the friends' week is 9 fixed nights, so extending Colin's trip doesn't add one. It comes out of Trinity (3 → 2, losing the Day 23 rest day), St. John's (4 → 3, losing the loose city day), or the friends adding a 10th night
+
+## 2026-10-10 · Decided: one night on Fogo
+- **One night on Fogo, in place of the Gander night** *(stated 2026-10-10: "let's keep it one night, get more variety and bang for our buck")*. Two nights were declined, so Trinity and St. John's keep their nights. `trip.md` Days 19–20, the lodging table, the checklist and `places.yaml` updated. Escape by the Sea is the pick, found by Colin, not booked
+- Fogo sunset on 6/10 computed at **9:12 PM** (Trees `tools/sun.mjs`, using Tilting's published coordinate 49.704973, -54.061398 from newfoundlandlabrador.com as the regional point; not a place coordinate)
