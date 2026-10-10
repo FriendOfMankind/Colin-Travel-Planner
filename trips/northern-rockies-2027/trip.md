@@ -5,13 +5,13 @@ subtitle: The July road trip — Badlands, Bighorns, Beartooth, and seven nights
 months: [ 7, 8 ]
 mode: drive
 days: 21
-target: 2027-07-06
+target: 2027-07-13
 emoji: 🏔️
 theme: alpine
 status: outline
 pinned: true
 start: null
-dates: Jul 6–26, 2027 (target, unbooked)
+dates: Jul 13 – Aug 2, 2027 (target, unbooked; was Jul 6–26 until 2026-10-10)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
 region: Avon OH → SD → WY → MT → ND → home
 states: [ SD, WY, MT, ND ]
@@ -29,31 +29,31 @@ tags:
   - july
   - long haul
   - reservation race
-next: "Three consecutive hard bookings all open in **mid-January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\" *(was: \"one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves\"; changed 2026-10-10)*"
+next: "Three consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\" *(was: \"one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves\"; changed 2026-10-10)*"
 booking:
   - system: recreation.gov
-    what: Cedar Pass, Badlands (Jul 7–8)
-    target: 2027-07-07
+    what: Cedar Pass, Badlands (Jul 14–15)
+    target: 2027-07-14
   - system: recreation.gov
-    what: Slough Creek, Yellowstone (Jul 15)
-    target: 2027-07-15
+    what: Slough Creek, Yellowstone (Jul 22)
+    target: 2027-07-22
     note: 16 sites, fills within minutes — the tightest booking on the trip. Pebble Creek is closed for 2026 and "likely for the foreseeable future" (nps.gov/yell, snippet, 2026-10-10), so it is not a fallback.
   - system: recreation.gov
-    what: West Tensleep Lake, Bighorn NF (Jul 9–11)
-    target: 2027-07-09
+    what: West Tensleep Lake, Bighorn NF (Jul 16–18)
+    target: 2027-07-16
     note: 10 sites, reservable on recreation.gov, $20/night (fs.usda.gov Bighorn page, snippet, 2026-10-10). One aggregator says first-come only; the Forest Service page wins until checked. Site 9 is tent-only.
   - system: recreation.gov
-    what: Many Glacier, Glacier NP (Jul 16–19)
-    target: 2027-07-16
+    what: Many Glacier, Glacier NP (Jul 23–26)
+    target: 2027-07-23
     note: One of the three Glacier campgrounds that go the day the window opens. All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
   - system: recreation.gov
-    what: Apgar / Avalanche, Glacier NP (Jul 20–22)
-    target: 2027-07-20
+    what: Apgar / Avalanche, Glacier NP (Jul 27–29)
+    target: 2027-07-27
     note: Second competitive Glacier booking — do both halves in the same January sitting.
   - system: recreation.gov
-    what: Cottonwood, Theodore Roosevelt (Jul 23–24)
-    target: 2027-07-23
-    note: Part reservable, part first-come. The easiest booking on the trip.
+    what: Cottonwood, Theodore Roosevelt (Jul 30–31)
+    target: 2027-07-30
+    note: All sites by reservation since May 1 2026, 6-month window (nps.gov/thro, snippet, 2026-10-10). Was "part reservable, part first-come". Probably still the easiest booking on the trip.
 updated: 2026-10-10
 map:
   center: [ 45.5, -106 ]
@@ -61,7 +61,7 @@ map:
 page:
   title: The Long Way to Glacier
   subtitle: Solo · Avon OH → Badlands → Bighorns → Beartooth → Glacier → home
-  dates: Tuesday, July 6 – Monday, July 26, 2027
+  dates: Tuesday, July 13 – Monday, August 2, 2027
   emoji: 🏔️
   theme: alpine
   vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. *(was: \"Every anchor on this route is reachable on pavement. The one road that is not is Crazy Woman Canyon\", corrected 2026-10-10)* This is a ~4,300 mi trip on your own car: get the service done before, not on the road."
@@ -82,7 +82,7 @@ page:
 
 # The Long Way to Glacier
 
-> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90 and home on I-94, so no road is driven twice: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, with Theodore Roosevelt catching the drive home.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is **20 nights across 9 places to sleep**, still roughly double the longest trip on record. **Days 6 and 17 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the July 26 end no longer protects anything; Eastern Sierra is the probable August week. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, twelve days before this leaves.** Newfoundland goes in the Sienna, so the Legacy starts this trip fresh; the turnaround is about you, not the car *(was: "and the car will have just done ~5,700 mi"; Newfoundland moved to the Sienna 2026-10-08; before that, "nineteen days of turnaround before Kenai on Aug 14")*
+> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90 and home on I-94, so no road is driven twice: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, with Theodore Roosevelt catching the drive home.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is **20 nights across 9 places to sleep**, still roughly double the longest trip on record. **Days 6 and 17 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the end date no longer protects anything, which is why the trip moved a week later on 2026-10-10 *(was: "so the July 26 end no longer protects anything")*; Eastern Sierra is the probable August week. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, nineteen days before this leaves** *(was: twelve, before the 2026-10-10 shift)*. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh; the turnaround is about you, not the car *(was: "and the car will have just done ~5,700 mi"; Newfoundland moved to the Sienna 2026-10-08; before that, "nineteen days of turnaround before Kenai on Aug 14")*
 
 ## Overview
 
@@ -90,7 +90,7 @@ Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, and
 
 ### Dates
 
-July 6–26, 2027
+July 13 – August 2, 2027 *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
 21 days / 20 nights
 
 ### Group
@@ -119,14 +119,14 @@ The profile says 2–5 campgrounds, 5–10 nights. This is **20 nights across 9 
 
 ### Timing vs Newfoundland
 
-**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 6. Twelve days to rest and repack. Newfoundland is in the Sienna, so the Legacy hasn't just done 5,700 mi *(was: "Twelve days to service the car after ~5,700 mi"; corrected 2026-10-10)*. Kenai was the old reason this ends July 26, and it moved to a PTO year on 2026-09-30. *(was: "Timing vs Alaska: Kenai starts Aug 14, nineteen days of turnaround")*
+**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 13. Nineteen days to rest and repack *(was: "this leaves July 6. Twelve days", shifted 2026-10-10)*. Newfoundland is in the Sienna, so the Legacy hasn't just done 5,700 mi *(was: "Twelve days to service the car after ~5,700 mi"; corrected 2026-10-10)*. Kenai was the old reason this ended July 26, and it moved to a PTO year on 2026-09-30. *(was: "Timing vs Alaska: Kenai starts Aug 14, nineteen days of turnaround")*
 
 ## Days
 
-### Day 1 — 2027-07-06 · Get Across Illinois
+### Day 1 — 2027-07-13 · Get Across Illinois
 
 ```yaml
-date: 2027-07-06
+date: 2027-07-13
 tagline: The unglamorous half of a road trip, done on purpose on day one.
 type: travel
 driving: ~600 mi, ~10h 30m (Google +15%)
@@ -158,10 +158,10 @@ Nothing. This day exists so that day two ends at the Badlands.
 
 Chicago. The worst traffic on the route and it is 3 hours in. Time it or lose 90 minutes.
 
-### Day 2 — 2027-07-07 · Into the Wall
+### Day 2 — 2027-07-14 · Into the Wall
 
 ```yaml
-date: 2027-07-07
+date: 2027-07-14
 tagline: Six hundred more miles, then the prairie falls away.
 type: travel + activity
 driving: ~600 mi, ~10h
@@ -180,7 +180,7 @@ overnight:
 - 6:30 AM (10h) · drive · → Badlands NP via I-90 to Exit 131, then the Badlands Loop Road. · 📍 Badlands National Park Cedar Pass
 - 5:00 PM (45m) · stop · Set up at Cedar Pass. Water here — the next reliable fill is Buffalo, Wyoming.
 - 6:15 PM (1h) · hike · **Door Trail and Window Trail.** Both under half a mile, both straight into the wall. The right first hour after two days in a car. · 📍 Door Trail Badlands National Park
-- 8:37 PM · sunset · Sunset. Dark 9:07 PM. Waxing crescent 19%.
+- 8:33 PM · sunset · Sunset. Dark 9:02 PM. Waxing gibbous 86%.
 
 **Meals**
 - B: packed
@@ -195,10 +195,10 @@ Two days of interstate and then a 200-foot escarpment of banded Oligocene mudsto
 
 Badlands heat. July highs run well into the 90s and there is **no shade anywhere in this park**. Everything walked here happens before 9 AM or after 6 PM.
 
-### Day 3 — 2027-07-08 · Notch and Castle at First Light
+### Day 3 — 2027-07-15 · Notch and Castle at First Light
 
 ```yaml
-date: 2027-07-08
+date: 2027-07-15
 tagline: A ladder up a canyon wall, then the long flat one, both before the heat.
 type: activity
 driving: ~40 mi within the park
@@ -214,12 +214,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:08 AM · sunrise · Sunrise. First light 4:38 AM — be at the Notch trailhead for it.
+- 5:14 AM · sunrise · Sunrise. First light 4:44 AM — be at the Notch trailhead for it.
 - 4:50 AM (1h 30m) · hike · **Notch Trail.** ✅ AllTrails: **1.2 mi, 118 ft, Moderate.** Short, and it involves a log ladder up a canyon wall and a ledge traverse to a notch over the White River valley. Rated 4.8 for 1.2 miles, which tells you it is the ladder people come for. · 📍 Notch Trail Badlands National Park
 - 6:45 AM (3h 30m) · hike · **Castle Trail.** The long one — roughly 10 mi out and back across open badlands between the Door/Window lot and Fossil Exhibit. ⚠️ **Distance and gain NOT verified in AllTrails this session.** Flat, and completely exposed. · 📍 Castle Trail Badlands National Park
 - 10:30 AM (1h) · stop · Back to camp. **The rest of the day is heat management, not laziness.**
 - 6:00 PM (1h) · drive! · **Sage Creek Rim Road** for the bison herd and the prairie dog towns at last light. Gravel but graded; turn around if it is not. · 📍 Sage Creek Rim Road Badlands
-- 8:36 PM · sunset · Sunset from the rim. Dark 9:06 PM.
+- 8:32 PM · sunset · Sunset from the rim. Dark 9:02 PM.
 
 **Meals**
 - B: made — pre-dawn
@@ -234,10 +234,10 @@ The Notch ladder is the most fun 1.2 miles on the eastern half of this route. Ca
 
 **Zero shade and no water on either trail.** Castle in the afternoon in July is a genuine heat-injury hike, not an uncomfortable one. **Hard turnaround: off Castle by 10:30 AM regardless of where you are.** Carry more water than feels sensible.
 
-### Day 4 — 2027-07-09 · Straight to Altitude
+### Day 4 — 2027-07-16 · Straight to Altitude
 
 ```yaml
-date: 2027-07-09
+date: 2027-07-16
 tagline: Four hundred and fifty miles from a shadeless badland to a 9,100 ft lake camp.
 type: travel
 driving: ~450 mi, ~8h
@@ -254,12 +254,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:08 AM · sunrise · Sunrise. Break camp before the heat.
+- 5:15 AM · sunrise · Sunrise. Break camp before the heat.
 - 6:00 AM (5h) · drive! · → Rapid City, then west on I-90. **Full resupply in Rapid City** — first of four on this trip. · 📍 Rapid City South Dakota
 - 12:00 PM (3h) · drive · → Buffalo WY, then **US-16 west, the Cloud Peak Skyway**, and the West Tensleep road. Fuel in Buffalo — nothing past it. · 📍 West Tensleep Lake Campground Wyoming
 - 3:30 PM (1h) · stop · Set up at ~9,100 ft. **You slept at 2,500 ft last night.** That is a 6,600 ft jump in one day and it is the largest on the trip.
 - 5:00 PM (45m) · hike · **West Tensleep Falls.** ✅ AllTrails: **1.6 mi, 219 ft, Easy.** A leg-stretch from camp and an altitude test — if this feels harder than 1.6 flat miles should, tomorrow gets cut to Mirror Lake. · 📍 West Tensleep Falls Trailhead
-- 9:04 PM · sunset · Sunset. Dark 9:29 PM. Waxing crescent 39%.
+- 8:59 PM · sunset · Sunset. Dark 9:24 PM. Waxing gibbous 97%.
 
 **Meals**
 - B: made at camp
@@ -274,10 +274,10 @@ A lake camp at 9,100 ft, 7 gravel miles off a paved byway, with the Cloud Peak W
 
 🚨 **2,500 ft to 9,100 ft in one day.** The biggest altitude jump of the trip, and it now happens on day four rather than day seven, because the Black Hills stop that used to break it up was cut. **Tomorrow is 11 miles and 2,000 ft from that camp — if tonight is a bad night, take the Mirror Lake bail-out.** Do not push through a bad altitude night to keep an itinerary.
 
-### Day 5 — 2027-07-10 · Lost Twin Lakes
+### Day 5 — 2027-07-17 · Lost Twin Lakes
 
 ```yaml
-date: 2027-07-10
+date: 2027-07-17
 tagline: Two cirque lakes under a headwall, and the biggest day of the first week.
 type: activity
 driving: None — leaves from camp
@@ -293,11 +293,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:24 AM · sunrise · Sunrise. First light 4:58 AM.
+- 5:30 AM · sunrise · Sunrise. First light 5:05 AM.
 - 5:00 AM (7h) · hike! · **Mirror Lake and Lost Twin Lakes.** ✅ AllTrails: **11.1 mi, 2,076 ft, Hard, out-and-back, ~321 min moving.** ⚠️ **Over the ~10 mi soft ceiling** — by a mile, at altitude, on your second day up here. It is in because the payoff is two lakes in a granite cirque with a wall straight above them, and the gain is comfortably under the 2,500 ft half of the ceiling. · 📍 West Tensleep Trailhead Bighorn National Forest
 - 9:15 AM (1h) · stop · **Sit at Lost Twin.** The turnaround is the destination — an hour under the headwall is what the eleven miles buy.
 - 1:00 PM (rest) · stop · Back at camp. Eat, lie down, do nothing.
-- 9:03 PM · sunset · Sunset. Dark 9:29 PM. First quarter moon.
+- 8:58 PM · sunset · Sunset. Dark 9:23 PM. **Full moon.**
 
 **Meals**
 - B: made — pre-dawn, hot
@@ -312,10 +312,10 @@ Eleven miles into the Cloud Peak Wilderness to a pair of lakes in a granite bowl
 
 **Hard turnaround 10:00 AM.** Bighorn afternoon thunderstorms are reliable in July and the upper basin is open ground above treeline. On the descent by 11 is the plan; at the lakes at 1 PM is how you get caught. **Over the distance ceiling at altitude on day five — the bail-out is Mirror Lake at 5.9 mi / 1,095 ft, which is a complete day on its own.**
 
-### Day 6 — 2027-07-11 · Crazy Woman, Carefully
+### Day 6 — 2027-07-18 · Crazy Woman, Carefully
 
 ```yaml
-date: 2027-07-11
+date: 2027-07-18
 tagline: "The first soft day: a short lake walk and a canyon road that gets looked at before it gets driven."
 type: rest
 driving: ~60 mi if the canyon goes, ~20 if not
@@ -331,11 +331,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:25 AM · sunrise · Sunrise. Sleep past it. First soft day of the trip.
+- 5:31 AM · sunrise · Sunrise. Sleep past it. First soft day of the trip.
 - 8:00 AM (2h) · hike · **Sherd Lake Trail.** ✅ AllTrails: **3.5 mi, 570 ft, Moderate.** Short, and the correct grade the day after eleven miles. · 📍 Sherd Lake Trailhead Bighorn National Forest
 - 12:00 PM (3h) · drive! · 🚨 **Crazy Woman Canyon Road (FSR 33) — decide at the road, not before.** The registry lists this canyon's dispersed sites as the best-reviewed in the range. It is also unpaved, narrow, rocky and shelf-like in places, and this car has **5.9 inches of clearance and a low front air dam**. Drive to the top, look, and turn around without regret if it is not obviously fine. There is no prize for the bottom of that canyon in this car. · 📍 Crazy Woman Canyon Road Wyoming
 - afternoon · stop · If the canyon is out: the Skyway overlooks and Meadowlark Lake fill the afternoon with zero risk.
-- 9:03 PM · sunset · Sunset. Dark 9:28 PM. Waxing gibbous 61%.
+- 8:58 PM · sunset · Sunset. Dark 9:22 PM. **Full moon.**
 
 **Meals**
 - B: made at camp
@@ -350,10 +350,10 @@ The first of the two days held in reserve, in a place where doing nothing is eas
 
 **Crazy Woman Canyon is the single clearance decision on this trip.** This is exactly the failure mode the profile names — a good place behind a road this car should not be on. Look first. The trip does not need it.
 
-### Day 7 — 2027-07-12 · Chief Joseph to the Plateau
+### Day 7 — 2027-07-19 · Chief Joseph to the Plateau
 
 ```yaml
-date: 2027-07-12
+date: 2027-07-19
 tagline: One of the great drives in North America, ending above 9,500 ft.
 type: travel
 driving: ~230 mi, ~5h 30m
@@ -370,12 +370,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:25 AM · sunrise · Sunrise. Break camp.
+- 5:32 AM · sunrise · Sunrise. Break camp.
 - 6:30 AM (3h) · drive! · → Cody WY via Ten Sleep and the Bighorn Basin. **Third resupply — fuel, groceries, block ice.** Nothing between here and Great Falls is a real grocery. · 📍 Cody Wyoming
 - 10:30 AM (2h 30m) · drive · **Chief Joseph Scenic Byway (WY-296) then US-212 west.** Dead Indian Pass, then the switchbacks up onto the plateau. Paved throughout. · 📍 Chief Joseph Scenic Byway Wyoming
 - 1:30 PM (1h) · stop · Set up at Island Lake. ⚠️ **You are at 9,518 ft and it can snow here in July.** Pitch properly, not quickly.
 - 3:00 PM (2h) · stop · Nothing. Walk the lakeshore, look at the plateau.
-- 9:14 PM · sunset · Sunset. Dark 9:40 PM. Waxing gibbous 70%.
+- 9:09 PM · sunset · Sunset. Dark 9:33 PM. **Full moon.**
 
 **Meals**
 - B: made at camp
@@ -390,10 +390,10 @@ US-212 is paved above 9,500 ft, which is the whole argument for this place: ever
 
 **Weather at 9,500 ft in July includes snow.** Not likely, entirely possible. The Siesta 20 and the R-7 pad are correctly specified for this camp and nothing else on the trip. **This is also the highest, most exposed camp and the one furthest from help.**
 
-### Day 8 — 2027-07-13 · The High Lakes
+### Day 8 — 2027-07-20 · The High Lakes
 
 ```yaml
-date: 2027-07-13
+date: 2027-07-20
 tagline: A loop past a dozen lakes on a plateau above the trees.
 type: activity
 driving: ~2 mi
@@ -409,11 +409,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:33 AM · sunrise · Sunrise. First light 5:08 AM.
+- 5:40 AM · sunrise · Sunrise. First light 5:15 AM.
 - 6:00 AM (5h) · hike · **Beauty Lake and Beartooth High Lakes Loop.** ✅ AllTrails: **7.7 mi, 1,161 ft, Moderate, loop, ~205 min.** The trailhead is **half a mile from the campground**. Above treeline almost immediately, past lake after lake. This is the single best expression of the car-camping rule set on the entire route. · 📍 Beartooth High Lakes Trailhead Island Lake
 - 9:00 AM (1h 30m) · stop · **Sit at Beauty Lake.** An hour and a half. Nothing to hurry for.
 - afternoon · stop · Camp. Watching a thunderstorm build from a safe place is the correct plateau afternoon.
-- 9:13 PM · sunset · Sunset. Dark 9:39 PM. Waxing gibbous 79%.
+- 9:08 PM · sunset · Sunset. Dark 9:32 PM. Waning gibbous 96%.
 
 **Meals**
 - B: made — hot, it will be near freezing
@@ -428,10 +428,10 @@ Seven and a half miles across a lake-strewn plateau above 9,500 ft, starting on 
 
 **Above treeline for most of the loop.** Beartooth afternoon storms build fast and there is no cover. **Hard turnaround noon.** Freezing nights at this elevation in July are normal — that is what the bag is for.
 
-### Day 9 — 2027-07-14 · Becker Lake and the Lookout
+### Day 9 — 2027-07-21 · Becker Lake and the Lookout
 
 ```yaml
-date: 2027-07-14
+date: 2027-07-21
 tagline: A longer, flatter walk, and a fire tower over the whole range.
 type: activity
 driving: ~20 mi
@@ -447,11 +447,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:34 AM · sunrise · Sunrise. First light 5:09 AM.
+- 5:41 AM · sunrise · Sunrise. First light 5:16 AM.
 - 6:00 AM (4h) · hike · **Becker Lake via Beartooth High Lakes Trail.** ✅ AllTrails: **8.0 mi, 715 ft, Moderate, ~181 min.** Longer than yesterday and much flatter — the gain is a third of it. A good second day at altitude. · 📍 Beartooth High Lakes Trail Wyoming
 - 1:00 PM (45m) · drive! · → **Clay Butte Lookout.** A fire tower on a spur road with the Beartooths on one side and the Absarokas on the other. ⚠️ The spur is gravel — assess it. · 📍 Clay Butte Lookout Wyoming
 - 2:00 PM (1h 30m) · stop · The lookout. Best single view on the route that costs no walking.
-- 9:13 PM · sunset · Sunset. Dark 9:38 PM. Waxing gibbous 87%.
+- 9:07 PM · sunset · Sunset. Dark 9:31 PM. Waning gibbous 92%.
 
 **Meals**
 - B: made — hot
@@ -466,10 +466,10 @@ Eight nearly-flat miles at 9,500 ft, then a fire lookout you can drive most of t
 
 Same storm pattern. Clay Butte's access road is gravel and its condition is unverified — the lookout is optional and the car is not.
 
-### Day 10 — 2027-07-15 · Down Into Lamar
+### Day 10 — 2027-07-22 · Down Into Lamar
 
 ```yaml
-date: 2027-07-15
+date: 2027-07-22
 tagline: Off the plateau into the best wildlife valley in the lower 48.
 type: travel + activity
 driving: ~70 mi, ~2h
@@ -485,11 +485,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:34 AM · sunrise · Sunrise. Break camp.
+- 5:42 AM · sunrise · Sunrise. Break camp.
 - 7:00 AM (2h) · drive · → Yellowstone NE entrance via Cooke City. **Cooke City is the last fuel for a long way and it is expensive.** Fill anyway. · 📍 Yellowstone Northeast Entrance Cooke City
 - 9:00 AM (1h) · stop · Take the site. If it did not come through, trigger the fallback by 10 AM — do not spend the day hoping.
 - 5:00 PM (3h) · drive! · **Lamar Valley at last light.** Bison, elk, and the wolf packs the valley is famous for. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
-- 9:13 PM · sunset · Sunset. Dark 9:40 PM. Waxing gibbous 93%.
+- 9:07 PM · sunset · Sunset. Dark 9:33 PM. Waning gibbous 86%.
 
 **Meals**
 - B: made at camp
@@ -504,10 +504,10 @@ The Lamar at dusk with the plateau you came off filling the rear-view. Almost no
 
 **Grizzly country, properly, and it starts here.** Bear spray on the person, not in the car. All food and anything scented in the bear box, every time, including toothpaste. **Do not approach anything.** The valley injures someone walking toward a bison for a photograph roughly every other year.
 
-### Day 11 — 2027-07-16 · The Long Push North
+### Day 11 — 2027-07-23 · The Long Push North
 
 ```yaml
-date: 2027-07-16
+date: 2027-07-23
 tagline: Four hundred and thirty miles of Montana, and then seven nights in one park.
 type: travel
 driving: ~430 mi, ~8h
@@ -523,11 +523,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:40 AM · sunrise · Sunrise. Break camp in the dark if it saves an hour.
+- 5:48 AM · sunrise · Sunrise. Break camp in the dark if it saves an hour.
 - 6:00 AM (8h) · drive! · → Many Glacier via Livingston, Great Falls and Browning. **Fourth and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
 - 3:00 PM (1h) · stop · Check in. ✅ **No vehicle reservation.** Entry pass required and the America the Beautiful pass covers it.
 - 5:00 PM (1h) · hike · **Swiftcurrent Nature Trail.** ✅ AllTrails: **2.6 mi, 131 ft, Easy, loop.** A flat lap of Swiftcurrent Lake after eight hours of driving. · 📍 Swiftcurrent Nature Trail Many Glacier
-- 9:40 PM · sunset · Sunset. Dark 10:12 PM. Nearly 17 hours of light up here.
+- 9:32 PM · sunset · Sunset. Dark 10:03 PM. Nearly 17 hours of light up here.
 
 **Meals**
 - B: made at camp
@@ -542,10 +542,10 @@ The Many Glacier valley is the reason the park has the reputation it has, and yo
 
 Eight hours after ten days of driving is when the mistake happens. **Stop every two hours whether it feels necessary or not.** Deer and elk on the road after Browning at dusk.
 
-### Day 12 — 2027-07-17 · Easy Saturday
+### Day 12 — 2027-07-24 · Easy Saturday
 
 ```yaml
-date: 2027-07-17
+date: 2027-07-24
 tagline: Short walks from camp on the busiest day of the week, on purpose.
 type: rest
 driving: ~2 mi
@@ -561,11 +561,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:41 AM · sunrise · Sunrise. First light 5:09 AM. No alarm.
+- 5:50 AM · sunrise · Sunrise. First light 5:19 AM. No alarm.
 - 8:00 AM (2h) · hike · **Redrock Falls.** ✅ AllTrails: **3.7 mi, 255 ft, Easy.** From the Swiftcurrent trailhead at camp. · 📍 Redrock Falls Trail Many Glacier
 - 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Bullhead Lake Trail Many Glacier
 - afternoon · stop · Camp. Reorganise, wash something, look at the wall.
-- 9:39 PM · sunset · Sunset. Dark 10:11 PM. **Full moon** over the Many Glacier valley.
+- 9:31 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
 
 **Meals**
 - B: made at camp
@@ -580,10 +580,10 @@ Two easy valley walks with 3,000-foot walls on either side, on the day every tra
 
 **Saturday in Glacier in mid-July is the busiest combination on this route.** Everything today leaves on foot from the campground, which is why it is scheduled here rather than a marquee hike. Bear country — noise on the Swiftcurrent valley trails, they are heavily used by both people and bears.
 
-### Day 13 — 2027-07-18 · Iceberg Lake
+### Day 13 — 2027-07-25 · Iceberg Lake
 
 ```yaml
-date: 2027-07-18
+date: 2027-07-25
 tagline: A cirque lake with ice still floating in it in July.
 type: activity
 driving: ~1 mi
@@ -599,11 +599,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:42 AM · sunrise · Sunrise. First light 5:10 AM.
+- 5:51 AM · sunrise · Sunrise. First light 5:20 AM.
 - 5:00 AM (6h) · hike · **Iceberg Lake.** ✅ AllTrails: **9.7 mi, 1,453 ft, Moderate, out-and-back, ~257 min.** Fits the ceiling on both counts. The lake sits in a 3,000-ft cirque that keeps it frozen so late that bergs float in it into August. · 📍 Iceberg Lake Trailhead Many Glacier
 - 8:30 AM (1h) · stop · **Sit at the lake.** This is the hour the day is for.
 - afternoon · stop · Camp. Deliberate half-day before tomorrow.
-- 9:38 PM · sunset · Sunset. Dark 10:10 PM. Full moon.
+- 9:30 PM · sunset · Sunset. Dark 10:00 PM. Waning gibbous 60%.
 
 **Meals**
 - B: made — pre-dawn
@@ -618,10 +618,10 @@ Icebergs in July, on a trail that fits inside the day ceiling with room to spare
 
 🚨 **Grizzly country and this is a known bear corridor.** Bear spray, noise on blind corners, do not hike it silent at dawn. **The Many Glacier lot fills by 7 AM in July** — the 5 AM start is the parking plan as much as the light plan. ⚠️ It lands on a Sunday, which is the one crowd compromise the 21-day cut forced; dawn is the mitigation.
 
-### Day 14 — 2027-07-19 · Grinnell Glacier
+### Day 14 — 2027-07-26 · Grinnell Glacier
 
 ```yaml
-date: 2027-07-19
+date: 2027-07-26
 tagline: The hardest day of the trip, on a Monday, on the trail the park is named for.
 type: activity
 driving: ~1 mi
@@ -637,10 +637,10 @@ overnight:
 ```
 
 **Schedule**
-- 5:43 AM · sunrise · Sunrise. First light 5:12 AM.
+- 5:52 AM · sunrise · Sunrise. First light 5:22 AM.
 - 5:00 AM (8h) · hike! · **Grinnell Glacier Trail.** ✅ AllTrails: **11.1 mi, 2,047 ft, Hard, out-and-back, ~319 min moving.** ⚠️ **Over the distance ceiling by about a mile**, under the gain half. The payoff is standing at a glacier that has lost most of its area in a century and is documented doing it. **The boat shuttle across Swiftcurrent and Josephine cuts ~3.4 mi off** if it is running and you want the shorter version. 📋 2026: one-way return $20.85 adult, reservations by 5 PM the day before; the return boats queue — the same couple gave up on their return tickets rather than wait ~45 min (glacierparkboats.com snippet; Packs-a-lot video, 2026). · 📍 Grinnell Glacier Trailhead Many Glacier
 - 9:15 AM (1h 30m) · stop · **Sit at the glacier basin.** Longest sit of the trip, and the one it was all built toward.
-- 9:37 PM · sunset · Sunset. Dark 10:08 PM.
+- 9:29 PM · sunset · Sunset. Dark 9:59 PM.
 
 **Meals**
 - B: made — pre-dawn, hot
@@ -653,12 +653,12 @@ The single biggest day on the route and the reason the trip is Glacier-anchored 
 
 #### Warnings
 
-**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **July 19 has a few days of margin, not a lot.** If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day fourteen — **if yesterday hurt, take the boat.**
+**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **That's why the trip moved a week: Grinnell is now July 26, with about ten days of margin over 2026's opening** *(was: "July 19 has a few days of margin")*. If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day fourteen — **if yesterday hurt, take the boat.**
 
-### Day 15 — 2027-07-20 · Over the Sun Road
+### Day 15 — 2027-07-27 · Over the Sun Road
 
 ```yaml
-date: 2027-07-20
+date: 2027-07-27
 tagline: The drive people come to Glacier for, done as a transfer so it isn't a fight.
 type: travel + activity
 driving: ~60 mi, ~2h 30m over Going-to-the-Sun
@@ -674,11 +674,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:44 AM · sunrise · Sunrise. Break camp slowly.
+- 5:53 AM · sunrise · Sunrise. Break camp slowly.
 - 8:00 AM (2h 30m) · drive! · → west side over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so mid-July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM** — pass through today, walk it tomorrow. · 📍 Going-to-the-Sun Road Logan Pass
 - 1:00 PM (2h 30m) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Busy, and worth it anyway. · 📍 Avalanche Lake Trailhead Glacier
 - afternoon (1h) · stop · Camp. **Shower.** Fifteen days.
-- 9:36 PM · sunset · Sunset. Dark 10:07 PM.
+- 9:27 PM · sunset · Sunset. Dark 9:57 PM.
 
 **Meals**
 - B: made at camp
@@ -693,10 +693,10 @@ The Sun Road as a transfer rather than a destination means you are not fighting 
 
 **Logan Pass at midday in July is the worst parking in the park.** Do not plan to stop there today. The 3-hour limit from July 1 means even if you get in, you are on a clock.
 
-### Day 16 — 2027-07-21 · The Highline
+### Day 16 — 2027-07-28 · The Highline
 
 ```yaml
-date: 2027-07-21
+date: 2027-07-28
 tagline: A ledge cut along the Garden Wall, walked at first light on the best day of the week for it.
 type: activity
 driving: ~35 mi, or the shuttle
@@ -712,12 +712,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:45 AM · sunrise · Sunrise. First light 5:14 AM.
+- 5:58 AM · sunrise · Sunrise. First light 5:27 AM.
 - 4:45 AM (1h) · drive! · → Logan Pass, **before the lot fills**. ⚠️ Alternative: the **$1 ticketed shuttle** — some released on a 60-day rolling window, most released 7 PM the night before. **That shuttle is what makes a point-to-point version of this hike possible**, which otherwise needs a second car. · 📍 Logan Pass Visitor Center
 - 6:00 AM (6h) · hike · **Haystack Butte via the Highline Trail.** ✅ AllTrails: **8.6 mi, 1,768 ft, Hard, out-and-back.** ⚠️ The full Highline Trail is **15.2 mi / 2,572 ft — over the ceiling on both counts**, so this is the version that fits. The first mile is a ledge cut into the Garden Wall with a hand cable and a long drop; after that it opens out. · 📍 Highline Trail Logan Pass
 - 9:00 AM (1h) · stop · Sit at Haystack. Turn around.
 - 1:00 PM (1h 30m) · hike · **Hidden Lake Overlook** if the legs have it. ✅ AllTrails: **2.8 mi, 567 ft, Moderate, ~84 min.** Straight from the Logan Pass lot. · 📍 Hidden Lake Overlook Trailhead
-- 9:35 PM · sunset · Sunset. Dark 10:06 PM.
+- 9:25 PM · sunset · Sunset. Dark 9:56 PM.
 
 **Meals**
 - B: made — pre-dawn
@@ -732,10 +732,10 @@ The Highline Trail's opening ledge is the most exposed piece of trail on the rou
 
 🚨 **The Garden Wall ledge is genuinely exposed** — a hand cable bolted to the rock with a long drop below. It is not technical and it is not a scramble, but it is a bad place to be nervous, and the profile's line about caution around single high-consequence moves applies here. **If the ledge does not feel right, turn around at the cable** — Hidden Lake alone is a good day. **Logan Pass parking is capped at 3 hours from July 1**, so a 6 AM start on a hike this long means the shuttle back, not the lot.
 
-### Day 17 — 2027-07-22 · Slack
+### Day 17 — 2027-07-29 · Slack
 
 ```yaml
-date: 2027-07-22
+date: 2027-07-29
 tagline: The day the trip keeps in its pocket, with two waterfalls as the default.
 type: rest
 driving: ~70 mi if the falls happen
@@ -755,7 +755,7 @@ overnight:
 - 7:00 AM (1h 30m) · hike · **Default if nothing needs the day: St. Mary and Virginia Falls.** ✅ AllTrails: **3.1 mi, 469 ft, Moderate, ~83 min.** Two waterfalls on a short trail off the east end of the Sun Road. · 📍 St Mary Falls Trailhead Glacier
 - 9:00 AM (3h) · stop · Sit at Virginia Falls, then drive the Sun Road slowly in whichever direction you have not done at leisure.
 - evening · stop · Pack for the drive home. Last night in the mountains.
-- 9:34 PM · sunset · Sunset. Dark 10:05 PM.
+- 9:24 PM · sunset · Sunset. Dark 9:54 PM.
 
 **Meals**
 - B: made at camp
@@ -770,10 +770,10 @@ A whole day held in reserve seventeen days into a trip is worth more than any hi
 
 The temptation is to fill this in advance. Don't. That is what the falls are for — a default, not a plan.
 
-### Day 18 — 2027-07-23 · East to the Other Badlands
+### Day 18 — 2027-07-30 · East to the Other Badlands
 
 ```yaml
-date: 2027-07-23
+date: 2027-07-30
 tagline: Five hundred and fifty miles, and a different badland at the end of it.
 type: travel
 driving: ~550 mi, ~9h 30m
@@ -783,16 +783,16 @@ overnight:
   place: Theodore Roosevelt NP — South Unit, ND
   kind: National park campground
   cost: ~$14/night est.
-  checkin: Part reservable, part first-come — verify
+  checkin: Reservation only since May 1 2026 (nps.gov/thro, snippet; was “part reservable, part first-come”)
   confirmation: TBD
-  notes: ⚠️ Fee and booking split not verified. Wild horses use this campground area, which is not a hazard so much as a thing that will happen.
+  notes: ⚠️ Fee not verified; booking answered (all reservation, 76 sites). Wild horses use this campground area, which is not a hazard so much as a thing that will happen.
 ```
 
 **Schedule**
-- 5:47 AM · sunrise · Sunrise. Break camp.
+- 6:01 AM · sunrise · Sunrise. Break camp.
 - 6:30 AM (9h 30m) · drive · → Theodore Roosevelt NP South Unit via US-2 east, then I-94. **A different road home than the road out** — this is what keeps the no-road-twice rule intact across 4,300 miles. · 📍 Theodore Roosevelt National Park South Unit
 - 6:30 PM (30m) · hike · **Wind Canyon Trail.** ✅ AllTrails: **0.5 mi, 62 ft, Easy, loop.** Half a mile to a bend of the Little Missouri at golden hour. The correct end to a 550-mile day. · 📍 Wind Canyon Trail Theodore Roosevelt
-- 8:43 PM · sunset · Sunset. Dark 9:14 PM. Waning gibbous 78%.
+- 8:34 PM · sunset · Sunset. Dark 9:04 PM. Waning crescent 10%.
 
 **Meals**
 - B: made at camp
@@ -807,10 +807,10 @@ Ending a nine-hour drive on a half-mile walk to a river bend, with bison somewhe
 
 Longest driving day of the trip and it comes at day 18. **This is the day to consider a motel instead if the tiredness is real.**
 
-### Day 19 — 2027-07-24 · Coal Seams and Wild Horses
+### Day 19 — 2027-07-31 · Coal Seams and Wild Horses
 
 ```yaml
-date: 2027-07-24
+date: 2027-07-31
 tagline: Badlands that burn, and the last real day of the trip.
 type: activity
 driving: ~50 mi in the park
@@ -826,12 +826,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:18 AM · sunrise · Sunrise. First light 4:47 AM.
+- 5:27 AM · sunrise · Sunrise. First light 4:56 AM.
 - 5:30 AM (3h) · hike · **Big Plateau and Ekblom Trail Loop.** ✅ AllTrails: **5.2 mi, 534 ft, Moderate, loop, ~122 min.** Up onto a plateau above the Little Missouri. Bison and wild horses use it, so give them the trail. · 📍 Ekblom Trailhead Theodore Roosevelt National Park
 - 9:00 AM (1h) · stop · Sit on the plateau.
 - 11:00 AM (2h) · drive · **Scenic Loop Drive** (📋 fully reopened in late 2025 after years with a section closed; northdakotamonitor.com, snippet, 2026-10-10) and the **Coal Vein Trail** (0.8 mi, 29 ft) — a seam that burned underground for 26 years and baked the surrounding clay into red scoria. Geology you can see having happened. · 📍 Coal Vein Trail Theodore Roosevelt
 - 5:00 PM (1h 45m) · hike · **Painted Canyon Trail.** ✅ AllTrails: **4.2 mi, 446 ft, Moderate.** Down into the canyon from the overlook, in evening light. · 📍 Painted Canyon Overlook Theodore Roosevelt
-- 8:41 PM · sunset · Sunset. Dark 9:13 PM.
+- 8:33 PM · sunset · Sunset. Dark 9:03 PM.
 
 **Meals**
 - B: made — pre-dawn
@@ -846,10 +846,10 @@ A coal seam that burned for 26 years, wild horses, and the last badlands before 
 
 Bison on the trails here, genuinely and often. **Give them 25 yards and go around.** Heat again — the North Dakota badlands run as hot as the South Dakota ones and have as little shade.
 
-### Day 20 — 2027-07-25 · East
+### Day 20 — 2027-08-01 · East
 
 ```yaml
-date: 2027-07-25
+date: 2027-08-01
 tagline: The first of two long ones.
 type: travel
 driving: ~650 mi, ~11h
@@ -880,10 +880,10 @@ Nothing. That is fine.
 
 Longer than any day on the way out, at day 20. **Two-hour stops, no exceptions.** If it is going badly, stop early and make Day 21 the long one instead — nothing depends on the split.
 
-### Day 21 — 2027-07-26 · Home
+### Day 21 — 2027-08-02 · Home
 
 ```yaml
-date: 2027-07-26
+date: 2027-08-02
 tagline: The long way home, and nothing waiting at the end of it.
 type: travel
 driving: ~650 mi, ~11h
@@ -893,7 +893,7 @@ overnight: null
 
 **Schedule**
 - 6:00 AM (11h) · drive! · → Avon OH. **Time the Chicago window one last time** — before 10 AM or after 7 PM.
-- arrival · note · Nothing booked behind this. Eastern Sierra is the probable August week (`wishlist/eastern-sierra.md`). *(was: "Kenai leaves Aug 14"; Kenai moved to a PTO year, 2026-09-30)*
+- arrival · note · Nothing booked behind this. August is probably a fly-in week with friends (`wishlist/august-friends-2027.md`, stated 2026-10-10; was: "Eastern Sierra is the probable August week (`wishlist/eastern-sierra.md`)"). *(was: "Kenai leaves Aug 14"; Kenai moved to a PTO year, 2026-09-30)*
 
 **Meals**
 - B: packed
@@ -990,13 +990,13 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ## Reservations & checks
 
-- [ ] 🚨 **Slough Creek, Yellowstone, Jul 15** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it *(was: "Check first whether Pebble Creek has reopened", 2026-10-10)*. The campground road is 2 mi of dirt (recreation.gov, snippet).
-- [ ] 🚨 **Glacier — Many Glacier, Jul 16–19** — recreation.gov, 6-month rolling, released daily. **Book around Jan 16 2027.** One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
-- [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 20–22** — same system, same January sitting. Both equally competitive.
-- [ ] **Badlands — Cedar Pass, Jul 7–8** — recreation.gov, 6-month window.
-- [ ] **Bighorns — West Tensleep, Jul 9–11** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch *(was: "mix of reservable and first-come, split not verified", 2026-10-10)*.
-- [ ] **Beartooth — Island Lake, Jul 12–14** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback *(was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)*. Bring cash.
-- [ ] **Theodore Roosevelt — Cottonwood, Jul 23–24** — part reservable, part first-come.
+- [ ] 🚨 **Slough Creek, Yellowstone, Jul 22** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it *(was: "Check first whether Pebble Creek has reopened", 2026-10-10)*. The campground road is 2 mi of dirt (recreation.gov, snippet).
+- [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`) *(was: a hand-typed "Jan 16 2027", which the shift made wrong)*. One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
+- [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] **Badlands — Cedar Pass, Jul 14–15** — recreation.gov, 6-month window.
+- [ ] **Bighorns — West Tensleep, Jul 16–18** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch *(was: "mix of reservable and first-come, split not verified", 2026-10-10)*.
+- [ ] **Beartooth — Island Lake, Jul 19–21** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback *(was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)*. Bring cash.
+- [ ] **Theodore Roosevelt — Cottonwood, Jul 30–31** — 📋 **all sites by reservation since May 1 2026**, up to 6 months ahead *(was: "part reservable, part first-come"; nps.gov/thro, snippet, 2026-10-10)*.
 - [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point.
 - [ ] ⚠️ **Two transit nights (Days 1 and 20) have no lodging identified at all.** Solve them together, once, before departure. Day 20 follows a 650-mile drive at the end of three weeks — a motel there is a defensible use of the contingency line.
 
@@ -1005,7 +1005,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 ### Can you actually get Slough Creek, Many Glacier and a west-side campground for these dates?
 
 **Blocks:** Days 10 and 11–17 — over a third of the trip
-🚨 The three hardest bookings on the trip and they are consecutive. Slough Creek is 16 sites and gone in minutes; Many Glacier and Apgar go the day their windows open. **All three windows fall in mid-January 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, Two Medicine and St. Mary reshape the middle. If Slough Creek fails, Day 10 becomes a fourth plateau night with Lamar as a long day trip.
+🚨 The three hardest bookings on the trip and they are consecutive. Slough Creek is 16 sites and gone in minutes; Many Glacier and Apgar go the day their windows open. **All three windows fall in mid-to-late January 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, Two Medicine and St. Mary reshape the middle. If Slough Creek fails, Day 10 becomes a fourth plateau night with Lamar as a long day trip.
 
 ### Has Pebble Creek reopened?
 
@@ -1116,6 +1116,6 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-[Maui](../maui-2027/) is shelved for spring 2028 *(was: May 13–20, 2027; changed 2026-10-05)*. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 6–26. Eastern Sierra is the probable August week. *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
+[Maui](../maui-2027/) is shelved for spring 2028 *(was: May 13–20, 2027; changed 2026-10-05)*. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 13 – August 2 *(was: July 6–26, shifted 2026-10-10)*. Eastern Sierra is the probable August week. *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
 
-The Eastern Sierra is **back in 2027 as the probable August week** (`wishlist/eastern-sierra.md`, stated 2026-09-30). It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. *(was: "dropped from 2027 by choice")* **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.
+**August is now probably a fly-in week with friends** (`wishlist/august-friends-2027.md`, stated 2026-10-10) *(was: "The Eastern Sierra is back in 2027 as the probable August week", stated 2026-09-30)*. It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. *(was: "dropped from 2027 by choice")* **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.

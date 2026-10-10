@@ -36,7 +36,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 4 open questions · 0/61 places located · log 40 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 6–26, 2027 (target, unbooked) · 21 days · 7 open questions · 15/24 places located · log 3 entries · updated 2026-10-10
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 2, 2027 (target, unbooked; was Jul 6–26 until 2026-10-10) · 21 days · 7 open questions · 15/24 places located · log 4 entries · updated 2026-10-10
   ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list…
 
 ## Done
@@ -57,6 +57,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 - **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-05
   The bike trip, if there's only one
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · TBD — Columbia Gorge / Oregon, Idaho (Boise to Stanley) or Reno / Tahoe are the shortlist · fly · keeps (derived) · Aug · 7 days · 1 research note · updated 2026-10-10
+  Fly in, rent a car, motels, a week of water and edge with friends
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one
 - **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-05

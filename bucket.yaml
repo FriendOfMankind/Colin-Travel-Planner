@@ -1192,9 +1192,9 @@ items:
     kind: hike
     where: Columbia River Gorge, Oregon
     state: OR
-    why: A cliff-ledge trail above the creek, then a path behind a waterfall. Closed since the 2017 fire; check if it has reopened
+    why: A cliff-ledge trail above the creek, then a path behind a waterfall. Reopened in 2021 after the 2017 fire (was “closed since the 2017 fire; check”)
     status: want
-    source: oregonhikers.org forum (search snippet, 2026-10-06); daydream 2026-10-06
+    source: oregonhikers.org forum (search snippet, 2026-10-06); oregonhikers.org field guide (snippet, 2026-10-10); daydream 2026-10-06
     added: 2026-10-06
 
   - id: tamolitch-blue-pool
@@ -1295,10 +1295,9 @@ items:
     where: Glendive, Montana (on I-94)
     state: MT
     months: [7]
-    why: Hell Creek badlands where T. rex and Triceratops were dug out; right on the I-94 drive home
+    why: Hell Creek badlands where T. rex and Triceratops were dug out. Look only, no collecting (fwp.mt.gov). Skipped on the 2027 Glacier trip *(Colin, 2026-10-10; was trip northern-rockies-2027)*
     status: want
-    trip: northern-rockies-2027
-    source: en.wikipedia.org/wiki/Makoshika_State_Park; mtdinotrail.org (search snippets, 2026-10-06)
+    source: en.wikipedia.org/wiki/Makoshika_State_Park; mtdinotrail.org (search snippets, 2026-10-06); fwp.mt.gov (snippet, 2026-10-10)
     added: 2026-10-06
 
   - id: summit-snowmobile-georgia-pass

@@ -41,7 +41,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Many Glacier, Apgar, Avalanche**: every site needs a reservation; most 6-month, a handful on a 4-day window (the second shot)
 - ✅ **Two Medicine**: closed all of 2026; road rehab to late 2027, maybe 2028. ⬜ the 2027 campground status
 - 🟡 **St. Mary**: partial closures fall 2026 to spring 2027 only
-- ✅ **Grinnell Glacier opening**: "typically mid-July" (boat operator); opened ~July 15 in 2026 (YouTube). Day 14 is July 19
+- ✅ **Grinnell Glacier opening**: "typically mid-July" (boat operator); opened ~July 15 in 2026 (YouTube). Day 14 is now July 26 (trip shifted a week, 2026-10-10; was July 19)
 - ✅ **Many Glacier boat**: 2026 prices, reserve by 5 PM the day before, return queues
 - 🟡 **Iceberg Lake**: AllTrails, a 2025 video not yet transcribed
 - 🟡 **Highline / Garden Wall**: AllTrails. ⬜ the 2027 Logan Pass shuttle rules (2026: $1, two release windows)

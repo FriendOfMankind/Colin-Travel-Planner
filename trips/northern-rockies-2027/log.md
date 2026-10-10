@@ -129,3 +129,10 @@ First `/research` pass on this trip. Tree: `research.md`. Every nps.gov and recr
 - **The Legacy isn't coming off Newfoundland.** That trip moved to the Sienna on 2026-10-08, so the "5,700 mi before this trip" and "~10,000 miles in two months" lines were stale.
 - **Grinnell on July 19 has thin margin.** It opened ~July 15 in 2026. Question for Colin: shift the trip later?
 - Bucket items tagged to this trip but not in the plan: Makoshika (right on the drive home) and the Middle Fork Flathead raft. Question for Colin.
+
+## 2026-10-10 · Decided: a week later, no Makoshika, August goes to friends
+
+- **The trip moves to Jul 13 – Aug 2** *(Colin, 2026-10-10)*. Why: Grinnell Glacier "does not typically open until mid-July" and opened ~July 15 in 2026; Day 14 is now July 26 instead of July 19. Every weekday stays in place (Saturday soft day, Sunday Iceberg, Monday Grinnell). Newfoundland-to-departure goes from 12 days to 19. Sun and moon recomputed (`_gen/sun.json`): days are ~10 minutes shorter, and the **full moon (July 17–19) now falls in the Bighorns and on the first Beartooth night**, not at Many Glacier. The January booking windows move with it (the briefing computes them).
+- **Makoshika: skipped** *(Colin, 2026-10-10)*. Unlinked from this trip in `bucket.yaml`, kept as a want.
+- **August**: a fly-in friends week, probably (`wishlist/august-friends-2027.md`), replacing the Eastern Sierra as the probable August week.
+- Found while recomputing: **Cottonwood (TRNP) is all-reservation since May 1 2026** (nps.gov/thro, snippet). Applied.

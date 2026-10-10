@@ -25,7 +25,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ⭐ **Colin wants to do it, as a ~week trip**: fly in, rent a car, done in about seven days. *(stated 2026-09-30; was: planned as 10 days, subtitled "Committed", which contradicted the drop below)* That shape is exactly why it keeps: a week fits PTO any year.
 
-⭐ **Back in 2027, aimed at August** *(stated 2026-09-30, "probably")*: the week between the summer road trips and the Aug 31 start. The trade is the one this file already names: September has the aspen and fewer people; August has neither. Kenai, not this, is what moved out of 2027.
+🔻 **August 2027 went to a friends trip instead** (`wishlist/august-friends-2027.md`, stated 2026-10-10). This goes back to keeping, which it does well *(was: "⭐ Back in 2027, aimed at August (stated 2026-09-30, 'probably'): the week between the summer road trips and the Aug 31 start")*. The trade is the one this file already names: September has the aspen and fewer people; August has neither. Kenai, not this, is what moved out of 2027.
 
 ✅ Four Jeffrey CG at 8,100 ft with bear boxes and a trailhead under a mile up the road. Little Lakes Valley from Mosquito Flat is the highest paved trailhead in the Sierra — the single best expression of the car-camping rule set.
 
@@ -35,7 +35,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Next
 
-Aim August 2027, after the road trips. Check Four Jeffrey's reservable/first-come split, and price CLE → Reno for August *(was: "Nothing until 2028+")*
+Nothing for 2027 unless the friends trip lands on Reno/Tahoe (`wishlist/august-friends-2027.md`). When it comes back: Four Jeffrey is part reservable, part first-come (2026-10-10 note) *(was: "Aim August 2027, after the road trips…")*
 
 ## Research notes
 
