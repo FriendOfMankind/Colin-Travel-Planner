@@ -92,10 +92,13 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: Wet rock and wet rope are the recurring hazard.
 - name: Insect repellent
   state: own
-  note: "*(stated 2026-10-04)* Type not recorded."
+  note: "*(stated 2026-10-04)* Type not recorded. For hiking in black-fly season, 20% picaridin or 20–30% DEET is the standard *(thermacell.ca comparison page, 2026)*; whether this one is either is unknown."
 - name: Bug head net
   state: need
   note: "*(stated 2026-10-04: \"I can get bug stuff\")* For black-fly season: still evenings in the woods, central Newfoundland in late May and June (`trips/newfoundland-2027/`)."
+- name: Thermacell area repeller, fuel-powered, with Multi-Insect refills
+  state: unknown
+  note: "*(researched 2026-10-11; Colin: \"worth remembering\". Not decided whether to buy.)* A heated device that vaporizes repellent into a 15–20 ft zone after a 10–15 min warm-up; for **sitting at camp**, useless while hiking. **Black flies need the Multi-Insect refills** (\"the first and only EPA-registered area repellent for black flies and no-see-ums\", ~10 ft zone for them), and those **fit only the fuel-powered models** (Patio Shield, lanterns, portable repellers), not the rechargeables; less effective in strong wind *(thermacell.com product page and FAQs, read 2026-10-11)*. Didn't stop Fogo's horseflies (\"stouts\") in July 2023 *(YouTube, Overland Pioneers)*. Runs on small butane cartridges: Marine Atlantic's rule on canisters in a vehicle is still unchecked (`trips/newfoundland-2027/log.md`). Priority behind the head net and a skin repellent. Price not checked."
 - name: Headlamp + spare batteries
   state: own
   note: In the pack regardless of the hour.
