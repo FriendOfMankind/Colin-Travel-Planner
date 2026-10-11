@@ -73,7 +73,8 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Van camping in the Sienna**: 2011–2020 platforms need the 2nd row out ✅ (CarToCamp); liftgate shelters ✅ (Napier). ⬜ the van's own measurements (Colin, tape measure). ✅ Marine Atlantic counts roof boxes toward the 7 ft 6 in height line
 - ✅ **Moose**: dusk *and* dawn
 - 🟡 **Cell signal and offline maps**: Rogers dead around St. Barbe. ⬜ carrier check for Colin's plan
-- 🟡 **Blackflies and mosquitoes**: no good source yet. 🔒 Facebook groups
+- 🟡 **Blackflies and mosquitoes**: one July 2023 video: mosquitoes at Cape Norman, "stouts" (horseflies) on Fogo, the worst bugs at Chance Cove PP. Nothing for June yet. 🔒 Facebook groups
+- 🟡 **Route 91 to Argentia** (Day 29): gravel in July 2023 (video); current surface unknown
 
 ## Fetch list for Colin (🔒)
 1. **Discovering Newfoundland** (Facebook): "Saddle Island", "Point Amour hours", "Pistolet Bay"
