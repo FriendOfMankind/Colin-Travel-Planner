@@ -27,13 +27,13 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Hawksbill**: road unpaved to the lot (Mar 2026); weekday lot full by noon (Apr 2026)
 - ✅ **Table Rock picnic-area road gated, Helene**: AllTrails reviews Jul and Oct 6, 2026; Burke County "CLOSED 2026". ⬜ the official notice and where the gate is
 - ✅ **Little Table Rock Trail**: heavy blowdown, AllTrails lists it as closed
-- 🟡 **Table Rock Gap out-and-back, 6 mi / 1,496 ft**: AllTrails stats. ⬜ trailhead vs gate
+- 🟡 **Table Rock Gap out-and-back, 6 mi / 1,496 ft**: AllTrails stats; **chosen for Day 9 (2026-10-12)**. ⬜ trailhead vs gate (Grandfather RD call)
 - 🟡 **Spence Ridge bridge**: still out (old check-ins)
 - ⬜ **Old NC 105 / Wiseman's View status**: nothing found 2026-10-12. 🔒 Grandfather RD call
 - ⬜ **Motel bail-out**: not called
 
 ## 4. Mount Rogers (Days 10–11)
-- 🟡 **Massie Gap Saturday fill**: ~150 cars, "fills quickly", no time found. 🔒
+- 🟡 **Massie Gap Saturday fill**: ~150 cars, "fills quickly", no time found. 🔒 Late start kept anyway (2026-10-12)
 - 🟡 **Elk Garden alternative**: official overflow; ~6 mi to Wilburn Ridge (Reddit snippet)
 - ✅ **Hurricane Campground**: reserved; follow the written directions, not GPS
 - ✅ **Wilburn Ridge / Fatman's Squeeze**: route in source; the 2023 video confirms ponies on the ridge

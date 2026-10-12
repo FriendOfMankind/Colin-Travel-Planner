@@ -231,3 +231,7 @@ Asked: "any upgrades… look through Reddit and YouTube." Firecrawl is low on cr
 - Lead, not researched: **Fryingpan Mountain fire tower**, a 1.5 mi out-and-back near MP 408.5 (FS 450), "best sunset" with Cold Mountain and Shining Rock in view *(explorebrevard.com, 2026-07)*.
 
 **Bridge Day:** nothing new on watching from the bottom. No 2026 Fayette Station notice was found, so the Canyon Rim call still decides it.
+
+## 2026-10-12 · Decided: Table Rock Gap, Hawksbill sunset, Grayson late start
+
+After the sweep above, Colin picked: **Day 9 (a)**, the Table Rock + Chimneys out-and-back from Table Rock Gap (6 mi) in place of the loop; **Day 8 (b)**, Hawksbill recon moved to sunset with the descent in the dark, and the Chimneys dropped from Day 8 because Day 9 covers them; **Day 10 (a)**, keep the late start at Grayson, with Elk Garden as the fallback. *(chosen 2026-10-12)* Written into `trip.md`. Still open: whether the Spence Ridge lot is below the Table Rock road gate, a question for the Grandfather RD call (Colin: "I aint callin the ranger at 9:18pm"; it moves to tomorrow).
