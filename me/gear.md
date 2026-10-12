@@ -292,20 +292,20 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   state: own
   note: "One of the four things that turn a can into a meal: oil, hard cheese, crushed chips, starch pouch."
 - name: Fuel canisters
-  state: need
-  note: "Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down. Confirm the burner takes screw-on isobutane before buying."
+  state: own
+  note: "Owned: 3 screw-on isobutane canisters *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: need). Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down. Confirm the burner takes screw-on isobutane before buying."
 - name: Long-handled spoon
-  state: need
-  note: "**Not owned** *(2026-09-28)*. **Buy before Oct 15:** the Oct 23 power-oats bag and thermos meals are eaten from deep containers."
+  state: own
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: not owned, 2026-09-28). the Oct 23 power-oats bag and thermos meals are eaten from deep containers."
 - name: Thin silicone spatula
-  state: need
-  note: "**Not owned** *(2026-09-28)*. Buy before Oct 15: the potato scramble (3 mornings) and the lecture-day quesadillas need one; a spork fails on eggs."
+  state: own
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: not owned, 2026-09-28). the potato scramble (3 mornings) and the lecture-day quesadillas need one; a spork fails on eggs."
 - name: Wash basin, sponge, biodegradable soap
-  state: unknown
-  note: "Every draining or high-cleanup meal assumes these exist. Never confirmed owned."
+  state: own
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: unknown, never confirmed). Every draining or high-cleanup meal assumes these exist."
 - name: Bandanas ×2
-  state: unknown
-  note: "One pot wipe, one towel. Never confirmed owned."
+  state: own
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: unknown). One pot wipe, one towel."
 ```
 
 ## Camp comfort & night
@@ -338,8 +338,8 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ```yaml
 - name: Spare, jack, tire plug kit
-  state: need
-  note: On maintained gravel the realistic failure mode is a cut sidewall, not getting stuck. Confirm the spare is actually inflated before FS 210.
+  state: own
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: need). On maintained gravel the realistic failure mode is a cut sidewall, not getting stuck. Confirm the spare is actually inflated before FS 210."
 - name: 12V tire inflator
   state: own
   note: "*(stated 2026-10-01)* What makes the plug kit useful: plug, then reinflate on the spot."
