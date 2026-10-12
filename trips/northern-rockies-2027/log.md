@@ -97,3 +97,42 @@ So a mid-June arrival buys a maybe-open road, probably-shut campgrounds and trai
 📋 Crazy Woman Canyon Road dispersed camping — creek, canyon walls, the best-reviewed sites in the range. Cut from the overlanding trip and never reallocated.
 
 ✅ **Corrected Sept 6 2026 — this was filed as July–September and that was wrong.** Several **Cloud Peak Skyway (US-16) campgrounds open June 5**, which makes the Bighorns the one entry in the alpine tier that is genuinely in season in June. ⚠️ The caveat is elevation-dependent: high-country roads in the range **can stay snow-packed until about July 1**, so the Skyway corridor works in mid-June and the highest side roads may not. That distinction is exactly what a [Beartooth](#beartooth-plateau) trip does not get — US-212 is above 9,500 ft for its whole length, so there is no low half of it to fall back on.
+
+## 2026-10-10 · Research sweep: bookings, campgrounds and the Grinnell opening
+
+First `/research` pass on this trip. Tree: `research.md`. Every nps.gov and recreation.gov line below is a search snippet (📋); both sites are blocked here.
+
+### Official pages (📋 snippets)
+- **Glacier vehicle reservations**: dropped "for 2026" (glacierparkcollection.com, montanamagazine.com 2026-07-05, glacierguides.com). Nothing about 2027 yet. In their place the park closes roads temporarily when lots fill.
+- **Glacier campgrounds**: Many Glacier, Apgar and Avalanche: "All sites require a reservation. Most sites have a 6-month booking window with a good handful having a 4-day booking window." (recreation.gov facility pages). One 2026 blog says Many Glacier has "22 reservable, rest first come"; the recreation.gov page contradicts it, and wins.
+- **Two Medicine**: "The Two Medicine Campground will be closed in 2026." The road rehab "is scheduled to resume this fall 2026 and be completed late 2027 but may continue into 2028." **St. Mary**: partial campground closures fall 2026 to spring 2027 (nps.gov/glac project-work page, news release 2026-02-12).
+- **Many Glacier flood, 2026**: heavy rain closed the whole valley, campground included, June 29 to about July 2; Swiftcurrent Creek went from <300 to ~1,800 cfs (dailymontanan.com 2026-06-30, krtv.com 2026-07-01).
+- **Grinnell Glacier trail**: "does not typically open until mid-July" (glacierparkboats.com hiking page). Boat 2026: one-way return $20.85 adult; reservations by 5 PM MST at least a day ahead; return boats 9:45 AM to 5:45 PM.
+- **Pebble Creek**: "closed in 2025 and likely for the foreseeable future" (nps.gov/yell), "closed for the 2026 season" (yellowstone.org, campsitephotos.com). A Facebook post says the rebuild goes with the Northeast Entrance Road reconstruction, whose environmental review was still "ongoing" (nps.gov/yell planning page).
+- **Slough Creek**: "at the end of a two mile dirt road" (recreation.gov).
+- **Beartooth Highway 2026**: opened ~May 21–22, closed early on Oct 9 for snow (MDT; nbcmontana.com 2026-10-09).
+- **Island Lake CG**: "21 newly remodeled sites… This site is first come, first served." $20–25, cash or check, "typically from late June through early/mid September", expected to close Sept 13 2026. Bear boxes (fs.usda.gov Shoshone page). **Beartooth Lake**: 21 sites, first-come only (pinecliffresort.net, campflare.com).
+- **West Tensleep Lake CG**: reservable via recreation.gov, $20, "June - Labor Day" (fs.usda.gov Bighorn page); 10 sites, site 9 tent-only, water, no showers (travelwyoming.com). snoflo.org says first-come only, contradicting the Forest Service. Road: FR 27, 7 mi, "dirt/rock road" (thedyrt.com review), "easily accessible gravel" (stateparks.com).
+- **TRNP South Unit Scenic Loop**: reopened in full after five years with a section closed (northdakotamonitor.com 2025-11-25; Instagram, "fully reopened for 2026").
+- **Makoshika State Park**, Glendive MT, on I-94: Montana's largest state park; Hell Creek badlands; visitor center with an original Triceratops skull; 11 trails (Cap Rock, Diane Gabriel with a hadrosaur in place); campground; "no digging, collecting, or removal of fossils" (fwp.mt.gov, 2025–26).
+- **Route of the Hiawatha** (bucket item): 2026 season May 22 – Sept 20; 15 mi downhill, 10 tunnels, 7 trestles; lights required, rentals include a 300–400 lumen light; I-90 exit 5, Taft MT, about 3.5–4 h from West Glacier ⚠️ (my estimate, not routed).
+
+### YouTube
+- **"Hiking to Grinnell Glacier & Grinnell Lake From Many Glacier Lodge"**, Packs-a-lot, uploaded 2026-09-13, **hiked July 20 2026**, not sponsored. The useful lines: "this trail is impassible sometimes because of that waterfall and snow. And I guess they just opened it like 5 days ago" (so ~July 15); the cliff section means walking through a waterfall ("Prepared to get a shower"); "We got some snow on the trail here"; 50°F at a 6:45 AM start; they skipped their pre-booked return boat because the wait was ~45 min, and walked (~14 mi total, ~10 h with stops). Wildlife: mountain goats, bighorn ram, moose at Lake Josephine, a grizzly "a mile away".
+
+### AllTrails
+- Grinnell Glacier recent reviews (Aug 7 and Aug 21 2026): "very crowded"; a 6:30 AM start "allowed us to avoid the boat crowds".
+
+### What it changes (applied to `trip.md` as facts; decisions left to Colin)
+- Island Lake and Beartooth Lake are first-come; West Tensleep is reservable; Pebble Creek is out; Two Medicine is not a dependable fallback; the 4-day window is a second shot at Glacier sites.
+- **West Tensleep is gravel.** The page said every anchor was on pavement; that was wrong.
+- **The Legacy isn't coming off Newfoundland.** That trip moved to the Sienna on 2026-10-08, so the "5,700 mi before this trip" and "~10,000 miles in two months" lines were stale.
+- **Grinnell on July 19 has thin margin.** It opened ~July 15 in 2026. Question for Colin: shift the trip later?
+- Bucket items tagged to this trip but not in the plan: Makoshika (right on the drive home) and the Middle Fork Flathead raft. Question for Colin.
+
+## 2026-10-10 · Decided: a week later, no Makoshika, August goes to friends
+
+- **The trip moves to Jul 13 – Aug 2** *(Colin, 2026-10-10)*. Why: Grinnell Glacier "does not typically open until mid-July" and opened ~July 15 in 2026; Day 14 is now July 26 instead of July 19. Every weekday stays in place (Saturday soft day, Sunday Iceberg, Monday Grinnell). Newfoundland-to-departure goes from 12 days to 19. Sun and moon recomputed (`_gen/sun.json`): days are ~10 minutes shorter, and the **full moon (July 17–19) now falls in the Bighorns and on the first Beartooth night**, not at Many Glacier. The January booking windows move with it (the briefing computes them).
+- **Makoshika: skipped** *(Colin, 2026-10-10)*. Unlinked from this trip in `bucket.yaml`, kept as a want.
+- **August**: a fly-in friends week, probably (`wishlist/august-friends-2027.md`), replacing the Eastern Sierra as the probable August week.
+- Found while recomputing: **Cottonwood (TRNP) is all-reservation since May 1 2026** (nps.gov/thro, snippet). Applied.
