@@ -94,7 +94,7 @@ Solo.
 
 ### The open call
 
-**Fayette County Chamber 800-927-0263** — Fayette Station Road parking on Bridge Day. Arrowhead is now confirmed Oct 16–18.
+**Canyon Rim, (304) 574-2115**: is Fayette Station Road open to walkers after the August floods (sources conflict, `log.md` 2026-10-06)? Parking at the top (Chamber, 800-927-0263) is nice-to-have, because the shuttle is an acceptable fallback *(stated 2026-09-29)*. (was: the Chamber parking call as the open call; fixed at preflight 2026-10-12)
 
 ### The lecture
 
@@ -122,7 +122,7 @@ overnight:
 
 **Schedule**
 - 7:30 → 1:05 (5h 35m) · drive · Avon OH → Glen Jean exit off US-19. (Time was measured to Canyon Rim; to Glen Jean is not measured.) · 📍 Glen Jean WV
-- 1:05 → 1:15 (10m) · stop! · ⚠️ **Call Canyon Rim, (304) 574-2115, while you still have signal.** Is Stone Cliff open and is the road in passable? If not, which of Glade Creek, Grandview Sandbar or Army Camp is.
+- 1:05 → 1:15 (10m) · stop! · ⚠️ **Call Canyon Rim, (304) 574-2115, while you still have signal.** Is Stone Cliff open and is the road in passable? If not, which of Glade Creek, Grandview Sandbar or Army Camp is. **Also ask:** is Fayette Station Rd open to walkers on Bridge Day after the August floods, are park trails (Fayetteville Trail down from Arrowhead) open that day, and can a walker get past the flood stretch to below the bridge (`log.md` 2026-09-29).
 - 1:15 → 1:40 (25m) · drive · → **Stone Cliff**, via WV-25 toward Thurmond, then the gravel road just before the river bridge *(campflare.com directions, snippet)*. · 📍 Stone Cliff Campground Thurmond WV
 - 1:40 → 2:40 (1h) · camp! · ⚠️ **Claim a site and pitch.** Walk-in: carry the tent, food and **all your water** from the car. Early afternoon on a weekday is when these still have room; the old 4:10 claim was the risky part.
 - 2:40 → 5:40 (3h) · hike · ⭐ **Stone Cliff Trail, out-and-back along the river from camp.** ✅ AllTrails: 5.8 mi, 377 ft, Moderate, ~2h moving, so about an hour of this is sitting by the water. Turn around wherever the day says. *(AllTrails, 2026-10-07)*
@@ -220,13 +220,13 @@ overnight:
 - 4:30 → 4:40 (10m) · drive · → Arrowhead. Sunset 6:45.
 
 **Meals**
-- B: bought — Tudor’s Biscuit World, Oak Hill, 6 AM
+- B: bought — Tudor’s Biscuit World, Oak Hill, after the 6:45 wake (was: "6 AM", left over from the 5:45 alarm; fixed 2026-10-12)
 - L: **O-L2** ⭐ pressed muffuletta — ciabatta, 60g Genoa salami, 40g capicola, 50g provolone, olive salad, oil. Built last night, pressed overnight. Plus roasted almonds, 2 bars, pretzels (~1,200 kcal across the day). **Everything in it is cured, aged or oil-packed** — ten hours unrefrigerated in a pack, and it is genuinely better squashed.
 - D: bought — chili cook-off, cash
 
 #### Highlights
 
-The free, legal version: the roads are open to pedestrians even though the trails are closed and patrolled. You watch from directly below the jump zone instead of from the deck with everyone else. **The bottom is the whole day now** — no deck. The rappellers are visible from below too.
+The free, legal version: the roads are open to pedestrians *(officialbridgeday.com FAQ)*. Whether the park trails are closed and patrolled that day is **unverified** (`log.md` 2026-09-29). You watch from directly below the jump zone instead of from the deck with everyone else. **The bottom is the whole day now** — no deck. The rappellers are visible from below too.
 
 #### Warnings
 
@@ -649,7 +649,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 ***The September crate (Sept 13 run) is bought** (confirmed Sept 28) — **use it first**: maple packets work in power oats in place of plain oats (less protein, more sugar — add the whey), pecans top the oats, and the dried apricots and mango are usable: dried fruit was cleared 2026-10-04 (`me/food.md`; was: "wait until the dried-fruit allergy question is answered"). Buy only what the crate is missing.*
 
 - Plain oats (big canister) · whole milk powder · whey protein · peanut butter jar + 6 PB packets · brown sugar
-- Plain potato flakes · real bacon bits · 1 ramen block · couscous · Brami ×2 boxes · dried tortellini · Stove Top ×1 box · gravy packets ×2 · bouillon
+- Plain potato flakes · real bacon bits · 2 ramen blocks (Oct 18 and 19 lunches; was: 1) · couscous · Brami ×2 boxes · ~~dried tortellini~~ (no meal uses it since the Sept 28 staples rewrite) · Stove Top ×1 box · gravy packets ×2 · bouillon
 - **Pull-tab cans only:** black beans ×2, kidney beans ×1, cannellini ×1, diced tomatoes ×1 — a forgotten opener at Linville means no dinner
 - Chicken pouches ×9 · summer sausage ×1 · jerky · jarred marinara ×1 · mild chili and mild taco seasoning · parmesan wedge · olive oil squeeze bottle
 - Large tortillas ×2 packs · bagels ×4 · Fritos · pretzels · mustard · honey packets · shelf-stable protein shakes ×2
@@ -686,7 +686,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - 3 fuel canisters. Eleven days, and cold air drops canister output.
 - Long-handled spoon — the oats bag and the no-water dinners are eaten from deep containers
-- Wide-mouth thermos — Oct 19 tortellini, Oct 20 couscous, Oct 22 oats
+- Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats (was: "Oct 19 tortellini", fixed 2026-10-12)
 - 2L pot with lid (the lid drains, steams and holds heat) · insulated mug (gravy) · spork
 - Folding knife · collapsible wash basin · sponge · biodegradable soap · 2 bandanas
 - Linville water carry: ~12 L / 3.2 gallons for 2.5 days. Absorb-the-water meals mean none of it gets drained away.
@@ -732,14 +732,14 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - [x] ✅ Oct 15 dinner — Stove Top + chicken + gravy at the primitive site, carried water. Settled Sept 28 (the old biergarten plan is gone).
 - [ ] Price and phone-check ONE motel in Newland / Linville Falls / Morganton before leaving Ohio — the Linville bail-out is first-come too
-- [ ] ⚠️ CALL 800-927-0263 — Fayette Station Road parking on Bridge Day.
+- [ ] Call 800-927-0263 — Fayette Station Road parking on Bridge Day. Nice-to-have: the shuttle is an acceptable fallback (was: ⚠️ blocking; fixed 2026-10-12)
 - [ ] Sign the Arrowhead waiver before arrival — every camper needs one
 - [ ] Pre-mix at home to match the menu: oats ×4 (the Oct 23 one double-bagged as the power-oats bag), couscous ×2, hot chocolate ×3. No rice
 - [ ] Buy block ice twice: Fayetteville Oct 16, Brevard Oct 20
 - [ ] Fill three 1-gallon water jugs in Brevard before leaving for Linville — ~12 L total carry
 - [ ] Buy pull-tab cans only — a forgotten can opener at Linville means no dinner
 - [ ] Call Grandfather Ranger District (828) 652-2144 — FS 210 site availability, the 200-ft camping Forest Order, and Table Rock loop routing given the washed-out Spence Ridge bridge
-- [ ] Day 1, 1:05: call Canyon Rim (304) 574-2115 for Stone Cliff status
+- [ ] Call Canyon Rim (304) 574-2115: Stone Cliff status, plus whether Fayette Station Rd and the Fayetteville Trail are open to walkers on Bridge Day after the August floods. Day 1 at 1:05 at the latest
 - [ ] Day 2 at Canyon Rim Visitor Center (11:15): ask about Keeneys Creek Road condition for a 5.9 in clearance car
 - [x] ✅ Arrowhead ref ROTXCV — confirmed Oct 16–18, 2 nights, on the booking site
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
@@ -774,8 +774,8 @@ Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisi
 
 ### Fayette Station Road parking on Bridge Day.
 
-**Blocks:** Day 3 — the whole day
-The walk-to-the-bottom plan is free and legal; the roads are open to pedestrians even though the trails are closed and patrolled. What's unconfirmed is **where you can legally park at the top.** Fayette County Chamber, 800-927-0263. Get this before departure — the fallback (Fayetteville HS at 7:45, shuttle at 8:30, deck 9–3) is a completely different day and you don't want to discover it at 7 AM.
+**Blocks:** Nothing on its own; nice-to-have *(stated 2026-09-29: "I'll take the shuttle if I can't find parking, no big deal")*. (was: "Blocks Day 3, the whole day"; fixed 2026-10-12)
+**Order of preference** *(stated 2026-09-29, `log.md`)*: walk from Arrowhead via the Fayetteville Trail (~4 mi each way, ~1,300 ft back up; only if the park says trails are open) → park at the top and walk down (Chamber, 800-927-0263, for where) → the shuttle to the **deck** (Fayetteville HS at 7:45, shuttle at 8:30). The shuttle fallback is a morning plan. The question that does matter is whether Fayette Station Rd is open to walkers after the August floods: ask Canyon Rim, (304) 574-2115. Whether the park trails are closed and patrolled is **unverified**.
 
 ### The two Linville nights have no fallback written down.
 
@@ -829,6 +829,8 @@ There are **no designated campsites inside Linville Gorge Wilderness at all** �
 Sources: [Asheville Trails](https://ashevilletrails.com/linville-gorge/camping/) · [Linville Gorge overnight permits](https://www.recreation.gov/permits/4675331) · [Linville Falls Campground policies](https://linvillefalls.com/policies/) · [Mortimer on Outdoorithm](https://outdoorithm.com/campgrounds/nc/national-forests-in-north-carolina/mortimer-campground)
 
 ### The lodging in the master file does not match the lodging in your inbox
+
+✅ **Resolved:** Arrowhead is confirmed Oct 16–18, ref ROTXCV, on the booking site (§ Lodging). Kept as history. *(noted 2026-10-12)*
 
 The master file says Arrowhead Bike Farm, Oct 15–17, three nights, reserved. The confirmation email says the original booking was Oct 15 3 PM to Oct 17 11 AM — **two nights**. On Sept 1 you asked to move it forward a day to Oct 16–18 and were told by phone that it was done, with no revised confirmation ever sent. So the plan, the original booking, and the current booking are three different things, and only one of them is written down anywhere.
 

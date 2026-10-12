@@ -204,3 +204,7 @@ Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Go
 - **Bridge Day watch: 1–2 hours,** not 2h 30m. *(stated 2026-10-07)*
 - **Watch:** Day 2 is now ~9–10 mi on foot, the day before a 9-mile Day 3. Long Point is the first cut.
 - **Fixed in passing:** places.yaml had Arrowhead as nights 1–3. It's nights 2–3.
+
+## 2026-10-12 · Preflight T-3: stale lines fixed
+
+Fixed in `trip.md` after the T-3 preflight, with Colin's go: Bridge Day parking downgraded to nice-to-have (per 2026-09-29), the walk-from-Arrowhead preference order written into the open question, "trails closed and patrolled" marked unverified, the Fayette Station flood question added to the Canyon Rim call, Tudor's "6 AM" removed, thermos Oct 19 → trunk chili, ramen ×2, dried tortellini struck, and the Arrowhead lodging note marked resolved. **Forecast flag, not applied** (AccuWeather, fetched 2026-10-12): Fayetteville low 33°F on Sat Oct 17 (the Arrowhead night) vs the Weather table's "40s"; thunderstorms ~0.7 in on Thu Oct 15 night at Stone Cliff.
