@@ -1021,7 +1021,7 @@ overnight:
 - 10:30 → 2:30 (4h) · geology · **Mistaken Point guided tour**: a 30-min drive in your own car, then a 6 km round-trip walk over coastal barrens to fossil beds of Ediacaran life dated 565 and 579 million years, the oldest multicellular fossils known. $23, **reservations required and they fill well ahead**; daily at 10:30 or 12:30 mid-May to mid-October; cancelled for thunderstorms or very high wind *(mistakenpoint.ca/tour, page read 2026-10-08; gov.nl.ca, snippet)*. Pack lunch
 - 2:30 → 3:10 (40m) · drive · → St. Vincent's Beach, on the Irish Loop heading west · 📍 St. Vincent's Beach Newfoundland
 - 3:10 → 4:30 · stop · **Whales from the beach**: the beach drops to 42 ft right away, so in capelin season (June–July, timing unpredictable) humpbacks feed 10–50 m offshore *(YouTube, Kill or Cure, 2026)*. A waiting game; leave by 4:30 regardless
-- 4:30 → 6:39 (2h 09m) · drive · St. Vincent's → Argentia via Route 90 and 91 · 📍 Argentia Sunset RV Park
+- 4:30 → 6:39 (2h 09m) · drive · St. Vincent's → Argentia via Route 90 and 91. ⚠️ **Route 91 was "all gravel" and slow in July 2023** *(YouTube, Overland Pioneers, "Expedition Newfoundland", 2023)*; the province's 2025–26 roads plan lists work on Route 91 near Placentia *(vocm.com, 2025-04-03, snippet)*. Current surface not confirmed. The routed time may be optimistic; the all-paved alternative (Route 90 north to the TCH, then Route 100) isn't routed · 📍 Argentia Sunset RV Park
 
 **Meals**
 - B: made at camp
