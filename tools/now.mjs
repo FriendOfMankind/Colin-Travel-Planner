@@ -13,6 +13,7 @@
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
@@ -124,6 +125,12 @@ const needsRetro = trips.filter((t) => t.end && t.end < TODAY && !t.retro && t.r
 if (needsRetro.length) say("", `## Retro pending`, ...needsRetro.map((t) => `- ${t.r.title}: trip ended ${fmt(t.end)} → /retro ${t.slug}`));
 const stale = trips.filter((t) => t.dated && t.end < TODAY && t.r.status !== "done");
 if (stale.length) say("", `## Stale status`, ...stale.map((t) => `- ${t.slug} ended ${fmt(t.end)} but is still \`${t.r.status}\` → set status: done`));
+
+// The gardener's free mechanical pass (tools/garden.mjs). Silent when clean.
+try {
+  const g = execFileSync(process.execPath, [join(ROOT, "tools/garden.mjs"), TODAY, "--brief"], { encoding: "utf8" }).trim();
+  if (g) say("", `## Drift`, g);
+} catch { say("", `## Drift`, `- tools/garden.mjs failed: run it by hand to see why.`); }
 
 if (gear.length) say("", `## Gear not settled (me/gear.md)`, `- ${gear.join(" · ")}`);
 

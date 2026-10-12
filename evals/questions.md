@@ -55,6 +55,10 @@ The keys were written from the files as they stand on 2026-09-28 (updated after 
 
 Real contradictions and stale facts already in the data. The weekly gardener has to find these on its own before it earns a schedule.
 
+*Status (2026-10-12):* `/gardener` is built. Its first trial run (Colin slice only) found the OAS-paragraph seed, and the verifier then refuted it as "stale, not wrong", which is a defensible call. The other seeds were fixed before this clone's history begins (2026-09-30), so they can't be backtested here. New seeds go below when drift turns up by hand, and the run that missed them gets **Missed** +1 in `garden/runs.md`.
+
+- **"A retro question for Kentucky"** (`me/hiking.md`): a question deferred to a retro that already happened. The verifier wrongly refuted it on the first trial run; it's now a mechanical check *(2026-10-12)*.
+
 - **K-L2 lecture lunch:** "confirmed workable" (Overview card + Day 2 meals) vs "conflict… either build cold or swap" (Provisions → Critical slots). `trips/kentucky-2026/trip.md`
 - **Sky Bridge:** cut from Wednesday throughout, but the Notes section "Everything is now cross-checked…" still says "Sky Bridge stays on Wednesday evening". `trips/kentucky-2026/trip.md`
 - **Kentucky is over but still `status: planned`,** and `next:` still says "~Sept 16: first forecast…", 11 days in the past. `trips/kentucky-2026/trip.md` *(Fixed at cutover 2026-09-29. The class stays a seed: any trip past its end date that isn't `done`.)*
