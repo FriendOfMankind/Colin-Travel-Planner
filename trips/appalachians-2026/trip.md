@@ -434,7 +434,7 @@ overnight:
 - 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
 - 1:00 → 1:15 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
 - 1:15 → 3:15 (2h) · hike · **Hawksbill**, 2.4 mi RT / ~700 ft, summit 4,009 ft. Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak.<br><br>⭐ **He hikes it today specifically so he knows it in the dark tomorrow.** Note the boulder lot, the turns, and where the split is.
-- 3:15 → 3:50 (35m) · drive · → Table Rock picnic area.
+- 3:15 → 3:50 (35m) · drive! · → Table Rock picnic area. ⚠️ **The paved road to the Table Rock picnic area is gated** (Helene damage); park at the gate and walk ~1.2–1.4 mi of steep pavement each way *(source: AllTrails Table Rock Trail reviews, Jul 2 / Jul 21 / Oct 6, 2026, read 2026-10-12; Burke County Tourism lists the picnic area "CLOSED 2026")*. Not yet re-timed for the walk; see Open questions.
 - 3:50 → 6:20 (2h 30m) · sunset · **The Chimneys at sunset** — rock towers on the rim. Sunset **6:44** (recomputed; the plan said 6:41).
 - 6:55 → 7:30 (35m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
@@ -477,8 +477,8 @@ overnight:
 - 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **7:41** (recomputed; the plan said 7:38 — three more minutes in the dark). **The best photograph available on the entire trip, and it costs an alarm.**
 - 8:30 → 9:05 (35m) · hike · Descend.
 - 9:05 → 9:50 (45m) · stop · Real breakfast at camp. ⚠️ **No water on site — low-cleanup only.**
-- 9:50 → 10:25 (35m) · drive · → Table Rock picnic area.
-- 10:25 → 3:55 (5h 30m) · hike! · **Table Rock Loop**, 7.5 mi, 2,000 → 4,100 ft. Little Table Rock → Spence Ridge → Table Rock Gap → summit. Rugged and rocky. ⚠️ **The Spence Ridge bridge over the Linville River is washed out.** The east-rim loop shouldn't need it — **confirm routing with Grandfather Ranger District, (828) 652-2144.**
+- 9:50 → 10:25 (35m) · drive! · → Table Rock picnic area. ⚠️ **The paved road to the Table Rock picnic area is gated** (Helene damage); park at the gate and walk ~1.2–1.4 mi of steep pavement each way *(source: AllTrails Table Rock Trail reviews, Jul 2 / Jul 21 / Oct 6, 2026, read 2026-10-12; Burke County Tourism lists the picnic area "CLOSED 2026")*.
+- 10:25 → 3:55 (5h 30m) · hike! · **Table Rock Loop**, 7.5 mi, 2,000 → 4,100 ft. Little Table Rock → Spence Ridge → Table Rock Gap → summit. Rugged and rocky. ⚠️ **Little Table Rock Trail has heavy Helene blowdown:** "unbelievable tree damage, and you can easily get lost" (Apr 2025), "the first 2 miles … an unrelenting obstacle course of downed trees" (Jan 2025); AllTrails now lists it as closed *(AllTrails reviews and search listing, read 2026-10-12)*. ⚠️ **The Spence Ridge bridge over the Linville River is washed out.** The east-rim loop shouldn't need it — **confirm routing with Grandfather Ranger District, (828) 652-2144.**
 - 3:55 → 4:30 (35m) · drive · → camp. Sunset 6:43.
 
 **Meals**
@@ -608,9 +608,10 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 | ✅ Looking Glass Rock | 6 | 6.5 mi (plan) · AllTrails 6.0 mi | ~1,700 ft · AllTrails 1,699 ft | Moderate | 4h 30m budgeted · AllTrails ~3h 30m | ✅ Best-corroborated hike on the trip. The budget has real margin. |
 | Daniel Ridge Loop + Falls | 6 | ~4.0 mi (est) | — | Easy–moderate | 2h 15m | Turn LEFT at the Looking Glass junction. |
 | Hawksbill (daylight recon) | 8 | 2.4 mi | ~700 ft | Moderate | 2h | Verified in source. Trail on the RIGHT side of the road; at the summit split GO RIGHT. |
-| The Chimneys | 8 | ~2.0 mi (est) | — | Easy–moderate | 2h 30m | Sunset from the rim towers. |
+| The Chimneys | 8 | ~2.0 mi (est) · AllTrails 1.8 mi via MST | AllTrails 308 ft | Easy–moderate | 2h 30m | Sunset from the rim towers. ⚠️ Plus ~1.2–1.4 mi each way of gated paved road (AllTrails reviews, 2026). |
 | ⭐ Hawksbill at sunrise | 9 | 2.4 mi | ~700 ft | Moderate, in the dark | 2h 45m | Same lot, same trail, hiked yesterday on purpose. |
-| Table Rock Loop | 9 | 7.5 mi | ~2,100 ft | Rugged | 5h 30m | ⚠️ Spence Ridge river bridge washed out — confirm routing, (828) 652-2144. Release valve: 2.4 mi out-and-back instead. |
+| Table Rock Loop | 9 | 7.5 mi | ~2,100 ft | Rugged | 5h 30m | ⚠️ Spence Ridge river bridge washed out — confirm routing, (828) 652-2144. ⚠️ Little Table Rock Trail blown down / listed closed, and the picnic-area road is gated (AllTrails, 2025–26). Release valve: 2.4 mi out-and-back instead. |
+| Table Rock + Chimneys from Table Rock Gap (alternative, not chosen) | 9 | ✅ 6.0 mi | ✅ 1,496 ft | Hard | — | Out-and-back from the Spence Ridge side; reaches both summits without Little Table Rock or the gated road. Where its trailhead sits relative to the gate is not confirmed. *(AllTrails, 2026-10-12)* |
 | ⭐ Mount Rogers via Wilburn Ridge | 10 | 8.0 mi | ~1,455 ft | Moderate | 6h | Verified in source. Summit is wooded — the ridge is the payoff. Fatman's Squeeze, wild ponies. |
 | Hurricane Knob (optional) | 11 | 1.0 mi | — | Easy | 45m | From the campground, in the dark at 6 AM. |
 
@@ -789,7 +790,8 @@ Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallb
 
 ### Table Rock loop routing with the Spence Ridge bridge out.
 
-**Blocks:** Day 9 afternoon
+**Blocks:** Day 8 sunset and Day 9 afternoon
+**New 2026-10-12:** the paved road to the Table Rock picnic area is gated, so both days start with ~1.2–1.4 mi of steep pavement each way, and the Day 8 return is in the dark. Little Table Rock Trail is badly blown down and AllTrails lists it as closed (Hikes table, `log.md` 2026-10-12). Added to the 7.5 mi loop and the 2.4 mi Hawksbill sunrise, the road walk makes Day 9 ~12.5 mi (arithmetic from the plan's figures), against the ~10 mi ceiling. Not yet decided: keep the loop, take the 6 mi Table Rock Gap out-and-back, or make the release valve plan A.
 The east-rim loop shouldn't need the washed-out river bridge, but that's an inference, not a confirmation. Grandfather Ranger District, (828) 652-2144. If it does need it, the release valve is the 2.4 mi out-and-back through The Chimneys.
 
 ### Print the confirmations, especially Hurricane.
