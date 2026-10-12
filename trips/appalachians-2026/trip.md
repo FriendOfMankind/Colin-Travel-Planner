@@ -432,11 +432,12 @@ overnight:
 - 10:15 → 10:45 (30m) · drive · **Left fork** at the small brown Table Rock sign, through Gingercake Acres. Pavement ends in ~1 mi and becomes **FS 210** — same road, two numbers. · 📍 Table Rock Picnic Area Linville Gorge NC
 - 10:45 → 12:15 (1h 30m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better.
 - 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
-- 1:00 → 1:15 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
-- 1:15 → 3:15 (2h) · hike · **Hawksbill**, 2.4 mi RT / ~700 ft, summit 4,009 ft. Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak.<br><br>⭐ **He hikes it today specifically so he knows it in the dark tomorrow.** Note the boulder lot, the turns, and where the split is.
-- 3:15 → 3:50 (35m) · drive · → Table Rock picnic area.
-- 3:50 → 6:20 (2h 30m) · sunset · **The Chimneys at sunset** — rock towers on the rim. Sunset **6:44** (recomputed; the plan said 6:41).
-- 6:55 → 7:30 (35m) · drive! · → camp. **Dark on FS 210 — go slow.**
+- 1:00 → 5:15 (4h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 9, because the Table Rock road is gated, `log.md` 2026-10-12)
+- 5:15 → 5:30 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
+- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
+- 6:15 → 7:05 (50m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
+- 7:05 → 7:40 (35m) · hike! · **Down by headlamp — this is the recon.** Tomorrow's 6:30 climb is in the dark, so walk it once in the dark now. Headlamp and layers.
+- 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
 **Meals**
 - B: thermos — **power oats**, made at Davidson River before the 6:30 departure while there is still a tap. Eaten on the road (~980 kcal)
@@ -445,7 +446,7 @@ overnight:
 
 #### Highlights
 
-Peak color week in the corridor the whole trip was sequenced around. Hawksbill today is reconnaissance for tomorrow's sunrise — that's the entire reason it's on the schedule twice.
+Peak color week in the corridor the whole trip was sequenced around. Hawksbill at sunset is reconnaissance for tomorrow's sunrise, walked down in the dark on purpose — that's the entire reason it's on the schedule twice. (was: daylight recon at 1:15 and the Chimneys at sunset; changed 2026-10-12)
 
 #### Warnings
 
@@ -459,7 +460,7 @@ noSignal: FS 210 / Linville Gorge — no cell service. All day.
 tagline: 4,009 feet, the river 2,000 below, peak color. It costs an alarm.
 type: the payoff
 driving: ~1h 25m
-slack: 2 hours before dark. Day total ~10 mi — right at the ceiling.
+slack: "~2 hours before dark, more if the out-and-back runs faster than budgeted. Day total ~8.4 mi (2.4 Hawksbill + 6.0 Table Rock Gap). (was: ~10 mi with the loop; changed 2026-10-12)"
 overnight:
   name: FS 210 roadside dispersed
   place: Linville Gorge, NC
@@ -477,8 +478,8 @@ overnight:
 - 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **7:41** (recomputed; the plan said 7:38 — three more minutes in the dark). **The best photograph available on the entire trip, and it costs an alarm.**
 - 8:30 → 9:05 (35m) · hike · Descend.
 - 9:05 → 9:50 (45m) · stop · Real breakfast at camp. ⚠️ **No water on site — low-cleanup only.**
-- 9:50 → 10:25 (35m) · drive · → Table Rock picnic area.
-- 10:25 → 3:55 (5h 30m) · hike! · **Table Rock Loop**, 7.5 mi, 2,000 → 4,100 ft. Little Table Rock → Spence Ridge → Table Rock Gap → summit. Rugged and rocky. ⚠️ **The Spence Ridge bridge over the Linville River is washed out.** The east-rim loop shouldn't need it — **confirm routing with Grandfather Ranger District, (828) 652-2144.**
+- 9:50 → 10:25 (35m) · drive! · → **Spence Ridge lot** on FS 210, for the Table Rock Gap trail. ⚠️ **Not yet confirmed that this lot is below the gate** on the Table Rock road (ask Grandfather RD). If it isn't, park at the gate and take the release valve below. · 📍 Spence Ridge Trailhead Linville Gorge
+- 10:25 → 3:55 (5h 30m) · hike! · ⭐ **Table Rock + the Chimneys from Table Rock Gap**, ✅ 6.0 mi out-and-back / 1,496 ft, Hard, top at Table Rock *(AllTrails, 2026-10-12)*. Rocky and rooty, steep both ways. AllTrails gives no time; the 5h 30m is the old loop's budget, kept as margin. *(chosen 2026-10-12)* (was: **Table Rock Loop**, 7.5 mi via Little Table Rock → Spence Ridge → Table Rock Gap. Dropped: Little Table Rock is blown down and listed closed, and the picnic-area road is gated, `log.md` 2026-10-12)
 - 3:55 → 4:30 (35m) · drive · → camp. Sunset 6:43.
 
 **Meals**
@@ -492,7 +493,7 @@ This is the day the whole trip was sequenced to reach. Hawksbill at sunrise duri
 
 #### Warnings
 
-**Release valve:** Table Rock summit out-and-back from the picnic area, ~2.4 mi through The Chimneys, instead of the full loop. Decide at the trailhead based on what the sunrise cost you. Ten miles on the day is exactly the ceiling and you started at 5:45.
+**Release valve:** park at the Table Rock road gate, walk ~1.2–1.4 mi of steep pavement to the picnic area, then Table Rock summit and the Chimneys (~4–5 mi total). Use it if the Spence Ridge lot turns out to be above the gate, or if the sunrise cost too much. (was: "from the picnic area, ~2.4 mi"; the road is gated, 2026-10-12)
 
 ### Day 10 — 2026-10-24 · Mount Rogers and Fatman's Squeeze
 
@@ -502,7 +503,7 @@ noSignal: Hurricane Campground, VA — no cell service at all and no pay phone. 
 tagline: Virginia's high point, wild ponies, and a rock slot you take your pack off for.
 type: activity + transfer
 driving: ~3h
-slack: "~25 min before sunset (6:39) at check-in — much tighter than the old 3 hours. ⚠️ **Saturday + peak color at Grayson Highlands**: a 10:15 arrival may meet a full Massie Gap lot and crowds on Wilburn Ridge. See Open questions."
+slack: "~25 min before sunset (6:39) at check-in — much tighter than the old 3 hours. **Late start kept, crowd accepted** *(chosen 2026-10-12)*. If Massie Gap is full: **Elk Garden (VA-600)**, the official overflow, ~6 mi each way to Wilburn Ridge (📋 r/NCTrails snippet), so expect less ridge. Don't park on the grass; it gets fined."
 overnight:
   name: Hurricane Campground
   place: Mount Rogers NRA, VA
@@ -607,10 +608,11 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 | Skinny Dip Falls | 5 | ~1.0 mi (est) | — | Easy | 60m | Second cut if the day slips. |
 | ✅ Looking Glass Rock | 6 | 6.5 mi (plan) · AllTrails 6.0 mi | ~1,700 ft · AllTrails 1,699 ft | Moderate | 4h 30m budgeted · AllTrails ~3h 30m | ✅ Best-corroborated hike on the trip. The budget has real margin. |
 | Daniel Ridge Loop + Falls | 6 | ~4.0 mi (est) | — | Easy–moderate | 2h 15m | Turn LEFT at the Looking Glass junction. |
-| Hawksbill (daylight recon) | 8 | 2.4 mi | ~700 ft | Moderate | 2h | Verified in source. Trail on the RIGHT side of the road; at the summit split GO RIGHT. |
-| The Chimneys | 8 | ~2.0 mi (est) | — | Easy–moderate | 2h 30m | Sunset from the rim towers. |
+| Hawksbill (sunset recon) | 8 | 2.4 mi | ~700 ft | Moderate | 2h 25m with sunset | Verified in source. Trail on the RIGHT side of the road; at the summit split GO RIGHT. Down in the dark on purpose (was: daylight recon at 1:15; changed 2026-10-12). |
+| ~~The Chimneys~~ | ~~8~~ → in Day 9 | ~2.0 mi (est) · AllTrails 1.8 mi via MST | AllTrails 308 ft | Easy–moderate | 2h 30m | Moved into the Day 9 Table Rock Gap route (2026-10-12). Was: sunset from the rim towers. ⚠️ Plus ~1.2–1.4 mi each way of gated paved road (AllTrails reviews, 2026). |
 | ⭐ Hawksbill at sunrise | 9 | 2.4 mi | ~700 ft | Moderate, in the dark | 2h 45m | Same lot, same trail, hiked yesterday on purpose. |
-| Table Rock Loop | 9 | 7.5 mi | ~2,100 ft | Rugged | 5h 30m | ⚠️ Spence Ridge river bridge washed out — confirm routing, (828) 652-2144. Release valve: 2.4 mi out-and-back instead. |
+| ~~Table Rock Loop~~ | dropped | 7.5 mi | ~2,100 ft | Rugged | 5h 30m | ⚠️ Spence Ridge river bridge washed out — confirm routing, (828) 652-2144. ⚠️ Little Table Rock Trail blown down / listed closed, and the picnic-area road is gated (AllTrails, 2025–26). Dropped 2026-10-12. |
+| ⭐ Table Rock + Chimneys from Table Rock Gap | 9 | ✅ 6.0 mi | ✅ 1,496 ft | Hard | — | Out-and-back from the Spence Ridge side; reaches both summits without Little Table Rock or the gated road. Where its trailhead sits relative to the gate is not confirmed. *(AllTrails, 2026-10-12)* **Chosen 2026-10-12.** |
 | ⭐ Mount Rogers via Wilburn Ridge | 10 | 8.0 mi | ~1,455 ft | Moderate | 6h | Verified in source. Summit is wooded — the ridge is the payoff. Fatman's Squeeze, wild ponies. |
 | Hurricane Knob (optional) | 11 | 1.0 mi | — | Easy | 45m | From the campground, in the dark at 6 AM. |
 
@@ -746,7 +748,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
 - [x] ✅ Oct 22–23: race for FS 210, no reservation (decided 2026-10-06). Ladder: Old NC 105 → motel in Newland / Linville Falls / Morganton
 - [ ] **Wed Oct 21, 10:00 AM ET: book a Linville Gorge Wilderness permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full. The 1-month batch (35/night, opened Sept 1) is gone *(Colin checked, 2026-10-06)*; the last-minute batch is **15/night, released each Wednesday at 10 AM for the coming weekend** *(source: recreation.gov permit page, pasted by Colin 2026-10-06; was: "bookable now", wrong)*. Set up the recreation.gov account and payment before leaving Ohio. Fee and cancellation: TBD. Thursday needs no permit.
-- [ ] Grandfather Ranger District call: add **is Old NC 105 open, and passable for 5.9 in clearance?** and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
+- [ ] Grandfather Ranger District call: add **where is the gate on the Table Rock road, and is the Spence Ridge / Table Rock Gap lot below it?** (added 2026-10-12), **is Old NC 105 open, and passable for 5.9 in clearance?** and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
 - [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
 - [ ] Check burn ban status across WV, NC and VA
@@ -758,7 +760,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ### Oct 24: sleep in, or beat the Saturday crowd at Grayson Highlands?
 
-**Blocks:** Day 10 — decide before the trip
+**Blocks:** Nothing. ✅ **Decided 2026-10-12: (a) keep the late start** and accept the crowd; fallback Elk Garden (VA-600) if the lot is full. Massie Gap holds ~150 cars and "fills quickly"; no fill time found (`log.md` 2026-10-12). Kept as the record:
 Colin dropped the 5:45 alarm on Sept 28 (slow mornings), which moves the Massie Gap arrival to ~10:15 on a **peak-color Saturday**. Grayson Highlands is one of the region's busiest weekend spots, and his rule is to skip a packed viewpoint. Three options: **(a)** keep the late start and accept the crowd and a possibly full lot; **(b)** an earned early start (crowd-beating is one of the reasons he gave for one); **(c)** swap the day's hike for something quieter near Hurricane. Parking capacity and fill times are not verified — ask the park.
 
 ### Oct 15 is Stone Cliff, first-come, and that is the one thing left to get right.
@@ -787,9 +789,10 @@ Bail-outs: Old NC 105 dispersed, or a motel in Newland, Linville Falls or Morgan
 **Blocks:** Day 2 afternoon
 Some sources recommend high clearance. Kaymoor is already on Day 4, so the fallback is simply to skip Nuttallburg. **Keeneys Creek Road to Nuttallburg reopened after the August floods** *(source: wvnstv.com, 2026-09-03, citing the park's Facebook; read 2026-10-06)* (was: "reported washed out"). Still open: clearance for 5.9 in, and an undated park closure of the Keeneys Creek *Rail Trail* above the Conveyor Trail junction *(nps.gov, search snippet)* — read literally that's not the headhouse climb, but confirm. Canyon Rim, (304) 574-2115.
 
-### Table Rock loop routing with the Spence Ridge bridge out.
+### Table Rock: where the gate is, and the Spence Ridge bridge.
 
 **Blocks:** Day 9 afternoon
+**New 2026-10-12:** the paved road to the Table Rock picnic area is gated, so both days start with ~1.2–1.4 mi of steep pavement each way, and the Day 8 return is in the dark. Little Table Rock Trail is badly blown down and AllTrails lists it as closed (Hikes table, `log.md` 2026-10-12). Added to the 7.5 mi loop and the 2.4 mi Hawksbill sunrise, the road walk makes Day 9 ~12.5 mi (arithmetic from the plan's figures), against the ~10 mi ceiling. **Decided 2026-10-12:** Day 9 is the 6 mi Table Rock Gap out-and-back (Table Rock + the Chimneys), and Day 8's sunset is Hawksbill instead of the Chimneys. **Still to confirm with Grandfather RD: is the Spence Ridge / Table Rock Gap lot below the gate?** If not, the release valve (walk up from the gate) is plan A.
 The east-rim loop shouldn't need the washed-out river bridge, but that's an inference, not a confirmation. Grandfather Ranger District, (828) 652-2144. If it does need it, the release valve is the 2.4 mi out-and-back through The Chimneys.
 
 ### Print the confirmations, especially Hurricane.
@@ -842,7 +845,7 @@ You wake at a site you paid for and go to sleep somewhere you have no claim on. 
 
 ### Why Hawksbill is on the schedule twice
 
-Thursday afternoon's Hawksbill hike is not a hike, it's reconnaissance. You climb it in daylight so that Friday at 6:30 AM you already know the boulder-marked lot, the trail starting on the right side of the road, and the summit split where most people go left and the views are right. The payoff is a 4,009 ft summit at sunrise with the Linville River 2,000 ft below during peak color week — the best photograph available on the entire trip, and it costs an alarm and one repeated hike.
+Thursday's sunset Hawksbill hike is reconnaissance (was: an afternoon daylight hike; changed 2026-10-12). You climb it in the last light and come down by headlamp, so that Friday at 6:30 AM you already know the boulder-marked lot, the trail starting on the right side of the road, and the summit split where most people go left and the views are right. The payoff is a 4,009 ft summit at sunrise with the Linville River 2,000 ft below during peak color week — the best photograph available on the entire trip, and it costs an alarm and one repeated hike.
 
 ### The lecture is confirmed on both trips
 

@@ -208,3 +208,30 @@ Colin pasted the recreation.gov permit page *(source: recreation.gov Linville Go
 ## 2026-10-12 · Preflight T-3: stale lines fixed
 
 Fixed in `trip.md` after the T-3 preflight, with Colin's go: Bridge Day parking downgraded to nice-to-have (per 2026-09-29), the walk-from-Arrowhead preference order written into the open question, "trails closed and patrolled" marked unverified, the Fayette Station flood question added to the Canyon Rim call, Tudor's "6 AM" removed, thermos Oct 19 → trunk chili, ramen ×2, dried tortellini struck, and the Arrowhead lodging note marked resolved. **Forecast flag, not applied** (AccuWeather, fetched 2026-10-12): Fayetteville low 33°F on Sat Oct 17 (the Arrowhead night) vs the Weather table's "40s"; thunderstorms ~0.7 in on Thu Oct 15 night at Stone Cliff.
+
+## 2026-10-12 · Research sweep: upgrades, T-3
+
+Asked: "any upgrades… look through Reddit and YouTube." Firecrawl is low on credits and Parallel Search is rate-limited, so this sweep was mostly WebSearch plus one YouTube transcript. Reddit came back as snippets only (🔒, fetch list in `research.md`).
+
+**⚠️ Linville, Table Rock side: changes Days 8–9** (applied as facts in `trip.md`, nothing decided)
+- **The paved road to the Table Rock picnic area is gated.** AllTrails Table Rock Trail reviews: "Parking lot was closed so we hiked up the paved road from the gate which was over 1 mile and very steep" (Jul 2, 2026); "The paved road is damaged from Helene and closed. Park at the gate" (Jul 21, 2026); "The road to the trail head is closed so it adds 1.2 going one way" (**Oct 6, 2026**). Burke County Tourism titles the picnic area "CLOSED 2026" *(discoverburkecounty.com, read 2026-10-12)*. 📋 No Forest Service notice found; nps/USFS pages aren't readable from here.
+- **Little Table Rock Trail is badly blown down:** "dont take Little Table Rock trail! unbelievable tree damage, and you can easily get lost… both forest roads {210&99} still havent fully reopened" (Apr 1, 2025); "the first 2 miles … an unrelenting obstacle course of downed trees" (Jan 14, 2025). AllTrails' listing title reads "Little Table Rock Trail [CLOSED]" *(search result, 2026-10-12)*.
+- **An alternative exists:** "Table Rock and The Chimneys from Table Rock Gap", 6.0 mi out-and-back, 1,496 ft, Hard, max 3,940 ft *(AllTrails, 2026-10-12)*. Where its trailhead sits relative to the gate is unknown.
+- **Hawksbill is unaffected:** in March 2026 the "road was unpaved to parking lot"; on a weekday in April, two cars at 9:40 and "by the time we got back at Noon the lot was full" *(AllTrails reviews, 2026)*. Camping beside it covers the sunrise.
+- Spence Ridge bridge: still reported out, with a wet crossing that's "dangerous after recent rain". The listings are old (check-ins from 2020) *(hikingproject.com, snippet)*.
+
+**Grayson Highlands (the Day 10 open question)**
+- Massie Gap holds "approximately 150 vehicles in designated areas only"; the ATC says it "fills up quickly" and recommends a backup hike; parking on the grass can be fined *(appalachiantrail.org, Rhododendron Gap hike page, snippet)*. **No fill time found** for an October Saturday.
+- Alternates: **Elk Garden (VA-600)** and **Fox Creek (VA-603)**, the official overflow for backpackers *(dcr.virginia.gov, snippet)*. "Elk Garden is an option (about 4m hike to Mt Rogers Spur and 6m to Wilburn Ridge)" *(r/NCTrails, snippet, undated)*.
+- YouTube: *Grayson Highlands - Fall 2023*, Tyler Campbell Outdoors, uploaded 2023-10-29, trip on a mid-October Friday, not sponsored. ~70°F; "leaves are starting to pop"; ponies seen on Wilburn Ridge via the Appalachian Spur Trail, back by the Rhododendron Trail. Heads-up: coming off Big Pinnacle clockwise, "it's pretty easy to continue on the trail down toward Massie Gap", so they turned back. Day 2 was "breezy windy foggy". Nothing about parking.
+
+**Blue Ridge Parkway / Black Balsam (Day 5)**
+- 📋 The Parkway is **open** MP 408.8–469.1, through Graveyard Fields (418.8) and Black Balsam (420.2), "as of 8:00 A.M, Thursday, October 8, 2026" *(nps.gov/blri road status, search snippet)*.
+- Graveyard Fields "consistently the first… to peak, typically the first week of October" *(windowsoverwaterfalls.com, 2026-06)*: it may be past peak on Oct 19, as the plan already expects. Fall-weekend lots fill "by 9–10am"; Monday is the right day *(same; travelnestly, 2026-08)*.
+- Lead, not researched: **Fryingpan Mountain fire tower**, a 1.5 mi out-and-back near MP 408.5 (FS 450), "best sunset" with Cold Mountain and Shining Rock in view *(explorebrevard.com, 2026-07)*.
+
+**Bridge Day:** nothing new on watching from the bottom. No 2026 Fayette Station notice was found, so the Canyon Rim call still decides it.
+
+## 2026-10-12 · Decided: Table Rock Gap, Hawksbill sunset, Grayson late start
+
+After the sweep above, Colin picked: **Day 9 (a)**, the Table Rock + Chimneys out-and-back from Table Rock Gap (6 mi) in place of the loop; **Day 8 (b)**, Hawksbill recon moved to sunset with the descent in the dark, and the Chimneys dropped from Day 8 because Day 9 covers them; **Day 10 (a)**, keep the late start at Grayson, with Elk Garden as the fallback. *(chosen 2026-10-12)* Written into `trip.md`. Still open: whether the Spence Ridge lot is below the Table Rock road gate, a question for the Grandfather RD call (Colin: "I aint callin the ranger at 9:18pm"; it moves to tomorrow).
