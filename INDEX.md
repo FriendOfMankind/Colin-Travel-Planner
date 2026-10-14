@@ -73,6 +73,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The quarry wall and the Green River — the sleeper
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 2 research notes · updated 2026-10-10
   The best payoff per dollar, as a week
+- **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-14
+  Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 1 research note · updated 2026-10-06
   Family, not a plan
 - **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 2 research notes · updated 2026-10-03
