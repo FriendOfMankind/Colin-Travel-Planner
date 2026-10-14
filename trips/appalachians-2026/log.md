@@ -235,3 +235,21 @@ Asked: "any upgrades… look through Reddit and YouTube." Firecrawl is low on cr
 ## 2026-10-12 · Decided: Table Rock Gap, Hawksbill sunset, Grayson late start
 
 After the sweep above, Colin picked: **Day 9 (a)**, the Table Rock + Chimneys out-and-back from Table Rock Gap (6 mi) in place of the loop; **Day 8 (b)**, Hawksbill recon moved to sunset with the descent in the dark, and the Chimneys dropped from Day 8 because Day 9 covers them; **Day 10 (a)**, keep the late start at Grayson, with Elk Garden as the fallback. *(chosen 2026-10-12)* Written into `trip.md`. Still open: whether the Spence Ridge lot is below the Table Rock road gate, a question for the Grandfather RD call (Colin: "I aint callin the ranger at 9:18pm"; it moves to tomorrow).
+
+## 2026-10-14 · Decided: leave Friday Oct 16, not Thursday
+
+**Why:** work came up *(stated 2026-10-14)*. Leave Avon at 7:30 Friday. The trip is now Oct 16–25, 10 days, 9 nights.
+
+**Cut:**
+- **The Oct 15 night at Stone Cliff** and the Stone Cliff Trail. Nothing was reserved, so there was nothing to cancel. This also removes a risk the plan carried: 7 first-come sites on the Thursday before Bridge Day, with ~0.25 in of overnight rain forecast *(AccuWeather, fetched 2026-10-14)*. The site research stays in the 2026-10-07 entry.
+- **Nuttallburg**, unless it's needed as the fallback (below). Kaymoor (now Day 3) was already the plan's substitute for the coal ruins.
+- **The Oct 15 meals:** the O-L1 sub and the Stove Top dinner. Chicken pouches go ×9 → ×7. Groceries move to Thursday at home.
+
+**Moved:**
+- **Endless Wall → Diamond Point to Friday afternoon** (3:10–6:10), after Canyon Rim at 1:05 and a late Secret Sandwich Society lunch. It still has to be Friday because the overlook trails close Saturday. **Fallback if the Nuttall lot is full:** Nuttallburg. How busy the lot is on a Friday afternoon before Bridge Day isn't recorded.
+- **The Long Point sunset to Bridge Day evening**, optional. ⚠️ It's a bridge-overlook trail, and those close for Bridge Day. Whether they reopen after the event ends at 3 isn't recorded, so the question is added to the Canyon Rim call.
+- **The Canyon Rim call** moves from 1:05 on the road to Thursday from home.
+
+**Forecast applied** *(AccuWeather, Fayetteville, fetched 2026-10-14)*: Fri high 77 and 55% storms, night 45 with 90% showers. Sat high 50, gusts ~30 mph, low 33 with frost possible. The Weather table's Arrowhead row is updated (was: low "40s").
+
+Days renumbered: Bridge Day is Day 2 now, Kaymoor Day 3, and Home Day 10. "Day N" references in older entries above still use the old numbers.
