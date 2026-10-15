@@ -36,7 +36,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 4 open questions · 0/61 places located · log 41 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 2, 2027 (target, unbooked; was Jul 6–26 until 2026-10-10) · 21 days · 7 open questions · 15/24 places located · log 4 entries · updated 2026-10-10
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 14, 2027 (target, unbooked; was Jul 13 – Aug 2 until 2026-10-15, when the Oregon boys week was joined on; was Jul 6–26 until 2026-10-10) · 33 days · 8 open questions · 15/24 places located · log 5 entries · updated 2026-10-15
   ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list…
 
 ## Done
