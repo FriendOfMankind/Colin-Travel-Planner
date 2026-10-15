@@ -12,7 +12,7 @@ region: Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO ro
 country: USA
 budget: ~$1,100–1,450 pp before flights, the car's base rate and gas, beds shared (estimate, 2025–26 prices; was ~$1,300–1,800 with two Tahoe rooms)
 tags: [ friends, fly-in, motels, rafting, swimming holes, hot springs, ghost towns, august, tahoe ]
-updated: 2026-10-10
+updated: 2026-10-15
 source: daydream 2026-10-10 (Colin's brief; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead or my inference)
 ---
 
@@ -30,7 +30,12 @@ Horizon: a week with friends keeps in any year on PTO. Its real only-now part is
 
 ## Next
 
-**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". **Next: get the group committed before building anything out** *(stated 2026-10-10)*. **Europe is now the alternative on the table:** Colin will ask the friends around Halloween 2026 about their budget and Europe vs. Tahoe (`wishlist/europe-atlantic-north-2027.md`, ~Jun 28–Jul 10). The friends aren't free after about Aug 12 *(stated 2026-10-14)*. The pitch for them is the proposal doc "Tahoe Boys Trip 2027" (https://claude.ai/code/artifact/75209b9e-8088-4f68-b9de-8c3b04101fd7, private until Colin shares it). Only once they're in does this become a trip page. The bookings that decide everything are the Middle Fork raft (limited availability), the Enterprise RNO minivan (driver fees in writing) and the Double Eagle cabin (its deposit turns into credit inside 30 days) *(was: "Pick the region from the showdown below…")*
+**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". **Next: get the group committed before building anything out** *(stated 2026-10-10)*. **⭐ Leading idea, pending the friends: combine it with Glacier and do Oregon** *(Colin, 2026-10-15: "combine glacier and the boys trip… commit to Columbia River / Oregon, the boys will fly in and meet me out there")*:
+- Colin drives Glacier → the Gorge on ~Jul 30–31 instead of heading home.
+- The friends fly CLE → PDX, and the Oregon showdown route runs ~Aug 1–10.
+- Colin drives Portland → Avon ~Aug 11–15 (⚠️ ~2,400 mi, unrouted).
+
+Why: August is when Husum Falls runs and South Sister is melted out, the trip fits the friends' ~Aug 12 limit, and the Legacy may replace the under-25 rental if the group is Colin + 3. What it costs: Theodore Roosevelt and its Cottonwood nights (Jul 30–31) come off the Glacier plan; it's one ~33-night trip with a 4–5 day solo drive home; and there's August smoke twice. The Glacier change isn't made in `trips/northern-rockies-2027/` yet; it waits for the friends' answer and Colin's merge. **The current Tahoe dates (Aug 7–15) run past the friends' ~Aug 12 limit** (stated 2026-10-14). Whatever wins needs re-dating. **Europe is shelved, probably to 2028 or later, for money** (`wishlist/europe-atlantic-north-2027.md`; Colin, 2026-10-15: "that's a lot of bread"). Colin asks the friends around Halloween 2026 *(was: "Europe is now the alternative on the table… Europe vs. Tahoe", stated 2026-10-14)*. The pitch for them is the proposal doc "Tahoe Boys Trip 2027" (https://claude.ai/code/artifact/75209b9e-8088-4f68-b9de-8c3b04101fd7, private until Colin shares it). Only once they're in does this become a trip page. The bookings that decide everything are the Middle Fork raft (limited availability), the Enterprise RNO minivan (driver fees in writing) and the Double Eagle cabin (its deposit turns into credit inside 30 days) *(was: "Pick the region from the showdown below…")*
 
 ## Research notes
 

@@ -57,7 +57,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 - **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-05
   The bike trip, if there's only one
-- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 5 research notes · updated 2026-10-10
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 5 research notes · updated 2026-10-15
   Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one
@@ -73,7 +73,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The quarry wall and the Green River — the sleeper
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 2 research notes · updated 2026-10-10
   The best payoff per dollar, as a week
-- **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-14
+- **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-15
   Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 1 research note · updated 2026-10-06
   Family, not a plan
