@@ -53,7 +53,7 @@ booking:
   - system: private
     what: Hood River motel, Jul 31 – Aug 4 (Colin alone Jul 31, the group from Aug 1)
     target: 2027-07-31
-    note: Candidate Sunset Motel (~$164 Aug average, vio.com, snippet). Refundable rate; confirm 4 adults per room. (Cottonwood, TRNP, Jul 30–31 was here until 2026-10-15; cut with Theodore Roosevelt.)
+    note: Recommended Sunset Motel, Standard Room 2 Queen Beds, sleeps 4 (hotwire.com, snippet); ~$164 Aug average (vio.com, snippet). Refundable rate. (Cottonwood, TRNP, Jul 30–31 was here until 2026-10-15; cut with Theodore Roosevelt.)
   - system: private
     what: White Salmon raft, Wet Planet half-day (Aug 2)
     target: 2027-08-02
@@ -65,7 +65,7 @@ booking:
   - system: private
     what: Bend motel, Aug 4–8
     target: 2027-08-04
-    note: Candidate Holiday Motel (~$128 Aug average, vio.com, snippet). Refundable rate; confirm 4 adults per room.
+    note: Recommended Holiday Motel, Double Queen for 2–4 (holidaymotelbend.com, snippet); ~$128 Aug average (vio.com, snippet). Refundable rate.
   - system: private
     what: Belknap Hot Springs Lodge, 4-guest room (Aug 8–10)
     target: 2027-08-08
@@ -830,13 +830,13 @@ type: travel
 driving: ⚠️ unrouted, the rest of the way to Hood River
 slack: Afternoon.
 overnight:
-  name: Hood River motel — candidate Sunset Motel
+  name: Sunset Motel, Hood River
   place: Hood River, OR
   kind: Motel (planned exception to car camping, the friends' week)
   cost: ~$164–226/night for the room (2026 summer averages; vio.com, KAYAK, snippets). Tonight Colin pays it alone
   checkin: TBD
   confirmation: TBD
-  notes: Night 1 of 4 in Hood River. The friends join tomorrow. Confirm the motel allows 4 adults in one room before booking.
+  notes: Night 1 of 4 in Hood River. The friends join tomorrow. Book the Standard Room, 2 Queen Beds, listed as sleeping 4, 8.8/10 over ~1,000 reviews (hotwire.com, snippet, 2026-10-15). *(was a to-check before 2026-10-15)*
 ```
 
 **Schedule**
@@ -865,13 +865,13 @@ type: travel
 driving: Hood River ⇄ PDX and back (⚠️ unrouted)
 slack: Depends on their flight time.
 overnight:
-  name: Hood River motel — candidate Sunset Motel
+  name: Sunset Motel, Hood River
   place: Hood River, OR
   kind: Motel
   cost: ~$164–226/night, split four ways
   checkin: n/a — night 2 of 4
   confirmation: TBD
-  notes: One 2-queen room plus an air mattress ("sharing beds is fine", stated 2026-10-10).
+  notes: One 2-queen room, two to a bed ("sharing beds is fine", stated 2026-10-10).
 ```
 
 **Schedule**
@@ -900,7 +900,7 @@ type: activity
 driving: Short (⚠️ unrouted)
 slack: Afternoon.
 overnight:
-  name: Hood River motel — candidate Sunset Motel
+  name: Sunset Motel, Hood River
   place: Hood River, OR
   kind: Motel
   cost: ~$164–226/night, split four ways
@@ -935,7 +935,7 @@ type: activity
 driving: Short (⚠️ unrouted)
 slack: Evening.
 overnight:
-  name: Hood River motel — candidate Sunset Motel
+  name: Sunset Motel, Hood River
   place: Hood River, OR
   kind: Motel
   cost: ~$164–226/night, split four ways
@@ -970,13 +970,13 @@ type: travel
 driving: Hood River → Maupin → Bend (⚠️ unrouted)
 slack: None.
 overnight:
-  name: Bend motel — candidate Holiday Motel
+  name: Holiday Motel, Bend
   place: Bend, OR
   kind: Motel
   cost: ~$128–160/night (2026 summer averages; vio.com, KAYAK, snippets), split four ways
   checkin: TBD
   confirmation: TBD
-  notes: Night 1 of 4. Budget motel, so expect thin walls (vio.com review summary).
+  notes: Night 1 of 4. Book the Double Queen, "perfect for 2–4 people" (holidaymotelbend.com, snippet). Budget motel, so expect thin walls (vio.com review summary). A Family Suite with three queens exists if the group is 5 (agoda.com, snippet).
 ```
 
 **Schedule**
@@ -1006,7 +1006,7 @@ type: activity
 driving: Bend ⇄ Devils Lake trailhead (⚠️ unrouted)
 slack: Evening.
 overnight:
-  name: Bend motel — candidate Holiday Motel
+  name: Holiday Motel, Bend
   place: Bend, OR
   kind: Motel
   cost: ~$128–160/night, split four ways
@@ -1040,7 +1040,7 @@ type: activity
 driving: Short (⚠️ unrouted)
 slack: Midday.
 overnight:
-  name: Bend motel — candidate Holiday Motel
+  name: Holiday Motel, Bend
   place: Bend, OR
   kind: Motel
   cost: ~$128–160/night, split four ways
@@ -1075,7 +1075,7 @@ type: rest
 driving: In town
 slack: This day IS the slack, and the smoke/weather spare.
 overnight:
-  name: Bend motel — candidate Holiday Motel
+  name: Holiday Motel, Bend
   place: Bend, OR
   kind: Motel
   cost: ~$128–160/night, split four ways
@@ -1430,7 +1430,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Belknap Hot Springs Lodge, Aug 8–10** — book first, Oct–Nov 2026. 18 rooms, few take 4.
 - [ ] **White Salmon raft, Aug 2** (Wet Planet) — 2027 calendar live; refundable to 7 days out.
 - [ ] **Deschutes full day, Aug 4** (Deschutes River Adventures) — winter; deposit refundable 30+ days out.
-- [ ] **Hood River motel Jul 31 – Aug 4, Bend motel Aug 4–8** — refundable rates; confirm 4 adults per room.
+- [ ] **Sunset Motel, Hood River, Jul 31 – Aug 4 (2-queen, sleeps 4) and Holiday Motel, Bend, Aug 4–8 (Double Queen)** — refundable rates.
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point.
