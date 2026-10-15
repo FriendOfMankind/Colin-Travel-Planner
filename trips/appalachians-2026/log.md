@@ -235,3 +235,13 @@ Asked: "any upgrades… look through Reddit and YouTube." Firecrawl is low on cr
 ## 2026-10-12 · Decided: Table Rock Gap, Hawksbill sunset, Grayson late start
 
 After the sweep above, Colin picked: **Day 9 (a)**, the Table Rock + Chimneys out-and-back from Table Rock Gap (6 mi) in place of the loop; **Day 8 (b)**, Hawksbill recon moved to sunset with the descent in the dark, and the Chimneys dropped from Day 8 because Day 9 covers them; **Day 10 (a)**, keep the late start at Grayson, with Elk Garden as the fallback. *(chosen 2026-10-12)* Written into `trip.md`. Still open: whether the Spence Ridge lot is below the Table Rock road gate, a question for the Grandfather RD call (Colin: "I aint callin the ranger at 9:18pm"; it moves to tomorrow).
+
+## 2026-10-15 · Departure moved to Fri Oct 16
+
+*(stated 2026-10-15: "I'll be leaving tomorrow morning")* Leaving a day late. Bridge Day itself is unchanged: still Sat Oct 17 *(WVDOT and officialbridgeday.com, search snippets, 2026-10-15)*.
+
+**What it cost:** the Oct 15 night at Stone Cliff and its river trail; the old Day 2's Canyon Rim stop as planned, Secret Sandwich Society and **Nuttallburg + the Conveyor Trail** (the Henry Ford coal town; its full write-up is in git history, and its hike-table row is struck, not deleted). Kaymoor on Day 3 still covers the unrestored coal ruins.
+
+**What it kept:** Endless Wall, which has to be Friday because the overlook trails close Saturday, now at 12:30 straight off the drive, and Long Point at sunset from the tent. Arrowhead was already booked Oct 16–18, so night one has a bed and the Stone Cliff first-come gamble is gone.
+
+**Plan changed in the same commit:** the old Days 1–2 merged into a new Day 1, the rest are renumbered (Day 3 → Day 2 … Day 11 → Day 10), and the trip is 10 days / 9 nights. Leave by 7:30 at the latest; 6:30 buys ~45 min of slack. The new Day 1 times after Canyon Rim are estimates, not measured drives.
