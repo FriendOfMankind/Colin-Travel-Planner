@@ -11,7 +11,7 @@ window: ~Jun 28 – Jul 10, 2027, in the gap between Newfoundland (home ~Jun 24)
 region: Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto
 country: Spain, Portugal
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, geology, coast, canoe, seafood ]
-updated: 2026-10-14
+updated: 2026-10-15
 source: daydream 2026-10-14 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my inference)
 ---
 
@@ -36,9 +36,9 @@ Horizon: a 13-day fly-in fits a two-week PTO allowance, so on the rule in `me/ca
 
 ## Next
 
-**Wait for the friends** (Colin asks around Halloween 2026): their budget, and Europe vs. Tahoe *(stated 2026-10-14)*. Nothing gets built out before that.
+**Shelved, probably to 2028 or later, for money** *(Colin, 2026-10-15: "that's a lot of bread honestly, maybe we wait until we get some more bankroll before Europe")*. The 2027 boys trip leans Oregon, combined with Glacier (`wishlist/august-friends-2027.md`). It still keeps on PTO, so nothing is lost by waiting. *(was: "Wait for the friends (Colin asks around Halloween 2026): their budget, and Europe vs. Tahoe", stated 2026-10-14)*
 
-If it's Europe, these are the decisions that shape everything:
+When it's revived, these are the decisions that shape everything:
 1. **Direction.** Bilbao → Porto (calmer, done before the festivals) or Porto → Bilbao (ending in the Basque Country during San Fermín and BBK Live). See the 2026-10-14 notes.
 2. **Who drives.** If everyone is under 25, it's the same van problem as the Tahoe plan. Also: who can drive stick?
 3. **Passport expiry.** It must be valid 3 months past leaving Schengen, and Colin's expiry date isn't recorded (`me/gear.md`).
