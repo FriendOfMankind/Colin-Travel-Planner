@@ -332,3 +332,27 @@ FLIGHTS, CLE-RNO round trip: TBD. Google Flights shows a typical $385-660, with 
 - **Not building it out yet.** First make sure the group is in and committed; the proposal doc is the tool for that *(stated 2026-10-10)*
 - **Sharing beds is fine, and so is an air mattress on the floor**; "we are willing to cut corners financially" *(stated 2026-10-10)*. So: one 2-queen room plus an air mattress at South Lake Tahoe instead of two rooms (was: two rooms, $192–317 pp → now ~$95–160 pp), and food at ~$40–60/day (my estimate, was $60–80). The proposal's total is **~$1,100–1,450 pp** before flights, the car's base rate and gas *(was ~$1,300–1,800)*
 - **Keep Clouds Rest**: "that seems like a big challenge and a full day's worth of adventure" *(stated 2026-10-10)*. Gaylor/Great Sierra Mine stays optional the day after
+
+### 2026-10-15 · Oregon costed (the Glacier-combo version, Aug 1–10)
+- **Shape:** 9 nights, Sun Aug 1 → Tue Aug 10. Hood River ×3, Bend ×4 (Sat Aug 7 is the spare/off day), Belknap ×2. The friends fly CLE ⇄ PDX; Colin picks them up in the Legacy. Priced for **4 people (Colin + 3)**, one 2-queen room plus an air mattress per stop, per the 2026-10-10 "cut corners" call. ⚠️ Whether each motel allows 4 adults in a room: not checked.
+- **Total: ~$980–1,310 pp before flights**, plus Hood River/Bend lodging tax and guide tips (both TBD). Rounded in the pitch to **~$1,000–1,350**. Flights add ~$250–600, so **~$1,250–1,950 all-in**. Compare Tahoe's ~$1,100–1,450, which excluded the rental's base rate and gas.
+- **Lodging, ~$329–450 pp:**
+  - Hood River: Sunset Motel August average $164 (📋 vio.com, trailing 12 months); KAYAK's Hood River motel average is $193 weeknight, with July the peak month at $226. So $164–226 × 3.
+  - Bend: Holiday Motel August average $128 (📋 vio.com); KAYAK's Bend motel July average is $160. So $128–160 × 4.
+  - Belknap: lodge rooms $140–215/night (✅ belknaphotsprings.com FAQ) plus 12.07% Lane County tax (✅ reservations page); 4-guest rooms exist. The upper pool is for overnight guests only; walk-ins get $12/hr in the lower pool (✅).
+- **Activities, ~$255–275 pp:**
+  - White Salmon half-day: Wet Planet $94 weekday / $99 weekend in July–August, Husum for ages 16+ (✅ wetplanetwhitewater.com); Columbia River Outdoors $90 (📋); River Drifters $80–87 (📋).
+  - Deschutes full day: Deschutes River Adventures $105 weekday / $119 weekend, river permit fees included. Check-in 10:30 in Maupin, the Pirate's Cove 12-ft jump, out ~3:30–4 (✅ raftdra.com, 2026-04).
+  - Bend float: tube + shuttle $28 (✅ tumalocreek.com). **The 2027 reservations open through Tumalo Creek** (✅ bendparksandrec.org).
+  - Terwilliger: $12 pp per 2 h, open until 10 pm, reopened in 2026 (✅ fs.usda.gov; 📋 pacificnorthwestcrossing.com 2026-09).
+  - Clear Lake: $10 parking, small rowboat $35/hr or large (5-person) $45/hr, same-day rental only (✅ Linn County parks).
+  - Smith Rock: $12/vehicle for non-residents (✅ smithrock.com).
+  - Northwest Forest Pass: $30/year or $5/day (✅ fs.usda.gov).
+  - South Sister: $1 pp Central Cascades day permit. Devils Lake TH quota is 150/day: 60 released 10 days ahead and 90 released 2 days ahead, at 7:00 PDT. A federal pass is also required (✅ fs.usda.gov, recreation.gov page, the 2026 quota sheet).
+- **Food:** $40–60/day × 9 = $360–540 (⚠️ the same estimate as Tahoe).
+- **Gas:** ~$35–45 pp. ⚠️ This is an assumption, not a sourced price: ~850 mi unrouted, ~25 mpg, $4–5/gal, split 4 ways.
+- **Flights CLE–PDX:** KAYAK's typical August round trip is $316–595, and July averages $497. Flights.com saw $242 for Aug 7–11 (📋, 2026).
+- **5 people:** shared costs drop ~20% each, but a rental minivan comes back (base rate TBD + ~$360 in driver fees at the Enterprise rates in this file, ~$72 pp), and Belknap needs a bigger unit.
+- **Contradiction, Eagle Creek (Tunnel Falls):** a Forest Service order closed Eagle Creek and Wahclella Falls Jan 21 – Oct 31, 2026, unless rescinded sooner (✅ fs.usda.gov alert + order PDF). oregontails.org says the trail reopened May 1, 2026 (📋, a secondary source). The FS trailhead page was updated 2026-09-16 and its excerpt doesn't mention a closure. Either way, 2027 is unknown. The Day 3 plan B is still TBD.
+- **Colin-only costs, not in the pitch:** the Glacier → Gorge leg and the ~2,400-mi drive home (⚠️ unrouted), with ~3–4 motel nights.
+- The pitch doc for the friends is "Oregon Boys Trip 2027" (https://claude.ai/artifact/V339cpNh3RGUkS5YNjUSxo, private until Colin shares it).
