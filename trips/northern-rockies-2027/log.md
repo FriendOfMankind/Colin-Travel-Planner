@@ -136,3 +136,15 @@ First `/research` pass on this trip. Tree: `research.md`. Every nps.gov and recr
 - **Makoshika: skipped** *(Colin, 2026-10-10)*. Unlinked from this trip in `bucket.yaml`, kept as a want.
 - **August**: a fly-in friends week, probably (`wishlist/august-friends-2027.md`), replacing the Eastern Sierra as the probable August week.
 - Found while recomputing: **Cottonwood (TRNP) is all-reservation since May 1 2026** (nps.gov/thro, snippet). Applied.
+
+## 2026-10-15 · Decided: west to Oregon for the boys week, Theodore Roosevelt cut
+
+- **The trip now runs Jul 13 – Aug 14** *(Colin, 2026-10-15: "update the glacier trip")*. After the last Glacier night (Apgar, Jul 29) it turns west, not home. Jul 30: a transit night toward Spokane / Coeur d'Alene. Jul 31: Hood River, a reset day (laundry, shower, repacking the car for four). Aug 1–10: the Oregon boys week with friends who fly CLE ⇄ PDX (`wishlist/august-friends-2027.md`). Aug 10–14: the drive home from Portland (⚠️ ~2,400 mi, unrouted).
+- **Theodore Roosevelt (Days 18–19) and the Cottonwood booking are cut.** Nothing had been booked. The TRNP entries in `places.yaml` stay as a record.
+- **Lodging for the boys week:**
+  - Hood River motel, Jul 31 – Aug 4 (candidate Sunset Motel; Colin alone on Jul 31).
+  - Bend motel, Aug 4–8 (candidate Holiday Motel).
+  - Belknap Hot Springs Lodge, a 4-guest room, Aug 8–10.
+  - The candidates come from 2026 price data, and none is booked.
+- **New open question:** where the camping gear goes once three friends and their bags are in the Legacy.
+- **Not done yet:** sun and moon for Days 18–33 (`_gen/sun.json` covers the old dates only; no sourced points for Oregon); routing for Glacier → the Gorge and Portland → home; the 33-day budget.
