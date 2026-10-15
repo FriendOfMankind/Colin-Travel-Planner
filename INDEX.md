@@ -59,7 +59,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The bike trip, if there's only one
 - **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-15
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
-- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 6 research notes · updated 2026-10-15
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 7 research notes · updated 2026-10-15
   Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one

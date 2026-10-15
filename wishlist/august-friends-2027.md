@@ -30,7 +30,7 @@ Horizon: a week with friends keeps in any year on PTO. Its real only-now part is
 
 ## Next
 
-**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". **Next: get the group committed before building anything out** *(stated 2026-10-10)*. **⭐ Leading idea, pending the friends: combine it with Glacier and do Oregon** *(Colin, 2026-10-15: "combine glacier and the boys trip… commit to Columbia River / Oregon, the boys will fly in and meet me out there")*:
+**Region decided: Tahoe** *(Colin, 2026-10-10; picked over Oregon, which the judge ranked first, and Idaho)*. The route is below, under "The chosen route". **Next: get the group committed before building anything out** *(stated 2026-10-10)*. **✅ A group is in for Oregon, Aug 1–10** *(Colin, 2026-10-15: "I found a group that is interested in going, August one through 10th"; the headcount isn't recorded yet, and it decides the car)*. Booking order is in the 2026-10-15 "When to reserve" note. *(was: "⭐ Leading idea, pending the friends")* **The plan: combine it with Glacier and do Oregon** *(Colin, 2026-10-15: "combine glacier and the boys trip… commit to Columbia River / Oregon, the boys will fly in and meet me out there")*:
 - Colin drives Glacier → the Gorge on ~Jul 30–31 instead of heading home.
 - The friends fly CLE → PDX, and the Oregon showdown route runs ~Aug 1–10.
 - Colin drives Portland → Avon ~Aug 11–15 (⚠️ ~2,400 mi, unrouted).
@@ -356,3 +356,18 @@ FLIGHTS, CLE-RNO round trip: TBD. Google Flights shows a typical $385-660, with 
 - **Contradiction, Eagle Creek (Tunnel Falls):** a Forest Service order closed Eagle Creek and Wahclella Falls Jan 21 – Oct 31, 2026, unless rescinded sooner (✅ fs.usda.gov alert + order PDF). oregontails.org says the trail reopened May 1, 2026 (📋, a secondary source). The FS trailhead page was updated 2026-09-16 and its excerpt doesn't mention a closure. Either way, 2027 is unknown. The Day 3 plan B is still TBD.
 - **Colin-only costs, not in the pitch:** the Glacier → Gorge leg and the ~2,400-mi drive home (⚠️ unrouted), with ~3–4 motel nights.
 - The pitch page for the friends is **"Oregon, August 1–10"** (https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP, private until Colin shares it), built in the same shape as the Newfoundland friends' page *(asked 2026-10-15; was: the Claude Docs doc "Oregon Boys Trip 2027", https://claude.ai/artifact/V339cpNh3RGUkS5YNjUSxo, superseded)*.
+
+### 2026-10-15 · When to reserve (Oregon, Aug 1–10)
+Computed dates come from `node` date arithmetic on the trip dates, not hand-typed. ✅ = read on the operator's own page today.
+- **Now, Oct–Nov 2026:**
+  - **Belknap Hot Springs** (Aug 8–10). Only 18 lodge rooms, and few take 4 guests. Booking is "available for booking anytime" (✅ FAQ). Their homepage says "please make own reservations – no more making reservations for family, friends or groups" (✅). The cancellation policy isn't checked yet.
+  - **The White Salmon raft** (Mon Aug 2). Wet Planet's 2027 calendar is already live, with April 2027 half-days at **$99** (up from $89 in 2026), so August 2027 will likely be above $94–99. Booking takes a 50% deposit, full payment is due 30 days out, and there's a full refund for cancelling 7+ days ahead, so booking early costs nothing. The 7-day cutoff is Mon Jul 26 2027. Wet Planet says "some days… may be full months in advance" (✅ wetplanetwhitewater.com policies, FAQ, reservation page).
+- **Winter 2026–27:**
+  - **The Deschutes full day** (Wed Aug 4). Deposits are refundable if cancelled 30+ days ahead (cutoff Mon Jul 5 2027), turn into a one-year credit inside that, and are lost inside 5 days. DRA says it's "usually sold out of spots every weekend in the summer". Ours is a weekday (✅ raftdra.com policies, 2026-04). Whether the 2027 calendar is open: not checked.
+  - **Hood River (Aug 1–4) and Bend (Aug 4–8) motels:** take refundable rates, and confirm 4 adults per room before booking (⚠️ not checked).
+- **Spring 2027:**
+  - **The friends' flights** CLE ⇄ PDX, Aug 1 / Aug 10, once fares look reasonable.
+  - **Bend tubes:** 2027 reservations go through Tumalo Creek (✅ bendparksandrec.org). The open date isn't checked.
+- **In the field:** the **South Sister permits** for Thu Aug 5. 40% of the quota releases **Mon Jul 26 2027** at 7:00 AM PDT and the rest **Tue Aug 3 2027**, $1 per person, up to 12 per reservation, and the named holder must be with the group (✅ fs.usda.gov / recreation.gov). ⚠️ On Jul 26 Colin is at Many Glacier (Jul 23–26 in `trips/northern-rockies-2027/`), so a friend should book it under their own name.
+- **No reservation possible:** the Clear Lake rowboats (day-of only), Terwilliger (first come), Smith Rock and the NW Forest Pass (pay or buy anytime).
+- **Colin's side:** a bed for Jul 30–31 between Glacier and the Gorge, and the drive home. These belong in the Glacier trip's plan, which waits for Colin's go-ahead.
