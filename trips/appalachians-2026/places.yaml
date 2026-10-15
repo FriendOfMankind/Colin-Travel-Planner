@@ -5,26 +5,26 @@ groups:
   - group: New River Gorge
     places:
       - name: Arrowhead Bike Farm
-        note: "Nights 2–3 (Oct 16–17). Long Point TH is on site. (was: Nights 1–3; Oct 15 is Stone Cliff, fixed 2026-10-07)"
+        note: "Nights 1–2 (Oct 16–17). Long Point TH is on site. (was: Nights 2–3 after Stone Cliff on Oct 15; departure moved to Oct 16, 2026-10-15)"
         maps: Arrowhead Bike Farm Fayetteville WV
         verified: true
         lat: 38.0403
         lng: -81.0805
         source: "Colin's MASTER-trip2-october-2026.md (Sept 2026), per the Trees transcription notes in log.md"
         icon: ⛺
-        days: 2–3
+        days: 1–2
         wpNote: From the source file. Long Point trailhead on site.
       - name: Canyon Rim Visitor Center
-        note: Ask about Keeneys Creek Rd
+        note: "Day 1 stop — ask the Bridge Day walk-down questions (was: ask about Keeneys Creek Rd)"
         maps: Canyon Rim Visitor Center Lansing WV
         verified: true
         lat: 38.070905
         lng: -81.075728
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🌉
-        days: "2"
+        days: "1"
       - name: Stone Cliff Campground
-        note: Night 1. Walk-in tent sites on the river; the Stone Cliff Trail starts here.
+        note: Dropped 2026-10-15 (departure moved to Oct 16). Walk-in tent sites on the river; the Stone Cliff Trail starts here.
         maps: Stone Cliff Campground Thurmond WV
         verified: false
         lat: null
@@ -48,14 +48,13 @@ groups:
         lat: null
         lng: null
       - name: Nuttallburg
-        note: 80 coke ovens. Via Keeneys Creek Rd.
+        note: Cut 2026-10-15 with the lost day. 80 coke ovens. Via Keeneys Creek Rd.
         maps: Nuttallburg Winona WV
         verified: true
         lat: 38.050062
         lng: -81.040005
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🏚️
-        days: "2"
         wpNote: Via Keeneys Creek Rd — clearance question
       - name: Kaymoor Top
         note: The Nuttallburg fallback, 5 min from camp
@@ -115,7 +114,7 @@ groups:
         lng: -82.722225
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 4–7
+        days: 3–6
       - name: Looking Glass Falls
         note: Roadside
         maps: Looking Glass Falls Pisgah Forest NC
@@ -210,7 +209,7 @@ groups:
         lng: -81.878217
         source: "Colin's MASTER-trip2-october-2026.md (Sept 2026), per the Trees transcription notes in log.md"
         icon: ⛺
-        days: 8–9
+        days: 7–8
         wpNote: A 200-ft walk east into the forest — right at the Forest Order threshold.
       - name: Table Rock picnic area
         note: End of FS 210, roughest stretch
@@ -220,7 +219,7 @@ groups:
         lng: -81.869363
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🪨
-        days: 8–9
+        days: 7–8
         wpNote: End of FS 210
       - name: Linville Falls Visitor Center
         note: ⚠️ Helene damage — verify access
@@ -244,7 +243,7 @@ groups:
         lng: -81.510294
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🐴
-        days: "10"
+        days: "9"
       - name: Hurricane Campground
         note: ⚠️ Follow written directions, NOT GPS. Marion exit 45 → VA-16 S → SR 650.
         maps: Hurricane Campground Mount Rogers National Recreation Area
@@ -253,7 +252,7 @@ groups:
         lng: -81.490372
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: "10"
+        days: "9"
         wpNote: Follow written directions, not GPS
       - name: Damascus VA
         note: ~35 min, the only real town on this leg
@@ -269,5 +268,5 @@ groups:
         lng: -81.878363
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🌄
-        days: 8–9
+        days: 7–8
         wpNote: Boulder-marked lot
