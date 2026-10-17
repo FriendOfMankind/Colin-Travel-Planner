@@ -27,7 +27,7 @@ tags:
   - first-come
   - solo
   - lodging gap
-next: "Leave Fri Oct 16 by 7:30 at the latest (6:30 buys the slack): Endless Wall has to happen today, before the overlook trails close for Bridge Day. Departure moved from Oct 15 on 2026-10-15; Stone Cliff and Nuttallburg are cut."
+next: "Sun Oct 18: slow start after the freeze, Thurmond, then south to Davidson River (check-in 2 PM). Test Starlink at the site on arrival. Kaymoor is cut (2026-10-17)."
 booking:
   - system: private
     what: Arrowhead Bike Farm (Oct 16–18)
@@ -41,7 +41,7 @@ booking:
     what: Hurricane Campground (Oct 24)
     target: 2026-10-24
     booked: true
-updated: 2026-10-15
+updated: 2026-10-17
 map:
   center: [ 37.2, -81.9 ]
   zoom: 7
@@ -128,7 +128,7 @@ overnight:
 - 3:30 → 3:50 (20m) · drive · → Arrowhead (estimate, not measured). · 📍 Arrowhead Bike Farm Fayetteville WV
 - 3:50 → 4:50 (1h) · stop · Check in (from 3 PM), sign the waiver, pitch.
 - 4:50 → 5:35 (45m) · stop · **Slack.** Shower, sit, or block ice in Fayetteville if the cooler's warm.
-- 5:35 → 6:20 (45m) · hike · **Walk to Long Point from the tent**, ~1.6 mi each way. The trailhead is at Arrowhead. · 📍 Long Point Trailhead Fayetteville WV
+- 5:35 → 6:20 (45m) · hike · ~~**Walk to Long Point from the tent**~~ **Moved to Day 2 sunset (2026-10-16)**: leaving at 10 AM put Endless Wall at 3 PM, so it took the sunset slot. **Walk to Long Point from the tent**, ~1.6 mi each way. The trailhead is at Arrowhead. · 📍 Long Point Trailhead Fayetteville WV
 - 6:20 → 7:05 (45m) · sunset · ⭐ **Long Point through sunset, 6:46.** Head-on bridge view, the classic angle, the night before Bridge Day.
 - 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required.** Fully dark ~7:15.
 - 7:50 → 9:00 (1h 10m) · food · Dinner at **Arrowhead** (kitchen till 10 PM Friday). Pies & Pints only if it's still open, which isn't recorded. ⭐ If you make it there: **the black bean pizza with pork**, the local order, and pimento cheese fries.
@@ -140,7 +140,7 @@ overnight:
 
 #### Highlights
 
-The two things that can't wait for tomorrow: the rim walk to Diamond Point before the overlook trails close, and the bridge head-on at sunset from Long Point, walked from the tent. **Cut with the lost day (2026-10-15):** Stone Cliff and its river trail, Nuttallburg and the Conveyor Trail, and Secret Sandwich Society. The coal ruins aren't lost: **Kaymoor on Day 3** is the unrestored one anyway. (was: Day 1 Stone Cliff + river trail; Day 2 Endless Wall at 8:05, Canyon Rim, Secret Sandwich Society, Nuttallburg, Long Point)
+The two things that can't wait for tomorrow: the rim walk to Diamond Point before the overlook trails close, and the bridge head-on at sunset from Long Point, walked from the tent. **Cut with the lost day (2026-10-15):** Stone Cliff and its river trail, Nuttallburg and the Conveyor Trail, and Secret Sandwich Society. (was: "The coal ruins aren't lost: Kaymoor on Day 3 is the unrestored one anyway." Kaymoor was cut too, 2026-10-17, so this trip has no unrestored coal ruin left.) (was: Day 1 Stone Cliff + river trail; Day 2 Endless Wall at 8:05, Canyon Rim, Secret Sandwich Society, Nuttallburg, Long Point)
 
 #### Warnings
 
@@ -153,7 +153,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: "~1h 30m before the chili cook-off opens at 3, then ~2h before dark. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
+slack: "**~2h 35m at camp between the walk up and Long Point** (was: ~1h 30m before the chili cook-off opens at 3, then ~2h before dark; the cook-off was dropped 2026-10-16). The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -172,13 +172,17 @@ overnight:
 - 11:00 → 1:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
 - 1:15 → 1:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
 - 1:30 → 3:00 (1h 30m) · stop · Sit down. You just climbed 800 ft. Wander Fayetteville if your legs want to. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
-- 3:00 → 4:30 (1h 30m) · event · **Chili cook-off**, Fayette County Courthouse, 3–6 PM *(source: visitfayettevillewv.com Bridge Day 2026 page, 2026-10-06)*. The food event of the day. **Cash.** · 📍 Fayette County Courthouse Fayetteville WV
-- 4:30 → 4:40 (10m) · drive · → Arrowhead. Sunset 6:45.
+- 3:00 → 3:10 (10m) · drive · → Arrowhead. (was: chili cook-off 3:00 → 4:30, Fayette County Courthouse; dropped 2026-10-16, Colin: "I don't care honestly")
+- 3:10 → 5:45 (2h 35m) · stop · Rest, eat, dry layers.
+- 5:45 → 6:30 (45m) · hike · **Walk to Long Point from the tent**, 1.6 mi each way, "one steep section just before you arrive at the point" *(source: nps.gov Long Point Trail, search snippet, 2026-10-17)*. Moved here from Day 1 on 2026-10-16. ⚠️ Whether the overlook trails are open after Bridge Day isn't recorded: if the trailhead is signed closed, don't go. · 📍 Long Point Trailhead Fayetteville WV
+- 6:30 → 7:05 (35m) · sunset · ⭐ **Long Point through sunset, 6:45.** Head-on bridge view. AccuWeather had 0% cloud at sunset (fetched 2026-10-17). Chosen over Beauty Mountain 2026-10-17 (`log.md`).
+- 7:05 → 7:50 (45m) · hike! · Walk back. **Headlamp required.**
+- 7:50 → 9:00 (1h 10m) · food · Dinner at **Arrowhead**. The kitchen is open *(confirmed: Colin, on site, 2026-10-17; its website still says "closed for the season")*. Tonight's closing time isn't recorded.
 
 **Meals**
 - B: bought — Tudor’s Biscuit World, Oak Hill, after the 6:45 wake (was: "6 AM", left over from the 5:45 alarm; fixed 2026-10-12)
 - L: **O-L2** ⭐ pressed muffuletta — ciabatta, 60g Genoa salami, 40g capicola, 50g provolone, olive salad, oil. Built last night, pressed overnight. Plus roasted almonds, 2 bars, pretzels (~1,200 kcal across the day). **Everything in it is cured, aged or oil-packed** — ten hours unrefrigerated in a pack, and it is genuinely better squashed.
-- D: bought — chili cook-off, cash
+- D: bought — Arrowhead kitchen after Long Point (was: chili cook-off, cash; dropped 2026-10-16)
 
 #### Highlights
 
@@ -188,14 +192,14 @@ The free, legal version: the roads are open to pedestrians *(officialbridgeday.c
 
 **Rules:** US-19 closed 7 AM–5 PM, all four lanes; local traffic only from Ames Heights Rd (N) and Rt 16 (S). Private vehicles cannot reach Fayette Station or Teays Landing — the road closes below Teays Landing at 6 PM Friday and cars there get towed. Riverbank spectating between Fayette Station Rapid and Fleaflicker Rapid is prohibited. No pets, bikes, carts or strollers on the bridge. **Fallback if the walk-down is closed in 2026:** leave camp 7:30, park at Fayetteville HS by 7:45, shuttle at 8:30 ($5 cash), deck until 3, chili at 3. ⚠️ The last shuttle *to* the event is 1:30 PM, so the fallback has to start in the morning. **Bags on the bridge:** no backpacks or camera bags; clear bags and fanny packs only *(source: officialbridgeday.com, 2026-10-06)*.
 
-### Day 3 — 2026-10-18 · Kaymoor, Thurmond, Then South
+### Day 3 — 2026-10-18 · Thurmond, Then South
 
 ```yaml
 date: 2026-10-18
-tagline: Population 5, then a waterfall you walk behind.
+tagline: A slow thaw, population 5, then a waterfall you walk behind.
 type: activity + transfer
 driving: ~5h 30m
-slack: "**Tighter than it was.** Kaymoor before the long drive puts arrival at Davidson River around 3:50. Cut order if it runs long: Looking Glass Falls, then Thurmond (drive straight through). **Never the Starlink test.**"
+slack: "**Kaymoor cut (2026-10-17)**, traded for a slow start after the 29°F freeze; arrival at Davidson River stays ~3:45 (was: Kaymoor at 7:55, arrival ~3:50). Cut order if it runs long: Looking Glass Falls, then Thurmond (drive straight through). **Never the Starlink test.**"
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -207,17 +211,17 @@ overnight:
 ```
 
 **Schedule**
-- 7:00 → 7:45 (45m) · stop · Break camp.
-- 7:45 → 7:55 (10m) · drive · → Kaymoor Top trailhead, ~5 min from Arrowhead. · 📍 Kaymoor Miners Trail Fayetteville WV
-- 7:55 → 9:55 (2h) · hike · ⭐ **KAYMOOR MINERS TRAIL** — promoted from fallback Sept 28. ~0.5 mi of steep switchbacks, then **800+ steps** down to the Kaymoor No. 1 mine site: *"the abandoned mine and buildings were super cool"* (AllTrails, 4.6★ over ~2,900 reviews). The climb back up is the workout. Unrestored and hard to reach — the closest thing on this trip to the Blevins farm night. The 2h is an estimate from trip reports, not a measured time. ⚠️ Reports disagree on whether the riverside town site is reachable from here — don't count on it.
-- 9:55 → 10:35 (40m) · drive · → Thurmond. · 📍 Thurmond Depot Thurmond WV
-- 10:35 → 11:00 (25m) · ruins · **Thurmond — a look, not a stop.** Cut from 1h 15m Sept 28: reports say most of its ~30 buildings still stand but **you can't go inside them**, and the depot is a restored visitor center — the Blue Heron problem. Walk the street of façades along the tracks, then go. Population 5 as of the 2010 census; in its prime it moved **95,000 passengers a year**.
-- 11:00 → 3:50 (4h 50m) · drive · → Davidson River Campground. · 📍 Davidson River Campground Pisgah Forest NC
-- 3:50 → 4:50 (60m) · stop! · Check in, set up. ⚠️ **TEST STARLINK for Wednesday — at your site, today.** In Kentucky it only worked after moving to a better sky view, so scout the fallback spot now too. Three days of buffer — use them.
-- 4:50 → 5:00 (10m) · drive · → Moore Cove trailhead. · 📍 Moore Cove Falls Trailhead Pisgah Forest NC
-- 5:00 → 6:00 (60m) · hike · ⭐ **Moore Cove Falls**, 1.4 mi — 50-ft plunge and **the trail goes behind the water**.
-- 6:00 → 6:30 (30m) · stop · *If there's light:* Looking Glass Falls — roadside, 10 min back toward camp. First thing cut. Sliding Rock is dropped (it was looking-not-sliding in October anyway). · 📍 Looking Glass Falls Pisgah Forest NC
-- 6:30 → 6:40 (10m) · drive · → camp, cook. Sunset 6:53.
+- 7:30 → 9:00 (1h 30m) · stop · Slow morning: hot breakfast, and let the sun dry the frosted fly. NWS freeze warning 1–9 AM, low 29°F (AccuWeather, fetched 2026-10-17).
+- 9:00 → 9:45 (45m) · stop · Break camp. Pack a wet fly separately and dry it at Davidson River. Checkout is 11.
+- ~~7:55 → 9:55 (2h) · hike · ⭐ **KAYMOOR MINERS TRAIL** — promoted from fallback Sept 28. ~0.5 mi of steep switchbacks, then **800+ steps** down to the Kaymoor No. 1 mine site: *"the abandoned mine and buildings were super cool"* (AllTrails, 4.6★ over ~2,900 reviews). The climb back up is the workout. Unrestored and hard to reach — the closest thing on this trip to the Blevins farm night. The 2h is an estimate from trip reports, not a measured time. ⚠️ Reports disagree on whether the riverside town site is reachable from here — don't count on it.~~ **Cut 2026-10-17** (Colin: "Skip kaymoor").
+- 9:45 → 10:30 (45m) · drive · → Thurmond (estimate: the old Kaymoor → Thurmond leg was 40m). · 📍 Thurmond Depot Thurmond WV
+- 10:30 → 10:55 (25m) · ruins · **Thurmond — a look, not a stop.** Cut from 1h 15m Sept 28: reports say most of its ~30 buildings still stand but **you can't go inside them**, and the depot is a restored visitor center — the Blue Heron problem. Walk the street of façades along the tracks, then go. Population 5 as of the 2010 census; in its prime it moved **95,000 passengers a year**.
+- 10:55 → 3:45 (4h 50m) · drive · → Davidson River Campground. · 📍 Davidson River Campground Pisgah Forest NC
+- 3:45 → 4:45 (60m) · stop! · Check in, set up. ⚠️ **TEST STARLINK for Wednesday — at your site, today.** In Kentucky it only worked after moving to a better sky view, so scout the fallback spot now too. Three days of buffer — use them.
+- 4:45 → 4:55 (10m) · drive · → Moore Cove trailhead. · 📍 Moore Cove Falls Trailhead Pisgah Forest NC
+- 4:55 → 5:55 (60m) · hike · ⭐ **Moore Cove Falls**, 1.4 mi — 50-ft plunge and **the trail goes behind the water**.
+- 5:55 → 6:25 (30m) · stop · *If there's light:* Looking Glass Falls — roadside, 10 min back toward camp. First thing cut. Sliding Rock is dropped (it was looking-not-sliding in October anyway). · 📍 Looking Glass Falls Pisgah Forest NC
+- 6:25 → 6:35 (10m) · drive · → camp, cook. Sunset 6:53.
 
 **Meals**
 - B: made — **power oats**: plain oats stirred in boiling water until as thick as you like, then off the heat stir in whole milk powder, a scoop of whey and 2 tbsp PB; brown sugar to taste (~980 kcal, ~55 g protein)
@@ -226,7 +230,7 @@ overnight:
 
 #### Highlights
 
-Kaymoor first: 800 steps down into an abandoned mine site nobody has tidied up. Then Thurmond, a town of five people that used to move 95,000 passengers a year — seen, not stopped at. Moore Cove is the waterfall you walk behind.
+A slow morning instead of Kaymoor (cut 2026-10-17). Then Thurmond, a town of five people that used to move 95,000 passengers a year — seen, not stopped at. Moore Cove is the waterfall you walk behind.
 
 #### Warnings
 
@@ -550,10 +554,10 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | ~~Stone Cliff Trail~~ | dropped | ✅ 5.8 mi | ✅ 377 ft | Moderate | ~2h moving | From the Oct 15 campground, along the river. Out-and-back, so turn around anywhere. *(AllTrails, 2026-10-07)* |
-| Long Point | 1 | ~3.0 mi (est) | — | Easy | 1h 30m | From the tent at Arrowhead (moved from Day 1, 2026-10-07). Returns after dark — headlamp. |
+| Long Point | 2 | ~3.0 mi (est) | — | Easy | 1h 30m | From the tent at Arrowhead (moved from Day 1, 2026-10-07). Returns after dark — headlamp. |
 | Endless Wall → Diamond Point | 1 | 5.4 mi | 508 ft | Moderate | 3h | Verified in source. Nuttall lot, not Fern Creek. Must be Friday — closed Saturday. Now the arrival day, at 12:30 (2026-10-15). |
 | ~~Nuttallburg + Conveyor Trail~~ | cut 2026-10-15 | ~1.0 mi (est) | — | Easy–steep | 1h 30m | The climb to the headhouse is now core, not optional (Sept 28). Keeneys Creek Rd access is the clearance question. |
-| ⭐ Kaymoor Miners Trail | 3 | ~1 mi RT + 800+ steps (from reports) | Steep — unmeasured | Strenuous (stairs) | 2h (est) | Promoted from fallback Sept 28: unrestored mine buildings, the trip's best match for the Blevins-farm kind of ruin. Distance and gain are from trip reports, not measured. |
+| ~~⭐ Kaymoor Miners Trail~~ (cut 2026-10-17) | 3 | ~1 mi RT + 800+ steps (from reports) | Steep — unmeasured | Strenuous (stairs) | 2h (est) | Promoted from fallback Sept 28: unrestored mine buildings, the trip's best match for the Blevins-farm kind of ruin. Distance and gain are from trip reports, not measured. |
 | Fayette Station Rd walk-down | 2 | 9.0 mi | ~800 ft | Moderate | 3h 45m total | ⚠️ Parking at the top unconfirmed — 800-927-0263. |
 | Moore Cove Falls | 3 | 1.4 mi | — | Easy | 60m | The trail goes behind the water. |
 | ⭐ Black Balsam Knob via Art Loeb (short) | 4 | ✅ 1.4 mi | ✅ 357 ft | Moderate | 46 min moving | **The chosen route.** Same summit, same 360°. |
