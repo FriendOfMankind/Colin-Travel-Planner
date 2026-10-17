@@ -245,3 +245,21 @@ After the sweep above, Colin picked: **Day 9 (a)**, the Table Rock + Chimneys ou
 **What it kept:** Endless Wall, which has to be Friday because the overlook trails close Saturday, now at 12:30 straight off the drive, and Long Point at sunset from the tent. Arrowhead was already booked Oct 16–18, so night one has a bed and the Stone Cliff first-come gamble is gone.
 
 **Plan changed in the same commit:** the old Days 1–2 merged into a new Day 1, the rest are renumbered (Day 3 → Day 2 … Day 11 → Day 10), and the trip is 10 days / 9 nights. Leave by 7:30 at the latest; 6:30 buys ~45 min of slack. The new Day 1 times after Canyon Rim are estimates, not measured drives.
+
+## 2026-10-16 · Day 1 on the road: late start, sunset swap
+
+*(stated 2026-10-16)* On the road around 10 AM, not 6:30–7:30; at the Endless Wall trailhead ~3 PM. That killed Long Point at Day 1 sunset, so it moved to Day 2 in the chili cook-off's slot. Colin: "completely willing to skip the chili cookoff, I don't care honestly." How Endless Wall and the evening actually went isn't recorded yet.
+
+Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front with stray thunderstorms 3–6 PM and 94% cloud at sunset, rain overnight. The Saturday freeze watch became an NWS **Freeze Warning** for 1–9 AM Sun Oct 18, low 29°F.
+
+## 2026-10-17 · Bridge Day: closures, parking, Arrowhead, Long Point, Kaymoor cut
+
+**2026 closures** *(source: wvnews.com, 2026-10-15, citing NPS)*: the Canyon Rim lot and grounds closed 5:30 PM Fri Oct 16. Fayette Station Rd closed to traffic at Lansing Loop Rd from 6 PM Friday until "sometime after 5 p.m. Saturday"; Saturday access to Fayette Station and Teays Landing was exit-only. So "park at the top of Fayette Station Rd" didn't exist as a north-side option for a car coming from Arrowhead.
+
+**Walking down is allowed:** "You may ride your bike or walk down into the Gorge… 4+ mile distance one way" *(officialbridgeday.com/bridge-day-info, read 2026-10-17)*. The same page lists the shuttle lots (Fayetteville HS, Courthouse, Walmart, Fayette Landing; north: Smales Branch, Midland Trail HS) but nowhere for walkers to park. AllTrails' standing notice (search snippet, 2026-09-28) still had Fayette Station Rd closed "between the Teay's Landing road on the north side of the river and the…" (truncated). How Colin actually got down, and whether park trails were open, isn't recorded.
+
+**Arrowhead's kitchen is open** *(confirmed: Colin, on site, 2026-10-17)*. Its website says "The Handle Bar + Kitchen: closed for the season", which is stale. The website also gives bike rentals as 10 AM–6 PM daily on Trek Marlin 7 / Roscoe; price not listed. A rental was considered and not taken.
+
+**Sunset: Long Point over Beauty Mountain** *(chosen 2026-10-17)*. NPS lists Long Point, the Canyon Rim bridge overlook and Sandstone Falls as the gorge's sunset spots; Diamond Point and Grandview are its sunrise ones *(nps.gov/neri sunsets page, search snippet)*. Beauty Mountain is a west-facing alternative with ~3 roadside pull-offs at Beauty Mountain Rd / Buckhorn Rd *(greatamericanhikes.com, 2025)*, on the far side of the closed US-19 until 5 PM. Long Point allows bikes except the last 0.2 mi *(nps.gov, snippet)*.
+
+**Kaymoor cut from Day 3** *(stated 2026-10-17: "Skip kaymoor")*, traded for a slow start after the freeze. With Nuttallburg already gone, the trip has no unrestored coal ruin left. Thurmond stays. Worth a retro question: did the extra morning earn it?
