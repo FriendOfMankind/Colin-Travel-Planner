@@ -243,7 +243,7 @@ date: 2026-10-19
 tagline: Grassy summits with no trees, four trailheads, one stretch of road.
 type: activity
 driving: ~1h 30m
-slack: "**~1h 45m of protected slack mid-afternoon**, plus Devil's Courthouse as the first cut. Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
+slack: "**~2h 20m of protected slack mid-afternoon.** Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early (was: ~1h 45m of slack, Devil's Courthouse optional in it). Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -255,15 +255,17 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Warm up in the tent, hot breakfast at camp. Nothing today needs you before 9.
-- 9:00 → 9:35 (35m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead). · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
-- 9:35 → 10:35 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in. Pools and a footbridge. Wade if you're brave; it's October at ~5,000 ft.
-- 10:35 → 10:50 (15m) · drive · → Graveyard Fields, MP 418.8. It's a Monday, which is the point: this lot is the Parkway's worst on weekends. · 📍 Graveyard Fields Blue Ridge Parkway
-- 10:50 → 12:40 (1h 50m) · hike · **Graveyard Fields loop.** ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
-- 12:40 → 1:20 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
-- 1:20 → 1:35 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
-- 1:35 → 3:15 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
-- 3:15 → 5:00 (1h 45m) · stop · **Protected slack — leave it empty.** Sit, nap in the car, scout photo angles. *Optional, first thing dropped:* Devil's Courthouse (MP 422, short and steep, five-state view).
+- 6:55 → 7:20 (25m) · stop · Up early *(stated 2026-10-19: going to bed and waking earlier than expected)*. Quick breakfast at camp. (was: 7:30 → 9:00 slow morning)
+- 7:20 → 8:05 (45m) · drive · → **Devil's Courthouse**, BRP MP 422.4 (estimate: camp → MP 417 is 35m, plus ~5 Parkway miles). · 📍 Devil's Courthouse Blue Ridge Parkway
+- 8:05 → 8:45 (40m) · hike · ✅ **Devil's Courthouse**, 0.9 mi out-and-back / 278 ft, ~33 min *(AllTrails, 2026-10-19)*. Low morning light; valley fog below is possible after a clear night but not forecast. Near freezing at ~5,700 ft this early, so puffy, hat and gloves. *(added 2026-10-19)*
+- 8:45 → 9:00 (15m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead), back north. · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
+- 9:00 → 10:00 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in. Pools and a footbridge. Wade if you're brave; it's October at ~5,000 ft.
+- 10:00 → 10:15 (15m) · drive · → Graveyard Fields, MP 418.8. It's a Monday, which is the point: this lot is the Parkway's worst on weekends. · 📍 Graveyard Fields Blue Ridge Parkway
+- 10:15 → 12:05 (1h 50m) · hike · **Graveyard Fields loop.** Earlier now, so ahead of the crowd. ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
+- 12:05 → 12:45 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
+- 12:45 → 1:00 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
+- 1:00 → 2:40 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
+- 2:40 → 5:00 (2h 20m) · stop · **Protected slack — leave it empty.** Sit, nap in the car (you were up before 7), scout photo angles. (was: Devil's Courthouse optional here; moved to 8:05 AM, 2026-10-19)
 - 5:00 → 5:40 (40m) · food · Cook dinner at the lot and pour it into the thermos: trunk chili. Layers on — puffy, hat, gloves. It will be cold and windy on top.
 - 5:40 → 6:10 (30m) · hike · ✅ **Up Black Balsam Knob** via the Art Loeb short route (1.4 mi RT / 357 ft total).
 - 6:10 → 7:00 (50m) · sunset · ⭐ **SUNSET ON BLACK BALSAM, 6:52.** Open grassy bald, real 360°, no trees — the best golden-hour spot on the trip. Dinner from the thermos on the summit.
@@ -271,7 +273,7 @@ overnight:
 - 7:25 → 8:10 (45m) · drive! · → camp. Parkway and US 276 in the dark — slow for deer. Bed right after. · 📍 Davidson River Campground Pisgah Forest NC
 
 **Meals**
-- B: made — **loaded potato scramble**, slow, at camp (~820 kcal)
+- B: quick, at camp, for the early start (was: **loaded potato scramble**, slow, ~820 kcal; it keeps for another morning)
 - L: made at the Graveyard Fields lot — **ramen bomb + jerky** (~750 kcal)
 - D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 5:00 and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
 
