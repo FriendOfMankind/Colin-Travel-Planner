@@ -243,7 +243,7 @@ date: 2026-10-19
 tagline: Grassy summits with no trees, four trailheads, one stretch of road.
 type: activity
 driving: ~1h 30m
-slack: "**~2h 20m of protected slack mid-afternoon.** Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early (was: ~1h 45m of slack, Devil's Courthouse optional in it). Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
+slack: "**~1h 30m at the lot mid-afternoon, then the Tennent loop** (changed 2026-10-19: Colin on Sam Knob at 1:00, an hour early, and not napping; was ~2h 20m of protected slack). Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early (was: ~1h 45m of slack, Devil's Courthouse optional in it). Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -264,18 +264,18 @@ overnight:
 - 10:15 → 12:05 (1h 50m) · hike · **Graveyard Fields loop.** Earlier now, so ahead of the crowd. ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
 - 12:05 → 12:45 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
 - 12:45 → 1:00 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
-- 1:00 → 2:40 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
-- 2:40 → 5:00 (2h 20m) · stop · **Protected slack — leave it empty.** Sit, nap in the car (you were up before 7), scout photo angles. (was: Devil's Courthouse optional here; moved to 8:05 AM, 2026-10-19)
-- 5:00 → 5:40 (40m) · food · Cook dinner at the lot and pour it into the thermos: trunk chili. Layers on — puffy, hat, gloves. It will be cold and windy on top.
-- 5:40 → 6:10 (30m) · hike · ✅ **Up Black Balsam Knob** via the Art Loeb short route (1.4 mi RT / 357 ft total).
+- 1:00 → 1:45 (45m) · hike · ✅ **Sam Knob** (on the summit at 1:01, *stated 2026-10-19*; was 1:00 → 2:40) — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
+- 1:45 → 3:15 (1h 30m) · stop · Rest at the lot and eat a real snack. (was: 2:40 → 5:00 protected slack for a nap; Colin isn't napping, 2026-10-19)
+- 3:15 → 3:45 (30m) · food · Cook the trunk chili at the lot and pour it into the thermos, ~1h 45m earlier than before. Layers on: puffy, hat, gloves.
+- 3:45 → 6:15 (2h 30m) · hike · ✅ **Ivestor Gap → Tennent Mountain → Black Balsam loop**, 4.3 mi / 688 ft, Moderate, max 6,210 ft *(AllTrails, 2026-10-19)*. Starts at the end of FS 816. Ivestor Gap Trail out (the graded bed), Tennent (~6,040 ft), then the Art Loeb ridge south so **Black Balsam is the last summit**. ⚠️ The direction and the ending are recalled, not verified: load the AllTrails map offline before leaving the lot. AllTrails: "technical along some parts… rocky and steep". The day goes to ~12 mi, over the 10 mi soft ceiling. **If the legs are done at 3:15, do the short route instead** (1.4 mi RT / 357 ft). (was: 5:40 → 6:10, up Black Balsam by the short route; the Tennent ridge walk had been cut)
 - 6:10 → 7:00 (50m) · sunset · ⭐ **SUNSET ON BLACK BALSAM, 6:52.** Open grassy bald, real 360°, no trees — the best golden-hour spot on the trip. Dinner from the thermos on the summit.
-- 7:00 → 7:25 (25m) · hike · Down by headlamp. Dark ~7:20.
+- 7:00 → 7:25 (25m) · hike · Down by headlamp on the Art Loeb to FS 816. If that comes out on the road short of the lot, walk the gravel road back (unverified). Dark ~7:20.
 - 7:25 → 8:10 (45m) · drive! · → camp. Parkway and US 276 in the dark — slow for deer. Bed right after. · 📍 Davidson River Campground Pisgah Forest NC
 
 **Meals**
 - B: quick, at camp, for the early start (was: **loaded potato scramble**, slow, ~820 kcal; it keeps for another morning)
 - L: made at the Graveyard Fields lot — **ramen bomb + jerky** (~750 kcal)
-- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 5:00 and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
+- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 3:15 (was 5:00) and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
 
 #### Highlights
 
