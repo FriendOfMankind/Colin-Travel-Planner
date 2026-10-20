@@ -71,6 +71,8 @@ The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This fi
 
 From Kentucky 2026, where the detailed meal plan mostly didn't survive contact with the trip: *"I ended up going back to things I had in stock, staples."* *(confirmed: kentucky-2026 log, 2026-09-27)*
 
+**On the trail: dry food, no thermos.** "I doubt I will ever use a thermos. I'll just pack dry food on hikes." *(stated 2026-10-20, appalachians-2026 Day 5)* Hot meals happen at camp or at the car, not carried in.
+
 **Actually eaten, and liked:**
 - **Breakfast:** oatmeal, every day, happily.
 - **Lunch:** mac & cheese, bought grocery-store lunches (chicken tenders and similar), and twice **cup ramen at the trailhead with instant mashed potatoes stirred in** to soak up the water: "not very nutritious, but delicious and easy."

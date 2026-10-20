@@ -243,7 +243,7 @@ date: 2026-10-19
 tagline: Grassy summits with no trees, four trailheads, one stretch of road.
 type: activity
 driving: ~1h 30m
-slack: "**~1h 45m of protected slack mid-afternoon**, plus Devil's Courthouse as the first cut. Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
+slack: "**~1h 30m at the lot mid-afternoon, then the Tennent loop** (changed 2026-10-19: Colin on Sam Knob at 1:00, an hour early, and not napping; was ~2h 20m of protected slack). Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early (was: ~1h 45m of slack, Devil's Courthouse optional in it). Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -255,25 +255,27 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Warm up in the tent, hot breakfast at camp. Nothing today needs you before 9.
-- 9:00 → 9:35 (35m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead). · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
-- 9:35 → 10:35 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in. Pools and a footbridge. Wade if you're brave; it's October at ~5,000 ft.
-- 10:35 → 10:50 (15m) · drive · → Graveyard Fields, MP 418.8. It's a Monday, which is the point: this lot is the Parkway's worst on weekends. · 📍 Graveyard Fields Blue Ridge Parkway
-- 10:50 → 12:40 (1h 50m) · hike · **Graveyard Fields loop.** ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
-- 12:40 → 1:20 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
-- 1:20 → 1:35 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
-- 1:35 → 3:15 (1h 40m) · hike · ✅ **Sam Knob** — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
-- 3:15 → 5:00 (1h 45m) · stop · **Protected slack — leave it empty.** Sit, nap in the car, scout photo angles. *Optional, first thing dropped:* Devil's Courthouse (MP 422, short and steep, five-state view).
-- 5:00 → 5:40 (40m) · food · Cook dinner at the lot and pour it into the thermos: trunk chili. Layers on — puffy, hat, gloves. It will be cold and windy on top.
-- 5:40 → 6:10 (30m) · hike · ✅ **Up Black Balsam Knob** via the Art Loeb short route (1.4 mi RT / 357 ft total).
+- 6:55 → 7:20 (25m) · stop · Up early *(stated 2026-10-19: going to bed and waking earlier than expected)*. Quick breakfast at camp. (was: 7:30 → 9:00 slow morning)
+- 7:20 → 8:05 (45m) · drive · → **Devil's Courthouse**, BRP MP 422.4 (estimate: camp → MP 417 is 35m, plus ~5 Parkway miles). · 📍 Devil's Courthouse Blue Ridge Parkway
+- 8:05 → 8:45 (40m) · hike · ✅ **Devil's Courthouse**, 0.9 mi out-and-back / 278 ft, ~33 min *(AllTrails, 2026-10-19)*. Low morning light; valley fog below is possible after a clear night but not forecast. Near freezing at ~5,700 ft this early, so puffy, hat and gloves. *(added 2026-10-19)*
+- 8:45 → 9:00 (15m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead), back north. · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
+- 9:00 → 10:00 (60m) · hike · **Skinny Dip Falls**, ~0.5 mi in. Pools and a footbridge. Wade if you're brave; it's October at ~5,000 ft.
+- 10:00 → 10:15 (15m) · drive · → Graveyard Fields, MP 418.8. It's a Monday, which is the point: this lot is the Parkway's worst on weekends. · 📍 Graveyard Fields Blue Ridge Parkway
+- 10:15 → 12:05 (1h 50m) · hike · **Graveyard Fields loop.** Earlier now, so ahead of the crowd. ✅ AllTrails: 3.3 mi / 416 ft. Upper and Second Falls in peak color.
+- 12:05 → 12:45 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
+- 12:45 → 1:00 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
+- 1:00 → 1:45 (45m) · hike · ✅ **Sam Knob** (on the summit at 1:01, *stated 2026-10-19*; was 1:00 → 2:40) — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
+- 1:45 → 3:15 (1h 30m) · stop · Rest at the lot and eat a real snack. (was: 2:40 → 5:00 protected slack for a nap; Colin isn't napping, 2026-10-19)
+- 3:15 → 3:45 (30m) · food · Cook the trunk chili at the lot and pour it into the thermos, ~1h 45m earlier than before. Layers on: puffy, hat, gloves.
+- 3:45 → 6:15 (2h 30m) · hike · ✅ **Ivestor Gap → Tennent Mountain → Black Balsam loop**, 4.3 mi / 688 ft, Moderate, max 6,210 ft *(AllTrails, 2026-10-19)*. Starts at the end of FS 816. Ivestor Gap Trail out (the graded bed), Tennent (~6,040 ft), then the Art Loeb ridge south so **Black Balsam is the last summit**. ⚠️ The direction and the ending are recalled, not verified: load the AllTrails map offline before leaving the lot. AllTrails: "technical along some parts… rocky and steep". The day goes to ~12 mi, over the 10 mi soft ceiling. **If the legs are done at 3:15, do the short route instead** (1.4 mi RT / 357 ft). (was: 5:40 → 6:10, up Black Balsam by the short route; the Tennent ridge walk had been cut)
 - 6:10 → 7:00 (50m) · sunset · ⭐ **SUNSET ON BLACK BALSAM, 6:52.** Open grassy bald, real 360°, no trees — the best golden-hour spot on the trip. Dinner from the thermos on the summit.
-- 7:00 → 7:25 (25m) · hike · Down by headlamp. Dark ~7:20.
+- 7:00 → 7:25 (25m) · hike · Down by headlamp on the Art Loeb to FS 816. If that comes out on the road short of the lot, walk the gravel road back (unverified). Dark ~7:20.
 - 7:25 → 8:10 (45m) · drive! · → camp. Parkway and US 276 in the dark — slow for deer. Bed right after. · 📍 Davidson River Campground Pisgah Forest NC
 
 **Meals**
-- B: made — **loaded potato scramble**, slow, at camp (~820 kcal)
+- B: quick, at camp, for the early start (was: **loaded potato scramble**, slow, ~820 kcal; it keeps for another morning)
 - L: made at the Graveyard Fields lot — **ramen bomb + jerky** (~750 kcal)
-- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 5:00 and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
+- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 3:15 (was 5:00) and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
 
 #### Highlights
 
@@ -302,19 +304,18 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack the thermos lunch.
+- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack a dry trail lunch. (was: thermos lunch; no thermos, *stated 2026-10-20*)
 - 9:00 → 9:10 (10m) · drive · → Looking Glass Rock TH. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
 - 9:10 → 1:40 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ AllTrails: 6.0 mi / 1,699 ft, ~3h 30m typical; the extra hour is lunch on the slab.
 - 1:40 → 2:00 (20m) · drive · → Brevard. · 📍 Brevard NC
-- 2:00 → 3:00 (60m) · shop! · **RESUPPLY — the only one this trip.** Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
-- 3:00 → 4:45 (1h 45m) · stop · **Camp: hot shower and nothing else.** This is the afternoon Daniel Ridge used to fill.
-- 5:00 → 6:30 (1h 30m) · food · **Dinner: The Falls Landing.** Downtown since 1993, the town's serious restaurant. **Reserve ahead.** ⭐ **Fresh NC mountain trout.** · 📍 The Falls Landing Brevard NC
-- 6:30 → 6:50 (20m) · drive · → camp. Sunset 6:51. Early to bed.
+- 2:00 → 3:00 (60m) · shop! · **RESUPPLY.** ⚠️ Bracken Mountain Bakery is **closed Tuesdays** (Wed–Sat 7–4, brackenmountainbakery site), so it moves to Wednesday. Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
+- 2:40 → 6:45 · hike · **Pink Beds Loop**, 5.3 mi / 328 ft, ~1h 50m *(AllTrails)*, at an easy pace, then sit by a pond or the stream for golden hour (~5:30–6:15). *(chosen 2026-10-20; started 2:38)* Daniel Ridge dropped: FS 475 is signed closed except to local traffic *(seen by Colin, 2026-10-20)*. Fryingpan sunset skipped in favor of a quiet spot by the water. (was: hot shower and nothing else)
+- 6:30 → 7:30 (1h) · food · **Dinner at camp**, then shower. (was: The Falls Landing 5:00 → 6:30, trout; dropped 2026-10-20, Colin: "I'll make dinner at camp"). Sunset 6:51.
 
 **Meals**
 - B: made — **power oats** (~980 kcal)
-- L: thermos — **couscous + black beans + chicken**: beans and mild taco seasoning heated in some water, heat off, couscous in, lid on 5 min, chicken pouch, cheddar, a little oil (~945 kcal)
-- D: bought — The Falls Landing, mountain trout. **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
+- L: packed dry — trail food (was: thermos couscous + black beans + chicken; no thermos, 2026-10-20)
+- D: made at camp — pick it at the resupply (was: The Falls Landing, mountain trout). **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
 
 #### Highlights
 
@@ -345,9 +346,9 @@ overnight:
 **Schedule**
 - 7:30 → 9:30 (2h) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
 - 9:30 → 10:15 (45m) · stop! · ⭐ **Starlink up by 9:45, logged into recreation.gov, on the "Linville Gorge Wilderness Overnight Permits – 3 Days in Advance" page. 10:00 AM sharp: book 1 person, Fri Oct 23.** 15 permits per night; how fast they go is unknown. Cell at Davidson River is extremely limited, so this needs Starlink.
-- 10:15 → 11:00 (45m) · stop · Set up the laptop, **verify Starlink**.
+- 10:15 → 11:00 (45m) · stop · ⭐ **Call Grandfather RD, (828) 652-2144** (open since Oct 12): is the Spence Ridge lot below the Table Rock road gate, is Old NC 105 open for 5.9 in, any FS 210 closures? Then set up the laptop. Starlink works at the site *(confirmed: Colin, 2026-10-20)*.
 - 11:00 → 3:00 (4h) · lecture! · **REMOTE LECTURE.** Class runs 11:10–2:30; the padding is setup and overrun.
-- 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
+- 3:15 → 4:45 (1h 30m) · shop · → Brevard. **Bracken Mountain Bakery first: it closes at 4.** Final resupply, top off fuel, **fill 3 × 1-gallon jugs (~12 L)**. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
 - 5:00 → 5:30 (30m) · stop! · ⭐ **Download offline maps — Linville + Mount Rogers.** Last reliable signal on the trip.
 - 5:30 → 6:30 (60m) · stop! · ⭐ **Repack for two nights with no water and no service.** Charge everything. Starlink packed and accessible.
 - 6:30 → (—) · food · Dinner at camp. **In bed early — tomorrow starts at 5:45.** Sunset 6:49.
@@ -394,13 +395,13 @@ overnight:
 - 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
 - 1:00 → 5:15 (4h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
 - 5:15 → 5:30 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
-- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
+- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. 💡 *Suggested, not confirmed:* start at 5:15. The sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled). Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
 - 6:15 → 7:05 (50m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
 - 7:05 → 7:40 (35m) · hike! · **Down by headlamp — this is the recon.** Tomorrow's 6:30 climb is in the dark, so walk it once in the dark now. Headlamp and layers.
 - 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
 **Meals**
-- B: thermos — **power oats**, made at Davidson River before the 6:30 departure while there is still a tap. Eaten on the road (~980 kcal)
+- B: dry, on the road; or cook power oats at Davidson River and eat them before 6:30 if there's time (was: thermos power oats eaten on the road; no thermos, *stated 2026-10-20*)
 - L: ⚠️ NO WATER, NO COOKING — **summer sausage and cheese board**: summer sausage, cheddar, tortillas, mustard, pretzels. Zero cookware while you race for a site (~1,100 kcal, estimate)
 - D: ⚠️ **NO WATER — couscous + black beans + chicken**, the absorb-the-water version: heat a **pull-tab can of black beans, undrained — the liquid counts toward your water** with taco seasoning, heat off, couscous in, lid on 5 min, chicken pouch, cheddar. Nothing to drain (~945 kcal)
 
@@ -432,7 +433,7 @@ overnight:
 ```
 
 **Schedule**
-- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, **thermos**, headlamp. Mid-30s at 3,800 ft.
+- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, headlamp. Mid-30s at 3,800 ft. (was: thermos too; no thermos, 2026-10-20)
 - 6:15 → 6:30 (15m) · drive · Camp → Hawksbill lot, in the dark.
 - 6:30 → 7:15 (45m) · hike · Climb in the dark, 1.2 mi / ~700 ft. You walked this yesterday — that's why.
 - 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **7:41** (recomputed; the plan said 7:38 — three more minutes in the dark). **The best photograph available on the entire trip, and it costs an alarm.**
@@ -648,7 +649,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - 3 fuel canisters. Eleven days, and cold air drops canister output.
 - Long-handled spoon — the oats bag and the no-water dinners are eaten from deep containers
-- Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats (was: "Oct 19 tortellini", fixed 2026-10-12)
+- ~~Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats~~ not used from Oct 20 (Colin, 2026-10-20) (was: "Oct 19 tortellini", fixed 2026-10-12)
 - 2L pot with lid (the lid drains, steams and holds heat) · insulated mug (gravy) · spork
 - Folding knife · collapsible wash basin · sponge · biodegradable soap · 2 bandanas
 - Linville water carry: ~12 L / 3.2 gallons for 2.5 days. Absorb-the-water meals mean none of it gets drained away.
@@ -686,7 +687,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 ### Camp kitchen
 
 - [ ] One burner, pot, pan, mug, spork
-- [ ] Wide-mouth thermos — Hawksbill sunrise at 4,009 ft in the dark
+- [x] ~~Wide-mouth thermos — Hawksbill sunrise at 4,009 ft in the dark~~ not needed (2026-10-20)
 - [ ] Cooler: eggs, cheese, frozen veg and the Oct 24 kielbasa. No freezer meals. Size unconfirmed (see gear); a small one is enough.
 - [ ] Block ice at the Brevard resupply — the last cold of the trip
 

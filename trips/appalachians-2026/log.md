@@ -272,3 +272,18 @@ Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front
 - **Grayson Highlands:** nothing current found; the park's 2026 Flickr album stops at Sept 24.
 - **Parkway closures, unchanged and off this route:** MP 344.2–355.3 (NC 80 to Mount Mitchell), per NPS road status of Oct 13 *(asheville.com, snippet)*. One guide lists Chestoa View (MP 320.8) as closed *(romanticasheville.com)*.
 - **What it means for the plan:** nothing moves. Linville on Oct 22–23 still lands on the forecast peak, and the late season helps. The balds on Day 4 are likely past their own peak, but the 3,000–5,000 ft band below them should be near peak. Looking Glass Rock on Day 5 is close to Pisgah's forecast peak.
+
+## 2026-10-19 – 20 · Parkway day, Looking Glass day, and what changed
+
+- **Sleeping and waking earlier than planned** *(stated 2026-10-19)*. Devil's Courthouse became Day 4's first stop (0.9 mi / 278 ft, AllTrails). On Sam Knob's summit at 1:01 PM, about an hour ahead of plan, not napping; the afternoon became the Ivestor Gap → Tennent → Black Balsam loop (4.3 mi / 688 ft, AllTrails). **How the loop and the sunset went isn't recorded.**
+- **Preferences** *(stated 2026-10-20)*: no thermos ("I doubt I will ever use a thermos. I'll just pack dry food on hikes"), showers late at night are fine, dinner at camp instead of The Falls Landing. Filed in `me/food.md`, `me/gear.md` and `me/camping.md`.
+- **Hiking tolerance** *(stated 2026-10-20)*: "my hiking tolerance is going up, I am also moving faster on trails." Evidence for `me/hiking.md`'s pace rule, which waits on two or three hard days. **The Looking Glass Rock time against AllTrails' 3h 30m isn't recorded yet.**
+- **Starlink works at the Davidson River site** *(confirmed: Colin, 2026-10-20)*.
+- **FS 475 (to Daniel Ridge)** is signed closed except to local traffic *(seen by Colin, 2026-10-20)*. No Forest Service notice was found online. Claude advised against driving it as a visitor; Pink Beds (5.3 mi / 328 ft) replaced it.
+- **Fryingpan fire tower** was researched, then skipped: 1.5 mi / 354 ft *(AllTrails)*; the Parkway there was open 2026-10-19 *(nps.gov road status, snippet)*.
+- **Brevard facts:** Bracken Mountain Bakery is open Wed–Sat 7 AM–4 PM *(brackenmountainbakery.weebly.com)*. The Falls Landing serves dinner Tue–Sat 4:30–8:30, with reservations "highly recommended" (828-884-2835, thefallslanding.com). Sycamore Flats Picnic Area is open and free, on the Davidson River, with **no potable water** *(fs.usda.gov)*. The Cradle of Forestry is open daily 10–5, $12 or $6 with a federal pass *(gofindoutdoors.org)*.
+- **Pisgah Ranger District phone numbers conflict:** (828) 866-3437 on the Forest Service page, 828-877-3265 on a recreation.gov listing. Claude cited each as the "correct" one at different points in the chat; both may be real.
+- ❓ **Are Davidson River's spigots potable?** Recreation.gov listings say "water spigot" without saying potable. Check for a sign or ask the host; if unsure, filter.
+- **Weather refresh** *(AccuWeather, fetched 2026-10-20)*: sunny through Oct 25. Linville highs 59–64°F, lows 33–35°F; Troutdale high 64°F, low 35°F.
+- An offline PDF of Days 6–10 was made for the no-signal stretch; it isn't in the repo.
+- **Not recommended:** a Wednesday sunrise hike, because of the 10:00 permit booking, the lecture, and the 5:45 start on Thursday.

@@ -11,7 +11,7 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 
 - **Favourites: developed campgrounds with showers, and scenic sites where the view beats the facilities.** *(stated 2026-09-28)*
 - Not chosen: private/bike-farm character stays, or dispersed/primitive sites. Those aren't banned, but a no-facilities night needs a reason: a scenic payoff, or a region with nothing else.
-- Showers daily if possible (`me/profile.md`).
+- Showers daily if possible (`me/profile.md`). **Late at night is fine**, so a shower doesn't need a daytime block *(stated 2026-10-20)*.
 
 ## Evenings
 
