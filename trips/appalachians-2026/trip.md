@@ -308,8 +308,8 @@ overnight:
 - 9:00 → 9:10 (10m) · drive · → Looking Glass Rock TH. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
 - 9:10 → 1:40 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ AllTrails: 6.0 mi / 1,699 ft, ~3h 30m typical; the extra hour is lunch on the slab.
 - 1:40 → 2:00 (20m) · drive · → Brevard. · 📍 Brevard NC
-- 2:00 → 3:00 (60m) · shop! · **RESUPPLY — the only one this trip.** Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
-- 3:00 → 4:45 (1h 45m) · stop · Camp. The shower can wait until night *(stated 2026-10-20)*, so this block is open: Daniel Ridge (4.7 mi / 820 ft, AllTrails) and Fryingpan tower at sunset are the candidates, not yet chosen. (was: hot shower and nothing else)
+- 2:00 → 3:00 (60m) · shop! · **RESUPPLY.** ⚠️ Bracken Mountain Bakery is **closed Tuesdays** (Wed–Sat 7–4, brackenmountainbakery site), so it moves to Wednesday. Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
+- 2:40 → 6:45 · hike · **Pink Beds Loop**, 5.3 mi / 328 ft, ~1h 50m *(AllTrails)*, at an easy pace, then sit by a pond or the stream for golden hour (~5:30–6:15). *(chosen 2026-10-20; started 2:38)* Daniel Ridge dropped: FS 475 is signed closed except to local traffic *(seen by Colin, 2026-10-20)*. Fryingpan sunset skipped in favor of a quiet spot by the water. (was: hot shower and nothing else)
 - 6:30 → 7:30 (1h) · food · **Dinner at camp**, then shower. (was: The Falls Landing 5:00 → 6:30, trout; dropped 2026-10-20, Colin: "I'll make dinner at camp"). Sunset 6:51.
 
 **Meals**
@@ -346,9 +346,9 @@ overnight:
 **Schedule**
 - 7:30 → 9:30 (2h) · stop · Slow morning at camp. Breakfast, no time pressure. **This is a rest day now.**
 - 9:30 → 10:15 (45m) · stop! · ⭐ **Starlink up by 9:45, logged into recreation.gov, on the "Linville Gorge Wilderness Overnight Permits – 3 Days in Advance" page. 10:00 AM sharp: book 1 person, Fri Oct 23.** 15 permits per night; how fast they go is unknown. Cell at Davidson River is extremely limited, so this needs Starlink.
-- 10:15 → 11:00 (45m) · stop · Set up the laptop, **verify Starlink**.
+- 10:15 → 11:00 (45m) · stop · ⭐ **Call Grandfather RD, (828) 652-2144** (open since Oct 12): is the Spence Ridge lot below the Table Rock road gate, is Old NC 105 open for 5.9 in, any FS 210 closures? Then set up the laptop. Starlink works at the site *(confirmed: Colin, 2026-10-20)*.
 - 11:00 → 3:00 (4h) · lecture! · **REMOTE LECTURE.** Class runs 11:10–2:30; the padding is setup and overrun.
-- 3:15 → 4:45 (1h 30m) · shop · → Brevard. Final resupply, top off fuel. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
+- 3:15 → 4:45 (1h 30m) · shop · → Brevard. **Bracken Mountain Bakery first: it closes at 4.** Final resupply, top off fuel, **fill 3 × 1-gallon jugs (~12 L)**. **Buy tonight's dinner here:** a bag of frozen potato-and-cheese pierogi and a **small** pack of kielbasa (the 12 oz one stays sealed for Oct 24).
 - 5:00 → 5:30 (30m) · stop! · ⭐ **Download offline maps — Linville + Mount Rogers.** Last reliable signal on the trip.
 - 5:30 → 6:30 (60m) · stop! · ⭐ **Repack for two nights with no water and no service.** Charge everything. Starlink packed and accessible.
 - 6:30 → (—) · food · Dinner at camp. **In bed early — tomorrow starts at 5:45.** Sunset 6:49.
@@ -395,7 +395,7 @@ overnight:
 - 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
 - 1:00 → 5:15 (4h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
 - 5:15 → 5:30 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
-- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
+- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. 💡 *Suggested, not confirmed:* start at 5:15. The sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled). Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
 - 6:15 → 7:05 (50m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
 - 7:05 → 7:40 (35m) · hike! · **Down by headlamp — this is the recon.** Tomorrow's 6:30 climb is in the dark, so walk it once in the dark now. Headlamp and layers.
 - 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
