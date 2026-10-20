@@ -280,7 +280,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   note: "*(confirmed 2026-09-28)*"
 - name: Wide-mouth thermos
   state: own
-  note: "*(confirmed owned 2026-09-28; how many not recorded.)* **One, and staying at one — decided Sept 2026.** Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped. Plan around that rather than around a second flask. A second one would unlock the pre-dawn hot chocolate."
+  note: "**Probably retired: Colin doubts he'll ever use it and packs dry food on hikes instead** *(stated 2026-10-20; see `me/food.md`)*. Don't plan meals around it. (was: \"Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out\".) *(confirmed owned 2026-09-28; how many not recorded.)* One, decided Sept 2026. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped. Plan around that rather than around a second flask. A second one would unlock the pre-dawn hot chocolate."
 - name: Cooler
   state: own
   note: "*(confirmed owned 2026-09-28; size not recorded. This entry used to say 48 qt, which was never confirmed.)* Frozen meals in flat quart bags *are* the ice. Buy a **block** of ice at resupply, not cubes."

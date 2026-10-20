@@ -304,19 +304,18 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack the thermos lunch.
+- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack a dry trail lunch. (was: thermos lunch; no thermos, *stated 2026-10-20*)
 - 9:00 → 9:10 (10m) · drive · → Looking Glass Rock TH. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
 - 9:10 → 1:40 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ AllTrails: 6.0 mi / 1,699 ft, ~3h 30m typical; the extra hour is lunch on the slab.
 - 1:40 → 2:00 (20m) · drive · → Brevard. · 📍 Brevard NC
 - 2:00 → 3:00 (60m) · shop! · **RESUPPLY — the only one this trip.** Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
-- 3:00 → 4:45 (1h 45m) · stop · **Camp: hot shower and nothing else.** This is the afternoon Daniel Ridge used to fill.
-- 5:00 → 6:30 (1h 30m) · food · **Dinner: The Falls Landing.** Downtown since 1993, the town's serious restaurant. **Reserve ahead.** ⭐ **Fresh NC mountain trout.** · 📍 The Falls Landing Brevard NC
-- 6:30 → 6:50 (20m) · drive · → camp. Sunset 6:51. Early to bed.
+- 3:00 → 4:45 (1h 45m) · stop · Camp. The shower can wait until night *(stated 2026-10-20)*, so this block is open: Daniel Ridge (4.7 mi / 820 ft, AllTrails) and Fryingpan tower at sunset are the candidates, not yet chosen. (was: hot shower and nothing else)
+- 6:30 → 7:30 (1h) · food · **Dinner at camp**, then shower. (was: The Falls Landing 5:00 → 6:30, trout; dropped 2026-10-20, Colin: "I'll make dinner at camp"). Sunset 6:51.
 
 **Meals**
 - B: made — **power oats** (~980 kcal)
-- L: thermos — **couscous + black beans + chicken**: beans and mild taco seasoning heated in some water, heat off, couscous in, lid on 5 min, chicken pouch, cheddar, a little oil (~945 kcal)
-- D: bought — The Falls Landing, mountain trout. **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
+- L: packed dry — trail food (was: thermos couscous + black beans + chicken; no thermos, 2026-10-20)
+- D: made at camp — pick it at the resupply (was: The Falls Landing, mountain trout). **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
 
 #### Highlights
 
@@ -402,7 +401,7 @@ overnight:
 - 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
 **Meals**
-- B: thermos — **power oats**, made at Davidson River before the 6:30 departure while there is still a tap. Eaten on the road (~980 kcal)
+- B: dry, on the road; or cook power oats at Davidson River and eat them before 6:30 if there's time (was: thermos power oats eaten on the road; no thermos, *stated 2026-10-20*)
 - L: ⚠️ NO WATER, NO COOKING — **summer sausage and cheese board**: summer sausage, cheddar, tortillas, mustard, pretzels. Zero cookware while you race for a site (~1,100 kcal, estimate)
 - D: ⚠️ **NO WATER — couscous + black beans + chicken**, the absorb-the-water version: heat a **pull-tab can of black beans, undrained — the liquid counts toward your water** with taco seasoning, heat off, couscous in, lid on 5 min, chicken pouch, cheddar. Nothing to drain (~945 kcal)
 
@@ -434,7 +433,7 @@ overnight:
 ```
 
 **Schedule**
-- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, **thermos**, headlamp. Mid-30s at 3,800 ft.
+- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, headlamp. Mid-30s at 3,800 ft. (was: thermos too; no thermos, 2026-10-20)
 - 6:15 → 6:30 (15m) · drive · Camp → Hawksbill lot, in the dark.
 - 6:30 → 7:15 (45m) · hike · Climb in the dark, 1.2 mi / ~700 ft. You walked this yesterday — that's why.
 - 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **7:41** (recomputed; the plan said 7:38 — three more minutes in the dark). **The best photograph available on the entire trip, and it costs an alarm.**
@@ -650,7 +649,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - 3 fuel canisters. Eleven days, and cold air drops canister output.
 - Long-handled spoon — the oats bag and the no-water dinners are eaten from deep containers
-- Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats (was: "Oct 19 tortellini", fixed 2026-10-12)
+- ~~Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats~~ not used from Oct 20 (Colin, 2026-10-20) (was: "Oct 19 tortellini", fixed 2026-10-12)
 - 2L pot with lid (the lid drains, steams and holds heat) · insulated mug (gravy) · spork
 - Folding knife · collapsible wash basin · sponge · biodegradable soap · 2 bandanas
 - Linville water carry: ~12 L / 3.2 gallons for 2.5 days. Absorb-the-water meals mean none of it gets drained away.
@@ -688,7 +687,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 ### Camp kitchen
 
 - [ ] One burner, pot, pan, mug, spork
-- [ ] Wide-mouth thermos — Hawksbill sunrise at 4,009 ft in the dark
+- [x] ~~Wide-mouth thermos — Hawksbill sunrise at 4,009 ft in the dark~~ not needed (2026-10-20)
 - [ ] Cooler: eggs, cheese, frozen veg and the Oct 24 kielbasa. No freezer meals. Size unconfirmed (see gear); a small one is enough.
 - [ ] Block ice at the Brevard resupply — the last cold of the trip
 
