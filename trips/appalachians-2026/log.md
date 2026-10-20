@@ -287,3 +287,12 @@ Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front
 - **Weather refresh** *(AccuWeather, fetched 2026-10-20)*: sunny through Oct 25. Linville highs 59–64°F, lows 33–35°F; Troutdale high 64°F, low 35°F.
 - An offline PDF of Days 6–10 was made for the no-signal stretch; it isn't in the repo.
 - **Not recommended:** a Wednesday sunrise hike, because of the 10:00 permit booking, the lecture, and the 5:45 start on Thursday.
+
+## 2026-10-20 · Catch-up: what actually happened
+
+*(confirmed: Colin, 2026-10-20, answering a check-in)*
+- **Fri Oct 16:** Endless Wall happened.
+- **Sat Oct 17:** watched Bridge Day from below, then Long Point at sunset, both as planned.
+- **Mon Oct 19:** did the Ivestor Gap → Tennent → Black Balsam loop and caught sunset on Black Balsam. With Devil's Courthouse, Skinny Dip, Graveyard Fields and Sam Knob, that's ~12 mi.
+- **Tue Oct 20:** Looking Glass Rock (6.0 mi / 1,699 ft) took **2h 30m–3h** against AllTrails' 3h 30m. Filed in `me/hiking.md` as the second pace data point.
+- **Thu Oct 22:** the Hawksbill sunset climb now starts at 5:15 (was 5:30). Written into `trip.md`.

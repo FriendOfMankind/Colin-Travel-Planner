@@ -25,7 +25,9 @@ Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by a
 - **Last day: nothing.** Sunday's planned stops were dropped for a straight drive home. Plan the final day as travel only, with anything else a bonus.
 - **Night hiking to a destination is a yes**, with a headlamp and a full moon. *(confirmed: Blevins farm, kentucky-2026 log)*
 
-  Honey Creek is one data point. Don't cut a budget on it yet, especially solo, where the slack is the safety margin. After two or three more hard days it can become a rule of thumb.
+- **Looking Glass Rock, 6.0 mi / 1,699 ft: 2h 30m–3h against AllTrails' 3h 30m**, so about 15–30% faster, on sustained switchbacks *(confirmed: appalachians-2026, 2026-10-20)*. With Monday's ~12 mi day, tolerance is visibly rising *(stated 2026-10-20)*.
+
+  Honey Creek and Looking Glass are two data points. Don't cut a budget on it yet, especially solo, where the slack is the safety margin. After two or three more hard days it can become a rule of thumb.
 
 ## Difficulty
 
