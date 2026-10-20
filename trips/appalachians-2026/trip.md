@@ -393,10 +393,10 @@ overnight:
 - 10:15 → 10:45 (30m) · drive · **Left fork** at the small brown Table Rock sign, through Gingercake Acres. Pavement ends in ~1 mi and becomes **FS 210** — same road, two numbers. · 📍 Table Rock Picnic Area Linville Gorge NC
 - 10:45 → 12:15 (1h 30m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better.
 - 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
-- 1:00 → 5:15 (4h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
-- 5:15 → 5:30 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
-- 5:30 → 6:15 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. 💡 *Suggested, not confirmed:* start at 5:15. The sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled). Trail starts on the **RIGHT** side of the road. **At the summit split, GO RIGHT** — most people go left because it's the obvious turn; the views are on the narrow right-hand path to the northern peak. Note the turns and the split on the way up, while there's still light.
-- 6:15 → 7:05 (50m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
+- 1:00 → 5:00 (4h) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
+- 5:00 → 5:15 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
+- 5:15 → 6:00 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. **Starts 15 min earlier** *(confirmed: Colin, 2026-10-20; was 5:30)*: the sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled).
+- 6:00 → 7:05 (1h 5m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
 - 7:05 → 7:40 (35m) · hike! · **Down by headlamp — this is the recon.** Tomorrow's 6:30 climb is in the dark, so walk it once in the dark now. Headlamp and layers.
 - 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
