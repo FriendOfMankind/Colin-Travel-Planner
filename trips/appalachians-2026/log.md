@@ -300,3 +300,9 @@ Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front
 ## 2026-10-21 · Wilderness permit booked
 
 ✅ **Linville Gorge Wilderness overnight permit, recreation.gov order 0953433517-1**: 1 person, entry Oct 23, exit Oct 24, **$6** *(Colin's confirmation screenshot, 2026-10-21 10:00 AM; from the "3 Days in Advance" batch)*. It's the Friday backstop: camping inside the Wilderness Friday night, with no site reserved. Thursday needs no permit. The cancellation policy wasn't on the confirmation screen.
+
+## 2026-10-21 · Thursday: falls first
+
+*(chosen 2026-10-21)* Linville Falls is on the way to FS 210, so it's falls first: **Erwins View** (1.8 mi / 255 ft) and **Plunge Basin** (1.8 mi / 426 ft, to the base) *(AllTrails)*, reaching FS 210 around noon. Colin's reasoning: "it should be fine if I get there past like 11, I bet campers from the previous night will still be leaving". That's a hypothesis to check in the retro. A hard cutoff of ~1:15 was added for switching to the fallback ladder.
+
+Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** (2026-10-21; no reason given), consistent with the washed-out bridge. Devils Cellar Overlook Loop is also listed as closed. Table Rock via Table Rock Gap (Friday) is a separate listing and isn't marked closed. The only verified pins in the corridor are still the Spence Ridge lot (35.904183, -81.878217) and the Table Rock picnic area (35.896515, -81.869363).
