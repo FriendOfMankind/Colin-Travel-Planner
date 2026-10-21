@@ -378,7 +378,7 @@ noSignal: FS 210 / Linville Gorge — no cell service from the turn onto the for
 tagline: Wake at a site you paid for. Sleep somewhere you have no claim on.
 type: transfer + the risk day
 driving: ~4h 05m
-slack: ~1 hour, **all of it before noon**. If the site hunt takes two hours, drop Linville Falls.
+slack: "Falls first, both hikes, at FS 210 ~12:00 *(chosen 2026-10-21)*. A site-or-fallback decision by ~1:15. (was: ~1 hour, all before noon; drop Linville Falls if the site hunt takes two hours)"
 overnight:
   name: FS 210 roadside dispersed
   place: Linville Gorge, NC
@@ -392,12 +392,13 @@ overnight:
 **Schedule**
 - 5:45 → 6:30 (45m) · stop! · Break camp in the dark. **Checkout is noon; you leave at 6:30 anyway.** The night is paid for — leaving early costs nothing and the FS 210 sites go today.
 - 6:30 → 8:45 (2h 15m) · drive · → Linville Falls. Sunrise 7:40. · 📍 Linville Falls Visitor Center Linville Falls NC
-- 8:45 → 9:45 (60m) · hike · *Optional:* Erwins View, 1.6 mi RT. ⚠️ **Verify access** — the campground is closed all 2026 and the visitor center took Helene damage. Skip if behind.
-- 9:45 → 10:15 (30m) · drive! · → **Gingercake turnoff.** NC 181 south **3 miles** to the **SECOND** Gingercake intersection — the road loops and meets 181 twice. There are also an Old Gingercake Rd and a Gingercake Acres Rd nearby, which is why map search is unreliable here. · 📍 Gingercake Road Jonas Ridge NC
-- 10:15 → 10:45 (30m) · drive · **Left fork** at the small brown Table Rock sign, through Gingercake Acres. Pavement ends in ~1 mi and becomes **FS 210** — same road, two numbers. · 📍 Table Rock Picnic Area Linville Gorge NC
-- 10:45 → 12:15 (1h 30m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better.
-- 12:15 → 1:00 (45m) · stop · Lunch, water sorted, camp secure.
-- 1:00 → 5:00 (4h) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
+- 8:45 → 9:45 (60m) · hike · **Erwins View**, 1.8 mi / 255 ft, ~47 min *(AllTrails, 2026-10-21)*. Upper falls and the gorge. The Parkway spur road is open; the campground and picnic area are closed *(nps.gov road status, 2026-10-19, snippet)*. (was: optional, skip if behind)
+- 9:45 → 11:00 (1h 15m) · hike · **Plunge Basin**, 1.8 mi / 426 ft, ~57 min *(AllTrails, 2026-10-21)*: down to the base of the falls and the river. Sit a while. *(both falls hikes chosen 2026-10-21, Colin: "it should be fine if I get there past like 11, I bet campers from the previous night will still be leaving")*
+- 11:00 → 11:30 (30m) · drive! · → **Gingercake turnoff.** NC 181 south **3 miles** to the **SECOND** Gingercake intersection — the road loops and meets 181 twice. There are also an Old Gingercake Rd and a Gingercake Acres Rd nearby, which is why map search is unreliable here. · 📍 Gingercake Road Jonas Ridge NC
+- 11:30 → 12:00 (30m) · drive · **Left fork** at the small brown Table Rock sign, through Gingercake Acres. Pavement ends in ~1 mi and becomes **FS 210** — same road, two numbers. · 📍 Table Rock Picnic Area Linville Gorge NC
+- 12:00 → 1:15 (1h 15m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better. ⚠️ **Hard cutoff: no site by ~1:15, go straight down the fallback ladder while there's daylight.** Friday night is covered by the permit either way. (was: 10:45, before any falls hikes)
+- 1:15 → 1:45 (30m) · stop · Lunch, water sorted, camp secure.
+- 1:45 → 5:00 (3h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
 - 5:00 → 5:15 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
 - 5:15 → 6:00 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. **Starts 15 min earlier** *(confirmed: Colin, 2026-10-20; was 5:30)*: the sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled).
 - 6:00 → 7:05 (1h 5m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
