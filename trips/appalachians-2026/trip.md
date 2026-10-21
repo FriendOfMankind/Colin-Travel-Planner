@@ -38,10 +38,14 @@ booking:
     target: 2026-10-18
     booked: true
   - system: recreation.gov
+    what: Linville Gorge Wilderness permit (Oct 23, 1 person)
+    target: 2026-10-23
+    booked: true
+  - system: recreation.gov
     what: Hurricane Campground (Oct 24)
     target: 2026-10-24
     booked: true
-updated: 2026-10-17
+updated: 2026-10-21
 map:
   center: [ 37.2, -81.9 ]
   zoom: 7
@@ -428,7 +432,7 @@ overnight:
   kind: Dispersed — first-come
   cost: Free
   checkin: ❌ Second night on the same site
-  confirmation: ❌ NONE
+  confirmation: "✅ Wilderness permit, recreation.gov **0953433517-1**: 1 person, entry Oct 23, exit Oct 24, $6 *(booked by Colin, 2026-10-21 10:00 AM)*. It allows camping inside the Wilderness tonight but reserves no site. FS 210 roadside needs no permit. (was: ❌ NONE)"
   notes: No water on site.
 ```
 
@@ -708,7 +712,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
 - [x] ✅ Hurricane Campground Oct 24 — recreation.gov 0840120294-1, 1 night. Gate 7 AM–10 PM. No cell service — carry it on paper.
 - [x] ✅ Oct 22–23: race for FS 210, no reservation (decided 2026-10-06). Ladder: Old NC 105 → motel in Newland / Linville Falls / Morganton
-- [ ] **Wed Oct 21, 10:00 AM ET: book a Linville Gorge Wilderness permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full. The 1-month batch (35/night, opened Sept 1) is gone *(Colin checked, 2026-10-06)*; the last-minute batch is **15/night, released each Wednesday at 10 AM for the coming weekend** *(source: recreation.gov permit page, pasted by Colin 2026-10-06; was: "bookable now", wrong)*. Set up the recreation.gov account and payment before leaving Ohio. Fee and cancellation: TBD. Thursday needs no permit.
+- [x] ✅ **Booked 2026-10-21 at 10:00 AM: recreation.gov 0953433517-1, $6.** **Wed Oct 21, 10:00 AM ET: book a Linville Gorge Wilderness permit for Fri Oct 23** (chosen 2026-10-06) — the backstop if FS 210 is full. The 1-month batch (35/night, opened Sept 1) is gone *(Colin checked, 2026-10-06)*; the last-minute batch is **15/night, released each Wednesday at 10 AM for the coming weekend** *(source: recreation.gov permit page, pasted by Colin 2026-10-06; was: "bookable now", wrong)*. Set up the recreation.gov account and payment before leaving Ohio. Fee and cancellation: TBD. Thursday needs no permit.
 - [ ] Grandfather Ranger District call: add **where is the gate on the Table Rock road, and is the Spence Ridge / Table Rock Gap lot below it?** (added 2026-10-12), **is Old NC 105 open, and passable for 5.9 in clearance?** and **what does the rare-plant closure order on Table Rock Mountain / The Chimneys cover?**
 - [ ] Sleeping bag liner — bought (Sept 28). Pack it for FS 210 and Hurricane
 - [ ] Reserve The Falls Landing, Brevard, for Tuesday Oct 20
