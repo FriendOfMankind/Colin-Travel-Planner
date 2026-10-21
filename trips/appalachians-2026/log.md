@@ -296,3 +296,7 @@ Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front
 - **Mon Oct 19:** did the Ivestor Gap → Tennent → Black Balsam loop and caught sunset on Black Balsam. With Devil's Courthouse, Skinny Dip, Graveyard Fields and Sam Knob, that's ~12 mi.
 - **Tue Oct 20:** Looking Glass Rock (6.0 mi / 1,699 ft) took **2h 30m–3h** against AllTrails' 3h 30m. Filed in `me/hiking.md` as the second pace data point.
 - **Thu Oct 22:** the Hawksbill sunset climb now starts at 5:15 (was 5:30). Written into `trip.md`.
+
+## 2026-10-21 · Wilderness permit booked
+
+✅ **Linville Gorge Wilderness overnight permit, recreation.gov order 0953433517-1**: 1 person, entry Oct 23, exit Oct 24, **$6** *(Colin's confirmation screenshot, 2026-10-21 10:00 AM; from the "3 Days in Advance" batch)*. It's the Friday backstop: camping inside the Wilderness Friday night, with no site reserved. Thursday needs no permit. The cancellation policy wasn't on the confirmation screen.
