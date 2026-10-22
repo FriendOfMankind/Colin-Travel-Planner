@@ -306,3 +306,7 @@ Forecast that day *(AccuWeather Fayetteville, fetched 2026-10-16)*: a cold front
 *(chosen 2026-10-21)* Linville Falls is on the way to FS 210, so it's falls first: **Erwins View** (1.8 mi / 255 ft) and **Plunge Basin** (1.8 mi / 426 ft, to the base) *(AllTrails)*, reaching FS 210 around noon. Colin's reasoning: "it should be fine if I get there past like 11, I bet campers from the previous night will still be leaving". That's a hypothesis to check in the retro. A hard cutoff of ~1:15 was added for switching to the fallback ladder.
 
 Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** (2026-10-21; no reason given), consistent with the washed-out bridge. Devils Cellar Overlook Loop is also listed as closed. Table Rock via Table Rock Gap (Friday) is a separate listing and isn't marked closed. The only verified pins in the corridor are still the Spence Ridge lot (35.904183, -81.878217) and the Table Rock picnic area (35.896515, -81.869363).
+
+## 2026-10-22 · FS 210 site claimed
+
+✅ **Claimed a roadside site on FS 210 and pitched the tent** *(stated 2026-10-22, ~1:33 PM)*. Colin was at the Table Rock Access junction at 11:42, after Erwins View and Plunge Basin. The falls-first bet held: a site was found by about 1:30 (the cutoff was 1:15; the exact claim time isn't recorded), after arriving around noon on the Thursday of peak color week. The exact location isn't recorded; no coordinate was given.
