@@ -310,3 +310,11 @@ Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** 
 ## 2026-10-22 · FS 210 site claimed
 
 ✅ **Claimed a roadside site on FS 210 and pitched the tent** *(stated 2026-10-22, ~1:33 PM)*. Colin was at the Table Rock Access junction at 11:42, after Erwins View and Plunge Basin. The falls-first bet held: a site was found by about 1:30 (the cutoff was 1:15; the exact claim time isn't recorded), after arriving around noon on the Thursday of peak color week. The exact location isn't recorded; no coordinate was given.
+
+## 2026-10-22 · Light: Sitting Bear tonight, Hawksbill sunrise time corrected, Grayson sunset
+
+*(chosen 2026-10-22)* **Tonight is sunset on Sitting Bear**, walked from the FS 210 site with the car left in place. That trades away the Hawksbill dark-descent recon, so Friday's 6:30 climb follows the offline AllTrails track. Sitting Bear + Gingercake Mountain is 2.8 mi / 856 ft out-and-back *(AllTrails)*. Tip: face south for side-lit cliffs on Hawksbill and Table Rock.
+
+**Hawksbill sunrise is ~7:36, first light ~7:15** (Trees `astro.mjs`, approximate summit position, 4,009 ft). The plan's 7:41 left out the elevation correction. **Saturday's sunset moves to the Grayson balds** (Massie Gap, verified coordinate: sunset 6:43, dark 7:04), and Hurricane check-in is after dark (gate open until 10 PM). Table Rock at sunset was considered and declined: 3 rocky miles down by headlamp on the hardest day.
+
+Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and swimming holes, "unclear trail markings" *(AllTrails)*. Skipped, because it's tagged forest and river only, with no confirmed views of the gorge walls from below. West-rim river trails (Babel Tower, Pine Gap / Bynum Bluff, Conley Cove) depend on Old NC 105, whose status is unknown.

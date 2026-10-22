@@ -441,7 +441,7 @@ overnight:
 - 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, headlamp. Mid-30s at 3,800 ft. (was: thermos too; no thermos, 2026-10-20)
 - 6:15 → 6:30 (15m) · drive · Camp → Hawksbill lot, in the dark.
 - 6:30 → 7:15 (45m) · hike · Climb in the dark, 1.2 mi / ~700 ft. You walked this yesterday — that's why.
-- 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **7:41** (recomputed; the plan said 7:38 — three more minutes in the dark). **The best photograph available on the entire trip, and it costs an alarm.**
+- 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **~7:36**, first light **~7:15** (computed 2026-10-22 with the Trees astro library at an approximate summit position and 4,009 ft; the low horizon to the east makes the elevation correction count). Be on top by 7:15. (was: 7:41, which left out the elevation; before that the plan had 7:38.) **After the sun is up, turn around:** first light hits the far wall, and on a clear, calm, cold night there's a chance of fog in the gorge (inference, not a forecast). **The best photograph available on the entire trip, and it costs an alarm.**
 - 8:30 → 9:05 (35m) · hike · Descend.
 - 9:05 → 9:50 (45m) · stop · Real breakfast at camp. ⚠️ **No water on site — low-cleanup only.**
 - 9:50 → 10:25 (35m) · drive! · → **Spence Ridge lot** on FS 210, for the Table Rock Gap trail. ⚠️ **Not yet confirmed that this lot is below the gate** on the Table Rock road (ask Grandfather RD). If it isn't, park at the gate and take the release valve below. · 📍 Spence Ridge Trailhead Linville Gorge
@@ -485,9 +485,11 @@ overnight:
 - 7:45 → 10:15 (2h 30m) · drive · FS 210 → **Massie Gap.** US 221 N → NC 194 → US 58 W. Sunrise 7:41. · 📍 Massie Gap Grayson Highlands State Park
 - 10:15 → 10:35 (20m) · stop · Park entrance fee, gear up.
 - 10:35 → 4:35 (6h) · hike · **Mount Rogers via Wilburn Ridge**, 8.0 mi / ~1,455 ft, topping at 5,729 ft — Virginia's high point.<br><br>⚠️ **The summit is wooded with no view.** The ridge is the entire payoff — take Wilburn Ridge, **not** the direct AT approach.<br><br>⭐ **FATMAN'S SQUEEZE** near Rhododendron Gap — a rock slot you physically squeeze through. Pack off.<br><br>⭐ **The ponies** are entirely unbothered by people and will walk right up. Don't feed them.
-- 4:35 → 5:05 (30m) · drive! · → **Hurricane Campground.** ⚠️ **Follow these directions, not GPS** — both the Forest Service and Recreation.gov say so in bold. From I-81, **Marion exit 45** → **VA-16 South** → 15 miles → **SR 650** (5 mi south of Sugar Grove) → right → 2 miles to the paved entrance road. One camper let GPS route them onto 650 from the northwest and got four miles of gravel. · 📍 Hurricane Campground Mount Rogers National Recreation Area
-- 5:05 → 6:15 (1h 10m) · stop · Check in, set up, **hot shower.** $20. Sunset 6:39.
-- 6:15 → (—) · food · Cook. Last night. Damascus is ~35 min if you want a town; the leg is otherwise thin for food.
+- 4:35 → 5:45 (1h 10m) · stop · Snack and rest around Massie Gap.
+- 5:45 → 6:45 (1h) · sunset · ⭐ **Golden hour on the Grayson balds** around Massie Gap: open grass and ponies. Computed sunset **6:43**, dark **7:04** (Massie Gap's verified coordinate, 2026-10-22). Mount Rogers and Whitetop lie to the west, so the sun probably drops behind them ~10 min early (estimate). *(chosen 2026-10-22: sunset on the balds rather than a valley camp that's in shade by ~6:00)*
+- 6:45 → 7:15 (30m) · drive! · In the dark: → **Hurricane Campground.** ⚠️ **Follow these directions, not GPS** — both the Forest Service and Recreation.gov say so in bold. From I-81, **Marion exit 45** → **VA-16 South** → 15 miles → **SR 650** (5 mi south of Sugar Grove) → right → 2 miles to the paved entrance road. One camper let GPS route them onto 650 from the northwest and got four miles of gravel. · 📍 Hurricane Campground Mount Rogers National Recreation Area
+- 7:15 → 8:15 (1h) · stop · Check in (**gate open 7 AM–10 PM**), set up by headlamp, **hot shower.** $20. (was: 5:05 → 6:15, check-in before sunset)
+- 8:15 → (—) · food · Cook. Last night. Damascus is ~35 min if you want a town; the leg is otherwise thin for food.
 
 **Meals**
 - B: **O-B8** ⚠️ still no water — 2 bagels, PB packets, honey, a shelf-stable protein shake. **No dishes, no water, no decisions in the dark** (~750 kcal)
