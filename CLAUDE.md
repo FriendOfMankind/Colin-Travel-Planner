@@ -23,6 +23,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
 | What's in the repo | `INDEX.md` (generated) |
+| Drift checks: pinned facts, dismissed findings, run ledger | `garden/` |
 
 ## How to answer
 
@@ -42,6 +43,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | "am I ready?" | `/preflight` | nothing; it reports | n/a |
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
 | "research …" / "do a sweep" / "youtube research" | `/research` | log, `research.md`, plain facts in `trip.md` | no, Colin merges |
+| "garden" / "what's stale" / "sweep for contradictions" | `/gardener` | fixes he picks, `garden/` | only if `garden/`-only |
 
 ## Changing things
 
@@ -53,6 +55,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - If this chat's earlier PR is already merged, restart the branch from `main` before new work.
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
+- **When a fact copied into several files changes,** update its pin in `garden/pins.yaml`; `node tools/garden.mjs` then lists every stale copy.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
 - **Update, don't append.** When a fact changes, change it in place and keep a short "(was: …)" note. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
@@ -85,6 +88,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 npm install            # the session hook does this
 npm test               # format, trips, wishlist, bucket and date tests
 node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a date)
+node tools/garden.mjs  # the gardener's free mechanical drift pass (--json, --scope)
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/index.html
@@ -92,12 +96,11 @@ node tools/build.mjs   # site/index.html
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 7 trips (two shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the six skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (two shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the seven skills (incl. `/gardener`, 2026-10-12: a free mechanical pass in the briefing, plus finder and verifier agents in `.claude/agents/`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.
 2. **Port `mapbench.html`** so coordinates can be placed against this repo.
 3. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-4. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

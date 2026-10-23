@@ -1,0 +1,33 @@
+# Pinned facts: values copied into many files. tools/garden.mjs flags any
+# copy that disagrees with `says`. When a fact really changes, change it at
+# `home`, update `says` and every `expect` here, and the gardener lists every
+# stale copy for you (that's evals/questions.md edit 4, made mechanical).
+#
+# A pattern needs exactly one capture group: the value. Lines inside a
+# "(was: …)" note are skipped, so history never trips a pin. Add a pin only
+# for a fact that is copied around; a fact with one home needs no pin.
+
+- id: spice ceiling
+  home: me/food.md
+  says: 1–2 of 5
+  patterns:
+    - re: "[Ss]pice (?:ceiling |limit )?(?:is |of )?\\**(\\d\\s*[–-]\\s*\\d)\\**(?: of |/)5"
+      expect: 1–2
+    - re: "[Ss]pice ≤ ?(\\d)/5"
+      expect: "2"
+
+- id: daily calorie target
+  home: me/food.md
+  says: ~3,300 kcal
+  patterns:
+    - re: "[Tt]arget \\**~?([\\d,]{4,6}) kcal"
+      expect: "3,300"
+
+- id: ground clearance
+  home: me/profile.md
+  says: ~5.9 in
+  patterns:
+    - re: "(\\d\\.\\d)[ -]?(?:in|inch|inches)\\b\\.?\\)? (?:of )?(?:ground )?clearance"
+      expect: "5.9"
+    - re: "clearance (?:for|and you have|of) (\\d\\.\\d) ?(?:in|inch)"
+      expect: "5.9"
