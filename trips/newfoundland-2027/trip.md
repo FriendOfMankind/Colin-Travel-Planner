@@ -305,7 +305,8 @@ overnight:
 ```
 
 **Schedule**
-- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/28/2027 tide time comes from a tide table, never typed. **The park is open 9:00–5:00 only, May 15 – June 20** (2026 hours), so the low tide has to fall inside that window *(parcsnbparks.ca, snippet, 2026-10-08)*. NB Parks posts its own tide tables · 📍 Hopewell Rocks
+- OPTIONAL midday · stop · **Hopewell Rocks at low tide**, if the tide fits. Skip it if not, decide on the day *(stated 2026-10-04)*. **Low tide 12:57 PM ADT, 3.54 m** (high 6:16 AM and 6:47 PM, ~10.2–10.3 m), CHS Hopewell Cape station 00170, *preliminary* because it's beyond the current year *(tides.gc.ca/en/stations/00170/2027-05-28, read 2026-10-17; was: "comes from a tide table, never typed")*. That's a weak low (mean low water there is 1.83 m), so check with the park whether the floor is walkable at that height. A 1 PM low means leaving around 2:30 and reaching Chéticamp around 8:30 PM. **The park is open 9:00–5:00 only, May 15 – June 20** (2026 hours), so the low tide has to fall inside that window *(parcsnbparks.ca, snippet, 2026-10-08)*. NB Parks posts its own tide tables · 📍 Hopewell Rocks
+- OPTIONAL, instead of Hopewell · geology · **Joggins Fossil Cliffs** (UNESCO), Nova Scotia: the "coal age Galápagos", the most complete fossil record of the Carboniferous, ~300 million years old, with fossil forests standing in the cliff. On the way: Amherst is on the route to Cape Breton; the detour from there isn't routed. Fossil Centre open May 1 – Oct 18, 10–5 (2026); beach visits are planned around low tide; guided beach tours *(jogginsfossilcliffs.net, whc.unesco.org, snippets, 2026-10-17)*. Same tide, so it's one or the other, not both · 📍 Joggins Fossil Centre
 - (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton · 📍 Cheticamp Campground Cape Breton Highlands
 - evening · sunset · If the low tide was early, the Skyline sunset fits tonight and Day 7 frees up
 
@@ -429,6 +430,7 @@ overnight:
 - 1:15 → 1:30 · drive · → Quirpon (same road, not routed)
 - 1:30 → 2:45 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland · 📍 Quirpon Newfoundland
 - 2:45 → ~3:30 · drive · → Pistolet Bay. Not routed · 📍 Pistolet Bay Provincial Park
+- OPTIONAL evening · geology · **Cape Norman**, the northernmost point of the island of Newfoundland: a bare limestone headland, an 1871-founded lighthouse, protected limestone-barrens plants (stay on the paths), and the Whale Point Trail from Wild Bight for odd rock formations. Route 435 from the Viking Trail, then Cape Norman Road; the last stretch is gravel to a lot beside the lighthouse *(Wikipedia; liveruralnl.com 2021; lighthousefriends.com)*. Not routed from Pistolet Bay. Mosquitoes were "pterodactyl-sized" here in July 2023 *(YouTube, Overland Pioneers)* · 📍 Cape Norman Lighthouse
 - OPTIONAL evening · food · **The Norseman, L'Anse aux Meadows**: pan-fried cod. "The best meal we had in Newfoundland" *(YouTube, True North RVing, 2024)*; binoculars at the tables for icebergs. Hours and prices not checked. White Cape Harbour, just before L'Anse aux Meadows, was full of icebergs in spring 2026 *(YouTube, Life Is Short DIY, 2026)*
 
 **Meals**
@@ -1053,7 +1055,9 @@ overnight:
 **Schedule**
 - 8:30 → 9:48 (1h 18m) · drive · Argentia → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
 - 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
-- 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
+- 12:00 → 1:18 (1h 18m) · drive · → Placentia · 📍 Castle Hill National Historic Site
+- OPTIONAL 1:20 → 2:45 · ruins · **Castle Hill National Historic Site**: French and British fort remains from the 1690s to the early 1800s on a headland over Placentia, with trails and cannons. Open June 1 – Oct 9 (2026 season); Parks Canada suggests 2–3 h, so this is a short version; 5–7 min from the ferry *(parks.canada.ca/lhn-nhs/nl/castlehill, snippets, 2026-10-11)*. Fee not checked · 📍 Castle Hill National Historic Site
+- 2:45 → 2:55 · drive · → Argentia, for the 3:00 check-in · 📍 Marine Atlantic Argentia Terminal
 - 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
 - 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
 
