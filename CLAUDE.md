@@ -22,6 +22,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
+| A packing checklist to send a friend joining a trip | `share/gear-checklist.html`, published at https://claude.ai/artifact/WS4dhD88SF9XEoCmarduwQ. Generic for now. To customize for a trip, edit the `TRIP`/`SECTIONS` block at the top of the script, change `TRIP.id`, and publish a copy as a new page so the generic one stays |
 | What's in the repo | `INDEX.md` (generated) |
 
 ## How to answer

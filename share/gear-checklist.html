@@ -1,0 +1,501 @@
+<title>Colin's Camp Checklist</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500;700&family=Overpass:wght@400;600;700&display=swap">
+<style>
+/* Layout: a park-sign header, then one column of trail-blaze checklists. Checked items get a painted blaze. */
+:root {
+  --bg: #eef1ec;
+  --panel: #ffffff;
+  --fg: #1d2620;
+  --muted: #5d6b62;
+  --line: #d4dbd4;
+  --sign: #3b2f24;
+  --sign-fg: #f3e9d6;
+  --blaze: #e2a610;
+  --accent: #2f6150;
+  --accent-soft: #dfeae4;
+  --warn: #9a4a12;
+  --font-display: "Zilla Slab", Rockwell, "Roboto Slab", Georgia, serif;
+  --font-body: "Overpass", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141a17; --panel: #1c2420; --fg: #e5ebe6; --muted: #9aa8a0; --line: #2e3a34;
+    --sign: #2a2119; --sign-fg: #efe3cc; --blaze: #f0b733; --accent: #8cc4ad; --accent-soft: #23352d; --warn: #f0a46a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141a17; --panel: #1c2420; --fg: #e5ebe6; --muted: #9aa8a0; --line: #2e3a34;
+  --sign: #2a2119; --sign-fg: #efe3cc; --blaze: #f0b733; --accent: #8cc4ad; --accent-soft: #23352d; --warn: #f0a46a;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg);
+  font-family: var(--font-body); font-size: 16px; line-height: 1.5;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--panel);
+}
+.wrap {
+  max-width: 720px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+/* Park-sign header */
+.sign { background: var(--sign); color: var(--sign-fg); }
+.sign .wrap { padding-block: 28px 24px; display: grid; gap: 10px; }
+.eyebrow { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; opacity: .8; font-weight: 600; }
+h1 {
+  font-family: var(--font-display); font-weight: 700; font-size: clamp(28px, 7vw, 40px);
+  line-height: 1.1; margin: 0; text-wrap: balance;
+}
+.facts { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 14px; }
+.facts b { font-weight: 700; }
+.intro { margin: 4px 0 0; max-width: 60ch; font-size: 15px; opacity: .92; }
+
+/* Sticky controls */
+.bar {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--panel); border-bottom: 1px solid var(--line);
+}
+.bar .wrap { padding-block: 10px; display: grid; gap: 8px; }
+.bar-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 12px; }
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 2px; background: var(--bg); }
+.seg button {
+  font: inherit; font-size: 14px; font-weight: 600; border: 0; background: transparent; color: var(--muted);
+  padding: 6px 14px; border-radius: 999px; cursor: pointer;
+}
+.seg button[aria-pressed="true"] { background: var(--accent); color: var(--panel); }
+.progress-text { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.progress-text b { color: var(--fg); }
+.meter { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.meter span { display: block; height: 100%; width: 0; background: var(--blaze); transition: width .25s; }
+.toggle { display: inline-flex; align-items: center; gap: 6px; font-size: 14px; color: var(--muted); cursor: pointer; }
+.toggle input { accent-color: var(--accent); width: 16px; height: 16px; }
+
+main .wrap { padding-block: 20px 40px; display: grid; gap: 28px; }
+
+/* Legend */
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+
+/* Sections */
+section { display: grid; gap: 10px; }
+.sec-head { display: grid; gap: 2px; }
+h2 {
+  font-family: var(--font-display); font-weight: 700; font-size: 22px; margin: 0;
+  display: flex; align-items: baseline; justify-content: space-between; gap: 12px;
+}
+h2 .count { font-family: var(--font-body); font-size: 13px; font-weight: 600; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sec-blurb { margin: 0; color: var(--muted); font-size: 14px; max-width: 62ch; }
+
+.list { list-style: none; margin: 0; padding: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; }
+.list li + li { border-top: 1px solid var(--line); }
+.item { display: grid; grid-template-columns: 22px 1fr; gap: 12px; padding: 12px 14px; cursor: pointer; align-items: start; }
+.item input { position: absolute; opacity: 0; pointer-events: none; }
+.blaze {
+  width: 14px; height: 24px; margin: 2px 4px 0; border: 2px solid var(--muted); border-radius: 2px;
+  transition: background .15s, border-color .15s;
+}
+.item input:checked + .blaze { background: var(--blaze); border-color: var(--blaze); }
+.item input:focus-visible + .blaze { outline: 2px solid var(--accent); outline-offset: 3px; }
+.item-body { min-width: 0; display: grid; gap: 2px; }
+.item-name { font-weight: 700; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; }
+.item input:checked ~ .item-body .item-name span.n { text-decoration: line-through; text-decoration-color: var(--muted); color: var(--muted); }
+.tag {
+  font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+  padding: 1px 7px; border-radius: 4px; border: 1px solid var(--line); color: var(--muted);
+}
+.tag.season { background: var(--accent-soft); border-color: transparent; color: var(--accent); }
+.item-why { font-size: 14px; color: var(--fg); }
+.item-tip { font-size: 13px; color: var(--muted); }
+.item-tip b { color: var(--warn); font-weight: 700; }
+.list.hide-done li.done { display: none; }
+.all-done { padding: 12px 14px; font-size: 14px; color: var(--muted); }
+
+/* Not-your-problem + talk lists */
+.plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.plain li { background: var(--panel); padding: 10px 14px; display: grid; gap: 2px; }
+.plain .n { font-weight: 700; }
+.plain .d { font-size: 14px; color: var(--muted); }
+.covered li { background: var(--accent-soft); }
+
+/* Actions */
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn {
+  font: inherit; font-size: 15px; font-weight: 700; cursor: pointer; border-radius: 8px;
+  padding: 10px 16px; border: 1px solid var(--accent); background: var(--accent); color: var(--panel);
+}
+.btn.ghost { background: transparent; color: var(--accent); }
+.btn:focus-visible, .seg button:focus-visible { outline: 2px solid var(--blaze); outline-offset: 2px; }
+.status { font-size: 14px; color: var(--muted); min-height: 1.5em; margin: 0; }
+textarea#copyout { width: 100%; min-height: 140px; font: 13px/1.4 ui-monospace, Menlo, monospace; color: var(--fg); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px; }
+.confirm { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 14px; }
+footer { font-size: 13px; color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="sign">
+  <div class="wrap">
+    <div class="eyebrow" id="eyebrow">Packing list from Colin</div>
+    <h1 id="trip-name">Weekend camping trip</h1>
+    <div class="facts" id="facts"></div>
+    <p class="intro" id="intro"></p>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="bar-row">
+      <div class="seg" role="group" aria-label="Season">
+        <button type="button" id="season-summer" data-season="summer" aria-pressed="false">Summer</button>
+        <button type="button" id="season-shoulder" data-season="shoulder" aria-pressed="true">Spring / Fall</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="hide-done"> Hide packed</label>
+    </div>
+    <div class="progress-text" id="progress-text"></div>
+    <div class="meter" aria-hidden="true"><span id="meter"></span></div>
+  </div>
+</div>
+
+<main>
+  <div class="wrap" id="content">
+    <div class="legend">
+      <span><span class="blaze" style="display:inline-block;margin:0;background:var(--blaze);border-color:var(--blaze);width:10px;height:16px"></span> Tap an item when it's packed</span>
+      <span><span class="tag">Optional</span> nice to have, skip if you don't own it</span>
+    </div>
+  </div>
+</main>
+
+<script>
+/* ============================================================
+   EDIT HERE to customise this list for a specific trip/person.
+   - TRIP: the header facts and the default season.
+   - SECTIONS: each item has
+       id     unique, never reuse (it's how checks are remembered)
+       name   what to bring
+       why    one line on why
+       tip    optional, buying/borrowing advice
+       spec   optional { summer, shoulder } text that changes by season
+       when   "both" (default) | "summer" | "shoulder"
+       must   true | false | { summer: bool, shoulder: bool }
+   - COVERED: what Colin brings, so nobody buys a second one.
+   - TALK: things to decide together before the trip.
+   ============================================================ */
+const TRIP = {
+  id: "generic-v1",            // change per trip so old checkmarks don't carry over
+  name: "Weekend camping trip",
+  host: "Colin",
+  guest: "",                   // e.g. "Sam"
+  where: "Place TBD",
+  dates: "Dates TBD",
+  nights: "~3 nights",
+  style: "Car camping + day hikes",
+  season: "shoulder",          // "summer" | "shoulder"
+  intro: "We drive to a campground with bathrooms (and usually showers), sleep in our own tents, and do a day hike most days. You won't carry your camp gear far, so weight doesn't matter. Warmth and dry clothes do."
+};
+
+const SECTIONS = [
+  {
+    id: "sleep", title: "Sleep",
+    blurb: "Get this right and the trip is fun. A cold night ruins the next day too.",
+    items: [
+      { id: "tent", name: "Tent", must: true,
+        why: "Your own. We each have a tent.",
+        tip: "Borrow or rent before buying one. Set it up once at home so you aren't learning it in the dark." },
+      { id: "bag", name: "Sleeping bag", must: true,
+        spec: { summer: "Rated 40°F or lower.", shoulder: "Rated 20–30°F. Nights can drop into the 30s." },
+        tip: "The number on the bag is usually closer to 'survivable' than 'comfortable'. Pick one rated about 10°F colder than the coldest night." },
+      { id: "pad", name: "Sleeping pad", must: true,
+        spec: { summer: "Any foam or inflatable camping pad. R-value 2 or more.", shoulder: "R-value 4 or more. The cold ground pulls heat out of you faster than the air does." },
+        tip: "<b>Pool floats and plain air mattresses don't work.</b> They get as cold as the ground." },
+      { id: "pillow", name: "Pillow", must: false,
+        why: "A camp pillow, a small regular one, or a stuff sack full of clothes." },
+      { id: "sleepclothes", name: "Sleep clothes", must: true,
+        spec: { summer: "A dry shirt and shorts that you only wear in the tent.", shoulder: "Base layer top and bottoms, wool socks and a warm hat, worn only in the tent." },
+        tip: "Sleeping in the clothes you hiked in makes any bag colder. They're damp with sweat." },
+      { id: "earplugs", name: "Earplugs", must: false,
+        why: "Campground neighbours, rain on the tent, owls with opinions." }
+    ]
+  },
+  {
+    id: "clothes", title: "Clothes",
+    blurb: "No cotton: no jeans, no cotton hoodies. Wet cotton stays wet and cold. Look for polyester, nylon or merino wool on the tag.",
+    items: [
+      { id: "rainjacket", name: "Rain jacket", must: true,
+        why: "Waterproof, with a hood. A windbreaker isn't enough." },
+      { id: "fleece", name: "Fleece or warm mid-layer", must: { summer: false, shoulder: true },
+        why: "The layer you hike in on a cold morning. A polyester fleece is perfect." },
+      { id: "puffy", name: "Puffy jacket", when: "shoulder", must: true,
+        why: "For sitting around camp at night and early morning. Doubles as extra warmth in your sleeping bag." },
+      { id: "warmhat", name: "Warm hat", when: "shoulder", must: true,
+        why: "Beanie. You'll wear it to bed." },
+      { id: "gloves", name: "Gloves", when: "shoulder", must: true,
+        why: "Any warm pair. Cold hands at 7 AM make everything slower." },
+      { id: "baselayer", name: "Base layer for hiking", when: "shoulder", must: false,
+        why: "Long underwear under your pants on cold mornings. Separate from the set you sleep in." },
+      { id: "pants", name: "Hiking pants", must: true,
+        spec: { summer: "1 pair, quick-dry nylon or polyester.", shoulder: "2 pairs, quick-dry. If one gets soaked you still have a dry pair." } },
+      { id: "shorts", name: "Shorts", must: { summer: true, shoulder: false },
+        spec: { summer: "1–2 pairs for hiking and camp.", shoulder: "1 pair, in case a warm afternoon shows up." } },
+      { id: "shirts", name: "Hiking shirts", must: true,
+        why: "2 synthetic or merino shirts. Gym/athletic shirts work great." },
+      { id: "socks", name: "Wool hiking socks", must: true,
+        why: "1 pair per day plus 1 spare (about 5 for 3 nights). Wet feet are the most common way a hike goes bad." },
+      { id: "underwear", name: "Underwear", must: true,
+        why: "1 per day. Synthetic or merino if you have it." },
+      { id: "sunhat", name: "Sun hat or cap", must: { summer: true, shoulder: false } },
+      { id: "swim", name: "Swimsuit", when: "summer", must: false,
+        why: "If there's a lake or swimming hole." }
+    ]
+  },
+  {
+    id: "feet", title: "Footwear",
+    blurb: "",
+    items: [
+      { id: "boots", name: "Hiking boots or trail runners", must: true,
+        why: "With real grip on wet rock.",
+        tip: "<b>Broken in.</b> Brand-new boots give you blisters on day one. Wear them on a few walks first." },
+      { id: "campshoes", name: "Camp shoes", must: true,
+        why: "Sandals or slip-ons for camp and the showers, so your boots can dry out." }
+    ]
+  },
+  {
+    id: "daypack", title: "Day-hike pack",
+    blurb: "What's in your pack on every hike, on top of your rain jacket and a warm layer.",
+    items: [
+      { id: "pack", name: "Daypack, 15–30 L", must: true,
+        why: "A backpack big enough for water, snacks, a jacket and a layer. A school backpack works to start." },
+      { id: "water", name: "Water bottles", must: true,
+        spec: { summer: "3 litres total on a hike. Heat makes you drink a lot more.", shoulder: "2 litres total on a hike." },
+        tip: "Two 1 L bottles (Smartwater bottles are light and cheap) or a hydration bladder." },
+      { id: "snacks", name: "Hiking snacks", must: true,
+        why: "More than you think. Salty and sweet: trail mix, bars, jerky, candy." },
+      { id: "headlamp", name: "Headlamp + spare batteries", must: true,
+        why: "Even on a day hike. It gets dark early in fall, and hikes run long." },
+      { id: "phone", name: "Phone with offline trail maps", must: true,
+        why: "Download the trail in AllTrails (or similar) at camp. Most trails have no signal." },
+      { id: "blister", name: "Mini blister kit", must: true,
+        why: "Moleskin or Leukotape and a few bandages. Tape a hot spot the moment you feel it." },
+      { id: "sunscreen", name: "Sunscreen + sunglasses", must: { summer: true, shoulder: false } },
+      { id: "bugspray", name: "Bug spray", must: { summer: true, shoulder: false },
+        why: "Picaridin or DEET." },
+      { id: "bathroom", name: "Bathroom kit", must: true,
+        why: "Toilet paper, hand sanitizer and a zip bag to pack the paper out. Trails don't have bathrooms." },
+      { id: "poles", name: "Trekking poles", must: false,
+        why: "Easier on the knees going downhill, and steadier on mud and creek crossings." }
+    ]
+  },
+  {
+    id: "camp", title: "Camp & personal",
+    blurb: "",
+    items: [
+      { id: "chair", name: "Camp chair", must: true,
+        why: "Folding. You'll spend every evening in it." },
+      { id: "dishes", name: "Mug, bowl and spork", must: true,
+        why: "Your own eating kit. Colin brings the pots and stove." },
+      { id: "toiletries", name: "Toiletries", must: true,
+        why: "Toothbrush, toothpaste, deodorant, anything else you use daily." },
+      { id: "towel", name: "Towel", must: true,
+        why: "For the campground showers. A quick-dry one is nicer but any towel works." },
+      { id: "meds", name: "Your meds", must: true,
+        why: "Anything you take daily, plus allergy meds and painkillers." },
+      { id: "id", name: "ID, card and some cash", must: true,
+        why: "Some campgrounds and parks only take cash." },
+      { id: "power", name: "Phone charger + power bank", must: true,
+        why: "Colin has a power station at camp, but you want your own bank on hikes." },
+      { id: "coffee", name: "Coffee setup", must: false,
+        why: "Colin doesn't drink coffee, so there's no coffee gear. If you want it, bring the whole thing: coffee, a maker and a mug." },
+      { id: "knife", name: "Pocket knife", must: false }
+    ]
+  }
+];
+
+const COVERED = [
+  { n: "Stove, fuel, pot and pan", d: "One burner. We'll work out meals together." },
+  { n: "Cooler", d: "Room for some of your food too." },
+  { n: "Lantern", d: "" },
+  { n: "Water filter and water jugs", d: "" },
+  { n: "Dish-washing kit", d: "Basin, sponge and soap." },
+  { n: "Main first aid kit", d: "You bring your own meds and blister stuff." },
+  { n: "Power station", d: "For charging phones at camp." },
+  { n: "Car tire repair kit", d: "Spare tire, plug kit and inflator." }
+];
+
+const TALK = [
+  { n: "Food", d: "Split the groceries, each bring your own, or one person cooks and the other chips in? Tell Colin about any foods you avoid." },
+  { n: "Getting there", d: "One car or two? Two tents, two chairs and a cooler fill a sedan trunk fast." },
+  { n: "Hikes", d: "How far do you like to walk? Colin's usual day is up to ~10 miles. Say so if that sounds like a lot." }
+];
+
+/* ============================================================ */
+
+const STORE_KEY = "camp-checklist:" + TRIP.id;
+let state = { season: TRIP.season, hideDone: false, checked: {} };
+try {
+  const saved = JSON.parse(localStorage.getItem(STORE_KEY) || "null");
+  if (saved) state = Object.assign(state, saved);
+} catch (e) {}
+function save() { try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch (e) {} }
+
+const SEASON_LABEL = { summer: "Summer", shoulder: "Spring / Fall" };
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const visible = it => !it.when || it.when === "both" || it.when === state.season;
+const isMust = it => typeof it.must === "object" ? !!it.must[state.season] : !!it.must;
+
+function renderHeader() {
+  document.getElementById("trip-name").textContent = TRIP.name;
+  document.getElementById("eyebrow").textContent =
+    TRIP.guest ? `Packing list for ${TRIP.guest}, from ${TRIP.host}` : `Packing list from ${TRIP.host}`;
+  const facts = [["Where", TRIP.where], ["When", TRIP.dates], ["Length", TRIP.nights], ["Style", TRIP.style]];
+  document.getElementById("facts").innerHTML =
+    facts.map(([k, v]) => `<span><b>${esc(k)}:</b> ${esc(v)}</span>`).join("");
+  document.getElementById("intro").textContent = TRIP.intro;
+  document.title = TRIP.guest ? `${TRIP.name} · ${TRIP.guest}` : "Colin's Camp Checklist";
+}
+
+function itemHTML(it) {
+  const checked = !!state.checked[it.id];
+  const spec = it.spec && it.spec[state.season];
+  const seasonTag = it.when && it.when !== "both" ? `<span class="tag season">${SEASON_LABEL[it.when]}</span>` : "";
+  const optTag = isMust(it) ? "" : `<span class="tag">Optional</span>`;
+  return `<li class="${checked ? "done" : ""}" data-id="${esc(it.id)}">
+    <label class="item">
+      <input type="checkbox" id="chk-${esc(it.id)}" ${checked ? "checked" : ""}>
+      <span class="blaze" aria-hidden="true"></span>
+      <span class="item-body">
+        <span class="item-name"><span class="n">${esc(it.name)}</span>${seasonTag}${optTag}</span>
+        ${spec ? `<span class="item-why">${esc(spec)}</span>` : ""}
+        ${it.why ? `<span class="item-why">${esc(it.why)}</span>` : ""}
+        ${it.tip ? `<span class="item-tip">${it.tip}</span>` : ""}
+      </span>
+    </label>
+  </li>`;
+}
+
+function render() {
+  const content = document.getElementById("content");
+  content.querySelectorAll("section, .actions-block, footer").forEach(n => n.remove());
+
+  let html = "";
+  for (const sec of SECTIONS) {
+    const items = sec.items.filter(visible).sort((a, b) => isMust(b) - isMust(a));
+    if (!items.length) continue;
+    const done = items.filter(i => state.checked[i.id]).length;
+    html += `<section id="sec-${sec.id}">
+      <div class="sec-head">
+        <h2>${esc(sec.title)} <span class="count">${done}/${items.length}</span></h2>
+        ${sec.blurb ? `<p class="sec-blurb">${esc(sec.blurb)}</p>` : ""}
+      </div>
+      <ul class="list${state.hideDone ? " hide-done" : ""}">${items.map(itemHTML).join("")}</ul>
+      ${state.hideDone && done === items.length ? `<div class="all-done">All packed.</div>` : ""}
+    </section>`;
+  }
+
+  html += `<section>
+    <div class="sec-head"><h2>${esc(TRIP.host)}'s bringing these</h2>
+    <p class="sec-blurb">Shared gear. Don't buy or pack your own.</p></div>
+    <ul class="plain covered">${COVERED.map(c => `<li><span class="n">${esc(c.n)}</span>${c.d ? `<span class="d">${esc(c.d)}</span>` : ""}</li>`).join("")}</ul>
+  </section>`;
+
+  html += `<section>
+    <div class="sec-head"><h2>Let's sort these out</h2>
+    <p class="sec-blurb">Nothing to pack. Just text ${esc(TRIP.host)} your answer.</p></div>
+    <ul class="plain">${TALK.map(c => `<li><span class="n">${esc(c.n)}</span><span class="d">${esc(c.d)}</span></li>`).join("")}</ul>
+  </section>`;
+
+  html += `<section class="actions-block">
+    <div class="sec-head"><h2>Missing something?</h2>
+    <p class="sec-blurb">Copy the list of what you haven't packed yet and send it to ${esc(TRIP.host)}. Some of it might be borrowable.</p></div>
+    <div class="actions">
+      <button type="button" class="btn" id="copy-btn">Copy what I still need</button>
+      <button type="button" class="btn ghost" id="reset-btn">Clear all checks</button>
+    </div>
+    <div class="confirm" id="reset-confirm" hidden>
+      <span>Uncheck everything?</span>
+      <button type="button" class="btn ghost" id="reset-yes">Yes, clear</button>
+      <button type="button" class="btn ghost" id="reset-no">Cancel</button>
+    </div>
+    <p class="status" id="status" role="status"></p>
+    <textarea id="copyout" hidden readonly aria-label="List to copy"></textarea>
+  </section>
+  <footer>Your checkmarks are saved in this browser only.</footer>`;
+
+  content.insertAdjacentHTML("beforeend", html);
+  renderBar();
+}
+
+function renderBar() {
+  document.querySelectorAll(".seg button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.season === state.season)));
+  document.getElementById("hide-done").checked = state.hideDone;
+  const all = SECTIONS.flatMap(s => s.items).filter(visible);
+  const musts = all.filter(isMust);
+  const mustDone = musts.filter(i => state.checked[i.id]).length;
+  document.getElementById("progress-text").innerHTML =
+    `<b>${mustDone} of ${musts.length}</b> essentials packed · ${all.filter(i => state.checked[i.id]).length} of ${all.length} items total`;
+  document.getElementById("meter").style.width = (musts.length ? mustDone / musts.length * 100 : 0) + "%";
+}
+
+function missingText() {
+  const lines = [`Still need for ${TRIP.name} (${SEASON_LABEL[state.season]}):`];
+  for (const sec of SECTIONS) {
+    const miss = sec.items.filter(visible).filter(i => !state.checked[i.id]);
+    if (!miss.length) continue;
+    lines.push("", sec.title.toUpperCase());
+    miss.forEach(i => lines.push(`- ${i.name}${isMust(i) ? "" : " (optional)"}`));
+  }
+  if (lines.length === 1) lines.push("Nothing, I'm all packed.");
+  return lines.join("\n");
+}
+
+document.addEventListener("change", e => {
+  const t = e.target;
+  if (t.id === "hide-done") { state.hideDone = t.checked; save(); render(); return; }
+  const li = t.closest("li[data-id]");
+  if (li && t.type === "checkbox") {
+    state.checked[li.dataset.id] = t.checked;
+    if (!t.checked) delete state.checked[li.dataset.id];
+    li.classList.toggle("done", t.checked);
+    save();
+    const sec = li.closest("section");
+    const boxes = sec.querySelectorAll("li[data-id] input");
+    sec.querySelector(".count").textContent = `${[...boxes].filter(b => b.checked).length}/${boxes.length}`;
+    renderBar();
+  }
+});
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("button");
+  if (!t) return;
+  if (t.dataset.season) { state.season = t.dataset.season; save(); render(); return; }
+  const status = document.getElementById("status");
+  if (t.id === "copy-btn") {
+    const text = missingText();
+    const out = document.getElementById("copyout");
+    const fallback = () => {
+      out.value = text; out.hidden = false; out.focus(); out.select();
+      status.textContent = "Couldn't copy automatically. The list is selected below, copy it from there.";
+    };
+    try {
+      navigator.clipboard.writeText(text).then(() => {
+        out.hidden = true; status.textContent = "Copied. Paste it into a text to " + TRIP.host + ".";
+      }, fallback);
+    } catch (err) { fallback(); }
+  }
+  if (t.id === "reset-btn") document.getElementById("reset-confirm").hidden = false;
+  if (t.id === "reset-no") document.getElementById("reset-confirm").hidden = true;
+  if (t.id === "reset-yes") { state.checked = {}; save(); render(); document.getElementById("status").textContent = "Cleared."; }
+});
+
+renderHeader();
+render();
+</script>
