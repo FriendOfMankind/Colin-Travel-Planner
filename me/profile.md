@@ -7,7 +7,7 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 # Profile
 
 - **Name:** Colin
-- **Home base:** Avon, Ohio — west Cleveland metro. Drive times are measured from there; flights from CLE.
+- **Home base:** Avon, Ohio — west Cleveland metro. Drive times are measured from there; flights from CLE. **Stays NE Ohio after full-time work starts Aug 31, 2027** *(stated 2026-10-27)*, so post-horizon trips plan from the same base.
 - **Group:** Solo. One person, one tent, one portion.
 - **Trip shape:** 2–5 campgrounds per trip, 5–10 nights, 4–8 hikes.
 - **Showers: daily if possible.** Prefer campgrounds with showers, but **showers don't pick the campground**: when the best site has none, buy a shower in town or at a nearby park. *(stated 2026-10-04, asked about Newfoundland's provincial parks; was: "a no-shower stretch needs a reason" (stated 2026-09-28), and before that "occasional motel night for a shower")*

@@ -12,11 +12,13 @@ region: Lake Placid / Wilmington / Saranac Lake, New York
 country: USA
 budget: ~$950–1,150 pp for a 3-day skier, ~$700 pp for a non-skier, both before the bobsled (estimate, see 2026-10-15 notes); lift tickets estimated, bobsled not priced
 tags: [ friends, winter, skiing, cross-country, snowshoe, olympic, cabin, drive, january ]
-updated: 2026-10-15
+updated: 2026-10-27
 source: daydream 2026-10-15 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
 # Adirondacks Ski Week
+
+**Picked for winter break 2026–27** *(stated 2026-10-27)*: it's what he wants to use the Dec 19 → Jan 18 gap for (outside Frisco, Dec 25–30). Not booked, and the friends aren't confirmed, so `horizon` stays as is until they are. Next real step: lock the friends and the Jan 7–14 dates, then the cabin.
 
 *Lake Placid in January with friends*
 

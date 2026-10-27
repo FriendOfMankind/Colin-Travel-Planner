@@ -57,7 +57,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 - **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-05
   The bike trip, if there's only one
-- **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-15
+- **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-27
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
 - **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 7 research notes · updated 2026-10-15
   Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
