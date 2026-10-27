@@ -327,3 +327,8 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - [x] **Bridge Day access:** parked somewhere and **walked down Fayette Station Rd** to the gorge floor (not the trail from Arrowhead, not the shuttle). Where he parked isn't recorded.
 - [x] **Day 3:** as planned: slow start, Thurmond, south to Davidson River. **Skipping Kaymoor was the right call.**
 - [x] **Day 6:** lecture and the permit grab happened; **the pierogi + kielbasa cook did not.**
+- [x] **Why no pierogi:** "Didn't feel like making pierogi, not a very pivotal part of the trip, I just got Taco Bell, and I had the staples." **He never looked at the planned meals.** What he actually ate: **oatmeal for breakfast, ramen bomb for lunch, Knorr rice/pasta side + a chicken packet for dinner**, with some variations. "Planning meals out ahead of time is a little silly, I just ate what I wanted, when I wanted. It's still worth tracking food and my food preferences."
+- [x] **Day 8:** both happened: **Hawksbill at sunrise**, then **Table Rock + the Chimneys** from Table Rock Gap.
+- [x] **Day 9:** **early start, not the planned late one: first car in the Massie Gap lot.** Foggy. Didn't find Fatman's Squeeze (or did and didn't need to go through it). Whether the balds sunset happened isn't recorded yet.
+- [x] **Day 10:** straight home, no leg-stretcher (second trip in a row: Kentucky's last day went straight home too).
+- [x] **The FS 210 race: worth it.** He'd race for a first-come site again rather than pay for a reservable one, and the two no-water, no-shower nights didn't cost more than the scenery was worth.
