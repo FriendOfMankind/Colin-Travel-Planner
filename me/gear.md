@@ -22,7 +22,7 @@ Two more optional item fields, used by the clothing categories:
 
 ## Sleep system
 
-Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is owned (2026-09-28); the open item is whether bag + liner is warm enough at 32°F, which October answers.
+Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is owned (2026-09-28), and bag + liner was warm enough to ~30°F in October *(confirmed: appalachians-2026 log)*.
 
 ```yaml
 - name: REI Co-op Siesta 20 sleeping bag
@@ -31,14 +31,14 @@ Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is 
   question:
     text: Does it actually sleep warm enough to trust at 32°F?
     answeredBy: kentucky-2026
-    answer: "Partly. Warm with no issues at ~50°F. The 32°F half is still untested; Kentucky never got that cold. (confirmed: kentucky-2026 log, 2026-09-27)"
+    answer: "Yes, with the liner. Warm enough on the 29°F freeze-warning night at Arrowhead and the mid-30s FS 210 nights (confirmed: appalachians-2026 log, retro 2026-10-27). (was: \"Partly. Warm at ~50°F, 32°F untested\", kentucky-2026 log, 2026-09-27)"
 - name: Sleeping bag liner
   state: own
   note: "Ordered/owned as of 2026-09-28 (was: need). For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing."
   question:
     text: Is it needed, or does the Siesta 20 cover the mid-30s on its own?
     answeredBy: kentucky-2026
-    answer: "Unanswerable from Kentucky (lows ~50°F). Buying anyway as cheap insurance. Re-ask after the Appalachians trip. (stated 2026-09-27)"
+    answer: "Still not separable: October used bag + liner together and was warm enough to ~30°F (confirmed: appalachians-2026 log, retro 2026-10-27). Whether the bag alone covers the mid-30s was never tested, so keep packing the liner below 40°F. (was: \"Unanswerable from Kentucky… re-ask after the Appalachians trip\", 2026-09-27)"
 - name: Therm-a-Rest MondoKing 3D, 25 in Large
   state: own
   note: R-7.0. Overkill for anything on the current list, which is the correct problem to have.

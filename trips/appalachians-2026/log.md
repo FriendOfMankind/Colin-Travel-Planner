@@ -332,3 +332,6 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - [x] **Day 9:** **early start, not the planned late one: first car in the Massie Gap lot.** Foggy. Didn't find Fatman's Squeeze (or did and didn't need to go through it). Whether the balds sunset happened isn't recorded yet.
 - [x] **Day 10:** straight home, no leg-stretcher (second trip in a row: Kentucky's last day went straight home too).
 - [x] **The FS 210 race: worth it.** He'd race for a first-come site again rather than pay for a reservable one, and the two no-water, no-shower nights didn't cost more than the scenery was worth.
+- [x] **Grayson in the fog:** ponies in the morning fog were "a unique experience… spooky". Fog cleared on the way down but the clouds never fully lifted. **Back at the car by 1:30; no balds sunset.**
+- [x] **Mornings:** early is the new normal → `me/principles.md` 4 rewritten. *(stated 2026-10-27)*
+- [x] **Food planning:** shopping list only, no per-day menus → `me/food.md`. Knorr side + chicken is the default dinner → `kitchen/staples.md` D9.

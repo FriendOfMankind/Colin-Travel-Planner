@@ -16,7 +16,7 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 ## Evenings
 
 - **Cook a real dinner, then early to bed.** *(stated 2026-09-28)* A campfire wasn't picked as part of the point.
-- Mornings are slow: warm up in the tent, hot breakfast, then hike (`me/principles.md` 4). Sunset viewpoints over sunrise ones.
+- **Mornings start early** (`me/principles.md` 4): early to bed, early up, on the trail ahead of the crowd. Sunrise and sunset viewpoints are both fair game. *(stated 2026-10-27, appalachians-2026 retro)* (was: "Mornings are slow… sunset viewpoints over sunrise ones", 2026-09-28)
 
 ## Rain
 
@@ -25,5 +25,5 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 
 ## Cold
 
-- **Comfortable down to the 40s** in the current setup (Siesta 20, plus the liner from October). *(stated 2026-09-28)*
-- Below that is untested. Kentucky's lows were ~50°F. October's FS 210 (~3,800 ft) and Hurricane nights are forecast mid-30s, which is colder than he's said he's happy in. Treat those nights as a test, and log how they went.
+- **Warm enough down to ~30°F** with the Siesta 20 + liner: the 29°F freeze-warning night at Arrowhead (Oct 17) and the mid-30s FS 210 nights were all fine *(confirmed: appalachians-2026 log, retro 2026-10-27)*. (was: "Comfortable down to the 40s… below that is untested", stated 2026-09-28)
+- Below ~30°F is untested. The 29°F figure is the NWS forecast low for Fayetteville, not a thermometer at the tent.

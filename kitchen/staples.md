@@ -1,6 +1,6 @@
 ---
 topic: staples
-summary: "The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners."
+summary: "The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, nine dinners, with Knorr side + chicken as the default."
 targets:
   kcal: 3300
   protein_g: [130, 150]
@@ -40,6 +40,7 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 - **L2 · Couscous + black beans.** Heat the drained beans and taco seasoning in some water, kill the heat, dump in the couscous and cover for 5 min. Too wet: simmer a minute. Too dry: splash of water. Stir in the chicken, cheddar and olive oil. Works in the thermos.
 
 **Dinner**
+- **D9 · Knorr side + chicken: the default.** *(stated 2026-10-27, appalachians-2026 retro: what he actually ate most nights)* Make a Knorr rice or pasta side by its packet (they're seasoned and forgiving), then stir in a chicken pouch. Variations are fine. **What the numbers say:** it's the lowest-protein dinner here, but a day of power oats + ramen bomb + this + snacks still lands near target (see "Real road day" below). That only holds if breakfast is the power oats; with plain packet oatmeal the day drops well short on protein. Whether his "oatmeal" was power oats or packets isn't recorded.
 - **D1 · Brami + sauce + chicken.** Boil a pot of water, cook the pasta, and add frozen broccoli for the last 3 minutes. Drain. Stir in marinara and 2 chicken pouches, warm through, and top with parmesan. *Fresh upgrade:* brown 4 oz ground beef in the pot first and set it aside on the lid, then use it in place of the chicken.
 - **D2 · Cheeseburger mac.** Brown 4 oz ground beef in the pot. Add water and pasta and boil, adding the peas for the last 3 min. Pour off most of the water, leaving a splash. Stir in milk powder and cheddar until it's creamy. (No butter needed: the beef brings the fat.)
 
@@ -85,6 +86,7 @@ Per serving. `basis: label` came from a photo; `basis: estimate` is typical-labe
 - { id: couscous,     name: Couscous, serving: 50 g dry (~1/4 cup), kcal: 180, protein_g: 6.4, carbs_g: 36, fat_g: 0.3, basis: estimate }
 - { id: black_beans,  name: Black beans, canned, drained, serving: 1/2 cup (~1/3 can), kcal: 110, protein_g: 7, carbs_g: 20, fat_g: 0.5, basis: estimate }
 - { id: taco_mild,    name: Mild taco seasoning, serving: 1 tbsp, kcal: 20, protein_g: 0.5, carbs_g: 4, fat_g: 0.3, basis: estimate }
+- { id: knorr_side,   name: Knorr Rice or Pasta Side, whole packet, serving: 1 packet (~160 g dry), kcal: 600, protein_g: 16, carbs_g: 115, fat_g: 7, basis: estimate }
 - { id: chicken_pouch, name: Chicken, pouch or can, serving: 1 pouch (~2.5 oz), kcal: 80, protein_g: 15, carbs_g: 0, fat_g: 2, basis: estimate }
 - { id: summer_sausage, name: Summer sausage (shelf-stable), serving: 2 oz (56 g), kcal: 180, protein_g: 8, carbs_g: 1, fat_g: 16, basis: estimate }
 - { id: ground_beef,  name: Ground beef 85/15 (fresh add-on), serving: 4 oz raw, kcal: 240, protein_g: 21, carbs_g: 0, fat_g: 17, basis: estimate }
@@ -151,6 +153,9 @@ Quantities are in *servings* of each food above.
 - id: D8
   name: Mashed potatoes + gravy + sausage
   items: { potato_flakes: 4, milk_powder: 1, gravy: 1, turkey_kielbasa: 2, peas: 1 }
+- id: D9
+  name: Knorr side + chicken (the default)
+  items: { knorr_side: 1, chicken_pouch: 1 }
 - id: S
   name: Trail snacks (a handful of trail mix, a bar, 2 oz pretzels)
   items: { trail_mix: 1, bar: 1, pretzels: 2 }
@@ -162,6 +167,7 @@ Quantities are in *servings* of each food above.
 ## Totals
 
 ```yaml days
+- { name: "Real road day (Appalachians): B1 · L1 · D9 · snacks", meals: [B1, L1, D9, S] }
 - { name: "Day A: B1 · L2 · D1 · snacks", meals: [B1, L2, D1, S] }
 - { name: "Day B: B2 · L1 · D2 · snacks", meals: [B2, L1, D2, S] }
 - { name: "Day C: B1 · L1 · D2 · snacks", meals: [B1, L1, D2, S] }
@@ -188,6 +194,7 @@ Quantities are in *servings* of each food above.
 | ≈ D6 · Trunk chili + Fritos | 920 | 64 | 98 | 31 |
 | ≈ D7 · Stove Top + chicken + gravy + green beans | 600 | 41 | 73 | 14 |
 | ≈ D8 · Mashed potatoes + gravy + sausage | 890 | 40 | 137 | 20 |
+| ≈ D9 · Knorr side + chicken (the default) | 680 | 31 | 115 | 9 |
 | ≈ S · Trail snacks (a handful of trail mix, a bar, 2 oz pretzels) | 660 | 21 | 108 | 19 |
 | OLD-B · For comparison: 3 Quaker maple packets | 480 | 12 | 99 | 6 |
 
@@ -195,6 +202,7 @@ Quantities are in *servings* of each food above.
 
 | Day | kcal | Protein g | Carbs g | Fat g | vs target |
 |---|---|---|---|---|---|
+| Real road day (Appalachians): B1 · L1 · D9 · snacks | 3070 | 143 | 453 | 78 | kcal −230 |
 | Day A: B1 · L2 · D1 · snacks | 3512 | 199 | 475 | 98 | protein +49, fat +3 |
 | Day B: B2 · L1 · D2 · snacks | 3357 | 172 | 416 | 115 | protein +22, fat +20 |
 | Day C: B1 · L1 · D2 · snacks | 3513 | 186 | 450 | 114 | protein +36, fat +19 |

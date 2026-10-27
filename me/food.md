@@ -71,12 +71,16 @@ The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This fi
 
 From Kentucky 2026, where the detailed meal plan mostly didn't survive contact with the trip: *"I ended up going back to things I had in stock, staples."* *(confirmed: kentucky-2026 log, 2026-09-27)*
 
+**Appalachians 2026 said the same thing, louder** *(stated 2026-10-27, retro)*: "I never looked at planned meals tbh, mostly stuck to staples. Planning meals out ahead of time is a little silly, I just ate what I wanted, when I wanted." The one planned real cook (pierogi + kielbasa) became Taco Bell. What he actually ate: **oatmeal for breakfast, ramen bomb for lunch, a Knorr rice or pasta side + a chicken packet for dinner**, with some variations. **Evidence (2 trips).**
+
+**Planning rule: no per-day menus.** A trip gets a **staples shopping list** sized to its length, plus flags only where food actually constrains the day (no-water nights, fly-in fuel, no resupply). Food preferences and what got eaten are still tracked here. *(stated 2026-10-27; was: per-day meal plans with one "real cook", 2026-09-28)*
+
 **On the trail: dry food, no thermos.** "I doubt I will ever use a thermos. I'll just pack dry food on hikes." *(stated 2026-10-20, appalachians-2026 Day 5)* Hot meals happen at camp or at the car, not carried in.
 
 **Actually eaten, and liked:**
 - **Breakfast:** oatmeal, every day, happily.
 - **Lunch:** mac & cheese, bought grocery-store lunches (chicken tenders and similar), and twice **cup ramen at the trailhead with instant mashed potatoes stirred in** to soak up the water: "not very nutritious, but delicious and easy."
-- **Dinner:** a boiled carb + canned/packaged meat + one canned extra. Specifically:
+- **Dinner:** a boiled carb + canned/packaged meat + one canned extra. **The default since Appalachians 2026: a Knorr rice or pasta side + a chicken packet** *(stated 2026-10-27)*. Specifically:
   - **Brami pasta + pasta sauce + meat mixed in** (chicken pouch or sausage). "Would happily eat it every night."
   - **Couscous + black beans:** liked.
 
