@@ -80,3 +80,10 @@ COULD NOT VERIFY:
 - **Not confirmed** *(stated 2026-09-30)*. Nothing records whether Bonita Canyon (the Sept 8–10 release for Mar 8–10) was booked; treat it as not booked until Colin says otherwise. `trip.md` still says `planned`; whether to drop it to `outline` is Colin's call, asked 2026-09-30.
 - **Why it beats Mojave on bang for buck, in his words:** "more worth it than Mojave" *(stated 2026-09-30)*. Same cost stack (flight + rental + campgrounds), but March is this trip's peak season and spring break costs zero classes.
 - **Possible second person** to split the car, gas and campgrounds *(stated 2026-09-30, "may be able to")*. If it happens, every "solo" assumption in the plan changes: tent, portions, the fare, and who drives.
+
+## 2026-10-27 · Commit check: Bonita is open, cost is the blocker
+
+- ✅ **Bonita Canyon has all three nights, Mar 8, 9 and 10, available** *(checked by Colin on recreation.gov, 2026-10-27)*. The 7-week gap since the window opened didn't cost the trip.
+- **CLE → TUS fare: $350–500 round trip** *(checked by Colin, 2026-10-27)*. That makes the rough solo total **~$1,450–1,600** (the plan's ~$1,086 excluding airfare, plus the fare). The $1,086 isn't itemized in `trip.md`, so the rental's share of it is unknown.
+- **Why it's still not a yes:** "Budget, flights + car rental + campgrounds add up, maybe only worth doing if I can split the cost of car rental and campgrounds" *(stated 2026-10-27)*. The second person was "may be able to" on 2026-09-30, and nothing has changed since.
+- **Claude's read (not a decision):** book Bonita now ($75) and Gilbert Ray ($30) to hold the option, after reading the cancellation terms on the booking page (not verified from here). Set a date for the second person to say yes. Then go, or decide solo vs. shelve on that date, rather than letting it drift again.
