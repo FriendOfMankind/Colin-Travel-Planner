@@ -69,11 +69,11 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   state: own
   note: "*(model stated 2026-10-08; was: \"Portable power bank\", model not recorded. Confirmed the same unit 2026-10-08.)* 230.4 Wh, 200 W AC output (400 W surge); recharges from the car's 12 V socket in ~2.5 h, or from a wall in ~6.5 h *(nebo.acgbrands.com and an eBay listing, search snippets, 2026-10-08)*. Four hours of laptop plus Starlink is the real draw, not the phone. **Too small to run a heated blanket through a night:** about 4 h at a typical 12 V blanket's ~50 W *(arithmetic on recalled blanket wattage)*. Top it up while driving."
 - name: Offline maps — Google Maps regions
-  state: need
-  note: Downloaded before leaving home. Covers driving only.
+  state: own
+  note: "Set up *(stated 2026-10-27)* (was: need). Downloaded before leaving home. Covers driving only. Regions expire, so re-download before each trip."
 - name: Offline maps — AllTrails or Gaia
-  state: need
-  note: "**Google Maps offline does not include trails.** Separate download, and a GPX for anything poorly blazed."
+  state: own
+  note: "Set up *(stated 2026-10-27)* (was: need); the Hawksbill sunrise climb ran on an offline AllTrails track *(confirmed: appalachians-2026 log)*. **Google Maps offline does not include trails.** Separate download, and a GPX for anything poorly blazed."
 ```
 
 ## Pack & hiking
@@ -177,12 +177,13 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
 - name: Sun hat
   type: sun
   qty: 1
-  state: unknown
-  note: Not confirmed. Load-bearing on the desert trips, not the Appalachian ones.
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: unknown, not confirmed). Load-bearing on the desert trips, not the Appalachian ones."
 - name: Sunglasses
   type: sun
   qty: 1
-  state: unknown
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: unknown)."
 ```
 
 ## Clothing — worn articles & counts
@@ -312,8 +313,8 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ```yaml
 - name: Camp chair
-  state: need
-  note: "*(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: need). Which chair isn't recorded. *(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
 - name: Big flashlight (1,000+ lumen, rechargeable)
   state: need
   note: "*(stated 2026-10-01, wants one)* For night exploring (Blevins farm). Candidates: Fenix PD36R Pro *(source: gearjunkie.com best flashlights 2026, search snippet, 2026-10-01)*; Sofirn SC33 or Wurkkos TS22 *(source: reddit r/flashlight, search snippet, 2026-10-01)*. Specs and prices not checked. ⚠️ Recalled, not verified: spare lithium batteries fly in carry-on only."

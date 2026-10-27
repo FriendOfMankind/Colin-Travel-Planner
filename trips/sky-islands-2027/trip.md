@@ -8,7 +8,7 @@ days: 11
 target: 2027-03-05
 emoji: 🌵
 theme: desert
-status: planned
+status: outline
 pinned: true
 start: null
 dates: Mar 5–15, 2027 (target, unbooked)
@@ -30,7 +30,7 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "🚨 **Sept 8 2026, 10:00 AM Eastern: Bonita Canyon, night of Mar 8** — then the same alarm on the 9th and the 10th. 25 sites, no walk-up fallback, peak month. **Book Gilbert Ray (Mar 5, 6, 14) tonight**; its whole season is already open. Airfare is Colin&rsquo;s to price"
+next: "**Still a candidate, not a commitment** *(stated 2026-10-27; was status: planned)*. Decide whether March 2027 is real. If it is, the first job is checking whether Bonita Canyon (Mar 8–10) still has sites: its window opened Sept 8 and nothing was booked, so in peak month it may be gone (not checked; recreation.gov is blocked from here). Gilbert Ray is still a no-race booking. (was: \"🚨 Sept 8 2026, 10:00 AM Eastern: Bonita Canyon… Book Gilbert Ray tonight\", stale since Sept 8)"
 booking:
   - system: recreation.gov
     what: Bonita Canyon, Chiricahua NM (Mar 8–10)
@@ -40,7 +40,7 @@ booking:
     what: Gilbert Ray CG, Tucson (Mar 5, 6 and 14)
     target: 2027-03-05
     note: ✅ Bookable NOW — the whole 2026–27 season is open. $10/night tent, reservation-only, no race. Undone rather than blocked.
-updated: 2026-09-07
+updated: 2026-10-27
 map:
   center: [ 32, -109.5 ]
   zoom: 8
