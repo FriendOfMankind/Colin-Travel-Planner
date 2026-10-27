@@ -318,3 +318,12 @@ Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** 
 **Hawksbill sunrise is ~7:36, first light ~7:15** (Trees `astro.mjs`, approximate summit position, 4,009 ft). The plan's 7:41 left out the elevation correction. **Saturday's sunset moves to the Grayson balds** (Massie Gap, verified coordinate: sunset 6:43, dark 7:04), and Hurricane check-in is after dark (gate open until 10 PM). Table Rock at sunset was considered and declined: 3 rocky miles down by headlamp on the hardest day.
 
 Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and swimming holes, "unclear trail markings" *(AllTrails)*. Skipped, because it's tagged forest and river only, with no confirmed views of the gorge walls from below. West-rim river trails (Babel Tower, Pine Gap / Bynum Bluff, Conley Cove) depend on Old NC 105, whose status is unknown.
+
+## Retro (2026-10-27)
+
+*(confirmed: Colin, retro interview 2026-10-27)*
+
+- [x] **Cold nights:** Siesta 20 + liner was **warm enough** through the 29°F freeze-warning night at Arrowhead (Oct 17) and the mid-30s FS 210 nights.
+- [x] **Bridge Day access:** parked somewhere and **walked down Fayette Station Rd** to the gorge floor (not the trail from Arrowhead, not the shuttle). Where he parked isn't recorded.
+- [x] **Day 3:** as planned: slow start, Thurmond, south to Davidson River. **Skipping Kaymoor was the right call.**
+- [x] **Day 6:** lecture and the permit grab happened; **the pierogi + kielbasa cook did not.**
