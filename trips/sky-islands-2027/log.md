@@ -87,3 +87,11 @@ COULD NOT VERIFY:
 - **CLE → TUS fare: $350–500 round trip** *(checked by Colin, 2026-10-27)*. That makes the rough solo total **~$1,450–1,600** (the plan's ~$1,086 excluding airfare, plus the fare). The $1,086 isn't itemized in `trip.md`, so the rental's share of it is unknown.
 - **Why it's still not a yes:** "Budget, flights + car rental + campgrounds add up, maybe only worth doing if I can split the cost of car rental and campgrounds" *(stated 2026-10-27)*. The second person was "may be able to" on 2026-09-30, and nothing has changed since.
 - **Claude's read (not a decision):** book Bonita now ($75) and Gilbert Ray ($30) to hold the option, after reading the cancellation terms on the booking page (not verified from here). Set a date for the second person to say yes. Then go, or decide solo vs. shelve on that date, rather than letting it drift again.
+
+## 2026-10-27 · Leaning: Mar 6–14 with two friends (candidate, plan not changed)
+
+- **Leaning toward Sat Mar 6 → Sun Mar 14** *(stated 2026-10-27)*, so friends whose spring break is also Mar 8–12, and who can't be away Fri Mar 5 or Mon Mar 15, can come.
+- **Group: Colin + 2 friends, "likely yes", both experienced campers and hikers** *(stated 2026-10-27)*. This is the cost split the trip was waiting on.
+- **The 8-night shape (Claude's draft, not applied):** Gilbert Ray 3/6 → Cochise Stronghold 3/7 → **Bonita 3/8–10 (unchanged)** → Sunny Flat 3/11–12 → Gilbert Ray 3/13 via Bisbee → fly 3/14. It drops old Day 1 (the Mar 5 arrival), Wasson Peak (old Day 2) and one Cave Creek day; **which Cave Creek day goes is decided later** *(stated 2026-10-27)*.
+- **Open before booking:** the max people and tents per Bonita site (not in the files; read it on the recreation.gov site page; if 3 don't fit, book 2 sites), the same question for the first-come Cochise and Sunny Flat sites, a vehicle for 3 people + camp gear + water for the no-water nights, and the under-25 rules for each driver. Flying home Sun 3/14 is the day DST starts; Arizona doesn't change clocks, so check the connection times.
+- When the friends confirm, the plan gets rewritten to Mar 6–14 and the `Group` section stops saying solo.
