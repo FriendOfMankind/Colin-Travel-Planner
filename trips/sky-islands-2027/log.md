@@ -80,3 +80,14 @@ COULD NOT VERIFY:
 - **Not confirmed** *(stated 2026-09-30)*. Nothing records whether Bonita Canyon (the Sept 8–10 release for Mar 8–10) was booked; treat it as not booked until Colin says otherwise. `trip.md` still says `planned`; whether to drop it to `outline` is Colin's call, asked 2026-09-30.
 - **Why it beats Mojave on bang for buck, in his words:** "more worth it than Mojave" *(stated 2026-09-30)*. Same cost stack (flight + rental + campgrounds), but March is this trip's peak season and spring break costs zero classes.
 - **Possible second person** to split the car, gas and campgrounds *(stated 2026-09-30, "may be able to")*. If it happens, every "solo" assumption in the plan changes: tent, portions, the fare, and who drives.
+
+## 2026-10-27 · Carry-forward from the Appalachians retro
+
+From `trips/appalachians-2026/log.md` (retro 2026-10-27). **Nothing below has changed this plan.** Plan changes are Colin's call.
+
+1. **The per-day "Meals" blocks are now against the rules.** `me/food.md` retired per-day menus (evidence, 2 trips): this plan should carry a staples shopping list sized to 11 days, plus flags only where food constrains a day (no-water campgrounds, buying fuel on arrival, since it's fly-in). Default dinner is now Knorr side + chicken (`kitchen/staples.md` D9).
+2. **Sunrises are fair game now** (`me/principles.md` 4 rewritten). This plan already has sunrise lines every day; it may be under-using them. Worth a look at which viewpoints would be better at dawn.
+3. **Cold:** bag + liner was warm enough to ~30°F. Desert March nights near freezing are inside the tested range; pack the liner.
+4. **Ruins:** Fort Bowie is adobe ruins inside an NHS, so likely the polished kind he now says "don't count". Not researched; don't promise it as a ruin day.
+5. **Pace:** he beats AllTrails on hard terrain (rule of thumb now). Budgets stay at AllTrails' time; expect afternoon slack.
+6. **Last day is a drive/flight home** (evidence, 2 trips). Don't hang anything on Day 11.

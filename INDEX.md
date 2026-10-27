@@ -23,13 +23,11 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Food and the camp kitchen: `kitchen/`
 
-- `kitchen/staples.md`: The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners.
+- `kitchen/staples.md`: The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, nine dinners, with Knorr side + chicken as the default.
 
 ## Planned trips
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15) · 10 days · 7 open questions · 9/38 places located · log 29 entries · updated 2026-10-21
-  BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 3 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
@@ -41,6 +39,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Done
 
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15) · 10 days · 7 open questions · 9/38 places located · log 30 entries · retro written · updated 2026-10-21
+  BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 

@@ -7,7 +7,7 @@ title: Bridge Day + Southern Appalachians
 subtitle: Chasing color downhill, WV to VA
 emoji: 🍂
 theme: autumn
-status: planned
+status: done
 pinned: true
 start: 2026-10-16
 dates: "Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15)"
@@ -27,7 +27,7 @@ tags:
   - first-come
   - solo
   - lodging gap
-next: "Sun Oct 18: slow start after the freeze, Thurmond, then south to Davidson River (check-in 2 PM). Test Starlink at the site on arrival. Kaymoor is cut (2026-10-17)."
+next: "Done. Retro written 2026-10-27: see log.md § Plan vs. what actually happened, and § Retro."
 booking:
   - system: private
     what: Arrowhead Bike Farm (Oct 16–18)

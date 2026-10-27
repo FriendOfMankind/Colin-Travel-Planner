@@ -159,7 +159,7 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   type: insulation
   qty: 1
   state: own
-  note: "**Bought 2026-10-04 at Sierra** *(stated + tag photo 2026-10-04)*. 3M Thinsulate synthetic insulation, \"100% synthetic everything\" per Colin; model and warmth rating not on the tag he found. Ribbed knit cuffs and hem: built as a streetwear jacket, so expect it bulkier than a hiking puffy and keep the cuffs out of the rain under the shell. *(was: need. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece; the lead candidate had been the Decathlon Forclaz MT100 Hooded Synthetic.)* Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional. Real-world warmth is a question the Appalachians trip answers."
+  note: "**Bought 2026-10-04 at Sierra** *(stated + tag photo 2026-10-04)*. 3M Thinsulate synthetic insulation, \"100% synthetic everything\" per Colin; model and warmth rating not on the tag he found. Ribbed knit cuffs and hem: built as a streetwear jacket, so expect it bulkier than a hiking puffy and keep the cuffs out of the rain under the shell. *(was: need. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece; the lead candidate had been the Decathlon Forclaz MT100 Hooded Synthetic.)* Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional. **Warm enough** at Hawksbill at dawn and on the mid-30s Linville mornings *(confirmed: appalachians-2026 log, retro 2026-10-27)*. (was: \"Real-world warmth is a question the Appalachians trip answers\")"
 - name: Warm hat
   type: insulation
   qty: 1
@@ -287,7 +287,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   question:
     text: Does the frozen-meals-as-ice system actually reach the first resupply, and does the breakfast burrito survive to day 8?
     answeredBy: appalachians-2026
-    answer: "Moot (2026-09-28). October no longer carries freezer meals or the burrito; the staples menu replaced them after Kentucky's cooler held only a pound of beef. The real question now is whether a small cooler of eggs, cheese and frozen veg is all a trip needs."
+    answer: "Moot (2026-09-28). October no longer carries freezer meals or the burrito; the staples menu replaced them after Kentucky's cooler held only a pound of beef. Then: is a small cooler of eggs, cheese and frozen veg all a trip needs? **Yes: a small cooler is right**, even on a trip that ran on oats, ramen and Knorr sides (confirmed: appalachians-2026 log, retro 2026-10-27)."
 - name: Olive oil in a squeeze bottle
   state: own
   note: "One of the four things that turn a can into a meal: oil, hard cheese, crushed chips, starch pouch."

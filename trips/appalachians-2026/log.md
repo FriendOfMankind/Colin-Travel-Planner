@@ -319,6 +319,34 @@ Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** 
 
 Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and swimming holes, "unclear trail markings" *(AllTrails)*. Skipped, because it's tagged forest and river only, with no confirmed views of the gorge walls from below. West-rim river trails (Babel Tower, Pine Gap / Bynum Bluff, Conley Cove) depend on Old NC 105, whose status is unknown.
 
+## 2026-10-27 · Plan vs. what actually happened, day by day
+
+*(confirmed: Colin, retro interview 2026-10-27, plus the in-trip entries above)*
+
+| Day | Plan | Actual | Gap |
+|---|---|---|---|
+| 1 · Fri Oct 16 | Leave 6:30–7:30, Endless Wall 12:30, Long Point sunset | Left ~10 AM, Endless Wall ~3 PM | Late start; Long Point moved to Day 2 |
+| 2 · Sat Oct 17 | Walk down Fayette Station Rd, watch 1–2 h, chili cook-off | Parked, walked the road down, watched from the bottom; Long Point at sunset | Cook-off swapped for Long Point (fine by him) |
+| 3 · Sun Oct 18 | Slow start after the freeze, Thurmond, south to Davidson River | As planned | Kaymoor cut the day before; right call |
+| 4 · Mon Oct 19 | Skinny Dip, Graveyard Fields, Sam Knob, slack, Black Balsam sunset | All of it, plus Devil's Courthouse and the Ivestor Gap → Tennent loop: ~12 mi | **More than planned**, on an earlier wake |
+| 5 · Tue Oct 20 | Looking Glass Rock, slow morning | 2h 30m–3h vs AllTrails' 3h 30m | Faster |
+| 6 · Wed Oct 21 | Permit 10:00, lecture, Brevard, pierogi cook | Permit ✅, lecture ✅, **Taco Bell, no pierogi** | The one real cook didn't happen |
+| 7 · Thu Oct 22 | Linville Falls first, race for FS 210 (cutoff 1:15), Sitting Bear sunset | Site claimed ~1:30 | Race won, slightly past the cutoff |
+| 8 · Fri Oct 23 | Hawksbill sunrise, Table Rock + Chimneys from Table Rock Gap | Both, faster than AllTrails; slept on FS 210 again | Permit unused |
+| 9 · Sat Oct 24 | **Late start**, Grayson, Fatman's Squeeze, balds sunset | **First car at Massie Gap**, ponies in fog, back at the car 1:30, no sunset | Early, not late; no sunset; Squeeze not found |
+| 10 · Sun Oct 25 | Leg-stretcher, then ~7.5 h home | Straight home | As Kentucky predicted |
+
+### What the gap says
+
+1. **Planned meals don't get cooked. Evidence (2 trips).** Kentucky's recipe plan collapsed into staples; this trip's one "real cook" became Taco Bell, and he "never looked at planned meals." → Per-day menus retired; shopping list only (`me/food.md`).
+2. **The last day is a drive home. Evidence (2 trips).** Kentucky and now this. Already a rule in `me/hiking.md`; this confirms it.
+3. **He beats AllTrails on hard terrain. Evidence (2 trips, 4 hikes).** → `me/hiking.md`. The budget stays at AllTrails' time, by his choice.
+4. **He does more than planned once he's moving. Evidence (2 trips).** Kentucky Thursday did five destinations; Day 4 here did ~12 mi and two extra hikes.
+5. **Early mornings. Split evidence (1 trip each way).** Kentucky skipped the pre-dawn walk; here he was up early from Day 4 on and was first in the Grayson lot on a day planned late. He's restated the rule (`me/principles.md` 4), but one trip says early, one says slow.
+6. **The explorable ruins are what gets cut. Evidence (2 trips).** Blue Heron was too polished; here the explorable two (Nuttallburg, Kaymoor) fell to a late departure and a cold morning, and only the polished one (Thurmond) survived. → `me/principles.md` 10.
+7. **First-come worked, and was worth it. Hypothesis (one data point).** Thursday of peak color week, arriving ~noon after the falls, a site by ~1:30. The "campers from last night will be leaving" bet held. One Thursday doesn't make it safe on a weekend.
+8. **Cold to ~30°F is fine with bag + liner. Hypothesis (one trip).** The low is a forecast, not a thermometer reading.
+
 ## Retro (2026-10-27)
 
 *(confirmed: Colin, retro interview 2026-10-27)*
@@ -335,3 +363,12 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - [x] **Grayson in the fog:** ponies in the morning fog were "a unique experience… spooky". Fog cleared on the way down but the clouds never fully lifted. **Back at the car by 1:30; no balds sunset.**
 - [x] **Mornings:** early is the new normal → `me/principles.md` 4 rewritten. *(stated 2026-10-27)*
 - [x] **Food planning:** shopping list only, no per-day menus → `me/food.md`. Knorr side + chicken is the default dinner → `kitchen/staples.md` D9.
+- [x] **Friday night (Oct 23):** stayed on Thursday's FS 210 site. **The $6 wilderness permit went unused.**
+- [x] **Breakfast was the power oats** (the home pre-mix), not packets.
+- [x] **Highlights:** all four big days: Bridge Day from the bottom, the Parkway balds day, Linville (Hawksbill + Table Rock), and the Grayson ponies in fog.
+- [x] **Biggest miss: ruins underdelivered.** "Only true abandoned stuff" counts → `me/principles.md` 10.
+- [x] **Puffy (Pajar, Thinsulate):** warm enough → `me/gear.md`.
+- [x] **Cooler:** a small one is right → `me/gear.md`.
+- [x] **Pace:** Hawksbill and Table Rock both faster than AllTrails → `me/hiking.md` (now a rule of thumb).
+- [x] **Liner:** used with the bag the whole time, so whether the bag alone covers the mid-30s is still untested.
+- [ ] **Not recorded:** where he parked for Bridge Day; how Endless Wall and Day 1's evening went; exact FS 210 claim time and site location; hike times at Linville.
