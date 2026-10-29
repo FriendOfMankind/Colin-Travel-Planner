@@ -407,3 +407,42 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - **Day 7:** Linville Falls, FS 210 site, and **Sitting Bear at sunset**, all as planned.
 - **Day 8:** **Hawksbill at sunrise, then Table Rock + the Chimneys**, both as planned.
 - **Day 9:** **Mount Rogers via Wilburn Ridge, golden hour on the Grayson balds, Hurricane by headlamp**, as planned.
+
+## 2026-10-29 · Plan vs. what actually happened, day by day
+
+*(confirmed: Colin, retro 2026-10-29, plus the field entries above)*
+
+| Day | Plan | Actual | Gap |
+| --- | --- | --- | --- |
+| 1 · Oct 16 | 6:30 start, Endless Wall, Long Point at sunset | On the road ~10 AM; Endless Wall at ~3 PM | Late start; Long Point moved to Day 2 |
+| 2 · Oct 17 | Bridge Day from below, chili cook-off | Bridge Day from below, Long Point at sunset | Cook-off dropped for Long Point. "About what I expected" |
+| 3 · Oct 18 | Kaymoor at 7:55, Thurmond, Moore Cove | Slow morning after the 29°F freeze, Thurmond, Moore Cove | Kaymoor cut, and **worth it** |
+| 4 · Oct 19 | Five Parkway miles, Sam Knob, Black Balsam | Added Devil's Courthouse, then the Ivestor Gap → Tennent → Black Balsam loop and sunset, ~12 mi | **More than planned**, about an hour ahead |
+| 5 · Oct 20 | Looking Glass Rock (AllTrails 3h 30m), Daniel Ridge | Looking Glass in 2h 30m–3h; Pink Beds instead of Daniel Ridge (FS 475 closed) | Faster; one swap for a closed road |
+| 6 · Oct 21 | Lecture, prep | Lecture, permit booked | None recorded |
+| 7 · Oct 22 | Race for FS 210, Sitting Bear at sunset | Linville Falls first, site claimed ~1:30, Sitting Bear at sunset | **The falls-first bet held** |
+| 8 · Oct 23 | Hawksbill sunrise, Table Rock + the Chimneys | Both, faster on foot, with plenty of sitting at overlooks | Faster; the spare time went to sitting |
+| 9 · Oct 24 | Mount Rogers via Wilburn Ridge, Grayson golden hour, Hurricane by headlamp | As planned, faster on foot | Faster |
+| 10 · Oct 25 | Optional Hurricane Knob loop, then home | Straight home | Optional stop skipped |
+
+### What the gap says
+
+1. **He's faster than the posted times, and spends the difference sitting.** Looking Glass, Table Rock and Mount Rogers all went faster on foot. Kentucky's Honey Creek was 3.5 h against 6. The surplus went to "side trails to explore and chill at", not to more miles. **Evidence (2 trips, 4 hikes).** → `me/hiking.md`: the budget is now hike time plus sit time.
+2. **Detailed meal plans collapse to staples.** Kentucky did it, and so did this trip, even though the plan had already been rebuilt around staples: oats, one-pot pasta, bars and jerky, plus bought food. **Evidence (2 trips).** → `me/food.md`.
+3. **A small cooler is enough.** Eggs, cheese, butter and frozen veg as the ice, block ice at resupply, for 10 days. **Evidence (2 trips:** Kentucky barely used it, this one confirms the small setup). → `me/gear.md`, `me/food.md`.
+4. **The last day is straight home.** Kentucky dropped its Sunday stops, and this trip skipped the optional loop. **Evidence (2 trips).** It's already the rule in `me/hiking.md`.
+5. **An event is a detour, not an anchor.** Bridge Day "worked as a detour but not something to specially plan around"; he'd have gone to the New River Gorge anyway, and liked other things more. **Hypothesis (one data point).** → `me/travel-style.md`.
+6. **A slow morning beat an extra sight.** Cutting Kaymoor after the freeze was worth it. With Kentucky's skipped pre-dawn walk, that's a weak pattern of mornings protecting the day. **Hypothesis (one clear data point).**
+7. **First-come worked on a peak-week Thursday.** Arriving at FS 210 around noon got a site by ~1:30. **Hypothesis (one data point)**; don't generalise it to weekends.
+8. **No bad days.** Nothing he'd skip, apart from making Bridge Day an anchor.
+
+## Retro (2026-10-29)
+
+- [x] Day by day: Days 1, 2, 4 and 5 from field entries; 3 and 7–10 answered in the retro. All as planned or better; Day 10 was straight home.
+- [x] Did cutting Kaymoor for the slow morning earn it? **Yes.**
+- [x] Falls first, then FS 210 after 11 (Colin's hypothesis, 2026-10-21)? **Held**: a site by ~1:30 on the Thursday of peak week.
+- [x] Cooler (`me/gear.md`, answeredBy this trip): **a small cooler is enough for 10 days.**
+- [x] Food: **simplified a lot**: oats, pasta/Brami/mac, bars/jerky/snacks, and bought food.
+- [x] Pace: **faster on foot** on Table Rock and Mount Rogers. The spare time goes to sitting, so budget hike time plus sit time.
+- [x] Best and worst: **no bad days.** Bridge Day was "about what I expected": fine as a detour, not worth planning around.
+- [ ] Not recorded: exact times on Table Rock and Mount Rogers, and whether Grayson was crowded on the Saturday.
