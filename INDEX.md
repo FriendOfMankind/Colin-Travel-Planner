@@ -44,13 +44,6 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 
-## Shelved (built, deferred on purpose; not a live plan)
-
-- **Full Circle Maui** (`trips/maui-2027/`) · shelved · Shelved (was May 13–20, 2027). Aimed at spring 2028 as the friends trip · 8 days · 18/25 places located · log 2 entries · updated 2026-10-05
-  Every major Maui landscape in one counterclockwise loop — reef, lava field, rainforest, and a 10,000 ft summit.
-- **Mojave Winter Loop** (`trips/mojave-winter-2027/`) · shelved · no dates · 14 days · 6 open questions · 0/14 places located · log 1 entry · updated 2026-09-06
-  🛑 **Deferred, Sept 6 2026 — not happening in January 2027.** His call, and it is not a scheduling problem: he would rather put the money into better places at better times of year than into the one window that happened…
-
 ## Wishlist: `wishlist/`
 
 Potential trips, not plans: one file each, with a Why, a Next and dated research notes. `months` and `mode` are what "what fits May?" matches against. `horizon` is the test from `me/calendar.md`: **only-now** can't survive two weeks of PTO after 2027-08-31, **keeps** can, **weekend** is inside the weekend radius, **confirmed** is happening but has no trip page yet. "(derived)" means it was computed from mode and length, not decided.
@@ -59,8 +52,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The bike trip, if there's only one
 - **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-15
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
-- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) *(chose Tahoe 2026-10-10; was a three-way shortlist)* · fly · keeps (derived) · Aug · 7 days · 7 research notes · updated 2026-10-15
-  Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Columbia Gorge → Bend → McKenzie River, Oregon (friends fly CLE ⇄ PDX) · fly · keeps (derived) · Aug · 10 days · 5 research notes · updated 2026-10-29
+  Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one
 - **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-05
@@ -91,12 +84,18 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Absurdly lake-dense, short season
 - **Iceland** (`wishlist/iceland.md`) · Iceland (Ring Road; highlands only with a 4x4) · fly · keeps (derived) · Jun/Jul/Aug · 1 research note · updated 2026-10-29
   A country whose camping law already matches how he camps
+- **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
+  Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
+- **Full Circle Maui** (`wishlist/maui.md`) · Maui, Hawaii · fly · keeps (derived) · May · 8 days · 1 research note · updated 2026-10-29
+  Counterclockwise island loop — reef, lava field, rainforest and a 10,000 ft summit
+- **Mojave Winter Loop** (`wishlist/mojave-winter.md`) · Las Vegas → Valley of Fire → Death Valley → Mojave Preserve → Joshua Tree · fly · keeps (derived) · Dec/Jan/Feb · 14 days · 1 research note · updated 2026-10-29
+  Death Valley, Joshua Tree, and the desert that only exists in January
 - **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 2 research notes · updated 2026-10-01
   Raw, car-free, and ferry-only
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
@@ -129,6 +128,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The sleeper of the whole list
 - **South Cumberland + Fall Creek Falls** (`wishlist/south-cumberland.md`) · Tennessee · drive · keeps (derived) · Apr/May/Oct/Nov · 4–5 nights · updated 2026-09-04
   The Plateau's real gems
+- **Tahoe Boys Trip** (`wishlist/tahoe-boys.md`) · Reno → Nevada City → South Lake Tahoe → June Lake → Reno (RNO round trip) · fly · keeps (derived) · Aug · 9 days · 4 research notes · updated 2026-10-29
+  Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Wichita Mountains** (`wishlist/wichita-mountains.md`) · Oklahoma · drive · keeps (derived) · Nov/Dec/Jan/Feb/Mar/Apr · 3–4 nights · updated 2026-09-04
   Free-roaming bison and granite domes
 

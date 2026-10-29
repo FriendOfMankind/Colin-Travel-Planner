@@ -23,7 +23,7 @@ source: daydream 2026-10-14 (✅ read on the page, 📋 search snippet or second
 
 Colin's brief: an international boys trip, "probably Europe, maybe Japan" *(stated 2026-10-14)*. What he wants from it: **"authenticity, explorability, walkability, high value"**, about **50/50 outdoors and city**, and he's "into urban hiking and exploring cities", so a day spent walking a high-value city counts *(stated 2026-10-14)*. Probably a longer trip, 10–14 days *(stated 2026-10-14)*.
 
-It's an **alternative to the Tahoe boys trip** (`wishlist/august-friends-2027.md`), not an addition. Colin will ask the friends around Halloween 2026 what their budget is and whether they want Europe or "the ultimate American boys trip in Tahoe" *(stated 2026-10-14)*. **Different friends from the Newfoundland week** *(stated 2026-10-14)*.
+It's an **alternative to the Tahoe boys trip** (`wishlist/tahoe-boys.md`; the boys week went to Oregon, `wishlist/august-friends-2027.md`), not an addition. Colin will ask the friends around Halloween 2026 what their budget is and whether they want Europe or "the ultimate American boys trip in Tahoe" *(stated 2026-10-14)*. **Different friends from the Newfoundland week** *(stated 2026-10-14)*.
 
 Why this region won the July shortlist (2026-10-14):
 - **Weather.** Picos de Europa averages 23°C/73°F in July (📋 seasonmap.app); San Sebastián averages a 22°C high (📋 climatestotravel.com) and Porto 25°C (📋 weatherjourney.com). Against that, Mostar hit 41°C three times in July 2025 and inland Portugal 46.6°C on Jun 29 2025 (📋 Wikipedia, 2025 European heatwaves).
