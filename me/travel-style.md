@@ -25,7 +25,7 @@ From the traveller interview on 2026-09-28 unless marked.
 
 ## Crowds, water, rest
 
-- **A packed iconic viewpoint gets skipped.** Find something empty instead. *(stated 2026-09-28)* Stronger than "schedule against the crowd": if the timing can't beat the crowd, drop the spot.
+- **The jaw-dropping icon is worth its crowd; solitude has to be available too.** "There's a reason all the crowds are there. It's because it's unbelievable." Planning rule: don't drop a world-class spot for being busy. Beat the crowd with timing where possible (principle 5, weekday mornings), and make sure the trip also has empty places to retreat to. A merely *good* viewpoint that's packed still gets swapped for an empty one. *(stated 2026-10-29, from Zion in May, year not recorded; was: "A packed iconic viewpoint gets skipped… if the timing can't beat the crowd, drop the spot" (stated 2026-09-28))*
 - **Swimming holes, rivers and lakes: loves them.** Plan them in when it's warm enough. *(stated 2026-09-28)*
 - **One real rest day on a 10+ day trip.** *(stated 2026-09-28)* A day taken up by the remote lecture doesn't count as rest.
 
@@ -51,7 +51,7 @@ From the traveller interview on 2026-09-28 unless marked.
 - **One home base:** a hotel for the whole stay, not a new bed each night. This is a planned exception to principle 1 (car camping), so its reason goes in that trip's Notes. See the urban-routes section of [adventures.md](adventures.md).
 - **Planned walking routes, one per day,** each built to be especially interesting or beautiful, or to hit specific areas: architecture, industrial zones, stairways, bridges, waterfront, odd places. Built on purpose, not picked off a list. The same rules as any other day apply: the ~10 mi ceiling ([hiking.md](hiking.md)), sunset for the viewpoint, a slack line and a named first cut.
 - **Restaurants along the way,** each one a named dish (principle 9), used to anchor the route.
-- **Crowds:** walk weekday mornings; the packed-viewpoint rule still applies.
+- **Crowds:** walk weekday mornings; the crowd rule above still applies.
 - **Horizon:** a city trip survives a two-week PTO allowance, so on the horizon test it ranks below the trips that don't (see [calendar.md](calendar.md)). That's a reason to schedule it later, not to skip it.
 
 Researched 2026-09-29: Pittsburgh, San Francisco's Crosstown Trail, Philadelphia and Atlanta's BeltLine. They now live in [`bucket.yaml`](../bucket.yaml) (`kind: walk` / `city`), and Pittsburgh is also a potential trip (`wishlist/pittsburgh.md`) *(moved 2026-09-30; was: listed here, "not saved as ideas yet")*. Route sources: AllTrails for the named routes, Komoot for building custom ones, GPSmyCity for themed self-guided walks.

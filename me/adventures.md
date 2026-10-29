@@ -79,7 +79,7 @@ Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly week
 - **Urban hiking counts.** That means routes through towns with a strong character, notable architecture, old or abandoned structures, strange industrial zones, a bridge worth crossing on foot, or a coastline walk. These are reasonable add-ons to a trip, and the swap rule above applies: an urban route can be the day's one outing.
 - **A night or two in a city hotel is acceptable when the route earns it.** It's a *planned* exception to principle 1 ([principles.md](principles.md)), so the reason goes in that trip's Notes. It is not the "bail to a motel" option that [camping.md](camping.md) records as not chosen.
 - **Abandoned buildings: Colin decides place by place.** For each one, give him the facts, not a verdict: who owns it (if known), whether entry is legal (public, guided or open vs. posted or fenced), and the hazards (unsound structure, asbestos, mold, and being solo with no one to raise the alarm). Name any legal alternative alongside it: a guided tour, a public ruin, a view from the street. Never present a trespass as an ordinary stop, and never leave out that it is one.
-- **Crowds still matter.** The packed-viewpoint rule in [travel-style.md](travel-style.md) applies, and a city usually beats it on timing (a weekday morning) rather than by skipping it.
+- **Crowds still matter.** The crowd rule in [travel-style.md](travel-style.md) applies, and a city usually beats it on timing (a weekday morning) rather than by skipping it.
 
 ## Fossils and rockhounding
 
