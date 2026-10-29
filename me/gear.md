@@ -325,6 +325,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
 - name: Binoculars
   state: own
+  question: "Which model and magnification? Birding is now an interest (stated 2026-10-29, me/adventures.md). The usual birding spec is 8x42. A small or cheap pair (e.g. 10x25) may be worth replacing."
   note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
 - name: Phone tripod + remote
   state: own
