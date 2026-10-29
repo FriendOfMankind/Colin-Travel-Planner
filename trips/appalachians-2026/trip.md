@@ -7,7 +7,7 @@ title: Bridge Day + Southern Appalachians
 subtitle: Chasing color downhill, WV to VA
 emoji: 🍂
 theme: autumn
-status: planned
+status: done
 pinned: true
 start: 2026-10-16
 dates: "Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15)"

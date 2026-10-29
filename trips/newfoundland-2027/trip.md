@@ -37,6 +37,8 @@ booking:
   - system: acadia-np
     what: Blackwoods, Acadia (May 24–26)
     target: 2027-05-24
+    opens: 2026-12-01
+    opensSource: "nps.gov/acad camping page, search snippet, 2026-10-04 (me/booking.md acadia-np): first release 10 AM ET on Dec 1 for May arrivals"
     note: First release 10 AM ET on Dec 1 for May arrivals. Opening date conflicts across sources (May 1 or May 6); confirm it covers May 24.
   - system: parks-canada
     what: Fundy (May 27) · Chéticamp, Cape Breton Highlands (May 28–29)

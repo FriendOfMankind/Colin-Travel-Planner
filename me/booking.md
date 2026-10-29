@@ -41,7 +41,8 @@ trip's start date.
   note: Confirm the window as soon as the trip is real. Getting this wrong is the most common way to lose a site.
 - system: private
   leadMonths: null
-  what: Private campgrounds
+  anytime: true
+  what: Private campgrounds, motels, outfitters
   when: Usually anytime
   note: Call about after-hours arrival. Office cutoffs are the most common day-one failure.
 - system: first-come
@@ -55,6 +56,11 @@ trip's start date.
   what: Glacier NP
   when: Vehicle reservations are a separate system from camping
   note: You can hold one without the other. Verify the current year early.
+- system: wisconsin-sp
+  leadMonths: 11
+  what: Wisconsin State Parks (wisconsin.goingtocamp.com)
+  when: 11-month rolling window, released **9 AM Central**
+  note: ✅ dnr.wisconsin.gov camping FAQ and rules, read 2026-10-29. Reservation required before setting up on any site. Check-in 3 PM. Full refund of camping fees (not the reservation fee) if cancelled two days before. *(added 2026-10-29 for the Rockies trip's Day 1 candidates)*
 - system: buffalo-nr
   leadMonths: 6
   what: Buffalo National River

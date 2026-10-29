@@ -31,6 +31,10 @@ tags:
   - reservation race
 next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then three consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\" *(was: \"one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves\"; changed 2026-10-10)*"
 booking:
+  - system: wisconsin-sp
+    what: Perrot State Park, Trempealeau WI (Jul 13)
+    target: 2027-07-13
+    note: Day 1 transit night, chosen 2026-10-29. 102 sites, showers. Reservation required (Wisconsin DNR).
   - system: recreation.gov
     what: Cedar Pass, Badlands (Jul 14–15)
     target: 2027-07-14
@@ -70,7 +74,7 @@ booking:
     what: Belknap Hot Springs Lodge, 4-guest room (Aug 8–10)
     target: 2027-08-08
     note: 18 lodge rooms, few take 4; book first. $140–215 + 12.07% tax (belknaphotsprings.com, 2026-10-15).
-updated: 2026-10-15
+updated: 2026-10-29
 map:
   center: [ 45.5, -106 ]
   zoom: 5
@@ -106,7 +110,7 @@ Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, the
 
 ### Dates
 
-July 13 – August 2, 2027 *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
+July 13 – August 14, 2027 *(was: July 13 – August 2 until the Oregon week was joined on 2026-10-15; this line still said Aug 2 until 2026-10-29)* *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
 33 days / 32 nights *(was 21 / 20 until 2026-10-15)*
 
 ### Group
@@ -131,7 +135,7 @@ This was a 25-day draft. The four days came off the **front end** — Custer Sta
 
 ### ⚠️ Still twice your longest trip
 
-The profile says 2–5 campgrounds, 5–10 nights. This is **20 nights across 9 places to sleep** — the Appalachians run was 11 days. **Days 6 and 17 are deliberately soft** and that is the mitigation.
+The profile says 2–5 campgrounds, 5–10 nights. This is **32 nights**, three times the 11-day Appalachians run. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation *(was: "20 nights across 9 places… Days 6 and 17", stale since 2026-10-15; fixed 2026-10-29)*.
 
 ### Timing vs Newfoundland
 
@@ -148,13 +152,13 @@ type: travel
 driving: ~600 mi, ~10h 30m (Google +15%)
 slack: None needed. Nothing happens today except distance.
 overnight:
-  name: TBD — western Wisconsin / La Crosse area
-  place: Wisconsin
-  kind: Transit night — not identified
-  cost: ~$30 est.
-  checkin: Unknown
+  name: Perrot State Park
+  place: Trempealeau, WI (~20 min north of La Crosse)
+  kind: State park campground
+  cost: TBD (not read)
+  checkin: 3 PM (Wisconsin DNR). Reservation required, 11-month window, 9 AM CT
   confirmation: TBD
-  notes: ⚠️ **One of two transit nights with no lodging identified.** A Wisconsin state park, a KOA, or a cheap motel. Decide before leaving — arriving at 8 PM without a plan is how a road trip starts badly.
+  notes: "**Chosen: Perrot** *(Colin, 2026-10-29; was: \"TBD, western Wisconsin / La Crosse area\")*. 102 sites, flush toilets, **showers**. The window is already open (the briefing computes it). The other five transit nights are still unidentified. The two candidates were on I-90 (Wisconsin DNR pages, read 2026-10-29): **Mill Bluff SP**, Camp Douglas, right off I-90/94 at exit 55: 21 sites, pit toilets, hand pumps, **no showers**, late May – Sept. **Perrot SP**, Trempealeau, ~20 min north of La Crosse: 102 sites, **showers**. Wisconsin state parks are **reservation-only, 11 months ahead, released at 9 AM** (DNR camping rules and FAQ); check-in 3 PM. Fees not read. Or a KOA or a cheap motel. Decide before leaving: arriving at 8 PM without a plan is how a road trip starts badly."
 ```
 
 **Schedule**
@@ -232,7 +236,7 @@ overnight:
 **Schedule**
 - 5:14 AM · sunrise · Sunrise. First light 4:44 AM — be at the Notch trailhead for it.
 - 4:50 AM (1h 30m) · hike · **Notch Trail.** ✅ AllTrails: **1.2 mi, 118 ft, Moderate.** Short, and it involves a log ladder up a canyon wall and a ledge traverse to a notch over the White River valley. Rated 4.8 for 1.2 miles, which tells you it is the ladder people come for. · 📍 Notch Trail Badlands National Park
-- 6:45 AM (3h 30m) · hike · **Castle Trail.** The long one — roughly 10 mi out and back across open badlands between the Door/Window lot and Fossil Exhibit. ⚠️ **Distance and gain NOT verified in AllTrails this session.** Flat, and completely exposed. · 📍 Castle Trail Badlands National Park
+- 6:45 AM (2h 30m) · hike · **Castle Trail to Medicine Root Loop.** ✅ AllTrails: **7.8 mi, 209 ft, Moderate, loop, ~2h 30m**. Open badlands, flat and completely exposed. Chosen over the full out-and-back Castle Trail (10.3 mi / 249 ft, over the ceiling, with a July normal high of 91°F) *(Colin, 2026-10-29; was "Castle Trail, roughly 10 mi… NOT verified")*. · 📍 Castle Trail Badlands National Park
 - 10:30 AM (1h) · stop · Back to camp. **The rest of the day is heat management, not laziness.**
 - 6:00 PM (1h) · drive! · **Sage Creek Rim Road** for the bison herd and the prairie dog towns at last light. Gravel but graded; turn around if it is not. · 📍 Sage Creek Rim Road Badlands
 - 8:32 PM · sunset · Sunset from the rim. Dark 9:02 PM.
@@ -382,7 +386,7 @@ overnight:
   cost: $20–25/night, cash or check (FS page; was ~$20 est.)
   checkin: 📋 **First-come only, no reservations** — 21 sites, $20–25/night, **cash or check** (fs.usda.gov Shoshone page, snippet, 2026-10-10)
   confirmation: n/a — first-come
-  notes: ⚠️ **9,518 ft.** 📋 The Forest Service page says it typically runs **late June to early/mid September** (it closed Sept 13 in 2026), which settles the old late-May vs July-1 contradiction on the late side *(was “two published sources flatly contradict”, 2026-10-10)*. **By mid-July it is moot.** Bear boxes; food storage required; no trash pickup. 📋 **Beartooth Lake** is the neighbouring fallback, also 21 sites, also first-come only (pinecliffresort.net and campflare.com, snippets, 2026-10-10). Arriving ~1:30 PM on a Monday is the plan for getting a site.
+  notes: ⚠️ **9,518 ft.** 📋 The Forest Service page says it typically runs **late June to early/mid September** (it closed Sept 13 in 2026), which settles the old late-May vs July-1 contradiction on the late side *(was “two published sources flatly contradict”, 2026-10-10)*. **By mid-July it is moot.** Bear boxes; food storage required; no trash pickup. 📋 **Beartooth Lake** is the neighbouring fallback, also 21 sites, also first-come only (pinecliffresort.net and campflare.com, snippets, 2026-10-10). Arriving ~1:30 PM on a Monday is the plan for getting a site. 📋 One 2023 review says that in July, Beartooth Highway first-come sites “begin to fill up again in mid-afternoon” (campingkiddos.com). So 1:30 is about right, with little margin; earlier is better.
 ```
 
 **Schedule**
@@ -497,7 +501,7 @@ overnight:
   cost: ~$20/night est.
   checkin: Reservable — and it goes in minutes
   confirmation: TBD
-  notes: "🚨 **The single worst booking risk on this trip, kept on purpose.** **Pebble Creek**, the obvious base at the foot of the Beartooth Highway, has been **closed for flood recovery since June 2022**, was closed again for 2026, and nps.gov says \"likely for the foreseeable future\" (snippet, 2026-10-10) — assume closed in 2027. That leaves **Slough Creek at 16 sites, which fills within minutes**. It is kept because the alternative — Lamar as a day trip off the plateau — loses the dawn, and dawn is the whole point of a wildlife valley. **Fallback if it fails: a fourth plateau night with Lamar as a long day trip, or a motel in Cooke City or Gardiner.**"
+  notes: "🚨 **The single worst booking risk on this trip, kept on purpose.** **Pebble Creek**, the obvious base at the foot of the Beartooth Highway, has been **closed for flood recovery since June 2022**, was closed again for 2026, and nps.gov says \"likely for the foreseeable future\" (snippet, 2026-10-10) — assume closed in 2027. That leaves **Slough Creek at 16 sites, which fills within minutes**. It is kept because the alternative — Lamar as a day trip off the plateau — loses the dawn, and dawn is the whole point of a wildlife valley. **Fallback if it fails: a fourth plateau night with Lamar as a long day trip, or a motel in Cooke City or Gardiner.** 📋 Season: **June 15 – October 12 in 2026** (nps.gov/yell operating dates, snippet, 2026-10-29), so Jul 22 is well inside it. $20/night, 6,250 ft, no showers (recreation.gov, snippet). The **Northeast Entrance Road rebuild** (27 mi, Tower Junction to the NE entrance, ~$268M) is slated to **begin construction in 2029** (spartnerships.com, 2026-08-12), so it shouldn't slow Lamar in 2027 *(was: open question in research.md)*."
 ```
 
 **Schedule**
@@ -1339,12 +1343,12 @@ The Legacy will have done ~6,000+ miles (unrouted) in a month. **Get it looked a
 
 ## Hikes
 
-Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across 21 days, and Day 12 is a pick-one-of-two rather than a target. **Two scheduled hikes exceed the ~10 mi soft ceiling** — Lost Twin Lakes and Grinnell Glacier — and both carry the shorter bail-out that replaces them. Three well-known trails are named and explicitly NOT scheduled because they blow the ceiling outright.
+Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across the original 21 days *(not re-totalled since Theodore Roosevelt was cut and the Oregon week joined on, 2026-10-15; the Oregon hikes live in `wishlist/august-friends-2027.md`)*, and Day 12 is a pick-one-of-two rather than a target. **Two scheduled hikes exceed the ~10 mi soft ceiling** — Lost Twin Lakes and Grinnell Glacier — and both carry the shorter bail-out that replaces them. Three well-known trails are named and explicitly NOT scheduled because they blow the ceiling outright.
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Notch Trail | 3 | 1.2 mi RT | 118 ft | Moderate | ~1 hr | Log ladder up a canyon wall, then a ledge to the notch. No shade, no water. Dawn. |
-| Castle Trail | 3 | ~10 mi RT | minimal | Moderate | ~3.5 hr | ⚠️ Stats NOT verified in AllTrails this session. Flat, fully exposed prairie badlands. Off it by 10:30 AM. |
+| Castle Trail to Medicine Root Loop | 3 | 7.8 mi loop | 209 ft | Moderate | ~2.5 hr | ✅ AllTrails, 2026-10-29. Flat, fully exposed prairie badlands. Off it by 10:30 AM. Chosen over the full Castle Trail, 10.3 mi / 249 ft *(Colin, 2026-10-29; was: "Castle Trail, ~10 mi, not verified")*. |
 | West Tensleep Falls | 4 | 1.6 mi RT | 219 ft | Easy | ~45 min | The altitude test after a 6,600 ft gain in one day. If 1.6 flat miles feels hard, tomorrow becomes Mirror Lake. |
 | Mirror Lake + Lost Twin Lakes | 5 | 11.1 mi RT | 2,076 ft | Hard | ~6–7 hr | ⚠️ **Over the 10 mi ceiling.** Two cirque lakes under a headwall. Turnaround 10 AM for storms. **Bail-out: Mirror Lake alone, 5.9 mi / 1,095 ft.** |
 | Sherd Lake | 6 | 3.5 mi RT | 570 ft | Moderate | ~1.5 hr | The soft-day walk. |
@@ -1359,8 +1363,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Haystack Butte via the Highline Trail | 16 | 8.6 mi RT | 1,768 ft | Hard | ~5–6 hr | 🚨 First mile is an exposed ledge with a hand cable. **Turn around at the cable if it doesn't feel right.** This is the version of the Highline Trail that fits the ceiling. |
 | Hidden Lake Overlook | 16 | 2.8 mi RT | 567 ft | Moderate | ~1.5 hr | Straight from the Logan Pass lot. Add-on only if the legs have it. |
 | St. Mary and Virginia Falls | 17 | 3.1 mi RT | 469 ft | Moderate | ~1.5 hr | The slack day's default, not its plan. |
-| Big Plateau + Ekblom Loop | 19 | 5.2 mi loop | 534 ft | Moderate | ~2 hr | Plateau above the Little Missouri. Bison and wild horses on the trail. |
-| Painted Canyon Trail | 19 | 4.2 mi RT | 446 ft | Moderate | ~1.5–2 hr | Down into the canyon from the overlook. Evening light. |
+| ~~Big Plateau + Ekblom Loop~~ (cut 2026-10-15 with Theodore Roosevelt) | ~~19~~ | 5.2 mi loop | 534 ft | Moderate | ~2 hr | Plateau above the Little Missouri. Bison and wild horses on the trail. |
+| ~~Painted Canyon Trail~~ (cut 2026-10-15 with Theodore Roosevelt) | ~~19~~ | 4.2 mi RT | 446 ft | Moderate | ~1.5–2 hr | Down into the canyon from the overlook. Evening light. |
 | Ptarmigan Tunnel — SLACK-DAY OPTION |  | 10.7 mi RT | 2,362 ft | Hard | ~5.5 hr | A tunnel blasted through a rock wall in 1930. Over the distance ceiling and it competes with Iceberg Lake from the same trailhead — which is why it is the Day 17 option rather than a scheduled day. |
 | The full Highline Trail — NOT SCHEDULED |  | 15.2 mi RT | 2,572 ft | Hard | ~7 hr | ⚠️ **Over the ceiling on both counts.** Listed so the Haystack Butte substitution is a visible decision. Granite Park Chalet point-to-point (11.6 mi) is the shuttle-dependent middle option. |
 | Cloud Peak via Mistymoon — NOT POSSIBLE |  | 22.6 mi RT | 5,337 ft | Strenuous | ~12 hr | 🚨 Double the ceiling and an overnight for almost everyone. The Bighorns' marquee summit is a backpacking trip, which the locked rule set excludes. |
@@ -1369,14 +1373,19 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 | Location | Elevation | High | Low | Notes |
 | --- | --- | --- | --- | --- |
-| Badlands | ~2,500 ft | 92 | 64 | ⚠️ Estimated, not station data. No shade anywhere in the park. The heat, not the cold, is the risk on days 2–3. |
+| Badlands | ~2,440 ft | 91 | 62 | ✅ **Station normal**: Interior 3 NE, next to the Ben Reifel Visitor Center, July, NOAA 1991–2020 (parkd.app and usclimatedata.com, 2026-10-29; was 92/64 estimated). That station averages 53 days a year at 90°F+. No shade anywhere in the park. The heat, not the cold, is the risk on days 2–3. |
 | Bighorns — West Tensleep | ~9,100 ft | 68 | 38 | Estimated. Afternoon thunderstorms are the reliable July pattern here, not an exception. |
 | Beartooth Plateau | ~9,518 ft | 62 | 34 | Estimated. ⚠️ **Snow is possible here in any month.** Coldest camp of the trip. |
-| Lamar Valley | ~6,500 ft | 78 | 42 | Estimated. Big diurnal swing — hot afternoons, cold dawns, which is when the wildlife is out. |
-| Glacier — Many Glacier | ~4,900 ft | 76 | 46 | Estimated. Valley bottoms warm, the passes 15°F colder and windy. |
+| Lamar Valley | ~6,500 ft | 78 | 42 | Estimated. Nearest station: **Cooke City (7,580 ft), July normal 74 / 39** (NOAA 1991–2020 via plainclimate.com, 2026-10-29). Cooke City sits a thousand feet above Lamar, so Lamar runs warmer. Big diurnal swing — hot afternoons, cold dawns, which is when the wildlife is out. |
+| Glacier — Many Glacier | ~4,900 ft | 76 | 46 | Estimated. Nearest station: **St. Mary (4,560 ft), July normal high 73°F**, the coolest July in Montana's normals (NOAA 1991–2020 via plainclimate.com, 2026-10-29; low not read). So 76 is probably a few degrees warm. Valley bottoms warm, the passes 15°F colder and windy. |
 | Oregon (Hood River, Bend, South Sister) | — | — | — | Not pulled yet. *(Theodore Roosevelt row removed 2026-10-15 with that stop: ~2,300 ft, 88/60, estimated.)* |
 
-⚠️ **None of these are station data.** Unlike the [Sky Islands](../sky-islands-2027/) page, which is anchored to Willcox normals, no station figures were pulled for this route — these are seasonal estimates and should be treated as a shape, not a forecast. The real point is the **spread**: this trip runs from a 92°F shadeless badland to a 34°F night at 9,518 ft and back, twice, and after the front-end cut it now does the first half of that swing **in a single day** (Day 4). **The sleep system is correctly specified for the Beartooth camp and massively over-specified for everything else**, which is the right way round. Pack for the range, not either end.
+⚠️ **Only Badlands is station data** *(was: "None of these are station data", until 2026-10-29)*. Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
+
+🔥 **Wildfire smoke is the weather risk that can actually kill days, and 2026 shows both halves of this trip getting hit.** First-pass research *(2026-10-29; details in `log.md`)*:
+- **Glacier, late July (Days 11–17):** in 2026 Montana DEQ had an air quality alert covering Glacier County on Jul 27, and on Jul 31 smoke from the Skillet Fire was forecast over the northern half of the park. In August a "dome of smoke" over the Flathead brought raft and hike cancellations (Montana DEQ smoke forecasts; Flathead Beacon, 2026-10-20).
+- **Oregon (Aug 1–10):** Bend averaged **7.8 days a year at "unhealthy for sensitive groups" or worse, 2013–2025**, against 0.5 a year before 2013. The range is big: 21 days in 2023, 2 in 2025 (Oregon DEQ smoke trends report, 2026). Smoke season "peaks in August". On Jul 21 2026, Bend read AQI 200+ (Bend Bulletin). The McKenzie valley (Belknap) was spared in 2026.
+- **What it means:** one smoky summer doesn't make a pattern, but a 33-day trip through late July and early August should expect *some* smoke days. The plan already has the levers: soft days, refundable motels, and the 4-day window at Glacier. The open question below asks how to use them. The real point is the **spread**: this trip runs from a 92°F shadeless badland to a 34°F night at 9,518 ft and back, twice, and after the front-end cut it now does the first half of that swing **in a single day** (Day 4). **The sleep system is correctly specified for the Beartooth camp and massively over-specified for everything else**, which is the right way round. Pack for the range, not either end.
 
 ## Packing
 
@@ -1423,6 +1432,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Slough Creek, Yellowstone, Jul 22** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it *(was: "Check first whether Pebble Creek has reopened", 2026-10-10)*. The campground road is 2 mi of dirt (recreation.gov, snippet).
 - [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`) *(was: a hand-typed "Jan 16 2027", which the shift made wrong)*. One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] **Day 1 — Perrot SP, Jul 13** — Wisconsin state parks, 11-month window, so it's open now. Book a tent site.
 - [ ] **Badlands — Cedar Pass, Jul 14–15** — recreation.gov, 6-month window.
 - [ ] **Bighorns — West Tensleep, Jul 16–18** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch *(was: "mix of reservable and first-come, split not verified", 2026-10-10)*.
 - [ ] **Beartooth — Island Lake, Jul 19–21** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback *(was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)*. Bring cash.
@@ -1433,8 +1443,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **Sunset Motel, Hood River, Jul 31 – Aug 4 (2-queen, sleeps 4) and Holiday Motel, Bend, Aug 4–8 (Double Queen)** — refundable rates.
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
-- [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point.
-- [ ] ⚠️ **Six transit nights have no lodging identified: Day 1 and Days 18, 29, 30, 31, 32.** Solve them together, once, before departure. *(was: "Two transit nights (Days 1 and 20)", before 2026-10-15)*
+- [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point. 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
+- [ ] ⚠️ **Five transit nights have no lodging identified: Days 18, 29, 30, 31, 32** *(Day 1 is Perrot SP, chosen 2026-10-29)*. Solve them together, once, before departure. *(was: "Two transit nights (Days 1 and 20)", before 2026-10-15)*
 
 ## Open questions
 
@@ -1472,6 +1482,11 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 
 **Blocks:** Day 19 onward
 The Legacy seats five. Colin + 3 with luggage fits; Colin + 3 + three weeks of camp kit + a cooler probably doesn't (⚠️ not measured). Options: ship the camp kit home from Hood River (cost TBD), a roof box, or the friends bring one soft bag each. Decide before Jul 13.
+
+### What's the smoke plan?
+
+**Blocks:** Nothing yet. It's a day-of call, but the refund deadlines decide how much flexibility you keep.
+Late July in Glacier and early August in Central Oregon are both inside smoke season (see Weather). 2026 had alerts over Glacier County on Jul 27 and AQI 200+ in Bend on Jul 21. 2025 was mild. ✅ **Decided: day rules plus refundable** *(Colin, 2026-10-29)*. Check fire.airnow.gov at T-7 and T-1, and swap a hike for a soft day when AQI is over ~150. Keep the motels and rafts on refundable rates until their deadlines, so the Oregon week can shift bases (the swap list is in the idea file). Rejected: day rules alone, and ignoring it.
 
 ### What do the campgrounds actually cost?
 
@@ -1519,9 +1534,9 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 
 🚨 **Nothing on this route is individually hard, and that is exactly why the length is the thing to worry about.**
 
-The profile says **2–5 campgrounds per trip, 5–10 nights**. This is **20 nights across nine places to sleep** — down from 25 nights and eleven places, which is a real improvement, but still roughly double the longest trip on record here, the 11-day [Appalachians](../appalachians-2026/) run.
+The profile says **2–5 campgrounds per trip, 5–10 nights**. This is **32 nights** *(was: "20 nights across nine places to sleep", before the Oregon week was joined on 2026-10-15)*, three times the longest trip on record here, the 11-day [Appalachians](../appalachians-2026/) run.
 
-**Two days are deliberately soft and they are the mitigation:** Day 6 in the Bighorns, after the 11-mile Lost Twin Lakes day, and Day 17 at Glacier, which is genuinely unscheduled with St. Mary Falls as a default rather than a plan. Over three weeks something will be weathered out, closed or simply missed, and those two days are where it goes.
+**Four days are deliberately soft and they are the mitigation:** Day 6 in the Bighorns, after the 11-mile Lost Twin Lakes day; Day 17 at Glacier, which is genuinely unscheduled with St. Mary Falls as a default rather than a plan; the Hood River reset (Day 19); and the Bend off day (Day 26) *(was: "Two days", Days 6 and 17 only)*. Over three weeks something will be weathered out, closed or simply missed, and those two days are where it goes.
 
 **Theodore Roosevelt was cut on 2026-10-15**, though for a different reason than this lever: the trip now turns west to Oregon for the friends' week instead of driving home on I-94 *(was: "The remaining lever, if 21 still feels long: cut Theodore Roosevelt and drive home in three easier days…")*.
 

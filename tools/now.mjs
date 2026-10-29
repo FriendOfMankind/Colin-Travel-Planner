@@ -9,7 +9,9 @@
    is derived from trips/, wishlist/ and me/ each time, so it cannot go
    stale the way a hand-kept status list does. Booking-window dates are
    computed from each trip's `booking:` targets and me/booking.md's
-   leadMonths, never typed. */
+   leadMonths, never typed. The one exception is a release date an operator
+   publishes outright (Acadia's Dec 1 block): a booking row may carry
+   `opens:` with an `opensSource:`, and the trips test refuses one without. */
 
 import { readFileSync, readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
@@ -46,8 +48,12 @@ const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map((slug) =>
 });
 
 const leads = {};
+const anytime = new Set();
 for (const m of read("me/booking.md").matchAll(/```yaml\n([\s\S]*?)```/g)) {
-  for (const row of YAML.parse(m[1]) ?? []) leads[row.system] = row.leadMonths ?? null;
+  for (const row of YAML.parse(m[1]) ?? []) {
+    leads[row.system] = row.leadMonths ?? null;
+    if (row.anytime) anytime.add(row.system);
+  }
 }
 
 const gear = [];
@@ -104,20 +110,23 @@ const windows = [];
 for (const t of trips.filter(live)) for (const b of t.r.booking ?? []) {
   if (b.booked || b.done || !b.target) continue;
   const lead = leads[b.system];
-  windows.push({ t, b, opens: lead == null ? null : monthsBefore(b.target, lead) });
+  const opens = b.opens && b.opensSource ? String(b.opens) : lead == null ? null : monthsBefore(b.target, lead);
+  windows.push({ t, b, opens, anytime: !opens && anytime.has(b.system) });
 }
 const soon = windows.filter((w) => w.opens && diff(TODAY, w.opens) <= 120).sort((a, b) => (a.opens < b.opens ? -1 : 1));
-const unknown = windows.filter((w) => !w.opens);
-if (soon.length || unknown.length) {
+const open = windows.filter((w) => w.anytime).sort((a, b) => (a.b.target < b.b.target ? -1 : 1));
+const unknown = windows.filter((w) => !w.opens && !w.anytime);
+if (soon.length || open.length || unknown.length) {
   say("", `## Booking windows not marked booked (computed: target minus leadMonths, me/booking.md)`);
   for (const w of soon) {
     const d = diff(TODAY, w.opens);
     const when = d < 0 ? "open now" : d === 0 ? "opens TODAY" : `opens ${fmt(w.opens)}, in ${d} days`;
-    say(`- ${when} · ${plain(w.b.what)} · ${w.b.system} · ${w.t.slug}`);
+    say(`- ${when} · ${plain(w.b.what)} · ${w.b.system}${w.b.opens ? " (published date)" : ""} · ${w.t.slug}`);
   }
+  for (const w of open) say(`- bookable anytime · ${clip(plain(w.b.what), 80)} · ${w.t.slug}`);
   const later = windows.filter((w) => w.opens && diff(TODAY, w.opens) > 120).length;
   if (later) say(`- ${later} more open later than 120 days from now.`);
-  if (unknown.length) say(`- ${unknown.length} with no computable window (state park, private, etc.): confirm by hand. Trips: ${[...new Set(unknown.map((w) => w.t.slug))].join(", ")}`);
+  if (unknown.length) say(`- window unknown, confirm by hand:`, ...unknown.map((w) => `  - ${clip(plain(w.b.what), 80)} · ${w.b.system} · ${w.t.slug}`));
 }
 
 const needsRetro = trips.filter((t) => t.end && t.end < TODAY && !t.retro && t.r.status !== "outline");

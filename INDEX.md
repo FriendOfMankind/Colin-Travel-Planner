@@ -27,8 +27,6 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · planned · Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15) · 10 days · 7 open questions · 9/38 places located · log 29 entries · updated 2026-10-21
-  BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 2 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
@@ -36,11 +34,13 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 4 open questions · 0/61 places located · log 41 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 14, 2027 (target, unbooked; was Jul 13 – Aug 2 until 2026-10-15, when the Oregon boys week was joined on; was Jul 6–26 until 2026-10-10) · 33 days · 8 open questions · 15/24 places located · log 5 entries · updated 2026-10-15
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 14, 2027 (target, unbooked; was Jul 13 – Aug 2 until 2026-10-15, when the Oregon boys week was joined on; was Jul 6–26 until 2026-10-10) · 33 days · 9 open questions · 15/24 places located · log 7 entries · updated 2026-10-29
   ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list…
 
 ## Done
 
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15) · 10 days · 7 open questions · 9/38 places located · log 29 entries · updated 2026-10-21
+  BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 
