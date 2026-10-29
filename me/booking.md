@@ -79,6 +79,12 @@ trip's start date.
   what: Acadia NP campgrounds (Blackwoods, Seawall, Schoodic Woods) on recreation.gov
   when: Released in blocks, not a plain 6-month roll. For a May 20 arrival, booking opens **10 AM ET on Dec 1** (first release) or 10 AM ET on May 10 (second release)
   note: 📋 nps.gov/acad camping page, search snippet, 2026-10-04 (nps.gov is blocked here). Confirm the release that covers the actual nights. Campground opening dates conflict across sources (Blackwoods May 1 or May 6; Seawall May 20 or May 25). *(added 2026-10-04 for Newfoundland, now trips/newfoundland-2027)*
+- system: acadia-cadillac
+  leadDays: 90
+  releaseET: "10:00"
+  what: Acadia, Cadillac Summit Road vehicle reservations (recreation.gov timed entry)
+  when: 30% of each day's sunrise and daytime slots at 10 AM ET 90 days ahead; the other 70% at 10 AM ET two days ahead
+  note: 📋 nps.gov/acad and recreation.gov, 2026 rules (May 20 – Oct 25), snippets 2026-10-29. $6, non-refundable, changeable for free before the slot. One sunrise reservation per vehicle per 7 days. The 2027 rules aren't posted.
 - system: parks-canada
   leadMonths: null
   what: Parks Canada campgrounds (Gros Morne, Cape Breton Highlands, Fundy)
