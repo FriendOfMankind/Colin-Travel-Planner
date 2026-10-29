@@ -62,6 +62,22 @@ An outline, not a schedule: no times, and drives are estimates unless sourced. O
 
 **Tioga-closed version:** swap days 7–9 for **Wawona**. Chilnualna Falls is 8.2 mi / 2,400 ft. It peaks around May and is "practically deserted compared to the Mist Trail" *(📋 nps.gov; yosemitehikes.com)*, though it's right at your ceiling. Add the Mariposa Grove of sequoias, then fly out from Fresno or the Bay Area.
 
+**Cost per person, rough** *(estimated 2026-10-29, for 4 people, 9 days, 8 nights, everyone hiking at Colin's level)*. ⚠️ means my estimate, not a quote.
+
+| Item | Per person | Basis |
+|---|---|---|
+| Flights CLE → Bay Area, home from Reno | $350–550 | ⚠️ unpriced. The biggest swing |
+| Minivan, 9 days, split 4 | $260–390 | ⚠️ base $75–110/day, plus under-25 $25/day and 2nd driver $15/day *(Enterprise RNO, via `wishlist/tahoe-boys.md`)*, plus an unknown one-way fee |
+| Gas, ~600–700 mi | ~$40 | ⚠️ |
+| Camping, 8 nights at ~$36/site | ~$70 | $36 Valley/Hodgdon *(📋 nps.gov 2026)*, east-side price TBD |
+| Park entry, $35/car | ~$9 | *(yosemite.org 2026, via `tahoe-boys.md`)* |
+| Bike rental, 1 day | ~$48 | 📋 2026 |
+| Glacier Point bus, one-way | ~$30–40 | $28.50 per an undated yosemitehikes.com page, probably higher now |
+| Merced rafting | $190–230 | 📋 ARTA from $190, All-Outdoors $209–229 (2026) |
+| Food, trunk staples plus a few meals out | $250–370 | ⚠️ ~$25–40/day |
+| Misc (firewood, ice, showers) | ~$50 | ⚠️ |
+| **Total** | **~$1,300–1,800** | Without rafting, ~$1,100–1,600. With 3 people instead of 4, add ~$100–150 |
+
 **⚠️ Warnings: things that can hurt you or kill the day**
 - **Wapama Falls footbridges.** At peak flow, the westernmost bridge can go underwater. Hikers were swept off and killed in 2011 (two) and 2017 (one) *(📋 NPS parkplanning project page)*. A rerouted bridge was proposed; whether it's built isn't known. If water is over the bridge, turn around.
 - **Bears vs. the trunk.** Federal law: by day, food stays hidden in a locked car with windows shut. At night it goes in a locker *(📋 Yosemite Guide 2026)*. Bears break into cars. Your "camp lives in the trunk" setup is exactly what this rule targets, so every in-park campsite night means unloading the food into the locker. Dispersed sites have no lockers. The Forest Service food rule there wasn't found. Ask, or rent a canister (Yosemite Basecamp in Groveland rents "bear-aware" gear, 📋). Colin: "I'm good with bears, I'll keep stuff in my car" *(stated 2026-10-29)*. That works **by day** only. Overnight in Yosemite, the law requires the campsite's food locker (every Valley site has one, 📋 recreation.gov North Pines page), and a car is the one place it isn't allowed.
