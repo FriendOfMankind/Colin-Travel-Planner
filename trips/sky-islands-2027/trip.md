@@ -30,7 +30,7 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "🚨 **Sept 8 2026, 10:00 AM Eastern: Bonita Canyon, night of Mar 8** — then the same alarm on the 9th and the 10th. 25 sites, no walk-up fallback, peak month. **Book Gilbert Ray (Mar 5, 6, 14) tonight**; its whole season is already open. Airfare is Colin&rsquo;s to price"
+next: "**Not recorded whether anything is booked** (asked 2026-09-30; no answer yet). Bonita Canyon's window for Mar 8–10 opened Sept 8–10 2026 and Gilbert Ray's whole season opened Sept 1, so both are open now, if any sites are left. Check recreation.gov and pima.gov for those nights, book or mark booked, and then price CLE → TUS *(was: \"🚨 Sept 8 2026, 10:00 AM Eastern: Bonita Canyon… Book Gilbert Ray tonight\", a step dated in the past; rewritten 2026-10-29)*"
 booking:
   - system: recreation.gov
     what: Bonita Canyon, Chiricahua NM (Mar 8–10)

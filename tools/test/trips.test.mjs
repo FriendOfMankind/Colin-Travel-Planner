@@ -37,6 +37,17 @@ for (const slug of slugs) {
     assert.ok(Array.isArray(r.states) && r.states.length && r.states.every((s) => /^[A-Z]{2}$/.test(s)), "states: [ OH, PA ]");
   });
 
+  test(`${slug}: a typed booking \`opens\` date names its source and comes before the night`, () => {
+    const { registry: r } = parseTrip(readFileSync(join(TRIPS, slug, "trip.md"), "utf8"));
+    for (const b of r.booking ?? []) {
+      if (b.opens == null) continue;
+      const opens = String(b.opens);
+      assert.match(opens, /^\d{4}-\d{2}-\d{2}$/, `${b.what}: opens is YYYY-MM-DD`);
+      assert.ok(b.opensSource, `${b.what}: opens needs opensSource (a published date, never arithmetic)`);
+      assert.ok(opens < String(b.target), `${b.what}: opens is after the night it books`);
+    }
+  });
+
   const placesFile = join(TRIPS, slug, "places.yaml");
   if (existsSync(placesFile)) {
     test(`${slug}: no coordinate without provenance`, () => {
