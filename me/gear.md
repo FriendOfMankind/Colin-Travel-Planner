@@ -324,9 +324,9 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   state: own
   note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
 - name: Binoculars
-  state: own
+  state: need
   question: "Which model and magnification? Birding is now an interest (stated 2026-10-29, me/adventures.md). The usual birding spec is 8x42. A small or cheap pair (e.g. 10x25) may be worth replacing."
-  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+  answer: "Doesn't own any *(stated 2026-10-29; was: own, from the blanket \"pretty much own everything else\" on 2026-10-01)*. Leading candidate: Vortex Diamondback HD 8x42, MSRP $319.99 *(source: vortexoptics.com, 2026-10)*, ~$229–239 street *(source: frontdeskreview.com and Consumer Reports via qz.com, 2026-10)*. Its lifetime warranty transfers to used buyers with no receipt *(source: A&A Optics, a Vortex dealer, quoting the VIP warranty, 2026-10)*, so a used pair is low-risk."
 - name: Phone tripod + remote
   state: own
   note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
