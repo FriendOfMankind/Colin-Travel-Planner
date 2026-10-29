@@ -28,7 +28,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Next
 
-Only if you can go midweek — otherwise it fails the crowd test outright
+Go midweek: weekend queues run 10 AM–3 PM, and it's a good park, not an icon worth a crowd
 
 ## Research notes
 

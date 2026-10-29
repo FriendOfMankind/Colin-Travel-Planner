@@ -40,6 +40,10 @@ booking:
     opens: 2026-12-01
     opensSource: "nps.gov/acad camping page, search snippet, 2026-10-04 (me/booking.md acadia-np): first release 10 AM ET on Dec 1 for May arrivals"
     note: First release 10 AM ET on Dec 1 for May arrivals. Opening date conflicts across sources (May 1 or May 6); confirm it covers May 24.
+  - system: acadia-cadillac
+    what: Cadillac Summit Road, daytime entry for sunset (May 26)
+    target: 2027-05-26
+    note: 30% of slots at 90 days, 70% at two days, 10 AM ET, $6 non-refundable (2026 rules). The briefing shows the 90-day date; the two-day release is the backup.
   - system: parks-canada
     what: Fundy (May 27) · Chéticamp, Cape Breton Highlands (May 28–29)
     target: 2027-05-27
@@ -249,7 +253,10 @@ overnight:
 - 9:15 → 9:31 (16m) · drive · → Eagle Lake carriage road lot. Where to park and start isn't checked. The carriage roads close every spring for mud season (from March 12 in 2026) and reopen when they dry, "generally mid-May" *(nps.gov, snippet; Reddit, snippet)*. Check NPS conditions the week before. The Island Explorer bus doesn't start until late June (June 23 in 2026), so drive · 📍 Eagle Lake Bridge Acadia
 - 9:35 → 12:35 (3h) · ride · **Around the Mountain + Eagle Lake + Day Mountain**, 11.1 mi / 800 ft (AllTrails 4.9★). 3 h on a hybrid with stops is an estimate. Short version: 4.1 mi / 308 ft
 - 12:35 → 1:30 · food · Jordan Pond House is on the carriage-road network, so it's lunch if yesterday skipped the popovers
-- 1:30 → 8:00 · stop · Pack for the border, shower, early dinner
+- 1:30 → 6:30 · stop · Pack for the border, shower, early dinner
+- 6:30 → 7:00 (30m) · drive · → Cadillac Summit Road. **Needs a daytime vehicle reservation** ($6, non-refundable, 30-min entry window, stay until the road closes at 9 PM): 30% release 90 days ahead and 70% two days ahead, both at 10 AM ET *(nps.gov/acad and recreation.gov, 2026 rules, snippets, 2026-10-29)*. Book an entry slot about an hour before sunset · 📍 Cadillac Mountain Summit Acadia
+- 7:00 → 8:30 · sunset · ⭐ **Cadillac summit at sunset** *(Colin, 2026-10-29)*, the park's high point (1,530 ft) looking west. Sunset time: TBD (compute once the summit is pinned; no verified coordinate). Busy, and worth it under the crowd rule; Seal Cove was the quiet one yesterday · 📍 Cadillac Mountain Summit Acadia
+- 8:30 → 9:00 · drive · → camp
 
 **Meals**
 - B: made at camp
