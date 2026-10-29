@@ -26,6 +26,8 @@ source: research 2026-10-29 (Colin asked for a deep May–June plan). coords are
 
 **Why late May to mid-June, not September.** This is when the waterfalls peak. Yosemite Falls peaks in May, and Nevada Fall in late May or June *(📋 nps.gov/yose waterfalls page, search excerpt, 2026-10-29)*. By September they're trickles. The cost is that Tioga Road may still be snowed shut. It opened May 15 in 2026 *(📋 yosemite.org, 2026)*. The long-run average is about May 28, the 2010s averaged May 23, and the latest opening on record is July 8 *(✅ monobasinresearch.org Tioga dates table, 1933–2022)*. So the plan has two versions: east over Tioga, or back out west.
 
+**A group trip: Colin + 2–3 friends** *(stated 2026-10-29)*. Splitting the rental car is the money reason, and late May to June is a window when people can join. That fits the rule in `me/adventures.md` that guided outings come with friends, so the Merced rafting day moves from option to likely. One Valley campsite holds the whole group: max **6 people and 2 vehicles** per site *(📋 nps.gov campground regulations; recreation.gov Upper Pines site pages)*, at $36 a night split four ways.
+
 **It keeps.** Nine days fits two weeks of PTO in any year, so this isn't a last-free-summer trip. Late May to June 2027 is already Newfoundland (`trips/newfoundland-2027/`), so the earliest real slot is 2028.
 
 **Related ideas.** In a Tioga-open year, `wishlist/eastern-sierra.md` is right over the pass. That idea is July to October, so pairing the two means a June version of it. `wishlist/sequoia-kings.md` is the other big park to the south.
@@ -38,10 +40,10 @@ source: research 2026-10-29 (Colin asked for a deep May–June plan). coords are
 
 An outline, not a schedule: no times, and drives are estimates unless sourced. One outing a day, with long sits built in.
 
-**Getting there.** Fly into the Bay Area (SFO/OAK/SJC) and rent a car. If Tioga is open, fly home from Reno, an open-jaw nobody has priced yet. Fresno is the closest airport to the south entrance. Pre-buy the park pass on recreation.gov to get through the gate faster *(📋 Evergreen Lodge travel page, 2026)*.
+**Getting there.** Fly into the Bay Area (SFO/OAK/SJC) and rent a car. If Tioga is open, fly home from Reno, an open-jaw nobody has priced yet. Fresno is the closest airport to the south entrance. Pre-buy the park pass on recreation.gov to get through the gate faster *(📋 Evergreen Lodge travel page, 2026)*. With 3–4 people plus a trunk camp, a sedan won't hold it: rent an SUV or minivan, and price the Reno one-way drop fee against round-tripping the Bay Area.
 
 **Sleeping.** There's **no first-come camping inside Yosemite** *(📋 Yosemite Guide, 2025)*. You also can't sleep in a vehicle unless you're registered for a site *(📋 nps.gov/yose camping page, 2026-09)*. The options:
-- **Valley campgrounds** (Upper/Lower/North Pines, $36): released five months ahead on the 15th at 7 am PT, and they "sell out within minutes" *(📋 nps.gov, 2026)*. The upside of a Valley site is real: you wake up inside the crowd-free hours with no parking hunt, which is what makes slow mornings possible here.
+- **Valley campgrounds** (Upper/Lower/North Pines, $36): released five months ahead on the 15th at 7 am PT, and they "sell out within minutes" *(📋 nps.gov, 2026)*. The upside of a Valley site is real: you wake up inside the crowd-free hours with no parking hunt, which is what makes slow mornings possible here. **For late May to June, aim at Upper Pines.** Flood-prone sites in North and Lower Pines aren't released until the river is safe, often "just a few days" ahead *(📋 nps.gov campground FAQ)*. With a group, several people can be logged in at 7 am, but each visit allows only two reservations, and the primary occupant shows photo ID at check-in *(📋 nps.gov; recreation.gov)*. Cancelling a spare costs $10 if done more than 48 h out *(📋 recreation.gov)*.
 - **Camp 4** ($10 per person, shared sites): reserved one week ahead from mid-April *(📋 nps.gov/yose camp4, 2026)*. Climber history, and a social, solo-friendly camp.
 - **Hodgdon Meadow** (near the Hwy 120 entrance) and **Wawona**: same five-month rule.
 - **Free dispersed camping outside the park**: Hardin Flat Road on the Hwy 120 corridor, and Goat Meadow near Fish Camp *(📋 thetalusfieldjournal.com, 2026-07)*. No water, toilets or lockers. Stanislaus NF limit is 21 days per district, and you park within one vehicle length of the road *(✅ Stanislaus NF dispersed factsheet, 2026-08)*.
@@ -73,6 +75,7 @@ An outline, not a schedule: no times, and drives are estimates unless sourced. O
 - **Peregrine falcons:** climbing routes close March 1 to July 15 to protect them *(📋 nps.gov conditions)*. It's a birding target on El Cap and the Valley walls.
 
 **Open questions (multiple choice when the time comes)**
+- Who's coming, and can they do the Panorama day (8.2 mi, one ~800 ft climb)? The plan's hikes are sized to Colin's ceilings, not the group's.
 - ~~Slow mornings vs. the Valley~~ **Settled by the Valley campsite** *(2026-10-29)*: you wake up already parked, so it's bike, shuttle and walk, with no late-morning parking hunt.
 - Half Dome: permits come from a March 1–31 preseason lottery, and the cables go up the Friday before Memorial Day *(📋 recreation.gov / nps.gov)*. It's ~14–16 mi, well over your ceiling. In or out?
 - ~~Where to sleep~~ **Valley campground, booked ahead** *(stated 2026-10-29)*.
