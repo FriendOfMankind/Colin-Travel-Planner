@@ -318,3 +318,84 @@ Found while checking: **Spence Ridge Trail is listed as [CLOSED] on AllTrails** 
 **Hawksbill sunrise is ~7:36, first light ~7:15** (Trees `astro.mjs`, approximate summit position, 4,009 ft). The plan's 7:41 left out the elevation correction. **Saturday's sunset moves to the Grayson balds** (Massie Gap, verified coordinate: sunset 6:43, dark 7:04), and Hurricane check-in is after dark (gate open until 10 PM). Table Rock at sunset was considered and declined: 3 rocky miles down by headlamp on the hardest day.
 
 Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and swimming holes, "unclear trail markings" *(AllTrails)*. Skipped, because it's tagged forest and river only, with no confirmed views of the gorge walls from below. West-rim river trails (Babel Tower, Pine Gap / Bynum Bluff, Conley Cove) depend on Old NC 105, whose status is unknown.
+
+## 2026-10-29 · History moved out of trip.md
+
+`trip.md` now shows only current facts *(Colin, 2026-10-29: history goes to the log)*. These are the old values that sat inline as "(was …)" notes, grouped by the section they were in. Older versions of the plan are in git.
+- **frontmatter**
+  - (was: Oct 15–25; departure moved 2026-10-15)
+- **Dates**
+  - (was: Oct 15–25, 11 days / 10 nights; departure moved a day later, 2026-10-15)
+- **The one real risk**
+  - (was: "Nothing in the corridor is reservable — Mortimer isn't either", corrected 2026-10-06)
+- **The open call**
+  - (was: the Chamber parking call as the open call; fixed at preflight 2026-10-12)
+- **Day 1 — 2026-10-16 · Down I-77, Straight to the Rim**
+  - (was: Day 2 of 11, after a first night at Stone Cliff; departure moved from Oct 15 to Oct 16, changed 2026-10-15)
+  - (was: Day 1 Stone Cliff + river trail; Day 2 Endless Wall at 8:05, Canyon Rim, Secret Sandwich Society, Nuttallburg, Long Point)
+  - (was: "The coal ruins aren't lost: Kaymoor on Day 3 is the unrestored one anyway." Kaymoor was cut too, 2026-10-17, so this trip has no unrestored coal ruin left.)
+- **Day 2 — 2026-10-17 · Bridge Day, From the Bottom**
+  - (was: ~1h 30m before the chili cook-off opens at 3, then ~2h before dark; the cook-off was dropped 2026-10-16)
+  - (was: 2h 30m; changed 2026-10-07)
+  - (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
+  - (was: chili cook-off 3:00 → 4:30, Fayette County Courthouse; dropped 2026-10-16, Colin: "I don't care honestly")
+  - (was: "6 AM", left over from the 5:45 alarm; fixed 2026-10-12)
+  - (was: chili cook-off, cash; dropped 2026-10-16)
+- **Day 3 — 2026-10-18 · Thurmond, Then South**
+  - (was: Kaymoor at 7:55, arrival ~3:50)
+- **Day 4 — 2026-10-19 · Five Parkway Miles**
+  - (was: ~1h 45m of slack, Devil's Courthouse optional in it)
+  - (was: 7:30 → 9:00 slow morning)
+  - (was: 2:40 → 5:00 protected slack for a nap; Colin isn't napping, 2026-10-19)
+  - (was: 5:40 → 6:10, up Black Balsam by the short route; the Tennent ridge walk had been cut)
+  - (was: **loaded potato scramble**, slow, ~820 kcal; it keeps for another morning)
+  - (was 5:00)
+- **Day 5 — 2026-10-20 · Looking Glass Rock**
+  - (was: thermos lunch; no thermos, *stated 2026-10-20*)
+  - (was: hot shower and nothing else)
+  - (was: The Falls Landing 5:00 → 6:30, trout; dropped 2026-10-20, Colin: "I'll make dinner at camp")
+  - (was: thermos couscous + black beans + chicken; no thermos, 2026-10-20)
+  - (was: The Falls Landing, mountain trout)
+- **Day 7 — 2026-10-22 · The Race for FS 210**
+  - (was: ~1 hour, all before noon; drop Linville Falls if the site hunt takes two hours)
+  - (was: optional, skip if behind)
+  - (was: 10:45, before any falls hikes)
+  - (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
+  - (was: thermos power oats eaten on the road; no thermos, *stated 2026-10-20*)
+  - (was: daylight recon at 1:15 and the Chimneys at sunset; changed 2026-10-12)
+  - (was: "Mortimer Campground (~10 mi)" — it's ~21 mi of washboard gravel away, corrected 2026-10-06)
+- **Day 8 — 2026-10-23 · Hawksbill at Sunrise**
+  - (was: ~10 mi with the loop; changed 2026-10-12)
+  - (was: ❌ NONE)
+  - (was: thermos too; no thermos, 2026-10-20)
+  - (was: 7:41, which left out the elevation; before that the plan had 7:38.)
+  - (was: **Table Rock Loop**, 7.5 mi via Little Table Rock → Spence Ridge → Table Rock Gap. Dropped: Little Table Rock is blown down and listed closed, and the picnic-area road is gated, `log.md` 2026-10-12)
+  - (was: "from the picnic area, ~2.4 mi"; the road is gated, 2026-10-12)
+- **Day 9 — 2026-10-24 · Mount Rogers and Fatman's Squeeze**
+  - (was: 5:05 → 6:15, check-in before sunset)
+- **Hikes**
+  - (was: daylight recon at 1:15; changed 2026-10-12)
+- **Provisions**
+  - (was: "no raw or dried fruit")
+- **Stop 2 — Meijer, Oct 15 evening, into the cooler (was: morning of Oct 15)**
+  - (was: morning of Oct 15)
+- **Kit the meals depend on**
+  - (was: "Oct 19 tortellini", fixed 2026-10-12)
+- **Bridge Day**
+  - (was: "Day bag only")
+- **Reservations & checks**
+  - (was: ⚠️ blocking; fixed 2026-10-12)
+  - (was: plus Stone Cliff status; dropped 2026-10-15)
+- **Fayette Station Road parking on Bridge Day.**
+  - (was: "Blocks Day 2, the whole day"; fixed 2026-10-12)
+- **The two Linville nights have no fallback written down.**
+  - (was: "Mortimer" — too far; see above)
+- **Keeneys Creek Road for 5.9 inches of clearance.**
+  - (was: "reported washed out")
+- **Linville: racing for FS 210, by choice**
+  - (was: "There isn't." — wrong; corrected 2026-10-06.)
+  - (was: "~10 mi" and "not on recreation.gov")
+- **Why Hawksbill is on the schedule twice**
+  - (was: an afternoon daylight hike; changed 2026-10-12)
+- **Sun times were optimistic in one direction**
+  - (was Day 1 until 2026-10-07)

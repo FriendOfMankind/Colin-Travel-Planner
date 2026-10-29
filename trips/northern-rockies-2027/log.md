@@ -194,3 +194,72 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - **Day 1: Perrot State Park** *(Colin, 2026-10-29)*. Added to `booking:` as `wisconsin-sp`, an 11-month window, which is already open.
 - **Smoke: day rules plus refundable** *(Colin, 2026-10-29)*. AQI check at T-7 and T-1, a hike swaps to a soft day over ~150, and the Oregon bookings stay refundable until their deadlines.
 - **Middle Fork Flathead raft: skipped** *(Colin, 2026-10-29)*. Unlinked from this trip in `bucket.yaml` and kept as a want.
+
+## 2026-10-29 · History moved out of trip.md
+
+`trip.md` now shows only current facts *(Colin, 2026-10-29: history goes to the log)*. These are the old values that sat inline as "(was …)" notes, grouped by the section they were in. Older versions of the plan are in git.
+- **frontmatter**
+  - (was ~4,300 mi loop before the Oregon week)
+  - (was: "one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves"; changed 2026-10-10)
+  - (was: "Every anchor on this route is reachable on pavement. The one road that is not is Crazy Woman Canyon", corrected 2026-10-10)
+  - (was: "That is most of why 21 days costs under $1,800", before the Oregon week was joined on 2026-10-15)
+- **The Long Way to Glacier**
+  - (was: "and the car will have just done ~5,700 mi"; Newfoundland moved to the Sienna 2026-10-08; before that, "nineteen days of turnaround before Kenai on Aug 14")
+  - (was: twelve, before the 2026-10-10 shift)
+  - (was: "Eastern Sierra is the probable August week")
+  - (was: "so the July 26 end no longer protects anything")
+  - (was 20 across 9 places, before 2026-10-15)
+  - (was: "with Theodore Roosevelt catching the drive home"; changed 2026-10-15)
+- **Overview**
+  - (was: "home on I-94 through North Dakota… Theodore Roosevelt catching the drive home"; changed 2026-10-15 when the boys week was joined on. Colin: "update the glacier trip".)
+- **Dates**
+  - (was: July 13 – August 2 until the Oregon week was joined on 2026-10-15; this line still said Aug 2 until 2026-10-29)
+  - (was 21 / 20 until 2026-10-15)
+- **⚠️ Still twice your longest trip**
+  - (was: "20 nights across 9 places… Days 6 and 17", stale since 2026-10-15; fixed 2026-10-29)
+- **Timing vs Newfoundland**
+  - (was: "Timing vs Alaska: Kenai starts Aug 14, nineteen days of turnaround")
+  - (was: "Twelve days to service the car after ~5,700 mi"; corrected 2026-10-10)
+  - (was: "this leaves July 6. Twelve days", shifted 2026-10-10)
+- **Day 4 — 2027-07-16 · Straight to Altitude**
+  - (was “Fee and reservable/first-come split not verified”)
+  - (was: "Paved road to a lake camp", corrected 2026-10-10)
+- **Day 7 — 2027-07-19 · Chief Joseph to the Plateau**
+  - (was “two published sources flatly contradict”, 2026-10-10)
+- **Day 10 — 2027-07-22 · Down Into Lamar**
+  - (was: open question in research.md)
+- **Day 11 — 2027-07-23 · The Long Push North**
+  - (was: "Two Medicine and St. Mary are the fallbacks")
+- **Day 14 — 2027-07-26 · Grinnell Glacier**
+  - (was: "July 19 has a few days of margin")
+- **Day 18 — 2027-07-30 · West Instead of Home**
+  - (was: Cottonwood Campground, Theodore Roosevelt NP; cut 2026-10-15)
+- **Day 19 — 2027-07-31 · Reset in Hood River**
+  - (was a to-check before 2026-10-15)
+- **Weather**
+  - (was: "None of these are station data", until 2026-10-29)
+- **The car — it is the trip**
+  - (was 4,300 before the Oregon week)
+- **Reservations & checks**
+  - (was: "Check first whether Pebble Creek has reopened", 2026-10-10)
+  - (was: a hand-typed "Jan 16 2027", which the shift made wrong)
+  - (was: "mix of reservable and first-come, split not verified", 2026-10-10)
+  - (was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)
+  - (was: "Two transit nights (Days 1 and 20)", before 2026-10-15)
+- **Has Pebble Creek reopened?**
+  - (was: "Worth one phone call to Yellowstone before January")
+- **Is 33 days still too much?**
+  - (was: "the remaining lever… cut Theodore Roosevelt", now used)
+- **Offline regions**
+  - (was: "the I-94 corridor home")
+- **The length is still the risk, and two days are held against it**
+  - (was: "20 nights across nine places to sleep", before the Oregon week was joined on 2026-10-15)
+  - (was: "Two days", Days 6 and 17 only)
+  - (was: "The remaining lever, if 21 still feels long: cut Theodore Roosevelt and drive home in three easier days…")
+- **The shape of the summer this sits in**
+  - (was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)
+  - (was: July 13 – August 2 until 2026-10-15; July 6–26 until 2026-10-10)
+  - (was: May 13–20, 2027; changed 2026-10-05)
+  - (was: "dropped from 2027 by choice")
+  - (was: "The Eastern Sierra is back in 2027 as the probable August week", stated 2026-09-30)
+  - (was: "August is now probably a fly-in week with friends", stated 2026-10-10)

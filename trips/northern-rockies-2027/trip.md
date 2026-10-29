@@ -18,7 +18,7 @@ states: [ SD, WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
 nights: 32 nights
-distance: ⚠️ ~6,000+ mi, unrouted (was ~4,300 mi loop before the Oregon week)
+distance: ⚠️ ~6,000+ mi, unrouted
 budget: TBD — the old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share, `wishlist/august-friends-2027.md`), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
@@ -29,7 +29,7 @@ tags:
   - july
   - long haul
   - reservation race
-next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then three consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\" *(was: \"one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves\"; changed 2026-10-10)*"
+next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then three consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
 booking:
   - system: wisconsin-sp
     what: Perrot State Park, Trempealeau WI (Jul 13)
@@ -84,8 +84,8 @@ page:
   dates: Tuesday, July 13 – Saturday, August 14, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. *(was: \"Every anchor on this route is reachable on pavement. The one road that is not is Crazy Woman Canyon\", corrected 2026-10-10)* This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
-  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX for Aug 1–10 and ride in the Legacy *(was: \"That is most of why 21 days costs under $1,800\", before the Oregon week was joined on 2026-10-15)*."
+  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
+  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX for Aug 1–10 and ride in the Legacy."
   footerNote: Outline. Road and season facts are verified; every fee, every coordinate and five transit nights are not. Sun times for the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 33 days
@@ -102,16 +102,16 @@ page:
 
 # The Long Way to Glacier
 
-> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, then **west to the Columbia Gorge to meet the friends for the Oregon boys week (Aug 1–10)**, and home from Portland *(was: "with Theodore Roosevelt catching the drive home"; changed 2026-10-15)*.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is now **32 nights** *(was 20 across 9 places, before 2026-10-15)*, three times the longest trip on record. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the end date no longer protects anything, which is why the trip moved a week later on 2026-10-10 *(was: "so the July 26 end no longer protects anything")*; August is now the Oregon boys week, joined onto this trip *(was: "Eastern Sierra is the probable August week")*. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, nineteen days before this leaves** *(was: twelve, before the 2026-10-10 shift)*. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh; the turnaround is about you, not the car *(was: "and the car will have just done ~5,700 mi"; Newfoundland moved to the Sienna 2026-10-08; before that, "nineteen days of turnaround before Kenai on Aug 14")*
+> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, then **west to the Columbia Gorge to meet the friends for the Oregon boys week (Aug 1–10)**, and home from Portland.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is now **32 nights**, three times the longest trip on record. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the end date no longer protects anything, which is why the trip moved a week later on 2026-10-10; August is now the Oregon boys week, joined onto this trip. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, nineteen days before this leaves**. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh; the turnaround is about you, not the car
 
 ## Overview
 
-Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–10** (Gorge → Bend → McKenzie River). Then the long drive home from Portland. Four anchors on the way out (Badlands, the Cloud Peak Skyway, the Beartooth Plateau, **seven nights at Glacier**), then the friends' week. *(was: "home on I-94 through North Dakota… Theodore Roosevelt catching the drive home"; changed 2026-10-15 when the boys week was joined on. Colin: "update the glacier trip".)*
+Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–10** (Gorge → Bend → McKenzie River). Then the long drive home from Portland. Four anchors on the way out (Badlands, the Cloud Peak Skyway, the Beartooth Plateau, **seven nights at Glacier**), then the friends' week.
 
 ### Dates
 
-July 13 – August 14, 2027 *(was: July 13 – August 2 until the Oregon week was joined on 2026-10-15; this line still said Aug 2 until 2026-10-29)* *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
-33 days / 32 nights *(was 21 / 20 until 2026-10-15)*
+July 13 – August 14, 2027 *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
+33 days / 32 nights
 
 ### Group
 
@@ -135,11 +135,11 @@ This was a 25-day draft. The four days came off the **front end** — Custer Sta
 
 ### ⚠️ Still twice your longest trip
 
-The profile says 2–5 campgrounds, 5–10 nights. This is **32 nights**, three times the 11-day Appalachians run. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation *(was: "20 nights across 9 places… Days 6 and 17", stale since 2026-10-15; fixed 2026-10-29)*.
+The profile says 2–5 campgrounds, 5–10 nights. This is **32 nights**, three times the 11-day Appalachians run. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation.
 
 ### Timing vs Newfoundland
 
-**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 13. Nineteen days to rest and repack *(was: "this leaves July 6. Twelve days", shifted 2026-10-10)*. Newfoundland is in the Sienna, so the Legacy hasn't just done 5,700 mi *(was: "Twelve days to service the car after ~5,700 mi"; corrected 2026-10-10)*. Kenai was the old reason this ended July 26, and it moved to a PTO year on 2026-09-30. *(was: "Timing vs Alaska: Kenai starts Aug 14, nineteen days of turnaround")*
+**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 13. Nineteen days to rest and repack. Newfoundland is in the Sienna, so the Legacy hasn't just done 5,700 mi. Kenai was the old reason this ended July 26, and it moved to a PTO year on 2026-09-30.
 
 ## Days
 
@@ -270,7 +270,7 @@ overnight:
   cost: $20/night (FS page; was ~$20 est.)
   checkin: Reservable on recreation.gov (FS page) — one aggregator disagrees
   confirmation: TBD
-  notes: 📋 **10 sites, reservable on recreation.gov, $20/night, season June to Labor Day; water and vault toilets, no showers** (fs.usda.gov Bighorn page and travelwyoming.com, snippets, 2026-10-10). One aggregator (snoflo.org) says first-come only; the Forest Service page wins until checked. **7 mi of gravel on FR 27** to get there — check the road (principle 2). ✅ Several Cloud Peak Skyway campgrounds open June 5, so mid-July is well inside the season. At ~9,100 ft this is the first altitude camp, and the trailhead for Days 5 and 6 is right there. *(was “Fee and reservable/first-come split not verified”)*
+  notes: 📋 **10 sites, reservable on recreation.gov, $20/night, season June to Labor Day; water and vault toilets, no showers** (fs.usda.gov Bighorn page and travelwyoming.com, snippets, 2026-10-10). One aggregator (snoflo.org) says first-come only; the Forest Service page wins until checked. **7 mi of gravel on FR 27** to get there — check the road (principle 2). ✅ Several Cloud Peak Skyway campgrounds open June 5, so mid-July is well inside the season. At ~9,100 ft this is the first altitude camp, and the trailhead for Days 5 and 6 is right there.
 ```
 
 **Schedule**
@@ -288,7 +288,7 @@ overnight:
 
 #### Highlights
 
-A lake camp at 9,100 ft, 7 gravel miles off a paved byway, with the Cloud Peak Wilderness starting at the parking lot *(was: "Paved road to a lake camp", corrected 2026-10-10)*. This is the shape of trip the whole rule set was built for.
+A lake camp at 9,100 ft, 7 gravel miles off a paved byway, with the Cloud Peak Wilderness starting at the parking lot. This is the shape of trip the whole rule set was built for.
 
 #### Warnings
 
@@ -386,7 +386,7 @@ overnight:
   cost: $20–25/night, cash or check (FS page; was ~$20 est.)
   checkin: 📋 **First-come only, no reservations** — 21 sites, $20–25/night, **cash or check** (fs.usda.gov Shoshone page, snippet, 2026-10-10)
   confirmation: n/a — first-come
-  notes: ⚠️ **9,518 ft.** 📋 The Forest Service page says it typically runs **late June to early/mid September** (it closed Sept 13 in 2026), which settles the old late-May vs July-1 contradiction on the late side *(was “two published sources flatly contradict”, 2026-10-10)*. **By mid-July it is moot.** Bear boxes; food storage required; no trash pickup. 📋 **Beartooth Lake** is the neighbouring fallback, also 21 sites, also first-come only (pinecliffresort.net and campflare.com, snippets, 2026-10-10). Arriving ~1:30 PM on a Monday is the plan for getting a site. 📋 One 2023 review says that in July, Beartooth Highway first-come sites “begin to fill up again in mid-afternoon” (campingkiddos.com). So 1:30 is about right, with little margin; earlier is better.
+  notes: ⚠️ **9,518 ft.** 📋 The Forest Service page says it typically runs **late June to early/mid September** (it closed Sept 13 in 2026), which settles the old late-May vs July-1 contradiction on the late side. **By mid-July it is moot.** Bear boxes; food storage required; no trash pickup. 📋 **Beartooth Lake** is the neighbouring fallback, also 21 sites, also first-come only (pinecliffresort.net and campflare.com, snippets, 2026-10-10). Arriving ~1:30 PM on a Monday is the plan for getting a site. 📋 One 2023 review says that in July, Beartooth Highway first-come sites “begin to fill up again in mid-afternoon” (campingkiddos.com). So 1:30 is about right, with little margin; earlier is better.
 ```
 
 **Schedule**
@@ -501,7 +501,7 @@ overnight:
   cost: ~$20/night est.
   checkin: Reservable — and it goes in minutes
   confirmation: TBD
-  notes: "🚨 **The single worst booking risk on this trip, kept on purpose.** **Pebble Creek**, the obvious base at the foot of the Beartooth Highway, has been **closed for flood recovery since June 2022**, was closed again for 2026, and nps.gov says \"likely for the foreseeable future\" (snippet, 2026-10-10) — assume closed in 2027. That leaves **Slough Creek at 16 sites, which fills within minutes**. It is kept because the alternative — Lamar as a day trip off the plateau — loses the dawn, and dawn is the whole point of a wildlife valley. **Fallback if it fails: a fourth plateau night with Lamar as a long day trip, or a motel in Cooke City or Gardiner.** 📋 Season: **June 15 – October 12 in 2026** (nps.gov/yell operating dates, snippet, 2026-10-29), so Jul 22 is well inside it. $20/night, 6,250 ft, no showers (recreation.gov, snippet). The **Northeast Entrance Road rebuild** (27 mi, Tower Junction to the NE entrance, ~$268M) is slated to **begin construction in 2029** (spartnerships.com, 2026-08-12), so it shouldn't slow Lamar in 2027 *(was: open question in research.md)*."
+  notes: "🚨 **The single worst booking risk on this trip, kept on purpose.** **Pebble Creek**, the obvious base at the foot of the Beartooth Highway, has been **closed for flood recovery since June 2022**, was closed again for 2026, and nps.gov says \"likely for the foreseeable future\" (snippet, 2026-10-10) — assume closed in 2027. That leaves **Slough Creek at 16 sites, which fills within minutes**. It is kept because the alternative — Lamar as a day trip off the plateau — loses the dawn, and dawn is the whole point of a wildlife valley. **Fallback if it fails: a fourth plateau night with Lamar as a long day trip, or a motel in Cooke City or Gardiner.** 📋 Season: **June 15 – October 12 in 2026** (nps.gov/yell operating dates, snippet, 2026-10-29), so Jul 22 is well inside it. $20/night, 6,250 ft, no showers (recreation.gov, snippet). The **Northeast Entrance Road rebuild** (27 mi, Tower Junction to the NE entrance, ~$268M) is slated to **begin construction in 2029** (spartnerships.com, 2026-08-12), so it shouldn't slow Lamar in 2027."
 ```
 
 **Schedule**
@@ -539,7 +539,7 @@ overnight:
   cost: ~$23/night est.
   checkin: 🚨 Book mid-January 2027
   confirmation: TBD
-  notes: "🚨 **THE booking of this trip.** ✅ 6-month rolling window on recreation.gov, released daily; Many Glacier is one of the three that go the day they open. **Arriving without a reservation is not a plan.** 📋 Every site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, which is the second shot if January fails (recreation.gov, snippet, 2026-10-10). If it fails: **St. Mary** is the fallback. ⚠️ **Two Medicine was closed all of 2026** for a water-system rebuild, and its road rehab runs to late 2027, possibly 2028; its 2027 status isn't announced (nps.gov/glac project page, snippet, 2026-10-10). St. Mary has partial closures fall 2026 – spring 2027 only. *(was: \"Two Medicine and St. Mary are the fallbacks\")*"
+  notes: "🚨 **THE booking of this trip.** ✅ 6-month rolling window on recreation.gov, released daily; Many Glacier is one of the three that go the day they open. **Arriving without a reservation is not a plan.** 📋 Every site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, which is the second shot if January fails (recreation.gov, snippet, 2026-10-10). If it fails: **St. Mary** is the fallback. ⚠️ **Two Medicine was closed all of 2026** for a water-system rebuild, and its road rehab runs to late 2027, possibly 2028; its 2027 status isn't announced (nps.gov/glac project page, snippet, 2026-10-10). St. Mary has partial closures fall 2026 – spring 2027 only."
 ```
 
 **Schedule**
@@ -673,7 +673,7 @@ The single biggest day on the route and the reason the trip is Glacier-anchored 
 
 #### Warnings
 
-**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **That's why the trip moved a week: Grinnell is now July 26, with about ten days of margin over 2026's opening** *(was: "July 19 has a few days of margin")*. If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day fourteen — **if yesterday hurt, take the boat.**
+**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **That's why the trip moved a week: Grinnell is now July 26, with about ten days of margin over 2026's opening**. If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day fourteen — **if yesterday hurt, take the boat.**
 
 ### Day 15 — 2027-07-27 · Over the Sun Road
 
@@ -805,7 +805,7 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "⚠️ Transit night 1 of 5 on the way west and home. Camp or motel, Colin's call; solve with the other transit nights. *(was: Cottonwood Campground, Theodore Roosevelt NP; cut 2026-10-15)*"
+  notes: "⚠️ Transit night 1 of 5 on the way west and home. Camp or motel, Colin's call; solve with the other transit nights."
 ```
 
 **Schedule**
@@ -840,7 +840,7 @@ overnight:
   cost: ~$164–226/night for the room (2026 summer averages; vio.com, KAYAK, snippets). Tonight Colin pays it alone
   checkin: TBD
   confirmation: TBD
-  notes: Night 1 of 4 in Hood River. The friends join tomorrow. Book the Standard Room, 2 Queen Beds, listed as sleeping 4, 8.8/10 over ~1,000 reviews (hotwire.com, snippet, 2026-10-15). *(was a to-check before 2026-10-15)*
+  notes: Night 1 of 4 in Hood River. The friends join tomorrow. Book the Standard Room, 2 Queen Beds, listed as sleeping 4, 8.8/10 over ~1,000 reviews (hotwire.com, snippet, 2026-10-15).
 ```
 
 **Schedule**
@@ -1380,7 +1380,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Glacier — Many Glacier | ~4,900 ft | 76 | 46 | Estimated. Nearest station: **St. Mary (4,560 ft), July normal high 73°F**, the coolest July in Montana's normals (NOAA 1991–2020 via plainclimate.com, 2026-10-29; low not read). So 76 is probably a few degrees warm. Valley bottoms warm, the passes 15°F colder and windy. |
 | Oregon (Hood River, Bend, South Sister) | — | — | — | Not pulled yet. *(Theodore Roosevelt row removed 2026-10-15 with that stop: ~2,300 ft, 88/60, estimated.)* |
 
-⚠️ **Only Badlands is station data** *(was: "None of these are station data", until 2026-10-29)*. Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
+⚠️ **Only Badlands is station data**. Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
 
 🔥 **Wildfire smoke is the weather risk that can actually kill days, and 2026 shows both halves of this trip getting hit.** First-pass research *(2026-10-29; details in `log.md`)*:
 - **Glacier, late July (Days 11–17):** in 2026 Montana DEQ had an air quality alert covering Glacier County on Jul 27, and on Jul 31 smoke from the Skillet Fire was forecast over the northern half of the park. In August a "dome of smoke" over the Flathead brought raft and hike cancellations (Montana DEQ smoke forecasts; Flathead Beacon, 2026-10-20).
@@ -1409,7 +1409,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### The car — it is the trip
 
-- [ ] **Full service before departure.** ~6,000+ miles (unrouted) on a 2013 Legacy with no rental to fall back on *(was 4,300 before the Oregon week)*.
+- [ ] **Full service before departure.** ~6,000+ miles (unrouted) on a 2013 Legacy with no rental to fall back on.
 - [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + 3 and their bags. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
 - [ ] Spare confirmed inflated, jack, tire plug kit — Sage Creek Rim, Crazy Woman and Clay Butte are all gravel decisions
 - [ ] Jump pack. Cold nights at 9,500 ft and a fortnight of short trips are hard on a battery.
@@ -1429,13 +1429,13 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ## Reservations & checks
 
-- [ ] 🚨 **Slough Creek, Yellowstone, Jul 22** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it *(was: "Check first whether Pebble Creek has reopened", 2026-10-10)*. The campground road is 2 mi of dirt (recreation.gov, snippet).
-- [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`) *(was: a hand-typed "Jan 16 2027", which the shift made wrong)*. One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
+- [ ] 🚨 **Slough Creek, Yellowstone, Jul 22** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it. The campground road is 2 mi of dirt (recreation.gov, snippet).
+- [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
 - [ ] **Day 1 — Perrot SP, Jul 13** — Wisconsin state parks, 11-month window, so it's open now. Book a tent site.
 - [ ] **Badlands — Cedar Pass, Jul 14–15** — recreation.gov, 6-month window.
-- [ ] **Bighorns — West Tensleep, Jul 16–18** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch *(was: "mix of reservable and first-come, split not verified", 2026-10-10)*.
-- [ ] **Beartooth — Island Lake, Jul 19–21** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback *(was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)*. Bring cash.
+- [ ] **Bighorns — West Tensleep, Jul 16–18** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch.
+- [ ] **Beartooth — Island Lake, Jul 19–21** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback. Bring cash.
 - [x] ~~Theodore Roosevelt — Cottonwood, Jul 30–31~~ — **cut 2026-10-15** with Theodore Roosevelt, when the trip turned west for the Oregon week. Nothing was booked.
 - [ ] 🚨 **Belknap Hot Springs Lodge, Aug 8–10** — book first, Oct–Nov 2026. 18 rooms, few take 4.
 - [ ] **White Salmon raft, Aug 2** (Wet Planet) — 2027 calendar live; refundable to 7 days out.
@@ -1444,7 +1444,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point. 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
-- [ ] ⚠️ **Five transit nights have no lodging identified: Days 18, 29, 30, 31, 32** *(Day 1 is Perrot SP, chosen 2026-10-29)*. Solve them together, once, before departure. *(was: "Two transit nights (Days 1 and 20)", before 2026-10-15)*
+- [ ] ⚠️ **Five transit nights have no lodging identified: Days 18, 29, 30, 31, 32** *(Day 1 is Perrot SP, chosen 2026-10-29)*. Solve them together, once, before departure.
 
 ## Open questions
 
@@ -1456,7 +1456,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 ### Has Pebble Creek reopened?
 
 **Blocks:** Day 10, and how bad the Slough Creek race actually is
-📋 **Answered, mostly: no.** Closed for 2026 and "likely for the foreseeable future" (nps.gov/yell and yellowstone.org, snippets, 2026-10-10). A Facebook post says it gets rebuilt with the Northeast Entrance Road reconstruction, whose environmental review was still underway in 2026. Plan as if Slough Creek is the only option, with the written fallback. *(was: "Worth one phone call to Yellowstone before January")*
+📋 **Answered, mostly: no.** Closed for 2026 and "likely for the foreseeable future" (nps.gov/yell and yellowstone.org, snippets, 2026-10-10). A Facebook post says it gets rebuilt with the Northeast Entrance Road reconstruction, whose environmental review was still underway in 2026. Plan as if Slough Creek is the only option, with the written fallback.
 
 ### Is a 6,600 ft altitude gain in one day, on day four, actually fine?
 
@@ -1476,7 +1476,7 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 ### Is 33 days still too much?
 
 **Blocks:** The whole shape
-**Now 33 days** with the Oregon week joined on, **three times the longest trip ever taken** (11 days, Appalachians 2026), and the same length as Newfoundland. Theodore Roosevelt was cut to make room *(was: "the remaining lever… cut Theodore Roosevelt", now used)*. Soft days: Day 6, Day 17, the Hood River reset (Day 19) and the Bend off day (Day 26). The real cost is the end: four solo days of interstate straight after ten days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 33 days** with the Oregon week joined on, **three times the longest trip ever taken** (11 days, Appalachians 2026), and the same length as Newfoundland. Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 17, the Hood River reset (Day 19) and the Bend off day (Day 26). The real cost is the end: four solo days of interstate straight after ten days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
@@ -1501,7 +1501,7 @@ No coordinate on this page has been verified — `tools/geocode.mjs` returns not
 
 ### Offline regions
 
-Download offline Google Maps for the whole corridor before leaving: Chicago–Madison–La Crosse, Badlands, Rapid City–Buffalo, the Bighorns, Cody–Beartooth, Yellowstone NE, Great Falls–Browning–Glacier, the Spokane–Gorge corridor, Bend–McKenzie, and the drive home from Portland *(was: "the I-94 corridor home")*. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
+Download offline Google Maps for the whole corridor before leaving: Chicago–Madison–La Crosse, Badlands, Rapid City–Buffalo, the Bighorns, Cody–Beartooth, Yellowstone NE, Great Falls–Browning–Glacier, the Spokane–Gorge corridor, Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
 
 ## Notes
 
@@ -1534,11 +1534,11 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 
 🚨 **Nothing on this route is individually hard, and that is exactly why the length is the thing to worry about.**
 
-The profile says **2–5 campgrounds per trip, 5–10 nights**. This is **32 nights** *(was: "20 nights across nine places to sleep", before the Oregon week was joined on 2026-10-15)*, three times the longest trip on record here, the 11-day [Appalachians](../appalachians-2026/) run.
+The profile says **2–5 campgrounds per trip, 5–10 nights**. This is **32 nights**, three times the longest trip on record here, the 11-day [Appalachians](../appalachians-2026/) run.
 
-**Four days are deliberately soft and they are the mitigation:** Day 6 in the Bighorns, after the 11-mile Lost Twin Lakes day; Day 17 at Glacier, which is genuinely unscheduled with St. Mary Falls as a default rather than a plan; the Hood River reset (Day 19); and the Bend off day (Day 26) *(was: "Two days", Days 6 and 17 only)*. Over three weeks something will be weathered out, closed or simply missed, and those two days are where it goes.
+**Four days are deliberately soft and they are the mitigation:** Day 6 in the Bighorns, after the 11-mile Lost Twin Lakes day; Day 17 at Glacier, which is genuinely unscheduled with St. Mary Falls as a default rather than a plan; the Hood River reset (Day 19); and the Bend off day (Day 26). Over three weeks something will be weathered out, closed or simply missed, and those two days are where it goes.
 
-**Theodore Roosevelt was cut on 2026-10-15**, though for a different reason than this lever: the trip now turns west to Oregon for the friends' week instead of driving home on I-94 *(was: "The remaining lever, if 21 still feels long: cut Theodore Roosevelt and drive home in three easier days…")*.
+**Theodore Roosevelt was cut on 2026-10-15**, though for a different reason than this lever: the trip now turns west to Oregon for the friends' week instead of driving home on I-94.
 
 ### Two hikes are over the ceiling, on purpose, with bail-outs
 
@@ -1572,6 +1572,6 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-Maui is shelved for spring 2028 (`wishlist/maui.md`) *(was: May 13–20, 2027; changed 2026-10-05)*. [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 13 – August 14, **with the Oregon boys week (Aug 1–10) joined on** *(was: July 13 – August 2 until 2026-10-15; July 6–26 until 2026-10-10)*. ~~Eastern Sierra is the probable August week.~~ *(was: "the middle of three things and the only one that is drivable… Kenai is targeted at August 14–27". Kenai moved to a PTO year and Newfoundland became the second road trip, 2026-09-30 to 2026-10-05.)*
+Maui is shelved for spring 2028 (`wishlist/maui.md`). [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 13 – August 14, **with the Oregon boys week (Aug 1–10) joined on**. ~~Eastern Sierra is the probable August week.~~
 
-**August is the Oregon boys week, joined onto this trip** (`wishlist/august-friends-2027.md`; a group is in, stated 2026-10-15) *(was: "August is now probably a fly-in week with friends", stated 2026-10-10)* *(was: "The Eastern Sierra is back in 2027 as the probable August week", stated 2026-09-30)*. It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. *(was: "dropped from 2027 by choice")* **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.
+**August is the Oregon boys week, joined onto this trip** (`wishlist/august-friends-2027.md`; a group is in, stated 2026-10-15). It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.

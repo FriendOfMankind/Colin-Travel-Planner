@@ -31,7 +31,7 @@ Go for ⬜ and 🟡 leaves that **could hurt him or kill a day** (`CLAUDE.md` ru
 ## 4. Write it down
 
 - **`log.md`**: one dated entry per sweep. Group findings by source, and put the uploader, date and trip month on every video. Quote the useful lines.
-- **`trip.md`**: apply facts in place with a "(was: …)" note and provenance. **Decisions don't go in.** A change of plan is a question for Colin, multiple choice.
+- **`trip.md`**: apply facts in place, with provenance. The old value goes in this sweep's `log.md` entry, not inline (no "(was: …)" in `trip.md`). **Decisions don't go in.** A change of plan is a question for Colin, multiple choice.
 - **The tree**: update each leaf you touched (status, best sources, the open question), and date it.
 - Run `npm test && node tools/index.mjs`. Then branch, PR, and end with "⚠️ not in memory yet, merge PR #N".
 

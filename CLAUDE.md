@@ -54,7 +54,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
-- **Update, don't append.** When a fact changes, change it in place and keep a short "(was: …)" note. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
+- **Update, don't append.** When a fact changes, change it in place. **In a `trip.md`, no "(was: …)" notes:** the plan shows only current facts, and the old value and the reason go in that trip's `log.md` as a dated line *(Colin, 2026-10-29)*. Elsewhere (`me/`, `wishlist/`), a short "(was: …)" is still fine when the history matters. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
 - **Hypotheses stay hypotheses** until Colin confirms them.
 - **Three sizes, pointing down, never copying.** `trips/` (dated), `wishlist/` (potential trips: places plus a season), `bucket.yaml` (single places). A bucket item that belongs to a trip or idea carries `trip:` or `wishlist:` and a one-line `why`; its facts stay in the trip or idea. **When planning any trip, check `bucket.yaml` for its `states`.** Potential trips sort by `horizon` (only-now / confirmed / keeps / weekend), the test in `me/calendar.md`.
@@ -92,7 +92,7 @@ node tools/build.mjs   # site/index.html
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 7 trips (two shelved), 33 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the six skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the six skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.

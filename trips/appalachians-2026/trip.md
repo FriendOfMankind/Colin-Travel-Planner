@@ -10,7 +10,7 @@ theme: autumn
 status: done
 pinned: true
 start: 2026-10-16
-dates: "Oct 16–25, 2026 (was: Oct 15–25; departure moved 2026-10-15)"
+dates: "Oct 16–25, 2026"
 window: Mid-late October — peak color moves down the elevation band
 region: New River Gorge → Pisgah → Linville → Mount Rogers
 states: [ WV, NC, VA ]
@@ -82,7 +82,7 @@ Four bases, north to south then back up: Arrowhead Bike Farm WV (2) → Davidson
 ### Dates
 
 Oct 16–25, 2026
-10 days / 9 nights (was: Oct 15–25, 11 days / 10 nights; departure moved a day later, 2026-10-15)
+10 days / 9 nights
 
 ### Group
 
@@ -94,11 +94,11 @@ Solo.
 
 ### The one real risk
 
-**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing on FS 210 is reservable.** **No reservation, by choice (2026-10-06):** the 6:30 AM start is the mitigation. Fallbacks: Old NC 105 → motel (see Notes). (was: "Nothing in the corridor is reservable — Mortimer isn't either", corrected 2026-10-06)
+**Oct 22.** Leave a reserved site at 6:30 AM and race for a first-come dispersed site on FS 210, peak color week, no signal. ⚠️ **Nothing on FS 210 is reservable.** **No reservation, by choice (2026-10-06):** the 6:30 AM start is the mitigation. Fallbacks: Old NC 105 → motel (see Notes).
 
 ### The open call
 
-**Canyon Rim, in person on Day 1 at 12:05 or (304) 574-2115**: is Fayette Station Road open to walkers after the August floods (sources conflict, `log.md` 2026-10-06)? Parking at the top (Chamber, 800-927-0263) is nice-to-have, because the shuttle is an acceptable fallback *(stated 2026-09-29)*. (was: the Chamber parking call as the open call; fixed at preflight 2026-10-12)
+**Canyon Rim, in person on Day 1 at 12:05 or (304) 574-2115**: is Fayette Station Road open to walkers after the August floods (sources conflict, `log.md` 2026-10-06)? Parking at the top (Chamber, 800-927-0263) is nice-to-have, because the shuttle is an acceptable fallback *(stated 2026-09-29)*.
 
 ### The lecture
 
@@ -113,7 +113,7 @@ date: 2026-10-16
 tagline: Five and a half hours, the rim walk before it closes, the bridge head-on at sunset.
 type: travel + activity
 driving: "~6h (5h 35m measured to Canyon Rim; the short hops after it are not measured)"
-slack: "**~45m, between pitching and Long Point.** Endless Wall can't move: the overlook trails close tomorrow. **Leave by 7:30 at the latest**; every minute later comes out of that slack, then out of Long Point. Cut order if the drive runs long: Canyon Rim, then the slack, then turn back early on Long Point. (was: Day 2 of 11, after a first night at Stone Cliff; departure moved from Oct 15 to Oct 16, changed 2026-10-15)"
+slack: "**~45m, between pitching and Long Point.** Endless Wall can't move: the overlook trails close tomorrow. **Leave by 7:30 at the latest**; every minute later comes out of that slack, then out of Long Point. Cut order if the drive runs long: Canyon Rim, then the slack, then turn back early on Long Point."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -144,7 +144,7 @@ overnight:
 
 #### Highlights
 
-The two things that can't wait for tomorrow: the rim walk to Diamond Point before the overlook trails close, and the bridge head-on at sunset from Long Point, walked from the tent. **Cut with the lost day (2026-10-15):** Stone Cliff and its river trail, Nuttallburg and the Conveyor Trail, and Secret Sandwich Society. (was: "The coal ruins aren't lost: Kaymoor on Day 3 is the unrestored one anyway." Kaymoor was cut too, 2026-10-17, so this trip has no unrestored coal ruin left.) (was: Day 1 Stone Cliff + river trail; Day 2 Endless Wall at 8:05, Canyon Rim, Secret Sandwich Society, Nuttallburg, Long Point)
+The two things that can't wait for tomorrow: the rim walk to Diamond Point before the overlook trails close, and the bridge head-on at sunset from Long Point, walked from the tent. **Cut with the lost day (2026-10-15):** Stone Cliff and its river trail, Nuttallburg and the Conveyor Trail, and Secret Sandwich Society.
 
 #### Warnings
 
@@ -157,7 +157,7 @@ date: 2026-10-17
 tagline: 876 feet of bridge above you, one jumper every 30 seconds.
 type: the big one
 driving: ~40m plus two shuttles
-slack: "**~2h 35m at camp between the walk up and Long Point** (was: ~1h 30m before the chili cook-off opens at 3, then ~2h before dark; the cook-off was dropped 2026-10-16). The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
+slack: "**~2h 35m at camp between the walk up and Long Point**. The jump window starts ~30 min in progress when you arrive — that's the price of the later wake. **Bottom only, no deck** (chosen 2026-10-06): the Park & Ride shuttle to the bridge stops at 1:30 PM and Bridge Day ends at 3, so the old 2:30 shuttle to the deck never ran."
 overnight:
   name: Arrowhead Bike Farm
   place: Fayetteville, WV
@@ -172,11 +172,11 @@ overnight:
 - 6:45 → 7:45 (60m) · stop! · **No 5:45 alarm — chosen Sept 28.** This later start only works if the parking call (below) says the Fayette Station lot still has space around 8:00; if it fills at dawn, fall back to the old plan (wake 5:45, park 7:00). Then: wake, breakfast, day bag and **CASH**. Breakfast option: **Tudor's Biscuit World**, Oak Hill, ~15 min — a real WV institution, not a tourist stop.
 - 7:45 → 8:00 (15m) · drive! · → top of Fayette Station Rd, park. ⚠️ **CALL 800-927-0263 TO CONFIRM PARKING.** This is the one detail standing between the walk-to-the-bottom plan and improvising at 7 AM.
 - 8:00 → 9:30 (1h 30m) · hike · **Walk DOWN Fayette Station Road**, 4.5 mi. Full daylight by now (sunrise 7:35).
-- 9:30 → 11:00 (1h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** Plan on 1–2 hours and stay longer only if it's still fun (was: 2h 30m; changed 2026-10-07). 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
+- 9:30 → 11:00 (1h 30m) · view · ⭐ **WATCH FROM BELOW THE JUMP ZONE.** Plan on 1–2 hours and stay longer only if it's still fun. 876 ft of bridge above, chutes opening. 2025 figures: 315 jumpers from 35 states and 4 countries, 752 jumps plus 16 tandems — roughly one every 30 seconds.
 - 11:00 → 1:15 (2h 15m) · hike · **Walk back up** — 4.5 mi, ~800 ft, all of it.
 - 1:15 → 1:30 (15m) · drive · → downtown Fayetteville. · 📍 Fayette County Courthouse Fayetteville WV
-- 1:30 → 3:00 (1h 30m) · stop · Sit down. You just climbed 800 ft. Wander Fayetteville if your legs want to. (was: shuttle to the bridge deck 2:30–3:55, cut 2026-10-06 — the Park & Ride shuttle to the event ends at 1:30 PM and Bridge Day ends at 3:00 PM *(source: officialbridgeday.com/bridge-day-info, 2026-10-06)*)
-- 3:00 → 3:10 (10m) · drive · → Arrowhead. (was: chili cook-off 3:00 → 4:30, Fayette County Courthouse; dropped 2026-10-16, Colin: "I don't care honestly")
+- 1:30 → 3:00 (1h 30m) · stop · Sit down. You just climbed 800 ft. Wander Fayetteville if your legs want to.
+- 3:00 → 3:10 (10m) · drive · → Arrowhead.
 - 3:10 → 5:45 (2h 35m) · stop · Rest, eat, dry layers.
 - 5:45 → 6:30 (45m) · hike · **Walk to Long Point from the tent**, 1.6 mi each way, "one steep section just before you arrive at the point" *(source: nps.gov Long Point Trail, search snippet, 2026-10-17)*. Moved here from Day 1 on 2026-10-16. ⚠️ Whether the overlook trails are open after Bridge Day isn't recorded: if the trailhead is signed closed, don't go. · 📍 Long Point Trailhead Fayetteville WV
 - 6:30 → 7:05 (35m) · sunset · ⭐ **Long Point through sunset, 6:45.** Head-on bridge view. AccuWeather had 0% cloud at sunset (fetched 2026-10-17). Chosen over Beauty Mountain 2026-10-17 (`log.md`).
@@ -184,9 +184,9 @@ overnight:
 - 7:50 → 9:00 (1h 10m) · food · Dinner at **Arrowhead**. The kitchen is open *(confirmed: Colin, on site, 2026-10-17; its website still says "closed for the season")*. Tonight's closing time isn't recorded.
 
 **Meals**
-- B: bought — Tudor’s Biscuit World, Oak Hill, after the 6:45 wake (was: "6 AM", left over from the 5:45 alarm; fixed 2026-10-12)
+- B: bought — Tudor’s Biscuit World, Oak Hill, after the 6:45 wake
 - L: **O-L2** ⭐ pressed muffuletta — ciabatta, 60g Genoa salami, 40g capicola, 50g provolone, olive salad, oil. Built last night, pressed overnight. Plus roasted almonds, 2 bars, pretzels (~1,200 kcal across the day). **Everything in it is cured, aged or oil-packed** — ten hours unrefrigerated in a pack, and it is genuinely better squashed.
-- D: bought — Arrowhead kitchen after Long Point (was: chili cook-off, cash; dropped 2026-10-16)
+- D: bought — Arrowhead kitchen after Long Point
 
 #### Highlights
 
@@ -203,7 +203,7 @@ date: 2026-10-18
 tagline: A slow thaw, population 5, then a waterfall you walk behind.
 type: activity + transfer
 driving: ~5h 30m
-slack: "**Kaymoor cut (2026-10-17)**, traded for a slow start after the 29°F freeze; arrival at Davidson River stays ~3:45 (was: Kaymoor at 7:55, arrival ~3:50). Cut order if it runs long: Looking Glass Falls, then Thurmond (drive straight through). **Never the Starlink test.**"
+slack: "**Kaymoor cut (2026-10-17)**, traded for a slow start after the 29°F freeze; arrival at Davidson River stays ~3:45. Cut order if it runs long: Looking Glass Falls, then Thurmond (drive straight through). **Never the Starlink test.**"
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -247,7 +247,7 @@ date: 2026-10-19
 tagline: Grassy summits with no trees, four trailheads, one stretch of road.
 type: activity
 driving: ~1h 30m
-slack: "**~1h 30m at the lot mid-afternoon, then the Tennent loop** (changed 2026-10-19: Colin on Sam Knob at 1:00, an hour early, and not napping; was ~2h 20m of protected slack). Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early (was: ~1h 45m of slack, Devil's Courthouse optional in it). Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
+slack: "**~1h 30m at the lot mid-afternoon, then the Tennent loop** (changed 2026-10-19: Colin on Sam Knob at 1:00, an hour early, and not napping; was ~2h 20m of protected slack). Devil's Courthouse moved to 8:05 AM on 2026-10-19 (Colin up early), so it's no longer the first cut; the rest of the morning runs ~35 min early. Rebuilt Sept 28 around a sunset: five morning-to-afternoon hikes became three stops and one golden hour."
 overnight:
   name: Davidson River Campground
   place: Brevard, NC
@@ -259,7 +259,7 @@ overnight:
 ```
 
 **Schedule**
-- 6:55 → 7:20 (25m) · stop · Up early *(stated 2026-10-19: going to bed and waking earlier than expected)*. Quick breakfast at camp. (was: 7:30 → 9:00 slow morning)
+- 6:55 → 7:20 (25m) · stop · Up early *(stated 2026-10-19: going to bed and waking earlier than expected)*. Quick breakfast at camp.
 - 7:20 → 8:05 (45m) · drive · → **Devil's Courthouse**, BRP MP 422.4 (estimate: camp → MP 417 is 35m, plus ~5 Parkway miles). · 📍 Devil's Courthouse Blue Ridge Parkway
 - 8:05 → 8:45 (40m) · hike · ✅ **Devil's Courthouse**, 0.9 mi out-and-back / 278 ft, ~33 min *(AllTrails, 2026-10-19)*. Low morning light; valley fog below is possible after a clear night but not forecast. Near freezing at ~5,700 ft this early, so puffy, hat and gloves. *(added 2026-10-19)*
 - 8:45 → 9:00 (15m) · drive · → Looking Glass Rock Overlook, BRP MP 417 (the Skinny Dip Falls trailhead), back north. · 📍 Looking Glass Rock Overlook Blue Ridge Parkway
@@ -269,17 +269,17 @@ overnight:
 - 12:05 → 12:45 (40m) · food · Lunch at the lot: ramen bomb on the burner, jerky on the side.
 - 12:45 → 1:00 (15m) · drive · → Black Balsam trailhead, off BRP MP 420. You stay here until dark. · 📍 Black Balsam Knob Trailhead Canton NC
 - 1:00 → 1:45 (45m) · hike · ✅ **Sam Knob** (on the summit at 1:01, *stated 2026-10-19*; was 1:00 → 2:40) — AllTrails confirms 2.5 mi / 561 ft, 78 min. Same lot as Black Balsam.
-- 1:45 → 3:15 (1h 30m) · stop · Rest at the lot and eat a real snack. (was: 2:40 → 5:00 protected slack for a nap; Colin isn't napping, 2026-10-19)
+- 1:45 → 3:15 (1h 30m) · stop · Rest at the lot and eat a real snack.
 - 3:15 → 3:45 (30m) · food · Cook the trunk chili at the lot and pour it into the thermos, ~1h 45m earlier than before. Layers on: puffy, hat, gloves.
-- 3:45 → 6:15 (2h 30m) · hike · ✅ **Ivestor Gap → Tennent Mountain → Black Balsam loop**, 4.3 mi / 688 ft, Moderate, max 6,210 ft *(AllTrails, 2026-10-19)*. Starts at the end of FS 816. Ivestor Gap Trail out (the graded bed), Tennent (~6,040 ft), then the Art Loeb ridge south so **Black Balsam is the last summit**. ⚠️ The direction and the ending are recalled, not verified: load the AllTrails map offline before leaving the lot. AllTrails: "technical along some parts… rocky and steep". The day goes to ~12 mi, over the 10 mi soft ceiling. **If the legs are done at 3:15, do the short route instead** (1.4 mi RT / 357 ft). (was: 5:40 → 6:10, up Black Balsam by the short route; the Tennent ridge walk had been cut)
+- 3:45 → 6:15 (2h 30m) · hike · ✅ **Ivestor Gap → Tennent Mountain → Black Balsam loop**, 4.3 mi / 688 ft, Moderate, max 6,210 ft *(AllTrails, 2026-10-19)*. Starts at the end of FS 816. Ivestor Gap Trail out (the graded bed), Tennent (~6,040 ft), then the Art Loeb ridge south so **Black Balsam is the last summit**. ⚠️ The direction and the ending are recalled, not verified: load the AllTrails map offline before leaving the lot. AllTrails: "technical along some parts… rocky and steep". The day goes to ~12 mi, over the 10 mi soft ceiling. **If the legs are done at 3:15, do the short route instead** (1.4 mi RT / 357 ft).
 - 6:10 → 7:00 (50m) · sunset · ⭐ **SUNSET ON BLACK BALSAM, 6:52.** Open grassy bald, real 360°, no trees — the best golden-hour spot on the trip. Dinner from the thermos on the summit.
 - 7:00 → 7:25 (25m) · hike · Down by headlamp on the Art Loeb to FS 816. If that comes out on the road short of the lot, walk the gravel road back (unverified). Dark ~7:20.
 - 7:25 → 8:10 (45m) · drive! · → camp. Parkway and US 276 in the dark — slow for deer. Bed right after. · 📍 Davidson River Campground Pisgah Forest NC
 
 **Meals**
-- B: quick, at camp, for the early start (was: **loaded potato scramble**, slow, ~820 kcal; it keeps for another morning)
+- B: quick, at camp, for the early start
 - L: made at the Graveyard Fields lot — **ramen bomb + jerky** (~750 kcal)
-- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 3:15 (was 5:00) and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
+- D: thermos — **trunk chili + Fritos**, cooked at the Black Balsam lot at 3:15 and eaten on the summit at sunset (~920 kcal). The one thermos is free for it because lunch was cooked on the spot.
 
 #### Highlights
 
@@ -308,18 +308,18 @@ overnight:
 ```
 
 **Schedule**
-- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack a dry trail lunch. (was: thermos lunch; no thermos, *stated 2026-10-20*)
+- 7:30 → 9:00 (1h 30m) · stop · **Slow morning.** Hot breakfast at camp, pack a dry trail lunch.
 - 9:00 → 9:10 (10m) · drive · → Looking Glass Rock TH. · 📍 Looking Glass Rock Trailhead Pisgah Forest NC
 - 9:10 → 1:40 (4h 30m) · hike · **Looking Glass Rock**, 6.5 mi / ~1,700 ft. Switchbacks the whole way, bare granite slab at the top. The marquee Pisgah summit. ✅ AllTrails: 6.0 mi / 1,699 ft, ~3h 30m typical; the extra hour is lunch on the slab.
 - 1:40 → 2:00 (20m) · drive · → Brevard. · 📍 Brevard NC
 - 2:00 → 3:00 (60m) · shop! · **RESUPPLY.** ⚠️ Bracken Mountain Bakery is **closed Tuesdays** (Wed–Sat 7–4, brackenmountainbakery site), so it moves to Wednesday. Water, fuel, food for the Linville leg. **Buy block ice** and the sealed 12 oz kielbasa for Oct 24. Also: **Bracken Mountain Bakery** for trail food.
-- 2:40 → 6:45 · hike · **Pink Beds Loop**, 5.3 mi / 328 ft, ~1h 50m *(AllTrails)*, at an easy pace, then sit by a pond or the stream for golden hour (~5:30–6:15). *(chosen 2026-10-20; started 2:38)* Daniel Ridge dropped: FS 475 is signed closed except to local traffic *(seen by Colin, 2026-10-20)*. Fryingpan sunset skipped in favor of a quiet spot by the water. (was: hot shower and nothing else)
-- 6:30 → 7:30 (1h) · food · **Dinner at camp**, then shower. (was: The Falls Landing 5:00 → 6:30, trout; dropped 2026-10-20, Colin: "I'll make dinner at camp"). Sunset 6:51.
+- 2:40 → 6:45 · hike · **Pink Beds Loop**, 5.3 mi / 328 ft, ~1h 50m *(AllTrails)*, at an easy pace, then sit by a pond or the stream for golden hour (~5:30–6:15). *(chosen 2026-10-20; started 2:38)* Daniel Ridge dropped: FS 475 is signed closed except to local traffic *(seen by Colin, 2026-10-20)*. Fryingpan sunset skipped in favor of a quiet spot by the water.
+- 6:30 → 7:30 (1h) · food · **Dinner at camp**, then shower.. Sunset 6:51.
 
 **Meals**
 - B: made — **power oats** (~980 kcal)
-- L: packed dry — trail food (was: thermos couscous + black beans + chicken; no thermos, 2026-10-20)
-- D: made at camp — pick it at the resupply (was: The Falls Landing, mountain trout). **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
+- L: packed dry — trail food
+- D: made at camp — pick it at the resupply. **Resupply today: block ice, and the vacuum-packed kielbasa that becomes the last night — keep it sealed.** Wednesday's pierogi get bought tomorrow afternoon, not today.
 
 #### Highlights
 
@@ -378,7 +378,7 @@ noSignal: FS 210 / Linville Gorge — no cell service from the turn onto the for
 tagline: Wake at a site you paid for. Sleep somewhere you have no claim on.
 type: transfer + the risk day
 driving: ~4h 05m
-slack: "Falls first, both hikes, at FS 210 ~12:00 *(chosen 2026-10-21)*. A site-or-fallback decision by ~1:15. (was: ~1 hour, all before noon; drop Linville Falls if the site hunt takes two hours)"
+slack: "Falls first, both hikes, at FS 210 ~12:00 *(chosen 2026-10-21)*. A site-or-fallback decision by ~1:15."
 overnight:
   name: FS 210 roadside dispersed
   place: Linville Gorge, NC
@@ -392,13 +392,13 @@ overnight:
 **Schedule**
 - 5:45 → 6:30 (45m) · stop! · Break camp in the dark. **Checkout is noon; you leave at 6:30 anyway.** The night is paid for — leaving early costs nothing and the FS 210 sites go today.
 - 6:30 → 8:45 (2h 15m) · drive · → Linville Falls. Sunrise 7:40. · 📍 Linville Falls Visitor Center Linville Falls NC
-- 8:45 → 9:45 (60m) · hike · **Erwins View**, 1.8 mi / 255 ft, ~47 min *(AllTrails, 2026-10-21)*. Upper falls and the gorge. The Parkway spur road is open; the campground and picnic area are closed *(nps.gov road status, 2026-10-19, snippet)*. (was: optional, skip if behind)
+- 8:45 → 9:45 (60m) · hike · **Erwins View**, 1.8 mi / 255 ft, ~47 min *(AllTrails, 2026-10-21)*. Upper falls and the gorge. The Parkway spur road is open; the campground and picnic area are closed *(nps.gov road status, 2026-10-19, snippet)*.
 - 9:45 → 11:00 (1h 15m) · hike · **Plunge Basin**, 1.8 mi / 426 ft, ~57 min *(AllTrails, 2026-10-21)*: down to the base of the falls and the river. Sit a while. *(both falls hikes chosen 2026-10-21, Colin: "it should be fine if I get there past like 11, I bet campers from the previous night will still be leaving")*
 - 11:00 → 11:30 (30m) · drive! · → **Gingercake turnoff.** NC 181 south **3 miles** to the **SECOND** Gingercake intersection — the road loops and meets 181 twice. There are also an Old Gingercake Rd and a Gingercake Acres Rd nearby, which is why map search is unreliable here. · 📍 Gingercake Road Jonas Ridge NC
 - 11:30 → 12:00 (30m) · drive · **Left fork** at the small brown Table Rock sign, through Gingercake Acres. Pavement ends in ~1 mi and becomes **FS 210** — same road, two numbers. · 📍 Table Rock Picnic Area Linville Gorge NC
-- 12:00 → 1:15 (1h 15m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better. ⚠️ **Hard cutoff: no site by ~1:15, go straight down the fallback ladder while there's daylight.** Friday night is covered by the permit either way. (was: 10:45, before any falls hikes)
+- 12:00 → 1:15 (1h 15m) · camp! · ⭐ **CLAIM A SITE.** Parking areas run north→south: **Sitting Bear → Hawksbill → Spence Ridge.** Drive it once from the top and take the first open Hawksbill site rather than pushing south hoping for better. ⚠️ **Hard cutoff: no site by ~1:15, go straight down the fallback ladder while there's daylight.** Friday night is covered by the permit either way.
 - 1:15 → 1:45 (30m) · stop · Lunch, water sorted, camp secure.
-- 1:45 → 5:00 (3h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)* (was: Hawksbill recon at 1:15, then the Chimneys at sunset. The Chimneys moved to Day 8, because the Table Rock road is gated, `log.md` 2026-10-12)
+- 1:45 → 5:00 (3h 15m) · stop · **Free afternoon at camp.** You woke at 5:45 and raced for a site; this is the recovery. *(chosen 2026-10-12)*
 - 5:00 → 5:15 (15m) · drive · → Hawksbill lot — boulder-marked, on the left. · 📍 Hawksbill Mountain Trailhead Linville Gorge
 - 5:15 → 6:00 (45m) · hike · **Hawksbill up**, 1.2 mi / ~700 ft, summit 4,009 ft. **Starts 15 min earlier** *(confirmed: Colin, 2026-10-20; was 5:30)*: the sun probably drops behind the Black Mountains around 6:35–6:40, before the listed sunset (computed 2026-10-18; Mount Mitchell's position is recalled).
 - 6:00 → 7:05 (1h 5m) · sunset · ⭐ **Sunset on Hawksbill, 6:44.** Same summit as tomorrow's sunrise, light from the other side.
@@ -406,17 +406,17 @@ overnight:
 - 7:40 → 7:55 (15m) · drive! · → camp. **Dark on FS 210 — go slow.**
 
 **Meals**
-- B: dry, on the road; or cook power oats at Davidson River and eat them before 6:30 if there's time (was: thermos power oats eaten on the road; no thermos, *stated 2026-10-20*)
+- B: dry, on the road; or cook power oats at Davidson River and eat them before 6:30 if there's time
 - L: ⚠️ NO WATER, NO COOKING — **summer sausage and cheese board**: summer sausage, cheddar, tortillas, mustard, pretzels. Zero cookware while you race for a site (~1,100 kcal, estimate)
 - D: ⚠️ **NO WATER — couscous + black beans + chicken**, the absorb-the-water version: heat a **pull-tab can of black beans, undrained — the liquid counts toward your water** with taco seasoning, heat off, couscous in, lid on 5 min, chicken pouch, cheddar. Nothing to drain (~945 kcal)
 
 #### Highlights
 
-Peak color week in the corridor the whole trip was sequenced around. Hawksbill at sunset is reconnaissance for tomorrow's sunrise, walked down in the dark on purpose — that's the entire reason it's on the schedule twice. (was: daylight recon at 1:15 and the Chimneys at sunset; changed 2026-10-12)
+Peak color week in the corridor the whole trip was sequenced around. Hawksbill at sunset is reconnaissance for tomorrow's sunrise, walked down in the dark on purpose — that's the entire reason it's on the schedule twice.
 
 #### Warnings
 
-**The single point of failure of the trip.** First-come dispersed, on the Thursday of peak color week, no cell service, no reservation possible anywhere in the corridor. **Bail-outs, decided before turning onto the forest road:** Old NC 105 (Kistler Memorial Hwy) dispersed on the west rim — also first-come, road status unknown — or a motel in Newland, Linville Falls, or Morganton. (was: "Mortimer Campground (~10 mi)" — it's ~21 mi of washboard gravel away, corrected 2026-10-06) **Road:** FS 210 is maintained gravel — passenger cars do it routinely and a Prius has reportedly made it with care. The realistic failure mode is a cut sidewall, not getting stuck: spare, jack, tire plug kit. Roughness increases with distance; the first ~3 miles to Hawksbill are tamer than the last stretch to the picnic area at ~9.5 miles.
+**The single point of failure of the trip.** First-come dispersed, on the Thursday of peak color week, no cell service, no reservation possible anywhere in the corridor. **Bail-outs, decided before turning onto the forest road:** Old NC 105 (Kistler Memorial Hwy) dispersed on the west rim — also first-come, road status unknown — or a motel in Newland, Linville Falls, or Morganton. **Road:** FS 210 is maintained gravel — passenger cars do it routinely and a Prius has reportedly made it with care. The realistic failure mode is a cut sidewall, not getting stuck: spare, jack, tire plug kit. Roughness increases with distance; the first ~3 miles to Hawksbill are tamer than the last stretch to the picnic area at ~9.5 miles.
 
 ### Day 8 — 2026-10-23 · Hawksbill at Sunrise
 
@@ -426,26 +426,26 @@ noSignal: FS 210 / Linville Gorge — no cell service. All day.
 tagline: 4,009 feet, the river 2,000 below, peak color. It costs an alarm.
 type: the payoff
 driving: ~1h 25m
-slack: "~2 hours before dark, more if the out-and-back runs faster than budgeted. Day total ~8.4 mi (2.4 Hawksbill + 6.0 Table Rock Gap). (was: ~10 mi with the loop; changed 2026-10-12)"
+slack: "~2 hours before dark, more if the out-and-back runs faster than budgeted. Day total ~8.4 mi (2.4 Hawksbill + 6.0 Table Rock Gap)."
 overnight:
   name: FS 210 roadside dispersed
   place: Linville Gorge, NC
   kind: Dispersed — first-come
   cost: Free
   checkin: ❌ Second night on the same site
-  confirmation: "✅ Wilderness permit, recreation.gov **0953433517-1**: 1 person, entry Oct 23, exit Oct 24, $6 *(booked by Colin, 2026-10-21 10:00 AM)*. It allows camping inside the Wilderness tonight but reserves no site. FS 210 roadside needs no permit. (was: ❌ NONE)"
+  confirmation: "✅ Wilderness permit, recreation.gov **0953433517-1**: 1 person, entry Oct 23, exit Oct 24, $6 *(booked by Colin, 2026-10-21 10:00 AM)*. It allows camping inside the Wilderness tonight but reserves no site. FS 210 roadside needs no permit."
   notes: No water on site.
 ```
 
 **Schedule**
-- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, headlamp. Mid-30s at 3,800 ft. (was: thermos too; no thermos, 2026-10-20)
+- 5:45 → 6:15 (30m) · stop · Wake. Layers, gloves, headlamp. Mid-30s at 3,800 ft.
 - 6:15 → 6:30 (15m) · drive · Camp → Hawksbill lot, in the dark.
 - 6:30 → 7:15 (45m) · hike · Climb in the dark, 1.2 mi / ~700 ft. You walked this yesterday — that's why.
-- 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **~7:36**, first light **~7:15** (computed 2026-10-22 with the Trees astro library at an approximate summit position and 4,009 ft; the low horizon to the east makes the elevation correction count). Be on top by 7:15. (was: 7:41, which left out the elevation; before that the plan had 7:38.) **After the sun is up, turn around:** first light hits the far wall, and on a clear, calm, cold night there's a chance of fog in the gorge (inference, not a forecast). **The best photograph available on the entire trip, and it costs an alarm.**
+- 7:15 → 8:30 (1h 15m) · sunrise · ⭐ **SUMMIT. 4,009 ft, the Linville River 2,000 ft below, peak color week.** Sunrise **~7:36**, first light **~7:15** (computed 2026-10-22 with the Trees astro library at an approximate summit position and 4,009 ft; the low horizon to the east makes the elevation correction count). Be on top by 7:15. **After the sun is up, turn around:** first light hits the far wall, and on a clear, calm, cold night there's a chance of fog in the gorge (inference, not a forecast). **The best photograph available on the entire trip, and it costs an alarm.**
 - 8:30 → 9:05 (35m) · hike · Descend.
 - 9:05 → 9:50 (45m) · stop · Real breakfast at camp. ⚠️ **No water on site — low-cleanup only.**
 - 9:50 → 10:25 (35m) · drive! · → **Spence Ridge lot** on FS 210, for the Table Rock Gap trail. ⚠️ **Not yet confirmed that this lot is below the gate** on the Table Rock road (ask Grandfather RD). If it isn't, park at the gate and take the release valve below. · 📍 Spence Ridge Trailhead Linville Gorge
-- 10:25 → 3:55 (5h 30m) · hike! · ⭐ **Table Rock + the Chimneys from Table Rock Gap**, ✅ 6.0 mi out-and-back / 1,496 ft, Hard, top at Table Rock *(AllTrails, 2026-10-12)*. Rocky and rooty, steep both ways. AllTrails gives no time; the 5h 30m is the old loop's budget, kept as margin. *(chosen 2026-10-12)* (was: **Table Rock Loop**, 7.5 mi via Little Table Rock → Spence Ridge → Table Rock Gap. Dropped: Little Table Rock is blown down and listed closed, and the picnic-area road is gated, `log.md` 2026-10-12)
+- 10:25 → 3:55 (5h 30m) · hike! · ⭐ **Table Rock + the Chimneys from Table Rock Gap**, ✅ 6.0 mi out-and-back / 1,496 ft, Hard, top at Table Rock *(AllTrails, 2026-10-12)*. Rocky and rooty, steep both ways. AllTrails gives no time; the 5h 30m is the old loop's budget, kept as margin. *(chosen 2026-10-12)*
 - 3:55 → 4:30 (35m) · drive · → camp. Sunset 6:43.
 
 **Meals**
@@ -459,7 +459,7 @@ This is the day the whole trip was sequenced to reach. Hawksbill at sunrise duri
 
 #### Warnings
 
-**Release valve:** park at the Table Rock road gate, walk ~1.2–1.4 mi of steep pavement to the picnic area, then Table Rock summit and the Chimneys (~4–5 mi total). Use it if the Spence Ridge lot turns out to be above the gate, or if the sunrise cost too much. (was: "from the picnic area, ~2.4 mi"; the road is gated, 2026-10-12)
+**Release valve:** park at the Table Rock road gate, walk ~1.2–1.4 mi of steep pavement to the picnic area, then Table Rock summit and the Chimneys (~4–5 mi total). Use it if the Spence Ridge lot turns out to be above the gate, or if the sunrise cost too much.
 
 ### Day 9 — 2026-10-24 · Mount Rogers and Fatman's Squeeze
 
@@ -488,7 +488,7 @@ overnight:
 - 4:35 → 5:45 (1h 10m) · stop · Snack and rest around Massie Gap.
 - 5:45 → 6:45 (1h) · sunset · ⭐ **Golden hour on the Grayson balds** around Massie Gap: open grass and ponies. Computed sunset **6:43**, dark **7:04** (Massie Gap's verified coordinate, 2026-10-22). Mount Rogers and Whitetop lie to the west, so the sun probably drops behind them ~10 min early (estimate). *(chosen 2026-10-22: sunset on the balds rather than a valley camp that's in shade by ~6:00)*
 - 6:45 → 7:15 (30m) · drive! · In the dark: → **Hurricane Campground.** ⚠️ **Follow these directions, not GPS** — both the Forest Service and Recreation.gov say so in bold. From I-81, **Marion exit 45** → **VA-16 South** → 15 miles → **SR 650** (5 mi south of Sugar Grove) → right → 2 miles to the paved entrance road. One camper let GPS route them onto 650 from the northwest and got four miles of gravel. · 📍 Hurricane Campground Mount Rogers National Recreation Area
-- 7:15 → 8:15 (1h) · stop · Check in (**gate open 7 AM–10 PM**), set up by headlamp, **hot shower.** $20. (was: 5:05 → 6:15, check-in before sunset)
+- 7:15 → 8:15 (1h) · stop · Check in (**gate open 7 AM–10 PM**), set up by headlamp, **hot shower.** $20.
 - 8:15 → (—) · food · Cook. Last night. Damascus is ~35 min if you want a town; the leg is otherwise thin for food.
 
 **Meals**
@@ -576,7 +576,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 | Skinny Dip Falls | 4 | ~1.0 mi (est) | — | Easy | 60m | Second cut if the day slips. |
 | ✅ Looking Glass Rock | 5 | 6.5 mi (plan) · AllTrails 6.0 mi | ~1,700 ft · AllTrails 1,699 ft | Moderate | 4h 30m budgeted · AllTrails ~3h 30m | ✅ Best-corroborated hike on the trip. The budget has real margin. |
 | Daniel Ridge Loop + Falls | 5 | ~4.0 mi (est) | — | Easy–moderate | 2h 15m | Turn LEFT at the Looking Glass junction. |
-| Hawksbill (sunset recon) | 7 | 2.4 mi | ~700 ft | Moderate | 2h 25m with sunset | Verified in source. Trail on the RIGHT side of the road; at the summit split GO RIGHT. Down in the dark on purpose (was: daylight recon at 1:15; changed 2026-10-12). |
+| Hawksbill (sunset recon) | 7 | 2.4 mi | ~700 ft | Moderate | 2h 25m with sunset | Verified in source. Trail on the RIGHT side of the road; at the summit split GO RIGHT. Down in the dark on purpose. |
 | ~~The Chimneys~~ | ~~7~~ → in Day 8 | ~2.0 mi (est) · AllTrails 1.8 mi via MST | AllTrails 308 ft | Easy–moderate | 2h 30m | Moved into the Day 8 Table Rock Gap route (2026-10-12). Was: sunset from the rim towers. ⚠️ Plus ~1.2–1.4 mi each way of gated paved road (AllTrails reviews, 2026). |
 | ⭐ Hawksbill at sunrise | 8 | 2.4 mi | ~700 ft | Moderate, in the dark | 2h 45m | Same lot, same trail, hiked yesterday on purpose. |
 | ~~Table Rock Loop~~ | dropped | 7.5 mi | ~2,100 ft | Rugged | 5h 30m | ⚠️ Spence Ridge river bridge washed out — confirm routing, (828) 652-2144. ⚠️ Little Table Rock Trail blown down / listed closed, and the picnic-area road is gated (AllTrails, 2025–26). Dropped 2026-10-12. |
@@ -598,7 +598,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 ## Provisions
 
-**Rebuilt Sept 28 around staples**, after Kentucky showed the recipe timeline doesn't survive the trip: the planned meals collapsed into oatmeal, mac, Brami and couscous. Everything below is one pot and eyeball-the-water, from the staples menu in the new planner (`kitchen/staples.md`), plus restaurants where they earn it and **one real cook: pierogi + kielbasa on Oct 21**. kcal figures are estimates. No coffee, no alcohol, no raw fruit (still an open allergy question). *Dried and cooked fruit were cleared on 2026-10-04 (`me/food.md`), so the crate's apricots and mango can come along. (was: "no raw or dried fruit")*
+**Rebuilt Sept 28 around staples**, after Kentucky showed the recipe timeline doesn't survive the trip: the planned meals collapsed into oatmeal, mac, Brami and couscous. Everything below is one pot and eyeball-the-water, from the staples menu in the new planner (`kitchen/staples.md`), plus restaurants where they earn it and **one real cook: pierogi + kielbasa on Oct 21**. kcal figures are estimates. No coffee, no alcohol, no raw fruit (still an open allergy question). *Dried and cooked fruit were cleared on 2026-10-04 (`me/food.md`), so the crate's apricots and mango can come along. *
 
 ### Cooler
 
@@ -634,7 +634,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 - Couscous ×2 (Oct 20 thermos lunch, Oct 22 dinner)
 - Hot chocolate ×3 (Oct 24, plus spares)
 
-### Stop 2 — Meijer, Oct 15 evening, into the cooler (was: morning of Oct 15)
+### Stop 2 — Meijer, Oct 15 evening, into the cooler
 
 *Checkout to cooler to trunk. No freezer-meal cooking run any more — the old early-October Meijer stop is gone with the frozen-flat meals.*
 
@@ -656,7 +656,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - 3 fuel canisters. Eleven days, and cold air drops canister output.
 - Long-handled spoon — the oats bag and the no-water dinners are eaten from deep containers
-- ~~Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats~~ not used from Oct 20 (Colin, 2026-10-20) (was: "Oct 19 tortellini", fixed 2026-10-12)
+- ~~Wide-mouth thermos — Oct 19 trunk chili, Oct 20 couscous, Oct 22 oats~~ not used from Oct 20 (Colin, 2026-10-20)
 - 2L pot with lid (the lid drains, steams and holds heat) · insulated mug (gravy) · spork
 - Folding knife · collapsible wash basin · sponge · biodegradable soap · 2 bandanas
 - Linville water carry: ~12 L / 3.2 gallons for 2.5 days. Absorb-the-water meals mean none of it gets drained away.
@@ -681,7 +681,7 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 ### Bridge Day
 
 - [ ] CASH — chili cook-off is cash; the shuttle (fallback only) is $5 cash *(officialbridgeday.com FAQ, 2026-10-06; was: "$3")*
-- [ ] Bag: a normal day pack is fine for the gorge-floor plan. **Only if the fallback puts you on the bridge:** no backpacks or camera bags, clear bag or fanny pack only (was: "Day bag only")
+- [ ] Bag: a normal day pack is fine for the gorge-floor plan. **Only if the fallback puts you on the bridge:** no backpacks or camera bags, clear bag or fanny pack only
 - [ ] Layers for 9 miles with 800 ft of climb on the return
 
 ### The lecture kit
@@ -702,14 +702,14 @@ Eleven of eighteen stats in the source file were unverified estimates. AllTrails
 
 - [x] ~~Oct 15 dinner — Stove Top + chicken + gravy at the primitive site~~ No Oct 15 night any more (2026-10-15). The Stove Top box stays in the crate as a spare no-water dinner.
 - [ ] Price and phone-check ONE motel in Newland / Linville Falls / Morganton before leaving Ohio — the Linville bail-out is first-come too
-- [ ] Call 800-927-0263 — Fayette Station Road parking on Bridge Day. Nice-to-have: the shuttle is an acceptable fallback (was: ⚠️ blocking; fixed 2026-10-12)
+- [ ] Call 800-927-0263 — Fayette Station Road parking on Bridge Day. Nice-to-have: the shuttle is an acceptable fallback
 - [ ] Sign the Arrowhead waiver before arrival — every camper needs one
 - [ ] Pre-mix at home to match the menu: oats ×4 (the Oct 23 one double-bagged as the power-oats bag), couscous ×2, hot chocolate ×3. No rice
 - [ ] Buy block ice twice: Fayetteville Oct 16, Brevard Oct 20
 - [ ] Fill three 1-gallon water jugs in Brevard before leaving for Linville — ~12 L total carry
 - [ ] Buy pull-tab cans only — a forgotten can opener at Linville means no dinner
 - [ ] Call Grandfather Ranger District (828) 652-2144 — FS 210 site availability, the 200-ft camping Forest Order, and Table Rock loop routing given the washed-out Spence Ridge bridge
-- [ ] Ask at Canyon Rim (Day 1, 12:05) or call (304) 574-2115: whether Fayette Station Rd and the Fayetteville Trail are open to walkers on Bridge Day after the August floods (was: plus Stone Cliff status; dropped 2026-10-15)
+- [ ] Ask at Canyon Rim (Day 1, 12:05) or call (304) 574-2115: whether Fayette Station Rd and the Fayetteville Trail are open to walkers on Bridge Day after the August floods
 - [x] ~~Ask about Keeneys Creek Road for 5.9 in clearance~~ Nuttallburg cut 2026-10-15, so the road doesn't matter
 - [x] ✅ Arrowhead ref ROTXCV — confirmed Oct 16–18, 2 nights, on the booking site
 - [x] ✅ Davidson River Oct 18–21 — recreation.gov 0864063574-1, 4 nights, campground open (phone-confirmed)
@@ -744,18 +744,18 @@ Sources: [NPS New River Gorge campgrounds](https://www.nps.gov/neri/planyourvisi
 
 ### Fayette Station Road parking on Bridge Day.
 
-**Blocks:** Nothing on its own; nice-to-have *(stated 2026-09-29: "I'll take the shuttle if I can't find parking, no big deal")*. (was: "Blocks Day 2, the whole day"; fixed 2026-10-12)
+**Blocks:** Nothing on its own; nice-to-have *(stated 2026-09-29: "I'll take the shuttle if I can't find parking, no big deal")*.
 **Order of preference** *(stated 2026-09-29, `log.md`)*: walk from Arrowhead via the Fayetteville Trail (~4 mi each way, ~1,300 ft back up; only if the park says trails are open) → park at the top and walk down (Chamber, 800-927-0263, for where) → the shuttle to the **deck** (Fayetteville HS at 7:45, shuttle at 8:30). The shuttle fallback is a morning plan. The question that does matter is whether Fayette Station Rd is open to walkers after the August floods: ask Canyon Rim, (304) 574-2115. Whether the park trails are closed and patrolled is **unverified**.
 
 ### The two Linville nights have no fallback written down.
 
 **Blocks:** Days 7–8
-Bail-outs: Old NC 105 dispersed, or a motel in Newland, Linville Falls or Morganton (was: "Mortimer" — too far; see above). None has been called, priced, or checked for October availability. "Decided in advance" means a phone number and a rough price, not a list of towns. This is the difference between a plan and a hope.
+Bail-outs: Old NC 105 dispersed, or a motel in Newland, Linville Falls or Morganton. None has been called, priced, or checked for October availability. "Decided in advance" means a phone number and a rough price, not a list of towns. This is the difference between a plan and a hope.
 
 ### Keeneys Creek Road for 5.9 inches of clearance.
 
 **Blocks:** Nothing. ✅ Nuttallburg was cut 2026-10-15 with the lost day. Kept as the record.
-Some sources recommend high clearance. Kaymoor is already on Day 3, so the fallback is simply to skip Nuttallburg. **Keeneys Creek Road to Nuttallburg reopened after the August floods** *(source: wvnstv.com, 2026-09-03, citing the park's Facebook; read 2026-10-06)* (was: "reported washed out"). Still open: clearance for 5.9 in, and an undated park closure of the Keeneys Creek *Rail Trail* above the Conveyor Trail junction *(nps.gov, search snippet)* — read literally that's not the headhouse climb, but confirm. Canyon Rim, (304) 574-2115.
+Some sources recommend high clearance. Kaymoor is already on Day 3, so the fallback is simply to skip Nuttallburg. **Keeneys Creek Road to Nuttallburg reopened after the August floods** *(source: wvnstv.com, 2026-09-03, citing the park's Facebook; read 2026-10-06)*. Still open: clearance for 5.9 in, and an undated park closure of the Keeneys Creek *Rail Trail* above the Conveyor Trail junction *(nps.gov, search snippet)* — read literally that's not the headhouse climb, but confirm. Canyon Rim, (304) 574-2115.
 
 ### Table Rock: where the gate is, and the Spence Ridge bridge.
 
@@ -784,13 +784,13 @@ Three Google Maps regions: **Fayetteville–Oak Hill–Beckley**, **Brevard–As
 
 **Decided 2026-10-06: no reservation, race for FS 210.** *(Colin: "I'm down for the race, no reservation")* The research below stays so the options aren't re-researched.
 
-You asked whether there is a reservable campground worth taking instead of racing for FS 210. *(was: "There isn't." — wrong; corrected 2026-10-06.)*
+You asked whether there is a reservable campground worth taking instead of racing for FS 210.
 
 There are **no designated campsites inside Linville Gorge Wilderness at all** — the permit system counts people per night, it does not reserve a site. And permits are **not required** for day use or for roadside camping on FS 210. ✅ **No permit for camping on Table Rock either**, any night: "Permits are not required for day use, roadside camping, or camping on Table Rock" *(source: recreation.gov permit page, pasted by Colin 2026-10-06; settles the AllTrails snippet that said otherwise)*. Permits cover Fri and Sat nights inside the Wilderness only (e.g. Hawksbill, Shortoff); stay limit 2 nights. **A Fri Oct 23 wilderness permit is the backstop** (Reservations & checks). The dispersed sites along FS 210 near the Hawksbill trailhead and Spence Ridge parking are first-come.
 
 **What is reservable nearby (researched 2026-10-06):**
 - ⭐ **Linville Falls Campground (private)**, 717 Gurney Franklin Rd, **828-765-2681**. Primitive tent area, bathhouse with showers, hot-water dish sink, free Starlink Wi-Fi. One-night deposit; **$25 cancellation fee, full refund only with 7+ days notice — i.e. cancel by Oct 15**, before you'd know whether FS 210 has room *(source: linvillefalls.com/policies, read 2026-10-06)*. Tent price and Oct 22–23 availability: **TBD, call**. Drive to the Hawksbill lot: ~30–40 min, an estimate from the plan's own leg times, not measured. **The only reservable option close enough to keep the 7:41 sunrise.**
-- **Mortimer Campground** is *not* a close bail-out. 📋 recreation.gov says all 17 sites are reservable ≥3 days ahead *(search snippet, 2026-10-06)*, but it's ~21 mi from the gorge on washboard gravel at 1,400 ft in Wilson Creek *(outdoorithm.com, 2026-10-06)*. A sunrise from there is a ~4:45 alarm. (was: "~10 mi" and "not on recreation.gov")
+- **Mortimer Campground** is *not* a close bail-out. 📋 recreation.gov says all 17 sites are reservable ≥3 days ahead *(search snippet, 2026-10-06)*, but it's ~21 mi from the gorge on washboard gravel at 1,400 ft in Wilson Creek *(outdoorithm.com, 2026-10-06)*. A sunrise from there is a ~4:45 alarm.
 - **Lake James State Park** walk-in sites are reservable (NC Parks keeps $15 + $3/night on cancellation; *ncparks.gov, search snippet*), but it's ~1,200 ft south of Morganton; drive to Hawksbill not measured, likely 1h+. Out for the same reason.
 
 **So it's a choice between two plan A's, not insurance.** Booking the private site removes the race, the 5:45 Oct 22 alarm, the 12 L water haul and two no-shower nights, at the cost of ~2 nights' fees and a ~30-min drive in the dark before the sunrise. Keeping FS 210 keeps the trailhead camp and the free price. **FS 210 chosen.**
@@ -813,7 +813,7 @@ You wake at a site you paid for and go to sleep somewhere you have no claim on. 
 
 ### Why Hawksbill is on the schedule twice
 
-Thursday's sunset Hawksbill hike is reconnaissance (was: an afternoon daylight hike; changed 2026-10-12). You climb it in the last light and come down by headlamp, so that Friday at 6:30 AM you already know the boulder-marked lot, the trail starting on the right side of the road, and the summit split where most people go left and the views are right. The payoff is a 4,009 ft summit at sunrise with the Linville River 2,000 ft below during peak color week — the best photograph available on the entire trip, and it costs an alarm and one repeated hike.
+Thursday's sunset Hawksbill hike is reconnaissance. You climb it in the last light and come down by headlamp, so that Friday at 6:30 AM you already know the boulder-marked lot, the trail starting on the right side of the road, and the summit split where most people go left and the views are right. The payoff is a 4,009 ft summit at sunrise with the Linville River 2,000 ft below during peak color week — the best photograph available on the entire trip, and it costs an alarm and one repeated hike.
 
 ### The lecture is confirmed on both trips
 
@@ -825,7 +825,7 @@ Davidson River is forested and Starlink needs sky view. Test it Sunday Oct 18 on
 
 ### Sun times were optimistic in one direction
 
-Every sunrise and sunset in the source file ran roughly 3–4 minutes in the direction of more daylight than exists. Recomputed values are used throughout. Individually that's noise. It matters twice: Day 1 (was Day 1 until 2026-10-07), where you finish a 1.6-mile walk back from Long Point after full dark and the source already flagged it; and Day 8, where sunrise on Hawksbill is 7:41 rather than 7:38, meaning three more minutes standing on an exposed 4,009 ft summit in the mid-30s before the light arrives. Bring the layers you'd bring anyway, and don't trust a clock you didn't derive.
+Every sunrise and sunset in the source file ran roughly 3–4 minutes in the direction of more daylight than exists. Recomputed values are used throughout. Individually that's noise. It matters twice: Day 1, where you finish a 1.6-mile walk back from Long Point after full dark and the source already flagged it; and Day 8, where sunrise on Hawksbill is 7:41 rather than 7:38, meaning three more minutes standing on an exposed 4,009 ft summit in the mid-30s before the light arrives. Bring the layers you'd bring anyway, and don't trust a clock you didn't derive.
 
 ### Fayetteville eats five restaurant slots in three days
 

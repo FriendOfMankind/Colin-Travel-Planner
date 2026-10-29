@@ -32,7 +32,7 @@ This is the part a human misses. Check each of these and report only the mismatc
 - Each open question: is it already answered somewhere else (hike table, a Day, the log)? If so, it's **stale**, not open.
 - The Packing and Provisions lists vs the actual meal lines (`- B:` / `- L:` / `- D:`): anything bought or pre-mixed that no meal uses, or any meal whose ingredient isn't on a list.
 - Every item in the plan vs `me/gear.md` state: the plan assumes an item that gear marks `need`/`unknown`.
-- Anything that has a `(was: …)`, a strikethrough or a "decided" entry in the log but still reads the old way in `trip.md`.
+- Anything with a "decided" or "changed" entry in the log, or a strikethrough, that still reads the old way in `trip.md`.
 
 Cite both locations for every mismatch (`trip.md` § Packing vs `me/gear.md` · Cooler). **Don't pick a winner.** Name both sides.
 
