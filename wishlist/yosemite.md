@@ -32,7 +32,7 @@ source: research 2026-10-29 (Colin asked for a deep May–June plan). coords are
 
 ## Next
 
-Nothing needs doing yet. When a year is picked, first decide **where to sleep**, because that sets everything else: Valley campsite, Camp 4, or dispersed outside the park. Then add Yosemite's campground rule to `me/booking.md` so `tools/now.mjs` computes the dates.
+**Decided: sleep in a Valley campground, booked ahead** *(stated 2026-10-29)*. Valley sites open five months ahead on the 15th at 7 am PT and sell out within minutes, so when a year is picked, add Yosemite's campground rule to `me/booking.md` so `tools/now.mjs` computes the date and sets the alarm. The Valley limit is 7 nights between May 1 and Sep 15, which covers the Valley part of this plan. Nights 1–2 (Hwy 120 side) and the east-side nights still need a place.
 
 ## Draft plan (outline, late May to early June, 9 days)
 
@@ -62,7 +62,7 @@ An outline, not a schedule: no times, and drives are estimates unless sourced. O
 
 **⚠️ Warnings: things that can hurt you or kill the day**
 - **Wapama Falls footbridges.** At peak flow, the westernmost bridge can go underwater. Hikers were swept off and killed in 2011 (two) and 2017 (one) *(📋 NPS parkplanning project page)*. A rerouted bridge was proposed; whether it's built isn't known. If water is over the bridge, turn around.
-- **Bears vs. the trunk.** Federal law: by day, food stays hidden in a locked car with windows shut. At night it goes in a locker *(📋 Yosemite Guide 2026)*. Bears break into cars. Your "camp lives in the trunk" setup is exactly what this rule targets, so every in-park campsite night means unloading the food into the locker. Dispersed sites have no lockers. The Forest Service food rule there wasn't found. Ask, or rent a canister (Yosemite Basecamp in Groveland rents "bear-aware" gear, 📋).
+- **Bears vs. the trunk.** Federal law: by day, food stays hidden in a locked car with windows shut. At night it goes in a locker *(📋 Yosemite Guide 2026)*. Bears break into cars. Your "camp lives in the trunk" setup is exactly what this rule targets, so every in-park campsite night means unloading the food into the locker. Dispersed sites have no lockers. The Forest Service food rule there wasn't found. Ask, or rent a canister (Yosemite Basecamp in Groveland rents "bear-aware" gear, 📋). Colin: "I'm good with bears, I'll keep stuff in my car" *(stated 2026-10-29)*. That works **by day** only. Overnight in Yosemite, the law requires the campsite's food locker (every Valley site has one, 📋 recreation.gov North Pines page), and a car is the one place it isn't allowed.
 - **Swiftwater.** Spring rivers and creeks are the park's real killer (NPS runs swiftwater rescue videos for Mirror Lake's rock-hops, 📋). Stay out of the Merced at peak.
 
 **Hidden corners worth knowing**
@@ -73,9 +73,9 @@ An outline, not a schedule: no times, and drives are estimates unless sourced. O
 - **Peregrine falcons:** climbing routes close March 1 to July 15 to protect them *(📋 nps.gov conditions)*. It's a birding target on El Cap and the Valley walls.
 
 **Open questions (multiple choice when the time comes)**
-- Slow mornings vs. the Valley: parking "can completely fill by late morning on weekends" *(📋 Yosemite Guide 2026)*. Do Valley days get an early alarm, or does a Valley campsite (no parking needed) make slow mornings work?
+- ~~Slow mornings vs. the Valley~~ **Settled by the Valley campsite** *(2026-10-29)*: you wake up already parked, so it's bike, shuttle and walk, with no late-morning parking hunt.
 - Half Dome: permits come from a March 1–31 preseason lottery, and the cables go up the Friday before Memorial Day *(📋 recreation.gov / nps.gov)*. It's ~14–16 mi, well over your ceiling. In or out?
-- Sleep in the Valley (book five months out) or outside the park (free, a ~1 h drive in each way, no lockers)?
+- ~~Where to sleep~~ **Valley campground, booked ahead** *(stated 2026-10-29)*.
 
 ## Research tree
 
