@@ -61,6 +61,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 ### 2026-10-10 · The showdown: Oregon's route, fact-checked and judged
 - Three builder agents drafted routes blind, a fact-checker audited every claim, and a judge scored them: **oregon 40, tahoe 39, idaho 38** (out of 50). "I'd book Oregon, but only just, and only if someone owns the South Sister permit release." The Idaho and Tahoe routes are in their own files. Every price is a 2025–26 figure.
 #### Route: Waterfalls to Volcanoes: The Oregon Send (oregon, score 40/50)
+- ⚠️ **The Aug 8–16 dates below are the original draft dates.** The trip's dates win: the Oregon week is Aug 1–10, 2027, inside `trips/northern-rockies-2027/trip.md` *(2026-10-29)*.
 - Sun Aug 8 – Mon Aug 16 2027, 8 nights: Hood River 3 (Aug 8-10), Bend 3 (Aug 11-13), Belknap Hot Springs, McKenzie Bridge 2 (Aug 14-15). 7-night version: drop the second Belknap night and fly out Sun Aug 15. You keep the…
 - Bases: Hood River, OR ×3, Bend, OR ×3, Belknap Hot Springs Resort, McKenzie Bridge, OR ×2
 - Fact-check: 29 verified, 7 plausible but unverified, 3 outdated, 0 false, 1 unsupported; all fixed or downgraded in the final

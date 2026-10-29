@@ -1193,6 +1193,7 @@ items:
     state: OR
     why: A cliff-ledge trail above the creek, then a path behind a waterfall. Reopened in 2021 after the 2017 fire (was “closed since the 2017 fire; check”)
     status: want
+    trip: northern-rockies-2027
     source: oregonhikers.org forum (search snippet, 2026-10-06); oregonhikers.org field guide (snippet, 2026-10-10); daydream 2026-10-06
     added: 2026-10-06
 
@@ -1203,6 +1204,7 @@ items:
     state: OR
     why: The river disappears into lava and resurfaces as a blue pool
     status: want
+    trip: northern-rockies-2027
     source: fs.usda.gov McKenzie River Trail 3507 (search snippet, 2026-10-06)
     added: 2026-10-06
 
@@ -1282,9 +1284,8 @@ items:
     where: Theodore Roosevelt National Park, North Dakota
     state: ND
     months: [7]
-    why: Backcountry open to cross-country travel; badlands wandering on the drive home
+    why: Backcountry open to cross-country travel; badlands wandering. Cut from the 2027 Glacier trip with Theodore Roosevelt when it turned west to Oregon *(2026-10-15; was trip northern-rockies-2027, unlinked 2026-10-29)*
     status: want
-    trip: northern-rockies-2027
     source: nps.gov/thro horseback-riding page (search snippet, 2026-10-06)
     added: 2026-10-06
 

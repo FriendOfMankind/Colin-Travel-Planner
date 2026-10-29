@@ -132,53 +132,97 @@ groups:
         icon: 🦬
         days: "10"
         wpNote: Pull-outs only. 25 yd from bison, 100 yd from bears and wolves.
+  - group: Yellowstone interior
+    places:
+      - name: Artist Point
+        note: Day 10. South Rim view of the Lower Falls.
+        maps: Artist Point Yellowstone
+        verified: false
+        lat: null
+        lng: null
+      - name: Brink of the Lower Falls Trail
+        note: Day 10. North Rim, 0.8 mi.
+        maps: Brink of the Lower Falls Trail Yellowstone
+        verified: false
+        lat: null
+        lng: null
+      - name: Old Faithful
+        note: Day 11. Upper Geyser Basin boardwalks.
+        maps: Old Faithful Geyser
+        verified: false
+        lat: null
+        lng: null
+      - name: Fairy Falls Trailhead (Grand Prismatic overlook)
+        note: Day 11. 1.6 mi to the overlook.
+        maps: Fairy Falls Trailhead Yellowstone
+        verified: false
+        lat: null
+        lng: null
+      - name: Madison Campground
+        note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Needs a coordinate (mapbench) before its sun times can be computed.
+        maps: Madison Campground Yellowstone
+        verified: false
+        lat: null
+        lng: null
   - group: Glacier
     places:
+      - name: The Loop Trailhead
+        note: Day 17. End of the one-way Highline; 2026 shuttle stop.
+        maps: The Loop Trailhead Glacier National Park
+        verified: false
+        lat: null
+        lng: null
+      - name: Granite Park Chalet
+        note: Day 17. Water and snacks for sale.
+        maps: Granite Park Chalet
+        verified: false
+        lat: null
+        lng: null
       - name: Many Glacier Campground
-        note: 🚨 Nights 11–14. Book mid-January 2027.
+        note: 🚨 Nights 12–15. Book mid-January 2027.
         maps: Many Glacier Campground Glacier National Park
         verified: true
         lat: 48.796608
         lng: -113.677575
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 11–14
+        days: 12–15
         wpNote: Book mid-January 2027. No walk-up fallback in July.
       - name: Apgar Campground
-        note: 🚨 Nights 15–17. Same January booking. First shower in 15 days.
+        note: 🚨 Nights 16–18. Same January booking. First shower in 16 days.
         maps: Apgar Campground Glacier National Park
         verified: true
         lat: 48.525647
         lng: -113.981772
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 15–17
-        wpNote: Glacier west side. First shower in fifteen days.
+        days: 16–18
+        wpNote: Glacier west side. First shower in sixteen days.
       - name: Great Falls, MT
-        note: Day 11. Final resupply and the one realistic laundry stop.
+        note: Day 12. Final resupply and the one realistic laundry stop.
         maps: Great Falls Montana
         verified: false
         lat: null
         lng: null
       - name: Iceberg Lake Trailhead
-        note: Day 13. Lot fills by 7 AM. Bear corridor.
+        note: Day 14. Lot fills by 7 AM. Bear corridor.
         maps: Iceberg Lake Trailhead Many Glacier
         verified: true
         lat: 48.799409
         lng: -113.677568
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🧊
-        days: "13"
+        days: "14"
         wpNote: Bear corridor. Lot fills by 7 AM.
       - name: Grinnell Glacier Trailhead
-        note: Day 14. Snowfields into late July.
+        note: Day 15. Snowfields into late July.
         maps: Grinnell Glacier Trailhead Many Glacier
         verified: true
         lat: 48.797347
         lng: -113.668127
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🏔️
-        days: "14"
+        days: "15"
         wpNote: Snowfields on the upper traverse into late July.
       - name: Logan Pass
         note: ⚠️ 3-hour parking cap from July 1. $1 shuttle.
@@ -188,7 +232,7 @@ groups:
         lng: -113.718158
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🅿️
-        days: 15, 16
+        days: 16, 17
         wpNote: 3-hour parking cap from July 1. $1 ticketed shuttle.
   - group: The drive home
     places:

@@ -1,7 +1,16 @@
 {
-  "generatedBy": "Trees tools/lib/astro.mjs (the engine behind Trees tools/sun.mjs), run 2026-10-10 for the shifted dates",
-  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip) at sourced regional points: Cedar Pass (verified, places.yaml), West Tensleep Lake (stateparks.com), Island Lake (fs.usda.gov), Slough Creek (stateparks.com), Many Glacier and Apgar campgrounds (stateparks.com), Cottonwood (thedyrt.com), with camp elevations. Good to about a minute; the same inputs reproduce the old Jul 7–24 table within a minute everywhere except the west side of Glacier, where the old table used a different point (3–4 min). Everything is Mountain Time. **The trip moved a week later on 2026-10-10**, so the full moon (July 17–19) now falls in the Bighorns and on the first Beartooth night instead of at Many Glacier. Nothing is built around it. (was: \"Full moon falls July 17–18, which after the 21-day recut lands at Many Glacier\")",
+  "generatedBy": "Trees tools/sun.mjs (ad-hoc --lat/--lng/--elev/--tz America/Denver), run 2026-10-29 for the Jul 12 departure; Glacier rows (7/23 on) unchanged from the 2026-10-10 run",
+  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip). 2026-10-29 run: the verified places.yaml coordinates for Cedar Pass, West Tensleep Lake, Island Lake and Slough Creek, at 744 m, 2,774 m, 2,901 m and 1,905 m; these reproduce the 2026-10-10 table to the minute. Glacier rows are from the 2026-10-10 run (stateparks.com points for Many Glacier and Apgar). Everything is Mountain Time. **Madison Campground has no verified coordinate**, so Jul 22's sunset and Jul 23's sunrise there are TBD. Rows are per night's location; on travel days trip.md shows the departure camp's sunrise, computed the same way (Badlands 7/15 5:14 AM, Bighorns 7/18 5:31 AM, Beartooth 7/21 5:41 AM).Full moon (July 17–19) falls on the last Bighorn night and the first two Beartooth nights. The Fri 7/30 and Sat 7/31 rows are Theodore Roosevelt, cut 2026-10-15; kept as a record, not on the plan.",
   "rows": [
+    {
+      "date": "Tue 7/13",
+      "location": "Badlands",
+      "firstLight": "4:43 AM",
+      "sunrise": "5:12 AM",
+      "sunset": "8:33 PM",
+      "dark": "9:03 PM",
+      "moon": "79.1% waxing"
+    },
     {
       "date": "Wed 7/14",
       "location": "Badlands",
@@ -13,11 +22,11 @@
     },
     {
       "date": "Thu 7/15",
-      "location": "Badlands",
-      "firstLight": "4:44 AM",
-      "sunrise": "5:14 AM",
-      "sunset": "8:32 PM",
-      "dark": "9:02 PM",
+      "location": "Bighorns",
+      "firstLight": "5:03 AM",
+      "sunrise": "5:28 AM",
+      "sunset": "9:00 PM",
+      "dark": "9:25 PM",
       "moon": "92.5% waxing"
     },
     {
@@ -40,11 +49,11 @@
     },
     {
       "date": "Sun 7/18",
-      "location": "Bighorns",
-      "firstLight": "5:06 AM",
-      "sunrise": "5:31 AM",
-      "sunset": "8:58 PM",
-      "dark": "9:22 PM",
+      "location": "Beartooth",
+      "firstLight": "5:13 AM",
+      "sunrise": "5:38 AM",
+      "sunset": "9:10 PM",
+      "dark": "9:34 PM",
       "moon": "100% FULL"
     },
     {
@@ -67,20 +76,20 @@
     },
     {
       "date": "Wed 7/21",
-      "location": "Beartooth",
-      "firstLight": "5:16 AM",
-      "sunrise": "5:41 AM",
-      "sunset": "9:07 PM",
-      "dark": "9:31 PM",
+      "location": "Lamar / Slough Creek",
+      "firstLight": "5:19 AM",
+      "sunrise": "5:46 AM",
+      "sunset": "9:08 PM",
+      "dark": "9:34 PM",
       "moon": "91.6% waning"
     },
     {
       "date": "Thu 7/22",
-      "location": "Lamar / Slough Creek",
+      "location": "Slough Creek (dawn) → Madison (night)",
       "firstLight": "5:20 AM",
       "sunrise": "5:47 AM",
-      "sunset": "9:07 PM",
-      "dark": "9:33 PM",
+      "sunset": "TBD (no verified coordinate)",
+      "dark": "TBD (no verified coordinate)",
       "moon": "85.6% waning"
     },
     {
