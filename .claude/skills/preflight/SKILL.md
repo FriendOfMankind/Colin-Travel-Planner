@@ -23,6 +23,7 @@ description: Read-only pre-departure check for an upcoming trip at T-14, T-7 and
 3. `me/gear.md`: every item with `state: need` or `unknown`, and any `question:` with `answeredBy: <slug>`.
 4. `me/checklist.md`: the universal list, run against this trip.
 5. `me/calendar.md`: make sure no trip day is a class day, apart from the known remote lecture.
+6. **Gmail**, read-only, by `/inbox`'s search (`.claude/skills/inbox/SKILL.md`, steps 1–2): which `booking:` rows have a confirmation email and which don't. Report it; don't write here.
 
 ## 3. Cross-check the plan against itself
 

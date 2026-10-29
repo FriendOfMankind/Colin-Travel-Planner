@@ -3,6 +3,7 @@ slug: august-friends-2027
 title: The August Boys Trip
 subtitle: Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
 status: wishlist
+horizon: confirmed
 months: [ 8 ]
 mode: fly
 days: 10

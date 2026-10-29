@@ -42,6 +42,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | "am I ready?" | `/preflight` | nothing; it reports | n/a |
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
 | "research …" / "do a sweep" / "youtube research" | `/research` | log, `research.md`, plain facts in `trip.md` | no, Colin merges |
+| "check my email" / "what's booked?" | `/inbox` | `booking:` rows, log | yes, if only booking marks |
 
 ## Changing things
 
@@ -88,14 +89,16 @@ node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a dat
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/index.html
+node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
+node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins, for Drive and Organic Maps
 ```
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the six skills, the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
-1. **Offline site.** The claude.ai page doesn't work without signal. For now, the frozen Trees site is the offline fallback for Appalachians.
+1. **Offline site.** The claude.ai page doesn't work without signal. **Partly solved 2026-10-29:** `tools/pack.mjs` makes a per-trip PDF and GPX for Google Drive (offline) and Organic Maps.
 2. **Port `mapbench.html`** so coordinates can be placed against this repo.
 3. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
 4. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
