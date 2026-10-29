@@ -40,7 +40,7 @@ Welcomes sustained low-consequence difficulty: scrambles, ladders, wet rock, exp
 
 ## Crowds
 
-Actively avoids them. "Empty is cool if it's worth it."
+Prefers empty: "Empty is cool if it's worth it." But a world-class icon is worth its crowd as long as solitude is available elsewhere on the trip; see the crowd rule in [travel-style.md](travel-style.md). *(updated 2026-10-29; was: "Actively avoids them.")*
 ## The shape of a good day
 
 These were stated as preferences on 2026-09-06 and applied to the whole Kentucky itinerary. In Trees they lived only in that trip's file header, where no other trip would ever see them. They belong here. *(stated 2026-09-06, source: kentucky-2026 planning history in `trips/kentucky-2026/log.md`)*
