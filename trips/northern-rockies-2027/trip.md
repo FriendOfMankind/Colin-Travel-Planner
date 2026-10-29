@@ -31,6 +31,10 @@ tags:
   - reservation race
 next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then three consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\" *(was: \"one phone call to Yellowstone: if Pebble Creek has reopened, the worst risk on the trip halves\"; changed 2026-10-10)*"
 booking:
+  - system: wisconsin-sp
+    what: Perrot State Park, Trempealeau WI (Jul 13)
+    target: 2027-07-13
+    note: Day 1 transit night, chosen 2026-10-29. 102 sites, showers. Reservation required (Wisconsin DNR).
   - system: recreation.gov
     what: Cedar Pass, Badlands (Jul 14–15)
     target: 2027-07-14
@@ -148,13 +152,13 @@ type: travel
 driving: ~600 mi, ~10h 30m (Google +15%)
 slack: None needed. Nothing happens today except distance.
 overnight:
-  name: TBD — western Wisconsin / La Crosse area
-  place: Wisconsin
-  kind: Transit night — not identified
-  cost: ~$30 est.
-  checkin: Unknown
+  name: Perrot State Park
+  place: Trempealeau, WI (~20 min north of La Crosse)
+  kind: State park campground
+  cost: TBD (not read)
+  checkin: 3 PM (Wisconsin DNR). Reservation required, 11-month window, 9 AM CT
   confirmation: TBD
-  notes: "⚠️ **One of six transit nights with no lodging identified** *(was: \"one of two\", before 2026-10-15)*. Two Wisconsin state park candidates on I-90 (Wisconsin DNR pages, read 2026-10-29): **Mill Bluff SP**, Camp Douglas, right off I-90/94 at exit 55: 21 sites, pit toilets, hand pumps, **no showers**, late May – Sept. **Perrot SP**, Trempealeau, ~20 min north of La Crosse: 102 sites, **showers**. Wisconsin state parks are **reservation-only, 11 months ahead, released at 9 AM** (DNR camping rules and FAQ); check-in 3 PM. Fees not read. Or a KOA or a cheap motel. Decide before leaving: arriving at 8 PM without a plan is how a road trip starts badly."
+  notes: "**Chosen: Perrot** *(Colin, 2026-10-29; was: \"TBD, western Wisconsin / La Crosse area\")*. 102 sites, flush toilets, **showers**. The window is already open (the briefing computes it). The other five transit nights are still unidentified. The two candidates were on I-90 (Wisconsin DNR pages, read 2026-10-29): **Mill Bluff SP**, Camp Douglas, right off I-90/94 at exit 55: 21 sites, pit toilets, hand pumps, **no showers**, late May – Sept. **Perrot SP**, Trempealeau, ~20 min north of La Crosse: 102 sites, **showers**. Wisconsin state parks are **reservation-only, 11 months ahead, released at 9 AM** (DNR camping rules and FAQ); check-in 3 PM. Fees not read. Or a KOA or a cheap motel. Decide before leaving: arriving at 8 PM without a plan is how a road trip starts badly."
 ```
 
 **Schedule**
@@ -232,7 +236,7 @@ overnight:
 **Schedule**
 - 5:14 AM · sunrise · Sunrise. First light 4:44 AM — be at the Notch trailhead for it.
 - 4:50 AM (1h 30m) · hike · **Notch Trail.** ✅ AllTrails: **1.2 mi, 118 ft, Moderate.** Short, and it involves a log ladder up a canyon wall and a ledge traverse to a notch over the White River valley. Rated 4.8 for 1.2 miles, which tells you it is the ladder people come for. · 📍 Notch Trail Badlands National Park
-- 6:45 AM (3h 30m) · hike! · **Castle Trail.** The long one, out and back across open badlands. ✅ AllTrails: **10.3 mi, 249 ft, Moderate, ~3h 10m** *(checked 2026-10-29; was "roughly 10 mi… NOT verified")*. Flat, and completely exposed, so ⚠️ **it's just over the ~10 mi ceiling, on Day 3, in July heat** (Interior's July normal high is 91°F). Shorter version: **Castle Trail to Medicine Root Loop, 7.8 mi / 209 ft** (AllTrails). · 📍 Castle Trail Badlands National Park
+- 6:45 AM (2h 30m) · hike · **Castle Trail to Medicine Root Loop.** ✅ AllTrails: **7.8 mi, 209 ft, Moderate, loop, ~2h 30m**. Open badlands, flat and completely exposed. Chosen over the full out-and-back Castle Trail (10.3 mi / 249 ft, over the ceiling, with a July normal high of 91°F) *(Colin, 2026-10-29; was "Castle Trail, roughly 10 mi… NOT verified")*. · 📍 Castle Trail Badlands National Park
 - 10:30 AM (1h) · stop · Back to camp. **The rest of the day is heat management, not laziness.**
 - 6:00 PM (1h) · drive! · **Sage Creek Rim Road** for the bison herd and the prairie dog towns at last light. Gravel but graded; turn around if it is not. · 📍 Sage Creek Rim Road Badlands
 - 8:32 PM · sunset · Sunset from the rim. Dark 9:02 PM.
@@ -1344,7 +1348,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Notch Trail | 3 | 1.2 mi RT | 118 ft | Moderate | ~1 hr | Log ladder up a canyon wall, then a ledge to the notch. No shade, no water. Dawn. |
-| Castle Trail | 3 | 10.3 mi RT | 249 ft | Moderate | ~3 hr | ✅ AllTrails, 2026-10-29 *(was: "~10 mi, minimal, not verified")*. ⚠️ Just over the 10 mi ceiling. Flat, fully exposed prairie badlands. Off it by 10:30 AM. **Shorter: Castle Trail to Medicine Root Loop, 7.8 mi / 209 ft.** |
+| Castle Trail to Medicine Root Loop | 3 | 7.8 mi loop | 209 ft | Moderate | ~2.5 hr | ✅ AllTrails, 2026-10-29. Flat, fully exposed prairie badlands. Off it by 10:30 AM. Chosen over the full Castle Trail, 10.3 mi / 249 ft *(Colin, 2026-10-29; was: "Castle Trail, ~10 mi, not verified")*. |
 | West Tensleep Falls | 4 | 1.6 mi RT | 219 ft | Easy | ~45 min | The altitude test after a 6,600 ft gain in one day. If 1.6 flat miles feels hard, tomorrow becomes Mirror Lake. |
 | Mirror Lake + Lost Twin Lakes | 5 | 11.1 mi RT | 2,076 ft | Hard | ~6–7 hr | ⚠️ **Over the 10 mi ceiling.** Two cirque lakes under a headwall. Turnaround 10 AM for storms. **Bail-out: Mirror Lake alone, 5.9 mi / 1,095 ft.** |
 | Sherd Lake | 6 | 3.5 mi RT | 570 ft | Moderate | ~1.5 hr | The soft-day walk. |
@@ -1428,6 +1432,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Slough Creek, Yellowstone, Jul 22** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it *(was: "Check first whether Pebble Creek has reopened", 2026-10-10)*. The campground road is 2 mi of dirt (recreation.gov, snippet).
 - [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`) *(was: a hand-typed "Jan 16 2027", which the shift made wrong)*. One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] **Day 1 — Perrot SP, Jul 13** — Wisconsin state parks, 11-month window, so it's open now. Book a tent site.
 - [ ] **Badlands — Cedar Pass, Jul 14–15** — recreation.gov, 6-month window.
 - [ ] **Bighorns — West Tensleep, Jul 16–18** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch *(was: "mix of reservable and first-come, split not verified", 2026-10-10)*.
 - [ ] **Beartooth — Island Lake, Jul 19–21** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback *(was: "reservable/first-come split not verified", answered 2026-10-10 from the fs.usda.gov page)*. Bring cash.
@@ -1439,7 +1444,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] ⚠️ **Logan Pass shuttle tickets** — $1, some on a 60-day rolling window, most released 7 PM the night before. Matters on Day 16 if the Highline Trail is done point-to-point. 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
-- [ ] ⚠️ **Six transit nights have no lodging identified: Day 1 and Days 18, 29, 30, 31, 32.** Solve them together, once, before departure. *(was: "Two transit nights (Days 1 and 20)", before 2026-10-15)*
+- [ ] ⚠️ **Five transit nights have no lodging identified: Days 18, 29, 30, 31, 32** *(Day 1 is Perrot SP, chosen 2026-10-29)*. Solve them together, once, before departure. *(was: "Two transit nights (Days 1 and 20)", before 2026-10-15)*
 
 ## Open questions
 
@@ -1481,7 +1486,7 @@ The Legacy seats five. Colin + 3 with luggage fits; Colin + 3 + three weeks of c
 ### What's the smoke plan?
 
 **Blocks:** Nothing yet. It's a day-of call, but the refund deadlines decide how much flexibility you keep.
-Late July in Glacier and early August in Central Oregon are both inside smoke season (see Weather). 2026 had alerts over Glacier County on Jul 27 and AQI 200+ in Bend on Jul 21. 2025 was mild. Options: (a) **day rules only**: check fire.airnow.gov at T-7 and T-1, and swap a hike for a soft day when AQI is over ~150; (b) **plus keep everything refundable** until a set date, so the Oregon week can shift bases (the idea file has the swap list); (c) **ignore it** and take what comes. My pick is (b). It costs nothing until the deadlines, and the deadlines are already in the bookings.
+Late July in Glacier and early August in Central Oregon are both inside smoke season (see Weather). 2026 had alerts over Glacier County on Jul 27 and AQI 200+ in Bend on Jul 21. 2025 was mild. ✅ **Decided: day rules plus refundable** *(Colin, 2026-10-29)*. Check fire.airnow.gov at T-7 and T-1, and swap a hike for a soft day when AQI is over ~150. Keep the motels and rafts on refundable rates until their deadlines, so the Oregon week can shift bases (the swap list is in the idea file). Rejected: day rules alone, and ignoring it.
 
 ### What do the campgrounds actually cost?
 

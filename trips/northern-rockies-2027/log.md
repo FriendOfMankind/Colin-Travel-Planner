@@ -187,3 +187,10 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - Add the Middle Fork raft on Day 15 or Day 17?
 - Day 1: Mill Bluff, Perrot, or a motel?
 - The smoke plan: (a) day rules, (b) day rules plus stay refundable, or (c) ignore it?
+
+## 2026-10-29 · Decided: Medicine Root loop, Perrot, smoke plan, no Middle Fork raft
+
+- **Day 3: Castle Trail to Medicine Root Loop (7.8 mi), not the full Castle Trail (10.3 mi)** *(Colin, 2026-10-29)*. It stays under the ceiling and gets off the badlands before the heat.
+- **Day 1: Perrot State Park** *(Colin, 2026-10-29)*. Added to `booking:` as `wisconsin-sp`, an 11-month window, which is already open.
+- **Smoke: day rules plus refundable** *(Colin, 2026-10-29)*. AQI check at T-7 and T-1, a hike swaps to a soft day over ~150, and the Oregon bookings stay refundable until their deadlines.
+- **Middle Fork Flathead raft: skipped** *(Colin, 2026-10-29)*. Unlinked from this trip in `bucket.yaml` and kept as a want.

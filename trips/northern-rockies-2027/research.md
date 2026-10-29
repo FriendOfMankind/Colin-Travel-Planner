@@ -7,7 +7,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 *Built 2026-10-10 from the plan and the 2026-09-06 planning history. Refreshed 2026-10-29: smoke, station normals, Castle Trail, Slough Creek season, NE Entrance Road, Day 1 candidates, the Middle Fork raft; Oregon and the drive home added as branches 7–8.*
 
 ## 1. The drive out (Days 1–2)
-- 🟡 **Day 1 transit night**: two candidates on I-90 *(2026-10-29)*: Mill Bluff SP (exit 55, 21 sites, no showers) and Perrot SP (near La Crosse, 102 sites, showers). Wisconsin parks book 11 months out at 9 AM CT (DNR). ⬜ fees. Colin picks
+- ✅ **Day 1 transit night**: **Perrot SP** (chosen 2026-10-29), 102 sites, showers, 11-month window. ⬜ fee
 - 🟡 **Chicago window**: the plan's rule of thumb, no source
 
 ## 2. Badlands (Days 2–3)
@@ -46,7 +46,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Iceberg Lake**: AllTrails, a 2025 video not yet transcribed
 - 🟡 **Highline / Garden Wall**: AllTrails. The shuttle and 3-hour parking were a **2026 pilot** (Jul 1 – Sept 7), ended Sept 8. ⬜ 2027 rules (likely Feb 2027)
 - 🟡 **Flood risk**: Many Glacier valley shut June 29 to July 2, 2026 after heavy rain. One event, not a pattern
-- 🟡 **Middle Fork Flathead half-day raft** (bucket item, not in the plan): Glacier Guides $84 adult + 8% river fee + tip, max 9 per boat, May 9 – Sept 12 (2026 page); Glacier Raft Co, 2.5 h, 8 mi, 9 Class II–III rapids, from ~$77 (GetYourGuide). Per-person pricing, so solo is fine. Fits Day 15 or Day 17 at West Glacier. Colin decides
+- ✅ ~~**Middle Fork Flathead half-day raft**~~: researched (Glacier Guides $84 adult + 8% river fee + tip, max 9 per boat, May 9 – Sept 12 (2026 page); Glacier Raft Co, 2.5 h, 8 mi, 9 Class II–III rapids, from ~$77 (GetYourGuide). Per-person pricing, so solo is fine.), then **skipped** (Colin, 2026-10-29: Oregon already has two raft days)
 
 ## 7. West to Oregon and the boys week (Days 18–29)
 Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging, rafts, South Sister permits, the smoke swap list).
