@@ -20,6 +20,7 @@ trip's start date.
 
 ```yaml
 - system: recreation.gov
+  releaseET: "10:00"
   leadMonths: 6
   what: recreation.gov (most USFS / NPS)
   when: 6-month rolling window, releases **7 AM Pacific = 10 AM Eastern**
@@ -57,6 +58,7 @@ trip's start date.
   when: Vehicle reservations are a separate system from camping
   note: You can hold one without the other. Verify the current year early.
 - system: wisconsin-sp
+  releaseET: "10:00"
   leadMonths: 11
   what: Wisconsin State Parks (wisconsin.goingtocamp.com)
   when: 11-month rolling window, released **9 AM Central**
@@ -72,6 +74,7 @@ trip's start date.
   when: Rolling 4 months
   note: First night plus 3 consecutive nights bookable online together as of summer 2026. Separate Day Use Parking Reservation for the Katahdin trailheads.
 - system: acadia-np
+  releaseET: "10:00"
   leadMonths: null
   what: Acadia NP campgrounds (Blackwoods, Seawall, Schoodic Woods) on recreation.gov
   when: Released in blocks, not a plain 6-month roll. For a May 20 arrival, booking opens **10 AM ET on Dec 1** (first release) or 10 AM ET on May 10 (second release)

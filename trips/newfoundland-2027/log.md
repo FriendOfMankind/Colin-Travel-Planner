@@ -515,3 +515,35 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - **Cape Norman** (northern tip, near Pistolet Bay): limestone shelf rock, "an alien looking landscape". Near Days 10–11; not checked against the plan
 - **On the Gander–Bonavista stretch, not on the plan**: Cape Freels beach; Newtown, a town spread over small islands joined by bridges, with the Barbour Living Heritage Village; Greenspond; Terra Nova National Park's Blue Hill lookout and a visitor centre with a touch tank and showers; wild horses in the Bonavista community pasture. All on coastal Route 320 or the TCH; none routed
 - Elsewhere in the video and off this route: Port au Port's Long Point, Piccadilly Head PP, the Baie Verte Peninsula (Round Harbour ghost town, humpbacks at La Scie), Englee, Cape Pine
+
+## 2026-10-29 · History moved out of trip.md
+
+`trip.md` now shows only current facts *(Colin, 2026-10-29: history goes to the log)*. These are the old values that sat inline as "(was …)" notes, grouped by the section they were in. Older versions of the plan are in git.
+- **frontmatter**
+  - (was: "two or more guests means a rental car", until 2026-10-08; "the one thing worth doing now is the friends' headcount", until 2026-10-10)
+- **Overview**
+  - (was: Gros Morne first, then north, then a ~9 h day from St. Anthony to Gander. Flipped 2026-10-08 so the longest island day is 7 h and comes off the ferry, not on the day the friends land.)
+- **Dates**
+  - (was: "Starts three days after Maui ends (May 20)"; Maui moved to spring 2028, 2026-10-05.)
+- **The pin**
+  - (was: "isn't known until Marine Atlantic posts 2027… the draft guesses a Monday 6/21 sailing")
+- **Day 8 — 2027-05-30 · The ferry**
+  - (was: sailing time TBD)
+- **Day 9 — 2027-05-31 · Straight up the Viking Trail**
+  - (was two, until the Thursday crossing, 2026-10-08)
+- **Day 12 — 2027-06-03 · The bergs, then over to Labrador**
+  - (was: "30 min behind", unsourced; changed 2026-10-07)
+- **Day 13 — 2027-06-04 · Red Bay, Labrador**
+  - (was: 4:40 → 5:40, after closing)
+- **Day 19 — 2027-06-10 · Across the island, the friends land, and Fogo Island**
+  - (was: a TBD hotel in Gander; changed 2026-10-10 to one night on Fogo. Two nights were considered and declined: "more variety and bang for our buck")
+- **Day 20 — 2027-06-11 · Ferry back, then Twillingate**
+  - (was: Gander → Twillingate, 1h 45m routed)
+- **Day 27 — 2027-06-18 · Witless Bay and La Manche**
+  - (was: "the walk in from the park lot isn't measured")
+- **Day 30 — 2027-06-21 · Argentia → North Sydney**
+  - (was TBD)
+- **Is the headcount for the friends' week known?**
+  - (was: also the rental car)
+- **Does Argentia Sunset RV Park take tents?**
+  - (was: "Where's the night of June 20?")

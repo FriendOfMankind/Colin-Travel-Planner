@@ -80,3 +80,18 @@ COULD NOT VERIFY:
 - **Not confirmed** *(stated 2026-09-30)*. Nothing records whether Bonita Canyon (the Sept 8–10 release for Mar 8–10) was booked; treat it as not booked until Colin says otherwise. `trip.md` still says `planned`; whether to drop it to `outline` is Colin's call, asked 2026-09-30.
 - **Why it beats Mojave on bang for buck, in his words:** "more worth it than Mojave" *(stated 2026-09-30)*. Same cost stack (flight + rental + campgrounds), but March is this trip's peak season and spring break costs zero classes.
 - **Possible second person** to split the car, gas and campgrounds *(stated 2026-09-30, "may be able to")*. If it happens, every "solo" assumption in the plan changes: tent, portions, the fare, and who drives.
+
+## 2026-10-29 · History moved out of trip.md
+
+`trip.md` now shows only current facts *(Colin, 2026-10-29: history goes to the log)*. These are the old values that sat inline as "(was …)" notes, grouped by the section they were in. Older versions of the plan are in git.
+- **frontmatter**
+  - (was: "🚨 Sept 8 2026, 10:00 AM Eastern: Bonita Canyon… Book Gilbert Ray tonight", a step dated in the past; rewritten 2026-10-29)
+- **Lodging**
+  - (was $20)
+  - (was $20)
+  - (was $20)
+
+## 2026-10-29 · Not booked; waiting on friends
+
+- **Nothing is booked** *(stated 2026-10-29: "No I haven't booked anything, I'm waiting to see if friends commit")*. That answers the 2026-09-30 question. A Gmail sweep the same day found no Gilbert Ray or Bonita Canyon confirmation either.
+- The "Three alarms, Sept 8 / 9 / 10" booking-race card described a date in the past, so it's rewritten to the current state.

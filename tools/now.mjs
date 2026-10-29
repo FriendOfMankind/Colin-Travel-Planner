@@ -18,7 +18,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
-import { monthsBefore } from "./lib/dates.mjs";
+import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -47,14 +47,7 @@ const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map((slug) =>
   return { slug, r, page, start, end, dated: !!r.start, entries, retro: /^## Retro/m.test(log) };
 });
 
-const leads = {};
-const anytime = new Set();
-for (const m of read("me/booking.md").matchAll(/```yaml\n([\s\S]*?)```/g)) {
-  for (const row of YAML.parse(m[1]) ?? []) {
-    leads[row.system] = row.leadMonths ?? null;
-    if (row.anytime) anytime.add(row.system);
-  }
-}
+const systems = bookingSystems(read("me/booking.md"));
 
 const gear = [];
 for (const m of (has("me/gear.md") ? read("me/gear.md") : "").matchAll(/```yaml\n([\s\S]*?)```/g)) {
@@ -106,13 +99,7 @@ if (next && !active.includes(next)) {
 }
 
 // Booking windows: computed, soonest first. Only unbooked rows.
-const windows = [];
-for (const t of trips.filter(live)) for (const b of t.r.booking ?? []) {
-  if (b.booked || b.done || !b.target) continue;
-  const lead = leads[b.system];
-  const opens = b.opens && b.opensSource ? String(b.opens) : lead == null ? null : monthsBefore(b.target, lead);
-  windows.push({ t, b, opens, anytime: !opens && anytime.has(b.system) });
-}
+const windows = bookingWindows(trips.filter(live), systems);
 const soon = windows.filter((w) => w.opens && diff(TODAY, w.opens) <= 120).sort((a, b) => (a.opens < b.opens ? -1 : 1));
 const open = windows.filter((w) => w.anytime).sort((a, b) => (a.b.target < b.b.target ? -1 : 1));
 const unknown = windows.filter((w) => !w.opens && !w.anytime);

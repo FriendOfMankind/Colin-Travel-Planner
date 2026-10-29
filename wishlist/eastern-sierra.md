@@ -47,5 +47,5 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - ⚠️ **A Reno hub covers more than the Sierra.** Lassen (`wishlist/lassen.md`) is roughly 2.5–3 h from Reno and Bishop roughly 3.5 h *(my estimate, not routed)*. An 8–10 day version could do 2–3 nights at Lassen and 5–6 in the Sierra on one flight and one rental. That's the pairing `lassen.md` already suggests. Not priced
 
 ### 2026-10-10 · Overlap with the August friends trip
-- The chosen August 2027 friends route (`wishlist/august-friends-2027.md`, Tahoe picked 2026-10-10) spends 3 nights in **June Lake**: Bodie, Mono Lake's South Tufa, Clouds Rest and Gaylor Lakes off Tioga, Panum Crater, and the Travertine and Wild Willy's hot springs
+- The Tahoe friends route (`wishlist/tahoe-boys.md`; picked 2026-10-10, then lost to Oregon 2026-10-15) spends 3 nights in **June Lake**: Bodie, Mono Lake's South Tufa, Clouds Rest and Gaylor Lakes off Tioga, Panum Crater, and the Travertine and Wild Willy's hot springs
 - What it does **not** touch is the core of this idea: Bishop Creek, Four Jeffrey, **Little Lakes Valley** from Mosquito Flat, and the Mammoth/Bishop high country south of June Lake. This idea stays a solo PTO-year trip built around those, and it can skip the Mono basin when it happens

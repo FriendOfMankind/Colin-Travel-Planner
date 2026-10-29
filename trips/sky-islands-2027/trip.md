@@ -30,7 +30,7 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "**Not recorded whether anything is booked** (asked 2026-09-30; no answer yet). Bonita Canyon's window for Mar 8–10 opened Sept 8–10 2026 and Gilbert Ray's whole season opened Sept 1, so both are open now, if any sites are left. Check recreation.gov and pima.gov for those nights, book or mark booked, and then price CLE → TUS *(was: \"🚨 Sept 8 2026, 10:00 AM Eastern: Bonita Canyon… Book Gilbert Ray tonight\", a step dated in the past; rewritten 2026-10-29)*"
+next: "**Nothing booked; waiting to see if friends commit** *(stated 2026-10-29)*. When it's go: Bonita Canyon's window for Mar 8–10 and Gilbert Ray's season are both already open (the briefing tracks them), then price CLE → TUS"
 booking:
   - system: recreation.gov
     what: Bonita Canyon, Chiricahua NM (Mar 8–10)
@@ -89,7 +89,7 @@ Computed from the academic calendar, not picked. Tue/Thu classes, spring break M
 
 ### The booking race
 
-🚨 **Three alarms, 10:00 AM Eastern, Sept 8 / 9 / 10.** Bonita Canyon is 25 sites, all reservable, no walk-ups, in the busiest month of its year — one night releases per morning. Try all three nights in one transaction on the 8th; if it refuses, one alarm per morning. **Gilbert Ray (Mar 5, 6, 14) is bookable today** and is the only thing here that is simply undone rather than waiting.
+**Nothing booked yet** *(stated 2026-10-29)*. Bonita Canyon is 25 sites, all reservable, no walk-ups, in the busiest month of its year. Its 6-month window for Mar 8–10 opened in September, so whatever's still free is bookable now, first come, online. Gilbert Ray (Mar 5, 6, 14) has been bookable since Sept 1. Whether a second person comes changes the site count and the split, so it waits on the friends.
 
 ### The crowd problem
 
@@ -556,9 +556,9 @@ total: ~$176
 | 1 | Fri 3/5 | Tucson Mountain Park | County campground | Gilbert Ray | $10 | Reservation-only — needs booking |
 | 2 | Sat 3/6 | Tucson Mountain Park | County campground | Gilbert Ray | $10 | Reservation-only — needs booking |
 | 3 | Sun 3/7 | Dragoon Mountains | USFS — FCFS | Cochise Stronghold | $20 | First-come. No water. |
-| 4 | Mon 3/8 | Chiricahua NM | NPS campground | Bonita Canyon | $25 (was $20) | 🚨 Releases Sept 8, 10 AM ET |
-| 5 | Tue 3/9 | Chiricahua NM | NPS campground | Bonita Canyon | $25 (was $20) | 🚨 Releases Sept 9, 10 AM ET |
-| 6 | Wed 3/10 | Chiricahua NM | NPS campground | Bonita Canyon | $25 (was $20) | 🚨 Releases Sept 10, 10 AM ET |
+| 4 | Mon 3/8 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | 🚨 Releases Sept 8, 10 AM ET |
+| 5 | Tue 3/9 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | 🚨 Releases Sept 9, 10 AM ET |
+| 6 | Wed 3/10 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | 🚨 Releases Sept 10, 10 AM ET |
 | 7 | Thu 3/11 | Cave Creek, Portal | USFS — FCFS | Sunny Flat | TBD | First-come. No water until April. |
 | 8 | Fri 3/12 | Cave Creek, Portal | USFS — FCFS | Sunny Flat | TBD | First-come |
 | 9 | Sat 3/13 | Cave Creek, Portal | USFS — FCFS | Sunny Flat | TBD | First-come |
