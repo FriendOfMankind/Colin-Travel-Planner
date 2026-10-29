@@ -62,6 +62,14 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 
 **A general inclination, not a trip driver.** *(stated 2026-10-01)* Asked whether wildlife should become the reason for a trip, Colin said "meh, a general inclination", so swap rule 4 stands. Researched 2026-09-30 and deliberately not saved, so they aren't re-researched cold: Platte River sandhill cranes (March), Benezette elk rut (mid-Sept to late Oct), Delaware Bay horseshoe crabs (May to early June), Bruce Peninsula orchids, Smokies salamanders, synchronous fireflies (lottery events), Magee Marsh warblers (May).
 
+### Birding: getting into it
+
+*(stated 2026-10-29)* Colin wants to get into birding, and he wants it remembered. The style he described is **finding remote corners and trails, then sitting in a good spot for a while and surveying.** He's "cool with sitting around and relaxing in nature", so a long sit counts as time well spent, not dead time.
+
+- **It rides along with a hike** (swap rule 4): the sit happens at the hike's destination, or as a rest-day walk. When planning, flag the known birding spots on a trip's route (eBird hotspots, famous canyons, seabird colonies). Sky Islands' South Fork Trail and Newfoundland's puffin and seabird sites are already on trips.
+- ⚠️ **Open: dawn vs. the dusk default.** Birds are most active in the first few hours after sunrise, and the dusk default above was written for big mammals. Whether birding earns an early alarm hasn't been asked yet.
+- **A beginner, as of 2026-10-29.** The plan is to learn the common local birds first, using the free Merlin (sound ID) and eBird apps.
+
 Pair these with a hike where possible (swap rule 4). Seasonal ones (firefly weeks, rut, migrations) have fixed windows, so name the window and its source, never a guessed date.
 
 ## Urban routes and industrial ruins
