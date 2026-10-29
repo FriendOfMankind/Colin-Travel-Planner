@@ -47,7 +47,7 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 - **D3 · Kielbasa + white beans + Brami.** The Brami formula with a different protein. Boil the pasta with the broccoli, drain most of the water, then add the drained cannellini and sliced kielbasa and warm through with parmesan and a little oil.
 - **D4 · Tortellini in broth.** The most forgiving meal here, because it's a soup. Fill the pot with however much water, add 2 bouillon cubes and the dried tortellini, and boil until tender (~10 min for dried). Whatever water is left is the broth; add more if it boils down. Drop in the peas and chicken for the last 2 minutes, and top with parmesan. Good as a cold-morning lunch too.
 - **D5 · Pierogi + kielbasa.** Boil the frozen pierogi for ~4 min (they float when done) with the green beans, then drain. Put them back in the pot with butter and sliced kielbasa and let them brown for a few minutes. The frozen box is ice on day one, so this is a first- or second-night dinner.
-- **D6 · Trunk chili + Fritos.** Everything shelf-stable, one pot: 1 can kidney beans + 1 can black beans (drained), an 8 oz can of tomato sauce, 1 tbsp mild chili seasoning, 1 tsp onion powder, 2 chicken pouches and about ½ cup water. Simmer 10 min, mashing a few beans against the pot to thicken it. Crush Fritos on top, add cheese. It's a big pot (~1,280 kcal), so it's the dinner for a big day. *Fresh upgrade:* brown 4 oz ground beef first in place of the chicken. *(stated 2026-10-29: tomato sauce and onion powder replace diced tomatoes and fresh onion, one can of each bean; was: diced tomatoes, unspecified bean amounts)*
+- **D6 · Trunk chili + Fritos.** Everything shelf-stable, one pot: 1 can of kidney **or** black beans, drained (whichever you're in the mood for; the macros are the same), an 8 oz can of tomato sauce, 1 tbsp mild chili seasoning, 1 tsp onion powder, 2 chicken pouches and about ½ cup water. Simmer 10 min, mashing a few beans against the pot to thicken it. Crush Fritos on top, add cheese. One can of beans is one portion: a whole can never gets split, so nothing is left over to keep. *Fresh upgrade:* brown 4 oz ground beef first in place of the chicken. *(stated 2026-10-29: tomato sauce and onion powder replace diced tomatoes and fresh onion, one can of beans total for one portion; was: diced tomatoes, then briefly a can of each bean, ~1,280 kcal, too much for one)*
 - **D7 · Stove Top + chicken, the full version.** Thanksgiving in one pot, and a thru-hiker classic because the stuffing does the water math for you:
   1. Boil roughly a mug and a half of water with the butter, half the gravy packet and the frozen green beans. The gravy turns plain stuffing into a real dinner.
   2. Add both chicken pouches, then kill the heat.
@@ -145,7 +145,7 @@ Quantities are in *servings* of each food above.
   items: { pierogi: 3, turkey_kielbasa: 2, butter: 0.5, green_beans: 1 }
 - id: D6
   name: Trunk chili + Fritos
-  items: { kidney_beans: 3, black_beans: 3, tomato_sauce: 1, chili_mild: 1, onion_powder: 1, chicken_pouch: 2, fritos: 1.5, cheddar: 1 }
+  items: { kidney_beans: 3, tomato_sauce: 1, chili_mild: 1, onion_powder: 1, chicken_pouch: 2, fritos: 1.5, cheddar: 1 }
 - id: D7
   name: Stove Top + chicken + gravy + green beans
   items: { stuffing: 3, chicken_pouch: 2, butter: 0.5, gravy: 0.5, green_beans: 1 }
@@ -186,7 +186,7 @@ Quantities are in *servings* of each food above.
 | ≈ D3 · Kielbasa + white beans + Brami | 1007 | 66 | 138 | 26 |
 | ≈ D4 · Tortellini in broth | 762 | 48 | 96 | 20 |
 | ≈ D5 · Pierogi + kielbasa | 850 | 35 | 111 | 29 |
-| ≈ D6 · Trunk chili + Fritos | 1280 | 86 | 165 | 33 |
+| ≈ D6 · Trunk chili + Fritos | 950 | 65 | 105 | 31 |
 | ≈ D7 · Stove Top + chicken + gravy + green beans | 600 | 41 | 73 | 14 |
 | ≈ D8 · Mashed potatoes + gravy + sausage | 890 | 40 | 137 | 20 |
 | ≈ S · Trail snacks (a handful of trail mix, a bar, 2 oz pretzels) | 660 | 21 | 108 | 19 |
@@ -200,7 +200,7 @@ Quantities are in *servings* of each food above.
 | Day B: B2 · L1 · D2 · snacks | 3357 | 172 | 416 | 115 | protein +22, fat +20 |
 | Day C: B1 · L1 · D2 · snacks | 3513 | 186 | 450 | 114 | protein +36, fat +19 |
 | Day D: B1 · L2 · D7 · snacks | 3185 | 170 | 433 | 87 | protein +20 |
-| Day E: B2 · L1 · D6 · snacks | 3514 | 184 | 470 | 103 | protein +34, fat +8 |
+| Day E: B2 · L1 · D6 · snacks | 3184 | 163 | 410 | 102 | protein +13, fat +7 |
 | Day F: B1 · L1 · D4 · snacks | 3152 | 160 | 434 | 89 | protein +10 |
 
 <!-- /GENERATED -->
