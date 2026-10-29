@@ -399,3 +399,11 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
   - (was: an afternoon daylight hike; changed 2026-10-12)
 - **Sun times were optimistic in one direction**
   - (was Day 1 until 2026-10-07)
+
+## 2026-10-29 · Retro, round 1: Days 3 and 7–9
+
+*(confirmed: Colin, retro 2026-10-29)*
+- **Day 3:** as planned: slow morning after the freeze, Thurmond, Moore Cove Falls. **Cutting Kaymoor for the slow start was worth it.**
+- **Day 7:** Linville Falls, FS 210 site, and **Sitting Bear at sunset**, all as planned.
+- **Day 8:** **Hawksbill at sunrise, then Table Rock + the Chimneys**, both as planned.
+- **Day 9:** **Mount Rogers via Wilburn Ridge, golden hour on the Grayson balds, Hurricane by headlamp**, as planned.
