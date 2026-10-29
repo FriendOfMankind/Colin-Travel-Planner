@@ -66,7 +66,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
-- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 2 research notes · updated 2026-10-10
+- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 3 research notes · updated 2026-10-29
   The best payoff per dollar, as a week
 - **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-15
   Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
@@ -132,6 +132,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Wichita Mountains** (`wishlist/wichita-mountains.md`) · Oklahoma · drive · keeps (derived) · Nov/Dec/Jan/Feb/Mar/Apr · 3–4 nights · updated 2026-09-04
   Free-roaming bison and granite domes
+- **Yosemite** (`wishlist/yosemite.md`) · Yosemite / Sierra Nevada, California · fly · keeps (derived) · May/Jun · 9 days · 1 research note · updated 2026-10-29
+  The icons at full roar, with somewhere empty to escape to
 
 ## Bucket list: `bucket.yaml`
 
