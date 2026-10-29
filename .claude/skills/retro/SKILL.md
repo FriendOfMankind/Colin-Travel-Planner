@@ -23,7 +23,7 @@ Read `trips/<slug>/trip.md`, all of `trips/<slug>/log.md` (the `/log` entries fr
 1. **Anything with a deadline**, like gear needed for the next trip.
 2. **Day by day, 4 days per round:** "Basically as planned / Some changes / Very different", each with the plan summary in the question. Follow up on anything that changed.
 3. **Food reality:** what was actually eaten versus the plan.
-4. **Preferences the trip tested,** and anything that contradicts `me/`.
+4. **Preferences, asked directly** *(Colin, 2026-10-29)*: "what do you prefer for X?", not inferred from what happened. Check each answer against `me/` and ask about any conflict.
 
 Read every answer literally. If it contradicts a file or an earlier answer, ask; don't pick one yourself.
 

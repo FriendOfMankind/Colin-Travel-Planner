@@ -287,7 +287,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   question:
     text: Does the frozen-meals-as-ice system actually reach the first resupply, and does the breakfast burrito survive to day 8?
     answeredBy: appalachians-2026
-    answer: "Moot (2026-09-28). October no longer carries freezer meals or the burrito; the staples menu replaced them after Kentucky's cooler held only a pound of beef. The real question now is whether a small cooler of eggs, cheese and frozen veg is all a trip needs."
+    answer: "Yes: a small cooler of eggs, cheese, butter and frozen veg, with block ice at resupply, was enough for 10 days *(confirmed: appalachians-2026 retro, 2026-10-29)*. (was: moot, since October dropped the freezer meals and burrito; the open question was whether a small cooler is all a trip needs.)"
 - name: Olive oil in a squeeze bottle
   state: own
   note: "One of the four things that turn a can into a meal: oil, hard cheese, crushed chips, starch pouch."
