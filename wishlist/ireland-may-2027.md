@@ -112,6 +112,8 @@ His city-trip rules still apply: one walking route a day, the viewpoint at sunse
 
 ## Next
 
+**The pitch page for the friend is "Athens, May 12–20"** (https://claude.ai/artifact/FE5pLf7MjWZKCFAxhcEKfu, private until Colin shares it). It's built in the same shape as the Oregon and Newfoundland pages, and its "What I need from you" list asks the open questions below *(made 2026-10-29)*. Rooms aren't priced yet, so it shows no total.
+
 1. Find out whose seat the family is paying for. That decides the ticket shape.
 2. Pick the Delphi + Meteora loop or Delphi alone, and car or transit.
 3. Then: the Athens base neighborhood, the walking routes, and the restaurants with named dishes. The March research wasn't saved.
