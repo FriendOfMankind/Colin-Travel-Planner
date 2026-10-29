@@ -27,7 +27,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 5 entries · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 6 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
@@ -39,7 +39,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Done
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 30 entries · updated 2026-10-21
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 33 entries · retro written · updated 2026-10-21
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
@@ -86,6 +86,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   A country whose camping law already matches how he camps
 - **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
+- **Kerry + Athens (May, with a friend)** (`wishlist/ireland-may-2027.md`) · Ireland (Co. Kerry) + Athens. Aer Lingus Cleveland ↔ Dublin, plus a Dublin ↔ Athens round trip · fly · confirmed · May · 11 days · 2 research notes · updated 2026-10-29
+  Four nights with a friend's family in Kerry, plus one warm, ancient city, squeezed between Commencement and Newfoundland
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10

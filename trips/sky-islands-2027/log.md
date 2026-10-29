@@ -96,6 +96,13 @@ COULD NOT VERIFY:
 - **Nothing is booked** *(stated 2026-10-29: "No I haven't booked anything, I'm waiting to see if friends commit")*. That answers the 2026-09-30 question. A Gmail sweep the same day found no Gilbert Ray or Bonita Canyon confirmation either.
 - The "Three alarms, Sept 8 / 9 / 10" booking-race card described a date in the past, so it's rewritten to the current state.
 
+## 2026-10-29 · Carry-forward from Appalachians
+
+What the Appalachians retro implies here (`trips/appalachians-2026/log.md`, 2026-10-29). Nothing in the plan is changed; these are inputs for Colin's calls.
+- **Hike budgets:** hike time at AllTrails' posted time, plus an explicit sit-and-explore block (`me/hiking.md`, new rule). Heart of Rocks and Echo Canyon are hoodoo forests full of side spots, exactly where that block pays.
+- **Food:** expect it to collapse to staples (2 trips out of 2). A short rotation plus a bought-food slot beats a named meal for every day. This trip flies in, so the staples get bought in Tucson.
+- **Cooler:** a small one is enough for 10 days, so buy a cheap one in Tucson or skip it.
+- **The last day is straight to the airport.** Don't plan anything that has to happen on it.
 ## 2026-10-29 · Crowd wording updated to the new rule
 
 The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the trip also has empty places (`me/travel-style.md`). Three passages here restated the old one ("actively avoids crowds… a reservation removes the lottery, not the people… fails your own test"). They're rewritten; **the plan itself is unchanged**. The 3-in / 7-out split still stands, now justified as icon-plus-retreat and by the booking asymmetry. The "3 nights in, 4 on the empty side" count in the overview card was the same fact as "7 outside" counted without Gilbert Ray; it now says 7 everywhere.

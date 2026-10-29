@@ -16,7 +16,7 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 ## Evenings
 
 - **Cook a real dinner, then early to bed.** *(stated 2026-09-28)* A campfire wasn't picked as part of the point.
-- Mornings are slow: warm up in the tent, hot breakfast, then hike (`me/principles.md` 4). Sunset viewpoints over sunrise ones.
+- Up early, then an unhurried camp morning: warm up in the tent, hot breakfast, then hike (`me/principles.md` 4) *(stated 2026-10-29; was: "Mornings are slow")*. Sunset viewpoints over sunrise ones.
 
 ## Rain
 

@@ -14,7 +14,7 @@ Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by a
 
 ## Pace: how to budget
 
-**Plan hikes at AllTrails' posted time** *(stated 2026-09-28)*. The margin is wanted even though he often beats it: finishing early is slack for sitting, not a reason to cram more in.
+**Budget hike time plus doing-nothing time** *(stated 2026-10-29, appalachians-2026 retro)*. "The philosophy for hikes should be a time budget for hiking and doing nothing, so go with AT least enough time to hike, and if we aren't missing out on anything by taking out time, then budget more." So: hiking time at AllTrails' posted time as the floor, plus an explicit block for sitting and side trails ("finding side trails to explore and chill at"). When nothing else in the day loses out, make that block bigger. **The sit block is as long as the day allows** *(stated 2026-10-29)*: "I have nothing better to do than be somewhere cooler than camp, so the more time I get to spend at beautiful spots, listening to books, or just relaxing the better… I CAN rush thru hikes to get back to camp sooner, but I'd rather be somewhere cooler." Plan the hike, then give the leftover daylight to the destination, not to camp. (was: "Plan hikes at AllTrails' posted time… finishing early is slack for sitting", stated 2026-09-28)
 
 **Trailhead driving on a non-transfer day: 1–2 hours is fine.** *(stated 2026-09-28)*
 
@@ -27,7 +27,9 @@ Soft ~10 mi / ~2,500 ft per day. Exceeded when the payoff justifies it, not by a
 
 - **Looking Glass Rock, 6.0 mi / 1,699 ft: 2h 30m–3h against AllTrails' 3h 30m**, so about 15–30% faster, on sustained switchbacks *(confirmed: appalachians-2026, 2026-10-20)*. With Monday's ~12 mi day, tolerance is visibly rising *(stated 2026-10-20)*.
 
-  Honey Creek and Looking Glass are two data points. Don't cut a budget on it yet, especially solo, where the slack is the safety margin. After two or three more hard days it can become a rule of thumb.
+- **Table Rock + the Chimneys (6.0 mi / 1,496 ft) and Mount Rogers via Wilburn Ridge (8.0 mi / ~1,455 ft): faster on foot than their blocks**, with the spare time spent at overlooks *(confirmed: appalachians-2026 retro, 2026-10-29; exact times not recorded)*.
+
+  **Four hikes across two trips are now faster than posted** (evidence, 2 trips). That doesn't shrink the budget: by his own rule the saved time becomes sit-and-explore time, not more miles.
 
 ## Difficulty
 

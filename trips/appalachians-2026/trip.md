@@ -27,7 +27,7 @@ tags:
   - first-come
   - solo
   - lodging gap
-next: "Sun Oct 18: slow start after the freeze, Thurmond, then south to Davidson River (check-in 2 PM). Test Starlink at the site on arrival. Kaymoor is cut (2026-10-17)."
+next: "Done. The retro is at the bottom of log.md (2026-10-29): faster than posted times with the spare time spent sitting, food collapsed to staples again, a small cooler was enough, and Bridge Day is a detour, not an anchor."
 booking:
   - system: private
     what: Arrowhead Bike Farm (Oct 16–18)

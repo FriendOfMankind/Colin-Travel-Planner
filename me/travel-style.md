@@ -29,6 +29,8 @@ From the traveller interview on 2026-09-28 unless marked.
 - **Swimming holes, rivers and lakes: loves them.** Plan them in when it's warm enough. *(stated 2026-09-28)*
 - **One real rest day on a 10+ day trip.** *(stated 2026-09-28)* A day taken up by the remote lecture doesn't count as rest.
 
+- **Events only if they're on the way** *(stated 2026-10-29)*. Add a festival or Bridge Day-type event when it's convenient; never move a trip for one. Bridge Day "worked as a detour but not something to specially plan around" *(appalachians-2026 retro)*.
+
 ## Where trips go wrong
 
 - **Too much planned.** Days get overstuffed and rushed. *(stated 2026-09-28)*
