@@ -89,6 +89,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   78 miles of river, two tunnels, and nobody
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
+- **Iceland** (`wishlist/iceland.md`) · Iceland (Ring Road; highlands only with a 4x4) · fly · keeps (derived) · Jun/Jul/Aug · 1 research note · updated 2026-10-29
+  A country whose camping law already matches how he camps
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10
