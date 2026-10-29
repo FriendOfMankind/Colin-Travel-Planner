@@ -24,13 +24,17 @@
     return { date: iso(d), minutes: d.getHours() * 60 + d.getMinutes(), preview: !!o, raw: d };
   }
 
+  /** A row struck through in trip.md ("- ~~7:55 → 9:55 …~~ Cut") is not part of the day. */
+  const isCut = (r) => /^~~/.test(r.time);
+  /** The start of the next timed row after row i (cut and untimed rows skipped). */
+  const after = (mins, i) => mins.slice(i + 1).find((m) => m != null) ?? 1e9;
   /** Schedule times carry no AM/PM ("11:00 → 3:00"); they only ever move
       forward within a day, so roll anything that jumps backwards by 12h. */
   function startMinutes(rows) {
     let last = -1;
     return rows.map((r) => {
       const m = /(\d{1,2}):(\d{2})/.exec(r.time);
-      if (!m) return null;
+      if (!m || isCut(r)) return null;
       let t = (+m[1] % 12) * 60 + +m[2];
       if (/PM/i.test(r.time) && +m[1] < 12) t += 720;
       while (last >= 0 && t < last - 60) t += 720;
@@ -46,7 +50,7 @@
   const clock = (t) => { const h = Math.floor(t / 60) % 24, m = t % 60; return `${((h + 11) % 12) + 1}:${String(m).padStart(2, "0")} ${h < 12 ? "AM" : "PM"}`; };
   function load(d) {
     const mins = startMinutes(d.schedule);
-    const sum = (kinds) => d.schedule.reduce((a, r, i) => a + (kinds.includes(r.kind) && !/optional/i.test(r.time) ? estMin(r.est) : 0), 0);
+    const sum = (kinds) => d.schedule.reduce((a, r, i) => a + (kinds.includes(r.kind) && !/optional/i.test(r.time) && !isCut(r) ?estMin(r.est) : 0), 0);
     const first = mins.find((m, i) => m != null && !/optional/i.test(d.schedule[i].time + d.schedule[i].title));
     return { wake: first, hike: sum(["hike", "view", "ruins"]), drive: sum(["drive", "shuttle"]) };
   }
@@ -60,6 +64,8 @@
     if (t.end && today > t.end) return "past";
     return "active";
   };
+  /** Served from GitHub Pages (or any web server), not claude.ai or a file. */
+  const hosted = /^https?:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(location.hostname);
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 
   /* --------------------------------------------------------- pieces */
@@ -72,7 +78,7 @@
   function dayCard(t, d, opts = {}) {
     const s = short(d.date);
     const mins = startMinutes(d.schedule);
-    const nextIdx = opts.nowMinutes != null ? mins.findIndex((m, i) => m != null && (mins[i + 1] ?? 1e9) > opts.nowMinutes) : -1;
+    const nextIdx = opts.nowMinutes != null ? mins.findIndex((m, i) => m != null && after(mins, i) > opts.nowMinutes) : -1;
     const sum = [d.driving && `Drive ${strip(d.driving)}`, d.overnight && `Sleep: ${strip(d.overnight.name)}`].filter(Boolean);
     const rows = d.schedule.map((r, i) => `
       <div class="srow k-${esc(r.kind)}${r.warn ? " warn" : ""}${i === nextIdx ? " is-next" : ""}">
@@ -139,46 +145,127 @@
     return `<label class="check${ticked ? " done" : ""}"><input type="checkbox" data-store="${esc(id)}" ${ticked ? "checked" : ""} ${done ? "disabled" : ""}><span>${html}</span></label>`;
   };
 
+  /* ------------------------------------------------------ field card */
+  /** Today on one screen: where the plan has you, the day as compact rows,
+      light left, tonight's camp and tomorrow's start. Sun times come from
+      the trip's computed _gen/sun.json; with none, the card says so. */
+  const startOf = (r) => r.time.split("→")[0].replace(/~~/g, "").trim();
+  const toMin = (s, pm) => { const m = /(\d{1,2}):(\d{2})/.exec(s ?? ""); return m ? ((+m[1] % 12) + (pm || /PM/i.test(s) ? 12 : 0)) * 60 + +m[2] : null; };
+  function fieldCard(t, d, n) {
+    const mins = startMinutes(d.schedule);
+    const cur = mins.findIndex((m, i) => m != null && m <= n.minutes && after(mins, i) > n.minutes);
+    const nxt = mins.findIndex((m) => m != null && m > n.minutes);
+    const sunset = d.sun ? toMin(d.sun.sunset, true) : null;
+    const dark = d.sun ? toMin(d.sun.dark, true) : null;
+    const tomorrow = t.days.find((x) => x.n === d.n + 1);
+    const tFirst = tomorrow?.schedule.find((r) => !/optional/i.test(r.time));
+    const o = d.overnight;
+    const left = (m) => (m > n.minutes ? hm(m - n.minutes) : null);
+    const rows = d.schedule.map((r, i) => {
+      const past = mins[i] != null && i !== cur && after(mins, i) <= n.minutes;
+      const est = r.est && r.est !== "—" ? r.est : "";
+      return `<div class="frow${i === nxt ? " is-next" : ""}${i === cur ? " is-now" : ""}${past ? " is-past" : ""}${isCut(r) ? " is-cut" : ""}${r.warn ? " warn" : ""}">
+        <span class="ft mono">${esc(startOf(r))}</span>
+        <span class="fw">${isCut(r) ? '<span class="tag">Cut</span>' : ""}${i === cur ? '<span class="tag">Now</span>' : i === nxt ? '<span class="tag">Next</span>' : ""}${r.title}</span>
+        <span class="fe mono">${esc(est)}</span>
+        ${r.maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(r.maps)}">Maps ↗</a>` : "<span></span>"}
+      </div>`;
+    }).join("");
+    return `<div class="stack field">
+      <div><div class="eyebrow">${esc(t.title)} · Day ${d.n} of ${t.days.length}</div><h2>${d.title}</h2></div>
+      <div class="panel fcard">
+        <div class="fgrid">
+          <div><div class="eyebrow">To sunset</div><div class="big mono">${sunset == null ? "—" : left(sunset) ?? "Set"}</div>
+            <div class="muted small">${d.sun ? `Set ${esc(d.sun.sunset)} · dark ${esc(d.sun.dark)}${sunset <= n.minutes && dark != null && left(dark) ? ` · ${left(dark)} to dark` : ""}` : "Sun times not computed for this trip"}</div></div>
+          <div><div class="eyebrow">Tomorrow starts</div><div class="small">${tFirst ? `<span class="mono">${esc(startOf(tFirst))}</span> ${tFirst.title}` : "Last day of the plan"}</div></div>
+        </div>
+        <div class="frows">${rows || '<div class="muted pad">No schedule for today.</div>'}</div>
+        ${o ? `<div class="tonight">
+          <div><div class="eyebrow">Tonight</div><div><b>${o.name}</b>${o.place ? `, ${o.place}` : ""}</div>
+            ${o.confirmation ? `<div class="small">${o.confirmation}</div>` : ""}${o.checkin ? `<div class="muted small">${o.checkin}</div>` : ""}</div>
+          ${o.maps || o.place ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(o.maps || strip(o.name).replace(/\s+—.*$/, "") + ", " + strip(o.place))}">Maps ↗</a>` : ""}
+        </div>` : ""}
+        ${d.slack ? `<div class="fslack"><div class="eyebrow">If you're behind</div><div>${d.slack}</div></div>` : ""}
+      </div>
+      ${d.warnings ? `<div class="callout prose">${d.warnings}</div>` : ""}
+      <div class="row">
+        ${d.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Day route"} ↗</a>`).join("") : ""}
+        <a class="btn" href="#t-${t.slug}-plan">Whole day</a>
+        <button type="button" class="btn ask" data-ask="${esc(askPrompt(t, d, nxt >= 0 ? strip(d.schedule[nxt].title) : ""))}">Ask Claude</button>
+        <span class="ask-msg muted" style="font-size:12.5px"></span>
+      </div>
+    </div>`;
+  }
+
+  /* --------------------------------------------------- booking windows */
+  /** Grouped against this phone's date, so a copy cached a week ago still
+      says "open now" on the right day. The dates themselves are built. */
+  function bookingGroups(today) {
+    const w = D.booking ?? [];
+    const by = (k) => (a, b) => (a[k] < b[k] ? -1 : a[k] > b[k] ? 1 : 0);
+    return {
+      open: w.filter((x) => x.opens && x.opens <= today).sort(by("target")),
+      soon: w.filter((x) => x.opens && x.opens > today).sort(by("opens")),
+      anytime: w.filter((x) => x.anytime).sort(by("target")),
+      unknown: w.filter((x) => !x.opens && !x.anytime).sort(by("target")),
+    };
+  }
+  function bookingSummary(today) {
+    if (!(D.booking ?? []).length) return "";
+    const g = bookingGroups(today), first = g.soon[0];
+    return `<a class="panel booksum" href="#book">
+      <div><div class="eyebrow">Booking windows</div>
+      <div>${g.open.length ? `<b>${g.open.length} open now</b>` : "None open now"}${first ? ` · next opens ${fmt(first.opens)}, in ${daysBetween(today, first.opens)} days` : ""}</div></div>
+      <span class="go muted" aria-hidden="true">›</span></a>`;
+  }
+
   /* ---------------------------------------------------------- views */
   const V = {};
+
+  V.book = () => {
+    const today = now().date;
+    const g = bookingGroups(today);
+    const row = (x, right) => `<div class="brow${x.opens === today ? " is-today" : ""}"><div>
+      <div>${x.what}</div>
+      <div class="where"><a href="#t-${x.slug}-prep">${esc(x.trip)}</a> · ${esc(x.system)}${x.published ? " · published date" : ""}</div></div>
+      <div class="when mono">${right}</div></div>`;
+    const block = (title, note, list, right) => list.length ? `<div class="section"><div><h2>${title} <span class="muted" style="font-weight:400">${list.length}</span></h2>${note ? `<div class="muted small">${note}</div>` : ""}</div><div class="panel divide">${list.map((x) => row(x, right(x))).join("")}</div></div>` : "";
+    const fmtY = (s) => fmt(s) + (s.slice(0, 4) === today.slice(0, 4) ? "" : ` ${s.slice(0, 4)}`);
+    const rel = (x) => (x.releaseET ? `<br>${clock(toMin(x.releaseET))} ET` : "");
+    return `<div class="stack"><a class="back" href="#now">← Now</a><h1>Booking windows</h1>
+      <p class="muted" style="margin:0">Every reservation not marked booked. Opening dates are computed (first night minus the lead time in <code>me/booking.md</code>) or a published release date.</p>
+      ${block("Open now", "The window has opened.", g.open, (x) => `<span class="muted">opened</span><br>${fmtY(x.opens)}`)}
+      ${block("Opens soon", "", g.soon, (x) => { const d = daysBetween(today, x.opens); return `${fmtY(x.opens)}${rel(x)}<br><b>${d === 0 ? "today" : `in ${d} day${d === 1 ? "" : "s"}`}</b>`; })}
+      ${block("Bookable anytime", "No rolling window for these.", g.anytime, (x) => `<span class="muted">for</span><br>${fmtY(x.target)}`)}
+      ${block("Window unknown", "Confirm these by hand.", g.unknown, (x) => `<span class="muted">for</span><br>${fmtY(x.target)}`)}
+      ${D.ics ? `<div class="panel pad"><div class="eyebrow">Calendar alarms</div>
+        <p style="margin:4px 0 10px;font-size:14px">One event per window that hadn't opened when this page was built: at the release minute when it's known, with an alarm the evening before (and 10 minutes ahead for a timed release). Re-importing updates the same events.</p>
+        <a class="btn primary" href="booking-alarms.ics" download="booking-alarms.ics" data-ics>Download .ics</a></div>` : ""}
+      <p class="muted" style="font-size:12.5px">Same computation as <code>tools/now.mjs</code> and <code>tools/ics.mjs</code>. Mark a row <code>booked: true</code> in its <code>trip.md</code> to drop it.</p>
+    </div>`;
+  };
 
   V.now = () => {
     const n = now();
     const active = D.trips.find((t) => tripState(t, n.date) === "active");
-    const next = D.trips.filter((t) => tripState(t, n.date) === "upcoming").sort((a, b) => a.start < b.start ? -1 : 1)[0];
+    // Like tools/now.mjs: a trip with only a target date still counts as next,
+    // labelled as a target so it never reads as booked.
+    const when = (t) => t.start ?? t.target;
+    const next = D.trips.filter((t) => tripState(t, n.date) === "upcoming" || (!t.start && t.target > n.date && !["done", "shelved"].includes(t.status)))
+      .sort((a, b) => when(a) < when(b) ? -1 : 1)[0];
     let top = "";
     if (active) {
       const d = active.days.find((x) => x.date === n.date);
-      const mins = startMinutes(d.schedule);
-      const cur = mins.findIndex((m, i) => m != null && m <= n.minutes && (mins[i + 1] ?? 1e9) > n.minutes);
-      const nxt = mins.findIndex((m) => m != null && m > n.minutes);
-      const sunset = d.sun && /(\d+):(\d+)/.exec(d.sun.sunset);
-      const sunsetMin = sunset ? ((+sunset[1] % 12) + 12) * 60 + +sunset[2] : null;
-      const tomorrow = active.days.find((x) => x.n === d.n + 1);
-      const tFirst = tomorrow?.schedule.find((r) => !/optional/i.test(r.time));
-      top = `<div class="stack">
-        <div class="eyebrow">${esc(active.title)} · Day ${d.n} of ${active.days.length}</div>
-        <div class="pace panel">
-          <div><div class="eyebrow">The plan has you at</div><div class="pace-now">${cur >= 0 ? `<span class="mono">${esc(d.schedule[cur].time)}</span> ${d.schedule[cur].title}` : nxt >= 0 ? "Before the day's first item" : "Done for the day"}</div></div>
-          <div class="pace-grid">
-            <div><div class="eyebrow">Next</div><div>${nxt >= 0 ? `<span class="mono">${esc(d.schedule[nxt].time.split("→")[0].trim())}</span> ${d.schedule[nxt].title}` : "—"}</div></div>
-            <div><div class="eyebrow">To sunset</div><div class="mono">${sunsetMin != null ? (sunsetMin > n.minutes ? hm(sunsetMin - n.minutes) : "after sunset") : "—"}</div></div>
-            <div><div class="eyebrow">Tomorrow starts</div><div>${tFirst ? `<span class="mono">${esc(tFirst.time.split("→")[0].trim())}</span> ${tFirst.title}` : "Home"}</div></div>
-          </div>
-          ${d.slack ? `<div class="pace-slack"><div class="eyebrow">If you're behind</div><div>${d.slack}</div></div>` : ""}
-        </div>
-        ${dayCard(active, d, { open: true, today: true, hideNext: true, nowMinutes: n.minutes })}
-        <div class="row"><a class="btn" href="#t-${active.slug}-plan">Whole plan</a><a class="btn" href="#t-${active.slug}-places">Places</a></div>
-      </div>`;
+      top = d ? fieldCard(active, d, n) : `<div class="hero"><div class="eyebrow">On the road</div><h2><a href="#t-${active.slug}-plan" style="text-decoration:none">${esc(active.title)}</a></h2><div>No day in the plan for ${fmt(n.date)}.</div></div>`;
     } else if (next) {
-      const days = daysBetween(n.date, next.start);
+      const days = daysBetween(n.date, when(next));
       const tasks = [
         ...next.reservations.filter((r) => !r.done).map((r) => ({ cls: "warn", html: r.text, where: "Prep · checks" })),
         ...next.questions.map((q) => ({ cls: "", html: q.q, where: `Prep · open question${q.blocks ? " · blocks " + strip(q.blocks).slice(0, 60) : ""}` })),
         ...D.gearNeeds.map((g) => ({ cls: g.state === "need" ? "warn" : "", html: `${g.name} <span class="pill pill-${g.state}">${g.state}</span>`, where: "Me · gear" })),
       ];
       top = `<div class="hero">
-          <div class="eyebrow">Next trip</div>
+          <div class="eyebrow">Next trip${next.start ? "" : ` · target ${fmt(next.target)}, not booked`}</div>
           <div class="countdown">${days}<small>day${days === 1 ? "" : "s"}</small></div>
           <h2><a href="#t-${next.slug}-plan" style="text-decoration:none">${esc(next.title)}</a></h2>
           <div>${esc(next.datesLabel ?? "")} · ${esc(next.region ?? "")}</div>
@@ -196,6 +283,7 @@
     return `<div class="stack">
       <div class="row" style="justify-content:space-between;align-items:baseline"><h1>Now</h1><span class="mono muted" style="font-size:13px">${fmt(n.date)}${n.preview ? " · preview" : ""}</span></div>
       ${top}
+      ${bookingSummary(n.date)}
       <div class="section">
         <h2>Recently logged</h2>
         <div class="panel divide">${recent.map((e) => `<a class="entry" style="text-decoration:none;color:inherit" href="#t-${e.t.slug}-journal"><time>${fmt(e.date)}</time><div><div style="font-weight:500">${e.title}</div><div class="muted" style="font-size:13px">${esc(e.t.title)}</div></div></a>`).join("")}</div>
@@ -403,9 +491,11 @@
       html = V.idea(D.ideas.find((i) => i.slug === h.slice(2))); tab = "trips";
     } else if (h.startsWith("me-") && D.me.find((m) => m.id === h.slice(3))) {
       html = V.meFile(D.me.find((m) => m.id === h.slice(3))); tab = "me";
-    } else if (V[h] && ["now", "trips", "bucket", "kitchen", "me"].includes(h)) { html = V[h](); tab = h; }
+    } else if (h === "book") { html = V.book(); }
+    else if (V[h] && ["now", "trips", "bucket", "kitchen", "me"].includes(h)) { html = V[h](); tab = h; }
     else html = V.now();
-    $view.innerHTML = html + `<div class="foot">Built ${esc(D.builtAt.slice(0, 16).replace("T", " "))} UTC from the Colin-Travel-Planner files.</div>`;
+    $view.innerHTML = `<div class="netstate" id="netstate"></div>` + html + `<div class="foot">Built ${esc(D.builtAt.slice(0, 16).replace("T", " "))} UTC from the Colin-Travel-Planner files.</div>`;
+    netState();
     document.querySelectorAll(".tabbar a").forEach((a) => { if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
     const today = $view.querySelector(".day.is-today");
     if (today && tm) today.scrollIntoView({ block: "start" }); else window.scrollTo(0, 0);
@@ -429,9 +519,46 @@
     }
     const f = e.target.closest("[data-filter]");
     if (f) { const v = f.dataset.val, y = window.scrollY; store.set(f.dataset.filter, f.dataset.filter === "ideaMonth" ? Number(v) : v); render(); window.scrollTo(0, y); return; }
+    const ics = e.target.closest("[data-ics]");
+    if (ics && !hosted) {
+      // No booking-alarms.ics beside this copy (claude.ai, or a saved file):
+      // hand over the same text, embedded at build time.
+      e.preventDefault();
+      try {
+        const url = URL.createObjectURL(new Blob([D.ics], { type: "text/calendar" }));
+        const a = document.createElement("a"); a.href = url; a.download = "booking-alarms.ics";
+        document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 5000);
+      } catch {}
+      return;
+    }
     if (e.target.id === "pv-trip") { store.set("previewAt", "2026-10-18T09:00"); render(); }
     if (e.target.id === "pv-clear") { store.set("previewAt", null); render(); }
   });
   window.addEventListener("hashchange", render);
+  window.addEventListener("online", netState);
+  window.addEventListener("offline", netState);
+
+  /* ---------------------------------------------------------- offline */
+  /* On GitHub Pages the page sits beside sw.js, the manifest and the icons.
+     The claude.ai copy and a file:// copy have none of them, so nothing is
+     registered there and the page behaves exactly as before. */
+  function netState() {
+    const el = document.getElementById("netstate");
+    if (!el) return;
+    const built = new Date(D.builtAt), age = Math.max(0, Math.round((Date.now() - built) / 6e4));
+    const ago = age < 90 ? `${age} min ago` : age < 36 * 60 ? `${Math.round(age / 60)} h ago` : `${Math.round(age / 1440)} days ago`;
+    const off = navigator.onLine === false;
+    el.className = "netstate" + (off ? " off" : "");
+    el.innerHTML = `<span class="dot"></span><span>${off ? "Offline" : "Online"} · built ${MON[built.getMonth()]} ${built.getDate()}, ${clock(built.getHours() * 60 + built.getMinutes())} · <span class="muted">${ago}</span></span>`;
+  }
+  if (hosted) {
+    try {
+      for (const [rel, href, type] of [["manifest", "manifest.webmanifest"], ["icon", "icon.svg", "image/svg+xml"], ["apple-touch-icon", "apple-touch-icon.png"]]) {
+        const l = document.createElement("link"); l.rel = rel; l.href = href; if (type) l.type = type; document.head.appendChild(l);
+      }
+      if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+    } catch {}
+  }
+
   render();
 })();
