@@ -56,13 +56,22 @@ Colin: *"a comprehensive bucket list of little things here and there"*, next to 
 - **Trips → Potential trips** are grouped by the horizon test (Only now · Confirmed · Keeps · Weekend) instead of A–Z. Month and drive/fly filters stay.
 - **A trip's Places section** lists its bucket items, plus the wanted ones in the trip's `states` that aren't on the plan. **An idea page** lists the items that point to it.
 
+## v4 (2026-10-29): offline, the field card, booking windows
+
+Colin asked for four things: works with no signal, a today view for the field, a booking calendar, and a faster page.
+
+- **Offline, on GitHub Pages.** `.github/workflows/pages.yml` builds `site/` on every push to `main` and deploys it. The build also writes `sw.js` (a service worker: the page is network-first with a 4-second fallback to the cached copy, so a new build shows up whenever there's signal; the cache is named by a hash of the build), `manifest.webmanifest` and icons for the home screen, and `booking-alarms.ics`. The page registers the worker only when served over http(s) from somewhere other than claude.ai, so the claude.ai copy and a saved file behave as before. Fonts are now the phone's own (no Google Fonts), so the page makes no external request. A line at the top of every view says online or offline and when this copy was built.
+- **The field card.** During a trip, Now is one card: time to sunset (and to dark after sunset) from the computed sun table, tomorrow's first item, today's schedule as compact rows (start, title, duration, Maps) with the current row marked *Now*, the next one highlighted and past ones dimmed, tonight's camp with its Maps link and confirmation, the slack line, the day's warnings, and the day-route buttons. Rows struck through in `trip.md` show as *Cut* and no longer count as the next item. The full day (food, light table, "why this day") is one tap away under *Whole day*.
+- **Booking windows** (`#book`, linked from Now). The same computation as `tools/now.mjs` (`tools/lib/booking.mjs`, run at build time), grouped on the phone's own date: open now · opens soon (date, days to go, the ET release time when known) · bookable anytime · window unknown. *Download .ics* gives `tools/ics.mjs`'s own output.
+- **Smaller.** The data blob only escapes `</` now (it used to escape every `<`), and fields no view showed are no longer shipped: a trip's subtitle, theme, tags, nights, distance, budget, the day type, a place's source and the sun table's location and moon columns, an idea's tags, budget, target and teaser, a `me/` file's topic. 1,117 KB → 1,048 KB (gzip 325 → 318 KB). The rest is content Colin can open. Without the web fonts, a local load went from about 990 ms to about 65 ms.
+- **Next trip on Now** falls back to a trip's `target` date, as the briefing does, labelled "target, not booked".
+
 ## Not built yet
 
-Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it. Its last snapshot still works offline for Appalachians.
+Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it.
 
-- **Offline:** a service worker and bundled fonts. Right now the fonts come from Google, and the prototype is a published preview, not the Pages site.
+- **GitHub Pages is off.** It needs Settings → Pages → Source: GitHub Actions, once, by Colin. Until then the offline copy only exists on a local server.
 - **The map view:** vendored Leaflet, verified pins only, routes where they're generated.
-- **The agenda / booking-window calendar** from Trees' `derive.js`, and the free-window Calendar.
+- **The free-window Calendar** from Trees.
 - **Search.**
-- **A GitHub Action** to build on every push to `main` and deploy to Pages.
-- **Print, GPX and ICS exports.**
+- **Print and GPX on the site.** `tools/pack.mjs` makes them per trip; the site doesn't link them yet.

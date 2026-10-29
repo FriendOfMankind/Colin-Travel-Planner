@@ -1,4 +1,4 @@
-# The format round-trip tests and a stale-INDEX check. The Trees round-trip
+# The format round-trip tests, a stale-INDEX check, and that the site builds.
 # tests skip here (no Trees checkout in CI); they run locally before import.
 name: check
 on: [push, pull_request]
@@ -13,3 +13,4 @@ jobs:
       - run: npm test
       - run: node tools/index.mjs --check
       - run: node tools/macros.mjs --check
+      - run: node tools/build.mjs

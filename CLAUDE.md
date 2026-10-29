@@ -88,7 +88,7 @@ npm test               # format, trips, wishlist, bucket and date tests
 node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a date)
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
-node tools/build.mjs   # site/index.html
+node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, manifest, icons, booking-alarms.ics for Pages
 node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins, for Drive and Organic Maps
 ```
@@ -98,7 +98,7 @@ node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified 
 Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
-1. **Offline site.** The claude.ai page doesn't work without signal. **Partly solved 2026-10-29:** `tools/pack.mjs` makes a per-trip PDF and GPX for Google Drive (offline) and Organic Maps.
+1. **Turn on GitHub Pages.** The offline site is built (2026-10-29: service worker, home-screen manifest, booking windows page, field card; see `docs/SITE.md` v4) and `.github/workflows/pages.yml` deploys it on every push to `main`, but Pages stays off until Colin sets Settings → Pages → Source: GitHub Actions. `tools/pack.mjs` still makes the per-trip PDF and GPX for Drive and Organic Maps.
 2. **Port `mapbench.html`** so coordinates can be placed against this repo.
 3. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
 4. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
