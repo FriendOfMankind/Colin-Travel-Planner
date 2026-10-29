@@ -102,7 +102,7 @@ page:
 
 # The Long Way to Glacier
 
-> ⭐ **The trigger is Glacier.** ✅ **No timed-entry vehicle reservation** — it was eliminated for 2026 after five years, across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork. That park's entry on this list used to be subtitled "worst bureaucracy" and the objection is simply gone. Entry pass only.<br><br>✅ **June was checked and rejected on the facts.** US-212 opened May 23 2026 and was closed again by snow until June 9. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Moving the trip three weeks fixed more than any destination swap did — **every anchor on this route is comfortably in season in mid-July and none of them was in June.**<br><br>Out on I-90: Badlands, the Cloud Peak Skyway, the Beartooth Plateau at 9,518 ft, Lamar Valley, then **seven nights at Glacier**, then **west to the Columbia Gorge to meet the friends for the Oregon boys week (Aug 1–10)**, and home from Portland.<br><br>✂️ **Cut from 25 days to 21, and the cut came off the front end.** Custer State Park and Devils Tower are gone; Badlands runs straight into the Bighorns. Chosen over trimming Theodore Roosevelt or a Glacier night, and it is the better trade — **it bought Glacier a seventh night rather than costing one**, which is what lets the two hardest hikes land on a Sunday and a Monday instead of a weekend. The costs are real and on the page: Black Elk Peak was the best hike on the eastern half, the altitude now goes 2,500 ft → 9,100 ft in a single day, and **the first shower is now day fifteen.**<br><br>🚨 **The remaining risk is length, not any single day.** The profile says 2–5 campgrounds and 5–10 nights; this is now **32 nights**, three times the longest trip on record. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation.<br><br>⚠️ **Kenai is out of 2027** (deferred to a PTO year, 2026-09-30), so the end date no longer protects anything, which is why the trip moved a week later on 2026-10-10; August is now the Oregon boys week, joined onto this trip. 🚨 The tight gap is now on the front end: **Newfoundland gets home ~June 24, nineteen days before this leaves**. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh; the turnaround is about you, not the car
+> Solo out on I-90 (Badlands, the Bighorns, the Beartooth Plateau, Lamar Valley), then **seven nights at Glacier**, then west to the Columbia Gorge for **the Oregon boys week, Aug 1–10**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 32 nights, three times your longest trip.** Days 6, 17, 19 and 26 are soft on purpose.
 
 ## Overview
 
@@ -110,36 +110,31 @@ Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, the
 
 ### Dates
 
-July 13 – August 14, 2027 *(shifted a week later on 2026-10-10, Colin's call: the Grinnell Glacier trail typically opens mid-July and opened ~July 15 in 2026, so July 19 had too little margin. Every weekday stays where it was. Was: July 6–26)*
-33 days / 32 nights
+July 13 – August 14, 2027 · 33 days / 32 nights *(moved a week later on 2026-10-10, Colin's call, so the Grinnell Glacier trail is open: it opened ~July 15 in 2026)*
 
 ### Group
 
-**Solo Jul 13 – Jul 31.** One person, one tent, one portion. **Aug 1–10: Colin + a group of friends** who fly CLE ⇄ PDX *(stated 2026-10-15: "I found a group that is interested in going, August one through 10th")*. Headcount not recorded, and it decides the car: Colin + 3 fits the Legacy, 5 means a rental minivan. **Solo again Aug 10–14** for the drive home.
+**Solo Jul 13 – Jul 31.** **Aug 1–10: Colin + a group of friends** who fly CLE ⇄ PDX *(stated 2026-10-15)*. Headcount not recorded, and it decides the car: Colin + 3 fits the Legacy, 5 means a rental minivan. **Solo again Aug 10–14** for the drive home.
 
 ### Why July, not June
 
-June was checked and it is the gap month on this whole list. Beartooth needs late June at minimum, Snowy Range's campgrounds open July 4, the San Juans hold snow into July. **Moving three weeks fixed more than any destination swap.**
+June is the gap month on this whole list: US-212 opened May 23 2026 and was closed again by snow until June 9, Snowy Range's campgrounds open July 4, and the San Juans hold snow into July. Moving three weeks fixed more than any destination swap.
 
 ### Why Glacier anchors it
 
-✅ **No timed-entry vehicle reservation.** Glacier dropped it for 2026 after five years, and the single largest objection to the park went with it. Entry pass only. ⚠️ That decision was announced for 2026; nothing for 2027 has been announced yet *(checked 2026-10-10)*. In its place the park closes roads temporarily when lots fill (glacierguides.com, snippet).
-
-### The cut that bought a week
-
-This was a 25-day draft. The four days came off the **front end** — Custer State Park and Devils Tower are gone, Badlands runs straight into the Bighorns. That trade **added** a Glacier night instead of costing one.
+The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation** in 2026, the first year in five. What's left: a 3-hour parking limit at Logan Pass and a $1 ticketed shuttle (both 2026 pilots), and the campground race. 2027's rules aren't announced *(checked 2026-10-29)*.
 
 ### The booking date
 
-**Mid-January 2027.** Glacier camping is a 6-month rolling window released daily and the good campgrounds go the day they open. Slough Creek is worse: **16 sites, gone in minutes.**
+**Mid-January 2027.** Glacier camping is a 6-month rolling window released daily, and the good campgrounds go the day they open. Slough Creek is worse: **16 sites, gone in minutes.** The briefing computes each date.
 
-### ⚠️ Still twice your longest trip
+### Length
 
-The profile says 2–5 campgrounds, 5–10 nights. This is **32 nights**, three times the 11-day Appalachians run. **Days 6, 17, 19 and 26 are deliberately soft** and that is the mitigation.
+The profile says 2–5 campgrounds and 5–10 nights. This is **32 nights**, three times the 11-day Appalachians run. **Days 6, 17, 19 and 26 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
 
 ### Timing vs Newfoundland
 
-**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24; this leaves July 13. Nineteen days to rest and repack. Newfoundland is in the Sienna, so the Legacy hasn't just done 5,700 mi. Kenai was the old reason this ended July 26, and it moved to a PTO year on 2026-09-30.
+**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24, and this leaves July 13: nineteen days to rest and repack. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh.
 
 ## Days
 
@@ -1505,20 +1500,6 @@ Download offline Google Maps for the whole corridor before leaving: Chicago–Ma
 
 ## Notes
 
-### Why this is a July trip, and why that mattered more than the destination
-
-The June road trip was checked destination by destination and June turned out to be the gap month in this entire wishlist. Beartooth needs late June at absolute minimum — US-212 opened May 23 in 2026 and was **closed again by snow until June 9**. Snowy Range's campgrounds open July 4. The San Juans hold snow into early July. Lake Superior is peak blackfly. Utah is too hot, and Colorado's high country is still melting.
-
-**Moving the trip three weeks fixed more than any destination swap did.** Every anchor on this route is comfortably in season in mid-July and none of them was in June. That is the whole reason this page exists in this shape.
-
-### Why Glacier anchors it
-
-✅ **Glacier has no timed-entry vehicle reservation.** It was eliminated for 2026 after five years — across Going-to-the-Sun, Many Glacier, Two Medicine and North Fork — and the registry entry for that park used to be subtitled "worst bureaucracy." That objection is gone. Entry pass only, and the America the Beautiful pass covers it.
-
-What replaced it is smaller and still real: a **3-hour parking cap at Logan Pass from July 1**, and a **$1 ticketed shuttle** instead of the free hop-on service. The shuttle is quietly useful — it is what makes a point-to-point Highline Trail route possible, which is otherwise a car-shuttle problem for a solo traveller.
-
-Camping is where the difficulty moved. 6-month rolling window, released daily, and Many Glacier, Apgar and Avalanche all go the day they open. **Mid-January 2027 is the date that cannot be moved.**
-
 ### The 21-day cut: what it bought and what it cost
 
 This started as a 25-day draft and the four days came off the **front end**: Custer State Park and Devils Tower are gone, and Badlands now runs straight into the Bighorns.
@@ -1529,16 +1510,6 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
 • **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. Day 4 is now 2,500 ft to 9,100 ft in one drive, followed by an 11-mile hike on Day 5. The Mirror Lake bail-out exists for exactly that.
 • **Fifteen days to the first shower.** Custer State Park was the only mid-route one. Apgar on Day 15 is now it. Cheap to solve with a paid shower in Cody or Great Falls; easy to forget until day nine.
-
-### The length is still the risk, and two days are held against it
-
-🚨 **Nothing on this route is individually hard, and that is exactly why the length is the thing to worry about.**
-
-The profile says **2–5 campgrounds per trip, 5–10 nights**. This is **32 nights**, three times the longest trip on record here, the 11-day [Appalachians](../appalachians-2026/) run.
-
-**Four days are deliberately soft and they are the mitigation:** Day 6 in the Bighorns, after the 11-mile Lost Twin Lakes day; Day 17 at Glacier, which is genuinely unscheduled with St. Mary Falls as a default rather than a plan; the Hood River reset (Day 19); and the Bend off day (Day 26). Over three weeks something will be weathered out, closed or simply missed, and those two days are where it goes.
-
-**Theodore Roosevelt was cut on 2026-10-15**, though for a different reason than this lever: the trip now turns west to Oregon for the friends' week instead of driving home on I-94.
 
 ### Two hikes are over the ceiling, on purpose, with bail-outs
 
@@ -1572,6 +1543,4 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-Maui is shelved for spring 2028 (`wishlist/maui.md`). [Newfoundland](../newfoundland-2027/) is May 23–June 24, by road. This is July 13 – August 14, **with the Oregon boys week (Aug 1–10) joined on**. ~~Eastern Sierra is the probable August week.~~
-
-**August is the Oregon boys week, joined onto this trip** (`wishlist/august-friends-2027.md`; a group is in, stated 2026-10-15). It's still the first thing to drop if the summer runs long: it survives a two-week PTO allowance in 2028 and every year after. Two long drives in one summer do not. **The horizon is Aug 31 2027, when full-time work starts and the academic calendar stops being the constraint.** Everything about the shape of this summer follows from that one date.
+Newfoundland (May 23 – June 24, by road), then this (July 13 – August 14, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**
