@@ -15,9 +15,12 @@
   --warn-soft: #f8e6e1;
   --ok: #2f7a46;
   --water: #2c5e8c;
-  --display: "Barlow Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
-  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  /* System fonts only: nothing to download, so the page renders the same
+     with no signal. Condensed faces where the phone has one (iOS: Avenir
+     Next Condensed; Android: Roboto Condensed via sans-serif-condensed). */
+  --display: "Avenir Next Condensed", "Roboto Condensed", sans-serif-condensed, "Arial Narrow", system-ui, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, "Roboto Mono", Consolas, monospace;
   --radius: 10px;
   --bar: 64px;
 }
@@ -240,14 +243,47 @@ details.fold > div { padding: 0 16px 14px; }
 .glance-key { display: flex; gap: 14px; flex-wrap: wrap; font-size: 11.5px; padding: 8px 14px 4px; }
 .glance-key i { display: inline-block; width: 10px; height: 8px; border-radius: 2px; margin-right: 4px; vertical-align: 0; }
 
-/* v2: pace check */
-.pace { padding: 14px 16px; display: flex; flex-direction: column; gap: 12px; border-color: var(--today); }
-.pace-now { font: 600 22px/1.2 var(--display); }
-.pace-now .mono { font: 500 13px var(--mono); color: var(--muted); display: block; }
-.pace-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; font-size: 13.5px; }
-.pace-grid .mono { font-size: 12.5px; color: var(--muted); margin-right: 3px; }
-.pace-slack { font-size: 13.5px; border-top: 1px solid var(--line); padding-top: 10px; }
-@media (max-width: 480px) { .pace-grid { grid-template-columns: 1fr 1fr; } .glance-head, .glance-row { grid-template-columns: 50px 44px 1fr 30%; gap: 8px; padding-inline: 12px; } }
+@media (max-width: 480px) { .glance-head, .glance-row { grid-template-columns: 50px 44px 1fr 30%; gap: 8px; padding-inline: 12px; } }
+
+/* v4: the field card (Now, during a trip) */
+.small { font-size: 12.5px; }
+.field { gap: 10px; }
+.field h2 { margin-top: 2px; }
+.fcard { border-color: var(--today); overflow: hidden; }
+.fgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 12px; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+.fgrid .big { font: 600 26px/1.1 var(--mono); }
+.frows { display: flex; flex-direction: column; }
+.frow { display: grid; grid-template-columns: 46px minmax(0, 1fr) auto auto; gap: 8px; align-items: baseline; padding: 7px 14px; border-top: 1px dashed var(--line); font-size: 14px; }
+.frow:first-child { border-top: 0; }
+.frow .ft { font-size: 12.5px; color: var(--muted); }
+.frow .fw { font-weight: 500; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.frow .fe { font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+.frow .maps { font-size: 12.5px; white-space: nowrap; }
+.frow.is-past { opacity: .5; }
+.frow.is-cut { opacity: .5; }
+.frow.is-cut .fw { text-decoration: line-through; }
+.frow.is-cut .tag { background: var(--sunk); color: var(--muted); }
+.frow.is-now { box-shadow: inset 3px 0 0 var(--accent); }
+.frow.is-next { background: var(--today-soft); }
+.frow.warn .fw::before { content: "⚠ "; color: var(--warn); }
+.frow .tag { font: 600 10.5px/1 var(--display); text-transform: uppercase; letter-spacing: .08em; padding: 3px 5px; border-radius: 4px; background: var(--today); color: #1b2220; margin-right: 6px; vertical-align: 1px; }
+.frow.is-now .tag { background: var(--accent); color: var(--accent-ink); }
+.tonight { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: start; padding: 10px 14px; border-top: 1px solid var(--line); font-size: 14px; }
+.fslack { padding: 10px 14px; border-top: 1px solid var(--line); font-size: 13.5px; }
+
+/* v4: booking windows */
+.booksum { display: grid; grid-template-columns: 1fr auto; gap: 10px; align-items: center; padding: 12px 14px; text-decoration: none; color: inherit; }
+.brow { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 11px 14px; align-items: start; font-size: 14px; }
+.brow .where { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.brow .when { font-size: 12px; text-align: right; white-space: nowrap; }
+.brow.is-today { background: var(--today-soft); }
+
+/* v4: online / offline and how old this copy is */
+.netstate { display: flex; align-items: center; gap: 6px; font: 12px/1.3 var(--mono); color: var(--ink-2); margin: -8px 0 12px; white-space: nowrap; overflow: hidden; }
+.netstate > span:last-child { overflow: hidden; text-overflow: ellipsis; }
+.netstate .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--ok); flex: none; }
+.netstate.off { color: var(--warn); }
+.netstate.off .dot { background: var(--warn); }
 
 /* idea filters */
 .filters { display: flex; gap: 6px; overflow-x: auto; padding: 2px 0 8px; scrollbar-width: none; }

@@ -1,23 +1,33 @@
 #!/usr/bin/env node
 /* build.mjs — the website, generated from the same files the AI reads.
 
-     node tools/build.mjs        # writes site/index.html
+     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics
 
    One self-contained page: every trip, log, preference and meal is parsed
    here at build time into one JSON blob, and site/src/app.js renders views
    from it in the browser. One file means it works offline once loaded, and
    there is nothing to go out of sync: the site cannot say anything the
-   Markdown doesn't. Nothing here invents content; it only reshapes it. */
+   Markdown doesn't. Nothing here invents content; it only reshapes it.
+
+   index.html alone is what the claude.ai page publishes. The other files
+   are for GitHub Pages (.github/workflows/pages.yml): a service worker that
+   keeps the page on the phone for no-signal use, a manifest and icons for
+   the home screen, and the booking alarms as a calendar file. */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { marked } from "marked";
 import { parseTrip, splitFrontmatter, sections } from "./lib/format.mjs";
-import { parseIdea, summarize } from "./lib/wishlist.mjs";
+import { parseIdea } from "./lib/wishlist.mjs";
 import { parseBucket, horizonOf } from "./lib/bucket.mjs";
 import { dayStops, routeLinks, campStop } from "./lib/route.mjs";
+import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
+import { buildIcs } from "./ics.mjs";
+import { pngIcon, svgIcon } from "./lib/icon.mjs";
+import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -100,29 +110,32 @@ function buildTrip(slug) {
   const allPlaces = places.flatMap((g) => g.places);
 
   return {
-    slug, title: r.title, subtitle: r.subtitle, status: r.status, start: r.start ?? null, end,
-    datesLabel: r.dates, region: r.region, states: r.states ?? [], theme: r.theme, why: mdi(r.why), next: mdi(r.next),
-    nights: r.nights, distance: r.distance, budget: r.budget, tags: r.tags ?? [],
-    booking: (r.booking ?? []).map((b) => ({ ...b, what: mdi(b.what) })),
+    // Only what a view renders: subtitle, theme, tags, nights, distance and
+    // budget never reached the screen, so they stay in trip.md.
+    slug, title: r.title, status: r.status, start: r.start ?? null, target: r.target ? String(r.target) : null, end,
+    datesLabel: r.dates, region: r.region, states: r.states ?? [], why: mdi(r.why), next: mdi(r.next),
+    booking: (r.booking ?? []).map((b) => ({ what: mdi(b.what), system: b.system, booked: !!b.booked })),
     located: { verified: allPlaces.filter((p) => p.verified).length, total: allPlaces.length },
     route: md(page.meta?.route),
     overview: (page.meta?.overviewCards ?? []).map((c) => ({ h: mdi(c.h), p: md(c.p) })),
     days: (page.days ?? []).map((d, i) => ({
-      n: d.day, date: d.date, title: mdi(d.title), tagline: mdi(d.tagline), type: d.type,
+      n: d.day, date: d.date, title: mdi(d.title), tagline: mdi(d.tagline),
       driving: mdi(d.driving), slack: mdi(d.slack), noSignal: mdi(d.noSignal),
       overnight: d.overnight?.name ? {
         name: mdi(d.overnight.name), place: mdi(d.overnight.place), kind: mdi(d.overnight.kind),
         cost: mdi(d.overnight.cost), checkin: mdi(d.overnight.checkin),
         confirmation: mdi(d.overnight.confirmation), notes: mdi(d.overnight.notes),
+        // The same camp lookup the day route uses: a pin when places.yaml has one.
+        maps: camp(d.overnight, allPlaces)?.q ?? null,
       } : null,
       schedule: (d.schedule ?? []).map((s) => ({ time: s.time, est: s.est ?? "", kind: s.kind, warn: !!s.warn, maps: s.maps ?? null, ...splitRow(s.text) })),
       meals: Object.fromEntries(Object.entries(d.meals ?? {}).map(([k, v]) => [k, mdi(v)])),
       highlights: md(d.highlights), warnings: md(d.warnings),
       route: dayRoute(d, page.days[i - 1], allPlaces),
-      sun: sun?.rows?.[i] ?? null,
+      sun: sun?.rows?.[i] ? (({ firstLight, sunrise, sunset, dark }) => ({ firstLight, sunrise, sunset, dark }))(sun.rows[i]) : null,
     })),
     hikes: (page.hikes?.rows ?? []).map((h) => Object.fromEntries(Object.entries(h).map(([k, v]) => [k, typeof v === "string" ? mdi(v) : v]))),
-    places: places.map((g) => ({ group: g.group, places: g.places.map((p) => ({ ...p, note: mdi(p.note), source: mdi(p.source) })) })),
+    places: places.map((g) => ({ group: g.group, places: g.places.map((p) => ({ name: p.name, star: p.star, days: p.days, maps: p.maps, verified: !!p.verified, lat: p.lat, lng: p.lng, note: mdi(p.note) })) })),
     reservations: (page.reservations ?? []).map((x) => ({ done: !!x.booked, text: mdi(x.text) })),
     questions: (page.openQuestions ?? []).map((q) => ({ q: mdi(q.question), blocks: mdi(q.blocks), detail: md(q.detail) })),
     packing: (page.packing ?? []).map((c) => ({ category: mdi(c.category), items: c.items.map(mdi) })),
@@ -133,7 +146,6 @@ function buildTrip(slug) {
     } : null,
     weather: (page.weather ?? []).map((w) => ({ ...w, notes: mdi(w.notes) })), weatherNote: md(page.weatherNote),
     notes: (page.notes ?? []).map((n) => ({ h: mdi(n.heading), body: md(n.body) })),
-    sunNote: md(sun?.note),
     log,
   };
 }
@@ -157,7 +169,7 @@ function buildMe() {
     const { data, body } = splitFrontmatter(read(`me/${f}`));
     const clean = body.replace(/^# .*\n/, "");
     return {
-      id: f.replace(/\.md$/, ""), topic: data.topic, summary: data.summary ?? "",
+      id: f.replace(/\.md$/, ""), summary: data.summary ?? "",
       html: md(yamlBlocksToLists(clean)),
       lists: { avoid: data.avoid, dislikes: data.dislikes, declined: data.declined },
     };
@@ -211,9 +223,9 @@ function buildIdea(f) {
   return {
     slug: fm.slug ?? f.replace(/\.md$/, ""), title: fm.title, subtitle: fm.subtitle ?? "",
     region: fm.region ?? "", mode: fm.mode ?? "", months: fm.months ?? [],
-    length: fm.days ? `${fm.days} days` : fm.nights ?? "", window: mdi(fm.window), budget: mdi(fm.budget),
-    tags: fm.tags ?? [], target: fm.target ?? null, updated: fm.updated ?? "", ...horizonOf(fm),
-    teaser: mdi(summarize(why, 160)), why: md(why), next: md(next), notes: md(notes), noteCount: entries.length,
+    length: fm.days ? `${fm.days} days` : fm.nights ?? "", window: mdi(fm.window),
+    updated: fm.updated ?? "", horizon: horizonOf(fm).horizon,
+    why: md(why), next: md(next), notes: md(notes), noteCount: entries.length,
   };
 }
 
@@ -228,18 +240,56 @@ function buildBucket() {
   }));
 }
 
+/* ------------------------------------------------------------- booking */
+
+/** Booking windows, computed exactly as tools/now.mjs computes them
+    (lib/booking.mjs). Only the dates are stored: the page groups them
+    against the phone's own clock, so a copy cached for a week still says
+    "open now" on the right day. The .ics is tools/ics.mjs's own output. */
+function buildBooking(today) {
+  const live = ls("trips").filter((s) => has(`trips/${s}/trip.md`))
+    .map((slug) => ({ slug, r: parseTrip(read(`trips/${slug}/trip.md`)).registry }))
+    .filter((t) => !["done", "shelved"].includes(t.r.status));
+  const windows = bookingWindows(live, has("me/booking.md") ? bookingSystems(read("me/booking.md")) : {});
+  return {
+    windows: windows.map((w) => ({
+      slug: w.t.slug, trip: w.t.r.title, what: mdi(w.b.what), system: w.b.system, target: String(w.b.target),
+      opens: w.opens, published: !!(w.b.opens && w.b.opensSource), anytime: w.anytime, releaseET: w.releaseET,
+    })),
+    ics: buildIcs(windows, today),
+  };
+}
+
 /* --------------------------------------------------------------- write */
 
+const localIso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map(buildTrip)
   .sort((a, b) => (a.start ?? "9") < (b.start ?? "9") ? -1 : 1);
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map(buildIdea);
 const bucket = buildBucket();
-const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen() };
+const { windows, ics } = buildBooking(localIso(new Date()));
+const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen(), booking: windows, ics };
 
 const tpl = read("site/src/template.html")
   .replace("/*__CSS__*/", () => read("site/src/app.css"))
   .replace("/*__JS__*/", () => read("site/src/app.js"))
-  .replace("/*__DATA__*/", () => JSON.stringify(data).replace(/</g, "\\u003c"));
+  .replace("/*__DATA__*/", () => scriptJson(data));
+
+// Everything the page can ask for. sw.js precaches the list; its cache is
+// named by a hash of the lot, so any change ships as a new cache.
+const files = {
+  "index.html": tpl,
+  "manifest.webmanifest": JSON.stringify(manifest(), null, 2),
+  "icon.svg": svgIcon(),
+  "icon-192.png": pngIcon(192),
+  "icon-512.png": pngIcon(512),
+  "apple-touch-icon.png": pngIcon(180),
+  "booking-alarms.ics": ics,
+};
+const hash = createHash("sha256");
+for (const [name, body] of Object.entries(files)) hash.update(name).update(body);
+files["sw.js"] = serviceWorker(hash.digest("hex").slice(0, 12), Object.keys(files));
 mkdirSync(join(ROOT, "site"), { recursive: true });
-writeFileSync(join(ROOT, "site/index.html"), tpl);
-console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals`);
+for (const [name, body] of Object.entries(files)) writeFileSync(join(ROOT, "site", name), body);
+console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals, ${windows.length} booking windows`);
+console.log(`  + ${Object.keys(files).filter((f) => f !== "index.html").join(", ")} (for GitHub Pages)`);
