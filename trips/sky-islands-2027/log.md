@@ -90,3 +90,8 @@ COULD NOT VERIFY:
   - (was $20)
   - (was $20)
   - (was $20)
+
+## 2026-10-29 · Not booked; waiting on friends
+
+- **Nothing is booked** *(stated 2026-10-29: "No I haven't booked anything, I'm waiting to see if friends commit")*. That answers the 2026-09-30 question. A Gmail sweep the same day found no Gilbert Ray or Bonita Canyon confirmation either.
+- The "Three alarms, Sept 8 / 9 / 10" booking-race card described a date in the past, so it's rewritten to the current state.

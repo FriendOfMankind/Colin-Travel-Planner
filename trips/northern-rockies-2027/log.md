@@ -263,3 +263,7 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
   - (was: "dropped from 2027 by choice")
   - (was: "The Eastern Sierra is back in 2027 as the probable August week", stated 2026-09-30)
   - (was: "August is now probably a fly-in week with friends", stated 2026-10-10)
+
+## 2026-10-29 · Nothing booked; Oregon waits on the friends committing
+
+- **Nothing is booked for 2027** *(stated 2026-10-29: "I'm waiting to see if friends commit")*. A Gmail sweep the same day agreed: no confirmation for Belknap, the rafts or the motels. The Oregon bookings (Belknap first) wait on the headcount.

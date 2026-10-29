@@ -27,14 +27,14 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 3 entries · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 4 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
 
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 4 open questions · 0/61 places located · log 42 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 14, 2027 (target, unbooked; was Jul 13 – Aug 2 until 2026-10-15, when the Oregon boys week was joined on; was Jul 6–26 until 2026-10-10) · 33 days · 9 open questions · 15/24 places located · log 8 entries · updated 2026-10-29
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 13 – Aug 14, 2027 (target, unbooked; was Jul 13 – Aug 2 until 2026-10-15, when the Oregon boys week was joined on; was Jul 6–26 until 2026-10-10) · 33 days · 9 open questions · 15/24 places located · log 9 entries · updated 2026-10-29
   Solo out on I-90 (Badlands, the Bighorns, the Beartooth Plateau, Lamar Valley), then **seven nights at Glacier**, then west to the Columbia Gorge for **the Oregon boys week, Aug 1–10**, and home from Portland. July,…
 
 ## Done
