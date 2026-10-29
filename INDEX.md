@@ -86,8 +86,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   A country whose camping law already matches how he camps
 - **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
-- **Athens + Kerry (May, with a friend)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora, the Saronic islands and Sounion · fly · confirmed · May · 12 days · 3 research notes · updated 2026-10-29
-  Two nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
+- **Athens + Kerry (May, with a friend)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 12 days · 3 research notes · updated 2026-10-29
+  Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10

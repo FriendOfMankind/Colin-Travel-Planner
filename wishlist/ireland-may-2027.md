@@ -1,15 +1,15 @@
 ---
 slug: ireland-may-2027
 title: Athens + Kerry (May, with a friend)
-subtitle: Two nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
+subtitle: Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
 status: wishlist
 months: [ 5 ]
 mode: fly
 horizon: confirmed
 days: 12
-nights: "~10–11 (1 on the plane out, Kerry 2, Greece 8, Athens as the base plus 1–2 nights away)"
+nights: "~10–11 (1 on the plane out, Kerry 3, Greece 7, Athens as the base plus 2 nights away)"
 window: Sun May 9 – Thu May 20, 2027. Commencement is Sat May 8 and Newfoundland leaves Sun May 23 (`me/calendar.md`, `trips/newfoundland-2027/trip.md`)
-region: Co. Kerry, then Athens as the base for Delphi, Meteora, the Saronic islands and Sounion
+region: Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion
 country: Ireland, Greece
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, ruins, coast, free lodging ]
 updated: 2026-10-29
@@ -18,14 +18,15 @@ source: daydream 2026-10-12 and 2026-10-29 (✅ read on the page, 📋 search sn
 
 # Athens + Kerry (May, with a friend)
 
-*Two nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland*
+*Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland*
 
 ## Start here (handoff for a new chat)
 
 **What's settled:**
 - A friend is committed to Europe in May. **A transatlantic flight is paid** by his family *(stated 2026-10-29)*. Whose seat that covers isn't recorded (see open question 1).
 - He's out of school **May 1**, so he does his Kerry family visit first and Colin joins at the end of it *(stated 2026-10-29)*.
-- **Kerry: 2 nights** (was: 4) *(stated 2026-10-29: "honestly worth the variety")*. **Then the friend comes to Greece with Colin.**
+- **Kerry: 3 nights, May 10–13** (was: 2, and 4 before that) *(stated 2026-10-29: his friend can stay 3 nights, so Colin matches it)*. The friend is in Kerry from early May, and Colin overlaps with the last 3 nights *(stated 2026-10-29)*. **Then the friend comes to Greece with Colin.**
+- **Ireland first, Greece second** *(Colin agreed 2026-10-29)*. The friend is already in Kerry, so they leave together. It also avoids a Thursday Dublin → Cleveland flight that may not exist, lets Kerry absorb the worst of the jet lag (+5 h, then +2 more), and ends on Sounion.
 - **The city is Athens, and the point is to max it out** (was: Athens or Marseille, open) *(stated 2026-10-29: "I want to athensmaxx")*. That means **Athens as a base plus day trips and 1–2 overnights** for whatever is a must-do *(stated 2026-10-29)*.
 - **Home by Thu May 20** *(stated 2026-10-29)*. That leaves May 21–22 for Newfoundland, which leaves Sun May 23.
 - **Dublin: skip it.** Iceland on the way home: declined for May (reasons in the notes below).
@@ -39,7 +40,7 @@ source: daydream 2026-10-12 and 2026-10-29 (✅ read on the page, 📋 search sn
 
 ## Why
 
-The friend and a free bed make Kerry cheap, and 2 nights there is enough variety. The money and the days go to Greece. What Greece adds is heat, the oldest ruins Colin can reach, and a real city to walk *(Claude's reasoning, 2026-10-29)*. **Meteora is the most Colin-shaped thing in reach:** sandstone towers that raise "why does this look like this?", with trails between the monasteries and a sunset viewpoint (`me/travel-style.md`) *(Claude's reasoning, 2026-10-29)*.
+The friend and a free bed make Kerry cheap, and 3 nights there is enough variety. The money and the days go to Greece. What Greece adds is heat, the oldest ruins Colin can reach, and a real city to walk *(Claude's reasoning, 2026-10-29)*. **Meteora is the most Colin-shaped thing in reach:** sandstone towers that raise "why does this look like this?", with trails between the monasteries and a sunset viewpoint (`me/travel-style.md`) *(Claude's reasoning, 2026-10-29)*.
 
 ## The route (draft, ⚠️ every flight time is from the 2026 schedules, so check 2027 before booking)
 
@@ -47,38 +48,37 @@ The friend and a free bed make Kerry cheap, and 2 nights there is enough variety
 |---|---|
 | **Sun May 9** | Cleveland → Dublin overnight. 📋 EI86 ran every day but Thursday in summer 2026, departing 20:10 and landing 08:10 |
 | **Mon May 10** | Land in Dublin. Get to Kerry: 📋 Ryanair Dublin → Kerry is 55 min, with one morning and one afternoon flight. The morning one is too tight after an 08:10 landing, so take the afternoon flight or the train/drive (~4.5–5 h, *recalled, not routed*) |
-| May 10–12 | **Kerry, 2 nights** with the friend's family |
-| **Wed May 12** | 📋 Kerry → Dublin by the morning flight (lands ~10:20–11:20). Then Dublin → Athens, ~4h15. Aer Lingus flew it Thu and Sun, Ryanair most days around 18:00, Aegean Mon and Fri (winter timetables). **Expect a late arrival**, and Athens is 2 h ahead of Dublin |
-| May 12–20 | **Greece, 8 nights** (below) |
+| May 10–13 | **Kerry, 3 nights** with the friend's family |
+| **Thu May 13** | 📋 Kerry → Dublin by the morning flight (lands ~10:20–11:20). Then Dublin → Athens, ~4h15. On Thursdays, Aer Lingus and Ryanair both flew it; Ryanair left around 18:00 (winter timetables). **Expect a late arrival**, and Athens is 2 h ahead of Dublin |
+| May 13–20 | **Greece, 7 nights** (below) |
 | **Thu May 20** | 📋 **Fly home from Athens, not Dublin.** United's Athens → Newark left at 10:25 and landed at 14:05 daily in 2026. Then Newark → Cleveland. American (JFK, Chicago, Philadelphia) and Delta (JFK) also run nonstops |
 | May 21–22 | Home: repack for Newfoundland |
 
 **Why home from Athens:** 📋 the Cleveland–Dublin route ran no Thursday flights in 2026, and May 20, 2027 is a Thursday. Doubling back through Dublin also costs a day.
 
-## Greece: 8 nights, the must-dos
+## Greece: 7 nights, the must-dos
 
 His city-trip rules still apply: one walking route a day, the viewpoint at sunset, weekday mornings for the crowds, and one rest day on a 10+ day trip (`me/travel-style.md`).
 
 | Days | What | Why it's on the list |
 |---|---|---|
-| May 13–14 | **Athens on foot:** Acropolis at opening, the Agora, Plaka and Anafiotika. Filopappou or Lycabettus at sunset. The National Archaeological Museum | The icon. 📋 Cruise ships are in port 27 of 31 May days, so go at opening |
-| May 15–17 | **Delphi + Meteora loop, 2 nights** (1 near Delphi, 1 in Kalambaka) | 📋 Delphi is 180 km and a 10–12 h day trip. Every source says an overnight is better, because you're at the gate before the coaches. 📋 Meteora is ~350 km and needs an overnight to work |
-| May 18 | **Hydra** (car-free) **or Aegina**, by boat from Piraeus | 📋 Aegina is 40 min by hydrofoil with frequent departures. Hydra is farther (time not checked) |
+| May 14–15 | **Athens on foot:** Acropolis at opening, the Agora, Plaka and Anafiotika. Filopappou or Lycabettus at sunset. The National Archaeological Museum | The icon. 📋 Cruise ships are in port 27 of 31 May days, so go at opening |
+| May 16–18 | **Delphi + Meteora loop, 2 nights** (1 near Delphi, 1 in Kalambaka) | 📋 Delphi is 180 km and a 10–12 h day trip. Every source says an overnight is better, because you're at the gate before the coaches. 📋 Meteora is ~350 km and needs an overnight to work |
 | May 19 | **Rest morning, then Cape Sounion for sunset** | 📋 It's a half-day trip, and the Temple of Poseidon at sunset is the classic shot |
 | May 20 | Fly home | |
 
-**First cuts:** Meteora shrinks the loop to Delphi alone (1 night) and frees a day. **Swap option:** Nafplio + Mycenae + Epidaurus is 📋 the best single full day for "ruins plus a nice town", and it can replace the island day.
+**Cut 2026-10-29:** the island day (Hydra or Aegina), to pay for the third Kerry night. Kerry and Sounion already cover the coast *(Colin picked it, 2026-10-29)*. May 17–18 are now two travel-heavy days back to back. **Next cut:** Meteora, which shrinks the loop to Delphi alone (1 night) and frees a day for the island or for Nafplio + Mycenae + Epidaurus (📋 the best single full day for "ruins plus a nice town").
 
 ## Research notes
 
 ### 2026-10-12 · The Dingle version (from an earlier chat, saved here 2026-10-29)
-- The plan was 6 nights in Dingle with free beds, then 1 in Dublin. **Superseded:** now 2 nights, somewhere in Kerry.
+- The plan was 6 nights in Dingle with free beds, then 1 in Dublin. **Superseded:** now 3 nights, somewhere in Kerry.
 - Kerry ideas, all *recalled* and unchecked:
   - Slea Head beehive huts, Dunbeg fort, Gallarus Oratory
   - The abandoned village on Great Blasket (the ferry runs in summer only; mid-May is unconfirmed)
   - Mount Brandon, Killarney and the Gap of Dunloe
   - Tom Crean's South Pole Inn in Annascaul
-- Skellig Michael landings: the 2026 season started May 9, capped at 180 people a day, booking out well ahead. Bad seas allowed landings on only 3 days in the first week *(source: skelligislands.com, Irish Times 2026-05-17, read 2026-10-12)*. **With 2 nights on May 10–12, it's a long shot:** the first days of the season, and no backup day. Don't plan around it.
+- Skellig Michael landings: the 2026 season started May 9, capped at 180 people a day, booking out well ahead. Bad seas allowed landings on only 3 days in the first week *(source: skelligislands.com, Irish Times 2026-05-17, read 2026-10-12)*. **With 3 nights on May 10–13, it's still a long shot:** the first days of the season, and only one possible backup day. Don't plan around it.
 - Kerry to Dublin is about 4.5–5 h by road *(recalled, not routed)*.
 
 ### 2026-10-29 · Flights, the city choice, Iceland
@@ -97,7 +97,7 @@ His city-trip rules still apply: one walking route a day, the viewpoint at sunse
 - **Keep for the real Iceland trip:** 📋 Icelandair includes a free stopover of up to 7 days on transatlantic tickets, and flies Dublin–Pittsburgh *(source: icelandair.com)*. Pittsburgh is ~2 h from home ⚠️. PLAY ended its US flights *(source: businesstraveller.com, 2025-06)*.
 
 ### 2026-10-29 · Athensmaxx: the reshape, and getting home
-- **Decided by Colin:** 2 nights in Kerry, Athens as a base plus day trips and 1–2 overnights, home May 20 *(stated 2026-10-29)*. The friend is out of school May 1 *(stated 2026-10-29)*.
+- **Decided by Colin:** 2 nights in Kerry (later 3, see the top), Athens as a base plus day trips and 1–2 overnights, home May 20 *(stated 2026-10-29)*. The friend is out of school May 1 *(stated 2026-10-29)*.
 - **Marseille: dropped.** Colin wants Athens maxed out. The Calanques hiking was its only real edge *(stated 2026-10-29)*.
 - **Why not "Newfoundland later" instead:** Newfoundland is pinned at both ends: the friends' week (Jun 10–19), the Argentia ferry from Jun 16, and ParksNL's Viking Trail sites opening ~May 29 *(see that trip's file)*. Starting it later only eats Acadia or the Gros Morne ferry buffer. The turnaround gets fixed on this trip's side *(Claude's reasoning, 2026-10-29)*.
 - 📋 **EI86 Cleveland → Dublin, summer 2026:** Mon–Wed and Fri–Sun, 20:10 → 08:10 next day, A321neo *(source: info.flightmapper.net, 2026-10-29)*. 📋 Six a week, no Thursdays *(source: aerospaceglobalnews.com, 2026-05; travelextra.ie, 2025-10)*. 📋 JobsOhio's revenue guarantee runs through 2027 *(source: travelextra.ie, 2025-10)*.
@@ -112,7 +112,7 @@ His city-trip rules still apply: one walking route a day, the viewpoint at sunse
 
 ## Next
 
-**The pitch page for the friend is "Athens, May 12–20"** (https://claude.ai/artifact/FE5pLf7MjWZKCFAxhcEKfu, private until Colin shares it). It's built in the same shape as the Oregon and Newfoundland pages, and its "What I need from you" list asks the open questions below *(made 2026-10-29)*. Rooms aren't priced yet, so it shows no total.
+**The pitch page for the friend is "Athens, May 13–20"** (https://claude.ai/artifact/FE5pLf7MjWZKCFAxhcEKfu, private until Colin shares it). It's built in the same shape as the Oregon and Newfoundland pages, and its "What I need from you" list asks the open questions below *(made 2026-10-29)*. Rooms aren't priced yet, so it shows no total.
 
 1. Find out whose seat the family is paying for. That decides the ticket shape.
 2. Pick the Delphi + Meteora loop or Delphi alone, and car or transit.
