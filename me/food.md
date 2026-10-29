@@ -80,7 +80,7 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
   - **Brami pasta + pasta sauce + meat mixed in** (chicken pouch or sausage). "Would happily eat it every night."
   - **Couscous + black beans:** liked.
 
-**Appalachians 2026 did the same, even with a staples-only plan** *(confirmed: appalachians-2026 retro, 2026-10-29)*: it "simplified a lot" to oats, one-pot pasta (Brami, mac), bars, jerky and snacks, and some bought food. That's two trips out of two (evidence, 2 trips). Plan a short rotation of staples plus a "buy something" slot, not a different named meal for every day.
+**Appalachians 2026 did the same, even with a staples-only plan** *(confirmed: appalachians-2026 retro, 2026-10-29)*: it "simplified a lot" to oats, one-pot pasta (Brami, mac), bars, jerky and snacks, and some bought food. That's two trips out of two (evidence, 2 trips). **What a plan should give him: a staples shopping list plus a rotation of 4–5 go-to meals, and no per-day menu** *(stated 2026-10-29)*. Leave a "buy something" slot.
 
 **The cooler barely mattered.** The whole trip's cooler load was one pound of frozen ground beef (mixed into mac & cheese) and some vegetables. No rotisserie chicken, no freezer meals. A small cooler, or none, may be enough when the plan is trunk staples. *(confirmed: kentucky-2026 log)* **Confirmed on Appalachians 2026:** a small cooler (eggs, cheese, butter, frozen veg as the ice, block ice at resupply) was enough for 10 days *(confirmed: appalachians-2026 retro, 2026-10-29)*.
 

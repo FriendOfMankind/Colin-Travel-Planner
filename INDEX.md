@@ -39,7 +39,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Done
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 32 entries · retro written · updated 2026-10-21
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 33 entries · retro written · updated 2026-10-21
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.

@@ -446,3 +446,11 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - [x] Pace: **faster on foot** on Table Rock and Mount Rogers. The spare time goes to sitting, so budget hike time plus sit time.
 - [x] Best and worst: **no bad days.** Bridge Day was "about what I expected": fine as a detour, not worth planning around.
 - [ ] Not recorded: exact times on Table Rock and Mount Rogers, and whether Grayson was crowded on the Saturday.
+
+## 2026-10-29 · Retro, preferences asked directly
+
+*(stated 2026-10-29)* Colin asked for preferences to be asked directly instead of inferred from trip questions. That's now a working rule, and part of `/retro`.
+- **Mornings:** up early, then unhurried at camp; sunsets still beat sunrises. This replaces "slow mornings" in `me/principles.md` 4, after one round to resolve the conflict.
+- **Sit-and-explore block:** as long as the day allows → `me/hiking.md`.
+- **Events:** only if they're on the way → `me/travel-style.md`. This replaces the one-data-point hypothesis above.
+- **Food plan format:** a staples list plus a rotation of 4–5 meals, no per-day menu → `me/food.md`.
