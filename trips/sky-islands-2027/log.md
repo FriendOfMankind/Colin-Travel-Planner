@@ -95,3 +95,7 @@ COULD NOT VERIFY:
 
 - **Nothing is booked** *(stated 2026-10-29: "No I haven't booked anything, I'm waiting to see if friends commit")*. That answers the 2026-09-30 question. A Gmail sweep the same day found no Gilbert Ray or Bonita Canyon confirmation either.
 - The "Three alarms, Sept 8 / 9 / 10" booking-race card described a date in the past, so it's rewritten to the current state.
+
+## 2026-10-29 · Crowd wording updated to the new rule
+
+The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the trip also has empty places (`me/travel-style.md`). Three passages here restated the old one ("actively avoids crowds… a reservation removes the lottery, not the people… fails your own test"). They're rewritten; **the plan itself is unchanged**. The 3-in / 7-out split still stands, now justified as icon-plus-retreat and by the booking asymmetry. The "3 nights in, 4 on the empty side" count in the overview card was the same fact as "7 outside" counted without Gilbert Ray; it now says 7 everywhere.

@@ -547,3 +547,9 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
   - (was: also the rental car)
 - **Does Argentia Sunset RV Park take tents?**
   - (was: "Where's the night of June 20?")
+
+## 2026-10-29 · Decided: Cadillac summit at sunset, Day 4
+
+- **Cadillac Summit Road at sunset goes back in, on Day 4 (May 26)**, and Seal Cove keeps Day 3 *(Colin, 2026-10-29)*. Cadillac had been swapped out on 2026-10-04 ("find something quieter"). The crowd rule changed on 2026-10-29 (`me/travel-style.md`): an icon is worth its crowd when the trip also has empty places, and this one has plenty.
+- 📋 **The summit road needs a vehicle reservation** May 20 – Oct 25 (2026): $6, non-refundable, a 30-minute entry window, with the road closing to vehicles at 9 PM. 30% of slots release 90 days ahead and 70% two days ahead, both at 10 AM ET. Walking or biking up needs no reservation *(nps.gov/acad vehicle reservations, recreation.gov timed-entry 400000, npca.org; snippets, 2026-10-29)*. The 2027 rules aren't posted.
+- Added to `booking:` as `acadia-cadillac` (90-day lead) so the briefing and the calendar alarms pick it up.

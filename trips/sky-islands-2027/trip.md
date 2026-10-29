@@ -68,7 +68,7 @@ page:
 
 # Sky Islands
 
-> ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the counterpoint at 1.4 billion years, and you can see one range from the other.<br><br>✅ **Verified Sept 2026 — the facts that decide whether March works:** **Chiricahua charges no entrance fee.** **Bonita Canyon (~5,400 ft) is year-round, 25 individual sites + 1 group, all reservable, no walk-ups, 6-month rolling window**, full most nights in its Feb–April peak. **Sunny Flat is year-round first-come — but potable water is off until April**, and **Cochise Stronghold has none at any time of year**: four of ten nights are haul-your-own. 🚨 **Rustler Park and FR 42D are closed Nov–March and unplowed**, so the eight miles between the monument and Portal cost 2h 35m around on I-10, and the high country is off the trip.<br><br>⚠️ **Turn your own rule on this before booking it.** "Actively avoids crowds" is the profile, and March is the monument's busiest month; a reservation removes the lottery, not the people. The itinerary answers that with a split — **3 nights in the monument, 7 outside it** — and puts the two hardest days on a Wednesday and a Saturday. ✅ **That split was re-opened and re-confirmed Sept 7 2026**, on the grounds that the Dragoon night is first-come and can be added any time, while the monument night cannot.
+> ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the counterpoint at 1.4 billion years, and you can see one range from the other.<br><br>✅ **Verified Sept 2026 — the facts that decide whether March works:** **Chiricahua charges no entrance fee.** **Bonita Canyon (~5,400 ft) is year-round, 25 individual sites + 1 group, all reservable, no walk-ups, 6-month rolling window**, full most nights in its Feb–April peak. **Sunny Flat is year-round first-come — but potable water is off until April**, and **Cochise Stronghold has none at any time of year**: four of ten nights are haul-your-own. 🚨 **Rustler Park and FR 42D are closed Nov–March and unplowed**, so the eight miles between the monument and Portal cost 2h 35m around on I-10, and the high country is off the trip.<br><br>**March is the monument's busiest month, and that's fine.** The hoodoo hikes are the reason to come. Timing beats the crowd: the two hardest days land on a Wednesday and a Saturday, at dawn. The split (**3 nights in the monument, 7 outside it**) gives the trip its empty places, Cave Creek and the Dragoons, which is what the crowd rule asks for (`me/travel-style.md`). ✅ **The split was re-confirmed Sept 7 2026**, because the Dragoon night is first-come and can be added any time, while the monument night can't.
 
 ## Overview
 
@@ -93,7 +93,7 @@ Computed from the academic calendar, not picked. Tue/Thu classes, spring break M
 
 ### The crowd problem
 
-March is Chiricahua's peak month and the profile says crowds are actively avoided. **This itinerary answers that by spending 3 nights in the monument and 4 on the empty side of the range** — Cave Creek and the Dragoons are the same geology with a fraction of the people.
+March is Chiricahua's peak month. The crowd rule says the icon is worth its crowd, provided the trip also has somewhere empty (`me/travel-style.md`). **3 nights in the monument, 7 outside it** (Gilbert Ray, Cochise Stronghold, Cave Creek). Cave Creek and the Dragoons are the same geology with a fraction of the people, so they're the empty places.
 
 ### No entrance fee
 
@@ -680,11 +680,9 @@ Download Google Maps offline for the whole loop before leaving home: Tucson, Ben
 
 Spring 2027 runs Tuesday/Thursday classes with spring break March 8–12. The last class before the break is Thursday March 4 and the first one after is Tuesday March 16, so **Friday March 5 through Monday March 15 is free at a cost of zero missed classes** — eleven days, which clears the hub's own 8-day threshold for a trip being worth an airfare. It is also the last window of that length before Commencement on May 8. Nothing else in the spring is bigger than a Friday-to-Monday.
 
-### The crowd problem, stated honestly
+### Crowds: the icon plus the empty places
 
-The profile's first line about people is "actively avoids them — empty is cool if it's worth it." **March is Chiricahua National Monument's single busiest month**, and the campground is full most nights. A reservation removes the lottery; it does not remove the crowd.
-
-The itinerary's answer is a split: **three nights in the monument and seven outside it.** The Dragoons and Cave Creek Canyon are the same sky-island geology — Cave Creek's walls are the same welded tuff as the hoodoos — with a fraction of the visitation, and the two hardest days of the trip (Heart of Rocks on a Wednesday, Herb Martyr on a Saturday) are placed to invert the crowd rather than avoid it. If the monument is where you spend eight days, this trip fails your own test. As built, it passes.
+**March is Chiricahua National Monument's single busiest month**, and the campground is full most nights. Under the crowd rule (`me/travel-style.md`), that's no reason to skip the hoodoos. The question is whether the trip also has empty places, and it does: **three nights in the monument, seven outside it.** The Dragoons and Cave Creek Canyon are the same sky-island geology (Cave Creek's walls are the same welded tuff as the hoodoos) with a fraction of the visitors. The two hardest days, Heart of Rocks on a Wednesday and Herb Martyr on a Saturday, are timed to beat the crowd.
 
 ### Water is the actual risk here, not cold
 
