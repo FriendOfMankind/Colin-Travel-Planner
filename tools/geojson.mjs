@@ -99,7 +99,7 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   for (const p of places) if (p.verified && !seen.has(p.name)) flat.push(point(p, { trip: slug, day: null, date: null, role: "place", color: "#666666", fillColor: [102, 102, 102] }));
 
   const todo = places.filter((p) => !p.verified).map((p) => ({ trip: slug, group: p.group, name: p.name, maps: p.maps ?? null, days: p.days ?? null }));
-  return { flat, trip, todo, title: r.title };
+  return { flat, trip, todo, title: r.title, done: r.status === "done" };
 }
 
 const iso = (s) => new Date(s * 1000).toISOString().replace("T", " ").slice(0, 16);
@@ -135,7 +135,8 @@ export function writeMaps({ todoOnly = false } = {}) {
   for (const slug of slugs) {
     const groups = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups ?? [] : [];
     const g = tripGeo(slug, read(`trips/${slug}/trip.md`), groups, loadRoutes(slug));
-    all.flat.push(...g.flat); all.trip.push(...g.trip); all.todo.push(...g.todo);
+    all.flat.push(...g.flat); all.trip.push(...g.trip);
+    if (!g.done) all.todo.push(...g.todo); // finished trips don't need pins
     if (!todoOnly) {
       mkdirSync(join(ROOT, "site/maps"), { recursive: true });
       writeFileSync(join(ROOT, `site/maps/${slug}.geojson`), fc(g.flat));
@@ -157,7 +158,7 @@ export function writeMaps({ todoOnly = false } = {}) {
       if (t.trip !== last) console.log(`\n${t.trip}`), (last = t.trip);
       console.log(`  - ${t.name}${t.days ? ` (day ${t.days})` : ""}${t.maps ? `  · search: ${t.maps}` : ""}`);
     }
-  } else console.log(`${all.todo.length} places still unplaced — node tools/geojson.mjs --todo lists them`);
+  } else console.log(`${all.todo.length} places on upcoming trips still unplaced — node tools/geojson.mjs --todo lists them`);
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) writeMaps({ todoOnly: process.argv.includes("--todo") });

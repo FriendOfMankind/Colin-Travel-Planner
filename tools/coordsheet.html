@@ -232,9 +232,10 @@ async function write(id, patch, btn) {
 }
 
 /* ---- layout ---- */
-function tripOrder() { return Object.entries(state.trips).sort((a, b) => String(a[1].order).localeCompare(String(b[1].order))).map(([k]) => k); }
+// Finished trips stay in the store but off the sheet: only upcoming trips need pins.
+function tripOrder() { return Object.entries(state.trips).filter(([, t]) => !t.done).sort((a, b) => String(a[1].order).localeCompare(String(b[1].order))).map(([k]) => k); }
 function render() {
-  const all = [...state.places.values()];
+  const all = [...state.places.values()].filter((p) => state.trips[p.trip] && !state.trips[p.trip].done);
   const done = all.filter((p) => p.status === "placed" || p.status === "skip").length;
   $("#count").innerHTML = `<b>${done}</b> / ${all.length} done`;
   $("#bar").style.width = all.length ? (100 * done / all.length) + "%" : "0";
@@ -259,7 +260,7 @@ function render() {
     const sec = document.createElement("section"); sec.className = "trip";
     const h = document.createElement("h2"); h.textContent = state.trips[t]?.title || t;
     const sub = document.createElement("div"); sub.className = "sub";
-    sub.textContent = `${left(t)} left of ${ps.length}${state.trips[t]?.done ? " · trip done, for the record" : ""}`;
+    sub.textContent = `${left(t)} left of ${ps.length}`;
     sec.append(h, sub);
     let grp = null, box = null;
     for (const p of vis) {

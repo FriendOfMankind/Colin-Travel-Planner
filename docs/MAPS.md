@@ -8,7 +8,7 @@ you: coordinates + road GPX  →  places.yaml, routes.yaml  →  tools/geojson.m
 
 ## 1. Place the pins (the actual bottleneck)
 
-`node tools/geojson.mjs --todo` lists every unplaced place by trip, with the Google Maps search for it. That list is the work queue: 192 places on 2026-10-30, all of Dingle–Marseille and Newfoundland included.
+`node tools/geojson.mjs --todo` lists every unplaced place on an upcoming trip, with the Google Maps search for it. Finished trips are left out *(Colin, 2026-10-30: no need to do past trips)*. That list is the work queue.
 
 **The easy way: the Pin Ledger** (https://claude.ai/artifact/79opjP1N8qdZqLrR5ifdUT, private to Colin). Every unplaced place has a Find in Maps button and a paste box. It saves as you go, and it flags pins that land far from the trip, that came from a map's center instead of a long-press, or that are too coarse. When you're done, tell Claude "pins are in". Claude reads the ledger's saved data, writes each pin into `places.yaml` with its source, and re-seeds the ledger from the new todo list. The page's source is `tools/coordsheet.html`.
 
