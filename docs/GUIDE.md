@@ -29,7 +29,8 @@ Every new chat also opens with a **briefing** (`tools/now.mjs`) and a **branch c
 
 - **"Did that save?"** Ask "is it in main?" Claude checks rather than assumes. If the answer is no, it names the PR you need to merge.
 - **"I see a PR into a `claude/…` branch."** It's backwards. Close it without merging.
-- **"There are old branches everywhere."** Turn on GitHub → repo **Settings → General → "Automatically delete head branches"** (once, per repo), and delete the old ones from the **Branches** page. From then on, every merged PR cleans up after itself. Claude's sessions can't delete branches, so this one is yours.
+- **"There are old branches everywhere."** Turn on GitHub → repo **Settings → General → "Automatically delete head branches"** (once, per repo), and delete the old ones from the **Branches** page. From then on, every merged PR cleans up after itself. Claude's sessions can't delete branches (re-tested 2026-10-30: the git proxy drops the connection), so this one is yours.
+- **"A merged branch came back."** A chat pushed it again after its PR merged, usually because the stop hook asked it to. Delete it again from the Branches page; the rule below stops it happening.
 - **"Two PRs touch the same file."** Merge the older one first, then tell the other chat "main moved, update your branch". It merges `main` in and re-runs the checks.
 - **"The site looks out of date."** Say "republish the site". It's rebuilt from `main`.
 
@@ -39,3 +40,4 @@ Every new chat also opens with a **briefing** (`tools/now.mjs`) and a **branch c
 - One branch and one PR per piece of work, always into `main`.
 - Never open a PR *from* `main`, and never leave the session sitting on `main` after committing work. The app's PR button uses whatever branch the session is on.
 - Finish every change one of two ways: merged and confirmed "in main", or a plain line saying "⚠️ not in memory yet, merge PR #N".
+- **Once a branch's PR is merged, never push that branch again.** GitHub has deleted it, and a push brings it back as a dead branch. If the stop hook asks for a push afterwards, check `git merge-base --is-ancestor HEAD origin/main`; if it passes, say "already in main" and don't push. New work after a merge starts a fresh branch from `main`.

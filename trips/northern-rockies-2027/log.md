@@ -304,3 +304,4 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - **Night 1: a cheap motel off I-80 near Des Moines** *(Colin, 2026-10-30)*. Old value: "a state park, a KOA or a cheap motel", ~$35 est.
 - **Nights 30–33 (the drive home) stay TBD on purpose**: two trips say the last days become a straight drive (`me/travel-style.md`), so they're booked from the road.
 - Avalanche Campground and the Hiawatha's trailhead were added to `places.yaml` and need pins. Bullhead Lake and Redrock Falls are one place, the Swiftcurrent trailhead *(Colin, 2026-10-30)*.
+- Pins for Avalanche Campground and the Hiawatha east portal came in the same evening *(Colin, Pin Ledger, 2026-10-30)*. Day 19 now draws Avalanche → Hiawatha (191 mi), and Day 20 continues to Hood River (390 mi) from there, since night 19's bed isn't picked.

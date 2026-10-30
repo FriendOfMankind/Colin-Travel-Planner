@@ -57,6 +57,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - One branch and one PR per piece of work, always **into** `main`. Never open a PR *from* `main`.
   - Don't leave the checkout on `main` after committing work: the app's "Create PR" button uses the current branch.
   - If this chat's earlier PR is already merged, restart the branch from `main` before new work.
+  - **Never push a branch again after its PR merges.** GitHub deleted it, and the push resurrects it as a dead branch. If the stop hook asks for a push, run `git merge-base --is-ancestor HEAD origin/main`; if it passes, answer "already in main" instead of pushing.
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
 - **When a fact copied into several files changes,** update its pin in `garden/pins.yaml`; `node tools/garden.mjs` then lists every stale copy.
@@ -88,7 +89,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - **Instagram and Facebook:** untested through Apify. Facebook *private* groups need a login: unreachable, fetch list.
   - For anything you still can't read, ask Colin to fetch it (`me/working-rules.md`).
 - Coordinates come from Colin, via the Pin Ledger or a pasted Google Maps long-press (`docs/MAPS.md`), never from a guess.
-- This session can't delete remote branches. GitHub's "Automatically delete head branches" setting handles merged ones.
+- This session can't delete remote branches (re-tested 2026-10-30: the git proxy drops the connection, and the GitHub tools have no delete). GitHub's "Automatically delete head branches" setting handles merged ones, as long as nobody pushes them again.
 
 ## Commands
 
