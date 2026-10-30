@@ -12,7 +12,7 @@ country: USA
 coords: [ 37.79, -105.59 ]
 budget: ~4 hr from DEN
 tags: [ car camping, dunes, swimming, may ]
-updated: 2026-10-05
+updated: 2026-10-06
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -45,3 +45,8 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Free BLM dispersed camping along the valley floor on Blanca Peak / Mount Blanca Road near Zapata Falls, about 15 min from the park *(source: rvshare.com, thedyrt.com, facebook, search snippets, 2026-10-03)*. The road is unpaved; roughness for 5.9 in clearance not checked
 - 📋 Zapata Falls BLM campground: 23 sites *(source: blm.gov, search snippet, 2026-10-03)*, about $11/night *(source: ramble.camp 2026 guide, search snippet, 2026-10-03)*
 - 📋 Shower: Great Sand Dunes Oasis (campground and store at the entrance) has showers *(source: greatdunes.com, yelp, search snippets, 2026-10-03)*. ⚠️ Whether non-guests can pay to use them: not confirmed
+
+### 2026-10-06 · Already been (southwest-2026)
+- Colin camped at **Zapata Falls Campground (site 9)** on May 10, 2026, did the dunes the next morning, and waded into Zapata Falls *(confirmed: southwest-2026 log)*
+- **Medano Creek was flowing on May 11, 2026** *(recalled, stated 2026-10-06)*. That fits the note above (dry at the main parking area by May 21): a weak year runs, then stops early. So the creek isn't a coin flip on *whether*, it's a race on *when*
+- A return trip is for the creek in a good snow year, not the dunes
