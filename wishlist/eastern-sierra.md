@@ -13,7 +13,7 @@ country: USA
 coords: [ 37.36, -118.55 ]
 budget: Cheap flights (Reno), cheap car
 tags: [ car camping, alpine, paved trailheads, fly-in ]
-updated: 2026-10-10
+updated: 2026-10-29
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -49,3 +49,6 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 ### 2026-10-10 · Overlap with the August friends trip
 - The Tahoe friends route (`wishlist/tahoe-boys.md`; picked 2026-10-10, then lost to Oregon 2026-10-15) spends 3 nights in **June Lake**: Bodie, Mono Lake's South Tufa, Clouds Rest and Gaylor Lakes off Tioga, Panum Crater, and the Travertine and Wild Willy's hot springs
 - What it does **not** touch is the core of this idea: Bishop Creek, Four Jeffrey, **Little Lakes Valley** from Mosquito Flat, and the Mammoth/Bishop high country south of June Lake. This idea stays a solo PTO-year trip built around those, and it can skip the Mono basin when it happens
+
+### 2026-10-29 · Yosemite got its own idea
+- `wishlist/yosemite.md` is a late-May/June plan. In a year when Tioga is open, it exits east over the pass into this idea's territory (Mono Lake, then Little Lakes Valley). Pairing them would mean a June version of this trip, not the July–October one. The facts stay in each file.
