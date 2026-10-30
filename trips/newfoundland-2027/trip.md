@@ -207,7 +207,7 @@ overnight:
 
 **Schedule**
 - morning (5h 27m) · drive · Bar Harbor → Calais border crossing → Alma, NB. **Passport out, declare all food** · 📍 Alma New Brunswick
-- OPTIONAL afternoon · stop · **Hopewell Rocks**, if today's low tide falls between arrival and 5 PM closing. Otherwise it's tomorrow morning. Tide time from a tide table, never typed · 📍 Hopewell Rocks
+- OPTIONAL afternoon · stop · **Hopewell Rocks: today is the only shot.** **Low tide 12:57 PM ADT, 3.54 m** (highs 6:16 AM and 6:47 PM), CHS Hopewell Cape station 00170, *preliminary* because it's beyond the current year *(tides.gc.ca/en/stations/00170/2027-05-28, read 2026-10-17)*. A 5h 27m morning drive plus the border puts arrival after the low, so the floor walk only works if you're early; the hours either side of low are usually still walkable, but that's not verified for this site. It's also a weak, near-neap low (mean low water there is 1.83 m): ask the park whether the floor is walkable at 3.5 m. Open 9–5 · 📍 Hopewell Rocks
 - afternoon · camp · Set up
 - evening (1h 30m) · hike · **Matthews Head**, 2.9 mi / 492 ft loop, coastal, toward sunset 8:57 (computed for 5/28 at an Alma regional point, NOAA, 2026-10-30) · 📍 Matthews Head Trail Fundy National Park
 
@@ -239,7 +239,8 @@ overnight:
 ```
 
 **Schedule**
-- OPTIONAL morning · stop · **Hopewell Rocks at low tide**, if the tide fits and you didn't do it yesterday. Skip it if not, decide on the day *(stated 2026-10-04)*. The 5/29/2027 tide time comes from a tide table, never typed. **The park is open 9:00–5:00 only, May 15 – June 20** (2026 hours), so the low tide has to fall inside that window *(parcsnbparks.ca, snippet, 2026-10-08)*. NB Parks posts its own tide tables · 📍 Hopewell Rocks
+- morning · note! · **No Hopewell this morning.** The May 29 lows are 1:23 AM and 1:47 PM *(tides.gc.ca station 00170, preliminary, read 2026-10-17)*, and today has to leave by 11 AM. Hopewell is Day 3 or nothing *(stated 2026-10-04: skip it if the tide doesn't fit)*. The park is open 9:00–5:00, May 15 – June 20 (2026 hours) *(parcsnbparks.ca, snippet, 2026-10-08)*
+- OPTIONAL, on the way · geology · **Joggins Fossil Cliffs** (UNESCO), Nova Scotia: the "coal age Galápagos", the most complete fossil record of the Carboniferous, ~300 million years old, with fossil forests standing in the cliff. Near Amherst, which is on today's route; the detour isn't routed, and today's slack is thin. Fossil Centre open May 1 – Oct 18, 10–5 (2026), so it opens at 10; the beach is best near low tide, which today is early afternoon; guided beach tours *(jogginsfossilcliffs.net, whc.unesco.org, snippets, 2026-10-17)* · 📍 Joggins Fossil Centre
 - (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton. Leave Hopewell by 11 AM at the latest · 📍 Cheticamp Campground Cape Breton Highlands
 - ~5:30 → 7:00 · camp · Check in, pitch, shower, early dinner. Times are estimates
 - 7:15 → 7:43 (28m) · drive · → Skyline Trail · 📍 Skyline Trail Cape Breton Highlands
@@ -342,6 +343,7 @@ overnight:
 - 1:15 → 1:30 · drive · → Quirpon (same road, not routed)
 - 1:30 → 2:45 (1h 15m) · hike · **Cobbler Loop**, 2.7 mi / 141 ft (AllTrails 55 m) + a sit on the headland · 📍 Quirpon Newfoundland
 - 2:45 → ~3:30 · drive · → Pistolet Bay. Not routed · 📍 Pistolet Bay Provincial Park
+- OPTIONAL evening · geology · **Cape Norman**, the northernmost point of the island of Newfoundland: a bare limestone headland, an 1871 lighthouse, protected limestone-barrens plants (stay on the paths), and the Whale Point Trail from Wild Bight for odd rock formations. Route 435 from the Viking Trail, then Cape Norman Road; the last stretch is gravel to a lot beside the lighthouse *(Wikipedia; liveruralnl.com 2021; lighthousefriends.com)*. Not routed from Pistolet Bay. Mosquitoes were "pterodactyl-sized" here in July 2023 *(YouTube, Overland Pioneers)* · 📍 Cape Norman Lighthouse
 - OPTIONAL evening · food · **The Norseman, L'Anse aux Meadows**: pan-fried cod. "The best meal we had in Newfoundland" *(YouTube, True North RVing, 2024)*; binoculars at the tables for icebergs. Hours and prices not checked. White Cape Harbour, just before L'Anse aux Meadows, was full of icebergs in spring 2026 *(YouTube, Life Is Short DIY, 2026)*
 
 **Meals**
@@ -966,7 +968,9 @@ overnight:
 **Schedule**
 - 8:30 → 9:48 (1h 18m) · drive · Argentia → Cape St. Mary's · 📍 Cape St. Mary's Ecological Reserve
 - 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
-- 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
+- 12:00 → 1:18 (1h 18m) · drive · → Placentia · 📍 Castle Hill National Historic Site
+- OPTIONAL 1:20 → 2:45 · ruins · **Castle Hill National Historic Site**: French and British fort remains from the 1690s to the early 1800s on a headland over Placentia, with trails and cannons. Open June 1 – Oct 9 (2026 season); Parks Canada suggests 2–3 h, so this is a short version; 5–7 min from the ferry *(parks.canada.ca/lhn-nhs/nl/castlehill, snippets, 2026-10-11)*. Fee not checked · 📍 Castle Hill National Historic Site
+- 2:45 → 2:55 · drive · → Argentia, for the 3:00 check-in · 📍 Marine Atlantic Argentia Terminal
 - 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
 - 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)* · 📍 Marine Atlantic North Sydney
 
@@ -1173,7 +1177,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Fogo cottage for 6/10, 4 adults (Escape by the Sea; check the cancellation policy)
 - [ ] Hotels for 6/11–6/18 (Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
-- [ ] Hopewell Rocks tide table for May 28–29 (in the park's 9–5 hours)
+- [ ] Hopewell Rocks: re-check the final 2027 tide table for May 28 (preliminary low 12:57 PM), and ask the park whether the floor is walkable at ~3.5 m
 - [ ] Starlink Roam: ~26 days in Canada (May 28 – Jun 22) against the 30-day abroad limit
 - [ ] Car service before leaving
 
