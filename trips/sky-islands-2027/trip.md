@@ -207,7 +207,7 @@ overnight:
 
 **Schedule**
 - 6:30 AM · sunrise · Sunrise. First light 6:11 AM.
-- 6:00 → 6:35 (35m) · drive! · → Slavin Gulch trailhead, east side of the Dragoons. ⚠️ **The approach is a forest road and its condition is not verified.** Turn around if it stops being something a rental can take — the hike is not worth the deposit. · 📍 Slavin Gulch Trailhead Dragoon Mountains
+- 6:00 → 6:35 (35m) · drive! · → Slavin Gulch trailhead. ⚠️ **The 35 minutes is likely far too short, and the road may not suit a rental.** The usual trailhead is the *west* access, reached by Middlemarch Road, "20-plus miles of dirt and rocks" *(AllTrails review, snippet, 2026-10-30)*; the east access is FR 345A, **4WD required** *(fs.usda.gov Slavin Gulch Trail #332, snippet, 2026-10-30)*. From Cochise Stronghold that likely means Middlemarch Road over the range. Not routed. If the road is out, Cochise Trail #279 from camp is the swap · 📍 Slavin Gulch Trailhead Dragoon Mountains
 - 6:45 → 10:15 (3h 30m) · hike · **Slavin Gulch to Slavin's Mine.** ✅ AllTrails: **6.9 mi, 1,440 ft, Moderate, out-and-back.** Ends at the timbers and tailings of an abandoned mine wedged in the canyon. Ruins as scenery, and almost nobody walks it. · 📍 Slavin Gulch Trailhead Dragoon Mountains
 - 10:15 → 11:00 (45m) · stop · Sit at the mine workings before turning around.
 - 12:00 → 1:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Fill water and top up groceries at **Willcox** if the detour north makes sense; otherwise this is the last chance before Portal. · 📍 Chiricahua National Monument Visitor Center

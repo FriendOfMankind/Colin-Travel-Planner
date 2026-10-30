@@ -135,3 +135,9 @@ The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the
 - The 2026-10-27 rewrite (Mar 6–14, Colin + 2 friends, 9 days / 8 nights, `outline`) sat unmerged in PR #102 while main kept the solo Mar 5–15 `planned` version. Colin confirmed the rewrite is current *(Colin, 2026-10-30)*. Old values: dates Mar 5–15 (11 days / 10 nights); Gilbert Ray Mar 5, 6 and 14; status `planned`. The friends are still unconfirmed, so nothing is booked *(stated 2026-10-29)*.
 - Kept from main: the 2026-10-29 crowd rule (now "3 nights in the monument, 5 outside it") and Slavin Gulch at 1,440 ft (AllTrails, 2026-10-30).
 - Road lines re-routed for the new numbering. Drawn miles: d1 17, d2 94, d4 11, d5 4, d6 143, d7 3, d8 202, d9 19. **Day 3 (Slavin Gulch, was Day 4) stays held back** for the same pin problem as above. Old days 10 and 11 no longer exist; their GPX files are removed.
+
+## 2026-10-30 · Slavin Gulch: the pin is probably right, the plan's road isn't
+
+- 📋 **Two accesses.** West: Middlemarch Road from Tombstone, then forest roads; one AllTrails reviewer calls it "about 20-plus miles of dirt and rocks" *(alltrails.com Slavin Gulch, snippet, 2026-10-30)*; eBird and two blogs give the same Middlemarch directions *(snippets)*. East: "East trail access is from FR 345A (4WD required) off Middlemarch Road" *(fs.usda.gov/r03/coronado Slavin Gulch Trail #332, snippet, 2026-10-30)*.
+- So the pin west of the Dragoons (`places.yaml`, Colin, Sept 2026) matches the usual trailhead, and Day 3's "east side, 35m" doesn't. Day 3's drive line now says so. Not checked: how long Middlemarch Road actually takes from Cochise Stronghold, and whether a rental SUV is allowed on it (rental contracts often bar unpaved roads).
+- The map still holds Day 3 back: the router doesn't know Middlemarch Road, so it drove around the range.

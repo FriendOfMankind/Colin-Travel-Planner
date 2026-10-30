@@ -256,12 +256,6 @@ groups:
         verified: false
         lat: null
         lng: null
-      - name: Gare d'Aix-en-Provence Centre
-        note: Day 11. The TER station in town, not Aix TGV.
-        maps: Gare d'Aix-en-Provence Centre
-        verified: false
-        lat: null
-        lng: null
       - name: Cours Mirabeau
         note: Day 11.
         maps: Cours Mirabeau Aix-en-Provence
@@ -388,8 +382,8 @@ groups:
         lng: 5.349805
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Gare d'Aix-en-Provence Centre
-        note: Day 11. Not Aix TGV.
-        maps: Gare d'Aix-en-Provence
+        note: Day 11. The TER station in town, not Aix TGV.
+        maps: Gare d'Aix-en-Provence Centre
         verified: true
         lat: 43.455179
         lng: 5.317289
