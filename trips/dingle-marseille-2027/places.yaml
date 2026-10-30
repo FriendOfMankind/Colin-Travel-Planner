@@ -127,7 +127,7 @@ groups:
         lat: null
         lng: null
       - name: Killarney Bus Station
-        note: Local Link 276 to/from Dingle, daily: May 11 18:00 in, May 15 07:10 out.
+        note: Local Link 276 to and from Dingle, daily. May 11 18:00 in, May 15 07:10 out.
         maps: Killarney Bus Station
         verified: false
         lat: null
