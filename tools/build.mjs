@@ -23,7 +23,7 @@ import { marked } from "marked";
 import { parseTrip, splitFrontmatter, sections } from "./lib/format.mjs";
 import { parseIdea } from "./lib/wishlist.mjs";
 import { parseBucket, horizonOf } from "./lib/bucket.mjs";
-import { dayStops, routeLinks, campStop } from "./lib/route.mjs";
+import { dayStops, routeLinks, bedStop } from "./lib/route.mjs";
 import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 import { buildIcs } from "./ics.mjs";
 import { writeMaps, tripGeo, loadRoutes } from "./geojson.mjs";
@@ -96,7 +96,7 @@ function parseLog(text) {
 
 // Home, for day 1's start and a "Home" overnight: me/profile.md's "Home base".
 const HOME = (() => { const m = /\*\*Home base:\*\* ([^—\n]+)/.exec(read("me/profile.md")); return m ? { label: "Home", q: m[1].trim(), pinned: false } : null; })();
-const camp = (o, places) => (o?.name === "Home" ? HOME : campStop(o?.name, places));
+const camp = (o, places) => (o?.name === "Home" ? HOME : bedStop(o, places));
 
 function dayRoute(d, prev, places) {
   const r = dayStops(d.schedule ?? [], places, { start: prev ? camp(prev.overnight, places) : HOME, end: camp(d.overnight, places) });
@@ -119,7 +119,12 @@ function tripMap(slug, md, groups) {
   return {
     // Coast well past the trip's own box, so panning or a tall phone screen shows land, not blank sea.
     box, ...basemap([box[0] - span * 0.7, box[1] - span * 0.7, box[2] + span * 0.7, box[3] + span * 0.7]),
-    legs: legs.map(({ properties: p, geometry: { coordinates: c } }) => ({ day: p.day, miles: p.miles, road: p.shape === "road", guessed: !!p.startGuessed, ferry: false, line: simplify(c, span / 4000).map(r5) })),
+    legs: legs.map(({ properties: p, geometry: { coordinates: c } }) => {
+      // Cut the line at its flights so the page can dash them; each piece simplifies on its own.
+      const cuts = [...new Set([0, ...(p.fly ?? []).flat(), c.length - 1])].sort((x, y) => x - y);
+      const parts = cuts.slice(1).map((b, k) => ({ fly: (p.fly ?? []).some(([f0, f1]) => f0 === cuts[k] && f1 === b), line: simplify(c.slice(cuts[k], b + 1), span / 4000).map(r5) }));
+      return { day: p.day, miles: p.miles, flown: p.flownMiles ?? 0, road: p.shape === "road", guessed: !!p.startGuessed, standIn: p.bedStandIn ?? null, parts };
+    }),
     pins: pts.map(({ properties: p, geometry: { coordinates: [lng, lat] } }) => ({ name: p.name, day: p.day, role: p.role, lat, lng })),
   };
 }

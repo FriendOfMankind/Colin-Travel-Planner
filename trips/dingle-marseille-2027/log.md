@@ -161,3 +161,12 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **Dingle hosts are the friend's family**, and the May 15 lift is "likely" *(Colin, 2026-10-30)*. That resolves the handoff's "family" versus the repo's "friend's family" contradiction. Not confirmed with them yet.
 - **Home flight: option A**, BA/American via Heathrow and Chicago, $596 one way, home 17:44 *(Colin, 2026-10-30)*. Subject to a layover check and a multi-city price.
 - **Everyone is 25 or under** *(Colin, 2026-10-30)*, so youth fares (A1 shuttle €7).
+
+## 2026-10-30 · On the map: flights, stand-in beds, real roads
+
+- **Beds on the map are stand-ins** *(Colin, 2026-10-30)*. Nights 2–5 end at **Dingle Harbour** (the family's address isn't recorded). Nights 6–14 end at **Staycity Centre Vieux Port**, the shortlist's best-balance pick on the port. Colin chose "Vieux-Port", and there's no Vieux-Port pin yet, so this was the nearest placed match. That's a map placeholder, not a booking. It's in `trip.md` as `mapStandIn:` on each overnight; swap it when the apartment is booked.
+- **The flights are `fly` rows** (EI 86, FR 4285, MRS → CLE), drawn as arcs and never road-routed. Day 1 now lands at Dublin Airport and day 2 starts there.
+- **Option and fallback rows no longer count as the route.** Before this, day 2 drew the fallback coach through Tralee, and every day after started wherever the previous day's last stop was (day 11 started in Cassis).
+- **Day 5 has no line:** it's two alternatives (east by bus, or north to Brandon Creek), so it gets one once Colin picks.
+- **Added unplaced, for pins:** Cleveland Hopkins, Marseille Provence Airport, Dingle (town), Vieux-Port, Castellane, Port de Cassis, Gare d'Aix-en-Provence Centre, Cours Mirabeau. All were `📍` stops with no `places.yaml` entry. Day 13's `📍` now matches the Frioul ferry place that already existed.
+- **Road lines** for days 2–4 and 6–13 come from `tools/roads.py` (Overture Maps 2026-10-21.0). Read the bus and metro days as "between here and there", not the bus's path. Day 13 takes the Frioul boat. Days 1 and 15 get lines once the two airports are pinned, and day 5 once it's picked.

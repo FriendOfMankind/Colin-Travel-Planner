@@ -119,7 +119,7 @@ overnight:
 **Schedule**
 - afternoon · note · Check in online. Carry-on and one checked bag each are in the observed Main Cabin fare; recheck on the actual ticket.
 - early evening · drive · To Cleveland Hopkins, 2 h before departure. · 📍 Cleveland Hopkins International Airport
-- 20:40 → 08:45 (7h 05m) · travel · **EI 86 CLE → DUB**, nonstop. Observed on Google Flights for May 10, 2027 *(2026-10-29)*. Sleep is the whole job.
+- 20:40 → 08:45 (7h 05m) · fly · **EI 86 CLE → DUB**, nonstop. Observed on Google Flights for May 10, 2027 *(2026-10-29)*. Sleep is the whole job. · 📍 Dublin Airport
 
 **Meals**
 - B: home
@@ -139,13 +139,14 @@ type: travel
 slack: None needed beyond the block. Nothing else is planned today.
 overnight:
   name: Family
+  mapStandIn: Dingle Harbour
   place: Dingle, Co. Kerry
   kind: Family home (assumed)
   cost: Free (assumed)
 ```
 
 **Schedule**
-- 08:45 · travel · Land in Dublin. Immigration, bags, breakfast.
+- 08:45 · travel · Land in Dublin. Immigration, bags, breakfast. · 📍 Dublin Airport
 - 11:00 → ~15:00 · travel! · **FlightLink 722 Dublin Airport → Killarney** (or get off at Farranfore), direct, no change at Red Cow. €39 online *(flightlink.ie fares, 2026-10)*. Airport departures 06:00, 09:00, **11:00**, 13:00, 15:00 *(flightlink.ie service updates, 2026)*. ⚠️ Arrival time inferred: southbound it's Killarney 09:00 → airport 13:00 · 📍 Mission Road Killarney
 - 18:00 → 19:30 · travel · **Local Link 276 Killarney Bus Station → Dingle**, via Inch Beach and Annascaul. **Daily, no booking needed.** Other departures 09:00 and 14:35 *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*. The ~3 h in Killarney is town time, or the family collects you instead · 📍 Killarney Bus Station
 - option · travel · **Faster, with one unknown leg:** off at Farranfore, then on to Tralee (family lift, or train or bus 271, times not checked), then **Bus Éireann 275** 16:15 → 17:24. Later 275s run 18:00 → 19:00, 19:30 → 20:26, and the last 22:00 → 22:54 *(NTA via bustimes.org, Oct 2026)*
@@ -171,6 +172,7 @@ type: activity
 slack: Afternoon onward is family time.
 overnight:
   name: Family
+  mapStandIn: Dingle Harbour
   place: Dingle
   kind: Family home (assumed)
   cost: Free (assumed)
@@ -208,6 +210,7 @@ type: rest
 slack: The whole afternoon.
 overnight:
   name: Family
+  mapStandIn: Dingle Harbour
   place: Dingle
   kind: Family home (assumed)
   cost: Free (assumed)
@@ -233,6 +236,7 @@ type: flex
 slack: Whole day. If Day 3 was rained out, Slea Head moves here.
 overnight:
   name: Family
+  mapStandIn: Dingle Harbour
   place: Dingle
   kind: Family home (assumed)
   cost: Free (assumed)
@@ -263,6 +267,7 @@ type: travel
 slack: 2h 45m at Dublin Airport if the bus is on time. That's the only slack all day.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -273,7 +278,7 @@ overnight:
 - TBD · drive · **Family lift** to Killarney (Mission Road stop) or Farranfore (opposite Aherns Pharmacy, 09:15). The leave time depends on the family's address, which isn't recorded. · 📍 Mission Road Killarney
 - option · travel! · **Without a lift: Local Link 276 Dingle 07:10 → Killarney Bus Station 08:40** (Rock Road 08:34) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*. That leaves **20 minutes** to reach the 09:00 FlightLink, and the next FlightLink (11:00) misses the flight. Too thin to rely on: if there's no lift, use the Dublin airport hotel fallback on Friday night
 - 09:00 → 13:00 (4h) · travel! · **FlightLink 722** Killarney → Dublin Airport, direct. €39 each at current fares. Departures every 2 h from Killarney (05:00, 07:00, **09:00**, 11:00…), Farranfore 15 min later *(flightlink.ie service updates, 2026)*. Book online: €39 vs €45 on board *(flightlink.ie fares)*. Not a dated May 2027 run. · 📍 Dublin Airport
-- 15:45 → 19:10 (2h 25m) · travel · **Ryanair FR 4285** DUB → MRS. Bags and seats extra.
+- 15:45 → 19:10 (2h 25m) · fly · **Ryanair FR 4285** DUB → MRS. Bags and seats extra. · 📍 Aéroport Marseille Provence
 - evening (1h) · travel · **A1 shuttle** to the Saint-Charles bus station: every 10 min until 20:15, then every 20 min; ~25 min, up to 50 in traffic. **€7 each: everyone's 25 or under** (€15 adult; 2026 prices) *(gares-et-connexions SNCF; marseille-tourisme.com)*. Then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
 - note · note! · **Saint-Charles scam:** in Aug 2026 a visitor there was asked for coins, then led "to a pharmacy" down a side street and robbed of everything. **Don't follow anyone off the station forecourt.** Plainclothes police also watch for luggage thieves there *(Meta AI results pasted by Colin, citing @infos.marseille13, 2026-08-26)*
 - late · food · Whatever's open near the apartment.
@@ -296,6 +301,7 @@ type: activity
 slack: Late morning and evening. Sunday, so expect locals out.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -322,6 +328,7 @@ type: activity
 slack: Afternoon. Whit Monday, so holiday bus times.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -348,6 +355,7 @@ type: activity
 slack: The cove is optional. The viewpoint is the plan.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -378,6 +386,7 @@ type: activity
 slack: Afternoon. First cut — En-Vau down to Port-Pin and back.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -403,6 +412,7 @@ type: activity
 slack: Generous.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -430,6 +440,7 @@ type: activity
 slack: Afternoon. Also the makeup day for Luminy or Cassis if weather moved them.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -460,13 +471,14 @@ type: activity
 slack: Most of the day. If the wind cancels the boats, it's a free city day.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
 ```
 
 **Schedule**
-- morning · ferry · **Frioul islands** from the Quai des Belges. In July 2026 boats left roughly every 30–60 min, 06:30–23:50; May will be thinner *(Zou! timetable, 2026-07)*. €11.10 return for one island and €16.70 for If + Frioul are the **local-resident** fares; the visitor fare wasn't shown *(marseille-tourisme.com)*. **Mistral cancels the Château d'If boats**, and the château charges €7 entry on top *(frequence-sud.fr, 2026-06)* · 📍 Vieux-Port Frioul ferry
+- morning · ferry · **Frioul islands** from the Quai des Belges. In July 2026 boats left roughly every 30–60 min, 06:30–23:50; May will be thinner *(Zou! timetable, 2026-07)*. €11.10 return for one island and €16.70 for If + Frioul are the **local-resident** fares; the visitor fare wasn't shown *(marseille-tourisme.com)*. **Mistral cancels the Château d'If boats**, and the château charges €7 entry on top *(frequence-sud.fr, 2026-06)* · 📍 Frioul If Express Vieux-Port
 - day · ruins · **Hôpital Caroline** on Ratonneau: an 1820s quarantine hospital for yellow fever, closed 1948, now a big stone ruin being restored by the Acta Vista association. **Outside only:** don't go into closed or ruined buildings. About 40 min on foot from the Frioul port. Free *(marseilletourisme.fr; lebateau-frioul-if.fr)* · 📍 Hôpital Caroline Frioul
 - day · walk · **Fort de Ratonneau and the Cap de Croix battery**: WWII bunkers and ammunition stores cut into the rock, with a 360° view back to Marseille *(marseilletourisme.fr)*. Then **Calanque de Saint-Estève** for a swim · 📍 Calanque de Saint-Estève Frioul
 - optional · stop · The Château d'If, if the boat stops there (no boats in mistral; €7 entry).
@@ -486,6 +498,7 @@ type: rest
 slack: All of it.
 overnight:
   name: TBD, Marseille apartment
+  mapStandIn: Staycity Aparthotels Centre Vieux Port
   place: Marseille
   kind: Aparthotel
   cost: See Notes
@@ -510,7 +523,7 @@ slack: Unknown until the flight is booked.
 
 **Schedule**
 - early · travel · To the airport: **A1 shuttle** from Saint-Charles, €7 each since everyone's 25 or under, or **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. For option A's 07:15 departure, leave the apartment around 04:15 (note below); check the first TER before counting on it · 📍 Aéroport Marseille Provence
-- day · travel · **MRS → CLE: three one-way options seen** *(Google Flights screenshot from Colin, 2026-10-30; per person, one way, not held; layover lengths not shown)*:
+- day · fly · **MRS → CLE: three one-way options seen** *(Google Flights screenshot from Colin, 2026-10-30; per person, one way, not held; layover lengths not shown)*: · 📍 Cleveland Hopkins International Airport
   - ✅ **Picked: BA + American via Heathrow and Chicago**: 07:15 → 17:44, 16h 29m, **$596**. The cheapest. US entry at O'Hare *(Colin, 2026-10-30)*.
   - **KLM + Delta via Amsterdam and Detroit**: 06:30 → 15:09, 14h 39m, $683. The fastest, and home earliest. US entry at Detroit.
   - **Iberia + Aer Lingus via Madrid and Dublin**: 06:15 → 19:10, 18h 55m, $685. The longest, but **US immigration is cleared in Dublin before boarding** *(dublinairport.com)*, so Cleveland is a domestic arrival.

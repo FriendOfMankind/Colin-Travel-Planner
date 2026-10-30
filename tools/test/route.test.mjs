@@ -32,3 +32,11 @@ test("links: start is the origin, split at 3 waypoints, chained", () => {
   assert.ok(l[1].url.includes("origin=d") && l[1].url.includes("destination=f"));
   assert.ok(!routeLinks({ start: null, stops })[0].url.includes("origin="));
 });
+
+test("a flight breaks the directions links: drive to the airport, then on from the far one", () => {
+  const s = (q, via) => ({ label: q, q, pinned: true, ...(via ? { via } : {}) });
+  const l = routeLinks({ start: s("home"), stops: [s("DUB"), s("MRS", "fly"), s("Station"), s("Flat")] });
+  assert.deepEqual(l.map((x) => [x.from, x.stops]), [["home", ["DUB"]], ["MRS", ["Station", "Flat"]]]);
+  const opt = dayStops([{ maps: "A", time: "9:00" }, { maps: "B", time: "option" }, { maps: "C", time: "fallback" }, { maps: "D", time: "optional" }], []);
+  assert.deepEqual(opt.stops.map((x) => x.label), ["A", "D"]);
+});

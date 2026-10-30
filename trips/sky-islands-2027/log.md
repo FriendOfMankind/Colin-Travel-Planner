@@ -106,3 +106,10 @@ What the Appalachians retro implies here (`trips/appalachians-2026/log.md`, 2026
 ## 2026-10-29 · Crowd wording updated to the new rule
 
 The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the trip also has empty places (`me/travel-style.md`). Three passages here restated the old one ("actively avoids crowds… a reservation removes the lottery, not the people… fails your own test"). They're rewritten; **the plan itself is unchanged**. The 3-in / 7-out split still stands, now justified as icon-plus-retreat and by the booking asymmetry. The "3 nights in, 4 on the empty side" count in the overview card was the same fact as "7 outside" counted without Gilbert Ray; it now says 7 everywhere.
+
+## 2026-10-30 · Road lines on the map, and what they caught
+
+`tools/roads.py` drew every day along real roads (Overture Maps 2026-10-21.0; plausible, not navigation). Ten of eleven days are in `routes.yaml`. Drawn miles: d1 17, d2 6, d3 94, d5 11, d6 4, d7 143, d8 3, d9 8, d10 202, d11 19.
+- **Day 4 is held back. The Slavin Gulch pin and the plan disagree.** The pin (`places.yaml`, placed via mapbench.html, Sept 2026) sits ~5 mi *west* of Cochise Stronghold Campground, across the Dragoons. The plan says "east side of the Dragoons, 35 min". To reach the pin, the route drove 59 mi around the range. AllTrails lists the trail as "near Pearce", which is the east side and backs the plan, but it gives no trailhead coordinate *(source: AllTrails, Slavin Gulch Trail to Slavin's Mine, 2026-10-30)*. Open until Colin re-drops the pin. `routes/day-4.gpx` stays on disk unlisted; re-run `roads.py` once the pin is fixed.
+- **Day 2's drive looks padded.** Gilbert Ray → King Canyon Trailhead draws 2.8 mi, against "~25 min each way" in the plan. Harmless, since it only means arriving early for the small lot. The plan is unchanged, because the line comes from a road model, not a timed drive.
+- **Slavin Gulch gain is now 1,440 ft (was 1,407 ft)** in `trip.md`, matching AllTrails' current figure *(source: AllTrails, 2026-10-30)*. Same trail, same 6.9 mi.

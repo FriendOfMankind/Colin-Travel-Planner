@@ -4,6 +4,12 @@
 groups:
   - group: Getting around Ireland
     places:
+      - name: Cleveland Hopkins International Airport
+        note: May 10 out (EI 86), May 24 home. Day 1 and day 15.
+        maps: Cleveland Hopkins International Airport
+        verified: false
+        lat: null
+        lng: null
       - name: Dublin Airport
         note: In May 11 08:45. Out May 15 15:45 (FR 4285). FlightLink drops here 13:00.
         maps: Dublin Airport
@@ -48,6 +54,12 @@ groups:
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Dingle peninsula
     places:
+      - name: Dingle (town)
+        note: Day 2 arrival. A whole town, so "Not a pin" is a fine answer; nights 2–5 use Dingle Harbour as the bed stand-in.
+        maps: Dingle Co. Kerry
+        verified: false
+        lat: null
+        lng: null
       - name: Dingle Harbour
         note: Day 4.
         maps: Dingle Harbour
@@ -176,6 +188,24 @@ groups:
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Marseille
     places:
+      - name: Vieux-Port
+        note: Days 7 and 13 (fish sellers, evenings).
+        maps: Vieux-Port Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Castellane
+        note: Day 10. Bus 78 to Cassis leaves from here.
+        maps: Castellane Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Marseille Provence Airport
+        note: In May 15 19:10 (FR 4285). Out May 24. Day 6 and day 15.
+        maps: Aéroport Marseille Provence
+        verified: false
+        lat: null
+        lng: null
       - name: Gare Saint-Charles
         note: A1 airport shuttle terminus.
         maps: Gare Saint-Charles Marseille
@@ -220,6 +250,24 @@ groups:
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Calanques, Cassis, Aix
     places:
+      - name: Port de Cassis
+        note: Day 10 afternoon.
+        maps: Port de Cassis
+        verified: false
+        lat: null
+        lng: null
+      - name: Gare d'Aix-en-Provence Centre
+        note: Day 11. The TER station in town, not Aix TGV.
+        maps: Gare d'Aix-en-Provence Centre
+        verified: false
+        lat: null
+        lng: null
+      - name: Cours Mirabeau
+        note: Day 11.
+        maps: Cours Mirabeau Aix-en-Provence
+        verified: false
+        lat: null
+        lng: null
       - name: Luminy
         note: Day 9 trailhead side.
         maps: Luminy Marseille

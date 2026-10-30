@@ -16,7 +16,9 @@ Who does what: **Colin** drops pins and decides beds. **Claude** does everything
 - `node tools/geojson.mjs --todo` lists every unplaced place on upcoming trips with its Maps search.
 - Then check the schedule: **a `📍` stop with no `places.yaml` entry can never be pinned.** Add each one to `places.yaml` (unplaced, with a note naming its day). On Newfoundland that was 16 stops, including Gander, Twillingate, St. John's and Ferryland.
 - Add **home** as a place with `home: true` (it opens day 1 and closes a last day with no bed), and any **ferry terminal** a crossing ends at. A ferry row needs a `📍` at the far side or the crossing can't be drawn.
-- List the **undecided beds** (`TBD` overnights). They're Colin's decisions, not pins. Ask about them, multiple choice.
+- List the **undecided beds** (`TBD` overnights). They're Colin's decisions, not pins. Ask about them, multiple choice. A bed with no fixed place yet (an unbooked apartment, a family address nobody wrote down) can take **`mapStandIn: <placed place name>`** on its overnight, if Colin picks a stand-in: the day ends there and the day card says it's a stand-in. Swap it for the real place when it's booked.
+- **Flights are `fly` rows**, with the landing airport as the `📍`. The hop draws as a great-circle arc (dotted on the Map tab), `roads.py` never drives it, and the Google Maps links break at the airport. A flight to an unplaced airport still flies, landing at the next placed stop.
+- Rows timed **`option`** or **`fallback`** are alternatives, so they're not route stops. `optional` add-ons still are. A day that's all alternatives (pick one of two) has no line until it's picked.
 
 ### 2. Pins (Colin, about 30 seconds each)
 
@@ -41,7 +43,9 @@ Write each pin into `places.yaml` as `verified: true`, `source: Google Maps drop
 
 Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteService and Geofabrik, tested 2026-10-30), but **Overture Maps' road data on S3 is reachable**. So the tool pulls the roads in the trip's box (major roads everywhere, every road within ~4 km of a stop), builds the network and finds the fastest path between each day's stops, ferries included. It writes `routes/day-N.gpx` and `routes.yaml` with the source.
 
-**Ferries:** when both ends of a leg sit within 3 km of the ends of one ferry line, the leg takes that sailing, even if driving round to another ferry is quicker on paper. Without that rule, day 27 skipped the Argentia overnight ferry and drove across the island to Port aux Basques. To route a ferry leg, put the far terminal on the ferry row's `📍`.
+**Flights:** each stretch of ground between flights (Ireland, Marseille) gets its own road pull, and a stop snaps to any network of 200+ nodes, not only the biggest. The GPX writes a flight as its own `<trk>` with `<type>fly</type>`.
+
+**Ferries:** on a day whose plan has a `ferry` row, when both ends of a leg sit within 3 km of the ends of one ferry line, the leg takes that sailing, even if driving round to another ferry is quicker on paper. Without that rule, day 27 skipped the Argentia overnight ferry and drove across the island to Port aux Basques. To route a ferry leg, put the far terminal on the ferry row's `📍`.
 
 Re-run it whenever pins or beds change; days that didn't change come out the same.
 
@@ -62,6 +66,7 @@ Re-run it whenever pins or beds change; days that didn't change come out the sam
 | The site's **Map tab** | Coastline, every day's line and pin, drawn in the page: works offline and inside the claude.ai page. Tap a day, line or pin to zoom to that day and get its card (miles, driving, bed, stops, Day plan link, Google Maps route). |
 | `site/maps/<slug>.kepler.json` | The animated map. Drag onto kepler.gl/demo on a computer. |
 | `site/maps/<slug>.geojson`, `-trip.geojson`, `all*.geojson` | Raw data for Felt, geojson.io or Kepler by hand. |
+| `site/packs/<slug>.gpx` (`node tools/pack.mjs <slug>`, not run by build) | The field copy: every verified pin plus one track per day that has a road line, named "Day N · title". Import into Organic Maps for routes with no signal. Straight pin-to-pin lines are left out. |
 
 **Check before calling it done:**
 - `npm test`: coordinates and routes have sources, Kepler files bind, the coastline keeps its islands.
@@ -80,7 +85,8 @@ Commit with the pins' and routes' provenance in the message, push, PR. Republish
 - **The coastline is Natural Earth 1:10m**, about a kilometre of detail. It shows where the coast is, not which side of a cove a campground is on. Pins and roads carry the detail.
 - **The animation clock is fake.** Each day plays 01:00–23:00 on its date at constant speed along its line: order and distance, not time of day.
 - **Only placed pins draw.** A day with fewer than two placed stops (or a decided bed) has no line.
-- **Bus-and-flight trips** (Dingle–Marseille) route by road too. Read those lines as "between here and there", not the bus's path.
+- **Bus-and-flight trips** (Dingle–Marseille) route their ground by road. Read the bus and metro lines as "between here and there", not the bus's path. Flights are arcs, and the offline pack leaves them out.
+- **A stand-in bed is a placeholder,** not where anyone sleeps.
 
 ## Kepler and Felt by hand
 

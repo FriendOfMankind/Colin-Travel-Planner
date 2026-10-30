@@ -19,6 +19,16 @@
    routes.yaml lists a GPX for that day, which is then the line
    (`shape: "road"`) and carries that entry's source.
 
+   A hop reached by a `fly` row is a great-circle arc, never a road. The
+   arc stays inside the day's line (so the animation flies) and the leg
+   lists it in `fly` as [first, last] vertex ranges, so the Map tab can dash
+   it and roads.py won't drive it. `miles` counts the ground, `flownMiles`
+   the air. A GPX marks its flight tracks with <type>fly</type>.
+
+   A day with a `ferry` row in its plan says `planFerry`: only then does
+   roads.py hold a hop to a sailing. A bed with `mapStandIn:` (no fixed place yet) ends the day at that stand-in
+   and the leg says `bedStandIn`.
+
    The clock is fake. Each day plays 01:00 → 23:00 on its date at constant
    speed along the line, so playback shows order and distance, not time of day.
    Nothing here invents a place; it only reshapes verified ones. */
@@ -28,7 +38,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
-import { dayStops, campStop } from "./lib/route.mjs";
+import { dayStops, bedStop } from "./lib/route.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -55,6 +65,35 @@ function dateOf(d, r) {
   return base ? addDays(String(base instanceof Date ? base.toISOString().slice(0, 10) : base), d.day - 1) : null;
 }
 
+/** Great-circle arc a → b as [lng, lat] points, both ends included. */
+export function arc(a, b, n = 48) {
+  const r = Math.PI / 180, v = ([x, y]) => [Math.cos(y * r) * Math.cos(x * r), Math.cos(y * r) * Math.sin(x * r), Math.sin(y * r)];
+  const p = v(a), q = v(b), w = Math.acos(Math.min(1, p[0] * q[0] + p[1] * q[1] + p[2] * q[2]));
+  if (w < 1e-9) return [a, b];
+  return Array.from({ length: n + 1 }, (_, i) => {
+    const t = i / n, s0 = Math.sin((1 - t) * w) / Math.sin(w), s1 = Math.sin(t * w) / Math.sin(w);
+    const [x, y, z] = [0, 1, 2].map((k) => s0 * p[k] + s1 * q[k]);
+    return [Math.atan2(y, x) / r, Math.atan2(z, Math.hypot(x, y)) / r];
+  });
+}
+
+/** Parts → one line plus the [first, last] vertex ranges that are flown. */
+function joinParts(parts) {
+  const line = [], fly = [];
+  for (const { line: l, fly: f } of parts) {
+    const from = line.length ? line.length - 1 : 0;
+    line.push(...(line.length ? l.slice(1) : l));
+    if (f) fly.push([from, line.length - 1]);
+  }
+  return { line, fly };
+}
+
+/** GPX text → [{ fly, line }], one per track; a track typed "fly" is a flight. */
+export function gpxParts(text) {
+  const trks = [...text.matchAll(/<trk\b[\s\S]*?<\/trk>/g)].map((m) => m[0]);
+  return (trks.length ? trks : [text]).map((t) => ({ fly: /<type>\s*fly\s*<\/type>/.test(t), line: gpxLine(t) })).filter((p) => p.line.length);
+}
+
 /** GPX text → [[lng, lat], …] from its track points, else route points. */
 export function gpxLine(text) {
   const pts = (tag) => [...text.matchAll(new RegExp(`<${tag}\\b[^>]*>`, "g"))].map((m) => {
@@ -70,7 +109,7 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   const { registry: r, page } = parseTrip(md);
   const places = groups.flatMap((g) => g.places.map((p) => ({ ...p, group: g.group })));
   const byQuery = new Map(places.filter((p) => p.verified).flatMap((p) => [[`${p.lat},${p.lng}`, p]]));
-  const camp = (o) => campStop(o?.name, places);
+  const camp = (o) => bedStop(o, places);
   const flat = [], trip = [], seen = new Set();
   const days = page.days ?? [];
   let lastPin = null; // the previous day's final placed stop
@@ -84,16 +123,28 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     const t0 = date ? Date.parse(`${date}T00:00:00Z`) / 1000 : (d.day - 1) * 86400;
     const { start, stops } = dayStops(d.schedule ?? [], places, { start: i ? camp(days[i - 1].overnight) : homeStop ?? null, end: camp(d.overnight) ?? (i === days.length - 1 && !d.overnight ? homeStop : null) });
     const all = [start, ...stops].filter(Boolean);
-    // Skipping an unplaced stop can leave one place twice in a row (camp → ? → camp).
-    const pinned = all.filter((s) => s.pinned).map((s) => byQuery.get(s.q)).filter((p, k, a) => p && p !== a[k - 1]);
+    // Skipping an unplaced stop can leave one place twice in a row (camp → ? → camp). A flight
+    // to an unplaced airport still flies: the flag moves on to the next placed stop.
+    const pinned = [], flyHop = [];
+    let flying = false;
+    for (const s of all) {
+      flying ||= s.via === "fly";
+      const p = s.pinned ? byQuery.get(s.q) : null;
+      if (!p || p === pinned.at(-1)) continue;
+      flyHop.push(flying && pinned.length > 0); pinned.push(p); flying = false;
+    }
     // Last night's bed is TBD (or unplaced): start from where yesterday's line ended, so the
     // map doesn't skip the drive between them. A guess, so the leg says so.
     const startGuessed = !(start?.pinned) && lastPin && pinned.length > 0 && pinned[0] !== lastPin;
-    if (startGuessed) pinned.unshift(lastPin);
+    if (startGuessed) { pinned.unshift(lastPin); flyHop.splice(1, 0, false); flyHop[0] = false; }
     if (pinned.length) lastPin = pinned.at(-1);
     const base = { trip: slug, day: d.day, date, title: d.title, color, lineColor: rgb(color), fillColor: rgb(color) };
     const road = routes.get(d.day);
-    const line = road ? road.line : pinned.map((p) => [p.lng, p.lat]);
+    const { line, fly } = road ? joinParts(road.parts ?? [{ fly: false, line: road.line }])
+      : joinParts(pinned.slice(1).map((p, k) => {
+        const a = [pinned[k].lng, pinned[k].lat], b = [p.lng, p.lat];
+        return flyHop[k + 1] ? { fly: true, line: arc(a, b) } : { fly: false, line: [a, b] };
+      }));
 
     // The clock runs at constant speed along the line, so the trace moves like a car and
     // each pin appears when the line reaches it (its nearest vertex, searched in order).
@@ -113,7 +164,13 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     });
 
     if (line.length < 2) return;
-    const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round(total / 1.609344), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
+    const inAir = (k) => fly.some(([a, b]) => k > a && k <= b);
+    const flown = cum.reduce((a, c, k) => a + (k && inAir(k) ? c - cum[k - 1] : 0), 0);
+    const bed = camp(d.overnight);
+    const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round((total - flown) / 1.609344),
+      ...(fly.length ? { fly, flownMiles: Math.round(flown / 1.609344), flyHops: flyHop.flatMap((f, k) => (f ? [k + 1] : [])) } : {}),
+      ...(bed?.standIn ? { bedStandIn: bed.label } : {}),
+      ...((d.schedule ?? []).some((r) => r.kind === "ferry" && !/^(option|fallback)\b/i.test(r.time)) ? { planFerry: true } : {}), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
     flat.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line } });
     trip.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line.map(([x, y], k) => [x, y, 0, at(k)]) } });
   });
@@ -133,7 +190,7 @@ function point(p, extra) {
   return { type: "Feature", properties: props, geometry: { type: "Point", coordinates: [p.lng, p.lat] } };
 }
 
-/** trips/<slug>/routes.yaml → Map(day → { line, source, file }). Every entry needs a source. */
+/** trips/<slug>/routes.yaml → Map(day → { line, parts, source, file }). Every entry needs a source. */
 export function loadRoutes(slug, readRel = read, exists = has) {
   const rel = `trips/${slug}/routes.yaml`;
   if (!exists(rel)) return new Map();
@@ -141,9 +198,10 @@ export function loadRoutes(slug, readRel = read, exists = has) {
   for (const e of YAML.parse(readRel(rel)) ?? []) {
     if (!e.source) throw new Error(`${rel}: day ${e.day} has no source (where the line came from)`);
     const files = [e.files ?? e.file].flat();
-    const line = files.flatMap((f) => gpxLine(readRel(`trips/${slug}/${f}`)));
+    const parts = files.flatMap((f) => gpxParts(readRel(`trips/${slug}/${f}`)));
+    const { line } = joinParts(parts);
     if (line.length < 2) throw new Error(`${rel}: day ${e.day}'s GPX has no track or route points`);
-    out.set(Number(e.day), { line, source: e.source, file: files.join(", ") });
+    out.set(Number(e.day), { line, parts, source: e.source, file: files.join(", ") });
   }
   return out;
 }
