@@ -22,7 +22,7 @@ Two more optional item fields, used by the clothing categories:
 
 ## Sleep system
 
-Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is owned (2026-09-28); the open item is whether bag + liner is warm enough at 32°F, which October answers.
+Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is owned (2026-09-28), and bag + liner was warm enough to ~30°F in October *(stated 2026-10-27, first appalachians-2026 retro)*.
 
 ```yaml
 - name: REI Co-op Siesta 20 sleeping bag
@@ -31,14 +31,14 @@ Rebuilt for cold in 2026. This was the weak link and no longer is. The liner is 
   question:
     text: Does it actually sleep warm enough to trust at 32°F?
     answeredBy: kentucky-2026
-    answer: "Partly. Warm with no issues at ~50°F. The 32°F half is still untested; Kentucky never got that cold. (confirmed: kentucky-2026 log, 2026-09-27)"
+    answer: "Yes, with the liner. Warm enough on the 29°F freeze-warning night at Arrowhead and the mid-30s FS 210 nights (stated 2026-10-27, first appalachians-2026 retro). (was: \"Partly. Warm at ~50°F, 32°F untested\", kentucky-2026 log, 2026-09-27)"
 - name: Sleeping bag liner
   state: own
   note: "Ordered/owned as of 2026-09-28 (was: need). For the last three October nights (Linville and Hurricane, mid-30s). **Decided 2026-09-27: buying one**, as margin, because Kentucky could not test the bag near freezing."
   question:
     text: Is it needed, or does the Siesta 20 cover the mid-30s on its own?
     answeredBy: kentucky-2026
-    answer: "Unanswerable from Kentucky (lows ~50°F). Buying anyway as cheap insurance. Re-ask after the Appalachians trip. (stated 2026-09-27)"
+    answer: "Still not separable: October used bag + liner together and was warm enough to ~30°F (stated 2026-10-27, first appalachians-2026 retro). Whether the bag alone covers the mid-30s was never tested, so keep packing the liner below 40°F. (was: \"Unanswerable from Kentucky… re-ask after the Appalachians trip\", 2026-09-27)"
 - name: Therm-a-Rest MondoKing 3D, 25 in Large
   state: own
   note: R-7.0. Overkill for anything on the current list, which is the correct problem to have.
@@ -69,11 +69,11 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   state: own
   note: "*(model stated 2026-10-08; was: \"Portable power bank\", model not recorded. Confirmed the same unit 2026-10-08.)* 230.4 Wh, 200 W AC output (400 W surge); recharges from the car's 12 V socket in ~2.5 h, or from a wall in ~6.5 h *(nebo.acgbrands.com and an eBay listing, search snippets, 2026-10-08)*. Four hours of laptop plus Starlink is the real draw, not the phone. **Too small to run a heated blanket through a night:** about 4 h at a typical 12 V blanket's ~50 W *(arithmetic on recalled blanket wattage)*. Top it up while driving."
 - name: Offline maps — Google Maps regions
-  state: need
-  note: Downloaded before leaving home. Covers driving only.
+  state: own
+  note: "Set up *(stated 2026-10-27)* (was: need). Downloaded before leaving home. Covers driving only. Regions expire, so re-download before each trip."
 - name: Offline maps — AllTrails or Gaia
-  state: need
-  note: "**Google Maps offline does not include trails.** Separate download, and a GPX for anything poorly blazed."
+  state: own
+  note: "Set up *(stated 2026-10-27)* (was: need); the Hawksbill sunrise climb ran on an offline AllTrails track *(stated 2026-10-27, first appalachians-2026 retro)*. **Google Maps offline does not include trails.** Separate download, and a GPX for anything poorly blazed."
 ```
 
 ## Pack & hiking
@@ -177,12 +177,13 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
 - name: Sun hat
   type: sun
   qty: 1
-  state: unknown
-  note: Not confirmed. Load-bearing on the desert trips, not the Appalachian ones.
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: unknown, not confirmed). Load-bearing on the desert trips, not the Appalachian ones."
 - name: Sunglasses
   type: sun
   qty: 1
-  state: unknown
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: unknown)."
 ```
 
 ## Clothing — worn articles & counts
@@ -312,8 +313,8 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ```yaml
 - name: Camp chair
-  state: need
-  note: "*(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
+  state: own
+  note: "Owned *(stated 2026-10-27)* (was: need). Which chair isn't recorded. *(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
 - name: Big flashlight (1,000+ lumen, rechargeable)
   state: need
   note: "*(stated 2026-10-01, wants one)* For night exploring (Blevins farm). Candidates: Fenix PD36R Pro *(source: gearjunkie.com best flashlights 2026, search snippet, 2026-10-01)*; Sofirn SC33 or Wurkkos TS22 *(source: reddit r/flashlight, search snippet, 2026-10-01)*. Specs and prices not checked. ⚠️ Recalled, not verified: spare lithium batteries fly in carry-on only."

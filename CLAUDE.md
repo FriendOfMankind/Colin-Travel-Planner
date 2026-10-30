@@ -24,7 +24,9 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
+| A packing checklist to send a friend joining a trip | `share/gear-checklist.html`, published at https://claude.ai/artifact/WS4dhD88SF9XEoCmarduwQ. Generic for now. To customize for a trip, edit the `TRIP`/`SECTIONS` block at the top of the script, change `TRIP.id`, and publish a copy as a new page so the generic one stays |
 | What's in the repo | `INDEX.md` (generated) |
+| Drift checks: pinned facts, dismissed findings, run ledger | `garden/` |
 
 ## How to answer
 
@@ -45,6 +47,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
 | "research …" / "do a sweep" / "youtube research" | `/research` | log, `research.md`, plain facts in `trip.md` | no, Colin merges |
 | "check my email" / "what's booked?" | `/inbox` | `booking:` rows, log | yes, if only booking marks |
+| "garden" / "what's stale" / "sweep for contradictions" | `/gardener` | fixes he picks, `garden/` | only if `garden/`-only |
 
 ## Changing things
 
@@ -56,6 +59,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - If this chat's earlier PR is already merged, restart the branch from `main` before new work.
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
+- **When a fact copied into several files changes,** update its pin in `garden/pins.yaml`; `node tools/garden.mjs` then lists every stale copy.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
 - **Update, don't append.** When a fact changes, change it in place. **In a `trip.md`, no "(was: …)" notes:** the plan shows only current facts, and the old value and the reason go in that trip's `log.md` as a dated line *(Colin, 2026-10-29)*. Elsewhere (`me/`, `wishlist/`), a short "(was: …)" is still fine when the history matters. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
@@ -72,13 +76,17 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 3. **Never hand-type a sunrise, sunset or booking-window date.** They're computed (`tools/now.mjs` computes booking windows).
 4. **Warnings are for what can hurt him or kill the day,** not general advice.
 5. **An honest `outline` beats a fake `planned`.**
-6. **Oral allergy syndrome:** roasted nuts, cooked fruit and dried fruit fine; raw fruit still open. Spice ceiling 1–2 of 5. No coffee, no beer. Details in `me/food.md`.
+6. **Oral allergy syndrome:** closed, never ask about it again *(Colin, 2026-10-27)*. Spice ceiling 1–2 of 5. No coffee, no beer. Details in `me/food.md`.
 7. **Nothing gets deleted to make a warning go away.** Fix the data, or argue with the check out loud.
 
 ## Limits of this environment
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
-- **Social sources, tested 2026-10-07:** YouTube gives the full transcript and description through Firecrawl scrape, but not the comments. Reddit and Instagram show up in search, but only as snippets: Firecrawl refuses to scrape both, and old.reddit.com is blocked. Facebook groups need a login, so assume they're unreachable. For anything you can't read, ask Colin to fetch it (`me/working-rules.md`).
+- **Social sources, re-tested 2026-10-30** (details in `me/research.md`):
+  - **Reddit: readable through the Apify MCP**, full threads with comments and dates (`trudax/reddit-scraper-lite`). Plain web search almost never surfaces Reddit, and Firecrawl and old.reddit.com still refuse it, so go straight to Apify. An empty result can mean a bad query, not an empty subreddit: "Chiricahua March" in r/arizona came back with 0 items on 2026-10-30.
+  - **YouTube:** Firecrawl scrape gives the transcript and description. Apify (`streamers/youtube-comments-scraper`) gives comments.
+  - **Instagram and Facebook:** untested through Apify. Facebook *private* groups need a login: unreachable, fetch list.
+  - For anything you still can't read, ask Colin to fetch it (`me/working-rules.md`).
 - Coordinates come from Colin, via the Pin Ledger or a pasted Google Maps long-press (`docs/MAPS.md`), never from a guess.
 - This session can't delete remote branches. GitHub's "Automatically delete head branches" setting handles merged ones.
 
@@ -88,6 +96,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 npm install            # the session hook does this
 npm test               # format, trips, wishlist, bucket and date tests
 node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a date)
+node tools/garden.mjs  # the gardener's free mechanical drift pass (--json, --scope)
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, manifest, icons, booking-alarms.ics for Pages
@@ -100,10 +109,10 @@ python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads,
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: the site's Map tab, real road lines (`tools/roads.py`), the Pin Ledger and Kepler files, all in the `docs/MAPS.md` workflow (2026-10-30), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (three done), 44 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the eight skills (`/inbox` added 2026-10-29; `/gardener` 2026-10-30, a free mechanical pass in the briefing plus finder and verifier agents in `.claude/agents/`), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: the site's Map tab, real road lines (`tools/roads.py`), the Pin Ledger and Kepler files, all in the `docs/MAPS.md` workflow (2026-10-30), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-2. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
+2. **A weekly `/gardener` run**, scheduled once a few manual runs show it earns it (`docs/PLAN.md` Phase 4b).
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

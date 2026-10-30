@@ -76,7 +76,7 @@ const touches = (pts, [x0, y0, x1, y1]) => pts.some(([x, y]) => x >= x0 && x <= 
 
 /** Land rings and border lines inside box [x0, y0, x1, y1], simplified to its size. */
 export function basemap(box) {
-  const tol = Math.max(box[2] - box[0], box[3] - box[1]) / 900;
+  const tol = Math.max(box[2] - box[0], box[3] - box[1]) / 3000;
   const { land, borders } = atlas();
   const rings = [];
   for (const poly of land) for (const ring of poly) {

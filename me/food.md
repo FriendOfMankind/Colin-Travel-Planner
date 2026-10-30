@@ -53,21 +53,25 @@ dislikes:
 
 # Food
 
-Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround, but which specific foods trigger it is not yet recorded. Restaurants: **local legends** (the place everyone names, like Miguel's), **dessert and treats**, and a **big cheap refuel** after a hard day all count *(stated 2026-09-28; was: "restaurants are for high value, not convenience… a mediocre one is worth skipping entirely", which was too strict)*. Wants authentic local food and fresh dessert, bought rather than made. **Loves seafood** *(stated 2026-10-04)*: fish and chips, cod and the like are named-dish material. Shellfish not asked separately. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,300 kcal/day** on a hiking trip (was ~3,000; raised 2026-09-28, see the macro table below). **No coffee, no beer.** **Spirits are fine socially**, with friends: "down to drink while they're visiting" *(stated 2026-10-10, about the newfoundland-2027 friends' week)*. Solo drinking isn't recorded either way; the Kentucky trip ran with no alcohol.
+Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vegetables can irritate; cooked and roasted forms are the usual workaround. **Closed as a topic, don't ask** *(stated 2026-10-27)*. Restaurants: **local legends** (the place everyone names, like Miguel's), **dessert and treats**, and a **big cheap refuel** after a hard day all count *(stated 2026-09-28; was: "restaurants are for high value, not convenience… a mediocre one is worth skipping entirely", which was too strict)*. Wants authentic local food and fresh dessert, bought rather than made. **Loves seafood** *(stated 2026-10-04)*: fish and chips, cod and the like are named-dish material. Shellfish not asked separately. Spice **1–2 of 5**: background heat, not the point of the dish. Target **~3,300 kcal/day** on a hiking trip (was ~3,000; raised 2026-09-28, see the macro table below). **No coffee, no beer.** **Spirits are fine socially**, with friends: "down to drink while they're visiting" *(stated 2026-10-10, about the newfoundland-2027 friends' week)*. Solo drinking isn't recorded either way; the Kentucky trip ran with no alcohol.
 
 ## Oral allergy syndrome: what's actually known
+
+**Closed. Don't ask about this again** *(stated 2026-10-27)*: "forget it, this does not actually matter in reality, never bring this up again." Raw fruit and raw vegetables are no longer open questions. Don't flag them in recipes or plans, and don't put them in retro or interview rounds. What's below is history, kept for the record.
 
 The paragraph above was written before any of this was confirmed. Current state:
 
 - **Roasted nuts: fine. Confirmed.** Every nut in a recipe is a buying instruction (buy roasted), not a restriction. *(confirmed Sept 2026, source: Trees CLAUDE.md)*
-- **Raw fruit: open.** Recipes that carry it are flagged `review: oas` in the kitchen and stay flagged until this is answered.
+- **Raw fruit: closed, not a planning constraint** *(stated 2026-10-27)*. (was: "open. Recipes that carry it are flagged `review: oas`… until this is answered")
 - **Dried fruit: fine.** *(stated 2026-10-04: "cooked and dried fruit is fine")* So the September crate's apricots and mango are usable. *(was: open; Kentucky's planned figs and mango went uneaten, so the retro couldn't answer it, confirmed: kentucky-2026 log)*
 - **Cooked fruit: fine.** *(stated 2026-10-04)* Jam, pie and the like are allowed. *(was: "open, and possibly moot", because both cooked-fruit dishes on the Menu Bench were rejected. Those were dish rejections, not an allergy answer; see the patterns section.)*
-- **Raw vegetables:** the profile says they "can irritate". No specific trigger is recorded. Kentucky's plan carried raw salsa and pepperoncini, but he didn't eat those either *(confirmed: kentucky-2026 log)*, so this is still open.
+- **Raw vegetables:** the profile says they "can irritate". No specific trigger is recorded. Kentucky's plan carried raw salsa and pepperoncini, but he didn't eat those either *(confirmed: kentucky-2026 log)*, so this was left open, and then closed with the rest *(stated 2026-10-27)*.
 
 The camp kitchen (recipes, cooler doctrine, pantry) lives in `kitchen/`. This file is the person, not the menu.
 
 ## What actually works on the road (evidence)
+
+From the Southwest trip (May 2026, five friends): grocery runs and camp cooking were planned, and it came out **about half cooked, half bought** *(confirmed: southwest-2026 log)*. That's a group trip, so it's weak evidence for solo trips.
 
 From Kentucky 2026, where the detailed meal plan mostly didn't survive contact with the trip: *"I ended up going back to things I had in stock, staples."* *(confirmed: kentucky-2026 log, 2026-09-27)*
 
@@ -105,7 +109,7 @@ From Kentucky 2026, where the detailed meal plan mostly didn't survive contact w
 | Carbs | **~400–475 g** | ~5–5.5 g/kg, the fuel for long active days |
 | Fat | **~70–95 g** | whatever's left of ~3,300 kcal |
 
-A day of long miles at 185 lb likely burns more than 3,000 kcal. If he comes home lighter or runs out of steam on day 3+, raise the kcal target again. *(hypothesis, not yet observed)*
+A day of long miles at 185 lb likely burns more than 3,000 kcal. If he comes home lighter or runs out of steam on day 3+, raise the kcal target again. **Checked after 10 days in the Appalachians: energy was fine** *(stated 2026-10-27, Appalachians retro)*, eating oats + ramen bomb + Knorr side + chicken + snacks (~3,070 kcal computed). The target stands. (was: "hypothesis, not yet observed")
 
 **Resolved 2026-09-27:** ramen was on the rejected list, yet he ate cup ramen twice on the trip. Both are true: the Menu Bench "no" votes were for loaded/upgraded ramen as a *meal*, and plain cup ramen is a quick trailhead fuel he likes. The rejected entry was narrowed to match.
 

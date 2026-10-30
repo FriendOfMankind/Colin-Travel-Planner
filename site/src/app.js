@@ -71,6 +71,8 @@
   const PAGES_URL = "https://friendofmankind.github.io/Colin-Travel-Planner/";
   const hosted = /^https?:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(location.hostname);
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+  // Satellite view lives in Google Maps: the claude.ai page can't load outside tiles (Maps URLs API, basemap=satellite).
+  const satUrl = (lat, lng, zoom = 16) => `https://www.google.com/maps/@?api=1&map_action=map&center=${lat},${lng}&zoom=${zoom}&basemap=satellite`;
 
   /* --------------------------------------------------------- pieces */
   function routeBlock(r) {
@@ -414,9 +416,15 @@
   const dayColor = (i, n) => { const t = n < 2 ? 0 : (i / (n - 1)) * (RAMP.length - 1), k = Math.min(Math.floor(t), RAMP.length - 2), f = t - k;
     return `rgb(${RAMP[k].map((v, j) => Math.round(v + (RAMP[k + 1][j] - v) * f)).join(",")})`; };
   const mapSel = {}; // slug → selected day, kept while the page is open
+  /** coast.json rings arrive as integer deltas in 1e-4° steps (tools/build.mjs coastDetail). */
+  function undelta(d) {
+    const out = []; let x = 0, y = 0;
+    for (let i = 0; i < d.length; i += 2) { x += d[i]; y += d[i + 1]; out.push([x / 1e4, y / 1e4]); }
+    return out;
+  }
   function mapProj(m) {
     const [x0, y0, x1, y1] = m.box, k = Math.cos(((y0 + y1) / 2) * Math.PI / 180), S = 1000 / ((x1 - x0) * k);
-    return { W: 1000, H: Math.round((y1 - y0) * S), P: ([x, y]) => [+((x - x0) * k * S).toFixed(1), +((y1 - y) * S).toFixed(1)] };
+    return { W: 1000, H: Math.round((y1 - y0) * S), P: ([x, y]) => [+((x - x0) * k * S).toFixed(2), +((y1 - y) * S).toFixed(2)] };
   }
   function mapCard(t, day) {
     const m = t.map, legs = m.legs;
@@ -437,7 +445,9 @@
       ${leg?.guessed ? `<div class="muted small">Starts where day ${day - 1} ended: last night's bed isn't decided.</div>` : ""}
       ${pins.length ? `<div class="muted small">${pins.map((p) => esc(p.name)).join(" → ")}</div>` : ""}
       <div class="row" style="margin-top:8px"><a class="btn" href="#t-${t.slug}-plan" data-goday="${day}">Day plan ›</a>
-      ${d?.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Google Maps"} ↗</a>`).join("") : ""}</div>`;
+      ${d?.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Google Maps"} ↗</a>`).join("") : ""}
+      ${pins.length ? (() => { const la = pins.map((p) => p.lat), ln = pins.map((p) => p.lng), sp = Math.max(Math.max(...la) - Math.min(...la), Math.max(...ln) - Math.min(...ln), 0.005);
+        return `<a class="btn" target="_blank" rel="noopener" href="${satUrl(((Math.max(...la) + Math.min(...la)) / 2).toFixed(5), ((Math.max(...ln) + Math.min(...ln)) / 2).toFixed(5), Math.max(5, Math.min(17, Math.round(Math.log2(360 / sp)))))}">Satellite ↗</a>`; })() : ""}</div>`;
   }
   V.tripMap = (t) => {
     const m = t.map, { W, H, P } = mapProj(m), n = t.days.length;
@@ -448,6 +458,7 @@
       <div class="mapwrap"><svg id="tmap" class="tmap" viewBox="0 0 ${W} ${H}" data-w="${W}" data-h="${H}" role="img" aria-label="Map of ${esc(strip(t.title))}">
         <rect class="sea" x="-5000" y="-5000" width="${W + 10000}" height="${H + 10000}"/>
         <path class="land" d="${m.land.map((r) => path(r, true)).join("")}"/>
+        ${m.detail ? `<path class="sea detail" d="${m.detail.areas.map((r) => path(undelta(r), true)).join("")}"/><path class="land detail" d="${m.detail.land.map((r) => path(undelta(r), true)).join("")}"/>` : ""}
         <path class="border" d="${m.borders.map((l) => path(l)).join("")}"/>
         ${m.legs.flatMap((l) => l.parts.map((pt) => `<path class="leg${sel != null ? (l.day === sel ? " on" : " off") : ""}${pt.fly ? " fly" : l.road ? "" : " straight"}" data-day="${l.day}" stroke="${col(l.day)}" d="${path(pt.line)}"/>`)).join("")}
         ${m.pins.map((p) => { const [x, y] = P([p.lng, p.lat]); const on = sel == null || p.day === sel; return `<g class="pin ${p.role}${on ? "" : " off"}" data-day="${p.day ?? ""}" transform="translate(${x},${y})"><circle r="4" fill="${p.day != null ? col(p.day) : "var(--muted)"}"/>${sel != null && p.day === sel ? `<text x="7" y="4">${esc(p.name)}</text>` : ""}</g>`; }).join("")}
@@ -455,7 +466,7 @@
       <div class="map-ctl"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="fit" aria-label="Fit">⤢</button></div></div>
       <div class="daychips" role="toolbar" aria-label="Days"><button type="button" class="chip" data-mapday="" ${sel == null ? 'aria-pressed="true"' : ""}>All</button>${t.days.map((d) => `<button type="button" class="chip" data-mapday="${d.n}" ${sel === d.n ? 'aria-pressed="true"' : ""}><i style="background:${col(d.n)}"></i>${d.n}</button>`).join("")}</div>
       <div class="panel pad" id="mapcard">${mapCard(t, sel)}</div>
-      <div class="muted small">Lines: Overture Maps roads (OpenStreetMap-derived), routed by <code>tools/roads.py</code>, good for the shape of a day, not for navigating. Coast: Natural Earth 1:10m, about a kilometre of detail. Only placed pins are drawn.</div>
+      <div class="muted small">Lines: Overture Maps roads (OpenStreetMap-derived), routed by <code>tools/roads.py</code>, good for the shape of a day, not for navigating. Coast: ${m.detail ? "OpenStreetMap coastline (via Overture) along the route, Natural Earth 1:10m elsewhere" : "Natural Earth 1:10m, about a kilometre of detail"}. Only placed pins are drawn.</div>
     </div>`;
   };
   /** Pan, pinch and wheel zoom by moving the viewBox; pins and labels keep their screen size. */
@@ -546,7 +557,7 @@
           <div class="place"><div><div class="pn">${p.star ? '<span class="star" style="color:var(--today)">★</span> ' : ""}${esc(p.name)}</div>
           <div class="pm">${p.note || ""}${p.days ? ` · Day ${esc(p.days)}` : ""}</div>
           <div class="loc ${p.verified ? "ok" : "no"}">${p.verified ? `✓ ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}` : "Not located: search only"}</div></div>
-          ${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}</div>`).join("")}</div></div>`).join("")}
+          <div class="links">${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}${p.verified && p.lat != null ? `<a class="maps" target="_blank" rel="noopener" href="${satUrl(p.lat, p.lng)}">Satellite ↗</a>` : ""}</div></div>`).join("")}</div></div>`).join("")}
         ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
         ${(() => { const bl = bucketFor({ trip: t.slug, states: t.states }); if (!bl.length) return "";
           const on = bl.filter((b) => b.trip === t.slug), near = bl.filter((b) => b.trip !== t.slug);

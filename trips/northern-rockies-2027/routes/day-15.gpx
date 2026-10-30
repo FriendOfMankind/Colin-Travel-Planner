@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>northern-rockies-2027 day 15</name><desc>Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py</desc></metadata>
+<trk><name>northern-rockies-2027 day 15</name><trkseg>
+<trkpt lat="48.796608" lon="-113.677575"/>
+<trkpt lat="48.796571" lon="-113.674789"/>
+<trkpt lat="48.796689" lon="-113.674584"/>
+<trkpt lat="48.796794" lon="-113.674556"/>
+<trkpt lat="48.797013" lon="-113.674553"/>
+<trkpt lat="48.797359" lon="-113.673982"/>
+<trkpt lat="48.797686" lon="-113.674022"/>
+<trkpt lat="48.797686" lon="-113.674022"/>
+<trkpt lat="48.797753" lon="-113.672110"/>
+<trkpt lat="48.797681" lon="-113.669603"/>
+<trkpt lat="48.797715" lon="-113.669267"/>
+<trkpt lat="48.797678" lon="-113.669017"/>
+<trkpt lat="48.797234" lon="-113.668682"/>
+<trkpt lat="48.797347" lon="-113.668127"/>
+<trkpt lat="48.797231" lon="-113.668474"/>
+<trkpt lat="48.797234" lon="-113.668682"/>
+<trkpt lat="48.797738" lon="-113.669039"/>
+<trkpt lat="48.797681" lon="-113.669603"/>
+<trkpt lat="48.797686" lon="-113.674022"/>
+<trkpt lat="48.797678" lon="-113.674088"/>
+<trkpt lat="48.797359" lon="-113.673982"/>
+<trkpt lat="48.797194" lon="-113.674096"/>
+<trkpt lat="48.797013" lon="-113.674553"/>
+<trkpt lat="48.797088" lon="-113.674754"/>
+<trkpt lat="48.796794" lon="-113.674556"/>
+<trkpt lat="48.796571" lon="-113.674789"/>
+<trkpt lat="48.796474" lon="-113.677156"/>
+<trkpt lat="48.796608" lon="-113.677575"/>
+</trkseg></trk>
+</gpx>

@@ -24,7 +24,7 @@ const pinOf = (p) => (p.verified ? `${p.lat},${p.lng}` : p.maps);
 // A camp as a stop: "Stone Cliff Campground — first-come" matches the place
 // named "Stone Cliff Campground". null when nothing matches.
 export function campStop(name, places = []) {
-  const key = String(name ?? "").replace(/\s+—.*$/, "").trim().toLowerCase();
+  const key = String(name ?? "").replace(/\s+—.*$/, "").replace(/^[^\p{L}\p{N}]+/u, "").trim().toLowerCase(); // "⚠️ Slough Creek Campground — 16 sites" → slough creek campground
   const p = key && places.find((x) => x.maps && x.name.toLowerCase() === key);
   return p ? { label: p.name, q: pinOf(p), pinned: !!p.verified } : null;
 }

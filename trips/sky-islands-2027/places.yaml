@@ -5,24 +5,23 @@ groups:
   - group: Tucson
     places:
       - name: Gilbert Ray Campground
-        note: Nights 1, 2, 10. Reservation-only, $10 tent, Sept 1–Apr 30. ✅ The whole 2026–27 season is bookable NOW — this one is not a race, it is just undone. 520-724-5159.
+        note: Nights 1 and 8 (Mar 6, 13). Reservation-only, $10 tent, Sept 1–Apr 30. ✅ The whole 2026–27 season is bookable NOW — this one is not a race, it is just undone. 520-724-5159.
         maps: Gilbert Ray Campground Tucson AZ
         verified: true
         lat: 32.220952
         lng: -111.144403
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 1, 2, 10
+        days: 1, 8
         wpNote: Reservation-only, $10 tent, Sept 1–Apr 30. Tucson Mountain Park.
       - name: King Canyon Trailhead
-        note: Day 2. Opposite the Desert Museum. Small lot — dawn.
+        note: CUT 2026-10-27 with Wasson Peak (was Day 2). Opposite the Desert Museum. Small lot — dawn.
         maps: King Canyon Trailhead Saguaro National Park West
         verified: true
         lat: 32.247182
         lng: -111.167066
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🥾
-        days: "2"
         wpNote: Saguaro West. Small lot, fills on weekends.
       - name: Signal Hill Petroglyphs
         note: Day 1, ~0.5 mi. Hohokam petroglyph boulders.
@@ -32,43 +31,42 @@ groups:
         lng: -111.208908
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Tucson International Airport
-        note: In Day 1, out Day 11. ~40 min from Gilbert Ray.
+        note: In Day 1 (Mar 6), out Day 9 (Mar 14). ~40 min from Gilbert Ray.
         maps: Tucson International Airport
         verified: true
         lat: 32.120779
         lng: -110.937358
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ✈️
-        days: 1, 11
+        days: 1, 9
         wpNote: In and out. ~40 min from Gilbert Ray.
   - group: The Dragoons
     places:
       - name: Cochise Stronghold Campground
-        note: Night 3. 11 sites, FCFS, $20. ⚠️ NO WATER. Douglas RD (520) 364-3468.
+        note: Night 2. 11 sites, FCFS, $20. ⚠️ NO WATER. Douglas RD (520) 364-3468.
         maps: Cochise Stronghold Campground Arizona
         verified: true
         lat: 31.928675
         lng: -109.964444
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: "3"
+        days: "2"
         wpNote: 11 sites, FCFS, $20, 5,000 ft. NO drinking water. (520) 364-3468.
       - name: Rockfellow Dome Trail
-        note: Day 3. 2.0 mi / 1,108 ft. Steep and short.
+        note: Day 2. 2.0 mi / 1,108 ft. Steep and short.
         maps: Rockfellow Dome Trail Cochise Stronghold
         verified: true
         lat: 31.925496
         lng: -109.967035
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Slavin Gulch Trailhead
-        note: Day 4. ⚠️ Approach road unverified. Mine ruins at the end.
+        note: CUT 2026-10-30 (was Day 3). ~20 mi of dirt on Middlemarch Road from the west, 4WD from the east. Pin kept.
         maps: Slavin Gulch Trailhead Dragoon Mountains
         verified: true
         lat: 31.878774
         lng: -110.02652
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛏️
-        days: "4"
         wpNote: Approach road condition unverified. Mine ruins at the turnaround.
       - name: Sunsites / Benson
         note: ⚠️ Last water and fuel before the Stronghold. There is nothing at the campground.
@@ -80,14 +78,14 @@ groups:
   - group: Chiricahua National Monument
     places:
       - name: Bonita Canyon Campground
-        note: Nights 4–6. ⚠️ ALL reservable, no walk-ups, 6-month window, full most nights in March.
+        note: Nights 3–5 (Mar 8–10). ⚠️ ALL reservable, no walk-ups, 6-month window, full most nights in March.
         maps: Bonita Canyon Campground Chiricahua
         verified: true
         lat: 32.012411
         lng: -109.3543
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 4, 5, 6
+        days: 3, 4, 5
         wpNote: ~5,400 ft. All sites reservable, 6-month window, no walk-ups. Full most nights Feb–Apr.
       - name: Chiricahua NM Visitor Center
         note: ✅ No entrance fee. Ask about Bonita Canyon Drive snow status and Portal road conditions.
@@ -97,30 +95,30 @@ groups:
         lng: -109.356211
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ℹ️
-        days: 4, 6
+        days: 3, 5
         wpNote: No entrance fee. Heart of Rocks loop starts here.
       - name: Echo Canyon Trailhead
-        note: Day 5. Smallest lot in the monument. 6:30 AM.
+        note: Day 4. Smallest lot in the monument. 6:30 AM.
         maps: Echo Canyon Trailhead Chiricahua National Monument
         verified: true
         lat: 32.012037
         lng: -109.315798
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🥾
-        days: "5"
+        days: "4"
         wpNote: ~7 mi up Bonita Canyon Drive. Smallest lot in the monument.
       - name: Massai Point
-        note: Day 5. 6,870 ft, end of the road. The caldera makes sense from here.
+        note: Day 4. 6,870 ft, end of the road. The caldera makes sense from here.
         maps: Massai Point Chiricahua National Monument
         verified: true
         lat: 32.00722
         lng: -109.312038
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 👁️
-        days: "5"
+        days: "4"
         wpNote: 6,870 ft, end of the paved road.
       - name: Faraway Ranch
-        note: Day 6 afternoon. Homestead ruins inside the monument.
+        note: Day 5 afternoon. Homestead ruins inside the monument.
         maps: Faraway Ranch Chiricahua National Monument
         verified: true
         lat: 32.008674
@@ -134,7 +132,7 @@ groups:
         lng: -109.279821
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Willcox
-        note: Day 4 resupply. Last real grocery before Portal. BLOCK ice.
+        note: Day 3 resupply. Last real grocery before Portal. BLOCK ice.
         maps: Willcox Arizona
         verified: true
         lat: 32.2526
@@ -143,14 +141,14 @@ groups:
   - group: Apache Pass
     places:
       - name: Fort Bowie NHS Trailhead
-        note: Day 7. ⚠️ 3 mi on foot to the fort. Cars only, no overnight parking, no fee.
+        note: Day 6. ⚠️ 3 mi on foot to the fort. Cars only, no overnight parking, no fee.
         maps: Fort Bowie National Historic Site Trailhead
         verified: true
         lat: 32.156697
         lng: -109.452546
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🏚️
-        days: "7"
+        days: "6"
         wpNote: Apache Pass Road. 3 mi on foot to the fort. No overnight parking, cars only.
       - name: Fort Bowie Visitor Center
         note: ✅ Wed–Sun 8:30–4 winter, closed Mon + Tue. Grounds sunrise–sunset daily. 520-549-6751.
@@ -162,14 +160,14 @@ groups:
   - group: Cave Creek / Portal
     places:
       - name: Sunny Flat Campground
-        note: Nights 7–9. ~14 sites, FCFS, no reservations. ⚠️ NO POTABLE WATER until April.
+        note: Nights 6–7 (Mar 11–12). ~14 sites, FCFS, no reservations. ⚠️ NO POTABLE WATER until April.
         maps: Sunny Flat Campground Portal AZ
         verified: true
         lat: 31.885131
         lng: -109.175752
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 7, 8, 9
+        days: 6, 7
         wpNote: ~14 sites, FCFS, year-round. Potable water April–November only.
       - name: Stewart Campground
         note: Fallback, ~0.5 mi northeast. ~10 FCFS sites, water off in winter.
@@ -179,24 +177,24 @@ groups:
         lng: -109.168349
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: South Fork Trailhead
-        note: Day 8. 4.2 mi, easy. The birding canyon.
+        note: Day 7, Option A. 4.2 mi, easy. The birding canyon.
         maps: South Fork Trail Cave Creek Canyon Portal AZ
         verified: true
         lat: 31.873346
         lng: -109.185056
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🐦
-        days: "8"
+        days: "7"
         wpNote: Cave Creek Canyon. 4.2 mi, easy, sycamore creek walk.
       - name: Herb Martyr Trailhead
-        note: Day 9. ⚠️ Road condition unverified. 5.9 mi / 2,083 ft.
+        note: Day 7, Option B. ⚠️ Road condition unverified. 5.9 mi / 2,083 ft.
         maps: Herb Martyr Campground Portal AZ
         verified: true
         lat: 31.872569
         lng: -109.234673
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🥾
-        days: "9"
+        days: "7"
         wpNote: 5.9 mi / 2,083 ft. Road condition unverified.
       - name: FR 42 / Onion Saddle
         note: 🚨 DO NOT. Unpaved, unplowed Nov–March. Go around via I-10, 2h 35m.
@@ -208,24 +206,24 @@ groups:
   - group: The way out
     places:
       - name: Lavender Pit, Bisbee
-        note: Day 10. Open-cut copper mine you can stand at the rim of.
+        note: Day 8. Open-cut copper mine you can stand at the rim of.
         maps: Lavender Pit Bisbee Arizona
         verified: true
         lat: 31.43602
         lng: -109.900496
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛏️
-        days: "10"
+        days: "8"
         wpNote: Open-cut copper mine, rim viewpoint.
       - name: Bisbee
-        note: Day 10 lunch. Town stacked up a canyon on stairs. Queen Mine tour cost/times unverified.
+        note: Day 8 lunch. Town stacked up a canyon on stairs. Queen Mine tour cost/times unverified.
         maps: Bisbee Arizona
         verified: true
         lat: 31.401632
         lng: -109.918176
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Boothill Graveyard, Tombstone
-        note: Day 10. The genuinely old part of a very touristy town. First cut if the day runs long.
+        note: Day 8. The genuinely old part of a very touristy town. First cut if the day runs long.
         maps: Boothill Graveyard Tombstone Arizona
         verified: true
         lat: 31.719671
@@ -239,5 +237,5 @@ groups:
         lng: -109.967034
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🪨
-        days: "3"
+        days: "2"
         wpNote: 2.0 mi / 1,108 ft. Dragoon granite.

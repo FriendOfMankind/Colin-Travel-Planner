@@ -25,26 +25,24 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - `kitchen/staples.md`: The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners.
 
-## Planned trips
-
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 26/26 places located · log 7 entries · updated 2026-09-07
-  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
-
 ## Outlines
 
-- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 51/59 places located · log 12 entries · updated 2026-10-30
+- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 58/58 places located · log 12 entries · updated 2026-10-30
   ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 49 entries · updated 2026-10-30
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 51 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 36/36 places located · log 11 entries · updated 2026-10-30
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 62/64 places located · log 13 entries · updated 2026-10-30
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
+- **Sky Islands** (`trips/sky-islands-2027/`) · outline · Mar 6–14, 2027 (target, unbooked) · 9 days · 5 open questions · 26/26 places located · log 12 entries · updated 2026-10-27
+  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Done
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 33 entries · retro written · updated 2026-10-21
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 34 entries · retro written · updated 2026-10-21
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
+- **The Ultimate American Southwest Adventure** (`trips/southwest-2026/`) · done · May 8–30, 2026 · 23 days · log 2 entries · retro written · updated 2026-10-06
 
 ## Wishlist: `wishlist/`
 
@@ -52,7 +50,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 - **Acadia** (`wishlist/acadia.md`) · Mount Desert Island, Maine · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6–8 nights · 1 research note · updated 2026-10-30
   The bike trip, if there's only one
-- **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-15
+- **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-27
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
 - **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Columbia Gorge → Bend → McKenzie River, Oregon (friends fly CLE ⇄ PDX) · fly · confirmed · Aug · 10 days · 5 research notes · updated 2026-10-29
   Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
@@ -62,13 +60,13 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Colorado's one world-class May option
 - **Buffalo National River** (`wishlist/buffalo-river.md`) · Ponca / Jasper, Arkansas · drive · keeps (derived) · Apr/May/Oct · 5–7 nights · updated 2026-09-04
   The penciled 2027 shoulder trip
-- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 2 research notes · updated 2026-10-05
+- **Capitol Reef** (`wishlist/capitol-reef.md`) · Torrey, Utah · fly · keeps (derived) · May/Jun/Jul/Aug/Sep/Oct · 3–4 nights · 3 research notes · updated 2026-10-06
   The Waterpocket Fold, and the least-visited of the Mighty Five
-- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 1 research note · updated 2026-10-05
+- **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 2 research notes · updated 2026-10-06
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
-- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 2 research notes · updated 2026-10-10
+- **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 3 research notes · updated 2026-10-29
   The best payoff per dollar, as a week
 - **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-15
   Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
@@ -78,7 +76,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Warm desert water, which barely exists out west
 - **Great Basin** (`wishlist/great-basin.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-03
   Darkest sky in the lower 48
-- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · 1 research note · updated 2026-10-05
+- **Great Sand Dunes** (`wishlist/great-sand-dunes.md`) · Colorado · fly · keeps (derived) · May/Jun · 2–3 nights · 2 research notes · updated 2026-10-06
   Dunes and a snowmelt creek — with a real catch
 - **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 2 research notes · updated 2026-10-01
   78 miles of river, two tunnels, and nobody
@@ -136,21 +134,23 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Reno, Tahoe and the Eastern Sierra with friends — Class IV, granite jumps, ghost towns, hot springs
 - **Wichita Mountains** (`wishlist/wichita-mountains.md`) · Oklahoma · drive · keeps (derived) · Nov/Dec/Jan/Feb/Mar/Apr · 3–4 nights · updated 2026-09-04
   Free-roaming bison and granite domes
+- **Yosemite** (`wishlist/yosemite.md`) · Yosemite / Sierra Nevada, California · fly · keeps (derived) · May/Jun · 9 days · 1 research note · updated 2026-10-29
+  The icons at full roar, with somewhere empty to escape to
 
 ## Bucket list: `bucket.yaml`
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-118 items · want 107 · done 11
+119 items · want 105 · done 14
 
-By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · cave 5 · ruin 5 · waterfall 5 · geology 4 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 · cave 5 · ruin 5 · geology 4 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
 - **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
-- **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek
+- **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek ✓
 - **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
-- **CO** (6): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Snowmobile to Georgia Pass
+- **CO** (7): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Zapata Falls ✓, Snowmobile to Georgia Pass
 - **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
@@ -173,7 +173,7 @@ By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · cave 5 · ruin
 - **PA** (7): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail, Hickory Run Boulder Field
 - **SD** (3): Notch Trail, George S. Mickelson Trail, Badlands off-trail wander
 - **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
-- **UT** (14): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike
+- **UT** (14): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up ✓, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
 - **WV** (6): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail, Upper Gauley, guided raft, Lost World Caverns, wild cave tour, Red Creek

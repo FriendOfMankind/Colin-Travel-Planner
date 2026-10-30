@@ -454,3 +454,9 @@ Also checked: **Devil's Hole Trail (244)**, 2.6 mi / 1,243 ft, Hard, river and s
 - **Sit-and-explore block:** as long as the day allows → `me/hiking.md`.
 - **Events:** only if they're on the way → `me/travel-style.md`. This replaces the one-data-point hypothesis above.
 - **Food plan format:** a staples list plus a rotation of 4–5 meals, no per-day menu → `me/food.md`.
+
+## 2026-10-30 · The first retro (2026-10-27), reconciled
+
+Two retros ran on this trip. The first (2026-10-27, four rounds, PR #99) never merged; the second (2026-10-29, above) did. Where they disagree, the 2026-10-29 answers win, because they're newer and asked directly: mornings (up early, unhurried at camp, sunsets over sunrises), photography timing, wildlife timing and the food-plan format stay as `me/` has them. Carried over from the first retro, because the second didn't cover them *(Colin, 2026-10-30)*:
+- **Cold:** warm enough down to ~30°F with the Siesta 20 + liner: the 29°F freeze-warning night at Arrowhead (Oct 17) and the mid-30s FS 210 nights were fine *(stated 2026-10-27)*. The 29°F is the NWS forecast low for Fayetteville, not a thermometer at the tent → `me/camping.md`, `me/gear.md`.
+- **Ruins:** "only true abandoned stuff" counts. Thurmond and Blue Heron are drive-bys. The trip's biggest miss was cutting the two explorable ones, Nuttallburg and Kaymoor *(stated 2026-10-27)* → `me/principles.md` 10.

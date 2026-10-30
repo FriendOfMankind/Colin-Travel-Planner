@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>northern-rockies-2027 day 2</name><desc>Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py</desc></metadata>
+<trk><name>northern-rockies-2027 day 2</name><trkseg>
+<trkpt lat="41.159710" lon="-105.373052"/>
+<trkpt lat="41.159853" lon="-105.374157"/>
+<trkpt lat="41.160279" lon="-105.373976"/>
+<trkpt lat="41.160456" lon="-105.374071"/>
+<trkpt lat="41.160797" lon="-105.376199"/>
+<trkpt lat="41.160478" lon="-105.375099"/>
+<trkpt lat="41.160456" lon="-105.374071"/>
+<trkpt lat="41.159853" lon="-105.374157"/>
+<trkpt lat="41.159710" lon="-105.373052"/>
+</trkseg></trk>
+</gpx>

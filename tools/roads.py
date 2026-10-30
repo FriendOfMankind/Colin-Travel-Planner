@@ -231,6 +231,15 @@ def main():
     print(f"pulled {len(rows):,} segments in {time.time() - t:.0f}s", file=sys.stderr)
     g, pos = graph(rows)
     snap, size = snapper(g, pos)
+    # A stop at the end of a long forest road (a lake campground) sits past the minor roads pulled
+    # around it, so its road is a scrap too small to count. Pull minor roads wider there, once.
+    far = [p for p in {tuple(p) for p in pts} if snap(p, p)[0][1] > SNAP_LIMIT_M]
+    if far:
+        wide = functools.reduce(operator.or_, [box(x - 0.25, y - 0.18, x + 0.25, y + 0.18) for x, y in far])
+        rows += pull(d, wide & (pc.field("subtype") == "road") & ~pc.field("class").isin(MAJOR))
+        g, pos = graph(rows)
+        snap, size = snapper(g, pos)
+        print(f"{len(far)} stop(s) far from a road: pulled minor roads wider around them", file=sys.stderr)
     print(f"graph {g.number_of_nodes():,} nodes, {size:,} in networks of {MIN_NETWORK}+", file=sys.stderr)
 
     rdir = ROOT / f"trips/{a.slug}/routes"; rdir.mkdir(exist_ok=True)

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>dingle-marseille-2027 day 1</name><desc>Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py</desc></metadata>
+<trk><name>dingle-marseille-2027 day 1 (flight)</name><type>fly</type><trkseg>
+<trkpt lat="41.411240" lon="-81.837356"/>
+<trkpt lat="42.092225" lon="-80.779678"/>
+<trkpt lat="42.763287" lon="-79.699212"/>
+<trkpt lat="43.423972" lon="-78.595268"/>
+<trkpt lat="44.073805" lon="-77.467165"/>
+<trkpt lat="44.712293" lon="-76.314233"/>
+<trkpt lat="45.338925" lon="-75.135821"/>
+<trkpt lat="45.953170" lon="-73.931298"/>
+<trkpt lat="46.554479" lon="-72.700065"/>
+<trkpt lat="47.142284" lon="-71.441555"/>
+<trkpt lat="47.716001" lon="-70.155247"/>
+<trkpt lat="48.275026" lon="-68.840669"/>
+<trkpt lat="48.818741" lon="-67.497412"/>
+<trkpt lat="49.346510" lon="-66.125133"/>
+<trkpt lat="49.857686" lon="-64.723569"/>
+<trkpt lat="50.351608" lon="-63.292548"/>
+<trkpt lat="50.827606" lon="-61.831995"/>
+<trkpt lat="51.285000" lon="-60.341947"/>
+<trkpt lat="51.723109" lon="-58.822563"/>
+<trkpt lat="52.141246" lon="-57.274131"/>
+<trkpt lat="52.538729" lon="-55.697084"/>
+<trkpt lat="52.914878" lon="-54.092004"/>
+<trkpt lat="53.269026" lon="-52.459631"/>
+<trkpt lat="53.600517" lon="-50.800872"/>
+<trkpt lat="53.908717" lon="-49.116805"/>
+<trkpt lat="54.193013" lon="-47.408682"/>
+<trkpt lat="54.452821" lon="-45.677927"/>
+<trkpt lat="54.687592" lon="-43.926140"/>
+<trkpt lat="54.896816" lon="-42.155087"/>
+<trkpt lat="55.080027" lon="-40.366694"/>
+<trkpt lat="55.236806" lon="-38.563038"/>
+<trkpt lat="55.366790" lon="-36.746331"/>
+<trkpt lat="55.469672" lon="-34.918904"/>
+<trkpt lat="55.545206" lon="-33.083189"/>
+<trkpt lat="55.593208" lon="-31.241698"/>
+<trkpt lat="55.613562" lon="-29.396996"/>
+<trkpt lat="55.606218" lon="-27.551683"/>
+<trkpt lat="55.571195" lon="-25.708361"/>
+<trkpt lat="55.508577" lon="-23.869616"/>
+<trkpt lat="55.418516" lon="-22.037987"/>
+<trkpt lat="55.301230" lon="-20.215946"/>
+<trkpt lat="55.156997" lon="-18.405875"/>
+<trkpt lat="54.986155" lon="-16.610045"/>
+<trkpt lat="54.789096" lon="-14.830596"/>
+<trkpt lat="54.566266" lon="-13.069528"/>
+<trkpt lat="54.318154" lon="-11.328683"/>
+<trkpt lat="54.045292" lon="-9.609739"/>
+<trkpt lat="53.748248" lon="-7.914204"/>
+<trkpt lat="53.427621" lon="-6.243411"/>
+</trkseg></trk>
+</gpx>

@@ -122,11 +122,24 @@ function tripMap(slug, md, groups) {
     legs: legs.map(({ properties: p, geometry: { coordinates: c } }) => {
       // Cut the line at its flights so the page can dash them; each piece simplifies on its own.
       const cuts = [...new Set([0, ...(p.fly ?? []).flat(), c.length - 1])].sort((x, y) => x - y);
-      const parts = cuts.slice(1).map((b, k) => ({ fly: (p.fly ?? []).some(([f0, f1]) => f0 === cuts[k] && f1 === b), line: simplify(c.slice(cuts[k], b + 1), span / 4000).map(r5) }));
+      const parts = cuts.slice(1).map((b, k) => ({ fly: (p.fly ?? []).some(([f0, f1]) => f0 === cuts[k] && f1 === b), line: simplify(c.slice(cuts[k], b + 1), Math.max(extent(c.slice(cuts[k], b + 1)) / 4000, 0.00002)).map(r5) }));
       return { day: p.day, miles: p.miles, flown: p.flownMiles ?? 0, road: p.shape === "road", guessed: !!p.startGuessed, standIn: p.bedStandIn ?? null, parts };
     }),
     pins: pts.map(({ properties: p, geometry: { coordinates: [lng, lat] } }) => ({ name: p.name, day: p.day, role: p.role, lat, lng })),
+    detail: coastDetail(slug),
   };
+}
+
+/** A part's own size in degrees, so a city day keeps its corners while a flight-sized trip doesn't flatten them. */
+const extent = (pts) => Math.max(Math.max(...pts.map((p) => p[0])) - Math.min(...pts.map((p) => p[0])), Math.max(...pts.map((p) => p[1])) - Math.min(...pts.map((p) => p[1])), 0.01);
+
+/** trips/<slug>/coast.json (tools/coast.py): detailed land inside a corridor around the route.
+    Shipped as integer deltas in 1e-4° (~10 m) steps, which is about a quarter the size of plain numbers. */
+function coastDetail(slug) {
+  if (!has(`trips/${slug}/coast.json`)) return null;
+  const c = JSON.parse(read(`trips/${slug}/coast.json`));
+  const enc = (ring) => { let px = 0, py = 0; return ring.flatMap(([x, y]) => { const ix = Math.round(x * 1e4), iy = Math.round(y * 1e4), d = [ix - px, iy - py]; px = ix; py = iy; return d; }); };
+  return { areas: c.areas.map(enc), land: c.land.map(enc) };
 }
 
 function buildTrip(slug) {

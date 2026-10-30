@@ -1,5 +1,8 @@
 # Road lines per day. Each needs a source (tests enforce it). tools/roads.py writes these; a GPX Colin
 # exports from Google Maps can replace any one.
+- day: 1
+  file: routes/day-1.gpx
+  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
 - day: 2
   file: routes/day-2.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
@@ -32,4 +35,7 @@
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
 - day: 13
   file: routes/day-13.gpx
+  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
+- day: 15
+  file: routes/day-15.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"

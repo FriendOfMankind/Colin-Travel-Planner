@@ -11,6 +11,7 @@ const places = [
 test("camps: overnight name matches a place, suffix after the dash ignored", () => {
   assert.deepEqual(campStop("Camp C — first-come", places), { label: "Camp C", q: "Camp C WV", pinned: false });
   assert.equal(campStop("FS 210 roadside dispersed", places), null);
+  assert.deepEqual(campStop("⚠️ Camp C — first-come", places), { label: "Camp C", q: "Camp C WV", pinned: false }); // a warning prefix on the bed name still matches
 });
 
 test("stops: schedule order, repeats dropped, verified pinned, camp to camp", () => {

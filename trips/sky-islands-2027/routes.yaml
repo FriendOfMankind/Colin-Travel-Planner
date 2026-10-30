@@ -9,6 +9,9 @@
 - day: 3
   file: routes/day-3.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
+- day: 4
+  file: routes/day-4.gpx
+  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
 - day: 5
   file: routes/day-5.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
@@ -24,11 +27,3 @@
 - day: 9
   file: routes/day-9.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
-- day: 10
-  file: routes/day-10.gpx
-  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
-- day: 11
-  file: routes/day-11.gpx
-  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
-# Day 4 held back (2026-10-30): the Slavin Gulch pin sits west of the Dragoons, the plan says east, and the
-# route drove 59 mi around the range to reach it. routes/day-4.gpx stays on disk; re-add day 4 once the pin is fixed.

@@ -231,7 +231,7 @@ FLIGHTS, CLE-RNO round trip: TBD. Google Flights shows a typical $385-660, with 
 - KAYAK WIND: afternoon wind regularly stops the Fannette paddle, so paddle first thing.
 - TIOGA ROAD: in 2026 there were 10-min Tuolumne delays Mon-Thu and Caltrans SR-120 breaks Mon-Wed. The Tioga days are Fri/Sat; 2027 work is TBD.
 - CAR CLASS: Enterprise allows a minivan but not a 7-seat SUV for 21-24 year olds. Hertz's fee pages conflict ($19 vs $25). Get the class and all driver fees confirmed in writing.
-- FOOD RULES: - Skip the Sherwood Fondue (raw fruit and vegetables). - Wasabi crème fraîche on the side at Whoa Nellie. - Colin checks the Angora lemonade. - No breweries or coffee stops in the plan; the WET meet spot is a Raley's lot, not a brewery.
+- FOOD RULES: - Wasabi crème fraîche on the side at Whoa Nellie (spice). - No breweries or coffee stops in the plan; the WET meet spot is a Raley's lot, not a brewery.
 
 **Book**
 - Middle Fork American 1-Day, Sun Aug 8: WET (or Sierra Whitewater / H2O / Whitewater Excitement), once the 2027 calendars open (window TBD). Confirm the meet time (8:00 or 8:30, the sources conflict) and any river fee. Sierra Whitewater says Middle Fork has 'very limited availability', so book early.
