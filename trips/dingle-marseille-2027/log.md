@@ -154,3 +154,10 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - Gems: Place des Moulins and the Hôtel de Cabre (@marseilletourisme 2026-10-01), the Piscine Maritime des Auffes (2026-09-17), The Fish Box in Dingle (2026-06-30). Out of the Blue won Seafood Restaurant of the Year 2026 (Georgina Campbell); not added, since it isn't a value pick.
 - Meta AI caught a bad source itself: a 2025-04-18 "Sugiton" reel actually shows Cala Goloritzé in Sardinia. Not used.
 - **Nothing found:** the three aparthotels, Whit Monday at Le Four des Navettes (its website doesn't list holiday hours either), Slea Head tour prices, and the Saturday-morning airport run.
+
+## 2026-10-30 · Decided for the pitch page
+
+- **The third person is in:** 3 adults *(Colin, 2026-10-30)*. Was "2 for certain, maybe 3".
+- **Dingle hosts are the friend's family**, and the May 15 lift is "likely" *(Colin, 2026-10-30)*. That resolves the handoff's "family" versus the repo's "friend's family" contradiction. Not confirmed with them yet.
+- **Home flight: option A**, BA/American via Heathrow and Chicago, $596 one way, home 17:44 *(Colin, 2026-10-30)*. Subject to a layover check and a multi-city price.
+- **Everyone is 25 or under** *(Colin, 2026-10-30)*, so youth fares (A1 shuttle €7).

@@ -19,7 +19,7 @@ country: Ireland, France
 coords: [ 47.5, -4 ]
 nights: 14 (1 plane, 4 Dingle, 9 Marseille)
 distance: no car. Coaches in Ireland, trains and buses in Provence
-budget: ~US$3,300 each for 3 (calculated, see Notes); ~US$3,750 each for 2. The home fare is still the May 22 observation
+budget: ~US$3,300 each for 3 (calculated, see Notes). The airfare line is still the May 22 open-jaw observation
 tags:
   - international
   - europe
@@ -50,7 +50,7 @@ map:
   zoom: 4
 page:
   title: Dingle & Marseille
-  subtitle: 2 or 3 adults, all on the same flights · Cleveland → Dingle → Marseille → home
+  subtitle: 3 adults, all on the same flights · Cleveland → Dingle → Marseille → home
   dates: Monday, May 10 – Monday, May 24, 2027
   emoji: ⛵
   theme: ocean
@@ -82,11 +82,11 @@ May 10–24, 2027 (target). 15 days, 14 nights. **Both extra days went to Marsei
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. Two adults for certain, **a third may join for the whole trip** *(handoff, 2026-10-29)*. Willing to share a double bed or take a sofa bed to save money. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults, all 25 or under** *(stated 2026-10-30)*, so youth fares apply where they exist (the Marseille airport shuttle is €7, not €15). Willing to share a double bed or take a sofa bed to save money. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
-Family is in Dingle *(handoff, 2026-10-29)*. **Assumed, not confirmed:** free beds for 4 nights and a short lift on the morning of May 15. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's the friend's family** *(stated 2026-10-30)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Marseille or Athens
 
@@ -274,7 +274,7 @@ overnight:
 - option · travel! · **Without a lift: Local Link 276 Dingle 07:10 → Killarney Bus Station 08:40** (Rock Road 08:34) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*. That leaves **20 minutes** to reach the 09:00 FlightLink, and the next FlightLink (11:00) misses the flight. Too thin to rely on: if there's no lift, use the Dublin airport hotel fallback on Friday night
 - 09:00 → 13:00 (4h) · travel! · **FlightLink 722** Killarney → Dublin Airport, direct. €39 each at current fares. Departures every 2 h from Killarney (05:00, 07:00, **09:00**, 11:00…), Farranfore 15 min later *(flightlink.ie service updates, 2026)*. Book online: €39 vs €45 on board *(flightlink.ie fares)*. Not a dated May 2027 run. · 📍 Dublin Airport
 - 15:45 → 19:10 (2h 25m) · travel · **Ryanair FR 4285** DUB → MRS. Bags and seats extra.
-- evening (1h) · travel · **A1 shuttle** to the Saint-Charles bus station: every 10 min until 20:15, then every 20 min; ~25 min, up to 50 in traffic. €15, or **€7 for ages 12–25** (2026 prices) *(gares-et-connexions SNCF; marseille-tourisme.com)*. Then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
+- evening (1h) · travel · **A1 shuttle** to the Saint-Charles bus station: every 10 min until 20:15, then every 20 min; ~25 min, up to 50 in traffic. **€7 each: everyone's 25 or under** (€15 adult; 2026 prices) *(gares-et-connexions SNCF; marseille-tourisme.com)*. Then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
 - note · note! · **Saint-Charles scam:** in Aug 2026 a visitor there was asked for coins, then led "to a pharmacy" down a side street and robbed of everything. **Don't follow anyone off the station forecourt.** Plainclothes police also watch for luggage thieves there *(Meta AI results pasted by Colin, citing @infos.marseille13, 2026-08-26)*
 - late · food · Whatever's open near the apartment.
 
@@ -511,7 +511,7 @@ slack: Unknown until the flight is booked.
 **Schedule**
 - early · travel · To the airport: **A1 shuttle** from Saint-Charles (€15, €7 ages 12–25), or the cheaper **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. Leave time depends on the flight · 📍 Aéroport Marseille Provence
 - day · travel · **MRS → CLE: three one-way options seen** *(Google Flights screenshot from Colin, 2026-10-30; per person, one way, not held; layover lengths not shown)*:
-  - **BA + American via Heathrow and Chicago**: 07:15 → 17:44, 16h 29m, **$596**. The cheapest. US entry at O'Hare.
+  - ✅ **Picked: BA + American via Heathrow and Chicago**: 07:15 → 17:44, 16h 29m, **$596**. The cheapest. US entry at O'Hare *(Colin, 2026-10-30)*.
   - **KLM + Delta via Amsterdam and Detroit**: 06:30 → 15:09, 14h 39m, $683. The fastest, and home earliest. US entry at Detroit.
   - **Iberia + Aer Lingus via Madrid and Dublin**: 06:15 → 19:10, 18h 55m, $685. The longest, but **US immigration is cleared in Dublin before boarding** *(dublinairport.com)*, so Cleveland is a domestic arrival.
 - note · note! · **All three leave Marseille at 06:15–07:15:** be at the airport by ~05:00. The A1 shuttle runs from about 04:10, every 20 min until 07:30 *(SNCF Gares & Connexions)*, so leave the apartment around 04:15. Sunday is the rest day for a reason
@@ -528,7 +528,7 @@ slack: Unknown until the flight is booked.
 ## Reservations & checks
 
 - [x] Newfoundland shift decided: it leaves Wed May 26, this trip lands Mon May 24 (2026-10-30)
-- [ ] Third traveler: in or out
+- [x] Third traveler: in *(2026-10-30)*
 - [ ] Family: beds for May 11–14, and the May 15 lift (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [ ] May 15: FlightLink 722 on the actual date, or the Dublin overnight
@@ -545,25 +545,20 @@ slack: Unknown until the flight is booked.
 **Blocks:** Days 11–13
 The quarries Cézanne painted are guided-only: French, €18, Fridays 18:00 or Saturdays 10:00 in the 2026 pattern, and no bus. Options: Aix moves to Fri May 21 for the 18:00 visit, and Marseilleveyre moves to Thursday. Or skip it. The Jardin des Peintres (free, any time) already gives the Sainte-Victoire view.
 
-### Who's the third person, and are they in?
-
-**Blocks:** flights, the apartment, the budget
-Three adults is a scenario with researched prices, not a commitment. It changes the apartment shortlist and drops each person's share by ~$350 (Notes).
-
-### How does Colin know the Dingle family, and what can they actually do?
+### Can the friend's family confirm beds and the May 15 lift?
 
 **Blocks:** Days 2–6
-Beds, the May 15 lift, and the address (which decides Killarney vs. Farranfore and the leave time) are all assumed. The earlier repo note said it was a friend's family; the handoff says "family." Confirm whose.
+Their address decides Killarney vs Farranfore and the leave time for the 09:00 coach on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift, the fallback is the Dublin airport hotel on Friday night.
 
 ### Marseille or Athens?
 
 **Blocks:** everything after May 15
 Leaning Marseille *(2026-10-30)*. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
 
-### Which May 24 flight home?
+### Does option A's Chicago layover work?
 
-**Blocks:** the open-jaw ticket, the budget
-Three seen for Mon May 24 *(Colin's screenshot, 2026-10-30)*: **$596** BA/American via Heathrow + Chicago (home 17:44), **$683** KLM/Delta via Amsterdam + Detroit (home 15:09), **$685** Iberia/Aer Lingus via Madrid + Dublin (home 19:10, with US preclearance in Dublin). Still to check: the layover lengths, especially the US entry stop, and the multi-city price with the May 10 outbound.
+**Blocks:** the open-jaw ticket
+**Picked: BA/American via Heathrow + Chicago, $596 one way, home 17:44** *(Colin, 2026-10-30)*. Before booking: check the O'Hare connection is about 2.5 h or more (US entry and a bag recheck happen there), and price it as one multi-city ticket with the May 10 CLE → DUB. If the layover is short, take KLM/Delta via Detroit ($683, home 15:09).
 
 ## Field notes
 
