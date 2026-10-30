@@ -984,9 +984,9 @@ type: travel
 driving: depends on arrival; North Sydney → Bangor is 10h 14m (routed +15%)
 slack: n/a
 overnight:
-  name: TBD
-  place: Nova Scotia, New Brunswick or Maine
-  kind: Transit night — not identified
+  name: Bangor — motel TBD
+  place: Bangor, ME
+  kind: Transit night *(Colin, 2026-10-30)*
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD
@@ -1010,9 +1010,9 @@ type: travel
 driving: TBD — Bangor → Avon is ~13h, a guess (the routing tool failed twice)
 slack: n/a
 overnight:
-  name: TBD
-  place: New York
-  kind: Transit night — not identified
+  name: Syracuse–Rochester area — motel TBD
+  place: Upstate New York
+  kind: Transit night; town not picked *(Colin, 2026-10-30)*
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD

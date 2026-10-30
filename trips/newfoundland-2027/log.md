@@ -587,3 +587,7 @@ Colin asked why the calendar file only had 8 events. The Newfoundland rows with 
 - **Marine Atlantic:** the 2027 schedule is posted through Sept 30, so `me/booking.md` now marks it bookable anytime. Not checked in the booking engine.
 - **Belle Isle ferry:** still no published window. Unbooked vehicles go standby.
 - **Found on the way:** BonTours says 2027 Western Brook Pond bookings are already open.
+
+## 2026-10-30 · Decided: the drive home stops at Bangor, then Syracuse–Rochester
+
+- Night 28 is Bangor (was: TBD; the plan already quoted North Sydney → Bangor at ~10h). Night 29 is the Syracuse–Rochester stretch, town not picked (was: TBD, "New York"). Splits the ~13h Bangor → Avon run roughly in half *(Colin, 2026-10-30, while mapping the full loop)*.

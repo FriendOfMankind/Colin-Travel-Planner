@@ -559,3 +559,9 @@ groups:
     verified: false
     lat: null
     lng: null
+  - name: Syracuse–Rochester area
+    note: Night 29. Pin the town you'd actually stop in; any I-90 exit town between Syracuse and Rochester.
+    maps: Syracuse NY
+    verified: false
+    lat: null
+    lng: null
