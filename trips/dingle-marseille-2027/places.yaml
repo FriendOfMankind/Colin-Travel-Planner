@@ -78,6 +78,54 @@ groups:
         verified: false
         lat: null
         lng: null
+      - name: Blennerville Windmill
+        note: Day 2, optional stop on bus 275.
+        maps: Blennerville Windmill
+        verified: false
+        lat: null
+        lng: null
+      - name: Dunquin Pier
+        note: Day 3, optional. Cliff path to the old Blasket pier. Not in wind.
+        maps: Dunquin Pier
+        verified: false
+        lat: null
+        lng: null
+      - name: Eask Tower
+        note: Day 4 afternoon hike, with WWII Lookout Post 36. Access not checked.
+        maps: Eask Tower Dingle
+        verified: false
+        lat: null
+        lng: null
+      - name: Minard Castle
+        note: Day 5 east option. View from the beach only.
+        maps: Minard Castle Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Inch Beach
+        note: Day 5 east option.
+        maps: Inch Beach Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Brandon Creek
+        note: Day 5 north option, taxi.
+        maps: Brandon Creek Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Brandon Point
+        note: Day 5 north option, taxi.
+        maps: Brandon Point Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Glanteenassig Forest Park
+        note: Day 5 north option, car needed.
+        maps: Glanteenassig Forest Park
+        verified: false
+        lat: null
+        lng: null
       - name: South Pole Inn
         note: Day 5, optional. Tom Crean's pub, Annascaul.
         maps: South Pole Inn Annascaul
@@ -193,6 +241,18 @@ groups:
       - name: Oppidum d'Entremont
         note: Day 11, optional. Pre-Roman hill town ruins.
         maps: Oppidum d'Entremont
+        verified: false
+        lat: null
+        lng: null
+      - name: Plage de la Baie des Singes
+        note: Day 12, optional swim at Cap Croisette.
+        maps: Plage de la Baie des Singes
+        verified: false
+        lat: null
+        lng: null
+      - name: Carrières de Bibémus
+        note: Guided only (FR, €18); not on a day yet. No bus.
+        maps: Carrières de Bibémus
         verified: false
         lat: null
         lng: null

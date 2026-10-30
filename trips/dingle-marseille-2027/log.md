@@ -118,3 +118,17 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **Day 12:** Les Goudes and the Calanque de Samena on the bus 20 route; Tuba Club *(Broadsheet 2026-05-20)*.
 - **Day 13:** Hôpital Caroline (1820s quarantine-hospital ruins, closed 1948, under restoration by Acta Vista), Fort de Ratonneau and the Cap de Croix bunkers, a swim at Calanque de Saint-Estève *(marseilletourisme.fr; lebateau-frioul-if.fr)*. The "explorable, unrestored ruins" rule (`me/principles.md` 10) makes this the trip's best fit.
 - **Looked at, not added:** the Route des Crêtes above Cassis is pedestrian only on Sundays from late April *(marseille-tourisme.com)*, and Cassis day is a Wednesday.
+
+## 2026-10-30 · AI-search gem round (pasted by Colin), checked where possible
+
+**Source:** two AI search outputs Colin pasted (the tool wasn't named): a Dingle list and Marseille sections 5–9. They cite Instagram and Facebook posts from 2026 with links. Those platforms are walled to me, so every place below is 📋 secondhand unless marked ✅.
+
+**Checked against official pages**
+- ✅ **Carrières de Bibémus**: "Visite guidée… Réservation obligatoire", French only, €18 adult; 2026 slots Saturdays 10:00 (Feb–Nov) and Fridays 18:00 (Apr 3 – Sep 15); "no regular bus", car or taxi; "les visites libres ne sont pas autorisées" *(reservation.aixenprovencetourism.com; aixenprovence.fr agenda; aixenprovencetourism.com)*. The AI's "guided visit only, price not verified" holds; the price is now known. **Thursday has no slot**, so it's an Open question.
+- ✅ **Local Link Kerry** runs 268 (Dingle–Gallarus–Ballydavid loop), 276 (Killarney–Inch–Annascaul–Dingle), 277a and 277b (Dingle–Ventry–Ballyferriter–Dunquin, "Lower Slea Head"). Services "generally operate 1, 2 or 3 days each week", with pre-booking where the route deviates; bookings 066 714 7002 *(locallinkkerry.ie; dingle-peninsula.ie)*. **This is a no-car way to do Slea Head on Day 3**, if a May day lines up.
+- ✅ The 275 stops at Blennerville Main St *(dingle-peninsula.ie)*.
+
+**Taken on the AI's citations (posts not opened)**
+- Day 2: Blennerville Windmill. Day 3: Dunquin Pier. Day 4: Eask Tower and WWII Lookout Post 36. Day 5: east (Minard, which is private, so view only; Inch; South Pole Inn) or north (Brandon Creek, Brandon Point, Glanteenassig, all by car).
+- Day 12: Baie des Singes at Cap Croisette. Day 13: Hôpital Caroline is **outside only**; the AI and the official restoration status agree. The Marché des Capucins was already in the plan.
+- **What the AI said it couldn't find, and I'm not adding:** a safe, legal abandoned interior in Marseille; Cours Julien staircases; Pomègues forts as a separate stop. La Friche la Belle de Mai was named as an unsourced alternative and isn't added.

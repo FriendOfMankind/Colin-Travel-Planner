@@ -39,3 +39,8 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🔒 **Reddit r/Marseille and r/ireland**: search "Calanques bus May", "Marseille pickpockets Vieux-Port", "Dublin airport to Dingle bus". Paste the top comments: current pickpocket spots, whether the B1 is packed on weekday mornings, and whether anyone did FlightLink → Farranfore → Tralee
 - 🔒 **Facebook "My South of France" (provencewithme)**: her En-Vau tips are in the first comment of the Nov 7, 2025 post. Paste them
 
+## 5. Gems (AI-search round, 2026-10-30)
+- 🟡 **Dingle side**: Eask Tower, Dunquin Pier, Minard, Inch, Brandon Creek and Point, Glanteenassig, Blennerville. All from Instagram and Facebook posts cited by an AI search; the posts aren't opened (walled). ✅ Local Link 268/276/277a/277b exist (locallinkkerry.ie); ⬜ their May days and times
+- ✅ **Bibémus**: guided only, FR, €18, Fri 18:00 / Sat 10:00 (2026), no bus
+- 🟡 **Baie des Singes, Hôpital Caroline exterior, Marché des Capucins**: AI-cited posts; Caroline backed by official pages
+
