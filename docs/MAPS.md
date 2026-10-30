@@ -95,3 +95,12 @@ Only for building a different view:
 - **Kepler:** load `<slug>-trip.geojson` and `<slug>.geojson`. Set the first to a **Trip** layer colored by `day`, with a trail length of a day or more. Filter the pins on `time` with an **Incremental** window. Tooltip `name`, `day`, `title`, `note`.
 - **Felt:** drag in `<slug>.geojson`, style by `day`. Filter `role = camp` for a nights-only view.
 - Loading by URL from GitHub Pages is untested (it needs Pages' CORS headers). Downloading the file and dragging it in always works.
+
+## Parked (Colin, 2026-10-30): zoom detail and satellite
+
+Asked for, saved for later. Not started.
+- **Zoom doesn't gain detail.** `tools/build.mjs` simplifies every line at the whole trip's scale (`span / 4000`, about 400 m on Dingle–Marseille because of the flight). Fix: simplify each part at its own day's scale. The coast stays Natural Earth 1:10m (~1 km). Colin didn't say which zoom problem he meant (blocky lines, too little zoom, or tiny pins), so ask.
+- **Satellite view.** The claude.ai page's CSP blocks every outside image, so tiles can only work on the GitHub Pages copy, with signal. Options, unanswered:
+  - A "Satellite" link to Google Maps per day and pin. Works everywhere.
+  - Sentinel-2 cloudless (EOX): free, no key, 10 m.
+  - Esri World Imagery: sharp, but it needs an ArcGIS account and key. Using the tile URL without a key isn't permitted *(source: Esri Community / ArcGIS item pages, search 2026-10-30)*.
