@@ -30,7 +30,7 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "**Nothing booked; waiting to see if the two friends commit** *(stated 2026-10-29)*. Plan rewritten 2026-10-27 for Mar 6–14 with them (likely yes, not confirmed). When it's go: In order: (1) check the max people and tents per site on Bonita's recreation.gov page, then book Mar 8–10 (one site if three fit, two if not); (2) book Gilbert Ray for Mar 6 and Mar 13; (3) the friends book their own CLE → TUS flights, which is what makes them confirmed; (4) the rental, an SUV, once three flights exist. Send them the proposal page."
+next: "**Nothing booked; waiting to see if the two friends commit** *(stated 2026-10-29)*. Plan rewritten 2026-10-27 for Mar 6–14 with them (likely yes, not confirmed). When it's go, in order: (1) check the max people and tents per site on Bonita's recreation.gov page, then book Mar 8–10 (one site if three fit, two if not); (2) book Gilbert Ray for Mar 6 and Mar 13; (3) the friends book their own CLE → TUS flights, which is what makes them confirmed; (4) the rental, an SUV, once three flights exist. Send them the proposal page."
 booking:
   - system: recreation.gov
     what: Bonita Canyon, Chiricahua NM (Mar 8–10)
