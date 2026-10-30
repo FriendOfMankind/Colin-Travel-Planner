@@ -25,11 +25,6 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - `kitchen/staples.md`: The trunk-staple menu: one-pot, eyeball-the-water meals rebuilt to be more nutritious, with macros computed against the targets. Two breakfasts, two lunches, eight dinners.
 
-## Planned trips
-
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 26/26 places located · log 7 entries · updated 2026-09-07
-  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
-
 ## Outlines
 
 - **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 51/59 places located · log 12 entries · updated 2026-10-30
@@ -38,6 +33,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 36/36 places located · log 11 entries · updated 2026-10-30
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
+- **Sky Islands** (`trips/sky-islands-2027/`) · outline · Mar 6–14, 2027 (target, unbooked) · 9 days · 5 open questions · 26/26 places located · log 10 entries · updated 2026-10-27
+  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Done
 
