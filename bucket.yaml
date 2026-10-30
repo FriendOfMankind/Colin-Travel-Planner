@@ -881,9 +881,8 @@ items:
     state: ME
     why: Car-free broken-stone roads built for exactly a hybrid bike
     status: want
-    trip: newfoundland-2027
     wishlist: acadia
-    source: wishlist/acadia.md (daydream 2026-09-30); ridden on Day 4 of trips/newfoundland-2027
+    source: wishlist/acadia.md (daydream 2026-09-30). Was Day 4 of trips/newfoundland-2027 until that bike day was cut, 2026-10-30
     added: 2026-09-30
 
   - id: celtic-shores-coastal-trail
@@ -893,7 +892,6 @@ items:
     state: NS
     why: 92 km of smooth rail trail along the Gulf, on the road to Chéticamp; built for a hybrid
     status: want
-    trip: newfoundland-2027
     source: celticshores.ca, destinationtrailsnovascotia.com, AllTrails (search snippets, 2026-10-05)
     added: 2026-10-05
 

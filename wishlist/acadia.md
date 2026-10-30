@@ -11,7 +11,7 @@ region: Mount Desert Island, Maine
 country: USA
 budget: Drive, ~13 hrs from Avon (⚠️ estimate)
 tags: [ car camping, bike, carriage roads, coast, summer ]
-updated: 2026-10-05
+updated: 2026-10-30
 source: daydream 2026-09-30 (scenic bike + hike destinations; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead)
 ---
 
@@ -34,5 +34,5 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 ### 2026-09-30 · Found while looking for a dedicated bike trip
 - 📋 Class 1 e-bikes allowed on the carriage roads, Class 2 and 3 not; 20 mph limit *(source: nps.gov/acad/planyourvisit/bicycling.htm, search snippet, 2026-09-30)*
 - ⚠️ Summer crowds are heavy. The carriage roads early in the day are the crowd dodge (principle 5 thinking), not verified
-- ✅ Newfoundland goes by road and stops here: a three-night sampler with the Beehive and one carriage-road day, May 24–26 2027 (`trips/newfoundland-2027/`, Days 2–4). This file stays as the full 6–8 night bike trip for a PTO year: "I can return there on PTO" *(stated 2026-10-04)*. *(was: "Acadia as a stop on it is unchecked")*
+- ✅ Newfoundland goes by road and stops here for **one evening only**, May 27 2027 (`trips/newfoundland-2027/`, Day 2). The Beehive, Cadillac and the carriage-road day were cut on 2026-10-30 to give the May Europe trip two more days *(Colin)*, so everything in this file is still undone (was: a three-night sampler, May 24–26). This file stays as the full 6–8 night bike trip for a PTO year: "I can return there on PTO" *(stated 2026-10-04)*. *(was: "Acadia as a stop on it is unchecked")*
 - Colin: "all of these sound awesome, all worth noting" *(stated 2026-09-30)*
