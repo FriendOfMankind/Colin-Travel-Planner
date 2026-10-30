@@ -149,7 +149,7 @@ overnight:
 - 11:00 → ~14:45 · travel! · **FlightLink 722 Dublin Airport → Farranfore**, direct from the airport, no change at Red Cow. €39 online *(flightlink.ie fares, 2026-10)*. Airport departures 06:00, 09:00, **11:00**, 13:00, 15:00 *(flightlink.ie service updates, 2026)*. ⚠️ The arrival time is inferred: southbound it's Killarney 09:00 → airport 13:00, and Farranfore is 15 min before Killarney · 📍 Aherns Pharmacy Farranfore
 - ~15:00 · travel · **Farranfore → Tralee**: a family lift, or the train or Bus Éireann 271 (times not checked). If the family can collect at Farranfore, the rest of this day disappears · 📍 Tralee Bus Station
 - 16:15 → 17:24 · travel · **Bus Éireann 275 Tralee → Dingle**. Later buses 18:00 → 19:00, 19:30 → 20:26, and the **last at 22:00 → 22:54** *(NTA timetable via bustimes.org, Oct 2026)* · 📍 Dingle bus stop Strand Street
-- optional · stop · **Blennerville Windmill** is a stop on the 275, just outside Tralee: Ireland's largest working windmill, on Tralee Bay *(AI search results pasted by Colin, citing LoveTralee on Facebook, 2026-09-09; the 275 stop list is from dingle-peninsula.ie)*. Only if the day has slack: next bus 18:00
+- optional · stop · **Blennerville Windmill** is a stop on the 275, just outside Tralee: Ireland's largest working windmill, on Tralee Bay *(Meta AI results pasted by Colin, citing LoveTralee on Facebook, 2026-09-09; the 275 stop list is from dingle-peninsula.ie)*. Only if the day has slack: next bus 18:00
 - fallback · travel · Dublin Coach 300 via a Red Cow change to Tralee, then the 275. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
 - evening · stop · Dingle. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Dingle Co. Kerry
 
@@ -179,7 +179,7 @@ overnight:
 **Schedule**
 - morning · drive · **Slea Head loop**, ~3–4 h with stops. Needs a paid tour or a driver, **not priced**. If family wants to drive it, that's their call, not the plan. · 📍 Slea Head Drive
 - option · travel · **No-car alternative: TFI Local Link 277b**, Dingle → Ventry → Dunquin → Ballyferriter → Dingle ("Lower Slea Head"), and **268**, Dingle → Gallarus → Ballydavid loop *(locallinkkerry.ie; dingle-peninsula.ie)*. Local Link routes usually run only 1–3 days a week and some need pre-booking: 066 714 7002. Days and times for May not checked · 📍 Dingle Co. Kerry
-- optional · stop · **Dunquin Pier**: a zig-zag path down 600 ft cliffs to the old Blasket ferry pier. A viewpoint, not a beach. Unguarded edges, so skip it in wind or swell. On the 277 route *(AI search results pasted by Colin, 2026-10-30, citing Instagram 2026-07-14, Facebook reel 2026-09-11)* · 📍 Dunquin Pier
+- optional · stop · **Dunquin Pier**: a zig-zag path down 600 ft cliffs to the old Blasket ferry pier. A viewpoint, not a beach. Unguarded edges, so skip it in wind or swell. On the 277 route *(Meta AI results pasted by Colin, 2026-10-30, citing Instagram 2026-07-14, Facebook reel 2026-09-11)* · 📍 Dunquin Pier
 - optional · ruins · Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*. · 📍 Gallarus Oratory
 - optional · ruins · **Kilmalkedar**, 2 km from Gallarus: a roofless 12th-century Romanesque church with carved doorways, a medieval sundial (one of nine in Ireland) and the Alphabet Stone. Free, open ground *(dingle-peninsula.ie)* · 📍 Kilmalkedar Church
 - optional · ruins · **An Riasc (Reask)**: an excavated early-medieval monastery, with hut foundations, a church outline and a 6th-century carved cross-pillar. Free (OPW). Signposted off the road by Bric's pub *(dingle-peninsula.ie)* · 📍 Reask Monastic Site
@@ -210,7 +210,7 @@ overnight:
 
 **Schedule**
 - morning · walk · Dingle town and the harbour on foot. · 📍 Dingle Harbour
-- afternoon · hike · **Eask Tower**: an 1847 famine-era stone daymark 600 ft above the harbour mouth, 360° views to the Blaskets and Iveragh. About 4 km west of town, steep, 1.5–2 h return. A **WWII lookout post (No. 36)**, concrete and half-ruined, sits on the same hill *(AI search results pasted by Colin, 2026-10-30, citing Facebook reel 2026-08-15)*. ⚠️ Access and any farm fee not checked · 📍 Eask Tower Dingle
+- afternoon · hike · **Eask Tower**: an 1847 famine-era stone daymark 600 ft above the harbour mouth, 360° views to the Blaskets and Iveragh. About 4 km west of town, steep, 1.5–2 h return. A **WWII lookout post (No. 36)**, concrete and half-ruined, sits on the same hill *(Meta AI results pasted by Colin, 2026-10-30, citing Facebook reel 2026-08-15)*. ⚠️ Access and any farm fee not checked · 📍 Eask Tower Dingle
 - afternoon · stop · Family, or a genuinely easy afternoon.
 
 **Meals**
@@ -234,8 +234,8 @@ overnight:
 
 **Schedule**
 - day · stop · Free. Rain swap for Slea Head. Pick one side of the peninsula:
-- option · ruins · **East, by bus 275 or Local Link 276:** **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(AI search results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
-- option · hike · **North, by taxi:** **Brandon Creek**, the cove where St Brendan is said to have set out, and **Brandon Point** headland, with Brandon Bay views and a WWII lookout. Or **Glanteenassig Forest Park**, lake boardwalks under the Slieve Mish mountains. All of them need a car or taxi *(AI search results pasted by Colin, citing Instagram 2026-07-13, 2026-09-01, 2026-10-13 and 2026-10-15)* · 📍 Brandon Creek Kerry
+- option · ruins · **East, by bus 275 or Local Link 276:** **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
+- option · hike · **North, by taxi:** **Brandon Creek**, the cove where St Brendan is said to have set out, and **Brandon Point** headland, with Brandon Bay views and a WWII lookout. Or **Glanteenassig Forest Park**, lake boardwalks under the Slieve Mish mountains. All of them need a car or taxi *(Meta AI results pasted by Colin, citing Instagram 2026-07-13, 2026-09-01, 2026-10-13 and 2026-10-15)* · 📍 Brandon Creek Kerry
 - evening · food · Farewell dinner with family.
 - night · note! · Pack completely. Tomorrow starts early, and the bus does not wait.
 
@@ -429,7 +429,7 @@ overnight:
 - morning (~35m) · travel · **Bus 19 from Castellane or Rond-Point du Prado to Madrague de Montredon, then bus 20 to Callelongue** *(marseille-tourisme.com; calanques-parcnational.fr)*. ⚠️ **Only one bus 20 an hour**: check the time before leaving *(randonnees-calanques.fr)* · 📍 Callelongue Marseille
 - morning (~3h 10m) · hike · **Calanque de Marseilleveyre loop**. ✅ AllTrails: **5.4 mi, 1,492 ft, Moderate, 4.8★, ~3h 07m** *(2026-10-30)*. A weekday on purpose: the city's closest calanques fill on weekends. Shorter option: Callelongue → Marseilleveyre and back, 3.2 mi / 488 ft *(AllTrails)* · 📍 Calanque de Marseilleveyre
 - afternoon · walk · **Les Goudes** on the way back: the bus 20 goes through it. An old fishing village at the end of the city. Tuba Club, a former diving club that's now a restaurant, is the local pick *(Broadsheet, 2026-05)*. **Calanque de Samena**, a pebble cove under steep rock, is just before it *(same)* · 📍 Les Goudes Marseille
-- optional · swim · **Baie des Singes** at Cap Croisette: a small sand-and-rock cove behind a breakwater, facing Île Maïre, about 20 min on foot from Les Goudes. The public beach is free; the restaurant's loungers are paid *(AI search results pasted by Colin, citing Instagram, 2026-09-11)* · 📍 Plage de la Baie des Singes
+- optional · swim · **Baie des Singes** at Cap Croisette: a small sand-and-rock cove behind a breakwater, facing Île Maïre, about 20 min on foot from Les Goudes. The public beach is free; the restaurant's loungers are paid *(Meta AI results pasted by Colin, citing Instagram, 2026-09-11)* · 📍 Plage de la Baie des Singes
 - afternoon · stop · Back in town, slow afternoon.
 
 **Meals**

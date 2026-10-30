@@ -121,7 +121,7 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 
 ## 2026-10-30 · AI-search gem round (pasted by Colin), checked where possible
 
-**Source:** two AI search outputs Colin pasted (the tool wasn't named): a Dingle list and Marseille sections 5–9. They cite Instagram and Facebook posts from 2026 with links. Those platforms are walled to me, so every place below is 📋 secondhand unless marked ✅.
+**Source:** two Meta AI outputs Colin pasted (tool confirmed 2026-10-30): a Dingle list and Marseille sections 5–9. They cite Instagram and Facebook posts from 2026 with links. Those platforms are walled to me, so every place below is 📋 secondhand unless marked ✅.
 
 **Checked against official pages**
 - ✅ **Carrières de Bibémus**: "Visite guidée… Réservation obligatoire", French only, €18 adult; 2026 slots Saturdays 10:00 (Feb–Nov) and Fridays 18:00 (Apr 3 – Sep 15); "no regular bus", car or taxi; "les visites libres ne sont pas autorisées" *(reservation.aixenprovencetourism.com; aixenprovence.fr agenda; aixenprovencetourism.com)*. The AI's "guided visit only, price not verified" holds; the price is now known. **Thursday has no slot**, so it's an Open question.
