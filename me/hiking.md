@@ -51,4 +51,4 @@ These were stated as preferences on 2026-09-06 and applied to the whole Kentucky
 2. **One outing per day.** No mid-day return to camp unless the reason earns it. A trailhead you can walk to from the tent doesn't count as a return. **Reconfirmed after Kentucky** as "realistic" *(confirmed 2026-09-27)*. Kentucky Thursday stacked five stops, but they sat along the transfer drive, so a travel day with stops on the way still counts as one outing.
 3. **Put the hard, empty hike on the busiest day.** Honey Creek on a Saturday is the pattern. *(also principle 5 in [principles.md](principles.md))*
 
-Whether these held up in the field is a retro question for Kentucky. See the retro prompts in [`trips/kentucky-2026/log.md`](../trips/kentucky-2026/log.md).
+The Kentucky retro checked only rule 2 ("one outing a day is realistic") *(confirmed: [kentucky-2026 log](../trips/kentucky-2026/log.md), 2026-09-27)*. Rules 1 and 3 weren't asked there, and are still unconfirmed in the field. (was: "a retro question for Kentucky", found stale by the gardener 2026-10-30)

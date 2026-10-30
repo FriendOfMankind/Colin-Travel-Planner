@@ -1,0 +1,6 @@
+# Findings Colin looked at and called fine. The gardener never raises these
+# again. Add one only on his say-so, with the date and his reason. The
+# fingerprint comes from `node tools/garden.mjs --json` or the skill's report.
+# This list is also the gardener's precision score: a check that keeps
+# landing here is a noisy check, and the fix is the check, not more entries.
+[]
