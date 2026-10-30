@@ -73,3 +73,28 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - **The finding that shapes the week:** *formules du midi* (the cheap set lunches, ~€20–26 seen) are **weekday lunch only, not weekends or public holidays** *(lacotedeboeuf.net, leroyrene.fr, onfoodandfrance 2025-03)*. Four Marseille days (May 16, 17, 22, 23) have none, so those days lean on pizza, brasseries and the apartment.
 - **Sunday shopping:** Monoprix Canebière closes 12:45 on Sundays, Monop' Général de Gaulle stays open to 19:50, and Noailles market is shut Sundays *(monoprix.fr; marseille-tourisme.com)*. Hence the first grocery run is the Saturday arrival night.
 - Unverified and flagged in the plan: Chez Étienne, Chez Sauveur and Chez Jeannot hours; boulangerie prices (one secondary guide); whether Le Four des Navettes opens on Whit Monday.
+
+## 2026-10-30 · Route sweep: Ireland transfers, Calanques buses, Frioul, airport (official pages, YouTube, guides)
+
+**Official and operator pages**
+- ✅ **Bus Éireann 275 Tralee → Dingle**: 06:00, 08:00, 09:00, 11:15, 12:30, 14:00, 16:15, 18:00, 19:30, 22:00, about 55–70 min. Dingle → Tralee from 07:15 *(NTA data via bustimes.org, timetable of 20 Oct 2026)*. dingle-peninsula.ie: "10 buses per day", and rail to Tralee from Dublin every 2 h, ~4 h.
+- ✅ **FlightLink 722**: Killarney → Dublin Airport every 2 h (05:00–15:00 in the update notice), Farranfore 15 min after Killarney; airport → Killarney 06:00, 09:00, 11:00, 13:00, 15:00. €39 online, €45 on board *(flightlink.ie fares and service updates, 2026)*. The route has toilets on board and runs direct, without going into Dublin.
+- ✅ **Calanques by bus**: B1 from Castellane to "Luminy PN des Calanques", Sugiton about 45 min on foot; 19 to Madrague de Montredon, then 20 to Callelongue (randonnees-calanques: one 20 an hour); **bus 78 Castellane → Cassis town every 45 min** *(marseille-tourisme.com, calanques-parcnational.fr, ot-cassis.com 2025-03)*. Cassis station is 3 km above town.
+- ✅ **Access in May**: Sugiton reservations ran June 20–21, then daily June 27 – Aug 30, plus September weekends in 2026 *(marseille-spirit.com, 2026-07)*. Cassis: "Access restricted from 1 June to 30 September", no toilets or water points, carry 1–2 L *(ot-cassis.com)*.
+- ✅ **Airport**: A1 every 10 min 07:55–20:15, every 20 min otherwise, ~25 min (50 at rush hour) *(SNCF Gares & Connexions)*; €15 single, €7 for ages 12–25 *(marseille-tourisme.com, 2026 fares)*. Alternative: TER to Vitrolles Aéroport + bus 13A, €8.70 *(actu.fr, 2026-08-25)*.
+- ✅ **Frioul**: Vieux-Port departures every 30–60 min, 06:30–23:50, on 2026-07-23 *(Zou! regional timetable)*. Resident fares €11.10 / €16.70; visitor fare not shown. No Château d'If boats in mistral; château entry €7 *(frequence-sud.fr, 2026-06)*.
+
+**YouTube**
+- **DW Travel, "Is Marseille Safe for Tourists?"** (Gönna Ketels, uploaded 2025-07-06, press piece, not sponsored; trip month not stated). "Fishers sell their catch here every morning. And morning is also the best time to experience the harbour." Mucem roof terrace "for free". Notre-Dame's golden statue "currently covered for construction" (2025; whether it is in 2027 isn't known). Danger is concentrated in the Quartiers Nord: "I didn't feel unsafe… it didn't feel more dangerous than any other big city." Panisses with aïoli at Cours Julien apéro.
+- **Tyler Kemph, "Hiking to Calanque d'En-Vau"** (2025-09-26, friends' vlog). Little practical content: "a little steep here and there", cliff jumping at En-Vau. The description repeats the fire-season closure warning.
+
+**Guides**
+- marseille-spirit.com (2026-07): Port-Miou trailhead "15 minutes' walk from Cassis port"; Luminy ~40 min from the Vieux-Port in total.
+- moonhoneytravel.com (2024-05): Sugiton → Morgiou → Les Baumettes, 11.7 km point to point, home by bus 22 + B1.
+
+**Walled:** Reddit (r/Marseille, r/ireland) and a Facebook post ("My South of France", En-Vau tips, 2025-11-07) showed up as snippets only. They're on the fetch list.
+
+**Applied to `trip.md` (route changes Colin asked for, 2026-10-30):**
+- Day 2: FlightLink 11:00 → Farranfore, then on to Tralee, then the 16:15 bus 275. Was Dublin Coach 300 via Red Cow, which is kept as the fallback.
+- Day 10: bus 78 to Cassis town. Was TER + bus 371.
+- Days 9, 12, 13, 15: the bus numbers, the Frioul details and both airport options.

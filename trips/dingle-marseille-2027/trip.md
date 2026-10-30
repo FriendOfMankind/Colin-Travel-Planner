@@ -146,17 +146,20 @@ overnight:
 
 **Schedule**
 - 08:45 · travel · Land in Dublin. Immigration, bags, breakfast.
-- 11:00 → 18:30 (7h 30m) · travel! · **Planning block, not a timetable:** Dublin Coach 300 from the airport to Tralee (via its Red Cow connection), then Bus Éireann 275 Tralee → Dingle. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
+- 11:00 → ~14:45 · travel! · **FlightLink 722 Dublin Airport → Farranfore**, direct from the airport, no change at Red Cow. €39 online *(flightlink.ie fares, 2026-10)*. Airport departures 06:00, 09:00, **11:00**, 13:00, 15:00 *(flightlink.ie service updates, 2026)*. ⚠️ The arrival time is inferred: southbound it's Killarney 09:00 → airport 13:00, and Farranfore is 15 min before Killarney · 📍 Aherns Pharmacy Farranfore
+- ~15:00 · travel · **Farranfore → Tralee**: a family lift, or the train or Bus Éireann 271 (times not checked). If the family can collect at Farranfore, the rest of this day disappears · 📍 Tralee Bus Station
+- 16:15 → 17:24 · travel · **Bus Éireann 275 Tralee → Dingle**. Later buses 18:00 → 19:00, 19:30 → 20:26, and the **last at 22:00 → 22:54** *(NTA timetable via bustimes.org, Oct 2026)* · 📍 Dingle bus stop Strand Street
+- fallback · travel · Dublin Coach 300 via a Red Cow change to Tralee, then the 275. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
 - evening · stop · Dingle. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Dingle Co. Kerry
 
 **Meals**
 - B: Dublin Airport
-- L: on the road (Red Cow or Tralee)
+- L: on the coach (it has toilets) or at Farranfore
 - D: with family
 
 #### Warnings
 
-**This chain isn't researched end to end.** Route 300's Red Cow connection, the 275's afternoon departures and a late-flight fallback all need dated checks. A late landing is the risk that kills the day: find the last 275 out of Tralee before trusting this.
+**A late landing has slack now:** the 13:00 FlightLink still makes the 18:00 or 19:30 bus 275, and the last 275 leaves Tralee at 22:00. The one unknown leg is Farranfore → Tralee: ask the family whether they'd collect at Farranfore, which is the easiest fix on the whole trip.
 
 ### Day 3 — 2027-05-12 · Slea Head
 
@@ -254,9 +257,9 @@ overnight:
 
 **Schedule**
 - TBD · drive · **Family lift** to Killarney (Mission Road stop) or Farranfore (opposite Aherns Pharmacy, 09:15). The leave time depends on the family's address, which isn't recorded. · 📍 Mission Road Killarney
-- 09:00 → 13:00 (4h) · travel! · **FlightLink 722** Killarney → Dublin Airport, direct. €39 each at current fares. Published current timetable, not a dated May 2027 run. · 📍 Dublin Airport
+- 09:00 → 13:00 (4h) · travel! · **FlightLink 722** Killarney → Dublin Airport, direct. €39 each at current fares. Departures every 2 h from Killarney (05:00, 07:00, **09:00**, 11:00…), Farranfore 15 min later *(flightlink.ie service updates, 2026)*. Book online: €39 vs €45 on board *(flightlink.ie fares)*. Not a dated May 2027 run. · 📍 Dublin Airport
 - 15:45 → 19:10 (2h 25m) · travel · **Ryanair FR 4285** DUB → MRS. Bags and seats extra.
-- evening (1h) · travel · A1 shuttle to Saint-Charles (€15), then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
+- evening (1h) · travel · **A1 shuttle** to the Saint-Charles bus station: every 10 min until 20:15, then every 20 min; ~25 min, up to 50 in traffic. €15, or **€7 for ages 12–25** (2026 prices) *(gares-et-connexions SNCF; marseille-tourisme.com)*. Then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
 - late · food · Whatever's open near the apartment.
 
 **Meals**
@@ -283,8 +286,9 @@ overnight:
 ```
 
 **Schedule**
-- morning · walk · **Le Panier** on foot. · 📍 Le Panier Marseille
-- late morning · ruins · **Mucem** (exhibitions €11) and **Fort Saint-Jean**; the fort and terraces can be free. 2027 hours not checked. Mucem is normally closed Tuesdays, which is why it's today. · 📍 Mucem Marseille
+- early · walk · **The fish sellers on the Vieux-Port**, every morning: the best time for the harbour *(DW Travel, YouTube, 2025-07)* · 📍 Vieux-Port Marseille
+- morning · walk · **Le Panier** on foot, and its murals. · 📍 Le Panier Marseille
+- late morning · ruins · **Mucem** (exhibitions €11) and **Fort Saint-Jean**; the fort and the **roof terrace are free** *(DW Travel, 2025-07)*. 2027 hours not checked. Mucem is normally closed Tuesdays, which is why it's today. · 📍 Mucem Marseille
 - evening · walk · Vieux-Port. · 📍 Vieux-Port Marseille
 
 **Meals**
@@ -331,9 +335,10 @@ overnight:
 ```
 
 **Schedule**
-- morning · travel · Bus to Luminy. · 📍 Luminy Marseille
-- morning · hike · **Sugiton viewpoint** (Belvédère de Sugiton). The default. · 📍 Belvédère de Sugiton
-- optional · hike! · Down to the **Sugiton cove**: steeper and harder, and the group's comfort with it is unknown. Swimming possible, not promised.
+- morning (~40m) · travel · **Metro to Castellane, then bus B1 to "Luminy PN des Calanques"**, ~30–35 min *(marseille-tourisme.com; calanques-parcnational.fr; marseille-spirit.com 2026-07)* · 📍 Luminy Marseille
+- morning · hike · **Sugiton viewpoint** (Belvédère de Sugiton), 25–30 min each way on an easy-to-moderate path *(marseille-tourisme.com)*. The default. **No reservation in May:** Sugiton's booking only ran June 20 – Aug 30 in 2026 *(marseille-spirit.com, 2026-07)* · 📍 Belvédère de Sugiton
+- optional · hike! · Down to the **Sugiton cove**, ~45 min down; the park says allow **at least an hour back up**, it's steep *(calanques-parcnational.fr)*. Swimming possible, not promised.
+- optional · hike · **One-way out via Morgiou** instead of back to Luminy: Sugiton → Morgiou → Les Baumettes, 11.7 km point to point, then bus 22 and B1 home *(moonhoneytravel.com, 2024-05)*. Only if everyone's fresh.
 - afternoon · stop · Back in town, slow afternoon.
 
 **Meals**
@@ -360,10 +365,10 @@ overnight:
 ```
 
 **Schedule**
-- morning (~45m) · travel · **TER** Marseille → Cassis, €8.40 each way (current). The station sits above town: **bus 371**, ~10–15 min plus waiting. · 📍 Gare de Cassis
-- morning (~3h 30m) · hike · **Port-Miou → Port-Pin → En-Vau loop** from Cassis. ✅ AllTrails: **6.9 mi, 1,427 ft, Moderate, 4.8★** *(2026-10-30)*. The narrowest, steepest-walled calanque, with a beach at the bottom. Same access caveat as Day 9: check the park the day before · 📍 Calanque de Port-Miou
+- morning (~45m) · travel · **Bus 78 from Castellane straight to Cassis town**, every 45 min *(ot-cassis.com, 2025-03)*. Better than the train: Cassis station is 3 km (40 min on foot) above town *(same)*. TER + bus 371 is the backup (€8.40 TER) · 📍 Castellane Marseille
+- morning (~3h 30m) · hike · **Port-Miou → Port-Pin → En-Vau loop** from Cassis. ✅ AllTrails: **6.9 mi, 1,427 ft, Moderate, 4.8★** *(2026-10-30)*. The narrowest, steepest-walled calanque, with a beach at the bottom. The trailhead is 15–30 min on foot from the port *(marseille-spirit.com; calanques-parcnational.fr)*. **No toilets or water anywhere in the Calanques: 1–2 L each** *(ot-cassis.com)*. Summer access limits start June 1, so May is open, but check the park the day before · 📍 Calanque de Port-Miou
 - afternoon · walk · Cassis harbour, and a swim if anyone wants one. Optional boat to the Calanques from Cassis: **not priced** (the €30–35 quote is a Marseille operator, not Cassis). · 📍 Port de Cassis
-- late afternoon · travel · TER back.
+- late afternoon · travel · Bus 78 back to Castellane.
 
 **Meals**
 - B: apartment
@@ -409,7 +414,7 @@ overnight:
 ```
 
 **Schedule**
-- morning · travel · Bus to Callelongue. Route and time not checked · 📍 Callelongue Marseille
+- morning (~35m) · travel · **Bus 19 from Castellane or Rond-Point du Prado to Madrague de Montredon, then bus 20 to Callelongue** *(marseille-tourisme.com; calanques-parcnational.fr)*. ⚠️ **Only one bus 20 an hour**: check the time before leaving *(randonnees-calanques.fr)* · 📍 Callelongue Marseille
 - morning (~3h 10m) · hike · **Calanque de Marseilleveyre loop**. ✅ AllTrails: **5.4 mi, 1,492 ft, Moderate, 4.8★, ~3h 07m** *(2026-10-30)*. A weekday on purpose: the city's closest calanques fill on weekends. Shorter option: Callelongue → Marseilleveyre and back, 3.2 mi / 488 ft *(AllTrails)* · 📍 Calanque de Marseilleveyre
 - afternoon · stop · Back in town, slow afternoon.
 
@@ -437,7 +442,7 @@ overnight:
 ```
 
 **Schedule**
-- morning · ferry · **Frioul islands**, one-island return €11.10 (2026 flyer). 2027 sailings not posted; **wind cancels them**. Château d'If is extra · 📍 Vieux-Port Frioul ferry
+- morning · ferry · **Frioul islands** from the Quai des Belges. In July 2026 boats left roughly every 30–60 min, 06:30–23:50; May will be thinner *(Zou! timetable, 2026-07)*. €11.10 return for one island and €16.70 for If + Frioul are the **local-resident** fares; the visitor fare wasn't shown *(marseille-tourisme.com)*. **Mistral cancels the Château d'If boats**, and the château charges €7 entry on top *(frequence-sud.fr, 2026-06)* · 📍 Vieux-Port Frioul ferry
 - day · walk · The islands on foot, and the château if the boat stops there.
 - evening · food · Vieux-Port.
 
@@ -478,7 +483,7 @@ slack: Unknown until the flight is booked.
 ```
 
 **Schedule**
-- early · travel · To Marseille airport (A1 shuttle). Leave time depends on the flight · 📍 Aéroport Marseille Provence
+- early · travel · To the airport: **A1 shuttle** from Saint-Charles (€15, €7 ages 12–25), or the cheaper **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. Leave time depends on the flight · 📍 Aéroport Marseille Provence
 - day · travel · **MRS → CLE, routing not found yet.** The May 22 version was BA 347 → Heathrow → AA 91 → Chicago → AA 1035, landing 22:02, which is the shape to look for again.
 
 **Meals**
@@ -495,13 +500,13 @@ slack: Unknown until the flight is booked.
 - [x] Newfoundland shift decided: it leaves Wed May 26, this trip lands Mon May 24 (2026-10-30)
 - [ ] Third traveler: in or out
 - [ ] Family: beds for May 11–14, and the May 15 lift (address → leave time)
-- [ ] May 11 coach chain from the dated timetables, with a late-landing fallback
+- [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [ ] May 15: FlightLink 722 on the actual date, or the Dublin overnight
 - [ ] Open-jaw flight: find and price the **May 24** return, with real margin at the US entry airport
 - [ ] Ryanair FR 4285: bags and seats priced
 - [ ] Marseille apartment for **9 nights**: bedding, late check-in, cancellation terms. The shortlist was priced for 7
 - [ ] Slea Head tour or driver priced, if wanted
-- [ ] Calanques access and the Sugiton reservation dates for 2027
+- [ ] Calanques: check the park's access map the evening before each hike (no Sugiton reservation in May, based on 2026 dates)
 
 ## Open questions
 
