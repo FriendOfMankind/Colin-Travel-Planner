@@ -98,3 +98,13 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - Day 2: FlightLink 11:00 → Farranfore, then on to Tralee, then the 16:15 bus 275. Was Dublin Coach 300 via Red Cow, which is kept as the fallback.
 - Day 10: bus 78 to Cassis town. Was TER + bus 371.
 - Days 9, 12, 13, 15: the bus numbers, the Frioul details and both airport options.
+
+## 2026-10-30 · May 24 home flights, from Colin's Google Flights screenshot
+
+- **One way, per person, Marseille → Cleveland, Mon May 24** *(date assumed from context; screenshot from Colin, 2026-10-30; not held)*:
+  - BA + American, MRS 07:15 → CLE 17:44, via LHR and ORD, 16h 29m, **$596** (cheapest)
+  - KLM + Delta, MRS 06:30 → CLE 15:09, via AMS and DTW, 14h 39m, $683 (fastest)
+  - Iberia + Aer Lingus, MRS 06:15 → CLE 19:10, via MAD and DUB, 18h 55m, $685. US preclearance in Dublin
+- The layover lengths weren't in the screenshot. The 2026-10-29 May 22 routing had only 1h 59m at O'Hare.
+- **Every option leaves Marseille at 06:15–07:15**, so it's a ~04:15 start. The A1 runs from ~04:10, every 20 min.
+- The budget still uses the May 22 open-jaw ($1,200 a person, round trip). A $596 one-way plus a CLE → DUB one-way can't be compared with it until the multi-city fare is priced.

@@ -33,9 +33,9 @@ tags:
 next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. Shape decided: Dingle 4 nights, Marseille 9, home Mon May 24. Next: find and price the May 24 open-jaw home, then who the third person is. The open-jaw fare is the biggest single line"
 booking:
   - system: flights
-    what: CLE → DUB May 10 (EI 86) + MRS → CLE May 24 (routing TBD), one open-jaw ticket
+    what: CLE → DUB May 10 (EI 86) + MRS → CLE May 24, one open-jaw ticket
     target: 2027-05-10
-    note: The May 22 version (BA 347 / AA 91 / AA 1035) was observed at $3,601 for 3 / $2,401 for 2, Main Cabin with a checked bag (Google Flights → American, 2026-10-29, not held). The May 24 return isn't priced or routed yet (the flight search failed, 2026-10-30).
+    note: The May 22 version (BA 347 / AA 91 / AA 1035) was observed at $3,601 for 3 / $2,401 for 2, Main Cabin with a checked bag (Google Flights → American, 2026-10-29, not held). May 24 one-way options seen 2026-10-30 in Colin's screenshot, $596 BA/AA via LHR + ORD, $683 KLM/Delta via AMS + DTW, $685 Iberia/Aer Lingus via MAD + DUB. Price the open-jaw as one multi-city ticket before booking, since it's usually cheaper than two one-ways.
   - system: flights
     what: DUB → MRS May 15, Ryanair FR 4285, 15:45 → 19:10
     target: 2027-05-15
@@ -477,14 +477,18 @@ overnight:
 
 ```yaml
 date: 2027-05-24
-tagline: Marseille to Cleveland, with US entry somewhere in between.
+tagline: A 4 AM start, two connections, and home the same day.
 type: travel
 slack: Unknown until the flight is booked.
 ```
 
 **Schedule**
 - early · travel · To the airport: **A1 shuttle** from Saint-Charles (€15, €7 ages 12–25), or the cheaper **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. Leave time depends on the flight · 📍 Aéroport Marseille Provence
-- day · travel · **MRS → CLE, routing not found yet.** The May 22 version was BA 347 → Heathrow → AA 91 → Chicago → AA 1035, landing 22:02, which is the shape to look for again.
+- day · travel · **MRS → CLE: three one-way options seen** *(Google Flights screenshot from Colin, 2026-10-30; per person, one way, not held; layover lengths not shown)*:
+  - **BA + American via Heathrow and Chicago**: 07:15 → 17:44, 16h 29m, **$596**. The cheapest. US entry at O'Hare.
+  - **KLM + Delta via Amsterdam and Detroit**: 06:30 → 15:09, 14h 39m, $683. The fastest, and home earliest. US entry at Detroit.
+  - **Iberia + Aer Lingus via Madrid and Dublin**: 06:15 → 19:10, 18h 55m, $685. The longest, but **US immigration is cleared in Dublin before boarding** *(dublinairport.com)*, so Cleveland is a domestic arrival.
+- note · note! · **All three leave Marseille at 06:15–07:15:** be at the airport by ~05:00. The A1 shuttle runs from about 04:10, every 20 min until 07:30 *(SNCF Gares & Connexions)*, so leave the apartment around 04:15. Sunday is the rest day for a reason
 
 **Meals**
 - B: apartment or airport
@@ -525,10 +529,10 @@ Beds, the May 15 lift, and the address (which decides Killarney vs. Farranfore a
 **Blocks:** everything after May 15
 Leaning Marseille *(2026-10-30)*. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
 
-### What's the May 24 flight home?
+### Which May 24 flight home?
 
 **Blocks:** the open-jaw ticket, the budget
-Both extra days went to Marseille *(Colin, 2026-10-30)*, so the return is **Mon May 24 from Marseille**. The 2026-10-30 flight search failed before it returned anything for that date. The May 22 routing (BA → Heathrow → AA → Chicago → CLE) is the shape to look for again, ideally with more than 1h 59m for US entry.
+Three seen for Mon May 24 *(Colin's screenshot, 2026-10-30)*: **$596** BA/American via Heathrow + Chicago (home 17:44), **$683** KLM/Delta via Amsterdam + Detroit (home 15:09), **$685** Iberia/Aer Lingus via Madrid + Dublin (home 19:10, with US preclearance in Dublin). Still to check: the layover lengths, especially the US entry stop, and the multi-city price with the May 10 outbound.
 
 ## Field notes
 
