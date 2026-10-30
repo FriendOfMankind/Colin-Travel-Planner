@@ -1,74 +1,89 @@
-# Maps: from the files to Kepler and Felt
+# Mapping a trip
 
-Written 2026-10-30. The pipeline is three steps, and only the first one needs you.
-
-```
-you: coordinates + road GPX  →  places.yaml, routes.yaml  →  tools/geojson.mjs  →  site/maps/*.geojson  →  Kepler / Felt
-```
-
-## 1. Place the pins (the actual bottleneck)
-
-`node tools/geojson.mjs --todo` lists every unplaced place on an upcoming trip, with the Google Maps search for it. Finished trips are left out *(Colin, 2026-10-30: no need to do past trips)*. That list is the work queue.
-
-**The easy way: the Pin Ledger** (https://claude.ai/artifact/79opjP1N8qdZqLrR5ifdUT, private to Colin). Every unplaced place has a Find in Maps button and a paste box. It saves as you go, and it flags pins that land far from the trip, that came from a map's center instead of a long-press, or that are too coarse. When you're done, tell Claude "pins are in". Claude reads the ledger's saved data, writes each pin into `places.yaml` with its source, and re-seeds the ledger from the new todo list. The page's source is `tools/coordsheet.html`.
-
-**Or straight into the chat**, for each place:
-
-1. Search it in Google Maps (the `search:` text from the list).
-2. Check it's the right spot: the trailhead lot, not the summit; the campground entrance, not the town. Satellite view settles most of these.
-3. Long-press the exact spot. The coordinates appear in the search bar. Tap them to copy.
-4. Paste into the chat, one per line:
+Written 2026-10-30, worked out on Newfoundland. This is the checklist for putting any trip on a map: the site's Map tab, plus an animated Kepler file. Newfoundland is the reference; when a step is unclear, look at what it produced (`trips/newfoundland-2027/places.yaml`, `routes.yaml`, `routes/`).
 
 ```
-Stone Cliff Campground: 37.9431, -81.0632
-Kaymoor Top: 38.0466, -81.0835 (the lot, not the trail)
+pins (Colin, Pin Ledger)  →  places.yaml  →  roads (tools/roads.py)  →  routes.yaml + routes/*.gpx
+                                   └───────────────→  build  →  site Map tab · site/maps/*.geojson · *.kepler.json
 ```
 
-Claude writes each one into that trip's `places.yaml` as `verified: true` with `source: Google Maps dropped pin (Colin, <date>)`. Anything after the coordinate goes in the note. Claude never fills one in itself: no geocoding host is reachable from a session (CLAUDE.md, "Limits").
+Who does what: **Colin** drops pins and decides beds. **Claude** does everything else and says what's missing. No step invents a place: a stop nobody has placed is skipped and counted, never guessed.
 
-Batches of 10–20 at a time are fine. Do the places on a day's route first, since those are what draw the lines.
+## The loop
 
-## 2. Road lines
+### 1. Find the gaps (Claude)
 
-`python3 tools/roads.py <slug>` (after `node tools/build.mjs`) draws every day along real roads and writes `trips/<slug>/routes/day-N.gpx` plus `routes.yaml`. Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteService, Geofabrik, all tested 2026-10-30), but Overture Maps' road data on S3 is reachable. So the tool pulls the roads in the trip's box (major roads everywhere, every road within ~4 km of a stop), builds the network itself and finds the fastest path between each day's stops, ferries included. It takes about a minute per trip. Needs `pip install pyarrow shapely networkx numpy pyyaml`.
+- `node tools/geojson.mjs --todo` lists every unplaced place on upcoming trips with its Maps search.
+- Then check the schedule: **a `📍` stop with no `places.yaml` entry can never be pinned.** Add each one to `places.yaml` (unplaced, with a note naming its day). On Newfoundland that was 16 stops, including Gander, Twillingate, St. John's and Ferryland.
+- Add **home** as a place with `home: true` (it opens day 1 and closes a last day with no bed), and any **ferry terminal** a crossing ends at. A ferry row needs a `📍` at the far side or the crossing can't be drawn.
+- List the **undecided beds** (`TBD` overnights). They're Colin's decisions, not pins. Ask about them, multiple choice.
 
-What it is and isn't: a plausible drawn route, not navigation. It ignores one-way streets, turn rules and closures, guesses speeds by road class, and draws the hop from a stop to its nearest road straight. A day whose bed the night before is still TBD starts from the previous day's last placed stop (`startGuessed` on the line). Home has no pin, so the drive out and the drive home aren't drawn.
+### 2. Pins (Colin, about 30 seconds each)
 
-**To override one day** with a route you chose: open that day's Directions link on the site, drag Google's route where you want it, paste the URL into a Google-Maps-to-GPX converter (maptogpx.com, gpx2maps.com or mapstogpx.com), and replace that day's GPX. Change its `source` in `routes.yaml` to say so. A route with no `source` fails `npm test`.
+Claude seeds the new places into the **Pin Ledger** (https://claude.ai/artifact/79opjP1N8qdZqLrR5ifdUT, private; source `tools/coordsheet.html`). For each: **Find in Maps** → check it's the right spot (the trailhead lot, not the summit) → long-press → copy → paste. The ledger flags a pin that's thousands of km off (swapped numbers or a lost minus sign), one copied from a map's center, a coarse one, and one identical to another place's (a stale clipboard: it caught Gallarus Oratory).
 
-## 3. Build and look
+**"Not a pin"** is for something that isn't one spot (a whole harbour, a road).
 
-`node tools/build.mjs` (or `node tools/geojson.mjs` on its own) writes `site/maps/`:
+Colin says **"pins are in"** when done. Or, without the ledger, paste `Name: lat, lng` lines into the chat.
 
-| File | What it is | Use it in |
-|---|---|---|
-| `<slug>.geojson` | Pins (camps, stops, other verified places) and one line per day, colored by day | Felt, Kepler (static), geojson.io, uMap |
-| `<slug>-trip.geojson` | The day lines only, each vertex timestamped | Kepler's **Trip** layer (the animated trace) |
-| `all.geojson`, `all-trip.geojson` | Every trip at once | The "everywhere I'm going" map |
+### 3. Import (Claude)
 
-Pages publishes them on every push to `main`, at `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<file>`. Kepler and Felt can load straight from that URL. *(Untested: it needs GitHub Pages to send CORS headers, and the session couldn't reach github.io to check. If it fails, download the file and drag it in instead.)*
+Read the ledger's saved pins and check them before writing:
+- No two places at the same coordinates.
+- Nothing far outside the trip.
+- No leftover warnings. A saved warning means look closer, not reject.
 
-### Kepler.gl, the one-file way
+Write each pin into `places.yaml` as `verified: true`, `source: Google Maps dropped pin, via the Pin Ledger (Colin, <date>)`. Change only the `verified`/`lat`/`lng`/`source` lines (keep the file's own indentation). Hold back anything suspect, reset it in the ledger, and say which.
 
-`site/maps/<slug>.kepler.json` (written by the build, or `node tools/kepler.mjs <slug>`) is a saved Kepler map with the data and the styling inside. Drag it onto kepler.gl/demo and it opens set up: the whole route faint underneath, each day animating in on top, pins appearing as the trace reaches their day, hover tooltips, and a view framed on the trip. Checked by loading it through Kepler 3.2.6's own schema and reducer code (2026-10-30), not by rendering it in a browser. Only scheduled stops are in it; verified places no day visits are in `<slug>.geojson`.
+### 4. Roads (Claude, about a minute)
 
-### Kepler.gl, by hand
+`node tools/build.mjs`, then `python3 tools/roads.py <slug>` (needs `pip install pyarrow shapely networkx numpy pyyaml`).
 
-1. Open kepler.gl/demo (a desktop browser; it's heavy on a phone). **Add Data → Load Map using URL** (or drag in the files): load `<slug>-trip.geojson` and `<slug>.geojson`.
-2. On the `-trip` dataset, set the layer type to **Trip**. Color it by `day`. The play bar appears at the bottom. Set the trail length long enough that a whole day's line stays drawn.
-3. On the pins dataset, add a **Filter** on `time` and pick **Incremental Time Window**, so pins appear as the trace reaches them and stay there.
-4. Tooltip: `name`, `day`, `title`, `note`. Base map: a satellite or terrain style.
-5. Share/Export → **Export Video** for a clip, or Export Map → HTML for a self-contained file.
+Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteService and Geofabrik, tested 2026-10-30), but **Overture Maps' road data on S3 is reachable**. So the tool pulls the roads in the trip's box (major roads everywhere, every road within ~4 km of a stop), builds the network and finds the fastest path between each day's stops, ferries included. It writes `routes/day-N.gpx` and `routes.yaml` with the source.
 
-Features arrive with `lineColor`/`fillColor` set, which Kepler picks up as each day's color.
+Re-run it whenever pins or beds change; days that didn't change come out the same.
 
-### Felt, the clean shareable version
+**Check:**
+- Each day's miles against the plan's `driving:` line. Road miles run ~1.3–1.7× straight-line.
+- A ferry flag only where the plan has a crossing.
+- No gap between one day's end and the next day's start.
+- Draw it once and look. A straight run across water should be a real ferry.
 
-Drag in `<slug>.geojson`. Style the points and lines by `day` (categorical). Filter on `role` = `camp` for a nights-only view. Each feature carries `stroke` and `marker-color` too (the simplestyle convention), but I haven't checked whether Felt uses them.
+**To pin one day to a route Colin chose:** open the day's Directions link, drag Google's route, convert the URL at maptogpx.com (or gpx2maps.com, mapstogpx.com), replace that day's GPX, and change its `source`.
 
-## Honest limits
+### 5. Build and look (Claude)
 
-- **The clock is fake.** Each day plays from 01:00 to 23:00 on its date at constant speed along the line, so the animation shows order and distance, not when anything happens. Schedule times aren't parsed: too many are "morning" or "+45m".
-- **Only verified places are drawn.** A skipped stop is counted on its day's line (`skipped`), not guessed. A day with fewer than two placed stops has no line.
-- **Dingle–Marseille is buses and flights.** Its lines will be straight (bus routes don't come out of Google driving links), and that's the right shape for it.
-- **Camps appear once per day they touch**: as the night's stop, and again as the next morning's start. That's right for playback. In Felt, filter by day if they stack.
+`node tools/build.mjs` writes:
+
+| Output | What it is |
+|---|---|
+| The site's **Map tab** | Coastline, every day's line and pin, drawn in the page: works offline and inside the claude.ai page. Tap a day, line or pin to zoom to that day and get its card (miles, driving, bed, stops, Day plan link, Google Maps route). |
+| `site/maps/<slug>.kepler.json` | The animated map. Drag onto kepler.gl/demo on a computer. |
+| `site/maps/<slug>.geojson`, `-trip.geojson`, `all*.geojson` | Raw data for Felt, geojson.io or Kepler by hand. |
+
+**Check before calling it done:**
+- `npm test`: coordinates and routes have sources, Kepler files bind, the coastline keeps its islands.
+- Screenshot the Map tab at phone width in light and dark mode: whole trip, then one day.
+- Load the Kepler file through Kepler's own code (the headless check used on 2026-10-30).
+- Read the "No line yet for day…" line on the whole-trip card. That's what's still missing, and it goes back to step 1.
+
+### 6. Ship
+
+Commit with the pins' and routes' provenance in the message, push, PR. Republish the site after Colin merges (CLAUDE.md).
+
+## What each piece is and isn't
+
+- **Road lines are plausible, not navigation.** One-way streets, turn rules and closures are ignored, speeds are guesses by road class, and the hop from a pin to the nearest road is straight.
+- **A day after an undecided bed starts where the day before ended** (`startGuessed`). The day card says so.
+- **The coastline is Natural Earth 1:10m**, about a kilometre of detail. It shows where the coast is, not which side of a cove a campground is on. Pins and roads carry the detail.
+- **The animation clock is fake.** Each day plays 01:00–23:00 on its date at constant speed along its line: order and distance, not time of day.
+- **Only placed pins draw.** A day with fewer than two placed stops (or a decided bed) has no line.
+- **Bus-and-flight trips** (Dingle–Marseille) route by road too. Read those lines as "between here and there", not the bus's path.
+
+## Kepler and Felt by hand
+
+Only for building a different view:
+
+- **Kepler:** load `<slug>-trip.geojson` and `<slug>.geojson`. Set the first to a **Trip** layer colored by `day`, with a trail length of a day or more. Filter the pins on `time` with an **Incremental** window. Tooltip `name`, `day`, `title`, `note`.
+- **Felt:** drag in `<slug>.geojson`, style by `day`. Filter `role = camp` for a nights-only view.
+- Loading by URL from GitHub Pages is untested (it needs Pages' CORS headers). Downloading the file and dragging it in always works.

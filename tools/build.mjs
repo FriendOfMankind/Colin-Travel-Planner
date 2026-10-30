@@ -28,6 +28,7 @@ import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 import { buildIcs } from "./ics.mjs";
 import { writeMaps, tripGeo, loadRoutes } from "./geojson.mjs";
 import { keplerMap } from "./kepler.mjs";
+import { basemap, simplify } from "./lib/basemap.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 
@@ -103,6 +104,26 @@ function dayRoute(d, prev, places) {
   return all.length >= 2 ? { pinned: all.filter((x) => x.pinned).length, total: all.length, links: routeLinks(r) } : null;
 }
 
+/** The Map tab's data: day lines (road where routes.yaml has one), pins, and a clipped
+    coastline, all small enough to ship inside the page so the map works offline. */
+function tripMap(slug, md, groups) {
+  const g = tripGeo(slug, md, groups, loadRoutes(slug));
+  const pts = g.flat.filter((f) => f.geometry.type === "Point");
+  const legs = g.flat.filter((f) => f.properties.kind === "leg");
+  const all = [...pts.map((f) => f.geometry.coordinates), ...legs.flatMap((f) => f.geometry.coordinates)];
+  if (!all.length) return null;
+  const xs = all.map((c) => c[0]), ys = all.map((c) => c[1]);
+  const span = Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...ys) - Math.min(...ys), 0.15);
+  const box = [Math.min(...xs) - span * 0.08, Math.min(...ys) - span * 0.08, Math.max(...xs) + span * 0.08, Math.max(...ys) + span * 0.08];
+  const r5 = ([x, y]) => [Math.round(x * 1e5) / 1e5, Math.round(y * 1e5) / 1e5];
+  return {
+    // Coast well past the trip's own box, so panning or a tall phone screen shows land, not blank sea.
+    box, ...basemap([box[0] - span * 0.7, box[1] - span * 0.7, box[2] + span * 0.7, box[3] + span * 0.7]),
+    legs: legs.map(({ properties: p, geometry: { coordinates: c } }) => ({ day: p.day, miles: p.miles, road: p.shape === "road", guessed: !!p.startGuessed, ferry: false, line: simplify(c, span / 4000).map(r5) })),
+    pins: pts.map(({ properties: p, geometry: { coordinates: [lng, lat] } }) => ({ name: p.name, day: p.day, role: p.role, lat, lng })),
+  };
+}
+
 function buildTrip(slug) {
   const { registry: r, page } = parseTrip(read(`trips/${slug}/trip.md`));
   const places = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups : [];
@@ -115,6 +136,7 @@ function buildTrip(slug) {
     // Only what a view renders: subtitle, theme, tags, nights, distance and
     // budget never reached the screen, so they stay in trip.md.
     slug, title: r.title, status: r.status, start: r.start ?? null, target: r.target ? String(r.target) : null, end,
+    map: tripMap(slug, read(`trips/${slug}/trip.md`), places),
     datesLabel: r.dates, region: r.region, states: r.states ?? [], why: mdi(r.why), next: mdi(r.next),
     booking: (r.booking ?? []).map((b) => ({ what: mdi(b.what), system: b.system, booked: !!b.booked })),
     located: { verified: allPlaces.filter((p) => p.verified).length, total: allPlaces.length },
