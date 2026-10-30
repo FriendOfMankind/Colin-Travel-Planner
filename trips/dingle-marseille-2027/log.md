@@ -57,3 +57,12 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - Why +2 and not more: the next cut on the Newfoundland side was Labrador and Red Bay, which are unrestored ruins and only-now, while Acadia is a long weekend from Ohio any year *(Claude's reasoning, Colin agreed, 2026-10-30)*.
 - **Not decided:** where the two days go, and the new home flight. The day plan and the open-jaw booking row still show the May 22 routing until then.
 - **Pack the Sienna for Newfoundland before flying out May 10.**
+
+## 2026-10-30 · Decided: both extra days go to Marseille (9 nights, home Mon May 24)
+
+- **Marseille +2** *(Colin, 2026-10-30: picked "B")*. Dingle stays at 4 nights. Marseille goes from 7 nights to 9 (May 15–24), and the trip flies home Mon May 24.
+- **Why not one each** (Colin's first lean): leaving Kerry on Sunday May 16 has **no nonstop Dublin → Marseille**. Google Flights showed only one-stops that day; the best was BA 831 / BA 352 via Heathrow, 15:20 → 22:45, €130 for 1 adult, carry-on only *(flights-google-com via Firecrawl, 2026-10-30)*. That would add a Heathrow connection and a midnight arrival to the trip's weakest day. Saturday keeps Ryanair FR 4285 nonstop *(Claude's reasoning, Colin agreed)*.
+- **The new days:** Day 10's Cassis day gets the Port-Miou → Port-Pin → En-Vau loop (6.9 mi / 1,427 ft, AllTrails 4.8★). New Day 12 is the Marseilleveyre loop from Callelongue (5.4 mi / 1,492 ft, AllTrails 4.8★) on a Friday, ahead of weekend crowds. New Day 13 is the Frioul islands and Château d'If, which were optional on the old rest day. Rest moves to Sun May 23.
+- **Old values:** 13 days, 12 nights (7 Marseille), home Sat May 22 on BA 347 → LHR → AA 91 → ORD → AA 1035, landing CLE 22:02. Old Day 12 was the rest day with Frioul optional. Budget ~$3,004 each for 3 / ~$3,351 for 2.
+- **Budget re-run:** ~$3,306 each for 3, ~$3,752 for 2. Lodging, meals and France lines scaled by 9/7, not re-observed, with the May 22 airfare as a placeholder.
+- **Not found:** the May 24 home flight. The search failed twice on 2026-10-30. Also not checked: whether the apartment shortlist has 9-night availability.

@@ -105,7 +105,7 @@ groups:
         lat: null
         lng: null
       - name: Frioul ferry (Vieux-Port)
-        note: Day 12, optional. Wind-dependent.
+        note: Day 13. Wind-dependent.
         maps: Frioul If Express Vieux-Port
         verified: false
         lat: null
@@ -127,6 +127,24 @@ groups:
       - name: Gare de Cassis
         note: Day 10. Above town; bus 371 down.
         maps: Gare de Cassis
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Port-Miou
+        note: Day 10. Start of the Port-Miou → Port-Pin → En-Vau loop, from Cassis.
+        maps: Calanque de Port-Miou
+        verified: false
+        lat: null
+        lng: null
+      - name: Callelongue
+        note: Day 12 trailhead, end of the road south of Marseille. Bus not checked.
+        maps: Callelongue Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Marseilleveyre
+        note: Day 12 loop.
+        maps: Calanque de Marseilleveyre
         verified: false
         lat: null
         lng: null

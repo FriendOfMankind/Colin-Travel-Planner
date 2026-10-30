@@ -1,25 +1,25 @@
 ---
 slug: dingle-marseille-2027
 title: Dingle & Marseille
-subtitle: Three full days with family in Dingle, then a week of Marseille, the Calanques, Cassis and Aix
+subtitle: Three full days with family in Dingle, then nine nights of Marseille, the Calanques, Cassis and Aix
 months: [ 5 ]
 mode: fly
-days: 13
+days: 15
 target: 2027-05-10
 emoji: ⛵
 theme: ocean
 status: outline
 pinned: false
 start: null
-dates: May 10–22, 2027 (target, unbooked)
-window: After Commencement (Sat May 8), up to a Mon May 24 landing. Newfoundland now leaves Wed May 26 (Colin, 2026-10-30), so this trip can grow by two days; the routed plan below still ends May 22
-region: Cleveland → Dublin → Dingle → Dublin → Marseille → home via Heathrow and Chicago
+dates: May 10–24, 2027 (target, unbooked)
+window: After Commencement (Sat May 8) to a Mon May 24 landing. Newfoundland leaves Wed May 26 (Colin, 2026-10-30)
+region: Cleveland → Dublin → Dingle → Dublin → Marseille → home (May 24 routing not found yet)
 states: [ IE, FR ]
 country: Ireland, France
 coords: [ 47.5, -4 ]
-nights: 12 (1 plane, 4 Dingle, 7 Marseille)
+nights: 14 (1 plane, 4 Dingle, 9 Marseille)
 distance: no car. Coaches in Ireland, trains and buses in Provence
-budget: ~US$3,000 each for 3 (calculated, see Notes); ~US$3,350 each for 2
+budget: ~US$3,300 each for 3 (calculated, see Notes); ~US$3,750 each for 2. The home fare is still the May 22 observation
 tags:
   - international
   - europe
@@ -30,18 +30,18 @@ tags:
   - family
   - free lodging
   - no car
-next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. The Newfoundland shift is decided: home by Mon May 24. Next: where the two extra days go (Dingle, Marseille, or both), then who the third person is, then re-price the open-jaw home on May 23 or 24. The open-jaw fare is the biggest single line"
+next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. Shape decided: Dingle 4 nights, Marseille 9, home Mon May 24. Next: find and price the May 24 open-jaw home, then who the third person is. The open-jaw fare is the biggest single line"
 booking:
   - system: flights
-    what: CLE → DUB May 10 (EI 86) + MRS → CLE May 22 (BA 347 / AA 91 / AA 1035), one open-jaw ticket
+    what: CLE → DUB May 10 (EI 86) + MRS → CLE May 24 (routing TBD), one open-jaw ticket
     target: 2027-05-10
-    note: Observed $3,601 for 3 / $2,401 for 2, Main Cabin with a checked bag (Google Flights → American, 2026-10-29, not held). Nonrefundable.
+    note: The May 22 version (BA 347 / AA 91 / AA 1035) was observed at $3,601 for 3 / $2,401 for 2, Main Cabin with a checked bag (Google Flights → American, 2026-10-29, not held). The May 24 return isn't priced or routed yet (the flight search failed, 2026-10-30).
   - system: flights
     what: DUB → MRS May 15, Ryanair FR 4285, 15:45 → 19:10
     target: 2027-05-15
     note: Observed €653 for 3 / €435 for 2, bags and seats extra (Google Flights, 2026-10-29, not held). Book only after the May 15 bus is settled.
   - system: private
-    what: Marseille apartment, 7 nights May 15–22 (3 adults, one unit)
+    what: Marseille apartment, 9 nights May 15–24 (3 adults, one unit)
     target: 2027-05-15
     note: Shortlist in Notes. Every inspected rate is nonrefundable or first-night-penalty; none is free cancellation.
 updated: 2026-10-30
@@ -51,20 +51,20 @@ map:
 page:
   title: Dingle & Marseille
   subtitle: 2 or 3 adults, all on the same flights · Cleveland → Dingle → Marseille → home
-  dates: Monday, May 10 – Saturday, May 22, 2027
+  dates: Monday, May 10 – Monday, May 24, 2027
   emoji: ⛵
   theme: ocean
   vehicle: "**No car.** Ireland is coaches (Dublin Coach 300, Bus Éireann 275, FlightLink 722) plus one short family lift, which isn't confirmed. Marseille is metro, bus, TER trains and the A1 airport shuttle."
-  gettingThere: "Open-jaw: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, home **MRS 10:50 → CLE 22:02** on May 22 via Heathrow and Chicago. Plus **Ryanair FR 4285** DUB 15:45 → MRS 19:10 on May 15. All three observed on Google Flights for 3 adults, 2026-10-29, none held."
+  gettingThere: "Open-jaw: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, home from Marseille on **Mon May 24, routing not found yet**. Plus **Ryanair FR 4285** DUB 15:45 → MRS 19:10 on May 15. EI 86 and FR 4285 observed on Google Flights for 3 adults, 2026-10-29, none held."
   footerNote: "Outline as of Oct 30, 2026, imported from a planning handoff built in another tool. **Nothing booked, and the city isn't final:** Athens is the alternative in `wishlist/ireland-may-2027.md`. Clock times are either an observed/published source or a planning block, never a guessed departure. [← All trips](../../index.html)"
   stats:
-    - num: 13 days
+    - num: 15 days
       lbl: Length
     - num: "3"
       lbl: Full Dingle days
-    - num: "7"
+    - num: "9"
       lbl: Marseille nights
-    - num: ~$3,000
+    - num: ~$3,300
       lbl: Each, for 3
 ---
 
@@ -74,11 +74,11 @@ page:
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle the day you land, then four nights and three full days with family. On May 15 get to Dublin Airport and fly Ryanair to Marseille. One Marseille base for seven nights: the old town and Mucem, Notre-Dame de la Garde and the Corniche, the Calanques from Luminy, Cassis and Aix by train, and one real rest day. Home on May 22 via Heathrow and Chicago, landing at 22:02.
+Fly overnight from Cleveland, cross Ireland to Dingle the day you land, then four nights and three full days with family. On May 15 get to Dublin Airport and fly Ryanair to Marseille. One Marseille base for nine nights: the old town and Mucem, Notre-Dame de la Garde and the Corniche, the Calanques from Luminy, Cassis and the En-Vau loop, Aix by train, Marseilleveyre, the Frioul islands, and one real rest day. Home on Mon May 24; the flight isn't found yet.
 
 ### Dates
 
-May 10–22, 2027 as routed (target). 13 days, 12 nights. **It can now run to a Mon May 24 landing:** Newfoundland moved to Wed May 26 to make room *(Colin, 2026-10-30: "+2 works")*. The two days aren't placed yet; see Open questions.
+May 10–24, 2027 (target). 15 days, 14 nights. **Both extra days went to Marseille** *(Colin, 2026-10-30: picked "Marseille +2")*, so the Saturday nonstop to Marseille stays. Newfoundland leaves Wed May 26.
 
 ### Group
 
@@ -349,9 +349,9 @@ overnight:
 
 ```yaml
 date: 2027-05-19
-tagline: A fishing town under the highest sea cliff in France.
+tagline: The En-Vau loop in the morning, then a fishing town under the highest sea cliff in France.
 type: activity
-slack: Plenty. Cassis is small.
+slack: Afternoon. First cut — En-Vau down to Port-Pin and back.
 overnight:
   name: TBD, Marseille apartment
   place: Marseille
@@ -361,12 +361,13 @@ overnight:
 
 **Schedule**
 - morning (~45m) · travel · **TER** Marseille → Cassis, €8.40 each way (current). The station sits above town: **bus 371**, ~10–15 min plus waiting. · 📍 Gare de Cassis
-- day · walk · Cassis harbour. Optional boat to the Calanques from Cassis: **not priced** (the €30–35 quote is a Marseille operator, not Cassis). · 📍 Port de Cassis
+- morning (~3h 30m) · hike · **Port-Miou → Port-Pin → En-Vau loop** from Cassis. ✅ AllTrails: **6.9 mi, 1,427 ft, Moderate, 4.8★** *(2026-10-30)*. The narrowest, steepest-walled calanque, with a beach at the bottom. Same access caveat as Day 9: check the park the day before · 📍 Calanque de Port-Miou
+- afternoon · walk · Cassis harbour, and a swim if anyone wants one. Optional boat to the Calanques from Cassis: **not priced** (the €30–35 quote is a Marseille operator, not Cassis). · 📍 Port de Cassis
 - late afternoon · travel · TER back.
 
 **Meals**
 - B: apartment
-- L: Cassis harbour
+- L: packed, on the trail
 - D: Marseille
 
 ### Day 11 — 2027-05-20 · Aix-en-Provence
@@ -393,13 +394,65 @@ overnight:
 - L: Aix
 - D: Marseille
 
-### Day 12 — 2027-05-21 · Rest
+### Day 12 — 2027-05-21 · Marseilleveyre from Callelongue
 
 ```yaml
 date: 2027-05-21
-tagline: The real rest day. Frioul only if someone actually wants it.
+tagline: The end of the road south of the city, then a loop over the coves.
+type: activity
+slack: Afternoon. Also the makeup day for Luminy or Cassis if weather moved them.
+overnight:
+  name: TBD, Marseille apartment
+  place: Marseille
+  kind: Aparthotel
+  cost: See Notes
+```
+
+**Schedule**
+- morning · travel · Bus to Callelongue. Route and time not checked · 📍 Callelongue Marseille
+- morning (~3h 10m) · hike · **Calanque de Marseilleveyre loop**. ✅ AllTrails: **5.4 mi, 1,492 ft, Moderate, 4.8★, ~3h 07m** *(2026-10-30)*. A weekday on purpose: the city's closest calanques fill on weekends. Shorter option: Callelongue → Marseilleveyre and back, 3.2 mi / 488 ft *(AllTrails)* · 📍 Calanque de Marseilleveyre
+- afternoon · stop · Back in town, slow afternoon.
+
+**Meals**
+- B: apartment
+- L: packed. Bring real water
+- D: apartment or nearby
+
+#### Warnings
+
+Same park-access rule as Day 9: check the day before.
+
+### Day 13 — 2027-05-22 · Frioul and Château d'If
+
+```yaml
+date: 2027-05-22
+tagline: A ferry to the islands off the Vieux-Port, and the prison from The Count of Monte Cristo.
+type: activity
+slack: Most of the day. If the wind cancels the boats, it's a free city day.
+overnight:
+  name: TBD, Marseille apartment
+  place: Marseille
+  kind: Aparthotel
+  cost: See Notes
+```
+
+**Schedule**
+- morning · ferry · **Frioul islands**, one-island return €11.10 (2026 flyer). 2027 sailings not posted; **wind cancels them**. Château d'If is extra · 📍 Vieux-Port Frioul ferry
+- day · walk · The islands on foot, and the château if the boat stops there.
+- evening · food · Vieux-Port.
+
+**Meals**
+- B: apartment
+- L: packed or on the islands
+- D: Vieux-Port
+
+### Day 14 — 2027-05-23 · Rest
+
+```yaml
+date: 2027-05-23
+tagline: The real rest day, then pack. Tomorrow is a long way home.
 type: rest
-slack: All of it. Also the makeup day for the Calanques or Cassis if weather moved them.
+slack: All of it.
 overnight:
   name: TBD, Marseille apartment
   place: Marseille
@@ -409,47 +462,44 @@ overnight:
 
 **Schedule**
 - day · stop · Nothing scheduled. Pack in the evening.
-- optional · ferry · **Frioul islands**, one-island return €11.10 (2026 flyer). 2027 sailings not posted; wind cancels them. Château d'If is extra. · 📍 Vieux-Port Frioul ferry
 
 **Meals**
 - B: apartment
 - L: open
 - D: last dinner
 
-### Day 13 — 2027-05-22 · Home
+### Day 15 — 2027-05-24 · Home
 
 ```yaml
-date: 2027-05-22
-tagline: Seventeen hours, three flights, US entry in Chicago.
+date: 2027-05-24
+tagline: Marseille to Cleveland, with US entry somewhere in between.
 type: travel
-slack: 1h 59m at O'Hare, and immigration plus a bag recheck eat most of it.
+slack: Unknown until the flight is booked.
 ```
 
 **Schedule**
-- early · travel · To Marseille airport (A1 shuttle). Leave time not set: depends on the morning schedule, not yet checked. · 📍 Aéroport Marseille Provence
-- 10:50 · travel · **BA 347** MRS → LHR, 2h 50m layover.
-- afternoon · travel · **AA 91** LHR → ORD, 1h 59m layover. Clear US immigration and customs, recheck bags.
-- 22:02 · travel · **AA 1035** lands CLE. Intermediate clock times weren't recorded.
+- early · travel · To Marseille airport (A1 shuttle). Leave time depends on the flight · 📍 Aéroport Marseille Provence
+- day · travel · **MRS → CLE, routing not found yet.** The May 22 version was BA 347 → Heathrow → AA 91 → Chicago → AA 1035, landing 22:02, which is the shape to look for again.
 
 **Meals**
 - B: apartment or airport
-- L: Heathrow
+- L: in transit
 - D: on board
 
 #### Warnings
 
-**The O'Hare connection is the weak link.** US entry happens at Chicago (no preclearance at Heathrow), and 1h 59m includes immigration, customs, recheck and security. Pull the intermediate flight times and terminals before buying.
+**Look for a connection with real margin at the US entry airport.** Heathrow has no US preclearance, so immigration, customs and a bag recheck happen at the first US stop. The May 22 routing gave that 1h 59m at O'Hare, which is thin.
 
 ## Reservations & checks
 
-- [ ] Newfoundland shift decided (Acadia's Dec 1 release depends on it)
+- [x] Newfoundland shift decided: it leaves Wed May 26, this trip lands Mon May 24 (2026-10-30)
 - [ ] Third traveler: in or out
 - [ ] Family: beds for May 11–14, and the May 15 lift (address → leave time)
 - [ ] May 11 coach chain from the dated timetables, with a late-landing fallback
 - [ ] May 15: FlightLink 722 on the actual date, or the Dublin overnight
-- [ ] Open-jaw flight: intermediate times and the ORD connection before buying
+- [ ] Open-jaw flight: find and price the **May 24** return, with real margin at the US entry airport
 - [ ] Ryanair FR 4285: bags and seats priced
-- [ ] Marseille apartment: bedding, late check-in, cancellation terms
+- [ ] Marseille apartment for **9 nights**: bedding, late check-in, cancellation terms. The shortlist was priced for 7
 - [ ] Slea Head tour or driver priced, if wanted
 - [ ] Calanques access and the Sugiton reservation dates for 2027
 
@@ -470,10 +520,10 @@ Beds, the May 15 lift, and the address (which decides Killarney vs. Farranfore a
 **Blocks:** everything after May 15
 Leaning Marseille *(2026-10-30)*. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
 
-### Where do the two extra days go?
+### What's the May 24 flight home?
 
-**Blocks:** the home flight, the Marseille base booking, the Dingle nights
-The trip can land as late as **Mon May 24** *(Colin, 2026-10-30)*; Newfoundland leaves Wed May 26 after one turnaround day. Options: Marseille +2 (nine nights, room for an Aix or Calanques day without a back-to-back), Dingle +1 and Marseille +1, or Dingle +2. The MRS → CLE open-jaw has to be re-priced for May 23 or 24: the 22:02 routing via Heathrow and Chicago was observed for Saturday May 22 only.
+**Blocks:** the open-jaw ticket, the budget
+Both extra days went to Marseille *(Colin, 2026-10-30)*, so the return is **Mon May 24 from Marseille**. The 2026-10-30 flight search failed before it returned anything for that date. The May 22 routing (BA → Heathrow → AA → Chicago → CLE) is the shape to look for again, ideally with more than 1h 59m for US entry.
 
 ## Field notes
 
@@ -489,23 +539,23 @@ Before leaving: Kerry (Dingle peninsula to Killarney), Dublin Airport area, Mars
 
 ### Budget (calculated, not a quote)
 
-The handoff's model, re-run 2026-10-30. **USD = international + extras + 1.10 × (Europe flight + ground × 1.10)**, where ground = lodging + Ireland + meals + outings, the inner 1.10 is a 10% contingency and the outer 1.10 is an assumed USD/EUR rate, not a live one.
+The handoff's model, re-run 2026-10-30 for **9 Marseille nights**. The lodging, meals and France lines are the 7-night figures scaled by 9/7, not re-observed, and the airfare is still the May 22 observation. **USD = international + extras + 1.10 × (Europe flight + ground × 1.10)**, where ground = lodging + Ireland + meals + outings, the inner 1.10 is a 10% contingency and the outer 1.10 is an assumed USD/EUR rate, not a live one.
 
 | Line | 3 adults | 2 adults | Kind |
 | --- | --- | --- | --- |
-| Open-jaw airfare | $3,601 | $2,401 | Observed, 2026-10-29 |
+| Open-jaw airfare | $3,601 | $2,401 | Observed 2026-10-29 for a May 22 return; May 24 not priced |
 | Europe flight extras | $375 | $250 | Allowance |
 | DUB → MRS | €653 | €435 | Observed, 2026-10-29 |
-| Marseille lodging | €950 | €1,207 | Calculated from observed rates |
+| Marseille lodging | €1,221 | €1,552 | 7-night observed rates × 9/7 |
 | Ireland ground | €945 | €630 | Model: ~€83 transport + allowances each |
-| Marseille meals | €1,103 | €735 | Allowance, ~€52.50/person/day |
-| France transport + activities | €570 | €380 | Allowance |
-| **Total** | **~$9,012** | **~$6,702** | Calculated |
-| **Each** | **~$3,004** | **~$3,351** | Calculated |
+| Marseille meals | €1,418 | €945 | Allowance, ~€52.50/person/day, 9 days |
+| France transport + activities | €733 | €489 | Allowance × 9/7 |
+| **Total** | **~$9,918** | **~$7,505** | Calculated |
+| **Each** | **~$3,306** | **~$3,752** | Calculated |
 
-**Why three is ~$350 cheaper each:** shared lodging, and a downgrade. The 2-person line is a refundable twin room at Carré Vieux Port; the 3-person line is a nonrefundable studio with a sofa bed. Excluded: insurance, passports, shopping, private transfers, the €100 apartment deposits (refundable).
+**Why three is ~$450 cheaper each:** shared lodging, and a downgrade. The 2-person line is a refundable twin room at Carré Vieux Port; the 3-person line is a nonrefundable studio with a sofa bed. Excluded: insurance, passports, shopping, private transfers, the €100 apartment deposits (refundable).
 
-### Marseille apartment shortlist (3 adults, May 15–22)
+### Marseille apartment shortlist (3 adults, priced for May 15–22; the stay is now May 15–24)
 
 All Booking.com, observed 2026-10-29, one unit, whole stay. Total = base × 1.10 VAT + €2/person/night city tax, calculated, not a checkout.
 

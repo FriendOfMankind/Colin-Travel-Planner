@@ -8,7 +8,7 @@ mode: fly
 horizon: confirmed
 days: 13
 nights: "12 if re-fitted to the trip dates (1 plane, Dingle 4, Greece 7)"
-window: "Mon May 10 – Sat May 22, 2027, the same dates as `trips/dingle-marseille-2027` (was May 9–20). Commencement is Sat May 8, and Newfoundland is moving later (`trips/newfoundland-2027/log.md`)"
+window: "Mon May 10 – Mon May 24, 2027, the same dates as `trips/dingle-marseille-2027` (was May 10–22, and May 9–20 before that). Commencement is Sat May 8; Newfoundland leaves Wed May 26"
 region: Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion
 country: Ireland, Greece
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, ruins, coast, free lodging ]
@@ -30,7 +30,7 @@ source: daydream 2026-10-12 and 2026-10-29 (✅ read on the page, 📋 search sn
 - **Kerry: 4 nights in Dingle, May 11–14, with family** (was: 3 nights, May 10–13, a friend's family). Whose family is open; see the trip.
 - **Home May 22** (was: May 20). That hits Newfoundland's May 23 start, and **Colin chose to move Newfoundland** *(stated 2026-10-30)*.
 
-**If Athens comes back,** the version below needs re-fitting to those dates: Dingle May 11–14, so Greece is May 15–22 (7 nights), and the home flight is from Athens on Sat May 22. The Kerry → Dublin → Athens routing below assumed a Thursday and a friend already in Kerry.
+**If Athens comes back,** the version below needs re-fitting to those dates: Dingle May 11–14, so Greece is May 15–24 (9 nights), and the home flight is from Athens on Mon May 24 *(updated 2026-10-30)*. The Kerry → Dublin → Athens routing below assumed a Thursday and a friend already in Kerry.
 
 **Still open for the Athens version:**
 1. **Delphi + Meteora as a 2-night car loop, or Delphi alone with 1 night?** My pick is the loop (reasons under "Greece").

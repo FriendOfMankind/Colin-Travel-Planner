@@ -32,7 +32,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–22, 2027 (target, unbooked) · 13 days · 4 open questions · 0/24 places located · log 3 entries · updated 2026-10-30
+- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 0/27 places located · log 4 entries · updated 2026-10-30
   ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 4 open questions · 0/61 places located · log 45 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
