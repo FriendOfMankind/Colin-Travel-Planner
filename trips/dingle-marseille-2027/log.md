@@ -66,3 +66,10 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - **Old values:** 13 days, 12 nights (7 Marseille), home Sat May 22 on BA 347 → LHR → AA 91 → ORD → AA 1035, landing CLE 22:02. Old Day 12 was the rest day with Frioul optional. Budget ~$3,004 each for 3 / ~$3,351 for 2.
 - **Budget re-run:** ~$3,306 each for 3, ~$3,752 for 2. Lodging, meals and France lines scaled by 9/7, not re-observed, with the May 22 airfare as a placeholder.
 - **Not found:** the May 24 home flight. The search failed twice on 2026-10-30. Also not checked: whether the apartment shortlist has 9-night availability.
+
+## 2026-10-30 · Food research: how a Marseille day runs, the staples, where the value is
+
+- Colin asked for staples, value restaurant types and the day-to-day of Marseille *(stated 2026-10-30)*. Written into `trip.md` → Notes ("A Marseille day, start to finish" and "Food in Marseille"), and each Marseille day's Meals now names a place or a plan.
+- **The finding that shapes the week:** *formules du midi* (the cheap set lunches, ~€20–26 seen) are **weekday lunch only, not weekends or public holidays** *(lacotedeboeuf.net, leroyrene.fr, onfoodandfrance 2025-03)*. Four Marseille days (May 16, 17, 22, 23) have none, so those days lean on pizza, brasseries and the apartment.
+- **Sunday shopping:** Monoprix Canebière closes 12:45 on Sundays, Monop' Général de Gaulle stays open to 19:50, and Noailles market is shut Sundays *(monoprix.fr; marseille-tourisme.com)*. Hence the first grocery run is the Saturday arrival night.
+- Unverified and flagged in the plan: Chez Étienne, Chez Sauveur and Chez Jeannot hours; boulangerie prices (one secondary guide); whether Le Four des Navettes opens on Whit Monday.

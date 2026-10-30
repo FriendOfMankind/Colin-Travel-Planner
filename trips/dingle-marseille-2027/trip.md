@@ -262,7 +262,7 @@ overnight:
 **Meals**
 - B: family, early
 - L: Dublin Airport
-- D: late, Marseille
+- D: late, Marseille. **First shop tonight at Monop' on Place Général de Gaulle** (open to 22:50, Sundays to 19:50), since tomorrow is Sunday and the market is shut. Breakfast, water and snacks for the trail
 
 #### Warnings
 
@@ -288,9 +288,9 @@ overnight:
 - evening · walk · Vieux-Port. · 📍 Vieux-Port Marseille
 
 **Meals**
-- B: apartment
-- L: Le Panier or Mucem
-- D: Vieux-Port
+- B: apartment (last night's shop)
+- L: **pizza in Le Panier**. Chez Étienne is the classic *(marseille-tourisme.com)*; Sunday hours not checked. No *formule* today: weekend
+- D: Vieux-Port. A brasserie on the quai serves all day (Brasserie Le Soleil, 8:00–23:00, budget €16–20, *PagesJaunes via Mappy, 2026-10-30*)
 
 ### Day 8 — 2027-05-17 · Notre-Dame de la Garde and the Corniche
 
@@ -313,8 +313,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: picnic or Vallon des Auffes
-- D: open, holiday hours
+- L: picnic from the morning walk, plus **navettes from Le Four des Navettes** (136 rue Sainte, on the way up; €13.50 for 12, *fourdesnavettes.com*). Holiday: check it's open
+- D: **Chez Jeannot**, pizza on the Vallon des Auffes, if Monday dinner is open (⚠️ hours seen on a sister site). No *formule*: public holiday
 
 ### Day 9 — 2027-05-18 · The Calanques from Luminy
 
@@ -338,8 +338,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: packed. Bring real water
-- D: apartment or nearby
+- L: packed. Bought the day before: boulangerie bread, cheese, ham, cooked or dried fruit. Bring real water
+- D: apartment, or takeaway pizza. **Market run on the way home: Noailles** (Mon–Sat, mornings are best)
 
 #### Warnings
 
@@ -367,8 +367,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: packed, on the trail
-- D: Marseille
+- L: packed, on the trail. Swim, then a harbour drink in Cassis
+- D: Marseille: a weekday, so restaurants are normal, but *formules* are lunch-only
 
 ### Day 11 — 2027-05-20 · Aix-en-Provence
 
@@ -391,8 +391,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: Aix
-- D: Marseille
+- L: **a weekday *formule du midi* in Aix**: the best value meal of the trip. ⚠️ Calissons are almond paste: try one first (`me/food.md`)
+- D: Marseille, light
 
 ### Day 12 — 2027-05-21 · Marseilleveyre from Callelongue
 
@@ -416,7 +416,7 @@ overnight:
 **Meals**
 - B: apartment
 - L: packed. Bring real water
-- D: apartment or nearby
+- D: **Chez Sauveur**, Noailles, wood-fired pizza for 70+ years *(marseille-tourisme.com)*. Hours not checked
 
 #### Warnings
 
@@ -443,8 +443,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: packed or on the islands
-- D: Vieux-Port
+- L: packed, or on the islands
+- D: **the one splurge, if we want it:** bouillabaisse at Chez Fonfon (€65, *TheFork, 2025-12*), or soupe de poissons anywhere for a fraction. Book ahead for a Saturday
 
 ### Day 14 — 2027-05-23 · Rest
 
@@ -465,8 +465,8 @@ overnight:
 
 **Meals**
 - B: apartment
-- L: open
-- D: last dinner
+- L: whatever's left in the fridge. Sunday: Monoprix on the Canebière closes at 12:45, Monop' Général de Gaulle at 19:50
+- D: last dinner, somewhere near the port
 
 ### Day 15 — 2027-05-24 · Home
 
@@ -536,6 +536,41 @@ No place on this trip has a verified coordinate. The handoff's map markers were 
 Before leaving: Kerry (Dingle peninsula to Killarney), Dublin Airport area, Marseille + the Calanques, Cassis, Aix.
 
 ## Notes
+
+### A Marseille day, start to finish
+
+How a normal day runs in Marseille, so the plan above makes sense. Sources are inline; the clock times are the city's habits, not a schedule.
+
+- **Morning (8–10).** The boulangerie is the breakfast, or the apartment's fridge. Do the big sight or the trailhead first: the Calanques get hot and crowded by midday.
+- **Lunch (12–2).** This is when value happens. On **weekdays** most restaurants offer a ***formule* or *menu du jour***: a set plate, sometimes with a starter or dessert. Examples seen: €19.90 (La Côte de Bœuf, *lacotedeboeuf.net*) and €26 with dessert (Le Roy René, *leroyrene.fr*). Both are **"lunch only, not weekends or public holidays"**, so none on Sun May 16, **Whit Monday May 17**, Sat May 22 or Sun May 23. On hike days lunch is packed.
+- **Afternoon (2–6).** The slow part. Back to the apartment, a swim, the harbour. Many small restaurants close their kitchens between lunch and dinner.
+- **Dinner (from 7:30).** Most French kitchens open at 7–7:30 and locals eat 8–9 *(misadventureswithandi.com, 2026-08)*. **For earlier food, look for a brasserie with *service continu*** (all-day service), which the quai brasseries have.
+- **At the table.** Ask for ***une carafe d'eau*: tap water, free by right**. Bottled costs extra. **Service is included (*service compris*)**: round up or leave a euro or two, nothing more expected *(french-waterways.com 2025-10; onfoodandfrance 2025-03)*. The bill doesn't come on its own: ask for it.
+- **Shops.** Monoprix on the Canebière: Mon–Sat 8:00–20:45, **Sun 9:00–12:45 only**. Monop' on Place Général de Gaulle: daily 8:30–22:50, Sun to 19:50 *(monoprix.fr, 2026-10-30)*. **The Noailles market (Marché des Capucins) is Mon–Sat, closed Sunday**; one guide says stalls pack up from ~12:30, the tourist board says 8:00–19:00 *(provence-guide.net; marseille-tourisme.com, updated 2026-03)*. Go in the morning.
+
+### Food in Marseille: staples and where the value is
+
+**The plan:** breakfast at the apartment, a packed lunch on the four hike days, a weekday *formule* when we're in town, and dinner out most nights from the cheap reliable categories below. One splurge at most.
+
+**The staples to buy** (Monop' or Monoprix for the basics, Noailles for the rest):
+- Boulangerie bread (a baguette, or a *fougasse*, the Provençal flatbread), and pastries for breakfast.
+- Cheese, ham, and a roast chicken (*poulet rôti*) for a cheap dinner in.
+- Cooked or dried fruit, roasted nuts. Fine for OAS (`me/food.md`). Raw fruit and raw vegetables are still an open question, which matters for a *pan bagnat* (the Niçoise sandwich is full of raw veg).
+- Tapenade (olive spread) for the bread.
+- Water bottles to refill for the Calanques. There's no water on those trails.
+
+**The cheap, consistent categories, best first:**
+1. **Wood-fired pizza.** It's Marseille's everyday food, not an Italian import: the tourist board's own list has Chez Étienne (Le Panier, "the mythical pizzeria"), Chez Sauveur (Noailles, 70+ years, the same oven), L'Eau à la Bouche, and Chez Zé for cuttlefish pizza *(marseille-tourisme.com)*. Prices weren't listed. Takeaway slices are a cheap lunch.
+2. **The weekday *formule du midi*.** ~€20–26 for a proper sit-down plate. The best value meal in France, but weekdays only (see above).
+3. **The boulangerie.** About €2–4 for breakfast and €6–8 for a sandwich lunch *(thingstodoinmarseille.com, 2026-07; a secondary guide, not checked against a shop)*.
+4. **Brasseries on the port.** All-day service, simple French plates, ~€16–20 budget at Brasserie Le Soleil (Quai des Belges) *(PagesJaunes via Mappy)*. Reviews call it fair for the location. Good for the late Saturday arrival and a rainy night.
+5. **Street snacks.** Panisses (chickpea fries) and chichi frégi (sugared chickpea doughnuts) at Chez Magali in L'Estaque: €3.50 a dozen panisses, €2.80 a chichi *(chezmagali.fr, 2026-10-30)*. L'Estaque is a shuttle boat from the Vieux-Port *(marseille-tourisme.com)*: the backup if wind cancels the Frioul ferry on May 22.
+
+**Noailles:** the cheapest food market in the centre *(provence-guide.net)*, with North African and Middle Eastern shops all round it. ⚠️ Spice ceiling is 1–2 of 5: ask for harissa on the side.
+
+**The splurge:** bouillabaisse is the Marseille dish, and it's expensive: €65 at Chez Fonfon, ~€77 a head average *(TheFork, 2025-12)*. Soupe de poissons, the fish soup it starts from, is the cheap way in. Rouille (the garlic sauce) can carry some heat: on the side.
+
+**Against the budget:** the model allows ~€52.50 a person a day for Marseille food. Apartment breakfasts, four packed lunches, a couple of *formules* and pizza dinners should come in well under that. The allowance holds even with the one splurge *(Claude's arithmetic from the figures above, not a tally of real receipts)*.
 
 ### The pitch page
 
