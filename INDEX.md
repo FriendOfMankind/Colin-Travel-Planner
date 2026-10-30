@@ -32,7 +32,9 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 4 open questions · 0/61 places located · log 43 entries · updated 2026-10-08
+- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–22, 2027 (target, unbooked) · 13 days · 4 open questions · 0/24 places located · log 2 entries · updated 2026-10-30
+  ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 5 open questions · 0/61 places located · log 44 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 15/31 places located · log 10 entries · updated 2026-10-29
   Solo out on I-90 (Badlands, the Bighorns, the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then seven…
@@ -86,8 +88,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   A country whose camping law already matches how he camps
 - **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
-- **Athens + Kerry (May, with a friend)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 12 days · 3 research notes · updated 2026-10-29
-  Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
+- **Athens + Kerry (May, the alternative)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 13 days · 3 research notes · updated 2026-10-30
+  The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10

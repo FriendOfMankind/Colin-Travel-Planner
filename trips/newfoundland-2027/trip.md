@@ -1281,6 +1281,14 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 ## Open questions
 
+### How many days later does the trip start?
+
+**Blocks:** Blackwoods (Dec 1 release), Days 1–11
+The May trip lands home **Sat May 22 at 22:02**, and Colin chose to move this trip rather than shorten that one *(stated 2026-10-30; see log)*. The friends' Jun 10 arrival and the Thu Jun 3 / Sat Jun 5 Belle Isle ferries are fixed, so the lost days come out of Days 1–11. Candidates, not decided:
+- **Leave Mon May 24 (1 turnaround day):** drop one Acadia day (the Day 4 bike day, or fold Cadillac into Day 3). Blackwoods becomes May 25–26.
+- **Leave Tue May 25 (2 turnaround days):** drop the Acadia bike day *and* tighten Fundy/Hopewell into one day, or cut Acadia to one night. Blackwoods becomes May 26 only.
+- Or keep May 23 and pack the Sienna before the May trip.
+
 ### Is the headcount for the friends' week known?
 
 **Blocks:** the hotel bookings and the open-jaw flights

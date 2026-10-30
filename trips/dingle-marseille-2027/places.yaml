@@ -1,0 +1,158 @@
+# Dingle & Marseille — every place, with its coordinate if one was verified.
+# verified:false with null lat/lng is the CORRECT answer for an unlocated place.
+# A coordinate needs a source. Never invent one.
+groups:
+  - group: Getting around Ireland
+    places:
+      - name: Dublin Airport
+        note: In May 11 08:45. Out May 15 15:45 (FR 4285). FlightLink drops here 13:00.
+        maps: Dublin Airport
+        verified: false
+        lat: null
+        lng: null
+      - name: Tralee Bus Station
+        note: May 11. Change from Dublin Coach 300 to Bus Éireann 275.
+        maps: Tralee Bus Station
+        verified: false
+        lat: null
+        lng: null
+      - name: Dingle Quay bus stop
+        note: May 11. Route 275 terminus.
+        maps: Dingle bus stop Strand Street
+        verified: false
+        lat: null
+        lng: null
+      - name: Killarney, Mission Road (FlightLink)
+        note: May 15, 09:00 departure (current timetable).
+        maps: Mission Road Killarney
+        verified: false
+        lat: null
+        lng: null
+      - name: Farranfore, opposite Aherns Pharmacy (FlightLink)
+        note: May 15, 09:15. Maybe the shorter family lift, depending on the address.
+        maps: Aherns Pharmacy Farranfore
+        verified: false
+        lat: null
+        lng: null
+      - name: Maldron Hotel Dublin Airport
+        note: Fallback for May 14 only. Free 24 h shuttle.
+        maps: Maldron Hotel Dublin Airport
+        verified: false
+        lat: null
+        lng: null
+  - group: Dingle peninsula
+    places:
+      - name: Dingle Harbour
+        note: Day 4.
+        maps: Dingle Harbour
+        verified: false
+        lat: null
+        lng: null
+      - name: Slea Head Drive
+        note: Day 3, needs a tour or driver.
+        maps: Slea Head Drive
+        verified: false
+        lat: null
+        lng: null
+      - name: Dunbeg Fort
+        note: Day 3, optional.
+        maps: Dunbeg Promontory Fort
+        verified: false
+        lat: null
+        lng: null
+      - name: Gallarus Oratory
+        note: Day 3, optional.
+        maps: Gallarus Oratory
+        verified: false
+        lat: null
+        lng: null
+      - name: South Pole Inn
+        note: Day 5, optional. Tom Crean's pub, Annascaul.
+        maps: South Pole Inn Annascaul
+        verified: false
+        lat: null
+        lng: null
+  - group: Marseille
+    places:
+      - name: Gare Saint-Charles
+        note: A1 airport shuttle terminus.
+        maps: Gare Saint-Charles Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Le Panier
+        note: Day 7.
+        maps: Le Panier Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Mucem and Fort Saint-Jean
+        note: Day 7. Closed Tuesdays.
+        maps: Mucem Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Notre-Dame de la Garde
+        note: Day 8, morning. 07:00–18:00 (2026).
+        maps: Notre-Dame de la Garde
+        verified: false
+        lat: null
+        lng: null
+      - name: Vallon des Auffes
+        note: Day 8.
+        maps: Vallon des Auffes
+        verified: false
+        lat: null
+        lng: null
+      - name: Frioul ferry (Vieux-Port)
+        note: Day 12, optional. Wind-dependent.
+        maps: Frioul If Express Vieux-Port
+        verified: false
+        lat: null
+        lng: null
+  - group: Calanques, Cassis, Aix
+    places:
+      - name: Luminy
+        note: Day 9 trailhead side.
+        maps: Luminy Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Belvédère de Sugiton
+        note: Day 9, the default turnaround.
+        maps: Belvédère de Sugiton
+        verified: false
+        lat: null
+        lng: null
+      - name: Gare de Cassis
+        note: Day 10. Above town; bus 371 down.
+        maps: Gare de Cassis
+        verified: false
+        lat: null
+        lng: null
+      - name: Gare d'Aix-en-Provence Centre
+        note: Day 11. Not Aix TGV.
+        maps: Gare d'Aix-en-Provence
+        verified: false
+        lat: null
+        lng: null
+  - group: Marseille apartments (shortlist, none booked)
+    places:
+      - name: Staycity Aparthotels Centre Vieux Port
+        note: Best balance so far. 24 h desk.
+        maps: Staycity Aparthotels Marseille Centre Vieux Port
+        verified: false
+        lat: null
+        lng: null
+      - name: Residhotel Vieux Port
+        note: Desk closed 22:30 (2026).
+        maps: Residhotel Vieux Port Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Residhotel Le Grand Prado
+        note: Cheapest; near Périer metro.
+        maps: Residhotel Le Grand Prado Marseille
+        verified: false
+        lat: null
+        lng: null

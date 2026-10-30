@@ -553,3 +553,9 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - **Cadillac Summit Road at sunset goes back in, on Day 4 (May 26)**, and Seal Cove keeps Day 3 *(Colin, 2026-10-29)*. Cadillac had been swapped out on 2026-10-04 ("find something quieter"). The crowd rule changed on 2026-10-29 (`me/travel-style.md`): an icon is worth its crowd when the trip also has empty places, and this one has plenty.
 - 📋 **The summit road needs a vehicle reservation** May 20 – Oct 25 (2026): $6, non-refundable, a 30-minute entry window, with the road closing to vehicles at 9 PM. 30% of slots release 90 days ahead and 70% two days ahead, both at 10 AM ET. Walking or biking up needs no reservation *(nps.gov/acad vehicle reservations, recreation.gov timed-entry 400000, npca.org; snippets, 2026-10-29)*. The 2027 rules aren't posted.
 - Added to `booking:` as `acadia-cadillac` (90-day lead) so the briefing and the calendar alarms pick it up.
+
+## 2026-10-30 · Decided: the start moves later, for the May trip
+
+- **The May trip now lands home Sat May 22 at 22:02** (`trips/dingle-marseille-2027/`), the night before this trip's May 23 start. Colin chose to **shift Newfoundland** rather than shorten Europe *(stated 2026-10-30)*. How far isn't decided; the options are in `trip.md` under Open questions.
+- What pins the shift: the friends land in Gander on **Jun 10**, and the Belle Isle ferry days (**Thu Jun 3** over, **Sat Jun 5** back) are weekday-fixed. So any days lost at the start have to come out of Days 1–11, before the Strait *(Claude's reasoning, 2026-10-30)*.
+- **Time-sensitive:** Blackwoods (May 24–26) releases **Dec 1**. Decide the new start before then, or book the old nights and change them later.

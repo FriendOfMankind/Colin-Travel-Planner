@@ -1,48 +1,46 @@
 ---
 slug: ireland-may-2027
-title: Athens + Kerry (May, with a friend)
-subtitle: Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland
+title: Athens + Kerry (May, the alternative)
+subtitle: The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora
 status: wishlist
 months: [ 5 ]
 mode: fly
 horizon: confirmed
-days: 12
-nights: "~10–11 (1 on the plane out, Kerry 3, Greece 7, Athens as the base plus 2 nights away)"
-window: Sun May 9 – Thu May 20, 2027. Commencement is Sat May 8 and Newfoundland leaves Sun May 23 (`me/calendar.md`, `trips/newfoundland-2027/trip.md`)
+days: 13
+nights: "12 if re-fitted to the trip dates (1 plane, Dingle 4, Greece 7)"
+window: "Mon May 10 – Sat May 22, 2027, the same dates as `trips/dingle-marseille-2027` (was May 9–20). Commencement is Sat May 8, and Newfoundland is moving later (`trips/newfoundland-2027/log.md`)"
 region: Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion
 country: Ireland, Greece
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, ruins, coast, free lodging ]
-updated: 2026-10-29
+updated: 2026-10-30
 source: daydream 2026-10-12 and 2026-10-29 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my inference)
 ---
 
-# Athens + Kerry (May, with a friend)
+# Athens + Kerry (May, the alternative)
 
-*Three nights with a friend's family in Kerry, then a week of Athens and the mainland beyond it, squeezed between Commencement and Newfoundland*
+*The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora*
 
 ## Start here (handoff for a new chat)
 
-**What's settled:**
-- A friend is committed to Europe in May. **A transatlantic flight is paid** by his family *(stated 2026-10-29)*. Whose seat that covers isn't recorded (see open question 1).
-- He's out of school **May 1**, so he does his Kerry family visit first and Colin joins at the end of it *(stated 2026-10-29)*.
-- **Kerry: 3 nights, May 10–13** (was: 2, and 4 before that) *(stated 2026-10-29: his friend can stay 3 nights, so Colin matches it)*. The friend is in Kerry from early May, and Colin overlaps with the last 3 nights *(stated 2026-10-29)*. **Then the friend comes to Greece with Colin.**
-- **Ireland first, Greece second** *(Colin agreed 2026-10-29)*. The friend is already in Kerry, so they leave together. It also avoids a Thursday Dublin → Cleveland flight that may not exist, lets Kerry absorb the worst of the jet lag (+5 h, then +2 more), and ends on Sounion.
-- **The city is Athens, and the point is to max it out** (was: Athens or Marseille, open) *(stated 2026-10-29: "I want to athensmaxx")*. That means **Athens as a base plus day trips and 1–2 overnights** for whatever is a must-do *(stated 2026-10-29)*.
-- **Home by Thu May 20** *(stated 2026-10-29)*. That leaves May 21–22 for Newfoundland, which leaves Sun May 23.
-- **Dublin: skip it.** Iceland on the way home: declined for May (reasons in the notes below).
+**The working plan moved to `trips/dingle-marseille-2027/`** *(2026-10-30)*. Colin: **"Marseille for now, I'm leaning that, but remember Athens, nothing is set"** *(stated 2026-10-30)*. This file is now **the Athens alternative**: keep it researched, don't delete it.
 
-**Still open (ask these first):**
-1. **Whose seat does the family's money cover?** If it's Colin's, the ticket is probably a Cleveland ↔ Dublin round trip, and that breaks the "fly home from Athens" plan below. If it's only the friend's, Colin books his own open-jaw: Cleveland → Dublin out, Athens → Cleveland home.
-2. **Where in Kerry?** The town decides whether Kerry Airport (Farranfore) works for the Dublin connection.
-3. **Delphi + Meteora as a 2-night car loop, or Delphi alone with 1 night?** My pick is the loop (reasons under "Greece").
-4. **Car or bus/train** for the overnights.
-5. **Turnaround:** home the evening of May 20, out May 23. Load the Sienna for Newfoundland *before* finals week, so those 2 days are laundry and groceries only.
+**What changed on 2026-10-30** (from a planning handoff built in another tool, then confirmed by Colin):
+- **City: Marseille, leaning** (was: Athens, "athensmaxx", 2026-10-29).
+- **Everyone flies from Cleveland together on May 10** *(stated 2026-10-30)* (was: the friend out of school May 1, already in Kerry, flight paid by his family). Two adults, maybe a third.
+- **Kerry: 4 nights in Dingle, May 11–14, with family** (was: 3 nights, May 10–13, a friend's family). Whose family is open; see the trip.
+- **Home May 22** (was: May 20). That hits Newfoundland's May 23 start, and **Colin chose to move Newfoundland** *(stated 2026-10-30)*.
+
+**If Athens comes back,** the version below needs re-fitting to those dates: Dingle May 11–14, so Greece is May 15–22 (7 nights), and the home flight is from Athens on Sat May 22. The Kerry → Dublin → Athens routing below assumed a Thursday and a friend already in Kerry.
+
+**Still open for the Athens version:**
+1. **Delphi + Meteora as a 2-night car loop, or Delphi alone with 1 night?** My pick is the loop (reasons under "Greece").
+2. **Car or bus/train** for the overnights.
 
 ## Why
 
 The friend and a free bed make Kerry cheap, and 3 nights there is enough variety. The money and the days go to Greece. What Greece adds is heat, the oldest ruins Colin can reach, and a real city to walk *(Claude's reasoning, 2026-10-29)*. **Meteora is the most Colin-shaped thing in reach:** sandstone towers that raise "why does this look like this?", with trails between the monasteries and a sunset viewpoint (`me/travel-style.md`) *(Claude's reasoning, 2026-10-29)*.
 
-## The route (draft, ⚠️ every flight time is from the 2026 schedules, so check 2027 before booking)
+## The route as drafted for May 9–20 (⚠️ superseded dates; re-fit before using. Flight times are 2026 schedules)
 
 | When | What |
 |---|---|
