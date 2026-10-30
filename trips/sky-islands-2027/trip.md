@@ -250,7 +250,7 @@ overnight:
 **Schedule**
 - 6:30 AM · sunrise · Sunrise. First light 6:11 AM.
 - 6:00 → 6:35 (35m) · drive! · → Slavin Gulch trailhead, east side of the Dragoons. ⚠️ **The approach is a forest road and its condition is not verified.** Turn around if it stops being something a low air dam can take — the hike is not worth the oil pan.
-- 6:45 → 10:15 (3h 30m) · hike · **Slavin Gulch to Slavin's Mine.** ✅ AllTrails: **6.9 mi, 1,407 ft, Moderate, out-and-back.** Ends at the timbers and tailings of an abandoned mine wedged in the canyon. Ruins as scenery, and almost nobody walks it. · 📍 Slavin Gulch Trailhead Dragoon Mountains
+- 6:45 → 10:15 (3h 30m) · hike · **Slavin Gulch to Slavin's Mine.** ✅ AllTrails: **6.9 mi, 1,440 ft, Moderate, out-and-back.** Ends at the timbers and tailings of an abandoned mine wedged in the canyon. Ruins as scenery, and almost nobody walks it. · 📍 Slavin Gulch Trailhead Dragoon Mountains
 - 10:15 → 11:00 (45m) · stop · Sit at the mine workings before turning around.
 - 12:00 → 1:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Fill water and top up groceries at **Willcox** if the detour north makes sense; otherwise this is the last chance before Portal. · 📍 Chiricahua National Monument Visitor Center
 - 1:05 → 2:00 (55m) · stop · Check in at Bonita Canyon and pitch. **No entrance fee** — the monument eliminated it.
@@ -572,7 +572,7 @@ Every figure below is AllTrails, looked up 2026-09-06. Total on foot as schedule
 | --- | --- | --- | --- | --- | --- | --- |
 | Wasson Peak via King Canyon, Hugh Norris + Gould Mine | 2 | 7.8 mi loop | 1,853 ft | Moderate | ~5 hr | Saguaro West. Ridge walk out, copper mine on the descent. Small trailhead lot on a Saturday — dawn start is not optional. |
 | Rockfellow Dome Trail | 3 | 2.0 mi RT | 1,108 ft | Hard | ~2 hr | Steep for its length — 1,100 ft in a mile. Dragoon granite. Little shade; short enough that it doesn't matter. |
-| Slavin Gulch to Slavin's Mine | 4 | 6.9 mi RT | 1,407 ft | Moderate | ~3.5 hr | ⚠️ Approach road condition unverified — decide the turnaround at the road. Ends at mine timbers and tailings in the canyon. |
+| Slavin Gulch to Slavin's Mine | 4 | 6.9 mi RT | 1,440 ft | Moderate | ~3.5 hr | ⚠️ Approach road condition unverified — decide the turnaround at the road. Ends at mine timbers and tailings in the canyon. |
 | Sugarloaf Mountain | 4 | 1.9 mi RT | 492 ft | Moderate | ~1 hr | The orientation hike. Everything you walk on days 5–6 is visible from the top. |
 | Echo Canyon Loop | 5 | 3.4 mi loop | 561 ft | Moderate | ~1.5–2 hr | The grottoes: rhyolite columns closing overhead. Smallest, most contested lot in the monument — be there at 6:30. |
 | Heart of Rocks Loop from the Visitor Center | 6 | 6.9 mi loop | 1,597 ft | Moderate | ~5–6 hr | Biggest day. Starts at camp — no driving. No water on the loop. Upper section holds shade ice into March. Turnaround 10:00 AM for the spur. |

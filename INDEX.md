@@ -27,7 +27,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 26/26 places located · log 6 entries · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 26/26 places located · log 7 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines

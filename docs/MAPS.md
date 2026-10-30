@@ -62,6 +62,7 @@ Re-run it whenever pins or beds change; days that didn't change come out the sam
 | The site's **Map tab** | Coastline, every day's line and pin, drawn in the page: works offline and inside the claude.ai page. Tap a day, line or pin to zoom to that day and get its card (miles, driving, bed, stops, Day plan link, Google Maps route). |
 | `site/maps/<slug>.kepler.json` | The animated map. Drag onto kepler.gl/demo on a computer. |
 | `site/maps/<slug>.geojson`, `-trip.geojson`, `all*.geojson` | Raw data for Felt, geojson.io or Kepler by hand. |
+| `site/packs/<slug>.gpx` (`node tools/pack.mjs <slug>`, not run by build) | The field copy: every verified pin plus one track per day that has a road line, named "Day N · title". Import into Organic Maps for routes with no signal. Straight pin-to-pin lines are left out. |
 
 **Check before calling it done:**
 - `npm test`: coordinates and routes have sources, Kepler files bind, the coastline keeps its islands.

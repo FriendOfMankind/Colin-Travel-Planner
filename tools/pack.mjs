@@ -7,7 +7,8 @@
 
    The HTML is the whole trip.md rendered as one plain page, plus a places
    table. The GPX holds only verified places, so Organic Maps (or any GPX
-   app) shows real pins and nothing guessed. Upload both to Google Drive and
+   app) shows real pins and nothing guessed, plus one track per day that
+   routes.yaml gives a sourced road line (straight pin-to-pin lines stay out). Upload both to Google Drive and
    mark them "available offline". Nothing here invents content. */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -17,18 +18,28 @@ import { createRequire } from "node:module";
 import YAML from "yaml";
 import { marked } from "marked";
 import { splitFrontmatter } from "./lib/format.mjs";
+import { loadRoutes } from "./geojson.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const xml = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 
-/** places.yaml groups → GPX text with one waypoint per verified place. */
-export function toGpx(name, groups) {
+/** "### Day N — date · Title" headings → Map(day → title). */
+export function dayTitles(body) {
+  return new Map([...body.matchAll(/^###\s+Day\s+(\d+)\s+—\s+[\d-]+\s+·\s+(.+)$/gm)].map((m) => [Number(m[1]), m[2].trim()]));
+}
+
+/** places.yaml groups (+ loadRoutes' Map) → GPX text: a waypoint per verified place, a track per routed day. */
+export function toGpx(name, groups, routes = new Map(), titles = new Map()) {
   const pts = groups.flatMap((g) => g.places.filter((p) => p.verified && p.lat != null && p.lng != null).map((p) => ({ ...p, group: g.group })));
   return [
     `<?xml version="1.0" encoding="UTF-8"?>`,
     `<gpx version="1.1" creator="colin-travel-planner" xmlns="http://www.topografix.com/GPX/1/1">`,
     `<metadata><name>${xml(name)}</name></metadata>`,
     ...pts.map((p) => `<wpt lat="${p.lat}" lon="${p.lng}"><name>${xml(p.name)}</name><desc>${xml([p.group, p.days ? `Day ${p.days}` : "", p.wpNote ?? ""].filter(Boolean).join(" · "))}</desc></wpt>`),
+    ...[...routes].sort(([a], [b]) => a - b).map(([day, r]) => [
+      `<trk><name>${xml([`Day ${day}`, titles.get(day)].filter(Boolean).join(" · "))}</name><desc>${xml(r.source)}</desc><trkseg>`,
+      ...r.line.map(([lng, lat]) => `<trkpt lat="${lat}" lon="${lng}"/>`),
+      `</trkseg></trk>`].join("\n")),
     `</gpx>`, "",
   ].join("\n");
 }
@@ -57,9 +68,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const dir = join(ROOT, "site", "packs"); mkdirSync(dir, { recursive: true });
   const html = join(dir, `${slug}.html`), gpx = join(dir, `${slug}.gpx`);
   writeFileSync(html, packHtml(data.title, body, groups));
-  writeFileSync(gpx, toGpx(data.title, groups));
+  const routes = loadRoutes(slug);
+  writeFileSync(gpx, toGpx(data.title, groups, routes, dayTitles(body)));
   const n = (readFileSync(gpx, "utf8").match(/<wpt /g) ?? []).length;
-  console.log(`wrote ${html}\nwrote ${gpx} (${n} verified pins)`);
+  console.log(`wrote ${html}\nwrote ${gpx} (${n} verified pins, ${routes.size} road lines)`);
   if (process.argv.includes("--pdf")) {
     // Playwright is preinstalled globally in Claude's sandbox, not a dependency here.
     const { chromium } = createRequire(import.meta.url)("playwright");
