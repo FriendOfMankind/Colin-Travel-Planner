@@ -1,0 +1,283 @@
+<title>Pin Ledger</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a surveyor's field ledger. One column of places, grouped by trip, sticky tally on top. */
+:root {
+  --bg: #f2f5f1; --surface: #ffffff; --ink: #17201b; --muted: #5b6a61; --line: #d5ddd6;
+  --accent: #1d6a86; --accent-ink: #ffffff; --ok: #2c7a4b; --ok-bg: #e3f1e8; --warn: #9a6212; --warn-bg: #fbf0dc; --skip: #6b7280;
+  --display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1411; --surface: #172019; --ink: #e5ece7; --muted: #98a79e; --line: #2a362f;
+  --accent: #62b6d4; --accent-ink: #08161c; --ok: #63c58d; --ok-bg: #16301f; --warn: #e3ac52; --warn-bg: #33270f; --skip: #8b95a1; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1411; --surface: #172019; --ink: #e5ece7; --muted: #98a79e; --line: #2a362f;
+  --accent: #62b6d4; --accent-ink: #08161c; --ok: #63c58d; --ok-bg: #16301f; --warn: #e3ac52; --warn-bg: #33270f; --skip: #8b95a1; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font: 16px/1.45 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--bg); }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--bg); border-bottom: 1px solid var(--line); }
+header .wrap { padding-block: 12px 10px; display: grid; gap: 8px; }
+h1 { font: 700 1.6rem/1 var(--display); letter-spacing: .01em; margin: 0; text-wrap: balance; }
+.tally { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.count { font: 500 .95rem var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); }
+.count b { color: var(--ink); font-weight: 500; }
+.bar { height: 6px; background: var(--line); border-radius: 3px; overflow: hidden; }
+.bar i { display: block; height: 100%; width: 0; background: var(--ok); transition: width .3s; }
+.chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.chip { flex: none; font: 500 .85rem var(--body); padding: 5px 11px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.chip span { font-family: var(--mono); font-size: .78rem; opacity: .75; margin-left: 4px; }
+.opts { display: flex; gap: 14px; align-items: center; font-size: .9rem; color: var(--muted); }
+.opts label { display: flex; gap: 6px; align-items: center; cursor: pointer; }
+
+main .wrap { padding-block: 14px 64px; display: grid; gap: 22px; }
+details.how { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 14px; }
+details.how summary { font-weight: 600; cursor: pointer; }
+details.how ol { margin: 8px 0 4px; padding-left: 20px; display: grid; gap: 4px; }
+code, .mono { font-family: var(--mono); font-size: .88em; }
+
+section.trip h2 { font: 700 1.25rem/1.1 var(--display); margin: 0 0 2px; text-transform: uppercase; letter-spacing: .04em; }
+section.trip .sub { color: var(--muted); font-size: .88rem; margin-bottom: 10px; }
+h3.grp { font: 600 .78rem var(--body); text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 14px 0 6px; }
+.list { display: grid; gap: 8px; }
+
+.row { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; display: grid; gap: 8px; }
+.row.placed { border-color: color-mix(in srgb, var(--ok) 45%, var(--line)); }
+.row.skip { opacity: .6; }
+.top { display: flex; gap: 8px; align-items: baseline; justify-content: space-between; }
+.name { font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
+.days { flex: none; font: 500 .75rem var(--mono); color: var(--muted); }
+.note { font-size: .85rem; color: var(--muted); overflow-wrap: anywhere; }
+.act { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+a.find { font-weight: 600; font-size: .9rem; color: var(--accent); text-decoration: none; padding: 6px 0; }
+a.find:hover { text-decoration: underline; }
+.paste { flex: 1 1 220px; min-width: 0; font: 15px var(--mono); padding: 9px 10px; border-radius: 6px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); }
+.paste:focus-visible, button:focus-visible, a:focus-visible, .chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+button.btn { font: 600 .88rem var(--body); padding: 8px 12px; border-radius: 6px; border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); cursor: pointer; }
+button.ghost { background: transparent; color: var(--muted); border-color: var(--line); }
+.msg { font-size: .85rem; padding: 6px 9px; border-radius: 6px; }
+.msg.warn { background: var(--warn-bg); color: var(--warn); }
+.msg.err { background: var(--warn-bg); color: var(--warn); }
+.saved { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; font-size: .88rem; }
+.pill { font: 600 .72rem var(--body); text-transform: uppercase; letter-spacing: .06em; padding: 3px 8px; border-radius: 999px; background: var(--ok-bg); color: var(--ok); }
+.pill.skip { background: var(--line); color: var(--skip); }
+.pill.warn { background: var(--warn-bg); color: var(--warn); }
+.saved .mono { font-variant-numeric: tabular-nums; }
+.saved .who { color: var(--muted); }
+.empty { color: var(--muted); padding: 24px 0; }
+@media (prefers-reduced-motion: reduce) { .bar i { transition: none; } }
+</style>
+
+<header><div class="wrap">
+  <div class="tally"><h1>Pin Ledger</h1><div class="count" id="count">loading…</div></div>
+  <div class="bar"><i id="bar"></i></div>
+  <div class="chips" id="chips" role="toolbar" aria-label="Trips"></div>
+  <div class="opts"><label><input type="checkbox" id="hideDone" checked> Hide placed</label></div>
+</div></header>
+
+<main><div class="wrap">
+  <details class="how" id="how" open>
+    <summary>How to place one (about 30 seconds)</summary>
+    <ol>
+      <li>Tap <b>Find in Maps</b>. Check it's the right spot: the trailhead lot, not the summit; the campground entrance, not the town. Satellite view helps.</li>
+      <li>Long-press the exact spot. Tap the coordinates that appear to copy them.</li>
+      <li>Paste here. Clean coordinates save on paste. Anything you type after them, like <code>(the lot)</code>, is kept as a note.</li>
+    </ol>
+    A Google Maps link with <code>!3d…!4d…</code> in it works too. Short share links (<code>maps.app.goo.gl</code>) don't, because the page can't open them. If it isn't one spot (a whole harbour, a road), tap <b>Not a pin</b>.
+  </details>
+  <div id="list"><p class="empty">Loading your places…</p></div>
+</div></main>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const state = { trips: {}, places: new Map(), filter: "all", hideDone: true };
+const rows = new Map();
+let db = null;
+try { const f = localStorage.getItem("pl-filter"); if (f) state.filter = f; const h = localStorage.getItem("pl-hide"); if (h) state.hideDone = h === "1"; } catch {}
+$("#hideDone").checked = state.hideDone;
+try { if (localStorage.getItem("pl-how") === "0") $("#how").open = false; } catch {}
+$("#how").addEventListener("toggle", () => { try { localStorage.setItem("pl-how", $("#how").open ? "1" : "0"); } catch {} });
+
+/* ---- parsing: whatever Colin pastes → {lat, lng, kind, note} or {error} ---- */
+const num = (s) => Number(String(s).replace(",", "."));
+function parse(raw) {
+  const s = raw.trim();
+  if (!s) return null;
+  if (/maps\.app\.goo\.gl|goo\.gl\/maps/.test(s)) return { error: "Short share links can't be opened from this page. Long-press the spot in Maps and copy the numbers instead." };
+  let m, kind = "pin", rest = s;
+  if ((m = /!3d(-?\d+\.\d+)!4d(-?\d+\.\d+)/.exec(s))) return check(num(m[1]), num(m[2]), "pin", "");
+  if ((m = /[?&](?:q|query|ll|destination)=(-?\d+\.\d+)(?:,|%2C)\s*(-?\d+\.\d+)/i.exec(s))) return check(num(m[1]), num(m[2]), "pin", "");
+  if ((m = /(\d{1,3})°\s*(\d{1,2})['′]\s*([\d.]+)["″]?\s*([NS])[\s,]+(\d{1,3})°\s*(\d{1,2})['′]\s*([\d.]+)["″]?\s*([EW])/i.exec(s))) {
+    const d = (a, b, c, h) => (Number(a) + Number(b) / 60 + Number(c) / 3600) * (/[SW]/i.test(h) ? -1 : 1);
+    return check(+d(m[1], m[2], m[3], m[4]).toFixed(6), +d(m[5], m[6], m[7], m[8]).toFixed(6), "pin", s.replace(m[0], ""));
+  }
+  if ((m = /@(-?\d+\.\d+),(-?\d+\.\d+)/.exec(s))) return check(num(m[1]), num(m[2]), "center", "");
+  if ((m = /(-?\d{1,2}\.\d+)\s*[,;\s]\s*(-?\d{1,3}\.\d+)/.exec(s))) return check(num(m[1]), num(m[2]), "pin", s.replace(m[0], ""));
+  return { error: "No coordinates found. Expected something like 38.0466, -81.0835." };
+}
+function check(lat, lng, kind, rest) {
+  if (!(Math.abs(lat) <= 90 && Math.abs(lng) <= 180)) return { error: "Those numbers aren't a place on Earth. Latitude comes first." };
+  const note = rest.replace(/^[\s,;:()\-–—]+|[\s,;:)]+$/g, "").replace(/^\(|\)$/g, "").trim();
+  const dec = Math.min(dp(lat), dp(lng));
+  return { lat, lng, kind, note, dec };
+}
+const dp = (x) => (String(x).split(".")[1] || "").length;
+function km(a, b) {
+  const r = Math.PI / 180, dLat = (b[0] - a[0]) * r, dLng = (b[1] - a[1]) * r;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin(dLng / 2) ** 2;
+  return Math.round(12742 * Math.asin(Math.sqrt(h)));
+}
+function warnings(p, place) {
+  const w = [];
+  const t = state.trips[place.trip];
+  if (t?.center) {
+    const d = km(t.center, [p.lat, p.lng]);
+    if (d > (t.ringKm || 800)) w.push(`${d.toLocaleString()} km from the trip area. Swapped numbers or the wrong place?`);
+  }
+  if (p.kind === "center") w.push("That's where the map was centered, not a dropped pin, so it may be off. Long-press for an exact spot.");
+  if (p.dec < 4) w.push(`Only ${p.dec} decimal places, so it could be up to ${p.dec <= 2 ? "1 km" : "100 m"} off.`);
+  return w;
+}
+
+/* ---- rows ---- */
+const mapsUrl = (q) => "https://www.google.com/maps/search/?api=1&query=" + encodeURIComponent(q);
+function rowEl(id) {
+  let el = rows.get(id);
+  if (el) return el;
+  el = document.createElement("div");
+  el.className = "row";
+  el.innerHTML = `<div class="top"><div class="name"></div><div class="days"></div></div><div class="note"></div><div class="body"></div>`;
+  rows.set(id, el);
+  return el;
+}
+function paintRow(id) {
+  const p = state.places.get(id), el = rowEl(id);
+  if (el._doc === p) return el;
+  el._doc = p;
+  el.className = "row " + (p.status || "open");
+  $(".name", el).textContent = p.name;
+  $(".days", el).textContent = p.days ? `day ${p.days}` : "";
+  $(".note", el).textContent = p.note || "";
+  $(".note", el).hidden = !p.note;
+  const body = $(".body", el);
+  body.replaceChildren();
+  if (p.status === "placed" || p.status === "skip") {
+    const s = document.createElement("div"); s.className = "saved";
+    const pill = document.createElement("span");
+    if (p.status === "skip") { pill.className = "pill skip"; pill.textContent = "Not a pin"; s.append(pill); }
+    else {
+      pill.className = p.warn ? "pill warn" : "pill"; pill.textContent = p.warn ? "Placed, check" : "Placed";
+      const c = document.createElement("span"); c.className = "mono"; c.textContent = `${p.lat}, ${p.lng}`;
+      s.append(pill, c);
+      if (p.pinNote) { const n = document.createElement("span"); n.className = "who"; n.textContent = p.pinNote; s.append(n); }
+    }
+    const undo = document.createElement("button"); undo.className = "btn ghost"; undo.textContent = "Redo";
+    undo.onclick = () => write(id, { status: "open", lat: null, lng: null, raw: null, pinNote: null, kind: null, warn: null, at: null }, undo);
+    s.append(undo);
+    body.append(s);
+    if (p.status === "placed" && p.warn) { const m = document.createElement("div"); m.className = "msg warn"; m.textContent = p.warn; body.append(m); }
+    return el;
+  }
+  const act = document.createElement("div"); act.className = "act";
+  const a = document.createElement("a"); a.className = "find"; a.href = mapsUrl(p.maps); a.target = "_blank"; a.rel = "noopener"; a.textContent = "Find in Maps ↗";
+  const skip = document.createElement("button"); skip.className = "btn ghost"; skip.textContent = "Not a pin";
+  skip.onclick = () => write(id, { status: "skip", at: new Date().toISOString() }, skip);
+  act.append(a, skip);
+  const row2 = document.createElement("div"); row2.className = "act";
+  const inp = document.createElement("input"); inp.className = "paste"; inp.id = "in-" + id; inp.type = "text"; inp.inputMode = "text";
+  inp.placeholder = "Paste coordinates"; inp.autocomplete = "off"; inp.setAttribute("aria-label", `Coordinates for ${p.name}`);
+  const save = document.createElement("button"); save.className = "btn"; save.textContent = "Save";
+  const msg = document.createElement("div"); msg.className = "msg"; msg.hidden = true;
+  row2.append(inp, save);
+  body.append(act, row2, msg);
+  const attempt = (force) => {
+    const r = parse(inp.value);
+    msg.hidden = true;
+    if (!r) return;
+    if (r.error) { msg.className = "msg err"; msg.textContent = r.error; msg.hidden = false; return; }
+    const w = warnings(r, p);
+    if (w.length && !force) {
+      msg.className = "msg warn"; msg.textContent = `${r.lat}, ${r.lng}. ${w.join(" ")} Tap Save to keep it anyway.`; msg.hidden = false;
+      save.onclick = () => attempt(true);
+      return;
+    }
+    write(id, { status: "placed", lat: r.lat, lng: r.lng, kind: r.kind, raw: inp.value.trim().slice(0, 300), pinNote: r.note || null, warn: w.join(" ") || null, at: new Date().toISOString() }, save);
+  };
+  save.onclick = () => attempt(false);
+  inp.addEventListener("paste", () => setTimeout(() => attempt(false), 0));
+  inp.addEventListener("keydown", (e) => { if (e.key === "Enter") attempt(false); });
+  inp.addEventListener("input", () => { msg.hidden = true; save.onclick = () => attempt(false); });
+  return el;
+}
+async function write(id, patch, btn) {
+  if (!db) return;
+  btn.disabled = true;
+  try { await db.doc("places/" + id).update(patch); }
+  catch (e) {
+    btn.disabled = false;
+    const el = rows.get(id), m = el && $(".msg", el);
+    if (m) { m.className = "msg err"; m.hidden = false; m.textContent = e?.code === "invalid_argument" ? "This list is read-only for you. Only the sheet's owner can save." : "Couldn't save. Check your signal and try again."; }
+  }
+}
+
+/* ---- layout ---- */
+function tripOrder() { return Object.entries(state.trips).sort((a, b) => String(a[1].order).localeCompare(String(b[1].order))).map(([k]) => k); }
+function render() {
+  const all = [...state.places.values()];
+  const done = all.filter((p) => p.status === "placed" || p.status === "skip").length;
+  $("#count").innerHTML = `<b>${done}</b> / ${all.length} done`;
+  $("#bar").style.width = all.length ? (100 * done / all.length) + "%" : "0";
+  const order = tripOrder();
+  const left = (t) => all.filter((p) => (t === "all" || p.trip === t) && !(p.status === "placed" || p.status === "skip")).length;
+  const chips = $("#chips"); chips.replaceChildren();
+  for (const t of ["all", ...order]) {
+    const b = document.createElement("button"); b.className = "chip"; b.setAttribute("aria-pressed", String(state.filter === t));
+    b.textContent = t === "all" ? "All" : (state.trips[t]?.title || t);
+    const n = document.createElement("span"); n.textContent = left(t); b.append(n);
+    b.onclick = () => { state.filter = t; try { localStorage.setItem("pl-filter", t); } catch {} render(); };
+    chips.append(b);
+  }
+  const list = $("#list");
+  const frag = document.createDocumentFragment();
+  let shown = 0;
+  for (const t of order) {
+    if (state.filter !== "all" && state.filter !== t) continue;
+    const ps = all.filter((p) => p.trip === t).sort((a, b) => a.order - b.order);
+    const vis = ps.filter((p) => !state.hideDone || !(p.status === "placed" || p.status === "skip"));
+    if (!vis.length) continue;
+    const sec = document.createElement("section"); sec.className = "trip";
+    const h = document.createElement("h2"); h.textContent = state.trips[t]?.title || t;
+    const sub = document.createElement("div"); sub.className = "sub";
+    sub.textContent = `${left(t)} left of ${ps.length}${state.trips[t]?.done ? " · trip done, for the record" : ""}`;
+    sec.append(h, sub);
+    let grp = null, box = null;
+    for (const p of vis) {
+      if (p.group !== grp) { grp = p.group; const g = document.createElement("h3"); g.className = "grp"; g.textContent = grp; box = document.createElement("div"); box.className = "list"; sec.append(g, box); }
+      box.append(paintRow(p.id)); shown++;
+    }
+    frag.append(sec);
+  }
+  if (!shown) { const e = document.createElement("p"); e.className = "empty"; e.textContent = all.length ? "Nothing left here. Tell Claude “pins are in” and it'll write them into the trip files." : "No places in the list yet."; frag.append(e); }
+  const focused = document.activeElement?.id;
+  list.replaceChildren(frag);
+  if (focused) document.getElementById(focused)?.focus();
+}
+$("#hideDone").onchange = (e) => { state.hideDone = e.target.checked; try { localStorage.setItem("pl-hide", state.hideDone ? "1" : "0"); } catch {} render(); };
+
+(async () => {
+  db = await window.claude?.use?.("db").catch(() => null) ?? null;
+  if (!db) { $("#list").innerHTML = `<p class="empty">The list lives in this page's saved data, which loads only in claude.ai while you're signed in.</p>`; $("#count").textContent = ""; return; }
+  db.collection("trips").onSnapshot((qs) => { state.trips = Object.fromEntries(qs.docs.map((d) => [d.id, d.data()])); render(); }, () => {});
+  db.collection("places").limit(1000).onSnapshot((qs) => {
+    for (const d of qs.docs) { const prev = state.places.get(d.id); const v = d.data(); if (!prev || prev._src !== v) state.places.set(d.id, { ...v, id: d.id, _src: v }); }
+    render();
+  }, () => { $("#list").innerHTML = `<p class="empty">Lost the connection to the saved list. Reload the page.</p>`; });
+})();
+</script>
