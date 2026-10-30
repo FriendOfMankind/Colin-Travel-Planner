@@ -126,6 +126,24 @@ groups:
         verified: false
         lat: null
         lng: null
+      - name: Killarney Bus Station
+        note: Local Link 276 to/from Dingle, daily: May 11 18:00 in, May 15 07:10 out.
+        maps: Killarney Bus Station
+        verified: false
+        lat: null
+        lng: null
+      - name: Dunquin Blasket Centre
+        note: Day 3, Local Link 277a stop.
+        maps: Blasket Centre Dunquin
+        verified: false
+        lat: null
+        lng: null
+      - name: The Fish Box
+        note: Day 4 lunch. Seafood takeaway.
+        maps: The Fish Box Dingle
+        verified: false
+        lat: null
+        lng: null
       - name: South Pole Inn
         note: Day 5, optional. Tom Crean's pub, Annascaul.
         maps: South Pole Inn Annascaul
@@ -253,6 +271,24 @@ groups:
       - name: Carrières de Bibémus
         note: Guided only (FR, €18); not on a day yet. No bus.
         maps: Carrières de Bibémus
+        verified: false
+        lat: null
+        lng: null
+      - name: Place des Moulins
+        note: Day 7, Le Panier.
+        maps: Place des Moulins Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Hôtel de Cabre
+        note: Day 7, oldest house (1535), outside only.
+        maps: Hôtel de Cabre Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Piscine Maritime des Auffes
+        note: Day 8, rock pool under the bridge.
+        maps: Piscine Maritime des Auffes
         verified: false
         lat: null
         lng: null

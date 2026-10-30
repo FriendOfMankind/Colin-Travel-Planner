@@ -146,21 +146,21 @@ overnight:
 
 **Schedule**
 - 08:45 · travel · Land in Dublin. Immigration, bags, breakfast.
-- 11:00 → ~14:45 · travel! · **FlightLink 722 Dublin Airport → Farranfore**, direct from the airport, no change at Red Cow. €39 online *(flightlink.ie fares, 2026-10)*. Airport departures 06:00, 09:00, **11:00**, 13:00, 15:00 *(flightlink.ie service updates, 2026)*. ⚠️ The arrival time is inferred: southbound it's Killarney 09:00 → airport 13:00, and Farranfore is 15 min before Killarney · 📍 Aherns Pharmacy Farranfore
-- ~15:00 · travel · **Farranfore → Tralee**: a family lift, or the train or Bus Éireann 271 (times not checked). If the family can collect at Farranfore, the rest of this day disappears · 📍 Tralee Bus Station
-- 16:15 → 17:24 · travel · **Bus Éireann 275 Tralee → Dingle**. Later buses 18:00 → 19:00, 19:30 → 20:26, and the **last at 22:00 → 22:54** *(NTA timetable via bustimes.org, Oct 2026)* · 📍 Dingle bus stop Strand Street
+- 11:00 → ~15:00 · travel! · **FlightLink 722 Dublin Airport → Killarney** (or get off at Farranfore), direct, no change at Red Cow. €39 online *(flightlink.ie fares, 2026-10)*. Airport departures 06:00, 09:00, **11:00**, 13:00, 15:00 *(flightlink.ie service updates, 2026)*. ⚠️ Arrival time inferred: southbound it's Killarney 09:00 → airport 13:00 · 📍 Mission Road Killarney
+- 18:00 → 19:30 · travel · **Local Link 276 Killarney Bus Station → Dingle**, via Inch Beach and Annascaul. **Daily, no booking needed.** Other departures 09:00 and 14:35 *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*. The ~3 h in Killarney is town time, or the family collects you instead · 📍 Killarney Bus Station
+- option · travel · **Faster, with one unknown leg:** off at Farranfore, then on to Tralee (family lift, or train or bus 271, times not checked), then **Bus Éireann 275** 16:15 → 17:24. Later 275s run 18:00 → 19:00, 19:30 → 20:26, and the last 22:00 → 22:54 *(NTA via bustimes.org, Oct 2026)*
 - optional · stop · **Blennerville Windmill** is a stop on the 275, just outside Tralee: Ireland's largest working windmill, on Tralee Bay *(Meta AI results pasted by Colin, citing LoveTralee on Facebook, 2026-09-09; the 275 stop list is from dingle-peninsula.ie)*. Only if the day has slack: next bus 18:00
 - fallback · travel · Dublin Coach 300 via a Red Cow change to Tralee, then the 275. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
 - evening · stop · Dingle. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Dingle Co. Kerry
 
 **Meals**
 - B: Dublin Airport
-- L: on the coach (it has toilets) or at Farranfore
+- L: on the coach (it has toilets) or in Killarney
 - D: with family
 
 #### Warnings
 
-**A late landing has slack now:** the 13:00 FlightLink still makes the 18:00 or 19:30 bus 275, and the last 275 leaves Tralee at 22:00. The one unknown leg is Farranfore → Tralee: ask the family whether they'd collect at Farranfore, which is the easiest fix on the whole trip.
+**A late landing has slack:** the 13:00 FlightLink still makes the 18:00 Local Link 276 from Killarney if it arrives by about 17:00 (inferred), and the Tralee route's last 275 leaves at 22:00. ⚠️ The FlightLink stop is Mission Road (or Rock Road during works); Local Link 276 leaves from Killarney Bus Station and also stops at Rock Road. Walking time between them isn't checked.
 
 ### Day 3 — 2027-05-12 · Slea Head
 
@@ -178,7 +178,12 @@ overnight:
 
 **Schedule**
 - morning · drive · **Slea Head loop**, ~3–4 h with stops. Needs a paid tour or a driver, **not priced**. If family wants to drive it, that's their call, not the plan. · 📍 Slea Head Drive
-- option · travel · **No-car alternative: TFI Local Link 277b**, Dingle → Ventry → Dunquin → Ballyferriter → Dingle ("Lower Slea Head"), and **268**, Dingle → Gallarus → Ballydavid loop *(locallinkkerry.ie; dingle-peninsula.ie)*. Local Link routes usually run only 1–3 days a week and some need pre-booking: 066 714 7002. Days and times for May not checked · 📍 Dingle Co. Kerry
+- option · travel · **The no-car Slea Head, on Local Link, daily** *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*:
+  - **277a out:** Dingle (Quay, opp SuperValu) 09:00 → Ventry 09:10 → Ballyferriter 09:27 → **Dunquin, Blasket Centre 09:34**. Back from Dunquin at 13:17, 14:34, 18:04 or 19:44; from Ballyferriter Museum at 13:30, 14:47, 18:17 or 19:57.
+  - **268** loops past **Gallarus Oratory**, outbound 12:44 and 17:44 (from Dingle 12:30 and 17:30), back in Dingle 13:23 and 18:23. **Kilmalkedar** is ~2 km from Gallarus on foot.
+  - **277b** ("Lower Slea Head") is a 1-hour loop with no stop-off: Dingle 10:35 or 15:40, back 11:35 or 16:40. A ride, not a visit.
+  - Pre-booking is only needed for door-to-door detours and the 277a 09:34 inbound and 12:40 outbound legs. Bookings 066 714 7002, bookings@locallinkkerry.ie
+  - A day that works: 277a 09:00 to Dunquin → pier and Blasket Centre → 13:20 back to Ballyferriter → An Riasc → 277a 18:17 home. Kilmalkedar and Gallarus go on the 268, on Day 5 or another afternoon · 📍 Dingle Co. Kerry
 - optional · stop · **Dunquin Pier**: a zig-zag path down 600 ft cliffs to the old Blasket ferry pier. A viewpoint, not a beach. Unguarded edges, so skip it in wind or swell. On the 277 route *(Meta AI results pasted by Colin, 2026-10-30, citing Instagram 2026-07-14, Facebook reel 2026-09-11)* · 📍 Dunquin Pier
 - optional · ruins · Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*. · 📍 Gallarus Oratory
 - optional · ruins · **Kilmalkedar**, 2 km from Gallarus: a roofless 12th-century Romanesque church with carved doorways, a medieval sundial (one of nine in Ireland) and the Alphabet Stone. Free, open ground *(dingle-peninsula.ie)* · 📍 Kilmalkedar Church
@@ -210,6 +215,7 @@ overnight:
 
 **Schedule**
 - morning · walk · Dingle town and the harbour on foot. · 📍 Dingle Harbour
+- lunch · food · **The Fish Box**: a family-run seafood bar and takeaway in a bright blue building next to T.N. Walsh chemist (fish and chips, fish tacos, chowder-style soup). Prices not found *(Meta AI results pasted by Colin, citing its own Facebook, 2026-06-30)* · 📍 The Fish Box Dingle
 - afternoon · hike · **Eask Tower**: an 1847 famine-era stone daymark 600 ft above the harbour mouth, 360° views to the Blaskets and Iveragh. About 4 km west of town, steep, 1.5–2 h return. A **WWII lookout post (No. 36)**, concrete and half-ruined, sits on the same hill *(Meta AI results pasted by Colin, 2026-10-30, citing Facebook reel 2026-08-15)*. ⚠️ Access and any farm fee not checked · 📍 Eask Tower Dingle
 - afternoon · stop · Family, or a genuinely easy afternoon.
 
@@ -234,7 +240,7 @@ overnight:
 
 **Schedule**
 - day · stop · Free. Rain swap for Slea Head. Pick one side of the peninsula:
-- option · ruins · **East, by bus 275 or Local Link 276:** **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
+- option · ruins · **East, by Local Link 276** (Dingle 11:45 → Annascaul 12:09 → Inch Beach 12:20; back from Inch Beach 15:30 or 18:55, Annascaul 15:41 or 19:06) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*: **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
 - option · hike · **North, by taxi:** **Brandon Creek**, the cove where St Brendan is said to have set out, and **Brandon Point** headland, with Brandon Bay views and a WWII lookout. Or **Glanteenassig Forest Park**, lake boardwalks under the Slieve Mish mountains. All of them need a car or taxi *(Meta AI results pasted by Colin, citing Instagram 2026-07-13, 2026-09-01, 2026-10-13 and 2026-10-15)* · 📍 Brandon Creek Kerry
 - evening · food · Farewell dinner with family.
 - night · note! · Pack completely. Tomorrow starts early, and the bus does not wait.
@@ -265,9 +271,11 @@ overnight:
 
 **Schedule**
 - TBD · drive · **Family lift** to Killarney (Mission Road stop) or Farranfore (opposite Aherns Pharmacy, 09:15). The leave time depends on the family's address, which isn't recorded. · 📍 Mission Road Killarney
+- option · travel! · **Without a lift: Local Link 276 Dingle 07:10 → Killarney Bus Station 08:40** (Rock Road 08:34) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*. That leaves **20 minutes** to reach the 09:00 FlightLink, and the next FlightLink (11:00) misses the flight. Too thin to rely on: if there's no lift, use the Dublin airport hotel fallback on Friday night
 - 09:00 → 13:00 (4h) · travel! · **FlightLink 722** Killarney → Dublin Airport, direct. €39 each at current fares. Departures every 2 h from Killarney (05:00, 07:00, **09:00**, 11:00…), Farranfore 15 min later *(flightlink.ie service updates, 2026)*. Book online: €39 vs €45 on board *(flightlink.ie fares)*. Not a dated May 2027 run. · 📍 Dublin Airport
 - 15:45 → 19:10 (2h 25m) · travel · **Ryanair FR 4285** DUB → MRS. Bags and seats extra.
 - evening (1h) · travel · **A1 shuttle** to the Saint-Charles bus station: every 10 min until 20:15, then every 20 min; ~25 min, up to 50 in traffic. €15, or **€7 for ages 12–25** (2026 prices) *(gares-et-connexions SNCF; marseille-tourisme.com)*. Then metro or walk to the apartment. · 📍 Gare Saint-Charles Marseille
+- note · note! · **Saint-Charles scam:** in Aug 2026 a visitor there was asked for coins, then led "to a pharmacy" down a side street and robbed of everything. **Don't follow anyone off the station forecourt.** Plainclothes police also watch for luggage thieves there *(Meta AI results pasted by Colin, citing @infos.marseille13, 2026-08-26)*
 - late · food · Whatever's open near the apartment.
 
 **Meals**
@@ -296,12 +304,13 @@ overnight:
 **Schedule**
 - early · walk · **The fish sellers on the Vieux-Port**, every morning: the best time for the harbour *(DW Travel, YouTube, 2025-07)* · 📍 Vieux-Port Marseille
 - morning · walk · **Le Panier** on foot, and its murals. · 📍 Le Panier Marseille
+- optional · walk · In Le Panier: **Place des Moulins**, the old windmill square, quieter than the main lanes, and the **Hôtel de Cabre**, Marseille's oldest surviving house (1535; it was turned on its foundations in 1954). Outside only *(Meta AI results pasted by Colin, citing @marseilletourisme on Instagram, 2026-10-01)* · 📍 Place des Moulins Marseille
 - late morning · ruins · **Mucem** (exhibitions €11) and **Fort Saint-Jean**; the fort and the **roof terrace are free** *(DW Travel, 2025-07)*. 2027 hours not checked. Mucem is normally closed Tuesdays, which is why it's today. · 📍 Mucem Marseille
 - evening · walk · Vieux-Port. · 📍 Vieux-Port Marseille
 
 **Meals**
 - B: apartment (last night's shop)
-- L: **pizza in Le Panier**. Chez Étienne is the classic *(marseille-tourisme.com)*; Sunday hours not checked. No *formule* today: weekend
+- L: **pizza in Le Panier at Chez Étienne**, 43 rue de Lorette *(marseille-tourisme.com)*. **Cash only, no reservations, expect a queue.** Order the *moitié-moitié*, half cheese and black olives, half tomato, anchovy and garlic. Some call it pricey *(Meta AI results pasted by Colin, citing @sortiramarseille 2026-08-08; @dounia_kmr_ 2025-04-01)*. Sunday hours not checked. No *formule* today: weekend
 - D: Vieux-Port. A brasserie on the quai serves all day (Brasserie Le Soleil, 8:00–23:00, budget €16–20, *PagesJaunes via Mappy, 2026-10-30*)
 
 ### Day 8 — 2027-05-17 · Notre-Dame de la Garde and the Corniche
@@ -322,6 +331,7 @@ overnight:
 - morning · hike · **Notre-Dame de la Garde**, on foot or bus 60. Sanctuary open 07:00–18:00 (2026), interior limited during services. Go in the morning; the grounds close before sunset. · 📍 Notre-Dame de la Garde
 - afternoon · walk · Down to **Vallon des Auffes**, then along the **Corniche Kennedy**. · 📍 Vallon des Auffes
 - optional · walk · **Malmousque**, just past Vallon des Auffes: a fishing village inside the city, with lanes like "Traverse de la Fausse Monnaie" that end at tiny coves. Locals swim off the rocks here, and the water is clearer than at the city beaches. The rocks are slippery and sharp *(marseilletourisme.fr; Broadsheet, 2026-05)* · 📍 Anse de la Fausse Monnaie Marseille
+- optional · swim · **The sea pool under the Vallon des Auffes bridge** (Piscine Maritime des Auffes): rock swimming with no lifeguard *(Meta AI results pasted by Colin, citing Instagram, 2026-09-17)* · 📍 Piscine Maritime des Auffes
 - evening · sunset · Corniche sunset, if the light's good. Time not computed yet.
 
 **Meals**
@@ -435,7 +445,7 @@ overnight:
 **Meals**
 - B: apartment
 - L: packed. Bring real water
-- D: **Chez Sauveur**, Noailles, wood-fired pizza for 70+ years *(marseille-tourisme.com)*. Hours not checked
+- D: **Chez Sauveur**, Noailles, wood-fired pizza since 1943 *(marseille-tourisme.com; the pizzeria's own Instagram, 2026-09-10, via Meta AI)*. Hours, cards and booking not checked
 
 #### Warnings
 

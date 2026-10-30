@@ -132,3 +132,25 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - Day 2: Blennerville Windmill. Day 3: Dunquin Pier. Day 4: Eask Tower and WWII Lookout Post 36. Day 5: east (Minard, which is private, so view only; Inch; South Pole Inn) or north (Brandon Creek, Brandon Point, Glanteenassig, all by car).
 - Day 12: Baie des Singes at Cap Croisette. Day 13: Hôpital Caroline is **outside only**; the AI and the official restoration status agree. The Marché des Capucins was already in the plan.
 - **What the AI said it couldn't find, and I'm not adding:** a safe, legal abandoned interior in Marseille; Cours Julien staircases; Pomègues forts as a separate stop. La Friche la Belle de Mai was named as an unsourced alternative and isn't added.
+
+## 2026-10-30 · Meta AI round 2 (one big prompt), plus the Local Link timetable
+
+**✅ Local Link Kerry, Dingle page, read on the page** *(locallinkkerry.ie/dingle)*. **All four routes run Monday–Sunday**, with reduced legs on Sundays and bank holidays.
+- **276** Killarney Bus Station → Dingle 09:00, 14:35, 18:00 (arriving 10:30, 16:05, 19:30); Dingle → Killarney 07:10, 11:45, 16:15 (arriving 08:40, 13:15, 17:45). Stops at Inch Beach and Annascaul. "You do not need to book this bus service."
+- **277a** Dingle → Dunquin 07:30, 09:00, 12:40, 14:00, 17:30, 19:10; back from the Blasket Centre 08:04, 09:34, 13:17, 14:34, 18:04, 19:44. Pre-booking only for detours and the DRT legs (09:34 in, 12:40 out).
+- **277b** Lower Slea Head loop, Dingle 10:35 and 15:40, an hour round.
+- **268** Gallarus loop: Dingle 12:30 and 17:30 outbound (Gallarus Oratory 12:44, 17:44), plus 07:45, 09:15, 14:05, 15:45 the other way round.
+- Bookings 066 714 7002, bookings@locallinkkerry.ie.
+
+**Applied:**
+- Day 2 is now **FlightLink 11:00 → Killarney, then 276 at 18:00 → Dingle 19:30**: no unknown leg. Farranfore → Tralee → 275 stays as the faster option. Was Farranfore, then a family lift or the 271, then the 275.
+- Day 3 has a full Local Link Slea Head plan. Day 5's east option has the 276 times.
+- Day 6 has the 276 07:10 → Killarney 08:40 option, flagged as too thin (20 min to the 09:00 FlightLink).
+
+**Meta AI, citing posts I can't open (📋)**
+- Chez Étienne: 43 rue de Lorette, cash only, no reservations, queues, the *moitié-moitié*, "pricey" (@sortiramarseille 2026-08-08; @dounia_kmr_ 2025-04-01). Chez Sauveur: founded 1943 (its own post, 2026-09-10).
+- ⚠️ **Probable mix-up:** Meta AI called Chez Jeannot "a temple of bouillabaisse, founded 1949 by Jean Mounier". The Mounier family's own site says Chez **Fonfon** is the bouillabaisse house and Chez **Jeannot** is the pizza *(chez-fonfon.com)*. The plan keeps Jeannot as the pizza place.
+- Saint-Charles: a 2026-08-26 alert about a "milk for my baby, follow me to the pharmacy" robbery, and a 2014 documentary clip on luggage thieves (re-posted 2026, so not current evidence).
+- Gems: Place des Moulins and the Hôtel de Cabre (@marseilletourisme 2026-10-01), the Piscine Maritime des Auffes (2026-09-17), The Fish Box in Dingle (2026-06-30). Out of the Blue won Seafood Restaurant of the Year 2026 (Georgina Campbell); not added, since it isn't a value pick.
+- Meta AI caught a bad source itself: a 2025-04-18 "Sugiton" reel actually shows Cala Goloritzé in Sardinia. Not used.
+- **Nothing found:** the three aparthotels, Whit Monday at Le Four des Navettes (its website doesn't list holiday hours either), Slea Head tour prices, and the Saturday-morning airport run.
