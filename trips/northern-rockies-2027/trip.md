@@ -56,9 +56,9 @@ booking:
     target: 2027-07-23
     note: One of the three Glacier campgrounds that go the day the window opens. All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
   - system: recreation.gov
-    what: Apgar / Avalanche, Glacier NP (Jul 27–29)
+    what: Avalanche (first choice) or Apgar, Glacier NP (Jul 27–29)
     target: 2027-07-27
-    note: Second competitive Glacier booking — do both halves in the same January sitting.
+    note: Second competitive Glacier booking — do both halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
   - system: private
     what: Hood River motel, Jul 31 – Aug 4 (Colin alone Jul 31, the group from Aug 1)
     target: 2027-07-31
@@ -152,13 +152,13 @@ type: travel
 driving: 640 mi, 11h 04m (routed 9h 37m +15%)
 slack: None needed. Nothing happens today except distance.
 overnight:
-  name: TBD — Des Moines area
+  name: TBD — cheap motel, Des Moines area
   place: Iowa
-  kind: Transit night — not identified
-  cost: ~$35 est.
+  kind: Motel (which one not picked)
+  cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Not identified. A state park, a KOA or a cheap motel off I-80.
+  notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
 ```
 
 **Schedule**
@@ -729,20 +729,20 @@ type: travel + activity
 driving: ~60 mi, ~2h 30m over Going-to-the-Sun
 slack: ~2 hours.
 overnight:
-  name: Apgar or Avalanche Campground
+  name: Avalanche Campground
   place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
   checkin: 🚨 Same mid-January booking as Many Glacier
   confirmation: TBD
-  notes: ⚠️ **Second competitive Glacier booking.** Apgar and Avalanche both go the day their window opens. Book both halves of the Glacier stay in the same January sitting. ⭐ **Apgar is the first realistic shower since leaving home sixteen days ago**, now that the Custer State Park stop is cut.
+  notes: "⚠️ **Second competitive Glacier booking.** Avalanche is the first choice, Apgar the backup *(Colin, 2026-10-30)*. Avalanche Lake starts at the campground and The Loop is closer for the Highline morning. Both go the day their window opens; book both halves of the Glacier stay in the same January sitting. Showers at either: not verified."
 ```
 
 **Schedule**
 - 5:53 AM · sunrise · Sunrise. Break camp slowly.
 - 8:00 AM (2h 30m) · drive! · → west side over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so mid-July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM** — pass through today, walk it tomorrow. · 📍 Logan Pass Visitor Center Glacier
 - 1:00 PM (2h 30m) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Busy, and worth it anyway. · 📍 Avalanche Lake Trailhead Glacier
-- afternoon (1h) · stop · Camp. **Shower.** Sixteen days.
+- afternoon (1h) · stop · Camp. The trail you just walked starts here.
 - 9:27 PM · sunset · Sunset. Dark 9:57 PM.
 
 **Meals**
@@ -767,7 +767,7 @@ type: activity
 driving: ~35 mi plus the shuttle (⚠️ unrouted)
 slack: ~1 hour.
 overnight:
-  name: Apgar / Avalanche
+  name: Avalanche Campground
   place: Glacier NP — west side
   kind: National park campground
   cost: ~$23/night est.
@@ -807,7 +807,7 @@ type: rest
 driving: ~70 mi if the falls happen
 slack: This day IS the slack. ⭐ SOFT DAY 2 OF 2.
 overnight:
-  name: Apgar / Avalanche
+  name: Avalanche Campground
   place: Glacier NP — west side
   kind: National park campground
   cost: ~$23/night est.
@@ -845,18 +845,18 @@ type: travel
 driving: ⚠️ unrouted, roughly half of Glacier → the Gorge
 slack: Large. Nothing is booked until tomorrow night.
 overnight:
-  name: TBD — Spokane / Coeur d'Alene area
-  place: TBD
-  kind: Transit night — not identified
+  name: TBD — Wallace / Kellogg, Idaho area
+  place: Silver Valley, ID
+  kind: Not picked (camp or motel)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "⚠️ Transit night 1 of 5 on the way west and home. Camp or motel, Colin's call; solve with the other transit nights."
+  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked."
 ```
 
 **Schedule**
-- morning · drive · → west out of Glacier toward I-90. ⚠️ The Glacier → Hood River total is unrouted; split it so tomorrow is short.
-- optional · stop · **Route of the Hiawatha** (bucket item): 15 mi downhill through 10 tunnels and 7 trestles, I-90 exit 5 at Taft MT, season May 22 – Sept 20 in 2026, rentals include lights (research notes in `log.md`, 2026-10). ⚠️ Fees and timing not checked. Only if the day has room.
+- morning · drive · → west out of Glacier toward I-90 and the Idaho line. ⚠️ Unrouted. Tomorrow (Day 20) is a reset day with nothing booked, so a long drive then is fine.
+- afternoon · ride · **Route of the Hiawatha** (bucket item, planned 2026-10-30): 15 mi downhill through 10 tunnels and 7 trestles, I-90 exit 5 at Taft MT, season May 22 – Sept 20 in 2026, rentals include lights (research notes in `log.md`, 2026-10). ⚠️ Fees, hours, shuttle times and whether to reserve not checked · 📍 Route of the Hiawatha East Portal Trailhead
 
 **Meals**
 - B: made at camp
@@ -1473,7 +1473,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Showers and laundry — worse after the recut
 
-- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** Apgar on Day 16 is now the first realistic shower in sixteen days.
+- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7) or Great Falls (Day 12).
 - [ ] Plan one laundry stop in Great Falls on Day 12, or wear it.
 - [ ] This is the clearest cost of the 21-day version and it is worth knowing before departure rather than discovering on day nine.
 
@@ -1482,7 +1482,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Slough Creek, Yellowstone, Jul 21** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it. The campground road is 2 mi of dirt (recreation.gov, snippet).
 - [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Slough Creek and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
 - [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
-- [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] 🚨 **Glacier — Avalanche first, Apgar backup, Jul 27–29** — same system, same January sitting. Both equally competitive.
 - [ ] **Vedauwoo, Jul 13** — recreation.gov, mix of reservable and first-come sites. Free designated dispersed sites behind it as the fallback.
 - [ ] **Brooklyn Lake, Jul 14** — recreation.gov, mix of reservable and first-come. ⚠️ Confirm it is open by Jul 14 (the FS page says both "mid-July" and "7/04").
 - [ ] **Bighorns — West Tensleep, Jul 15–17** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch.
@@ -1517,7 +1517,7 @@ The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then
 ### Sixteen days to the first shower — is that actually acceptable?
 
 **Blocks:** Nothing structural, but it is the other real cost of the recut
-Custer State Park was the trip's only mid-route shower and it went with the front end. **Apgar on Day 16 is now the first one.** Options if that is too long: a paid shower in Cody (Day 7) or Great Falls (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
+Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Great Falls (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
 
 ### Is Crazy Woman Canyon Road drivable in a car with 5.9 in of clearance and a low air dam?
 
@@ -1565,7 +1565,7 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 **Three real costs, none hidden:**
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
 • **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. *(Restored 2026-10-30 by the Snowy Range swap: Vedauwoo 8,300 ft, then Brooklyn Lake 10,500 ft, then the Bighorns. See log.)*
-• **Sixteen days to the first shower.** Custer State Park was the only mid-route one. Apgar on Day 16 is now it. Cheap to solve with a paid shower in Cody or Great Falls; easy to forget until day nine.
+• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve with a paid shower in Cody or Great Falls; easy to forget until day nine.
 
 ### Three hikes are over the ceiling, on purpose, with bail-outs
 

@@ -60,14 +60,13 @@ groups:
         lng: -109.967035
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Slavin Gulch Trailhead
-        note: Day 3. ⚠️ Approach road unverified. Mine ruins at the end.
+        note: CUT 2026-10-30 (was Day 3). ~20 mi of dirt on Middlemarch Road from the west, 4WD from the east. Pin kept.
         maps: Slavin Gulch Trailhead Dragoon Mountains
         verified: true
         lat: 31.878774
         lng: -110.02652
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛏️
-        days: "3"
         wpNote: Approach road condition unverified. Mine ruins at the turnaround.
       - name: Sunsites / Benson
         note: ⚠️ Last water and fuel before the Stronghold. There is nothing at the campground.

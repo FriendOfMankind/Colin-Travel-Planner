@@ -50,7 +50,7 @@ page:
   dates: Saturday, March 6 – Sunday, March 14, 2027
   emoji: 🌵
   theme: desert
-  vehicle: "Rental from Tucson, **an SUV or minivan**: three people, three sets of camp gear and water for the no-water nights won't fit in a sedan. Standard clearance is fine for the loop. Two trailhead approaches are the open question rather than the highways: Slavin Gulch and the Cochise Stronghold spur. **Every driver under 25 pays the young-driver surcharge** unless AAA waives it; check before the counter."
+  vehicle: "Rental from Tucson, **an SUV or minivan**: three people, three sets of camp gear and water for the no-water nights won't fit in a sedan. Standard clearance is fine for the loop. Two approaches are the open question rather than the highways: the Cochise Stronghold spur and Herb Martyr's road. **Every driver under 25 pays the young-driver surcharge** unless AAA waives it; check before the counter."
   gettingThere: "CLE → TUS round trip, Sat Mar 6 out, Sun Mar 14 back. Colin's fare check on 2026-10-27: **$350–500 round trip**. Each person books their own. Land early enough on the 6th to provision and pitch before dark."
   footerNote: "Outline as of Oct 27 2026: rewritten from the solo 11-day plan for three people over 9 days. Bonita had all three nights open on Oct 27; nothing is booked yet. Still unverified: the per-site group limit, two campground fees, two approach roads, and the rental price. [← All trips](../../index.html)"
   stats:
@@ -187,14 +187,14 @@ overnight:
 
 **No drinking water at this campground, at all, ever.** You need everything for the night plus tomorrow's hike in the car before you leave Sunsites, for three. Eleven sites, first-come, on a spring-break Sunday — have the fallback decided before you turn off the highway, not at the campground entrance.
 
-### Day 3 — 2027-03-08 · Slavin's Mine, Then the Hoodoos
+### Day 3 — 2027-03-08 · The Stronghold on Foot, Then the Hoodoos
 
 ```yaml
 date: 2027-03-08
-tagline: A canyon full of mining wreckage in the morning, a reserved site by dark.
+tagline: Into the Dragoons from the tent in the morning, a reserved site by dark.
 type: activity + drive
-driving: ~1h 40m total
-slack: About 90 minutes. Slavin Gulch is the cut if the approach road turns out to be worse than expected.
+driving: ~1h 05m
+slack: About two hours. The turnaround time is the dial.
 overnight:
   name: Bonita Canyon Campground
   place: Chiricahua National Monument
@@ -207,21 +207,20 @@ overnight:
 
 **Schedule**
 - 6:30 AM · sunrise · Sunrise. First light 6:11 AM.
-- 6:00 → 6:35 (35m) · drive! · → Slavin Gulch trailhead. ⚠️ **The 35 minutes is likely far too short, and the road may not suit a rental.** The usual trailhead is the *west* access, reached by Middlemarch Road, "20-plus miles of dirt and rocks" *(AllTrails review, snippet, 2026-10-30)*; the east access is FR 345A, **4WD required** *(fs.usda.gov Slavin Gulch Trail #332, snippet, 2026-10-30)*. From Cochise Stronghold that likely means Middlemarch Road over the range. Not routed. If the road is out, Cochise Trail #279 from camp is the swap · 📍 Slavin Gulch Trailhead Dragoon Mountains
-- 6:45 → 10:15 (3h 30m) · hike · **Slavin Gulch to Slavin's Mine.** ✅ AllTrails: **6.9 mi, 1,440 ft, Moderate, out-and-back.** Ends at the timbers and tailings of an abandoned mine wedged in the canyon. Ruins as scenery, and almost nobody walks it. · 📍 Slavin Gulch Trailhead Dragoon Mountains
-- 10:15 → 11:00 (45m) · stop · Sit at the mine workings before turning around.
-- 12:00 → 1:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Fill water and top up groceries at **Willcox** if the detour north makes sense; otherwise this is the last chance before Portal. · 📍 Chiricahua National Monument Visitor Center
-- 1:05 → 2:00 (55m) · stop · Check in at Bonita Canyon and pitch. **No entrance fee** — the monument eliminated it.
+- 6:45 → 10:15 (3h 30m) · hike · **Cochise Trail #279, from camp.** ✅ AllTrails: **9.4 mi, 1,873 ft, Hard, out-and-back, ~4h 40m** for the whole thing. Today it's a shortened version: **turn around at 8:30 AM** wherever you are, so it's about the size of a normal morning. Dragoon granite the whole way, and no driving · 📍 Cochise Stronghold Campground Arizona
+- 10:15 → 11:00 (45m) · stop · Break camp.
+- 11:00 → 12:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Fill water and top up groceries at **Willcox** if the detour north makes sense; otherwise this is the last chance before Portal. · 📍 Chiricahua National Monument Visitor Center
+- 12:05 → 1:00 (55m) · stop · Check in at Bonita Canyon and pitch. **No entrance fee** — the monument eliminated it.
 - 2:30 → 3:40 (1h 10m) · hike · **Sugarloaf Mountain.** ✅ AllTrails: **1.9 mi, 492 ft, Moderate, out-and-back.** The highest point you can drive most of the way to, and the orientation hike for the next two days — everything you are going to walk is visible from the top. · 📍 Sugarloaf Mountain Trailhead Chiricahua
 - 6:25 PM · sunset · Sunset. Dark 6:44 PM. New moon, 0.3%.
 
 #### Highlights
 
-The clearest single day of the trip: a mine at the head of a canyon in the morning, and the hoodoo country laid out below you from Sugarloaf in the afternoon.
+The Dragoons on foot from the tent in the morning, and the hoodoo country laid out below you from Sugarloaf in the afternoon.
 
 #### Warnings
 
-**The Slavin Gulch approach road is unverified.** Decide the turnaround at the road, before committing. If it is out, Cochise Trail #279 (9.4 mi, 1,883 ft) leaves from the campground itself and needs no driving at all.
+**8:30 AM is the turnaround, not a suggestion.** The full trail is a ~4h 40m Hard out-and-back; the day only has room for about half of it before the move to Bonita.
 
 ### Day 4 — 2027-03-09 · Echo Canyon at First Light
 
@@ -450,7 +449,8 @@ Every figure below is AllTrails, looked up 2026-09-06. Total on foot as schedule
 | --- | --- | --- | --- | --- | --- | --- |
 | Signal Hill petroglyphs | 1 | ~0.5 mi RT | minimal | Easy | ~45 min | Arrival-day walk. |
 | Rockfellow Dome Trail | 2 | 2.0 mi RT | 1,108 ft | Hard | ~2 hr | Steep for its length — 1,100 ft in a mile. Dragoon granite. Little shade; short enough that it doesn't matter. |
-| Slavin Gulch to Slavin's Mine | 3 | 6.9 mi RT | 1,440 ft | Moderate | ~3.5 hr | ⚠️ Approach road condition unverified — decide the turnaround at the road. Ends at mine timbers and tailings in the canyon. |
+| Cochise Trail #279 (shortened) | 3 | 9.4 mi RT full | 1,873 ft full | Hard | ~3.5 hr as planned | From camp. Turn around at 8:30 AM. |
+| Slavin Gulch to Slavin's Mine — CUT |  | 6.9 mi RT | 1,440 ft | Moderate | ~3.5 hr | Cut 2026-10-30: ~20 mi of dirt on Middlemarch Road from the west, 4WD from the east, in a rental. |
 | Sugarloaf Mountain | 3 | 1.9 mi RT | 492 ft | Moderate | ~1 hr | The orientation hike. Everything you walk on days 4–5 is visible from the top. |
 | Echo Canyon Loop | 4 | 3.4 mi loop | 561 ft | Moderate | ~1.5–2 hr | The grottoes: rhyolite columns closing overhead. Smallest, most contested lot in the monument — be there at 6:30. |
 | Heart of Rocks Loop from the Visitor Center | 5 | 6.9 mi loop | 1,597 ft | Moderate | ~5–6 hr | Biggest day. Starts at camp — no driving. No water on the loop. Upper section holds shade ice into March. Turnaround 10:00 AM for the spur. |
@@ -519,7 +519,7 @@ Per `me/food.md` (2026-10-27): **no per-day menu.** Staples, bought in Tucson on
 ### Vehicle
 
 - [ ] Confirm the rental's spare is present and inflated — two trailhead approaches here are unpaved and unverified
-- [ ] Offline maps for the whole loop, plus GPX for Slavin Gulch and Herb Martyr, whose roads are the open questions
+- [ ] Offline maps for the whole loop, plus GPX for Herb Martyr, whose road is the open question
 
 ## Reservations & checks
 
@@ -528,7 +528,7 @@ Per `me/food.md` (2026-10-27): **no per-day menu.** Staples, bought in Tucson on
 - [ ] 3️⃣ **The friends book their flights**, CLE → TUS Sat Mar 6, back Sun Mar 14. Colin's check: $350–500. A booked flight is what makes a friend confirmed.
 - [ ] 4️⃣ **Rental SUV, 9 days from TUS**, once three flights exist. Free cancellation, re-check monthly. Every driver under 25: check AAA against the surcharge first.
 - [ ] ❌ **Not bookable at all: Cochise Stronghold (11 sites) and Sunny Flat / Stewart (~24 between them).** Both first-come. Arrive early, drive the loop once, take the first acceptable site.
-- [ ] ☎️ **Douglas Ranger District, (520) 364-3468.** Sunny Flat's fee, whether three tents fit a single site at Cochise and Sunny Flat, and whether the Slavin Gulch and Herb Martyr approach roads are passable.
+- [ ] ☎️ **Douglas Ranger District, (520) 364-3468.** Sunny Flat's fee, whether three tents fit a single site at Cochise and Sunny Flat, and whether the Herb Martyr approach road is passable.
 
 ## Open questions
 
@@ -547,10 +547,10 @@ The only figure found was an aggregator's "$8–40 per night", which is a range 
 **Blocks:** Days 4 and 5 — Echo Canyon and Massai Point both hang off it
 It is the paved park road so it is almost certainly fine, but no source consulted said so, and Rustler Park nine miles away is shut for the season. **Ask the visitor center on arrival Day 3, and have the fallback of starting Echo Canyon from the visitor center on foot.**
 
-### Are the Slavin Gulch and Herb Martyr approach roads passable?
+### Is the Herb Martyr approach road passable?
 
-**Blocks:** Day 3 morning and Day 7 Option B
-Named swaps are already written into both days — Cochise Trail #279 from the campground on Day 3, Greenhouse Trail to Winn Falls on Day 7 — so neither is a trip-breaker, but the decision belongs at the road. Douglas RD (520) 364-3468.
+**Blocks:** Day 7 Option B
+The named swap is already written in (Greenhouse Trail to Winn Falls), so it isn't a trip-breaker, but the decision belongs at the road. Douglas RD (520) 364-3468.
 
 ### What does the SUV cost, split three ways?
 
@@ -593,7 +593,7 @@ The Dragoons are the counterpoint and they are older by two orders of magnitude 
 
 ### Ruins, honestly
 
-`me/principles.md` 10 (sharpened 2026-10-27): **only truly abandoned ruins count**; stabilized, interpretive ones are drive-bys. By that test: **Slavin's Mine** (timbers and tailings at the head of a canyon, almost nobody walks it) is the real one, and the day to protect. **Fort Bowie** is adobe stubs inside a National Historic Site, likely the polished kind; not researched. **Bisbee** and **Tombstone** are towns, not ruins. **Gould Mine** went with Wasson Peak.
+`me/principles.md` 10 (sharpened 2026-10-27): **only truly abandoned ruins count**; stabilized, interpretive ones are drive-bys. By that test, the trip's one real ruin was **Slavin's Mine**, and it's cut: the road in is ~20 mi of dirt from the west and 4WD from the east, in a rental *(Colin, 2026-10-30)*. That leaves the trip without an explorable ruin. **Fort Bowie** is adobe stubs inside a National Historic Site, likely the polished kind; not researched. **Bisbee** and **Tombstone** are towns, not ruins. **Gould Mine** went with Wasson Peak.
 
 Cochise Stronghold is the odd one: a ruin with no structures. It is the natural fortress the Chiricahua Apache held for a decade, and Cochise is buried somewhere in it in a location that was deliberately never recorded.
 

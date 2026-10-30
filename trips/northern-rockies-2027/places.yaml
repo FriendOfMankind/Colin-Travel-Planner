@@ -469,6 +469,18 @@ groups:
         lat: 44.08205
         lng: -122.232221
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+      - name: Avalanche Campground
+        note: "Nights 16–18, first choice (Colin, 2026-10-30). Apgar is the backup."
+        maps: Avalanche Campground Glacier National Park
+        verified: false
+        lat: null
+        lng: null
+      - name: Route of the Hiawatha Trailhead
+        note: "Day 19 afternoon ride. Pin the east portal lot at I-90 exit 5, Taft MT, where the ride starts."
+        maps: Route of the Hiawatha East Portal Trailhead
+        verified: false
+        lat: null
+        lng: null
   - group: The drive home
     places:
       - name: Cottonwood Campground

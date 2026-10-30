@@ -141,3 +141,10 @@ The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the
 - 📋 **Two accesses.** West: Middlemarch Road from Tombstone, then forest roads; one AllTrails reviewer calls it "about 20-plus miles of dirt and rocks" *(alltrails.com Slavin Gulch, snippet, 2026-10-30)*; eBird and two blogs give the same Middlemarch directions *(snippets)*. East: "East trail access is from FR 345A (4WD required) off Middlemarch Road" *(fs.usda.gov/r03/coronado Slavin Gulch Trail #332, snippet, 2026-10-30)*.
 - So the pin west of the Dragoons (`places.yaml`, Colin, Sept 2026) matches the usual trailhead, and Day 3's "east side, 35m" doesn't. Day 3's drive line now says so. Not checked: how long Middlemarch Road actually takes from Cochise Stronghold, and whether a rental SUV is allowed on it (rental contracts often bar unpaved roads).
 - The map still holds Day 3 back: the router doesn't know Middlemarch Road, so it drove around the range.
+
+## 2026-10-30 · Decided: Slavin Gulch is cut
+
+- **Slavin Gulch is out** *(Colin, 2026-10-30)*. The road in is ~20 mi of dirt on Middlemarch Road from the west, or 4WD from the east (see the entry above), in a rental with three people. Day 3 is now **Cochise Trail #279 from camp**, with an 8:30 AM turnaround: ✅ AllTrails 9.4 mi, 1,873 ft, Hard, ~4h 40m for the whole trail *(AllTrails, 2026-10-30; the plan said 1,883 ft)*.
+- Old Day 3: Slavin Gulch to Slavin's Mine, 6.9 mi / 1,440 ft, 6:00 drive from Cochise Stronghold. Considered and not picked: moving it to Day 2 via Tombstone and Middlemarch Road, which would have meant reaching first-come Cochise mid-afternoon.
+- What it costs: the trip's only explorable ruin (`me/principles.md` 10). Fort Bowie, Bisbee and Tombstone are the polished kind.
+- Day 3's road line is no longer held back.

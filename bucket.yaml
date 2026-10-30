@@ -827,8 +827,9 @@ items:
     kind: other
     where: Lookout Pass, Idaho / Montana line
     state: ID
-    why: 15 mi of railbed, 10 dark tunnels, 7 trestles; shuttle back up. West of Glacier, not on its route
+    why: 15 mi of railbed, 10 dark tunnels, 7 trestles; shuttle back up. Planned for northern-rockies-2027 Day 19 (2026-10-30)
     status: want
+    trip: northern-rockies-2027
     months: [6, 7, 8, 9]
     source: ridethehiawatha.com (home and FAQ, search snippets, 2026-09-30)
     added: 2026-09-30

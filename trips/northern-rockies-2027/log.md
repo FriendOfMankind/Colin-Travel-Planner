@@ -295,3 +295,12 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - Five 📍s pointed at places that already existed under a slightly different search (Old Faithful, Logan Pass ×3, The Loop); they now use the place's own search. Slough Creek's bed name starts with "⚠️", which broke the match; the matcher now ignores a leading symbol.
 - Road lines drawn for the days that have them (13 of 33). West Tensleep Lake sits ~8.5 km past the first road pull; `roads.py` now pulls minor roads wider around a stop like that, and its days route all the way in.
 - Still lineless because a bed is undecided, not because of pins: Day 1 (Des Moines area), Days 16–18 (Apgar or Avalanche), Day 19 (Spokane / Coeur d'Alene), Days 30–33 (the drive home).
+
+## 2026-10-30 · Decided: Avalanche first, the Hiawatha on Day 19, a motel on night 1
+
+- **Glacier west side, nights 16–18: Avalanche first, Apgar as backup** *(Colin, 2026-10-30)*. Why: Avalanche Lake starts at the campground (Day 16) and The Loop is closer for the Highline's 4:45 AM start (Day 17). Old value: "Apgar or Avalanche". The 2026-10-15 entry's "last Glacier night (Apgar, Jul 29)" was never a decision.
+- **The "Apgar has the first shower" line had no source** and is gone. No shower on the route is verified before Hood River (Day 20); Cody (Day 7) and Great Falls (Day 12) are the paid-shower options in the plan.
+- **Day 19: the Route of the Hiawatha is planned, not optional** *(Colin, 2026-10-30)*, with the night near Wallace / Kellogg, Idaho (bed not picked). Old value: "TBD — Spokane / Coeur d'Alene area", Hiawatha "only if the day has room".
+- **Night 1: a cheap motel off I-80 near Des Moines** *(Colin, 2026-10-30)*. Old value: "a state park, a KOA or a cheap motel", ~$35 est.
+- **Nights 30–33 (the drive home) stay TBD on purpose**: two trips say the last days become a straight drive (`me/travel-style.md`), so they're booked from the road.
+- Avalanche Campground and the Hiawatha's trailhead were added to `places.yaml` and need pins. Bullhead Lake and Redrock Falls are one place, the Swiftcurrent trailhead *(Colin, 2026-10-30)*.
