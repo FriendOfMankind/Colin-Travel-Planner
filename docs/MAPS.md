@@ -28,25 +28,13 @@ Claude writes each one into that trip's `places.yaml` as `verified: true` with `
 
 Batches of 10–20 at a time are fine. Do the places on a day's route first, since those are what draw the lines.
 
-## 2. Road lines (optional, per day)
+## 2. Road lines
 
-Without this, a day's line runs straight from stop to stop. That's honest and fine for "where am I going", but it isn't the road. Every routing service (OSRM, Valhalla, OpenRouteService) is blocked from a session, tested 2026-10-30, so road geometry has to come from you:
+`python3 tools/roads.py <slug>` (after `node tools/build.mjs`) draws every day along real roads and writes `trips/<slug>/routes/day-N.gpx` plus `routes.yaml`. Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteService, Geofabrik, all tested 2026-10-30), but Overture Maps' road data on S3 is reachable. So the tool pulls the roads in the trip's box (major roads everywhere, every road within ~4 km of a stop), builds the network itself and finds the fastest path between each day's stops, ferries included. It takes about a minute per trip. Needs `pip install pyarrow shapely networkx numpy pyyaml`.
 
-1. On the site, open the day. Its **Directions** links are Google Maps routes already, camp to camp, through the day's stops.
-2. Open the link and drag the route if Google picked the wrong road.
-3. Paste the URL from the address bar into a Google-Maps-to-GPX converter: maptogpx.com, gpx2maps.com or mapstogpx.com (all free, no sign-up, found 2026-10-30; I haven't tested how accurate any of them is). Download the `.gpx`.
-4. Send it to Claude, or drop it into `trips/<slug>/routes/day-<N>.gpx`, and list it in `trips/<slug>/routes.yaml`:
+What it is and isn't: a plausible drawn route, not navigation. It ignores one-way streets, turn rules and closures, guesses speeds by road class, and draws the hop from a stop to its nearest road straight. A day whose bed the night before is still TBD starts from the previous day's last placed stop (`startGuessed` on the line). Home has no pin, so the drive out and the drive home aren't drawn.
 
-```yaml
-- day: 4
-  file: routes/day-4.gpx
-  source: Google Maps directions → maptogpx.com (Colin, 2026-11-02)
-- day: 7            # a long day split across two Google links
-  files: [routes/day-7a.gpx, routes/day-7b.gpx]
-  source: Google Maps directions → maptogpx.com (Colin, 2026-11-02)
-```
-
-A route with no `source` fails `npm test`, the same rule as coordinates.
+**To override one day** with a route you chose: open that day's Directions link on the site, drag Google's route where you want it, paste the URL into a Google-Maps-to-GPX converter (maptogpx.com, gpx2maps.com or mapstogpx.com), and replace that day's GPX. Change its `source` in `routes.yaml` to say so. A route with no `source` fails `npm test`.
 
 ## 3. Build and look
 
@@ -80,7 +68,7 @@ Drag in `<slug>.geojson`. Style the points and lines by `day` (categorical). Fil
 
 ## Honest limits
 
-- **The clock is fake.** Each day's stops are spread from 08:00 to 18:00 on that day's date, so the animation shows the *order and the day*, not when anything happens. Schedule times aren't parsed: too many are "morning" or "+45m".
+- **The clock is fake.** Each day plays from 01:00 to 23:00 on its date at constant speed along the line, so the animation shows order and distance, not when anything happens. Schedule times aren't parsed: too many are "morning" or "+45m".
 - **Only verified places are drawn.** A skipped stop is counted on its day's line (`skipped`), not guessed. A day with fewer than two placed stops has no line.
 - **Dingle–Marseille is buses and flights.** Its lines will be straight (bus routes don't come out of Google driving links), and that's the right shape for it.
 - **Camps appear once per day they touch**: as the night's stop, and again as the next morning's start. That's right for playback. In Felt, filter by day if they stack.

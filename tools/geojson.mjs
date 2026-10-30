@@ -19,8 +19,8 @@
    routes.yaml lists a GPX for that day, which is then the line
    (`shape: "road"`) and carries that entry's source.
 
-   The clock is fake. Stops are spread 08:00 → 18:00 on the day's date so
-   playback shows the order and the day, not when anything happens.
+   The clock is fake. Each day plays 01:00 → 23:00 on its date at constant
+   speed along the line, so playback shows order and distance, not time of day.
    Nothing here invents a place; it only reshapes verified ones. */
 
 import { readFileSync, writeFileSync, readdirSync, existsSync, mkdirSync } from "node:fs";
@@ -38,7 +38,13 @@ const has = (rel) => existsSync(join(ROOT, rel));
 const PALETTE = ["#e6194b", "#3cb44b", "#4363d8", "#f58231", "#911eb4", "#42d4f4", "#f032e6", "#9a6324", "#469990", "#800000", "#808000", "#000075"];
 const rgb = (hex) => [1, 3, 5].map((i) => parseInt(hex.slice(i, i + 2), 16));
 
-const DAY0 = 8 * 3600, SPAN = 10 * 3600;
+// Each day plays 01:00 → 23:00 so the animation runs on with no overnight freeze.
+const DAY0 = 1 * 3600, SPAN = 22 * 3600;
+
+const km = ([x0, y0], [x1, y1]) => {
+  const r = Math.PI / 180, h = Math.sin((y1 - y0) * r / 2) ** 2 + Math.cos(y0 * r) * Math.cos(y1 * r) * Math.sin((x1 - x0) * r / 2) ** 2;
+  return 12742 * Math.asin(Math.sqrt(h));
+};
 
 const addDays = (iso, n) => new Date(Date.parse(`${iso}T00:00:00Z`) + n * 86400e3).toISOString().slice(0, 10);
 
@@ -67,6 +73,7 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   const camp = (o) => campStop(o?.name, places);
   const flat = [], trip = [], seen = new Set();
   const days = page.days ?? [];
+  let lastPin = null; // the previous day's final placed stop
 
   days.forEach((d, i) => {
     const color = PALETTE[(d.day - 1) % PALETTE.length];
@@ -76,23 +83,36 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     const all = [start, ...stops].filter(Boolean);
     // Skipping an unplaced stop can leave one place twice in a row (camp → ? → camp).
     const pinned = all.filter((s) => s.pinned).map((s) => byQuery.get(s.q)).filter((p, k, a) => p && p !== a[k - 1]);
-    const step = pinned.length > 1 ? SPAN / (pinned.length - 1) : 0;
+    // Last night's bed is TBD (or unplaced): start from where yesterday's line ended, so the
+    // map doesn't skip the drive between them. A guess, so the leg says so.
+    const startGuessed = !(start?.pinned) && lastPin && pinned.length > 0 && pinned[0] !== lastPin;
+    if (startGuessed) pinned.unshift(lastPin);
+    if (pinned.length) lastPin = pinned.at(-1);
     const base = { trip: slug, day: d.day, date, title: d.title, color, lineColor: rgb(color), fillColor: rgb(color) };
+    const road = routes.get(d.day);
+    const line = road ? road.line : pinned.map((p) => [p.lng, p.lat]);
 
+    // The clock runs at constant speed along the line, so the trace moves like a car and
+    // each pin appears when the line reaches it (its nearest vertex, searched in order).
+    const cum = [0];
+    for (let k = 1; k < line.length; k++) cum.push(cum[k - 1] + km(line[k - 1], line[k]));
+    const total = cum.at(-1) || 1;
+    const at = (k) => t0 + DAY0 + Math.round((SPAN * cum[k]) / total);
+    let from = 0;
     pinned.forEach((p, k) => {
-      const ts = t0 + DAY0 + Math.round(k * step);
+      let best = from;
+      for (let j = from; j < line.length; j++) if (km(line[j], [p.lng, p.lat]) < km(line[best], [p.lng, p.lat])) best = j;
+      from = best;
+      const ts = line.length > 1 ? at(best) : t0 + DAY0;
       const isCamp = k === pinned.length - 1 && camp(d.overnight)?.label === p.name;
       flat.push(point(p, { ...base, seq: k + 1, role: isCamp ? "camp" : "stop", time: iso(ts), timestamp: ts }));
       seen.add(p.name);
     });
 
-    const road = routes.get(d.day);
-    const line = road ? road.line : pinned.map((p) => [p.lng, p.lat]);
     if (line.length < 2) return;
-    const props = { ...base, kind: "leg", shape: road ? "road" : "straight", stops: pinned.length, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
+    const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round(total / 1.609344), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
     flat.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line } });
-    const lstep = SPAN / (line.length - 1);
-    trip.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line.map(([x, y], k) => [x, y, 0, t0 + DAY0 + Math.round(k * lstep)]) } });
+    trip.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line.map(([x, y], k) => [x, y, 0, at(k)]) } });
   });
 
   // Verified places no day's schedule reaches still belong on the map.

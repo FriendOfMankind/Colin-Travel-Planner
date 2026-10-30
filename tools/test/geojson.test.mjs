@@ -57,8 +57,8 @@ test("trip file: 4D vertices on the day's date, a single-place day draws no line
   assert.equal(g.trip.length, 1);
   const c = g.trip[0].geometry.coordinates;
   assert.equal(c[0].length, 4);
-  assert.equal(c[0][3], Date.parse("2027-03-05T08:00:00Z") / 1000);
-  assert.equal(c.at(-1)[3], Date.parse("2027-03-05T18:00:00Z") / 1000);
+  assert.equal(c[0][3], Date.parse("2027-03-05T01:00:00Z") / 1000);
+  assert.equal(c.at(-1)[3], Date.parse("2027-03-05T23:00:00Z") / 1000);
 });
 
 test("a road GPX replaces the straight line and carries its source", () => {
