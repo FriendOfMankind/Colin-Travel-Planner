@@ -1169,7 +1169,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Red Bay Saddle Island tour times
 - [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
 - [ ] Argentia Sunset RV Park: tents allowed? (709-227-6363)
-- [ ] Friends: headcount (no rental needed: the Sienna, 2026-10-08)
+- [x] Friends: headcount is 3, confirmed 2026-10-10 (no rental needed: the Sienna, 2026-10-08)
 - [ ] Fogo cottage for 6/10, 4 adults (Escape by the Sea; check the cancellation policy)
 - [ ] Hotels for 6/11–6/18 (Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
@@ -1178,11 +1178,6 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Car service before leaving
 
 ## Open questions
-
-### Is the headcount for the friends' week known?
-
-**Blocks:** the hotel bookings and the open-jaw flights
-**Planning for 3** *(stated 2026-10-08; was: "up to 3")*. Still not confirmed: Colin is asking friends in a set order, which takes about a week. From Cleveland *(stated 2026-10-05)*. **No rental:** Colin has a 2019 Sienna for this trip, which seats all four *(stated 2026-10-08; was: "So the plan assumes a rental car… Book by ~January. The open-jaw adds a one-way fee")*. Friends stay in hotels as planned *(confirmed 2026-10-08)*.
 
 ### Does Argentia Sunset RV Park take tents?
 
