@@ -537,6 +537,10 @@ Before leaving: Kerry (Dingle peninsula to Killarney), Dublin Airport area, Mars
 
 ## Notes
 
+### The pitch page
+
+**"Dingle & Marseille, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for the people joining. It's private until Colin shares it. Its "What I need from you" list asks: in or out, sharing a room, ~$3,300 each, and how much hiking *(made 2026-10-30)*. Rebuild it from this file if the plan changes.
+
 ### Budget (calculated, not a quote)
 
 The handoff's model, re-run 2026-10-30 for **9 Marseille nights**. The lodging, meals and France lines are the 7-night figures scaled by 9/7, not re-observed, and the airfare is still the May 22 observation. **USD = international + extras + 1.10 × (Europe flight + ground × 1.10)**, where ground = lodging + Ireland + meals + outings, the inner 1.10 is a 10% contingency and the outer 1.10 is an assumed USD/EUR rate, not a live one.
