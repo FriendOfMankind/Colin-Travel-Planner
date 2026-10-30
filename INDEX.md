@@ -27,16 +27,16 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Planned trips
 
-- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 15/26 places located · log 6 entries · updated 2026-09-07
+- **Sky Islands** (`trips/sky-islands-2027/`) · planned · Mar 5–15, 2027 (target, unbooked) · 11 days · 5 open questions · 26/26 places located · log 6 entries · updated 2026-09-07
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Outlines
 
-- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 0/51 places located · log 11 entries · updated 2026-10-30
+- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 50/51 places located · log 11 entries · updated 2026-10-30
   ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 0/61 places located · log 47 entries · updated 2026-10-30
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 61/61 places located · log 47 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 15/36 places located · log 11 entries · updated 2026-10-30
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 36/36 places located · log 11 entries · updated 2026-10-30
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
 
 ## Done

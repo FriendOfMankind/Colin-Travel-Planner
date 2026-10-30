@@ -8,380 +8,441 @@ groups:
   - name: Albany area transit night
     note: Night 1. Not identified.
     maps: Albany NY
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 42.652199
+    lng: -74.044839
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Calais border crossing
     note: Days 3 and 28. Passport, declare all food.
     maps: Calais Maine border crossing
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 45.1618
+    lng: -67.299584
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Bangor
     note: Days 28–29. Transit.
     maps: Bangor Maine
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.801842
+    lng: -68.771952
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Acadia
   places:
   - name: Blackwoods Campground
     note: Night 2 only.
     maps: Blackwoods Campground Acadia
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.313351
+    lng: -68.214
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Sand Beach
     note: Day 2. The Ocean Path walk starts here.
     maps: Sand Beach Acadia
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.329013
+    lng: -68.182017
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Beehive Trailhead
     note: Not scheduled (Acadia cut to one evening, 2026-10-30). Iron rungs.
     maps: Beehive Trailhead Acadia
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.330478
+    lng: -68.184535
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Jordan Pond House
     note: Not scheduled (2026-10-30). Popovers; ask for butter.
     maps: Jordan Pond House
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.320481
+    lng: -68.253618
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Seal Cove
     note: Not scheduled (2026-10-30). Sunset, west-facing.
     maps: Seal Cove Picnic Area Acadia
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.283124
+    lng: -68.408931
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Eagle Lake carriage road lot
     note: Not scheduled (bike day cut 2026-10-30). Parking not checked.
     maps: Eagle Lake Bridge Acadia
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 44.377752
+    lng: -68.253265
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Fundy
   places:
   - name: Fundy NP campground
     note: Night 3. Headquarters or Chignecto.
     maps: Fundy National Park Headquarters Campground
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 45.597376
+    lng: -64.951788
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Matthews Head Trail
     note: Day 3 evening.
     maps: Matthews Head Trail Fundy National Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 45.565684
+    lng: -64.984773
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Hopewell Rocks
     note: Day 3 afternoon or Day 4 morning, only if the tide fits.
     maps: Hopewell Rocks
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 45.817005
+    lng: -64.578413
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Cape Breton
   places:
   - name: Chéticamp Campground
     note: Night 4. Season not found.
     maps: Cheticamp Campground Cape Breton Highlands
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 46.653313
+    lng: -60.948811
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Skyline Trail
     note: Day 4 sunset.
     maps: Skyline Trail Cape Breton Highlands
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 46.743826
+    lng: -60.880395
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Celtic Shores Coastal Trail, Inverness
     note: Not scheduled (no bike this trip).
     maps: Celtic Shores Coastal Trail Inverness
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 45.992105
+    lng: -61.446974
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Marine Atlantic North Sydney
     note: Day 5 out, Day 28 back in.
     maps: Marine Atlantic North Sydney
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 46.211128
+    lng: -60.246452
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Port aux Basques and Gros Morne
   places:
   - name: J.T. Cheeseman Provincial Park
     note: Night 5. Opening date not confirmed.
     maps: J.T. Cheeseman Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.632041
+    lng: -59.253916
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Corner Brook
     note: Day 6. The real shop; Canadian Tire for fuel.
     maps: Corner Brook NL
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.954353
+    lng: -57.945423
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Trout River Campground
     note: Nights 13–15.
     maps: Trout River Campground Gros Morne
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.448132
+    lng: -58.120774
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Tablelands Trail
     note: Day 15 sunset. The mantle.
     maps: Tablelands Trail Gros Morne
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.478105
+    lng: -57.973851
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Green Gardens Trail
     note: Day 14.
     maps: Green Gardens Trail Gros Morne
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.490478
+    lng: -58.076828
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Lookout Trail, Woody Point
     note: Day 13.
     maps: Lookout Trail Woody Point
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.492496
+    lng: -57.927654
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: The Old Loft, Woody Point
     note: Day 13 lunch.
     maps: The Old Loft Woody Point
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.500373
+    lng: -57.913656
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Berry Hill Campground
     note: Nights 11–12.
     maps: Berry Hill Campground Gros Morne
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.62385
+    lng: -57.926175
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Lobster Cove Head
     note: Day 12 sunset.
     maps: Lobster Cove Head Lighthouse
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.602796
+    lng: -57.955669
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Western Brook Pond Trail
     note: Day 12.
     maps: Western Brook Pond Trail Gros Morne
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.784488
+    lng: -57.857564
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Java Jack's, Rocky Harbour
     note: Day 12 lunch.
     maps: Java Jacks Rocky Harbour
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.594116
+    lng: -57.917513
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Northern Peninsula and Labrador
   places:
   - name: The Arches Provincial Park
     note: Day 11.
     maps: The Arches Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 50.113721
+    lng: -57.664108
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Port au Choix National Historic Site
     note: Day 11.
     maps: Port au Choix National Historic Site
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 50.697244
+    lng: -57.380907
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: St. Barbe RV Park
     note: Night 6.
     maps: St. Barbe RV Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.201886
+    lng: -56.777733
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: St. Barbe Ferry Terminal
     note: Days 9 (over) and 11 (back). Be there 1 h early.
     maps: St. Barbe Ferry Terminal
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.203809
+    lng: -56.774591
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Red Bay National Historic Site
     note: Day 10. Saddle Island tour.
     maps: Red Bay National Historic Site
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.730521
+    lng: -56.427799
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Pinware River Provincial Park
     note: Nights 9–10.
     maps: Pinware River Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.633325
+    lng: -56.696893
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Point Amour Lighthouse
     note: Day 10.
     maps: Point Amour Lighthouse
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.461222
+    lng: -56.857371
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Pistolet Bay Provincial Park
     note: Nights 7–8.
     maps: Pistolet Bay Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.529647
+    lng: -55.691501
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: L'Anse aux Meadows National Historic Site
     note: Day 7.
     maps: L'Anse aux Meadows National Historic Site
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.596176
+    lng: -55.533327
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Quirpon (Cobbler Loop)
     note: Day 7.
     maps: Quirpon Newfoundland
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.580679
+    lng: -55.442827
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Gunner's Cove (Fortune trailhead)
     note: Day 8. Start badly marked from the Quirpon side; this is the gentler one.
     maps: Gunners Cove Newfoundland
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.548799
+    lng: -55.47582
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Great Brehat (Little Brehat trailhead)
     note: Day 8, optional.
     maps: Great Brehat Newfoundland
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.426473
+    lng: -55.498751
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Northland Discovery Boat Tours
     note: Day 8 (4 PM) or Day 9 (9:30) sailing.
     maps: Northland Discovery Boat Tours St. Anthony
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 51.363427
+    lng: -55.583882
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: Gander, Fogo Island, Twillingate, Bonavista, Trinity
   places:
   - name: Gander International Airport
     note: Day 16. Friends land.
     maps: Gander International Airport
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.946226
+    lng: -54.576961
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Farewell Ferry Terminal
     note: Day 16. The Fogo ferry; can't be reserved.
     maps: Farewell Ferry Terminal
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.555823
+    lng: -54.478532
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Escape by the Sea
     note: Night 16. 27 Burnt Point Road, Seldom (escapebythesea.ca).
     maps: Escape by the Sea Seldom Fogo Island
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.60453
+    lng: -54.162604
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Brimstone Head
     note: Day 16 sunset.
     maps: Brimstone Head Fogo Island
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.71772
+    lng: -54.297153
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Long Point Lighthouse
     note: Day 17 sunset.
     maps: Long Point Lighthouse Twillingate
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 49.688118
+    lng: -54.800332
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Dungeon Provincial Park
     note: Day 18.
     maps: Dungeon Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.666822
+    lng: -53.084731
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Elliston Puffin Viewing Site
     note: Day 18, the hour before sunset.
     maps: Elliston Puffin Viewing Site
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.627882
+    lng: -53.019706
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Skerwink Trail
     note: Day 19 sunset.
     maps: Skerwink Trail Trinity East
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.378781
+    lng: -53.338624
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: B-36 crash site
     note: Day 19 option. A memorial.
     maps: B-36 crash site Burgoyne's Cove
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.170289
+    lng: -53.714616
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: British Harbour Trail
     note: Day 19 option.
     maps: British Harbour Trail New Bonaventure
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 48.28633
+    lng: -53.447754
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
 - group: St. John's and the Avalon
   places:
   - name: Signal Hill National Historic Site
     note: Days 21 and 23.
     maps: Signal Hill National Historic Site
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.569993
+    lng: -52.682064
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Ches's Fish and Chips
     note: Day 21.
     maps: Ches's Fish and Chips St. John's
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.565594
+    lng: -52.713519
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Cape Spear Lighthouse
     note: Day 22 sunrise.
     maps: Cape Spear Lighthouse
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.519965
+    lng: -52.623521
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Chafe's Landing, Petty Harbour
     note: Day 22 lunch.
     maps: Chafe's Landing Petty Harbour
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.463983
+    lng: -52.711666
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Quidi Vidi Village
     note: Day 23.
     maps: Quidi Vidi Village
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.580352
+    lng: -52.680779
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Bay Bulls (Witless Bay boats)
     note: Day 24.
     maps: Bay Bulls Newfoundland
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.318691
+    lng: -52.814699
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: La Manche Provincial Park
     note: Day 24 ruins; night 25 (assumed).
     maps: La Manche Provincial Park
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.167533
+    lng: -52.885454
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: St. John's International Airport
     note: Day 25. Friends fly out.
     maps: St. John's International Airport
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.612801
+    lng: -52.742971
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Colony of Avalon, Ferryland
     note: Day 25.
     maps: Colony of Avalon Ferryland
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.023144
+    lng: -52.883396
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Cape St. Mary's Ecological Reserve
     note: Day 27. Gannets.
     maps: Cape St. Mary's Ecological Reserve
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 46.823616
+    lng: -54.193408
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Marine Atlantic Argentia Terminal
     note: Day 27. The pin (Mon Jun 21 sailing).
     maps: Marine Atlantic Argentia Terminal
-    verified: false
-    lat: null
-    lng: null
+    verified: true
+    lat: 47.291081
+    lng: -53.992221
+    source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
