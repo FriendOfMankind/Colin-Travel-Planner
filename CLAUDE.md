@@ -95,12 +95,11 @@ node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified 
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
-1. **Turn on GitHub Pages.** The offline site is built (2026-10-29: service worker, home-screen manifest, booking windows page, field card; see `docs/SITE.md` v4) and `.github/workflows/pages.yml` deploys it on every push to `main`, but Pages stays off until Colin sets Settings → Pages → Source: GitHub Actions. `tools/pack.mjs` still makes the per-trip PDF and GPX for Drive and Organic Maps.
-2. **Port `mapbench.html`** so coordinates can be placed against this repo.
-3. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-4. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
+1. **Port `mapbench.html`** so coordinates can be placed against this repo.
+2. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
+3. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.
