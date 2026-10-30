@@ -132,13 +132,13 @@ const dp = (x) => (String(x).split(".")[1] || "").length;
 function km(a, b) {
   const r = Math.PI / 180, dLat = (b[0] - a[0]) * r, dLng = (b[1] - a[1]) * r;
   const h = Math.sin(dLat / 2) ** 2 + Math.cos(a[0] * r) * Math.cos(b[0] * r) * Math.sin(dLng / 2) ** 2;
-  return Math.round(12742 * Math.asin(Math.sqrt(h)));
+  return 12742 * Math.asin(Math.sqrt(h)); // unrounded: rounding made anything within 500 m look like the same spot
 }
 function warnings(p, place) {
   const w = [];
   const t = state.trips[place.trip];
   if (t?.center) {
-    const d = km(t.center, [p.lat, p.lng]);
+    const d = Math.round(km(t.center, [p.lat, p.lng]));
     if (d > (t.ringKm || 800)) w.push(`${d.toLocaleString()} km from the middle of this trip, farther than any of its stops should be. Swapped numbers or a minus sign missing?`);
   }
   for (const o of state.places.values()) {

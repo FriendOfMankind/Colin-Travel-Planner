@@ -72,9 +72,10 @@ groups:
       - name: Gallarus Oratory
         note: Day 3, optional.
         maps: Gallarus Oratory
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.173851
+        lng: -10.353282
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Kilmalkedar Church
         note: Day 3, optional. 12th-century Romanesque ruin, sundial, Alphabet Stone.
         maps: Kilmalkedar Church

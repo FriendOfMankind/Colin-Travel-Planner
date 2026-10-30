@@ -41,6 +41,8 @@ Write each pin into `places.yaml` as `verified: true`, `source: Google Maps drop
 
 Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteService and Geofabrik, tested 2026-10-30), but **Overture Maps' road data on S3 is reachable**. So the tool pulls the roads in the trip's box (major roads everywhere, every road within ~4 km of a stop), builds the network and finds the fastest path between each day's stops, ferries included. It writes `routes/day-N.gpx` and `routes.yaml` with the source.
 
+**Ferries:** when both ends of a leg sit within 3 km of the ends of one ferry line, the leg takes that sailing, even if driving round to another ferry is quicker on paper. Without that rule, day 27 skipped the Argentia overnight ferry and drove across the island to Port aux Basques. To route a ferry leg, put the far terminal on the ferry row's `📍`.
+
 Re-run it whenever pins or beds change; days that didn't change come out the same.
 
 **Check:**

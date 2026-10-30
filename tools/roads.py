@@ -44,6 +44,7 @@ SPEED = {"motorway": 105, "trunk": 90, "primary": 80, "secondary": 70, "tertiary
          "living_street": 20, "unclassified": 45, "service": 20, "track": 15, "unknown": 30, None: 30}
 NOT_DRIVABLE = {"footway", "cycleway", "pedestrian", "steps", "path", "bridleway", "sidewalk", "crosswalk"}
 FERRY_KMH, FERRY_PENALTY_H = 30, 1.0  # a crossing costs boarding time, so short detours by road win
+TERMINAL_M = 3000  # a stop this close to a ferry line counts as being at that terminal
 SNAP_LIMIT_M = 3000
 
 
@@ -112,6 +113,25 @@ def snapper(g, pos):
     return snap, len(big)
 
 
+def ferry_between(g, pos, a, b):
+    """Terminal to terminal: when both stops sit at ends of one ferry line, the plan means that
+    sailing, even when driving round to a different ferry would be quicker on paper (Argentia →
+    North Sydney vs. crossing the island to Port aux Basques). Returns the water path or None."""
+    water = g.edge_subgraph([(u, v) for u, v, f in g.edges(data="ferry") if f])
+    if not water.number_of_nodes():
+        return None
+    near = lambda pt: [n for n in water.nodes if metres([pt, pos[n]]) <= TERMINAL_M]
+    best = None
+    for s in near(a):
+        for t in near(b):
+            if s != t and nx.has_path(water, s, t):
+                p = nx.shortest_path(water, s, t, weight="hours")
+                h = nx.path_weight(water, p, weight="hours")
+                if best is None or h < best[0]:
+                    best = (h, p)
+    return best[1] if best else None
+
+
 def path_coords(g, pos, nodes):
     """The path's geometry, each edge turned to run from the node it leaves."""
     out = []
@@ -165,7 +185,11 @@ def main():
         for (x0, y0), (x1, y1) in zip(cs, cs[1:]):
             (u, du), (v, dv) = snap(x0, y0), snap(x1, y1)
             worst = max(worst, du, dv)
-            nodes = nx.shortest_path(g, u, v, weight="hours")
+            sail = ferry_between(g, pos, (x0, y0), (x1, y1))
+            if sail:  # road to the terminal, the sailing, road from the other terminal
+                nodes = nx.shortest_path(g, u, sail[0], weight="hours")[:-1] + sail + nx.shortest_path(g, sail[-1], v, weight="hours")[1:]
+            else:
+                nodes = nx.shortest_path(g, u, v, weight="hours")
             ferry |= any(g[p][q]["ferry"] for p, q in zip(nodes, nodes[1:]))
             seg = [(x0, y0)] + (path_coords(g, pos, nodes) if len(nodes) > 1 else []) + [(x1, y1)]
             line.extend(seg if not line else seg[1:])
