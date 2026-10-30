@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* build.mjs — the website, generated from the same files the AI reads.
 
-     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics, maps/*.geojson
+     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics, maps/*.geojson + *.kepler.json
 
    One self-contained page: every trip, log, preference and meal is parsed
    here at build time into one JSON blob, and site/src/app.js renders views
@@ -26,7 +26,8 @@ import { parseBucket, horizonOf } from "./lib/bucket.mjs";
 import { dayStops, routeLinks, campStop } from "./lib/route.mjs";
 import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 import { buildIcs } from "./ics.mjs";
-import { writeMaps } from "./geojson.mjs";
+import { writeMaps, tripGeo, loadRoutes } from "./geojson.mjs";
+import { keplerMap } from "./kepler.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 
@@ -294,4 +295,10 @@ mkdirSync(join(ROOT, "site"), { recursive: true });
 for (const [name, body] of Object.entries(files)) writeFileSync(join(ROOT, "site", name), body);
 console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals, ${windows.length} booking windows`);
 writeMaps();
+// A ready-made Kepler map per trip that has at least one day line to animate.
+for (const slug of ls("trips").filter((s) => has(`trips/${s}/trip.md`))) {
+  const groups = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups ?? [] : [];
+  const g = tripGeo(slug, read(`trips/${slug}/trip.md`), groups, loadRoutes(slug));
+  if (g.trip.length) writeFileSync(join(ROOT, `site/maps/${slug}.kepler.json`), JSON.stringify(keplerMap(slug, g)));
+}
 console.log(`  + ${Object.keys(files).filter((f) => f !== "index.html").join(", ")} (for GitHub Pages)`);

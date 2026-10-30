@@ -60,7 +60,11 @@ A route with no `source` fails `npm test`, the same rule as coordinates.
 
 Pages publishes them on every push to `main`, at `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<file>`. Kepler and Felt can load straight from that URL. *(Untested: it needs GitHub Pages to send CORS headers, and the session couldn't reach github.io to check. If it fails, download the file and drag it in instead.)*
 
-### Kepler.gl, the animated version
+### Kepler.gl, the one-file way
+
+`site/maps/<slug>.kepler.json` (written by the build, or `node tools/kepler.mjs <slug>`) is a saved Kepler map with the data and the styling inside. Drag it onto kepler.gl/demo and it opens set up: the whole route faint underneath, each day animating in on top, pins appearing as the trace reaches their day, hover tooltips, and a view framed on the trip. Checked by loading it through Kepler 3.2.6's own schema and reducer code (2026-10-30), not by rendering it in a browser. Only scheduled stops are in it; verified places no day visits are in `<slug>.geojson`.
+
+### Kepler.gl, by hand
 
 1. Open kepler.gl/demo (a desktop browser; it's heavy on a phone). **Add Data → Load Map using URL** (or drag in the files): load `<slug>-trip.geojson` and `<slug>.geojson`.
 2. On the `-trip` dataset, set the layer type to **Trip**. Color it by `day`. The play bar appears at the bottom. Set the trail length long enough that a whole day's line stays drawn.
