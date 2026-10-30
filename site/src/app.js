@@ -245,7 +245,7 @@
       ${D.ics ? `<div class="panel pad"><div class="eyebrow">Calendar alarms</div>
         <p style="margin:4px 0 10px;font-size:14px">One event per window that hadn't opened when this page was built: at the release minute when it's known, with an alarm the evening before (and 10 minutes ahead for a timed release). Re-importing updates the same events.</p>
         ${hosted
-          ? `<a class="btn primary" href="booking-alarms.ics" download="booking-alarms.ics">Download .ics</a>`
+          ? `<a class="btn primary" href="booking-alarms.ics">Add to calendar (.ics)</a>`
           : `<a class="btn primary" href="${PAGES_URL}booking-alarms.ics" target="_blank" rel="noopener">Get the .ics</a>
         <p class="muted" style="margin:8px 0 0;font-size:12.5px">This copy can't hand over a calendar file, so the button opens the GitHub Pages copy. That works once Pages is turned on (Settings → Pages → Source: GitHub Actions).</p>`}</div>` : ""}
       <p class="muted" style="font-size:12.5px">Same computation as <code>tools/now.mjs</code> and <code>tools/ics.mjs</code>. Mark a row <code>booked: true</code> in its <code>trip.md</code> to drop it.</p>
