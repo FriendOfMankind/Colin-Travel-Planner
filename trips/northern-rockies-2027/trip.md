@@ -1,7 +1,7 @@
 ---
 slug: northern-rockies-2027
 title: The Long Way to Glacier
-subtitle: The July road trip — Badlands, Bighorns, Beartooth, Yellowstone, seven nights at Glacier, then west to Oregon for the boys week
+subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, seven nights at Glacier, then west to Oregon for the boys week
 months: [ 7, 8 ]
 mode: drive
 days: 34
@@ -13,8 +13,8 @@ pinned: true
 start: null
 dates: Jul 12 – Aug 14, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
-region: Avon OH → SD → WY → MT → ID → WA → OR (boys week, Aug 1–10) → home
-states: [ SD, WY, MT, ID, WA, OR ]
+region: Avon OH → IA → NE → WY → MT → ID → WA → OR (boys week, Aug 1–10) → home
+states: [ WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
 nights: 33 nights
@@ -31,13 +31,14 @@ tags:
   - reservation race
 next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
 booking:
-  - system: wisconsin-sp
-    what: Perrot State Park, Trempealeau WI (Jul 12)
-    target: 2027-07-12
-    note: Day 1 transit night, chosen 2026-10-29. 102 sites, showers. Reservation required (Wisconsin DNR).
   - system: recreation.gov
-    what: Cedar Pass, Badlands (Jul 13–14)
+    what: Vedauwoo, Medicine Bow NF (Jul 13)
     target: 2027-07-13
+    note: 29 sites + a 20-site tent loop, 8,300 ft, $20; a mix of reservable and first-come sites in 2026, no modifications (recreation.gov and fs.usda.gov, 2026-10-30). 97 free designated dispersed sites behind it are the fallback.
+  - system: recreation.gov
+    what: Brooklyn Lake, Snowy Range (Jul 14)
+    target: 2027-07-14
+    note: 19 sites, 10,500 ft, $20; mix of reservable and first-come (fs.usda.gov, 2026-10-30). ⚠️ The FS page gives both "mid-July" and "7/04" for opening, so Jul 14 is on the edge; the fallback is a second Vedauwoo night.
   - system: recreation.gov
     what: Slough Creek, Yellowstone (Jul 21)
     target: 2027-07-21
@@ -78,19 +79,19 @@ booking:
     what: Belknap Hot Springs Lodge, 4-guest room (Aug 8–10)
     target: 2027-08-08
     note: 18 lodge rooms, few take 4; book first. $140–215 + 12.07% tax (belknaphotsprings.com, 2026-10-15).
-updated: 2026-10-29
+updated: 2026-10-30
 map:
   center: [ 45.5, -106 ]
   zoom: 5
 page:
   title: The Long Way to Glacier
-  subtitle: Solo, then friends · Avon OH → Badlands → Bighorns → Beartooth → Yellowstone → Glacier → Oregon → home
+  subtitle: Solo, then friends · Avon OH → Snowy Range → Bighorns → Beartooth → Yellowstone → Glacier → Oregon → home
   dates: Monday, July 12 – Saturday, August 14, 2027
   emoji: 🏔️
   theme: alpine
   vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX for Aug 1–10 and ride in the Legacy."
-  footerNote: Outline. Road and season facts are verified; every fee, every coordinate and five transit nights are not. Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
+  footerNote: Outline. Road and season facts are verified; every fee, most coordinates and six transit nights are not. Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 34 days
       lbl: Length
@@ -106,11 +107,11 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-90 (Badlands, the Bighorns, the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west to the Columbia Gorge for **the Oregon boys week, Aug 1–10**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 33 nights, three times your longest trip.** Days 6, 18, 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west to the Columbia Gorge for **the Oregon boys week, Aug 1–10**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 33 nights, three times your longest trip.** Days 6, 18, 20 and 27 are soft on purpose.
 
 ## Overview
 
-Out on I-90 through South Dakota, up through Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–10** (Gorge → Bend → McKenzie River). Then the long drive home from Portland. Five anchors on the way out (Badlands, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, **seven nights at Glacier**), then the friends' week.
+Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy Range), north across Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–10** (Gorge → Bend → McKenzie River). Then the long drive home from Portland. Five anchors on the way out (the Snowy Range, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, **seven nights at Glacier**), then the friends' week.
 
 ### Dates
 
@@ -148,21 +149,21 @@ The profile says 2–5 campgrounds and 5–10 nights. This is **33 nights**, thr
 date: 2027-07-12
 tagline: The unglamorous half of a road trip, done on purpose on day one.
 type: travel
-driving: ~600 mi, ~10h 30m (Google +15%)
+driving: 640 mi, 11h 04m (routed 9h 37m +15%)
 slack: None needed. Nothing happens today except distance.
 overnight:
-  name: Perrot State Park
-  place: Trempealeau, WI (~20 min north of La Crosse)
-  kind: State park campground
-  cost: TBD (not read)
-  checkin: 3 PM (Wisconsin DNR). Reservation required, 11-month window, 9 AM CT
+  name: TBD — Des Moines area
+  place: Iowa
+  kind: Transit night — not identified
+  cost: ~$35 est.
+  checkin: Unknown
   confirmation: TBD
-  notes: "**Chosen: Perrot** *(Colin, 2026-10-29)*. 102 sites, flush toilets, **showers**. The window is already open (the briefing computes it). The other five transit nights are still unidentified. The two candidates were on I-90 (Wisconsin DNR pages, read 2026-10-29): **Mill Bluff SP**, Camp Douglas, right off I-90/94 at exit 55: 21 sites, pit toilets, hand pumps, **no showers**, late May – Sept. **Perrot SP**, Trempealeau, ~20 min north of La Crosse: 102 sites, **showers**. Wisconsin state parks are **reservation-only, 11 months ahead, released at 9 AM** (DNR camping rules and FAQ); check-in 3 PM. Fees not read. Or a KOA or a cheap motel. Decide before leaving: arriving at 8 PM without a plan is how a road trip starts badly."
+  notes: ⚠️ Not identified. A state park, a KOA or a cheap motel off I-80.
 ```
 
 **Schedule**
-- 6:00 AM (10h 30m) · drive! · Avon OH → I-80 W → Chicago bypass → I-90 W. **Time the Chicago window** — through the metro before 10 AM or after 7 PM, nothing in between.
-- afternoon · stop · Fuel and a real stop somewhere in Wisconsin. This is a driving day; treat it as one.
+- 6:00 AM (11h 04m) · drive! · Avon OH → I-80/I-90 W → Chicago bypass → I-80 W across Iowa. **Time the Chicago window**: through the metro before 10 AM or after 7 PM, nothing in between. Routed via firecrawl-maps, 2026-10-30 · 📍 Des Moines Iowa
+- afternoon · stop · Fuel and a real stop in Illinois or eastern Iowa. This is a driving day; treat it as one.
 
 **Meals**
 - B: home
@@ -171,97 +172,98 @@ overnight:
 
 #### Highlights
 
-Nothing. This day exists so that day two ends at the Badlands.
+Nothing. This day exists so that day two ends in Wyoming.
 
 #### Warnings
 
 Chicago. The worst traffic on the route and it is 3 hours in. Time it or lose 90 minutes.
 
-### Day 2 — 2027-07-13 · Into the Wall
+### Day 2 — 2027-07-13 · Into the Granite
 
 ```yaml
 date: 2027-07-13
-tagline: Six hundred more miles, then the prairie falls away.
+tagline: Six hundred and sixty more miles, then the plains break into piles of granite.
 type: travel + activity
-driving: ~600 mi, ~10h
-slack: ~1 hour. The Door and Window walks are ten minutes each.
+driving: 661 mi, 11h 08m (routed 9h 41m +15%); you gain an hour at the Nebraska line
+slack: ~1 hour. Turtle Rock is a short loop from the campground.
 overnight:
-  name: Cedar Pass Campground
-  place: Badlands National Park, SD
-  kind: National park campground
-  cost: ~$28/night est.
-  checkin: Confirm the arrival cutoff
+  name: Vedauwoo Campground
+  place: Medicine Bow NF, WY (I-80 exit 329, between Cheyenne and Laramie)
+  kind: USFS campground
+  cost: $20/night (fs.usda.gov, 2026-10-30)
+  checkin: Mix of reservable and first-come sites in 2026; no modifications to reservations
   confirmation: TBD
-  notes: ⚠️ Fee not verified — recreation.gov is unreachable from this session. The park's only developed campground with water. Sage Creek is the free primitive alternative and its access is **gravel**, so look before committing this car to it.
+  notes: "✅ **29 sites plus a separate 20-site tent campground, at 8,300 ft.** Tables, fire rings, vault toilets. Water: the spigots were deactivated in 2026; there's a hand pump in the north loop (sites 19–29). Open May 20 – Nov 1 (2026) *(recreation.gov and fs.usda.gov Vedauwoo pages, read via search, 2026-10-30)*. 1.5 mi off the interstate on pavement and FR 720 (0.3 mi). **This night is the altitude step:** recreation.gov's Brooklyn Lake page says some visitors need a night lower down before 10,500 ft. Fallback if full: the 97 free designated dispersed sites on FR 700 behind the campground, no toilets or water *(fs.usda.gov, 2026-10-30)*."
 ```
 
 **Schedule**
-- 6:30 AM (10h) · drive · → Badlands NP via I-90 to Exit 131, then the Badlands Loop Road. · 📍 Badlands National Park Cedar Pass
-- 5:00 PM (45m) · stop · Set up at Cedar Pass. Water here — the next reliable fill is Buffalo, Wyoming.
-- 6:15 PM (1h) · hike · **Door Trail and Window Trail.** Both under half a mile, both straight into the wall. The right first hour after two days in a car. · 📍 Door Trail Badlands National Park
-- 8:33 PM · sunset · Sunset. Dark 9:03 PM. Waxing gibbous 79%.
+- 6:30 AM (11h 08m) · drive · Des Moines → I-80 W through Nebraska → exit 329, Vedauwoo Rd · 📍 Vedauwoo Campground Wyoming
+- ~4:45 PM MT (45m) · camp · Set up. Fill water at the hand pump
+- 6:00 PM (1h 15m) · hike · **Turtle Rock Loop**, from the campground. ✅ AllTrails: **2.9 mi, 282 ft, Easy, 4.8★, ~1h 08m**. Through the granite towers, past beaver ponds. The right first walk after two days in a car · 📍 Turtle Rock Trail Vedauwoo
+- evening · sunset · Sit on the rocks for golden hour. Sunset: TBD (no verified coordinate)
 
 **Meals**
-- B: packed
+- B: transit camp
 - L: packed
 - D: made at camp
 
 #### Highlights
 
-Two days of interstate and then a 200-foot escarpment of banded Oligocene mudstone with nothing in front of it. The contrast is the point of doing the drive in two pushes.
+Two days of interstate, then 1.4-billion-year-old Sherman granite weathered into stacks and domes right off I-80 *(⚠️ age recalled, not checked)*. Explorable, unfenced, scramble-anywhere rock, and a strong "why does it look like this?" place.
 
 #### Warnings
 
-Badlands heat. July highs run well into the 90s and there is **no shade anywhere in this park**. Everything walked here happens before 9 AM or after 6 PM.
+8,300 ft the night after ~1,000 ft. Drink more than feels normal, and if you sleep badly tonight, take tomorrow's Lakes Trail instead of the peak.
 
-### Day 3 — 2027-07-14 · Notch and Castle at First Light
+### Day 3 — 2027-07-14 · Medicine Bow Peak
 
 ```yaml
 date: 2027-07-14
-tagline: A ladder up a canyon wall, then the long flat one, both before the heat.
+tagline: Over the Snowy Range to a 12,013 ft summit inside the day ceiling, then a lake camp at 10,500 ft.
 type: activity
-driving: ~40 mi within the park
-slack: Large after 11 AM, deliberately — the afternoon is unusable here.
+driving: 1h 15m to the trailhead (routed 1h 05m +15%), 17m to camp
+slack: Moderate. First cut — the summit (the Lakes Trail stays below it). Hard turnaround below.
 overnight:
-  name: Cedar Pass Campground
-  place: Badlands National Park, SD
-  kind: National park campground
-  cost: ~$28/night est.
-  checkin: n/a — night 2 of 2
+  name: Brooklyn Lake Campground
+  place: Medicine Bow NF, WY (Snowy Range)
+  kind: USFS campground
+  cost: $20/night (fs.usda.gov, 2026-10-30)
+  checkin: Mix of reservable (recreation.gov) and first-come sites in 2026
   confirmation: TBD
-  notes: ""
+  notes: "✅ **19 sites at 10,500 ft** on a small lake under Browns Peak. Tables, fire rings, vault toilets. 2.5 mi up Brooklyn Lake Road (FR 315/317) off WY-130 *(fs.usda.gov Brooklyn Lake page, 2026-10-30)*. ⚠️ **Opening date conflict:** the same Forest Service page says both \"open season is mid-July\" and \"7/04 to 10/15\", weather dependent; `wishlist/snowy-range.md` says around July 4. **Jul 14 sits right on the edge.** Fallback: a second night at Vedauwoo (1h 20m back east). ⚠️ The Brooklyn Lake Road surface isn't checked (principle 2). No cell signal (FCC estimate via camperwatch.org)."
 ```
 
 **Schedule**
-- 5:13 AM · sunrise · Sunrise. First light 4:44 AM — be at the Notch trailhead for it.
-- 4:50 AM (1h 30m) · hike · **Notch Trail.** ✅ AllTrails: **1.2 mi, 118 ft, Moderate.** Short, and it involves a log ladder up a canyon wall and a ledge traverse to a notch over the White River valley. Rated 4.8 for 1.2 miles, which tells you it is the ladder people come for. · 📍 Notch Trail Badlands National Park
-- 6:45 AM (2h 30m) · hike · **Castle Trail to Medicine Root Loop.** ✅ AllTrails: **7.8 mi, 209 ft, Moderate, loop, ~2h 30m**. Open badlands, flat and completely exposed. Chosen over the full out-and-back Castle Trail (10.3 mi / 249 ft, over the ceiling, with a July normal high of 91°F) *(Colin, 2026-10-29)*. · 📍 Castle Trail Badlands National Park
-- 10:30 AM (1h) · stop · Back to camp. **The rest of the day is heat management, not laziness.**
-- 6:00 PM (1h) · drive! · **Sage Creek Rim Road** for the bison herd and the prairie dog towns at last light. Gravel but graded; turn around if it is not. · 📍 Sage Creek Rim Road Badlands
-- 8:33 PM · sunset · Sunset from the rim. Dark 9:02 PM.
+- 6:30 AM · wake · An earlier start than usual, for the storms. Breakfast at camp
+- 7:15 AM (20m) · drive · → Laramie, exit 311. **Resupply in Laramie**: groceries, ice, fuel. The last real town before Cody *(recalled, not checked)* · 📍 Laramie Wyoming
+- 8:30 AM (55m) · drive · → WY-130 west over the Snowy Range to the West Lake Marie trailhead · 📍 West Lake Marie Trailhead
+- 9:30 AM (4h) · hike · **Medicine Bow Peak and Lakes Trail Loop**. ✅ AllTrails: **7.0 mi, 1,715 ft, Hard, loop, 4.8★**. Up to 12,013 ft. Bail-out: **Lakes Trail** out-and-back, 6.7 mi / 1,026 ft, Moderate, stays below the summit *(AllTrails, 2026-10-30)* · 📍 West Lake Marie Trailhead
+- 1:30 PM · stop · Sit at Lake Marie if the sky is still clear
+- 3:00 PM (17m) · drive · → Brooklyn Lake · 📍 Brooklyn Lake Campground Wyoming
+- evening · sunset · From camp or Libby Flats. Sunset: TBD (no verified coordinate)
 
 **Meals**
-- B: made — pre-dawn
-- L: made at camp
+- B: made at camp
+- L: packed on the summit
 - D: made at camp
 
 #### Highlights
 
-The Notch ladder is the most fun 1.2 miles on the eastern half of this route. Castle is the opposite — an hour of nothing but banded rock in every direction.
+The quartzite face over Lake Marie is the Snowy Range's whole look, and this loop goes over the top of it. It's the first 12,000 ft summit of the trip, inside the day ceiling.
 
 #### Warnings
 
-**Zero shade and no water on either trail.** Castle in the afternoon in July is a genuine heat-injury hike, not an uncomfortable one. **Hard turnaround: off Castle by 10:30 AM regardless of where you are.** Carry more water than feels sensible.
+⚠️ **Afternoon thunderstorms over an exposed 12,000 ft ridge.** This is the standard July pattern in the Wyoming high country *(Claude's inference, the same pattern the Bighorns row in Weather notes; not checked for the Snowy Range)*. **Hard turnaround: off the summit ridge by noon, whatever the sky looks like.** Lightning is what this rule is for.
 
-### Day 4 — 2027-07-15 · Straight to Altitude
+### Day 4 — 2027-07-15 · Across Wyoming to the Bighorns
 
 ```yaml
 date: 2027-07-15
-tagline: Four hundred and fifty miles from a shadeless badland to a 9,100 ft lake camp.
+tagline: Three hundred and forty miles from one high lake camp to another, already acclimatized.
 type: travel
-driving: ~450 mi, ~8h
-slack: ~1 hour.
-noSignal: From Buffalo west over US-16 and at the West Tensleep camps. Most of the next three days.
+driving: 344 mi, 6h 47m (routed 5h 54m +15%), via WY-789 N
+slack: ~2 hours.
+noSignal: At the West Tensleep camps. Most of the next three days.
 overnight:
   name: West Tensleep Lake Campground
   place: Bighorn NF, WY
@@ -273,16 +275,15 @@ overnight:
 ```
 
 **Schedule**
-- 5:14 AM · sunrise · Sunrise. Break camp before the heat.
-- 6:00 AM (5h) · drive! · → Rapid City, then west on I-90. **Full resupply in Rapid City** — first of four on this trip. · 📍 Rapid City South Dakota
-- 12:00 PM (3h) · drive · → Buffalo WY, then **US-16 west, the Cloud Peak Skyway**, and the West Tensleep road. Fuel in Buffalo — nothing past it. · 📍 West Tensleep Lake Campground Wyoming
-- 3:30 PM (1h) · stop · Set up at ~9,100 ft. **You slept at 2,500 ft last night.** That is a 6,600 ft jump in one day and it is the largest on the trip.
-- 5:00 PM (45m) · hike · **West Tensleep Falls.** ✅ AllTrails: **1.6 mi, 219 ft, Easy.** A leg-stretch from camp and an altitude test — if this feels harder than 1.6 flat miles should, tomorrow gets cut to Mirror Lake. · 📍 West Tensleep Falls Trailhead
+- 7:00 AM · wake · Break camp
+- 7:30 AM (6h 47m) · drive! · Brooklyn Lake → WY-789 north → US-16 east through Ten Sleep → the West Tensleep road. Routed via firecrawl-maps, 2026-10-30. **Fuel stop on WY-789 not picked**; fill in Laramie the day before · 📍 West Tensleep Lake Campground Wyoming
+- 3:00 PM (1h) · stop · Set up at ~9,100 ft, which is lower than last night
+- 5:00 PM (45m) · hike · **West Tensleep Falls.** ✅ AllTrails: **1.6 mi, 219 ft, Easy.** A leg-stretch from camp · 📍 West Tensleep Falls Trailhead
 - 9:00 PM · sunset · Sunset. Dark 9:25 PM. Waxing gibbous 93%.
 
 **Meals**
 - B: made at camp
-- L: bought — Rapid City
+- L: packed
 - D: made at camp
 
 #### Highlights
@@ -291,7 +292,7 @@ A lake camp at 9,100 ft, 7 gravel miles off a paved byway, with the Cloud Peak W
 
 #### Warnings
 
-🚨 **2,500 ft to 9,100 ft in one day.** The biggest altitude jump of the trip, and it now happens on day four rather than day seven, because the Black Hills stop that used to break it up was cut. **Tomorrow is 11 miles and 2,000 ft from that camp — if tonight is a bad night, take the Mirror Lake bail-out.** Do not push through a bad altitude night to keep an itinerary.
+The altitude problem this day used to have is gone: you've slept at 8,300 ft and 10,500 ft, so tomorrow's 11 miles start on acclimatized legs. The thing to watch now is the **7 mi of gravel on FR 27** (principle 2).
 
 ### Day 5 — 2027-07-16 · Lost Twin Lakes
 
@@ -313,7 +314,7 @@ overnight:
 
 **Schedule**
 - 5:29 AM · sunrise · Sunrise. First light 5:04 AM.
-- 5:00 AM (7h) · hike! · **Mirror Lake and Lost Twin Lakes.** ✅ AllTrails: **11.1 mi, 2,076 ft, Hard, out-and-back, ~321 min moving.** ⚠️ **Over the ~10 mi soft ceiling** — by a mile, at altitude, on your second day up here. It is in because the payoff is two lakes in a granite cirque with a wall straight above them, and the gain is comfortably under the 2,500 ft half of the ceiling. · 📍 West Tensleep Trailhead Bighorn National Forest
+- 5:00 AM (7h) · hike! · **Mirror Lake and Lost Twin Lakes.** ✅ AllTrails: **11.1 mi, 2,076 ft, Hard, out-and-back, ~321 min moving.** ⚠️ **Over the ~10 mi soft ceiling** — by a mile, at altitude, on your fourth night at altitude. It is in because the payoff is two lakes in a granite cirque with a wall straight above them, and the gain is comfortably under the 2,500 ft half of the ceiling. · 📍 West Tensleep Trailhead Bighorn National Forest
 - 9:15 AM (1h) · stop · **Sit at Lost Twin.** The turnaround is the destination — an hour under the headwall is what the eleven miles buy.
 - 1:00 PM (rest) · stop · Back at camp. Eat, lie down, do nothing.
 - 8:59 PM · sunset · Sunset. Dark 9:24 PM. Waxing gibbous 97%.
@@ -1380,7 +1381,7 @@ overnight: null
 
 #### Highlights
 
-Badlands, Bighorns, Beartooth, Glacier and a week of Oregon with friends, in one trip.
+The Snowy Range, Bighorns, Beartooth, Glacier and a week of Oregon with friends, in one trip.
 
 #### Warnings
 
@@ -1392,8 +1393,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Notch Trail | 3 | 1.2 mi RT | 118 ft | Moderate | ~1 hr | Log ladder up a canyon wall, then a ledge to the notch. No shade, no water. Dawn. |
-| Castle Trail to Medicine Root Loop | 3 | 7.8 mi loop | 209 ft | Moderate | ~2.5 hr | ✅ AllTrails, 2026-10-29. Flat, fully exposed prairie badlands. Off it by 10:30 AM. Chosen over the full Castle Trail, 10.3 mi / 249 ft *(Colin, 2026-10-29; was: "Castle Trail, ~10 mi, not verified")*. |
+| Turtle Rock Loop (Vedauwoo) | 2 | 2.9 mi loop | 282 ft | Easy | ~1 hr | ✅ AllTrails 4.8★, 2026-10-30. From the campground, through the granite. |
+| Medicine Bow Peak and Lakes Trail Loop | 3 | 7.0 mi loop | 1,715 ft | Hard | ~4 hr | ✅ AllTrails 4.8★, 2026-10-30. 12,013 ft summit. Off the ridge by noon. Bail-out: Lakes Trail, 6.7 mi / 1,026 ft. |
 | West Tensleep Falls | 4 | 1.6 mi RT | 219 ft | Easy | ~45 min | The altitude test after a 6,600 ft gain in one day. If 1.6 flat miles feels hard, tomorrow becomes Mirror Lake. |
 | Mirror Lake + Lost Twin Lakes | 5 | 11.1 mi RT | 2,076 ft | Hard | ~6–7 hr | ⚠️ **Over the 10 mi ceiling.** Two cirque lakes under a headwall. Turnaround 10 AM for storms. **Bail-out: Mirror Lake alone, 5.9 mi / 1,095 ft.** |
 | Sherd Lake | 6 | 3.5 mi RT | 570 ft | Moderate | ~1.5 hr | The soft-day walk. |
@@ -1422,14 +1423,14 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 | Location | Elevation | High | Low | Notes |
 | --- | --- | --- | --- | --- |
-| Badlands | ~2,440 ft | 91 | 62 | ✅ **Station normal**: Interior 3 NE, next to the Ben Reifel Visitor Center, July, NOAA 1991–2020 (parkd.app and usclimatedata.com, 2026-10-29; was 92/64 estimated). That station averages 53 days a year at 90°F+. No shade anywhere in the park. The heat, not the cold, is the risk on days 2–3. |
+| Snowy Range — Brooklyn Lake | ~10,500 ft | — | — | Not looked up. Vedauwoo (8,300 ft) neither. Expect cold nights at Brooklyn Lake. |
 | Bighorns — West Tensleep | ~9,100 ft | 68 | 38 | Estimated. Afternoon thunderstorms are the reliable July pattern here, not an exception. |
 | Beartooth Plateau | ~9,518 ft | 62 | 34 | Estimated. ⚠️ **Snow is possible here in any month.** Coldest camp of the trip. |
 | Lamar Valley | ~6,500 ft | 78 | 42 | Estimated. Nearest station: **Cooke City (7,580 ft), July normal 74 / 39** (NOAA 1991–2020 via plainclimate.com, 2026-10-29). Cooke City sits a thousand feet above Lamar, so Lamar runs warmer. Big diurnal swing — hot afternoons, cold dawns, which is when the wildlife is out. |
 | Glacier — Many Glacier | ~4,900 ft | 76 | 46 | Estimated. Nearest station: **St. Mary (4,560 ft), July normal high 73°F**, the coolest July in Montana's normals (NOAA 1991–2020 via plainclimate.com, 2026-10-29; low not read). So 76 is probably a few degrees warm. Valley bottoms warm, the passes 15°F colder and windy. |
 | Oregon (Hood River, Bend, South Sister) | — | — | — | Not pulled yet. *(Theodore Roosevelt row removed 2026-10-15 with that stop: ~2,300 ft, 88/60, estimated.)* |
 
-⚠️ **Only Badlands is station data**. Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
+⚠️ **No row is station data.** Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
 
 🔥 **Wildfire smoke is the weather risk that can actually kill days, and 2026 shows both halves of this trip getting hit.** First-pass research *(2026-10-29; details in `log.md`)*:
 - **Glacier, late July (Days 12–18):** in 2026 Montana DEQ had an air quality alert covering Glacier County on Jul 27, and on Jul 31 smoke from the Skillet Fire was forecast over the northern half of the park. In August a "dome of smoke" over the Flathead brought raft and hike cancellations (Montana DEQ smoke forecasts; Flathead Beacon, 2026-10-20).
@@ -1440,14 +1441,14 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### The range problem — this trip's defining one
 
-- [ ] **Full cold kit AND full heat kit, simultaneously, for 34 days.** Beartooth at 34°F and Badlands at 92°F are four days apart in the same duffel — closer together than they were before the recut.
+- [ ] **Full cold kit AND full heat kit, simultaneously, for 34 days.** Beartooth at 34°F and the Deschutes canyon in August are in the same duffel.
 - [ ] Siesta 20 + MondoKing — right for Beartooth, overkill everywhere else. Take both anyway.
-- [ ] Sun hoody and a wide-brim hat for the badlands days at either end
+- [ ] Sun hoody and a wide-brim hat for the Oregon desert days
 - [ ] Rain shell that actually works — Bighorn and Beartooth afternoon storms are near-daily in July
 
-### Altitude — sharper than it was
+### Altitude — stepped
 
-- [ ] **Day 4 goes from 2,500 ft to 9,100 ft in one drive.** The Black Hills stop that used to break this up was cut with the front end. Nothing to pack for it except the discipline to take the Mirror Lake bail-out on Day 5 if the night went badly.
+- [ ] **Three steps up: Vedauwoo 8,300 ft (Day 2), Brooklyn Lake 10,500 ft (Day 3), West Tensleep 9,100 ft (Day 4).** The big jump is the first night, from ~1,000 ft. Take the Lakes Trail on Day 3 if that night went badly.
 - [ ] Electrolytes and more water than feels necessary for the first two Bighorn days
 
 ### Bear country — new on this trip
@@ -1466,7 +1467,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Twenty-one days of food logistics
 
-- [ ] **Four resupplies: Rapid City and Buffalo (day 4), Cody (day 7), Great Falls (day 12).** Nothing between Cody and Great Falls is a real grocery.
+- [ ] **Resupplies: Laramie (day 3), Cody (day 7), Great Falls (day 12).** Day 4 has no planned grocery stop. Nothing between Cody and Great Falls is a real grocery.
 - [ ] Block ice at every resupply, not cubes
 - [ ] This is roughly twice the longest trip ever run on this cooler system — **the meal plan needs rebuilding, not extending**
 
@@ -1482,8 +1483,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Slough Creek and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
 - [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Apgar or Avalanche, Jul 27–29** — same system, same January sitting. Both equally competitive.
-- [ ] **Day 1 — Perrot SP, Jul 12** — Wisconsin state parks, 11-month window, so it's open now. Book a tent site.
-- [ ] **Badlands — Cedar Pass, Jul 13–14** — recreation.gov, 6-month window.
+- [ ] **Vedauwoo, Jul 13** — recreation.gov, mix of reservable and first-come sites. Free designated dispersed sites behind it as the fallback.
+- [ ] **Brooklyn Lake, Jul 14** — recreation.gov, mix of reservable and first-come. ⚠️ Confirm it is open by Jul 14 (the FS page says both "mid-July" and "7/04").
 - [ ] **Bighorns — West Tensleep, Jul 15–17** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch.
 - [ ] **Beartooth — Island Lake, Jul 18–20** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback. Bring cash.
 - [x] ~~Theodore Roosevelt — Cottonwood, Jul 30–31~~ — **cut 2026-10-15** with Theodore Roosevelt, when the trip turned west for the Oregon week. Nothing was booked.
@@ -1494,7 +1495,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 28 (Day 17): required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
-- [ ] ⚠️ **Five transit nights have no lodging identified: Days 19, 30, 31, 32, 33** *(Day 1 is Perrot SP, chosen 2026-10-29)*. Solve them together, once, before departure.
+- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 30, 31, 32, 33.** Solve them together, once, before departure.
 
 ## Open questions
 
@@ -1508,10 +1509,10 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 **Blocks:** Day 10, and how bad the Slough Creek race actually is
 📋 **Answered, mostly: no.** Closed for 2026 and "likely for the foreseeable future" (nps.gov/yell and yellowstone.org, snippets, 2026-10-10). A Facebook post says it gets rebuilt with the Northeast Entrance Road reconstruction, whose environmental review was still underway in 2026. Plan as if Slough Creek is the only option, with the written fallback.
 
-### Is a 6,600 ft altitude gain in one day, on day four, actually fine?
+### Is 8,300 ft the night after the plains fine?
 
-**Blocks:** Day 5, the biggest hike of the first half
-⚠️ **New risk created by the 21-day recut, and the main cost of cutting the front end.** The 25-day version climbed to the Black Hills (6,200 ft) before the Bighorns (9,100 ft), which broke the gain into two steps. That is gone. You now sleep at 2,500 ft on Day 3 and 9,100 ft on Day 4, then walk 11 miles and 2,000 ft on Day 5. **The Mirror Lake bail-out is written into Day 5 and exists for exactly this.** No prior trip on this hub has tested how this traveller handles altitude.
+**Blocks:** Day 3, Medicine Bow Peak
+The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then 10,500 ft and a 12,013 ft summit the next day. recreation.gov's Brooklyn Lake page says some visitors need a lower night first, and Vedauwoo is that night. **The Lakes Trail bail-out on Day 3 exists for exactly this.** No trip on this hub has tested how this traveller handles altitude.
 
 ### Sixteen days to the first shower — is that actually acceptable?
 
@@ -1551,7 +1552,7 @@ No coordinate on this page has been verified — `tools/geocode.mjs` returns not
 
 ### Offline regions
 
-Download offline Google Maps for the whole corridor before leaving: Chicago–Madison–La Crosse, Badlands, Rapid City–Buffalo, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Great Falls–Browning–Glacier, the Spokane–Gorge corridor, Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
+Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Great Falls–Browning–Glacier, the Spokane–Gorge corridor, Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
 
 ## Notes
 
@@ -1563,7 +1564,7 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 
 **Three real costs, none hidden:**
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
-• **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. Day 4 is now 2,500 ft to 9,100 ft in one drive, followed by an 11-mile hike on Day 5. The Mirror Lake bail-out exists for exactly that.
+• **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. *(Restored 2026-10-30 by the Snowy Range swap: Vedauwoo 8,300 ft, then Brooklyn Lake 10,500 ft, then the Bighorns. See log.)*
 • **Sixteen days to the first shower.** Custer State Park was the only mid-route one. Apgar on Day 16 is now it. Cheap to solve with a paid shower in Cody or Great Falls; easy to forget until day nine.
 
 ### Three hikes are over the ceiling, on purpose, with bail-outs

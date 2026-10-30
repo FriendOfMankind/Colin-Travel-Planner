@@ -36,8 +36,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
   ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 23 – Jun 24, 2027 (target, unbooked) · 33 days · 5 open questions · 0/61 places located · log 44 entries · updated 2026-10-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 15/31 places located · log 10 entries · updated 2026-10-29
-  Solo out on I-90 (Badlands, the Bighorns, the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then seven…
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 15/36 places located · log 11 entries · updated 2026-10-30
+  Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
 
 ## Done
 
@@ -128,7 +128,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Ride out of camp, swim at the end
 - **Great Smokies — the east side** (`wishlist/smokies-east.md`) · Tennessee / North Carolina · drive · keeps (derived) · Apr/May/Oct · 4–6 nights · updated 2026-09-04
   Where it stops being a traffic jam
-- **Snowy Range / Medicine Bow** (`wishlist/snowy-range.md`) · Centennial, Wyoming · fly · keeps (derived) · Jul/Aug/Sep/Oct · ~6 nights · updated 2026-09-06
+- **Snowy Range / Medicine Bow** (`wishlist/snowy-range.md`) · Centennial, Wyoming · fly · keeps (derived) · Jul/Aug/Sep/Oct · ~6 nights · 1 research note · updated 2026-10-30
   The sleeper of the whole list
 - **South Cumberland + Fall Creek Falls** (`wishlist/south-cumberland.md`) · Tennessee · drive · keeps (derived) · Apr/May/Oct/Nov · 4–5 nights · updated 2026-09-04
   The Plateau's real gems
