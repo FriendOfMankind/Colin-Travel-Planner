@@ -88,8 +88,8 @@ trip's start date.
 - system: parks-canada
   leadMonths: null
   what: Parks Canada campgrounds (Gros Morne, Cape Breton Highlands, Fundy)
-  when: Each location launches its season's reservations on its own date, **in January** (sometimes early February)
-  note: 📋 parks.canada.ca/voyage-travel/reserve, search snippet, 2026-10-04. The per-park launch dates get posted in winter; look them up then. reservation.pc.gc.ca or 1-877-737-3783. *(added 2026-10-04)*
+  when: Each location launches its whole season on its own date, in January or February, at **8 AM local park time (8:30 AM in Newfoundland)**. 2026 launches for the parks on our list were Fundy **Fri Feb 6**, Cape Breton Highlands **Mon Feb 9**, Gros Morne **Wed Feb 11** (8:30 AM NT = 7 AM ET); several 2026 launches were postponed after IT problems
+  note: 📋 2026 dates from parks.canada.ca/voyage-travel/reserve (snippet), treader.ca and campsitetonight.app, read 2026-10-30; postponements from o.canada.com, 2026-01-28. **2027 dates not announced as of 2026-10-30** (campsitetonight.app; canadacampalerts.com, 2026-10-24). Once they post, add `opens:` + `opensSource:` to each trip row so the calendar file picks them up. A third-party calendar feed, treader.ca/cal/parks-canada.ics, says it fills in when the dates post (not tested). Launch mornings use a random queue for everyone on the waiting page at the launch minute. reservation.pc.gc.ca or 1-877-737-3783. *(added 2026-10-04; 2026 dates added 2026-10-30)*
 - system: parksnl
   leadMonths: null
   what: Newfoundland and Labrador provincial parks (ParksNL)
@@ -97,14 +97,15 @@ trip's start date.
   note: ✅ gov.nl.ca news release 2026-04-14, page read 2026-10-04. Book at nlcamping.ca or 1-877-214-2267. The 2027 date isn't announced; watch for a mid-April release. *(added 2026-10-04)*
 - system: marine-atlantic
   leadMonths: null
+  anytime: true
   what: Marine Atlantic ferries (North Sydney ↔ Port aux Basques, North Sydney ↔ Argentia)
-  when: No published window; "book early for best availability". Vehicle space and cabins can sell out
+  when: No published window; "book early for best availability". **The schedule through Sept 30 2027 is posted** (marineatlantic.ca schedule page, 2026-10-15), so 2027 sailings should be bookable now; not checked in the booking engine itself. Vehicle space and cabins can sell out
   note: ✅ marineatlantic.ca FAQ, page read 2026-10-03. Changing or cancelling is free outside 48 h before sailing and $25 inside it, re-priced at the current rate. So book early and move it if needed. Argentia is seasonal (June 19 to Sept 30 in 2026). *(added 2026-10-04)*
 - system: belle-isle-ferry
   leadMonths: null
   what: Strait of Belle Isle ferry (St. Barbe ↔ Blanc-Sablon)
   when: Reservations reportedly open in April
-  note: 📋 Facebook group, search snippet, 2026-10-03; unverified. gov.nl.ca ferry schedules page, 1-866-535-2567. *(added 2026-10-04)*
+  note: 📋 Facebook group, search snippet, 2026-10-03; unverified. Re-searched 2026-10-30, still no published window; Labrador Marine now books through its MYLMI app or 1-866-535-2567 (labradormarine.com SBI booking page). Unbooked vehicles go standby, so this is a nice-to-have, not a trip-ender. *(added 2026-10-04)*
 - system: flights
   leadMonths: null
   what: Flights

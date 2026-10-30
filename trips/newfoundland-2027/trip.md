@@ -31,7 +31,7 @@ tags:
   - ferry
   - long haul
   - friends for a week
-next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches in **January**, then ParksNL in **mid-April**. The friends are confirmed (3, June 10–19), so the live items are their flights (Gander has about one Toronto nonstop a day) and the hotels. The car is solved: the Sienna seats everyone"
+next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches (early **February** in 2026; 2027 not announced), then ParksNL in **mid-April**. Marine Atlantic's 2027 schedule is out, so the ferries can be booked now. The friends are confirmed (3, June 10–19), so the live items are their flights (Gander has about one Toronto nonstop a day) and the hotels. The car is solved: the Sienna seats everyone"
 booking:
   - system: acadia-np
     what: Blackwoods, Acadia (May 27)
@@ -42,15 +42,15 @@ booking:
   - system: parks-canada
     what: Fundy (May 28) · Chéticamp, Cape Breton Highlands (May 29)
     target: 2027-05-28
-    note: Each park launches its own reservation date in January. Fundy launched Feb 7 in 2025. Chéticamp ran May 15 – Oct 26 in 2026 (parks.canada.ca, snippet).
+    note: Each park launches its own date; 2027 not announced as of 2026-10-30. In 2026 Fundy launched Feb 6 and Cape Breton Highlands Feb 9, both 8 AM Atlantic (7 AM ET) (me/booking.md). Chéticamp ran May 15 – Oct 26 in 2026 (parks.canada.ca, snippet).
   - system: marine-atlantic
     what: North Sydney → Port aux Basques (May 30)
     target: 2027-05-30
-    note: No published window. Book early; changes are free outside 48 h.
+    note: No published window, and the 2027 schedule is posted (marineatlantic.ca, 2026-10-15), so it should be bookable now. Changes are free outside 48 h, so booking early costs nothing.
   - system: parks-canada
     what: Gros Morne — Berry Hill (Jun 5–6), Trout River (Jun 7–9)
     target: 2027-06-05
-    note: Same January launch. Berry Hill opened May 22 in 2026; Trout River's opening wasn't found.
+    note: 2027 launch not announced; Gros Morne's 2026 launch was Wed Feb 11, 8:30 AM NT (7 AM ET) (me/booking.md). Berry Hill opened May 22 in 2026; Trout River's opening wasn't found.
   - system: parksnl
     what: ParksNL — Pistolet Bay (Jun 1–2), Pinware River (Jun 3–4), La Manche (Jun 19)
     target: 2027-06-01
@@ -508,7 +508,7 @@ overnight:
 **Schedule**
 - 8:00 → 9:45 · wake · Slow morning
 - 9:45 → 10:09 (24m) · drive · → Western Brook Pond trailhead · 📍 Western Brook Pond Trail Gros Morne
-- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). **The $99 boat: going for it** *(stated 2026-10-08: "THE experience of Gros Morne")*. Book online once 2027 opens (24 h free cancellation). It only sails with 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet. Tour times not checked
+- 10:10 → 12:30 · hike · **Western Brook Pond**, 3.3 mi / 180 ft (AllTrails 1 h 07 m). **The $99 boat: going for it** *(stated 2026-10-08: "THE experience of Gros Morne")*. **2027 online booking is already open** *(bontours.ca, BonTours post, 2026-10)* (24 h free cancellation). It only sails with 15 riders; ask at the dock. Boat season mid-May to mid-October *(source: parks.canada.ca Western Brook page, snippet, 2026-10-07)*; the 15-rider minimum is the real risk (bontours.ca, page read 2026-10-07). The walk to the dock is 3 km of crushed gravel. Bring cash: the dock has spotty internet. Tour times not checked
 - 12:30 → 2:00 · food · **Java Jack's, Rocky Harbour**: fish and chips
 - 2:00 → 8:30 · stop · Laundry and a small resupply in Rocky Harbour
 - 8:50 → 8:59 (9m) · drive · → Lobster Cove Head · 📍 Lobster Cove Head Lighthouse
