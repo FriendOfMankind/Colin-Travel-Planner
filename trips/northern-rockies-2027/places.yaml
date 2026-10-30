@@ -7,47 +7,54 @@ groups:
       - name: Chicago I-90 corridor
         note: ⚠️ Day 1. Before 10 AM or after 7 PM, nothing between.
         maps: I-90 Chicago Skyway
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.702868
+        lng: -87.524373
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Rapid City
         note: Not on the route since 2026-10-30 (I-80 to the Snowy Range instead).
         maps: Rapid City South Dakota
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.078518
+        lng: -103.226576
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Snowy Range + Vedauwoo
     places:
       - name: Vedauwoo Campground
         note: Night 2, 8,300 ft. Hand pump, vault toilets. The fs.usda.gov page lists a coordinate; place it in mapbench to verify.
         maps: Vedauwoo Campground Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.15971
+        lng: -105.373052
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Turtle Rock Trail
         note: Day 2 evening. 2.9 mi loop from the campground.
         maps: Turtle Rock Trail Vedauwoo
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.160819
+        lng: -105.376158
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Laramie
         note: Day 3 resupply and fuel, exit 311.
         maps: Laramie Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.309469
+        lng: -105.588218
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: West Lake Marie Trailhead
         note: Day 3. Medicine Bow Peak loop and the Lakes Trail start here.
         maps: West Lake Marie Trailhead
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.331396
+        lng: -106.325624
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Brooklyn Lake Campground
         note: Night 3, 10,500 ft. Opening date on the edge (mid-July vs 7/04). The fs.usda.gov page lists a coordinate; place it in mapbench to verify.
         maps: Brooklyn Lake Campground Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.373577
+        lng: -106.247259
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Badlands (not scheduled since 2026-10-30)
     places:
       - name: Cedar Pass Campground
@@ -62,15 +69,17 @@ groups:
       - name: Notch Trail
         note: Not scheduled (2026-10-30). 1.2 mi, log ladder, ledge traverse.
         maps: Notch Trail Badlands National Park
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.760013
+        lng: -101.928234
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Sage Creek Rim Road
         note: Not scheduled (2026-10-30). Bison, prairie dogs. Gravel — assess.
         maps: Sage Creek Rim Road Badlands
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.904688
+        lng: -102.334991
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Bighorns
     places:
       - name: West Tensleep Lake Campground
@@ -86,9 +95,10 @@ groups:
       - name: Buffalo, WY
         note: Not on the Day 4 route since 2026-10-30 (now WY-789 through Ten Sleep).
         maps: Buffalo Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.347562
+        lng: -106.702625
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Crazy Woman Canyon Road
         note: 🚨 Day 6. Unpaved, narrow. Decide at the road.
         maps: Crazy Woman Canyon Road Wyoming
@@ -114,9 +124,10 @@ groups:
       - name: Cody, WY
         note: Day 7. Last full resupply before Great Falls. Paid showers here if wanted.
         maps: Cody Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.52148
+        lng: -109.056569
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Chief Joseph Scenic Byway
         note: Day 7. Paved. Dead Indian Pass.
         maps: Chief Joseph Scenic Byway Wyoming
@@ -150,9 +161,10 @@ groups:
       - name: Pebble Creek Campground
         note: ⚠️ Closed for flood recovery since 2022. Check 2027 status.
         maps: Pebble Creek Campground Yellowstone
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.917497
+        lng: -110.114025
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Lamar Valley
         note: Day 10 evening. Pull-outs only. Grizzly country.
         maps: Lamar Valley Yellowstone
@@ -168,47 +180,54 @@ groups:
       - name: Artist Point
         note: Day 10. South Rim view of the Lower Falls.
         maps: Artist Point Yellowstone
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.721015
+        lng: -110.479254
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Brink of the Lower Falls Trail
         note: Day 10. North Rim, 0.8 mi.
         maps: Brink of the Lower Falls Trail Yellowstone
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.71978
+        lng: -110.49634
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Old Faithful
         note: Day 11. Upper Geyser Basin boardwalks.
         maps: Old Faithful Geyser
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.460513
+        lng: -110.82837
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Fairy Falls Trailhead (Grand Prismatic overlook)
         note: Day 11. 1.6 mi to the overlook.
         maps: Fairy Falls Trailhead Yellowstone
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.515627
+        lng: -110.832518
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Madison Campground
         note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Needs a coordinate (mapbench) before its sun times can be computed.
         maps: Madison Campground Yellowstone
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.645186
+        lng: -110.862209
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Glacier
     places:
       - name: The Loop Trailhead
         note: Day 17. End of the one-way Highline; 2026 shuttle stop.
         maps: The Loop Trailhead Glacier National Park
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 48.754859
+        lng: -113.800369
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Granite Park Chalet
         note: Day 17. Water and snacks for sale.
         maps: Granite Park Chalet
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 48.770932
+        lng: -113.772219
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Many Glacier Campground
         note: 🚨 Nights 12–15. Book mid-January 2027.
         maps: Many Glacier Campground Glacier National Park
@@ -232,9 +251,10 @@ groups:
       - name: Great Falls, MT
         note: Day 12. Final resupply and the one realistic laundry stop.
         maps: Great Falls Montana
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 47.502995
+        lng: -111.30743
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Iceberg Lake Trailhead
         note: Day 14. Lot fills by 7 AM. Bear corridor.
         maps: Iceberg Lake Trailhead Many Glacier
@@ -280,9 +300,10 @@ groups:
       - name: Painted Canyon Overlook
         note: Day 19 evening.
         maps: Painted Canyon Overlook Theodore Roosevelt
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 46.894976
+        lng: -103.382151
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Waypoints with no field entry
     places:
       - name: Notch Trailhead

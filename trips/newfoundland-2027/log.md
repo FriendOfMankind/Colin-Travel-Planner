@@ -587,3 +587,12 @@ Colin asked why the calendar file only had 8 events. The Newfoundland rows with 
 - **Marine Atlantic:** the 2027 schedule is posted through Sept 30, so `me/booking.md` now marks it bookable anytime. Not checked in the booking engine.
 - **Belle Isle ferry:** still no published window. Unbooked vehicles go standby.
 - **Found on the way:** BonTours says 2027 Western Brook Pond bookings are already open.
+
+## 2026-10-30 · Decided: the drive home stops at Bangor, then Syracuse–Rochester
+
+- Night 28 is Bangor (was: TBD; the plan already quoted North Sydney → Bangor at ~10h). Night 29 is the Syracuse–Rochester stretch, town not picked (was: TBD, "New York"). Splits the ~13h Bangor → Avon run roughly in half *(Colin, 2026-10-30, while mapping the full loop)*.
+
+## 2026-10-30 · Decided: Fundy Headquarters for night 3, a Port aux Basques motel for night 5
+
+- Night 3 is Fundy's Headquarters campground (was: "Headquarters or Chignecto"). Headquarters has the stronger opening evidence: listed year-round by parks.canada.ca (snippet), while Chignecto's May 1 opening came from a third-party site *(Colin, 2026-10-30)*.
+- Night 5 is a motel in Port aux Basques (was: "J.T. Cheeseman PP or Port aux Basques"). Cheeseman's 2026 opening date wasn't in the ParksNL list, and island lows sit in the 30s that fortnight; a motel removes both risks after seven hours on the ferry. Cheeseman (C$20.15) stays in places.yaml as the fallback, and is off the ParksNL opening check *(Colin, 2026-10-30)*.

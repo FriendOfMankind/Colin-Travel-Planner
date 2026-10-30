@@ -18,6 +18,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A trip's plan | `trips/<slug>/trip.md` |
 | What actually happened / past experience | `trips/<slug>/log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
+| A day's road line (GPX, with source) | `trips/<slug>/routes.yaml` → `routes/*.gpx` |
+| Mapping a trip, start to finish (pins, roads, Map tab, Kepler) | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
@@ -77,7 +79,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
 - **Social sources, tested 2026-10-07:** YouTube gives the full transcript and description through Firecrawl scrape, but not the comments. Reddit and Instagram show up in search, but only as snippets: Firecrawl refuses to scrape both, and old.reddit.com is blocked. Facebook groups need a login, so assume they're unreachable. For anything you can't read, ask Colin to fetch it (`me/working-rules.md`).
-- Coordinates come from Colin, placed in Trees' `mapbench.html`, never from a guess.
+- Coordinates come from Colin, via the Pin Ledger or a pasted Google Maps long-press (`docs/MAPS.md`), never from a guess.
 - This session can't delete remote branches. GitHub's "Automatically delete head branches" setting handles merged ones.
 
 ## Commands
@@ -91,15 +93,17 @@ node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, manifest, icons, booking-alarms.ics for Pages
 node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins, for Drive and Organic Maps
+node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
+node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
+python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)
 ```
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: the site's Map tab, real road lines (`tools/roads.py`), the Pin Ledger and Kepler files, all in the `docs/MAPS.md` workflow (2026-10-30), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
-1. **Port `mapbench.html`** so coordinates can be placed against this repo.
-2. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-3. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
+1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
+2. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

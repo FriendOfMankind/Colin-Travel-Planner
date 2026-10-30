@@ -19,7 +19,7 @@ country: Canada
 coords: [ 49, -56 ]
 nights: 29 nights
 distance: ~5,700 mi + four ferry crossings
-budget: ~US$3,100 core as camped (2026-10-04); the friends' hotel week adds to it and isn't recomputed
+budget: ~US$3,100 core as camped (2026-10-04); the friends' hotel week and the night-5 Port aux Basques motel add to it and aren't recomputed
 tags:
   - car camping
   - geology
@@ -196,13 +196,13 @@ type: travel + activity
 driving: 5h 27m (routed +15%) via Calais
 slack: Moderate; the border is the unknown.
 overnight:
-  name: TBD — Headquarters or Chignecto
-  place: Fundy NP, NB
-  kind: National park campground
+  name: Fundy NP campground — Headquarters
+  place: Fundy NP, NB (by Alma)
+  kind: National park campground *(Colin, 2026-10-30)*
   cost: ⚠️ fee not found, ~$30 est.
   checkin: TBD
   confirmation: TBD
-  notes: One night. Chignecto was listed as open May 1 on a third-party site.
+  notes: One night. Headquarters is listed as open year-round (parks.canada.ca, search snippet).
 ```
 
 **Schedule**
@@ -264,19 +264,19 @@ type: travel
 driving: 2h 07m to North Sydney (routed +15%)
 slack: Tight in the morning; check-in closes 2 h before sailing.
 overnight:
-  name: TBD — J.T. Cheeseman PP or Port aux Basques
+  name: Port aux Basques motel — TBD
   place: Port aux Basques, NL
-  kind: Provincial park or motel
-  cost: $20.15 CAD unserviced (ParksNL)
-  checkin: TBD
+  kind: Motel *(Colin, 2026-10-30)*
+  cost: TBD
+  checkin: TBD — confirm late arrival works with the ferry's early-evening landing
   confirmation: TBD
-  notes: ⚠️ J.T. Cheeseman's 2026 opening date wasn't in the ParksNL list; confirm it's open by May 30. Locals' most-agreed advice is to book the first night off the ferry; Cheeseman fills fast (Facebook, via Colin's scrape, 2026-10-07).
+  notes: Book it; locals' most-agreed advice is to book the first night off the ferry (Facebook, via Colin's scrape, 2026-10-07). If the midday sailing fails and you take the overnight one, this night is lost, so check the cancellation terms when booking.
 ```
 
 **Schedule**
 - 7:30 → 9:37 (2h 07m) · drive · Chéticamp → North Sydney terminal. **Check in at least 2 h before sailing** *(marineatlantic.ca)* · 📍 Marine Atlantic North Sydney
 - midday (7h) · ferry · **North Sydney → Port aux Basques.** The posted 2026–27 schedule has a midday sailing (11:45 or 12:15) and an overnight one (23:15 or 23:30) every day; the page doesn't label which week-block covers May 30, so confirm in the booking engine *(marineatlantic.ca schedule, read 2026-10-08)*. Arrival early evening. **If the morning goes wrong, the overnight sailing is the fallback:** you land in the morning and Day 6 starts at the terminal, with tonight's camp lost
-- evening · camp · Port aux Basques area · 📍 J.T. Cheeseman Provincial Park
+- evening · stop · Motel in Port aux Basques · 📍 Port aux Basques NL
 
 **Meals**
 - B: made at camp
@@ -968,7 +968,7 @@ overnight:
 - 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
 - 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
 - 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
-- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
+- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)* · 📍 Marine Atlantic North Sydney
 
 **Meals**
 - B: made or bought
@@ -984,9 +984,9 @@ type: travel
 driving: depends on arrival; North Sydney → Bangor is 10h 14m (routed +15%)
 slack: n/a
 overnight:
-  name: TBD
-  place: Nova Scotia, New Brunswick or Maine
-  kind: Transit night — not identified
+  name: Bangor — motel TBD
+  place: Bangor, ME
+  kind: Transit night *(Colin, 2026-10-30)*
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD
@@ -994,7 +994,7 @@ overnight:
 ```
 
 **Schedule**
-- TBD · drive · North Sydney → toward Calais and Bangor · 📍 Calais Maine
+- TBD · drive · North Sydney → toward Calais and Bangor · 📍 Calais Maine border crossing
 
 **Meals**
 - B: bought on board
@@ -1010,9 +1010,9 @@ type: travel
 driving: TBD — Bangor → Avon is ~13h, a guess (the routing tool failed twice)
 slack: n/a
 overnight:
-  name: TBD
-  place: New York
-  kind: Transit night — not identified
+  name: Syracuse–Rochester area — motel TBD
+  place: Upstate New York
+  kind: Transit night; town not picked *(Colin, 2026-10-30)*
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD
@@ -1058,9 +1058,9 @@ total: Not totalled; the hotel week isn't priced
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wed 5/26 | Albany area, NY | Transit | TBD | ~$35 est. | Not identified |
 | 2 | Thu 5/27 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Opens Dec 1, 10 AM ET (first release) |
-| 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters or Chignecto | ~$30 est. | January launch |
+| 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters | ~$30 est. | January launch |
 | 4 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
-| 5 | Sun 5/30 | Port aux Basques, NL | ParksNL | J.T. Cheeseman | C$20.15 | Mid-April; opening date not confirmed |
+| 5 | Sun 5/30 | Port aux Basques, NL | Motel | TBD | TBD | Not identified; book with free cancellation |
 | 6 | Mon 5/31 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
 | 7 | Tue 6/1 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
 | 8 | Wed 6/2 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
@@ -1164,7 +1164,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Marine Atlantic, North Sydney → Port aux Basques (May 30)
 - [x] Marine Atlantic 2027 Argentia schedule: posted. Mon, Thu and Sat at 17:00 from Argentia (read 2026-10-08)
 - [ ] Marine Atlantic, Argentia → North Sydney (Jun 21) + cabin
-- [ ] ParksNL season opening (mid-April 2027) — Pinware River, Pistolet Bay, La Manche, J.T. Cheeseman
+- [ ] ParksNL season opening (mid-April 2027) — Pinware River, Pistolet Bay, La Manche
 - [ ] Strait of Belle Isle ferry both ways, and which clock its schedule uses (1-866-535-2567)
 - [ ] Red Bay Saddle Island tour times
 - [ ] Mistaken Point tour, Sun June 20 at 10:30 ($23, reservations required; mistakenpoint.ca/book)
