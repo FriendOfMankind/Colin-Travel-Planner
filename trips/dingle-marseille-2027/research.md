@@ -4,7 +4,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
-*Last refreshed 2026-10-30 (imported from the 2026-10-29 handoff; nothing re-fetched yet).*
+*Last refreshed 2026-10-30 (route and food sweep; see log).*
 
 ## 1. Flights
 - 🟡 **Open-jaw CLE–DUB / MRS–CLE**: observed $3,601 for 3. ⬜ intermediate times, terminals, and whether 1h59 at ORD is a legal, sane connection
@@ -12,8 +12,8 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Fallback flights**: EI 514, Cork via LHR, Shannon, Kerry–Dublin all checked and ruled out (log)
 
 ## 2. Ireland ground
-- ⬜ **May 11 Dublin Airport → Dingle**: fares ✅, actual departure chain and last 275 out of Tralee ⬜
-- 🟡 **May 15 FlightLink 722**: current timetable and fare ✅; ⬜ the dated May 2027 run and Dublin terminal stop
+- 🟡 **May 11 Dublin Airport → Dingle**: FlightLink 11:00 → Farranfore ✅ (departures, fare); 275 Tralee → Dingle ✅ (10 a day, last 22:00, NTA Oct 2026). ⬜ Farranfore → Tralee leg, and the FlightLink arrival time (inferred)
+- 🟡 **May 15 FlightLink 722**: every 2 h from Killarney, Farranfore +15 min, €39 online ✅; ⬜ dated May 2027 run, Dublin terminal stop, and whether a Kerry Airport → Dublin flight beats it
 - ⬜ **Family address**: decides Killarney vs Farranfore and the leave time
 - 🟡 **Dublin airport hotel fallback**: 2-person rate ✅, 3-person ⬜
 - ⬜ **Slea Head tour or driver**: not priced
@@ -23,14 +23,24 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Shortlist of 4 apartments for 3** (log, trip Notes)
 - ⬜ **Two-bedroom apartments**: not priced
 - 🟡 **Sofa-bed dimensions and late check-in** per property
-- ⬜ **Neighbourhood and food research**: no named restaurants or dishes yet (OAS and spice rules in `me/food.md`)
+- ✅ **Food and the day-to-day**: staples, value categories, *formule* rules, Sunday shop hours (trip Notes). 🟡 restaurant hours for Chez Étienne, Chez Sauveur, Chez Jeannot
+- 🟡 **Safety**: DW Travel (2025-07) found the centre fine; the dangerous reputation is the Quartiers Nord. 🔒 Reddit r/Marseille for current pickpocket hot spots
 
 ## 4. Outings
 - 🟡 **Mucem / Notre-Dame**: current hours ✅, 2027 hours ⬜, Whit Monday operations ⬜
-- 🟡 **Calanques**: viewpoint-first plan, access rules ✅; Sugiton 2027 reservation dates ⬜; AllTrails figures for Luminy → Sugiton ⬜
-- 🟡 **Cassis / Aix**: TER fares ✅; dated timetables ⬜ (not published this far out); Cassis boat ⬜
-- 🟡 **Frioul**: 2026 fare ✅; 2027 sailings ⬜
+- ✅ **Calanques access in May**: Sugiton reservations only June 20 – Aug 30 (2026); Cassis-side limits from June 1. Buses: B1 to Luminy, 78 to Cassis, 19 + 20 to Callelongue ✅. ⬜ the 2027 dates when they post
+- 🟡 **Cassis / Aix**: Cassis by bus 78 ✅; Aix TER fare ✅, the Aix bus option ⬜; Cassis boat ⬜
+- 🟡 **Frioul**: July 2026 sailings ✅, resident fares ✅; ⬜ visitor fare and May frequency
+- ✅ **Airport transfer**: A1 €15 / €7 ages 12–25; TER + 13A €8.70 (2026)
 - ⬜ **Sunsets**: not computed (never hand-typed)
 
 ## Fetch list (Colin)
 - 🔒 `Day-by-day-timed-itinerary.md` and `Three-traveler-price-check.md` from the Windows PC: upload them to the chat or Drive and they get merged here
+- 🔒 **Reddit r/Marseille and r/ireland**: search "Calanques bus May", "Marseille pickpockets Vieux-Port", "Dublin airport to Dingle bus". Paste the top comments: current pickpocket spots, whether the B1 is packed on weekday mornings, and whether anyone did FlightLink → Farranfore → Tralee
+- 🔒 **Facebook "My South of France" (provencewithme)**: her En-Vau tips are in the first comment of the Nov 7, 2025 post. Paste them
+
+## 5. Gems (AI-search round, 2026-10-30)
+- 🟡 **Dingle side**: Eask Tower, Dunquin Pier, Minard, Inch, Brandon Creek and Point, Glanteenassig, Blennerville. All from Instagram and Facebook posts cited by an AI search; the posts aren't opened (walled). ✅ Local Link 268/276/277a/277b exist (locallinkkerry.ie); ⬜ their May days and times
+- ✅ **Bibémus**: guided only, FR, €18, Fri 18:00 / Sat 10:00 (2026), no bus
+- 🟡 **Baie des Singes, Hôpital Caroline exterior, Marché des Capucins**: AI-cited posts; Caroline backed by official pages
+

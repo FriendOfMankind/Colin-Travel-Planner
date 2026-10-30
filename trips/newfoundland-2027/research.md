@@ -6,13 +6,13 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 *Last refreshed 2026-10-10 (friends confirmed; flights into Gander).*
 
-## 1. Getting there (Days 1–7)
+## 1. Getting there (Days 1–5)
 - ✅ **Acadia: Blackwoods booking**: Dec 1, 10 AM ET release
-- ✅ **Acadia: the Beehive**: not on the 2026 peregrine closure list (WABI). Re-check in spring
-- 🟡 **Acadia: carriage roads**: mud-season closure usually lifts mid-May; no Island Explorer bus until late June. ⬜ where to park
-- 🟡 **Bar Harbor bike rental** (Day 4): prices ✅ (basic bike $41–45/day, helmets included; 2026 pages). ⬜ open on May 26?
+- ✅ **Acadia: the Beehive** (not scheduled since 2026-10-30): not on the 2026 peregrine closure list (WABI). Re-check in spring
+- ~~Acadia: carriage roads~~ (not scheduled since 2026-10-30): mud-season closure usually lifts mid-May; no Island Explorer bus until late June. ⬜ where to park
+- ⬜ **Bar Harbor bike rental** (not needed: the bike day was cut 2026-10-30): prices ✅ (basic bike $41–45/day, helmets included; 2026 pages). ⬜ open on May 26?
 - ✅ **Fundy campgrounds**: from May 15
-- 🟡 **Hopewell Rocks**: open 9–5 only in late May ✅. ⬜ the 2027 tide on 5/28 (from NB Parks' tide table, never typed)
+- 🟡 **Hopewell Rocks**: open 9–5 only in late May ✅. ⬜ the 2027 tides on 5/28 and 5/29 (from NB Parks' tide table, never typed)
 - ✅ **Chéticamp campground**: May 15 – Oct 26 (2026)
 - ✅ **Skyline Trail**: no parking reservation needed in late May (2026 rule: June 26 – Oct 25); spring snow possible
 - ~~Celtic Shores rail trail~~: dropped with the bike *(2026-10-08)*
@@ -37,7 +37,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 ## 4. Labrador (Days 12–14)
 - ✅ **Clocks**: Blanc-Sablon is 90 min behind; the ferry and Red Bay run on Newfoundland Time
 - ✅ **Red Bay and Saddle Island**: opens June 1; tours at 10, 11 and 2; the boat ran with 7 people in spring 2026; calm water only
-- ✅ **Point Amour**: 9:30–5, **closed weekends** (2026). Day 13 retimed
+- ✅ **Point Amour**: 9:30–5, **closed weekends** (2026). Day 10 retimed
 - ⬜ **Pinware River PP**: nothing beyond opening dates. 🔒
 - 🟡 **Whaler's Restaurant**: two secondhand mentions, hours not checked
 
@@ -57,16 +57,16 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Group extras**: screech-in, trad sessions (weekend only, as found), Trinity EcoTours, Fogo Island (idea). All in `log.md` 2026-10-10
 - 🟡 **Twillingate icebergs**: none in 2024, plenty on June 5 2025 (Iceberg Quest video). A gamble either way
 - ✅ **Elliston puffins and the Skerwink**: busy, go early; capelin and whales in June–July (2026 video)
-- ✅ **Cape Spear**: grounds open year-round, so sunrise works; dawn wind. ⚠️ **North Head**: a cliff ledge with chains, so do it in daylight (Day 24 updated). ⬜ St. John's walking route, Quidi Vidi
+- ✅ **Cape Spear**: grounds open year-round, so sunrise works; dawn wind. ⚠️ **North Head**: a cliff ledge with chains, so do it in daylight (Day 21 updated). ⬜ St. John's walking route, Quidi Vidi
 - ✅ **Witless Bay boats**: Gatherall's runs from May 14
 - ✅ **La Manche**: 1.8 mi / 308 ft out and back to the suspension bridge (AllTrails)
-- 🟡 **St. Vincent's Beach**: whales close to shore in capelin season; it's on the Irish Loop right after Mistaken Point (routed). **Chosen 2026-10-08** (Day 29)
+- 🟡 **St. Vincent's Beach**: whales close to shore in capelin season; it's on the Irish Loop right after Mistaken Point (routed). **Chosen 2026-10-08** (Day 26)
 
 ## 7. Avalon solo and home (Days 28–33)
 - ✅ **Colony of Avalon**: June–October, five tour times
 - ✅ **Cape St. Mary's**: 1.5 km trail, free, ~70,000 seabirds (2022 video)
 - 🟡 **Night of June 20**: Argentia Sunset RV Park (2.5 km from the ferry; tents unconfirmed), a Hipcamp, or free Chance Cove PP on the Irish Loop. Depends on the Mistaken Point decision
-- 🟡 **⭐ Mistaken Point** (new): 565-million-year-old Ediacaran fossils, UNESCO; daily 10:30/12:30 guided tours, 6 km, $23, reservations required. **Chosen 2026-10-08** (Day 29)
+- 🟡 **⭐ Mistaken Point** (new): 565-million-year-old Ediacaran fossils, UNESCO; daily 10:30/12:30 guided tours, 6 km, $23, reservations required. **Chosen 2026-10-08** (Day 26)
 - 🟡 **North Sydney arrival**: The Black Spoon for seafood chowder (2024 video). ⬜ arrival time
 
 ## 8. Cross-cutting
@@ -74,7 +74,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Moose**: dusk *and* dawn
 - 🟡 **Cell signal and offline maps**: Rogers dead around St. Barbe. ⬜ carrier check for Colin's plan
 - 🟡 **Blackflies and mosquitoes**: one July 2023 video: mosquitoes at Cape Norman, "stouts" (horseflies) on Fogo, the worst bugs at Chance Cove PP. Nothing for June yet. 🔒 Facebook groups
-- 🟡 **Route 91 to Argentia** (Day 29): gravel in July 2023 (video); current surface unknown
+- 🟡 **Route 91 to Argentia** (Day 26): gravel in July 2023 (video); current surface unknown
 
 ## Fetch list for Colin (🔒)
 1. **Discovering Newfoundland** (Facebook): "Saddle Island", "Point Amour hours", "Pistolet Bay"

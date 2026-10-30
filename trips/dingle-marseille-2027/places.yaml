@@ -66,6 +66,84 @@ groups:
         verified: false
         lat: null
         lng: null
+      - name: Kilmalkedar Church
+        note: Day 3, optional. 12th-century Romanesque ruin, sundial, Alphabet Stone.
+        maps: Kilmalkedar Church
+        verified: false
+        lat: null
+        lng: null
+      - name: Reask Monastic Site
+        note: Day 3, optional. Early-medieval monastery, free (OPW).
+        maps: Reask Monastic Site
+        verified: false
+        lat: null
+        lng: null
+      - name: Blennerville Windmill
+        note: Day 2, optional stop on bus 275.
+        maps: Blennerville Windmill
+        verified: false
+        lat: null
+        lng: null
+      - name: Dunquin Pier
+        note: Day 3, optional. Cliff path to the old Blasket pier. Not in wind.
+        maps: Dunquin Pier
+        verified: false
+        lat: null
+        lng: null
+      - name: Eask Tower
+        note: Day 4 afternoon hike, with WWII Lookout Post 36. Access not checked.
+        maps: Eask Tower Dingle
+        verified: false
+        lat: null
+        lng: null
+      - name: Minard Castle
+        note: Day 5 east option. View from the beach only.
+        maps: Minard Castle Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Inch Beach
+        note: Day 5 east option.
+        maps: Inch Beach Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Brandon Creek
+        note: Day 5 north option, taxi.
+        maps: Brandon Creek Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Brandon Point
+        note: Day 5 north option, taxi.
+        maps: Brandon Point Kerry
+        verified: false
+        lat: null
+        lng: null
+      - name: Glanteenassig Forest Park
+        note: Day 5 north option, car needed.
+        maps: Glanteenassig Forest Park
+        verified: false
+        lat: null
+        lng: null
+      - name: Killarney Bus Station
+        note: Local Link 276 to and from Dingle, daily. May 11 18:00 in, May 15 07:10 out.
+        maps: Killarney Bus Station
+        verified: false
+        lat: null
+        lng: null
+      - name: Dunquin Blasket Centre
+        note: Day 3, Local Link 277a stop.
+        maps: Blasket Centre Dunquin
+        verified: false
+        lat: null
+        lng: null
+      - name: The Fish Box
+        note: Day 4 lunch. Seafood takeaway.
+        maps: The Fish Box Dingle
+        verified: false
+        lat: null
+        lng: null
       - name: South Pole Inn
         note: Day 5, optional. Tom Crean's pub, Annascaul.
         maps: South Pole Inn Annascaul
@@ -105,7 +183,7 @@ groups:
         lat: null
         lng: null
       - name: Frioul ferry (Vieux-Port)
-        note: Day 12, optional. Wind-dependent.
+        note: Day 13. Wind-dependent.
         maps: Frioul If Express Vieux-Port
         verified: false
         lat: null
@@ -127,6 +205,90 @@ groups:
       - name: Gare de Cassis
         note: Day 10. Above town; bus 371 down.
         maps: Gare de Cassis
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Port-Miou
+        note: Day 10. Start of the Port-Miou → Port-Pin → En-Vau loop, from Cassis.
+        maps: Calanque de Port-Miou
+        verified: false
+        lat: null
+        lng: null
+      - name: Callelongue
+        note: Day 12 trailhead, end of the road south of Marseille. Bus not checked.
+        maps: Callelongue Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Marseilleveyre
+        note: Day 12 loop.
+        maps: Calanque de Marseilleveyre
+        verified: false
+        lat: null
+        lng: null
+      - name: Anse de la Fausse Monnaie
+        note: Day 8, Malmousque coves. Rock swimming.
+        maps: Anse de la Fausse Monnaie Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Les Goudes
+        note: Day 12, on the bus 20 route. Tuba Club.
+        maps: Les Goudes Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Hôpital Caroline
+        note: Day 13. 1820s quarantine hospital ruins, Ratonneau.
+        maps: Hôpital Caroline Frioul
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Saint-Estève
+        note: Day 13. Swim below the Fort de Ratonneau.
+        maps: Calanque de Saint-Estève Frioul
+        verified: false
+        lat: null
+        lng: null
+      - name: Jardin des Peintres
+        note: Day 11. Cézanne's Sainte-Victoire viewpoint.
+        maps: Jardin des Peintres Aix-en-Provence
+        verified: false
+        lat: null
+        lng: null
+      - name: Oppidum d'Entremont
+        note: Day 11, optional. Pre-Roman hill town ruins.
+        maps: Oppidum d'Entremont
+        verified: false
+        lat: null
+        lng: null
+      - name: Plage de la Baie des Singes
+        note: Day 12, optional swim at Cap Croisette.
+        maps: Plage de la Baie des Singes
+        verified: false
+        lat: null
+        lng: null
+      - name: Carrières de Bibémus
+        note: Guided only (FR, €18); not on a day yet. No bus.
+        maps: Carrières de Bibémus
+        verified: false
+        lat: null
+        lng: null
+      - name: Place des Moulins
+        note: Day 7, Le Panier.
+        maps: Place des Moulins Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Hôtel de Cabre
+        note: Day 7, oldest house (1535), outside only.
+        maps: Hôtel de Cabre Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Piscine Maritime des Auffes
+        note: Day 8, rock pool under the bridge.
+        maps: Piscine Maritime des Auffes
         verified: false
         lat: null
         lng: null
