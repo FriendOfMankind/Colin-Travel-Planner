@@ -178,6 +178,8 @@ overnight:
 **Schedule**
 - morning · drive · **Slea Head loop**, ~3–4 h with stops. Needs a paid tour or a driver, **not priced**. If family wants to drive it, that's their call, not the plan. · 📍 Slea Head Drive
 - optional · ruins · Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*. · 📍 Gallarus Oratory
+- optional · ruins · **Kilmalkedar**, 2 km from Gallarus: a roofless 12th-century Romanesque church with carved doorways, a medieval sundial (one of nine in Ireland) and the Alphabet Stone. Free, open ground *(dingle-peninsula.ie)* · 📍 Kilmalkedar Church
+- optional · ruins · **An Riasc (Reask)**: an excavated early-medieval monastery, with hut foundations, a church outline and a 6th-century carved cross-pillar. Free (OPW). Signposted off the road by Bric's pub *(dingle-peninsula.ie)* · 📍 Reask Monastic Site
 - afternoon · stop · Family.
 
 **Meals**
@@ -313,6 +315,7 @@ overnight:
 **Schedule**
 - morning · hike · **Notre-Dame de la Garde**, on foot or bus 60. Sanctuary open 07:00–18:00 (2026), interior limited during services. Go in the morning; the grounds close before sunset. · 📍 Notre-Dame de la Garde
 - afternoon · walk · Down to **Vallon des Auffes**, then along the **Corniche Kennedy**. · 📍 Vallon des Auffes
+- optional · walk · **Malmousque**, just past Vallon des Auffes: a fishing village inside the city, with lanes like "Traverse de la Fausse Monnaie" that end at tiny coves. Locals swim off the rocks here, and the water is clearer than at the city beaches. The rocks are slippery and sharp *(marseilletourisme.fr; Broadsheet, 2026-05)* · 📍 Anse de la Fausse Monnaie Marseille
 - evening · sunset · Corniche sunset, if the light's good. Time not computed yet.
 
 **Meals**
@@ -392,6 +395,8 @@ overnight:
 **Schedule**
 - morning (~45m) · travel · **TER to Aix-en-Provence Centre**, €10.90 each way (current). **Not Aix TGV**, which is out in the fields. · 📍 Gare d'Aix-en-Provence Centre
 - day · walk · Cours Mirabeau and the old town. · 📍 Cours Mirabeau Aix-en-Provence
+- afternoon · walk · **Jardin des Peintres**: the hillside where Cézanne painted Sainte-Victoire, with reproductions of the paintings at the spots they were painted. Free, open all day, 10 min on foot from the Atelier Cézanne *(aixenprovence.fr)* · 📍 Jardin des Peintres Aix-en-Provence
+- optional · ruins · **Oppidum d'Entremont**, ~1 km further along Chemin de la Marguerite: a pre-Roman Celto-Ligurian hill town *(seeprovence.com)*. Opening hours not checked · 📍 Oppidum d'Entremont
 - evening · travel · TER back.
 
 **Meals**
@@ -416,6 +421,7 @@ overnight:
 **Schedule**
 - morning (~35m) · travel · **Bus 19 from Castellane or Rond-Point du Prado to Madrague de Montredon, then bus 20 to Callelongue** *(marseille-tourisme.com; calanques-parcnational.fr)*. ⚠️ **Only one bus 20 an hour**: check the time before leaving *(randonnees-calanques.fr)* · 📍 Callelongue Marseille
 - morning (~3h 10m) · hike · **Calanque de Marseilleveyre loop**. ✅ AllTrails: **5.4 mi, 1,492 ft, Moderate, 4.8★, ~3h 07m** *(2026-10-30)*. A weekday on purpose: the city's closest calanques fill on weekends. Shorter option: Callelongue → Marseilleveyre and back, 3.2 mi / 488 ft *(AllTrails)* · 📍 Calanque de Marseilleveyre
+- afternoon · walk · **Les Goudes** on the way back: the bus 20 goes through it. An old fishing village at the end of the city. Tuba Club, a former diving club that's now a restaurant, is the local pick *(Broadsheet, 2026-05)*. **Calanque de Samena**, a pebble cove under steep rock, is just before it *(same)* · 📍 Les Goudes Marseille
 - afternoon · stop · Back in town, slow afternoon.
 
 **Meals**
@@ -431,7 +437,7 @@ Same park-access rule as Day 9: check the day before.
 
 ```yaml
 date: 2027-05-22
-tagline: A ferry to the islands off the Vieux-Port, and the prison from The Count of Monte Cristo.
+tagline: A ferry to the islands, a ruined quarantine hospital, WWII bunkers, and a swim.
 type: activity
 slack: Most of the day. If the wind cancels the boats, it's a free city day.
 overnight:
@@ -443,7 +449,9 @@ overnight:
 
 **Schedule**
 - morning · ferry · **Frioul islands** from the Quai des Belges. In July 2026 boats left roughly every 30–60 min, 06:30–23:50; May will be thinner *(Zou! timetable, 2026-07)*. €11.10 return for one island and €16.70 for If + Frioul are the **local-resident** fares; the visitor fare wasn't shown *(marseille-tourisme.com)*. **Mistral cancels the Château d'If boats**, and the château charges €7 entry on top *(frequence-sud.fr, 2026-06)* · 📍 Vieux-Port Frioul ferry
-- day · walk · The islands on foot, and the château if the boat stops there.
+- day · ruins · **Hôpital Caroline** on Ratonneau: an 1820s quarantine hospital for yellow fever, closed 1948, now a big stone ruin being restored by the Acta Vista association. Free *(marseilletourisme.fr; lebateau-frioul-if.fr)* · 📍 Hôpital Caroline Frioul
+- day · walk · **Fort de Ratonneau and the Cap de Croix battery**: WWII bunkers and ammunition stores cut into the rock, with a 360° view back to Marseille *(marseilletourisme.fr)*. Then **Calanque de Saint-Estève** for a swim · 📍 Calanque de Saint-Estève Frioul
+- optional · stop · The Château d'If, if the boat stops there (no boats in mistral; €7 entry).
 - evening · food · Vieux-Port.
 
 **Meals**

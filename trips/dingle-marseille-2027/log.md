@@ -108,3 +108,13 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - The layover lengths weren't in the screenshot. The 2026-10-29 May 22 routing had only 1h 59m at O'Hare.
 - **Every option leaves Marseille at 06:15–07:15**, so it's a ~04:15 start. The A1 runs from ~04:10, every 20 min.
 - The budget still uses the May 22 open-jaw ($1,200 a person, round trip). A $596 one-way plus a CLE → DUB one-way can't be compared with it until the multi-city fare is priced.
+
+## 2026-10-30 · Hidden gems along each day's route
+
+Colin wants places marked in advance so each day's route is known *(stated 2026-10-30)*. Added as **optional** lines on their days, with pins in `places.yaml` (unverified):
+- **Day 3:** Kilmalkedar, a 12th-century Romanesque ruin with a sundial and the Alphabet Stone; An Riasc, an early-medieval monastery, free *(dingle-peninsula.ie)*.
+- **Day 8:** Malmousque and the Anse de la Fausse Monnaie: fishing-village lanes and rock swimming past Vallon des Auffes *(marseilletourisme.fr; Broadsheet 2026-05-20)*.
+- **Day 11:** Jardin des Peintres, Cézanne's Sainte-Victoire viewpoint, free and open all day *(aixenprovence.fr)*. Oppidum d'Entremont, pre-Roman ruins ~1 km further *(seeprovence.com)*; hours not checked.
+- **Day 12:** Les Goudes and the Calanque de Samena on the bus 20 route; Tuba Club *(Broadsheet 2026-05-20)*.
+- **Day 13:** Hôpital Caroline (1820s quarantine-hospital ruins, closed 1948, under restoration by Acta Vista), Fort de Ratonneau and the Cap de Croix bunkers, a swim at Calanque de Saint-Estève *(marseilletourisme.fr; lebateau-frioul-if.fr)*. The "explorable, unrestored ruins" rule (`me/principles.md` 10) makes this the trip's best fit.
+- **Looked at, not added:** the Route des Crêtes above Cassis is pedestrian only on Sundays from late April *(marseille-tourisme.com)*, and Cassis day is a Wednesday.

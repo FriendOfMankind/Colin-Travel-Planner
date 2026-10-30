@@ -66,6 +66,18 @@ groups:
         verified: false
         lat: null
         lng: null
+      - name: Kilmalkedar Church
+        note: Day 3, optional. 12th-century Romanesque ruin, sundial, Alphabet Stone.
+        maps: Kilmalkedar Church
+        verified: false
+        lat: null
+        lng: null
+      - name: Reask Monastic Site
+        note: Day 3, optional. Early-medieval monastery, free (OPW).
+        maps: Reask Monastic Site
+        verified: false
+        lat: null
+        lng: null
       - name: South Pole Inn
         note: Day 5, optional. Tom Crean's pub, Annascaul.
         maps: South Pole Inn Annascaul
@@ -145,6 +157,42 @@ groups:
       - name: Calanque de Marseilleveyre
         note: Day 12 loop.
         maps: Calanque de Marseilleveyre
+        verified: false
+        lat: null
+        lng: null
+      - name: Anse de la Fausse Monnaie
+        note: Day 8, Malmousque coves. Rock swimming.
+        maps: Anse de la Fausse Monnaie Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Les Goudes
+        note: Day 12, on the bus 20 route. Tuba Club.
+        maps: Les Goudes Marseille
+        verified: false
+        lat: null
+        lng: null
+      - name: Hôpital Caroline
+        note: Day 13. 1820s quarantine hospital ruins, Ratonneau.
+        maps: Hôpital Caroline Frioul
+        verified: false
+        lat: null
+        lng: null
+      - name: Calanque de Saint-Estève
+        note: Day 13. Swim below the Fort de Ratonneau.
+        maps: Calanque de Saint-Estève Frioul
+        verified: false
+        lat: null
+        lng: null
+      - name: Jardin des Peintres
+        note: Day 11. Cézanne's Sainte-Victoire viewpoint.
+        maps: Jardin des Peintres Aix-en-Provence
+        verified: false
+        lat: null
+        lng: null
+      - name: Oppidum d'Entremont
+        note: Day 11, optional. Pre-Roman hill town ruins.
+        maps: Oppidum d'Entremont
         verified: false
         lat: null
         lng: null
