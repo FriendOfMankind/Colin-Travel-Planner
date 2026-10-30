@@ -65,6 +65,10 @@
     return "active";
   };
   /** Served from GitHub Pages (or any web server), not claude.ai or a file. */
+  // claude.ai never lets a page save an .ics (blob links do nothing, and the
+  // downloads capability's allowlist has no calendar type), so off Pages the
+  // button points at the Pages copy, which .github/workflows/pages.yml deploys.
+  const PAGES_URL = "https://friendofmankind.github.io/Colin-Travel-Planner/";
   const hosted = /^https?:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(location.hostname);
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
 
@@ -240,7 +244,10 @@
       ${block("Window unknown", "Confirm these by hand.", g.unknown, (x) => `<span class="muted">for</span><br>${fmtY(x.target)}`)}
       ${D.ics ? `<div class="panel pad"><div class="eyebrow">Calendar alarms</div>
         <p style="margin:4px 0 10px;font-size:14px">One event per window that hadn't opened when this page was built: at the release minute when it's known, with an alarm the evening before (and 10 minutes ahead for a timed release). Re-importing updates the same events.</p>
-        <a class="btn primary" href="booking-alarms.ics" download="booking-alarms.ics" data-ics>Download .ics</a></div>` : ""}
+        ${hosted
+          ? `<a class="btn primary" href="booking-alarms.ics" download="booking-alarms.ics">Download .ics</a>`
+          : `<a class="btn primary" href="${PAGES_URL}booking-alarms.ics" target="_blank" rel="noopener">Get the .ics</a>
+        <p class="muted" style="margin:8px 0 0;font-size:12.5px">This copy can't hand over a calendar file, so the button opens the GitHub Pages copy. That works once Pages is turned on (Settings → Pages → Source: GitHub Actions).</p>`}</div>` : ""}
       <p class="muted" style="font-size:12.5px">Same computation as <code>tools/now.mjs</code> and <code>tools/ics.mjs</code>. Mark a row <code>booked: true</code> in its <code>trip.md</code> to drop it.</p>
     </div>`;
   };
@@ -519,18 +526,6 @@
     }
     const f = e.target.closest("[data-filter]");
     if (f) { const v = f.dataset.val, y = window.scrollY; store.set(f.dataset.filter, f.dataset.filter === "ideaMonth" ? Number(v) : v); render(); window.scrollTo(0, y); return; }
-    const ics = e.target.closest("[data-ics]");
-    if (ics && !hosted) {
-      // No booking-alarms.ics beside this copy (claude.ai, or a saved file):
-      // hand over the same text, embedded at build time.
-      e.preventDefault();
-      try {
-        const url = URL.createObjectURL(new Blob([D.ics], { type: "text/calendar" }));
-        const a = document.createElement("a"); a.href = url; a.download = "booking-alarms.ics";
-        document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(url), 5000);
-      } catch {}
-      return;
-    }
     if (e.target.id === "pv-trip") { store.set("previewAt", "2026-10-18T09:00"); render(); }
     if (e.target.id === "pv-clear") { store.set("previewAt", null); render(); }
   });
