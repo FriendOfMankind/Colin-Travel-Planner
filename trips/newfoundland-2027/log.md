@@ -571,3 +571,9 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - **Sunsets recomputed** for the new dates at regional points (NOAA formula): Bar Harbor 5/27 8:04, Alma 5/28 8:57, Chéticamp 5/29 8:46. The same formula gives Trees' old values +1 minute, so the shift was applied as a difference.
 - **Open, and new:** **Pack the Sienna before May 10.** One turnaround day after an overnight flight home isn't enough to unpack Europe and pack 30 days of camping *(Claude's reasoning)*.
 - The open question "How many days later does the trip start?" is answered and removed from `trip.md`.
+
+## 2026-10-30 · Maintenance after the May 26 start
+
+- **`places.yaml` day and night notes rebuilt from `trip.md`.** 44 places carried numbers from an older day order (from before the 2026-10-08 north-first flip and the friends'-week rebuild). For example, Trout River said "Nights 9–10" when the plan has Nights 13–15, and the Tablelands said Day 9 for Day 15. Each note now points at the day where its 📍 appears.
+- The lead banner said a "33-day drive"; it now says 30. The Starlink count is now ~26 days in Canada (May 28 – Jun 22), was ~27. The Bar Harbor weather row is relabelled "late May": it's a normals lookup, not a date.
+- `bucket.yaml`: Acadia carriage roads and the Celtic Shores trail no longer point at this trip (both still `want`). `wishlist/acadia.md` now says Newfoundland only stops there for one evening, so the Beehive, Cadillac and the carriage roads are all still undone.

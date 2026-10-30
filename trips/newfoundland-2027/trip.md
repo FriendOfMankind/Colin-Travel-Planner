@@ -89,7 +89,7 @@ page:
 
 # Newfoundland by Road
 
-> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 33-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **3 friends, confirmed 2026-10-10**; was: "planning for 3, not confirmed"). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
+> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 30-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **3 friends, confirmed 2026-10-10**; was: "planning for 3, not confirmed"). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
 
 ## Overview
 
@@ -1120,7 +1120,7 @@ Every figure is AllTrails, looked up 2026-10-03/04, except where marked. Nothing
 
 | Location | Elevation | High | Low | Notes |
 | --- | --- | --- | --- | --- |
-| Bar Harbor, May 23–28 | sea level | 65–66 | 44–46 | AccuWeather climate normals, looked up 2026-10-04. 2026 actual lows 37–55 |
+| Bar Harbor, late May | sea level | 65–66 | 44–46 | AccuWeather climate normals, looked up 2026-10-04. 2026 actual lows 37–55 |
 | Rocky Harbour (Gros Morne), May 29–Jun 12 | sea level | 60–65 | 37–41 | 2026 actual: lows of **21 (5/31) and 25 (5/30)**, mostly 33–39; highs often 46–56 |
 | St. Anthony, Jun 4–11 | sea level | 51–53 | 35–37 | 2026 actual: lows 33–37, **highs 42–47** most days |
 
@@ -1174,7 +1174,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 - [ ] Hotels for 6/11–6/18 (Twillingate, Trinity, St. John's)
 - [ ] IcebergFinder in mid-May 2027
 - [ ] Hopewell Rocks tide table for May 28–29 (in the park's 9–5 hours)
-- [ ] Starlink Roam: ~27 days in Canada against the 30-day abroad limit
+- [ ] Starlink Roam: ~26 days in Canada (May 28 – Jun 22) against the 30-day abroad limit
 - [ ] Car service before leaving
 
 ## Open questions
