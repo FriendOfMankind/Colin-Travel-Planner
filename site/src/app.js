@@ -422,17 +422,18 @@
     const m = t.map, legs = m.legs;
     if (day == null) {
       const drawn = new Set(legs.map((l) => l.day)), missing = t.days.filter((d) => !drawn.has(d.n)).map((d) => d.n);
-      const mi = legs.reduce((a, l) => a + (l.miles || 0), 0), road = legs.filter((l) => l.road).length;
-      return `<div class="eyebrow">Whole trip</div><div class="map-stat"><b>${mi.toLocaleString()}</b> mi drawn · <b>${legs.length}</b> of ${t.days.length} days · ${road === legs.length ? "all on roads" : `${road} on roads, ${legs.length - road} straight`}</div>
+      const mi = legs.reduce((a, l) => a + (l.miles || 0), 0), flown = legs.reduce((a, l) => a + l.flown, 0), road = legs.filter((l) => l.road).length;
+      return `<div class="eyebrow">Whole trip</div><div class="map-stat"><b>${mi.toLocaleString()}</b> mi drawn${flown ? ` + ${flown.toLocaleString()} flown` : ""} · <b>${legs.length}</b> of ${t.days.length} days · ${road === legs.length ? "all on roads" : `${road} on roads, ${legs.length - road} straight`}</div>
         ${missing.length ? `<div class="muted small">No line yet for day ${missing.join(", ")}: each needs two placed stops (a pin, or a decided bed).</div>` : ""}
         <div class="muted small">Tap a day, a line or a pin.</div>`;
     }
     const d = t.days.find((x) => x.n === day), leg = legs.find((l) => l.day === day), pins = m.pins.filter((p) => p.day === day);
     return `<div class="eyebrow">Day ${day}${d?.date ? ` · ${fmt(d.date)}` : ""}</div><h3 style="margin:2px 0 4px">${d?.title ?? ""}</h3>
       ${d?.tagline ? `<div class="muted">${d.tagline}</div>` : ""}
-      <div class="map-facts">${leg ? `<span><b>${leg.miles}</b> mi drawn${leg.road ? "" : " (straight)"}</span>` : "<span>No line: fewer than two placed stops</span>"}
+      <div class="map-facts">${leg ? `<span><b>${leg.miles}</b> mi drawn${leg.road ? "" : " (straight)"}${leg.flown ? ` + ${leg.flown.toLocaleString()} flown` : ""}</span>` : "<span>No line: fewer than two placed stops</span>"}
         ${d?.driving ? `<span>Driving: ${d.driving}</span>` : ""}
         <span>Sleep: ${d?.overnight ? d.overnight.name : "Home"}</span></div>
+      ${leg?.standIn ? `<div class="muted small">The bed isn't placed yet, so the line ends at ${esc(leg.standIn)} as a stand-in.</div>` : ""}
       ${leg?.guessed ? `<div class="muted small">Starts where day ${day - 1} ended: last night's bed isn't decided.</div>` : ""}
       ${pins.length ? `<div class="muted small">${pins.map((p) => esc(p.name)).join(" → ")}</div>` : ""}
       <div class="row" style="margin-top:8px"><a class="btn" href="#t-${t.slug}-plan" data-goday="${day}">Day plan ›</a>
@@ -448,7 +449,7 @@
         <rect class="sea" x="-5000" y="-5000" width="${W + 10000}" height="${H + 10000}"/>
         <path class="land" d="${m.land.map((r) => path(r, true)).join("")}"/>
         <path class="border" d="${m.borders.map((l) => path(l)).join("")}"/>
-        ${m.legs.map((l) => `<path class="leg${sel != null ? (l.day === sel ? " on" : " off") : ""}${l.road ? "" : " straight"}" data-day="${l.day}" stroke="${col(l.day)}" d="${path(l.line)}"/>`).join("")}
+        ${m.legs.flatMap((l) => l.parts.map((pt) => `<path class="leg${sel != null ? (l.day === sel ? " on" : " off") : ""}${pt.fly ? " fly" : l.road ? "" : " straight"}" data-day="${l.day}" stroke="${col(l.day)}" d="${path(pt.line)}"/>`)).join("")}
         ${m.pins.map((p) => { const [x, y] = P([p.lng, p.lat]); const on = sel == null || p.day === sel; return `<g class="pin ${p.role}${on ? "" : " off"}" data-day="${p.day ?? ""}" transform="translate(${x},${y})"><circle r="4" fill="${p.day != null ? col(p.day) : "var(--muted)"}"/>${sel != null && p.day === sel ? `<text x="7" y="4">${esc(p.name)}</text>` : ""}</g>`; }).join("")}
       </svg>
       <div class="map-ctl"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="fit" aria-label="Fit">⤢</button></div></div>
@@ -464,7 +465,7 @@
     let vb = [0, 0, W, H];
     const sel = mapSel[t.slug];
     if (sel != null) {
-      const pts = [...t.map.legs.filter((l) => l.day === sel).flatMap((l) => l.line), ...t.map.pins.filter((p) => p.day === sel).map((p) => [p.lng, p.lat])].map(mapProj(t.map).P);
+      const pts = [...t.map.legs.filter((l) => l.day === sel).flatMap((l) => l.parts.flatMap((pt) => pt.line)), ...t.map.pins.filter((p) => p.day === sel).map((p) => [p.lng, p.lat])].map(mapProj(t.map).P);
       if (pts.length) {
         const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]), pad = 40;
         let w = Math.max(...xs) - Math.min(...xs) + pad * 2, h = Math.max(...ys) - Math.min(...ys) + pad * 2;

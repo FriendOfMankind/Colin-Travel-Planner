@@ -25,3 +25,10 @@ test("dayTitles reads the day headings", () => {
   const t = dayTitles("### Day 1 — 2027-03-05 · Land in the Saguaros\n\ntext\n### Day 11 — 2027-03-15 · Out\n");
   assert.deepEqual([...t], [[1, "Land in the Saguaros"], [11, "Out"]]);
 });
+
+test("pack GPX: a flight in a road line is left out of the track", () => {
+  const routes = new Map([[7, { source: "src", parts: [
+    { fly: false, line: [[-6.2, 53.4], [-6.3, 53.5]] }, { fly: true, line: [[-6.3, 53.5], [0, 49], [5.2, 43.4]] }, { fly: false, line: [[5.2, 43.4], [5.4, 43.3]] }] }]]);
+  const segs = [...toGpx("T", groups, routes).matchAll(/<trkseg>([\s\S]*?)<\/trkseg>/g)].map((m) => gpxLine(m[1]));
+  assert.deepEqual(segs, [[[-6.2, 53.4], [-6.3, 53.5]], [[5.2, 43.4], [5.4, 43.3]]]);
+});

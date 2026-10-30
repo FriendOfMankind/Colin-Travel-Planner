@@ -6,7 +6,11 @@
    fixed place (a dispersed site) has no start, so Google starts from
    wherever the phone is. Consecutive repeats are dropped. A stop that
    matches a verified place routes to its coordinate instead of a search,
-   so a located place can't resolve to the wrong trailhead.
+   so a located place can't resolve to the wrong trailhead. Rows timed
+   "option" or "fallback" are alternatives, not the plan, so they're not
+   stops ("optional" add-ons still are). A stop reached by a `fly` row
+   carries via: "fly", and the directions links break there: Google can't
+   drive a flight.
 
    Google documents up to 3 waypoints on mobile browsers and 9 otherwise
    (developers.google.com/maps/documentation/urls/get-started, 2026-10), so
@@ -25,17 +29,26 @@ export function campStop(name, places = []) {
   return p ? { label: p.name, q: pinOf(p), pinned: !!p.verified } : null;
 }
 
+// Tonight's bed as a stop. An overnight with no fixed place yet (an unbooked apartment, a family
+// address nobody wrote down) can name a placed stand-in in `mapStandIn:`; the stop says so.
+export function bedStop(o, places = []) {
+  if (o?.mapStandIn) { const s = campStop(o.mapStandIn, places); return s && { ...s, standIn: true }; }
+  return campStop(o?.name, places);
+}
+
 // Same stop twice in a row: identical query, or two spellings of one town
 // ("Avon, OH" in a schedule, "Avon, Ohio" as home). Coordinates compare whole.
 const COORD = /^-?\d+(\.\d+)?,\s*-?\d+(\.\d+)?$/;
 const town = (q) => q.toLowerCase().split(",")[0].trim();
 const samePlace = (a, b) => !!a && (a.q === b.q || (!COORD.test(a.q) && !COORD.test(b.q) && a.q.includes(",") && b.q.includes(",") && town(a.q) === town(b.q)));
 
+const ALTERNATIVE = /^(option|fallback)\b/i;
+
 export function dayStops(schedule, places = [], { start = null, end = null } = {}) {
   const pins = new Map(places.filter((p) => p.verified && p.maps).map((p) => [p.maps, pinOf(p)]));
   const stops = start ? [start] : [];
   const add = (s) => { if (s && !samePlace(stops.at(-1), s)) stops.push(s); };
-  for (const r of schedule) if (r.maps) add({ label: r.maps, q: pins.get(r.maps) ?? r.maps, pinned: pins.has(r.maps) });
+  for (const r of schedule) if (r.maps && !ALTERNATIVE.test(r.time)) add({ label: r.maps, q: pins.get(r.maps) ?? r.maps, pinned: pins.has(r.maps), ...(r.kind === "fly" ? { via: "fly" } : {}) });
   add(end);
   return { start: start ? stops.shift() : null, stops };
 }
@@ -46,7 +59,9 @@ export function routeLinks({ start, stops }) {
   const links = [];
   let origin = start;
   for (let i = 0; i < stops.length; ) {
-    const leg = stops.slice(i, i + MAX_WAYPOINTS + 1);
+    if (stops[i].via === "fly") { origin = stops[i++]; continue; } // land, then drive on from the airport
+    const end = stops.findIndex((s, k) => k > i && s.via === "fly");
+    const leg = stops.slice(i, Math.min(i + MAX_WAYPOINTS + 1, end < 0 ? Infinity : end));
     const dest = leg.at(-1), via = leg.slice(0, -1);
     const url = "https://www.google.com/maps/dir/?api=1&travelmode=driving"
       + (origin ? `&origin=${enc(origin.q)}` : "")

@@ -8,7 +8,7 @@
    The HTML is the whole trip.md rendered as one plain page, plus a places
    table. The GPX holds only verified places, so Organic Maps (or any GPX
    app) shows real pins and nothing guessed, plus one track per day that
-   routes.yaml gives a sourced road line (straight pin-to-pin lines stay out). Upload both to Google Drive and
+   routes.yaml gives a sourced road line (straight pin-to-pin lines and flights stay out). Upload both to Google Drive and
    mark them "available offline". Nothing here invents content. */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
@@ -37,9 +37,10 @@ export function toGpx(name, groups, routes = new Map(), titles = new Map()) {
     `<metadata><name>${xml(name)}</name></metadata>`,
     ...pts.map((p) => `<wpt lat="${p.lat}" lon="${p.lng}"><name>${xml(p.name)}</name><desc>${xml([p.group, p.days ? `Day ${p.days}` : "", p.wpNote ?? ""].filter(Boolean).join(" · "))}</desc></wpt>`),
     ...[...routes].sort(([a], [b]) => a - b).map(([day, r]) => [
-      `<trk><name>${xml([`Day ${day}`, titles.get(day)].filter(Boolean).join(" · "))}</name><desc>${xml(r.source)}</desc><trkseg>`,
-      ...r.line.map(([lng, lat]) => `<trkpt lat="${lat}" lon="${lng}"/>`),
-      `</trkseg></trk>`].join("\n")),
+      `<trk><name>${xml([`Day ${day}`, titles.get(day)].filter(Boolean).join(" · "))}</name><desc>${xml(r.source)}</desc>`,
+      // Ground only, one segment per stretch: a flight isn't something to follow on the phone.
+      ...(r.parts ?? [{ line: r.line }]).filter((pt) => !pt.fly).map((pt) => `<trkseg>\n${pt.line.map(([lng, lat]) => `<trkpt lat="${lat}" lon="${lng}"/>`).join("\n")}\n</trkseg>`),
+      `</trk>`].join("\n")),
     `</gpx>`, "",
   ].join("\n");
 }

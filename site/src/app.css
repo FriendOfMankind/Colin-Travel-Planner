@@ -303,6 +303,7 @@ details.fold > div { padding: 0 16px 14px; }
 .tmap .border { fill: none; stroke: var(--map-border); stroke-width: 1; stroke-dasharray: 4 3; vector-effect: non-scaling-stroke; }
 .tmap .leg { fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; cursor: pointer; }
 .tmap .leg.straight { stroke-dasharray: 6 5; }
+.tmap .leg.fly { stroke-width: 2; stroke-dasharray: 0.5 6; opacity: 0.85; }
 .tmap .leg.on { stroke-width: 5; }
 .tmap .leg.off { opacity: 0.22; }
 .tmap .pin circle { stroke: var(--surface); cursor: pointer; }

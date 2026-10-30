@@ -12,6 +12,11 @@ segments' connectors, snaps each stop to its nearest drivable road and finds
 the fastest path with rough per-class speeds. Ferries come from Overture's
 water segments.
 
+A hop the plan flies (the leg's `flyHops`) is a great-circle arc, written as
+its own <trk> typed "fly", never routed. Each stretch of ground joined by
+road (Ireland, Marseille) gets its own pull, so a flight doesn't drag in
+every road between them.
+
 It reads each day's stop order from site/maps/<slug>.geojson, so run
 `node tools/build.mjs` first. The stops are the trip's verified pins; this
 never moves or invents one. Limits it doesn't hide: one-way streets, turn
@@ -46,6 +51,7 @@ NOT_DRIVABLE = {"footway", "cycleway", "pedestrian", "steps", "path", "bridleway
 FERRY_KMH, FERRY_PENALTY_H = 30, 1.0  # a crossing costs boarding time, so short detours by road win
 TERMINAL_M = 3000  # a stop this close to a ferry line counts as being at that terminal
 SNAP_LIMIT_M = 3000
+MIN_NETWORK = 200  # nodes; smaller islands of road are parking lots and data scraps, not somewhere to snap
 
 
 def s3():
@@ -103,7 +109,8 @@ def graph(rows):
 
 
 def snapper(g, pos):
-    big = max(nx.connected_components(g), key=len)
+    comps = sorted(nx.connected_components(g), key=len, reverse=True)
+    big = set().union(*[c for c in comps if len(c) >= MIN_NETWORK]) or comps[0]  # Ireland and France are two networks
     ids = [n for n in big if n in pos]
     xy = np.array([pos[n] for n in ids])
     def snap(lng, lat):
@@ -143,9 +150,42 @@ def path_coords(g, pos, nodes):
     return out
 
 
-def gpx(name, coords):
-    pts = "\n".join(f'<trkpt lat="{y:.6f}" lon="{x:.6f}"/>' for x, y in coords)
-    return f'<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">\n<metadata><name>{name}</name><desc>{SOURCE}</desc></metadata>\n<trk><name>{name}</name><trkseg>\n{pts}\n</trkseg></trk>\n</gpx>\n'
+def gpx(name, parts):
+    def trk(fly, coords):
+        pts = "\n".join(f'<trkpt lat="{y:.6f}" lon="{x:.6f}"/>' for x, y in coords)
+        return f'<trk><name>{name}{" (flight)" if fly else ""}</name>{"<type>fly</type>" if fly else ""}<trkseg>\n{pts}\n</trkseg></trk>'
+    body = "\n".join(trk(f, c) for f, c in parts)
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">\n<metadata><name>{name}</name><desc>{SOURCE}</desc></metadata>\n{body}\n</gpx>\n'
+
+
+def arc(a, b, n=48):
+    """Great-circle a → b, ends included (the same arc tools/geojson.mjs draws)."""
+    v = lambda x, y: np.array([math.cos(math.radians(y)) * math.cos(math.radians(x)), math.cos(math.radians(y)) * math.sin(math.radians(x)), math.sin(math.radians(y))])
+    p, q = v(*a), v(*b)
+    w = math.acos(min(1.0, float(p @ q)))
+    if w < 1e-9:
+        return [tuple(a), tuple(b)]
+    out = []
+    for i in range(n + 1):
+        t = i / n
+        x, y, z = (math.sin((1 - t) * w) * p + math.sin(t * w) * q) / math.sin(w)
+        out.append((math.degrees(math.atan2(y, x)), math.degrees(math.atan2(z, math.hypot(x, y)))))
+    return out
+
+
+def regions(stops, flys):
+    """Stops joined by a ground hop share a region; a flight splits them. → [(xmin, ymin, xmax, ymax)]."""
+    parent = {}
+    find = lambda k: k if parent.setdefault(k, k) == k else find(parent[k])
+    for day, cs in stops.items():
+        for i, (a, b) in enumerate(zip(cs, cs[1:])):
+            find(tuple(a)); find(tuple(b))
+            if i + 2 not in flys.get(day, ()):
+                parent[find(tuple(a))] = find(tuple(b))
+    groups = {}
+    for k in list(parent):
+        groups.setdefault(find(k), []).append(k)
+    return [(min(x for x, _ in g), min(y for _, y in g), max(x for x, _ in g), max(y for _, y in g)) for g in groups.values()]
 
 
 def main():
@@ -158,14 +198,16 @@ def main():
     stops = {f["properties"]["day"]: [f2["geometry"]["coordinates"] for f2 in sorted(
         (p for p in fc["features"] if p["geometry"]["type"] == "Point" and p["properties"].get("day") == f["properties"]["day"]),
         key=lambda p: p["properties"]["seq"])] for f in legs}
+    flys = {f["properties"]["day"]: set(f["properties"].get("flyHops", [])) for f in legs}  # seq of each flight's landing stop
     pts = [c for cs in stops.values() for c in cs]
     if not pts:
         sys.exit(f"{a.slug}: no day has two placed stops")
-    xs, ys = [p[0] for p in pts], [p[1] for p in pts]
     d = s3()
     t = time.time()
-    rows = pull(d, box(min(xs) - 0.5, min(ys) - 0.5, max(xs) + 0.5, max(ys) + 0.5)
-                & (((pc.field("subtype") == "road") & pc.field("class").isin(MAJOR)) | (pc.field("subtype") == "water")))
+    rows = []
+    for x0, y0, x1, y1 in regions(stops, flys):
+        rows += pull(d, box(x0 - 0.5, y0 - 0.5, x1 + 0.5, y1 + 0.5)
+                     & (((pc.field("subtype") == "road") & pc.field("class").isin(MAJOR)) | (pc.field("subtype") == "water")))
     near = functools.reduce(operator.or_, [box(x - 0.05, y - 0.035, x + 0.05, y + 0.035) for x, y in {tuple(p) for p in pts}])
     rows += pull(d, near & (pc.field("subtype") == "road") & ~pc.field("class").isin(MAJOR))
     print(f"pulled {len(rows):,} segments in {time.time() - t:.0f}s", file=sys.stderr)
@@ -181,23 +223,37 @@ def main():
         for e in yaml.safe_load(ry.read_text()) or []:
             entries[int(e["day"])] = e
     for day, cs in sorted(stops.items()):
-        line, ferry, worst = [], False, 0
-        for (x0, y0), (x1, y1) in zip(cs, cs[1:]):
-            (u, du), (v, dv) = snap(x0, y0), snap(x1, y1)
-            worst = max(worst, du, dv)
-            sail = ferry_between(g, pos, (x0, y0), (x1, y1))
-            if sail:  # road to the terminal, the sailing, road from the other terminal
-                nodes = nx.shortest_path(g, u, sail[0], weight="hours")[:-1] + sail + nx.shortest_path(g, sail[-1], v, weight="hours")[1:]
+        parts, ferry, worst, flown, gaps = [], False, 0, 0.0, 0  # parts: [(fly, coords)]
+        for i, ((x0, y0), (x1, y1)) in enumerate(zip(cs, cs[1:])):
+            if i + 2 in flys.get(day, ()):
+                seg, fly = arc((x0, y0), (x1, y1)), True
+                flown += metres(seg)
             else:
-                nodes = nx.shortest_path(g, u, v, weight="hours")
-            ferry |= any(g[p][q]["ferry"] for p, q in zip(nodes, nodes[1:]))
-            seg = [(x0, y0)] + (path_coords(g, pos, nodes) if len(nodes) > 1 else []) + [(x1, y1)]
-            line.extend(seg if not line else seg[1:])
-        simp = list(LineString(line).simplify(0.0002).coords)
-        note = f"day {day}: {len(cs)} stops, {metres(line) / 1609.344:,.0f} mi drawn{', with a ferry' if ferry else ''}"
+                fly = False
+                (u, du), (v, dv) = snap(x0, y0), snap(x1, y1)
+                worst = max(worst, du, dv)
+                try:
+                    sail = ferry_between(g, pos, (x0, y0), (x1, y1))
+                    if sail:  # road to the terminal, the sailing, road from the other terminal
+                        nodes = nx.shortest_path(g, u, sail[0], weight="hours")[:-1] + sail + nx.shortest_path(g, sail[-1], v, weight="hours")[1:]
+                    else:
+                        nodes = nx.shortest_path(g, u, v, weight="hours")
+                except nx.NetworkXNoPath:  # the two ends sit on road networks the data doesn't join
+                    nodes, gaps = [], gaps + 1
+                ferry |= any(g[p][q]["ferry"] for p, q in zip(nodes, nodes[1:]))
+                seg = [(x0, y0)] + (path_coords(g, pos, nodes) if len(nodes) > 1 else []) + [(x1, y1)]
+            if parts and parts[-1][0] == fly:
+                parts[-1][1].extend(seg[1:])
+            else:
+                parts.append((fly, list(seg)))
+        ground = sum(metres(c) for f, c in parts if not f)
+        note = f"day {day}: {len(cs)} stops, {ground / 1609.344:,.0f} mi drawn{f' + {flown / 1609.344:,.0f} flown' if flown else ''}{', with a ferry' if ferry else ''}"
         if worst > SNAP_LIMIT_M:
             note += f", ⚠ a stop is {worst / 1000:.1f} km from the nearest road in the data, so that end is straight"
+        if gaps:
+            note += f", ⚠ {gaps} hop(s) with no road between, drawn straight"
         print(note, file=sys.stderr)
+        simp = [(f, c if f else list(LineString(c).simplify(0.0002).coords)) for f, c in parts]
         (rdir / f"day-{day}.gpx").write_text(gpx(f"{a.slug} day {day}", simp))
         entries[day] = {"day": day, "file": f"routes/day-{day}.gpx", "source": SOURCE}
     body = "".join(f"- day: {e['day']}\n  file: {e.get('file') or e.get('files')}\n  source: \"{e['source']}\"\n" for _, e in sorted(entries.items()))

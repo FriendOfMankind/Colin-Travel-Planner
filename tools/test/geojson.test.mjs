@@ -3,7 +3,7 @@ import assert from "node:assert/strict";
 import { readdirSync, existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
-import { tripGeo, gpxLine, loadRoutes } from "../geojson.mjs";
+import { tripGeo, gpxLine, gpxParts, loadRoutes } from "../geojson.mjs";
 
 const md = `---
 slug: t
@@ -83,3 +83,54 @@ for (const slug of readdirSync(TRIPS)) {
     assert.ok(loadRoutes(slug).size > 0);
   });
 }
+
+const flyMd = `---
+slug: f
+title: F
+target: 2027-05-15
+---
+
+# F
+
+## Days
+
+### Day 1 — 2027-05-15 · Over
+
+\`\`\`yaml
+overnight:
+  name: TBD, apartment
+  mapStandIn: Flat
+\`\`\`
+
+**Schedule**
+- 9:00 · travel · Coach. · 📍 DUB
+- option · travel · Other coach. · 📍 Elsewhere
+- 15:45 → 19:10 · fly · DUB → MRS. · 📍 MRS
+- evening · travel · Shuttle. · 📍 Station
+`;
+const flyGroups = [{ group: "G", places: [
+  { name: "DUB", maps: "DUB", verified: true, lat: 53.43, lng: -6.24, source: "test" },
+  { name: "Elsewhere", maps: "Elsewhere", verified: true, lat: 52.0, lng: -9.0, source: "test" },
+  { name: "MRS", maps: "MRS", verified: false, lat: null, lng: null },
+  { name: "Station", maps: "Station", verified: true, lat: 43.30, lng: 5.38, source: "test" },
+  { name: "Flat", maps: "Flat", verified: true, lat: 43.30, lng: 5.37, source: "test" },
+] }];
+
+test("flights: an option row isn't a stop, a flight to an unplaced airport still flies, a stand-in bed ends the day", () => {
+  const leg = tripGeo("f", flyMd, flyGroups).flat.find((f) => f.properties.kind === "leg");
+  const p = leg.properties, c = leg.geometry.coordinates;
+  assert.deepEqual(p.flyHops, [2]); // seq of the stop the flight lands at: Station, carried past unplaced MRS
+  assert.equal(p.bedStandIn, "Flat");
+  assert.deepEqual(c[0], [-6.24, 53.43]);
+  assert.ok(!c.some(([x, y]) => x === -9 && y === 52), "the option row's place is not on the line");
+  const [[a, b]] = p.fly;
+  assert.equal(a, 0); assert.ok(b > 10, "the flight is an arc, not one segment");
+  assert.ok(p.flownMiles > 800 && p.flownMiles < 1000, `DUB–MRS is ~880 mi, got ${p.flownMiles}`);
+  assert.ok(p.miles < 5, "only the shuttle and the walk to the flat count as ground");
+});
+
+test("gpxParts: a track typed fly is a flight; a plain GPX is one ground part", () => {
+  const two = `<gpx><trk><trkseg><trkpt lat="1" lon="2"/><trkpt lat="1.5" lon="2.5"/></trkseg></trk><trk><type>fly</type><trkseg><trkpt lat="1.5" lon="2.5"/><trkpt lat="5" lon="6"/></trkseg></trk></gpx>`;
+  assert.deepEqual(gpxParts(two).map((p) => p.fly), [false, true]);
+  assert.deepEqual(gpxParts(`<gpx><rte><rtept lat="1" lon="2"/><rtept lat="3" lon="4"/></rte></gpx>`), [{ fly: false, line: [[2, 1], [4, 3]] }]);
+});
