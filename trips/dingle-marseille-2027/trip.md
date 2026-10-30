@@ -74,7 +74,7 @@ page:
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle the day you land, then four nights and three full days with family. On May 15 get to Dublin Airport and fly Ryanair to Marseille. One Marseille base for nine nights: the old town and Mucem, Notre-Dame de la Garde and the Corniche, the Calanques from Luminy, Cassis and the En-Vau loop, Aix by train, Marseilleveyre, the Frioul islands, and one real rest day. Home on Mon May 24; the flight isn't found yet.
+Fly overnight from Cleveland, cross Ireland to Dingle the day you land, then four nights and three full days with family. On May 15 get to Dublin Airport and fly Ryanair to Marseille. One Marseille base for nine nights: the old town and Mucem, Notre-Dame de la Garde and the Corniche, the Calanques from Luminy, Cassis and the En-Vau loop, Aix by train, Marseilleveyre, the Frioul islands, and one real rest day. Home on Mon May 24 via London and Chicago (option A, Day 15).
 
 ### Dates
 
@@ -367,7 +367,7 @@ overnight:
 
 #### Warnings
 
-**Check park access the day before.** Access depends on wind and fire risk; May is outside the usual June–September controls but it's never guaranteed. Sugiton has a reservation program running through 2027; whether it covers May 18 isn't known.
+**Check park access the day before.** Access depends on wind and fire risk; May is outside the usual June–September controls but it's never guaranteed. Sugiton's reservation program ran only June 20 – Aug 30 in 2026, so May 18 shouldn't need one; recheck when the 2027 dates are out *(marseille-spirit.com, 2026-07)*.
 
 ### Day 10 — 2027-05-19 · Cassis
 
@@ -509,7 +509,7 @@ slack: Unknown until the flight is booked.
 ```
 
 **Schedule**
-- early · travel · To the airport: **A1 shuttle** from Saint-Charles (€15, €7 ages 12–25), or the cheaper **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. Leave time depends on the flight · 📍 Aéroport Marseille Provence
+- early · travel · To the airport: **A1 shuttle** from Saint-Charles, €7 each since everyone's 25 or under, or **TER Saint-Charles → Vitrolles Aéroport + bus 13A**, €8.70 total, ~30 min, a train every 15–30 min *(actu.fr, 2026-08)*. For option A's 07:15 departure, leave the apartment around 04:15 (note below); check the first TER before counting on it · 📍 Aéroport Marseille Provence
 - day · travel · **MRS → CLE: three one-way options seen** *(Google Flights screenshot from Colin, 2026-10-30; per person, one way, not held; layover lengths not shown)*:
   - ✅ **Picked: BA + American via Heathrow and Chicago**: 07:15 → 17:44, 16h 29m, **$596**. The cheapest. US entry at O'Hare *(Colin, 2026-10-30)*.
   - **KLM + Delta via Amsterdam and Detroit**: 06:30 → 15:09, 14h 39m, $683. The fastest, and home earliest. US entry at Detroit.
