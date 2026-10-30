@@ -18,6 +18,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A trip's plan | `trips/<slug>/trip.md` |
 | What actually happened / past experience | `trips/<slug>/log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
+| A day's road line (GPX, with source) | `trips/<slug>/routes.yaml` → `routes/*.gpx` |
+| Maps workflow: placing pins, Kepler, Felt | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
@@ -91,14 +93,15 @@ node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, manifest, icons, booking-alarms.ics for Pages
 node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins, for Drive and Organic Maps
+node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
 ```
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 5 trips (two done), 41 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the seven skills (`/inbox` added 2026-10-29), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), map data for Kepler and Felt (`tools/geojson.mjs`, `docs/MAPS.md`, 2026-10-30), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
-1. **Port `mapbench.html`** so coordinates can be placed against this repo.
+1. **Port `mapbench.html`** so coordinates can be placed against this repo. Until then, Colin pastes `Name: lat, lng` from a Google Maps long-press (`docs/MAPS.md`).
 2. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
 3. **`/gardener`**, a weekly contradiction and staleness sweep that opens a PR and never merges itself.
 

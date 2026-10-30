@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* build.mjs — the website, generated from the same files the AI reads.
 
-     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics
+     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics, maps/*.geojson
 
    One self-contained page: every trip, log, preference and meal is parsed
    here at build time into one JSON blob, and site/src/app.js renders views
@@ -26,6 +26,7 @@ import { parseBucket, horizonOf } from "./lib/bucket.mjs";
 import { dayStops, routeLinks, campStop } from "./lib/route.mjs";
 import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 import { buildIcs } from "./ics.mjs";
+import { writeMaps } from "./geojson.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 
@@ -292,4 +293,5 @@ files["sw.js"] = serviceWorker(hash.digest("hex").slice(0, 12), Object.keys(file
 mkdirSync(join(ROOT, "site"), { recursive: true });
 for (const [name, body] of Object.entries(files)) writeFileSync(join(ROOT, "site", name), body);
 console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals, ${windows.length} booking windows`);
+writeMaps();
 console.log(`  + ${Object.keys(files).filter((f) => f !== "index.html").join(", ")} (for GitHub Pages)`);
