@@ -628,7 +628,7 @@ overnight:
 **Schedule**
 - 5:50 AM · sunrise · Sunrise. First light 5:19 AM. No alarm.
 - 8:00 AM (2h) · hike · **Redrock Falls.** ✅ AllTrails: **3.7 mi, 255 ft, Easy.** From the Swiftcurrent trailhead at camp. · 📍 Redrock Falls Trail Many Glacier
-- 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Bullhead Lake Trail Many Glacier
+- 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Redrock Falls Trail Many Glacier
 - afternoon · stop · Camp. Reorganise, wash something, look at the wall.
 - 9:31 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
 

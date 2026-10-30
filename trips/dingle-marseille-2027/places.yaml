@@ -7,9 +7,10 @@ groups:
       - name: Cleveland Hopkins International Airport
         note: May 10 out (EI 86), May 24 home. Day 1 and day 15.
         maps: Cleveland Hopkins International Airport
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 41.41124
+        lng: -81.837356
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Dublin Airport
         note: In May 11 08:45. Out May 15 15:45 (FR 4285). FlightLink drops here 13:00.
         maps: Dublin Airport
@@ -57,9 +58,10 @@ groups:
       - name: Dingle (town)
         note: Day 2 arrival. A whole town, so "Not a pin" is a fine answer; nights 2–5 use Dingle Harbour as the bed stand-in.
         maps: Dingle Co. Kerry
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.140823
+        lng: -10.267142
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Dingle Harbour
         note: Day 4.
         maps: Dingle Harbour
@@ -191,21 +193,24 @@ groups:
       - name: Vieux-Port
         note: Days 7 and 13 (fish sellers, evenings).
         maps: Vieux-Port Marseille
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.295122
+        lng: 5.36346
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Castellane
         note: Day 10. Bus 78 to Cassis leaves from here.
         maps: Castellane Marseille
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.28591
+        lng: 5.383728
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Marseille Provence Airport
         note: In May 15 19:10 (FR 4285). Out May 24. Day 6 and day 15.
         maps: Aéroport Marseille Provence
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.443302
+        lng: 5.220136
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Gare Saint-Charles
         note: A1 airport shuttle terminus.
         maps: Gare Saint-Charles Marseille
@@ -253,15 +258,17 @@ groups:
       - name: Port de Cassis
         note: Day 10 afternoon.
         maps: Port de Cassis
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.214068
+        lng: 5.535014
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Cours Mirabeau
         note: Day 11.
         maps: Cours Mirabeau Aix-en-Provence
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.526432
+        lng: 5.445743
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Luminy
         note: Day 9 trailhead side.
         maps: Luminy Marseille

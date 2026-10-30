@@ -112,21 +112,24 @@ groups:
       - name: West Tensleep Falls Trailhead
         note: "Day 4. Added 2026-10-30: the plan's 📍 had no entry here. May be the same lot as the Day 5 trailhead at the lake."
         maps: West Tensleep Falls Trailhead
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.261962
+        lng: -107.212349
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: West Tensleep Trailhead
         note: "Day 5, Lost Twin Lakes. Added 2026-10-30."
         maps: West Tensleep Trailhead Bighorn National Forest
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.261695
+        lng: -107.212827
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Sherd Lake Trailhead
         note: "Day 6. Added 2026-10-30."
         maps: Sherd Lake Trailhead Bighorn National Forest
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.276713
+        lng: -106.984868
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Beartooth + Yellowstone NE
     places:
       - name: Island Lake Campground
@@ -196,21 +199,24 @@ groups:
       - name: Beartooth High Lakes Trailhead
         note: "Day 8. Added 2026-10-30."
         maps: Beartooth High Lakes Trailhead Island Lake
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.942102
+        lng: -109.540406
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Beartooth High Lakes Trail
         note: "Day 9. Added 2026-10-30. A trail, so its trailhead is the pin."
         maps: Beartooth High Lakes Trail Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.945383
+        lng: -109.584776
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Yellowstone Northeast Entrance
         note: "Day 10. Added 2026-10-30."
         maps: Yellowstone Northeast Entrance Cooke City
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.004495
+        lng: -110.010485
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Yellowstone interior
     places:
       - name: Artist Point
@@ -324,131 +330,145 @@ groups:
       - name: Swiftcurrent Nature Trail
         note: "Day 12. Added 2026-10-30."
         maps: Swiftcurrent Nature Trail Many Glacier
-        verified: false
-        lat: null
-        lng: null
-      - name: Redrock Falls Trail
-        note: "Day 13. Added 2026-10-30."
+        verified: true
+        lat: 48.7966
+        lng: -113.656019
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+      - name: Swiftcurrent Trailhead
+        note: "Day 13: Redrock Falls and Bullhead Lake are both on the Swiftcurrent trail, from this one trailhead *(Colin, 2026-10-30)*."
         maps: Redrock Falls Trail Many Glacier
-        verified: false
-        lat: null
-        lng: null
-      - name: Bullhead Lake Trail
-        note: "Day 13. Added 2026-10-30."
-        maps: Bullhead Lake Trail Many Glacier
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 48.79762
+        lng: -113.678529
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Avalanche Lake Trailhead
         note: "Day 16. Added 2026-10-30."
         maps: Avalanche Lake Trailhead Glacier
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 48.676493
+        lng: -113.814027
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: St Mary Falls Trailhead
         note: "Day 18. Added 2026-10-30."
         maps: St Mary Falls Trailhead Glacier
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 48.674321
+        lng: -113.608633
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Oregon week (added 2026-10-30, none placed yet)
     places:
       - name: Sunset Motel, Hood River
         note: "Nights 19–22 (Jul 31 – Aug 3). The bed."
         maps: Sunset Motel Hood River Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.710171
+        lng: -121.534226
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Rowena Crest Viewpoint
         note: "Day 21."
         maps: Rowena Crest Viewpoint
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.682651
+        lng: -121.299367
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Wet Planet Whitewater
         note: "Day 22, White Salmon raft."
         maps: Wet Planet Whitewater Husum
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.797448
+        lng: -121.484791
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Lost Lake Resort
         note: "Day 22."
         maps: Lost Lake Resort Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.497301
+        lng: -121.818925
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Eagle Creek Trailhead
         note: "Day 23, Tunnel Falls."
         maps: Eagle Creek Trailhead Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.636874
+        lng: -121.919505
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Holiday Motel, Bend
         note: "Nights 23–26 (Aug 4–7). The bed."
         maps: Holiday Motel Bend Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.041771
+        lng: -121.302241
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Deschutes River Adventures
         note: "Day 24, Lower Deschutes."
         maps: Deschutes River Adventures Maupin
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.174883
+        lng: -121.082171
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Devils Lake Trailhead
         note: "Day 25, South Sister."
         maps: Devils Lake Trailhead Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.033511
+        lng: -121.766868
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Steelhead Falls Trailhead
         note: "Day 26."
         maps: Steelhead Falls Trailhead Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.411072
+        lng: -121.292652
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Smith Rock State Park
         note: "Day 26. A whole park: the main day-use lot is the pin."
         maps: Smith Rock State Park
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.364223
+        lng: -121.139857
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Park and Float
         note: "Day 27, the Bend float. Pin the put-in."
         maps: Park and Float Bend
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.04875
+        lng: -121.325201
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Dee Wright Observatory
         note: "Day 28."
         maps: Dee Wright Observatory
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.260546
+        lng: -121.801249
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Belknap Hot Springs Lodge
         note: "Nights 27–28 (Aug 8–9). The bed."
         maps: Belknap Hot Springs Lodge
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.192575
+        lng: -122.050748
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Clear Lake Resort
         note: "Day 29."
         maps: Clear Lake Resort Oregon
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.374496
+        lng: -121.998677
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Tamolitch Blue Pool Trailhead
         note: "Day 29."
         maps: Tamolitch Blue Pool Trailhead
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.312034
+        lng: -122.027051
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Terwilliger Hot Springs
         note: "Day 29. Pin the parking lot, not the pools."
         maps: Terwilliger Hot Springs
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.08205
+        lng: -122.232221
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: The drive home
     places:
       - name: Cottonwood Campground
