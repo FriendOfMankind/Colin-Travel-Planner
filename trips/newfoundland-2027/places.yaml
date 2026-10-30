@@ -73,7 +73,7 @@ groups:
 - group: Fundy
   places:
   - name: Fundy NP campground
-    note: Night 3. Headquarters or Chignecto.
+    note: Night 3, Headquarters.
     maps: Fundy National Park Headquarters Campground
     verified: true
     lat: 45.597376
@@ -126,7 +126,7 @@ groups:
 - group: Port aux Basques and Gros Morne
   places:
   - name: J.T. Cheeseman Provincial Park
-    note: Night 5. Opening date not confirmed.
+    note: Considered for night 5; a motel won instead (Colin, 2026-10-30). Kept as a fallback.
     maps: J.T. Cheeseman Provincial Park
     verified: true
     lat: 47.632041
@@ -562,6 +562,12 @@ groups:
   - name: Syracuse–Rochester area
     note: Night 29. Pin the town you'd actually stop in; any I-90 exit town between Syracuse and Rochester.
     maps: Syracuse NY
+    verified: false
+    lat: null
+    lng: null
+  - name: Port aux Basques motel
+    note: Night 5. Pin the motel once booked, or the town until then.
+    maps: Port aux Basques NL
     verified: false
     lat: null
     lng: null
