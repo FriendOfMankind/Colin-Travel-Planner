@@ -50,6 +50,8 @@ SPEED = {"motorway": 105, "trunk": 90, "primary": 80, "secondary": 70, "tertiary
 NOT_DRIVABLE = {"footway", "cycleway", "pedestrian", "steps", "path", "bridleway", "sidewalk", "crosswalk"}
 FERRY_KMH, FERRY_PENALTY_H = 30, 1.0  # a crossing costs boarding time, so short detours by road win
 TERMINAL_M = 3000  # a stop this close to a ferry line counts as being at that terminal
+SAIL_MIN_M, SAIL_SHARE = 2000, 0.5  # and only a hop this long, mostly covered by the sailing, takes it:
+# in a port city every two stops are near some boat line, and a walk across Marseille's old town isn't a crossing
 SNAP_LIMIT_M = 3000
 MIN_NETWORK = 200  # nodes; smaller islands of road are parking lots and data scraps, not somewhere to snap
 
@@ -146,6 +148,14 @@ def ferry_between(g, pos, a, b):
     return best[1] if best else None
 
 
+def road(g, u, v):
+    """Fastest path u → v as nodes, or [] when the data has no path."""
+    try:
+        return nx.shortest_path(g, u, v, weight="hours")
+    except nx.NetworkXNoPath:
+        return []
+
+
 def path_coords(g, pos, nodes):
     """The path's geometry, each edge turned to run from the node it leaves."""
     out = []
@@ -239,16 +249,23 @@ def main():
                 fly = False
                 (u, du), (v, dv) = snap((x0, y0), (x1, y1))
                 worst = max(worst, du, dv)
-                try:
-                    sail = ferry_between(g, pos, (x0, y0), (x1, y1))
-                    if sail:  # road to the terminal, the sailing, road from the other terminal
-                        nodes = nx.shortest_path(g, u, sail[0], weight="hours")[:-1] + sail + nx.shortest_path(g, sail[-1], v, weight="hours")[1:]
-                    else:
-                        nodes = nx.shortest_path(g, u, v, weight="hours")
-                except nx.NetworkXNoPath:  # the two ends sit on road networks the data doesn't join
-                    nodes, gaps = [], gaps + 1
-                ferry |= any(g[p][q]["ferry"] for p, q in zip(nodes, nodes[1:]))
-                seg = [(x0, y0)] + (path_coords(g, pos, nodes) if len(nodes) > 1 else []) + [(x1, y1)]
+                hop = metres([(x0, y0), (x1, y1)])
+                sail = ferry_between(g, pos, (x0, y0), (x1, y1)) if hop >= SAIL_MIN_M else None
+                if sail and metres([pos[n] for n in sail]) < SAIL_SHARE * hop:
+                    sail = None
+                if sail:  # road to the terminal, the sailing, road from the other terminal; an end
+                    # the data can't join to its terminal (an island's lanes) is drawn straight
+                    seg = [(x0, y0)]
+                    for nodes in (road(g, u, sail[0]), sail, road(g, sail[-1], v)):
+                        seg += path_coords(g, pos, nodes) if len(nodes) > 1 else [pos[n] for n in nodes]
+                    seg.append((x1, y1))
+                    ferry = True
+                else:
+                    nodes = road(g, u, v)
+                    if not nodes:  # the two ends sit on road networks the data doesn't join
+                        gaps += 1
+                    ferry |= any(g[p][q]["ferry"] for p, q in zip(nodes, nodes[1:]))
+                    seg = [(x0, y0)] + (path_coords(g, pos, nodes) if len(nodes) > 1 else []) + [(x1, y1)]
             if parts and parts[-1][0] == fly:
                 parts[-1][1].extend(seg[1:])
             else:
