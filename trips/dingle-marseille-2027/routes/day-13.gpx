@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="tools/roads.py" xmlns="http://www.topografix.com/GPX/1/1">
+<metadata><name>dingle-marseille-2027 day 13</name><desc>Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py</desc></metadata>
+<trk><name>dingle-marseille-2027 day 13</name><trkseg>
+<trkpt lat="43.300473" lon="5.374755"/>
+<trkpt lat="43.300373" lon="5.374463"/>
+<trkpt lat="43.299253" lon="5.374159"/>
+<trkpt lat="43.297577" lon="5.374066"/>
+<trkpt lat="43.297259" lon="5.374080"/>
+<trkpt lat="43.297169" lon="5.374126"/>
+<trkpt lat="43.297046" lon="5.374213"/>
+<trkpt lat="43.297041" lon="5.374142"/>
+<trkpt lat="43.297035" lon="5.374055"/>
+<trkpt lat="43.297011" lon="5.373894"/>
+<trkpt lat="43.296921" lon="5.373627"/>
+<trkpt lat="43.296453" lon="5.374004"/>
+<trkpt lat="43.296411" lon="5.374031"/>
+<trkpt lat="43.296369" lon="5.374056"/>
+<trkpt lat="43.296120" lon="5.374037"/>
+<trkpt lat="43.295841" lon="5.374323"/>
+<trkpt lat="43.295172" lon="5.374460"/>
+<trkpt lat="43.294621" lon="5.373719"/>
+<trkpt lat="43.294861" lon="5.373005"/>
+<trkpt lat="43.294978" lon="5.372599"/>
+<trkpt lat="43.294174" lon="5.363323"/>
+<trkpt lat="43.294676" lon="5.360923"/>
+<trkpt lat="43.296164" lon="5.359007"/>
+<trkpt lat="43.296607" lon="5.357956"/>
+<trkpt lat="43.296691" lon="5.353819"/>
+<trkpt lat="43.292805" lon="5.344976"/>
+<trkpt lat="43.287615" lon="5.336112"/>
+<trkpt lat="43.280459" lon="5.326549"/>
+<trkpt lat="43.284228" lon="5.318436"/>
+<trkpt lat="43.284130" lon="5.315906"/>
+<trkpt lat="43.280459" lon="5.326549"/>
+<trkpt lat="43.287615" lon="5.336112"/>
+<trkpt lat="43.292204" lon="5.344056"/>
+<trkpt lat="43.292805" lon="5.344976"/>
+<trkpt lat="43.296691" lon="5.353819"/>
+<trkpt lat="43.296715" lon="5.356899"/>
+<trkpt lat="43.296607" lon="5.357956"/>
+<trkpt lat="43.296382" lon="5.358633"/>
+<trkpt lat="43.296164" lon="5.359007"/>
+<trkpt lat="43.294875" lon="5.360601"/>
+<trkpt lat="43.294676" lon="5.360923"/>
+<trkpt lat="43.294521" lon="5.361271"/>
+<trkpt lat="43.294174" lon="5.363323"/>
+<trkpt lat="43.294164" lon="5.364733"/>
+<trkpt lat="43.294978" lon="5.372599"/>
+<trkpt lat="43.294621" lon="5.373719"/>
+<trkpt lat="43.300473" lon="5.374755"/>
+</trkseg></trk>
+</gpx>
