@@ -109,15 +109,22 @@ def graph(rows):
 
 
 def snapper(g, pos):
-    comps = sorted(nx.connected_components(g), key=len, reverse=True)
-    big = set().union(*[c for c in comps if len(c) >= MIN_NETWORK]) or comps[0]  # Ireland and France are two networks
-    ids = [n for n in big if n in pos]
+    """→ snap(a, b): both ends of a hop onto one road network, the one that fits the pair best.
+    Ireland and France are separate networks, and an old town's lanes can be islands of their own,
+    so the nearest road to each end alone can leave the two ends with no path between them."""
+    comps = [c for c in sorted(nx.connected_components(g), key=len, reverse=True) if len(c) >= MIN_NETWORK] or [max(nx.connected_components(g), key=len)]
+    ids = [n for c in comps for n in c if n in pos]
+    edges = np.cumsum([0] + [sum(n in pos for n in c) for c in comps])  # ids run network by network
     xy = np.array([pos[n] for n in ids])
-    def snap(lng, lat):
-        d = (xy[:, 0] - lng) * math.cos(math.radians(lat)), xy[:, 1] - lat
-        i = int(np.argmin(d[0] ** 2 + d[1] ** 2))
-        return ids[i], metres([(lng, lat), tuple(xy[i])])
-    return snap, len(big)
+    def nearest(lng, lat):  # per network: index of its node closest to (lng, lat)
+        d = ((xy[:, 0] - lng) * math.cos(math.radians(lat))) ** 2 + (xy[:, 1] - lat) ** 2
+        return {k: int(edges[k] + np.argmin(d[edges[k]:edges[k + 1]])) for k in range(len(comps)) if edges[k + 1] > edges[k]}
+    def snap(a, b):
+        na, nb = nearest(*a), nearest(*b)
+        cost = lambda k: metres([a, tuple(xy[na[k]])]) + metres([b, tuple(xy[nb[k]])])
+        k = min(na, key=cost)
+        return (ids[na[k]], metres([a, tuple(xy[na[k]])])), (ids[nb[k]], metres([b, tuple(xy[nb[k]])]))
+    return snap, sum(len(c) for c in comps)
 
 
 def ferry_between(g, pos, a, b):
@@ -213,7 +220,7 @@ def main():
     print(f"pulled {len(rows):,} segments in {time.time() - t:.0f}s", file=sys.stderr)
     g, pos = graph(rows)
     snap, size = snapper(g, pos)
-    print(f"graph {g.number_of_nodes():,} nodes, main network {size:,}", file=sys.stderr)
+    print(f"graph {g.number_of_nodes():,} nodes, {size:,} in networks of {MIN_NETWORK}+", file=sys.stderr)
 
     rdir = ROOT / f"trips/{a.slug}/routes"; rdir.mkdir(exist_ok=True)
     ry = ROOT / f"trips/{a.slug}/routes.yaml"
@@ -230,7 +237,7 @@ def main():
                 flown += metres(seg)
             else:
                 fly = False
-                (u, du), (v, dv) = snap(x0, y0), snap(x1, y1)
+                (u, du), (v, dv) = snap((x0, y0), (x1, y1))
                 worst = max(worst, du, dv)
                 try:
                     sail = ferry_between(g, pos, (x0, y0), (x1, y1))
