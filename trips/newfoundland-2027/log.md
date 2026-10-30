@@ -578,3 +578,12 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - The lead banner said a "33-day drive"; it now says 30. The Starlink count is now ~26 days in Canada (May 28 – Jun 22), was ~27. The Bar Harbor weather row is relabelled "late May": it's a normals lookup, not a date.
 - `bucket.yaml`: Acadia carriage roads and the Celtic Shores trail no longer point at this trip (both still `want`). `wishlist/acadia.md` now says Newfoundland only stops there for one evening, so the Beehive, Cadillac and the carriage roads are all still undone.
 - **Contradiction fixed:** the open question "Is the headcount for the friends' week known?" still said "Planning for 3… Still not confirmed", while the banner, Group section and `next:` all say **3 friends, confirmed 2026-10-10**. The question is removed and the checklist item ticked. The question's old text: planning for 3 *(2026-10-08)*, asking friends in order, from Cleveland, no rental thanks to the Sienna.
+
+## 2026-10-30 · Booking windows checked for the calendar file
+
+Colin asked why the calendar file only had 8 events. The Newfoundland rows with no window were researched:
+- **Parks Canada (Fundy, Cape Breton, Gros Morne):** 2027 launch dates aren't announced yet. 2026 was Feb 6 / Feb 9 / Feb 11, 7 AM ET each. Added to `me/booking.md` as reference; no `opens:` date until the real ones post.
+- **ParksNL:** 2027 date not announced; 2026 was Apr 22. Unchanged.
+- **Marine Atlantic:** the 2027 schedule is posted through Sept 30, so `me/booking.md` now marks it bookable anytime. Not checked in the booking engine.
+- **Belle Isle ferry:** still no published window. Unbooked vehicles go standby.
+- **Found on the way:** BonTours says 2027 Western Brook Pond bookings are already open.
