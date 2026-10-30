@@ -288,3 +288,10 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - **New risks, written into the days:** Brooklyn Lake's opening date (the FS page says both "mid-July" and "7/04"), with a second Vedauwoo night as the fallback. Afternoon storms on a 12,000 ft ridge: off by noon. Day 1's transit night isn't identified.
 - **Old values:** Day 1 Perrot SP, Trempealeau WI · Days 2–3 Cedar Pass, Badlands (Jul 13–14) · Day 4 Badlands → Rapid City → Buffalo → US-16, ~450 mi / ~8h · states included SD · weather row Badlands ~2,440 ft, 91/62 (station normal).
 - **Fixed while in here:** `_gen/sun.json` was one day off. The site reads sun rows by day index, and since the Jul 12 departure every day had shown the next day's sun. The two Badlands rows became three Jul 12–14 rows (TBD, since there are no verified coordinates yet), and the cut Theodore Roosevelt rows were dropped, so the rows line up again.
+
+## 2026-10-30 · Map: why 22 of 33 days had no line
+
+- The briefing said "0 unplaced", but **30 of the plan's 📍 stops and 14 bed-nights had no `places.yaml` entry**, so they could never be pinned (`docs/MAPS.md` step 1). Added 27 as unplaced places, including the whole Oregon week and its three beds (Sunset Motel, Holiday Motel, Belknap), and seeded them in the Pin Ledger.
+- Five 📍s pointed at places that already existed under a slightly different search (Old Faithful, Logan Pass ×3, The Loop); they now use the place's own search. Slough Creek's bed name starts with "⚠️", which broke the match; the matcher now ignores a leading symbol.
+- Road lines drawn for the days that have them (13 of 33). West Tensleep Lake sits ~8.5 km past the first road pull; `roads.py` now pulls minor roads wider around a stop like that, and its days route all the way in.
+- Still lineless because a bed is undecided, not because of pins: Day 1 (Des Moines area), Days 16–18 (Apgar or Avalanche), Day 19 (Spokane / Coeur d'Alene), Days 30–33 (the drive home).

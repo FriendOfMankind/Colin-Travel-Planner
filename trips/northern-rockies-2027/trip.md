@@ -549,7 +549,7 @@ overnight:
 - 5:20 AM · note · First light at Slough Creek. Sunrise 5:47 AM. **The one early alarm this week, and it earns it**: wildlife at dawn is the whole reason for the Slough Creek night (principle 4's exception).
 - 5:15 AM (2h 30m) · drive! · **Lamar Valley at dawn.** Same rules as last night: pull-outs only, 25 yards from bison, 100 from wolves and bears. · 📍 Lamar Valley Yellowstone
 - 8:00 AM (1h 30m) · stop · Back to camp. Hot breakfast, break camp slowly.
-- 9:30 AM (2h 30m) · drive · → Old Faithful via Tower Junction, Canyon, Norris and Madison. ⚠️ **Drive time is my estimate, unrouted**, and July traffic in the geyser basins is slow. · 📍 Old Faithful Visitor Education Center
+- 9:30 AM (2h 30m) · drive · → Old Faithful via Tower Junction, Canyon, Norris and Madison. ⚠️ **Drive time is my estimate, unrouted**, and July traffic in the geyser basins is slow. · 📍 Old Faithful Geyser
 - 12:00 PM (2h) · stop · **Old Faithful and the Upper Geyser Basin boardwalks.** ⚠️ Eruption times are predicted daily; not checked. · 📍 Old Faithful Geyser
 - 2:30 PM (1h 30m) · hike · **Grand Prismatic from the Fairy Falls trail overlook.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*. The view from above is the one in the photographs; the boardwalk is the one from inside the steam. · 📍 Fairy Falls Trailhead Yellowstone
 - 4:30 PM (30m) · drive · → Madison Campground, 📋 16 mi north of Old Faithful. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
@@ -740,7 +740,7 @@ overnight:
 
 **Schedule**
 - 5:53 AM · sunrise · Sunrise. Break camp slowly.
-- 8:00 AM (2h 30m) · drive! · → west side over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so mid-July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM** — pass through today, walk it tomorrow. · 📍 Going-to-the-Sun Road Logan Pass
+- 8:00 AM (2h 30m) · drive! · → west side over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so mid-July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM** — pass through today, walk it tomorrow. · 📍 Logan Pass Visitor Center Glacier
 - 1:00 PM (2h 30m) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Busy, and worth it anyway. · 📍 Avalanche Lake Trailhead Glacier
 - afternoon (1h) · stop · Camp. **Shower.** Sixteen days.
 - 9:27 PM · sunset · Sunset. Dark 9:57 PM.
@@ -778,10 +778,10 @@ overnight:
 
 **Schedule**
 - 5:58 AM · sunrise · Sunrise. First light 5:27 AM.
-- 4:45 AM (1h) · drive! · → **The Loop**, park there, and ride the shuttle up to Logan Pass; or drive to Logan Pass and ride back down from The Loop at the end. 🚨 **The shuttle is what makes this one-way hike possible.** In 2026 it was a pilot ($1 tickets on recreation.gov, Jul 1 – Sept 7): the west-side express ran from Apgar Visitor Center / Lake McDonald Lodge to Logan Pass and stopped at The Loop, with westbound pickups at The Loop roughly 10:30 AM – 8 PM; tickets released 7 PM the day before plus some on a 60-day window, and they sold out fast (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). **The 2027 shuttle rules aren't announced**, so this plan rests on a 2026 pilot. · 📍 Logan Pass Visitor Center
-- 6:00 AM (7h) · hike! · **The Highline, Logan Pass → Granite Park Chalet → The Loop, one way.** 📋 **11.8 mi, +2,388 ft / −4,773 ft** (nps.gov/places/highline-trailhead, snippet, 2026-10-29). ⚠️ **Over the ~10 mi ceiling on distance only**, as Grinnell is, chosen by Colin *(Colin, 2026-10-29)*. The first mile is a ledge cut into the Garden Wall with a hand cable and a long drop; after that it opens out along the wall to the chalet. · 📍 Highline Trail Logan Pass
+- 4:45 AM (1h) · drive! · → **The Loop**, park there, and ride the shuttle up to Logan Pass; or drive to Logan Pass and ride back down from The Loop at the end. 🚨 **The shuttle is what makes this one-way hike possible.** In 2026 it was a pilot ($1 tickets on recreation.gov, Jul 1 – Sept 7): the west-side express ran from Apgar Visitor Center / Lake McDonald Lodge to Logan Pass and stopped at The Loop, with westbound pickups at The Loop roughly 10:30 AM – 8 PM; tickets released 7 PM the day before plus some on a 60-day window, and they sold out fast (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). **The 2027 shuttle rules aren't announced**, so this plan rests on a 2026 pilot. · 📍 Logan Pass Visitor Center Glacier
+- 6:00 AM (7h) · hike! · **The Highline, Logan Pass → Granite Park Chalet → The Loop, one way.** 📋 **11.8 mi, +2,388 ft / −4,773 ft** (nps.gov/places/highline-trailhead, snippet, 2026-10-29). ⚠️ **Over the ~10 mi ceiling on distance only**, as Grinnell is, chosen by Colin *(Colin, 2026-10-29)*. The first mile is a ledge cut into the Garden Wall with a hand cable and a long drop; after that it opens out along the wall to the chalet. · 📍 Logan Pass Visitor Center Glacier
 - 10:30 AM (1h) · stop · **Sit at Granite Park Chalet.** It sells water and snacks (graniteparkchalet.com), so the refill is here.
-- 11:30 AM (2h) · hike · **Down to The Loop**: the last 4 mi from the chalet are a 2,300 ft descent (graniteparkchalet.com). Knees, not lungs. · 📍 The Loop Trailhead Glacier
+- 11:30 AM (2h) · hike · **Down to The Loop**: the last 4 mi from the chalet are a 2,300 ft descent (graniteparkchalet.com). Knees, not lungs. · 📍 The Loop Trailhead Glacier National Park
 - 1:30 PM · drive · Shuttle or car back from The Loop, inside the 2026 pickup hours. ⚠️ 2027 hours unknown.
 - 9:25 PM · sunset · Sunset. Dark 9:56 PM.
 

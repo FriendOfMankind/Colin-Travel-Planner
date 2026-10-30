@@ -109,6 +109,24 @@ groups:
         icon: ⚠️
         days: "6"
         wpNote: Unpaved, narrow, shelf sections. Clearance decision.
+      - name: West Tensleep Falls Trailhead
+        note: "Day 4. Added 2026-10-30: the plan's 📍 had no entry here. May be the same lot as the Day 5 trailhead at the lake."
+        maps: West Tensleep Falls Trailhead
+        verified: false
+        lat: null
+        lng: null
+      - name: West Tensleep Trailhead
+        note: "Day 5, Lost Twin Lakes. Added 2026-10-30."
+        maps: West Tensleep Trailhead Bighorn National Forest
+        verified: false
+        lat: null
+        lng: null
+      - name: Sherd Lake Trailhead
+        note: "Day 6. Added 2026-10-30."
+        maps: Sherd Lake Trailhead Bighorn National Forest
+        verified: false
+        lat: null
+        lng: null
   - group: Beartooth + Yellowstone NE
     places:
       - name: Island Lake Campground
@@ -175,6 +193,24 @@ groups:
         icon: 🦬
         days: "10"
         wpNote: Pull-outs only. 25 yd from bison, 100 yd from bears and wolves.
+      - name: Beartooth High Lakes Trailhead
+        note: "Day 8. Added 2026-10-30."
+        maps: Beartooth High Lakes Trailhead Island Lake
+        verified: false
+        lat: null
+        lng: null
+      - name: Beartooth High Lakes Trail
+        note: "Day 9. Added 2026-10-30. A trail, so its trailhead is the pin."
+        maps: Beartooth High Lakes Trail Wyoming
+        verified: false
+        lat: null
+        lng: null
+      - name: Yellowstone Northeast Entrance
+        note: "Day 10. Added 2026-10-30."
+        maps: Yellowstone Northeast Entrance Cooke City
+        verified: false
+        lat: null
+        lng: null
   - group: Yellowstone interior
     places:
       - name: Artist Point
@@ -285,6 +321,134 @@ groups:
         icon: 🅿️
         days: 16, 17
         wpNote: 3-hour parking cap from July 1. $1 ticketed shuttle.
+      - name: Swiftcurrent Nature Trail
+        note: "Day 12. Added 2026-10-30."
+        maps: Swiftcurrent Nature Trail Many Glacier
+        verified: false
+        lat: null
+        lng: null
+      - name: Redrock Falls Trail
+        note: "Day 13. Added 2026-10-30."
+        maps: Redrock Falls Trail Many Glacier
+        verified: false
+        lat: null
+        lng: null
+      - name: Bullhead Lake Trail
+        note: "Day 13. Added 2026-10-30."
+        maps: Bullhead Lake Trail Many Glacier
+        verified: false
+        lat: null
+        lng: null
+      - name: Avalanche Lake Trailhead
+        note: "Day 16. Added 2026-10-30."
+        maps: Avalanche Lake Trailhead Glacier
+        verified: false
+        lat: null
+        lng: null
+      - name: St Mary Falls Trailhead
+        note: "Day 18. Added 2026-10-30."
+        maps: St Mary Falls Trailhead Glacier
+        verified: false
+        lat: null
+        lng: null
+  - group: Oregon week (added 2026-10-30, none placed yet)
+    places:
+      - name: Sunset Motel, Hood River
+        note: "Nights 19–22 (Jul 31 – Aug 3). The bed."
+        maps: Sunset Motel Hood River Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Rowena Crest Viewpoint
+        note: "Day 21."
+        maps: Rowena Crest Viewpoint
+        verified: false
+        lat: null
+        lng: null
+      - name: Wet Planet Whitewater
+        note: "Day 22, White Salmon raft."
+        maps: Wet Planet Whitewater Husum
+        verified: false
+        lat: null
+        lng: null
+      - name: Lost Lake Resort
+        note: "Day 22."
+        maps: Lost Lake Resort Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Eagle Creek Trailhead
+        note: "Day 23, Tunnel Falls."
+        maps: Eagle Creek Trailhead Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Holiday Motel, Bend
+        note: "Nights 23–26 (Aug 4–7). The bed."
+        maps: Holiday Motel Bend Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Deschutes River Adventures
+        note: "Day 24, Lower Deschutes."
+        maps: Deschutes River Adventures Maupin
+        verified: false
+        lat: null
+        lng: null
+      - name: Devils Lake Trailhead
+        note: "Day 25, South Sister."
+        maps: Devils Lake Trailhead Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Steelhead Falls Trailhead
+        note: "Day 26."
+        maps: Steelhead Falls Trailhead Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Smith Rock State Park
+        note: "Day 26. A whole park: the main day-use lot is the pin."
+        maps: Smith Rock State Park
+        verified: false
+        lat: null
+        lng: null
+      - name: Park and Float
+        note: "Day 27, the Bend float. Pin the put-in."
+        maps: Park and Float Bend
+        verified: false
+        lat: null
+        lng: null
+      - name: Dee Wright Observatory
+        note: "Day 28."
+        maps: Dee Wright Observatory
+        verified: false
+        lat: null
+        lng: null
+      - name: Belknap Hot Springs Lodge
+        note: "Nights 27–28 (Aug 8–9). The bed."
+        maps: Belknap Hot Springs Lodge
+        verified: false
+        lat: null
+        lng: null
+      - name: Clear Lake Resort
+        note: "Day 29."
+        maps: Clear Lake Resort Oregon
+        verified: false
+        lat: null
+        lng: null
+      - name: Tamolitch Blue Pool Trailhead
+        note: "Day 29."
+        maps: Tamolitch Blue Pool Trailhead
+        verified: false
+        lat: null
+        lng: null
+      - name: Terwilliger Hot Springs
+        note: "Day 29. Pin the parking lot, not the pools."
+        maps: Terwilliger Hot Springs
+        verified: false
+        lat: null
+        lng: null
   - group: The drive home
     places:
       - name: Cottonwood Campground
