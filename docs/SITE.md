@@ -65,12 +65,12 @@ Colin asked for four things: works with no signal, a today view for the field, a
 - **Booking windows** (`#book`, linked from Now). The same computation as `tools/now.mjs` (`tools/lib/booking.mjs`, run at build time), grouped on the phone's own date: open now · opens soon (date, days to go, the ET release time when known) · bookable anytime · window unknown. *Download .ics* gives `tools/ics.mjs`'s own output.
 - **Smaller.** The data blob only escapes `</` now (it used to escape every `<`), and fields no view showed are no longer shipped: a trip's subtitle, theme, tags, nights, distance, budget, the day type, a place's source and the sun table's location and moon columns, an idea's tags, budget, target and teaser, a `me/` file's topic. 1,117 KB → 1,048 KB (gzip 325 → 318 KB). The rest is content Colin can open. Without the web fonts, a local load went from about 990 ms to about 65 ms.
 - **Next trip on Now** falls back to a trip's `target` date, as the briefing does, labelled "target, not booked".
+- **Live since 2026-10-30** at https://friendofmankind.github.io/Colin-Travel-Planner/. Two snags on the way, worth knowing if a deploy fails again in ~2 seconds with no log: the repo's default branch was a stale `claude/pensive-euler-g7bybq` (now `main`), and the `github-pages` environment only allowed that branch to deploy (now `main`). The claude.ai copy can't save an `.ics` (the viewer blocks downloads and its allowlist has no calendar type), so its calendar button opens this copy's file instead.
 
 ## Not built yet
 
 Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it.
 
-- **GitHub Pages is off.** It needs Settings → Pages → Source: GitHub Actions, once, by Colin. Until then the offline copy only exists on a local server.
 - **The map view:** vendored Leaflet, verified pins only, routes where they're generated.
 - **The free-window Calendar** from Trees.
 - **Search.**
