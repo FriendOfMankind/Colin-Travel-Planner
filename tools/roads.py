@@ -50,8 +50,8 @@ SPEED = {"motorway": 105, "trunk": 90, "primary": 80, "secondary": 70, "tertiary
 NOT_DRIVABLE = {"footway", "cycleway", "pedestrian", "steps", "path", "bridleway", "sidewalk", "crosswalk"}
 FERRY_KMH, FERRY_PENALTY_H = 30, 1.0  # a crossing costs boarding time, so short detours by road win
 TERMINAL_M = 3000  # a stop this close to a ferry line counts as being at that terminal
-SAIL_MIN_M, SAIL_SHARE = 2000, 0.5  # and only a hop this long, mostly covered by the sailing, takes it:
-# in a port city every two stops are near some boat line, and a walk across Marseille's old town isn't a crossing
+SAIL_MIN_M, SAIL_SHARE = 2000, 0.5  # and only a hop this long, mostly covered by the sailing, on a day whose
+# plan has a ferry row: in a port city every two stops are near some boat line, and a bus along the coast isn't a crossing
 SNAP_LIMIT_M = 3000
 MIN_NETWORK = 200  # nodes; smaller islands of road are parking lots and data scraps, not somewhere to snap
 
@@ -216,6 +216,7 @@ def main():
         (p for p in fc["features"] if p["geometry"]["type"] == "Point" and p["properties"].get("day") == f["properties"]["day"]),
         key=lambda p: p["properties"]["seq"])] for f in legs}
     flys = {f["properties"]["day"]: set(f["properties"].get("flyHops", [])) for f in legs}  # seq of each flight's landing stop
+    sails = {f["properties"]["day"] for f in legs if f["properties"].get("planFerry")}
     pts = [c for cs in stops.values() for c in cs]
     if not pts:
         sys.exit(f"{a.slug}: no day has two placed stops")
@@ -250,7 +251,7 @@ def main():
                 (u, du), (v, dv) = snap((x0, y0), (x1, y1))
                 worst = max(worst, du, dv)
                 hop = metres([(x0, y0), (x1, y1)])
-                sail = ferry_between(g, pos, (x0, y0), (x1, y1)) if hop >= SAIL_MIN_M else None
+                sail = ferry_between(g, pos, (x0, y0), (x1, y1)) if day in sails and hop >= SAIL_MIN_M else None
                 if sail and metres([pos[n] for n in sail]) < SAIL_SHARE * hop:
                     sail = None
                 if sail:  # road to the terminal, the sailing, road from the other terminal; an end

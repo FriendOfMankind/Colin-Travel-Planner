@@ -25,7 +25,8 @@
    it and roads.py won't drive it. `miles` counts the ground, `flownMiles`
    the air. A GPX marks its flight tracks with <type>fly</type>.
 
-   A bed with `mapStandIn:` (no fixed place yet) ends the day at that stand-in
+   A day with a `ferry` row in its plan says `planFerry`: only then does
+   roads.py hold a hop to a sailing. A bed with `mapStandIn:` (no fixed place yet) ends the day at that stand-in
    and the leg says `bedStandIn`.
 
    The clock is fake. Each day plays 01:00 → 23:00 on its date at constant
@@ -168,7 +169,8 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     const bed = camp(d.overnight);
     const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round((total - flown) / 1.609344),
       ...(fly.length ? { fly, flownMiles: Math.round(flown / 1.609344), flyHops: flyHop.flatMap((f, k) => (f ? [k + 1] : [])) } : {}),
-      ...(bed?.standIn ? { bedStandIn: bed.label } : {}), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
+      ...(bed?.standIn ? { bedStandIn: bed.label } : {}),
+      ...((d.schedule ?? []).some((r) => r.kind === "ferry" && !/^(option|fallback)\b/i.test(r.time)) ? { planFerry: true } : {}), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
     flat.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line } });
     trip.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line.map(([x, y], k) => [x, y, 0, at(k)]) } });
   });

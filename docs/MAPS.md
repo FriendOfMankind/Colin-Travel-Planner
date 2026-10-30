@@ -45,7 +45,7 @@ Every routing service is blocked from a session (OSRM, Valhalla, OpenRouteServic
 
 **Flights:** each stretch of ground between flights (Ireland, Marseille) gets its own road pull, and a stop snaps to any network of 200+ nodes, not only the biggest. The GPX writes a flight as its own `<trk>` with `<type>fly</type>`.
 
-**Ferries:** when both ends of a leg sit within 3 km of the ends of one ferry line, the leg takes that sailing, even if driving round to another ferry is quicker on paper. Without that rule, day 27 skipped the Argentia overnight ferry and drove across the island to Port aux Basques. To route a ferry leg, put the far terminal on the ferry row's `📍`.
+**Ferries:** on a day whose plan has a `ferry` row, when both ends of a leg sit within 3 km of the ends of one ferry line, the leg takes that sailing, even if driving round to another ferry is quicker on paper. Without that rule, day 27 skipped the Argentia overnight ferry and drove across the island to Port aux Basques. To route a ferry leg, put the far terminal on the ferry row's `📍`.
 
 Re-run it whenever pins or beds change; days that didn't change come out the same.
 
