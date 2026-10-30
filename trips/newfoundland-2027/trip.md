@@ -968,7 +968,7 @@ overnight:
 - 10:00 → 12:00 · hike · **Gannets**, 1.7 mi / 295 ft (AllTrails 48 m) + a long sit. ~70,000 seabirds; Bird Rock a few metres from the cliff edge; free *(YouTube, Adventures With Todd, 2022)*
 - 12:00 → 1:18 (1h 18m) · drive · → Argentia, with an hour of buffer · 📍 Marine Atlantic Argentia Terminal
 - 3:00 · stop · Check in at Argentia, 2 h before. The terminal has showers but no cafeteria *(marineatlantic.ca)* · 📍 Marine Atlantic Argentia Terminal
-- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)*
+- 5:00 → ~9:00 (16h) · ferry · **Argentia → North Sydney**, overnight. **You can't go to the car during the crossing**, so bring meds and an overnight bag up *(YouTube, Drifter Dave, 2024)* · 📍 Marine Atlantic North Sydney Terminal
 
 **Meals**
 - B: made or bought
@@ -994,7 +994,7 @@ overnight:
 ```
 
 **Schedule**
-- TBD · drive · North Sydney → toward Calais and Bangor · 📍 Calais Maine
+- TBD · drive · North Sydney → toward Calais and Bangor · 📍 Calais Maine border crossing
 
 **Meals**
 - B: bought on board

@@ -446,3 +446,116 @@ groups:
     lat: 47.291081
     lng: -53.992221
     source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+- group: Home
+  places:
+  - name: Home (Avon)
+    note: Day 1 start and day 30 end. A town-level pin is enough for drawing the loop.
+    maps: Avon, Ohio
+    home: true
+    verified: false
+    lat: null
+    lng: null
+- group: Schedule stops (added for the map, 2026-10-30)
+  places:
+  - name: Alma, NB
+    note: Day 3. Fundy's gateway village.
+    maps: Alma New Brunswick
+    verified: false
+    lat: null
+    lng: null
+  - name: Flower's Cove
+    note: Day 7. Thrombolites.
+    maps: Flower's Cove Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Whaler's Quest, Red Bay
+    note: Day 10.
+    maps: Whaler's Quest Ocean Adventures Red Bay
+    verified: false
+    lat: null
+    lng: null
+  - name: Blanc-Sablon Ferry Terminal
+    note: Day 11, the crossing back.
+    maps: Blanc-Sablon Ferry Terminal
+    verified: false
+    lat: null
+    lng: null
+  - name: Gander
+    note: Day 16. The friends land.
+    maps: Gander NL
+    verified: false
+    lat: null
+    lng: null
+  - name: Fogo Island ferry terminal (Stag Harbour)
+    note: Day 17, the crossing back.
+    maps: Fogo Island Ferry Terminal Stag Harbour
+    verified: false
+    lat: null
+    lng: null
+  - name: Twillingate
+    note: Day 17.
+    maps: Twillingate NL
+    verified: false
+    lat: null
+    lng: null
+  - name: Twillingate Adventure Tours
+    note: Day 17.
+    maps: Twillingate Adventure Tours
+    verified: false
+    lat: null
+    lng: null
+  - name: Bonavista
+    note: Day 18.
+    maps: Bonavista NL
+    verified: false
+    lat: null
+    lng: null
+  - name: St. John's
+    note: Day 21.
+    maps: St. John's NL
+    verified: false
+    lat: null
+    lng: null
+  - name: Christian's Pub
+    note: Day 23.
+    maps: Christian's Pub St. John's
+    verified: false
+    lat: null
+    lng: null
+  - name: Gatheralls Puffin and Whale Watch
+    note: Day 24, Bay Bulls.
+    maps: Gatheralls Puffin and Whale Watch Bay Bulls
+    verified: false
+    lat: null
+    lng: null
+  - name: Ferryland
+    note: Day 25.
+    maps: Ferryland Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Edge of Avalon Interpretive Centre
+    note: Day 26, Mistaken Point.
+    maps: Edge of Avalon Interpretive Centre Portugal Cove South
+    verified: false
+    lat: null
+    lng: null
+  - name: St. Vincent's Beach
+    note: Day 26, whales from the beach.
+    maps: St. Vincent's Beach Newfoundland
+    verified: false
+    lat: null
+    lng: null
+  - name: Argentia Sunset RV Park
+    note: Night 26.
+    maps: Argentia Sunset RV Park
+    verified: false
+    lat: null
+    lng: null
+  - name: Marine Atlantic North Sydney Terminal
+    note: Day 27, where the overnight Argentia ferry lands.
+    maps: Marine Atlantic North Sydney Terminal
+    verified: false
+    lat: null
+    lng: null

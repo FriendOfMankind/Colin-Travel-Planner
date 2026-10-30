@@ -74,12 +74,15 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   const flat = [], trip = [], seen = new Set();
   const days = page.days ?? [];
   let lastPin = null; // the previous day's final placed stop
+  // Home (a place marked `home: true`, once placed) opens day 1 and closes a last day with no bed.
+  const home = places.find((p) => p.home && p.verified);
+  const homeStop = home && { label: home.name, q: `${home.lat},${home.lng}`, pinned: true };
 
   days.forEach((d, i) => {
     const color = PALETTE[(d.day - 1) % PALETTE.length];
     const date = dateOf(d, r);
     const t0 = date ? Date.parse(`${date}T00:00:00Z`) / 1000 : (d.day - 1) * 86400;
-    const { start, stops } = dayStops(d.schedule ?? [], places, { start: i ? camp(days[i - 1].overnight) : null, end: camp(d.overnight) });
+    const { start, stops } = dayStops(d.schedule ?? [], places, { start: i ? camp(days[i - 1].overnight) : homeStop ?? null, end: camp(d.overnight) ?? (i === days.length - 1 && !d.overnight ? homeStop : null) });
     const all = [start, ...stops].filter(Boolean);
     // Skipping an unplaced stop can leave one place twice in a row (camp → ? → camp).
     const pinned = all.filter((s) => s.pinned).map((s) => byQuery.get(s.q)).filter((p, k, a) => p && p !== a[k - 1]);
