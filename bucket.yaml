@@ -296,7 +296,6 @@ items:
     state: SD
     why: A log ladder up an eroding badlands wall
     status: want
-    trip: northern-rockies-2027
     source: northern-rockies-2027 trip.md
     added: 2026-09-30
 
@@ -544,7 +543,7 @@ items:
     months: [7, 8, 9]
     why: A 12,013 ft summit inside the day-hike ceiling, no permits
     status: want
-    wishlist: snowy-range
+    trip: northern-rockies-2027
     source: wishlist/snowy-range.md
     added: 2026-09-30
 
@@ -1272,7 +1271,6 @@ items:
     months: [7]
     why: Open-hike policy, so any ridge or gully is fair game; a sunset wander from Cedar Pass
     status: want
-    trip: northern-rockies-2027
     source: unofficialnetworks.com 2025-06-27; nps.gov/thingstodo/hiking-badl.htm (search snippets, 2026-10-06)
     added: 2026-10-06
 

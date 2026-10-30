@@ -1,24 +1,33 @@
 {
   "generatedBy": "Trees tools/sun.mjs (ad-hoc --lat/--lng/--elev/--tz America/Denver), run 2026-10-29 for the Jul 12 departure; Glacier rows (7/23 on) unchanged from the 2026-10-10 run",
-  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip). 2026-10-29 run: the verified places.yaml coordinates for Cedar Pass, West Tensleep Lake, Island Lake and Slough Creek, at 744 m, 2,774 m, 2,901 m and 1,905 m; these reproduce the 2026-10-10 table to the minute. Glacier rows are from the 2026-10-10 run (stateparks.com points for Many Glacier and Apgar). Everything is Mountain Time. **Madison Campground has no verified coordinate**, so Jul 22's sunset and Jul 23's sunrise there are TBD. Rows are per night's location; on travel days trip.md shows the departure camp's sunrise, computed the same way (Badlands 7/15 5:14 AM, Bighorns 7/18 5:31 AM, Beartooth 7/21 5:41 AM).Full moon (July 17–19) falls on the last Bighorn night and the first two Beartooth nights. The Fri 7/30 and Sat 7/31 rows are Theodore Roosevelt, cut 2026-10-15; kept as a record, not on the plan.",
+  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip). 2026-10-29 run: the verified places.yaml coordinates for Cedar Pass, West Tensleep Lake, Island Lake and Slough Creek, at 744 m, 2,774 m, 2,901 m and 1,905 m; these reproduce the 2026-10-10 table to the minute. Glacier rows are from the 2026-10-10 run (stateparks.com points for Many Glacier and Apgar). Everything is Mountain Time. **Madison Campground has no verified coordinate**, so Jul 22's sunset and Jul 23's sunrise there are TBD. Rows are per night's location; on travel days trip.md shows the departure camp's sunrise, computed the same way (Badlands 7/15 5:14 AM, Bighorns 7/18 5:31 AM, Beartooth 7/21 5:41 AM).Full moon (July 17–19) falls on the last Bighorn night and the first two Beartooth nights. The Fri 7/30 and Sat 7/31 rows are Theodore Roosevelt, cut 2026-10-15; kept as a record, not on the plan. 2026-10-30: the two Badlands rows were replaced by Jul 12–14 rows (Des Moines, Vedauwoo, Snowy Range; no verified coordinates yet, so TBD) and the cut Theodore Roosevelt rows were removed. That also fixes a one-day offset: the site reads rows by day index, and since the Jul 12 departure every day had been showing the next day's sun.",
   "rows": [
     {
+      "date": "Mon 7/12",
+      "location": "Des Moines area (transit)",
+      "firstLight": "TBD (no verified coordinate)",
+      "sunrise": "TBD (no verified coordinate)",
+      "sunset": "TBD (no verified coordinate)",
+      "dark": "TBD (no verified coordinate)",
+      "moon": ""
+    },
+    {
       "date": "Tue 7/13",
-      "location": "Badlands",
-      "firstLight": "4:43 AM",
-      "sunrise": "5:12 AM",
-      "sunset": "8:33 PM",
-      "dark": "9:03 PM",
-      "moon": "79.1% waxing"
+      "location": "Vedauwoo",
+      "firstLight": "TBD (no verified coordinate)",
+      "sunrise": "TBD (no verified coordinate)",
+      "sunset": "TBD (no verified coordinate)",
+      "dark": "TBD (no verified coordinate)",
+      "moon": ""
     },
     {
       "date": "Wed 7/14",
-      "location": "Badlands",
-      "firstLight": "4:44 AM",
-      "sunrise": "5:13 AM",
-      "sunset": "8:33 PM",
-      "dark": "9:02 PM",
-      "moon": "86.5% waxing"
+      "location": "Snowy Range — Brooklyn Lake",
+      "firstLight": "TBD (no verified coordinate)",
+      "sunrise": "TBD (no verified coordinate)",
+      "sunset": "TBD (no verified coordinate)",
+      "dark": "TBD (no verified coordinate)",
+      "moon": ""
     },
     {
       "date": "Thu 7/15",
@@ -154,24 +163,6 @@
       "sunset": "9:24 PM",
       "dark": "9:54 PM",
       "moon": "18.6% waning"
-    },
-    {
-      "date": "Fri 7/30",
-      "location": "Theodore Roosevelt",
-      "firstLight": "4:55 AM",
-      "sunrise": "5:25 AM",
-      "sunset": "8:34 PM",
-      "dark": "9:04 PM",
-      "moon": "10.5% waning"
-    },
-    {
-      "date": "Sat 7/31",
-      "location": "Theodore Roosevelt",
-      "firstLight": "4:56 AM",
-      "sunrise": "5:27 AM",
-      "sunset": "8:33 PM",
-      "dark": "9:03 PM",
-      "moon": "4.3% waning"
     }
   ]
 }
