@@ -139,7 +139,7 @@ function warnings(p, place) {
   const t = state.trips[place.trip];
   if (t?.center) {
     const d = km(t.center, [p.lat, p.lng]);
-    if (d > (t.ringKm || 800)) w.push(`${d.toLocaleString()} km from the trip area. Swapped numbers or the wrong place?`);
+    if (d > (t.ringKm || 800)) w.push(`${d.toLocaleString()} km from the middle of this trip, farther than any of its stops should be. Swapped numbers or a minus sign missing?`);
   }
   if (p.kind === "center") w.push("That's where the map was centered, not a dropped pin, so it may be off. Long-press for an exact spot.");
   if (p.dec < 4) w.push(`Only ${p.dec} decimal places, so it could be up to ${p.dec <= 2 ? "1 km" : "100 m"} off.`);
