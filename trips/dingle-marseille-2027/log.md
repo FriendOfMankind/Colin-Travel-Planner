@@ -50,3 +50,10 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - **Return May 22 vs Newfoundland May 23:** Colin chose to **shift Newfoundland** rather than come home earlier *(stated 2026-10-30)*. Logged in `trips/newfoundland-2027/log.md`.
 - **EI 86 times disagree:** 2026 schedule 20:10 → 08:10 *(flightmapper, per the wishlist)*; May 10, 2027 observation 20:40 → 08:45 *(handoff)*. The plan uses the 2027 observation; the ticket decides.
 - **Not imported:** the handoff's map coordinates (approximate, typed by hand) and its 111 timed blocks (file unavailable). The days were rebuilt coarser, using only sourced clock times.
+
+## 2026-10-30 · Two more days allowed: home by Mon May 24
+
+- Colin picked **"+2"**: this trip can land as late as **Mon May 24**, and Newfoundland leaves **Wed May 26** after one turnaround day *(Colin, 2026-10-30)*. Newfoundland paid for it with two of three Acadia nights and Cape Breton's spare day (`trips/newfoundland-2027/log.md`).
+- Why +2 and not more: the next cut on the Newfoundland side was Labrador and Red Bay, which are unrestored ruins and only-now, while Acadia is a long weekend from Ohio any year *(Claude's reasoning, Colin agreed, 2026-10-30)*.
+- **Not decided:** where the two days go, and the new home flight. The day plan and the open-jaw booking row still show the May 22 routing until then.
+- **Pack the Sienna for Newfoundland before flying out May 10.**

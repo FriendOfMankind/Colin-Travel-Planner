@@ -12,7 +12,7 @@ status: outline
 pinned: false
 start: null
 dates: May 10–22, 2027 (target, unbooked)
-window: After Commencement (Sat May 8). The May 22 return collides with Newfoundland's May 23 start, and Colin chose to move Newfoundland (stated 2026-10-30), which isn't re-planned yet
+window: After Commencement (Sat May 8), up to a Mon May 24 landing. Newfoundland now leaves Wed May 26 (Colin, 2026-10-30), so this trip can grow by two days; the routed plan below still ends May 22
 region: Cleveland → Dublin → Dingle → Dublin → Marseille → home via Heathrow and Chicago
 states: [ IE, FR ]
 country: Ireland, France
@@ -30,7 +30,7 @@ tags:
   - family
   - free lodging
   - no car
-next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. Before money moves: decide the Newfoundland shift (Acadia's Dec 1 release depends on it), then who the third person is, then flights. The open-jaw fare is the biggest single line"
+next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. The Newfoundland shift is decided: home by Mon May 24. Next: where the two extra days go (Dingle, Marseille, or both), then who the third person is, then re-price the open-jaw home on May 23 or 24. The open-jaw fare is the biggest single line"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + MRS → CLE May 22 (BA 347 / AA 91 / AA 1035), one open-jaw ticket
@@ -78,7 +78,7 @@ Fly overnight from Cleveland, cross Ireland to Dingle the day you land, then fou
 
 ### Dates
 
-May 10–22, 2027 (target). 13 days, 12 nights. The return was May 20, then pushed to May 22 for more Dingle time. **Landing May 22 at 22:02 leaves no turnaround before Newfoundland's May 23 start, so Newfoundland moves** *(Colin, 2026-10-30)*. How far it moves is an open question in `trips/newfoundland-2027/trip.md`.
+May 10–22, 2027 as routed (target). 13 days, 12 nights. **It can now run to a Mon May 24 landing:** Newfoundland moved to Wed May 26 to make room *(Colin, 2026-10-30: "+2 works")*. The two days aren't placed yet; see Open questions.
 
 ### Group
 
@@ -470,10 +470,10 @@ Beds, the May 15 lift, and the address (which decides Killarney vs. Farranfore a
 **Blocks:** everything after May 15
 Leaning Marseille *(2026-10-30)*. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
 
-### Is the 22:02 Saturday landing actually fine?
+### Where do the two extra days go?
 
-**Blocks:** the Newfoundland start date
-Colin chose to move Newfoundland rather than come home earlier *(2026-10-30)*. The alternative that keeps Newfoundland whole: home Thu May 20 (two fewer Marseille days) or Fri May 21 (one fewer).
+**Blocks:** the home flight, the Marseille base booking, the Dingle nights
+The trip can land as late as **Mon May 24** *(Colin, 2026-10-30)*; Newfoundland leaves Wed May 26 after one turnaround day. Options: Marseille +2 (nine nights, room for an Aix or Calanques day without a back-to-back), Dingle +1 and Marseille +1, or Dingle +2. The MRS → CLE open-jaw has to be re-priced for May 23 or 24: the 22:02 routing via Heathrow and Chicago was observed for Saturday May 22 only.
 
 ## Field notes
 

@@ -559,3 +559,15 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - **The May trip now lands home Sat May 22 at 22:02** (`trips/dingle-marseille-2027/`), the night before this trip's May 23 start. Colin chose to **shift Newfoundland** rather than shorten Europe *(stated 2026-10-30)*. How far isn't decided; the options are in `trip.md` under Open questions.
 - What pins the shift: the friends land in Gander on **Jun 10**, and the Belle Isle ferry days (**Thu Jun 3** over, **Sat Jun 5** back) are weekday-fixed. So any days lost at the start have to come out of Days 1–11, before the Strait *(Claude's reasoning, 2026-10-30)*.
 - **Time-sensitive:** Blackwoods (May 24–26) releases **Dec 1**. Decide the new start before then, or book the old nights and change them later.
+
+## 2026-10-30 · Decided: leave Wed May 26, three days later, for two more Europe days
+
+- **Europe gets two more days (home Mon May 24), and this trip leaves Wed May 26** after one turnaround day *(Colin, 2026-10-30: "+2 works")*. The friends' Jun 10 arrival and the Belle Isle ferries (Thu Jun 3 over, Sat Jun 5 back) stay pinned, so the three days come out of the run to the ferry. **The May 30 sailing doesn't move.**
+- **What was cut:**
+  - **Acadia, from three nights to one** (May 27): the Beehive, Jordan Pond popovers, the Seal Cove sunset, the carriage-road bike day and **Cadillac at sunset** are all gone. The `acadia-cadillac` booking row is gone with them. The reasoning: Acadia is a long weekend from Ohio, so it survives the after-Aug-31 test easily *(Claude's reasoning, Colin agreed, 2026-10-30)*.
+  - **Cape Breton's spare day.** Skyline is now a sunset hike on the evening you reach Chéticamp, and Hopewell moves to the Fundy arrival afternoon or the next morning, whichever low tide fits 9–5.
+- **Old values:** May 23 – Jun 24, 33 days, 32 nights (19 camp). Blackwoods May 24–26, Fundy May 27, Chéticamp May 28–29. Day numbers from 9 on dropped by 3 (old Day 18's rest day is now Day 15).
+- **The safety net:** the May 30 midday ferry has an overnight sailing the same night (23:15 or 23:30), so a bad morning costs the Port aux Basques camp, not the trip.
+- **Sunsets recomputed** for the new dates at regional points (NOAA formula): Bar Harbor 5/27 8:04, Alma 5/28 8:57, Chéticamp 5/29 8:46. The same formula gives Trees' old values +1 minute, so the shift was applied as a difference.
+- **Open, and new:** **Pack the Sienna before May 10.** One turnaround day after an overnight flight home isn't enough to unpack Europe and pack 30 days of camping *(Claude's reasoning)*.
+- The open question "How many days later does the trip start?" is answered and removed from `trip.md`.

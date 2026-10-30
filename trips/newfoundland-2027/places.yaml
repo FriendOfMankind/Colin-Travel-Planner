@@ -12,13 +12,13 @@ groups:
     lat: null
     lng: null
   - name: Calais border crossing
-    note: Days 5 and 31. Passport, declare all food.
+    note: Days 3 and 28. Passport, declare all food.
     maps: Calais Maine border crossing
     verified: false
     lat: null
     lng: null
   - name: Bangor
-    note: Day 31–32. Transit.
+    note: Days 28–29. Transit.
     maps: Bangor Maine
     verified: false
     lat: null
@@ -26,37 +26,37 @@ groups:
 - group: Acadia
   places:
   - name: Blackwoods Campground
-    note: Nights 2–4. Doesn't connect to the carriage roads by bike.
+    note: Night 2 only.
     maps: Blackwoods Campground Acadia
     verified: false
     lat: null
     lng: null
   - name: Sand Beach
-    note: Days 2–3. Ocean Path and the Beehive start here.
+    note: Day 2. The Ocean Path walk starts here.
     maps: Sand Beach Acadia
     verified: false
     lat: null
     lng: null
   - name: Beehive Trailhead
-    note: Day 3. Iron rungs.
+    note: Not scheduled (Acadia cut to one evening, 2026-10-30). Iron rungs.
     maps: Beehive Trailhead Acadia
     verified: false
     lat: null
     lng: null
   - name: Jordan Pond House
-    note: Day 3 or 4. Popovers; ask for butter.
+    note: Not scheduled (2026-10-30). Popovers; ask for butter.
     maps: Jordan Pond House
     verified: false
     lat: null
     lng: null
   - name: Seal Cove
-    note: Day 3 sunset, west-facing.
+    note: Not scheduled (2026-10-30). Sunset, west-facing.
     maps: Seal Cove Picnic Area Acadia
     verified: false
     lat: null
     lng: null
   - name: Eagle Lake carriage road lot
-    note: Day 4 bike start. Parking not checked.
+    note: Not scheduled (bike day cut 2026-10-30). Parking not checked.
     maps: Eagle Lake Bridge Acadia
     verified: false
     lat: null
@@ -64,19 +64,19 @@ groups:
 - group: Fundy
   places:
   - name: Fundy NP campground
-    note: Night 5. Headquarters or Chignecto.
+    note: Night 3. Headquarters or Chignecto.
     maps: Fundy National Park Headquarters Campground
     verified: false
     lat: null
     lng: null
   - name: Matthews Head Trail
-    note: Day 5 evening.
+    note: Day 3 evening.
     maps: Matthews Head Trail Fundy National Park
     verified: false
     lat: null
     lng: null
   - name: Hopewell Rocks
-    note: Day 6 morning, only if the tide fits.
+    note: Day 3 afternoon or Day 4 morning, only if the tide fits.
     maps: Hopewell Rocks
     verified: false
     lat: null
@@ -84,25 +84,25 @@ groups:
 - group: Cape Breton
   places:
   - name: Chéticamp Campground
-    note: Nights 6–7. Season not found.
+    note: Night 4. Season not found.
     maps: Cheticamp Campground Cape Breton Highlands
     verified: false
     lat: null
     lng: null
   - name: Skyline Trail
-    note: Day 7 sunset.
+    note: Day 4 sunset.
     maps: Skyline Trail Cape Breton Highlands
     verified: false
     lat: null
     lng: null
   - name: Celtic Shores Coastal Trail, Inverness
-    note: Day 7 optional ride.
+    note: Not scheduled (no bike this trip).
     maps: Celtic Shores Coastal Trail Inverness
     verified: false
     lat: null
     lng: null
   - name: Marine Atlantic North Sydney
-    note: Day 8 out, Day 31 back in.
+    note: Day 5 out, Day 28 back in.
     maps: Marine Atlantic North Sydney
     verified: false
     lat: null
@@ -110,13 +110,13 @@ groups:
 - group: Port aux Basques and Gros Morne
   places:
   - name: J.T. Cheeseman Provincial Park
-    note: Night 8. Opening date not confirmed.
+    note: Night 5. Opening date not confirmed.
     maps: J.T. Cheeseman Provincial Park
     verified: false
     lat: null
     lng: null
   - name: Corner Brook
-    note: Day 9. The real shop; Canadian Tire for fuel.
+    note: Day 6. The real shop; Canadian Tire for fuel.
     maps: Corner Brook NL
     verified: false
     lat: null
