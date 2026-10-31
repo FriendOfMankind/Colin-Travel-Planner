@@ -24,17 +24,19 @@ for (const slug of readdirSync(TRIPS)) {
   const places = join(TRIPS, slug, "places.yaml");
   const g = tripGeo(slug, readFileSync(join(TRIPS, slug, "trip.md"), "utf8"), existsSync(places) ? YAML.parse(readFileSync(places, "utf8")).groups : [], loadRoutes(slug));
   if (!g.flat.length) continue;
-  test(`${slug}: KML fits My Maps, one pin per place, no flights`, () => {
+  test(`${slug}: KML fits My Maps, lines and pins apart, one pin per place, every feature has a kind`, () => {
     const files = tripKml(slug, g);
     for (const text of Object.values(files)) {
       assert.doesNotMatch(text, /<Folder|<MultiGeometry/);
       assert.ok(Buffer.byteLength(text) <= LIMITS.bytes);
     }
-    const all = files[`${slug}.kml`];
+    const all = files[`${slug}-lines.kml`] + files[`${slug}-pins.kml`];
     const names = [...all.matchAll(/<Placemark><name>([^<]*)<\/name>[\s\S]*?<Point>/g)].map((m) => m[1]);
     assert.equal(names.length, new Set(names).size, "a place appears once");
-    const parts = (n) => (files[`${slug}-${n}.kml`].match(/<Placemark>/g) ?? []).length;
-    assert.equal((all.match(/<Placemark>/g) ?? []).length, parts("days") + parts("camps") + parts("stops"));
+    assert.deepEqual(Object.keys(files), [`${slug}-lines.kml`, `${slug}-pins.kml`]);
+    assert.doesNotMatch(files[`${slug}-pins.kml`], /<LineString>/, "lines stay out of the pins layer");
+    // Every feature carries a kind, the column My Maps groups the pins by.
+    assert.equal((all.match(/<Placemark>/g) ?? []).length, (all.match(/<Data name="kind">/g) ?? []).length);
     for (const m of all.matchAll(/<styleUrl>#([^<]+)<\/styleUrl>/g)) assert.match(all, new RegExp(`<Style id="${m[1]}">`));
   });
 }

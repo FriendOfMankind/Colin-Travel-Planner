@@ -309,5 +309,5 @@ for (const slug of ls("trips").filter((s) => has(`trips/${s}/trip.md`))) {
   if (g.trip.length) writeFileSync(join(ROOT, `site/maps/${slug}.kepler.json`), JSON.stringify(keplerMap(slug, g)));
 }
 // Google My Maps files per trip: the phone map, with satellite (tools/kml.mjs).
-console.log(`wrote site/maps/: ${writeKml().filter((f) => !/-(days|camps|stops)\.kml$/.test(f)).length} trips × 4 KML files for My Maps`);
+console.log(`wrote site/maps/: ${writeKml().length} KML files for My Maps`);
 console.log(`  + ${Object.keys(files).filter((f) => f !== "index.html").join(", ")} (for GitHub Pages)`);
