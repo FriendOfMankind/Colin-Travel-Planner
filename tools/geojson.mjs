@@ -21,8 +21,8 @@
 
    A hop reached by a `fly` row is a great-circle arc, never a road. The
    arc stays inside the day's line (so the animation flies) and the leg
-   lists it in `fly` as [first, last] vertex ranges, so the Map tab can dash
-   it and roads.py won't drive it. `miles` counts the ground, `flownMiles`
+   lists it in `fly` as [first, last] vertex ranges, so the KML and the pack
+   can leave it out and roads.py won't drive it. `miles` counts the ground, `flownMiles`
    the air. A GPX marks its flight tracks with <type>fly</type>.
 
    A day with a `ferry` row in its plan says `planFerry`: only then does

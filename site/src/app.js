@@ -75,10 +75,12 @@
   const satUrl = (lat, lng, zoom = 16) => `https://www.google.com/maps/@?api=1&map_action=map&center=${lat},${lng}&zoom=${zoom}&basemap=satellite`;
 
   /* --------------------------------------------------------- pieces */
+  /** The day's pinned stops in Google's satellite view, framed to fit them (build.mjs dayRoute). */
+  const satBtn = (r) => r?.sat ? `<a class="btn" target="_blank" rel="noopener" href="${satUrl(r.sat.lat, r.sat.lng, r.sat.zoom)}">Satellite ↗</a>` : "";
   function routeBlock(r) {
     const n = r.links.length;
     return `<div class="route"><div class="eyebrow" style="margin-bottom:6px">Day route · ${r.total} stops${r.pinned ? ` · ${r.pinned} pinned` : ""}</div>
-      <div class="row">${r.links.map((l, i) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${n > 1 ? `Part ${i + 1} of ${n}` : "Open in Google Maps"} ↗</a>`).join("")}</div>
+      <div class="row">${r.links.map((l, i) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${n > 1 ? `Part ${i + 1} of ${n}` : "Open in Google Maps"} ↗</a>`).join("")}${satBtn(r)}</div>
       <div class="muted" style="font-size:12.5px;margin-top:6px">${r.links.map((l, i) => `${n > 1 ? `<b>${i + 1}.</b> ` : ""}${l.from ? esc(l.from) : "Your location"} → ${l.stops.map(esc).join(" → ")}`).join("<br>")}</div></div>`;
   }
   function dayCard(t, d, opts = {}) {
@@ -129,7 +131,7 @@
     const st = tripState(t, today);
     const when = st === "upcoming" ? `${daysBetween(today, t.start)} days out` : st === "active" ? `Day ${daysBetween(t.start, today) + 1} of ${t.days.length}` : st === "past" ? "Done" : "No dates";
     const nightsBooked = t.booking.filter((b) => b.booked).length;
-    const tabs = [["plan", "Plan"], ...(t.map ? [["map", "Map"]] : []), ["places", "Places"], ["prep", "Prep", t.questions.length + t.reservations.filter((r) => !r.done).length], ["journal", "Journal", t.log.entries.length]];
+    const tabs = [["plan", "Plan"], ["places", "Places"], ["prep", "Prep", t.questions.length + t.reservations.filter((r) => !r.done).length], ["journal", "Journal", t.log.entries.length]];
     return `
       <div class="head">
         <a class="back" href="#trips">← Trips</a>
@@ -195,7 +197,7 @@
       </div>
       ${d.warnings ? `<div class="callout prose">${d.warnings}</div>` : ""}
       <div class="row">
-        ${d.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Day route"} ↗</a>`).join("") : ""}
+        ${d.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Day route"} ↗</a>`).join("") + satBtn(d.route) : ""}
         <a class="btn" href="#t-${t.slug}-plan">Whole day</a>
         <button type="button" class="btn ask" data-ask="${esc(askPrompt(t, d, nxt >= 0 ? strip(d.schedule[nxt].title) : ""))}">Ask Claude</button>
         <span class="ask-msg muted" style="font-size:12.5px"></span>
@@ -408,126 +410,6 @@
       <p class="muted" style="font-size:12.5px">Updated ${esc(i.updated)} · <code>wishlist/${esc(i.slug)}.md</code></p></div>`;
   };
 
-  /* ------------------------------------------------------------- map */
-  /* Drawn here from the trip's own data: a clipped Natural Earth coastline,
-     the day lines (road where tools/roads.py routed them) and the verified
-     pins. No tile server, so it works offline and inside the claude.ai page. */
-  const RAMP = [[232, 89, 12], [214, 51, 108], [174, 62, 201], [112, 72, 232], [28, 126, 214], [12, 133, 153]];
-  const dayColor = (i, n) => { const t = n < 2 ? 0 : (i / (n - 1)) * (RAMP.length - 1), k = Math.min(Math.floor(t), RAMP.length - 2), f = t - k;
-    return `rgb(${RAMP[k].map((v, j) => Math.round(v + (RAMP[k + 1][j] - v) * f)).join(",")})`; };
-  const mapSel = {}; // slug → selected day, kept while the page is open
-  /** coast.json rings arrive as integer deltas in 1e-4° steps (tools/build.mjs coastDetail). */
-  function undelta(d) {
-    const out = []; let x = 0, y = 0;
-    for (let i = 0; i < d.length; i += 2) { x += d[i]; y += d[i + 1]; out.push([x / 1e4, y / 1e4]); }
-    return out;
-  }
-  function mapProj(m) {
-    const [x0, y0, x1, y1] = m.box, k = Math.cos(((y0 + y1) / 2) * Math.PI / 180), S = 1000 / ((x1 - x0) * k);
-    return { W: 1000, H: Math.round((y1 - y0) * S), P: ([x, y]) => [+((x - x0) * k * S).toFixed(2), +((y1 - y) * S).toFixed(2)] };
-  }
-  function mapCard(t, day) {
-    const m = t.map, legs = m.legs;
-    if (day == null) {
-      const drawn = new Set(legs.map((l) => l.day)), missing = t.days.filter((d) => !drawn.has(d.n)).map((d) => d.n);
-      const mi = legs.reduce((a, l) => a + (l.miles || 0), 0), flown = legs.reduce((a, l) => a + l.flown, 0), road = legs.filter((l) => l.road).length;
-      return `<div class="eyebrow">Whole trip</div><div class="map-stat"><b>${mi.toLocaleString()}</b> mi drawn${flown ? ` + ${flown.toLocaleString()} flown` : ""} · <b>${legs.length}</b> of ${t.days.length} days · ${road === legs.length ? "all on roads" : `${road} on roads, ${legs.length - road} straight`}</div>
-        ${missing.length ? `<div class="muted small">No line yet for day ${missing.join(", ")}: each needs two placed stops (a pin, or a decided bed).</div>` : ""}
-        <div class="muted small">Tap a day, a line or a pin.</div>`;
-    }
-    const d = t.days.find((x) => x.n === day), leg = legs.find((l) => l.day === day), pins = m.pins.filter((p) => p.day === day);
-    return `<div class="eyebrow">Day ${day}${d?.date ? ` · ${fmt(d.date)}` : ""}</div><h3 style="margin:2px 0 4px">${d?.title ?? ""}</h3>
-      ${d?.tagline ? `<div class="muted">${d.tagline}</div>` : ""}
-      <div class="map-facts">${leg ? `<span><b>${leg.miles}</b> mi drawn${leg.road ? "" : " (straight)"}${leg.flown ? ` + ${leg.flown.toLocaleString()} flown` : ""}</span>` : "<span>No line: fewer than two placed stops</span>"}
-        ${d?.driving ? `<span>Driving: ${d.driving}</span>` : ""}
-        <span>Sleep: ${d?.overnight ? d.overnight.name : "Home"}</span></div>
-      ${leg?.standIn ? `<div class="muted small">The bed isn't placed yet, so the line ends at ${esc(leg.standIn)} as a stand-in.</div>` : ""}
-      ${leg?.guessed ? `<div class="muted small">Starts where day ${day - 1} ended: last night's bed isn't decided.</div>` : ""}
-      ${pins.length ? `<div class="muted small">${pins.map((p) => esc(p.name)).join(" → ")}</div>` : ""}
-      <div class="row" style="margin-top:8px"><a class="btn" href="#t-${t.slug}-plan" data-goday="${day}">Day plan ›</a>
-      ${d?.route ? d.route.links.map((l, i, a) => `<a class="btn" target="_blank" rel="noopener" href="${esc(l.url)}">${a.length > 1 ? `Route ${i + 1}/${a.length}` : "Google Maps"} ↗</a>`).join("") : ""}
-      ${pins.length ? (() => { const la = pins.map((p) => p.lat), ln = pins.map((p) => p.lng), sp = Math.max(Math.max(...la) - Math.min(...la), Math.max(...ln) - Math.min(...ln), 0.005);
-        return `<a class="btn" target="_blank" rel="noopener" href="${satUrl(((Math.max(...la) + Math.min(...la)) / 2).toFixed(5), ((Math.max(...ln) + Math.min(...ln)) / 2).toFixed(5), Math.max(5, Math.min(17, Math.round(Math.log2(360 / sp)))))}">Satellite ↗</a>`; })() : ""}</div>`;
-  }
-  V.tripMap = (t) => {
-    const m = t.map, { W, H, P } = mapProj(m), n = t.days.length;
-    const idx = new Map(t.days.map((d, i) => [d.n, i])), col = (day) => dayColor(idx.get(day) ?? 0, n);
-    const path = (pts, close) => "M" + pts.map((p) => P(p).join(",")).join("L") + (close ? "Z" : "");
-    const sel = mapSel[t.slug] ?? null;
-    return `<div class="stack">
-      <div class="mapwrap"><svg id="tmap" class="tmap" viewBox="0 0 ${W} ${H}" data-w="${W}" data-h="${H}" role="img" aria-label="Map of ${esc(strip(t.title))}">
-        <rect class="sea" x="-5000" y="-5000" width="${W + 10000}" height="${H + 10000}"/>
-        <path class="land" d="${m.land.map((r) => path(r, true)).join("")}"/>
-        ${m.detail ? `<path class="sea detail" d="${m.detail.areas.map((r) => path(undelta(r), true)).join("")}"/><path class="land detail" d="${m.detail.land.map((r) => path(undelta(r), true)).join("")}"/>` : ""}
-        <path class="border" d="${m.borders.map((l) => path(l)).join("")}"/>
-        ${m.legs.flatMap((l) => l.parts.map((pt) => `<path class="leg${sel != null ? (l.day === sel ? " on" : " off") : ""}${pt.fly ? " fly" : l.road ? "" : " straight"}" data-day="${l.day}" stroke="${col(l.day)}" d="${path(pt.line)}"/>`)).join("")}
-        ${m.pins.map((p) => { const [x, y] = P([p.lng, p.lat]); const on = sel == null || p.day === sel; return `<g class="pin ${p.role}${on ? "" : " off"}" data-day="${p.day ?? ""}" transform="translate(${x},${y})"><circle r="4" fill="${p.day != null ? col(p.day) : "var(--muted)"}"/>${sel != null && p.day === sel ? `<text x="7" y="4">${esc(p.name)}</text>` : ""}</g>`; }).join("")}
-      </svg>
-      <div class="map-ctl"><button type="button" data-zoom="in" aria-label="Zoom in">+</button><button type="button" data-zoom="out" aria-label="Zoom out">−</button><button type="button" data-zoom="fit" aria-label="Fit">⤢</button></div></div>
-      <div class="daychips" role="toolbar" aria-label="Days"><button type="button" class="chip" data-mapday="" ${sel == null ? 'aria-pressed="true"' : ""}>All</button>${t.days.map((d) => `<button type="button" class="chip" data-mapday="${d.n}" ${sel === d.n ? 'aria-pressed="true"' : ""}><i style="background:${col(d.n)}"></i>${d.n}</button>`).join("")}</div>
-      <div class="panel pad" id="mapcard">${mapCard(t, sel)}</div>
-      <div class="muted small">Lines: Overture Maps roads (OpenStreetMap-derived), routed by <code>tools/roads.py</code>, good for the shape of a day, not for navigating. Coast: ${m.detail ? "OpenStreetMap coastline (via Overture) along the route, Natural Earth 1:10m elsewhere" : "Natural Earth 1:10m, about a kilometre of detail"}. Only placed pins are drawn.</div>
-    </div>`;
-  };
-  /** Pan, pinch and wheel zoom by moving the viewBox; pins and labels keep their screen size. */
-  function initMap(t) {
-    const svg = document.getElementById("tmap"); if (!svg) return;
-    const W = +svg.dataset.w, H = +svg.dataset.h;
-    let vb = [0, 0, W, H];
-    const sel = mapSel[t.slug];
-    if (sel != null) {
-      const pts = [...t.map.legs.filter((l) => l.day === sel).flatMap((l) => l.parts.flatMap((pt) => pt.line)), ...t.map.pins.filter((p) => p.day === sel).map((p) => [p.lng, p.lat])].map(mapProj(t.map).P);
-      if (pts.length) {
-        const xs = pts.map((p) => p[0]), ys = pts.map((p) => p[1]), pad = 40;
-        let w = Math.max(...xs) - Math.min(...xs) + pad * 2, h = Math.max(...ys) - Math.min(...ys) + pad * 2;
-        const ar = W / H; if (w / h < ar) w = h * ar; else h = w / ar;
-        vb = [(Math.min(...xs) + Math.max(...xs)) / 2 - w / 2, (Math.min(...ys) + Math.max(...ys)) / 2 - h / 2, w, h];
-      }
-    }
-    let fitted = false;
-    const apply = () => {
-      const box = svg.getBoundingClientRect(), px = box.width;
-      if (px && box.height && !fitted) { // widen the view to the screen's shape instead of letterboxing it
-        fitted = true; const ar = px / box.height, cx = vb[0] + vb[2] / 2, cy = vb[1] + vb[3] / 2;
-        if (vb[2] / vb[3] < ar) vb[2] = vb[3] * ar; else vb[3] = vb[2] / ar;
-        vb[0] = cx - vb[2] / 2; vb[1] = cy - vb[3] / 2;
-      }
-      svg.setAttribute("viewBox", vb.map((v) => v.toFixed(1)).join(" "));
-      if (!px) return; // not laid out yet; the ResizeObserver calls again
-      const s = vb[2] / px; // svg units per screen pixel
-      svg.style.setProperty("--u", s);
-      svg.querySelectorAll(".pin").forEach((g) => { const c = g.querySelector("circle"); c.setAttribute("r", (g.classList.contains("camp") ? 6 : 4.5) * s); c.setAttribute("stroke-width", 1.5 * s); const tx = g.querySelector("text"); if (tx) { tx.setAttribute("x", 9 * s); tx.setAttribute("y", 4 * s); tx.setAttribute("font-size", 12.5 * s); tx.setAttribute("stroke-width", 3 * s); } });
-    };
-    const zoomAt = (f, cx, cy) => { const nw = Math.min(W * 1.2, Math.max(W / 400, vb[2] * f)), r = nw / vb[2]; vb = [cx - (cx - vb[0]) * r, cy - (cy - vb[1]) * r, nw, vb[3] * r]; apply(); };
-    const toSvg = (e) => { const b = svg.getBoundingClientRect(); return [vb[0] + ((e.clientX - b.left) / b.width) * vb[2], vb[1] + ((e.clientY - b.top) / b.height) * vb[3]]; };
-    const pts = new Map(); let last = null, moved = 0;
-    svg.addEventListener("pointerdown", (e) => { svg.setPointerCapture(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]); last = null; moved = 0; });
-    svg.addEventListener("pointermove", (e) => {
-      if (!pts.has(e.pointerId)) return;
-      const prev = pts.get(e.pointerId); pts.set(e.pointerId, [e.clientX, e.clientY]);
-      const b = svg.getBoundingClientRect(), k = vb[2] / b.width;
-      if (pts.size === 1) { vb[0] -= (e.clientX - prev[0]) * k; vb[1] -= (e.clientY - prev[1]) * k; moved += Math.abs(e.clientX - prev[0]) + Math.abs(e.clientY - prev[1]); apply(); }
-      else if (pts.size === 2) {
-        const [a, c] = [...pts.values()], dist = Math.hypot(a[0] - c[0], a[1] - c[1]);
-        if (last) { const mx = (a[0] + c[0]) / 2, my = (a[1] + c[1]) / 2; zoomAt(last / dist, vb[0] + ((mx - b.left) / b.width) * vb[2], vb[1] + ((my - b.top) / b.height) * vb[3]); }
-        last = dist; moved = 99;
-      }
-    });
-    const up = (e) => { pts.delete(e.pointerId); if (pts.size < 2) last = null; };
-    svg.addEventListener("pointerup", (e) => {
-      up(e);
-      if (moved < 6) { const hit = e.target.closest?.("[data-day]"); if (hit && hit.dataset.day !== "") { mapSel[t.slug] = +hit.dataset.day; render(); } }
-    });
-    svg.addEventListener("pointercancel", up);
-    svg.addEventListener("wheel", (e) => { e.preventDefault(); const [x, y] = toSvg(e); zoomAt(Math.exp(e.deltaY * 0.0015), x, y); }, { passive: false });
-    svg.parentElement.querySelector(".map-ctl").addEventListener("click", (e) => {
-      const z = e.target.closest("[data-zoom]")?.dataset.zoom; if (!z) return;
-      if (z === "fit") { vb = [0, 0, W, H]; fitted = false; apply(); } else zoomAt(z === "in" ? 0.6 : 1 / 0.6, vb[0] + vb[2] / 2, vb[1] + vb[3] / 2);
-    });
-    new ResizeObserver(apply).observe(svg);
-    apply();
-  }
-  let goDay = null; // a "Day plan ›" tap: open that day once the plan renders
 
   V.trip = (t, sec) => {
     const n = now();
@@ -549,8 +431,6 @@
         ${t.route ? `<details class="fold panel"><summary>Route and overview</summary><div class="prose">${t.route}${t.overview.map((c) => `<h3>${c.h}</h3>${c.p}`).join("")}</div></details>` : ""}
         ${t.notes.length ? `<details class="fold panel"><summary>Why the plan looks like this</summary><div class="prose">${t.notes.map((x) => `<h3>${x.h}</h3>${x.body}`).join("")}</div></details>` : ""}
       </div>`;
-    } else if (sec === "map" && t.map) {
-      body = V.tripMap(t);
     } else if (sec === "places") {
       body = `<div class="stack">
         ${t.places.map((g) => `<div class="section" style="margin-top:6px"><div class="eyebrow">${esc(g.group)}</div><div class="panel divide">${g.places.map((p) => `
@@ -617,7 +497,8 @@
     let html, tab = "now";
     const tm = /^t-(.+?)(?:-(plan|map|places|prep|journal))?$/.exec(h);
     if (tm && D.trips.find((t) => t.slug === tm[1])) {
-      html = V.trip(D.trips.find((t) => t.slug === tm[1]), tm[2] ?? "plan"); tab = "trips";
+      // "map" is the old Map tab (removed 2026-10-30): an old bookmark lands on the plan.
+      html = V.trip(D.trips.find((t) => t.slug === tm[1]), !tm[2] || tm[2] === "map" ? "plan" : tm[2]); tab = "trips";
     } else if (h.startsWith("w-") && (D.ideas ?? []).find((i) => i.slug === h.slice(2))) {
       html = V.idea(D.ideas.find((i) => i.slug === h.slice(2))); tab = "trips";
     } else if (h.startsWith("me-") && D.me.find((m) => m.id === h.slice(3))) {
@@ -628,13 +509,8 @@
     $view.innerHTML = `<div class="netstate" id="netstate"></div>` + html + `<div class="foot">Built ${esc(D.builtAt.slice(0, 16).replace("T", " "))} UTC from the Colin-Travel-Planner files.</div>`;
     netState();
     document.querySelectorAll(".tabbar a").forEach((a) => { if (a.dataset.tab === tab) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current"); });
-    const onMap = tm && tm[2] === "map";
-    if (onMap) initMap(D.trips.find((t) => t.slug === tm[1]));
-    const want = goDay != null && $view.querySelector("#day-" + goDay); goDay = null;
     const today = $view.querySelector(".day.is-today");
-    if (want) { want.open = true; want.scrollIntoView({ block: "start" }); }
-    else if (onMap) $view.querySelector(".seg")?.scrollIntoView({ block: "start" });
-    else if (today && tm) today.scrollIntoView({ block: "start" }); else window.scrollTo(0, 0);
+    if (today && tm) today.scrollIntoView({ block: "start" }); else window.scrollTo(0, 0);
   }
 
   $view.addEventListener("change", (e) => {
@@ -643,10 +519,6 @@
     if (el.id === "pv" && el.value) { store.set("previewAt", el.value); render(); }
   });
   $view.addEventListener("click", (e) => {
-    const md = e.target.closest("[data-mapday]");
-    if (md) { const tm = /^#t-(.+?)-map$/.exec(location.hash); if (tm) { mapSel[tm[1]] = md.dataset.mapday === "" ? null : +md.dataset.mapday; render(); } return; }
-    const gd = e.target.closest("[data-goday]");
-    if (gd) { goDay = +gd.dataset.goday; return; }
     const g = e.target.closest(".glance-row");
     if (g) { e.preventDefault(); const el = document.getElementById("day-" + g.dataset.day); if (el) { el.open = true; el.scrollIntoView({ block: "start", behavior: "smooth" }); } return; }
     const a = e.target.closest("[data-ask]");

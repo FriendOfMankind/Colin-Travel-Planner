@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /* build.mjs — the website, generated from the same files the AI reads.
 
-     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics, maps/*.geojson + *.kepler.json
+     node tools/build.mjs        # writes site/: index.html, sw.js, manifest, icons, booking-alarms.ics, maps/*.geojson, *.kepler.json, *.kml
 
    One self-contained page: every trip, log, preference and meal is parsed
    here at build time into one JSON blob, and site/src/app.js renders views
@@ -28,7 +28,7 @@ import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
 import { buildIcs } from "./ics.mjs";
 import { writeMaps, tripGeo, loadRoutes } from "./geojson.mjs";
 import { keplerMap } from "./kepler.mjs";
-import { basemap, simplify } from "./lib/basemap.mjs";
+import { writeKml } from "./kml.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 
@@ -101,45 +101,13 @@ const camp = (o, places) => (o?.name === "Home" ? HOME : bedStop(o, places));
 function dayRoute(d, prev, places) {
   const r = dayStops(d.schedule ?? [], places, { start: prev ? camp(prev.overnight, places) : HOME, end: camp(d.overnight, places) });
   const all = [r.start, ...r.stops].filter(Boolean);
-  return all.length >= 2 ? { pinned: all.filter((x) => x.pinned).length, total: all.length, links: routeLinks(r) } : null;
-}
-
-/** The Map tab's data: day lines (road where routes.yaml has one), pins, and a clipped
-    coastline, all small enough to ship inside the page so the map works offline. */
-function tripMap(slug, md, groups) {
-  const g = tripGeo(slug, md, groups, loadRoutes(slug));
-  const pts = g.flat.filter((f) => f.geometry.type === "Point");
-  const legs = g.flat.filter((f) => f.properties.kind === "leg");
-  const all = [...pts.map((f) => f.geometry.coordinates), ...legs.flatMap((f) => f.geometry.coordinates)];
-  if (!all.length) return null;
-  const xs = all.map((c) => c[0]), ys = all.map((c) => c[1]);
-  const span = Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...ys) - Math.min(...ys), 0.15);
-  const box = [Math.min(...xs) - span * 0.08, Math.min(...ys) - span * 0.08, Math.max(...xs) + span * 0.08, Math.max(...ys) + span * 0.08];
-  const r5 = ([x, y]) => [Math.round(x * 1e5) / 1e5, Math.round(y * 1e5) / 1e5];
-  return {
-    // Coast well past the trip's own box, so panning or a tall phone screen shows land, not blank sea.
-    box, ...basemap([box[0] - span * 0.7, box[1] - span * 0.7, box[2] + span * 0.7, box[3] + span * 0.7]),
-    legs: legs.map(({ properties: p, geometry: { coordinates: c } }) => {
-      // Cut the line at its flights so the page can dash them; each piece simplifies on its own.
-      const cuts = [...new Set([0, ...(p.fly ?? []).flat(), c.length - 1])].sort((x, y) => x - y);
-      const parts = cuts.slice(1).map((b, k) => ({ fly: (p.fly ?? []).some(([f0, f1]) => f0 === cuts[k] && f1 === b), line: simplify(c.slice(cuts[k], b + 1), Math.max(extent(c.slice(cuts[k], b + 1)) / 4000, 0.00002)).map(r5) }));
-      return { day: p.day, miles: p.miles, flown: p.flownMiles ?? 0, road: p.shape === "road", guessed: !!p.startGuessed, standIn: p.bedStandIn ?? null, parts };
-    }),
-    pins: pts.map(({ properties: p, geometry: { coordinates: [lng, lat] } }) => ({ name: p.name, day: p.day, role: p.role, lat, lng })),
-    detail: coastDetail(slug),
-  };
-}
-
-/** A part's own size in degrees, so a city day keeps its corners while a flight-sized trip doesn't flatten them. */
-const extent = (pts) => Math.max(Math.max(...pts.map((p) => p[0])) - Math.min(...pts.map((p) => p[0])), Math.max(...pts.map((p) => p[1])) - Math.min(...pts.map((p) => p[1])), 0.01);
-
-/** trips/<slug>/coast.json (tools/coast.py): detailed land inside a corridor around the route.
-    Shipped as integer deltas in 1e-4° (~10 m) steps, which is about a quarter the size of plain numbers. */
-function coastDetail(slug) {
-  if (!has(`trips/${slug}/coast.json`)) return null;
-  const c = JSON.parse(read(`trips/${slug}/coast.json`));
-  const enc = (ring) => { let px = 0, py = 0; return ring.flatMap(([x, y]) => { const ix = Math.round(x * 1e4), iy = Math.round(y * 1e4), d = [ix - px, iy - py]; px = ix; py = iy; return d; }); };
-  return { areas: c.areas.map(enc), land: c.land.map(enc) };
+  if (all.length < 2) return null;
+  // The pinned stops' center and a zoom that fits them, for the day's Satellite ↗ button.
+  const pts = all.filter((x) => x.pinned).map((x) => x.q.split(",").map(Number));
+  const la = pts.map((p) => p[0]), ln = pts.map((p) => p[1]);
+  const sp = pts.length && Math.max(Math.max(...la) - Math.min(...la), Math.max(...ln) - Math.min(...ln), 0.005);
+  const sat = pts.length ? { lat: ((Math.max(...la) + Math.min(...la)) / 2).toFixed(5), lng: ((Math.max(...ln) + Math.min(...ln)) / 2).toFixed(5), zoom: Math.max(5, Math.min(17, Math.round(Math.log2(360 / sp)))) } : null;
+  return { pinned: pts.length, total: all.length, links: routeLinks(r), sat };
 }
 
 function buildTrip(slug) {
@@ -154,7 +122,6 @@ function buildTrip(slug) {
     // Only what a view renders: subtitle, theme, tags, nights, distance and
     // budget never reached the screen, so they stay in trip.md.
     slug, title: r.title, status: r.status, start: r.start ?? null, target: r.target ? String(r.target) : null, end,
-    map: tripMap(slug, read(`trips/${slug}/trip.md`), places),
     datesLabel: r.dates, region: r.region, states: r.states ?? [], why: mdi(r.why), next: mdi(r.next),
     booking: (r.booking ?? []).map((b) => ({ what: mdi(b.what), system: b.system, booked: !!b.booked })),
     located: { verified: allPlaces.filter((p) => p.verified).length, total: allPlaces.length },
@@ -341,4 +308,6 @@ for (const slug of ls("trips").filter((s) => has(`trips/${s}/trip.md`))) {
   const g = tripGeo(slug, read(`trips/${slug}/trip.md`), groups, loadRoutes(slug));
   if (g.trip.length) writeFileSync(join(ROOT, `site/maps/${slug}.kepler.json`), JSON.stringify(keplerMap(slug, g)));
 }
+// Google My Maps files per trip: the phone map, with satellite (tools/kml.mjs).
+console.log(`wrote site/maps/: ${writeKml().filter((f) => !/-(days|camps|stops)\.kml$/.test(f)).length} trips × 4 KML files for My Maps`);
 console.log(`  + ${Object.keys(files).filter((f) => f !== "index.html").join(", ")} (for GitHub Pages)`);

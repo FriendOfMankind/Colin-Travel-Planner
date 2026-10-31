@@ -19,7 +19,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | What actually happened / past experience | `trips/<slug>/log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
 | A day's road line (GPX, with source) | `trips/<slug>/routes.yaml` → `routes/*.gpx` |
-| Mapping a trip, start to finish (pins, roads, Map tab, Kepler) | `docs/MAPS.md` |
+| Mapping a trip, start to finish (pins, roads, My Maps, Organic Maps, Kepler) | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
@@ -104,13 +104,14 @@ node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, mani
 node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins and road lines, for Drive and Organic Maps
 node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
+node tools/kml.mjs <slug>     # site/maps/<slug>*.kml: Google My Maps import, one file or three layers (build runs it)
 node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
 python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)
 ```
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 7 trips (three done), 44 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the eight skills (`/inbox` added 2026-10-29; `/gardener` 2026-10-30, a free mechanical pass in the briefing plus finder and verifier agents in `.claude/agents/`), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: the site's Map tab, real road lines (`tools/roads.py`), the Pin Ledger and Kepler files, all in the `docs/MAPS.md` workflow (2026-10-30), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (three done), 44 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the eight skills (`/inbox` added 2026-10-29; `/gardener` 2026-10-30, a free mechanical pass in the briefing plus finder and verifier agents in `.claude/agents/`), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: Google My Maps KML for the phone with signal (`tools/kml.mjs`), Organic Maps GPX packs with no signal, Kepler files on a computer, real road lines (`tools/roads.py`) and the Pin Ledger, all in the `docs/MAPS.md` workflow (2026-10-30; the site's own Map tab was removed that day for lagging on a phone), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
