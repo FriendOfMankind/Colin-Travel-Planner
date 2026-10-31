@@ -1,11 +1,21 @@
 # Mapping a trip
 
-Written 2026-10-30, worked out on Newfoundland. This is the checklist for putting any trip on a map: the site's Map tab, plus an animated Kepler file. Newfoundland is the reference; when a step is unclear, look at what it produced (`trips/newfoundland-2027/places.yaml`, `routes.yaml`, `routes/`).
+Written 2026-10-30, worked out on Newfoundland. This is the checklist for putting any trip on a map. Newfoundland is the reference; when a step is unclear, look at what it produced (`trips/newfoundland-2027/places.yaml`, `routes.yaml`, `routes/`).
+
+**Three maps, one per situation** *(decided with Colin, 2026-10-30)*:
+
+| Where | Map | Why |
+|---|---|---|
+| **Phone, with signal** | **Google My Maps** (`site/maps/<slug>.kml`) | Satellite, real roads, your location, tap a pin for its day and note. Needs signal. |
+| **Phone, no signal** | **Organic Maps** (`site/packs/<slug>.gpx`) | Fully offline once the region is downloaded. Pins plus each day's road line. |
+| **Computer** | **Kepler** (`site/maps/<slug>.kepler.json`) | The animated whole-trip view. |
+
+The site's own Map tab is gone: it lagged badly on a phone. The day cards keep **Day route ↗** (Google Maps directions) and **Satellite ↗**, and each placed pin on the Places tab keeps **Maps ↗** and **Satellite ↗**.
 
 ```
 pins (Colin, Pin Ledger)  →  places.yaml  →  roads (tools/roads.py)  →  routes.yaml + routes/*.gpx
-                                   │          coast (tools/coast.py)  →  coast.json
-                                   └───────────────→  build  →  site Map tab · site/maps/*.geojson · *.kepler.json
+                                   └───────────────→  build  →  site/maps/*.kml · *.kepler.json · *.geojson
+                                                     pack   →  site/packs/<slug>.gpx
 ```
 
 Who does what: **Colin** drops pins and decides beds. **Claude** does everything else and says what's missing. No step invents a place: a stop nobody has placed is skipped and counted, never guessed.
@@ -18,7 +28,7 @@ Who does what: **Colin** drops pins and decides beds. **Claude** does everything
 - Then check the schedule: **a `📍` stop with no `places.yaml` entry can never be pinned.** Add each one to `places.yaml` (unplaced, with a note naming its day). On Newfoundland that was 16 stops, including Gander, Twillingate, St. John's and Ferryland.
 - Add **home** as a place with `home: true` (it opens day 1 and closes a last day with no bed), and any **ferry terminal** a crossing ends at. A ferry row needs a `📍` at the far side or the crossing can't be drawn.
 - List the **undecided beds** (`TBD` overnights). They're Colin's decisions, not pins. Ask about them, multiple choice. A bed with no fixed place yet (an unbooked apartment, a family address nobody wrote down) can take **`mapStandIn: <placed place name>`** on its overnight, if Colin picks a stand-in: the day ends there and the day card says it's a stand-in. Swap it for the real place when it's booked.
-- **Flights are `fly` rows**, with the landing airport as the `📍`. The hop draws as a great-circle arc (dotted on the Map tab), `roads.py` never drives it, and the Google Maps links break at the airport. A flight to an unplaced airport still flies, landing at the next placed stop.
+- **Flights are `fly` rows**, with the landing airport as the `📍`. The hop is a great-circle arc in Kepler and left out of the KML and the offline pack, `roads.py` never drives it, and the Google Maps links break at the airport. A flight to an unplaced airport still flies, landing at the next placed stop.
 - Rows timed **`option`** or **`fallback`** are alternatives, so they're not route stops. `optional` add-ons still are. A day that's all alternatives (pick one of two) has no line until it's picked.
 
 ### 2. Pins (Colin, about 30 seconds each)
@@ -52,12 +62,6 @@ A stop more than 3 km from any road in the first pull (a campground at the end o
 
 Re-run it whenever pins or beds change; days that didn't change come out the same.
 
-### 4b. Coast (Claude, a few minutes)
-
-After the roads: `node tools/build.mjs && python3 tools/coast.py <slug>`. It pulls Overture's land polygons (built from the OpenStreetMap coastline, metre-level) inside a corridor of 12 km around each pin and 5 km either side of each road line, simplifies to ~15 m, drops islets under ~1 ha, and writes `trips/<slug>/coast.json` with its source. Corridor pieces with no sea (inland) are dropped, so an inland trip gets no file. Re-run after pins or roads change.
-
-The page ships it as integer deltas (~10 m steps), about a quarter the size of plain numbers. Newfoundland, the worst case, is the biggest piece of the page.
-
 **Check:**
 - Each day's miles against the plan's `driving:` line. Road miles run ~1.3–1.7× straight-line.
 - A ferry flag only where the plan has a crossing.
@@ -72,27 +76,43 @@ The page ships it as integer deltas (~10 m steps), about a quarter the size of p
 
 | Output | What it is |
 |---|---|
-| The site's **Map tab** | Coastline, every day's line and pin, drawn in the page: works offline and inside the claude.ai page. Tap a day, line or pin to zoom to that day and get its card (miles, driving, bed, stops, Day plan link, Google Maps route, **Satellite ↗**). Each road line is simplified at its own day's scale, not the trip's. |
+| `site/maps/<slug>.kml` (`node tools/kml.mjs <slug>`, also run by build) | **Google My Maps**, everything in one file: one line per day colored by day (flights left out, so a flight day is two lines), beds in dark green, every other verified place in its first day's color. Each pin once, named, with its days and note. |
+| `site/maps/<slug>-days.kml`, `-camps.kml`, `-stops.kml` | The same, split. My Maps makes one layer per imported file, so these give three layers you can switch on and off. |
 | `site/maps/<slug>.kepler.json` | The animated map. Drag onto kepler.gl/demo on a computer. |
 | `site/maps/<slug>.geojson`, `-trip.geojson`, `all*.geojson` | Raw data for Felt, geojson.io or Kepler by hand. |
 | `site/packs/<slug>.gpx` (`node tools/pack.mjs <slug>`, not run by build) | The field copy: every verified pin plus one track per day that has a road line, named "Day N · title". Import into Organic Maps for routes with no signal. Straight pin-to-pin lines are left out. |
 
 **Check before calling it done:**
-- `npm test`: coordinates and routes have sources, Kepler files bind, the coastline keeps its islands.
-- Screenshot the Map tab at phone width in light and dark mode: whole trip, then one day.
+- `npm test`: coordinates and routes have sources, Kepler files bind, every KML fits My Maps' import rules (no folders or MultiGeometries, under 5 MB) with each place once.
 - Load the Kepler file through Kepler's own code (the headless check used on 2026-10-30).
-- Read the "No line yet for day…" line on the whole-trip card. That's what's still missing, and it goes back to step 1.
+- The build's per-trip line says how many days have a line. A day with none needs two placed stops (or a decided bed), which goes back to step 1.
 
 ### 6. Ship
 
-Commit with the pins' and routes' provenance in the message, push, PR. Republish the site after Colin merges (CLAUDE.md).
+Commit with the pins' and routes' provenance in the message, push, PR. Republish the site after Colin merges (CLAUDE.md). After the merge, GitHub Pages serves every KML at `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>.kml`, or Claude sends the file in the chat.
+
+## For Colin: Google My Maps (phone, with signal)
+
+Do the import once per trip, on a computer. Google's help page shows the steps for a computer; whether the phone browser can import is untested.
+
+1. **Get the file.** Download `<slug>.kml` from `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>.kml`, or save the one Claude sent you.
+2. **Import it.** At [mymaps.google.com](https://mymaps.google.com) → **Create a new map** → under "Untitled layer", **Import** → pick the file. Name the map after the trip. *(Want layers you can switch on and off? Import `-days.kml`, then **Add layer** → Import `-camps.kml`, then again for `-stops.kml`, instead of the single file.)*
+3. **Open it on the phone.** In the Google Maps app: **You** (or **Saved**) → **Maps** → the trip. Layers button → **Satellite**. Tap a pin for its day and note.
+
+When the plan changes, the map doesn't update itself: delete the layer and import the new file. *(Recalled, not checked 2026-10-30: My Maps live under Saved → Maps in the Google Maps app, and they don't work offline. The first import is the real test.)*
+
+## For Colin: Organic Maps (phone, no signal)
+
+1. **Download the region first, with signal.** In Organic Maps, search the area (e.g. Newfoundland) and download its map.
+2. **Get the pack.** Claude runs `node tools/pack.mjs <slug> --pdf` and sends you `<slug>.gpx` (or puts it in Google Drive with the PDF, marked available offline).
+3. **Open the GPX with Organic Maps** (share sheet → Organic Maps, or open it from Files). It lands as a bookmark list: every verified pin plus one track per day that has a road line. It all works with no signal.
 
 ## What each piece is and isn't
 
 - **Road lines are plausible, not navigation.** One-way streets, turn rules and closures are ignored, speeds are guesses by road class, and the hop from a pin to the nearest road is straight.
 - **A day after an undecided bed starts where the day before ended** (`startGuessed`). The day card says so.
-- **The coastline is two layers.** Along the route (`coast.json`) it's the OpenStreetMap coastline at ~15 m: harbours, jetties and coves. Everywhere else it's Natural Earth 1:10m, about a kilometre of detail. The seam between them can show at a corridor's edge.
-- **Satellite is a link, not a layer.** The claude.ai page can't load outside images, so the day card and each placed pin on the Places tab link to Google Maps' satellite view.
+- **The KML is a copy, not a link.** My Maps keeps what was imported. A changed pin or road reaches the phone only by importing the new file.
+- **Satellite on the site is a link.** The claude.ai page can't load outside images, so the day card (framed to the day's pinned stops) and each placed pin on the Places tab link to Google Maps' satellite view.
 - **The animation clock is fake.** Each day plays 01:00–23:00 on its date at constant speed along its line: order and distance, not time of day.
 - **Only placed pins draw.** A day with fewer than two placed stops (or a decided bed) has no line.
 - **Bus-and-flight trips** (Dingle–Marseille) route their ground by road. Read the bus and metro lines as "between here and there", not the bus's path. Flights are arcs, and the offline pack leaves them out.
@@ -106,6 +126,6 @@ Only for building a different view:
 - **Felt:** drag in `<slug>.geojson`, style by `day`. Filter `role = camp` for a nights-only view.
 - Loading by URL from GitHub Pages is untested (it needs Pages' CORS headers). Downloading the file and dragging it in always works.
 
-## Done 2026-10-30: zoom detail and satellite
+## Changed 2026-10-30: the Map tab came out
 
-Colin's screenshot showed both causes of "blocky": road lines simplified at the whole trip's scale (~400 m on Dingle–Marseille) and a coast simplified to a few km per vertex, plus a page that rounded every point to 1/10,000 of the map's width. Fixed by per-day simplification, a finer coarse coast (`basemap.mjs`, 1/3000 of the box), two-decimal projection, and `coast.json` along the route. Satellite went in as links (option 1 of 3); real tiles (Sentinel-2 or Esri) would only ever work on the GitHub Pages copy, with signal, and weren't built.
+The site drew its own map (Natural Earth coast, an OpenStreetMap coast corridor from `coast.py`, pan and zoom in SVG). It worked offline but lagged badly on a phone, and satellite only ever came as links. Colin chose to drop it for Google My Maps with signal, Organic Maps without, and Kepler on a computer. Gone with it: `tools/coast.py`, `trips/*/coast.json`, `tools/lib/basemap.mjs` and the `world-atlas` and `topojson-client` packages.
