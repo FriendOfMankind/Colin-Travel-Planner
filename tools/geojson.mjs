@@ -112,7 +112,7 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   const camp = (o) => bedStop(o, places);
   const flat = [], trip = [], seen = new Set();
   const days = page.days ?? [];
-  let lastPin = null; // the previous day's final placed stop
+  let lastPin = null, lastPinDay = null; // the last placed stop so far, and its day
   // Home (a place marked `home: true`, once placed) opens day 1 and closes a last day with no bed.
   const home = places.find((p) => p.home && p.verified);
   const homeStop = home && { label: home.name, q: `${home.lat},${home.lng}`, pinned: true };
@@ -137,7 +137,8 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     // map doesn't skip the drive between them. A guess, so the leg says so.
     const startGuessed = !(start?.pinned) && lastPin && pinned.length > 0 && pinned[0] !== lastPin;
     if (startGuessed) { pinned.unshift(lastPin); flyHop.splice(1, 0, false); flyHop[0] = false; }
-    if (pinned.length) lastPin = pinned.at(-1);
+    const guessedFrom = startGuessed ? { day: lastPinDay, place: lastPin.name } : null; // can be days back, when the days between have no placed stop
+    if (pinned.length) lastPin = pinned.at(-1), lastPinDay = d.day;
     const base = { trip: slug, day: d.day, date, title: d.title, color, lineColor: rgb(color), fillColor: rgb(color) };
     const road = routes.get(d.day);
     const { line, fly } = road ? joinParts(road.parts ?? [{ fly: false, line: road.line }])
@@ -170,7 +171,7 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round((total - flown) / 1.609344),
       ...(fly.length ? { fly, flownMiles: Math.round(flown / 1.609344), flyHops: flyHop.flatMap((f, k) => (f ? [k + 1] : [])) } : {}),
       ...(bed?.standIn ? { bedStandIn: bed.label } : {}),
-      ...((d.schedule ?? []).some((r) => r.kind === "ferry" && !/^(option|fallback)\b/i.test(r.time)) ? { planFerry: true } : {}), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
+      ...((d.schedule ?? []).some((r) => r.kind === "ferry" && !/^(option|fallback)\b/i.test(r.time)) ? { planFerry: true } : {}), stops: pinned.length, startGuessed: !!startGuessed, ...(startGuessed ? { startFromDay: guessedFrom.day, startFrom: guessedFrom.place } : {}), skipped: all.filter((s) => !(s.pinned && byQuery.has(s.q))).length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
     flat.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line } });
     trip.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line.map(([x, y], k) => [x, y, 0, at(k)]) } });
   });
@@ -179,7 +180,10 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
   for (const p of places) if (p.verified && !seen.has(p.name)) flat.push(point(p, { trip: slug, day: null, date: null, role: "place", color: "#666666", fillColor: [102, 102, 102] }));
 
   const todo = places.filter((p) => !p.verified).map((p) => ({ trip: slug, group: p.group, name: p.name, maps: p.maps ?? null, days: p.days ?? null }));
-  return { flat, trip, todo, title: r.title, done: r.status === "done" };
+  const drawn = new Set(trip.map((f) => f.properties.day));
+  const noLine = days.map((d) => d.day).filter((n) => !drawn.has(n));
+  const guessed = trip.filter((f) => f.properties.startGuessed).map((f) => [f.properties.day, f.properties.startFrom, f.properties.startFromDay]);
+  return { flat, trip, todo, noLine, guessed, title: r.title, done: r.status === "done" };
 }
 
 const iso = (s) => new Date(s * 1000).toISOString().replace("T", " ").slice(0, 16);
@@ -206,6 +210,9 @@ export function loadRoutes(slug, readRel = read, exists = has) {
   return out;
 }
 
+/** [1, 2, 3, 7] → "1–3, 7" */
+const ranges = (ns) => ns.reduce((out, n) => { const last = out.at(-1); if (last && n === last[1] + 1) last[1] = n; else out.push([n, n]); return out; }, []).map(([a, b]) => (a === b ? `${a}` : `${a}–${b}`)).join(", ");
+
 const fc = (features) => JSON.stringify({ type: "FeatureCollection", features });
 
 /** Every trip → site/maps/. Returns the summary lines. With todoOnly, writes nothing and prints the unplaced list. */
@@ -226,6 +233,8 @@ export function writeMaps({ todoOnly = false } = {}) {
     const pts = g.flat.filter((f) => f.geometry.type === "Point").length;
     const legs = g.trip.length, road = g.trip.filter((f) => f.properties.shape === "road").length;
     lines.push(`  ${slug.padEnd(24)} ${String(pts).padStart(3)} pins · ${String(legs).padStart(2)} day lines (${road} road) · ${g.todo.length} unplaced`);
+    // "0 unplaced" can still leave whole days off the map: say which, and which lines start from a guess.
+    if (!g.done && g.noLine.length) lines.push(`  ${"".padEnd(24)} no line: ${ranges(g.noLine)}${g.guessed.length ? ` · guessed start: ${g.guessed.map(([d, at, f]) => `day ${d} (from ${at}, day ${f})`).join(", ")}` : ""}`);
   }
   if (!todoOnly) {
     writeFileSync(join(ROOT, "site/maps/all.geojson"), fc(all.flat));

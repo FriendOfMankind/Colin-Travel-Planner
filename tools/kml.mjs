@@ -69,7 +69,7 @@ export function kmlLayers(g) {
     const parts = groundParts(f.geometry.coordinates, p.fly);
     const url = style(`day-${p.day}`, `<LineStyle><color>${kmlColor(p.color)}</color><width>4</width></LineStyle>`);
     const desc = [p.date, `${p.miles} mi on the ground`, p.shape === "road" ? `Road line: ${p.source}` : "Straight pin-to-pin line, not a road",
-      p.flownMiles ? `Flight (${p.flownMiles} mi) not drawn` : "", p.startGuessed ? `Starts where day ${p.day - 1} ended: that bed isn't decided` : "",
+      p.flownMiles ? `Flight (${p.flownMiles} mi) not drawn` : "", p.startGuessed ? `Starts at ${p.startFrom} (day ${p.startFromDay}), the last placed stop: the beds since aren't decided or placed` : "",
       p.bedStandIn ? `Ends at ${p.bedStandIn}, a stand-in for an unplaced bed` : "", p.skipped ? `${p.skipped} unplaced stop${p.skipped > 1 ? "s" : ""} skipped` : ""].filter(Boolean).join("\n");
     parts.forEach((line, k) => days.push(`<Placemark><name>${xml(`Day ${p.day} · ${plain(p.title)}${parts.length > 1 ? ` (part ${k + 1})` : ""}`)}</name><description>${xml(desc)}</description><styleUrl>${url}</styleUrl>${fields({ kind: "day line", day: p.day })}<LineString><tessellate>1</tessellate><coordinates>${coords(line)}</coordinates></LineString></Placemark>`));
   }

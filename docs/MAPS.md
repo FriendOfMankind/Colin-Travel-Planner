@@ -84,7 +84,9 @@ Re-run it whenever pins or beds change; days that didn't change come out the sam
 **Check before calling it done:**
 - `npm test`: coordinates and routes have sources, Kepler files bind, every KML fits My Maps' import rules (no folders or MultiGeometries, under 5 MB) with each place once.
 - Load the Kepler file through Kepler's own code (the headless check used on 2026-10-30).
-- The build's per-trip line says how many days have a line. A day with none needs two placed stops (or a decided bed), which goes back to step 1.
+- **Read the build's coverage lines, not just "0 unplaced".** Every place can be pinned and whole days still missing: on 2026-10-31 the Long Way to Glacier showed "0 unplaced" while its 3,800 miles of drive out and home had no line, because home wasn't in its `places.yaml`. Under each upcoming trip, `node tools/geojson.mjs` (and build) prints `no line: <days>` and `guessed start: day N (from <place>, day M)`. A rest day or a pick-one day belongs on the no-line list. A driving day doesn't: it needs a placed stop, home (`home: true`), or a stand-in bed, which goes back to step 1.
+- **Compare each day's drawn miles with its `driving:` line.** Miles far apart mean a missing stop (an airport run with no `📍`), a pin in the wrong spot, or a plan estimate that's off.
+- **A road line is not a route decision.** Where the plan says a route is "not chosen", the map shows whatever `roads.py` found fastest.
 
 ### 6. Ship
 

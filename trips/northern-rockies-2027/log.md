@@ -305,3 +305,12 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - **Nights 30–33 (the drive home) stay TBD on purpose**: two trips say the last days become a straight drive (`me/travel-style.md`), so they're booked from the road.
 - Avalanche Campground and the Hiawatha's trailhead were added to `places.yaml` and need pins. Bullhead Lake and Redrock Falls are one place, the Swiftcurrent trailhead *(Colin, 2026-10-30)*.
 - Pins for Avalanche Campground and the Hiawatha east portal came in the same evening *(Colin, Pin Ledger, 2026-10-30)*. Day 19 now draws Avalanche → Hiawatha (191 mi), and Day 20 continues to Hood River (390 mi) from there, since night 19's bed isn't picked.
+
+## 2026-10-31 · Map check: the drives out and home were missing
+
+Checking the route against the plan found about 3,800 miles of driving with no line on the map. The rest of the road lines matched their `driving:` lines.
+
+- **Drive out (Days 1–2) and home (Days 30–34) weren't drawn.** Home wasn't in this trip's `places.yaml`, and every bed on those days is TBD. Fixed by copying the verified Avon home pin from Newfoundland's `places.yaml` *(Colin, 2026-10-31)*. Day 2 now routes 1,302 mi from Avon to Vedauwoo (the plan: 640 + 661). Day 34 routes 2,399 mi from Belknap to Avon (the plan: "~2,400"). Both are labeled as guessed starts, because the Des Moines motel and the beds on the way home aren't decided. A Des Moines stand-in would split the drive out into its two real days.
+- **PDX wasn't a stop.** Days 21 and 30 now carry `📍 Portland International Airport`. It isn't placed yet: it needs a pin in the Pin Ledger.
+- **Day 12's road line isn't a route decision.** The routing tool picked West Yellowstone and Helena. Mammoth and Livingston is still open, and the plan now says so.
+- **Unresolved: Day 6 draws ~95 mi against the plan's "~60 if the canyon goes".** It's unclear which is wrong: the Crazy Woman pin sits mid-canyon.
