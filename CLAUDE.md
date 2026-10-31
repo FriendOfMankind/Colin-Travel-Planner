@@ -104,7 +104,7 @@ node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, mani
 node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every window that hasn't opened
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins and road lines, for Drive and Organic Maps
 node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
-node tools/kml.mjs <slug>     # site/maps/<slug>*.kml: Google My Maps import, one file or three layers (build runs it)
+node tools/kml.mjs <slug>     # site/maps/<slug>-lines.kml + -pins.kml: Google My Maps, two layers (build runs it)
 node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
 python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)
 ```

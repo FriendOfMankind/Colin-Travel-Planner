@@ -6,7 +6,7 @@ Written 2026-10-30, worked out on Newfoundland. This is the checklist for puttin
 
 | Where | Map | Why |
 |---|---|---|
-| **Phone, with signal** | **Google My Maps** (`site/maps/<slug>.kml`) | Satellite, real roads, your location, tap a pin for its day and note. Needs signal. |
+| **Phone, with signal** | **Google My Maps** (`site/maps/<slug>-lines.kml` + `-pins.kml`) | Satellite, real roads, your location, tap a pin for its day and note. Needs signal. |
 | **Phone, no signal** | **Organic Maps** (`site/packs/<slug>.gpx`) | Fully offline once the region is downloaded. Pins plus each day's road line. |
 | **Computer** | **Kepler** (`site/maps/<slug>.kepler.json`) | The animated whole-trip view. |
 
@@ -76,8 +76,7 @@ Re-run it whenever pins or beds change; days that didn't change come out the sam
 
 | Output | What it is |
 |---|---|
-| `site/maps/<slug>.kml` (`node tools/kml.mjs <slug>`, also run by build) | **Google My Maps**, everything in one file: one line per day colored by day (flights left out, so a flight day is two lines), beds in dark green, every other verified place in its first day's color. Each pin once, named, with its days and note. |
-| `site/maps/<slug>-days.kml`, `-camps.kml`, `-stops.kml` | The same, split. My Maps makes one layer per imported file, so these give three layers you can switch on and off. |
+| `site/maps/<slug>-lines.kml`, `<slug>-pins.kml` (`node tools/kml.mjs <slug>`, also run by build) | **Google My Maps**, two layers. Lines: one per day, colored by day (flights left out, so a flight day is two lines). Pins: each verified place once, named, with its days and note. Every feature carries the columns `kind` (day line / bed / stop / off-plan), `day` and `area`. My Maps keeps the line colors but draws every pin white, so the pins get colored from `kind` (below). They're separate files because a My Maps style covers a whole layer: grouping by `kind` in a shared layer would repaint every day line one color. |
 | `site/maps/<slug>.kepler.json` | The animated map. Drag onto kepler.gl/demo on a computer. |
 | `site/maps/<slug>.geojson`, `-trip.geojson`, `all*.geojson` | Raw data for Felt, geojson.io or Kepler by hand. |
 | `site/packs/<slug>.gpx` (`node tools/pack.mjs <slug>`, not run by build) | The field copy: every verified pin plus one track per day that has a road line, named "Day N · title". Import into Organic Maps for routes with no signal. Straight pin-to-pin lines are left out. |
@@ -89,17 +88,18 @@ Re-run it whenever pins or beds change; days that didn't change come out the sam
 
 ### 6. Ship
 
-Commit with the pins' and routes' provenance in the message, push, PR. Republish the site after Colin merges (CLAUDE.md). After the merge, GitHub Pages serves every KML at `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>.kml`, or Claude sends the file in the chat.
+Commit with the pins' and routes' provenance in the message, push, PR. Republish the site after Colin merges (CLAUDE.md). After the merge, GitHub Pages serves the KMLs at `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>-lines.kml` and `-pins.kml`, or Claude sends them in the chat.
 
 ## For Colin: Google My Maps (phone, with signal)
 
 Do the import once per trip, on a computer. Google's help page shows the steps for a computer; whether the phone browser can import is untested.
 
-1. **Get the file.** Download `<slug>.kml` from `https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>.kml`, or save the one Claude sent you.
-2. **Import it.** At [mymaps.google.com](https://mymaps.google.com) → **Create a new map** → under "Untitled layer", **Import** → pick the file. Name the map after the trip. *(Want layers you can switch on and off? Import `-days.kml`, then **Add layer** → Import `-camps.kml`, then again for `-stops.kml`, instead of the single file.)*
+1. **Get the two files.** `<slug>-lines.kml` and `<slug>-pins.kml`, from `https://friendofmankind.github.io/Colin-Travel-Planner/maps/` or the ones Claude sent you.
+2. **Import both.** At [mymaps.google.com](https://mymaps.google.com) → **Create a new map** → under "Untitled layer", **Import** → `-lines.kml`. Then **Add layer** → **Import** → `-pins.kml`. Name the map after the trip.
+   Then, once, on the **pins** layer only: **Uniform style** → **Group places by** `kind`. Beds and stops get their own colors and a legend. Tap the paint pot beside "bed" to pick a tent icon. **Set labels** → `name` writes names on the pins. *(Grouping by `day` colors pins by day instead.)* Leave the lines layer alone: it already has its day colors.
 3. **Open it on the phone.** In the Google Maps app: **You** (or **Saved**) → **Maps** → the trip. Layers button → **Satellite**. Tap a pin for its day and note.
 
-When the plan changes, the map doesn't update itself: delete the layer and import the new file. *(Recalled, not checked 2026-10-30: My Maps live under Saved → Maps in the Google Maps app, and they don't work offline. The first import is the real test.)*
+When the plan changes, the map doesn't update itself: delete the two layers and import the new files (then redo the grouping). *(Confirmed by Colin's imports, 2026-10-31: line colors carry over, pins import white, and `kind` shows up under "Group places by" (Newfoundland: 56 stops, 13 beds, 11 off-plan). Still recalled, not checked: My Maps live under Saved → Maps in the Google Maps app, and they don't work offline.)*
 
 ## For Colin: Organic Maps (phone, no signal)
 

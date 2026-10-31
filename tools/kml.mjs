@@ -2,16 +2,20 @@
 /* kml.mjs — a trip for Google My Maps: the phone map, satellite included,
    that needs signal.
 
-     node tools/kml.mjs <slug>     # writes site/maps/<slug>*.kml
+     node tools/kml.mjs <slug>     # writes site/maps/<slug>-lines.kml and <slug>-pins.kml
      node tools/kml.mjs            # every trip with something placed (build runs this)
 
-   Four files per trip, from the same data geojson.mjs builds:
-     <slug>.kml          everything in one file: one import, one My Maps layer
-     <slug>-days.kml     one line per day, colored by day (flights left out)
-     <slug>-camps.kml    the beds
-     <slug>-stops.kml    every other verified place
-   My Maps makes one layer per imported file, so the three split files are
-   the way to get layers you can switch on and off.
+   Two files per trip, from the same data geojson.mjs builds, each its own
+   My Maps layer (one import makes one layer):
+     <slug>-lines.kml   a line per day, colored by day (flights left out)
+     <slug>-pins.kml    a pin per verified place
+   My Maps keeps a line's color but draws every imported pin white
+   (Colin's first import, 2026-10-31). So each feature carries data fields,
+   which My Maps imports as table columns (confirmed, 2026-10-31): `kind` (day line, bed, stop,
+   off-plan), `day` (the line's day, a pin's first day) and `area` (its
+   places.yaml group). "Group places by kind" on the pins layer colors them
+   with a legend. A style applies to a whole layer, which is why the lines
+   live apart: grouping them with the pins would repaint every day one color.
 
    Google's import rules (support.google.com/mymaps/answer/3024836, read
    2026-10-30): a KML up to 5 MB unzipped, no more than 2,000 rows, and
@@ -53,6 +57,9 @@ export function groundParts(line, fly = []) {
 }
 
 /** tripGeo's output → { days, camps, stops }, each a list of Placemark strings plus their styles. */
+/** <ExtendedData>: the columns My Maps styles and filters by. */
+const fields = (o) => `<ExtendedData>${Object.entries(o).filter(([, v]) => v != null && v !== "").map(([k, v]) => `<Data name="${k}"><value>${xml(v)}</value></Data>`).join("")}</ExtendedData>`;
+
 export function kmlLayers(g) {
   const days = [], camps = [], stops = [], styles = new Map();
   const style = (id, body) => (styles.set(id, `<Style id="${id}">${body}</Style>`), `#${id}`);
@@ -64,7 +71,7 @@ export function kmlLayers(g) {
     const desc = [p.date, `${p.miles} mi on the ground`, p.shape === "road" ? `Road line: ${p.source}` : "Straight pin-to-pin line, not a road",
       p.flownMiles ? `Flight (${p.flownMiles} mi) not drawn` : "", p.startGuessed ? `Starts where day ${p.day - 1} ended: that bed isn't decided` : "",
       p.bedStandIn ? `Ends at ${p.bedStandIn}, a stand-in for an unplaced bed` : "", p.skipped ? `${p.skipped} unplaced stop${p.skipped > 1 ? "s" : ""} skipped` : ""].filter(Boolean).join("\n");
-    parts.forEach((line, k) => days.push(`<Placemark><name>${xml(`Day ${p.day} · ${plain(p.title)}${parts.length > 1 ? ` (part ${k + 1})` : ""}`)}</name><description>${xml(desc)}</description><styleUrl>${url}</styleUrl><LineString><tessellate>1</tessellate><coordinates>${coords(line)}</coordinates></LineString></Placemark>`));
+    parts.forEach((line, k) => days.push(`<Placemark><name>${xml(`Day ${p.day} · ${plain(p.title)}${parts.length > 1 ? ` (part ${k + 1})` : ""}`)}</name><description>${xml(desc)}</description><styleUrl>${url}</styleUrl>${fields({ kind: "day line", day: p.day })}<LineString><tessellate>1</tessellate><coordinates>${coords(line)}</coordinates></LineString></Placemark>`));
   }
 
   // tripGeo puts a place down once per day that reaches it; the map wants it once.
@@ -80,7 +87,7 @@ export function kmlLayers(g) {
     const hex = camp ? CAMP : ds.length ? e.p.color : OFFPLAN;
     const url = style(`pin-${hex.slice(1)}`, `<IconStyle><color>${kmlColor(hex)}</color><Icon><href>https://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>`);
     const desc = [camp ? `Bed, night${e.nights.length > 1 ? "s" : ""} ${e.nights.join(", ")}` : dayList(ds), plain(e.p.note), e.p.group ?? ""].filter(Boolean).join("\n");
-    (camp ? camps : stops).push(`<Placemark><name>${xml(e.p.name)}</name><description>${xml(desc)}</description><styleUrl>${url}</styleUrl><Point><coordinates>${coords([e.at])}</coordinates></Point></Placemark>`);
+    (camp ? camps : stops).push(`<Placemark><name>${xml(e.p.name)}</name><description>${xml(desc)}</description><styleUrl>${url}</styleUrl>${fields({ kind: camp ? "bed" : ds.length ? "stop" : "off-plan", day: ds[0], area: e.p.group })}<Point><coordinates>${coords([e.at])}</coordinates></Point></Placemark>`);
   }
   return { days, camps, stops, styles };
 }
@@ -90,15 +97,13 @@ function doc(name, placemarks, styles) {
   return [`<?xml version="1.0" encoding="UTF-8"?>`, `<kml xmlns="http://www.opengis.net/kml/2.2">`, `<Document><name>${xml(name)}</name>`, ...used, ...placemarks, `</Document>`, `</kml>`, ""].join("\n");
 }
 
-/** One trip → { file name: KML text }, refused if a file breaks My Maps' limits. */
+/** One trip → { file name: KML text }, refused if it breaks My Maps' limits. */
 export function tripKml(slug, g) {
   const { days, camps, stops, styles } = kmlLayers(g);
   const t = plain(g.title) || slug;
   const out = {
-    [`${slug}.kml`]: doc(t, [...days, ...camps, ...stops], styles),
-    [`${slug}-days.kml`]: doc(`${t} · days`, days, styles),
-    [`${slug}-camps.kml`]: doc(`${t} · camps`, camps, styles),
-    [`${slug}-stops.kml`]: doc(`${t} · stops`, stops, styles),
+    [`${slug}-lines.kml`]: doc(`${t} · days`, days, styles),
+    [`${slug}-pins.kml`]: doc(`${t} · places`, [...camps, ...stops], styles),
   };
   for (const [f, text] of Object.entries(out)) {
     const rows = (text.match(/<Placemark>/g) ?? []).length, bytes = Buffer.byteLength(text);
