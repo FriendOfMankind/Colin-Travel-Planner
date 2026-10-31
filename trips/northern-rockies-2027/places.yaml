@@ -357,6 +357,12 @@ groups:
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - group: Oregon week (added 2026-10-30, none placed yet)
     places:
+      - name: Portland International Airport (PDX)
+        note: Day 21 pickup, day 30 drop-off. Not placed yet.
+        maps: Portland International Airport
+        verified: false
+        lat: null
+        lng: null
       - name: Sunset Motel, Hood River
         note: "Nights 19–22 (Jul 31 – Aug 3). The bed."
         maps: Sunset Motel Hood River Oregon
@@ -502,6 +508,16 @@ groups:
         lat: 46.894976
         lng: -103.382151
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+  - group: Home
+    places:
+      - name: Home (Avon)
+        note: Day 1 start and day 34 end. A town-level pin is enough for drawing the loop.
+        maps: Avon, Ohio
+        home: true
+        verified: true
+        lat: 41.439321
+        lng: -82.016741
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30); copied from trips/newfoundland-2027/places.yaml (2026-10-31)
   - group: Waypoints with no field entry
     places:
       - name: Notch Trailhead

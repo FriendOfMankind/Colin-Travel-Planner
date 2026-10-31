@@ -575,7 +575,7 @@ Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yello
 date: 2027-07-23
 tagline: Out of Yellowstone the long way, across Montana, and then seven nights in one park.
 type: travel
-driving: ⚠️ ~450 mi, ~9h (my estimate, unrouted; route via Mammoth and Livingston or via West Yellowstone and Helena not chosen)
+driving: ⚠️ ~450 mi, ~9h (my estimate, unrouted; route via Mammoth and Livingston or via West Yellowstone and Helena not chosen; the map's road line goes via West Yellowstone and Helena only because the routing tool picked it, which is not a decision)
 slack: None. Longest day between anchors.
 overnight:
   name: Many Glacier Campground
@@ -925,7 +925,7 @@ overnight:
 ```
 
 **Schedule**
-- arrival · drive · **Pick up the group at PDX**, then east up the Columbia to Hood River.
+- arrival · drive · **Pick up the group at PDX**, then east up the Columbia to Hood River. · 📍 Portland International Airport
 - sunset · stop · **Rowena Crest** above the Rowena Loops. ⚠️ Sunset time not computed yet. · 📍 Rowena Crest Viewpoint
 
 **Meals**
@@ -1241,7 +1241,7 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Friends to PDX** for their flights.
+- morning · drive · **Friends to PDX** for their flights. · 📍 Portland International Airport
 - afternoon · drive · Start east. ⚠️ Route home not chosen; ~2,400 mi to Avon is my unrouted estimate.
 
 **Meals**

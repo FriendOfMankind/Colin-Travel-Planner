@@ -134,3 +134,53 @@ test("gpxParts: a track typed fly is a flight; a plain GPX is one ground part", 
   assert.deepEqual(gpxParts(two).map((p) => p.fly), [false, true]);
   assert.deepEqual(gpxParts(`<gpx><rte><rtept lat="1" lon="2"/><rtept lat="3" lon="4"/></rte></gpx>`), [{ fly: false, line: [[2, 1], [4, 3]] }]);
 });
+
+test("a guessed start reaches back past days with nothing placed, names where it starts, and skips nothing", () => {
+  const md3 = `---
+slug: t
+title: T
+target: 2027-03-05
+---
+
+# T
+
+## Days
+
+### Day 1 — 2027-03-05 · One
+
+\`\`\`yaml
+overnight:
+  name: TBD — motel
+\`\`\`
+
+**Schedule**
+- 8:00 · drive · To A. · 📍 A town
+
+### Day 2 — 2027-03-06 · Two
+
+\`\`\`yaml
+overnight:
+  name: TBD — motel
+\`\`\`
+
+**Schedule**
+- 8:00 · drive · Onward.
+
+### Day 3 — 2027-03-07 · Three
+
+\`\`\`yaml
+overnight:
+  name: Camp C — first-come
+\`\`\`
+
+**Schedule**
+- 8:00 · drive · Camp. · 📍 Camp C WV
+`;
+  const g = tripGeo("t", md3, groups);
+  assert.deepEqual(g.noLine, [1, 2]);
+  const leg = g.trip.find((f) => f.properties.day === 3).properties;
+  assert.equal(leg.startGuessed, true);
+  assert.equal(leg.startFrom, "A town");
+  assert.equal(leg.startFromDay, 1);
+  assert.equal(leg.skipped, 0);
+});

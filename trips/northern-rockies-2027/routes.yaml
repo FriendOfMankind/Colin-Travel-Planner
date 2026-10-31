@@ -84,3 +84,6 @@
 - day: 29
   file: routes/day-29.gpx
   source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
+- day: 34
+  file: routes/day-34.gpx
+  source: "Overture Maps transportation 2026-10-21.0 (OpenStreetMap-derived), routed by tools/roads.py"
