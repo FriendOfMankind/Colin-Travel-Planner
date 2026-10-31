@@ -99,7 +99,7 @@ Do the import once per trip, on a computer. Google's help page shows the steps f
    Then, once, on the **pins** layer only: **Uniform style** → **Group places by** `kind`. Beds and stops get their own colors and a legend. Tap the paint pot beside "bed" to pick a tent icon. **Set labels** → `name` writes names on the pins. *(Grouping by `day` colors pins by day instead.)* Leave the lines layer alone: it already has its day colors.
 3. **Open it on the phone.** In the Google Maps app: **You** (or **Saved**) → **Maps** → the trip. Layers button → **Satellite**. Tap a pin for its day and note.
 
-When the plan changes, the map doesn't update itself: delete the two layers and import the new files (then redo the grouping). *(Recalled, not checked 2026-10-30: My Maps live under Saved → Maps in the Google Maps app, and they don't work offline. The first import is the real test.)*
+When the plan changes, the map doesn't update itself: delete the two layers and import the new files (then redo the grouping). *(Confirmed by Colin's imports, 2026-10-31: line colors carry over, pins import white, and `kind` shows up under "Group places by" (Newfoundland: 56 stops, 13 beds, 11 off-plan). Still recalled, not checked: My Maps live under Saved → Maps in the Google Maps app, and they don't work offline.)*
 
 ## For Colin: Organic Maps (phone, no signal)
 

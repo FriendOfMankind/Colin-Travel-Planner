@@ -11,7 +11,7 @@
      <slug>-pins.kml    a pin per verified place
    My Maps keeps a line's color but draws every imported pin white
    (Colin's first import, 2026-10-31). So each feature carries data fields,
-   which My Maps imports as table columns: `kind` (day line, bed, stop,
+   which My Maps imports as table columns (confirmed, 2026-10-31): `kind` (day line, bed, stop,
    off-plan), `day` (the line's day, a pin's first day) and `area` (its
    places.yaml group). "Group places by kind" on the pins layer colors them
    with a legend. A style applies to a whole layer, which is why the lines
