@@ -22,6 +22,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | Mapping a trip, start to finish (pins, roads, My Maps, Organic Maps, Kepler) | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
+| The overall plan: trips, pencilled ideas and open stretches from today to the horizon | the site's Trips tab ("The plan"), computed by `tools/lib/timeline.mjs` from `trips/`, `wishlist/` and `me/calendar.md`. An idea is **pencilled in** only when its wishlist file has `start:` (with `days:`); a `window:` line is not a plan |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
 | An invite page for people joining a trip (a "proposal" or "pitch"): who it's for, sent or not, out of date or not | `share/proposals.yaml`; a page's HTML source is `share/proposals/<id>.html` |

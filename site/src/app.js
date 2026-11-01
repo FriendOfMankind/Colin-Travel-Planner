@@ -325,12 +325,122 @@
         <span class="go" aria-hidden="true">›</span></a>`;
     };
     const block = (title, list) => list.length ? `<div class="section"><h2>${title}</h2><div class="panel divide">${list.map(row).join("")}</div></div>` : "";
+    // Undated trips have no place on the timeline, so they keep a list.
+    const undated = groups.idea.filter((t) => !t.target);
     return `<div class="stack"><h1>Trips</h1>
-      ${block("On the road", groups.active)}${block("Coming up", groups.upcoming)}${block("Not scheduled", groups.idea)}${block("Done", groups.past.reverse())}
+      ${block("On the road", groups.active)}
+      ${D.timeline ? timelineBlock(today) : block("Coming up", groups.upcoming)}
+      ${block("Not scheduled", undated)}
       ${proposalsBlock()}
       ${ideasBlock()}
+      ${block("Done", groups.past.reverse())}
     </div>`;
   };
+
+  /* ------------------------------------------------------------ timeline */
+  /* Today → the horizon (me/calendar.md), built by tools/lib/timeline.mjs:
+     a year grid (a row per month, a square per day) over the same story as a
+     list in date order: trips, pencilled ideas (a wishlist file with start:),
+     open stretches, and the calendar's marks. Days already past fade. */
+  const TRIP_COLORS = ["#c0643a", "#1f7a80", "#2c5e8c", "#5b7a2e", "#9a4f8c", "#b08a1e"];
+  const DOWS = (iso) => DOW[parse(iso).getDay()];
+  const range2 = (a, b) => a === b ? `${DOWS(a)} ${fmt(a).slice(4)}` : `${fmt(a)} → ${fmt(b)}`;
+  const FIT = { fly: "Room for a fly trip", drive: "Room for a drive trip", weekend: "Room for a weekend away" };
+  const plainWhat = (h) => strip(h).replace(/\s*\(.*$/, "").replace(/,.*$/, "").trim();
+  function tripChips(t, today) {
+    const chips = [];
+    for (const p of (D.proposals ?? []).filter((p) => p.trip === t.slug && !["superseded", "parked", "out"].includes(p.status))) {
+      chips.push(`<a class="chip ${p.status === "in" ? "ok" : p.status === "draft" || p.status === "unknown" ? "draft" : ""}" target="_blank" rel="noopener" href="${esc(p.url)}">Invite: ${esc(PSTATUS[p.status] ?? p.status)}${p.behind ? " ⚠" : ""} ↗</a>`);
+    }
+    const ws = (D.booking ?? []).filter((w) => w.slug === t.slug);
+    const openNow = ws.filter((w) => w.opens && w.opens <= today);
+    const soon = ws.filter((w) => w.opens && w.opens > today).sort((a, b) => a.opens < b.opens ? -1 : 1);
+    const any = ws.filter((w) => w.anytime);
+    const first = openNow[0] ? `<span class="chip warn">${esc(plainWhat(openNow[0].what))}: book now</span>`
+      : soon[0] ? `<span class="chip">${esc(plainWhat(soon[0].what))}: opens ${fmt(soon[0].opens).slice(4)}</span>`
+      : any[0] ? `<span class="chip">${esc(plainWhat(any[0].what))}: book anytime</span>` : "";
+    if (first) chips.push(first);
+    if (ws.length > 1) chips.push(`<span class="chip">+${ws.length - 1} booking${ws.length > 2 ? "s" : ""}</span>`);
+    if (t.questions?.length) chips.push(`<span class="chip">${t.questions.length} open question${t.questions.length === 1 ? "" : "s"}</span>`);
+    return chips.length ? `<div class="chips">${chips.join("")}</div>` : "";
+  }
+  function timelineBlock(today) {
+    const T = D.timeline;
+    const tripsBy = Object.fromEntries(D.trips.map((t) => [t.slug, t]));
+    const ideasBy = Object.fromEntries((D.ideas ?? []).map((i) => [i.slug, i]));
+    const items = T.items.filter((x) => x.end >= today);
+    const color = {};
+    items.filter((x) => x.type === "trip").forEach((x, i) => { color[x.slug] = TRIP_COLORS[i % TRIP_COLORS.length]; });
+
+    // The grid: a row per month from today's month to the horizon.
+    const kindOf = {};
+    for (let i = 0, d = parse(T.from); i < T.days.length; i++, d.setDate(d.getDate() + 1)) kindOf[iso(d)] = T.days[i];
+    const first = parse(T.from), last = parse(T.to);
+    let grid = "";
+    for (let y = first.getFullYear(), m = first.getMonth(); y < last.getFullYear() || (y === last.getFullYear() && m <= last.getMonth()); m === 11 ? (y++, m = 0) : m++) {
+      let cells = "";
+      for (let day = 1; day <= 31; day++) {
+        const dt = new Date(y, m, day);
+        if (dt.getMonth() !== m) { cells += '<i class="tc none"></i>'; continue; }
+        const d = iso(dt), k = kindOf[d];
+        if (!k) { cells += `<i class="tc past"></i>`; continue; }
+        const cls = k === "c" ? "class" : k === "b" ? "block" : k === "f" ? "free" : k.startsWith("i:") ? "idea" : "trip";
+        const gap = cls === "free" && items.some((x) => x.type === "gap" && d >= x.start && d <= x.end);
+        const style = cls === "trip" ? ` style="background:${color[k.slice(5)] ?? "var(--accent)"}"` : "";
+        cells += `<i class="tc ${gap ? "gap" : cls}${d < today ? " past" : ""}${d === today ? " now" : ""}"${style} title="${d}"></i>`;
+      }
+      grid += `<div class="trow"><span class="tm">${MON[m]}</span><div class="tcells">${cells}</div></div>`;
+    }
+
+    // The summary: the plan in one line.
+    const gaps = items.filter((x) => x.type === "gap");
+    const nextTrip = items.find((x) => x.type === "trip");
+    const nt = nextTrip && tripsBy[nextTrip.slug];
+    const pencils = items.filter((x) => x.type === "idea").length + gaps.reduce((a, g) => a + g.pencilled.length, 0);
+    const lead = `${nt ? `Next: <b>${esc(nt.title)}</b>, ${nextTrip.start <= today ? "on the road" : `in ${daysBetween(today, nextTrip.start)} days`}. ` : ""}Before ${T.horizon?.date ? fmt(T.horizon.date).slice(4) : fmt(T.to).slice(4)}: ${items.filter((x) => x.type === "trip").length} trips, ${pencils} pencilled in, ${gaps.length} open stretches (${gaps.reduce((a, g) => a + g.days, 0)} days).`;
+
+    const ideaLink = (slug) => ideasBy[slug] ? `<a href="#w-${slug}">${esc(ideasBy[slug].title)}</a>` : esc(slug);
+    const ideaChips = (slug) => (D.proposals ?? []).filter((p) => p.wishlist === slug && !p.trip && !["superseded", "out"].includes(p.status))
+      .map((p) => `<a class="chip ${p.status === "in" ? "ok" : "draft"}" target="_blank" rel="noopener" href="${esc(p.url)}">${p.format === "doc" ? "Doc" : "Invite"}: ${esc(PSTATUS[p.status] ?? p.status)} ↗</a>`).join("");
+    const pen = (slug) => (T.pencilled ?? []).find((p) => p.slug === slug);
+    const row = (x) => {
+      if (x.type === "trip") {
+        const t = tripsBy[x.slug]; if (!t) return "";
+        const out = x.start > today ? `in ${daysBetween(today, x.start)} days` : "on the road";
+        return `<div class="tl-it trip" style="--c:${color[x.slug]}"><a class="panel tl-card" href="#t-${t.slug}-plan">
+          <div class="when">${range2(x.start, x.end)} · ${out}</div><h3>${esc(t.title)}</h3>
+          <div class="meta">${t.days.length || daysBetween(x.start, x.end) + 1} days · ${esc(t.status)}</div></a>${tripChips(t, today)}</div>`;
+      }
+      if (x.type === "idea") {
+        const i = ideasBy[x.slug];
+        return `<div class="tl-it idea"><div class="panel tl-card idea"><div class="when">${range2(x.start, x.end)} · pencilled in</div>
+          <h3>${ideaLink(x.slug)}</h3><div class="meta">${esc(i?.subtitle ?? "")}</div>${ideaChips(x.slug) ? `<div class="chips">${ideaChips(x.slug)}</div>` : ""}</div></div>`;
+      }
+      if (x.type === "gap") {
+        // Only pencilled ideas are named as the plan. The rest are listed, not ranked:
+        // a few by name, many as a count to open (by month and length, me/calendar.md).
+        const top = x.ideas.length <= 3 ? x.ideas : [], rest = x.ideas.length > 3 ? x.ideas : [];
+        const pencil = x.pencilled.map((slug) => { const p = pen(slug); return `<div class="tl-pen"><b>Pencilled in:</b> ${ideaLink(slug)}${p ? `, ${range2(p.start, p.end)}` : ""} ${ideaChips(slug)}</div>`; }).join("");
+        return `<div class="tl-it gap"><div class="tl-gap"><div class="when">${range2(x.start < today ? today : x.start, x.end)}</div>
+          <div class="t">${x.end >= today ? daysBetween(x.start < today ? today : x.start, x.end) + 1 : x.days} days open${x.label ? ` · ${esc(x.label)}` : ""}</div>
+          ${x.fit ? `<div class="fit">${FIT[x.fit.mode] ?? esc(x.fit.label)}</div>` : ""}
+          ${pencil || '<div class="fit muted">Nothing pencilled in.</div>'}
+          ${top.length ? `<div class="tl-ideas">${pencil ? "Also fits" : "Fits"}: ${top.map(ideaLink).join(", ")}${rest.length ? "" : ""}</div>` : ""}
+          ${rest.length ? `<details class="tl-more"><summary>${rest.length} ideas fit by month and length</summary><div>${rest.map(ideaLink).join(", ")}</div></details>` : ""}</div></div>`;
+      }
+      if (x.type === "term") return `<div class="tl-it mark"><div class="tl-term">${esc(x.title)} ${fmt(x.start).slice(4)} · ${esc(x.detail.replace(/until (\d{4}-\d\d-\d\d)/, (_, d) => "until " + fmt(d).slice(4)))}</div></div>`;
+      return `<div class="tl-it mark${x.horizon ? " end" : ""}"><div class="when">${range2(x.start, x.end)}</div><div class="t">${esc(x.title)}</div>${x.horizon ? '<div class="muted" style="font-size:13px">After this, trips come out of PTO.</div>' : ""}</div>`;
+    };
+    const cur = T.current && today <= T.current.end ? ` · ${esc(T.current.name)}, ${T.current.classDays.join("/")} classes until ${fmt(T.current.end).slice(4)}` : "";
+    return `<div class="section"><h2>The plan</h2>
+      <div class="tl-lead">${lead}</div>
+      <div class="panel"><div class="tgrid">${grid}</div>
+        <div class="tlegend"><span><i style="background:${TRIP_COLORS[0]}"></i>Trip</span><span><i class="lg-idea"></i>Pencilled in</span><span><i class="lg-gap"></i>Open 5+ days</span><span><i class="lg-class"></i>Class</span><span><i class="lg-block"></i>Finals, family</span><span><i class="lg-free"></i>Free</span></div></div>
+      <div class="tl">
+        <div class="tl-it now"><div><span class="t">Today · ${fmt(today)}</span><span class="when">${cur}</span></div></div>
+        ${items.map(row).join("")}
+      </div></div>`;
+  }
 
   /* Invite pages for the people joining a trip (share/proposals.yaml). Live
      ones first; parked and replaced ones fold away. Each opens the claude.ai page. */

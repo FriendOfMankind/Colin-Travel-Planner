@@ -6,6 +6,7 @@ status: wishlist
 months: [ 1 ]
 mode: drive
 days: 8
+start: 2027-01-07
 nights: 7, one rented cabin, split
 window: Jan 7–14, 2027 (Colin's pick, 2026-10-15; was Jan 10–17). After winter break starts, before spring term (Jan 19) and before Whiteface's MLK holiday pricing (Jan 16–18)
 region: Lake Placid / Wilmington / Saranac Lake, New York

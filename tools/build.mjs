@@ -32,6 +32,7 @@ import { writeKml } from "./kml.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 import { parseProposals, behind } from "./lib/proposals.mjs";
+import { buildTimeline, calendarFrom, addDays as plusDays } from "./lib/timeline.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -287,6 +288,31 @@ function buildProposals() {
   }).sort((a, b) => (a.asOf < b.asOf ? 1 : -1));
 }
 
+/* ------------------------------------------------------------ timeline */
+
+/** Today → the horizon in me/calendar.md: every day's kind, the gaps, and the
+    trips, pencilled ideas and calendar marks in order (lib/timeline.mjs). The
+    page fades the days already past against the phone's own clock. */
+function buildTimelineData(today) {
+  const cal = calendarFrom(read("me/calendar.md"), YAML);
+  const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map((slug) => {
+    const r = parseTrip(read(`trips/${slug}/trip.md`)).registry;
+    const start = r.start ?? r.target;
+    return { slug, status: r.status, start: start ? String(start) : null, end: start && r.days ? plusDays(String(start), r.days - 1) : null };
+  }).filter((x) => !["done", "shelved"].includes(x.status));
+  const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).map((f) => {
+    const { fm } = parseIdea(read(`wishlist/${f}`));
+    const start = fm.start ? String(fm.start) : null;
+    return { slug: fm.slug, months: fm.months ?? [], days: fm.days, horizon: horizonOf(fm).horizon, updated: fm.updated,
+      start, end: start ? plusDays(start, (Number(fm.days) || 1) - 1) : null };
+  });
+  const tl = buildTimeline({ today, cal, trips, ideas });
+  const codes = [];
+  for (let d = tl.from; d <= tl.to; d = plusDays(d, 1)) codes.push(tl.days[d] === "free" ? (tl.idea[d] ? "i:" + tl.idea[d] : "f") : tl.days[d] === "class" ? "c" : tl.days[d] === "block" ? (tl.idea[d] ? "i:" + tl.idea[d] : "b") : tl.days[d]);
+  return { from: tl.from, to: tl.to, horizon: tl.horizon, current: tl.current, days: codes, items: tl.items,
+    pencilled: ideas.filter((i) => i.start).map((i) => ({ slug: i.slug, start: i.start, end: i.end })) };
+}
+
 /* --------------------------------------------------------------- write */
 
 const localIso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -295,7 +321,7 @@ const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map(buildTrip
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map(buildIdea);
 const bucket = buildBucket();
 const { windows, ics } = buildBooking(localIso(new Date()));
-const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, proposals: buildProposals(), me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen(), booking: windows, ics };
+const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, proposals: buildProposals(), timeline: buildTimelineData(localIso(new Date())), me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen(), booking: windows, ics };
 
 const tpl = read("site/src/template.html")
   .replace("/*__CSS__*/", () => read("site/src/app.css"))
