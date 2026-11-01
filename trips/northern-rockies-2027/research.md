@@ -6,16 +6,16 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 *Built 2026-10-10 from the plan and the 2026-09-06 planning history. Refreshed 2026-10-29: smoke, station normals, Castle Trail, Slough Creek season, NE Entrance Road, Day 1 candidates, the Middle Fork raft; Oregon and the drive home added as branches 7–8. Same day, after Colin's Jul 12 / Yellowstone / Highline decisions: day numbers from Glacier on are +1, and branch 5 grew the Yellowstone interior.*
 
-## 1. The drive out (Days 1–2)
-- ✅ **Day 1 transit night**: **Perrot SP** (chosen 2026-10-29), 102 sites, showers, 11-month window. ⬜ fee
+## 1. The drive out (Day 1)
+- 🟡 **Day 1 transit night**: a cheap motel off I-80 near Des Moines *(Colin, 2026-10-30)*. ⬜ which one, fee
 - 🟡 **Chicago window**: the plan's rule of thumb, no source
+- *(Perrot SP and the Badlands branch were cut 2026-10-30 for the Snowy Range swap; see `log.md`.)*
 
-## 2. Badlands (Days 2–3)
-- 🟡 **Cedar Pass**: booking on recreation.gov; fee not read from a page
-- ✅ **Notch Trail**: AllTrails stats
-- ✅ **Castle Trail**: 10.3 mi / 249 ft out and back, just over the ceiling; Medicine Root loop is 7.8 mi (AllTrails, 2026-10-29)
-- 🟡 **Sage Creek Rim Road**: gravel, condition unchecked
-- ⬜ **Open-hike sunset wander** (bucket item `badlands-open-hike`): not placed in a day
+## 2. Vedauwoo and the Snowy Range (Days 2–3)
+- ✅ **Routing**: Des Moines → Vedauwoo → Lake Marie → Brooklyn Lake → West Tensleep (firecrawl-maps, 2026-10-30)
+- ⬜ **Brooklyn Lake opening date**: the FS page says both "mid-July" and "7/04"; fallback is a second Vedauwoo night
+- ⬜ **Brooklyn Lake Road surface**: not checked
+- ⬜ **Vedauwoo / Brooklyn Lake fees**
 
 ## 3. Bighorns (Days 4–6)
 - ✅ **West Tensleep Lake CG**: 10 sites, reservable, $20, June to Labor Day, water, no showers *(2026-10-10)*. One aggregator says first-come; Forest Service page wins
@@ -27,7 +27,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **US-212 season**: opened ~May 22 in 2026, closed Oct 9 (early, for snow)
 - ✅ **Island Lake CG**: first-come only, 21 sites, cash or check, late June to mid-September *(2026-10-10)*
 - ✅ **Beartooth Lake CG**: 21 sites, first-come only, the fallback
-- 🟡 **How full Island Lake gets on a July Monday afternoon**: one 2023 review says sites "begin to fill up again in mid-afternoon" in July (campingkiddos.com). The 1:30 PM plan is about right. 🔒 still worth a local read
+- 🟡 **How full Island Lake gets on a July Sunday afternoon (arrival is Sun Jul 18 since the 2026-10-29 shift)**: one 2023 review says sites "begin to fill up again in mid-afternoon" in July (campingkiddos.com). The 1:30 PM plan is about right. 🔒 still worth a local read
 - ✅ **High Lakes loop and Becker Lake**: AllTrails stats
 - 🟡 **Clay Butte Lookout spur**: gravel, condition unchecked
 
@@ -35,7 +35,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Pebble Creek**: closed 2026, "likely for the foreseeable future". Not a fallback
 - ✅ **Slough Creek**: 16 sites, 2 mi dirt road, fills in minutes; season ran **June 15 – Oct 12 in 2026** (nps.gov/yell, 📋). Jul 21 is safely inside
 - ✅ **Northeast Entrance Road reconstruction**: construction slated to begin **2029** (spartnerships.com, 2026-08-12). Not a 2027 problem
-- 🟡 **Madison Campground** (Day 11): open May 7 – Oct 17, 2027, 6,800 ft, 16 mi north of Old Faithful; recreation.gov, 6 months out from 2027 (📋 snippets, 2026-10-29). ⬜ fee. ⬜ coordinate (so ⬜ sun times). ⬜ how fast it fills on the new system
+- 🟡 **Madison Campground** (Day 11): open May 7 – Oct 17, 2027, 6,800 ft, 16 mi north of Old Faithful; recreation.gov, 6 months out from 2027 (📋 snippets, 2026-10-29). ⬜ fee. ✅ coordinate (Pin Ledger, 2026-10-30); ⬜ sun times not recomputed. ⬜ how fast it fills on the new system
 - 🟡 **Canyon Campground**: open May 28 – Sept 19, 2027 (📋). A possible Madison fallback, not chosen
 - ✅ **Grand Canyon of the Yellowstone** (Day 10): Artist Point 0.3 mi, Brink of the Lower Falls 0.8 mi / 249 ft (AllTrails, 2026-10-29). ⬜ Slough Creek ⇄ Canyon drive time (unrouted)
 - 🟡 **Old Faithful and Grand Prismatic** (Day 11): Grand Prismatic overlook 1.6 mi / 131 ft from the Fairy Falls trailhead (AllTrails, 2026-10-29). ⬜ Fairy Falls lot parking in July. ⬜ eruption predictions (day-of). ⬜ Slough Creek → Old Faithful drive time (unrouted)
@@ -56,8 +56,8 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ## 7. West to Oregon and the boys week (Days 19–30)
 Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging, rafts, South Sister permits, the smoke swap list).
-- ⬜ **Day 19 transit night** (Spokane / Coeur d'Alene): nothing identified
-- 🟡 **Route of the Hiawatha** (optional, Day 19): 2026 season and the basics; ⬜ fees, timing
+- ⬜ **Day 19 night** near Wallace / Kellogg, Idaho *(Colin, 2026-10-30)*: bed not picked
+- 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season and the basics; ⬜ fees, timing
 - ⬜ **Glacier → Hood River routing**: unrouted
 - 🟡 **Headcount**: "a group"; the plan assumes Colin + 3, but it isn't recorded. Decides the car
 
@@ -67,12 +67,12 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 - ~~TRNP, Cottonwood, Makoshika~~: cut or skipped 2026-10-10 / 10-15; the old notes are in `log.md`
 
 ## 9. Cross-cutting
-- 🟡 **Weather**: station normals for Badlands (Interior 3 NE, 91/62), Cooke City (74/39) and St. Mary (high 73), July, NOAA 1991–2020 *(2026-10-29)*. ⬜ Bighorns, Beartooth Plateau, Oregon
+- 🟡 **Weather**: station normals for Cooke City (74/39) and St. Mary (high 73), July, NOAA 1991–2020 *(2026-10-29)*. ⬜ Bighorns, Beartooth Plateau, Oregon
 - 🟡 **Wildfire smoke**: first pass done *(2026-10-29)*. Glacier County alert Jul 27 2026, smoke over north Glacier Jul 31 2026; Bend averages 7.8 USG+ days a year (2013–2025), 21 in 2023, 2 in 2025, peak in August. ⬜ a Glacier-specific multi-year count
-- 🟡 **Showers**: first one at Apgar, Day 16. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests**. ⬜ any that sell a shower to non-guests. 🔒
+- 🟡 **Showers**: none verified before Hood River (Day 20); the old "Apgar has one" had no source. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests**. ⬜ any that sell a shower to non-guests. 🔒
 
 ## Fetch list
 1. **Crazy Woman Canyon in a car.** Facebook group "Bighorn Mountains" or "Buffalo Wyoming Community", search `Crazy Woman Canyon car` / `Crazy Woman Canyon sedan`. Look for: whether a normal car made it, which end is rougher, and 2025–26 washouts.
 2. **FR 27 to West Tensleep.** Same groups, or r/wyoming, search `West Tensleep road`. Look for: washboard, rocks, anyone in a sedan.
-3. **Island Lake on a July weekday.** r/Montana or the "Beartooth Highway" Facebook group, search `Island Lake campground full`. Look for: what time it fills on a Monday in July.
+3. **Island Lake on a July Sunday.** r/Montana or the "Beartooth Highway" Facebook group, search `Island Lake campground full`. Look for: what time it fills on a Sunday in July.
 4. **Pay showers in Cody / Great Falls.** r/roadtrip or the "Cody Wyoming Community" Facebook group, search `shower Cody non guest` / `pay shower Great Falls`. Look for: a rec center, truck stop or RV park that sells a one-off shower, and the price.

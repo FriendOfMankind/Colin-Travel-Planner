@@ -29,7 +29,7 @@ tags:
   - july
   - long haul
   - reservation race
-next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Apgar. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
+next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Avalanche (Apgar as backup). Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
 booking:
   - system: recreation.gov
     what: Vedauwoo, Medicine Bow NF (Jul 13)
@@ -89,9 +89,9 @@ page:
   dates: Monday, July 12 – Saturday, August 14, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
+  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX for Aug 1–10 and ride in the Legacy."
-  footerNote: Outline. Road and season facts are verified; every fee, most coordinates and six transit nights are not. Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
+  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 34 days
       lbl: Length
@@ -200,7 +200,7 @@ overnight:
 - 6:30 AM (11h 08m) · drive · Des Moines → I-80 W through Nebraska → exit 329, Vedauwoo Rd · 📍 Vedauwoo Campground Wyoming
 - ~4:45 PM MT (45m) · camp · Set up. Fill water at the hand pump
 - 6:00 PM (1h 15m) · hike · **Turtle Rock Loop**, from the campground. ✅ AllTrails: **2.9 mi, 282 ft, Easy, 4.8★, ~1h 08m**. Through the granite towers, past beaver ponds. The right first walk after two days in a car · 📍 Turtle Rock Trail Vedauwoo
-- evening · sunset · Sit on the rocks for golden hour. Sunset: TBD (no verified coordinate)
+- evening · sunset · Sit on the rocks for golden hour. Sunset: TBD (pinned 2026-10-30; not recomputed yet)
 
 **Meals**
 - B: transit camp
@@ -240,7 +240,7 @@ overnight:
 - 9:30 AM (4h) · hike · **Medicine Bow Peak and Lakes Trail Loop**. ✅ AllTrails: **7.0 mi, 1,715 ft, Hard, loop, 4.8★**. Up to 12,013 ft. Bail-out: **Lakes Trail** out-and-back, 6.7 mi / 1,026 ft, Moderate, stays below the summit *(AllTrails, 2026-10-30)* · 📍 West Lake Marie Trailhead
 - 1:30 PM · stop · Sit at Lake Marie if the sky is still clear
 - 3:00 PM (17m) · drive · → Brooklyn Lake · 📍 Brooklyn Lake Campground Wyoming
-- evening · sunset · From camp or Libby Flats. Sunset: TBD (no verified coordinate)
+- evening · sunset · From camp or Libby Flats. Sunset: TBD (pinned 2026-10-30; not recomputed yet)
 
 **Meals**
 - B: made at camp
@@ -391,7 +391,7 @@ overnight:
 
 **Schedule**
 - 5:31 AM · sunrise · Sunrise. Break camp.
-- 6:30 AM (3h) · drive! · → Cody WY via Ten Sleep and the Bighorn Basin. **Third resupply — fuel, groceries, block ice.** Nothing between here and Great Falls is a real grocery. · 📍 Cody Wyoming
+- 6:30 AM (3h) · drive! · → Cody WY via Ten Sleep and the Bighorn Basin. **Second resupply — fuel, groceries, block ice.** Nothing between here and Great Falls is a real grocery. · 📍 Cody Wyoming
 - 10:30 AM (2h 30m) · drive · **Chief Joseph Scenic Byway (WY-296) then US-212 west.** Dead Indian Pass, then the switchbacks up onto the plateau. Paved throughout. · 📍 Chief Joseph Scenic Byway Wyoming
 - 1:30 PM (1h) · stop · Set up at Island Lake. ⚠️ **You are at 9,518 ft and it can snow here in July.** Pitch properly, not quickly.
 - 3:00 PM (2h) · stop · Nothing. Walk the lakeshore, look at the plateau.
@@ -542,7 +542,7 @@ overnight:
   cost: TBD (not read)
   checkin: Reservable on recreation.gov from the 2027 season, 6 months out
   confirmation: TBD
-  notes: "📋 **Open May 7 – Oct 17, 2027; 6,800 ft; ~14 mi east of West Yellowstone and 16 mi north of Old Faithful** (yellowstonenationalparklodges.com; recreation.gov POI, snippets, 2026-10-29). 📋 \"Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before\" (nps.gov/yell campgrounds page, snippet, 2026-10-29). **Fee: TBD.** ⚠️ No verified coordinate yet (place it in mapbench), so tonight's sunset isn't computed. Fallback if it fails: not chosen. **Canyon Campground** is open on the night (📋 May 28 – Sept 19, 2027, same snippets) and sits by Day 10's canyon, but it puts the geysers an hour further away."
+  notes: "📋 **Open May 7 – Oct 17, 2027; 6,800 ft; ~14 mi east of West Yellowstone and 16 mi north of Old Faithful** (yellowstonenationalparklodges.com; recreation.gov POI, snippets, 2026-10-29). 📋 \"Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before\" (nps.gov/yell campgrounds page, snippet, 2026-10-29). **Fee: TBD.** Pinned 2026-10-30, but tonight's sunset isn't recomputed yet. Fallback if it fails: not chosen. **Canyon Campground** is open on the night (📋 May 28 – Sept 19, 2027, same snippets) and sits by Day 10's canyon, but it puts the geysers an hour further away."
 ```
 
 **Schedule**
@@ -554,7 +554,7 @@ overnight:
 - 2:30 PM (1h 30m) · hike · **Grand Prismatic from the Fairy Falls trail overlook.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*. The view from above is the one in the photographs; the boardwalk is the one from inside the steam. · 📍 Fairy Falls Trailhead Yellowstone
 - 4:30 PM (30m) · drive · → Madison Campground, 📋 16 mi north of Old Faithful. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
 - 5:00 PM (1h) · stop · Set up at Madison, 6,800 ft.
-- TBD · sunset · Sunset TBD (no verified coordinate for Madison). Waning gibbous 86%.
+- TBD · sunset · Sunset TBD (Madison is pinned; sun times not recomputed yet). Waning gibbous 86%.
 
 **Meals**
 - B: made at camp — after Lamar, not before
@@ -588,8 +588,8 @@ overnight:
 ```
 
 **Schedule**
-- TBD · sunrise · Sunrise TBD (no verified coordinate for Madison). Break camp in the dark if it saves an hour.
-- 6:00 AM (9h) · drive! · → Many Glacier via Great Falls and Browning. ⚠️ **Unrouted**: from Madison the old Slough Creek → Livingston line is longer, and the route north isn't picked. **Fourth and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
+- TBD · sunrise · Sunrise TBD (Madison is pinned; sun times not recomputed yet). Break camp in the dark if it saves an hour.
+- 6:00 AM (9h) · drive! · → Many Glacier via Great Falls and Browning. ⚠️ **Unrouted**: from Madison the old Slough Creek → Livingston line is longer, and the route north isn't picked. **Third and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
 - 3:30 PM (1h) · stop · Check in. ✅ **No vehicle reservation.** Entry pass required and the America the Beautiful pass covers it.
 - 5:00 PM (1h) · hike · **Swiftcurrent Nature Trail.** ✅ AllTrails: **2.6 mi, 131 ft, Easy, loop.** A flat lap of Swiftcurrent Lake after nine hours of driving. · 📍 Swiftcurrent Nature Trail Many Glacier
 - 9:32 PM · sunset · Sunset. Dark 10:03 PM. Nearly 17 hours of light up here.
@@ -900,7 +900,7 @@ overnight:
 
 #### Highlights
 
-The first real bed since leaving home.
+The first real bed since the Day 1 motel.
 
 #### Warnings
 
@@ -1395,7 +1395,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | --- | --- | --- | --- | --- | --- | --- |
 | Turtle Rock Loop (Vedauwoo) | 2 | 2.9 mi loop | 282 ft | Easy | ~1 hr | ✅ AllTrails 4.8★, 2026-10-30. From the campground, through the granite. |
 | Medicine Bow Peak and Lakes Trail Loop | 3 | 7.0 mi loop | 1,715 ft | Hard | ~4 hr | ✅ AllTrails 4.8★, 2026-10-30. 12,013 ft summit. Off the ridge by noon. Bail-out: Lakes Trail, 6.7 mi / 1,026 ft. |
-| West Tensleep Falls | 4 | 1.6 mi RT | 219 ft | Easy | ~45 min | The altitude test after a 6,600 ft gain in one day. If 1.6 flat miles feels hard, tomorrow becomes Mirror Lake. |
+| West Tensleep Falls | 4 | 1.6 mi RT | 219 ft | Easy | ~45 min | The altitude check, the night after 10,500 ft at Brooklyn Lake. If 1.6 flat miles feels hard, tomorrow becomes Mirror Lake. |
 | Mirror Lake + Lost Twin Lakes | 5 | 11.1 mi RT | 2,076 ft | Hard | ~6–7 hr | ⚠️ **Over the 10 mi ceiling.** Two cirque lakes under a headwall. Turnaround 10 AM for storms. **Bail-out: Mirror Lake alone, 5.9 mi / 1,095 ft.** |
 | Sherd Lake | 6 | 3.5 mi RT | 570 ft | Moderate | ~1.5 hr | The soft-day walk. |
 | Beauty Lake + Beartooth High Lakes Loop | 8 | 7.7 mi loop | 1,161 ft | Moderate | ~4–5 hr | ⭐ Trailhead 0.5 mi from the tent, above treeline almost at once. Best expression of the rule set on the route. Turnaround noon. |
@@ -1435,7 +1435,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 🔥 **Wildfire smoke is the weather risk that can actually kill days, and 2026 shows both halves of this trip getting hit.** First-pass research *(2026-10-29; details in `log.md`)*:
 - **Glacier, late July (Days 12–18):** in 2026 Montana DEQ had an air quality alert covering Glacier County on Jul 27, and on Jul 31 smoke from the Skillet Fire was forecast over the northern half of the park. In August a "dome of smoke" over the Flathead brought raft and hike cancellations (Montana DEQ smoke forecasts; Flathead Beacon, 2026-10-20).
 - **Oregon (Aug 1–10):** Bend averaged **7.8 days a year at "unhealthy for sensitive groups" or worse, 2013–2025**, against 0.5 a year before 2013. The range is big: 21 days in 2023, 2 in 2025 (Oregon DEQ smoke trends report, 2026). Smoke season "peaks in August". On Jul 21 2026, Bend read AQI 200+ (Bend Bulletin). The McKenzie valley (Belknap) was spared in 2026.
-- **What it means:** one smoky summer doesn't make a pattern, but a 34-day trip through late July and early August should expect *some* smoke days. The plan already has the levers: soft days, refundable motels, and the 4-day window at Glacier. The open question below asks how to use them. The real point is the **spread**: this trip runs from a 92°F shadeless badland to a 34°F night at 9,518 ft and back, twice, and after the front-end cut it now does the first half of that swing **in a single day** (Day 4). **The sleep system is correctly specified for the Beartooth camp and massively over-specified for everything else**, which is the right way round. Pack for the range, not either end.
+- **What it means:** one smoky summer doesn't make a pattern, but a 34-day trip through late July and early August should expect *some* smoke days. The plan already has the levers: soft days, refundable motels, and the 4-day window at Glacier. The open question below asks how to use them. The real point is the **spread**: this trip runs from a 34°F night at 9,518 ft on the Beartooth Plateau to August in the Columbia Gorge and Bend (Oregon normals not pulled yet). **The sleep system is correctly specified for the Beartooth camp and massively over-specified for everything else**, which is the right way round. Pack for the range, not either end.
 
 ## Packing
 
@@ -1461,7 +1461,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 - [ ] **Full service before departure.** ~6,000+ miles (unrouted) on a 2013 Legacy with no rental to fall back on.
 - [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + 3 and their bags. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
-- [ ] Spare confirmed inflated, jack, tire plug kit — Sage Creek Rim, Crazy Woman and Clay Butte are all gravel decisions
+- [ ] Spare confirmed inflated, jack, tire plug kit — FR 27, Crazy Woman, Clay Butte and Slough Creek's road are all gravel or dirt
 - [ ] Jump pack. Cold nights at 9,500 ft and a fortnight of short trips are hard on a battery.
 - [ ] Paper atlas as well as offline maps. Four days of the route have effectively no signal.
 
@@ -1502,7 +1502,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 ### Can you actually get Slough Creek, Madison, Many Glacier and a west-side campground for these dates?
 
 **Blocks:** Days 10–11 and 12–18 — over a third of the trip
-🚨 The four hardest bookings on the trip and they are consecutive. Slough Creek is 16 sites and gone in minutes; Madison moves to recreation.gov for 2027, so how fast it goes is unknown; Many Glacier and Apgar go the day their windows open. **All four windows fall in mid-to-late January 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, Two Medicine and St. Mary reshape the middle. If Slough Creek fails, Day 10 becomes a fourth plateau night with Lamar as a long day trip.
+🚨 The four hardest bookings on the trip and they are consecutive. Slough Creek is 16 sites and gone in minutes; Madison moves to recreation.gov for 2027, so how fast it goes is unknown; Many Glacier and Avalanche (Apgar as backup) go the day their windows open. **All four windows fall in mid-to-late January 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, St. Mary reshapes the middle (Two Medicine was closed all of 2026). If Slough Creek fails, Day 10 becomes a fourth plateau night with Lamar as a long day trip.
 
 ### Has Pebble Creek reopened?
 
@@ -1514,7 +1514,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 **Blocks:** Day 3, Medicine Bow Peak
 The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then 10,500 ft and a 12,013 ft summit the next day. recreation.gov's Brooklyn Lake page says some visitors need a lower night first, and Vedauwoo is that night. **The Lakes Trail bail-out on Day 3 exists for exactly this.** No trip on this hub has tested how this traveller handles altitude.
 
-### Sixteen days to the first shower — is that actually acceptable?
+### Nineteen days to the first shower — is that actually acceptable?
 
 **Blocks:** Nothing structural, but it is the other real cost of the recut
 Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Great Falls (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
@@ -1527,7 +1527,7 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 ### Is 34 days still too much?
 
 **Blocks:** The whole shape
-**Now 34 days** with the Oregon week joined on and the extra Yellowstone day, **three times the longest trip ever taken** (11 days, Appalachians 2026), and the same length as Newfoundland. Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 18, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after ten days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 34 days** with the Oregon week joined on and the extra Yellowstone day, **three times the longest trip ever taken** (11 days, Appalachians 2026), and four days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 18, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after ten days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
@@ -1548,7 +1548,7 @@ Every fee on this page is an estimate. recreation.gov and nps.gov are blocked fr
 
 ### Places
 
-No coordinate on this page has been verified — `tools/geocode.mjs` returns nothing in this environment — so every entry is a Maps search string rather than a pin. A search for a named place lands you correctly; a guessed coordinate does not.
+Every place in `places.yaml` is pinned (Pin Ledger, 2026-10-30), and each stop also carries a Maps search string. New places go through the Pin Ledger (`docs/MAPS.md`).
 
 ### Offline regions
 
@@ -1558,7 +1558,7 @@ Download offline Google Maps for the whole corridor before leaving: Chicago–De
 
 ### The 21-day cut: what it bought and what it cost
 
-This started as a 25-day draft and the four days came off the **front end**: Custer State Park and Devils Tower are gone, and Badlands now runs straight into the Bighorns.
+This started as a 25-day draft and the four days came off the **front end**: Custer State Park and Devils Tower are gone. On 2026-10-30 the Badlands went too, for the Snowy Range: Des Moines → Vedauwoo → Brooklyn Lake → the Bighorns.
 
 That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is the better trade — **it added a seventh Glacier night rather than costing one.** Seven nights is what makes the Glacier block work: an easy Saturday, Iceberg on Sunday, Grinnell on a Monday, the transfer on Tuesday, the Highline Trail on a Wednesday, and a whole day held in reserve on Thursday. The two hardest hikes land on the two best days of the week available.
 
@@ -1571,7 +1571,7 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 
 The soft ceiling is ~10 mi and ~2,500 ft per day, exceeded "when the payoff justifies it, not by accident." Three scheduled hikes cross it and all three are over on distance only:
 
-**Lost Twin Lakes (Day 5): 11.1 mi, 2,076 ft.** A mile over, at 9,000+ ft, on your second day at altitude after the biggest single-day climb of the trip. Bail-out written into the day: Mirror Lake alone at 5.9 mi / 1,095 ft, which is a complete day.
+**Lost Twin Lakes (Day 5): 11.1 mi, 2,076 ft.** A mile over, at 9,000+ ft, on your fourth day at altitude, after a stepped climb (8,300 → 10,500 → 9,100 ft). Bail-out written into the day: Mirror Lake alone at 5.9 mi / 1,095 ft, which is a complete day.
 
 **Grinnell Glacier (Day 15): 11.1 mi, 2,047 ft.** A mile over, on day fifteen. Bail-out: the boat shuttle across Swiftcurrent and Josephine removes about 3.4 miles, and it exists precisely for this.
 

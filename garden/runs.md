@@ -6,3 +6,4 @@ One row per /gardener run. The last row's commit is where the next run's scope s
 |---|---|---|---|---|---|---|---|---|
 | 2026-10-12 | `8fcb62c` | trial: Colin slice only (1 finder + verifier, ~216k subagent tokens) | 0 | 9 | 6 (+1 overruled on review: hiking.md:50, now a mechanical check) | 0 (waiting on Colin) | 0 | 0 |
 | 2026-10-30 | `3ccb098` | mechanical (landed from PR #80) | 1 | 0 | 0 | 1 (me/hiking.md:54) | 0 | 0 |
+| 2026-11-01 | `e9c10eb` | deep (first full run; 4 finders: sky-islands, newfoundland, northern-rockies, Colin; skipped Ideas and dingle-marseille) | 0 | 42 | 41 (40 distinct; 1 refuted: gear.md:30) | 40 (4 needed Colin's answers: Bonita insurance, no ice planning, Kartchner kept, puffy warm) | 0 | 0 |

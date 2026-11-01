@@ -148,3 +148,10 @@ The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the
 - Old Day 3: Slavin Gulch to Slavin's Mine, 6.9 mi / 1,440 ft, 6:00 drive from Cochise Stronghold. Considered and not picked: moving it to Day 2 via Tombstone and Middlemarch Road, which would have meant reaching first-come Cochise mid-afternoon.
 - What it costs: the trip's only explorable ruin (`me/principles.md` 10). Fort Bowie, Bisbee and Tombstone are the polished kind.
 - Day 3's road line is no longer held back.
+
+## 2026-11-01 · Garden sweep: Bonita insurance, no ice planning, stale lines
+
+- **Bonita Canyon gets booked for Mar 7 too, as insurance** in case first-come Cochise Stronghold is full *(Colin, 2026-11-01)*. Old Day 2 fallback: "dispersed on the forest road below, or push on to Bonita Canyon a day early", which didn't work because Bonita is reservation-only. Booking row now Mar 7–10, target 2027-03-07. Mar 7 availability not checked.
+- **Ice and the Willcox stop aren't planned any more** *(Colin, 2026-11-01: "skip or find alternative")*. Old: "Block ice at Willcox on Day 3, not cubes", though Day 3's route never went to Willcox.
+- **Kartchner Caverns kept as an optional maybe**, not scheduled *(Colin, 2026-11-01)*.
+- Stale lines fixed: Mar 6–7 called "of spring break" (the break is Mar 8–12); "the next two campgrounds range from unreliable to nonexistent on water" (only Cochise and Sunny Flat are dry); the snow-closure question for Bonita Canyon Drive moved from Day 5 to Day 3 check-in, before the Day 4 drive; the night-sky note still cited the pre-2026-10-06 declined rule. The ~32 mi total stands, now with its basis written down (shortened Cochise ≈ 7 mi, by proportion).

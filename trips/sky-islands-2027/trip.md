@@ -30,12 +30,12 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "**Nothing booked; waiting to see if the two friends commit** *(stated 2026-10-29)*. Plan rewritten 2026-10-27 for Mar 6–14 with them (likely yes, not confirmed). When it's go, in order: (1) check the max people and tents per site on Bonita's recreation.gov page, then book Mar 8–10 (one site if three fit, two if not); (2) book Gilbert Ray for Mar 6 and Mar 13; (3) the friends book their own CLE → TUS flights, which is what makes them confirmed; (4) the rental, an SUV, once three flights exist. Send them the proposal page."
+next: "**Nothing booked; waiting to see if the two friends commit** *(stated 2026-10-29)*. Plan rewritten 2026-10-27 for Mar 6–14 with them (likely yes, not confirmed). When it's go, in order: (1) check the max people and tents per site on Bonita's recreation.gov page, then book Mar 7–10 (one site if three fit, two if not; Mar 7 is insurance in case first-come Cochise is full, *Colin, 2026-11-01*); (2) book Gilbert Ray for Mar 6 and Mar 13; (3) the friends book their own CLE → TUS flights, which is what makes them confirmed; (4) the rental, an SUV, once three flights exist. Send them the proposal page."
 booking:
   - system: recreation.gov
-    what: Bonita Canyon, Chiricahua NM (Mar 8–10)
-    target: 2027-03-08
-    note: "25 sites, all reservable, no first-come option, full most nights Feb–April. **All three nights were still open on 2026-10-27** (Colin's check). Check the per-site people and tent limit before booking: the group is three."
+    what: Bonita Canyon, Chiricahua NM (Mar 7–10; Mar 7 is the Cochise insurance night)
+    target: 2027-03-07
+    note: "25 sites, all reservable, no first-come option, full most nights Feb–April. **Mar 8–10 were all still open on 2026-10-27** (Colin's check); Mar 7 wasn't checked. Mar 7 is insurance against a full Cochise Stronghold *(Colin, 2026-11-01)*: if Cochise has a site, the Bonita night goes unused. Check the per-site people and tent limit before booking: the group is three."
   - system: pima-county
     what: Gilbert Ray CG, Tucson (Mar 6 and 13)
     target: 2027-03-06
@@ -137,9 +137,9 @@ overnight:
 **Schedule**
 - morning · travel · CLE → TUS. Three people, ideally on one flight, or arriving within an hour of each other so one person isn't waiting at the rental counter all afternoon.
 - +45m (45m) · stop! · Pick up the car. **Do not buy the counter collision product before checking whether a credit card already covers it.** Every driver under 25 pays the surcharge unless AAA waives it.
-- +1h (60m) · stop · **Provision in Tucson.** This is the last full-size grocery until Willcox on Day 3 — and Portal has effectively none. Buy the fuel canisters here; they cannot fly. Buy water jugs for three. · 📍 Fry's Food and Drug Tucson AZ
+- +1h (60m) · stop · **Provision in Tucson.** This is the last full-size grocery the plan counts on — and Portal has effectively none. Buy the fuel canisters here; they cannot fly. Buy water jugs for three. · 📍 Fry's Food and Drug Tucson AZ
 - +2h (40m) · drive · → Gilbert Ray Campground, Tucson Mountain Park. · 📍 Gilbert Ray Campground Tucson AZ
-- +2h 40m (45m) · stop · Check in, pitch, sort the cooler. Fill every water container — the next two campgrounds range from unreliable to nonexistent on water.
+- +2h 40m (45m) · stop · Check in, pitch, sort the cooler. Fill every water container: Cochise Stronghold tomorrow has none at all, and Sunny Flat's is off until April.
 - late afternoon (45m) · hike · **Signal Hill petroglyphs**, Saguaro West — roughly 0.5 mi round trip to a boulder field of Hohokam petroglyphs. A short walk that is a destination, which is what arrival day wants. · 📍 Signal Hill Petroglyphs Saguaro National Park
 - 6:30 PM · sunset · Sunset. Dark 6:50 PM. New moon tomorrow.
 
@@ -149,7 +149,7 @@ Petroglyphs on a boulder field with the Tucson Mountains behind them, half an ho
 
 #### Warnings
 
-Fill water containers tonight. Cochise Stronghold tomorrow has **no drinking water at all**. Saturday of spring break in Tucson: the grocery run is the slow part of the day, not the drive.
+Fill water containers tonight. Cochise Stronghold tomorrow has **no drinking water at all**. The Saturday before spring break, in Tucson: the grocery run is the slow part of the day, not the drive.
 
 ### Day 2 — 2027-03-07 · Into the Granite
 
@@ -173,7 +173,7 @@ overnight:
 **Schedule**
 - 6:40 AM · sunrise · Sunrise at Gilbert Ray. Break camp.
 - 7:30 → 9:20 (1h 50m) · drive! · → Cochise Stronghold via I-10 east and Sunsites. **Top up water and fuel in Benson or Sunsites** — the campground has neither. · 📍 Cochise Stronghold Campground Arizona
-- 9:20 → 10:15 (55m) · stop · **Take a site early.** Eleven sites, first-come, on the Sunday of spring break. Drive the loop once from the top and take the first acceptable one. Named fallback if it is full: dispersed on the forest road below, or push on to Bonita Canyon a day early.
+- 9:20 → 10:15 (55m) · stop · **Take a site early.** Eleven sites, first-come, on the Sunday before spring break. Drive the loop once from the top and take the first acceptable one. Named fallback if it is full: **Bonita Canyon, booked for tonight as insurance** (1h 05m on via Sunsites), or dispersed on the forest road below.
 - 10:30 → 12:30 (2h) · hike · **Rockfellow Dome Trail.** ✅ AllTrails: **2.0 mi, 1,108 ft, Hard, out-and-back.** Steep for its length. The Rockfellow group is the best of the Dragoon granite and this is the short way to stand under it. · 📍 Rockfellow Dome Trail Cochise Stronghold
 - 12:30 → 1:30 (60m) · stop · Sit under the domes. This is the hike-out-sit-hike-back shape and the Dragoons are built for it.
 - afternoon · stop · Camp. Read the Stronghold's history — this is where Cochise held out and where he is buried, location unmarked and deliberately unrecorded.
@@ -185,7 +185,7 @@ overnight:
 
 #### Warnings
 
-**No drinking water at this campground, at all, ever.** You need everything for the night plus tomorrow's hike in the car before you leave Sunsites, for three. Eleven sites, first-come, on a spring-break Sunday — have the fallback decided before you turn off the highway, not at the campground entrance.
+**No drinking water at this campground, at all, ever.** You need everything for the night plus tomorrow's hike in the car before you leave Sunsites, for three. Eleven sites, first-come, on the Sunday before spring break — have the fallback decided before you turn off the highway, not at the campground entrance.
 
 ### Day 3 — 2027-03-08 · The Stronghold on Foot, Then the Hoodoos
 
@@ -209,8 +209,8 @@ overnight:
 - 6:30 AM · sunrise · Sunrise. First light 6:11 AM.
 - 6:45 → 10:15 (3h 30m) · hike · **Cochise Trail #279, from camp.** ✅ AllTrails: **9.4 mi, 1,873 ft, Hard, out-and-back, ~4h 40m** for the whole thing. Today it's a shortened version: **turn around at 8:30 AM** wherever you are, so it's about the size of a normal morning. Dragoon granite the whole way, and no driving · 📍 Cochise Stronghold Campground Arizona
 - 10:15 → 11:00 (45m) · stop · Break camp.
-- 11:00 → 12:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Fill water and top up groceries at **Willcox** if the detour north makes sense; otherwise this is the last chance before Portal. · 📍 Chiricahua National Monument Visitor Center
-- 12:05 → 1:00 (55m) · stop · Check in at Bonita Canyon and pitch. **No entrance fee** — the monument eliminated it.
+- 11:00 → 12:05 (1h 05m) · drive · → Chiricahua National Monument via Sunsites and Sunizona. Top up water and ice at whatever store is on the way; nothing here is planned. · 📍 Chiricahua National Monument Visitor Center
+- 12:05 → 1:00 (55m) · stop · Check in at Bonita Canyon and pitch. **No entrance fee** — the monument eliminated it. At the visitor center, **ask whether Bonita Canyon Drive has closed for snow this season**: tomorrow's 6:00 AM drive depends on it.
 - 2:30 → 3:40 (1h 10m) · hike · **Sugarloaf Mountain.** ✅ AllTrails: **1.9 mi, 492 ft, Moderate, out-and-back.** The highest point you can drive most of the way to, and the orientation hike for the next two days — everything you are going to walk is visible from the top. · 📍 Sugarloaf Mountain Trailhead Chiricahua
 - 6:25 PM · sunset · Sunset. Dark 6:44 PM. New moon, 0.3%.
 
@@ -281,7 +281,7 @@ overnight:
 - 6:15 → 12:15 (6h) · hike · **Heart of Rocks Loop from the Visitor Center.** ✅ AllTrails: **6.9 mi, 1,597 ft, Moderate, loop, ~219 min moving.** Six hours is the moving time plus the sitting. Well inside the ~10 mi / 2,500 ft ceiling, which is why this version is the pick over the 7.3-mile Massai Point variant — it also starts at camp, so the day needs no driving at all. · 📍 Heart of Rocks Loop Chiricahua National Monument
 - in the middle (60m) · stop · **Sit in the Heart of Rocks itself.** Punch and Judy, the Big Balanced Rock, Duck on a Rock. This is the hour the day is for.
 - 12:30 → 1:30 (60m) · stop · Back at camp. Eat, lie down.
-- 2:00 → 3:30 (1h 30m) · stop · **Visitor center and Faraway Ranch.** Ask them three things: whether Bonita Canyon Drive has closed for snow this season, current road status for Cave Creek from the north, and what the water situation actually is at Sunny Flat this week. · 📍 Faraway Ranch Chiricahua National Monument
+- 2:00 → 3:30 (1h 30m) · stop · **Visitor center and Faraway Ranch.** Ask them two things: current road status for Cave Creek from the north, and what the water situation actually is at Sunny Flat this week. · 📍 Faraway Ranch Chiricahua National Monument
 - 6:27 PM · sunset · Sunset. Dark 6:46 PM. Waxing crescent 6.8%.
 
 #### Highlights
@@ -427,13 +427,13 @@ Arizona is on MST and the rest of the country moved to DST overnight. **Check th
 
 ```yaml
 summary: 8 nights camping · per site ~$155 (Sunny Flat unverified) · 5 reservable, 3 first-come
-total: ~$155 per site (the old 10-night version was ~$176); split three ways if everyone fits one site
+total: ~$155 per site, plus $25 for the Mar 7 Bonita insurance night (the old 10-night version was ~$176); split three ways if everyone fits one site
 ```
 
 | Night | Date | Location | Type | Name | Cost | Status |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Sat 3/6 | Tucson Mountain Park | County campground | Gilbert Ray | $10 | Reservation-only — needs booking |
-| 2 | Sun 3/7 | Dragoon Mountains | USFS — FCFS | Cochise Stronghold | $20 ($40 double) | First-come. No water. |
+| 2 | Sun 3/7 | Dragoon Mountains | USFS — FCFS | Cochise Stronghold | $20 ($40 double) | First-come. No water. Insurance: Bonita Canyon booked for this night too ($25) |
 | 3 | Mon 3/8 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | Open as of 2026-10-27 — needs booking |
 | 4 | Tue 3/9 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | Open as of 2026-10-27 — needs booking |
 | 5 | Wed 3/10 | Chiricahua NM | NPS campground | Bonita Canyon | $25 | Open as of 2026-10-27 — needs booking |
@@ -443,7 +443,7 @@ total: ~$155 per site (the old 10-night version was ~$176); split three ways if 
 
 ## Hikes
 
-Every figure below is AllTrails, looked up 2026-09-06. Total on foot as scheduled is roughly 32 miles across 8 walks (with Cave Creek Option A; ~31 with B). Nothing scheduled exceeds the ~10 mi / ~2,500 ft day ceiling.
+Every figure below is AllTrails, looked up 2026-09-06. Total on foot as scheduled is roughly 32 miles across 8 walks (with Cave Creek Option A; ~31 with B), counting the shortened Cochise Trail as ~7 mi: 3.5 h of a 4h 40m hike, by proportion, not measured. Nothing scheduled exceeds the ~10 mi / ~2,500 ft day ceiling.
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -481,8 +481,7 @@ Per `me/food.md` (2026-10-27): **no per-day menu.** Staples, bought in Tucson on
 - **Constraints that actually matter:**
   - **Fuel canisters can't fly.** Buy in Tucson, leave them on Day 9.
   - **No-water nights (Mar 7, 11, 12):** absorb-the-water dinners only (Knorr sides and couscous drink their water; drained pasta pours carried water on the ground).
-  - **Last real grocery is Tucson**, then Willcox (Day 3, if the detour makes sense). Portal has almost nothing.
-  - Block ice at Willcox on Day 3, not cubes.
+  - **Last real grocery is Tucson.** Portal has almost nothing. Top up water and ice wherever a store turns up; it isn't planned *(Colin, 2026-11-01)*.
 
 ## Packing
 
@@ -514,7 +513,6 @@ Per `me/food.md` (2026-10-27): **no per-day menu.** Staples, bought in Tucson on
 ### Bought on arrival — cannot fly
 
 - [ ] Fuel canisters — buy in Tucson on Day 1, leave them behind on Day 9
-- [ ] Block ice at the Willcox stop on Day 3, not cubes
 
 ### Vehicle
 
@@ -523,7 +521,7 @@ Per `me/food.md` (2026-10-27): **no per-day menu.** Staples, bought in Tucson on
 
 ## Reservations & checks
 
-- [ ] 1️⃣ **Bonita Canyon, Mar 8–10.** All three nights open on 2026-10-27. First read the **per-site max people and tents** on the site page, and the cancellation terms. Three fit → one site. Not → two sites, adjacent if possible. This is the one booking the trip stands on.
+- [ ] 1️⃣ **Bonita Canyon, Mar 7–10.** Mar 8–10 open on 2026-10-27; Mar 7 not checked. Mar 7 is insurance for a full Cochise. First read the **per-site max people and tents** on the site page, and the cancellation terms. Three fit → one site. Not → two sites, adjacent if possible. This is the one booking the trip stands on.
 - [ ] 2️⃣ **Gilbert Ray, Mar 6 and Mar 13.** $10/night, open all season. 520-724-5159 or pima.gov.
 - [ ] 3️⃣ **The friends book their flights**, CLE → TUS Sat Mar 6, back Sun Mar 14. Colin's check: $350–500. A booked flight is what makes a friend confirmed.
 - [ ] 4️⃣ **Rental SUV, 9 days from TUS**, once three flights exist. Free cancellation, re-check monthly. Every driver under 25: check AAA against the surcharge first.
@@ -601,7 +599,11 @@ Cochise Stronghold is the odd one: a ruin with no structures. It is the natural 
 
 New moon falls on March 7–8 2027, mid-trip, in one of the darkest corners of the lower 48. That is a real fact and it is in the schedule because that is where sun and moon lines go.
 
-**It is not scheduled as an activity, on purpose.** Night-sky watching is on the hub's declined list. With friends along it may be worth asking again; if the answer changes, the trip has an obvious free upgrade sitting in it.
+**It is not scheduled as an activity.** The rule is "at camp is the line" (`me/declined.md`, narrowed 2026-10-06): stars from camp are welcome, driving out to a dark-sky site isn't. Cochise Stronghold and Bonita Canyon are both dark camps on the new-moon nights, so stepping out of the tent is the whole plan.
+
+### Maybe: Kartchner Caverns
+
+A living wet show cave in Benson, on the I-10 leg; the Big Room tour is seasonal and March is inside the season *(source: azstateparks.com/kartchner, search snippet, 2026-10-01)*. **Optional, not scheduled** *(Colin, 2026-11-01)*. Tour times and prices: TBD. The bucket item is `kartchner-big-room` in `bucket.yaml`.
 
 ### What this trip costs
 

@@ -1,7 +1,7 @@
 # Newfoundland by Road — every place, with its coordinate if one was verified.
 # verified:false with null lat/lng is the CORRECT answer for an unlocated place.
-# A coordinate needs a source. Never invent one. None of these is placed yet:
-# place them in Trees' mapbench.html and paste the JSON back.
+# A coordinate needs a source. Never invent one. All placed via the Pin Ledger
+# (2026-10-30); new places go through it too (docs/MAPS.md).
 groups:
 - group: The drive
   places:
@@ -87,7 +87,7 @@ groups:
     lng: -64.984773
     source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
   - name: Hopewell Rocks
-    note: Day 3 afternoon or Day 4 morning, only if the tide fits.
+    note: Day 3 afternoon only, if the tide fits (Day 4's tides don't).
     maps: Hopewell Rocks
     verified: true
     lat: 45.817005

@@ -309,3 +309,15 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 ## 2026-11-01 · Fixed: Newfoundland's dates in "The shape of the summer"
 
 - That section still said Newfoundland runs "May 23 – June 24". Its plan says **May 26 – June 24** (`trips/newfoundland-2027/trip.md` `dates:`), set when the Dingle & Marseille trip took May 10–24 *(Colin, 2026-10-30)*. Changed in place. This trip's own start, **Jul 12**, was already right everywhere in this folder; a pin for it now sits in `garden/pins.yaml` so the gardener catches a stale copy next time.
+
+## 2026-11-01 · Garden sweep: leftovers from the 2026-10-30 cuts
+
+No decisions, just copies of old values that hadn't caught up:
+- **Badlands leftovers** removed from the weather paragraph ("92°F shadeless badland… in a single day (Day 4)"), the spare-tire check ("Sage Creek Rim"), the 21-day-cut note, the altitude lines (Lost Twin Lakes "after the biggest single-day climb", West Tensleep Falls "after a 6,600 ft gain in one day"), and `research.md` branches 1–2 (Perrot SP, Cedar Pass, Notch/Castle Trail). The climb is stepped now: 8,300 → 10,500 → 9,100 ft.
+- **Resupply ordinals:** Cody was "third", Great Falls "fourth and final". With Rapid City gone they're second and third (Laramie, Cody, Great Falls).
+- **Avalanche first** carried into `next:` and the Glacier open question (both still said Apgar); `places.yaml` Apgar marked as the backup. **St. Mary only** as the Many Glacier fallback (the open question still offered Two Medicine).
+- **Vehicle line:** "every anchor except West Tensleep is on pavement" now names Slough Creek's 2 mi of dirt and the unchecked Brooklyn Lake road.
+- **Showers and beds:** "sixteen days to the first shower" → nineteen; "first real bed since leaving home" → since the Day 1 motel; the unsourced "first shower" on Apgar removed from `places.yaml`; Oregon bed night numbers fixed for the Jul 12 shift (20–23, 24–27, 28–29; were 19–22, 23–26, 27–28).
+- **Island Lake research** asked about a Monday. Arrival is a Sunday since the 2026-10-29 shift. **Day 19** in `research.md` now matches the decision (Hiawatha planned, night near Wallace / Kellogg).
+- **Coordinates:** Madison and the other pinned places were still called unverified in six places. They're pinned (Pin Ledger, 2026-10-30); only the sun times are still TBD, because `_gen/sun.json` hasn't been recomputed.
+- "Same length as Newfoundland" → four days longer (34 vs 30).
