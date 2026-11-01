@@ -22,7 +22,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Strait of Belle Isle**: 2024 spring schedule (Newfoundland Time), crossings get moved at short notice, rough crossings are common
 - ✅ **Argentia → North Sydney**: **posted for 2027, Mon/Thu/Sat 17:00 from Argentia, June 16 – Sept 30. June 21 holds.** Check in 2 h before; cabins book out
 
-## 3. Northern Peninsula (Days 9–12)
+## 3. Northern Peninsula (Days 6–9)
 - ✅ **Route 430**: fuel is sparse, potholes about halfway up
 - 🟡 **Pistolet Bay**: 30 unserviced sites, a wash house with showers and laundry, poor pit toilets, opened May 29–30 in 2025–26. 🔒 conditions in early June
 - ✅ **L'Anse aux Meadows**: opens June 1 (two years running)
@@ -34,14 +34,14 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Black bears**: one 2025 camp encounter. Food in the car
 - ✅ **Cold**: spring 2026 nights near or below freezing, from several sources
 
-## 4. Labrador (Days 12–14)
+## 4. Labrador (Days 9–11)
 - ✅ **Clocks**: Blanc-Sablon is 90 min behind; the ferry and Red Bay run on Newfoundland Time
 - ✅ **Red Bay and Saddle Island**: opens June 1; tours at 10, 11 and 2; the boat ran with 7 people in spring 2026; calm water only
 - ✅ **Point Amour**: 9:30–5, **closed weekends** (2026). Day 10 retimed
 - ⬜ **Pinware River PP**: nothing beyond opening dates. 🔒
 - 🟡 **Whaler's Restaurant**: two secondhand mentions, hours not checked
 
-## 5. Gros Morne (Days 14–19)
+## 5. Gros Morne (Days 11–15)
 - 🟡 **Western Brook boat**: season ✅, price ✅, 15-person minimum ✅. ⬜ how often early-June sailings fail (no one in the Facebook thread knew)
 - 🟡 **Plan B: the Trout River Pond boat**: seems to be run by Wild Gros Morne now. ⬜ 2027 season and price
 - ✅ **Tablelands, Green Gardens, Lookout**: stats, spring conditions (snow up top on Lookout in late May)
@@ -49,10 +49,10 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Eastern Point Trail**: 1.6 mi / 190 ft, 4.7★
 - ✅ **Port au Choix**: open June 1; Phillip's Garden; caribou at the lighthouse
 
-## 6. Friends' week (Days 19–28)
+## 6. Friends' week (Days 16–25)
 - ✅ **Rental car**: not needed. Colin has a 2019 Sienna for this trip *(2026-10-08)*
 - ✅ **Headcount**: 3 friends, confirmed 2026-10-10
-- 🟡 **Their flights**: Gander has ~1 Toronto nonstop a day (landed ~1:39 PM, fall 2026). ⬜ June 2027 schedule, CLE → YYZ connection times
+- 🟡 **Their flights**: Gander has ~1 Toronto nonstop a day (lands ~2:45 PM on every date Colin checked; see trip.md Day 16). ⬜ June 2027 schedule, CLE → YYZ connection times
 - ⬜ **Hotels**: Gander, Twillingate, Trinity, St. John's
 - 🟡 **Group extras**: screech-in, trad sessions (weekend only, as found), Trinity EcoTours, Fogo Island (idea). All in `log.md` 2026-10-10
 - 🟡 **Twillingate icebergs**: none in 2024, plenty on June 5 2025 (Iceberg Quest video). A gamble either way
@@ -62,10 +62,10 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **La Manche**: 1.8 mi / 308 ft out and back to the suspension bridge (AllTrails)
 - 🟡 **St. Vincent's Beach**: whales close to shore in capelin season; it's on the Irish Loop right after Mistaken Point (routed). **Chosen 2026-10-08** (Day 26)
 
-## 7. Avalon solo and home (Days 28–33)
+## 7. Avalon solo and home (Days 25–30)
 - ✅ **Colony of Avalon**: June–October, five tour times
 - ✅ **Cape St. Mary's**: 1.5 km trail, free, ~70,000 seabirds (2022 video)
-- 🟡 **Night of June 20**: Argentia Sunset RV Park (2.5 km from the ferry; tents unconfirmed), a Hipcamp, or free Chance Cove PP on the Irish Loop. Depends on the Mistaken Point decision
+- 🟡 **Night of June 20**: Argentia Sunset RV Park, in the plan (2.5 km from the ferry; tents unconfirmed). Mistaken Point is decided (below), so the alternatives (a Hipcamp, free Chance Cove PP) are only fallbacks
 - 🟡 **⭐ Mistaken Point** (new): 565-million-year-old Ediacaran fossils, UNESCO; daily 10:30/12:30 guided tours, 6 km, $23, reservations required. **Chosen 2026-10-08** (Day 26)
 - 🟡 **North Sydney arrival**: The Black Spoon for seafood chowder (2024 video). ⬜ arrival time
 

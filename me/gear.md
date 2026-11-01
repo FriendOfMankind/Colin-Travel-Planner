@@ -132,7 +132,7 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
 
 ## Clothing — the layer system
 
-The three layers that decide whether a cold, wet, exposed morning is fine or a bail-out. **Counts here are pack counts for a 5–10 night trip, not an inventory.** Confirmed Sept 2026 except the two still marked *unknown*: the **midlayer** and the **sun hat**.
+The three layers that decide whether a cold, wet, exposed morning is fine or a bail-out. **Counts here are pack counts for a 5–10 night trip, not an inventory.** Confirmed Sept 2026; the midlayer and the sun hat were confirmed later *(2026-10)*, so nothing here is *unknown* now.
 
 ```yaml
 - name: "Rain shell: Carhartt Shoreline Vapor Jacket (style 101570)"
@@ -159,7 +159,7 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
   type: insulation
   qty: 1
   state: own
-  note: "**Bought 2026-10-04 at Sierra** *(stated + tag photo 2026-10-04)*. 3M Thinsulate synthetic insulation, \"100% synthetic everything\" per Colin; model and warmth rating not on the tag he found. Ribbed knit cuffs and hem: built as a streetwear jacket, so expect it bulkier than a hiking puffy and keep the cuffs out of the rain under the shell. *(was: need. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece; the lead candidate had been the Decathlon Forclaz MT100 Hooded Synthetic.)* Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional. Real-world warmth is a question the Appalachians trip answers."
+  note: "**Bought 2026-10-04 at Sierra** *(stated + tag photo 2026-10-04)*. 3M Thinsulate synthetic insulation, \"100% synthetic everything\" per Colin; model and warmth rating not on the tag he found. Ribbed knit cuffs and hem: built as a streetwear jacket, so expect it bulkier than a hiking puffy and keep the cuffs out of the rain under the shell. *(was: need. On 2026-10-01 the jacket Colin called his puffy turned out to be the YoColorado grid fleece; the lead candidate had been the Decathlon Forclaz MT100 Hooded Synthetic.)* Synthetic rather than down, for wet Appalachian Octobers. Double duty: ridge layer and sleep layer. Hawksbill at 7:15 AM, 4,009 ft, mid-30s — and the Mount Rogers ridge, where the note says shell and gloves are not optional. Real-world warmth: **warm enough on the Appalachians trip** *(stated 2026-11-01, asked by the gardener)*."
 - name: Warm hat
   type: insulation
   qty: 1
@@ -188,7 +188,7 @@ The three layers that decide whether a cold, wet, exposed morning is fine or a b
 
 ## Clothing — worn articles & counts
 
-Counts are transcribed from the Maui 2027 packing list, which is the only place any number was ever written down. They are a 7-day fly-in target — a 10-night drive-out trip with a laundromat mid-route wants different numbers. **No cotton on anything that gets sweat in it.**
+Counts are transcribed from the old Maui 2027 packing list (Maui is now `wishlist/maui.md`), which is the only place any number was ever written down. They are a 7-day fly-in target — a 10-night drive-out trip with a laundromat mid-route wants different numbers. **No cotton on anything that gets sweat in it.**
 
 ```yaml
 - name: Hiking shirts
@@ -266,7 +266,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 ```yaml
 - name: One burner
   state: own
-  note: "*(confirmed Sept 16 2026)* Confirm it takes screw-on isobutane before buying canisters."
+  note: "*(confirmed Sept 16 2026)* Takes screw-on isobutane: it ran on the canisters below all of October *(confirmed: appalachians-2026 log)*."
 - name: 2L pot with lid
   state: own
   note: "*(confirmed 2026-09-28)*"
@@ -281,12 +281,12 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   note: "*(confirmed 2026-09-28)*"
 - name: Wide-mouth thermos
   state: own
-  note: "**Probably retired: Colin doubts he'll ever use it and packs dry food on hikes instead** *(stated 2026-10-20; see `me/food.md`)*. Don't plan meals around it. (was: \"Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out\".) *(confirmed owned 2026-09-28; how many not recorded.)* One, decided Sept 2026. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped. Plan around that rather than around a second flask. A second one would unlock the pre-dawn hot chocolate."
+  note: "**Probably retired: Colin doubts he'll ever use it and packs dry food on hikes instead** *(stated 2026-10-20; see `me/food.md`)*. Don't plan meals around it. (was: \"Load-bearing: the standing routine is snack → hike → hot thermos meal at the turnaround → hike out\".) *(confirmed owned 2026-09-28; how many not recorded.)* One, decided Sept 2026. Because there is only one, hot oats and hot chocolate compete on any pre-dawn morning; the meal wins and the drink gets dropped."
 - name: Cooler
   state: own
-  note: "*(confirmed owned 2026-09-28; size not recorded. This entry used to say 48 qt, which was never confirmed.)* Frozen meals in flat quart bags *are* the ice. Buy a **block** of ice at resupply, not cubes."
+  note: "*(confirmed owned 2026-09-28; size not recorded. This entry used to say 48 qt, which was never confirmed.)* Buy a **block** of ice at resupply, not cubes. (was: \"frozen meals in flat quart bags *are* the ice\"; October dropped the freezer meals.)"
   question:
-    text: Does the frozen-meals-as-ice system actually reach the first resupply, and does the breakfast burrito survive to day 8?
+    text: "Is a small cooler with block ice at resupply enough for a 10-day trip? (was: \"Does the frozen-meals-as-ice system reach the first resupply…\")"
     answeredBy: appalachians-2026
     answer: "Yes: a small cooler of eggs, cheese, butter and frozen veg, with block ice at resupply, was enough for 10 days *(confirmed: appalachians-2026 retro, 2026-10-29)*. (was: moot, since October dropped the freezer meals and burrito; the open question was whether a small cooler is all a trip needs.)"
 - name: Olive oil in a squeeze bottle
@@ -294,10 +294,10 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
   note: "One of the four things that turn a can into a meal: oil, hard cheese, crushed chips, starch pouch."
 - name: Fuel canisters
   state: own
-  note: "Owned: 3 screw-on isobutane canisters *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: need). Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down. Confirm the burner takes screw-on isobutane before buying."
+  note: "Owned: 3 screw-on isobutane canisters *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: need). Cannot fly. Buy on arrival on any fly-in trip. On a drive-out trip they're just shopping: October budgets **3 for eleven days**, the only per-day figure ever written down."
 - name: Long-handled spoon
   state: own
-  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: not owned, 2026-09-28). the Oct 23 power-oats bag and thermos meals are eaten from deep containers."
+  note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: not owned, 2026-09-28). the Oct 23 power-oats bag and other deep-container meals need one."
 - name: Thin silicone spatula
   state: own
   note: "Owned *(stated 2026-10-12, at the appalachians-2026 preflight)* (was: not owned, 2026-09-28). the potato scramble (3 mornings) and the lecture-day quesadillas need one; a spork fails on eggs."
@@ -314,7 +314,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 ```yaml
 - name: Camp chair
   state: own
-  note: "Owned *(stated 2026-10-27)* (was: need). Which chair isn't recorded. *(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. Lead candidate: Kermit Chair Classic, 5.5 lb, packs to 22–24 × 6 in, 5-year warranty and replacement parts for life, handmade in the USA *(source: kermitchair.com, search snippet, 2026-10-01)*. Price TBD."
+  note: "Owned *(stated 2026-10-27)* (was: need). Which chair isn't recorded. *(stated 2026-10-01)* Buy-once, collapsible; weight doesn't matter, it comes out of the trunk. (was: lead buy candidate Kermit Chair Classic, before he owned one.)"
 - name: Big flashlight (1,000+ lumen, rechargeable)
   state: need
   note: "*(stated 2026-10-01, wants one)* For night exploring (Blevins farm). Candidates: Fenix PD36R Pro *(source: gearjunkie.com best flashlights 2026, search snippet, 2026-10-01)*; Sofirn SC33 or Wurkkos TS22 *(source: reddit r/flashlight, search snippet, 2026-10-01)*. Specs and prices not checked. ⚠️ Recalled, not verified: spare lithium batteries fly in carry-on only."
@@ -352,7 +352,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ## Safety & documents
 
-**Satellite messenger: not owned, and not wanted** *(stated 2026-10-01)*. Don't propose buying one. The phone is the satellite baseline instead (below). ⚠️ `trips/maui-2027/trip.md` still plans a rental for the no-signal Piʻilani stretch; whether the phone covers Hawaii decides that, and it's unchecked.
+**Satellite messenger: not owned, and not wanted** *(stated 2026-10-01)*. Don't propose buying one. The phone is the satellite baseline instead (below). The old Maui 2027 page planned a rental for the no-signal Piʻilani stretch; Maui is now an idea (`wishlist/maui.md`), and whether the phone covers Hawaii is unchecked.
 
 ```yaml
 - name: iPhone 16 Plus

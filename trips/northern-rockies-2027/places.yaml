@@ -248,7 +248,7 @@ groups:
         lng: -110.832518
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Madison Campground
-        note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Needs a coordinate (mapbench) before its sun times can be computed.
+        note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Pinned 2026-10-30; sun times not recomputed yet.
         maps: Madison Campground Yellowstone
         verified: true
         lat: 44.645186
@@ -281,7 +281,7 @@ groups:
         days: 12–15
         wpNote: Book mid-January 2027. No walk-up fallback in July.
       - name: Apgar Campground
-        note: 🚨 Nights 16–18. Same January booking. First shower in 16 days.
+        note: 🚨 Nights 16–18, the backup to Avalanche *(Colin, 2026-10-30)*. Same January booking.
         maps: Apgar Campground Glacier National Park
         verified: true
         lat: 48.525647
@@ -289,7 +289,7 @@ groups:
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
         days: 16–18
-        wpNote: Glacier west side. First shower in sixteen days.
+        wpNote: Glacier west side, backup to Avalanche.
       - name: Great Falls, MT
         note: Day 12. Final resupply and the one realistic laundry stop.
         maps: Great Falls Montana
@@ -355,10 +355,10 @@ groups:
         lat: 48.674321
         lng: -113.608633
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Oregon week (added 2026-10-30, none placed yet)
+  - group: Oregon week (added 2026-10-30, pinned the same day)
     places:
       - name: Sunset Motel, Hood River
-        note: "Nights 19–22 (Jul 31 – Aug 3). The bed."
+        note: "Nights 20–23 (Jul 31 – Aug 3). The bed."
         maps: Sunset Motel Hood River Oregon
         verified: true
         lat: 45.710171
@@ -393,7 +393,7 @@ groups:
         lng: -121.919505
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Holiday Motel, Bend
-        note: "Nights 23–26 (Aug 4–7). The bed."
+        note: "Nights 24–27 (Aug 4–7). The bed."
         maps: Holiday Motel Bend Oregon
         verified: true
         lat: 44.041771
@@ -442,7 +442,7 @@ groups:
         lng: -121.801249
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Belknap Hot Springs Lodge
-        note: "Nights 27–28 (Aug 8–9). The bed."
+        note: "Nights 28–29 (Aug 8–9). The bed."
         maps: Belknap Hot Springs Lodge
         verified: true
         lat: 44.192575

@@ -621,3 +621,14 @@ Colin asked why the calendar file only had 8 events. The Newfoundland rows with 
 
 - The last day's arrival note still gave July 6 for Glacier, the date from before two moves: Jul 6 → Jul 13 *(Colin, 2026-10-10)* → **Jul 12** *(Colin, 2026-10-29; `trips/northern-rockies-2027/log.md`)*. The note now says July 12, which matches this plan's own "ends eighteen days before Glacier (July 12)". Home Jun 24, so the gap is 17 nights at home, not 11. *(confirmed: northern-rockies-2027 trip.md `dates:`)*
 - Earlier entries here that say "Glacier (Jul 6)" are history and stay as written.
+
+## 2026-11-01 · Garden sweep: stale lines fixed
+
+No decisions, just copies that hadn't caught up:
+- **Day 4 no longer plans Hopewell** (title, tagline, drive time, slack, "leave Hopewell by 11"). Its own schedule had already dropped it on 2026-10-17: the May 29 tides don't fit. `places.yaml` now says Day 3 only.
+- **The 35°F question is answered** by October: the Siesta 20 + liner was warm enough to ~30°F (`me/camping.md`). The open question is now the 20s, which Gros Morne hit in 2026.
+- **Buy list matched to `me/gear.md`:** puffy, spare/jack/plug kit, offline-map apps, camp chair, long spoon, spatula, sun hat and sunglasses are owned. The puffy was warm enough in October *(Colin, 2026-11-01)*.
+- **Parks Canada launches:** "January launch" in five rows → "Jan or Feb (2026: Feb 6–11)", which is what the dated evidence says.
+- **`next:`** said "nothing opens until Dec 1", alongside ferries that are bookable now. **Argentia** row said "book once 2027 is posted". It's posted. The ~June 19 start was 2026's; 2027 is June 16.
+- Off-by-shift numbers: "twelve days until Glacier" → eighteen; "Day twenty-three" (the rest day) → twenty; "dawn run on Day 19 or 23" → 19 or 20; "three days after" Europe → two. `research.md` day headers re-numbered, and the old ~1:39 PM landing replaced.
+- "No verified coordinate" claims removed (trip.md ×2, `places.yaml` header): every place was pinned via the Pin Ledger on 2026-10-30.

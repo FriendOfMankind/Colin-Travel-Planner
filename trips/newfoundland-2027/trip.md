@@ -31,7 +31,7 @@ tags:
   - ferry
   - long haul
   - friends for a week
-next: "Nothing opens until **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches (early **February** in 2026; 2027 not announced), then ParksNL in **mid-April**. Marine Atlantic's 2027 schedule is out, so the ferries can be booked now. The friends are confirmed (3, June 10–19), so the live items are their flights (Gander has about one Toronto nonstop a day) and the hotels. The car is solved: the Sienna seats everyone"
+next: "**Bookable now: both Marine Atlantic ferries and the Western Brook boat.** The first campground window is **Dec 1** (Acadia's first release, 10 AM ET), then Parks Canada's per-park launches (early **February** in 2026; 2027 not announced), then ParksNL in **mid-April**. The friends are confirmed (3, June 10–19), so the live items are their flights (Gander has about one Toronto nonstop a day) and the hotels. The car is solved: the Sienna seats everyone"
 booking:
   - system: acadia-np
     what: Blackwoods, Acadia (May 27)
@@ -73,9 +73,9 @@ page:
   dates: Wednesday, May 26 – Thursday, June 24, 2027
   emoji: 🧊
   theme: ocean
-  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. **Layout:** the 2nd row stays home; solo nights are a sleeping pad on storage totes with the 3rd row folded flat, and on the friends' week the three friends ride in the 3rd row (three belts, confirmed) with the luggage where the 2nd row was. Colin has slept in it before, and drove Ohio → Vegas and back with six aboard *(stated 2026-10-08)*. Trim not recorded. No hitch, as far as Colin knows *(stated 2026-10-08)*, so the bike stays home. Every planned road is paved. **Get a spare, jack and tire plug kit before this** (`me/gear.md` says need): 9–10 h days on two-lane roads with no signal. Service it before leaving."
+  vehicle: "**2019 Toyota Sienna** minivan, this trip only *(stated 2026-10-08; was: the 2013 Subaru Legacy, which still does Glacier)*. Seats Colin plus the three friends with no rental. ~21 mpg combined for the FWD *(recalled, EPA; not checked)*, against the Subaru's 25. **Layout:** the 2nd row stays home; solo nights are a sleeping pad on storage totes with the 3rd row folded flat, and on the friends' week the three friends ride in the 3rd row (three belts, confirmed) with the luggage where the 2nd row was. Colin has slept in it before, and drove Ohio → Vegas and back with six aboard *(stated 2026-10-08)*. Trim not recorded. No hitch, as far as Colin knows *(stated 2026-10-08)*, so the bike stays home. Every planned road is paved. **Spare, jack and tire plug kit: owned** (`me/gear.md`, 2026-10-12). Check them before this: 9–10 h days on two-lane roads with no signal. Service it before leaving."
   gettingThere: "Driving, plus four ferries: Marine Atlantic in (7 h) and out (Argentia, ~16.5 h overnight), and the Strait of Belle Isle there and back. **Passport required** *(owned, stated 2026-10-03; expiry not recorded)*. Declare all food at both borders, and run the cooler down before Calais on the way home."
-  footerNote: "Outline, promoted from `wishlist/newfoundland.md` on 2026-10-05; the research behind every line is in `log.md`. Drive times are routed (firecrawl-maps, 2026-10-04/05) +15%. Sun times were computed with Trees `tools/sun.mjs` at regional points, not at trailheads, because no place here has a verified coordinate yet. Every campground opening date is 2026's; 2027's aren't announced."
+  footerNote: "Outline, promoted from `wishlist/newfoundland.md` on 2026-10-05; the research behind every line is in `log.md`. Drive times are routed (firecrawl-maps, 2026-10-04/05) +15%. Sun times were computed with Trees `tools/sun.mjs` at regional points, not at trailheads, because they were computed before the places were pinned. Every campground opening date is 2026's; 2027's aren't announced."
   stats:
     - num: 30 days
       lbl: Length
@@ -89,7 +89,7 @@ page:
 
 # Newfoundland by Road
 
-> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 30-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (~June 19). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights are the test; log how the sleep system feels at 35°F.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **3 friends, confirmed 2026-10-10**; was: "planning for 3, not confirmed"). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
+> ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1), **icebergs at peak** in early June, and ~17 usable hours of light. Nothing else on the list beats it for geology, and nothing else fails the PTO test this hard: a 30-day drive can't happen after Aug 31 2027.<br><br>✅ **West to east makes the dates stop fighting.** In at Port aux Basques, out through Argentia: the Northern Peninsula lands in early June at iceberg peak, and the island is done by the time the seasonal Argentia ferry is running (June 16 in 2027). No road driven twice.<br><br>🚨 **It's cold, not cool.** Normal lows on the island sit in the **30s for about two weeks**; Gros Morne hit **21°F and 25°F** on these dates in 2026, and St. Anthony's normal *high* is ~52°F. That's below what he's tested and below the bag's proven range. The October Appalachians nights answered 35°F: warm enough to ~30°F with the liner (`me/camping.md`). The 20s are still untested.<br><br>⚠️ **Friends join June 10–19** (Gander in, St. John's out; **3 friends, confirmed 2026-10-10**; was: "planning for 3, not confirmed"). Colin stays in their hotels for those nine nights. The car is solved: the Sienna seats all four *(stated 2026-10-08; was: "three guests means a rental, and Newfoundland's summer rentals sell out months ahead")*.
 
 ## Overview
 
@@ -98,7 +98,7 @@ Two days to Maine, one evening in Acadia, Fundy, Cape Breton's Skyline Trail at 
 ### Dates
 
 May 26 – June 24, 2027 (target)
-30 days / 29 nights. Leaves three days after the Dingle & Marseille trip gets home (May 24), with one day to turn around *(Colin, 2026-10-30)*. Ends eighteen days before Glacier (July 12). Starting earlier doesn't buy island days: the Argentia ferry pins the end, and the Gros Morne and northern ParksNL campgrounds opened May 22 and May 29 in 2026.
+30 days / 29 nights. Leaves two days after the Dingle & Marseille trip gets home (May 24), with one day to turn around *(Colin, 2026-10-30)*. Ends eighteen days before Glacier (July 12). Starting earlier doesn't buy island days: the Argentia ferry pins the end, and the Gros Morne and northern ParksNL campgrounds opened May 22 and May 29 in 2026.
 
 ### Group
 
@@ -106,7 +106,7 @@ Solo, except June 10–19: **3 friends, confirmed** *(stated 2026-10-10: all thr
 
 ### Why this direction
 
-The Argentia ferry only runs from ~June 19, and icebergs peak late May to early June. Sailing *out* of Argentia instead of in gets both. Gros Morne Mountain is closed for caribou calving until June 27, and it's over the day ceiling anyway (10.8 mi / 3,044 ft), so it's the cheap thing to lose.
+The Argentia ferry only runs from June 16 (2027 schedule), and icebergs peak late May to early June. Sailing *out* of Argentia instead of in gets both. Gros Morne Mountain is closed for caribou calving until June 27, and it's over the day ceiling anyway (10.8 mi / 3,044 ft), so it's the cheap thing to lose.
 
 ### The pin
 
@@ -114,7 +114,7 @@ The **Argentia sailing** sets the end of the trip: **Monday June 21, 5:00 PM**, 
 
 ### The cold
 
-Normal lows 35–41°F for the island fortnight, highs often in the 40s and 50s in 2026 *(AccuWeather climate, 2026-10-04)*. Colin: "I'll be able to handle the cold" *(stated 2026-10-04)*. A puffy is on the buy list. The failure mode is days of fog and drizzle, not one cold night.
+Normal lows 35–41°F for the island fortnight, highs often in the 40s and 50s in 2026 *(AccuWeather climate, 2026-10-04)*. Colin: "I'll be able to handle the cold" *(stated 2026-10-04)*. The puffy is owned, and it was warm enough in October (`me/gear.md`). The failure mode is days of fog and drizzle, not one cold night.
 
 ### Moose
 
@@ -220,14 +220,14 @@ overnight:
 
 First border crossing with a full cooler. CFIA personal limits are generous (meat 20 kg, dairy 20 kg), but declare everything.
 
-### Day 4 — 2027-05-29 · Hopewell, Cape Breton, and the Skyline at sunset
+### Day 4 — 2027-05-29 · Cape Breton and the Skyline at sunset
 
 ```yaml
 date: 2027-05-29
-tagline: Walk the sea floor if the tide allows, six hours to Chéticamp, then a headland over the Gulf at sunset.
+tagline: Six hours to Chéticamp, then a headland over the Gulf at sunset.
 type: travel + activity
-driving: 6h 04m (routed +15%) + 35m to Hopewell + 28m to the Skyline trailhead
-slack: Thin. First cut — Hopewell (it's optional anyway). Second — the 4.2 mi out-and-back instead of the loop.
+driving: 6h 04m (routed +15%) + 28m to the Skyline trailhead
+slack: Thin. First cut — the 4.2 mi out-and-back instead of the loop.
 overnight:
   name: Chéticamp Campground
   place: Cape Breton Highlands NP, NS
@@ -241,7 +241,7 @@ overnight:
 **Schedule**
 - morning · note! · **No Hopewell this morning.** The May 29 lows are 1:23 AM and 1:47 PM *(tides.gc.ca station 00170, preliminary, read 2026-10-17)*, and today has to leave by 11 AM. Hopewell is Day 3 or nothing *(stated 2026-10-04: skip it if the tide doesn't fit)*. The park is open 9:00–5:00, May 15 – June 20 (2026 hours) *(parcsnbparks.ca, snippet, 2026-10-08)*
 - OPTIONAL, on the way · geology · **Joggins Fossil Cliffs** (UNESCO), Nova Scotia: the "coal age Galápagos", the most complete fossil record of the Carboniferous, ~300 million years old, with fossil forests standing in the cliff. Near Amherst, which is on today's route; the detour isn't routed, and today's slack is thin. Fossil Centre open May 1 – Oct 18, 10–5 (2026), so it opens at 10; the beach is best near low tide, which today is early afternoon; guided beach tours *(jogginsfossilcliffs.net, whc.unesco.org, snippets, 2026-10-17)* · 📍 Joggins Fossil Centre
-- (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton. Leave Hopewell by 11 AM at the latest · 📍 Cheticamp Campground Cape Breton Highlands
+- (6h 04m) · drive · → Chéticamp, through Port Hastings and up the west coast of Cape Breton. Leave by 11 AM at the latest · 📍 Cheticamp Campground Cape Breton Highlands
 - ~5:30 → 7:00 · camp · Check in, pitch, shower, early dinner. Times are estimates
 - 7:15 → 7:43 (28m) · drive · → Skyline Trail · 📍 Skyline Trail Cape Breton Highlands
 - 7:45 → 9:45 · sunset · **Skyline Trail loop**, 6 mi / 629 ft (or 4.2 mi / 515 ft out-and-back). Sunset 8:46 (computed for 5/29 at a Chéticamp regional point, NOAA, 2026-10-30). **No parking reservation needed in late May**: in 2026 they were required only June 26 – Oct 25, 8 AM – 9 PM; re-check the 2027 window in spring. In spring "snow may still linger on the plateau" *(cbisland.com Skyline Trail 101, by Parks Canada, page read 2026-10-08)*
@@ -703,7 +703,7 @@ overnight:
 - 9:00 → 1:30 · drive · Twillingate → Bonavista · 📍 Bonavista NL
 - 1:30 → 5:00 · stop · **Dungeon PP** (a collapsed sea cave) + Cape Bonavista lighthouse · 📍 Dungeon Provincial Park
 - 5:00 → 6:00 · food · **Little Dairy King**, Cape Bonavista: fish and chips + ice cream
-- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed. Locals say **first light is best**, and the birds are sometimes out at sea, so allow a second try; Trinity is 51 min away for a dawn run on Day 19 or 23 *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Elliston Puffin Viewing Site
+- 7:50 → 8:50 · stop · **Elliston puffins**, the hour before sunset, 0.5 mi. No boat needed. Locals say **first light is best**, and the birds are sometimes out at sea, so allow a second try; Trinity is 51 min away for a dawn run on Day 19 or 20 *(Facebook, Discovering Newfoundland, via Colin's scrape, 2026-10-07)* · 📍 Elliston Puffin Viewing Site
 - 8:50 → 9:41 (51m) · drive! · → Trinity hotel
 
 **Meals**
@@ -743,7 +743,7 @@ overnight:
 
 ```yaml
 date: 2027-06-14
-tagline: Day twenty-three. Nothing.
+tagline: Day twenty. Nothing.
 type: rest
 driving: none
 slack: All of it.
@@ -1035,7 +1035,7 @@ overnight:
 
 ```yaml
 date: 2027-06-24
-tagline: Twelve days until Glacier.
+tagline: Eighteen days until Glacier.
 type: travel
 driving: TBD
 slack: All of it.
@@ -1062,17 +1062,17 @@ total: Not totalled; the hotel week isn't priced
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wed 5/26 | Albany area, NY | Transit | TBD | ~$35 est. | Not identified |
 | 2 | Thu 5/27 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Opens Dec 1, 10 AM ET (first release) |
-| 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters | ~$30 est. | January launch |
-| 4 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | January launch; open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
+| 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters | ~$30 est. | Jan or Feb launch (2026: Feb 6–11) |
+| 4 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | Jan or Feb launch (2026: Feb 6–11); open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
 | 5 | Sun 5/30 | Port aux Basques, NL | Motel | TBD | TBD | Not identified; book with free cancellation |
 | 6 | Mon 5/31 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
 | 7 | Tue 6/1 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
 | 8 | Wed 6/2 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
 | 9 | Thu 6/3 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Mid-April |
 | 10 | Fri 6/4 | Labrador Straits, NL | ParksNL | Pinware River | C$20.15 | Same booking |
-| 11 | Sat 6/5 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | January launch |
+| 11 | Sat 6/5 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Jan or Feb launch (2026: Feb 6–11) |
 | 12 | Sun 6/6 | Gros Morne north, NL | Parks Canada | Berry Hill | C$34 | Same booking |
-| 13 | Mon 6/7 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | January launch |
+| 13 | Mon 6/7 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Jan or Feb launch (2026: Feb 6–11) |
 | 14 | Tue 6/8 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 15 | Wed 6/9 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 16 | Thu 6/10 | Fogo Island, NL | Cottage | Escape by the Sea, Seldom (found, not booked) | $289, split | Friends' week. The ferry can't be reserved |
@@ -1086,7 +1086,7 @@ total: Not totalled; the hotel week isn't priced
 | 24 | Fri 6/18 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
 | 25 | Sat 6/19 | Southern Shore, NL | ParksNL | La Manche | C$20.15 | Assumed, not decided |
 | 26 | Sun 6/20 | Argentia, NL | Private RV park | Argentia Sunset RV Park | TBD | Tents unconfirmed; 709-227-6363 |
-| 27 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | Book once 2027 is posted |
+| 27 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | 2027 is posted: book now, cabins sell out |
 | 28 | Tue 6/22 | NS / NB / ME | Transit | TBD | ~$35 est. | Not identified |
 | 29 | Wed 6/23 | New York | Transit | TBD | ~$35 est. | Not identified |
 
@@ -1134,13 +1134,10 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 ### Buy before May
 
-- [ ] Puffy (need; buying soon)
 - [ ] Bug head net + repellent (need)
 - [ ] Rain pants (need)
 - [ ] Bike gear: none, no bike day this trip
-- [ ] Offline maps: Google regions + AllTrails or Gaia (both need; the island has long no-signal stretches)
-- [ ] Spare, jack, tire plug kit (need)
-- [ ] Sawyer Squeeze, camp chair, big flashlight, long spoon, spatula (need)
+- [ ] Sawyer Squeeze, big flashlight (need, `me/gear.md`)
 
 ### Buy in Canada
 
@@ -1151,8 +1148,9 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 - [x] Sienna: three working belts in the 3rd row *(confirmed 2026-10-08)*
 - [ ] Take the 2nd row out at home before leaving
-- [ ] Sun hat and sunglasses (unknown)
-- [ ] A warmer sleep layer for 20s nights — decide after the October trip
+- [ ] Download offline maps: Google regions + AllTrails or Gaia (the island has long no-signal stretches)
+- [ ] Spare, jack, tire plug kit: check they're in the Sienna
+- [ ] A warmer sleep layer for 20s nights: October proved ~30°F with the liner, and the 20s are untested
 
 ### Documents
 
@@ -1164,7 +1162,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 
 - [ ] Passport expiry — not recorded
 - [ ] Blackwoods, Acadia (May 27, one night) — first release Dec 1, 10 AM ET
-- [ ] Parks Canada launch dates for Fundy, Cape Breton and Gros Morne — posted in January
+- [ ] Parks Canada launch dates for Fundy, Cape Breton and Gros Morne — January or February (2026's were Feb 6–11)
 - [ ] Marine Atlantic, North Sydney → Port aux Basques (May 30)
 - [x] Marine Atlantic 2027 Argentia schedule: posted. Mon, Thu and Sat at 17:00 from Argentia (read 2026-10-08)
 - [ ] Marine Atlantic, Argentia → North Sydney (Jun 21) + cabin
@@ -1193,16 +1191,16 @@ The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 s
 **Blocks:** Day 25
 The friends' window replaced the earlier La Manche nights; this one was carried over, not re-decided.
 
-### Does the sleep system work at 35°F?
+### Does the sleep system work in the 20s?
 
 **Blocks:** whether a warmer bag is on the buy list
-The Siesta 20 is proven to ~50°F. Log the October Appalachians nights.
+35°F is answered: the Siesta 20 + liner was warm enough to ~30°F in October (`me/camping.md`, `me/gear.md`). Below that is untested.
 
 ## Field notes
 
 ### Places
 
-No place on this trip has a verified coordinate yet. Every stop has a Maps search; place them in Trees' `mapbench.html` when it matters.
+Every place is pinned in `places.yaml` (Pin Ledger, 2026-10-30). New places go through the Pin Ledger (`docs/MAPS.md`).
 
 ### Offline regions
 

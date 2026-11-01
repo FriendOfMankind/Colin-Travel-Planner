@@ -59,7 +59,7 @@ Cooks at camp by default. **Oral allergy syndrome** — raw nuts, fruit and vege
 
 **Closed. Don't ask about this again** *(stated 2026-10-27)*: "forget it, this does not actually matter in reality, never bring this up again." Raw fruit and raw vegetables are no longer open questions. Don't flag them in recipes or plans, and don't put them in retro or interview rounds. What's below is history, kept for the record.
 
-The paragraph above was written before any of this was confirmed. Current state:
+The history, as it stood when the topic closed:
 
 - **Roasted nuts: fine. Confirmed.** Every nut in a recipe is a buying instruction (buy roasted), not a restriction. *(confirmed Sept 2026, source: Trees CLAUDE.md)*
 - **Raw fruit: closed, not a planning constraint** *(stated 2026-10-27)*. (was: "open. Recipes that carry it are flagged `review: oas`… until this is answered")
@@ -156,5 +156,6 @@ a preference list starts banning food nobody objected to:
   - pork chop with apple AND griddled banana both rejected → those two
     dishes are out. *(Updated 2026-10-04: cooked fruit is fine for the
     allergy (stated), so this is taste, not OAS. Was: "cooked fruit may be
-    out too … fruit leaves the plan entirely".)* The two raw apples still
-    need a replacement while raw fruit stays open.
+    out too … fruit leaves the plan entirely".)* (Raw fruit closed
+    2026-10-27, so the two raw apples no longer need replacing for the
+    allergy.)
