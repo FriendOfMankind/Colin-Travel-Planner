@@ -155,3 +155,8 @@ The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the
 - **Ice and the Willcox stop aren't planned any more** *(Colin, 2026-11-01: "skip or find alternative")*. Old: "Block ice at Willcox on Day 3, not cubes", though Day 3's route never went to Willcox.
 - **Kartchner Caverns kept as an optional maybe**, not scheduled *(Colin, 2026-11-01)*.
 - Stale lines fixed: Mar 6–7 called "of spring break" (the break is Mar 8–12); "the next two campgrounds range from unreliable to nonexistent on water" (only Cochise and Sunny Flat are dry); the snow-closure question for Bonita Canyon Drive moved from Day 5 to Day 3 check-in, before the Day 4 drive; the night-sky note still cited the pre-2026-10-06 declined rule. The ~32 mi total stands, now with its basis written down (shortened Cochise ≈ 7 mi, by proportion).
+
+## 2026-11-01 · Prague invite turned down; Sky Islands stays
+
+- **Other friends invited Colin to Prague, Mar 5–15, 2027**, which is the same spring-break week. **He's sticking with Sky Islands** *(Colin, 2026-11-01: "save time and money")*. Nothing for Sky Islands was booked when this came up, and the two Sky Islands friends still hadn't committed.
+- Why it lost (Claude's case, which Colin agreed with): Dingle & Marseille is already a Europe trip in May (~$3,300 each), and a cold March city is weak on his top three (views, discovery, solitude). The one hook it had was a day trip to Bohemian Switzerland or an abandoned site, unresearched.
