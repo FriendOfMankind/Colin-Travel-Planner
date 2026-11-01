@@ -1601,4 +1601,4 @@ Fuel is the biggest line at ~$553 and it moves with the route rather than with c
 
 ### The shape of the summer this sits in
 
-Newfoundland (May 23 – June 24, by road), then this (July 12 – August 14, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**
+Newfoundland (May 26 – June 24, by road), then this (July 12 – August 14, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**

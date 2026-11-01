@@ -305,3 +305,7 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - **Nights 30–33 (the drive home) stay TBD on purpose**: two trips say the last days become a straight drive (`me/travel-style.md`), so they're booked from the road.
 - Avalanche Campground and the Hiawatha's trailhead were added to `places.yaml` and need pins. Bullhead Lake and Redrock Falls are one place, the Swiftcurrent trailhead *(Colin, 2026-10-30)*.
 - Pins for Avalanche Campground and the Hiawatha east portal came in the same evening *(Colin, Pin Ledger, 2026-10-30)*. Day 19 now draws Avalanche → Hiawatha (191 mi), and Day 20 continues to Hood River (390 mi) from there, since night 19's bed isn't picked.
+
+## 2026-11-01 · Fixed: Newfoundland's dates in "The shape of the summer"
+
+- That section still said Newfoundland runs "May 23 – June 24". Its plan says **May 26 – June 24** (`trips/newfoundland-2027/trip.md` `dates:`), set when the Dingle & Marseille trip took May 10–24 *(Colin, 2026-10-30)*. Changed in place. This trip's own start, **Jul 12**, was already right everywhere in this folder; a pin for it now sits in `garden/pins.yaml` so the gardener catches a stale copy next time.

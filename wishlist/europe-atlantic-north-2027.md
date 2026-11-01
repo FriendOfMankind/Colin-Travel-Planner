@@ -7,7 +7,7 @@ months: [ 6, 7 ]
 mode: fly
 days: 13
 nights: ~12, hotels and apartments, 5–6 bases
-window: ~Jun 28 – Jul 10, 2027, in the gap between Newfoundland (home ~Jun 24) and Glacier (leaves Jul 13)
+window: ~Jun 28 – Jul 10, 2027, in the gap between Newfoundland (home ~Jun 24) and Glacier (leaves Jul 12; was Jul 13 until 2026-10-29)
 region: Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto
 country: Spain, Portugal
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, geology, coast, canoe, seafood ]
