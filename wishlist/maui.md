@@ -12,7 +12,7 @@ region: Maui, Hawaii
 country: USA
 budget: ~$1,362 as a solo camping loop (2026 prices)
 tags: [ island, camping, snorkeling, friends, 2028 ]
-updated: 2026-10-29
+updated: 2026-11-01
 source: demoted from trips/maui-2027/ on 2026-10-29 (Colin's call, to declutter); the full plan is in git
 ---
 
@@ -36,3 +36,6 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 
 ### 2026-10-29 · Demoted from a trip page
 - It moved from `trips/maui-2027/` to here to cut clutter *(Colin, 2026-10-29)*. Bucket items that pointed at the trip (Sliding Sands, Pīpīwai, Hoapili, the Molokini snorkel) now point here.
+
+### 2026-11-01 · Hawaii is a PTO trip
+- Colin: "I definitely want to visit Hawaii, but I think those will be good PTO-kind of trips, good for a high value week" *(stated 2026-11-01)*. Other islands came up (Big Island's Spencer Beach Park, Kauai's county beach parks at $3/adult/night for non-residents 📋 kauai.gov) but nothing was pursued. The cheaper volcano-island-with-a-tent version is now `wishlist/azores.md`

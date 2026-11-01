@@ -11,7 +11,7 @@ window: ~Jun 28 – Jul 10, 2027, in the gap between Newfoundland (home ~Jun 24)
 region: Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto
 country: Spain, Portugal
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, geology, coast, canoe, seafood ]
-updated: 2026-10-15
+updated: 2026-11-01
 source: daydream 2026-10-14 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my inference)
 ---
 
@@ -88,3 +88,11 @@ When it's revived, these are the decisions that shape everything:
 - **So the direction matters.** Bilbao → Porto has you out of the Basque Country before both. Porto → Bilbao ends there during both: more money, more chaos.
 
 **Not checked:** drive times between bases; the Pasaia → San Sebastián coastal walk; whether 2027's Picos and Catedrais rules match 2026; whether Colin drinks cider (Asturias's social ritual; not beer, and `me/food.md` doesn't say).
+
+### 2026-11-01 · Could camping fix the money problem?
+It was shelved for money (2026-10-15), and lodging is the line the group controls. Campgrounds near the cities:
+- 📋 **San Sebastián: Camping Igueldo**, 5 km out, city bus all year, pool, supermarket, laundry. Guide prices €6/adult, €6/tent, €6/car; plots €30–100 *(source: turismo.euskadi.eus, 2026-11-01)*. Against Parte Vieja hotels at €120–250/night (notes above)
+- 📋 **Porto: Orbitur Angeiras**, 16 km out, opposite a beach, hourly bus to Porto, pool *(source: orbitur.pt; eurocamp.co.uk)*. Tent pitch from ~€30 for 2 *(source: pitchup.com, 2026-11-01)*
+- 📋 **Picos:** camping only at authorized campsites *(source: parquenacionalpicoseuropa.es)*
+- ⚠️ Rough arithmetic on guide prices, not quotes: ~€15–25 per person per night camping vs ~€60–125 in hotels, so ~€500–1,000 saved each over 12 nights
+- Unknown: whether the friends want to camp, own gear, or will fly with it. A hybrid (hotels in the cities, campsites in the Picos and Galicia) is the likely middle

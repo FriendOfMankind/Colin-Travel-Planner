@@ -54,6 +54,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
 - **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Columbia Gorge → Bend → McKenzie River, Oregon (friends fly CLE ⇄ PDX) · fly · confirmed · Aug · 10 days · 5 research notes · updated 2026-10-29
   Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
+- **The Azores** (`wishlist/azores.md`) · São Miguel, plus Flores or the central islands · fly · keeps (derived) · Jun/Jul/Aug/Sep · 9 days · 1 research note · updated 2026-11-01
+  Volcano islands with campsites, five hours from Boston
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
   Wild whales that come to the boat — a friends trip, not a solo one
 - **Black Canyon of the Gunnison** (`wishlist/black-canyon.md`) · Montrose, Colorado · fly · keeps (derived) · May/Jun/Jul/Aug/Sep · 2 nights · 1 research note · updated 2026-10-05
@@ -66,9 +68,11 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The reliable Colorado option in May
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
+- **The Dolomites** (`wishlist/dolomites.md`) · Alta Badia / Cortina / Val Gardena, Italy · fly · keeps (derived) · Jun/Jul/Aug/Sep · 9 days · 1 research note · updated 2026-11-01
+  The icon, worth its crowd, from a campsite
 - **Eastern Sierra** (`wishlist/eastern-sierra.md`) · Bishop / Mammoth, California · fly · keeps (derived) · Jul/Aug/Sep/Oct · 7 days · 3 research notes · updated 2026-10-29
   The best payoff per dollar, as a week
-- **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 2 research notes · updated 2026-10-15
+- **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 3 research notes · updated 2026-11-01
   Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
 - **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 2 research notes · updated 2026-10-30
   Family week, plus a few easy winter days out
@@ -82,23 +86,25 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   78 miles of river, two tunnels, and nobody
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
-- **Iceland** (`wishlist/iceland.md`) · Iceland (Ring Road; highlands only with a 4x4) · fly · keeps (derived) · Jun/Jul/Aug · 1 research note · updated 2026-10-29
+- **Iceland** (`wishlist/iceland.md`) · Iceland (Ring Road; highlands only with a 4x4) · fly · keeps (derived) · Jun/Jul/Aug · 2 research notes · updated 2026-11-01
   A country whose camping law already matches how he camps
 - **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
 - **Athens + Kerry (May, the alternative)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 13 days · 3 research notes · updated 2026-10-30
   The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora
+- **Japan** (`wishlist/japan.md`) · Japan · fly · keeps (derived) · May/Oct · 12 days · 1 research note · updated 2026-11-01
+  Culture and cities, in hotels
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
-- **Full Circle Maui** (`wishlist/maui.md`) · Maui, Hawaii · fly · keeps (derived) · May · 8 days · 1 research note · updated 2026-10-29
+- **Full Circle Maui** (`wishlist/maui.md`) · Maui, Hawaii · fly · keeps (derived) · May · 8 days · 2 research notes · updated 2026-11-01
   Counterclockwise island loop — reef, lava field, rainforest and a 10,000 ft summit
 - **Mojave Winter Loop** (`wishlist/mojave-winter.md`) · Las Vegas → Valley of Fire → Death Valley → Mojave Preserve → Joshua Tree · fly · keeps (derived) · Dec/Jan/Feb · 14 days · 1 research note · updated 2026-10-29
   Death Valley, Joshua Tree, and the desert that only exists in January
-- **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 2 research notes · updated 2026-10-01
+- **Pictured Rocks + Grand Island** (`wishlist/munising.md`) · Munising, Michigan (UP) · drive · keeps (derived) · Jun/Jul/Aug/Sep · 5–6 nights · 3 research notes · updated 2026-11-01
   Raw, car-free, and ferry-only
 - **North Cascades + Methow** (`wishlist/north-cascades.md`) · Washington · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Planned once, then Hawaii took the window
@@ -114,6 +120,10 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The first city trip, as a test run
 - **Point Reyes + Marin** (`wishlist/point-reyes-marin.md`) · Marin County, California · fly · keeps (derived) · Apr/May/Jun · 3–4 nights · updated 2026-10-05
   The San Andreas, tule elk and redwoods
+- **Portugal by Car and Tent** (`wishlist/portugal.md`) · Peneda-Gerês + Porto (north); Costa Vicentina + western Algarve (southwest) · fly · keeps (derived) · May/Jun/Sep/Oct · 10 days · 1 research note · updated 2026-11-01
+  Drowned villages and granite in the north, west-facing cliffs in the south
+- **Ordesa and the Spanish Pyrenees** (`wishlist/pyrenees-ordesa.md`) · Torla-Ordesa, Huesca, Spain · fly · keeps (derived) · Jun/Sep/Oct · 8 days · 1 research note · updated 2026-11-01
+  A limestone canyon from a campsite in Torla
 - **Ruby Mountains** (`wishlist/ruby-mountains.md`) · Nevada · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-04
   Booked once, then pivoted away
 - **San Juans** (`wishlist/san-juans.md`) · Colorado · fly · keeps (derived) · Jul/Aug/Sep · 2 research notes · updated 2026-10-03
@@ -122,6 +132,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The big-tree bookend
 - **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · keeps (derived) · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
   Land of a Thousand Waterfalls
+- **Skye and the West Highlands** (`wishlist/skye-highlands.md`) · Isle of Skye + West Highlands, Scotland · fly · keeps (derived) · May/Sep · 9 days · 1 research note · updated 2026-11-01
+  A beach campsite under the Cuillin, and the villages the Clearances emptied
 - **Sleeping Bear Dunes** (`wishlist/sleeping-bear.md`) · Leelanau / Glen Arbor, Michigan · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 1 research note · updated 2026-09-30
   Ride out of camp, swim at the end
 - **Great Smokies — the east side** (`wishlist/smokies-east.md`) · Tennessee / North Carolina · drive · keeps (derived) · Apr/May/Oct · 4–6 nights · updated 2026-09-04
@@ -141,9 +153,9 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-119 items · want 105 · done 14
+123 items · want 109 · done 14
 
-By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 · cave 5 · ruin 5 · geology 4 · river 3 · swim 3 · walk 3 · campground 1 · city 1 · food 1 · wildlife 1
+By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 · campground 5 · cave 5 · ruin 5 · geology 4 · river 3 · swim 3 · walk 3 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
@@ -151,13 +163,14 @@ By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 ·
 - **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek ✓
 - **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
 - **CO** (7): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Zapata Falls ✓, Snowmobile to Georgia Pass
+- **FL** (1): St. Joseph Peninsula, Shady Pines campground
 - **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
 - **ID** (2): Emerald Creek garnet area, Route of the Hiawatha
 - **KY** (7): Double Arch + Courthouse Rock ✓, Rock Bridge + Creation Falls ✓, Chimney Top Rock at sunset ✓, Nada Tunnel ✓, Miguel's Pizza ✓, Blue Heron coal town ✓, Mammoth Cave, Wild Cave Tour
-- **MD** (1): Billy Goat Trail, Section A
+- **MD** (2): Billy Goat Trail, Section A, Assateague Oceanside walk-in sites
 - **ME** (2): Acadia carriage roads, Down East Sunrise Trail
-- **MI** (3): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak
+- **MI** (4): Grand Island loop, Sleeping Bear Heritage Trail, Pictured Rocks, guided sea kayak, Ludington State Park, Pines dune-side sites
 - **MO** (1): Johnson's Shut-Ins
 - **MT** (5): Grinnell Glacier, Iceberg Lake, Beartooth Highway (US-212), Middle Fork Flathead, half-day raft, Makoshika State Park
 - **NC** (4): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests, Big Creek to Mouse Creek Falls
@@ -173,6 +186,7 @@ By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 ·
 - **PA** (7): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail, Hickory Run Boulder Field
 - **SD** (3): Notch Trail, George S. Mickelson Trail, Badlands off-trail wander
 - **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
+- **TX** (1): Padre Island North Beach camping
 - **UT** (14): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up ✓, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop

@@ -11,7 +11,7 @@ region: Munising, Michigan (UP)
 country: USA
 budget: Drive, ~9–10 hrs from Avon (⚠️ estimate)
 tags: [ car camping, bike, island, cliffs, lake superior, summer ]
-updated: 2026-10-01
+updated: 2026-11-01
 source: daydream 2026-09-30 (scenic bike + hike destinations; ✅ read on the page, 📋 search snippet, ⚠️ unverified lead)
 ---
 
@@ -40,3 +40,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Pictured Rocks is "best viewed from the water", the sandstone cliffs, sea caves and formations up close *(source: munising.org/water-activities/kayaking, search snippet, 2026-10-01)*
 - 📋 Paddling Michigan runs daily tours of 2 to 8 hours; Pictured Rocks Kayaking launches from a boat to paddle the iconic stretch *(source: paddlingmichigan.com, picturedrockskayaking.com, search snippets, 2026-10-01)*. Prices TBD
 - ⚠️ Guided rather than rented, because the stretch is open Lake Superior. A judgment, not a checked rule
+
+### 2026-11-01 · Campground: Twelvemile Beach (found on a beach-camping daydream)
+- 📋 36 rustic sites on a high sandy plateau above Twelvemile Beach; the popular ones have a lake view. Three sets of stairs to the beach; a level 1.5 mi walk east on the North Country Trail passes shipwreck remnants to Au Sable Light *(source: nps.gov/piro/planyourvisit/camping.htm, search snippet, 2026-11-01)*. Vault toilets, well water, no showers, usually no cell signal *(source: camperalerts.com, 2026-11-01)*. 15 mi west of Grand Marais, 34 mi east of Munising *(nps.gov/piro, snippet)*. Camping on the beach itself isn't allowed *(same)*
+- This answers the 2026-10-01 note "⚠️ Campgrounds not researched" for one campground; the others (Hurricane River, Little Beaver Lake) are still unread
