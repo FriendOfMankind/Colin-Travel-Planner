@@ -1355,3 +1355,49 @@ items:
     status: want
     source: pa.gov Hickory Run State Park (search snippet, 2026-10-06)
     added: 2026-10-06
+
+  # ------------- beach campgrounds (tent near the sand, car beside it)
+
+  - id: padre-island-north-beach
+    name: Padre Island North Beach camping
+    kind: campground
+    where: Padre Island National Seashore, Texas
+    state: TX
+    months: [10, 11, 12, 1, 2, 3, 4]
+    why: Drive onto hard-packed sand and pitch the tent on the beach beside the car; no facilities, no shade, summer is brutal
+    status: want
+    source: nps.gov/pais camping and fees pages; nationalparkstraveler.org; npplan.com (search snippets, 2026-11-01)
+    added: 2026-11-01
+
+  - id: ludington-pines-dune-sites
+    name: Ludington State Park, Pines dune-side sites
+    kind: campground
+    where: Ludington State Park, Michigan
+    state: MI
+    months: [6, 7, 8, 9]
+    why: Sites 59–97 sit against the dune; walk over it to Lake Michigan for a sunset over the water, showers in camp
+    status: want
+    source: grkids.com 2026-07; visitludington.com; michigan.gov/recsearch (search snippets, 2026-11-01)
+    added: 2026-11-01
+
+  - id: st-joseph-peninsula-shady-pines
+    name: St. Joseph Peninsula, Shady Pines campground
+    kind: campground
+    where: T.H. Stone Memorial St. Joseph Peninsula State Park, Florida
+    state: FL
+    months: [11, 12, 1, 2, 3]
+    why: A raw Gulf spit that faces the sunset, a boardwalk from camp to the beach, new bathhouses; a winter beach
+    status: want
+    source: floridastateparks.org; campendium.com review; floridahikes.com (search snippets, 2026-11-01)
+    added: 2026-11-01
+
+  - id: assateague-oceanside-walk-ins
+    name: Assateague Oceanside walk-in sites
+    kind: campground
+    where: Assateague Island National Seashore, Maryland
+    state: MD
+    months: [5, 9, 10]
+    why: Tent sites 100–200 ft from the car behind the dune, wild horses through camp; faces sunrise, and tents on the beach itself are banned
+    status: want
+    source: nps.gov/asis camping page and 2026 compendium (search snippets, 2026-11-01)
+    added: 2026-11-01

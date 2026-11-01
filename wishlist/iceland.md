@@ -10,7 +10,7 @@ region: Iceland (Ring Road; highlands only with a 4x4)
 country: Iceland
 budget: Shelved until there's more money. Rental price swings ~2× by month, so the month is the biggest lever
 tags: [ international, fly-in, car camping, geology, waterfalls, wind, expensive ]
-updated: 2026-10-29
+updated: 2026-11-01
 source: daydream 2026-10-29 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my inference)
 ---
 
@@ -47,3 +47,6 @@ Shelved for money *(stated 2026-10-29)*. When it comes back: flights, a length (
 - ⚠️ Summer nights are probably around his tested floor, the 40s°F (`me/camping.md`), and wind is the bigger threat to a tent. General knowledge, not checked against climate normals
 - ⚠️ Whether sleeping in an ordinary rental car counts as a "similar vehicle" under the campsite-only rule isn't settled by the sources read. Assume campsites
 - Not researched: flights, distances, weather by month, specific places
+
+### 2026-11-01 · Norway considered, and skipped for this
+- Norway's right to roam allows a tent on uncultivated land 150 m from any house for up to 2 nights, and there are 1,000+ campsites *(source: visitnorway.com; miljodirektoratet.no, search snippets, 2026-11-01)*. Colin: "Norway might be a little pricey, I think Iceland will scratch that itch enough" *(stated 2026-11-01)*. No Norway idea saved

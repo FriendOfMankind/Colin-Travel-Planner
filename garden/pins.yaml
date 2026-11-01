@@ -31,3 +31,10 @@
       expect: "5.9"
     - re: "clearance (?:for|and you have|of) (\\d\\.\\d) ?(?:in|inch)"
       expect: "5.9"
+
+- id: glacier departure
+  home: trips/northern-rockies-2027/trip.md
+  says: leaves Jul 12, 2027
+  patterns:
+    - re: "Glacier \\(?leaves (?:July|Jul) (\\d{1,2})"
+      expect: "12"

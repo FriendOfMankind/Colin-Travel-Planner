@@ -616,3 +616,8 @@ Colin asked why the calendar file only had 8 events. The Newfoundland rows with 
 
 - Night 3 is Fundy's Headquarters campground (was: "Headquarters or Chignecto"). Headquarters has the stronger opening evidence: listed year-round by parks.canada.ca (snippet), while Chignecto's May 1 opening came from a third-party site *(Colin, 2026-10-30)*.
 - Night 5 is a motel in Port aux Basques (was: "J.T. Cheeseman PP or Port aux Basques"). Cheeseman's 2026 opening date wasn't in the ParksNL list, and island lows sit in the 30s that fortnight; a motel removes both risks after seven hours on the ferry. Cheeseman (C$20.15) stays in places.yaml as the fallback, and is off the ParksNL opening check *(Colin, 2026-10-30)*.
+
+## 2026-11-01 · Fixed: the Glacier departure is July 12, not July 6
+
+- The last day's arrival note still gave July 6 for Glacier, the date from before two moves: Jul 6 → Jul 13 *(Colin, 2026-10-10)* → **Jul 12** *(Colin, 2026-10-29; `trips/northern-rockies-2027/log.md`)*. The note now says July 12, which matches this plan's own "ends eighteen days before Glacier (July 12)". Home Jun 24, so the gap is 17 nights at home, not 11. *(confirmed: northern-rockies-2027 trip.md `dates:`)*
+- Earlier entries here that say "Glacier (Jul 6)" are history and stay as written.

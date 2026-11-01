@@ -1044,7 +1044,7 @@ overnight: null
 
 **Schedule**
 - TBD · drive · → Avon OH
-- arrival · note · Glacier leaves July 6. Car service, laundry, and log the trip before it fades
+- arrival · note · Glacier leaves July 12. Car service, laundry, and log the trip before it fades
 
 **Meals**
 - B: made at camp
