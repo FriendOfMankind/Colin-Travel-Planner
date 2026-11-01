@@ -38,8 +38,7 @@
   trip: sky-islands-2027
   for: the two Sky Islands friends (likely yes, not confirmed)
   status: draft  # not sent yet (Colin, 2026-11-01)
-  asOf: 2026-10-27
-  stale: "Day 3 still pitches Slavin's Mine (6.9 mi · 1,407 ft), cut on 2026-10-30 (trips/sky-islands-2027/log.md)"
+  asOf: 2026-11-01
 
 - id: dingle-marseille-2027
   title: Dingle & Marseille, May 10–24
@@ -72,6 +71,7 @@
   for: 3 friends, flying into Portland (headcount not locked)
   status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-15
+  checked: 2026-11-01  # days, beds, stops and total re-read against trip.md Days 21–30 and wishlist/august-friends-2027.md
 
 - id: newfoundland-2027
   title: Newfoundland, June 10–19
@@ -82,6 +82,7 @@
   for: the 3 friends, Gander in, St. John's out
   status: in
   asOf: 2026-10-10
+  checked: 2026-11-01  # Jun 10–19 days and beds re-read against trip.md Days 16–25
   note: All three confirmed 2026-10-10 (trips/newfoundland-2027/trip.md).
 
 - id: adirondacks-winter
@@ -91,7 +92,8 @@
   wishlist: adirondacks-winter
   for: 2–3 friends who ski
   status: draft  # not sent yet (Colin, 2026-11-01)
-  asOf: 2026-10-15
+  asOf: 2026-11-01
+  note: 2026-11-01 fixed the cost table's day labels, left over from the Jan 10–17 version.
 
 - id: oregon-boys-doc
   title: Oregon Boys Trip 2027
