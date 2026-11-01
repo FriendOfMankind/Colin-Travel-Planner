@@ -37,7 +37,7 @@
   source: share/proposals/sky-islands-2027.html
   trip: sky-islands-2027
   for: the two Sky Islands friends (likely yes, not confirmed)
-  status: unknown
+  status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-27
   stale: "Day 3 still pitches Slavin's Mine (6.9 mi · 1,407 ft), cut on 2026-10-30 (trips/sky-islands-2027/log.md)"
 
@@ -48,7 +48,7 @@
   source: share/proposals/dingle-marseille-2027.html
   trip: dingle-marseille-2027
   for: the people joining (3 of us, per the page)
-  status: unknown
+  status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-30
 
 - id: athens-may-2027
@@ -70,7 +70,7 @@
   trip: northern-rockies-2027
   wishlist: august-friends-2027
   for: 3 friends, flying into Portland (headcount not locked)
-  status: unknown
+  status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-15
 
 - id: newfoundland-2027
@@ -90,7 +90,7 @@
   format: doc
   wishlist: adirondacks-winter
   for: 2–3 friends who ski
-  status: unknown
+  status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-15
 
 - id: oregon-boys-doc
