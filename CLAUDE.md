@@ -24,6 +24,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | A potential trip and its research | `wishlist/<slug>.md` |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
+| An invite page for people joining a trip (a "proposal" or "pitch"): who it's for, sent or not, out of date or not | `share/proposals.yaml`; a page's HTML source is `share/proposals/<id>.html` |
 | A packing checklist to send a friend joining a trip | `share/gear-checklist.html`, published at https://claude.ai/artifact/WS4dhD88SF9XEoCmarduwQ. Generic for now. To customize for a trip, edit the `TRIP`/`SECTIONS` block at the top of the script, change `TRIP.id`, and publish a copy as a new page so the generic one stays |
 | What's in the repo | `INDEX.md` (generated) |
 | Drift checks: pinned facts, dismissed findings, run ledger | `garden/` |
@@ -60,6 +61,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - **Never push a branch again after its PR merges.** GitHub deleted it, and the push resurrects it as a dead branch. If the stop hook asks for a push, run `git merge-base --is-ancestor HEAD origin/main`; if it passes, answer "already in main" instead of pushing.
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
+- **Invite pages** (the pitch pages for friends) are tracked in `share/proposals.yaml`. A new one: write `share/proposals/<id>.html`, publish it as a new page, add its row. Changing one: edit the source, publish to the **same** `url`, set `asOf`. If a page still matches after its plan changes, set `checked:` instead. Status changes ("they're in", "sent it") are a one-line edit there. The briefing lists live pages whose plan moved after them.
 - **When a fact copied into several files changes,** update its pin in `garden/pins.yaml`; `node tools/garden.mjs` then lists every stale copy.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
 - **Update, don't append.** When a fact changes, change it in place. **In a `trip.md`, no "(was: …)" notes:** the plan shows only current facts, and the old value and the reason go in that trip's `log.md` as a dated line *(Colin, 2026-10-29)*. Elsewhere (`me/`, `wishlist/`), a short "(was: …)" is still fine when the history matters. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.

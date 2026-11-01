@@ -1,0 +1,356 @@
+<title>Oregon, August 1–10</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a glance strip, then a day-by-day route from the Gorge to the high desert to the McKenzie (each day: the feel, the highlights, the bed); costs and logistics as plain tables. Same shape as the Newfoundland page, in Oregon's colours. */
+:root {
+  --bg: #f4f5f1;          /* sage-dust */
+  --surface: #ffffff;
+  --ink: #1d2422;         /* basalt */
+  --muted: #5d6862;
+  --line: #d8ddd6;
+  --river: #17665e;       /* accent: glacier-fed river teal */
+  --river-soft: #dfeeea;
+  --ember: #b9541f;       /* the one warm note: high-desert rust */
+  --ember-soft: #f8e6db;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121715; --surface: #1a211e; --ink: #e5ebe7; --muted: #9eaba4; --line: #2c3632;
+    --river: #6fc4b5; --river-soft: #18332e; --ember: #ec8b56; --ember-soft: #3b2418;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121715; --surface: #1a211e; --ink: #e5ebe7; --muted: #9eaba4; --line: #2c3632;
+  --river: #6fc4b5; --river-soft: #18332e; --ember: #ec8b56; --ember-soft: #3b2418;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 7vw, 52px); }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--river); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--river); }
+.lede { font-size: 18px; color: var(--ink); }
+section { display: flex; flex-direction: column; gap: 14px; }
+header { display: flex; flex-direction: column; gap: 14px; }
+
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.glance b { font: 400 20px/1.2 var(--display); }
+.glance span { font-size: 13px; color: var(--muted); }
+
+.route { display: flex; flex-direction: column; border-left: 2px solid var(--river-soft); margin-left: 6px; }
+.day { position: relative; padding: 4px 0 30px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--river); }
+.day.travel::before { background: var(--river); }
+.day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.day .moments { font: 500 13px/1.5 var(--mono); color: var(--river); letter-spacing: .01em; }
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--river); }
+.primer dd { margin: 0; font-size: 15px; }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.day li b { font-weight: 600; }
+.day .stay { font-size: 14px; color: var(--muted); }
+.day .stay b { color: var(--ink); font-weight: 600; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--river-soft); color: var(--river); margin-right: 6px; vertical-align: 2px; }
+.tag.opt { background: var(--ember-soft); color: var(--ember); }
+.tag.warn { background: var(--ember); color: var(--surface); }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 700; background: var(--river-soft); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fact.key { border-color: var(--ember); }
+.note { font-size: 14px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The pitch · summer 2027</span>
+  <h1>Oregon, August 1–10</h1>
+  <p class="lede">Colin is already out west with the car after Glacier. You fly into Portland on August 1, and we spend nine nights working from the Columbia River Gorge down to the high desert around Bend and over the Cascades to the McKenzie River: two rafting days with a waterfall drop and cliff jumps, a trail that goes behind a waterfall, a 10,358-ft volcano you can walk up, a lazy float through Bend, and hot springs at night. Everyone flies home from Portland on August 10.</p>
+</header>
+
+<div class="glance">
+  <div><b>Aug 1 → 10</b><span>9 nights, 2027</span></div>
+  <div><b>Fly into Portland</b><span>round trip, home from PDX</span></div>
+  <div><b>4 of us</b><span>Colin + 3 friends (asking now)</span></div>
+  <div><b>2 rivers to raft</b><span>White Salmon + Deschutes</span></div>
+</div>
+
+<section>
+  <h2>Who handles what</h2>
+  <div class="facts">
+    <div class="fact">
+      <h3>Colin handles</h3>
+      <ul class="plain">
+        <li>The car and all the driving</li>
+        <li>The route, the hikes and the day-to-day plan</li>
+        <li>Picking you up at PDX and dropping you back there</li>
+        <li>Booking the rooms and the rafts early, with everyone paying their share</li>
+        <li>Grabbing the South Sister permits the minute they open</li>
+      </ul>
+    </div>
+    <div class="fact">
+      <h3>You handle</h3>
+      <ul class="plain">
+        <li>Your flight, Cleveland ⇄ Portland</li>
+        <li>Your share of the rooms and gas</li>
+        <li>Your raft tickets, food and fun money</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Oregon in one minute</h2>
+  <dl class="primer">
+    <div><dt>The Gorge</dt><dd>The Columbia River cuts straight through the Cascade Mountains here, leaving an 80-mile canyon of basalt cliffs. The Ice Age floods that carved it left waterfalls pouring off nearly every side canyon.</dd></div>
+    <div><dt>Two Oregons</dt><dd>The mountains split the state in two. West of them it's wet and green; an hour east it turns to dry high desert, sagebrush and rimrock canyons. This trip crosses that line twice.</dd></div>
+    <div><dt>The volcanoes</dt><dd>The Cascades are a chain of volcanoes. Mt. Hood watches over the Gorge, and the Three Sisters stand west of Bend. South Sister is the tallest of the three, and the one we climb.</dd></div>
+    <div><dt>Lava country</dt><dd>Around McKenzie Pass, lava flows covered the land in black rock. One flow dammed a river and drowned a forest about 3,000 years ago. That's Clear Lake, and the dead trees are still standing underwater.</dd></div>
+    <div><dt>Glacier water</dt><dd>The White Salmon comes off the glaciers of Mt. Adams. It stays ice-cold all summer, which is exactly what you want after a hot day.</dd></div>
+    <div><dt>Hot springs</dt><dd>Volcanic heat means natural hot springs. We sleep at one and soak at another.</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Day by day</h2>
+  <p class="note">Every hike, jump and drop is optional. Raft trips and permits get booked once the 2027 calendars open. Drive times aren't routed yet. None of the drives is long, except getting over the mountains on day 8.</p>
+  <div class="route">
+
+    <div class="day travel">
+      <span class="when">Sun Aug 1 · land at PDX</span>
+      <h3>Portland → Hood River</h3>
+      <p class="moments">Airport pickup · out the Gorge · switchback highway at sunset</p>
+      <ul>
+        <li>Colin meets you at arrivals and we head east up the Columbia to <b>Hood River</b>, the town in the middle of the Gorge.</li>
+        <li>Sunset at <b>Rowena Crest</b>, the viewpoint above the Rowena Loops, where the old highway coils down the cliff above the river.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 1 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Mon Aug 2</span>
+      <h3>White Salmon: the waterfall drop</h3>
+      <p class="moments">Class III–IV whitewater · a 10–12 ft waterfall in a raft · ice-cold swims · Mt. Hood at golden hour</p>
+      <ul>
+        <li><span class="tag">Raft</span><b>White Salmon River</b>, a half-day of nearly nonstop Class III–IV rapids through a narrow canyon.</li>
+        <li><span class="tag opt">Optional</span>It ends at <b>Husum Falls</b>, a 10–12 ft vertical drop and the tallest commercially rafted waterfall in the US. You can ride it over or walk around and watch. Guides only run it at safe water levels, and you have to be 16+.</li>
+        <li><b>Lost Lake</b> at golden hour: a mountain lake with Mt. Hood standing right over the water.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 2 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Tue Aug 3 · the big Gorge hike</span>
+      <h3>Behind Tunnel Falls</h3>
+      <p class="moments">Cliffside trail with cables · a bridge 150 ft up · a tunnel blasted behind a 175-ft waterfall</p>
+      <ul>
+        <li><b>Eagle Creek to Tunnel Falls</b>: about 12 miles round trip and 1,200 ft of climbing, on a trail cut into the canyon wall with cable handholds. It crosses <b>High Bridge</b>, 150 ft above the creek, and the turnaround is a tunnel hand-blasted <i>behind</i> 175-ft Tunnel Falls.</li>
+        <li><span class="tag opt">Shorter</span>Punch Bowl Falls is 2 miles in. Anyone can stop there for a swim and wait.</li>
+        <li><span class="tag warn">Heads up</span>This canyon closes after storms some years. If it's shut in 2027, we swap in another Gorge waterfall hike.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 3 of 3)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Wed Aug 4 · Maupin, then on to Bend</span>
+      <h3>Desert whitewater</h3>
+      <p class="moments">Basalt canyon · Class III–IV · natural rock slides · 12-ft jump at Pirate's Cove · wool-boom ghost town</p>
+      <ul>
+        <li><span class="tag">Raft</span><b>Lower Deschutes, full day</b> out of Maupin: 13 miles through a desert canyon with Class III–IV rapids (Boxcar, Oak Springs), a riverside lunch, swim stops and natural rock slides.</li>
+        <li><span class="tag opt">Optional</span><b>Pirate's Cove</b>: a 12-ft jump into a calm, deep cove.</li>
+        <li><b>Shaniko</b> on the way south: a wool-boom town from 1900, now mostly empty.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 1 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Thu Aug 5 · dawn start</span>
+      <h3>South Sister</h3>
+      <p class="moments">10,358 ft · no ropes · glacier lake · crater rim · half of Oregon's volcanoes in one view</p>
+      <ul>
+        <li><b>The summit of South Sister</b>, Oregon's third-highest peak: about 12.5 miles round trip and 5,000 ft of climbing. It's a trail the whole way, with no ropes or technical gear, but it's long and steep, with loose red cinder near the top.</li>
+        <li>Partway up is <b>Lewis Glacier's</b> turquoise lake. From the rim you look down into a snow-filled crater and out to the other Sisters, Mt. Jefferson and Mt. Hood.</li>
+        <li><span class="tag warn">Heads up</span>Weather decides it. We set a turnaround time, and thunder means down. Anyone can stop at the lake and wait.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 2 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Fri Aug 6</span>
+      <h3>Jumps and rock</h3>
+      <p class="moments">Desert swimming hole · cliff jumps · Smith Rock at golden hour</p>
+      <ul>
+        <li><span class="tag opt">Optional</span><b>Steelhead Falls</b>: a swimming hole below a waterfall in a basalt canyon, with ledges to jump from.</li>
+        <li><b>Misery Ridge at Smith Rock</b>: a steep climb up the famous climbing park's spine for golden hour over the river bend and the spires.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 3 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sat Aug 7 · off day</span>
+      <h3>Float through Bend</h3>
+      <p class="moments">Sleep in · two-hour tube float through town · nothing scheduled</p>
+      <ul>
+        <li><b>The Deschutes float</b>: rent a tube, ride the shuttle up, and drift about two hours back through the middle of Bend.</li>
+        <li>This is also our <b>spare day</b>. If smoke or weather wrecks South Sister or Smith Rock, it moves here.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 4 of 4)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Sun Aug 8 · over the Cascades</span>
+      <h3>Lava and hot water</h3>
+      <p class="moments">Black lava fields at the pass · down into the forest · soak until dark</p>
+      <ul>
+        <li>West over <b>McKenzie Pass</b>, through miles of jagged black lava at the top.</li>
+        <li><b>Belknap Hot Springs</b>: a lodge on the McKenzie River with two hot-spring pools. The upper one is for overnight guests only, so we soak until it closes.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Belknap Hot Springs Lodge</b> (night 1 of 2)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Mon Aug 9 · last full day</span>
+      <h3>Blue water</h3>
+      <p class="moments">Rowboat over a drowned forest · electric-blue pool · hot springs at dusk</p>
+      <ul>
+        <li><span class="tag">Boat</span><b>Clear Lake</b>: rent a rowboat and drift over standing trees that drowned when lava dammed the lake about 3,000 years ago. The water is clear enough to see them.</li>
+        <li><b>Tamolitch Blue Pool</b>: a short hike to a pool so blue it looks fake, where the river comes back up out of the lava.</li>
+        <li><b>Terwilliger Hot Springs</b> at dusk: a string of rock pools stepping down a forested hillside. Open until 10 PM. Clothing-optional, fair warning. Last night together.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Belknap Hot Springs Lodge</b> (night 2 of 2)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Tue Aug 10</span>
+      <h3>Fly home from Portland</h3>
+      <p class="moments">Airport drop</p>
+      <ul><li>Colin drives you back to PDX, then heads home east.</li></ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Where we stay</h2>
+  <p class="note">Three bases, nine nights, one room for the four of us at each: two to a queen bed. These are Colin's picks. Nothing is booked yet; rooms get booked on refundable rates once everyone's in.</p>
+  <div class="facts">
+    <div class="fact">
+      <span class="eyebrow">Aug 1–4 · 3 nights · Hood River</span>
+      <h3>Sunset Motel</h3>
+      <p>A small, recently redone motel close to downtown Hood River, with a grocery store across the street. Book the <b>Standard Room, 2 Queen Beds</b>, which is listed as sleeping 4, with a fridge and microwave. Guests rate it about 8.8 out of 10 across 1,000+ reviews.</p>
+      <p class="note">~$164–226 a night for the room in summer, about $125–170 each for 3 nights.</p>
+    </div>
+    <div class="fact">
+      <span class="eyebrow">Aug 4–8 · 4 nights · Bend</span>
+      <h3>Holiday Motel</h3>
+      <p>A cheap, no-frills motel about a mile from the Old Mill District and the river float. Book the <b>Double Queen</b> room (2 queens, for 2–4 people), with a fridge and microwave. Reviews call it clean and friendly but dated, with thin walls. We're there to sleep, not to hang out. If we end up five, its <b>Family Suite</b> has three queens.</p>
+      <p class="note">~$128–160 a night for the room in summer, about $130–160 each for 4 nights.</p>
+    </div>
+    <div class="fact key">
+      <span class="eyebrow">Aug 8–10 · 2 nights · McKenzie River</span>
+      <h3>Belknap Hot Springs Lodge</h3>
+      <p>A rustic lodge on the McKenzie River with two hot-spring pools. The upper pool is for overnight guests only, open 9 AM–9 PM, and lodge rooms get continental breakfast and pool towels. Book a <b>4-guest lodge room</b>. There are only 18 rooms in the lodge and just a few take four people, so <b>this is the first thing we book</b>.</p>
+      <p class="note">$140–215 a night plus 12% tax, about $80–120 each for 2 nights.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <p class="note">Per person, in US dollars, for 4 of us sharing one room per stop (two to a queen) and riding in Colin's car. These are estimates from 2026 prices, not August 2027 prices.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Item</th><th>Estimate</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Flight Cleveland ⇄ Portland</td><td class="num">~$250–600</td><td>Typical August round trips on KAYAK; the cheapest seen was ~$240</td></tr>
+        <tr><td>Sunset Motel, Hood River, 3 nights</td><td class="num">~$125–170</td><td>~$164–226 a room a night in summer, split four ways</td></tr>
+        <tr><td>Holiday Motel, Bend, 4 nights</td><td class="num">~$130–160</td><td>~$128–160 a room a night in summer, split four ways</td></tr>
+        <tr><td>Belknap Hot Springs, 2 nights</td><td class="num">~$80–120</td><td>4-person lodge room, $140–215 a night plus 12% tax</td></tr>
+        <tr><td>White Salmon raft (Husum)</td><td class="num">~$80–95</td><td>Half-day, summer 2026 prices</td></tr>
+        <tr><td>Deschutes full-day raft</td><td class="num">$105</td><td>Weekday price, lunch and river fees included</td></tr>
+        <tr><td>Float, hot springs, boat, permits</td><td class="num">~$70</td><td>Tube + shuttle $28, Terwilliger $12, rowboat ~$20, park passes and the $1 summit permit</td></tr>
+        <tr><td>Food</td><td class="num">~$360–540</td><td>~$40–60 a day: grocery breakfasts, cheap lunches, real dinners</td></tr>
+        <tr><td>Gas</td><td class="num">~$35–45</td><td>~850 miles around Oregon in one car, split four ways</td></tr>
+        <tr class="total"><td>Total</td><td class="num">~$1,250–1,950</td><td>Plus room tax and raft-guide tips. The flight is the big variable</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">With 5 people the shared costs drop about 20% each, but we'd need a rental minivan (under-25 driver fees add roughly $70 a person, plus the rental itself) and a bigger room at Belknap.</p>
+</section>
+
+<section>
+  <h2>Good to know</h2>
+  <div class="facts">
+    <div class="fact key">
+      <h3>Smoke</h3>
+      <p>Wildfire smoke hits Oregon in late summer some years. It's the one thing that can really mess with this trip. We book refundable rooms where we can, and Saturday is a spare day for moving things around.</p>
+    </div>
+    <div class="fact">
+      <h3>Getting around</h3>
+      <p>Everyone rides in Colin's car, so no rental. It seats five, so four people plus bags fits; five doesn't. Pack a soft duffel or backpack, not a hard suitcase.</p>
+    </div>
+    <div class="fact">
+      <h3>Weather</h3>
+      <p>August is hot and dry in Bend and warm in the Gorge, with cool nights in the mountains. The South Sister summit is cold and windy even in summer. Bring a warm layer and a wind jacket for that day.</p>
+    </div>
+    <div class="fact">
+      <h3>The water</h3>
+      <p>The rivers and lakes are cold, the White Salmon especially. You need to be able to swim for the rafting and the jumps. Guides give the safety talk; the jumps are your call.</p>
+    </div>
+    <div class="fact">
+      <h3>Hot springs</h3>
+      <p>Belknap requires swimsuits. Terwilliger is clothing-optional, so expect some of that.</p>
+    </div>
+    <div class="fact">
+      <h3>Phones</h3>
+      <p>Signal is fine in the towns and patchy in the mountains and canyons. Download offline maps before you come.</p>
+    </div>
+    <div class="fact">
+      <h3>Time zone</h3>
+      <p>Pacific time, 3 hours behind Cleveland. You land in the afternoon feeling like it's dinner.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What I need from you</h2>
+  <ol class="steps">
+    <li><b>In or out?</b></li>
+    <li><b>Can you do August 1–10?</b> If not, what's your window? (Nobody's free after about Aug 12, so this is the slot.)</li>
+    <li><b>Your real budget ceiling</b>, all-in with the flight.</li>
+    <li><b>Is anyone 25 or older?</b> Only matters if we end up five and need a rental.</li>
+  </ol>
+  <p class="note">Once you're in: book your flight (Cleveland → Portland on <b>August 1</b>, back <b>August 10</b>) when fares look reasonable, and send Colin your arrival time. Colin books the rooms and the rafts as soon as the 2027 calendars open.</p>
+</section>
+
+<footer>
+  <span>Updated October 15, 2026. Prices come from 2026 listings and will change by 2027. Drive times aren't routed yet.</span>
+  <span>Questions go to Colin.</span>
+</footer>
+
+</div>

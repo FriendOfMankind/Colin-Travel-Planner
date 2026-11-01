@@ -20,6 +20,7 @@ import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
 import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
+import { parseProposals, behind } from "./lib/proposals.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -127,6 +128,20 @@ try {
   const g = execFileSync(process.execPath, [join(ROOT, "tools/garden.mjs"), TODAY, "--brief"], { encoding: "utf8" }).trim();
   if (g) say("", `## Drift`, g);
 } catch { say("", `## Drift`, `- tools/garden.mjs failed: run it by hand to see why.`); }
+
+// Invite pages (share/proposals.yaml): only the live ones the plan has moved past.
+if (has("share/proposals.yaml")) {
+  const rd = (rel) => (has(rel) ? read(rel) : null);
+  const late = parseProposals(read("share/proposals.yaml")).map((p) => ({ p, b: behind(p, rd) })).filter((x) => x.b);
+  if (late.length) {
+    say("", `## Proposal pages behind their plan (share/proposals.yaml)`);
+    for (const { p, b } of late) {
+      const why = [b.stale, b.changed && `plan changed ${fmt(b.changed.date)} (${b.changed.where})`].filter(Boolean).join("; ");
+      say(`- ${p.title} · ${p.status} · as of ${fmt(String(p.asOf))} · ${clip(plain(why), 160)}`);
+    }
+    say(`- Fix the source and republish to the same url, or set checked: if it still holds.`);
+  }
+}
 
 if (gear.length) say("", `## Gear not settled (me/gear.md)`, `- ${gear.join(" · ")}`);
 

@@ -1,0 +1,348 @@
+<title>Newfoundland, June 10–19</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a glance strip, then a day-by-day route down the coast (each day: the feel, the highlights, the bed); costs and logistics as plain tables. */
+:root {
+  --bg: #f3f6f7;          /* fog */
+  --surface: #ffffff;
+  --ink: #15242c;         /* North Atlantic at dusk */
+  --muted: #5a6b73;
+  --line: #d5dee2;
+  --sea: #1f5a73;         /* accent: deep harbour blue */
+  --sea-soft: #e1edf2;
+  --puffin: #d0612b;      /* used sparingly: the one warm note */
+  --puffin-soft: #fbe9df;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f171b; --surface: #16222a; --ink: #e4ecef; --muted: #98aab2; --line: #2a3a42;
+    --sea: #7dbbd6; --sea-soft: #1a3340; --puffin: #f08a55; --puffin-soft: #3a2418;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f171b; --surface: #16222a; --ink: #e4ecef; --muted: #98aab2; --line: #2a3a42;
+  --sea: #7dbbd6; --sea-soft: #1a3340; --puffin: #f08a55; --puffin-soft: #3a2418;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding-inline: 18px; padding-block: 32px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 7vw, 52px); }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--sea); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--sea); }
+.lede { font-size: 18px; color: var(--ink); }
+.muted { color: var(--muted); }
+section { display: flex; flex-direction: column; gap: 14px; }
+header { display: flex; flex-direction: column; gap: 14px; }
+
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.glance b { font: 400 20px/1.2 var(--display); }
+.glance span { font-size: 13px; color: var(--muted); }
+
+.route { display: flex; flex-direction: column; border-left: 2px solid var(--sea-soft); margin-left: 6px; }
+.day { position: relative; padding: 4px 0 30px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--sea); }
+.day.travel::before { background: var(--sea); }
+.day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.day .moments { font: 500 13px/1.5 var(--mono); color: var(--sea); letter-spacing: .01em; }
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--sea); }
+.primer dd { margin: 0; font-size: 15px; }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.day li b { font-weight: 600; }
+.day .stay { font-size: 14px; color: var(--muted); }
+.day .stay b { color: var(--ink); font-weight: 600; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--sea-soft); color: var(--sea); margin-right: 6px; vertical-align: 2px; }
+.tag.opt { background: var(--puffin-soft); color: var(--puffin); }
+.tag.warn { background: var(--puffin); color: var(--surface); }
+.sun { font-family: var(--mono); font-size: 14px; white-space: nowrap; }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 700; background: var(--sea-soft); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fact.key { border-color: var(--puffin); }
+.note { font-size: 14px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The plan · summer 2027</span>
+  <h1>Newfoundland, June 10–19</h1>
+  <p class="lede">All four of us are in. Colin drives up from Ohio and spends three weeks in the island's north and west. You fly into Gander on June 10, and we spend nine nights working down the east coast to St. John's: a night on Fogo Island, icebergs at Twillingate, puffins at Elliston, sea stacks at Trinity, then four nights in the city with whales, cliffs and the full moon. Everyone flies home from St. John's on June 19.</p>
+</header>
+
+<div class="glance">
+  <div><b>Jun 10 → 19</b><span>9 nights, 2027</span></div>
+  <div><b>Fly into Gander</b><span>home from St. John's</span></div>
+  <div><b>4 of us</b><span>Colin + 3 friends, confirmed</span></div>
+  <div><b>3 boats</b><span>Fogo ferry, icebergs, puffins + whales</span></div>
+</div>
+
+<section>
+  <h2>Who handles what</h2>
+  <div class="facts">
+    <div class="fact">
+      <h3>Colin handles</h3>
+      <ul class="plain">
+        <li>The van and all the driving</li>
+        <li>The route, the hikes and the day-to-day plan</li>
+        <li>Picking you up in Gander and dropping you at St. John's airport</li>
+        <li>Booking the beds early, with everyone paying their share</li>
+      </ul>
+    </div>
+    <div class="fact">
+      <h3>You handle</h3>
+      <ul class="plain">
+        <li>Your flights, including a night in Toronto on the way in</li>
+        <li>A valid passport</li>
+        <li>Your share of the beds and gas, plus your own boat tickets and food</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Newfoundland in one minute</h2>
+  <dl class="primer">
+    <div><dt>The place</dt><dd>A big rocky island off Canada's east coast, closer to Ireland than to Vancouver. It was its own country until it joined Canada in 1949, and it still has its own time zone, accent and slang.</dd></div>
+    <div><dt>Outports</dt><dd>Small fishing villages on the coast, many reachable only by boat until recently. Brightly painted wooden houses, fishing sheds on stilts over the water.</dd></div>
+    <div><dt>Cod</dt><dd>For 500 years the island lived on cod. The fishery collapsed and was closed in 1992, the largest layoff in Canadian history. Cod still runs the menu: fish and chips, fish cakes, cod tongues.</dd></div>
+    <div><dt>Resettlement</dt><dd>From the 1950s to the 1970s the government paid isolated villages to move to bigger towns. The empty ones are still out there; two are on this trip.</dd></div>
+    <div><dt>Iceberg Alley</dt><dd>Every spring, icebergs that broke off Greenland's glaciers drift south past the island's northeast coast. May and June are the season.</dd></div>
+    <div><dt>Puffins and whales</dt><dd>Atlantic puffins (the provincial bird) nest on the coast all summer. In June, small fish called capelin swarm the shore, and humpback whales follow them in to eat.</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Day by day</h2>
+  <p class="note">Every hike is optional. Most are 1–6 miles and easy to moderate; the one longer option (7.7 miles) is marked. Sunset times are calculated for those dates. Boat departures and opening hours get confirmed closer to June.</p>
+  <div class="route">
+
+    <div class="day travel">
+      <span class="when">Wed Jun 9 · evening</span>
+      <h3>Cleveland → Toronto</h3>
+      <p class="moments">Evening flight · airport hotel</p>
+      <ul>
+        <li>The only nonstop from Toronto to Gander leaves in the morning, so everyone sleeps near Toronto Pearson the night before.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Toronto airport hotel</b> (your pick)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Thu Jun 10 · land ~2:45 · ~1 h drive · 45 min ferry</span>
+      <h3>Gander, then Fogo Island</h3>
+      <p class="moments">Come From Away town · island ferry · "edge of the flat earth" · sunset climb · oceanfront cottage</p>
+      <ul>
+        <li><b>Gander</b> is the town from the musical <i>Come From Away</i>: on 9/11, 38 airliners were diverted here and a town of about 10,000 took in their passengers for days. Colin meets you at arrivals.</li>
+        <li><b>The Farewell ferry</b> is the only way onto Fogo with a car, and it can't be reserved, so we line up early for the <b>6:00 PM</b> boat (8:30 as backup). The 45-minute crossing of Hamilton Sound is a good place to spot icebergs and whales from the deck.</li>
+        <li><b>Fogo Island</b> is the largest of Newfoundland's offshore islands, about 25 km long, with eleven old outports. It's known for a famous design hotel and modern artist studios perched on the rocks, in a place that still feels very remote.</li>
+        <li><b>Brimstone Head</b>: a short, steep climb with stairs up a rock headland over the town of Fogo. The Flat Earth Society calls it one of the four corners of the earth. Sunset from the top at <span class="sun">9:12 PM</span>.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Escape by the Sea</b>, a 2-bedroom cottage with a kitchen and fire pit, on the water in Seldom, Fogo Island</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Fri Jun 11 · morning ferry · ~1 h drive</span>
+      <h3>Twillingate: icebergs</h3>
+      <p class="moments">12,000-year-old Greenland ice · zodiac boat · humpbacks · fish cakes · lighthouse cliffs at sunset</p>
+      <ul>
+        <li><b>Twillingate</b> calls itself the iceberg capital of the world and has the best record on the island for icebergs grounding close to shore.</li>
+        <li><span class="tag">Boat</span><b>Iceberg and whale tour.</b> Boats head out to whatever bergs are grounded nearby; the zodiacs get closer to the rocks than the big boats. Icebergs vary a lot by year: almost none in 2024, plenty in early June 2025.</li>
+        <li><b>D&amp;T Seafood</b> for fish cakes: salt cod mashed with potato and fried.</li>
+        <li><b>Long Point Lighthouse</b>: a 3-mile trail along cliffs at the tip of the island, the classic spot to watch for bergs and whales. Sunset <span class="sun">9:15 PM</span>.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Twillingate</b> (hotel)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sat Jun 12 · ~4 h 45 m driving, with stops</span>
+      <h3>Bonavista: puffins</h3>
+      <p class="moments">Collapsed sea cave · Cabot's landfall · fish and chips with a view · puffins at arm's length</p>
+      <ul>
+        <li>The longest drive of the week, south to the <b>Bonavista Peninsula</b>, where John Cabot is said to have landed in 1497.</li>
+        <li><b>Dungeon Provincial Park</b>: a sea cave whose roof fell in, leaving a huge hole in the meadow with the ocean surging through arches at the bottom. Then the red-and-white Cape Bonavista lighthouse.</li>
+        <li><b>Little Dairy King</b>: fish and chips, then soft-serve.</li>
+        <li><b>Elliston puffin site</b>: a short walk to a cliff facing a rock stack covered in nesting puffins, a few dozen metres across a gap. One of the closest views of puffins from land in North America, no boat needed. If the birds are out at sea, there's a dawn retry later in the week.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Trinity area</b> (night 1 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sun Jun 13</span>
+      <h3>Trinity: ruins and sea stacks</h3>
+      <p class="moments">Bomber wreck or ghost village · 1700s merchant town · sea stacks at golden hour</p>
+      <ul>
+        <li><b>Trinity</b> is one of the oldest towns on the island: a harbour of preserved 1700s and 1800s merchant buildings, used as a film set more than once.</li>
+        <li><span class="tag opt">Pick one</span><b>The B-36 crash site</b> (1.3 miles): wreckage of a US Air Force bomber that hit a hill here in 1953, killing all 23 aboard. It's a memorial, so treat it as one. <b>Or British Harbour</b> (7.7 miles, the long option): a resettled village from the 1960s, now foundations, a graveyard and a few cabins on a quiet cove. <b>Or</b> a slow morning.</li>
+        <li><b>Skerwink Trail</b> (3.2 miles): a loop over cliffs and past sea stacks, often ranked among the best coastal walks in North America. Whales feed below it in capelin season. Sunset <span class="sun">9:05 PM</span>.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Trinity area</b> (night 2 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Mon Jun 14</span>
+      <h3>An easy day in Trinity</h3>
+      <p class="moments">Rest day · 560-million-year-old fossils · sea arch · optional kayak</p>
+      <ul>
+        <li>Wander Trinity's old town, or do whichever ruins hike we skipped yesterday.</li>
+        <li><span class="tag opt">Optional</span><b>Discovery UNESCO Geopark</b>: at Port Union, fossils of some of the earliest complex life on Earth, 560 million years old, older than anything with a shell or a skeleton. Plus the Tickle Cove sea arch.</li>
+        <li><span class="tag opt">Optional</span>A kayak or zodiac trip with <b>Trinity EcoTours</b>.</li>
+        <li><span class="tag opt">Optional</span>Dawn puffins at Elliston, if Saturday's birds were out at sea.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Trinity area</b> (night 3 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Tue Jun 15 · ~3 h 20 m drive</span>
+      <h3>St. John's</h3>
+      <p class="moments">Provincial capital · famous fish and chips · first transatlantic radio signal · cliff ledge with chains · sunset tower</p>
+      <ul>
+        <li><b>St. John's</b>: the capital, one of the oldest European-settled cities in North America, built on hills around a harbour sealed by a narrow gap in the cliffs called the Narrows.</li>
+        <li><b>Ches's</b>: the city's best-known fish and chips, since the 1950s.</li>
+        <li><b>Signal Hill</b>: where Marconi received the first transatlantic radio signal in 1901. <b>Cabot Tower</b> on top, and the <b>North Head trail</b> (2.2 miles) down along the cliffs above the Narrows. Sunset <span class="sun">9:00 PM</span>.</li>
+        <li><span class="tag warn">Heads up</span>Part of North Head is a ledge about 3 feet wide along the cliff, with chains to hold. We do it first, in daylight, and skip it in wind or rain. Anyone can skip it and meet at the tower.</li>
+      </ul>
+      <span class="stay">Sleep: <b>St. John's</b> (night 1 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Wed Jun 16</span>
+      <h3>Cape Spear and Petty Harbour</h3>
+      <p class="moments">Easternmost point in North America · first sunrise on the continent · WWII gun batteries · cod tongues · George Street</p>
+      <ul>
+        <li><span class="tag opt">Optional</span><b>Sunrise at Cape Spear</b>, the easternmost point of North America, so nobody on the continent sees the sun before you. First light 4:22, sunrise <span class="sun">5:03 AM</span>. The cape is just as good later in the morning.</li>
+        <li><b>Cape Spear</b> also has the province's oldest surviving lighthouse and WWII gun emplacements that guarded the harbour. The coastal path runs up to 5.9 miles out and back; turn around whenever.</li>
+        <li><b>Petty Harbour</b>, a working fishing village 15 minutes away: lunch at <b>Chafe's Landing</b>. Try cod tongues, the small fleshy piece from a cod's throat, fried. A Newfoundland classic.</li>
+        <li><b>George Street</b> at night: two blocks of nothing but pubs and live music, including traditional Irish-Newfoundland bands.</li>
+      </ul>
+      <span class="stay">Sleep: <b>St. John's</b> (night 2 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Thu Jun 17 · full moon</span>
+      <h3>The city on foot, and the screech-in</h3>
+      <p class="moments">Fishing village inside the city · Jellybean Row · rum shot and a cod to kiss · full moon over the Atlantic</p>
+      <ul>
+        <li><b>Quidi Vidi</b>: a tiny fishing village tucked inside the city limits, then the harbourfront, Water and Duckworth Streets, and <b>Jellybean Row</b>, the city's rows of houses painted every colour.</li>
+        <li><span class="tag opt">Optional</span><b>The screech-in</b>: the ritual for making visitors honorary Newfoundlanders. A shot of Screech rum, a few lines of local slang to repeat, and you kiss a frozen cod. Christian's Pub on George Street is the famous one; Spirit of Newfoundland runs a bookable one at 3 PM (about $25 CAD + tax).</li>
+        <li>Evening: the full moon rising out of the Atlantic, from Signal Hill.</li>
+      </ul>
+      <span class="stay">Sleep: <b>St. John's</b> (night 3 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Fri Jun 18 · ~45 min drive each way</span>
+      <h3>Puffins and whales by boat</h3>
+      <p class="moments">Half a million puffins · humpbacks up close · ghost village · suspension bridge over a gorge · moonlit drive</p>
+      <ul>
+        <li><span class="tag">Boat</span><b>Witless Bay Ecological Reserve</b>, from Bay Bulls: four islands holding North America's largest Atlantic puffin colony, around half a million birds, plus humpback and minke whales feeding on capelin, and sometimes an iceberg. About $95 CAD.</li>
+        <li><b>La Manche</b>: the stone foundations of a fishing village destroyed by a winter storm in 1966, reached on the East Coast Trail. A suspension bridge hangs across the gorge where the village stood (1.8 miles out and back).</li>
+        <li>Drive back under a full moon. Last night together.</li>
+      </ul>
+      <span class="stay">Sleep: <b>St. John's</b> (night 4 of 4)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Sat Jun 19</span>
+      <h3>Fly home from St. John's</h3>
+      <p class="moments">Airport drop</p>
+      <ul><li>Colin carries on down the coast toward the ferry home.</li></ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <p class="note">Per person, in US dollars. These are estimates from October 2026 listings, not June 2027 prices. Hotels assume two people per room; the Fogo cottage splits four ways.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Item</th><th>Estimate</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Flights Cleveland → Toronto → Gander</td><td class="num">~$520+</td><td>Cheapest one-way seen on Google Flights in October</td></tr>
+        <tr><td>Toronto airport hotel, June 9</td><td class="num">TBD</td><td>Your pick; split it and it's cheap</td></tr>
+        <tr><td>Flight St. John's → Cleveland</td><td class="num">~$300–450</td><td>Current one-way fares (Skyscanner, Expedia)</td></tr>
+        <tr><td>Fogo cottage, 1 night</td><td class="num">~$55</td><td>$289 CAD for the 2-bedroom, split four ways</td></tr>
+        <tr><td>Hotels, 8 nights</td><td class="num">~$500–750</td><td>~$125–200 a room a night (Twillingate, St. John's listings), split two ways</td></tr>
+        <tr><td>Two boat tours</td><td class="num">~$140</td><td>Iceberg boat ~$100 CAD, Witless Bay ~$95 CAD</td></tr>
+        <tr><td>Food</td><td class="num">~$400–550</td><td>Mostly restaurants, ~$45–60 a day</td></tr>
+        <tr><td>Gas, ferry and small fees</td><td class="num">~$50–80</td><td>One van, gas split four ways; the Fogo ferry costs a few dollars</td></tr>
+        <tr class="total"><td>Total</td><td class="num">~$2,000–2,500</td><td>Plus the Toronto night. Flights are the big variable</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Good to know</h2>
+  <div class="facts">
+    <div class="fact key">
+      <h3>Passport</h3>
+      <p>Flying into Canada needs a valid passport book. If you don't have one, apply now; processing takes weeks to months.</p>
+    </div>
+    <div class="fact">
+      <h3>Getting around</h3>
+      <p>Everyone rides in Colin's Toyota Sienna minivan, so no rental car. The middle seats come out for this trip: the three of you share the back bench (three real seatbelts), and the luggage goes in the middle. Pack a soft duffel or backpack, not a big hard suitcase. Most drives are under 2 hours; the longest is about 4 h 45 m on June 12.</p>
+    </div>
+    <div class="fact">
+      <h3>Weather</h3>
+      <p>Cool and changeable: daytime 50s–60s °F, nights in the 30s–40s, often foggy or drizzly. Bring layers, a real rain jacket, a warm hat and shoes you can walk trails in.</p>
+    </div>
+    <div class="fact">
+      <h3>Long days</h3>
+      <p>Mid-June up here means sunrise around 5 and sunset after 9. Plenty of light for an evening hike after dinner.</p>
+    </div>
+    <div class="fact">
+      <h3>Phones</h3>
+      <p>Check whether your plan covers Canada. Signal is patchy outside towns, so download offline maps before you go.</p>
+    </div>
+    <div class="fact">
+      <h3>Bugs</h3>
+      <p>Black flies can be bad in the woods on still evenings in June. On the windy coast they're usually fine. Bring repellent; a head net is cheap insurance.</p>
+    </div>
+    <div class="fact">
+      <h3>Time zone</h3>
+      <p>Newfoundland is 1½ hours ahead of Cleveland. Yes, a half hour.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Next steps</h2>
+  <ol class="steps">
+    <li><b>Check your passport</b> now.</li>
+    <li><b>Book flights</b> once fares look reasonable: Cleveland → Toronto on the evening of <b>June 9</b>, Toronto → Gander (YQX) the morning of <b>June 10</b> (lands ~2:45 PM), and St. John's (YYT) → Cleveland on <b>June 19</b>. Send Colin your arrival time.</li>
+    <li><b>Colin books the beds</b>, starting with the Fogo cottage and the small-town hotels, which fill first for June.</li>
+    <li><b>Boat tours</b> get booked a few weeks ahead, once the iceberg season shows how good the year is.</li>
+  </ol>
+</section>
+
+<footer>
+  <span>Updated October 10, 2026. Prices and schedules are from current listings and will change by 2027. Drive times are routed estimates with padding; the Fogo legs are estimates from travel guides.</span>
+  <span>Questions go to Colin.</span>
+</footer>
+
+</div>

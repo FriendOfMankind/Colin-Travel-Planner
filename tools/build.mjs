@@ -31,6 +31,7 @@ import { keplerMap } from "./kepler.mjs";
 import { writeKml } from "./kml.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
+import { parseProposals, behind } from "./lib/proposals.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -269,6 +270,23 @@ function buildBooking(today) {
   };
 }
 
+/* ----------------------------------------------------------- proposals */
+
+/** The invite pages (share/proposals.yaml), newest first, each with whether
+    its plan has moved on since (lib/proposals.mjs, the same test the briefing uses). */
+function buildProposals() {
+  if (!has("share/proposals.yaml")) return [];
+  const rd = (rel) => (has(rel) ? read(rel) : null);
+  return parseProposals(read("share/proposals.yaml")).map((p) => {
+    const b = behind(p, rd);
+    return {
+      id: p.id, title: p.title, url: p.url, format: p.format, status: p.status, for: p.for,
+      asOf: String(p.asOf), trip: p.trip ?? null, wishlist: p.wishlist ?? null, note: mdi(p.note),
+      behind: b ? { stale: mdi(b.stale), changed: b.changed?.date ?? null } : null,
+    };
+  }).sort((a, b) => (a.asOf < b.asOf ? 1 : -1));
+}
+
 /* --------------------------------------------------------------- write */
 
 const localIso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
@@ -277,7 +295,7 @@ const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map(buildTrip
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map(buildIdea);
 const bucket = buildBucket();
 const { windows, ics } = buildBooking(localIso(new Date()));
-const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen(), booking: windows, ics };
+const data = { builtAt: new Date().toISOString(), trips, ideas, bucket, proposals: buildProposals(), me: buildMe(), gearNeeds: gearNeeds(), kitchen: buildKitchen(), booking: windows, ics };
 
 const tpl = read("site/src/template.html")
   .replace("/*__CSS__*/", () => read("site/src/app.css"))

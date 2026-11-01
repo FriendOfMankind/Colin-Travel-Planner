@@ -1,0 +1,186 @@
+<title>Sky Islands Spring Break</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one narrow reading column, a dusk-over-rhyolite masthead, then plain sections with an elevation strip as the one graphic. */
+:root {
+  --bg: #f6f2ee;
+  --surface: #ece4dc;
+  --fg: #2a2320;
+  --muted: #6e625b;
+  --rhyolite: #b5543a;
+  --sage: #5f7356;
+  --line: #d9cdc2;
+  --sky1: #3d3a5c;
+  --sky2: #b5543a;
+  --display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1c1816; --surface: #27211e; --fg: #efe7e0; --muted: #a8998f;
+    --rhyolite: #e0845f; --sage: #9db38f; --line: #3a322d; --sky1: #23213a; --sky2: #8a3d2a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1c1816; --surface: #27211e; --fg: #efe7e0; --muted: #a8998f;
+  --rhyolite: #e0845f; --sage: #9db38f; --line: #3a322d; --sky1: #23213a; --sky2: #8a3d2a;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.mast { background: linear-gradient(180deg, var(--sky1) 0%, var(--sky2) 100%); color: #fbf3ec; }
+.wrap { max-width: 680px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mast .wrap { padding-block: 56px 0; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(42px, 10vw, 76px); line-height: 0.95; margin: 12px 0 16px; text-wrap: balance; letter-spacing: -0.02em; }
+.lede { font-size: 19px; max-width: 34em; margin: 0 0 28px; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 13px; padding-bottom: 24px; }
+.ridge { display: block; width: 100%; height: 70px; }
+.ridge path { fill: var(--bg); }
+main .wrap { padding-block: 8px 64px; display: grid; gap: 44px; }
+section { min-width: 0; }
+h2 { font-family: var(--display); font-weight: 800; font-size: 28px; line-height: 1.1; margin: 0 0 14px; text-wrap: balance; }
+h3 { font-family: var(--display); font-weight: 500; font-size: 19px; margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+.muted { color: var(--muted); }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; font-size: 14px; }
+.days { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; border-top: 1px solid var(--line); }
+.days li { display: grid; grid-template-columns: 74px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.days .d { font-family: var(--mono); font-size: 13px; color: var(--muted); line-height: 1.35; padding-top: 3px; }
+.days .d b { display: block; color: var(--fg); font-weight: 500; font-size: 15px; }
+.days .what { min-width: 0; }
+.days .stat { font-family: var(--mono); font-size: 13px; color: var(--rhyolite); }
+.tag { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; background: var(--surface); color: var(--muted); margin-left: 6px; vertical-align: 2px; }
+.tag.dry { color: var(--rhyolite); }
+.money { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.money td { padding: 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.money td:last-child { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; padding-left: 16px; }
+.money tr:last-child td { border-bottom: 0; }
+.ask { background: var(--surface); border-radius: 6px; padding: 22px 22px 10px; }
+.ask ol { margin: 0; padding-left: 22px; display: grid; gap: 10px; }
+.ask li::marker { font-family: var(--mono); color: var(--rhyolite); }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.elev { overflow-x: auto; }
+.elev svg { display: block; width: 100%; min-width: 520px; height: auto; }
+.elev text { font-family: var(--mono); font-size: 11px; fill: var(--muted); }
+.elev .lbl { fill: var(--fg); }
+.elev .area { fill: var(--surface); }
+.elev .line { fill: none; stroke: var(--rhyolite); stroke-width: 2; }
+.elev .grid { stroke: var(--line); stroke-width: 1; }
+.elev circle { fill: var(--rhyolite); }
+footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); }
+a { color: var(--rhyolite); }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">Southeast Arizona · spring break 2027</div>
+    <h1>Sky Islands</h1>
+    <p class="lede">Eight nights camping across three mountain ranges that rise out of the desert like islands. Forests of balanced rock, 1.4-billion-year-old granite domes, a canyon full of birds people fly in from other continents to see. Want in?</p>
+    <div class="facts">
+      <span>Sat Mar 6 → Sun Mar 14</span>
+      <span>3 people · 1 SUV</span>
+      <span>8 nights · ~32 mi hiking</span>
+      <span>Fly CLE ⇄ TUS</span>
+    </div>
+  </div>
+  <svg class="ridge" viewBox="0 0 680 70" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 70 L0 52 L40 44 L70 30 L92 36 L118 18 L140 28 L170 22 L196 40 L240 46 L282 34 L300 12 L318 20 L338 8 L360 26 L392 38 L430 30 L468 42 L506 24 L530 30 L560 16 L590 34 L630 44 L680 40 L680 70 Z"/>
+  </svg>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <h2>The plan, day by day</h2>
+      <ol class="days">
+        <li><div class="d"><b>Sat 6</b>Day 1</div><div class="what"><h3>Land in Tucson</h3><p>Pick up the SUV, stock up on groceries and water, pitch at Gilbert Ray among the saguaros. Short walk to the Signal Hill petroglyphs at sunset.</p></div></li>
+        <li><div class="d"><b>Sun 7</b>Day 2</div><div class="what"><h3>Cochise Stronghold <span class="tag dry">no water</span></h3><p>East into the Dragoon Mountains, where Cochise held off the US Army for a decade. Granite domes, a steep short climb under Rockfellow Dome.</p><span class="stat">2.0 mi · 1,108 ft</span></div></li>
+        <li><div class="d"><b>Mon 8</b>Day 3</div><div class="what"><h3>Slavin's Mine, then the hoodoos</h3><p>An abandoned mine at the head of a canyon almost nobody walks. Then into Chiricahua National Monument for three nights, and Sugarloaf to see everything we'll hike.</p><span class="stat">6.9 mi · 1,407 ft &nbsp;+&nbsp; 1.9 mi · 492 ft</span></div></li>
+        <li><div class="d"><b>Tue 9</b>Day 4</div><div class="what"><h3>Echo Canyon at first light</h3><p>The grottoes, where rock columns close overhead. Trailhead at 6:30 before the tiny lot fills, then Massai Point at 6,870 ft. Afternoon off.</p><span class="stat">3.4 mi · 561 ft</span></div></li>
+        <li><div class="d"><b>Wed 10</b>Day 5</div><div class="what"><h3>Heart of Rocks</h3><p>The reason the monument exists: a loop through a forest of balanced rhyolite. Big Balanced Rock, Punch and Judy, Duck on a Rock. Starts at camp.</p><span class="stat">6.9 mi · 1,597 ft · the big day</span></div></li>
+        <li><div class="d"><b>Thu 11</b>Day 6</div><div class="what"><h3>Fort Bowie, then the long way around</h3><p>Adobe ruins of the fort at Apache Pass, then 2½ hours around the range to Cave Creek, because the 8-mile road over the top is closed in winter.</p><span class="stat">4.3 mi · 597 ft</span></div></li>
+        <li><div class="d"><b>Fri 12</b>Day 7</div><div class="what"><h3>Cave Creek, your pick <span class="tag dry">no water</span></h3><p><strong>A:</strong> the famous birding canyon, an easy creek walk under sycamores. <strong>B:</strong> Herb Martyr, a hard climb up the canyon wall. We vote.</p><span class="stat">A: 6.3 mi · ~600 ft &nbsp;/&nbsp; B: 5.9 mi · 2,083 ft</span></div></li>
+        <li><div class="d"><b>Sat 13</b>Day 8</div><div class="what"><h3>Bisbee and Tombstone</h3><p>Back toward Tucson through Bisbee, a town stacked up a canyon on stairs next to an open copper pit. Lunch there, Boothill in Tombstone, last night at Gilbert Ray.</p></div></li>
+        <li><div class="d"><b>Sun 14</b>Day 9</div><div class="what"><h3>Fly home</h3><p>Back Sunday so nobody misses Monday.</p></div></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Where we sleep</h2>
+      <p class="muted">Campsite elevation each night. Higher means colder mornings.</p>
+      <div class="elev">
+        <svg viewBox="0 0 560 190" role="img" aria-label="Campsite elevation by night, from about 2,700 ft in Tucson up to about 5,400 ft in the Chiricahuas and back">
+          <!-- y scale: 2,000 ft at y=160, 6,000 ft at y=20 → 0.035 px/ft -->
+          <line class="grid" x1="56" y1="160" x2="540" y2="160"/>
+          <line class="grid" x1="56" y1="90" x2="540" y2="90"/>
+          <line class="grid" x1="56" y1="20" x2="540" y2="20"/>
+          <text x="50" y="164" text-anchor="end">2,000</text>
+          <text x="50" y="94" text-anchor="end">4,000</text>
+          <text x="50" y="24" text-anchor="end">6,000 ft</text>
+          <path class="area" d="M80 135.5 L140 55 L200 41 L260 41 L320 41 L380 48 L440 48 L500 135.5 L500 160 L80 160 Z"/>
+          <path class="line" d="M80 135.5 L140 55 L200 41 L260 41 L320 41 L380 48 L440 48 L500 135.5"/>
+          <circle cx="80" cy="135.5" r="4"/><circle cx="140" cy="55" r="4"/><circle cx="200" cy="41" r="4"/><circle cx="260" cy="41" r="4"/><circle cx="320" cy="41" r="4"/><circle cx="380" cy="48" r="4"/><circle cx="440" cy="48" r="4"/><circle cx="500" cy="135.5" r="4"/>
+          <text class="lbl" x="80" y="125" text-anchor="middle">Tucson</text>
+          <text class="lbl" x="140" y="45" text-anchor="middle">Dragoons</text>
+          <text class="lbl" x="260" y="31" text-anchor="middle">Chiricahua ×3</text>
+          <text class="lbl" x="410" y="38" text-anchor="middle">Cave Creek ×2</text>
+          <text class="lbl" x="500" y="125" text-anchor="middle">Tucson</text>
+          <text x="80" y="180" text-anchor="middle">Sat</text><text x="140" y="180" text-anchor="middle">Sun</text><text x="200" y="180" text-anchor="middle">Mon</text><text x="260" y="180" text-anchor="middle">Tue</text><text x="320" y="180" text-anchor="middle">Wed</text><text x="380" y="180" text-anchor="middle">Thu</text><text x="440" y="180" text-anchor="middle">Fri</text><text x="500" y="180" text-anchor="middle">Sat</text>
+        </svg>
+      </div>
+      <p class="muted mono">Typical early-March days run ~69°F with lows ~43°F up high, estimated from Willcox climate normals. In 2026 the same dates ranged from 64°F to 89°F.</p>
+    </section>
+
+    <section>
+      <h2>What it costs you</h2>
+      <table class="money">
+        <tr><td>Your round-trip flight, CLE ⇄ TUS<br><span class="muted">Checked Oct 27. Spring break, so it won't get cheaper.</span></td><td>$350–500</td></tr>
+        <tr><td>A third of the SUV rental and gas<br><span class="muted">Not priced yet. Drivers under 25 pay a surcharge unless AAA waives it.</span></td><td>TBD</td></tr>
+        <tr><td>A third of the campsites, 8 nights<br><span class="muted">About $155 for one site, if all three of us fit on one. One campground's fee is still unconfirmed.</span></td><td>~$52</td></tr>
+        <tr><td>Your own food<br><span class="muted">Camp staples plus a lunch in Bisbee.</span></td><td>yours</td></tr>
+      </table>
+      <p class="muted">No park entrance fees. Chiricahua doesn't charge one.</p>
+    </section>
+
+    <section>
+      <h2>What to know going in</h2>
+      <ul class="plain">
+        <li><strong>Three nights have no water at camp.</strong> We haul it in jugs, roughly a gallon each per day.</li>
+        <li><strong>Early starts on the big days.</strong> The best trailheads have tiny lots in their busiest month.</li>
+        <li><strong>Long stretches without cell service</strong>: the Dragoons, Apache Pass, Cave Creek. Download offline maps before you fly.</li>
+        <li><strong>Fuel canisters can't fly</strong>, so stove fuel gets bought in Tucson.</li>
+        <li><strong>Arizona skips daylight saving.</strong> It starts the day we fly home, so check your flight time in Arizona time.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Bring</h2>
+      <ul class="plain">
+        <li>Tent (or we figure out sharing), and a sleeping bag good to around freezing</li>
+        <li>Pad, headlamp, puffy and a warm hat for 6 AM starts</li>
+        <li>Sun hat, sunglasses, sunscreen. The rock glare up high is no joke.</li>
+        <li>Two big water bottles and some electrolytes</li>
+        <li>Hiking boots you trust on loose rock</li>
+      </ul>
+    </section>
+
+    <section class="ask">
+      <h2>If you're in</h2>
+      <ol>
+        <li><strong>Tell me yes.</strong> Then I book the campground inside the monument, the only one that sells out. All three nights were still open on Oct 27.</li>
+        <li><strong>Book your flight:</strong> into Tucson Sat Mar 6, out Sun Mar 14. Aim to land by early afternoon so we can shop and pitch before dark.</li>
+        <li><strong>Let me know:</strong> are you under 25, and do you have AAA (for the rental)? Do you want to cook together or each do our own? And A or B for Cave Creek?</li>
+      </ol>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Plan details as of Oct 27, 2026. Trail stats from AllTrails. Some fees and road conditions are still being confirmed.</div>
+</footer>

@@ -1,0 +1,115 @@
+# share/proposals.yaml — every invite page Colin has made for people joining a trip.
+#
+# One row per page. The page itself is a claude.ai artifact (private until
+# Colin shares it). Two formats:
+#   page  an HTML page; its source is share/proposals/<id>.html. Edit the
+#         source, then publish it to the SAME url (Artifact tool, `url`), and
+#         set asOf to today. Never publish a copy as a new page.
+#   doc   a Claude Docs doc; its words live in the Docs service, not here.
+#         Edit it through the Claude Docs connector.
+#
+# Fields
+#   id       short slug, also the source file's name
+#   title    the page's own title
+#   url      the claude.ai link
+#   format   page | doc
+#   source   share/proposals/<id>.html (pages only)
+#   trip / wishlist   the plan it's built from (one or both); the briefing
+#            compares the page's date against that plan's newest change
+#   for      who it's pitched to, in plain words
+#   status   draft (not sent) | sent (waiting on answers) | in (they said yes)
+#            | out (they said no) | parked (idea on hold, page kept)
+#            | superseded (replaced; `by:` names the replacement) | unknown
+#   asOf     the date the page's content is as of (its footer says the same)
+#   checked  optional: the date someone re-read the page against the plan and
+#            found it still right, without republishing
+#   stale    optional: a known mismatch with the plan, in one line, until fixed
+#   note     optional, one line
+#
+# The briefing (tools/now.mjs) lists live rows (draft, sent, in, unknown) whose
+# plan changed after max(asOf, checked). tools/test/proposals.test.mjs checks
+# the shape, and that every source file exists and every page has a row.
+
+- id: sky-islands-2027
+  title: Sky Islands Spring Break
+  url: https://claude.ai/artifact/M627oX1631K6WjAPpja5eA
+  format: page
+  source: share/proposals/sky-islands-2027.html
+  trip: sky-islands-2027
+  for: the two Sky Islands friends (likely yes, not confirmed)
+  status: unknown
+  asOf: 2026-10-27
+  stale: "Day 3 still pitches Slavin's Mine (6.9 mi · 1,407 ft), cut on 2026-10-30 (trips/sky-islands-2027/log.md)"
+
+- id: dingle-marseille-2027
+  title: Dingle & Marseille, May 10–24
+  url: https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf
+  format: page
+  source: share/proposals/dingle-marseille-2027.html
+  trip: dingle-marseille-2027
+  for: the people joining (3 of us, per the page)
+  status: unknown
+  asOf: 2026-10-30
+
+- id: athens-may-2027
+  title: Athens, May 13–20
+  url: https://claude.ai/artifact/FE5pLf7MjWZKCFAxhcEKfu
+  format: page
+  source: share/proposals/athens-may-2027.html
+  wishlist: ireland-may-2027
+  for: the friend in Kerry
+  status: parked
+  asOf: 2026-10-29
+  note: The Athens alternative to Marseille. Its dates (May 13–20) predate the re-fit to May 15–24 in wishlist/ireland-may-2027.md; rebuild before sending.
+
+- id: oregon-aug-2027
+  title: Oregon, August 1–10
+  url: https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP
+  format: page
+  source: share/proposals/oregon-aug-2027.html
+  trip: northern-rockies-2027
+  wishlist: august-friends-2027
+  for: 3 friends, flying into Portland (headcount not locked)
+  status: unknown
+  asOf: 2026-10-15
+
+- id: newfoundland-2027
+  title: Newfoundland, June 10–19
+  url: https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc
+  format: page
+  source: share/proposals/newfoundland-2027.html
+  trip: newfoundland-2027
+  for: the 3 friends, Gander in, St. John's out
+  status: in
+  asOf: 2026-10-10
+  note: All three confirmed 2026-10-10 (trips/newfoundland-2027/trip.md).
+
+- id: adirondacks-winter
+  title: Adirondacks Ski Week 2027
+  url: https://claude.ai/code/artifact/10e038c4-fe35-4378-82f2-de9e37aa7bdc
+  format: doc
+  wishlist: adirondacks-winter
+  for: 2–3 friends who ski
+  status: unknown
+  asOf: 2026-10-15
+
+- id: oregon-boys-doc
+  title: Oregon Boys Trip 2027
+  url: https://claude.ai/artifact/V339cpNh3RGUkS5YNjUSxo
+  format: doc
+  wishlist: august-friends-2027
+  for: the Oregon friends
+  status: superseded
+  by: oregon-aug-2027
+  asOf: 2026-10-15
+  note: The first Oregon pitch, as a Claude Docs doc. Replaced by the HTML page the same day.
+
+- id: tahoe-boys
+  title: Tahoe Boys Trip 2027
+  url: https://claude.ai/code/artifact/75209b9e-8088-4f68-b9de-8c3b04101fd7
+  format: doc
+  wishlist: tahoe-boys
+  for: the August friends
+  status: parked
+  asOf: 2026-10-10
+  note: Lost to Oregon on 2026-10-15. Re-date and re-price before it goes anywhere.

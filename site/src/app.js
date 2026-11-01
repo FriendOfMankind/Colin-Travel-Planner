@@ -327,9 +327,31 @@
     const block = (title, list) => list.length ? `<div class="section"><h2>${title}</h2><div class="panel divide">${list.map(row).join("")}</div></div>` : "";
     return `<div class="stack"><h1>Trips</h1>
       ${block("On the road", groups.active)}${block("Coming up", groups.upcoming)}${block("Not scheduled", groups.idea)}${block("Done", groups.past.reverse())}
+      ${proposalsBlock()}
       ${ideasBlock()}
     </div>`;
   };
+
+  /* Invite pages for the people joining a trip (share/proposals.yaml). Live
+     ones first; parked and replaced ones fold away. Each opens the claude.ai page. */
+  const PSTATUS = { draft: "Draft", sent: "Sent", in: "They're in", out: "Said no", parked: "Parked", superseded: "Replaced", unknown: "Status?" };
+  function proposalsBlock() {
+    const all = D.proposals ?? [];
+    if (!all.length) return "";
+    const plan = (p) => p.trip ? (D.trips.find((t) => t.slug === p.trip)?.title ?? p.trip) : ((D.ideas ?? []).find((i) => i.slug === p.wishlist)?.title ?? p.wishlist);
+    const row = (p) => `<a class="trip-row" target="_blank" rel="noopener" href="${esc(p.url)}">
+        <div class="date"><span class="pill pill-${p.status === "in" ? "own" : p.status === "unknown" ? "unknown" : ""}" style="min-width:0">${PSTATUS[p.status] ?? esc(p.status)}</span></div>
+        <div><h3>${esc(p.title)}</h3><div class="meta">${esc(p.for)} · ${esc(plan(p))}</div>
+        <div class="meta">${p.format === "doc" ? "Doc" : "Page"} as of ${fmt(p.asOf)}${p.behind ? ` · <span class="chip warn">${p.behind.changed ? `plan moved ${short(p.behind.changed).m} ${short(p.behind.changed).d}` : "out of date"}</span>` : ""}</div>
+        ${p.behind?.stale ? `<div class="meta">${p.behind.stale}</div>` : ""}${p.note ? `<div class="meta">${p.note}</div>` : ""}</div>
+        <span class="go" aria-hidden="true">↗</span></a>`;
+    const live = all.filter((p) => !["parked", "superseded", "out"].includes(p.status));
+    const rest = all.filter((p) => !live.includes(p));
+    return `<div class="section"><h2>Proposals <span class="muted" style="font-weight:400">${live.length} live</span></h2>
+      <div class="muted" style="font-size:12.5px">The pages sent to people joining a trip. They stay private until shared.</div>
+      ${live.length ? `<div class="panel divide">${live.map(row).join("")}</div>` : ""}
+      ${rest.length ? `<details class="fold panel"><summary>Parked, replaced or declined (${rest.length})</summary><div class="divide">${rest.map(row).join("")}</div></details>` : ""}</div>`;
+  }
 
   /* Potential trips: grouped by the horizon test (me/calendar.md), filtered
      by month and drive/fly. Filters are remembered on this phone. */
