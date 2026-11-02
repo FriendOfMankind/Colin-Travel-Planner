@@ -278,7 +278,7 @@ date: 2027-05-15
 tagline: First day on the left. Short drive, one ferry, the Cliffs of Moher.
 type: travel
 slack: Plenty. Nothing today is timed except the car desk.
-driving: Kerry Airport → Tarbert → Killimer → Cliffs of Moher → Doolin (⚠️ unrouted)
+driving: Kerry Airport → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin, ~116 mi including the family lift from Dingle to Kerry Airport (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
 overnight:
   name: TBD, Doolin
   mapStandIn: Doolin Pier

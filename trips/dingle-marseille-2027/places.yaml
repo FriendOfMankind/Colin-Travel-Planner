@@ -192,23 +192,25 @@ groups:
     places:
       - name: "Kerry Airport"
         note: "Day 6. Pick up the Ireland car (Europcar, Avis)."
-        maps: "Kerry Airport Farranfore"
+        maps: "Kerry Airport"
         verified: true
         lat: 52.181895
         lng: -9.533642
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Tarbert Ferry Terminal"
         note: "Day 6. Tarbert → Killimer car ferry, the Kerry side. Tarbert, Co. Kerry, not Tarbert in Scotland."
-        maps: "Shannon Ferry Tarbert Co. Kerry"
-        verified: false
-        lat: null
-        lng: null
+        maps: "Tarbert Ferry Terminal"
+        verified: true
+        lat: 52.587307
+        lng: -9.359846
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Killimer Ferry Terminal"
         note: "Day 6. Where the Shannon ferry lands, the Clare side."
-        maps: "Shannon Ferry Killimer Co. Clare"
-        verified: false
-        lat: null
-        lng: null
+        maps: "Killimer Ferry Terminal"
+        verified: true
+        lat: 52.615488
+        lng: -9.381316
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Cliffs of Moher Visitor Centre"
         note: "Day 6."
         maps: "Cliffs of Moher Visitor Centre"
