@@ -575,12 +575,12 @@ Their address decides the May 11 route and the leave time for Kerry Airport on S
 **Blocks:** the Ireland car
 **Both cars are automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. Scotland is priced: Focus compact automatic $402 for the 5 days *(Kayak, 2026-11-02)*. Ireland isn't: every cheap Kerry → Dublin offer was a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
 
-**And the size.** The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
+**And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
 
 ### Is a 4th person coming: the friend near Belfast?
 
 **Blocks:** car size, Portree beds, flights
-Colin has a friend who lives near Belfast who "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. If he comes: both cars need room for 4 and bags (a mini won't do), Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
+Colin has a friend who lives near Belfast who "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ### Which Edinburgh → home routing?
 
