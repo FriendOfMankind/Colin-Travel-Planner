@@ -188,167 +188,199 @@ groups:
         lat: 52.15136
         lng: -10.056586
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Clare and Scotland (drafted 2026-11-02, unplaced)
+  - group: Clare and Scotland (drafted 2026-11-02)
     places:
       - name: "Kerry Airport"
         note: "Day 6. Pick up the Ireland car (Europcar, Avis)."
         maps: "Kerry Airport Farranfore"
+        verified: true
+        lat: 52.181895
+        lng: -9.533642
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
+      - name: "Tarbert Ferry Terminal"
+        note: "Day 6. Tarbert → Killimer car ferry, the Kerry side. Tarbert, Co. Kerry, not Tarbert in Scotland."
+        maps: "Shannon Ferry Tarbert Co. Kerry"
         verified: false
         lat: null
         lng: null
-      - name: "Tarbert Ferry Terminal"
-        note: "Day 6. Tarbert → Killimer car ferry."
-        maps: "Tarbert Killimer ferry Tarbert"
+      - name: "Killimer Ferry Terminal"
+        note: "Day 6. Where the Shannon ferry lands, the Clare side."
+        maps: "Shannon Ferry Killimer Co. Clare"
         verified: false
         lat: null
         lng: null
       - name: "Cliffs of Moher Visitor Centre"
         note: "Day 6."
         maps: "Cliffs of Moher Visitor Centre"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.97075
+        lng: -9.425879
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Doolin Pier"
         note: "Days 6–7. Inis Mór ferry; stand-in for the Doolin bed."
         maps: "Doolin Pier"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.015509
+        lng: -9.40422
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Doolin (village)"
         note: "Day 6, evening music."
         maps: "Doolin Co. Clare"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.015998
+        lng: -9.377077
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Kilronan, Inis Mór"
         note: "Day 7. Ferry landing, bike hire."
         maps: "Kilronan Inis Mór"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.119311
+        lng: -9.667678
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Dún Aonghasa"
         note: "Day 7."
         maps: "Dún Aonghasa"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.125537
+        lng: -9.766848
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Poulnabrone Dolmen"
         note: "Day 8."
         maps: "Poulnabrone Dolmen"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.047114
+        lng: -9.140329
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Inverness Airport"
         note: "Day 8. Fly in, pick up the Scotland car."
         maps: "Inverness Airport"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.539593
+        lng: -4.06413
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Urquhart Castle"
         note: "Day 9, Loch Ness."
         maps: "Urquhart Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.324257
+        lng: -4.444592
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Eilean Donan Castle"
         note: "Day 9."
         maps: "Eilean Donan Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.273813
+        lng: -5.513032
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Portree Harbour"
-        note: "Days 9–11. Stand-in for the Skye bed."
+        note: "Days 9–11. Portree harbour; the Skye bed is now Portree Youth Hostel."
         maps: "Portree Harbour"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.411021
+        lng: -6.190547
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Portree Youth Hostel"
         note: "Days 9–11. The Skye bed (Hostelling Scotland, picked 2026-11-02, not booked). Replaces the Portree Harbour stand-in once placed."
         maps: "Portree Youth Hostel Hostelling Scotland"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.412093
+        lng: -6.195873
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Dunvegan Castle"
         note: "Day 10. Clan MacLeod seat."
         maps: "Dunvegan Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.448577
+        lng: -6.589413
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Coral Beach, Skye"
         note: "Day 10."
         maps: "Coral Beach Skye"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.489037
+        lng: -6.620648
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Neist Point Lighthouse"
         note: "Day 10, sunset."
         maps: "Neist Point Lighthouse"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.429726
+        lng: -6.778988
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Old Man of Storr car park"
         note: "Day 11, park by 7:30."
         maps: "Old Man of Storr car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.499606
+        lng: -6.158109
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Kilt Rock Viewpoint"
         note: "Day 11."
         maps: "Kilt Rock Viewpoint"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.61031
+        lng: -6.172612
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Quiraing car park"
         note: "Day 11."
         maps: "Quiraing car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.628181
+        lng: -6.291551
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Fairy Glen, Skye"
         note: "Day 11, optional."
         maps: "Fairy Glen Skye"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.584755
+        lng: -6.332838
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Fairy Pools car park"
         note: "Day 12."
         maps: "Fairy Pools car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.249946
+        lng: -6.273251
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Glencoe Village"
         note: "Day 12. Stand-in for the Glencoe bed."
         maps: "Glencoe Village"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 56.682593
+        lng: -5.10207
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Lost Valley car park, Glencoe"
         note: "Day 13. Coire Gabhail trailhead."
         maps: "Lost Valley Glencoe car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 56.667805
+        lng: -4.986777
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Airport"
         note: "Days 13 and 15. Car return; home."
         maps: "Edinburgh Airport"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.94702
+        lng: -3.360855
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Waverley"
         note: "Days 13–14. Stand-in for the Edinburgh bed."
         maps: "Edinburgh Waverley"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.952453
+        lng: -3.188428
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Arthur's Seat"
         note: "Day 14."
         maps: "Arthur's Seat"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.944747
+        lng: -3.152751
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Castle"
         note: "Day 14."
         maps: "Edinburgh Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.948192
+        lng: -3.203709
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
