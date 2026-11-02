@@ -250,3 +250,8 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 
 - **Automatic for both rentals** *(Colin, 2026-11-02)*: "less of a headache on already novel roads"; the ~$23 each in Scotland isn't worth arguing over. Was the open question "Manual or automatic?". The Ireland automatic still needs a price.
 - **No pitch page has been sent yet** *(Colin, 2026-11-02)*: Sky Islands, Dingle, Oregon and Adirondacks all stay `draft`.
+
+## 2026-11-02 · Decided: Portree hostel; a possible 4th
+
+- **Portree: Portree Youth Hostel, beds in a shared room, May 18–21** *(Colin, 2026-11-02)*. Hostelling Scotland quoted **£319.50 for 3 adults, 3 nights**, £9 more for towel hire (optional), full balance due at booking *(hostellingscotland.org.uk, Colin's screenshot, 2026-11-02)*. It's a shared room (dorm beds), not the private room the earlier lead described. Colin checked Airbnb and Booking.com for a whole place and nothing beat ~£330. **Not booked yet.**
+- **A possible 4th: a friend of Colin's who lives near Belfast "may join us somehow"** *(stated 2026-11-02)*. Unconfirmed; now an open question in `trip.md`.
