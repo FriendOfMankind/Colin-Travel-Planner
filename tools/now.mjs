@@ -20,6 +20,9 @@ import { fileURLToPath } from "node:url";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
 import { bookingSystems, bookingWindows } from "./lib/booking.mjs";
+import { parseProposals, behind } from "./lib/proposals.mjs";
+import { buildTimeline, calendarFrom } from "./lib/timeline.mjs";
+import { parseIdea } from "./lib/wishlist.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -128,6 +131,20 @@ try {
   if (g) say("", `## Drift`, g);
 } catch { say("", `## Drift`, `- tools/garden.mjs failed: run it by hand to see why.`); }
 
+// Invite pages (share/proposals.yaml): only the live ones the plan has moved past.
+if (has("share/proposals.yaml")) {
+  const rd = (rel) => (has(rel) ? read(rel) : null);
+  const late = parseProposals(read("share/proposals.yaml")).map((p) => ({ p, b: behind(p, rd) })).filter((x) => x.b);
+  if (late.length) {
+    say("", `## Proposal pages behind their plan (share/proposals.yaml)`);
+    for (const { p, b } of late) {
+      const why = [b.stale, b.changed && `plan changed ${fmt(b.changed.date)} (${b.changed.where})`].filter(Boolean).join("; ");
+      say(`- ${p.title} · ${p.status} · as of ${fmt(String(p.asOf))} · ${clip(plain(why), 160)}`);
+    }
+    say(`- Fix the source and republish to the same url, or set checked: if it still holds.`);
+  }
+}
+
 if (gear.length) say("", `## Gear not settled (me/gear.md)`, `- ${gear.join(" · ")}`);
 
 const later = upcoming.filter((t) => t !== next);
@@ -136,6 +153,20 @@ const undated = trips.filter((t) => !t.start && !["done", "shelved"].includes(t.
 if (undated.length) say(...undated.map((t) => `- no date · ${t.r.title} (${t.r.status})`));
 const shelved = trips.filter((t) => t.r.status === "shelved");
 if (shelved.length) say(`- shelved, not live: ${shelved.map((t) => t.r.title).join(", ")}`);
+
+// The next open stretch (lib/timeline.mjs: 5+ free days, no class, no trip).
+try {
+  const cal = calendarFrom(read("me/calendar.md"), YAML);
+  const pen = ls("wishlist").filter((f) => f.endsWith(".md")).map((f) => parseIdea(read(`wishlist/${f}`)).fm)
+    .filter((fm) => fm.start).map((fm) => ({ slug: fm.slug, title: fm.title, start: String(fm.start), end: addDays(String(fm.start), (Number(fm.days) || 1) - 1) }));
+  const tl = buildTimeline({ today: TODAY, cal, trips: trips.filter(live).filter((t) => t.start).map((t) => ({ slug: t.slug, start: t.start, end: t.end })), ideas: pen });
+  const g = tl.items.find((x) => x.type === "gap");
+  if (g) {
+    const p = g.pencilled.map((s) => pen.find((x) => x.slug === s)?.title ?? s);
+    say("", `## Next open stretch (me/calendar.md; the site's Trips tab has the whole timeline)`,
+      `- ${fmt(g.start)} → ${fmt(g.end)} · ${g.days} days${g.label ? ` · ${g.label}` : ""} · ${p.length ? `pencilled in: ${p.join(", ")}` : "nothing pencilled in"}`);
+  }
+} catch (e) { say("", `## Next open stretch`, `- timeline failed: ${e.message}`); }
 
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md"));
 if (ideas.length) say("", `## Ideas`, `${ideas.length} in wishlist/ (see INDEX.md). Explore one with /daydream.`);

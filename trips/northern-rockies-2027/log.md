@@ -321,3 +321,8 @@ No decisions, just copies of old values that hadn't caught up:
 - **Island Lake research** asked about a Monday. Arrival is a Sunday since the 2026-10-29 shift. **Day 19** in `research.md` now matches the decision (Hiawatha planned, night near Wallace / Kellogg).
 - **Coordinates:** Madison and the other pinned places were still called unverified in six places. They're pinned (Pin Ledger, 2026-10-30); only the sun times are still TBD, because `_gen/sun.json` hasn't been recomputed.
 - "Same length as Newfoundland" → four days longer (34 vs 30).
+
+## 2026-11-02 · Idea, not decided: extend the trip after Oregon
+
+- **Maybe extend this trip instead of planning a separate one** for the open stretch after it (Aug 15–30). After Oregon, stop somewhere instead of driving straight home. **Colorado** is the first thought: an optional, free-flowing stretch, **maybe dispersed camping** *(Colin, 2026-11-02: "maybe stop somewhere after oregon instead of booking it home. Maybe colorado… more optional and free flowing")*. To be worked out in another chat. `trip.md` is unchanged: the plan still ends at home on Aug 14.
+- **Jun 25 – Jul 11, between Newfoundland and this trip:** probably time at home *(Colin, 2026-11-02: "I might just spend some time at home")*. It stays an open stretch on the timeline. The Europe Atlantic North idea that was dated there is shelved (`wishlist/europe-atlantic-north-2027.md`).

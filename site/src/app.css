@@ -291,3 +291,56 @@ details.fold > div { padding: 0 16px 14px; }
 .filters .chip { border: 0; cursor: pointer; flex: none; }
 .place .pm a { margin-right: 12px; }
 .place .links { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; }
+
+/* ------------------------------------------------------------ timeline */
+.tl-lead { font-size: 14.5px; color: var(--ink-2); margin: -2px 0 10px; }
+.tl-lead b { color: var(--ink); }
+.tgrid { padding: 12px 12px 8px; }
+.trow { display: grid; grid-template-columns: 32px 1fr; align-items: center; gap: 6px; margin: 3px 0; }
+.tm { font: 600 11px/1 var(--mono); color: var(--muted); text-transform: uppercase; }
+.tcells { display: grid; grid-template-columns: repeat(31, 1fr); gap: 2px; }
+.tc { aspect-ratio: 1; border-radius: 2px; background: var(--surface); box-shadow: inset 0 0 0 1px var(--line); }
+.tc.none { visibility: hidden; }
+.tc.class { background: var(--sunk); box-shadow: none; }
+.tc.block { background: color-mix(in srgb, var(--muted) 38%, var(--surface)); box-shadow: none; }
+.tc.gap { background: var(--today-soft); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--today) 45%, transparent); }
+.tc.trip { box-shadow: none; }
+.tc.idea { background: repeating-linear-gradient(135deg, #8a6fb0 0 2px, color-mix(in srgb, #8a6fb0 18%, var(--surface)) 2px 4px); box-shadow: none; }
+.tc.past { opacity: .25; }
+.tc.now { outline: 2px solid var(--ink); outline-offset: 1px; opacity: 1; }
+.tlegend { display: flex; flex-wrap: wrap; gap: 6px 12px; font-size: 12px; color: var(--ink-2); padding: 8px 12px 12px; border-top: 1px solid var(--line); }
+.tlegend span { display: inline-flex; align-items: center; gap: 5px; }
+.tlegend i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
+.lg-idea { background: repeating-linear-gradient(135deg, #8a6fb0 0 2px, color-mix(in srgb, #8a6fb0 18%, var(--surface)) 2px 4px); }
+.lg-gap { background: var(--today-soft); box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--today) 45%, transparent); }
+.lg-class { background: var(--sunk); }
+.lg-block { background: color-mix(in srgb, var(--muted) 38%, var(--surface)); }
+.lg-free { box-shadow: inset 0 0 0 1px var(--line); }
+.tl { position: relative; padding-left: 18px; margin-top: 14px; }
+.tl::before { content: ""; position: absolute; left: 5px; top: 8px; bottom: 8px; width: 2px; background: var(--line); }
+.tl-it { position: relative; margin: 0 0 10px; }
+.tl-it::before { content: ""; position: absolute; left: -17px; top: 14px; width: 10px; height: 10px; border-radius: 50%; background: var(--paper); border: 2px solid var(--muted); }
+.tl-it.trip::before { background: var(--c); border-color: var(--c); }
+.tl-it.gap::before { background: var(--today); border-color: var(--today); }
+.tl-it.idea::before { background: #8a6fb0; border-color: #8a6fb0; }
+.tl-it.now::before { background: var(--ink); border-color: var(--ink); top: 4px; }
+.tl-it.mark::before { width: 8px; height: 8px; left: -16px; top: 6px; background: var(--line); border-color: var(--line); }
+.tl-it.now .t { font: 700 13px/1 var(--display); letter-spacing: .08em; text-transform: uppercase; }
+.tl .when { font: 500 12px/1.35 var(--mono); color: var(--muted); }
+.tl-it.mark .t { font-weight: 600; }
+.tl-card { display: block; padding: 12px 14px; border-left: 5px solid var(--c, var(--line)); text-decoration: none; color: inherit; }
+.tl-card.idea { border-left: 5px dashed #8a6fb0; }
+.tl-card h3 { font: 700 20px/1.1 var(--display); margin: 2px 0 4px; }
+.tl-card h3 a { color: inherit; }
+.tl-it .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+.tl-gap .chips { display: inline-flex; margin: 0 0 0 4px; }
+.tl-it .chip { text-decoration: none; }
+.chip.ok { background: var(--accent-soft); color: var(--accent); }
+.chip.draft { background: var(--today-soft); color: color-mix(in srgb, var(--today) 55%, var(--ink)); }
+.tl-gap { background: var(--today-soft); border: 1px dashed color-mix(in srgb, var(--today) 60%, transparent); border-radius: var(--radius); padding: 10px 14px; }
+.tl-gap .t { font: 700 17px/1.15 var(--display); }
+.tl-gap .fit, .tl-ideas, .tl-pen, .tl-more { font-size: 13px; color: var(--ink-2); margin-top: 4px; }
+.tl-gap a { color: inherit; }
+.tl-more summary { cursor: pointer; color: var(--muted); }
+.tl-term { font-size: 13px; color: var(--muted); background: var(--sunk); border-radius: 8px; padding: 7px 12px; }
+.tl-it.end .t { font: 700 16px/1.2 var(--display); }

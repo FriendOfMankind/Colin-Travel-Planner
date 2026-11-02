@@ -1,0 +1,375 @@
+<title>Dingle & Marseille, May 10–24</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a glance strip, then a day-by-day route split into its two halves (Kerry green, then Calanques turquoise); costs and logistics as plain tables. Same shape as the Athens, Oregon and Newfoundland pitches. */
+:root {
+  --bg: #eef1ef;          /* Calanques limestone, cool */
+  --surface: #ffffff;
+  --ink: #142a2e;         /* deep water under the cliffs */
+  --muted: #56676a;
+  --line: #d3dbd9;
+  --sea: #0c7179;         /* accent: calanque turquoise, darkened for text */
+  --sea-soft: #dcefee;
+  --kerry: #3d6a3a;       /* second voice: Kerry fields */
+  --kerry-soft: #e3eedf;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1719; --surface: #172225; --ink: #e3ebea; --muted: #9db0b0; --line: #29393c;
+    --sea: #5cc3c9; --sea-soft: #143a3d; --kerry: #9fcf8f; --kerry-soft: #1f3420;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1719; --surface: #172225; --ink: #e3ebea; --muted: #9db0b0; --line: #29393c;
+  --sea: #5cc3c9; --sea-soft: #143a3d; --kerry: #9fcf8f; --kerry-soft: #1f3420;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 17px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 7.5vw, 54px); }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--sea); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--sea); }
+.lede { font-size: 19px; }
+.aside { font-family: var(--display); color: var(--muted); font-size: 16px; }
+section, header { display: flex; flex-direction: column; gap: 14px; }
+
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.glance b { font: 400 20px/1.2 var(--display); }
+.glance span { font-size: 13px; color: var(--muted); }
+
+.leg { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; padding: 18px 0 6px; }
+.leg.ire { color: var(--kerry); }
+.leg.fra { color: var(--sea); }
+.route { display: flex; flex-direction: column; border-left: 2px solid var(--sea-soft); margin-left: 6px; }
+.route.ire { border-left-color: var(--kerry-soft); }
+.day { position: relative; padding: 4px 0 28px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--sea); }
+.route.ire .day::before { border-color: var(--kerry); }
+.day.travel::before { background: var(--sea); }
+.route.ire .day.travel::before { background: var(--kerry); }
+.day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.day .moments { font: 500 13px/1.5 var(--mono); color: var(--sea); }
+.route.ire .day .moments { color: var(--kerry); }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.day li b { font-weight: 700; }
+.day .stay { font-size: 15px; color: var(--muted); }
+.day .stay b { color: var(--ink); font-weight: 600; }
+
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--sea); }
+.primer dd { margin: 0; font-size: 16px; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--sea); color: var(--surface); margin-right: 6px; vertical-align: 2px; }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 700; background: var(--sea-soft); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fact.key { border-color: var(--sea); }
+.note { font-size: 15px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The pitch · May 2027</span>
+  <h1>Dingle &amp; Marseille, May 10–24</h1>
+  <p class="lede">Two weeks, two coasts. We fly out of Cleveland together, cross Ireland to Dingle for four nights with a friend's family, then fly to Marseille for nine nights. From one apartment in the old port we get the Calanques (white limestone cliffs over turquoise water), Cassis, Aix, the islands and a lot of good food. Home Monday, May 24.</p>
+  <p class="aside">The Calanques are a national park that starts at the edge of France's second city. You can take a city bus to the trailhead.</p>
+</header>
+
+<div class="glance">
+  <div><b>May 10 → 24</b><span>15 days, 14 nights</span></div>
+  <div><b>Dingle · 4 nights</b><span>with a friend's family</span></div>
+  <div><b>Marseille · 9 nights</b><span>one apartment, no car</span></div>
+  <div><b>~$3,300 each</b><span>3 of us, all in</span></div>
+</div>
+
+<section>
+  <h2>Who handles what</h2>
+  <div class="facts">
+    <div class="fact">
+      <h3>Colin handles</h3>
+      <ul class="plain">
+        <li>The plan: the route, the walks and the day-to-day</li>
+        <li>Finding the flights so we're all on the same ones</li>
+        <li>Booking the Marseille apartment, with each of us paying our share</li>
+        <li>The coach and train legs in Ireland and Provence</li>
+      </ul>
+    </div>
+    <div class="fact">
+      <h3>You handle</h3>
+      <ul class="plain">
+        <li>Your own ticket on the same flights (picked, below)</li>
+        <li>Your share of the apartment, transport, food and outings</li>
+        <li>A passport valid well past the trip</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The two halves in one minute</h2>
+  <dl class="primer">
+    <div><dt>Dingle</dt><dd>A harbour town at the end of a peninsula in County Kerry, as far west as Ireland goes. Around Slea Head there are stone beehive huts, an Iron Age fort on a cliff edge and a 1,200-year-old church built without mortar.</dd></div>
+    <div><dt>Marseille</dt><dd>France's oldest city, founded by Greek sailors 2,600 years ago. It's a working port, not a postcard, and that's the appeal: the old quarter of Le Panier, the fishing harbour under the Corniche, and the basilica on the hill that watches over all of it.</dd></div>
+    <div><dt>The Calanques</dt><dd>Narrow inlets cut into white limestone cliffs, with clear water at the bottom. Mid-May is the best hiking of the year: warm, before the summer fire closures and the August crowds.</dd></div>
+    <div><dt>May</dt><dd>Kerry is mild and changeable, so bring a rain jacket. Marseille is warm and sunny, with long evenings. Whit Monday (May 17) is a French holiday, so buses run a reduced schedule that day.</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Day by day</h2>
+  <p class="note">A draft. Nothing is booked. Every hike has an easier version, and the rest day is real.</p>
+
+  <span class="leg ire">Ireland · May 10–15</span>
+  <div class="route ire">
+    <div class="day travel">
+      <span class="when">Mon May 10 · evening</span>
+      <h3>Overnight to Dublin</h3>
+      <p class="moments">Cleveland → Dublin nonstop · sleep on the plane</p>
+      <ul><li>Aer Lingus out of Cleveland in the evening, landing in Dublin the next morning.</li></ul>
+      <span class="stay">Sleep: <b>on the plane</b></span>
+    </div>
+    <div class="day travel">
+      <span class="when">Tue May 11</span>
+      <h3>Across Ireland to Dingle</h3>
+      <p class="moments">Land ~8:45 · coach to Killarney · local bus to Dingle by 7:30</p>
+      <ul>
+        <li>The 11:00 coach from Dublin Airport to Killarney, then the 6 PM local bus out to Dingle, arriving about 7:30. A long day sitting down, but every leg is a scheduled bus.</li>
+        <li>Dinner and an early night.</li>
+      </ul>
+      <span class="stay">Sleep: <b>with family in Dingle</b> (night 1 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Wed May 12</span>
+      <h3>Slea Head</h3>
+      <p class="moments">Local bus to the end of Ireland · Dunquin Pier · the Blasket Centre · Gallarus Oratory</p>
+      <ul>
+        <li>No car needed: the 9 AM local bus gets us to Dunquin in half an hour. The zig-zag path down the cliffs to the old Blasket ferry pier, the Blasket Centre, then hop buses back past early Christian sites (Riasc, Kilmalkedar) and the 1,200-year-old Gallarus Oratory.</li>
+        <li>Buses are a few a day, so we plan around them. The cliffs are unfenced; nobody goes near the edge in wind.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 2 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Thu May 13</span>
+      <h3>Dingle town</h3>
+      <p class="moments">Eask Tower · a WWII lookout · fish and chips on the harbour</p>
+      <ul><li>A steep walk out of town to Eask Tower, an 1847 famine-era stone marker 600 feet above the bay, with a wartime lookout post on the same hill. Then the harbour and an easy afternoon.</li></ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 3 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Fri May 14</span>
+      <h3>The spare Kerry day</h3>
+      <p class="moments">Rain backup · or Inch Beach and a castle ruin · farewell dinner</p>
+      <ul><li>If Slea Head got rained out, it moves here. If not: the bus east to Inch, a three-mile sand spit, plus Minard Castle on its boulder beach and the South Pole Inn, the pub an Antarctic explorer opened. Or the wild north side by taxi. Then a farewell dinner and packing.</li></ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 4 of 4)</span>
+    </div>
+    <div class="day travel">
+      <span class="when">Sat May 15 · travel day</span>
+      <h3>Kerry to Marseille</h3>
+      <p class="moments">Lift to Killarney · coach to Dublin Airport · 15:45 flight · Marseille 19:10</p>
+      <ul>
+        <li>A lift from the family to the 9 AM airport coach in Killarney (likely, still to confirm), four hours to Dublin Airport, then Ryanair nonstop to Marseille. The first local bus would only leave 20 minutes to make that coach, so the lift matters.</li>
+        <li>Airport shuttle into Marseille is €7 each (under-26 fare).</li>
+        <li><span class="tag">Heads up</span>The coach and the flight are separate tickets. If the coach runs late, there's no rebooking. If it looks tight on the day, the backup is a Dublin airport hotel on Friday night.</li>
+      </ul>
+      <span class="stay">Sleep: <b>the Marseille apartment</b> (night 1 of 9)</span>
+    </div>
+  </div>
+
+  <span class="leg fra">Provence · May 16–24</span>
+  <div class="route">
+    <div class="day">
+      <span class="when">Sun May 16</span>
+      <h3>Le Panier, Mucem, Fort Saint-Jean</h3>
+      <p class="moments">The oldest quarter · downhill to the museum on the water · evening at the Vieux-Port</p>
+      <ul>
+        <li>Wander <b>Le Panier</b> (the windmill square at its top, the oldest house in town), then <b>Mucem</b> and the fort next to it. Today because the museum closes on Tuesdays.</li>
+        <li>Dinner at Chez Étienne: old-school pizza, cash only, no reservations.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Mon May 17 · Whit Monday</span>
+      <h3>Notre-Dame de la Garde and the Corniche</h3>
+      <p class="moments">The city from its highest point · the little fishing harbour · sunset along the sea road</p>
+      <ul><li>Up to the basilica in the morning, down to <b>Vallon des Auffes</b> and the sea pool under its bridge, then the rocky coves of Malmousque. An outdoor day on purpose, since it's a public holiday.</li></ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Tue May 18</span>
+      <h3>The Calanques from Luminy</h3>
+      <p class="moments">City bus to the trailhead · Sugiton viewpoint · the cove if we want it</p>
+      <ul>
+        <li>The <b>Sugiton viewpoint</b> is the plan, about 4 miles there and back. The climb down to the cove is steeper and optional, and there may be a swim at the bottom.</li>
+        <li>Metro, then the B1 city bus to the trailhead. No reservation needed in May. Park access depends on wind and fire risk, so we check the day before.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Wed May 19</span>
+      <h3>Cassis and En-Vau</h3>
+      <p class="moments">Bus to Cassis · three calanques in one loop · harbour afternoon</p>
+      <ul>
+        <li>The <b>Port-Miou → Port-Pin → En-Vau</b> loop, about 7 miles. En-Vau is the famous one: a narrow slot between sheer white walls, with a beach at the end.</li>
+        <li>An afternoon in Cassis harbour. The short version turns around at Port-Pin.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Thu May 20</span>
+      <h3>Aix-en-Provence</h3>
+      <p class="moments">Fountains and plane trees · Cézanne's town · the view he kept painting</p>
+      <ul><li>The Cours Mirabeau, the old town and its markets, then up to the Jardin des Peintres for the view of Mont Sainte-Victoire. An easy day.</li></ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Fri May 21</span>
+      <h3>Marseilleveyre</h3>
+      <p class="moments">Bus to the end of the road · a loop over the coves · back for a slow afternoon</p>
+      <ul>
+        <li>A loop of about 5.4 miles from the tiny port of <b>Callelongue</b>, with a shorter 3-mile there-and-back version. It's on a weekday because these coves fill up on weekends.</li>
+        <li>After: the fishing village of Les Goudes for a swim or a long lunch.</li>
+        <li>If weather moved Tuesday or Wednesday, this is the makeup day.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Sat May 22</span>
+      <h3>The Frioul islands and Château d'If</h3>
+      <p class="moments">Ferry from the Vieux-Port · the islands on foot · the prison from <i>The Count of Monte Cristo</i></p>
+      <ul>
+        <li>A short ferry ride out to the islands: the ruins of a 1820s quarantine hospital (from outside only), WWII bunkers cut into the rock, and a swim at Saint-Estève cove.</li>
+        <li>Wind can cancel the boats. If it does, we take the shuttle boat to L'Estaque for chickpea fries instead.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Marseille</b></span>
+    </div>
+    <div class="day">
+      <span class="when">Sun May 23</span>
+      <h3>Rest</h3>
+      <p class="moments">Nothing scheduled · last dinner · pack</p>
+      <ul><li>A real rest day before the long way home.</li></ul>
+      <span class="stay">Sleep: <b>Marseille</b> (night 9 of 9)</span>
+    </div>
+    <div class="day travel">
+      <span class="when">Mon May 24</span>
+      <h3>Home</h3>
+      <p class="moments">British Airways / American via London and Chicago · 7:15 AM → 5:44 PM</p>
+      <ul>
+        <li>An early one: leave the apartment around 4:15 AM for the €7 airport shuttle. Home in Cleveland that evening.</li>
+        <li>Seen at ~$596 one-way in October 2026, not held. The Chicago connection needs enough time for customs, so we check it before booking.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Where we stay</h2>
+  <div class="facts">
+    <div class="fact">
+      <span class="eyebrow">4 nights · Dingle</span>
+      <h3>With a friend's family</h3>
+      <p>Free beds, still to be confirmed with them.</p>
+    </div>
+    <div class="fact key">
+      <span class="eyebrow">9 nights · Marseille</span>
+      <h3>One apartment by the old port</h3>
+      <p>A studio or one-bedroom aparthotel near the Vieux-Port, so most days start on foot. For the three of us it means sharing: a double plus a sofa bed. A one-bedroom with a door between sleepers costs a bit more each. Not booked yet.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <p class="note">Per person, calculated rather than quoted. Flights were seen on Google Flights in late October 2026 but not held. The Marseille lines are scaled up from a 7-night pricing to 9. The flight line is still the earlier round-trip estimate; the picked home flight alone showed ~$596 one-way, so this line gets re-priced once both legs are booked together.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Item</th><th>Each</th></tr></thead>
+      <tbody>
+        <tr><td>Flights: Cleveland → Dublin, Marseille → Cleveland</td><td class="num">~$1,200</td></tr>
+        <tr><td>Flight: Dublin → Marseille</td><td class="num">~€218</td></tr>
+        <tr><td>Marseille apartment, 9 nights</td><td class="num">~€407</td></tr>
+        <tr><td>Ireland transport and spending</td><td class="num">~€315</td></tr>
+        <tr><td>Food in Marseille (~€52 a day)</td><td class="num">~€473</td></tr>
+        <tr><td>Trains, buses, ferries, entries</td><td class="num">~€244</td></tr>
+        <tr class="total"><td>Each, all in, with a 10% buffer</td><td class="num">~$3,300</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">The apartment is cheap per head because it splits three ways. Not included: travel insurance, passports, shopping.</p>
+</section>
+
+<section>
+  <h2>Good to know</h2>
+  <div class="facts">
+    <div class="fact key">
+      <h3>No car</h3>
+      <p>Ireland is coaches and local buses. Marseille is metro, city buses and the odd train. Pack light enough to carry through two coaches and a city on day two.</p>
+    </div>
+    <div class="fact">
+      <h3>Hiking</h3>
+      <p>Three Calanques days, each 3–7 miles on rocky limestone trail. Every one has a shorter version. Bring real shoes, a hat and plenty of water.</p>
+    </div>
+    <div class="fact">
+      <h3>Swimming</h3>
+      <p>Possible at Sugiton and En-Vau, not promised. The sea in mid-May is fresh.</p>
+    </div>
+    <div class="fact">
+      <h3>Eating in Marseille</h3>
+      <p>Breakfast in the apartment, packed lunches on hike days, and wood-fired pizza (the city's everyday food) most nights. On weekdays, the set lunch (<i>formule</i>, about €20–26) is the best-value meal going, but it isn't served on weekends or holidays. Dinner starts around 8. Tap water is free if you ask for <i>une carafe d'eau</i>, and service is included in the bill.</p>
+    </div>
+    <div class="fact key">
+      <h3>Watch out at Saint-Charles</h3>
+      <p>Marseille's main station has a known scam: someone asks for change, then leads you "to a pharmacy" down a side street. Don't follow anyone off the forecourt, and keep a hand on bags there.</p>
+    </div>
+    <div class="fact">
+      <h3>Time zones</h3>
+      <p>Ireland is 5 hours ahead of Cleveland, and France is 6.</p>
+    </div>
+    <div class="fact">
+      <h3>Treats to find</h3>
+      <p>Panisses (chickpea fries) and sugared chickpea doughnuts at Chez Magali in L'Estaque, a few euros each, and navettes, Marseille's orange-blossom biscuits, from a bakery that's been making them for about 200 years.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What I need from you</h2>
+  <ol class="steps">
+    <li><b>Passport check.</b> Valid well past May 2027? If it needs renewing, start now.</li>
+    <li><b>Is sharing OK?</b> In Marseille that means a double bed and a sofa bed, or a little more each for a one-bedroom with a door.</li>
+    <li><b>Is ~$3,300 each workable?</b> If not, say so now. The apartment is the easiest line to cut.</li>
+    <li><b>How much hiking?</b> Up for the full versions of the Calanques walks, or the shorter ones?</li>
+  </ol>
+  <p class="note">The flights are picked: Aer Lingus out on May 10, BA/American home on May 24. Colin sends the exact booking and we all book the same ones. The family's beds and the May 15 lift get confirmed through them.</p>
+</section>
+
+<footer>
+  <span>Updated October 30, 2026. Flight times and prices come from listings seen in October 2026 and will change for 2027.</span>
+  <span>Questions go to Colin.</span>
+</footer>
+
+</div>

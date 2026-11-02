@@ -1,0 +1,351 @@
+<title>Athens, May 13–20</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a glance strip, then a day-by-day route from Kerry to Athens and out to Delphi, Meteora and Sounion (each day: the feel, the highlights, the bed); costs and logistics as plain tables. Same shape as the Newfoundland and Oregon pages, in Greece's colours. */
+:root {
+  --bg: #f2f3f1;          /* Pentelic marble, cool */
+  --surface: #ffffff;
+  --ink: #1b2230;         /* night over the Aegean */
+  --muted: #5b6475;
+  --line: #d9dde3;
+  --sea: #1d5aa6;         /* accent: Aegean blue */
+  --sea-soft: #e1eaf6;
+  --olive: #7a6a1c;       /* the one warm note: olive and dry grass */
+  --olive-soft: #f1ecd6;
+  --display: "Gentium Book Plus", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151c; --surface: #191f29; --ink: #e6e9ee; --muted: #a0a8b6; --line: #2b3340;
+    --sea: #7fb0ec; --sea-soft: #1a2a42; --olive: #d6c172; --olive-soft: #332d14;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151c; --surface: #191f29; --ink: #e6e9ee; --muted: #a0a8b6; --line: #2b3340;
+  --sea: #7fb0ec; --sea-soft: #1a2a42; --olive: #d6c172; --olive-soft: #332d14;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(36px, 7.5vw, 56px); }
+h2 { font-size: 27px; }
+h3 { font-size: 21px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--sea); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--sea); }
+.lede { font-size: 18px; }
+.greek { font-family: var(--display); font-style: italic; color: var(--muted); }
+section { display: flex; flex-direction: column; gap: 14px; }
+header { display: flex; flex-direction: column; gap: 14px; }
+
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.glance b { font: 400 21px/1.2 var(--display); }
+.glance span { font-size: 13px; color: var(--muted); }
+
+.route { display: flex; flex-direction: column; border-left: 2px solid var(--sea-soft); margin-left: 6px; }
+.day { position: relative; padding: 4px 0 30px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--sea); }
+.day.travel::before { background: var(--sea); }
+.day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.day .moments { font: 500 13px/1.5 var(--mono); color: var(--sea); letter-spacing: .01em; }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.day li b { font-weight: 600; }
+.day .stay { font-size: 14px; color: var(--muted); }
+.day .stay b { color: var(--ink); font-weight: 600; }
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--sea); }
+.primer dd { margin: 0; font-size: 15px; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--sea-soft); color: var(--sea); margin-right: 6px; vertical-align: 2px; }
+.tag.opt { background: var(--olive-soft); color: var(--olive); }
+.tag.warn { background: var(--olive); color: var(--surface); }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 700; background: var(--sea-soft); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fact.key { border-color: var(--olive); }
+.note { font-size: 14px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The pitch · May 2027</span>
+  <h1>Athens, May 13–20</h1>
+  <p class="lede">You finish the Kerry visit, Colin joins for the last three nights, and on May 13 we fly to Athens together. We get seven nights in Greece: the Acropolis at opening, a loop up to the oracle at Delphi and the monasteries on top of the rock towers at Meteora, and the Temple of Poseidon at sunset. Colin flies home from Athens on May 20.</p>
+  <p class="greek">Γνῶθι σεαυτόν: "know thyself", carved at the entrance to Apollo's temple at Delphi.</p>
+</header>
+
+<div class="glance">
+  <div><b>May 10 → 20</b><span>Kerry 3 nights, Greece 7</span></div>
+  <div><b>Dublin → Athens</b><span>together, Thu May 13</span></div>
+  <div><b>2 of us</b><span>Colin + you</span></div>
+  <div><b>4 ancient sites</b><span>Acropolis, Delphi, Meteora, Sounion</span></div>
+</div>
+
+<section>
+  <h2>Who handles what</h2>
+  <div class="facts">
+    <div class="fact">
+      <h3>Colin handles</h3>
+      <ul class="plain">
+        <li>The Greece plan: the route, the walks and the day-to-day</li>
+        <li>Booking the Athens base and the Delphi and Meteora nights, with each of us paying our share</li>
+        <li>The car or the bus and train for the loop, whichever we pick</li>
+        <li>His own flights, including the one home from Athens</li>
+      </ul>
+    </div>
+    <div class="fact">
+      <h3>You handle</h3>
+      <ul class="plain">
+        <li>Kerry, and letting your family know Colin's coming May 10–13</li>
+        <li>Your flight from Dublin to Athens on May 13, plus your way home</li>
+        <li>Your share of the rooms, the transport and the site tickets</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Greece in one minute</h2>
+  <dl class="primer">
+    <div><dt>The Acropolis</dt><dd>The rock in the middle of Athens, with the Parthenon on top. It's built from white marble quarried on a mountain you can see from the summit. Below it are the Agora, the old market where Socrates argued, and the tiny whitewashed lanes of Anafiotika.</dd></div>
+    <div><dt>Delphi</dt><dd>The oracle of Apollo, on a mountainside above a valley of olive trees. The ancient Greeks called it the center of the world. People came from across the Mediterranean to ask it questions, and kings went to war on its answers.</dd></div>
+    <div><dt>Meteora</dt><dd>Huge towers of sandstone rise straight out of the plain, and monks built monasteries on the tops of them. Until the last century, the only way up some of them was a rope ladder or a net hauled up by a winch.</dd></div>
+    <div><dt>Sounion</dt><dd>A temple to Poseidon on a cliff at the very tip of the coast, facing the open sea. Lord Byron carved his name into one of the columns. It's the classic Greek sunset.</dd></div>
+    <div><dt>May</dt><dd>It's warm, about 25°C (high 70s °F), with around 14 hours of daylight. That's before the summer heat. Cruise ships are in almost every day, so the big sites get done at opening.</dd></div>
+  </dl>
+</section>
+
+<section>
+  <h2>Day by day</h2>
+  <p class="note">This is a draft. Flight times come from the 2026 schedules and need checking against 2027. Every hike and add-on is optional. Nothing is booked yet.</p>
+  <div class="route">
+
+    <div class="day travel">
+      <span class="when">Mon May 10 · Colin lands in Dublin</span>
+      <h3>Colin reaches Kerry</h3>
+      <p class="moments">Overnight from Cleveland · down to Kerry · meet the family</p>
+      <ul>
+        <li>Colin flies Cleveland → Dublin overnight, then takes the afternoon flight to Kerry or the train down.</li>
+        <li>You've been there since early May, so you're the guide.</li>
+      </ul>
+      <span class="stay">Sleep: <b>with your family, Kerry</b> (night 1 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Tue May 11</span>
+      <h3>A Kerry day</h3>
+      <p class="moments">Your pick · sea cliffs, stone forts or a hike</p>
+      <ul>
+        <li>Whatever you think is the best of Kerry. Colin's list includes the Slea Head drive with its beehive huts and Dunbeg fort, the Gap of Dunloe, and the South Pole Inn in Annascaul.</li>
+      </ul>
+      <span class="stay">Sleep: <b>with your family, Kerry</b> (night 2 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Wed May 12</span>
+      <h3>Another Kerry day</h3>
+      <p class="moments">Whatever we didn't get to · or Mount Brandon if the weather's good</p>
+      <ul>
+        <li>Your call again. If the sea is calm and there are spaces, Skellig Michael is a long shot this early in the season. Don't count on it.</li>
+      </ul>
+      <span class="stay">Sleep: <b>with your family, Kerry</b> (night 3 of 3)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Thu May 13 · travel day</span>
+      <h3>Kerry → Dublin → Athens</h3>
+      <p class="moments">Morning hop to Dublin · ~4 h south · late arrival</p>
+      <ul>
+        <li>The morning Kerry → Dublin flight (55 minutes), then Dublin → Athens together, about 4 hours 15 minutes. Athens is 2 hours ahead of Ireland, so expect to land late.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Athens base</b> (not picked yet)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Fri May 14 · early start</span>
+      <h3>The Acropolis at opening</h3>
+      <p class="moments">Parthenon before the cruise crowds · Agora · Anafiotika · sunset from Filopappou Hill</p>
+      <ul>
+        <li><b>The Acropolis</b> right at opening, then down through the <b>Ancient Agora</b> and the lanes of <b>Plaka and Anafiotika</b>.</li>
+        <li>Sunset from <b>Filopappou Hill</b>, looking straight across at the Parthenon.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Athens base</b></span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sat May 15</span>
+      <h3>Athens on foot</h3>
+      <p class="moments">The National Archaeological Museum · a long walking route · Lycabettus at golden hour</p>
+      <ul>
+        <li>The <b>National Archaeological Museum</b>: gold masks from Mycenae and bronzes pulled out of shipwrecks.</li>
+        <li>A long walk across the city, with stops for food along the way.</li>
+        <li><b>Lycabettus Hill</b> at sunset, the highest point in the middle of Athens.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Athens base</b></span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Sun May 16 · out of the city</span>
+      <h3>Up to Delphi</h3>
+      <p class="moments">~3 h north · mountain village · the oracle in evening light</p>
+      <ul>
+        <li>About 2.5–3 hours by car, or 3 by bus, up to <b>Delphi</b> on the slopes of Mount Parnassus.</li>
+        <li>Stay the night so we're at the gate when it opens tomorrow, ahead of the tour buses from Athens.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Delphi or Arachova</b> (not picked yet)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Mon May 17</span>
+      <h3>The oracle, then the rock towers</h3>
+      <p class="moments">Temple of Apollo at opening · the stadium above it · north to Meteora · sunset over the towers</p>
+      <ul>
+        <li>Up the Sacred Way to the <b>Temple of Apollo</b>, the theater and the stadium at the top, then the museum and its bronze Charioteer.</li>
+        <li>North to <b>Meteora</b> for the evening. Sunset over the towers is the shot.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Kalambaka</b>, below the rocks (not picked yet)</span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Tue May 18</span>
+      <h3>Monasteries in the sky</h3>
+      <p class="moments">Old footpaths between the towers · monasteries on the summits · back to Athens</p>
+      <ul>
+        <li>Walk the old paths between the rocks and climb up to a couple of the <b>monasteries</b>.</li>
+        <li><span class="tag warn">Heads up</span>There's a dress code inside: covered shoulders and knees, and long trousers for men.</li>
+        <li>Back to Athens in the afternoon. It's the longest drive of the trip, about 350 km.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Athens base</b></span>
+    </div>
+
+    <div class="day">
+      <span class="when">Wed May 19 · easy day</span>
+      <h3>Slow morning, then Poseidon at sunset</h3>
+      <p class="moments">Nothing scheduled until afternoon · down the coast road · the temple at sunset</p>
+      <ul>
+        <li>A late start, and whatever corner of Athens we missed.</li>
+        <li>Down the coast to <b>Cape Sounion</b> for sunset at the <b>Temple of Poseidon</b>. Last night together.</li>
+        <li>This is also our <b>spare day</b>: if something got rained out, it moves here.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Athens base</b></span>
+    </div>
+
+    <div class="day travel">
+      <span class="when">Thu May 20</span>
+      <h3>Home</h3>
+      <p class="moments">Airport</p>
+      <ul><li>Colin flies home from Athens with one stop in the US. Your flight depends on how your ticket home is set up.</li></ul>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <h2>Where we stay</h2>
+  <p class="note">One base in Athens for five nights, plus one night near Delphi and one at Meteora. None of it is picked or priced yet; these are the areas.</p>
+  <div class="facts">
+    <div class="fact key">
+      <span class="eyebrow">5 nights · Athens</span>
+      <h3>One base, walkable to the Acropolis</h3>
+      <p>Somewhere central, so the early starts are a short walk. The neighborhood gets picked once we know it's on.</p>
+    </div>
+    <div class="fact">
+      <span class="eyebrow">1 night · Delphi or Arachova</span>
+      <h3>Next to the site</h3>
+      <p>Delphi village is a short walk from the ruins. Arachova is a mountain village about 10 minutes away.</p>
+    </div>
+    <div class="fact">
+      <span class="eyebrow">1 night · Kalambaka</span>
+      <h3>Under the rocks</h3>
+      <p>The town at the foot of Meteora. You wake up looking at the towers.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <p class="note">Per person, in US dollars. Only what's actually been seen is filled in. Rooms and site tickets haven't been priced yet, so there's no total.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Item</th><th>Estimate</th><th>Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Dublin → Athens, one way</td><td class="num">~$134</td><td>Average one-way fare on KAYAK, Oct 2026</td></tr>
+        <tr><td>Kerry → Dublin</td><td class="num">from ~€20</td><td>Cheapest Ryanair fares seen for winter 2026–27</td></tr>
+        <tr><td>Bus to Delphi</td><td class="num">~€20–25 each way</td><td>KTEL from Athens; skipped if we rent a car</td></tr>
+                <tr><td>Athens rooms, 5 nights</td><td class="num">TBD</td><td>Not priced yet</td></tr>
+        <tr><td>Delphi + Meteora rooms, 2 nights</td><td class="num">TBD</td><td>Not priced yet</td></tr>
+        <tr><td>Site tickets, food</td><td class="num">TBD</td><td>Not priced yet</td></tr>
+        <tr class="total"><td>Total</td><td class="num">TBD</td><td>Comes once the rooms are priced</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Good to know</h2>
+  <div class="facts">
+    <div class="fact key">
+      <h3>Crowds</h3>
+      <p>Cruise ships are in port almost every day in May. Every big site gets done right at opening, and the afternoons are for wandering.</p>
+    </div>
+    <div class="fact">
+      <h3>Getting around</h3>
+      <p>Athens is all on foot and metro. The Delphi–Meteora loop is either a rental car or a bus plus a train. If it's a car, Colin may need an International Driving Permit; that still needs checking.</p>
+    </div>
+    <div class="fact">
+      <h3>Weather</h3>
+      <p>Warm days around 25°C and cooler nights. Bring sun protection; there's very little shade on the ruins.</p>
+    </div>
+    <div class="fact">
+      <h3>Dress code</h3>
+      <p>The Meteora monasteries need covered shoulders and knees, and long trousers for men. Pack one pair.</p>
+    </div>
+    <div class="fact">
+      <h3>Time zone</h3>
+      <p>Athens is 2 hours ahead of Ireland and 7 ahead of Cleveland.</p>
+    </div>
+    <div class="fact">
+      <h3>Strikes</h3>
+      <p>Greece has occasional short-notice transport strikes. That's why there's a spare day.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What I need from you</h2>
+  <ol class="steps">
+    <li><b>In for Athens, May 13–20?</b></li>
+    <li><b>Where in Kerry is your family?</b> That decides whether Colin flies into Kerry or takes the train.</li>
+    <li><b>How is your ticket home set up?</b> If it returns from Dublin, check which day it flies. The Cleveland–Dublin flight didn't run on Thursdays in 2026, and May 20 is a Thursday.</li>
+    <li><b>Delphi and Meteora as a two-night loop</b>, or just Delphi with one night and an extra day in Athens?</li>
+      </ol>
+  <p class="note">Once you're in: book Dublin → Athens for <b>Thursday, May 13</b> on the same flight as Colin. Colin books the rooms once we've picked.</p>
+</section>
+
+<footer>
+  <span>Updated October 29, 2026. Flight times come from 2026 schedules and prices from 2026 listings, so both will change for 2027.</span>
+  <span>Questions go to Colin.</span>
+</footer>
+
+</div>
