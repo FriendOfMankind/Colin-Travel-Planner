@@ -1499,6 +1499,11 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ## Open questions
 
+### Extend the trip after Oregon, or drive straight home?
+
+**Blocks:** Aug 10–14 (the drive home) and the open stretch to Aug 31
+Optional, decided from the road *(Colin, 2026-11-02)*. If extended: **the Sawtooths (Stanley, Idaho) or somewhere new, not Colorado**; day hikes from a car camp; **home by about Aug 25**. Smoke is the deciding risk: check air quality from Bend. Findings and fallbacks are in `log.md` (2026-11-02).
+
 ### Can you actually get Slough Creek, Madison, Many Glacier and a west-side campground for these dates?
 
 **Blocks:** Days 10–11 and 12–18 — over a third of the trip

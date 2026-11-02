@@ -1,46 +1,39 @@
-# Dingle & Marseille 2027: research tree
+# Dingle & Skye 2027: research tree
 
-What's known, what's thin, and what's still a gap, leg by leg. Findings live in `log.md` (dated, with sources); this file is the map. Refreshed by `/research`.
+What's known, what's thin, and what's still a gap, leg by leg. Findings live in `log.md` (dated, with sources); this file is the map. Refreshed by `/research`. The Marseille branches moved to `wishlist/marseille-may-2027.md` on 2026-11-02.
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
-*Last refreshed 2026-10-30 (route and food sweep; see log).*
+*Last refreshed 2026-11-02 (Ireland + Skye draft and the first pricing sweep; see log).*
 
 ## 1. Flights
-- 🟡 **Open-jaw CLE–DUB / MRS–CLE**: observed $3,601 for 3. ⬜ intermediate times, terminals, and whether 1h59 at ORD is a legal, sane connection
-- 🟡 **DUB → MRS FR 4285**: observed €653 for 3. ⬜ bag and seat prices, bag-drop cutoff
-- ✅ **Fallback flights**: EI 514, Cork via LHR, Shannon, Kerry–Dublin all checked and ruled out (log)
+- 🟡 **Open-jaw CLE → DUB / EDI → CLE**: two one-ways seen, ~$3,470 for 3 (2026-11-02). ⬜ the multi-city price; parents pay
+- ✅ **Dublin → Inverness May 17**: EI 3372 13:45 → 15:20, $289 for 3 (2026-11-02). ⬜ bag fees
+- ✅ **Fallback DUB → EDI**: Ryanair and Aer Lingus, several that afternoon
 
 ## 2. Ireland ground
-- 🟡 **May 11 Dublin Airport → Dingle**: FlightLink 11:00 → Farranfore ✅ (departures, fare); 275 Tralee → Dingle ✅ (10 a day, last 22:00, NTA Oct 2026). ⬜ Farranfore → Tralee leg, and the FlightLink arrival time (inferred)
-- 🟡 **May 15 FlightLink 722**: every 2 h from Killarney, Farranfore +15 min, €39 online ✅; ⬜ dated May 2027 run, Dublin terminal stop, and whether a Kerry Airport → Dublin flight beats it
-- ⬜ **Family address**: decides Killarney vs Farranfore and the leave time
-- 🟡 **Dublin airport hotel fallback**: 2-person rate ✅, 3-person ⬜
-- ⬜ **Slea Head tour or driver**: not priced
-- 🟡 **2027 fares**: NTA's +15% average is known; per-route 2027 fares ⬜
+- 🟡 **May 11 Dublin Airport → Dingle**: FlightLink 11:00 ✅, Local Link 276 ✅, 275 Tralee → Dingle ✅. ⬜ the FlightLink arrival time (inferred), the Mission Road → bus station walk
+- ⬜ **Family address**: decides the May 11 route and the May 15 leave time for Kerry Airport
+- 🟡 **Ireland car, Kerry → Dublin**: Kayak $216–257 for 3 days, all manual (2026-11-02). ⬜ automatic price, whether the young-driver and one-way fees are inside, excess cover
+- 🟡 **Tarbert ferry**: half-hourly in May, €22.50 a car (secondary guide, 2026). ⬜ the operator's own May 2027 page
+- 🟡 **Cliffs of Moher**: ⬜ fee, hours, parking
+- 🟡 **Inis Mór**: Doolin Ferry Co times (page dated 2021) and fares. ⬜ 2027 timetable, bike hire price, Dún Aonghasa fee and hours
+- ⬜ **Doolin → Poulnabrone → Dublin Airport drive time** (needed for the 13:45 flight)
+- 🟡 **Doolin beds**: Expedia prices seen (2026-11-02). ⬜ hostels, B&Bs in the village
 
-## 3. Marseille base
-- ✅ **Shortlist of 4 apartments for 3** (log, trip Notes)
-- ⬜ **Two-bedroom apartments**: not priced
-- 🟡 **Sofa-bed dimensions and late check-in** per property
-- ✅ **Food and the day-to-day**: staples, value categories, *formule* rules, Sunday shop hours (trip Notes). 🟡 restaurant hours for Chez Étienne, Chez Sauveur, Chez Jeannot
-- 🟡 **Safety**: DW Travel (2025-07) found the centre fine; the dangerous reputation is the Quartiers Nord. 🔒 Reddit r/Marseille for current pickpocket hot spots
-
-## 4. Outings
-- 🟡 **Mucem / Notre-Dame**: current hours ✅, 2027 hours ⬜, Whit Monday operations ⬜
-- ✅ **Calanques access in May**: Sugiton reservations only June 20 – Aug 30 (2026); Cassis-side limits from June 1. Buses: B1 to Luminy, 78 to Cassis, 19 + 20 to Callelongue ✅. ⬜ the 2027 dates when they post
-- 🟡 **Cassis / Aix**: Cassis by bus 78 ✅; Aix TER fare ✅, the Aix bus option ⬜; Cassis boat ⬜
-- 🟡 **Frioul**: July 2026 sailings ✅, resident fares ✅; ⬜ visitor fare and May frequency
-- ✅ **Airport transfer**: A1 €15 / €7 ages 12–25; TER + 13A €8.70 (2026)
-- ⬜ **Sunsets**: not computed (never hand-typed)
+## 3. Scotland ground
+- ⬜ **Scotland car, Inverness → Edinburgh**: Kayak blocked. Europcar rents from 22 (~£30/day under-25 fee). ⬜ base price, one-way fee
+- ⬜ **Drive times**: Inverness → Portree, Portree → Glencoe, Glencoe → Edinburgh Airport (all unrouted)
+- ✅ **Dunvegan Castle**: Apr 1 – Oct 15, 10:00–17:30 (dunvegancastle.com). 🟡 £17.50 (secondary)
+- ✅ **Storr / Quiraing / Kilt Rock / Fairy Pools parking** (Highland Council, hiddenscotland.com, 2026 figures)
+- ⬜ **Eilean Donan, Edinburgh Castle**: fees, hours, booking
+- ✅ **Lost Valley**: 3.1 mi, 980 ft (AllTrails)
+- 🟡 **Beds**: Inverness, Glencoe, Edinburgh priced; **Skye thin and already scarce** (40 results for 3 nights, cheapest outside Portree). ⬜ hostels (SYHA Portree / Glencoe / Edinburgh, independents)
+- ⬜ **Skye in May on the ground**: midges, crowds, wet trails. Reddit r/Scotland / r/IsleOfSkye not swept yet
 
 ## Fetch list (Colin)
-- 🔒 `Day-by-day-timed-itinerary.md` and `Three-traveler-price-check.md` from the Windows PC: upload them to the chat or Drive and they get merged here
-- 🔒 **Reddit r/Marseille and r/ireland**: search "Calanques bus May", "Marseille pickpockets Vieux-Port", "Dublin airport to Dingle bus". Paste the top comments: current pickpocket spots, whether the B1 is packed on weekday mornings, and whether anyone did FlightLink → Farranfore → Tralee
-- 🔒 **Facebook "My South of France" (provencewithme)**: her En-Vau tips are in the first comment of the Nov 7, 2025 post. Paste them
+- 🔒 `Day-by-day-timed-itinerary.md` from the Windows PC (Ireland half), if it still matters
+- 🔒 Nothing walled for Scotland yet. Reddit goes through Apify next sweep
 
-## 5. Gems (AI-search round, 2026-10-30)
-- 🟡 **Dingle side**: Eask Tower, Dunquin Pier, Minard, Inch, Brandon Creek and Point, Glanteenassig, Blennerville. All from Instagram and Facebook posts cited by an AI search; the posts aren't opened (walled). ✅ Local Link 268/276/277a/277b exist (locallinkkerry.ie); ⬜ their May days and times
-- ✅ **Bibémus**: guided only, FR, €18, Fri 18:00 / Sat 10:00 (2026), no bus
-- 🟡 **Baie des Singes, Hôpital Caroline exterior, Marché des Capucins**: AI-cited posts; Caroline backed by official pages
-
+## 4. Gems (Dingle, AI-search round, 2026-10-30)
+- 🟡 Eask Tower, Dunquin Pier, Minard, Inch, Brandon Creek and Point, Glanteenassig, Blennerville. From Instagram and Facebook posts cited by an AI search; the posts aren't opened (walled). ✅ Local Link 268/276/277a/277b exist (locallinkkerry.ie)

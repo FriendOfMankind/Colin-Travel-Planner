@@ -71,7 +71,7 @@
   for: 3 friends, flying into Portland (headcount not locked)
   status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-10-15
-  checked: 2026-11-01  # days, beds, stops and total re-read against trip.md Days 21–30 and wishlist/august-friends-2027.md
+  checked: 2026-11-02  # the 2026-11-02 changes (an optional extension after Aug 10) don't touch Aug 1–10; days, beds, stops and total last re-read 2026-11-01
 
 - id: newfoundland-2027
   title: Newfoundland, June 10–19

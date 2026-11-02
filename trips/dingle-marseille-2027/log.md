@@ -196,3 +196,30 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 
 - **Base on Skye: Portree** *(Colin, 2026-11-02)*. Why: the most beds and food, between the Storr and the Fairy Pools *(hiddenscotland.com)*. The alternative was near Dunvegan.
 - **The pitch page is rebuilt for Ireland + Skye** at the same link, and asks for passport, room-sharing, hiking level and the Dingle family's yes. No cost total on it: nothing is priced yet, and the flights are covered.
+
+## 2026-11-02 · Pitch answers, and the first pricing sweep
+
+**From Colin, answering the pitch page** *(2026-11-02)*: passports are good, sharing a room is fine, and "plenty of hiking" (full versions of the walks).
+
+**Flights** (Google Flights via Firecrawl, observed 2026-11-02, one-way totals for 3 adults, economy, bags not included, not held):
+- **Dublin → Inverness exists for the date:** Aer Lingus **EI 3372**, Mon May 17, **13:45 → 15:20**, ATR 72, **US$289 for 3**. The only nonstop shown.
+- Fallback Dublin → Edinburgh the same day: Ryanair FR 814 16:05 → 17:15 or FR 808 20:40 → 21:50, $118 for 3; Aer Lingus EI 3556 17:50 → 19:10, $142 for 3.
+- **CLE → DUB May 10, EI 86** 20:40 → 08:45: **$1,043 for 3** as a one-way. Delta via Detroit and United via Dulles were $1,002.
+- **EDI → CLE May 24**, all one stop or two, $2,426–2,920 for 3. Cheapest: **American AA 279 EDI 11:25 → PHL 13:55, AA 5133 PHL 17:30 → CLE 19:10, $2,426**. Aer Lingus via Dublin with US preclearance there: EI 3553 09:40 → DUB 10:55, EI 87 16:05 → CLE 19:10, $2,493 (a 5 h wait, but immigration is done in Dublin); EI 3255 13:25 lands DUB 14:40 for the same EI 87, a 1 h 25 m connection that's tight with preclearance *(Claude's judgment)*. Delta via Boston $2,470; BA/AA via Heathrow and Chicago $2,449.
+- **Two one-ways: about $3,470 for 3.** A multi-city ticket wasn't priced (the tool doesn't do it) and may be cheaper. This is the parents' bill.
+
+**Ireland car, Kerry Airport → Dublin Airport, May 15 10:00 → May 17 12:00** (Kayak, driver age 22 entered, observed 2026-11-02): Hertz mini manual **$216**, Hertz economy manual $218, Thrifty economy manual $235, Avis $255, Budget $257, all totals. **Every cheap offer is a manual.** The page didn't say whether the young-driver fee or one-way fee is inside those totals. The automatic filter returned nothing readable.
+
+**Scotland car, Inverness → Edinburgh, May 17–22:** not priced. Kayak blocked the search.
+
+**Beds** (Expedia UK via Firecrawl, 3 adults in one room, totals incl. taxes, observed 2026-11-02; Expedia's "Doolin", "Glencoe" and "Portree" searches spill into nearby towns). Cheapest sensible options:
+- **Doolin, May 15–17 (2 nights):** Kinvara Guesthouse £233 (Kinvara, ~30 min north, *Claude's estimate*); The Hydro Hotel, Kilfenora £339; Hotel Woodstock, Ennis £400; a Wild Atlantic Way cottage near Lahinch £477. In Doolin itself: a cottage £698. 88 results.
+- **Inverness, May 17:** Loch Ness Drumnadrochit Hotel £139 (on the Day 9 road); Columba Hotel £192; North Kessock Hotel £201. 154 results.
+- **Skye, May 18–21 (3 nights): only 40 results, already.** A small log cabin (Strath, near Broadford) £540; Taigh Neilag cottage £652; a caravan £665; Isle of Skye Guest house £806. Nothing in Portree itself under ~£800 showed up.
+- **Glencoe, May 21:** Ox Hotel Spean Bridge £169; Caledonian Hotel, Fort William £179; Corran Bunkhouse £228. 26 results.
+- **Edinburgh, May 22–24 (2 nights):** Village Hotel £439; Cairn Hotel £531; The Scholar £557. 211 results.
+- **Not searched:** hostels (SYHA and independents), which don't list on Expedia and are likely cheaper for three.
+
+**Read of it:** beds come to roughly **£1,520–2,000 for the 9 nights for all three** (the cheapest line in each town vs. the next one up), about **£510–670 each**. Skye is the swing: the cheap options are a drive from Portree, and supply is already thin six months out *(Claude's arithmetic from the figures above)*.
+
+**Spend:** about 70 Firecrawl credits. No Apify calls.
