@@ -30,7 +30,7 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 18–21** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE May 24, one open-jaw ticket
@@ -58,7 +58,7 @@ booking:
   - system: private
     what: Portree, Skye, 3 nights May 18–21
     target: 2027-05-18
-    note: The scarce booking. "For May to September, book months ahead" (scotlandswild.com). Cheapest lead not yet priced for the dates is Portree Youth Hostel (Hostelling Scotland, open all year, private en-suite and family rooms, five minutes from the centre; hostellingscotland.org.uk, 2026-11), about $92–173 a room a night (Tripadvisor partner average, snippet), against £540+ for 3 nights on Expedia.
+    note: "Picked, not booked (Colin, 2026-11-02): Portree Youth Hostel, Hostelling Scotland, beds in a shared room for 3 adults, £319.50 for the 3 nights, paid in full at booking; towel hire £3 a person is optional (hostellingscotland.org.uk, quoted 2026-11-02). Nothing on Airbnb or Booking.com beat ~£330 (Colin). Cancellation terms not checked. The scarce booking: 'For May to September, book months ahead' (scotlandswild.com)."
   - system: private
     what: Glencoe, 1 night May 21
     target: 2027-05-21
@@ -95,7 +95,7 @@ page:
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with the friend's family. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley, and two nights in Edinburgh. Home from Edinburgh on Mon May 24.
+Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley, and two nights in Edinburgh. Home from Edinburgh on Mon May 24.
 
 ### Dates
 
@@ -103,15 +103,15 @@ May 10–24, 2027 (target). 15 days, 14 nights. Newfoundland leaves Wed May 26.
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), the friend whose family is in Dingle, and Colin's brother; the other two are 20 and 19** *(stated 2026-11-02)*, so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Possibly a 4th: Jake, a friend from near Belfast** (open question below), so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
-**It's the friend's family, his grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Why Skye
 
-**Ireland + Skye instead of Marseille** *(Colin, 2026-11-02: people he's talked to say Marseille "isn't the best"; he wants roots)*. Ireland is the friend's roots. **Colin and his brother are McLeods, and Skye is Clan MacLeod's homeland**: Dunvegan Castle has been the chiefs' seat for about 800 years *(dunvegancastle.com)*. **Skye over the Giant's Causeway** *(Colin, 2026-11-02)*. Colin's own line (grandfather Douglas McLeod, born in Detroit) isn't traced yet; see `log.md`. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
+**Ireland + Skye instead of Marseille** *(Colin, 2026-11-02: people he's talked to say Marseille "isn't the best"; he wants roots)*. Ireland is Stick's roots. **Colin and his brother are McLeods, and Skye is Clan MacLeod's homeland**: Dunvegan Castle has been the chiefs' seat for about 800 years *(dunvegancastle.com)*. **Skye over the Giant's Causeway** *(Colin, 2026-11-02)*. Colin's own line (grandfather Douglas McLeod, born in Detroit) isn't traced yet; see `log.md`. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
 
 ### Clocks
 
@@ -369,11 +369,11 @@ type: travel
 slack: Afternoon, once you're on Skye.
 driving: Inverness → Loch Ness → Eilean Donan → Skye Bridge → Skye (⚠️ unrouted)
 overnight:
-  name: TBD, Skye
+  name: Portree Youth Hostel (Hostelling Scotland)
   mapStandIn: Portree Harbour
   place: Portree, Isle of Skye
-  kind: B&B or cottage (not picked)
-  cost: TBD
+  kind: Hostel, beds in a shared room (picked, not booked)
+  cost: £319.50 for all 3, all 3 nights
 ```
 
 **Schedule**
@@ -398,11 +398,11 @@ tagline: Eight hundred years of the family name, then the lighthouse at the end 
 type: activity
 slack: Evening, unless you stay for Neist Point at sunset.
 overnight:
-  name: TBD, Skye
+  name: Portree Youth Hostel (Hostelling Scotland)
   mapStandIn: Portree Harbour
   place: Portree, Isle of Skye
-  kind: B&B or cottage (not picked)
-  cost: TBD
+  kind: Hostel, beds in a shared room (picked, not booked)
+  cost: £319.50 for all 3, all 3 nights
 ```
 
 **Schedule**
@@ -423,11 +423,11 @@ tagline: Park early, beat the coaches, two landslips before lunch.
 type: activity
 slack: Late afternoon.
 overnight:
-  name: TBD, Skye
+  name: Portree Youth Hostel (Hostelling Scotland)
   mapStandIn: Portree Harbour
   place: Portree, Isle of Skye
-  kind: B&B or cottage (not picked)
-  cost: TBD
+  kind: Hostel, beds in a shared room (picked, not booked)
+  cost: £319.50 for all 3, all 3 nights
 ```
 
 **Schedule**
@@ -552,7 +552,7 @@ slack: Unknown until the flight is booked.
 - [x] Newfoundland shift decided: it leaves Wed May 26, this trip lands Mon May 24 (2026-10-30)
 - [x] Third traveler: in, Colin's brother *(2026-10-30, 2026-11-02)*
 - [x] Parents pay the flights *(Colin, 2026-11-02)*
-- [ ] **Portree beds, 3 nights May 18–21**: book first, months ahead
+- [ ] **Portree Youth Hostel, May 18–21**: book it (£319.50 for 3, shared room, picked 2026-11-02). Check the cancellation terms first
 - [ ] Family: beds for May 11–14, and the May 15 lift to Kerry Airport (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [x] Dublin → Inverness flies Mon May 17: EI 3372 13:45 → 15:20 *(Google Flights, 2026-11-02)*
@@ -565,7 +565,7 @@ slack: Unknown until the flight is booked.
 
 ## Open questions
 
-### Can the friend's family confirm beds and the May 15 lift?
+### Can Stick's grandparents confirm beds and the May 15 lift?
 
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
@@ -575,7 +575,12 @@ Their address decides the May 11 route and the leave time for Kerry Airport on S
 **Blocks:** the Ireland car
 **Both cars are automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. Scotland is priced: Focus compact automatic $402 for the 5 days *(Kayak, 2026-11-02)*. Ireland isn't: every cheap Kerry → Dublin offer was a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
 
-**And the size.** The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
+**And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
+
+### Is a 4th person coming: Jake, from near Belfast?
+
+**Blocks:** car size, Portree beds, flights
+Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ### Which Edinburgh → home routing?
 
@@ -604,14 +609,15 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 | Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
 | Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
 | Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
-| Beds, 9 nights (cheapest → next up) | ~£1,520–2,000 | ~£510–670 | Observed, Expedia; hostels not searched |
+| Beds, Portree, 3 nights | £319.50 | £106.50 | Quoted by Hostelling Scotland 2026-11-02, shared room, not booked |
+| Beds, other 6 nights (cheapest → next up) | TBD | TBD | Expedia's ~£1,520–2,000 for 9 nights included Portree; Inverness, Glencoe, Edinburgh hostels not quoted yet |
 | Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
 
 **Fixed bits found:** Tarbert ferry €22.50 a car; Inis Mór return €25–47 each; Dunvegan £17.50 each; parking £6 (Storr), £6 (Quiraing), £3 (Kilt Rock), £8 (Fairy Pools) a car, all 2026 figures (sources in the days). Not counted yet: food, the Scotland car, insurance. The earlier ~US$3,300 each was the Marseille version with flights included; it's in `wishlist/marseille-may-2027.md`.
 
 ### The pitch page
 
-**"Dingle & Skye, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for the friend and Colin's brother. Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
+**"Dingle & Skye, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for Finn, Stick and Jake (Jake added 2026-11-02, with two ways to join). Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
 
 ### What this is built from
 
