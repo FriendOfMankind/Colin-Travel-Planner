@@ -30,7 +30,7 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Skye beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) check **Dublin → Inverness** flies in May 2027; (3) price the **CLE → DUB / EDI → CLE** open-jaw for the parents; (4) the two one-way cars (Europcar rents from 22). Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) check **Dublin → Inverness** flies in May 2027; (3) price the **CLE → DUB / EDI → CLE** open-jaw for the parents; (4) the two one-way cars (Europcar rents from 22). Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE May 24, one open-jaw ticket
@@ -56,7 +56,7 @@ booking:
     target: 2027-05-17
     note: Late arrival likely; check the desk hours.
   - system: private
-    what: Skye, 3 nights May 18–21 (Portree or near Dunvegan)
+    what: Portree, Skye, 3 nights May 18–21
     target: 2027-05-18
     note: The scarce booking. "For May to September, book months ahead" (scotlandswild.com).
   - system: private
@@ -371,7 +371,7 @@ driving: Inverness → Loch Ness → Eilean Donan → Skye Bridge → Skye (⚠�
 overnight:
   name: TBD, Skye
   mapStandIn: Portree Harbour
-  place: Isle of Skye (Portree or Dunvegan)
+  place: Portree, Isle of Skye
   kind: B&B or cottage (not picked)
   cost: TBD
 ```
@@ -379,7 +379,7 @@ overnight:
 **Schedule**
 - morning · drive · Down Loch Ness. · 📍 Urquhart Castle
 - midday · stop · **Eilean Donan**, the castle on the islet at the Skye road *(recalled; fee and hours not checked)*. · 📍 Eilean Donan Castle
-- afternoon · drive · Over the Skye Bridge to the base. **Portree has the most beds and places to eat on the island** *(hiddenscotland.com, 2026-09)* · 📍 Portree Harbour
+- afternoon · drive · Over the Skye Bridge to **Portree, the base for all three Skye nights** *(Colin, 2026-11-02)*. It has the most beds and places to eat on the island *(hiddenscotland.com, 2026-09)* · 📍 Portree Harbour
 
 **Meals**
 - B: Inverness
@@ -400,7 +400,7 @@ slack: Evening, unless you stay for Neist Point at sunset.
 overnight:
   name: TBD, Skye
   mapStandIn: Portree Harbour
-  place: Isle of Skye
+  place: Portree, Isle of Skye
   kind: B&B or cottage (not picked)
   cost: TBD
 ```
@@ -425,7 +425,7 @@ slack: Late afternoon.
 overnight:
   name: TBD, Skye
   mapStandIn: Portree Harbour
-  place: Isle of Skye
+  place: Portree, Isle of Skye
   kind: B&B or cottage (not picked)
   cost: TBD
 ```
@@ -552,7 +552,7 @@ slack: Unknown until the flight is booked.
 - [x] Newfoundland shift decided: it leaves Wed May 26, this trip lands Mon May 24 (2026-10-30)
 - [x] Third traveler: in, Colin's brother *(2026-10-30, 2026-11-02)*
 - [x] Parents pay the flights *(Colin, 2026-11-02)*
-- [ ] **Skye beds, 3 nights May 18–21**: book first, months ahead
+- [ ] **Portree beds, 3 nights May 18–21**: book first, months ahead
 - [ ] Family: beds for May 11–14, and the May 15 lift to Kerry Airport (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [ ] Dublin → Inverness: does it fly on Mon May 17, 2027, and when?
@@ -568,11 +568,6 @@ slack: Unknown until the flight is booked.
 
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
-
-### Where on Skye to base?
-
-**Blocks:** the Skye booking
-Portree has the most beds and food and sits between the Storr and the Fairy Pools *(hiddenscotland.com)*. Near Dunvegan is closer to the castle and Neist Point but further from Trotternish. Recommendation: Portree, unless a Dunvegan bed turns up first.
 
 ### Which Edinburgh → home routing?
 
@@ -603,7 +598,7 @@ The earlier ~US$3,300 each was the Marseille version with flights included; it's
 
 ### The pitch page
 
-**"Dingle & Marseille, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for the people joining. **It still shows the Marseille version**: rebuild it from this file before sending. It's private until Colin shares it *(made 2026-10-30)*.
+**"Dingle & Skye, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for the friend and Colin's brother. Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
 
 ### What this is built from
 

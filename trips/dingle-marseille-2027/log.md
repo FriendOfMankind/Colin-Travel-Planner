@@ -191,3 +191,8 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **The draft** (Days 6–15): Kerry Airport car → Tarbert ferry → Cliffs of Moher → Doolin ×2 (Inis Mór day) → the Burren → Dublin Airport → fly to Inverness → second car → Skye ×3 (Dunvegan day, Trotternish day, Fairy Pools) → Glencoe ×1 (Lost Valley) → Edinburgh ×2 → home from Edinburgh. Sources are inline in `trip.md`. Unchecked: every drive time, the May 2027 Dublin → Inverness schedule, every bed and both car prices.
 - **Title** changed to "Dingle & Skye". The slug stays `dingle-marseille-2027` so links, pins and the pitch page row keep working.
 - **The pitch page** still shows Marseille; `share/proposals.yaml` now says so.
+
+## 2026-11-02 · Decided: Portree for all three Skye nights; pitch page rebuilt
+
+- **Base on Skye: Portree** *(Colin, 2026-11-02)*. Why: the most beds and food, between the Storr and the Fairy Pools *(hiddenscotland.com)*. The alternative was near Dunvegan.
+- **The pitch page is rebuilt for Ireland + Skye** at the same link, and asks for passport, room-sharing, hiking level and the Dingle family's yes. No cost total on it: nothing is priced yet, and the flights are covered.
