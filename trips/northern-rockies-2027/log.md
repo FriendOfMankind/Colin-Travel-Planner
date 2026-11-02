@@ -344,3 +344,11 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Hikes vs. the ceiling** (~10 mi / ~2,500 ft, `me/hiking.md`): Sawtooth Lake from Iron Creek (~10 mi) is at the ceiling; Alice–Toxaway (17 mi, 3,000 ft) is well over it and would need a written reason or a cut-down version.
 - **Rough budget of days** to get home by ~Aug 25: ~4 days of driving from Stanley to Avon (~1,900 mi, *recalled, unrouted*) leaves about **4–5 Sawtooth nights plus 2–3 flex nights** after the Aug 10–11 transit *(Claude's arithmetic)*.
 
+## 2026-11-02 · The extension, made concrete
+
+- **Proposal written into `trip.md`** (open question "Extend the trip after Oregon"): Aug 10 PDX → Pendleton/La Grande, Aug 11 to Stanley, 5 Sawtooth nights (Aug 11–16), 0–5 flex nights, **leave the west by the morning of Aug 21** → home Aug 24 *(Claude's suggestion; still optional, Colin decides from the road)*.
+- **Outlet CG (Redfish Lake):** 19 sites, all reservable; $26 standard single / $52 double; peak season May 21 – Sep 16, 2027; max stay 10 nights; a reservation cutoff value of 4 (probably days) *(recreation.gov facility data via Firecrawl, 2026-11-02)*. Its release data shows a 6-month rolling window, which matches `me/booking.md`.
+- **Cancelling on recreation.gov:** $10, unless it's after 12:00 AM local the day before arrival, which also forfeits the first night *(recreation.gov rules page, snippet, 2026-11-02)*.
+- **Hike figures** *(AllTrails, 2026-11-02)*: Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft; Alice–Toxaway 18.8 mi / 3,116 ft (the earlier 17 mi / 3,000 ft came from discoversawtooth.org); Bench Lakes 8.2 / 1,190; Alpine Lake via Iron Creek 7.7 / 1,240; Fishhook Creek 4.6 / 262; Yellow Belly Lake 5.1 / 964.
+- Added an optional `booking:` row for the hold, so the briefing computes its window (**Thu Feb 11, 2027**).
+
