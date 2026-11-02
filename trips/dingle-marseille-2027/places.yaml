@@ -1,4 +1,4 @@
-# Dingle & Marseille — every place, with its coordinate if one was verified.
+# Dingle & Skye — every place, with its coordinate if one was verified.
 # verified:false with null lat/lng is the CORRECT answer for an unlocated place.
 # A coordinate needs a source. Never invent one.
 groups:
@@ -188,7 +188,165 @@ groups:
         lat: 52.15136
         lng: -10.056586
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Marseille
+  - group: Clare and Scotland (drafted 2026-11-02, unplaced)
+    places:
+      - name: "Kerry Airport"
+        note: "Day 6. Pick up the Ireland car (Europcar, Avis)."
+        maps: "Kerry Airport Farranfore"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Tarbert Ferry Terminal"
+        note: "Day 6. Tarbert → Killimer car ferry."
+        maps: "Tarbert Killimer ferry Tarbert"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Cliffs of Moher Visitor Centre"
+        note: "Day 6."
+        maps: "Cliffs of Moher Visitor Centre"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Doolin Pier"
+        note: "Days 6–7. Inis Mór ferry; stand-in for the Doolin bed."
+        maps: "Doolin Pier"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Doolin (village)"
+        note: "Day 6, evening music."
+        maps: "Doolin Co. Clare"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Kilronan, Inis Mór"
+        note: "Day 7. Ferry landing, bike hire."
+        maps: "Kilronan Inis Mór"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Dún Aonghasa"
+        note: "Day 7."
+        maps: "Dún Aonghasa"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Poulnabrone Dolmen"
+        note: "Day 8."
+        maps: "Poulnabrone Dolmen"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Inverness Airport"
+        note: "Day 8. Fly in, pick up the Scotland car."
+        maps: "Inverness Airport"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Urquhart Castle"
+        note: "Day 9, Loch Ness."
+        maps: "Urquhart Castle"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Eilean Donan Castle"
+        note: "Day 9."
+        maps: "Eilean Donan Castle"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Portree Harbour"
+        note: "Days 9–11. Stand-in for the Skye bed."
+        maps: "Portree Harbour"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Dunvegan Castle"
+        note: "Day 10. Clan MacLeod seat."
+        maps: "Dunvegan Castle"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Coral Beach, Skye"
+        note: "Day 10."
+        maps: "Coral Beach Skye"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Neist Point Lighthouse"
+        note: "Day 10, sunset."
+        maps: "Neist Point Lighthouse"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Old Man of Storr car park"
+        note: "Day 11, park by 7:30."
+        maps: "Old Man of Storr car park"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Kilt Rock Viewpoint"
+        note: "Day 11."
+        maps: "Kilt Rock Viewpoint"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Quiraing car park"
+        note: "Day 11."
+        maps: "Quiraing car park"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Fairy Glen, Skye"
+        note: "Day 11, optional."
+        maps: "Fairy Glen Skye"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Fairy Pools car park"
+        note: "Day 12."
+        maps: "Fairy Pools car park"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Glencoe Village"
+        note: "Day 12. Stand-in for the Glencoe bed."
+        maps: "Glencoe Village"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Lost Valley car park, Glencoe"
+        note: "Day 13. Coire Gabhail trailhead."
+        maps: "Lost Valley Glencoe car park"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Edinburgh Airport"
+        note: "Days 13 and 15. Car return; home."
+        maps: "Edinburgh Airport"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Edinburgh Waverley"
+        note: "Days 13–14. Stand-in for the Edinburgh bed."
+        maps: "Edinburgh Waverley"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Arthur's Seat"
+        note: "Day 14."
+        maps: "Arthur's Seat"
+        verified: false
+        lat: null
+        lng: null
+      - name: "Edinburgh Castle"
+        note: "Day 14."
+        maps: "Edinburgh Castle"
+        verified: false
+        lat: null
+        lng: null
+  - group: "Marseille (the Marseille alternative, not the plan since 2026-11-02)"
     places:
       - name: Vieux-Port
         note: Days 7 and 13 (fish sellers, evenings).
@@ -253,7 +411,7 @@ groups:
         lat: 43.295001
         lng: 5.373998
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Calanques, Cassis, Aix
+  - group: "Calanques, Cassis, Aix (the Marseille alternative, not the plan since 2026-11-02)"
     places:
       - name: Port de Cassis
         note: Day 10 afternoon.
@@ -395,7 +553,7 @@ groups:
         lat: 43.455179
         lng: 5.317289
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Marseille apartments (shortlist, none booked)
+  - group: "Marseille apartments (shortlist, none booked) (the Marseille alternative, not the plan since 2026-11-02)"
     places:
       - name: Staycity Aparthotels Centre Vieux Port
         note: Best balance so far. 24 h desk.

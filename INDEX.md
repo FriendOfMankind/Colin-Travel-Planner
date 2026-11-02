@@ -27,8 +27,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & Marseille** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 5 open questions · 58/58 places located · log 13 entries · updated 2026-10-30
-  ⚠️ Two transfer days decide whether this trip works, and neither is a verified chain yet. **May 11:** Dublin Airport → Dingle by public transport is a 7½-hour planning block, not a timetable. **May 15:** a family lift to…
+- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 3 open questions · 58/84 places located · log 14 entries · updated 2026-11-02
+  ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 17:** a ~3-hour drive to…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 53 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 9 open questions · 64/64 places located · log 17 entries · updated 2026-10-30
@@ -90,7 +90,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   A country whose camping law already matches how he camps
 - **Idaho Boys Trip** (`wishlist/idaho-boys.md`) · Boise → Lowman → Stanley → Twin Falls (BOI round trip) · fly · keeps (derived) · Jul/Aug · 9 days · 2 research notes · updated 2026-10-29
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
-- **Athens + Kerry (May, the alternative)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 13 days · 3 research notes · updated 2026-10-30
+- **Athens + Kerry (May, the alternative)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 13 days · 3 research notes · updated 2026-11-02
   The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora
 - **Japan** (`wishlist/japan.md`) · Japan · fly · keeps (derived) · May/Oct · 12 days · 1 research note · updated 2026-11-01
   Culture and cities, in hotels
@@ -100,6 +100,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
   Four hours away and never once mentioned
+- **Marseille (May, the alternative)** (`wishlist/marseille-may-2027.md`) · Marseille, the Calanques, Cassis, Aix-en-Provence · fly · keeps · May · 10 days · updated 2026-11-02
+  The Marseille half of the May 2027 trip, as planned before it turned into Ireland + Skye. Nine nights of the old port, the Calanques, Cassis and Aix
 - **Full Circle Maui** (`wishlist/maui.md`) · Maui, Hawaii · fly · keeps (derived) · May · 8 days · 2 research notes · updated 2026-11-01
   Counterclockwise island loop — reef, lava field, rainforest and a 10,000 ft summit
 - **Mojave Winter Loop** (`wishlist/mojave-winter.md`) · Las Vegas → Valley of Fire → Death Valley → Mojave Preserve → Joshua Tree · fly · keeps (derived) · Dec/Jan/Feb · 14 days · 1 research note · updated 2026-10-29

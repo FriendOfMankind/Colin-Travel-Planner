@@ -181,3 +181,13 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **Ages don't add up:** "20, 19, 29" versus "all 25 or under" on 2026-10-30. Open question in `trip.md`.
 - **Parents may pay the flights if the trip stays Ireland and Scotland** *(Colin, 2026-11-02, "I think", not confirmed)*.
 - `trip.md`: `next:`, Group and the city section updated. The day-by-day stays Marseille until the Ireland + Skye version is drafted.
+
+## 2026-11-02 · Decided: Ireland + Skye, drafted
+
+- **Ireland + Skye is the plan; Marseille is out** *(Colin, 2026-11-02: "consider it a yes, and yeah run a draft")*. The Marseille days, notes, budget and apartment shortlist moved unchanged to `wishlist/marseille-may-2027.md`. Its road lines (`routes/day-6` to `day-15`) were Marseille days and are removed; `tools/roads.py` can redraw them if it comes back. Its places stay in `places.yaml`, labelled as the alternative.
+- **Parents pay the flights**: confirmed *(Colin, 2026-11-02)*. Was "I think".
+- **Ages: Colin 22, the other two 20 and 19.** There is no 29-year-old *(Colin, 2026-11-02: "my bad no 29 year old, i meant 19")*. Everyone is still under 25, so the 2026-10-30 line stands and the open question is closed.
+- **Colin drives everything** and accepts that *(Colin, 2026-11-02: "ill get better at it, i will also prepare beforehand and learn driving rules and practice")*. Planning rule set from it: no road day over ~4 hours behind the wheel.
+- **The draft** (Days 6–15): Kerry Airport car → Tarbert ferry → Cliffs of Moher → Doolin ×2 (Inis Mór day) → the Burren → Dublin Airport → fly to Inverness → second car → Skye ×3 (Dunvegan day, Trotternish day, Fairy Pools) → Glencoe ×1 (Lost Valley) → Edinburgh ×2 → home from Edinburgh. Sources are inline in `trip.md`. Unchecked: every drive time, the May 2027 Dublin → Inverness schedule, every bed and both car prices.
+- **Title** changed to "Dingle & Skye". The slug stays `dingle-marseille-2027` so links, pins and the pitch page row keep working.
+- **The pitch page** still shows Marseille; `share/proposals.yaml` now says so.
