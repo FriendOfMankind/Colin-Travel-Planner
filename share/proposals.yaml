@@ -41,14 +41,14 @@
   asOf: 2026-11-01
 
 - id: dingle-marseille-2027
-  title: Dingle & Marseille, May 10–24
+  title: Dingle & Skye, May 10–24
   url: https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf
   format: page
   source: share/proposals/dingle-marseille-2027.html
   trip: dingle-marseille-2027
   for: the people joining (3 of us, per the page)
   status: draft  # not sent yet (Colin, 2026-11-01)
-  asOf: 2026-10-30
+  asOf: 2026-11-02
 
 - id: athens-may-2027
   title: Athens, May 13–20

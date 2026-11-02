@@ -170,3 +170,29 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **Day 5 has no line:** it's two alternatives (east by bus, or north to Brandon Creek), so it gets one once Colin picks.
 - **Added unplaced, for pins:** Cleveland Hopkins, Marseille Provence Airport, Dingle (town), Vieux-Port, Castellane, Port de Cassis, Gare d'Aix-en-Provence Centre, Cours Mirabeau. All were `📍` stops with no `places.yaml` entry. Day 13's `📍` now matches the Frioul ferry place that already existed.
 - **Road lines** for days 2–4 and 6–13 come from `tools/roads.py` (Overture Maps 2026-10-21.0). Read the bus and metro days as "between here and there", not the bus's path. Day 13 takes the Frioul boat. Days 1 and 15 get lines once the two airports are pinned, and day 5 once it's picked.
+
+## 2026-11-02 · Leaning Ireland + Skye instead of Marseille
+
+- **Why it's moving:** people Colin talked to say Marseille "isn't the best", and he wants to stay in Ireland, maybe Scotland, to "connect to our roots" *(Colin, 2026-11-02)*. Claude's pushback: what people usually knock is Marseille the city, but the plan's value was the Calanques, Cassis and Aix, and dropping it drops those. For Ireland: it kills the May 15 coach + separate Ryanair ticket chain (the trip's top warning) and the unfound May 24 return.
+- **Roots:** the Dingle family is the friend's grandparents. Colin's own: grandfather **Douglas McLeod, born in Detroit**; great-grandparents "like Canadian"; probably a mix of Irish, Scottish and English *(recalled, Colin, 2026-11-02)*. McLeod is a Highland clan from Skye, Lewis and Harris, seated at **Dunvegan Castle**, open daily 1 Apr – 15 Oct *(source: dunvegancastle.com, 2026-11)*; visiting MacLeods sign a clan visitors' book *(source: clanmacleod.org)*. Hypothesis, not checked: a Detroit-born McLeod with Canadian parents likely came over from Ontario. Next step for research: Douglas's birth year and his parents' names; the 1950 US census is free.
+- **The third traveler is Colin's brother** *(Colin, 2026-11-02)*, also a McLeod, which is why Skye "becomes cooler".
+- **Skye over the Giant's Causeway** if it comes to one *(Colin, 2026-11-02: "probably skye right?", Claude agreed)*.
+- **Only Colin drives** *(Colin, 2026-11-02)*. He's 22. Rental facts for under-25s: Ireland, Sixt from 21 with 4 years licensed and €38/day under 25 *(sixt.ie T&Cs, Jan 2026)*; Europcar Ireland from 22, a fee through 25 and no Super CDW under 26 *(Europcar tariff guide, Aug 2025)*. Scotland: Europcar from 22, about £30/driver/day *(myhighlands.de, 2026-09)*; Hertz UK says 21+; Enterprise and Alamo at Glasgow want 25 *(their branch pages)*. An Irish rental can't sensibly cross to Scotland, so it's two rentals *(Rick Steves forum; Enterprise lists a £325 cross-border fee)*.
+- **Ages don't add up:** "20, 19, 29" versus "all 25 or under" on 2026-10-30. Open question in `trip.md`.
+- **Parents may pay the flights if the trip stays Ireland and Scotland** *(Colin, 2026-11-02, "I think", not confirmed)*.
+- `trip.md`: `next:`, Group and the city section updated. The day-by-day stays Marseille until the Ireland + Skye version is drafted.
+
+## 2026-11-02 · Decided: Ireland + Skye, drafted
+
+- **Ireland + Skye is the plan; Marseille is out** *(Colin, 2026-11-02: "consider it a yes, and yeah run a draft")*. The Marseille days, notes, budget and apartment shortlist moved unchanged to `wishlist/marseille-may-2027.md`. Its road lines (`routes/day-6` to `day-15`) were Marseille days and are removed; `tools/roads.py` can redraw them if it comes back. Its places stay in `places.yaml`, labelled as the alternative.
+- **Parents pay the flights**: confirmed *(Colin, 2026-11-02)*. Was "I think".
+- **Ages: Colin 22, the other two 20 and 19.** There is no 29-year-old *(Colin, 2026-11-02: "my bad no 29 year old, i meant 19")*. Everyone is still under 25, so the 2026-10-30 line stands and the open question is closed.
+- **Colin drives everything** and accepts that *(Colin, 2026-11-02: "ill get better at it, i will also prepare beforehand and learn driving rules and practice")*. Planning rule set from it: no road day over ~4 hours behind the wheel.
+- **The draft** (Days 6–15): Kerry Airport car → Tarbert ferry → Cliffs of Moher → Doolin ×2 (Inis Mór day) → the Burren → Dublin Airport → fly to Inverness → second car → Skye ×3 (Dunvegan day, Trotternish day, Fairy Pools) → Glencoe ×1 (Lost Valley) → Edinburgh ×2 → home from Edinburgh. Sources are inline in `trip.md`. Unchecked: every drive time, the May 2027 Dublin → Inverness schedule, every bed and both car prices.
+- **Title** changed to "Dingle & Skye". The slug stays `dingle-marseille-2027` so links, pins and the pitch page row keep working.
+- **The pitch page** still shows Marseille; `share/proposals.yaml` now says so.
+
+## 2026-11-02 · Decided: Portree for all three Skye nights; pitch page rebuilt
+
+- **Base on Skye: Portree** *(Colin, 2026-11-02)*. Why: the most beds and food, between the Storr and the Fairy Pools *(hiddenscotland.com)*. The alternative was near Dunvegan.
+- **The pitch page is rebuilt for Ireland + Skye** at the same link, and asks for passport, room-sharing, hiking level and the Dingle family's yes. No cost total on it: nothing is priced yet, and the flights are covered.
