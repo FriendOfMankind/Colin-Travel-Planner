@@ -9,6 +9,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 1. **Read the briefing.** The session-start hook runs `tools/now.mjs` and prints it into your context: the next trip and its countdown, open questions, `/preflight` dates, booking windows, gear gaps and recent changes. If you don't see it (a claude.ai chat with no hook), run `node tools/now.mjs` yourself. If you can't run code, read `INDEX.md`.
 2. **If Colin opens with something vague** ("hey", "what's up", "where are we"), lead with the briefing's top 2–3 items in plain words, then ask what he wants. Don't dump the whole briefing.
 3. **For anything specific,** read `INDEX.md`, then open only the files the question needs.
+4. **Read sections, not whole trips.** A `trip.md` runs to ~100 KB (~25k tokens); a day is ~2 KB. Start with `node tools/show.mjs <slug>` (every heading, with its lines and size), then pull what the question needs: `day 5`, a date, any heading (`hikes`), `front`, `--log decided`, `--log --last 5`. Each print starts with `path:start-end`, so an edit goes straight there. Read a whole trip file only when the change touches all of it.
 
 ## Where things live
 
@@ -16,7 +17,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 |---|---|
 | Who he is, what he likes, gear, calendar, rules | `me/*.md` (one topic each) |
 | A trip's plan | `trips/<slug>/trip.md` |
-| What actually happened / past experience | `trips/<slug>/log.md` |
+| What actually happened / past experience, and every decision | `trips/<slug>/log.md` |
+| The raw findings behind a fact (sweeps, Reddit, YouTube, pasted threads, with sources) | `trips/<slug>/research-log.md` |
 | Where a place is | `trips/<slug>/places.yaml` |
 | A day's road line (GPX, with source) | `trips/<slug>/routes.yaml` → `routes/*.gpx` |
 | Mapping a trip, start to finish (pins, roads, My Maps, Organic Maps, Kepler) | `docs/MAPS.md` |
@@ -47,13 +49,14 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | "what about …" / "daydream" / "save that spot" | `/daydream` | `wishlist/`, `bucket.yaml` | yes, if only those |
 | "am I ready?" | `/preflight` | nothing; it reports | n/a |
 | "the trip's over" | `/retro <slug>` | log + `me/` | no, Colin merges |
-| "research …" / "do a sweep" / "youtube research" | `/research` | log, `research.md`, plain facts in `trip.md` | no, Colin merges |
+| "research …" / "do a sweep" / "youtube research" | `/research` | `research-log.md`, `research.md`, plain facts in `trip.md` (+ a line in log) | no, Colin merges |
 | "check my email" / "what's booked?" | `/inbox` | `booking:` rows, log | yes, if only booking marks |
 | "garden" / "what's stale" / "sweep for contradictions" | `/gardener` | fixes he picks, `garden/` | only if `garden/`-only |
 
 ## Changing things
 
 - **Every change is a file edit on a branch, then a PR into `main`.** `main` is the memory: an unmerged note is invisible to the next session. The skills above say when they may merge themselves. Everything else waits for Colin.
+- **CI merges the narrow ones too.** A `claude/*` PR into `main` that only touches logs, `me/`, `kitchen/`, `wishlist/`, `bucket.yaml` or `garden/` (plus `INDEX.md`), under 80 changed lines, merges itself once checks pass, and Pages redeploys (`.github/workflows/check.yml`). The label `hold` stops it. Anything touching a `trip.md`, a tool, a skill or a page still waits for Colin. Before saying "merged", confirm it with `git merge-base --is-ancestor`.
 - **Branch discipline** (the mixups this prevents are in `docs/GUIDE.md`):
   - Start from the latest `main`. If the briefing's branch check says "behind", run `git pull origin main` first.
   - One branch and one PR per piece of work, always **into** `main`. Never open a PR *from* `main`.
@@ -100,7 +103,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 npm install            # the session hook does this
 npm test               # format, trips, wishlist, bucket and date tests
 node tools/now.mjs     # the briefing (optionally: a YYYY-MM-DD to preview a date)
-node tools/garden.mjs  # the gardener's free mechanical drift pass (--json, --scope)
+node tools/show.mjs <slug> [day N | date | heading | front] [--log|--research] [--last N]  # one part of a trip, not all 100 KB
+node tools/garden.mjs  # the gardener's free mechanical drift pass (--json, --scope); CI runs it on every push, report only
 node tools/index.mjs   # regenerate INDEX.md (--check in CI)
 node tools/macros.mjs  # recompute kitchen/staples.md totals (--check in CI)
 node tools/build.mjs   # site/: index.html (the claude.ai page) plus sw.js, manifest, icons, booking-alarms.ics for Pages
@@ -109,12 +113,13 @@ node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified 
 node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
 node tools/kml.mjs <slug>     # site/maps/<slug>-lines.kml + -pins.kml: Google My Maps, two layers (build runs it)
 node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
+node tools/mymaps.mjs [<slug> <file.kml>]  # is each trip's My Map (`mymaps:` in trip.md) still current? Weekly in CI; needs google.com, so in a session pass a Firecrawl-scraped file
 python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)
 ```
 
 ## What's built, what's next
 
-Built: the file format, `me/`, 7 trips (three done), 50 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the eight skills (`/inbox` added 2026-10-29; `/gardener` 2026-10-30, a free mechanical pass in the briefing plus finder and verifier agents in `.claude/agents/`), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: Google My Maps KML for the phone with signal (`tools/kml.mjs`), Organic Maps GPX packs with no signal, Kepler files on a computer, real road lines (`tools/roads.py`) and the Pin Ledger, all in the `docs/MAPS.md` workflow (2026-10-30; the site's own Map tab was removed that day for lagging on a phone), the briefing, and the session hook. Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
+Built: the file format, `me/`, 7 trips (three done), 50 ideas, the bucket list (`bucket.yaml`, seeded 2026-09-30), the kitchen, the site (a private claude.ai page, plus the offline copy at https://friendofmankind.github.io/Colin-Travel-Planner/, deployed by `.github/workflows/pages.yml` on every push to `main` since 2026-10-30), the eight skills (`/inbox` added 2026-10-29; `/gardener` 2026-10-30, a free mechanical pass in the briefing plus finder and verifier agents in `.claude/agents/`), calendar alarms (`tools/ics.mjs`), offline packs (`tools/pack.mjs`), maps: Google My Maps KML for the phone with signal (`tools/kml.mjs`), Organic Maps GPX packs with no signal, Kepler files on a computer, real road lines (`tools/roads.py`) and the Pin Ledger, all in the `docs/MAPS.md` workflow (2026-10-30; the site's own Map tab was removed that day for lagging on a phone), the briefing, the session hook, and (2026-11-02) the section reader (`tools/show.mjs`), a `research-log.md` per trip so `log.md` holds decisions and what happened, CI that reports garden drift and merges narrow PRs, and a weekly My Maps staleness check (`tools/mymaps.mjs`). Trees (`FriendOfMankind/Trees`) was frozen on 2026-09-29. It's a read-only snapshot that still holds the old recipe library and `mapbench.html`.
 
 Next, in order. Change this list when one lands:
 1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.

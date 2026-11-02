@@ -112,7 +112,7 @@ export function tripKml(slug, g) {
   return out;
 }
 
-const geoOf = (slug) => {
+export const geoOf = (slug) => {
   const groups = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups ?? [] : [];
   return tripGeo(slug, read(`trips/${slug}/trip.md`), groups, loadRoutes(slug));
 };

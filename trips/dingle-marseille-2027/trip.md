@@ -17,6 +17,7 @@ region: Cleveland → Dublin → Dingle → Doolin → Dublin → Inverness → 
 states: [ IE, GB ]
 country: Ireland, Scotland
 coords: [ 55, -7 ]
+mymaps: 1OEss3hq9FmWO11ZhM7HtJ4KaRPwgyJA  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 14 (1 plane, 4 Dingle, 2 Doolin, 1 Inverness, 3 Skye, 1 Glencoe, 2 Edinburgh)
 distance: Coaches to Dingle, then two one-way rental cars (Kerry → Dublin, Inverness → Edinburgh) with Colin the only driver. ⚠️ Unrouted
 budget: TBD. Parents are paying the flights (Colin, 2026-11-02). Cars, beds and the Dublin → Inverness flight aren't priced (see Notes)

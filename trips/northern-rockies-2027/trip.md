@@ -17,6 +17,7 @@ region: Avon OH → IA → NE → WY → MT → ID → WA → OR (boys week, Aug
 states: [ WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
+mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 33 nights
 distance: ⚠️ ~6,000+ mi, unrouted
 budget: TBD — the old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share, `wishlist/august-friends-2027.md`), a solo Hood River night and a ~2,400 mi drive home aren't added up yet

@@ -144,6 +144,7 @@
           <div><b>${t.located.verified}/${t.located.total}</b><span>places located</span></div>
           <div><b>${t.questions.length}</b><span>open questions</span></div>
         </div>
+        ${t.mymaps ? `<div class="links"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/d/viewer?mid=${encodeURIComponent(t.mymaps)}">My Map ↗</a></div>` : ""}
       </div>
       <nav class="seg" aria-label="Trip sections">${tabs.map(([k, l, n]) => `<a href="#t-${t.slug}-${k}" ${k === sec ? 'aria-current="page"' : ""}>${l}${n ? `<span class="count">${n}</span>` : ""}</a>`).join("")}</nav>`;
   }

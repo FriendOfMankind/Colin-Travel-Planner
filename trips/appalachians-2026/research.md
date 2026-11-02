@@ -1,6 +1,6 @@
 # Bridge Day + Southern Appalachians: research tree
 
-What's known, what's thin, and what's still a gap, leg by leg. Findings live in `log.md` (dated, with sources); this file is the map. Refreshed by `/research`.
+What's known, what's thin, and what's still a gap, leg by leg. Findings live in `research-log.md` (dated sweeps, with sources) and decisions in `log.md`; this file is the map. Refreshed by `/research`.
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
