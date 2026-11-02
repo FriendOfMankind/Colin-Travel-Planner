@@ -30,7 +30,7 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **manual or automatic?** decides the car price; (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE May 24, one open-jaw ticket
@@ -556,7 +556,7 @@ slack: Unknown until the flight is booked.
 - [ ] Family: beds for May 11–14, and the May 15 lift to Kerry Airport (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [x] Dublin → Inverness flies Mon May 17: EI 3372 13:45 → 15:20 *(Google Flights, 2026-11-02)*
-- [ ] Manual or automatic: decides both car prices
+- [x] Automatic, both cars *(Colin, 2026-11-02)*
 - [ ] Open-jaw CLE → DUB / EDI → CLE priced, with real margin at the US entry airport
 - [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
 - [ ] Doolin, Inverness, Glencoe and Edinburgh beds
@@ -570,10 +570,10 @@ slack: Unknown until the flight is booked.
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
-### Manual or automatic?
+### What does an automatic cost in Ireland?
 
-**Blocks:** both cars
-Every cheap Ireland offer on 2026-11-02 was a manual (Hertz mini, $216 for the 3 days); an Ireland automatic still isn't priced (a second Kayak search for Kerry → Dublin returned no offers). **In Scotland, automatic adds about $70 for the 5 days**: Focus compact $335 manual vs $402 automatic *(Kayak, 2026-11-02)*. Shifting with the left hand while learning the left side of the road is extra load for the only driver.
+**Blocks:** the Ireland car
+**Both cars are automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. Scotland is priced: Focus compact automatic $402 for the 5 days *(Kayak, 2026-11-02)*. Ireland isn't: every cheap Kerry → Dublin offer was a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
 
 **And the size.** The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
 
@@ -602,8 +602,8 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 | --- | --- | --- | --- |
 | Transatlantic flights (two one-ways) | ~$3,470 | ~$1,157 | Observed; **parents pay** |
 | Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
-| Ireland car, 3 days, manual | $216–257 | ~$72–86 | Observed; young-driver and one-way fees may be extra |
-| Scotland car, 5 days | $335 manual / $402 automatic (compact), + ~£150 under-25 fee | ~$112 / ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
+| Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
+| Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
 | Beds, 9 nights (cheapest → next up) | ~£1,520–2,000 | ~£510–670 | Observed, Expedia; hostels not searched |
 | Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
 

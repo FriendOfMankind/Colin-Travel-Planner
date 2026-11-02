@@ -246,3 +246,7 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
   - A day can wash out; waterproof trousers, not just boots *(r/Skye, 2025-09-15)*. Cuchullin in Portree takes no reservations *(r/Skye, 2026-10-29)*.
 - **Spend:** ~9 Firecrawl credits, then out. Apify hit the account's monthly cap: an uncapped car scrape pulled 1,236 rows when ~60 were needed *(Claude's mistake)*.
 
+## 2026-11-02 · Decided: automatic, both cars
+
+- **Automatic for both rentals** *(Colin, 2026-11-02)*: "less of a headache on already novel roads"; the ~$23 each in Scotland isn't worth arguing over. Was the open question "Manual or automatic?". The Ireland automatic still needs a price.
+- **No pitch page has been sent yet** *(Colin, 2026-11-02)*: Sky Islands, Dingle, Oregon and Adirondacks all stay `draft`.
