@@ -17,6 +17,7 @@ region: Avon OH → Acadia → Fundy → Cape Breton → Newfoundland → Labrad
 states: [ OH, NY, ME, NB, NS, NL ]
 country: Canada
 coords: [ 49, -56 ]
+mymaps: 1vTXdAYpegjzytLlLT4KvreO_DMyV1WU  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 29 nights
 distance: ~5,700 mi + four ferry crossings
 budget: ~US$3,100 core as camped (2026-10-04); the friends' hotel week and the night-5 Port aux Basques motel add to it and aren't recomputed

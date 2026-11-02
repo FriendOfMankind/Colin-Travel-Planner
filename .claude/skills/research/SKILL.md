@@ -15,7 +15,7 @@ Read `me/research.md` first. It holds his preferences, and they override anythin
   - 🟡 **thin**: partly known, or only secondhand, or out of date
   - ⬜ **gap**: nothing yet
   - 🔒 **walled**: the answer lives where I can't read it, so it goes on the fetch list
-- Read `log.md` before marking anything. Don't re-research what's already logged.
+- Read `research-log.md` (earlier sweeps) and `log.md` (decisions) before marking anything. Don't re-research what's already logged. Skim with `node tools/show.mjs <slug> --research` first; open only the entries you need.
 
 ## 2. Pick targets
 
@@ -35,8 +35,9 @@ Go for ⬜ and 🟡 leaves that **could hurt him or kill a day** (`CLAUDE.md` ru
 
 ## 4. Write it down
 
-- **`log.md`**: one dated entry per sweep. Group findings by source, and put the uploader, date and trip month on every video. Quote the useful lines.
-- **`trip.md`**: apply facts in place, with provenance. The old value goes in this sweep's `log.md` entry, not inline (no "(was: …)" in `trip.md`). **Decisions don't go in.** A change of plan is a question for Colin, multiple choice.
+- **`research-log.md`**: one dated entry per sweep, newest last (create the file with the same frontmatter and header as the other trips' if it doesn't exist). Group findings by source, and put the uploader, date and trip month on every video. Quote the useful lines. For an idea, the dated research note goes in `wishlist/<slug>.md` as before.
+- **`log.md`**: only if the sweep changed `trip.md`. One short dated entry naming what changed, the old value and why, pointing at the sweep in `research-log.md`. Raw findings never go here: `log.md` is decisions and what happened.
+- **`trip.md`**: apply facts in place, with provenance. The old value goes in that short `log.md` entry, not inline (no "(was: …)" in `trip.md`). **Decisions don't go in.** A change of plan is a question for Colin, multiple choice.
 - **The tree**: update each leaf you touched (status, best sources, the open question), and date it.
 - Run `npm test && node tools/index.mjs`. Then branch, PR, and end with "⚠️ not in memory yet, merge PR #N".
 

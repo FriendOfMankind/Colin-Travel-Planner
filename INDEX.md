@@ -27,18 +27,18 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 54/54 places located · log 20 entries · updated 2026-11-02
+- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 10–24, 2027 (target, unbooked) · 15 days · 4 open questions · 54/54 places located · log 14 entries · updated 2026-11-02
   ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 17:** a ~3-hour drive to…
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 53 entries · updated 2026-10-30
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 43 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 10 open questions · 64/64 places located · log 19 entries · updated 2026-10-30
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 10 open questions · 64/64 places located · log 18 entries · updated 2026-10-30
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
 - **Sky Islands** (`trips/sky-islands-2027/`) · outline · Mar 6–14, 2027 (target, unbooked) · 9 days · 5 open questions · 26/26 places located · log 14 entries · updated 2026-10-27
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Done
 
-- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 34 entries · retro written · updated 2026-10-21
+- **Bridge Day + Southern Appalachians** (`trips/appalachians-2026/`) · done · Oct 16–25, 2026 · 10 days · 7 open questions · 9/38 places located · log 32 entries · retro written · updated 2026-10-21
   BASE jumpers watched from the gorge floor, three coal ghost towns, and a sunrise on Hawksbill during peak color week — with two unreservable nights on a forest road as the price.
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
@@ -199,5 +199,7 @@ By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 ·
 
 - `trip.md`: the plan. Frontmatter holds the registry facts (dates, status, bookings); the body has Overview, Days, Hikes, Provisions, Packing, Reservations & checks, Open questions and Notes.
 - `places.yaml`: every place with its coordinate, or `verified: false` and null if nobody has located it.
-- `log.md`: what actually happened. Planning history, on-trip notes, the retro. **Past experience lives here.**
+- `log.md`: what actually happened. Decisions, plan changes, on-trip notes, the retro. **Past experience lives here.**
+- `research-log.md`: the raw findings from research sweeps (sources, quotes, transcripts). Open it for the source behind a fact, not for what happened.
+- **Big files:** `node tools/show.mjs <slug>` lists a trip's headings with sizes; `node tools/show.mjs <slug> day 5` (or a date, or any heading) prints just that part. A whole trip.md is up to ~25k tokens; a day is ~500.
 - `_gen/`: generated (sun tables, route lines). Don't read it for answers; don't edit it.

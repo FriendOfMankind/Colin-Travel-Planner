@@ -1,0 +1,44 @@
+# Weekly: is each trip's Google My Map (the `mymaps:` id in its trip.md)
+# still what the repo would draw? My Maps is a one-time import, so it goes
+# stale silently when pins, beds or roads change. A GitHub runner can reach
+# google.com; a Claude session can't, which is why this lives here.
+#
+# Stale → one open issue, "My Maps need a re-import", updated in place (so
+# it notifies once, not every week). All current → that issue is closed.
+name: mymaps
+on:
+  schedule:
+    - cron: "17 13 * * 1" # Mondays, ~9 AM Eastern
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - run: npm ci
+      - id: run
+        run: |
+          set +e
+          node tools/mymaps.mjs > report.txt
+          echo "code=$?" >> "$GITHUB_OUTPUT"
+          cat report.txt | tee -a "$GITHUB_STEP_SUMMARY"
+      - env: { GH_TOKEN: "${{ github.token }}", CODE: "${{ steps.run.outputs.code }}" }
+        run: |
+          title="My Maps need a re-import"
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "\"$title\" in:title" --json number -q '.[0].number')
+          if [ "$CODE" = "0" ]; then
+            [ -n "$open" ] && gh issue close "$open" --repo "$GITHUB_REPOSITORY" --comment "All My Maps match the repo again ($(date -u +%F))."
+            exit 0
+          fi
+          { echo "The weekly check (\`tools/mymaps.mjs\`, $(date -u +%F)) found My Maps that no longer match the repo."
+            echo; echo "For each ⚠️ map: open it, delete its two layers, and import the two fresh files from the Pages site, \`https://friendofmankind.github.io/Colin-Travel-Planner/maps/<slug>-lines.kml\` and \`<slug>-pins.kml\`. docs/MAPS.md has the steps."
+            echo; echo '```'; cat report.txt; echo '```'; } > body.md
+          if [ -n "$open" ]; then gh issue edit "$open" --repo "$GITHUB_REPOSITORY" --body-file body.md
+          else gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file body.md; fi

@@ -82,7 +82,7 @@ const runs = has("garden/runs.md") ? [...read("garden/runs.md").matchAll(/^\| (\
 const last = runs.at(-1);
 let scope = { since: null, sinceDate: null, files: null, note: "" };
 if (last && git("rev-parse", "-q", "--verify", `${last[2]}^{commit}`)) {
-  const changed = git("diff", "--name-only", last[2], "HEAD").split("\n").filter((f) => claimFiles.includes(f) || /^trips\/[^/]+\/log\.md$/.test(f));
+  const changed = git("diff", "--name-only", last[2], "HEAD").split("\n").filter((f) => claimFiles.includes(f) || /^trips\/[^/]+\/(research-)?log\.md$/.test(f));
   scope = { since: last[2], sinceDate: last[1], files: changed, note: `${changed.length} file(s) changed since the last run (${last[1]}, ${last[2].slice(0, 7)})` };
 } else {
   scope.note = last ? `last run's commit ${last[2].slice(0, 7)} isn't in this clone: sweep everything` : "no run recorded yet: sweep everything";

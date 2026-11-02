@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        # Full history: the garden's log-drift check compares commit dates.
+        with: { fetch-depth: 0 }
       - uses: actions/setup-node@v4
         with: { node-version: "22" }
       - run: npm ci
@@ -14,3 +16,52 @@ jobs:
       - run: node tools/index.mjs --check
       - run: node tools/macros.mjs --check
       - run: node tools/build.mjs
+      # The gardener's free mechanical pass. It reports, it doesn't block:
+      # old drift (a gear question a past trip should have answered) would
+      # otherwise turn every unrelated PR red. Findings show as warnings on
+      # the run and in its summary.
+      - name: garden (mechanical drift, report only)
+        run: |
+          node tools/garden.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+          node tools/garden.mjs --json | node -e '
+            const { findings } = JSON.parse(require("fs").readFileSync(0, "utf8"));
+            for (const f of findings) console.log(`::warning file=${f.file}${f.line ? `,line=${f.line}` : ""}::${f.check}: ${f.says}`);'
+
+  # Merge a Claude branch's PR by itself when it's small and only touches the
+  # files the skills may already merge on their own (CLAUDE.md's skill table):
+  # logs, me/, kitchen/, wishlist/, bucket.yaml, garden/, plus INDEX.md. Any
+  # trip.md, tool, skill, page or workflow change waits for Colin. Add the
+  # label "hold" to a PR to stop this.
+  automerge:
+    needs: check
+    if: >-
+      github.event_name == 'pull_request' &&
+      startsWith(github.head_ref, 'claude/') &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      !github.event.pull_request.draft &&
+      !contains(github.event.pull_request.labels.*.name, 'hold')
+    runs-on: ubuntu-latest
+    permissions: { contents: write, pull-requests: write, actions: write }
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - id: scope
+        env: { BASE: "${{ github.base_ref }}" }
+        run: |
+          files=$(git diff --name-only "origin/$BASE...HEAD")
+          safe='^(trips/[^/]+/(log|research-log)\.md|me/[^/]+\.md|kitchen/[^/]+\.md|wishlist/[^/]+\.md|bucket\.yaml|garden/[^/]+|INDEX\.md)$'
+          bad=$(echo "$files" | grep -Ev "$safe" || true)
+          lines=$(git diff --numstat "origin/$BASE...HEAD" -- . ':!INDEX.md' | awk '{n+=$1+$2} END{print n+0}')
+          echo "Changed: $(echo "$files" | tr '\n' ' ')"; echo "Lines changed (without INDEX.md): $lines"
+          if [ "$BASE" != "main" ]; then echo "ok=false" >> "$GITHUB_OUTPUT"; echo "Not into main: Colin merges."
+          elif [ -n "$bad" ]; then echo "ok=false" >> "$GITHUB_OUTPUT"; echo "Waits for Colin, touches: $bad"
+          elif [ "$lines" -gt 80 ]; then echo "ok=false" >> "$GITHUB_OUTPUT"; echo "Waits for Colin: $lines lines is more than a narrow change"
+          else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.scope.outputs.ok == 'true'
+        env: { GH_TOKEN: "${{ github.token }}", PR: "${{ github.event.pull_request.number }}" }
+        run: |
+          # A session may have merged it already; that's fine.
+          gh pr merge "$PR" --merge --repo "$GITHUB_REPOSITORY" || gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json state -q .state | grep -q MERGED
+          # A merge made with this token doesn't fire the push workflows, so
+          # start the Pages deploy by hand (workflow_dispatch is allowed).
+          gh workflow run pages.yml --ref main --repo "$GITHUB_REPOSITORY"

@@ -17,6 +17,7 @@ region: Tucson → Dragoons → Chiricahua → Cave Creek
 states: [ AZ ]
 country: USA
 coords: [ 32, -109.35 ]
+mymaps: 1spFhCcsD7zGlK9a-1lsndVB4rknZMmY  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 8 nights camping
 distance: ~650 mi loop (estimate; the old 11-day loop was ~700 mi and this one drops only the Wasson Peak trailhead runs)
 budget: "Not recomputed for three. Per person: own flight ($350–500, Colin's check 2026-10-27) + a third of the car, gas and sites. The solo version was ~$1,086 excl. airfare."

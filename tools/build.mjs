@@ -125,6 +125,8 @@ function buildTrip(slug) {
     // budget never reached the screen, so they stay in trip.md.
     slug, title: r.title, status: r.status, start: r.start ?? null, target: r.target ? String(r.target) : null, end,
     datesLabel: r.dates, region: r.region, states: r.states ?? [], why: mdi(r.why), next: mdi(r.next),
+    // Colin's Google My Map of the trip (the phone map with signal), if he's shared one.
+    mymaps: r.mymaps ? String(r.mymaps) : null,
     booking: (r.booking ?? []).map((b) => ({ what: mdi(b.what), system: b.system, booked: !!b.booked })),
     located: { verified: allPlaces.filter((p) => p.verified).length, total: allPlaces.length },
     route: md(page.meta?.route),

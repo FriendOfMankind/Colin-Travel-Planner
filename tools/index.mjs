@@ -123,7 +123,9 @@ export function buildIndex() {
     "",
     "- `trip.md`: the plan. Frontmatter holds the registry facts (dates, status, bookings); the body has Overview, Days, Hikes, Provisions, Packing, Reservations & checks, Open questions and Notes.",
     "- `places.yaml`: every place with its coordinate, or `verified: false` and null if nobody has located it.",
-    "- `log.md`: what actually happened. Planning history, on-trip notes, the retro. **Past experience lives here.**",
+    "- `log.md`: what actually happened. Decisions, plan changes, on-trip notes, the retro. **Past experience lives here.**",
+    "- `research-log.md`: the raw findings from research sweeps (sources, quotes, transcripts). Open it for the source behind a fact, not for what happened.",
+    "- **Big files:** `node tools/show.mjs <slug>` lists a trip's headings with sizes; `node tools/show.mjs <slug> day 5` (or a date, or any heading) prints just that part. A whole trip.md is up to ~25k tokens; a day is ~500.",
     "- `_gen/`: generated (sun tables, route lines). Don't read it for answers; don't edit it.",
     "",
   );
