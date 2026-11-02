@@ -188,391 +188,201 @@ groups:
         lat: 52.15136
         lng: -10.056586
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Clare and Scotland (drafted 2026-11-02, unplaced)
+  - group: Clare and Scotland (drafted 2026-11-02)
     places:
       - name: "Kerry Airport"
         note: "Day 6. Pick up the Ireland car (Europcar, Avis)."
-        maps: "Kerry Airport Farranfore"
-        verified: false
-        lat: null
-        lng: null
+        maps: "Kerry Airport"
+        verified: true
+        lat: 52.181895
+        lng: -9.533642
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Tarbert Ferry Terminal"
-        note: "Day 6. Tarbert → Killimer car ferry."
-        maps: "Tarbert Killimer ferry Tarbert"
-        verified: false
-        lat: null
-        lng: null
+        note: "Day 6. Tarbert → Killimer car ferry, the Kerry side. Tarbert, Co. Kerry, not Tarbert in Scotland."
+        maps: "Tarbert Ferry Terminal"
+        verified: true
+        lat: 52.587307
+        lng: -9.359846
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
+      - name: "Killimer Ferry Terminal"
+        note: "Day 6. Where the Shannon ferry lands, the Clare side."
+        maps: "Killimer Ferry Terminal"
+        verified: true
+        lat: 52.615488
+        lng: -9.381316
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Cliffs of Moher Visitor Centre"
         note: "Day 6."
         maps: "Cliffs of Moher Visitor Centre"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.97075
+        lng: -9.425879
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Doolin Pier"
         note: "Days 6–7. Inis Mór ferry; stand-in for the Doolin bed."
         maps: "Doolin Pier"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.015509
+        lng: -9.40422
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Doolin (village)"
         note: "Day 6, evening music."
         maps: "Doolin Co. Clare"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.015998
+        lng: -9.377077
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Kilronan, Inis Mór"
         note: "Day 7. Ferry landing, bike hire."
         maps: "Kilronan Inis Mór"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.119311
+        lng: -9.667678
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Dún Aonghasa"
         note: "Day 7."
         maps: "Dún Aonghasa"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.125537
+        lng: -9.766848
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Poulnabrone Dolmen"
         note: "Day 8."
         maps: "Poulnabrone Dolmen"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.047114
+        lng: -9.140329
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Inverness Airport"
         note: "Day 8. Fly in, pick up the Scotland car."
         maps: "Inverness Airport"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.539593
+        lng: -4.06413
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Urquhart Castle"
         note: "Day 9, Loch Ness."
         maps: "Urquhart Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.324257
+        lng: -4.444592
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Eilean Donan Castle"
         note: "Day 9."
         maps: "Eilean Donan Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.273813
+        lng: -5.513032
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Portree Harbour"
-        note: "Days 9–11. Stand-in for the Skye bed."
+        note: "Days 9–11. Portree harbour; the Skye bed is now Portree Youth Hostel."
         maps: "Portree Harbour"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.411021
+        lng: -6.190547
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
+      - name: "Portree Youth Hostel"
+        note: "Days 9–11. The Skye bed (Hostelling Scotland, picked 2026-11-02, not booked). Replaces the Portree Harbour stand-in once placed."
+        maps: "Portree Youth Hostel Hostelling Scotland"
+        verified: true
+        lat: 57.412093
+        lng: -6.195873
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Dunvegan Castle"
         note: "Day 10. Clan MacLeod seat."
         maps: "Dunvegan Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.448577
+        lng: -6.589413
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Coral Beach, Skye"
         note: "Day 10."
         maps: "Coral Beach Skye"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.489037
+        lng: -6.620648
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Neist Point Lighthouse"
         note: "Day 10, sunset."
         maps: "Neist Point Lighthouse"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.429726
+        lng: -6.778988
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Old Man of Storr car park"
         note: "Day 11, park by 7:30."
         maps: "Old Man of Storr car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.499606
+        lng: -6.158109
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Kilt Rock Viewpoint"
         note: "Day 11."
         maps: "Kilt Rock Viewpoint"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.61031
+        lng: -6.172612
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Quiraing car park"
         note: "Day 11."
         maps: "Quiraing car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.628181
+        lng: -6.291551
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Fairy Glen, Skye"
         note: "Day 11, optional."
         maps: "Fairy Glen Skye"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.584755
+        lng: -6.332838
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Fairy Pools car park"
         note: "Day 12."
         maps: "Fairy Pools car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 57.249946
+        lng: -6.273251
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Glencoe Village"
         note: "Day 12. Stand-in for the Glencoe bed."
         maps: "Glencoe Village"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 56.682593
+        lng: -5.10207
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Lost Valley car park, Glencoe"
         note: "Day 13. Coire Gabhail trailhead."
         maps: "Lost Valley Glencoe car park"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 56.667805
+        lng: -4.986777
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Airport"
         note: "Days 13 and 15. Car return; home."
         maps: "Edinburgh Airport"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.94702
+        lng: -3.360855
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Waverley"
         note: "Days 13–14. Stand-in for the Edinburgh bed."
         maps: "Edinburgh Waverley"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.952453
+        lng: -3.188428
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Arthur's Seat"
         note: "Day 14."
         maps: "Arthur's Seat"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 55.944747
+        lng: -3.152751
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Castle"
         note: "Day 14."
         maps: "Edinburgh Castle"
-        verified: false
-        lat: null
-        lng: null
-  - group: "Marseille (the Marseille alternative, not the plan since 2026-11-02)"
-    places:
-      - name: Vieux-Port
-        note: Days 7 and 13 (fish sellers, evenings).
-        maps: Vieux-Port Marseille
         verified: true
-        lat: 43.295122
-        lng: 5.36346
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Castellane
-        note: Day 10. Bus 78 to Cassis leaves from here.
-        maps: Castellane Marseille
-        verified: true
-        lat: 43.28591
-        lng: 5.383728
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Marseille Provence Airport
-        note: In May 15 19:10 (FR 4285). Out May 24. Day 6 and day 15.
-        maps: Aéroport Marseille Provence
-        verified: true
-        lat: 43.443302
-        lng: 5.220136
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Gare Saint-Charles
-        note: A1 airport shuttle terminus.
-        maps: Gare Saint-Charles Marseille
-        verified: true
-        lat: 43.302961
-        lng: 5.381005
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Le Panier
-        note: Day 7.
-        maps: Le Panier Marseille
-        verified: true
-        lat: 43.299866
-        lng: 5.367931
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Mucem and Fort Saint-Jean
-        note: Day 7. Closed Tuesdays.
-        maps: Mucem Marseille
-        verified: true
-        lat: 43.296823
-        lng: 5.361002
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Notre-Dame de la Garde
-        note: Day 8, morning. 07:00–18:00 (2026).
-        maps: Notre-Dame de la Garde
-        verified: true
-        lat: 43.284368
-        lng: 5.371732
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Vallon des Auffes
-        note: Day 8.
-        maps: Vallon des Auffes
-        verified: true
-        lat: 43.28539
-        lng: 5.351011
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Frioul ferry (Vieux-Port)
-        note: Day 13. Wind-dependent.
-        maps: Frioul If Express Vieux-Port
-        verified: true
-        lat: 43.295001
-        lng: 5.373998
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: "Calanques, Cassis, Aix (the Marseille alternative, not the plan since 2026-11-02)"
-    places:
-      - name: Port de Cassis
-        note: Day 10 afternoon.
-        maps: Port de Cassis
-        verified: true
-        lat: 43.214068
-        lng: 5.535014
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Cours Mirabeau
-        note: Day 11.
-        maps: Cours Mirabeau Aix-en-Provence
-        verified: true
-        lat: 43.526432
-        lng: 5.445743
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Luminy
-        note: Day 9 trailhead side.
-        maps: Luminy Marseille
-        verified: true
-        lat: 43.237899
-        lng: 5.435638
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Belvédère de Sugiton
-        note: Day 9, the default turnaround.
-        maps: Belvédère de Sugiton
-        verified: true
-        lat: 43.213933
-        lng: 5.44788
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Gare de Cassis
-        note: Day 10. Above town; bus 371 down.
-        maps: Gare de Cassis
-        verified: true
-        lat: 43.234087
-        lng: 5.553058
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Calanque de Port-Miou
-        note: Day 10. Start of the Port-Miou → Port-Pin → En-Vau loop, from Cassis.
-        maps: Calanque de Port-Miou
-        verified: true
-        lat: 43.203985
-        lng: 5.510651
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Callelongue
-        note: Day 12 trailhead, end of the road south of Marseille. Bus not checked.
-        maps: Callelongue Marseille
-        verified: true
-        lat: 43.212686
-        lng: 5.354153
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Calanque de Marseilleveyre
-        note: Day 12 loop.
-        maps: Calanque de Marseilleveyre
-        verified: true
-        lat: 43.209554
-        lng: 5.372245
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Anse de la Fausse Monnaie
-        note: Day 8, Malmousque coves. Rock swimming.
-        maps: Anse de la Fausse Monnaie Marseille
-        verified: true
-        lat: 43.280483
-        lng: 5.352854
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Les Goudes
-        note: Day 12, on the bus 20 route. Tuba Club.
-        maps: Les Goudes Marseille
-        verified: true
-        lat: 43.215485
-        lng: 5.346084
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Hôpital Caroline
-        note: Day 13. 1820s quarantine hospital ruins, Ratonneau.
-        maps: Hôpital Caroline Frioul
-        verified: true
-        lat: 43.284228
-        lng: 5.318436
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Calanque de Saint-Estève
-        note: Day 13. Swim below the Fort de Ratonneau.
-        maps: Calanque de Saint-Estève Frioul
-        verified: true
-        lat: 43.28413
-        lng: 5.315906
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Jardin des Peintres
-        note: Day 11. Cézanne's Sainte-Victoire viewpoint.
-        maps: Jardin des Peintres Aix-en-Provence
-        verified: true
-        lat: 43.544535
-        lng: 5.44425
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Oppidum d'Entremont
-        note: Day 11, optional. Pre-Roman hill town ruins.
-        maps: Oppidum d'Entremont
-        verified: true
-        lat: 43.552837
-        lng: 5.436883
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Plage de la Baie des Singes
-        note: Day 12, optional swim at Cap Croisette.
-        maps: Plage de la Baie des Singes
-        verified: true
-        lat: 43.213963
-        lng: 5.338071
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Carrières de Bibémus
-        note: Guided only (FR, €18); not on a day yet. No bus.
-        maps: Carrières de Bibémus
-        verified: true
-        lat: 43.531372
-        lng: 5.501033
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Place des Moulins
-        note: Day 7, Le Panier.
-        maps: Place des Moulins Marseille
-        verified: true
-        lat: 43.298554
-        lng: 5.368383
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Hôtel de Cabre
-        note: Day 7, oldest house (1535), outside only.
-        maps: Hôtel de Cabre Marseille
-        verified: true
-        lat: 43.297678
-        lng: 5.371383
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Piscine Maritime des Auffes
-        note: Day 8, rock pool under the bridge.
-        maps: Piscine Maritime des Auffes
-        verified: true
-        lat: 43.285023
-        lng: 5.349805
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Gare d'Aix-en-Provence Centre
-        note: Day 11. The TER station in town, not Aix TGV.
-        maps: Gare d'Aix-en-Provence Centre
-        verified: true
-        lat: 43.455179
-        lng: 5.317289
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: "Marseille apartments (shortlist, none booked) (the Marseille alternative, not the plan since 2026-11-02)"
-    places:
-      - name: Staycity Aparthotels Centre Vieux Port
-        note: Best balance so far. 24 h desk.
-        maps: Staycity Aparthotels Marseille Centre Vieux Port
-        verified: true
-        lat: 43.300473
-        lng: 5.374755
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Residhotel Vieux Port
-        note: Desk closed 22:30 (2026).
-        maps: Residhotel Vieux Port Marseille
-        verified: true
-        lat: 43.296885
-        lng: 5.373029
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-      - name: Residhotel Le Grand Prado
-        note: Cheapest; near Périer metro.
-        maps: Residhotel Le Grand Prado Marseille
-        verified: true
-        lat: 43.280933
-        lng: 5.388202
-        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+        lat: 55.948192
+        lng: -3.203709
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)

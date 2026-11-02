@@ -278,7 +278,7 @@ date: 2027-05-15
 tagline: First day on the left. Short drive, one ferry, the Cliffs of Moher.
 type: travel
 slack: Plenty. Nothing today is timed except the car desk.
-driving: Kerry Airport → Tarbert → Killimer → Cliffs of Moher → Doolin (⚠️ unrouted)
+driving: Kerry Airport → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin, ~116 mi including the family lift from Dingle to Kerry Airport (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
 overnight:
   name: TBD, Doolin
   mapStandIn: Doolin Pier
@@ -290,7 +290,8 @@ overnight:
 **Schedule**
 - morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
 - morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. One-way to Dublin Airport, fee not priced. A lap of the car park before the road
-- midday · ferry · **Tarbert → Killimer car ferry** across the Shannon, ~20 min. **No reservations.** In May it runs every half hour in the daytime, and Tarbert leaves 30 min after each Killimer departure. One car fare covers everyone: €22.50 online in 2026 *(transitemerald.com guide, 2026-07, citing shannonferries.com)* · 📍 Tarbert Ferry Terminal
+- midday · drive · To the ferry at Tarbert, Co. Kerry. · 📍 Tarbert Ferry Terminal
+- midday · ferry · **Tarbert → Killimer car ferry** across the Shannon, ~20 min. **No reservations.** In May it runs every half hour in the daytime, and Tarbert leaves 30 min after each Killimer departure. One car fare covers everyone: €22.50 online in 2026 *(transitemerald.com guide, 2026-07, citing shannonferries.com)* · 📍 Killimer Ferry Terminal
 - afternoon · stop · **Cliffs of Moher.** Fee, hours and parking not checked · 📍 Cliffs of Moher Visitor Centre
 - evening · music · Doolin: a trad music session in a pub *(recalled)*. · 📍 Doolin Co. Clare
 
@@ -340,7 +341,7 @@ date: 2027-05-17
 tagline: A Neolithic tomb on bare limestone, a long drive, a short flight.
 type: travel
 slack: The Burren stop is the slack, and the only slack. For the 13:45 flight, leave Doolin by ~7:30 and Poulnabrone by ~8:30; drop the car by ~12:00.
-driving: Doolin → Burren → Dublin Airport, ~3–3.5 h of driving (rome2rio says 2 h 57 m; a Rick Steves forum thread and the Doolin Inn both say allow 3.5 h; searched 2026-11-02, not routed). Right at the 4-hour ceiling
+driving: Doolin → Burren → Dublin Airport, ~3–3.5 h of driving (rome2rio says 2 h 57 m; a Rick Steves forum thread and the Doolin Inn both say allow 3.5 h; searched 2026-11-02). ~174 mi via Poulnabrone, routed 2026-11-02 by tools/roads.py. Right at the 4-hour ceiling
 overnight:
   name: TBD, Inverness
   mapStandIn: Inverness Airport
@@ -367,10 +368,9 @@ date: 2027-05-18
 tagline: Loch Ness, Eilean Donan, over the bridge.
 type: travel
 slack: Afternoon, once you're on Skye.
-driving: Inverness → Loch Ness → Eilean Donan → Skye Bridge → Skye (⚠️ unrouted)
+driving: Inverness → Loch Ness → Eilean Donan → Skye Bridge → Portree, ~123 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
 overnight:
-  name: Portree Youth Hostel (Hostelling Scotland)
-  mapStandIn: Portree Harbour
+  name: Portree Youth Hostel — Hostelling Scotland
   place: Portree, Isle of Skye
   kind: Hostel, beds in a shared room (picked, not booked)
   cost: £319.50 for all 3, all 3 nights
@@ -398,8 +398,7 @@ tagline: Eight hundred years of the family name, then the lighthouse at the end 
 type: activity
 slack: Evening, unless you stay for Neist Point at sunset.
 overnight:
-  name: Portree Youth Hostel (Hostelling Scotland)
-  mapStandIn: Portree Harbour
+  name: Portree Youth Hostel — Hostelling Scotland
   place: Portree, Isle of Skye
   kind: Hostel, beds in a shared room (picked, not booked)
   cost: £319.50 for all 3, all 3 nights
@@ -423,8 +422,7 @@ tagline: Park early, beat the coaches, two landslips before lunch.
 type: activity
 slack: Late afternoon.
 overnight:
-  name: Portree Youth Hostel (Hostelling Scotland)
-  mapStandIn: Portree Harbour
+  name: Portree Youth Hostel — Hostelling Scotland
   place: Portree, Isle of Skye
   kind: Hostel, beds in a shared room (picked, not booked)
   cost: £319.50 for all 3, all 3 nights
@@ -452,7 +450,7 @@ date: 2027-05-21
 tagline: Blue pools under the Cuillin, then south to the glen.
 type: travel
 slack: Midday, between the pools and the drive.
-driving: Skye → Fort William → Glencoe (⚠️ unrouted; ~3 h recalled)
+driving: Portree → Fairy Pools → Fort William → Glencoe, ~146 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed; ~3 h of it from Skye to Glencoe, recalled)
 overnight:
   name: TBD, Glencoe
   mapStandIn: Glencoe Village
@@ -477,7 +475,7 @@ date: 2027-05-22
 tagline: The valley the MacDonalds hid their cattle in, then the capital.
 type: travel
 slack: Afternoon, after the car's returned.
-driving: Glencoe → Edinburgh Airport (⚠️ unrouted)
+driving: Glencoe → Lost Valley → Edinburgh Airport, ~118 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
 overnight:
   name: TBD, Edinburgh
   mapStandIn: Edinburgh Waverley
