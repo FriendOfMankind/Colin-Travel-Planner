@@ -326,3 +326,10 @@ No decisions, just copies of old values that hadn't caught up:
 
 - **Maybe extend this trip instead of planning a separate one** for the open stretch after it (Aug 15–30). After Oregon, stop somewhere instead of driving straight home. **Colorado** is the first thought: an optional, free-flowing stretch, **maybe dispersed camping** *(Colin, 2026-11-02: "maybe stop somewhere after oregon instead of booking it home. Maybe colorado… more optional and free flowing")*. To be worked out in another chat. `trip.md` is unchanged: the plan still ends at home on Aug 14.
 - **Jun 25 – Jul 11, between Newfoundland and this trip:** probably time at home *(Colin, 2026-11-02: "I might just spend some time at home")*. It stays an open stretch on the timeline. The Europe Atlantic North idea that was dated there is shelved (`wishlist/europe-atlantic-north-2027.md`).
+
+## 2026-11-02 · The after-Oregon extension: Sawtooths, car camp, home by Aug 25
+
+- **Leaning the Sawtooths (Stanley, Idaho) or "something new" over Colorado** *(Colin, 2026-11-02)*. Claude's pushback: `wishlist/san-juans.md` already warns he's Colorado-saturated.
+- **Style: day hikes from a car camp**, not a backpack *(Colin, 2026-11-02)*. **Home by about Aug 25** for a few days before work on Aug 31 *(Colin, 2026-11-02)*. Still optional; `trip.md` still ends Aug 14.
+- **Found:** Sawtooth Lake from Iron Creek, ~10 mi *(bellebucket.com)*. Alice–Toxaway loop, 17 mi and 3,000 ft, with a free wilderness permit at the trailhead *(discoversawtooth.org)*; Pettit Lake parking is $10 a day *(bellebucket.com)*. Dispersed camping near Redfish, Stanley Lake, Iron Creek Road and Pettit is only allowed at designated sites with the camping symbol *(fs.usda.gov Sawtooth NRA occupancy order)*.
+- **Smoke is the risk:** SW Idaho advisories ran Aug 3–7, 2026 (`wishlist/idaho-boys.md`); a 2026 guide reports Stage 1 fire restrictions and a Custer County smoke advisory from Aug 7 *(bellebucket.com)*. Make the call from Bend on air quality. Fallbacks on the way east: Craters of the Moon, the Tetons / Wind Rivers, the High Uintas (`wishlist/high-uintas.md`).

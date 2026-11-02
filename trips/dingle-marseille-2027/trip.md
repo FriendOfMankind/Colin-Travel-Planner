@@ -30,7 +30,7 @@ tags:
   - family
   - free lodging
   - no car
-next: "**Nothing is set** *(stated 2026-10-30: Marseille for now, Athens still alive)*. Shape decided: Dingle 4 nights, Marseille 9, home Mon May 24. Next: find and price the May 24 open-jaw home, then who the third person is. The open-jaw fare is the biggest single line"
+next: "**Nothing is set, and the second half is moving** *(stated 2026-11-02)*: leaning **Ireland + Skye instead of Marseille**, Colin the only driver, parents may pay the flights if it stays Ireland and Scotland (not confirmed). The day-by-day below is still the Marseille version. Next: settle the group ages (see Open questions), then draft the Ireland + Skye days and price a Dublin-in / Edinburgh-out ticket"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + MRS → CLE May 24, one open-jaw ticket
@@ -82,15 +82,15 @@ May 10–24, 2027 (target). 15 days, 14 nights. **Both extra days went to Marsei
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults, all 25 or under** *(stated 2026-10-30)*, so youth fares apply where they exist (the Marseille airport shuttle is €7, not €15). Willing to share a double bed or take a sofa bed to save money. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults, all 25 or under** *(stated 2026-10-30)*, so youth fares apply where they exist (the Marseille airport shuttle is €7, not €15). **The third person is Colin's brother** *(stated 2026-11-02)*. **Only Colin drives** *(stated 2026-11-02)*. Willing to share a double bed or take a sofa bed to save money. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
 **It's the friend's family** *(stated 2026-10-30)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
-### Marseille or Athens
+### Marseille, Athens or Scotland
 
-**Marseille for now** *(stated 2026-10-30: "I'm leaning that, but remember Athens, nothing is set")*. Athens, with Delphi and Meteora, stays researched in `wishlist/ireland-may-2027.md`. Marseille's edge is the Calanques in their best hiking month and a one-hour flight from Dublin. Athens' edge is the oldest ruins and Meteora.
+**Leaning Ireland + Skye, no Marseille** *(stated 2026-11-02: people he's talked to say Marseille "isn't the best"; Skye is the Clan MacLeod homeland and the third traveler is his brother, also a McLeod; picked Skye over the Giant's Causeway)*. Not drafted yet: the reasoning and the rental facts are in `log.md` (2026-11-02). Marseille was the pick on 2026-10-30. Athens, with Delphi and Meteora, stays researched in `wishlist/ireland-may-2027.md`. Marseille's edge is the Calanques in their best hiking month and a one-hour flight from Dublin. Athens' edge is the oldest ruins and Meteora.
 
 ### Whit Monday
 
@@ -563,10 +563,15 @@ The quarries Cézanne painted are guided-only: French, €18, Fridays 18:00 or S
 **Blocks:** Days 2–6
 Their address decides Killarney vs Farranfore and the leave time for the 09:00 coach on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift, the fallback is the Dublin airport hotel on Friday night.
 
-### Marseille or Athens?
+### How old is everyone, and is there a fourth?
+
+**Blocks:** car rental, youth fares
+"All 25 or under" *(stated 2026-10-30)* versus ages "20, 19, 29" given alongside Colin's 22 *(stated 2026-11-02)*: either a fourth person or a 29-year-old in the group. A 29-year-old driver would also remove the young-driver fee.
+
+### Marseille, Athens or Ireland + Skye?
 
 **Blocks:** everything after May 15
-Leaning Marseille *(2026-10-30)*. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
+Leaning Ireland + Skye *(stated 2026-11-02)*; Marseille's day-by-day is still the one written below. The Athens version is in `wishlist/ireland-may-2027.md`, built for a May 20 return and 3 Kerry nights.
 
 ### Does option A's Chicago layover work?
 
