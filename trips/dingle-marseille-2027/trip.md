@@ -30,20 +30,20 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) check **Dublin → Inverness** flies in May 2027; (3) price the **CLE → DUB / EDI → CLE** open-jaw for the parents; (4) the two one-way cars (Europcar rents from 22). Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **manual or automatic?** decides the car price; (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE May 24, one open-jaw ticket
     target: 2027-05-10
-    note: Parents are paying (Colin, 2026-11-02). EI 86 was observed for May 10, 2027 (Google Flights, 2026-10-29). The EDI → CLE leg isn't priced; Edinburgh's US nonstops are listed on Day 15. Price it as one multi-city ticket.
+    note: Parents are paying (Colin, 2026-11-02). As two one-ways for 3 (Google Flights, 2026-11-02, not held), EI 86 $1,043 + EDI → CLE from $2,426 (AA via Philadelphia) = about $3,470. Price it as one multi-city ticket; it may be cheaper.
   - system: flights
-    what: DUB → INV May 17, Aer Lingus
+    what: DUB → INV May 17, Aer Lingus EI 3372, 13:45 → 15:20
     target: 2027-05-17
-    note: Route started summer 2026 (aerlingus.com). May 2027 schedule not seen. Fallback DUB → EDI (Ryanair) plus the train north.
+    note: Observed $289 for 3, bags extra (Google Flights, 2026-11-02, not held). The only nonstop shown. Fallback DUB → EDI (Ryanair FR 814 16:05, $118 for 3) plus the train north.
   - system: rental-car
     what: Ireland car, Kerry Airport May 15 → Dublin Airport May 17, one way
     target: 2027-05-15
-    note: Europcar (from 22) and Avis are at Kerry Airport. Under-25 surcharge (Sixt €38/day, Europcar's fee runs through 25, no Super CDW under 26). One-way fee not priced.
+    note: Kayak, driver 22, 2026-11-02 — Hertz mini manual $216 total, Thrifty/Avis/Budget $235–257, all manual; whether the young-driver and one-way fees are inside isn't shown. Europcar (from 22) and Avis have desks at Kerry Airport.
   - system: rental-car
     what: Scotland car, Inverness Airport May 17 → Edinburgh Airport May 22, one way
     target: 2027-05-17
@@ -91,7 +91,7 @@ page:
 
 # Dingle & Skye
 
-> ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 17:** a ~3-hour drive to Dublin Airport, a car drop, then a Dublin → Inverness flight whose 2027 schedule nobody has seen. And Colin drives every mile, on the left. May 11, Dublin Airport → Dingle by public transport, is still a 7½-hour planning block, not a timetable.
+> ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 17:** a ~3-hour drive to Dublin Airport and a car drop before the **13:45** Dublin → Inverness flight (EI 3372, seen for the date on 2026-11-02). And Colin drives every mile, on the left. May 11, Dublin Airport → Dingle by public transport, is still a 7½-hour planning block, not a timetable.
 
 ## Overview
 
@@ -103,7 +103,7 @@ May 10–24, 2027 (target). 15 days, 14 nights. Newfoundland leaves Wed May 26.
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), the friend whose family is in Dingle, and Colin's brother; the other two are 20 and 19** *(stated 2026-11-02)*, so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), the friend whose family is in Dingle, and Colin's brother; the other two are 20 and 19** *(stated 2026-11-02)*, so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
@@ -339,7 +339,7 @@ overnight:
 date: 2027-05-17
 tagline: A Neolithic tomb on bare limestone, a long drive, a short flight.
 type: travel
-slack: The Burren stop is the slack. Cut it if the flight is early.
+slack: The Burren stop is the slack. For the 13:45 flight, leave Doolin by ~7:45 (unrouted estimate).
 driving: Doolin → Burren → Dublin Airport (⚠️ unrouted; ~3 h recalled)
 overnight:
   name: TBD, Inverness
@@ -352,8 +352,8 @@ overnight:
 **Schedule**
 - morning · geology · **The Burren**: limestone pavement and the **Poulnabrone dolmen**, a Neolithic portal tomb *(recalled)*. · 📍 Poulnabrone Dolmen
 - midday · drive · To Dublin Airport and drop the car. ⚠️ The **M50 toll** near Dublin has no barrier: pay it online or the rental company adds an admin fee, €30–60 *(odo.ie, 2026-04)* · 📍 Dublin Airport
-- TBD · fly · **Dublin → Inverness, Aer Lingus.** The route started in summer 2026 *(aerlingus.com, "New routes for summer 2026")*. May 2027 days and times not seen, and a fare seen for Dec 2026 was €65.25 *(aerlingus.com)*, which is not a May price. **Fallback:** Dublin → Edinburgh (Ryanair, several a day, *ryanair.com*), then the train to Inverness (times not checked) · 📍 Inverness Airport
-- evening · drive · Pick up the Scotland car at Inverness Airport (company TBD; Europcar rents from 22). Or pick it up tomorrow morning.
+- 13:45 → 15:20 (1h 35m) · fly · **Aer Lingus EI 3372 Dublin → Inverness**, ATR 72. **$289 for all 3**, bags extra *(Google Flights, observed 2026-11-02 for this date, not held)*. **Fallback:** Ryanair FR 814 Dublin → Edinburgh 16:05 → 17:15 ($118 for 3, same source), then the train to Inverness (times not checked) · 📍 Inverness Airport
+- afternoon · drive · Pick up the Scotland car at Inverness Airport (company TBD; Europcar rents from 22). Loch Ness Drumnadrochit Hotel (£139 for 3, Expedia 2026-11-02) is on tomorrow's road.
 
 **Meals**
 - B: Doolin
@@ -555,7 +555,8 @@ slack: Unknown until the flight is booked.
 - [ ] **Portree beds, 3 nights May 18–21**: book first, months ahead
 - [ ] Family: beds for May 11–14, and the May 15 lift to Kerry Airport (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
-- [ ] Dublin → Inverness: does it fly on Mon May 17, 2027, and when?
+- [x] Dublin → Inverness flies Mon May 17: EI 3372 13:45 → 15:20 *(Google Flights, 2026-11-02)*
+- [ ] Manual or automatic: decides both car prices
 - [ ] Open-jaw CLE → DUB / EDI → CLE priced, with real margin at the US entry airport
 - [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
 - [ ] Doolin, Inverness, Glencoe and Edinburgh beds
@@ -569,10 +570,15 @@ slack: Unknown until the flight is booked.
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
+### Manual or automatic?
+
+**Blocks:** both cars
+Every cheap Ireland offer on 2026-11-02 was a manual (Hertz mini, $216 for the 3 days). An automatic costs more and wasn't priced. Shifting with the left hand while learning the left side of the road is extra load for the only driver.
+
 ### Which Edinburgh → home routing?
 
 **Blocks:** the open-jaw ticket
-Not searched. Pick for margin at the US entry airport, then price it with the May 10 CLE → DUB as one multi-city ticket.
+Seen 2026-11-02 for 3 (one-ways): **American via Philadelphia $2,426** (EDI 11:25, a 3 h 35 m connection, home 19:10) or **Aer Lingus via Dublin $2,493** (EDI 09:40, US immigration done in Dublin before boarding, home 19:10). Recommendation: the Aer Lingus routing if it prices close in the multi-city, since preclearance in Dublin removes the US-side connection risk.
 
 ## Field notes
 
@@ -586,15 +592,20 @@ Before leaving: Kerry (Dingle peninsula to Killarney), Clare (Doolin and the Bur
 
 ## Notes
 
-### Budget (not calculated yet)
+### Budget (first pass, 2026-11-02)
 
-**The flights are covered by the parents** *(Colin, 2026-11-02)*, so they're out of the split. What's left to price, per person unless said:
-- **Ireland car**, 3 days, one way: base rate TBD, plus the under-25 fee (Sixt €38/day; Europcar charges one through age 25) *(sixt.ie T&Cs, Jan 2026; Europcar tariff guide, Aug 2025)*. Split three ways.
-- **Scotland car**, 5–6 days, one way: Europcar about £30/day under-25 fee on top of the rate *(myhighlands.de, 2026-09)*. Split three ways.
-- **Dublin → Inverness**: not seen for May.
-- **Beds**: 9 nights, none priced. Dingle's 4 are free.
-- **Fixed bits found:** Tarbert ferry €22.50 a car; Inis Mór return €25–47 each; Dunvegan £17.50 each; parking £6 (Storr), £6 (Quiraing), £3 (Kilt Rock), £8 (Fairy Pools) a car, all 2026 figures (sources in the days).
-The earlier ~US$3,300 each was the Marseille version with flights included; it's in `wishlist/marseille-may-2027.md`.
+Observed prices, not quotes, none held; sources and alternatives in `log.md` (2026-11-02). Per person = total ÷ 3.
+
+| Line | All 3 | Each | Kind |
+| --- | --- | --- | --- |
+| Transatlantic flights (two one-ways) | ~$3,470 | ~$1,157 | Observed; **parents pay** |
+| Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
+| Ireland car, 3 days, manual | $216–257 | ~$72–86 | Observed; young-driver and one-way fees may be extra |
+| Scotland car, 5 days | TBD | TBD | Not priced |
+| Beds, 9 nights (cheapest → next up) | ~£1,520–2,000 | ~£510–670 | Observed, Expedia; hostels not searched |
+| Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
+
+**Fixed bits found:** Tarbert ferry €22.50 a car; Inis Mór return €25–47 each; Dunvegan £17.50 each; parking £6 (Storr), £6 (Quiraing), £3 (Kilt Rock), £8 (Fairy Pools) a car, all 2026 figures (sources in the days). Not counted yet: food, the Scotland car, insurance. The earlier ~US$3,300 each was the Marseille version with flights included; it's in `wishlist/marseille-may-2027.md`.
 
 ### The pitch page
 

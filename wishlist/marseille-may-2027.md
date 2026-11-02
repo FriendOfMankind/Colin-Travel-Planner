@@ -387,6 +387,25 @@ All Booking.com, observed 2026-10-29, one unit, whole stay. Total = base × 1.10
 
 Partially refundable versions (Grand Prado €774, Vieux Port €1,049) still charge the first night on any cancellation. Ibis Budget Vieux-Port showed no inventory for the full week on Booking.com, which doesn't mean it's sold out. Two-bedroom apartments: not priced. **A sofa bed rated for 3 isn't proof an adult sleeps well on it for a week:** check the dimensions.
 
+## Research tree (as of 2026-10-30)
+
+Moved from `trips/dingle-marseille-2027/research.md` on 2026-11-02. ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled
+
+### 3. Marseille base
+- ✅ **Shortlist of 4 apartments for 3** (log, trip Notes)
+- ⬜ **Two-bedroom apartments**: not priced
+- 🟡 **Sofa-bed dimensions and late check-in** per property
+- ✅ **Food and the day-to-day**: staples, value categories, *formule* rules, Sunday shop hours (trip Notes). 🟡 restaurant hours for Chez Étienne, Chez Sauveur, Chez Jeannot
+- 🟡 **Safety**: DW Travel (2025-07) found the centre fine; the dangerous reputation is the Quartiers Nord. 🔒 Reddit r/Marseille for current pickpocket hot spots
+
+### 4. Outings
+- 🟡 **Mucem / Notre-Dame**: current hours ✅, 2027 hours ⬜, Whit Monday operations ⬜
+- ✅ **Calanques access in May**: Sugiton reservations only June 20 – Aug 30 (2026); Cassis-side limits from June 1. Buses: B1 to Luminy, 78 to Cassis, 19 + 20 to Callelongue ✅. ⬜ the 2027 dates when they post
+- 🟡 **Cassis / Aix**: Cassis by bus 78 ✅; Aix TER fare ✅, the Aix bus option ⬜; Cassis boat ⬜
+- 🟡 **Frioul**: July 2026 sailings ✅, resident fares ✅; ⬜ visitor fare and May frequency
+- ✅ **Airport transfer**: A1 €15 / €7 ages 12–25; TER + 13A €8.70 (2026)
+- ⬜ **Sunsets**: not computed (never hand-typed)
+
 ## Research notes
 
 Dated entries, newest last. The research itself is in `trips/dingle-marseille-2027/log.md` (2026-10-29 and 2026-10-30) and `research.md`.
