@@ -233,3 +233,16 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 - **Skye in May:** midges come out some time in May and are rarely bad that early; quiet before 9 AM, busy from ~10 *(independenttravelcats.com)*. Skip the Quiraing in mist or rain *(r/Skye, snippet)*.
 - **Spend:** about 25 Firecrawl credits.
 
+## 2026-11-02 · Third sweep: Scotland car, hostels, Reddit on Skye in May
+
+- **Scotland car, Inverness Airport May 17 16:00 → Edinburgh Airport May 22 12:00** *(Kayak via Apify, observed 2026-11-02, totals, not held)*: manual Toyota Aygo mini **$295**, Vauxhall Corsa economy $319, Ford Focus compact **$335** (all Enterprise); Europcar Corsa / Cupra Leon compact $372. Automatic: Enterprise Corsa $392–403, **Focus compact $402**, Nissan Juke $404. Kayak doesn't price by driver age, so the under-25 fee isn't in these. Enterprise wanted 25 at its Glasgow branch, so the cheap rows may not be bookable at 22; Europcar (from 22) starts at $372 manual.
+- **Ireland automatic:** still unpriced. Kayak's Kerry → Dublin one-way returned no offers this time.
+- **Hostels on Booking.com** *(Apify, 3 adults, 1 room, 2026-11-02)*: SYHA Portree and Glencoe didn't appear for the dates. Edinburgh May 22–24: CODE The Loft £178, Argyle Backpackers £219, Belford £261, Safestay Cowgate £268, but **Booking doesn't say whether that's a private room or three dorm beds**, and the £55–67 rows are surely dorm beds. Cheapest Portree rooms May 18–21: Greenacres and Pink House £630, Rosedale Hotel £648. Glencoe May 21: Loch Leven Hotel £234, Glencoe Inn £335. SYHA private rooms are on the fetch list.
+- **Reddit, Skye in May** *(Apify reddit-scraper-lite)*:
+  - Midges peak June to early September; in May "the odd one or two", worse in the west; bring Smidge *(r/OutdoorScotland, 2026-03-31)*.
+  - "Any time between end of March and end of September Skye is heaving" *(r/Skye, 2025-08-07)*; 30 minutes circling the Storr car park *(r/Skye, 2025-09-22)*. Supports the 7:30 Storr start.
+  - **Quiraing road (C1225) closed Sep 30 – Oct 30, 2026 for resurfacing** after summer complaints of "pothole craters" *(r/Skye PSA, 2026-09-30, quoting the Highland Council order)*. Should be better by May 2027; not confirmed.
+  - Fairy Pools: "a theme park with the crowds"; locals point to Glen Brittle instead (Coire Lagan, minor scrambling; the coast walk to the Viking canal) *(r/Skye, 2026-06-23)*. An option for Day 12's morning.
+  - A day can wash out; waterproof trousers, not just boots *(r/Skye, 2025-09-15)*. Cuchullin in Portree takes no reservations *(r/Skye, 2026-10-29)*.
+- **Spend:** ~9 Firecrawl credits, then out. Apify hit the account's monthly cap: an uncapped car scrape pulled 1,236 rows when ~60 were needed *(Claude's mistake)*.
+

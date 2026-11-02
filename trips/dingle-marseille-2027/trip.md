@@ -47,7 +47,7 @@ booking:
   - system: rental-car
     what: Scotland car, Inverness Airport May 17 → Edinburgh Airport May 22, one way
     target: 2027-05-17
-    note: Europcar rents from 22, about £30 a day per under-25 driver (myhighlands.de, 2026-09). Enterprise and Alamo want 25. One-way fee not priced.
+    note: "Kayak totals, May 17 16:00 → May 22 12:00, observed 2026-11-02, not held. Manual: Toyota Aygo mini $295, Vauxhall Corsa economy $319, Ford Focus compact $335 (all Enterprise); Europcar Corsa or Cupra Leon compact $372. Automatic: Enterprise Corsa $392–403, Focus compact $402, Nissan Juke $404. ⚠️ The cheap rows are Enterprise, which wanted 25 at its Glasgow branch; Europcar rents from 22, about £30 a day per under-25 driver (myhighlands.de, 2026-09), not in the totals. Kayak doesn't price by age. One-way fee not shown separately."
   - system: private
     what: Doolin, 2 nights May 15–17 (3 adults)
     target: 2027-05-15
@@ -573,7 +573,7 @@ Their address decides the May 11 route and the leave time for Kerry Airport on S
 ### Manual or automatic?
 
 **Blocks:** both cars
-Every cheap Ireland offer on 2026-11-02 was a manual (Hertz mini, $216 for the 3 days). An automatic costs more and wasn't priced. Shifting with the left hand while learning the left side of the road is extra load for the only driver.
+Every cheap Ireland offer on 2026-11-02 was a manual (Hertz mini, $216 for the 3 days); an Ireland automatic still isn't priced (a second Kayak search for Kerry → Dublin returned no offers). **In Scotland, automatic adds about $70 for the 5 days**: Focus compact $335 manual vs $402 automatic *(Kayak, 2026-11-02)*. Shifting with the left hand while learning the left side of the road is extra load for the only driver.
 
 **And the size.** The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
 
@@ -603,7 +603,7 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 | Transatlantic flights (two one-ways) | ~$3,470 | ~$1,157 | Observed; **parents pay** |
 | Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
 | Ireland car, 3 days, manual | $216–257 | ~$72–86 | Observed; young-driver and one-way fees may be extra |
-| Scotland car, 5 days | TBD | TBD | Not priced |
+| Scotland car, 5 days | $335 manual / $402 automatic (compact), + ~£150 under-25 fee | ~$112 / ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
 | Beds, 9 nights (cheapest → next up) | ~£1,520–2,000 | ~£510–670 | Observed, Expedia; hostels not searched |
 | Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
 

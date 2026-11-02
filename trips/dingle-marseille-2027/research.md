@@ -22,16 +22,17 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Doolin beds**: Expedia prices seen (2026-11-02). ⬜ hostels, B&Bs in the village
 
 ## 3. Scotland ground
-- ⬜ **Scotland car, Inverness → Edinburgh**: Kayak blocked. Europcar rents from 22 (~£30/day under-25 fee); £25–30/day is the range quoted elsewhere (roadgenius.com). ⬜ base price, one-way fee
+- 🟡 **Scotland car, Inverness → Edinburgh**: Kayak via Apify, 2026-11-02: manual $295 (mini) / $335 (compact), automatic $392–404; Europcar (rents from 22) from $372 manual. ⬜ Europcar automatic, whether Enterprise Inverness takes a 22-year-old, one-way fee, under-25 fee (~£30/day, not in totals)
 - ⬜ **Drive times**: Inverness → Portree, Portree → Glencoe, Glencoe → Edinburgh Airport (all unrouted)
 - ✅ **Dunvegan Castle**: Apr 1 – Oct 15, 10:00–17:30 (dunvegancastle.com). 🟡 £17.50 (secondary)
 - ✅ **Storr / Quiraing / Kilt Rock / Fairy Pools parking** (Highland Council, hiddenscotland.com, 2026 figures)
 - ⬜ **Eilean Donan, Edinburgh Castle**: fees, hours, booking
 - ✅ **Lost Valley**: 3.1 mi, 980 ft (AllTrails)
-- 🟡 **Beds**: Inverness, Glencoe, Edinburgh priced; **Skye thin and already scarce** (40 results for 3 nights, cheapest outside Portree). 🟡 **Hostels exist in all three**: SYHA Portree (open all year, private en-suites and family rooms, ~$92–173/room/night, Tripadvisor average), Glencoe Youth Hostel (a 3-person private room listed on booking.com), Edinburgh Central (private rooms). ⬜ their prices for the actual dates
-- 🟡 **Skye in May on the ground**: midges emerge some time in May and are rarely bad yet; before 9 AM is quiet, busy from ~10 AM, weekdays beat weekends (independenttravelcats.com); don't do the Quiraing in wet or mist (r/Skye snippet). ⬜ a real Reddit sweep via Apify
+- 🟡 **Beds**: Inverness, Glencoe, Edinburgh priced; **Skye thin and already scarce** (40 results for 3 nights, cheapest outside Portree). 🟡 **Hostels exist in all three**: SYHA Portree (open all year, private en-suites and family rooms, ~$92–173/room/night, Tripadvisor average), Glencoe Youth Hostel (a 3-person private room listed on booking.com), Edinburgh Central (private rooms). ⬜ their prices for the actual dates: SYHA sells direct and didn't show on Booking.com, so it's on the fetch list
+- 🟡 **Skye in May on the ground**: midges emerge some time in May and are rarely bad yet; before 9 AM is quiet, busy from ~10 AM, weekdays beat weekends (independenttravelcats.com); don't do the Quiraing in wet or mist (r/Skye snippet). ✅ Reddit sweep via Apify 2026-11-02 (see log)
 
 ## Fetch list (Colin)
+- 🔒 **SYHA private rooms for 3**: Portree May 18–21, Glencoe May 21, Edinburgh Central May 22–24, on hostellingscotland.org.uk (its own booking engine; nothing here can read it)
 - 🔒 `Day-by-day-timed-itinerary.md` from the Windows PC (Ireland half), if it still matters
 - 🔒 Nothing walled for Scotland yet. Reddit goes through Apify next sweep
 
