@@ -262,6 +262,12 @@ groups:
         verified: false
         lat: null
         lng: null
+      - name: "Portree Youth Hostel"
+        note: "Days 9–11. The Skye bed (Hostelling Scotland, picked 2026-11-02, not booked). Replaces the Portree Harbour stand-in once placed."
+        maps: "Portree Youth Hostel Hostelling Scotland"
+        verified: false
+        lat: null
+        lng: null
       - name: "Dunvegan Castle"
         note: "Day 10. Clan MacLeod seat."
         maps: "Dunvegan Castle"
