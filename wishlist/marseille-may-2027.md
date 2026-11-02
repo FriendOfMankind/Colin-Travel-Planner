@@ -412,4 +412,4 @@ Dated entries, newest last. The research itself is in `trips/dingle-marseille-20
 
 ## Next
 
-Nothing, unless Colin brings it back.
+Nothing, unless Colin brings it back. **Its 32 verified pins** (Marseille, the Calanques, Cassis, Aix and the apartment shortlist) were taken off the Dingle & Skye map *(Colin, 2026-11-02)*. They're in `trips/dingle-marseille-2027/places.yaml` as of commit `0b36f7e`, and still saved in the Pin Ledger, so bringing Marseille back doesn't mean re-pinning.
