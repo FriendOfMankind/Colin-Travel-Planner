@@ -4,7 +4,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 
 ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled (on the fetch list)
 
-*Last refreshed 2026-11-02 (Ireland + Skye draft and the first pricing sweep; see log).*
+*Last refreshed 2026-11-02 (Ireland + Skye draft, the first pricing sweep, then hostels, drive time and car fees; see log).*
 
 ## 1. Flights
 - 🟡 **Open-jaw CLE → DUB / EDI → CLE**: two one-ways seen, ~$3,470 for 3 (2026-11-02). ⬜ the multi-city price; parents pay
@@ -14,22 +14,22 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 ## 2. Ireland ground
 - 🟡 **May 11 Dublin Airport → Dingle**: FlightLink 11:00 ✅, Local Link 276 ✅, 275 Tralee → Dingle ✅. ⬜ the FlightLink arrival time (inferred), the Mission Road → bus station walk
 - ⬜ **Family address**: decides the May 11 route and the May 15 leave time for Kerry Airport
-- 🟡 **Ireland car, Kerry → Dublin**: Kayak $216–257 for 3 days, all manual (2026-11-02). ⬜ automatic price, whether the young-driver and one-way fees are inside, excess cover
+- 🟡 **Ireland car, Kerry → Dublin**: Kayak $216–257 for 3 days, all manual, cheapest is a **mini** (2026-11-02). Under-25 fee ~€30–40/day (secondary). ⬜ automatic price, a car big enough for 3 + bags, whether the fees are inside, excess cover, whether a US card's CDW covers Ireland
 - 🟡 **Tarbert ferry**: half-hourly in May, €22.50 a car (secondary guide, 2026). ⬜ the operator's own May 2027 page
 - 🟡 **Cliffs of Moher**: ⬜ fee, hours, parking
 - 🟡 **Inis Mór**: Doolin Ferry Co times (page dated 2021) and fares. ⬜ 2027 timetable, bike hire price, Dún Aonghasa fee and hours
-- ⬜ **Doolin → Poulnabrone → Dublin Airport drive time** (needed for the 13:45 flight)
+- 🟡 **Doolin → Dublin Airport drive time**: ~3–3.5 h (rome2rio 2 h 57 m; Rick Steves forum and Doolin Inn say allow 3.5 h). ⬜ routed with the Poulnabrone detour
 - 🟡 **Doolin beds**: Expedia prices seen (2026-11-02). ⬜ hostels, B&Bs in the village
 
 ## 3. Scotland ground
-- ⬜ **Scotland car, Inverness → Edinburgh**: Kayak blocked. Europcar rents from 22 (~£30/day under-25 fee). ⬜ base price, one-way fee
+- ⬜ **Scotland car, Inverness → Edinburgh**: Kayak blocked. Europcar rents from 22 (~£30/day under-25 fee); £25–30/day is the range quoted elsewhere (roadgenius.com). ⬜ base price, one-way fee
 - ⬜ **Drive times**: Inverness → Portree, Portree → Glencoe, Glencoe → Edinburgh Airport (all unrouted)
 - ✅ **Dunvegan Castle**: Apr 1 – Oct 15, 10:00–17:30 (dunvegancastle.com). 🟡 £17.50 (secondary)
 - ✅ **Storr / Quiraing / Kilt Rock / Fairy Pools parking** (Highland Council, hiddenscotland.com, 2026 figures)
 - ⬜ **Eilean Donan, Edinburgh Castle**: fees, hours, booking
 - ✅ **Lost Valley**: 3.1 mi, 980 ft (AllTrails)
-- 🟡 **Beds**: Inverness, Glencoe, Edinburgh priced; **Skye thin and already scarce** (40 results for 3 nights, cheapest outside Portree). ⬜ hostels (SYHA Portree / Glencoe / Edinburgh, independents)
-- ⬜ **Skye in May on the ground**: midges, crowds, wet trails. Reddit r/Scotland / r/IsleOfSkye not swept yet
+- 🟡 **Beds**: Inverness, Glencoe, Edinburgh priced; **Skye thin and already scarce** (40 results for 3 nights, cheapest outside Portree). 🟡 **Hostels exist in all three**: SYHA Portree (open all year, private en-suites and family rooms, ~$92–173/room/night, Tripadvisor average), Glencoe Youth Hostel (a 3-person private room listed on booking.com), Edinburgh Central (private rooms). ⬜ their prices for the actual dates
+- 🟡 **Skye in May on the ground**: midges emerge some time in May and are rarely bad yet; before 9 AM is quiet, busy from ~10 AM, weekdays beat weekends (independenttravelcats.com); don't do the Quiraing in wet or mist (r/Skye snippet). ⬜ a real Reddit sweep via Apify
 
 ## Fetch list (Colin)
 - 🔒 `Day-by-day-timed-itinerary.md` from the Windows PC (Ireland half), if it still matters
