@@ -223,3 +223,30 @@ Colin wants places marked in advance so each day's route is known *(stated 2026-
 **Read of it:** beds come to roughly **£1,520–2,000 for the 9 nights for all three** (the cheapest line in each town vs. the next one up), about **£510–670 each**. Skye is the swing: the cheap options are a drive from Portree, and supply is already thin six months out *(Claude's arithmetic from the figures above)*.
 
 **Spend:** about 70 Firecrawl credits. No Apify calls.
+
+## 2026-11-02 · Second sweep: hostels, the Day 8 squeeze, car size and fees
+
+- **Pitch page and `trip.md` both said the Dublin → Inverness schedule wasn't out.** It is: EI 3372 was found for May 17 earlier today. Both fixed.
+- **Day 8 is tighter than the draft said.** Doolin → Dublin Airport is ~3–3.5 h *(rome2rio 2 h 57 m; Rick Steves forum and the Doolin Inn both say allow 3.5 h)*, so with the Poulnabrone stop it's leave Doolin ~7:30, leave Poulnabrone ~8:30, car back by ~12:00 for the 13:45. Right at the 4-hour driving ceiling. Poulnabrone is the thing that gets cut if the morning slips.
+- **The cheap Ireland car is a mini.** Three adults plus two weeks of bags won't fit comfortably; price a size up *(Claude's judgment)*. Under-25 fees: ~€30–40/day in Ireland *(Facebook travel group, secondary)*, £25–30/day in Scotland *(roadgenius.com)*. Unknown whether the Kayak totals include them.
+- **Hostels are the cheap answer for three, and they exist where it hurts.** Portree Youth Hostel (Hostelling Scotland): open all year, private en-suites and family rooms, five minutes from the centre *(hostellingscotland.org.uk)*, ~$92–173 a room a night *(Tripadvisor partner average, snippet)* vs. £540+ on Expedia for 3 nights. Glencoe Youth Hostel lists a 3-person private room *(booking.com snippet)*; Edinburgh Central has private rooms *(hostellingscotland.org.uk snippet)*. None priced for the dates yet.
+- **Skye in May:** midges come out some time in May and are rarely bad that early; quiet before 9 AM, busy from ~10 *(independenttravelcats.com)*. Skip the Quiraing in mist or rain *(r/Skye, snippet)*.
+- **Spend:** about 25 Firecrawl credits.
+
+## 2026-11-02 · Third sweep: Scotland car, hostels, Reddit on Skye in May
+
+- **Scotland car, Inverness Airport May 17 16:00 → Edinburgh Airport May 22 12:00** *(Kayak via Apify, observed 2026-11-02, totals, not held)*: manual Toyota Aygo mini **$295**, Vauxhall Corsa economy $319, Ford Focus compact **$335** (all Enterprise); Europcar Corsa / Cupra Leon compact $372. Automatic: Enterprise Corsa $392–403, **Focus compact $402**, Nissan Juke $404. Kayak doesn't price by driver age, so the under-25 fee isn't in these. Enterprise wanted 25 at its Glasgow branch, so the cheap rows may not be bookable at 22; Europcar (from 22) starts at $372 manual.
+- **Ireland automatic:** still unpriced. Kayak's Kerry → Dublin one-way returned no offers this time.
+- **Hostels on Booking.com** *(Apify, 3 adults, 1 room, 2026-11-02)*: SYHA Portree and Glencoe didn't appear for the dates. Edinburgh May 22–24: CODE The Loft £178, Argyle Backpackers £219, Belford £261, Safestay Cowgate £268, but **Booking doesn't say whether that's a private room or three dorm beds**, and the £55–67 rows are surely dorm beds. Cheapest Portree rooms May 18–21: Greenacres and Pink House £630, Rosedale Hotel £648. Glencoe May 21: Loch Leven Hotel £234, Glencoe Inn £335. SYHA private rooms are on the fetch list.
+- **Reddit, Skye in May** *(Apify reddit-scraper-lite)*:
+  - Midges peak June to early September; in May "the odd one or two", worse in the west; bring Smidge *(r/OutdoorScotland, 2026-03-31)*.
+  - "Any time between end of March and end of September Skye is heaving" *(r/Skye, 2025-08-07)*; 30 minutes circling the Storr car park *(r/Skye, 2025-09-22)*. Supports the 7:30 Storr start.
+  - **Quiraing road (C1225) closed Sep 30 – Oct 30, 2026 for resurfacing** after summer complaints of "pothole craters" *(r/Skye PSA, 2026-09-30, quoting the Highland Council order)*. Should be better by May 2027; not confirmed.
+  - Fairy Pools: "a theme park with the crowds"; locals point to Glen Brittle instead (Coire Lagan, minor scrambling; the coast walk to the Viking canal) *(r/Skye, 2026-06-23)*. An option for Day 12's morning.
+  - A day can wash out; waterproof trousers, not just boots *(r/Skye, 2025-09-15)*. Cuchullin in Portree takes no reservations *(r/Skye, 2026-10-29)*.
+- **Spend:** ~9 Firecrawl credits, then out. Apify hit the account's monthly cap: an uncapped car scrape pulled 1,236 rows when ~60 were needed *(Claude's mistake)*.
+
+## 2026-11-02 · Decided: automatic, both cars
+
+- **Automatic for both rentals** *(Colin, 2026-11-02)*: "less of a headache on already novel roads"; the ~$23 each in Scotland isn't worth arguing over. Was the open question "Manual or automatic?". The Ireland automatic still needs a price.
+- **No pitch page has been sent yet** *(Colin, 2026-11-02)*: Sky Islands, Dingle, Oregon and Adirondacks all stay `draft`.

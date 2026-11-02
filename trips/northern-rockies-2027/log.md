@@ -333,3 +333,22 @@ No decisions, just copies of old values that hadn't caught up:
 - **Style: day hikes from a car camp**, not a backpack *(Colin, 2026-11-02)*. **Home by about Aug 25** for a few days before work on Aug 31 *(Colin, 2026-11-02)*. Still optional; `trip.md` still ends Aug 14.
 - **Found:** Sawtooth Lake from Iron Creek, ~10 mi *(bellebucket.com)*. Alice–Toxaway loop, 17 mi and 3,000 ft, with a free wilderness permit at the trailhead *(discoversawtooth.org)*; Pettit Lake parking is $10 a day *(bellebucket.com)*. Dispersed camping near Redfish, Stanley Lake, Iron Creek Road and Pettit is only allowed at designated sites with the camping symbol *(fs.usda.gov Sawtooth NRA occupancy order)*.
 - **Smoke is the risk:** SW Idaho advisories ran Aug 3–7, 2026 (`wishlist/idaho-boys.md`); a 2026 guide reports Stage 1 fire restrictions and a Custer County smoke advisory from Aug 7 *(bellebucket.com)*. Make the call from Bend on air quality. Fallbacks on the way east: Craters of the Moon, the Tetons / Wind Rivers, the High Uintas (`wishlist/high-uintas.md`).
+
+## 2026-11-02 · The after-Oregon extension: campgrounds, the drive, and fire
+
+Findings only; nothing decided, `trip.md` still ends Aug 14.
+
+- **Sawtooth campgrounds are a mix.** Iron Creek is first-come only, claimed in person *(recreation.gov facility page, snippet)*. Outlet (Redfish Lake, 6,500 ft) takes reservations on recreation.gov *(recreation.gov, snippet)*. Stanley Lake is split: some sites reservable, most marked first-come, booked in person only *(recreation.gov, snippet)*. Mount Heyburn and Sockeye are first-come *(redfishlake.com)*. Alturas Inlet takes reservations *(fs.usda.gov Sawtooth recreation page, snippet)*. **Claude's read:** a refundable recreation.gov hold on one reservable site is a cheap hedge for a free-flowing plan, because mid-August first-come in the Sawtooths is a gamble. Not booked, and no window date computed (the briefing does that once a `booking:` row exists).
+- **Getting there is two days, not one.** Bend → Burns ~2 h 15 m, Burns → Vale ~2 h *(Facebook group, secondary)*; Boise → Stanley ~2.5–3 h *(idahorivers.com)*. A 2023 r/Boise thread warned SH-21 was "closed most of the week" that year *(reddit, snippet)*, so check its 2027 status. Portland → Boise on I-84 is ~430 mi *(recalled, unrouted)*. Shape: Aug 10 PDX drop, then east to roughly Pendleton/La Grande; Aug 11 on to Stanley *(Claude's suggestion)*.
+- **Fire is a real risk, not a hypothetical one.** The **Wapiti Fire evacuated Lower Stanley on Aug 27, 2024** and closed SH-21 and parts of SH-75 *(itd.idaho.gov)*; it passed 129,000 acres *(kivitv.com)*. With the 2026 smoke already logged, the go/no-go from Bend stays the rule, and Craters of the Moon, the Tetons / Wind Rivers and the High Uintas stay the fallbacks.
+- **Hikes vs. the ceiling** (~10 mi / ~2,500 ft, `me/hiking.md`): Sawtooth Lake from Iron Creek (~10 mi) is at the ceiling; Alice–Toxaway (17 mi, 3,000 ft) is well over it and would need a written reason or a cut-down version.
+- **Rough budget of days** to get home by ~Aug 25: ~4 days of driving from Stanley to Avon (~1,900 mi, *recalled, unrouted*) leaves about **4–5 Sawtooth nights plus 2–3 flex nights** after the Aug 10–11 transit *(Claude's arithmetic)*.
+
+## 2026-11-02 · The extension, made concrete
+
+- **Proposal written into `trip.md`** (open question "Extend the trip after Oregon"): Aug 10 PDX → Pendleton/La Grande, Aug 11 to Stanley, 5 Sawtooth nights (Aug 11–16), 0–5 flex nights, **leave the west by the morning of Aug 21** → home Aug 24 *(Claude's suggestion; still optional, Colin decides from the road)*.
+- **Outlet CG (Redfish Lake):** 19 sites, all reservable; $26 standard single / $52 double; peak season May 21 – Sep 16, 2027; max stay 10 nights; a reservation cutoff value of 4 (probably days) *(recreation.gov facility data via Firecrawl, 2026-11-02)*. Its release data shows a 6-month rolling window, which matches `me/booking.md`.
+- **Cancelling on recreation.gov:** $10, unless it's after 12:00 AM local the day before arrival, which also forfeits the first night *(recreation.gov rules page, snippet, 2026-11-02)*.
+- **Hike figures** *(AllTrails, 2026-11-02)*: Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft; Alice–Toxaway 18.8 mi / 3,116 ft (the earlier 17 mi / 3,000 ft came from discoversawtooth.org); Bench Lakes 8.2 / 1,190; Alpine Lake via Iron Creek 7.7 / 1,240; Fishhook Creek 4.6 / 262; Yellow Belly Lake 5.1 / 964.
+- Added an optional `booking:` row for the hold, so the briefing computes its window (**Thu Feb 11, 2027**).
+

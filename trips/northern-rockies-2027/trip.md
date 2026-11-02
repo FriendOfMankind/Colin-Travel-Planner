@@ -79,6 +79,10 @@ booking:
     what: Belknap Hot Springs Lodge, 4-guest room (Aug 8–10)
     target: 2027-08-08
     note: 18 lodge rooms, few take 4; book first. $140–215 + 12.07% tax (belknaphotsprings.com, 2026-10-15).
+  - system: recreation.gov
+    what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 11–16, 5 nights)"
+    target: 2027-08-11
+    note: "Only if the after-Oregon extension is still alive in February; see the open question. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
 updated: 2026-10-30
 map:
   center: [ 45.5, -106 ]
@@ -1495,6 +1499,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 28 (Day 17): required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
+- [ ] *Optional:* **Outlet CG, Sawtooths, Aug 11–16** — hold only if the after-Oregon extension is still alive. Window **Thu Feb 11, 2027** (computed); cancelling costs $10 until the day before arrival. See the open question.
 - [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 30, 31, 32, 33.** Solve them together, once, before departure.
 
 ## Open questions
@@ -1503,6 +1508,22 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 **Blocks:** Aug 10–14 (the drive home) and the open stretch to Aug 31
 Optional, decided from the road *(Colin, 2026-11-02)*. If extended: **the Sawtooths (Stanley, Idaho) or somewhere new, not Colorado**; day hikes from a car camp; **home by about Aug 25**. Smoke is the deciding risk: check air quality from Bend. Findings and fallbacks are in `log.md` (2026-11-02).
+
+**The proposal** *(Claude's suggestion, 2026-11-02; nothing booked; Days 30–34 stay as the default until you choose this)*:
+
+| When | What |
+| --- | --- |
+| Aug 10 | Friends to PDX, then east on I-84 to Pendleton or La Grande. Transit night. ⚠️ unrouted |
+| Aug 11 | → Boise → SH-21 → Stanley. Boise → Stanley is ~2.5–3 h *(idahorivers.com, in log.md)*; the leg to Boise is unrouted. If SH-21 is closed, go US-20 → SH-75 over Galena Summit instead (longer, unrouted). |
+| Aug 11–16 | **5 nights in the Sawtooths**, Outlet CG at Redfish Lake if held (below) |
+| Aug 16–20 | **Flex, 0–5 nights**: more Sawtooths, or start east early with a stop at Craters of the Moon, the Tetons / Wind Rivers or the High Uintas (none researched for camping) |
+| **Aug 21, morning** | **The latest you can leave the west.** Stanley → Avon is ~2,000 mi *(recalled, unrouted)*, so 4 driving days at ~500 mi → home the evening of Aug 24, with Aug 25 spare before work on Aug 31 |
+
+Hike menu, all inside the ~10 mi / ~2,500 ft ceiling *(AllTrails, 2026-11-02)*: Fishhook Creek 4.6 mi / 262 ft (the arrival-day leg stretch, from Redfish), Bench Lakes 8.2 mi / 1,190 ft (from Redfish), Alpine Lake via Iron Creek 7.7 mi / 1,240 ft, **Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft (the headliner, right at the ceiling)**, Yellow Belly Lake from Pettit 5.1 mi / 964 ft. Alice–Toxaway is 18.8 mi / 3,116 ft on AllTrails, so it's off the menu.
+
+**Hold a site? Yes: a refundable hold at Outlet for Aug 11–16.** Every one of its 19 sites is reservable, so in peak season it has no first-come sites at all, and taking first-come at Iron Creek, Sockeye or Mount Heyburn for a 5-night stay in mid-August is a gamble. It's $26/night ($130 for five, plus a reservation fee I haven't checked). Cancelling before 12:00 AM local the day before arrival costs **$10** *(recreation.gov rules page, snippet)*, and the call from Bend on Aug 4–8 is comfortably before that. Its rules include a cutoff value of 4, which reads as no new bookings within 4 days of arrival *(recreation.gov facility data; unit not stated)*. If that's right, you can't decide in Bend and book then, so the hold is the only way to have a reserved site. **The window opens Thu Feb 11, 2027 at 10:00 AM ET** (computed by `tools/now.mjs` from the `booking:` row; recreation.gov's own release data for Outlet shows the same 6-month rolling window). It's not part of the January sitting, so it's a separate alarm.
+
+**The go/no-go from Bend:** if Stanley is smoked out, or SH-21 and SH-75 are closed for fire (the 2024 Wapiti Fire closed both, `log.md`), cancel the hold and either take a fallback or drive straight home as Days 30–34 have it.
 
 ### Can you actually get Slough Creek, Madison, Many Glacier and a west-side campground for these dates?
 

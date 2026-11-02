@@ -30,7 +30,7 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **manual or automatic?** decides the car price; (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **Portree beds, 3 nights May 18–21**, the scarce part, book months ahead; (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE May 24, one open-jaw ticket
@@ -47,7 +47,7 @@ booking:
   - system: rental-car
     what: Scotland car, Inverness Airport May 17 → Edinburgh Airport May 22, one way
     target: 2027-05-17
-    note: Europcar rents from 22, about £30 a day per under-25 driver (myhighlands.de, 2026-09). Enterprise and Alamo want 25. One-way fee not priced.
+    note: "Kayak totals, May 17 16:00 → May 22 12:00, observed 2026-11-02, not held. Manual: Toyota Aygo mini $295, Vauxhall Corsa economy $319, Ford Focus compact $335 (all Enterprise); Europcar Corsa or Cupra Leon compact $372. Automatic: Enterprise Corsa $392–403, Focus compact $402, Nissan Juke $404. ⚠️ The cheap rows are Enterprise, which wanted 25 at its Glasgow branch; Europcar rents from 22, about £30 a day per under-25 driver (myhighlands.de, 2026-09), not in the totals. Kayak doesn't price by age. One-way fee not shown separately."
   - system: private
     what: Doolin, 2 nights May 15–17 (3 adults)
     target: 2027-05-15
@@ -58,7 +58,7 @@ booking:
   - system: private
     what: Portree, Skye, 3 nights May 18–21
     target: 2027-05-18
-    note: The scarce booking. "For May to September, book months ahead" (scotlandswild.com).
+    note: The scarce booking. "For May to September, book months ahead" (scotlandswild.com). Cheapest lead not yet priced for the dates is Portree Youth Hostel (Hostelling Scotland, open all year, private en-suite and family rooms, five minutes from the centre; hostellingscotland.org.uk, 2026-11), about $92–173 a room a night (Tripadvisor partner average, snippet), against £540+ for 3 nights on Expedia.
   - system: private
     what: Glencoe, 1 night May 21
     target: 2027-05-21
@@ -76,7 +76,7 @@ page:
   emoji: 🏰
   theme: ocean
   vehicle: "**Coaches to Dingle, then two rental cars, Colin driving.** Kerry Airport → Dublin Airport (May 15–17), then Inverness → Edinburgh (May 17–22). Both one-way, both with an under-25 surcharge, neither priced."
-  gettingThere: "Open-jaw: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, home from **Edinburgh** on Mon May 24 (not picked). **Dublin → Inverness** on May 17 (Aer Lingus, schedule not seen). The parents are paying the flights."
+  gettingThere: "Open-jaw: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, home from **Edinburgh** on Mon May 24 (not picked). **Dublin → Inverness** on May 17: Aer Lingus EI 3372, 13:45 → 15:20 (on sale, not booked). The parents are paying the flights."
   footerNote: "Draft as of Nov 2, 2026. **Nothing booked.** Dingle days are unchanged from the earlier plan; Days 6–15 were drafted on 2026-11-02 and every drive is unrouted. The Marseille version is in `wishlist/marseille-may-2027.md`. [← All trips](../../index.html)"
   stats:
     - num: 15 days
@@ -339,8 +339,8 @@ overnight:
 date: 2027-05-17
 tagline: A Neolithic tomb on bare limestone, a long drive, a short flight.
 type: travel
-slack: The Burren stop is the slack. For the 13:45 flight, leave Doolin by ~7:45 (unrouted estimate).
-driving: Doolin → Burren → Dublin Airport (⚠️ unrouted; ~3 h recalled)
+slack: The Burren stop is the slack, and the only slack. For the 13:45 flight, leave Doolin by ~7:30 and Poulnabrone by ~8:30; drop the car by ~12:00.
+driving: Doolin → Burren → Dublin Airport, ~3–3.5 h of driving (rome2rio says 2 h 57 m; a Rick Steves forum thread and the Doolin Inn both say allow 3.5 h; searched 2026-11-02, not routed). Right at the 4-hour ceiling
 overnight:
   name: TBD, Inverness
   mapStandIn: Inverness Airport
@@ -351,7 +351,7 @@ overnight:
 
 **Schedule**
 - morning · geology · **The Burren**: limestone pavement and the **Poulnabrone dolmen**, a Neolithic portal tomb *(recalled)*. · 📍 Poulnabrone Dolmen
-- midday · drive · To Dublin Airport and drop the car. ⚠️ The **M50 toll** near Dublin has no barrier: pay it online or the rental company adds an admin fee, €30–60 *(odo.ie, 2026-04)* · 📍 Dublin Airport
+- midday · drive · To Dublin Airport and drop the car **by ~12:00**: the rental return, the shuttle to the terminal and bag drop all sit between the car and a 13:45 regional flight *(Claude's judgment)*. If Poulnabrone runs late, skip it: the flight is the day. ⚠️ The **M50 toll** near Dublin has no barrier: pay it online or the rental company adds an admin fee, €30–60 *(odo.ie, 2026-04)* · 📍 Dublin Airport
 - 13:45 → 15:20 (1h 35m) · fly · **Aer Lingus EI 3372 Dublin → Inverness**, ATR 72. **$289 for all 3**, bags extra *(Google Flights, observed 2026-11-02 for this date, not held)*. **Fallback:** Ryanair FR 814 Dublin → Edinburgh 16:05 → 17:15 ($118 for 3, same source), then the train to Inverness (times not checked) · 📍 Inverness Airport
 - afternoon · drive · Pick up the Scotland car at Inverness Airport (company TBD; Europcar rents from 22). Loch Ness Drumnadrochit Hotel (£139 for 3, Expedia 2026-11-02) is on tomorrow's road.
 
@@ -556,7 +556,7 @@ slack: Unknown until the flight is booked.
 - [ ] Family: beds for May 11–14, and the May 15 lift to Kerry Airport (address → leave time)
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [x] Dublin → Inverness flies Mon May 17: EI 3372 13:45 → 15:20 *(Google Flights, 2026-11-02)*
-- [ ] Manual or automatic: decides both car prices
+- [x] Automatic, both cars *(Colin, 2026-11-02)*
 - [ ] Open-jaw CLE → DUB / EDI → CLE priced, with real margin at the US entry airport
 - [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
 - [ ] Doolin, Inverness, Glencoe and Edinburgh beds
@@ -570,10 +570,12 @@ slack: Unknown until the flight is booked.
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
-### Manual or automatic?
+### What does an automatic cost in Ireland?
 
-**Blocks:** both cars
-Every cheap Ireland offer on 2026-11-02 was a manual (Hertz mini, $216 for the 3 days). An automatic costs more and wasn't priced. Shifting with the left hand while learning the left side of the road is extra load for the only driver.
+**Blocks:** the Ireland car
+**Both cars are automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. Scotland is priced: Focus compact automatic $402 for the 5 days *(Kayak, 2026-11-02)*. Ireland isn't: every cheap Kerry → Dublin offer was a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
+
+**And the size.** The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
 
 ### Which Edinburgh → home routing?
 
@@ -600,8 +602,8 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 | --- | --- | --- | --- |
 | Transatlantic flights (two one-ways) | ~$3,470 | ~$1,157 | Observed; **parents pay** |
 | Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
-| Ireland car, 3 days, manual | $216–257 | ~$72–86 | Observed; young-driver and one-way fees may be extra |
-| Scotland car, 5 days | TBD | TBD | Not priced |
+| Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
+| Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
 | Beds, 9 nights (cheapest → next up) | ~£1,520–2,000 | ~£510–670 | Observed, Expedia; hostels not searched |
 | Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
 
