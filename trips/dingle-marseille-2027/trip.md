@@ -95,7 +95,7 @@ page:
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with the friend's family. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley, and two nights in Edinburgh. Home from Edinburgh on Mon May 24.
+Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley, and two nights in Edinburgh. Home from Edinburgh on Mon May 24.
 
 ### Dates
 
@@ -103,15 +103,15 @@ May 10–24, 2027 (target). 15 days, 14 nights. Newfoundland leaves Wed May 26.
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), the friend whose family is in Dingle, and Colin's brother; the other two are 20 and 19** *(stated 2026-11-02)*, so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Possibly a 4th: Jake, a friend from near Belfast** (open question below), so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
-**It's the friend's family, his grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 15 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Why Skye
 
-**Ireland + Skye instead of Marseille** *(Colin, 2026-11-02: people he's talked to say Marseille "isn't the best"; he wants roots)*. Ireland is the friend's roots. **Colin and his brother are McLeods, and Skye is Clan MacLeod's homeland**: Dunvegan Castle has been the chiefs' seat for about 800 years *(dunvegancastle.com)*. **Skye over the Giant's Causeway** *(Colin, 2026-11-02)*. Colin's own line (grandfather Douglas McLeod, born in Detroit) isn't traced yet; see `log.md`. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
+**Ireland + Skye instead of Marseille** *(Colin, 2026-11-02: people he's talked to say Marseille "isn't the best"; he wants roots)*. Ireland is Stick's roots. **Colin and his brother are McLeods, and Skye is Clan MacLeod's homeland**: Dunvegan Castle has been the chiefs' seat for about 800 years *(dunvegancastle.com)*. **Skye over the Giant's Causeway** *(Colin, 2026-11-02)*. Colin's own line (grandfather Douglas McLeod, born in Detroit) isn't traced yet; see `log.md`. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
 
 ### Clocks
 
@@ -565,7 +565,7 @@ slack: Unknown until the flight is booked.
 
 ## Open questions
 
-### Can the friend's family confirm beds and the May 15 lift?
+### Can Stick's grandparents confirm beds and the May 15 lift?
 
 **Blocks:** Days 2–6
 Their address decides the May 11 route and the leave time for Kerry Airport on Sat May 15. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
@@ -577,10 +577,10 @@ Their address decides the May 11 route and the leave time for Kerry Airport on S
 
 **And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
 
-### Is a 4th person coming: the friend near Belfast?
+### Is a 4th person coming: Jake, from near Belfast?
 
 **Blocks:** car size, Portree beds, flights
-Colin has a friend who lives near Belfast who "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
+Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ### Which Edinburgh → home routing?
 
@@ -617,7 +617,7 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 
 ### The pitch page
 
-**"Dingle & Skye, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for the friend and Colin's brother. Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
+**"Dingle & Skye, May 10–24"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for Finn, Stick and Jake (Jake added 2026-11-02, with two ways to join). Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
 
 ### What this is built from
 
