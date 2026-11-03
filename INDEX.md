@@ -66,7 +66,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The Waterpocket Fold, and the least-visited of the Mighty Five
 - **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 2 research notes · updated 2026-10-06
   The reliable Colorado option in May
-- **Costa Rica Road Trip** (`wishlist/costa-rica-jan.md`) · Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica · fly · keeps (derived) · Jan/Feb/Mar/Apr · 10 days · 2 research notes · updated 2026-11-03
+- **Costa Rica Road Trip** (`wishlist/costa-rica-jan.md`) · Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica · fly · keeps (derived) · Jan/Feb/Mar/Apr · 10 days · 3 research notes · updated 2026-11-03
   A car, a crew, jungle wildlife, hot springs and a Guanacaste surf town
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
