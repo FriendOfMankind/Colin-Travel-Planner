@@ -5,7 +5,7 @@ groups:
   - group: Getting around Ireland
     places:
       - name: Cleveland Hopkins International Airport
-        note: May 10 out (EI 86), May 24 home. Day 1 and day 15.
+        note: May 10 out (EI 86), May 23 home. Day 1 and day 14.
         maps: Cleveland Hopkins International Airport
         verified: true
         lat: 41.41124
@@ -373,14 +373,14 @@ groups:
         lng: -3.188428
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Arthur's Seat"
-        note: "Day 14."
+        note: "Day 13, evening."
         maps: "Arthur's Seat"
         verified: true
         lat: 55.944747
         lng: -3.152751
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-02)
       - name: "Edinburgh Castle"
-        note: "Day 14."
+        note: "Day 13, from outside."
         maps: "Edinburgh Castle"
         verified: true
         lat: 55.948192

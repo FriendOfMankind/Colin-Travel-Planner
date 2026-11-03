@@ -163,3 +163,13 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 ## 2026-11-02 · Research findings now live in research-log.md
 
 - 7 research entries (source sweeps, YouTube, Reddit and pasted threads, with their sources and quotes) moved to `research-log.md`, unchanged, so this file holds decisions and what happened. The plan already carries what they found; open `research-log.md` for the source behind a fact *(Colin chose the split, 2026-11-02)*.
+
+## 2026-11-03 · Decided: home Sun May 23, because Stick works Monday
+
+- **Stick has to be home sometime Sunday; he has work Monday** *(Colin, 2026-11-03)*. Read as Sun May 23 and home = Cleveland (Claude's assumption, stated to Colin).
+- **Picked A** *(Colin, 2026-11-03)*: the whole group flies home Sun May 23, and the Edinburgh rest day is cut. Rejected: Stick flying home alone Sunday (breaks the same-flights decision for one Edinburgh day), and shifting the whole trip a day earlier to leave Sun May 9 (the morning after Commencement, new dates for the grandparents, EI 3372 unchecked on a Sunday).
+- **Old values:** 15 days, 14 nights, 2 Edinburgh nights (May 22–24), home Mon May 24. Old Day 14 was the Edinburgh rest day (Arthur's Seat, the Royal Mile, the castle). Arthur's Seat moves to Day 13's evening, if the legs allow. The castle is dropped.
+- **Home flight not seen for Sunday.** The 2026-11-02 prices were for Mon May 24. Recommendation: Aer Lingus via Dublin (preclearance, long layover) over a US-hub connection, since a misconnect now costs Stick a work day *(Claude's judgment)*. Colin is pulling Sunday options from Google Flights.
+- **Side effect:** two turnaround days before Newfoundland (Wed May 26) instead of one.
+- **Map:** the old day-14 walking line is deleted, and the airport line (old day 15) is now day 14. Day 13's line still ends at Edinburgh Airport; the evening walk to Arthur's Seat isn't drawn.
+- **Pitch page** updated before Colin sent it (same link): May 10–23, 14 days, Edinburgh one night, Jake's Scotland option to 6 nights.
