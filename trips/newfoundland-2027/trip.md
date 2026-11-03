@@ -99,7 +99,7 @@ Two days to Maine, one evening in Acadia, Fundy, Cape Breton's Skyline Trail at 
 ### Dates
 
 May 26 – June 24, 2027 (target)
-30 days / 29 nights. Leaves two days after the Dingle & Marseille trip gets home (May 24), with one day to turn around *(Colin, 2026-10-30)*. Ends eighteen days before Glacier (July 12). Starting earlier doesn't buy island days: the Argentia ferry pins the end, and the Gros Morne and northern ParksNL campgrounds opened May 22 and May 29 in 2026.
+30 days / 29 nights. Leaves three days after the Dingle & Skye trip gets home (Sun May 23), with two days to turn around *(Colin, 2026-10-30; Dingle moved a day earlier 2026-11-03)*. Ends eighteen days before Glacier (July 12). Starting earlier doesn't buy island days: the Argentia ferry pins the end, and the Gros Morne and northern ParksNL campgrounds opened May 22 and May 29 in 2026.
 
 ### Group
 

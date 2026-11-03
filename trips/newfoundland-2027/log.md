@@ -485,3 +485,7 @@ No decisions, just copies that hadn't caught up:
 ## 2026-11-02 · Research findings now live in research-log.md
 
 - 11 research entries (source sweeps, YouTube, Reddit and pasted threads, with their sources and quotes) moved to `research-log.md`, unchanged, so this file holds decisions and what happened. The plan already carries what they found; open `research-log.md` for the source behind a fact *(Colin chose the split, 2026-11-02)*.
+
+## 2026-11-03 · Two turnaround days, not one
+
+- The Dingle & Skye trip now lands **Sun May 23**, not Mon May 24, because Stick works Monday *(Colin, 2026-11-03; see `trips/dingle-marseille-2027/log.md`)*. Newfoundland still leaves Wed May 26, so there are two days to turn around (was one). Nothing here moved.

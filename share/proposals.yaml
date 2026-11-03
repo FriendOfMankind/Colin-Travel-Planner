@@ -41,14 +41,14 @@
   asOf: 2026-11-01
 
 - id: dingle-marseille-2027
-  title: Dingle & Skye, May 10–24
+  title: Dingle & Skye, May 10–23
   url: https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf
   format: page
   source: share/proposals/dingle-marseille-2027.html
   trip: dingle-marseille-2027
-  for: Finn (brother), Stick (cousin) and Jake (friend near Belfast, maybe)
-  status: draft  # not sent yet (Colin, 2026-11-01)
-  asOf: 2026-11-02
+  for: Finn (brother), Stick (cousin), Jake (friend near Belfast, maybe), and the parents (their own section, 2026-11-03)
+  status: sent  # Colin sending it 2026-11-03, right after the May 23 change
+  asOf: 2026-11-03
 
 - id: athens-may-2027
   title: Athens, May 13–20

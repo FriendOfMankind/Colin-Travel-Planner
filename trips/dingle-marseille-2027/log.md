@@ -163,3 +163,40 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 ## 2026-11-02 · Research findings now live in research-log.md
 
 - 7 research entries (source sweeps, YouTube, Reddit and pasted threads, with their sources and quotes) moved to `research-log.md`, unchanged, so this file holds decisions and what happened. The plan already carries what they found; open `research-log.md` for the source behind a fact *(Colin chose the split, 2026-11-02)*.
+
+## 2026-11-03 · Decided: home Sun May 23, because Stick works Monday
+
+- **Stick has to be home sometime Sunday; he has work Monday** *(Colin, 2026-11-03)*. Read as Sun May 23 and home = Cleveland (Claude's assumption, stated to Colin).
+- **Picked A** *(Colin, 2026-11-03)*: the whole group flies home Sun May 23, and the Edinburgh rest day is cut. Rejected: Stick flying home alone Sunday (breaks the same-flights decision for one Edinburgh day), and shifting the whole trip a day earlier to leave Sun May 9 (the morning after Commencement, new dates for the grandparents, EI 3372 unchecked on a Sunday).
+- **Old values:** 15 days, 14 nights, 2 Edinburgh nights (May 22–24), home Mon May 24. Old Day 14 was the Edinburgh rest day (Arthur's Seat, the Royal Mile, the castle). Arthur's Seat moves to Day 13's evening, if the legs allow. The castle is dropped.
+- **Home flight not seen for Sunday.** The 2026-11-02 prices were for Mon May 24. Recommendation: Aer Lingus via Dublin (preclearance, long layover) over a US-hub connection, since a misconnect now costs Stick a work day *(Claude's judgment)*. Colin is pulling Sunday options from Google Flights.
+- **Side effect:** two turnaround days before Newfoundland (Wed May 26) instead of one.
+- **Map:** the old day-14 walking line is deleted, and the airport line (old day 15) is now day 14. Day 13's line still ends at Edinburgh Airport; the evening walk to Arthur's Seat isn't drawn.
+- **Pitch page** updated before Colin sent it (same link): May 10–23, 14 days, Edinburgh one night, Jake's Scotland option to 6 nights.
+
+## 2026-11-03 · Flight prices from Colin's Google Flights screenshots
+
+One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's screenshots, 2026-11-03)*.
+- **CLE → DUB, Mon May 10: EI 86**, 20:40 → 08:45 +1, 7 h 05 m nonstop, **$318** (×3 ≈ $954). 1 free carry-on; first checked bag for a fee.
+- **DUB → INV, Mon May 17: Aer Lingus 13:45 → 15:20** (operated by Emerald), nonstop, **$97** (×3 ≈ $291). Alternatives the same day, to Edinburgh: Ryanair 16:05 → 17:15 $40 (no carry-on included), Aer Lingus 17:50 → 19:10 $48.
+- **EDI → CLE: the screenshot is dated Mon May 17, not Sun May 23**, so it doesn't price the trip's return. For shape only: American via PHL 11:25 → 19:10 (3 h 35 m layover) $811; Delta via BOS 09:00 → 16:31 (3 h 05 m) $826; Aer Lingus via DUB 13:25 → 19:10 (1 h 25 m in Dublin) $837. Re-search for May 23.
+
+## 2026-11-03 · Sunday return seen; flights on the pitch page
+
+- **EDI → CLE, Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03, totals for 3)*: Icelandair/JetBlue via KEF + JFK 14:15 → 23:59 $2,294; Aer Lingus via DUB 13:25 → 19:10 (1 h 25 m) $2,539; JetBlue via JFK 12:10 → 23:59 (6 h 55 m, a warning icon) $2,577; American via PHL 11:25 → 19:10 (3 h 35 m) $2,601; Air Canada via YYZ 09:00 → 14:32 (2 h 20 m) $3,140. "Cheapest from $1,723" wasn't opened. The 09:40 Aer Lingus via Dublin from 2026-11-02 didn't show in the top list.
+- **Shortlist: American via PHL or Air Canada via Toronto** *(Claude's recommendation)*. The midnight landings and the tight Dublin connection put Stick's Monday at risk. Air Canada lands earliest and clears US customs in Toronto (*recalled*), for ~$540 more for 3.
+- **Dublin → Inverness: the three of them pay**, not the parents *(Colin, 2026-11-03: "we probably will")*.
+- **No separate parents' page** *(Colin, 2026-11-03)*: the flights went into the existing pitch as a "The flights" section, with the parents' share at ~$3,555–4,094.
+- **The "cheapest" tab, Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03)*: all **self-transfer** (separate tickets) via Dublin, landing CLE 19:10: Ryanair + Aer Lingus EDI 10:55, 4 h 05 m in DUB, $1,802 (no carry-on included); Ryanair + Aer Lingus EDI 12:45, 2 h 15 m, $1,860; Aer Lingus/BA EDI 12:15, 2 h 30 m, $2,112. Not on the pitch yet.
+- **Round trip CLE ⇄ DUB, May 10 / Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03)*: EI 86 out (20:40 → 08:45), **$2,228 round trip for 3**; the return leg wasn't shown. Delta via MSP $2,316; United via EWR $2,338; JetBlue from $2,158 (13 h at JFK).
+- **Sat May 22 to Dublin, 3 adults** *(same)*: EDI → DUB Ryanair 06:15 → 07:20 $152 (no carry-on); **Aer Lingus 15:30 → 16:45 $297**; Ryanair 09:15 $343. GLA → DUB Ryanair 08:05 $201, 10:55 $268; Aer Lingus 12:00 → 13:15 $554. Colin: "meh maybe not".
+
+## 2026-11-03 · Decided: finish in Dublin, Edinburgh dropped, Lost Valley kept
+
+- **Edinburgh is out; the Lost Valley stays** *(Colin, 2026-11-03: "we can skip edinburgh, and I still want to do lost valley")*. Colin's message also said "A", the keep-Edinburgh option; Claude read the words over the letter and said so.
+- **The return EI 87 is confirmed:** the $2,228 round trip pairs EI 86 out with **EI 87 DUB 16:05 → CLE 19:10, nonstop**, Sun May 23 *(Colin's screenshot, 2026-11-03)*. Other returns on that ticket were $2,727+ with a US connection.
+- **Saturday to Dublin: Aer Lingus EDI 20:25 → DUB 21:45, $233 for 3**, carry-on included *(same)*. Picked by Claude over the 15:30 ($297) because it's cheaper and leaves the whole afternoon after the Lost Valley; Ryanair 19:25 ($138) has no carry-on. Glasgow → Dublin had nothing after midday except self-transfers, so the Scotland car still drops at Edinburgh Airport.
+- **Dublin Airport hotel** for the night: Maldron Dublin Airport has triples and a 24 h shuttle; Kayak ~$183–294 a night, undated. Not picked.
+- **Totals for 3:** $2,228 (parents) + $233 + ~$250 hotel ≈ **$2,710**, against $3,555 (American via PHL) or $4,094 (Air Canada via YYZ) for the Edinburgh open-jaw. Who pays the Saturday flight and the hotel isn't settled.
+- **Old values:** Day 13 ended with a night in Edinburgh (Arthur's Seat, the Royal Mile); Day 14 was EDI → CLE with one connection, not picked. The open question "Which Edinburgh → home routing?" is closed and removed from `trip.md`.
+- **Map:** Day 14's Edinburgh line is deleted (it's two flights now). Edinburgh Waverley and the castle stay pinned, marked not in the plan.
