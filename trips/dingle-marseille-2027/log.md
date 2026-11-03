@@ -173,3 +173,10 @@ A planning handoff from another tool, pasted into a chat by Colin on 2026-10-30.
 - **Side effect:** two turnaround days before Newfoundland (Wed May 26) instead of one.
 - **Map:** the old day-14 walking line is deleted, and the airport line (old day 15) is now day 14. Day 13's line still ends at Edinburgh Airport; the evening walk to Arthur's Seat isn't drawn.
 - **Pitch page** updated before Colin sent it (same link): May 10–23, 14 days, Edinburgh one night, Jake's Scotland option to 6 nights.
+
+## 2026-11-03 · Flight prices from Colin's Google Flights screenshots
+
+One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's screenshots, 2026-11-03)*.
+- **CLE → DUB, Mon May 10: EI 86**, 20:40 → 08:45 +1, 7 h 05 m nonstop, **$318** (×3 ≈ $954). 1 free carry-on; first checked bag for a fee.
+- **DUB → INV, Mon May 17: Aer Lingus 13:45 → 15:20** (operated by Emerald), nonstop, **$97** (×3 ≈ $291). Alternatives the same day, to Edinburgh: Ryanair 16:05 → 17:15 $40 (no carry-on included), Aer Lingus 17:50 → 19:10 $48.
+- **EDI → CLE: the screenshot is dated Mon May 17, not Sun May 23**, so it doesn't price the trip's return. For shape only: American via PHL 11:25 → 19:10 (3 h 35 m layover) $811; Delta via BOS 09:00 → 16:31 (3 h 05 m) $826; Aer Lingus via DUB 13:25 → 19:10 (1 h 25 m in Dublin) $837. Re-search for May 23.
