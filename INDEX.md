@@ -66,6 +66,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The Waterpocket Fold, and the least-visited of the Mighty Five
 - **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 2 research notes · updated 2026-10-06
   The reliable Colorado option in May
+- **Costa Rica Road Trip** (`wishlist/costa-rica-jan.md`) · Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica · fly · keeps (derived) · Jan/Feb/Mar/Apr · 10 days · 1 research note · updated 2026-11-03
+  A car, a crew, jungle wildlife, hot springs and a Guanacaste surf town
 - **Dinosaur National Monument** (`wishlist/dinosaur-nm.md`) · Jensen, Utah / Colorado · fly · keeps (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 3 nights · updated 2026-10-05
   The quarry wall and the Green River — the sleeper
 - **The Dolomites** (`wishlist/dolomites.md`) · Alta Badia / Cortina / Val Gardena, Italy · fly · keeps (derived) · Jun/Jul/Aug/Sep · 9 days · 1 research note · updated 2026-11-01
@@ -84,6 +86,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Dunes and a snowmelt creek — with a real catch
 - **Greenbrier Valley** (`wishlist/greenbrier-valley.md`) · Marlinton / Watoga, West Virginia · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 2 research notes · updated 2026-10-01
   78 miles of river, two tunnels, and nobody
+- **Fuego & Surf** (`wishlist/guatemala-el-salvador-jan.md`) · Antigua / Acatenango, Guatemala → La Libertad surf coast and Los Volcanes, El Salvador · fly · keeps (derived) · Jan · 10 days · 1 research note · updated 2026-11-03
+  Guatemala + El Salvador with friends — a night facing an erupting volcano, then surf towns and crater lakes
 - **High Uintas** (`wishlist/high-uintas.md`) · Utah · fly · keeps (derived) · Jul/Aug/Sep · updated 2026-09-03
   Absurdly lake-dense, short season
 - **Iceland** (`wishlist/iceland.md`) · Iceland (Ring Road; highlands only with a 4x4) · fly · keeps (derived) · Jun/Jul/Aug · 2 research notes · updated 2026-11-01
