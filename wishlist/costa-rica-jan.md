@@ -9,7 +9,7 @@ days: 10
 window: Jan 7–16, 2027 is the working version (after the Dec 24 – Jan 6 crush, back before spring term on Jan 19). Colin picked Costa Rica over Guatemala 2026-11-03; the Adirondacks stays open as the backup. Dry season runs ~Dec–Apr, so it would also keep
 region: Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica
 country: Costa Rica
-budget: ~$1,700–3,000 pp for a crew of 4, flights included (estimate from published ranges, 2026-11-03; nothing quoted). Add ~$200–400 pp for a crew of 3
+budget: ~$1,750–3,100 pp for a crew of 4, flights included (estimate from published ranges, 2026-11-03; nothing quoted). Add ~$200–400 pp for a crew of 3
 tags: [ friends, international, fly-in, wildlife, jungle, hot springs, surf, beach, road trip, passport, winter ]
 updated: 2026-11-03
 source: daydream 2026-11-03 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
@@ -29,26 +29,28 @@ What it doesn't have: **no volcano summits in the north are open** (notes below)
 
 **Paid outings:** a canopy zipline is fine *with friends, if high value* *(stated 2026-11-03)*. `me/declined.md` still lists zipline tickets (written about New River Gorge), so that entry needs narrowing through `/remember` before one goes in a plan.
 
-## The shape (Jan 7–16, 10 days, 9 nights)
+## The plan (Jan 7–16, 10 days, 9 nights)
 
-Colin's pick, 2026-11-03: Costa Rica over Guatemala + El Salvador. Lodging: **Airbnb houses** *(stated 2026-11-03)*. Crew size: **unknown yet** *(stated 2026-11-03)*, so the pitch prices 3 and 4.
+Colin's pick, 2026-11-03: Costa Rica over Guatemala + El Salvador. **Airbnb houses**; the Arenal base is **El Castillo**; the cave is **Venado only** *(all stated 2026-11-03)*. Crew size **unknown yet**, so the pitch prices 3 and 4.
 
-| Day | Base | What |
-|---|---|---|
-| Thu Jan 7 | Rincón de la Vieja, 2 nights | Fly CLE → LIR (1 stop, ~9 h; no nonstop). Car, 45 min to the lodge, in before dark |
-| Fri Jan 8 | | Las Pailas: 3 km loop past fumaroles and mud pots, waterfall trails; volcano-heated pools nearby. **Las Pailas is closed Mondays**, which is why this is a Friday |
-| Sat Jan 9 | → La Fortuna, 3 nights | Early start for Río Celeste (8:00 slot, tickets online), ~2 h; then ~1.5 h to La Fortuna. The long day |
-| Sun Jan 10 | | La Fortuna waterfall swim; Río Chollín (free hot river) or Eco Termales; night wildlife walk |
-| Mon Jan 11 | | Arenal lava-field trails 8–10 am (clearest views); sloth tour or hanging bridges |
-| Tue Jan 12 | → Tamarindo, 4 nights | ~4–4.5 h drive (Google + 15%). Sunset on the beach |
-| Wed–Fri Jan 13–15 | | Two surf lessons; Playa Avellanas day and lunch at Lola's (closed Mondays); mangrove float; **leatherback night tour at Playa Grande** |
-| Sat Jan 16 | | Fly home. Travel only (`me/hiking.md`: two trips ended with a straight drive home) |
+**Every day ends before dark** (~6 pm, *liberiacostarica.com*). Houses have kitchens: cook breakfasts and most dinners, eat out for a named dish (principle 9). Costa Rican food is mild, inside the spice ceiling. Two shops (principle 9b): the preliminary shop in Liberia on day 1, the final one in Tamarindo on day 6.
 
-⚠️ Drive times are published ranges, not routed. Slack lines and cuts aren't written per day yet: this is a pitch shape, not a plan.
+**Festivals avoided:** **Fiestas Típicas Nacionales in Santa Cruz, Jan 14–18, 2027** (tope from noon, bull riding 2–8 pm, dianas from 5 am), 20–30 min inland from Tamarindo, overlap our beach days. So: no Santa Cruz roads Jan 14–18, and the airport run goes via Huacas–Filadelfia. Nicoya's fiestas (~Jan 14–25) are why the Barra Honda cave was dropped. Palmares (late Jan) is in the Central Valley, off the route. Dreamsea Sónica (Tamarindo, Jan 22–23) is after we leave. Dec 24 – Jan 6 is the peak crush, dodged by the dates. Sources in the 2026-11-03 notes.
 
-**Why Tamarindo:** sandy beginner bay with lifeguards, ~75 min from LIR, across the estuary from the turtles. Nosara is prettier but 2.5 h from LIR and pricier. Playa Grande is quieter but has a dangerous drop-off for swimming.
+| Day | Sleep | Getting around | Food | Day |
+|---|---|---|---|---|
+| **Thu Jan 7** | Airbnb near Curubandé (Las Pailas gate) ⚠️ not picked | LIR ~2:30 pm; immigration 30–90 min; car; Liberia grocery run; 45–75 min to the house | Cook. Preliminary shop: the trip's shelf-stable food | Arrival only |
+| **Fri Jan 8** | same | Minutes to the gate | Soda lunch in Curubandé: **casado**. Cook dinner | Las Pailas from 8:00: 3 km loop past fumaroles and mud pots, then **La Cangreja waterfall trail** (start before noon). Tickets online with passports, card only. Afternoon volcano-heated pools outside the park. Option: La Leona canyon + Poza Los Coyotes ⚠️ access not checked. **First cut:** the pools |
+| **Sat Jan 9** | El Castillo, 3 nights | Leave 6:00, ~2 h to Tenorio for the **8:00 slot**; then ~1.5 h to Arenal | Lunch in Bijagua; La Fortuna restock | Río Celeste waterfall, Teñideros, blue pools; swim in the river outside the park. Evening **Río Chollín** (free hot river). The long day |
+| **Sun Jan 10** | same | Local; Venado ~45 min | Cook | La Fortuna waterfall at opening ($18, ~500 steps, swim). **Venado Caves**, guided wild cave ($99 incl. transport). Night wildlife walk ($45–90) |
+| **Mon Jan 11** | same | Local (weekday: emptier) | Lunch at **Arenal Observatory Lodge** for the volcano view | **Arenal 1968** lava trails at 8:00 ($25; El Silencio is the cheaper same-lava option). Lake Arenal kayak, lake sunset. Eco Termales evening (adults, booked, ⚠️ price not confirmed) |
+| **Tue Jan 12** | Tamarindo, south end toward Langosta, 4 nights | Leave 8:00: Lake Arenal road → Tilarán → Cañas → **Llanos de Cortés** → Liberia → Tamarindo, ~4.5–5 h + the stop, in by ~4 | Final shop in Tamarindo | Llanos de Cortés: curtain fall, sand beach, swimmable pool, 5 min from the car, $7 cash. Beach sunset |
+| **Wed Jan 13** | same | Walk | Cook; seafood out ⚠️ place not picked | Surf lesson (morning: offshore wind, smaller waves) |
+| **Thu Jan 14** | same | Short drive to Avellanas (not via Santa Cruz) | **Lola's at Playa Avellanas** (closed Mondays) | Surf lesson 2. **Leatherback night tour, Playa Grande** ($85–100; no guarantee) |
+| **Fri Jan 15** | same | Walk / boat | Cook | **Rest day:** mangrove float (crocodiles, howlers), Playa Carbón black sand inside Las Baulas |
+| **Sat Jan 16** | home | To LIR via Huacas–Filadelfia, 3 h before the flight | | Travel only |
 
-**Paid outings:** a canopy zipline is fine *with friends, if high value* *(stated 2026-11-03)*. `me/declined.md` still lists zipline tickets (written about New River Gorge), so it stays optional until that entry is narrowed through `/remember`.
+Not found: **explorable ruins.** Old Arenal and Tronadora were flooded by the 1979 lake (*twoweeksincostarica.com*), so there's nothing to wander. Sunset times are uncomputed until places are pinned; no listings or restaurants beyond Lola's are picked.
 
 ## Cost (per person, crew of 4, estimates)
 
@@ -59,8 +61,8 @@ Colin's pick, 2026-11-03: Costa Rica over Guatemala + El Salvador. Lodging: **Ai
 | Gas | $25–40 | ⚠️ estimate, ~700 km |
 | Airbnb houses, 9 nights, ÷4 | $365–740 | 📋 AirROI/KAYAK high-season rates; Tamarindo is the swing |
 | Food (cook breakfasts and most dinners) | $350–600 | ⚠️ estimate; Tamarindo eating-out average $63/day (budgetyourtrip) |
-| Parks, tours, 2 surf lessons, turtle tour, board rental | $300–550 | 📋 operator and SINAC prices, notes below |
-| **Total** | **~$1,700–3,000** | middle ~$2,200. Crew of 3: add ~$200–400 pp |
+| Parks, tours, Venado cave, Arenal 1968, 2 surf lessons, turtle tour, board rental | $350–650 | 📋 operator and SINAC prices, notes below |
+| **Total** | **~$1,750–3,100** | middle ~$2,250. Crew of 3: add ~$200–400 pp |
 
 Levers: Tamarindo lodging (biggest), Río Chollín instead of Tabacón ($105), booking flights early. Compare the Adirondacks at ~$950–1,150 pp (`wishlist/adirondacks-winter.md`): this costs about twice as much, for an easier, wildlife-and-beach trip.
 
@@ -97,3 +99,15 @@ Levers: Tamarindo lodging (biggest), Río Chollín instead of Tabacón ($105), b
 - 📋 Leatherbacks at Playa Grande (Las Baulas NP): nesting Oct–Feb, peak Nov–Jan; tours ~$85–100 incl. ~$18 park fee; book ahead Dec–Jan; no guarantee *(costarica-spirit.com, 2026-07; ✅ sinac.go.cr Las Baulas page)*
 - 📋 Tamarindo surf: group lesson $45–70, board $20–25/day *(travel-surf.com, 2025-10; nativeswaycostarica.com)*; Dec–Apr waves 1–4 ft, the beginner window *(waverick.com, 2026-06)*
 - 📋 Lodging: La Fortuna Airbnb high-season nightly ~₡69,600 *(airroi.com, 2026-10)*; Tamarindo peak ADR $428–556, skewed by large villas *(airroi.com, 2026-09)*; KAYAK lists Tamarindo villas and houses from ~$110–230 *(2026-10)*; La Fortuna hostel private rooms ~$25 *(budgetyourtrip.com, 2026-10)*
+
+### 2026-11-03 · Day plan: festivals, gems, sleep and food
+- 📋 **Fiestas Típicas Nacionales, Santa Cruz: Jan 14–18, 2027**, announced by the organisers in Oct 2026; 2026's ran the same dates, with a tope de toros from noon and montaderas 2–8 pm daily, dianas from 5 am Jan 15–18 *(guanacasteexperiences.com events calendar and blog, 2026-10; Periódico Mensaje, 2026-01-09; salsavida.com)*
+- 📋 Nicoya's Fiestas Cívicas ~Jan 14–25 ("dates can vary") *(nicoyapeninsula.com, 2026-01)*; another source puts San Blas in early Feb *(guanacasteexperiences.com)*. The two disagree; either way it's why Barra Honda was skipped
+- 📋 Fiestas de Palmares, second half of January (Jan 15–26 in 2026) *(midlifenomads.com, 2026-10)*: Central Valley, off the route. Dreamsea Sónica, Tamarindo, Jan 22–23, 2027 *(guanacasteexperiences.com)*: after departure. Liberia's fiestas are late Feb – early Mar
+- 📋 **Llanos de Cortés:** near Bagaces, just off Route 1; 8:00–16:00, last entry 15:30; $7 foreign adult, cash; ~3–5 min walk on a concrete path; "not as hidden as it used to be" *(puravidatraveling.com, 2026-06; mytanfeet.com, 2025-08)*
+- 📋 **Venado Caves:** limestone cave with an underground river, crawling, bats, marine fossils; 1.5 h; $99 regular incl. transport and gear *(arenalexpeditions.com, 2025-11)*; Venado is ~45 min from La Fortuna *(casavenado.com)*
+- 📋 **Arenal 1968:** $25 adult *(vamosrentacar.com, 2026-01)*; El Silencio ~$10 for the same lava flow; Arenal Observatory Lodge lunch with a view called "one of La Fortuna's hidden gems" *(earthtrekkers.com, 2025-05)*. El Castillo is reached by the dirt road off Route 142 *(vamosrentacar.com)*
+- 📋 Lake Arenal road via Nuevo Arenal and Tilarán: "some of the most" scenic driving in the area *(casavenado.com)*; La Fortuna ↔ Tilarán road in good condition *(arenal.net)*. Old Arenal and Tronadora were relocated in 1979, and remnants are under the lake *(twoweeksincostarica.com)*
+- 📋 **La Cangreja/Escondida waterfall trails** at Las Pailas: entry before 12:00; tickets on the SINAC site with passport details, card only *(cantomar.com, 2026-08)*
+- 📋 Barra Honda: vertical-ladder cave near Nicoya *(visitcostarica.com)*. Considered, not picked (Colin chose Venado only, 2026-11-03)
+- 📋 La Leona waterfall and Poza Los Coyotes near Curubandé appear in tour listings *(viator.com)*. ⚠️ independent access and guide rules not checked
