@@ -36,11 +36,11 @@ booking:
   - system: flights
     what: CLE → DUB May 10 (EI 86) + EDI → CLE Sun May 23, one open-jaw ticket
     target: 2027-05-10
-    note: Parents are paying (Colin, 2026-11-02). As two one-ways for 3 (Google Flights, 2026-11-02, not held), EI 86 $1,043 + EDI → CLE from $2,426 (AA via Philadelphia) = about $3,470, but that return was seen for Mon May 24; Sun May 23 isn't priced. Price it as one multi-city ticket; it may be cheaper. Stick must land Sunday, so favour slack over price.
+    note: "Parents are paying (Colin, 2026-11-02). As two one-ways for 3 (Google Flights, 2026-11-02, not held), Seen 2026-11-03 (Colin's Google Flights screenshots, not held): EI 86 $318 a person (1-passenger search, ×3 ≈ $954); Sun May 23 for 3: American via PHL 11:25 → 19:10 $2,601, or Air Canada via YYZ 09:00 → 14:32 $3,140. Parents' total ≈ $3,555–4,094. Multi-city not priced. Stick must land Sunday, so favour slack over price."
   - system: flights
     what: DUB → INV May 17, Aer Lingus EI 3372, 13:45 → 15:20
     target: 2027-05-17
-    note: Observed $289 for 3, bags extra (Google Flights, 2026-11-02, not held). The only nonstop shown. Fallback DUB → EDI (Ryanair FR 814 16:05, $118 for 3) plus the train north.
+    note: $97 a person, bags extra (Colin's Google Flights screenshot, 2026-11-03, not held), so ~$291 for 3. The only nonstop shown. The three travellers split it, not the parents (Colin, 2026-11-03, 'we probably will'). Fallback DUB → EDI (Ryanair FR 814 16:05, $118 for 3) plus the train north.
   - system: rental-car
     what: Ireland car, Kerry Airport May 15 → Dublin Airport May 17, one way
     target: 2027-05-15
@@ -560,7 +560,7 @@ Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated
 ### Which Edinburgh → home routing?
 
 **Blocks:** the open-jaw ticket
-**The date is now Sun May 23** *(Colin, 2026-11-03: Stick works Monday)*, and **no Sunday flight has been seen yet**; Colin is pulling options. For shape only, Mon May 24 showed for 3 (one-ways, 2026-11-02): **American via Philadelphia $2,426** (EDI 11:25, a 3 h 35 m connection, home 19:10) or **Aer Lingus via Dublin $2,493** (EDI 09:40, US immigration done in Dublin before boarding, home 19:10). Recommendation, stronger now that a Monday landing costs Stick a work day: **the Aer Lingus routing via Dublin, the early departure**, if Sunday has it and it prices close. Preclearance plus a long Dublin layover is the most slack before the last leg *(Claude's judgment)*. What to send from Google Flights: airline, flight numbers, every departure and arrival time, layover lengths, and the total for 3.
+**The date is now Sun May 23** *(Colin, 2026-11-03: Stick works Monday)*. **Seen for Sun May 23, 3 adults** *(Colin's Google Flights screenshot, 2026-11-03, not held)*: Icelandair/JetBlue via KEF and JFK 14:15 → 23:59 $2,294; Aer Lingus via DUB 13:25 → 19:10, 1 h 25 m connection, $2,539; JetBlue via JFK 12:10 → 23:59 $2,577; **American via PHL 11:25 → 19:10, 3 h 35 m, $2,601**; **Air Canada via YYZ 09:00 → 14:32, 2 h 20 m, $3,140** (Toronto has US preclearance, *recalled*). The 23:59 landings leave no margin for a Sunday deadline, and the 1 h 25 m Dublin connection is tight with preclearance *(Claude's judgment)*. **Down to American ($2,601) or Air Canada ($3,140); the pitch shows both and the parents pick.** Earlier, for Mon May 24, for 3 (one-ways, 2026-11-02): **American via Philadelphia $2,426** (EDI 11:25, a 3 h 35 m connection, home 19:10) or **Aer Lingus via Dublin $2,493** (EDI 09:40, US immigration done in Dublin before boarding, home 19:10). Recommendation, stronger now that a Monday landing costs Stick a work day: **the Aer Lingus routing via Dublin, the early departure**, if Sunday has it and it prices close. Preclearance plus a long Dublin layover is the most slack before the last leg *(Claude's judgment)*. What to send from Google Flights: airline, flight numbers, every departure and arrival time, layover lengths, and the total for 3.
 
 ## Field notes
 
