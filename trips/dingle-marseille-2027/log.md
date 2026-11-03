@@ -187,3 +187,4 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Shortlist: American via PHL or Air Canada via Toronto** *(Claude's recommendation)*. The midnight landings and the tight Dublin connection put Stick's Monday at risk. Air Canada lands earliest and clears US customs in Toronto (*recalled*), for ~$540 more for 3.
 - **Dublin → Inverness: the three of them pay**, not the parents *(Colin, 2026-11-03: "we probably will")*.
 - **No separate parents' page** *(Colin, 2026-11-03)*: the flights went into the existing pitch as a "The flights" section, with the parents' share at ~$3,555–4,094.
+- **The "cheapest" tab, Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03)*: all **self-transfer** (separate tickets) via Dublin, landing CLE 19:10: Ryanair + Aer Lingus EDI 10:55, 4 h 05 m in DUB, $1,802 (no carry-on included); Ryanair + Aer Lingus EDI 12:45, 2 h 15 m, $1,860; Aer Lingus/BA EDI 12:15, 2 h 30 m, $2,112. Not on the pitch yet.
