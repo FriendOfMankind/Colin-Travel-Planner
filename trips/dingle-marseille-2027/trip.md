@@ -1,7 +1,7 @@
 ---
 slug: dingle-marseille-2027
 title: Dingle & Skye
-subtitle: Three full days with family in Dingle, the Burren and Inis Mór, then Skye, the MacLeod homeland, Glencoe and Edinburgh
+subtitle: Three full days with family in Dingle, the Burren and Inis Mór, then Skye, the MacLeod homeland, and Glencoe
 months: [ 5 ]
 mode: fly
 days: 14
@@ -13,12 +13,12 @@ pinned: false
 start: null
 dates: May 10–23, 2027 (target, unbooked)
 window: After Commencement (Sat May 8) to a Sun May 23 landing, because Stick works Mon May 24 (Colin, 2026-11-03). Newfoundland leaves Wed May 26 (Colin, 2026-10-30)
-region: Cleveland → Dublin → Dingle → Doolin → Dublin → Inverness → Skye → Glencoe → Edinburgh → home
+region: Cleveland → Dublin → Dingle → Doolin → Dublin → Inverness → Skye → Glencoe → Edinburgh Airport → Dublin → home
 states: [ IE, GB ]
 country: Ireland, Scotland
 coords: [ 55, -7 ]
 mymaps: 1OEss3hq9FmWO11ZhM7HtJ4KaRPwgyJA  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
-nights: 13 (1 plane, 4 Dingle, 2 Doolin, 1 Inverness, 3 Skye, 1 Glencoe, 1 Edinburgh)
+nights: 13 (1 plane, 4 Dingle, 2 Doolin, 1 Inverness, 3 Skye, 1 Glencoe, 1 Dublin Airport)
 distance: Coaches to Dingle, then two one-way rental cars (Kerry → Dublin, Inverness → Edinburgh) with Colin the only driver. ⚠️ Unrouted
 budget: TBD. Parents are paying the flights (Colin, 2026-11-02). Cars, beds and the Dublin → Inverness flight aren't priced (see Notes)
 tags:
@@ -31,12 +31,12 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 18–21** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) price the **CLE → DUB / EDI → CLE** open-jaw as one multi-city ticket for the parents; (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 18–21** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **EI 3372 Dublin → Inverness**; (4) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,228 for 3, the parents) and **EDI → DUB Sat May 22** (Aer Lingus 20:25); (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
-    what: CLE → DUB May 10 (EI 86) + EDI → CLE Sun May 23, one open-jaw ticket
+    what: CLE ⇄ DUB round trip, out May 10 (EI 86), back Sun May 23 (EI 87), one ticket for 3
     target: 2027-05-10
-    note: "Parents are paying (Colin, 2026-11-02). As two one-ways for 3 (Google Flights, 2026-11-02, not held), Seen 2026-11-03 (Colin's Google Flights screenshots, not held): EI 86 $318 a person (1-passenger search, ×3 ≈ $954); Sun May 23 for 3: American via PHL 11:25 → 19:10 $2,601, or Air Canada via YYZ 09:00 → 14:32 $3,140. Parents' total ≈ $3,555–4,094. Multi-city not priced. Stick must land Sunday, so favour slack over price."
+    note: "Parents are paying (Colin, 2026-11-02). $2,228 round trip for 3, Aer Lingus both ways: EI 86 20:40 → 08:45 nonstop, EI 87 DUB 16:05 → CLE 19:10 nonstop (Colin's Google Flights screenshots, 2026-11-03, not held; bags extra). Replaces the open-jaw home from Edinburgh (cheapest safe option there was $3,555)."
   - system: flights
     what: DUB → INV May 17, Aer Lingus EI 3372, 13:45 → 15:20
     target: 2027-05-17
@@ -63,21 +63,26 @@ booking:
   - system: private
     what: Glencoe, 1 night May 21
     target: 2027-05-21
-  - system: private
-    what: Edinburgh, 1 night May 22
+  - system: flights
+    what: EDI → DUB Sat May 22, Aer Lingus 20:25 → 21:45, 3 adults
     target: 2027-05-22
+    note: $233 for 3, carry-on included, bags extra (Colin's Google Flights screenshot, 2026-11-03, not held). Earlier Aer Lingus 15:30 → 16:45 was $297; Ryanair 19:25 → 20:30 was $138 with no carry-on. Who pays isn't settled.
+  - system: private
+    what: Dublin Airport hotel, 1 night May 22 (3 adults)
+    target: 2027-05-22
+    note: Lead, not picked - Maldron Hotel Dublin Airport has triple rooms (three single beds) and a free 24 h shuttle (maldronhotels.com, booking.com); Kayak shows roughly $183-294 a night, undated (searched 2026-11-03).
 updated: 2026-11-03
 map:
   center: [ 55, -7 ]
   zoom: 5
 page:
   title: Dingle & Skye
-  subtitle: 3 adults, all on the same flights · Cleveland → Dingle → the Burren → Skye → Edinburgh → home
+  subtitle: 3 adults, all on the same flights · Cleveland → Dingle → the Burren → Skye → Glencoe → home via Dublin
   dates: Monday, May 10 – Sunday, May 23, 2027
   emoji: 🏰
   theme: ocean
   vehicle: "**Coaches to Dingle, then two rental cars, Colin driving.** Kerry Airport → Dublin Airport (May 15–17), then Inverness → Edinburgh (May 17–22). Both one-way, both with an under-25 surcharge, neither priced."
-  gettingThere: "Open-jaw: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, home from **Edinburgh** on Sun May 23 (not picked). **Dublin → Inverness** on May 17: Aer Lingus EI 3372, 13:45 → 15:20 (on sale, not booked). The parents are paying the flights."
+  gettingThere: "Round trip: **EI 86** CLE 20:40 → DUB 08:45 on May 10–11, Edinburgh → Dublin Sat May 22 evening, home Sun May 23 on **EI 87** DUB 16:05 → CLE 19:10 nonstop; one round-trip ticket (not booked). **Dublin → Inverness** on May 17: Aer Lingus EI 3372, 13:45 → 15:20 (on sale, not booked). The parents are paying the flights."
   footerNote: "Draft as of Nov 2, 2026. **Nothing booked.** Dingle days are unchanged from the earlier plan; Days 6–15 were drafted on 2026-11-02 and every drive is unrouted. The Marseille version is in `wishlist/marseille-may-2027.md`. [← All trips](../../index.html)"
   stats:
     - num: 14 days
@@ -96,7 +101,7 @@ page:
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley, and one night in Edinburgh. Home from Edinburgh on Sun May 23.
+Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents. On May 15 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley. Drop the car at Edinburgh Airport, fly to Dublin that evening, and home nonstop on Sun May 23.
 
 ### Dates
 
@@ -469,32 +474,32 @@ overnight:
 - L: Carbost or the road
 - D: Glencoe
 
-### Day 13 — 2027-05-22 · The Lost Valley, then Edinburgh
+### Day 13 — 2027-05-22 · The Lost Valley, then Dublin
 
 ```yaml
 date: 2027-05-22
-tagline: The valley the MacDonalds hid their cattle in, then the capital.
+tagline: The valley the MacDonalds hid their cattle in, then back to Ireland for the night.
 type: travel
-slack: The evening walk. Skip Arthur's Seat if the legs are done.
-driving: Glencoe → Lost Valley → Edinburgh Airport, ~118 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
+slack: The afternoon at Edinburgh Airport, between the car drop and the 20:25 flight.
+driving: Glencoe → Lost Valley → Edinburgh Airport, ~118 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; ~2.5–3 h, Claude's estimate, not computed)
 overnight:
-  name: TBD, Edinburgh
-  mapStandIn: Edinburgh Waverley
-  place: Edinburgh
-  kind: Hotel or hostel (not picked)
-  cost: TBD
+  name: TBD, Dublin Airport (lead - Maldron Hotel Dublin Airport)
+  mapStandIn: Maldron Hotel Dublin Airport
+  place: Dublin Airport
+  kind: Airport hotel, triple room (not picked)
+  cost: TBD (~$183–294 a night, Kayak, undated)
 ```
 
 **Schedule**
-- morning · hike · **Coire Gabhail (the Lost Valley)**: 3.1 mi out and back, 980 ft, moderate, river and waterfall *(AllTrails, 2026-11-02)*. The cattle story is legend *(recalled)* · 📍 Lost Valley Glencoe car park
-- afternoon · drive · To Edinburgh Airport and return the car, then into the city (tram or bus, not checked). · 📍 Edinburgh Airport
-- evening · hike · **Arthur's Seat**, the old volcano in the middle of the city *(recalled)*, if the legs allow after the Lost Valley and the drive. Long May evening; sunset not computed. · 📍 Arthur's Seat
-- evening · walk · The Royal Mile and the Old Town. The castle is out: no full Edinburgh day *(2026-11-03)*. · 📍 Edinburgh Castle
+- 07:00 · hike · **Coire Gabhail (the Lost Valley)**: 3.1 mi out and back, 980 ft, moderate, river and waterfall *(AllTrails, 2026-11-02)*. Early, so the drive isn't rushed. The cattle story is legend *(recalled)* · 📍 Lost Valley Glencoe car park
+- late morning · drive · To Edinburgh Airport and return the car, ~2.5–3 h. · 📍 Edinburgh Airport
+- afternoon · note · Spare. Optional: tram into the city for Arthur's Seat, if the bags can be left somewhere (left luggage not checked); otherwise eat and rest airside.
+- 20:25 → 21:45 (1h 20m) · fly · **Aer Lingus Edinburgh → Dublin**, $233 for 3, carry-on included *(Google Flights, Colin's screenshot, 2026-11-03, not held)*. Hotel shuttle from the terminal. · 📍 Dublin Airport
 
 **Meals**
-- B: Glencoe
-- L: packed
-- D: Edinburgh
+- B: Glencoe, early
+- L: packed or on the road
+- D: Edinburgh Airport
 
 #### Warnings
 
@@ -504,23 +509,23 @@ overnight:
 
 ```yaml
 date: 2027-05-23
-tagline: One connection, home Sunday night. Stick works Monday.
+tagline: A slow morning, one nonstop, home Sunday night. Stick works Monday.
 type: travel
-slack: None that counts. A delay that lands Monday makes Stick miss work.
+slack: The morning.
 ```
 
 **Schedule**
-- morning · travel · To Edinburgh Airport. · 📍 Edinburgh Airport
-- day · fly · **EDI → CLE, not picked.** Nonstops from Edinburgh to the US in 2026: United to Newark, Chicago and Washington; Delta to New York, Atlanta and Boston; American to New York and Philadelphia; JetBlue to New York and Boston *(edinburghairport.com, updated 2026-01)*. Every one needs a connection to Cleveland. Sunday schedules not checked; Colin is pulling options *(2026-11-03)*. **The parents are paying for the flights** *(Colin, 2026-11-02)* · 📍 Cleveland Hopkins International Airport
+- morning · rest · Sleep in. Shuttle back to the terminal by ~13:00 (US preclearance needs time; the airline's advised arrival not checked). · 📍 Maldron Hotel Dublin Airport
+- 16:05 → 19:10 (8h 05m) · fly · **Aer Lingus EI 87 Dublin → Cleveland, nonstop.** The return half of the $2,228 round trip *(Colin's screenshot, 2026-11-03)*. **The parents are paying** *(Colin, 2026-11-02)* · 📍 Cleveland Hopkins International Airport
 
 **Meals**
-- B: Edinburgh, early
-- L: in transit
+- B: hotel
+- L: Dublin Airport
 - D: home
 
 #### Warnings
 
-**Stick has to land Sunday: pick the routing with the most slack before the US.** Edinburgh has no US preclearance *(recalled)*, so a US-hub connection puts immigration, customs and a bag recheck between him and the last flight to Cleveland. Via Dublin, US immigration is done before boarding, and a long Dublin layover absorbs a late first leg. A misconnect on a Sunday evening means a Monday landing.
+**Clear US preclearance in Dublin before boarding.** Immigration and customs happen there, so you land in Cleveland as a domestic arrival *(recalled)*. Allow the time: missing EI 87 means a Monday landing for Stick.
 
 ## Reservations & checks
 
@@ -532,9 +537,10 @@ slack: None that counts. A delay that lands Monday makes Stick miss work.
 - [ ] May 11: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [x] Dublin → Inverness flies Mon May 17: EI 3372 13:45 → 15:20 *(Google Flights, 2026-11-02)*
 - [x] Automatic, both cars *(Colin, 2026-11-02)*
-- [ ] Open-jaw CLE → DUB May 10 / EDI → CLE **Sun May 23** priced, with real margin at the US entry airport (Colin is gathering options, 2026-11-03)
+- [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 10, EI 87 Sun May 23 ($2,228 seen 2026-11-03)
+- [ ] **EDI → DUB Sat May 22**, Aer Lingus 20:25 ($233 for 3 seen 2026-11-03)
 - [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
-- [ ] Doolin, Inverness, Glencoe and Edinburgh beds
+- [ ] Doolin, Inverness, Glencoe and Dublin Airport beds
 - [ ] Doolin → Inis Mór 2027 timetable
 - [ ] Colin: driving on the left practised, and the UK and Irish road rules read
 
@@ -557,11 +563,6 @@ Their address decides the May 11 route and the leave time for Kerry Airport on S
 **Blocks:** car size, Portree beds, flights
 Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
-### Which Edinburgh → home routing?
-
-**Blocks:** the open-jaw ticket
-**The date is now Sun May 23** *(Colin, 2026-11-03: Stick works Monday)*. **Seen for Sun May 23, 3 adults** *(Colin's Google Flights screenshot, 2026-11-03, not held)*: Icelandair/JetBlue via KEF and JFK 14:15 → 23:59 $2,294; Aer Lingus via DUB 13:25 → 19:10, 1 h 25 m connection, $2,539; JetBlue via JFK 12:10 → 23:59 $2,577; **American via PHL 11:25 → 19:10, 3 h 35 m, $2,601**; **Air Canada via YYZ 09:00 → 14:32, 2 h 20 m, $3,140** (Toronto has US preclearance, *recalled*). The 23:59 landings leave no margin for a Sunday deadline, and the 1 h 25 m Dublin connection is tight with preclearance *(Claude's judgment)*. **Down to American ($2,601) or Air Canada ($3,140); the pitch shows both and the parents pick.** Earlier, for Mon May 24, for 3 (one-ways, 2026-11-02): **American via Philadelphia $2,426** (EDI 11:25, a 3 h 35 m connection, home 19:10) or **Aer Lingus via Dublin $2,493** (EDI 09:40, US immigration done in Dublin before boarding, home 19:10). Recommendation, stronger now that a Monday landing costs Stick a work day: **the Aer Lingus routing via Dublin, the early departure**, if Sunday has it and it prices close. Preclearance plus a long Dublin layover is the most slack before the last leg *(Claude's judgment)*. What to send from Google Flights: airline, flight numbers, every departure and arrival time, layover lengths, and the total for 3.
-
 ## Field notes
 
 ### Places
@@ -570,7 +571,7 @@ The handoff's map markers were approximate centres typed by hand, so they weren'
 
 ### Offline regions
 
-Before leaving: Kerry (Dingle peninsula to Killarney), Clare (Doolin and the Burren), the Dublin Airport area, Inverness to Skye, Glencoe, Edinburgh.
+Before leaving: Kerry (Dingle peninsula to Killarney), Clare (Doolin and the Burren), the Dublin Airport area, Inverness to Skye, Glencoe, the Edinburgh Airport area.
 
 ## Notes
 
@@ -580,12 +581,12 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
-| Transatlantic flights (two one-ways) | ~$3,470 | ~$1,157 | Observed; **parents pay** |
+| Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,228 | ~$743 | Observed 2026-11-03; **parents pay** |
 | Dublin → Inverness, EI 3372 | $289 | ~$96 | Observed, bags extra |
 | Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
 | Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
 | Beds, Portree, 3 nights | £319.50 | £106.50 | Quoted by Hostelling Scotland 2026-11-02, shared room, not booked |
-| Beds, other 5 nights (cheapest → next up) | TBD | TBD | Expedia's ~£1,520–2,000 for 9 nights (with 2 Edinburgh nights) included Portree; Inverness, Glencoe, Edinburgh hostels not quoted yet |
+| Beds, other 5 nights (cheapest → next up) | TBD | TBD | Expedia's ~£1,520–2,000 for 9 nights (with 2 Edinburgh nights) included Portree; Inverness and Glencoe hostels not quoted; Dublin Airport hotel ~$183–294 (Kayak, undated) |
 | Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
 
 **Fixed bits found:** Tarbert ferry €22.50 a car; Inis Mór return €25–47 each; Dunvegan £17.50 each; parking £6 (Storr), £6 (Quiraing), £3 (Kilt Rock), £8 (Fairy Pools) a car, all 2026 figures (sources in the days). Not counted yet: food, the Scotland car, insurance. The earlier ~US$3,300 each was the Marseille version with flights included; it's in `wishlist/marseille-may-2027.md`.

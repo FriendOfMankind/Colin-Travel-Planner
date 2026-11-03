@@ -190,3 +190,13 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **The "cheapest" tab, Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03)*: all **self-transfer** (separate tickets) via Dublin, landing CLE 19:10: Ryanair + Aer Lingus EDI 10:55, 4 h 05 m in DUB, $1,802 (no carry-on included); Ryanair + Aer Lingus EDI 12:45, 2 h 15 m, $1,860; Aer Lingus/BA EDI 12:15, 2 h 30 m, $2,112. Not on the pitch yet.
 - **Round trip CLE ⇄ DUB, May 10 / Sun May 23, 3 adults** *(Colin's screenshot, 2026-11-03)*: EI 86 out (20:40 → 08:45), **$2,228 round trip for 3**; the return leg wasn't shown. Delta via MSP $2,316; United via EWR $2,338; JetBlue from $2,158 (13 h at JFK).
 - **Sat May 22 to Dublin, 3 adults** *(same)*: EDI → DUB Ryanair 06:15 → 07:20 $152 (no carry-on); **Aer Lingus 15:30 → 16:45 $297**; Ryanair 09:15 $343. GLA → DUB Ryanair 08:05 $201, 10:55 $268; Aer Lingus 12:00 → 13:15 $554. Colin: "meh maybe not".
+
+## 2026-11-03 · Decided: finish in Dublin, Edinburgh dropped, Lost Valley kept
+
+- **Edinburgh is out; the Lost Valley stays** *(Colin, 2026-11-03: "we can skip edinburgh, and I still want to do lost valley")*. Colin's message also said "A", the keep-Edinburgh option; Claude read the words over the letter and said so.
+- **The return EI 87 is confirmed:** the $2,228 round trip pairs EI 86 out with **EI 87 DUB 16:05 → CLE 19:10, nonstop**, Sun May 23 *(Colin's screenshot, 2026-11-03)*. Other returns on that ticket were $2,727+ with a US connection.
+- **Saturday to Dublin: Aer Lingus EDI 20:25 → DUB 21:45, $233 for 3**, carry-on included *(same)*. Picked by Claude over the 15:30 ($297) because it's cheaper and leaves the whole afternoon after the Lost Valley; Ryanair 19:25 ($138) has no carry-on. Glasgow → Dublin had nothing after midday except self-transfers, so the Scotland car still drops at Edinburgh Airport.
+- **Dublin Airport hotel** for the night: Maldron Dublin Airport has triples and a 24 h shuttle; Kayak ~$183–294 a night, undated. Not picked.
+- **Totals for 3:** $2,228 (parents) + $233 + ~$250 hotel ≈ **$2,710**, against $3,555 (American via PHL) or $4,094 (Air Canada via YYZ) for the Edinburgh open-jaw. Who pays the Saturday flight and the hotel isn't settled.
+- **Old values:** Day 13 ended with a night in Edinburgh (Arthur's Seat, the Royal Mile); Day 14 was EDI → CLE with one connection, not picked. The open question "Which Edinburgh → home routing?" is closed and removed from `trip.md`.
+- **Map:** Day 14's Edinburgh line is deleted (it's two flights now). Edinburgh Waverley and the castle stay pinned, marked not in the plan.
