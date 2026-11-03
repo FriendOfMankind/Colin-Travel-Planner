@@ -66,7 +66,7 @@ booking:
   - system: private
     what: Edinburgh, 1 night May 22
     target: 2027-05-22
-updated: 2026-11-02
+updated: 2026-11-03
 map:
   center: [ 55, -7 ]
   zoom: 5
