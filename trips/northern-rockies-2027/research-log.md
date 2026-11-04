@@ -77,3 +77,17 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - Add the Middle Fork raft on Day 15 or Day 17?
 - Day 1: Mill Bluff, Perrot, or a motel?
 - The smoke plan: (a) day rules, (b) day rules plus stay refundable, or (c) ignore it?
+
+## 2026-11-04 · The Oregon coast and the dunes (daydream: rentals, then the coast)
+
+- ✅ **Tides, NOAA predictions, station 9435380 (South Beach/Newport), MLLW, local time**, via api.tidesandcurrents.noaa.gov (fetched through Firecrawl, 2026-11-04): Jul 31 −1.5 ft 5:24 AM · **Aug 1 −2.0 ft 6:13 AM · Aug 2 −2.3 ft 6:59 AM · Aug 3 −2.2 ft 7:42 AM · Aug 4 −1.8 ft 8:23 AM · Aug 5 −1.1 ft 9:03 AM** · Aug 6 −0.2 ft 9:43 AM · Aug 8 +1.9 ft 11:09 AM · Aug 9 +2.9 ft 11:59 AM · Aug 10 +3.6 ft 1:00 PM. Highs Aug 2: 7.5 ft 1:39 PM. Cannon Beach has no NOAA harmonic station (thetidewindow.com); NOAA publishes the following year's tables on Oct 1 (cannonbeach.org).
+- Sunrise at Newport, computed with the NOAA solar algorithm (44.63 N, 124.06 W, PDT): Aug 1 6:03, Aug 2 6:04, Aug 3 6:05, Aug 4 6:06, Aug 5 6:07; civil dawn ~5:30.
+- 📋 Summer minus tides fall before 9 AM in Jun–Aug; arrive ~1 h before the low (visitoregon.com; haystackrockawareness.com). Yaquina Head's Cobble Beach is ranked #1 for tide pools (visitoregon.com, 2026-08). Haystack Rock, Otter Rock, Yaquina Head and Yachats are Marine Gardens: no collecting.
+- 📋 Puffins at Haystack Rock: "late April through mid-August" (visitoregon.com) or "until late August" (haystackrockawareness.com). Not on the current route (north coast).
+- 📋 Depoe Bay: ~200 resident gray whales feed close to shore June–September; the Whale Watch Center is free with volunteers in peak season (visitoregon.com).
+- 📋 Thor's Well: best 30–45 min before high tide with moderate to large swell (visitoregon.com). Rogue/sneaker-wave warnings at Thor's Well and the Spouting Horn (oregonessential.com).
+- 📋 Drives: Portland → Newport 134 mi ~2 h 20 m, → Florence 173 mi ~3 h, → Cannon Beach 80 mi ~1 h 40 m (oregonessential.com); Florence ⇄ McKenzie Bridge ~2 h 32 m via Eugene (distance-cities.com).
+- ✅ **Spinreel** (ridetheoregondunes.com, 2026-11-04): Polaris rentals and "follow-me" guided tours, drivers 18+ with a valid license, 25+ to carry a passenger under 18; 2-hour tours daily at 10:30 AM and 2:30 PM, arrive 30 min early; $399 2-seat RZR / $499 4-seat RZR per vehicle; $1,600 card authorization; operates only in the Coos Bay riding area, no overnight rentals.
+- ✅ **Sandland Adventures**, Florence (sandland.com, 2026-11-04): sandrail tours ½ h $45 / 1 h $75 a person (4-person minimum for 1 h, 300 lb max); Giant Dune Buggy 1 h $25; taxes and fees (15%) non-refundable; open March–December.
+- 📋 Florence self-drive: side-by-sides need drivers 25–30+, single-seat quads 18+ (greetwell.com listings for Torex/Sand Dunes Frontier operators, 2026-11-04).
+- 📋 Oregon Dunes NRA: ~10,000 acres open to OHVs between Florence and Coos Bay (Oregon ATV Guide 2026–27, oregon.gov).

@@ -4,23 +4,23 @@ title: The Long Way to Glacier
 subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, seven nights at Glacier, then west to Oregon for the boys week
 months: [ 7, 8 ]
 mode: drive
-days: 34
+days: 36
 target: 2027-07-12
 emoji: 🏔️
 theme: alpine
 status: outline
 pinned: true
 start: null
-dates: Jul 12 – Aug 14, 2027 (target, unbooked)
+dates: Jul 12 – Aug 16, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
-region: Avon OH → IA → NE → WY → MT → ID → WA → OR (boys week, Aug 1–10) → home
+region: Avon OH → IA → NE → WY → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → home
 states: [ WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
-nights: 33 nights
+nights: 35 nights
 distance: ⚠️ ~6,000+ mi, unrouted
-budget: TBD — the old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share, `wishlist/august-friends-2027.md`), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+budget: TBD — the old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -30,7 +30,7 @@ tags:
   - july
   - long haul
   - reservation race
-next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 8–10, scarce) and the White Salmon raft (Aug 2, refundable to 7 days out)** — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Avalanche (Apgar as backup). Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
+next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 3–5, scarce) and the White Salmon raft (Aug 9, refundable to 7 days out)**, once the headcount for both groups is known — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Avalanche (Apgar as backup). Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
 booking:
   - system: recreation.gov
     what: Vedauwoo, Medicine Bow NF (Jul 13)
@@ -61,48 +61,64 @@ booking:
     target: 2027-07-27
     note: Second competitive Glacier booking — do both halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
   - system: private
-    what: Hood River motel, Jul 31 – Aug 4 (Colin alone Jul 31, the group from Aug 1)
+    what: Hood River motel, Jul 31 (Colin alone)
     target: 2027-07-31
     note: Recommended Sunset Motel, Standard Room 2 Queen Beds, sleeps 4 (hotwire.com, snippet); ~$164 Aug average (vio.com, snippet). Refundable rate. (Cottonwood, TRNP, Jul 30–31 was here until 2026-10-15; cut with Theodore Roosevelt.)
   - system: private
-    what: White Salmon raft, Wet Planet half-day (Aug 2)
+    what: Newport motel, Aug 1 (group B; group A books its own)
+    target: 2027-08-01
+    note: Not researched (added 2026-11-04 with the coast). Close to Yaquina Head for the Aug 2 dawn tide.
+  - system: private
+    what: Florence or Yachats motel, Aug 2 (group B; group A books its own)
     target: 2027-08-02
-    note: 2027 calendar already live; 50% deposit, full refund 7+ days out (wetplanetwhitewater.com, 2026-10-15).
+    note: Not researched (added 2026-11-04 with the coast).
   - system: private
-    what: Lower Deschutes full day, Deschutes River Adventures (Aug 4)
-    target: 2027-08-04
-    note: Deposit refundable 30+ days out (raftdra.com policies).
+    what: "Optional: Oregon Dunes, Spinreel follow-me tour or Sandland sandrail (Aug 3)"
+    target: 2027-08-03
+    note: Spinreel $399 2-seat / $499 4-seat RZR per vehicle, drivers 18+ (ridetheoregondunes.com, 2026-11-04); Sandland sandrail $75 a person (sandland.com, 2026-11-04). Which one is undecided.
   - system: private
-    what: Bend motel, Aug 4–8
-    target: 2027-08-04
+    what: Belknap Hot Springs Lodge, 4-guest room (Aug 3–5)
+    target: 2027-08-03
+    note: 18 lodge rooms, few take 4; book first. $140–215 + 12.07% tax (belknaphotsprings.com, 2026-10-15). Each party books its own room, so group A books theirs.
+  - system: private
+    what: Bend motel, Aug 5–8
+    target: 2027-08-05
     note: Recommended Holiday Motel, Double Queen for 2–4 (holidaymotelbend.com, snippet); ~$128 Aug average (vio.com, snippet). Refundable rate.
   - system: private
-    what: Belknap Hot Springs Lodge, 4-guest room (Aug 8–10)
+    what: Lower Deschutes full day, Deschutes River Adventures (Aug 8, a Sunday)
     target: 2027-08-08
-    note: 18 lodge rooms, few take 4; book first. $140–215 + 12.07% tax (belknaphotsprings.com, 2026-10-15).
+    note: Deposit refundable 30+ days out (raftdra.com policies). $105 was the 2026 weekday price; the weekend price isn't checked.
+  - system: private
+    what: Hood River motel, Aug 8–12 (the group)
+    target: 2027-08-08
+    note: Sunset Motel again, Standard Room 2 Queen Beds. 4 nights; the last one (Aug 11) goes if group B must be home by Aug 11.
+  - system: private
+    what: White Salmon raft, Wet Planet half-day (Aug 9)
+    target: 2027-08-09
+    note: 2027 calendar already live; 50% deposit, full refund 7+ days out (wetplanetwhitewater.com, 2026-10-15).
   - system: recreation.gov
-    what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 11–16, 5 nights)"
-    target: 2027-08-11
+    what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 13–18, 5 nights)"
+    target: 2027-08-13
     note: "Only if the after-Oregon extension is still alive in February; see the open question. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
-updated: 2026-10-30
+updated: 2026-11-04
 map:
   center: [ 45.5, -106 ]
   zoom: 5
 page:
   title: The Long Way to Glacier
   subtitle: Solo, then friends · Avon OH → Snowy Range → Bighorns → Beartooth → Yellowstone → Glacier → Oregon → home
-  dates: Monday, July 12 – Saturday, August 14, 2027
+  dates: Monday, July 12 – Monday, August 16, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries four people: get the service done before, not on the road."
-  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX for Aug 1–10 and ride in the Legacy."
+  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus group B (2–3 friends): get the service done before, not on the road."
+  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. Group B (the longer stay) rides in the Legacy for Aug 1–12; group A rents its own car and picks its own dates."
   footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
-    - num: 34 days
+    - num: 36 days
       lbl: Length
     - num: ~6,000+ mi
       lbl: Driving (unrouted)
-    - num: "33"
+    - num: "35"
       lbl: Nights out
     - num: ~95 mi
       lbl: On foot
@@ -112,19 +128,25 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west to the Columbia Gorge for **the Oregon boys week, Aug 1–10**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 33 nights, three times your longest trip.** Days 6, 18, 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 18, 20 and 27 are soft on purpose.
 
 ## Overview
 
-Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy Range), north across Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–10** (Gorge → Bend → McKenzie River). Then the long drive home from Portland. Five anchors on the way out (the Snowy Range, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, **seven nights at Glacier**), then the friends' week.
+Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy Range), north across Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–12** (the central coast → McKenzie River → Bend → back to the Gorge, a loop from PDX; reordered 2026-11-04 for the tides). Then the long drive home from Portland. Five anchors on the way out (the Snowy Range, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, **seven nights at Glacier**), then the friends' week.
 
 ### Dates
 
-July 12 – August 14, 2027 · 34 days / 33 nights *(Colin, 2026-10-29: leave a day earlier to make room for a second Yellowstone day. The 2026-10-10 week-later shift still holds, so the Grinnell Glacier trail is open: it opened ~July 15 in 2026)*
+July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days added to the Oregon week)* *(Colin, 2026-10-29: leave a day earlier to make room for a second Yellowstone day. The 2026-10-10 week-later shift still holds, so the Grinnell Glacier trail is open: it opened ~July 15 in 2026)*
 
 ### Group
 
-**Solo Jul 12 – Jul 31.** **Aug 1–10: Colin + a group of friends** who fly CLE ⇄ PDX *(stated 2026-10-15)*. Headcount not recorded, and it decides the car: Colin + 3 fits the Legacy, 5 means a rental minivan. **Solo again Aug 10–14** for the drive home.
+**Solo Jul 12 – Jul 31.** **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
+
+- **Group B** stays the whole time and rides in the Legacy with Colin. This plan is built around them. About 3 people *(Colin, 2026-11-04; whether that counts Colin isn't recorded)*.
+- **Group A** is about 3 people who are less physically capable and probably staying shorter. They rent their own car at PDX, pick their own arrival and departure days, book their own rooms at the same places, and skip the hard days (South Sister on Day 26, Tunnel Falls on Day 30). They do want the rafting *(Colin, 2026-11-04)*. Each day has a **Group A** line.
+- Nobody's timeframe is asked yet. The friends' old limit was "not free after about Aug 12" *(stated 2026-10-14)*, reason not recorded.
+
+**Solo again Aug 12–16** for the drive home.
 
 ### Why July, not June
 
@@ -140,7 +162,7 @@ The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation
 
 ### Length
 
-The profile says 2–5 campgrounds and 5–10 nights. This is **33 nights**, three times the 11-day Appalachians run. **Days 6, 18, 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
+The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 18, 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
 
 ### Timing vs Newfoundland
 
@@ -880,7 +902,7 @@ Nineteen days in. If tired, skip the Hiawatha and just drive.
 
 ```yaml
 date: 2027-07-31
-tagline: Laundry, a shower, and turning a camping car into a four-person car.
+tagline: Laundry, a shower, and turning a camping car into a car for group B.
 type: travel
 driving: ⚠️ unrouted, the rest of the way to Hood River
 slack: Afternoon.
@@ -888,15 +910,15 @@ overnight:
   name: Sunset Motel, Hood River
   place: Hood River, OR
   kind: Motel (planned exception to car camping, the friends' week)
-  cost: ~$164–226/night for the room (2026 summer averages; vio.com, KAYAK, snippets). Tonight Colin pays it alone
+  cost: ~$164–226/night for the room (2026 summer averages; vio.com, KAYAK, snippets). Colin pays it alone
   checkin: TBD
   confirmation: TBD
-  notes: Night 1 of 4 in Hood River. The friends join tomorrow. Book the Standard Room, 2 Queen Beds, listed as sleeping 4, 8.8/10 over ~1,000 reviews (hotwire.com, snippet, 2026-10-15).
+  notes: Colin alone, one night. ~1 h from PDX (⚠️ unrouted), so tomorrow's pickup is easy. The group's Hood River nights are Aug 8–11 (Days 28–31). Book the Standard Room, 2 Queen Beds, listed as sleeping 4, 8.8/10 over ~1,000 reviews (hotwire.com, snippet, 2026-10-15).
 ```
 
 **Schedule**
 - morning · drive · → the Columbia River Gorge to Hood River.
-- afternoon · stop! · **Laundry, shower, restock, and repack the car for 4 people.** 🚨 Three weeks of camping gear plus a cooler doesn't leave room for three friends' bags. The gear needs a plan before the trip (see Open questions).
+- afternoon · stop! · **Laundry, shower, restock, and repack the car for group B.** 🚨 Three weeks of camping gear plus a cooler doesn't leave room for friends' bags. The gear needs a plan before the trip (see Open questions).
 
 **Meals**
 - B: made at camp
@@ -911,27 +933,28 @@ The first real bed since the Day 1 motel.
 
 The car problem is real. Solve it at home, not here.
 
-### Day 21 — 2027-08-01 · Friends Land in Portland
+### Day 21 — 2027-08-01 · Friends Land, Straight to the Coast
 
 ```yaml
 date: 2027-08-01
-tagline: Airport pickup, out the Gorge, sunset over the river.
+tagline: Airport pickup, then west to the ocean.
 type: travel
-driving: Hood River ⇄ PDX and back (⚠️ unrouted)
+driving: Hood River → PDX → Newport. PDX → Newport ~2 h 20 m, 134 mi (oregonessential.com, snippet, 2026-11-04); Hood River → PDX ⚠️ unrouted
 slack: Depends on their flight time.
 overnight:
-  name: Sunset Motel, Hood River
-  place: Hood River, OR
-  kind: Motel
-  cost: ~$164–226/night, split four ways
-  checkin: n/a — night 2 of 4
+  name: TBD — Newport
+  place: Newport, OR
+  kind: Motel, not picked
+  cost: TBD
+  checkin: TBD
   confirmation: TBD
-  notes: One 2-queen room, two to a bed ("sharing beds is fine", stated 2026-10-10).
+  notes: Not researched. Tomorrow starts at dawn at Yaquina Head, so sleep close to it.
 ```
 
 **Schedule**
-- arrival · drive · **Pick up the group at PDX**, then east up the Columbia to Hood River.
-- sunset · stop · **Rowena Crest** above the Rowena Loops. ⚠️ Sunset time not computed yet. · 📍 Rowena Crest Viewpoint
+- arrival · drive · **Pick up group B at PDX**, then west to the central coast.
+- arrival · note · **Group A:** picks up its own rental car at PDX and meets us at the Newport motel, or joins later (see Group).
+- evening · stop · Newport's bayfront, or straight to bed. ⚠️ Sunset not computed.
 
 **Meals**
 - B: bought
@@ -940,261 +963,92 @@ overnight:
 
 #### Highlights
 
-Three weeks solo, then everyone shows up.
+Three weeks solo, then everyone shows up, and the ocean the same night.
 
 #### Warnings
 
-None.
+🚨 **An evening landing breaks this day.** A late arrival plus 2 h 20 m means a midnight check-in before a dawn start. Ask for flight times before booking the Newport bed; if they land late, sleep near PDX and swap Days 21–22 for a later coast start (the tides get weaker each day, see Day 22).
 
-### Day 22 — 2027-08-02 · White Salmon and Husum Falls
+### Day 22 — 2027-08-02 · Tide Pools and Spouting Rock
 
 ```yaml
 date: 2027-08-02
-tagline: Class III–IV, a 10–12 ft waterfall in a raft, Mt. Hood at golden hour.
+tagline: The lowest tide of the summer at dawn, whales at Depoe Bay, Thor's Well on the incoming tide.
 type: activity
-driving: Short (⚠️ unrouted)
-slack: Afternoon.
+driving: Short, Newport → Depoe Bay → Yachats → Florence (⚠️ unrouted)
+slack: Midday.
 overnight:
-  name: Sunset Motel, Hood River
-  place: Hood River, OR
-  kind: Motel
-  cost: ~$164–226/night, split four ways
-  checkin: n/a — night 3 of 4
+  name: TBD — Florence or Yachats
+  place: Florence, OR
+  kind: Motel, not picked
+  cost: TBD
+  checkin: TBD
   confirmation: TBD
-  notes: ""
+  notes: Not researched. Florence puts tomorrow's dunes closer.
 ```
 
 **Schedule**
-- morning · activity · **White Salmon half-day raft** (Wet Planet, 9:30 AM or 1:30 PM departures in 2026). Class III–IV, ending at **Husum Falls**, optional, ages 16+, run only at safe levels. 2027 half-days from $99 (wetplanetwhitewater.com, 2026-10-15). · 📍 Wet Planet Whitewater Husum
-- golden hour · stop · **Lost Lake**, Mt. Hood over the water. · 📍 Lost Lake Resort Oregon
+- 6:00 AM → 8:00 AM (2h) · hike! · ⭐ **Yaquina Head, Cobble Beach tide pools.** Low tide **−2.3 ft at 6:59 AM** (NOAA predictions, station 9435380 South Beach/Newport, fetched 2026-11-04). Sunrise 6:04 (computed, NOAA solar algorithm at Newport). Arrive about an hour before the low (haystackrockawareness.com). Yaquina Head is a Marine Garden: no collecting (visitoregon.com, snippet). ⚠️ Yaquina Head's gate hours and fee not checked; a 6:00 AM arrival depends on them · 📍 Yaquina Head Outstanding Natural Area
+- morning · stop · **Depoe Bay.** About 200 gray whales feed close to shore here in summer, and the Whale Watch Center is free with volunteers in peak season (visitoregon.com, snippet, 2026-11-04). Devil's Punchbowl on the way · 📍 Depoe Bay Whale Watching Center
+- afternoon · stop · **Thor's Well and the Spouting Horn, Cape Perpetua.** Best 30–45 min before high tide with some swell (visitoregon.com, snippet). Newport's high is 7.5 ft at 1:39 PM (NOAA, same station); Cape Perpetua is ~25 mi south, so its timing is close but not exact · 📍 Thor's Well Cape Perpetua
+- — · note · **Group A:** all of it.
 
 **Meals**
-- B: bought
+- B: bought — after the tide pools
 - L: bought
 - D: bought
 
 #### Highlights
 
-The tallest commercially rafted waterfall in the US.
+Standing on rock that is underwater all year except a few summer mornings.
 
 #### Warnings
 
-Husum is Class V and optional. Glacier-fed water, cold all summer.
+🚨 **Sneaker waves.** Never turn your back on the ocean, stay off beached logs, and stay behind the barriers at Thor's Well and the Spouting Horn (oregonessential.com; visitoregon.com). Wet rock and algae are as slick as ice.
 
-### Day 23 — 2027-08-03 · Behind Tunnel Falls
+### Day 23 — 2027-08-03 · Dunes, Then Over to the McKenzie
 
 ```yaml
 date: 2027-08-03
-tagline: Cables on the cliff, a bridge 150 ft up, a tunnel behind a 175-ft waterfall.
-type: activity
-driving: Short (⚠️ unrouted)
-slack: Evening.
-overnight:
-  name: Sunset Motel, Hood River
-  place: Hood River, OR
-  kind: Motel
-  cost: ~$164–226/night, split four ways
-  checkin: n/a — night 4 of 4
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- early · hike! · **Eagle Creek to Tunnel Falls**, ~12 mi round trip, ~1,200 ft, cable handholds, High Bridge 150 ft over the creek (oregontails.org; fs.usda.gov). ⚠️ **Status conflict:** a Forest Service order closed the trail Jan 21 – Oct 31, 2026, and a secondary source says it reopened May 1, 2026. Check in July 2027. Plan B: TBD. · 📍 Eagle Creek Trailhead Oregon
-- optional · stop · Punch Bowl Falls, 2 mi in, is the short turnaround and swim.
-
-**Meals**
-- B: bought
-- L: packed
-- D: bought
-
-#### Highlights
-
-Walking behind a 175-ft waterfall through a hand-blasted tunnel.
-
-#### Warnings
-
-Exposed cliffside tread with cables. Wet rock in the tunnel. The trail has towed illegally parked cars.
-
-### Day 24 — 2027-08-04 · Desert Whitewater
-
-```yaml
-date: 2027-08-04
-tagline: Lower Deschutes full day, the Pirate's Cove jump, a wool-boom town, on to Bend.
+tagline: The biggest coastal dunes in North America, then hot springs at night.
 type: travel
-driving: Hood River → Maupin → Bend (⚠️ unrouted)
-slack: None.
-overnight:
-  name: Holiday Motel, Bend
-  place: Bend, OR
-  kind: Motel
-  cost: ~$128–160/night (2026 summer averages; vio.com, KAYAK, snippets), split four ways
-  checkin: TBD
-  confirmation: TBD
-  notes: Night 1 of 4. Book the Double Queen, "perfect for 2–4 people" (holidaymotelbend.com, snippet). Budget motel, so expect thin walls (vio.com review summary). A Family Suite with three queens exists if the group is 5 (agoda.com, snippet).
-```
-
-**Schedule**
-- 10:30 AM (5h 30m) · activity · **Deschutes River Adventures full day**, check-in 10:30 in Maupin, back ~3:30–4. 13 miles, Class III–IV (Boxcar, Oak Springs), lunch, swim stops, the **12-ft Pirate's Cove jump**. $105 weekday in 2026, fees included (raftdra.com). · 📍 Deschutes River Adventures Maupin
-- afternoon · stop · **Shaniko**, the wool-boom town, on the way south.
-- evening · drive · → Bend.
-
-**Meals**
-- B: bought
-- L: on the raft trip
-- D: bought
-
-#### Highlights
-
-The jump, and a desert canyon nobody expects after the Gorge.
-
-#### Warnings
-
-Full sun all day. Sunscreen and water.
-
-### Day 25 — 2027-08-05 · South Sister
-
-```yaml
-date: 2027-08-05
-tagline: 10,358 ft, no ropes, half of Oregon's volcanoes from the rim.
-type: activity
-driving: Bend ⇄ Devils Lake trailhead (⚠️ unrouted)
-slack: Evening.
-overnight:
-  name: Holiday Motel, Bend
-  place: Bend, OR
-  kind: Motel
-  cost: ~$128–160/night, split four ways
-  checkin: n/a — night 2 of 4
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- dawn · hike! · **South Sister summit** from Devils Lake: ~12.5 mi round trip, ~5,000 ft (hikeoregon.net). **Central Cascades day permit, $1 each:** 40% releases Mon Jul 26 2027 and the rest Tue Aug 3, both at 7:00 AM PDT (computed from the 10- and 2-day rules, fs.usda.gov). **A friend books it**, because Colin is at Many Glacier on Jul 26. NW Forest Pass required at the trailhead. · 📍 Devils Lake Trailhead Oregon
-
-**Meals**
-- B: bought — early
-- L: packed
-- D: bought
-
-#### Highlights
-
-The biggest summit on the whole 34 days, with friends.
-
-#### Warnings
-
-Exposed above treeline. Hard turnaround time; thunder means down. Loose cinder near the top. The lake partway up is the bail-out point.
-
-### Day 26 — 2027-08-06 · Jumps and Rock
-
-```yaml
-date: 2027-08-06
-tagline: Steelhead Falls in the morning, Misery Ridge at golden hour.
-type: activity
-driving: Short (⚠️ unrouted)
-slack: Midday.
-overnight:
-  name: Holiday Motel, Bend
-  place: Bend, OR
-  kind: Motel
-  cost: ~$128–160/night, split four ways
-  checkin: n/a — night 3 of 4
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- morning · stop · **Steelhead Falls** swimming hole and ledges. · 📍 Steelhead Falls Trailhead Oregon
-- golden hour · hike · **Misery Ridge, Smith Rock.** Day use $12/vehicle for non-residents (smithrock.com). · 📍 Smith Rock State Park
-
-**Meals**
-- B: bought
-- L: bought
-- D: bought
-
-#### Highlights
-
-Smith Rock at golden hour.
-
-#### Warnings
-
-Check jump depth in person, every time.
-
-### Day 27 — 2027-08-07 · Off Day, Float Through Bend
-
-```yaml
-date: 2027-08-07
-tagline: Sleep in, then two hours on a tube.
-type: rest
-driving: In town
-slack: This day IS the slack, and the smoke/weather spare.
-overnight:
-  name: Holiday Motel, Bend
-  place: Bend, OR
-  kind: Motel
-  cost: ~$128–160/night, split four ways
-  checkin: n/a — night 4 of 4
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- afternoon · activity · **Deschutes float**, tube + shuttle $28 (Tumalo Creek, 2026). Reserve through Tumalo Creek for 2027. · 📍 Park and Float Bend
-- — · note · If smoke or weather took South Sister or Smith Rock, it moves here.
-
-**Meals**
-- B: bought
-- L: bought
-- D: bought
-
-#### Highlights
-
-A day with nothing on it, in the middle of the week.
-
-#### Warnings
-
-None.
-
-### Day 28 — 2027-08-08 · Over the Cascades to Belknap
-
-```yaml
-date: 2027-08-08
-tagline: Lava at the pass, hot springs until dark.
-type: travel
-driving: Bend → McKenzie Pass → Belknap (⚠️ unrouted)
-slack: Afternoon.
+driving: Florence → the dunes → McKenzie Bridge. Florence → McKenzie Bridge ~2 h 32 m via Eugene (distance-cities.com, snippet, 2026-11-04); the dune leg ⚠️ unrouted
+slack: Afternoon, in the car.
 overnight:
   name: Belknap Hot Springs Lodge
   place: McKenzie Bridge, OR
   kind: Hot-springs lodge, 4-guest lodge room
-  cost: $140–215/night + 12.07% Lane County tax, split four ways (belknaphotsprings.com)
+  cost: $140–215/night + 12.07% Lane County tax, split (belknaphotsprings.com)
   checkin: 4:00 PM (lodge rooms)
   confirmation: TBD
-  notes: Night 1 of 2. Upper pool is for overnight guests only, open 9 AM – 9 PM to guests. Swimsuits required. Each party books its own room (homepage notice).
+  notes: Night 1 of 2. Upper pool is for overnight guests only, open 9 AM – 9 PM to guests. Swimsuits required. Each party books its own room (homepage notice), which suits two groups.
 ```
 
 **Schedule**
-- morning · drive · West over **McKenzie Pass** through the lava fields. · 📍 Dee Wright Observatory
-- 4:00 PM · stop · Check in at Belknap, then soak until the pools close. · 📍 Belknap Hot Springs Lodge
+- early · stop · *Optional:* a second minus tide, **−2.2 ft at 7:42 AM** (NOAA, Newport station), at the Yachats or Cape Perpetua pools if yesterday's weren't enough.
+- 10:30 AM → 12:30 PM (2h) · activity · **Oregon Dunes, option 1, drive it yourselves** (undecided; see the Dunes question in Open questions): Spinreel's guided "follow-me" dune, forest and beach tour, daily 10:30 AM and 2:30 PM, arrive 30 min early. Drivers 18+ with a license. $399 per 2-seat RZR, $499 per 4-seat, $1,600 card hold. Coos Bay riding area only (ridetheoregondunes.com, 2026-11-04) · 📍 Spinreel Dune Buggy and ATV Rentals
+- late morning · activity · **Oregon Dunes, option 2, ride:** Sandland's sandrail tour in Florence, 1 h, $75 a person, 4-person minimum; taxes and fees are non-refundable (sandland.com, 2026-11-04) · 📍 Sandland Adventures Florence
+- afternoon · drive · East over the Coast Range, through Eugene, up the McKenzie.
+- evening · stop · Check in at Belknap and soak until the pool closes · 📍 Belknap Hot Springs Lodge
+- — · note · **Group A:** all of it.
 
 **Meals**
 - B: bought
-- L: packed
+- L: bought
 - D: bought
 
 #### Highlights
 
-The guests-only pool at night.
+Driving a buggy over sand mountains in the morning, hot springs by dark.
 
 #### Warnings
 
-None.
+Florence's own side-by-side rentals want drivers 25–30+ (greetwell.com listings, 2026-11-04). Everyone here is under 25, so it's Spinreel or a passenger tour.
 
-### Day 29 — 2027-08-09 · Blue Water
+### Day 24 — 2027-08-04 · Blue Water
 
 ```yaml
-date: 2027-08-09
+date: 2027-08-04
 tagline: A rowboat over a drowned forest, the Blue Pool, Terwilliger at dusk.
 type: activity
 driving: Short (⚠️ unrouted)
@@ -1203,16 +1057,17 @@ overnight:
   name: Belknap Hot Springs Lodge
   place: McKenzie Bridge, OR
   kind: Hot-springs lodge
-  cost: $140–215/night + tax, split four ways
+  cost: $140–215/night + tax, split
   checkin: n/a — night 2 of 2
   confirmation: TBD
-  notes: Last night together.
+  notes: ""
 ```
 
 **Schedule**
 - morning · activity · **Clear Lake rowboat** over the drowned forest. Day-of rental only: small (4) $35/hr, large (5) $45/hr, parking $10 (Linn County parks). · 📍 Clear Lake Resort Oregon
 - midday · hike · **Tamolitch Blue Pool.** · 📍 Tamolitch Blue Pool Trailhead
 - dusk · stop · **Terwilliger Hot Springs**, $12 each per 2 hours, open until 10 PM, first come, closed Thu 8 AM – noon for cleaning. Clothing-optional (fs.usda.gov; visitmckenzieriver.com). · 📍 Terwilliger Hot Springs
+- — · note · **Group A:** all of it.
 
 **Meals**
 - B: Belknap lodge continental breakfast (lodge guests)
@@ -1227,13 +1082,266 @@ The water colors all day.
 
 None.
 
-### Day 30 — 2027-08-10 · PDX, Then East
+### Day 25 — 2027-08-05 · Lava, Jumps and Rock
+
+```yaml
+date: 2027-08-05
+tagline: Over McKenzie Pass, a desert swimming hole, Misery Ridge at golden hour.
+type: travel
+driving: Belknap → McKenzie Pass → Steelhead Falls → Smith Rock → Bend (⚠️ unrouted)
+slack: Midday.
+overnight:
+  name: Holiday Motel, Bend
+  place: Bend, OR
+  kind: Motel
+  cost: ~$128–160/night (2026 summer averages; vio.com, KAYAK, snippets), split
+  checkin: TBD
+  confirmation: TBD
+  notes: Night 1 of 3. Book the Double Queen, "perfect for 2–4 people" (holidaymotelbend.com, snippet). Budget motel, so expect thin walls (vio.com review summary). A Family Suite with three queens exists for a bigger room (agoda.com, snippet).
+```
+
+**Schedule**
+- morning · drive · East over **McKenzie Pass** through the lava fields. · 📍 Dee Wright Observatory
+- midday · stop · **Steelhead Falls** swimming hole and ledges. · 📍 Steelhead Falls Trailhead Oregon
+- golden hour · hike · **Misery Ridge, Smith Rock.** Day use $12/vehicle for non-residents (smithrock.com). ⚠️ Golden hour not computed. · 📍 Smith Rock State Park
+- — · note · **Group A:** all of it, but Misery Ridge is steep. The river-level trail below it is the easy version.
+
+**Meals**
+- B: Belknap lodge continental breakfast
+- L: packed
+- D: bought
+
+#### Highlights
+
+Black lava at the pass and Smith Rock at golden hour, in one day.
+
+#### Warnings
+
+Check jump depth in person, every time.
+
+### Day 26 — 2027-08-06 · South Sister
+
+```yaml
+date: 2027-08-06
+tagline: 10,358 ft, no ropes, half of Oregon's volcanoes from the rim.
+type: activity
+driving: Bend ⇄ Devils Lake trailhead (⚠️ unrouted)
+slack: Evening.
+overnight:
+  name: Holiday Motel, Bend
+  place: Bend, OR
+  kind: Motel
+  cost: ~$128–160/night, split
+  checkin: n/a — night 2 of 3
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- dawn · hike! · **South Sister summit** from Devils Lake: ~12.5 mi round trip, ~5,000 ft (hikeoregon.net). **Central Cascades day permit, $1 each:** 40% release 10 days out and the rest 2 days out, at 7:00 AM PDT (fs.usda.gov), so for Aug 6 that's Tue Jul 27 and Wed Aug 4 (computed with `date`). **A friend books it**, because Colin is on Going-to-the-Sun Road on Jul 27. NW Forest Pass required at the trailhead. · 📍 Devils Lake Trailhead Oregon
+- — · note · **Group A:** skips it. The Bend float (Park and Float) or a slow day in town.
+
+**Meals**
+- B: bought — early
+- L: packed
+- D: bought
+
+#### Highlights
+
+The biggest summit on the whole trip, with friends.
+
+#### Warnings
+
+Exposed above treeline. Hard turnaround time; thunder means down. Loose cinder near the top. The lake partway up is the bail-out point.
+
+### Day 27 — 2027-08-07 · Off Day, Float Through Bend
+
+```yaml
+date: 2027-08-07
+tagline: Sleep in, then two hours on a tube.
+type: rest
+driving: In town
+slack: This day IS the slack, and the smoke/weather spare.
+overnight:
+  name: Holiday Motel, Bend
+  place: Bend, OR
+  kind: Motel
+  cost: ~$128–160/night, split
+  checkin: n/a — night 3 of 3
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- afternoon · activity · **Deschutes float**, tube + shuttle $28 (Tumalo Creek, 2026). Reserve through Tumalo Creek for 2027. · 📍 Park and Float Bend
+- — · note · If smoke or weather took South Sister or Smith Rock, it moves here.
+- — · note · **Group A:** all of it.
+
+**Meals**
+- B: bought
+- L: bought
+- D: bought
+
+#### Highlights
+
+A day with nothing on it, in the middle of the week.
+
+#### Warnings
+
+None.
+
+### Day 28 — 2027-08-08 · Desert Whitewater
+
+```yaml
+date: 2027-08-08
+tagline: Lower Deschutes full day, the Pirate's Cove jump, on to the Gorge.
+type: travel
+driving: Bend → Maupin → Hood River (⚠️ unrouted)
+slack: None.
+overnight:
+  name: Sunset Motel, Hood River
+  place: Hood River, OR
+  kind: Motel
+  cost: ~$164–226/night, split
+  checkin: TBD
+  confirmation: TBD
+  notes: Night 1 of 4 for the group (Colin's Day 20 night is separate). Standard Room, 2 Queen Beds, sleeps 4.
+```
+
+**Schedule**
+- early · drive · Bend → Maupin. Leave with margin: check-in is 10:30. ⚠️ Unrouted.
+- 10:30 AM (5h 30m) · activity · **Deschutes River Adventures full day**, check-in 10:30 in Maupin, back ~3:30–4. 13 miles, Class III–IV (Boxcar, Oak Springs), lunch, swim stops, the **12-ft Pirate's Cove jump**. $105 weekday in 2026, fees included (raftdra.com); ⚠️ this is now a Sunday and the weekend price isn't checked. · 📍 Deschutes River Adventures Maupin
+- evening · drive · → Hood River.
+- — · note · **Group A:** all of it. Rafting doesn't take fitness.
+
+**Meals**
+- B: bought — early
+- L: on the raft trip
+- D: bought
+
+#### Highlights
+
+The jump, and a desert canyon nobody expects after the Cascades.
+
+#### Warnings
+
+Full sun all day. Sunscreen and water.
+
+### Day 29 — 2027-08-09 · White Salmon and Husum Falls
+
+```yaml
+date: 2027-08-09
+tagline: Class III–IV, a 10–12 ft waterfall in a raft, Mt. Hood at golden hour.
+type: activity
+driving: Short (⚠️ unrouted)
+slack: Afternoon.
+overnight:
+  name: Sunset Motel, Hood River
+  place: Hood River, OR
+  kind: Motel
+  cost: ~$164–226/night, split
+  checkin: n/a — night 2 of 4
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- morning · activity · **White Salmon half-day raft** (Wet Planet, 9:30 AM or 1:30 PM departures in 2026). Class III–IV, ending at **Husum Falls**, optional, ages 16+, run only at safe levels. 2027 half-days from $99 (wetplanetwhitewater.com, 2026-10-15). · 📍 Wet Planet Whitewater Husum
+- golden hour · stop · **Lost Lake**, Mt. Hood over the water. · 📍 Lost Lake Resort Oregon
+- — · note · **Group A:** all of it. Walking around Husum Falls is always an option.
+
+**Meals**
+- B: bought
+- L: bought
+- D: bought
+
+#### Highlights
+
+The tallest commercially rafted waterfall in the US.
+
+#### Warnings
+
+Husum is Class V and optional. Glacier-fed water, cold all summer.
+
+### Day 30 — 2027-08-10 · Behind Tunnel Falls
 
 ```yaml
 date: 2027-08-10
+tagline: Cables on the cliff, a bridge 150 ft up, a tunnel behind a 175-ft waterfall.
+type: activity
+driving: Short (⚠️ unrouted)
+slack: Evening.
+overnight:
+  name: Sunset Motel, Hood River
+  place: Hood River, OR
+  kind: Motel
+  cost: ~$164–226/night, split
+  checkin: n/a — night 3 of 4
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- early · hike! · **Eagle Creek to Tunnel Falls**, ~12 mi round trip, ~1,200 ft, cable handholds, High Bridge 150 ft over the creek (oregontails.org; fs.usda.gov). ⚠️ **Status conflict:** a Forest Service order closed the trail Jan 21 – Oct 31, 2026, and a secondary source says it reopened May 1, 2026. Check in July 2027. Plan B: TBD. · 📍 Eagle Creek Trailhead Oregon
+- optional · stop · Punch Bowl Falls, 2 mi in, is the short turnaround and swim.
+- — · note · **Group A:** Punch Bowl Falls and back, or skip the hike.
+
+**Meals**
+- B: bought
+- L: packed
+- D: bought
+
+#### Highlights
+
+Walking behind a 175-ft waterfall through a hand-blasted tunnel.
+
+#### Warnings
+
+Exposed cliffside tread with cables. Wet rock in the tunnel. The trail has towed illegally parked cars.
+
+### Day 31 — 2027-08-11 · Spare Day in the Gorge
+
+```yaml
+date: 2027-08-11
+tagline: Nothing booked, Rowena Crest at sunset.
+type: rest
+driving: Short (⚠️ unrouted)
+slack: All of it. The smoke/weather spare for the Gorge days.
+overnight:
+  name: Sunset Motel, Hood River
+  place: Hood River, OR
+  kind: Motel
+  cost: ~$164–226/night, split
+  checkin: n/a — night 4 of 4
+  confirmation: TBD
+  notes: Last night together. If group B has to be home by Aug 11, this night and day go and Day 32 moves up.
+```
+
+**Schedule**
+- sunset · stop · **Rowena Crest** above the Rowena Loops. ⚠️ Sunset time not computed yet. · 📍 Rowena Crest Viewpoint
+- — · note · If smoke or a closure took the raft or Tunnel Falls, it moves here.
+- — · note · **Group A:** all of it.
+
+**Meals**
+- B: bought
+- L: bought
+- D: bought
+
+#### Highlights
+
+A last easy day before the airport.
+
+#### Warnings
+
+None.
+
+### Day 32 — 2027-08-12 · PDX, Then East
+
+```yaml
+date: 2027-08-12
 tagline: Airport drop, then the long way home starts.
 type: travel
-driving: Belknap → PDX, then east (⚠️ unrouted)
+driving: Hood River → PDX, then east (⚠️ unrouted)
 slack: None.
 overnight:
   name: TBD — east of Portland on the way home
@@ -1246,11 +1354,11 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Friends to PDX** for their flights.
+- morning · drive · **Group B to PDX** for their flights. Group A returns its own car whenever it leaves.
 - afternoon · drive · Start east. ⚠️ Route home not chosen; ~2,400 mi to Avon is my unrouted estimate.
 
 **Meals**
-- B: Belknap lodge continental breakfast
+- B: bought
 - L: bought
 - D: bought
 
@@ -1260,12 +1368,12 @@ Nothing. That is fine.
 
 #### Warnings
 
-Ten days with friends, then straight into four days alone on the interstate. Stop early if it's going badly.
+Twelve days with friends, then straight into four days alone on the interstate. Stop early if it's going badly.
 
-### Day 31 — 2027-08-11 · East
+### Day 33 — 2027-08-13 · East
 
 ```yaml
-date: 2027-08-11
+date: 2027-08-13
 tagline: Long day 1 of 3.
 type: travel
 driving: ⚠️ ~550–650 mi, unrouted
@@ -1296,10 +1404,10 @@ Nothing.
 
 Long days at the end of a month on the road.
 
-### Day 32 — 2027-08-12 · East
+### Day 34 — 2027-08-14 · East
 
 ```yaml
-date: 2027-08-12
+date: 2027-08-14
 tagline: Long day 2 of 3.
 type: travel
 driving: ⚠️ ~550–650 mi, unrouted
@@ -1330,10 +1438,10 @@ Nothing.
 
 Same as yesterday.
 
-### Day 33 — 2027-08-13 · East
+### Day 35 — 2027-08-15 · East
 
 ```yaml
-date: 2027-08-13
+date: 2027-08-15
 tagline: Long day 3 of 3.
 type: travel
 driving: ⚠️ ~550–650 mi, unrouted
@@ -1364,10 +1472,10 @@ Nothing.
 
 If the split goes badly, make tomorrow the long one. Nothing depends on it.
 
-### Day 34 — 2027-08-14 · Home
+### Day 36 — 2027-08-16 · Home
 
 ```yaml
-date: 2027-08-14
+date: 2027-08-16
 tagline: The long way home, the really long way.
 type: travel
 driving: The rest of it
@@ -1377,7 +1485,7 @@ overnight: null
 
 **Schedule**
 - morning · drive · → Avon OH.
-- arrival · note · Seventeen days before full-time work starts.
+- arrival · note · Fifteen days before full-time work starts.
 
 **Meals**
 - B: packed
@@ -1386,7 +1494,7 @@ overnight: null
 
 #### Highlights
 
-The Snowy Range, Bighorns, Beartooth, Glacier and a week of Oregon with friends, in one trip.
+The Snowy Range, Bighorns, Beartooth, Glacier and twelve days of Oregon with friends, in one trip.
 
 #### Warnings
 
@@ -1433,20 +1541,21 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Beartooth Plateau | ~9,518 ft | 62 | 34 | Estimated. ⚠️ **Snow is possible here in any month.** Coldest camp of the trip. |
 | Lamar Valley | ~6,500 ft | 78 | 42 | Estimated. Nearest station: **Cooke City (7,580 ft), July normal 74 / 39** (NOAA 1991–2020 via plainclimate.com, 2026-10-29). Cooke City sits a thousand feet above Lamar, so Lamar runs warmer. Big diurnal swing — hot afternoons, cold dawns, which is when the wildlife is out. |
 | Glacier — Many Glacier | ~4,900 ft | 76 | 46 | Estimated. Nearest station: **St. Mary (4,560 ft), July normal high 73°F**, the coolest July in Montana's normals (NOAA 1991–2020 via plainclimate.com, 2026-10-29; low not read). So 76 is probably a few degrees warm. Valley bottoms warm, the passes 15°F colder and windy. |
+| Oregon coast (Cannon Beach, for scale) | sea level | upper 60s | — | 📋 Summer highs "in the upper 60s, rarely above 72°F" (visitoregon.com, 2026-11-04); not station data. Layers and a wind jacket for the dawn tide pools. |
 | Oregon (Hood River, Bend, South Sister) | — | — | — | Not pulled yet. *(Theodore Roosevelt row removed 2026-10-15 with that stop: ~2,300 ft, 88/60, estimated.)* |
 
 ⚠️ **No row is station data.** Lamar and Many Glacier now have a nearby station named next to them; the Bighorns and Beartooth rows are still seasonal estimates, so treat them as a shape, not a forecast.
 
 🔥 **Wildfire smoke is the weather risk that can actually kill days, and 2026 shows both halves of this trip getting hit.** First-pass research *(2026-10-29; details in `log.md`)*:
 - **Glacier, late July (Days 12–18):** in 2026 Montana DEQ had an air quality alert covering Glacier County on Jul 27, and on Jul 31 smoke from the Skillet Fire was forecast over the northern half of the park. In August a "dome of smoke" over the Flathead brought raft and hike cancellations (Montana DEQ smoke forecasts; Flathead Beacon, 2026-10-20).
-- **Oregon (Aug 1–10):** Bend averaged **7.8 days a year at "unhealthy for sensitive groups" or worse, 2013–2025**, against 0.5 a year before 2013. The range is big: 21 days in 2023, 2 in 2025 (Oregon DEQ smoke trends report, 2026). Smoke season "peaks in August". On Jul 21 2026, Bend read AQI 200+ (Bend Bulletin). The McKenzie valley (Belknap) was spared in 2026.
+- **Oregon (Aug 1–12):** Bend averaged **7.8 days a year at "unhealthy for sensitive groups" or worse, 2013–2025**, against 0.5 a year before 2013. The range is big: 21 days in 2023, 2 in 2025 (Oregon DEQ smoke trends report, 2026). Smoke season "peaks in August". On Jul 21 2026, Bend read AQI 200+ (Bend Bulletin). The McKenzie valley (Belknap) was spared in 2026.
 - **What it means:** one smoky summer doesn't make a pattern, but a 34-day trip through late July and early August should expect *some* smoke days. The plan already has the levers: soft days, refundable motels, and the 4-day window at Glacier. The open question below asks how to use them. The real point is the **spread**: this trip runs from a 34°F night at 9,518 ft on the Beartooth Plateau to August in the Columbia Gorge and Bend (Oregon normals not pulled yet). **The sleep system is correctly specified for the Beartooth camp and massively over-specified for everything else**, which is the right way round. Pack for the range, not either end.
 
 ## Packing
 
 ### The range problem — this trip's defining one
 
-- [ ] **Full cold kit AND full heat kit, simultaneously, for 34 days.** Beartooth at 34°F and the Deschutes canyon in August are in the same duffel.
+- [ ] **Full cold kit AND full heat kit, simultaneously, for 36 days.** Beartooth at 34°F and the Deschutes canyon in August are in the same duffel.
 - [ ] Siesta 20 + MondoKing — right for Beartooth, overkill everywhere else. Take both anyway.
 - [ ] Sun hoody and a wide-brim hat for the Oregon desert days
 - [ ] Rain shell that actually works — Bighorn and Beartooth afternoon storms are near-daily in July
@@ -1465,7 +1574,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 ### The car — it is the trip
 
 - [ ] **Full service before departure.** ~6,000+ miles (unrouted) on a 2013 Legacy with no rental to fall back on.
-- [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + 3 and their bags. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
+- [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + group B (2–3) and their bags. Group A has its own rental. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
 - [ ] Spare confirmed inflated, jack, tire plug kit — FR 27, Crazy Woman, Clay Butte and Slough Creek's road are all gravel or dirt
 - [ ] Jump pack. Cold nights at 9,500 ft and a fortnight of short trips are hard on a battery.
 - [ ] Paper atlas as well as offline maps. Four days of the route have effectively no signal.
@@ -1493,38 +1602,50 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **Bighorns — West Tensleep, Jul 15–17** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch.
 - [ ] **Beartooth — Island Lake, Jul 18–20** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback. Bring cash.
 - [x] ~~Theodore Roosevelt — Cottonwood, Jul 30–31~~ — **cut 2026-10-15** with Theodore Roosevelt, when the trip turned west for the Oregon week. Nothing was booked.
-- [ ] 🚨 **Belknap Hot Springs Lodge, Aug 8–10** — book first, Oct–Nov 2026. 18 rooms, few take 4.
-- [ ] **White Salmon raft, Aug 2** (Wet Planet) — 2027 calendar live; refundable to 7 days out.
-- [ ] **Deschutes full day, Aug 4** (Deschutes River Adventures) — winter; deposit refundable 30+ days out.
-- [ ] **Sunset Motel, Hood River, Jul 31 – Aug 4 (2-queen, sleeps 4) and Holiday Motel, Bend, Aug 4–8 (Double Queen)** — refundable rates.
-- [ ] **South Sister permits, Aug 5** — released Jul 26 and Aug 3 at 7:00 AM PDT; a friend books.
+- [ ] 🚨 **Belknap Hot Springs Lodge, Aug 3–5** — book first, once each group's headcount is known. 18 rooms, few take 4; each party books its own.
+- [ ] **Coast motels: Newport Aug 1, Florence or Yachats Aug 2** — not researched yet.
+- [ ] *Optional:* **Oregon Dunes, Aug 3** — Spinreel (drive) or Sandland (ride); undecided.
+- [ ] **White Salmon raft, Aug 9** (Wet Planet) — 2027 calendar live; refundable to 7 days out.
+- [ ] **Deschutes full day, Aug 8** (Deschutes River Adventures) — a Sunday now; deposit refundable 30+ days out.
+- [ ] **Sunset Motel, Hood River, Jul 31 (Colin) and Aug 8–12 (the group, 2-queen, sleeps 4); Holiday Motel, Bend, Aug 5–8 (Double Queen)** — refundable rates.
+- [ ] **South Sister permits, Aug 6** — released Jul 27 and Aug 4 at 7:00 AM PDT (computed, see Day 26); a group B friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 28 (Day 17): required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
-- [ ] *Optional:* **Outlet CG, Sawtooths, Aug 11–16** — hold only if the after-Oregon extension is still alive. Window **Thu Feb 11, 2027** (computed); cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 30, 31, 32, 33.** Solve them together, once, before departure.
+- [ ] *Optional:* **Outlet CG, Sawtooths, Aug 13–18** — hold only if the after-Oregon extension is still alive. The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
+- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 33, 34, 35.** The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
 
 ## Open questions
 
 ### Extend the trip after Oregon, or drive straight home?
 
-**Blocks:** Aug 10–14 (the drive home) and the open stretch to Aug 31
+**Blocks:** Aug 12–16 (the drive home) and the open stretch to Aug 31
 Optional, decided from the road *(Colin, 2026-11-02)*. If extended: **the Sawtooths (Stanley, Idaho) or somewhere new, not Colorado**; day hikes from a car camp; **home by about Aug 25**. Smoke is the deciding risk: check air quality from Bend. Findings and fallbacks are in `log.md` (2026-11-02).
 
-**The proposal** *(Claude's suggestion, 2026-11-02; nothing booked; Days 30–34 stay as the default until you choose this)*:
+**The proposal** *(Claude's suggestion, 2026-11-02, shifted two days on 2026-11-04 when the coast was added; nothing booked; Days 32–36 stay as the default until you choose this)*:
 
 | When | What |
 | --- | --- |
-| Aug 10 | Friends to PDX, then east on I-84 to Pendleton or La Grande. Transit night. ⚠️ unrouted |
-| Aug 11 | → Boise → SH-21 → Stanley. Boise → Stanley is ~2.5–3 h *(idahorivers.com, in log.md)*; the leg to Boise is unrouted. If SH-21 is closed, go US-20 → SH-75 over Galena Summit instead (longer, unrouted). |
-| Aug 11–16 | **5 nights in the Sawtooths**, Outlet CG at Redfish Lake if held (below) |
-| Aug 16–20 | **Flex, 0–5 nights**: more Sawtooths, or start east early with a stop at Craters of the Moon, the Tetons / Wind Rivers or the High Uintas (none researched for camping) |
+| Aug 12 | Friends to PDX, then east on I-84 to Pendleton or La Grande. Transit night. ⚠️ unrouted |
+| Aug 13 | → Boise → SH-21 → Stanley. Boise → Stanley is ~2.5–3 h *(idahorivers.com, in log.md)*; the leg to Boise is unrouted. If SH-21 is closed, go US-20 → SH-75 over Galena Summit instead (longer, unrouted). |
+| Aug 13–18 | **5 nights in the Sawtooths**, Outlet CG at Redfish Lake if held (below) |
+| Aug 18–20 | **Flex, 0–3 nights** (was 0–5 before the coast days): more Sawtooths, or start east early with a stop at Craters of the Moon, the Tetons / Wind Rivers or the High Uintas (none researched for camping) |
 | **Aug 21, morning** | **The latest you can leave the west.** Stanley → Avon is ~2,000 mi *(recalled, unrouted)*, so 4 driving days at ~500 mi → home the evening of Aug 24, with Aug 25 spare before work on Aug 31 |
 
 Hike menu, all inside the ~10 mi / ~2,500 ft ceiling *(AllTrails, 2026-11-02)*: Fishhook Creek 4.6 mi / 262 ft (the arrival-day leg stretch, from Redfish), Bench Lakes 8.2 mi / 1,190 ft (from Redfish), Alpine Lake via Iron Creek 7.7 mi / 1,240 ft, **Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft (the headliner, right at the ceiling)**, Yellow Belly Lake from Pettit 5.1 mi / 964 ft. Alice–Toxaway is 18.8 mi / 3,116 ft on AllTrails, so it's off the menu.
 
-**Hold a site? Yes: a refundable hold at Outlet for Aug 11–16.** Every one of its 19 sites is reservable, so in peak season it has no first-come sites at all, and taking first-come at Iron Creek, Sockeye or Mount Heyburn for a 5-night stay in mid-August is a gamble. It's $26/night ($130 for five, plus a reservation fee I haven't checked). Cancelling before 12:00 AM local the day before arrival costs **$10** *(recreation.gov rules page, snippet)*, and the call from Bend on Aug 4–8 is comfortably before that. Its rules include a cutoff value of 4, which reads as no new bookings within 4 days of arrival *(recreation.gov facility data; unit not stated)*. If that's right, you can't decide in Bend and book then, so the hold is the only way to have a reserved site. **The window opens Thu Feb 11, 2027 at 10:00 AM ET** (computed by `tools/now.mjs` from the `booking:` row; recreation.gov's own release data for Outlet shows the same 6-month rolling window). It's not part of the January sitting, so it's a separate alarm.
+**Hold a site? Yes: a refundable hold at Outlet for Aug 13–18.** Every one of its 19 sites is reservable, so in peak season it has no first-come sites at all, and taking first-come at Iron Creek, Sockeye or Mount Heyburn for a 5-night stay in mid-August is a gamble. It's $26/night ($130 for five, plus a reservation fee I haven't checked). Cancelling before 12:00 AM local the day before arrival costs **$10** *(recreation.gov rules page, snippet)*, and the call from Bend on Aug 5–8 is comfortably before that. Its rules include a cutoff value of 4, which reads as no new bookings within 4 days of arrival *(recreation.gov facility data; unit not stated)*. If that's right, you can't decide in Bend and book then, so the hold is the only way to have a reserved site. **The briefing computes when the window opens** (`tools/now.mjs`, from the `booking:` row; recreation.gov's own release data for Outlet shows the same 6-month rolling window). It's not part of the January sitting, so it's a separate alarm.
 
-**The go/no-go from Bend:** if Stanley is smoked out, or SH-21 and SH-75 are closed for fire (the 2024 Wapiti Fire closed both, `log.md`), cancel the hold and either take a fallback or drive straight home as Days 30–34 have it.
+**The go/no-go from Bend:** if Stanley is smoked out, or SH-21 and SH-75 are closed for fire (the 2024 Wapiti Fire closed both, `log.md`), cancel the hold and either take a fallback or drive straight home as Days 32–36 have it.
+
+### When does each friend come and go, and why is Aug 12 the limit?
+
+**Blocks:** Days 21–32: the headcount, both cars, every room and both rafts
+Nobody has been asked yet *(Colin, 2026-11-04)*. Group B's end date decides whether Day 31 (the spare) survives: the old "not free after about Aug 12" *(stated 2026-10-14)* has no recorded reason, and Colin guesses school. Thursday Aug 12 is the latest; if it's Aug 11, Day 31 goes. Group A picks its own window from the invite page. **Both rafts are in the back half (Aug 8–9)**, so a group A friend who wants rafting comes for the second half or the whole thing. Also needed: **flight arrival times on Aug 1**, because an evening landing breaks Day 21 (see its warning).
+
+### The dunes: drive, ride, or skip?
+
+**Blocks:** Day 23 morning
+Spinreel lets 18+ drivers take a RZR on a guided 2-hour dune, forest and beach loop ($399 per 2-seat, $499 per 4-seat, per vehicle). Sandland's sandrail is a passenger ride ($75 a person, 1 hour). Florence's self-drive side-by-sides need 25–30+, which rules out this group (ages: `wishlist/august-friends-2027.md`). Undecided.
 
 ### Can you actually get Slough Creek, Madison, Many Glacier and a west-side campground for these dates?
 
@@ -1551,15 +1672,15 @@ Custer State Park was the trip's only mid-route shower and it went with the fron
 **Blocks:** Day 6 afternoon only
 The registry lists its dispersed sites as the best-reviewed in the Bighorns. It is also unpaved, narrow and shelf-like in places. **Not a trip-breaker — Day 6 has a zero-risk alternative already written — but decide at the road, not from a map.** Bighorn NF, Buffalo Ranger District.
 
-### Is 34 days still too much?
+### Is 36 days still too much?
 
 **Blocks:** The whole shape
-**Now 34 days** with the Oregon week joined on and the extra Yellowstone day, **three times the longest trip ever taken** (11 days, Appalachians 2026), and four days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 18, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after ten days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 18, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
 **Blocks:** Day 20 onward
-The Legacy seats five. Colin + 3 with luggage fits; Colin + 3 + three weeks of camp kit + a cooler probably doesn't (⚠️ not measured). Options: ship the camp kit home from Hood River (cost TBD), a roof box, or the friends bring one soft bag each. Decide before Jul 12.
+The Legacy seats five, and group A has its own car, so the Legacy carries Colin + group B. Colin + 2 with camp kit is likely fine; Colin + 3 + three weeks of camp kit + a cooler probably isn't (⚠️ not measured). Options: ship the camp kit home from Hood River (cost TBD), a roof box, or the friends bring one soft bag each. Decide before Jul 12.
 
 ### What's the smoke plan?
 
@@ -1579,7 +1700,7 @@ Every place in `places.yaml` is pinned (Pin Ledger, 2026-10-30), and each stop a
 
 ### Offline regions
 
-Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Great Falls–Browning–Glacier, the Spokane–Gorge corridor, Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
+Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Great Falls–Browning–Glacier, the Spokane–Gorge corridor, the central coast (Newport–Florence–Coos Bay), Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
 
 ## Notes
 
@@ -1622,10 +1743,10 @@ None of this is a reason not to go. It is a reason to have the habits before Day
 
 ### What this costs, and what it does not
 
-**The 34-day total isn't added up yet.** The old 21-day loop was about **$1,790**, and unusually for this list that number was nearly complete — **there is no airfare, no rental car and no under-25 surcharge in it**, because you are driving your own car. Compare the [Sky Islands](../sky-islands-2027/) trip: 11 days, ~$1,076, plus an unpriced flight that could add $400 on top.
+**The 36-day total isn't added up yet.** The old 21-day loop was about **$1,790**, and unusually for this list that number was nearly complete — **there is no airfare, no rental car and no under-25 surcharge in it**, because you are driving your own car. Compare the [Sky Islands](../sky-islands-2027/) trip: 11 days, ~$1,076, plus an unpriced flight that could add $400 on top.
 
 Fuel is the biggest line at ~$553 and it moves with the route rather than with choices. Campsites are ~$445 across nine places, all estimated. The 25-day version came to $2,038, so **the recut saved about $250** — which was never the argument for shortening it. The argument was day 19.
 
 ### The shape of the summer this sits in
 
-Newfoundland (May 26 – June 24, by road), then this (July 12 – August 14, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**
+Newfoundland (May 26 – June 24, by road), then this (July 12 – August 16, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**

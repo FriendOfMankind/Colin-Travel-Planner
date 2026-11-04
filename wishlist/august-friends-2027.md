@@ -1,25 +1,25 @@
 ---
 slug: august-friends-2027
 title: The August Boys Trip
-subtitle: Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
+subtitle: The Oregon coast, the McKenzie, Bend and the Gorge with two groups of friends, Aug 1–12, joined onto the Glacier trip
 status: wishlist
 horizon: confirmed
 months: [ 8 ]
 mode: fly
-days: 10
-nights: 9, motels, hopping
-window: Aug 1–10 2027, inside the Glacier trip (trips/northern-rockies-2027/, Days 20–29)
-region: Columbia Gorge → Bend → McKenzie River, Oregon (friends fly CLE ⇄ PDX)
+days: 12
+nights: 11, motels, hopping (was 10 days / 9 nights until 2026-11-04)
+window: Aug 1–12 2027, inside the Glacier trip (trips/northern-rockies-2027/, Days 21–32)
+region: Central coast → McKenzie River → Bend → Columbia Gorge, Oregon, a loop from PDX (friends fly CLE ⇄ PDX)
 country: USA
 budget: ~$1,000–1,350 pp before flights (2025–26 prices; see the 2026-10-15 costing)
-tags: [ friends, fly-in, motels, rafting, swimming holes, hot springs, august, oregon ]
-updated: 2026-10-29
+tags: [ friends, fly-in, motels, rafting, swimming holes, hot springs, tide pools, dunes, august, oregon ]
+updated: 2026-11-04
 source: daydream 2026-10-10 and 2026-10-15 (✅ read on the page, 📋 search snippet, ⚠️ unverified lead or my inference)
 ---
 
 # The August Boys Trip
 
-*Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip*
+*The Oregon coast, the McKenzie, Bend and the Gorge with two groups of friends, Aug 1–12, joined onto the Glacier trip*
 
 ## Why
 
@@ -29,7 +29,7 @@ Colin's brief, in his words: a trip with friends, "fly out, Rent-A-Car, and hop 
 
 ## Next
 
-**The day plan and the lodging live in the Glacier trip** (`trips/northern-rockies-2027/`, Days 19–29). This file keeps the research and the costs. **Lock in the headcount first** (not recorded yet; it decides the car and Belknap). Then **book Belknap and the White Salmon raft now**: the order is in the 2026-10-15 "When to reserve" note. The friends' pitch page is "Oregon, August 1–10" (https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP, private until Colin shares it).
+**The day plan and the lodging live in the Glacier trip** (`trips/northern-rockies-2027/`, Days 20–32). This file keeps the research and the costs. **Two groups since 2026-11-04** *(Colin)*: group B (~3) stays the whole time and rides with Colin; group A (~3, less physically capable) rents its own car and picks its own dates, skipping South Sister and Tunnel Falls. **Ask everyone their dates first**: it decides the cars, Belknap and both rafts. Then book Belknap and the White Salmon raft (the order is in the 2026-10-15 "When to reserve" note, with the dates now Aug 3–5 and Aug 9). The costing below is for the old Aug 1–10, one-car version. The friends' invite page is "Oregon, August 1–12" (https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP, private until Colin shares it), rebuilt for two groups on 2026-11-04.
 
 ## Research notes
 
@@ -121,3 +121,8 @@ Computed dates come from `node` date arithmetic on the trip dates, not hand-type
 - **In the field:** the **South Sister permits** for Thu Aug 5. 40% of the quota releases **Mon Jul 26 2027** at 7:00 AM PDT and the rest **Tue Aug 3 2027**, $1 per person, up to 12 per reservation, and the named holder must be with the group (✅ fs.usda.gov / recreation.gov). ⚠️ On Jul 26 Colin is at Many Glacier (Jul 23–26 in `trips/northern-rockies-2027/`), so a friend should book it under their own name.
 - **No reservation possible:** the Clear Lake rowboats (day-of only), Terwilliger (first come), Smith Rock and the NW Forest Pass (pay or buy anytime).
 - **Colin's side:** a bed for Jul 30–31 between Glacier and the Gorge, and the drive home. These belong in the Glacier trip's plan, which waits for Colin's go-ahead.
+
+### 2026-11-04 · The coast goes in, and two groups
+- Colin: "Oregon coast seems like a gold mine, tide pooling, the iconic rock formations, exploration of the coast, wildlife" *(stated 2026-11-04)*. Added as Days 21–23; the week became a loop (coast → McKenzie → Bend → Gorge) because the summer's best minus tides fall on Aug 1–5 and are gone by Aug 9. Facts and sources: `trips/northern-rockies-2027/research-log.md`, 2026-11-04.
+- Two groups *(Colin, 2026-11-04)*: "plan group B and then group A will pick and choose when they want to fly in and get the rental car and meet us at the accommodation… they could just not join us if something is too physically demanding." Group A wants the rafting.
+- ⚠️ Unpriced since the change: two coast motels, the dunes, group A's rental car (under 25, so expect a young-renter fee; Hertz was $25/day, entry above). Belknap, Bend and Hood River per-night prices are unchanged.

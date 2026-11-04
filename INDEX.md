@@ -31,7 +31,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
   ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 16:** a ~3-hour drive to…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 44 entries · updated 2026-10-30
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 14, 2027 (target, unbooked) · 34 days · 10 open questions · 64/64 places located · log 18 entries · updated 2026-10-30
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 16, 2027 (target, unbooked) · 36 days · 12 open questions · 64/69 places located · log 19 entries · updated 2026-11-04
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
 - **Sky Islands** (`trips/sky-islands-2027/`) · outline · Mar 6–14, 2027 (target, unbooked) · 9 days · 5 open questions · 26/26 places located · log 14 entries · updated 2026-10-27
   ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
@@ -52,8 +52,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The bike trip, if there's only one
 - **Adirondacks Ski Week** (`wishlist/adirondacks-winter.md`) · Lake Placid / Wilmington / Saranac Lake, New York · drive · keeps (derived) · Jan · 8 days · 3 research notes · updated 2026-10-27
   Lake Placid in January with friends — Whiteface, an Olympic bobsled, night XC and a toboggan onto a frozen lake
-- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Columbia Gorge → Bend → McKenzie River, Oregon (friends fly CLE ⇄ PDX) · fly · confirmed · Aug · 10 days · 5 research notes · updated 2026-10-29
-  Columbia Gorge, Bend and the McKenzie with friends, Aug 1–10, joined onto the Glacier trip
+- **The August Boys Trip** (`wishlist/august-friends-2027.md`) · Central coast → McKenzie River → Bend → Columbia Gorge, Oregon, a loop from PDX (friends fly CLE ⇄ PDX) · fly · confirmed · Aug · 12 days · 6 research notes · updated 2026-11-04
+  The Oregon coast, the McKenzie, Bend and the Gorge with two groups of friends, Aug 1–12, joined onto the Glacier trip
 - **The Azores** (`wishlist/azores.md`) · São Miguel, plus Flores or the central islands · fly · keeps (derived) · Jun/Jul/Aug/Sep · 9 days · 1 research note · updated 2026-11-01
   Volcano islands with campsites, five hours from Boston
 - **Baja Gray Whales** (`wishlist/baja-gray-whales.md`) · San Ignacio Lagoon, Baja California Sur, Mexico · fly · keeps (derived) · Feb/Mar · TBD · 1 research note · updated 2026-10-06
