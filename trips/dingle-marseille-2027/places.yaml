@@ -5,49 +5,49 @@ groups:
   - group: Getting around Ireland
     places:
       - name: Cleveland Hopkins International Airport
-        note: May 10 out (EI 86), May 23 home. Day 1 and day 14.
+        note: May 9 out (EI 86), May 22 home (EI 87). Day 1 and day 14.
         maps: Cleveland Hopkins International Airport
         verified: true
         lat: 41.41124
         lng: -81.837356
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Dublin Airport
-        note: In May 11 08:45. Out May 15 15:45 (FR 4285). FlightLink drops here 13:00.
+        note: In May 10 08:45 (EI 86). Out May 16 13:45 to Inverness, and May 22 16:05 home (EI 87). FlightLink drops here 13:00.
         maps: Dublin Airport
         verified: true
         lat: 53.427621
         lng: -6.243411
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Tralee Bus Station
-        note: May 11. Change from Dublin Coach 300 to Bus Éireann 275.
+        note: May 10. Change from Dublin Coach 300 to Bus Éireann 275.
         maps: Tralee Bus Station
         verified: true
         lat: 52.270619
         lng: -9.698564
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Dingle Quay bus stop
-        note: May 11. Route 275 terminus.
+        note: May 10. Route 275 terminus.
         maps: Dingle bus stop Strand Street
         verified: true
         lat: 52.139195
         lng: -10.276065
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Killarney, Mission Road (FlightLink)
-        note: May 15, 09:00 departure (current timetable).
+        note: May 14, 09:00 departure (current timetable).
         maps: Mission Road Killarney
         verified: true
         lat: 52.057232
         lng: -9.514621
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Farranfore, opposite Aherns Pharmacy (FlightLink)
-        note: May 15, 09:15. Maybe the shorter family lift, depending on the address.
+        note: May 14, 09:15. Maybe the shorter family lift, depending on the address.
         maps: Aherns Pharmacy Farranfore
         verified: true
         lat: 52.172067
         lng: -9.550235
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Maldron Hotel Dublin Airport
-        note: Night of May 22 (lead, not booked), before EI 87 home. Free 24 h shuttle.
+        note: Night of May 21 (lead, not booked), before EI 87 home. Free 24 h shuttle.
         maps: Maldron Hotel Dublin Airport
         verified: true
         lat: 53.427726
@@ -161,7 +161,7 @@ groups:
         lng: -10.049009
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Killarney Bus Station
-        note: Local Link 276 to and from Dingle, daily. May 11 18:00 in, May 15 07:10 out.
+        note: Local Link 276 to and from Dingle, daily. May 10 18:00 in, May 14 07:10 out.
         maps: Killarney Bus Station
         verified: true
         lat: 52.059841

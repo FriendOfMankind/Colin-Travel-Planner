@@ -200,3 +200,17 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Totals for 3:** $2,228 (parents) + $233 + ~$250 hotel ≈ **$2,710**, against $3,555 (American via PHL) or $4,094 (Air Canada via YYZ) for the Edinburgh open-jaw. Who pays the Saturday flight and the hotel isn't settled.
 - **Old values:** Day 13 ended with a night in Edinburgh (Arthur's Seat, the Royal Mile); Day 14 was EDI → CLE with one connection, not picked. The open question "Which Edinburgh → home routing?" is closed and removed from `trip.md`.
 - **Map:** Day 14's Edinburgh line is deleted (it's two flights now). Edinburgh Waverley and the castle stay pinned, marked not in the plan.
+
+## 2026-11-04 · Decided: leave Sun May 9, home Sat May 22
+
+- **The whole trip moves a day earlier** *(Colin, 2026-11-04: "I'd rather leave a day earlier (May 9th) and get home on Saturday")*. Why: with a Sunday landing, a cancelled EI 87 would cost Stick his Monday at work. Now Sunday is the buffer. Claude's first suggestion was for Stick to ask for Monday off; Colin chose the shift.
+- **Sun May 9, 2027 is Mother's Day** (the second Sunday in May), and the day after Commencement. Flagged to Colin, who chose it anyway.
+- **Every day shifts back one; nothing is cut.** Day-of-week changes: arrival day is a Monday, Inis Mór a Saturday, the Dublin → Inverness flight a Sunday. The Dingle buses Claude checked are daily (Local Link 276, the Slea Head Local Link); FlightLink and the 275 weren't re-checked for a Monday.
+- **Prices, 3 adults** *(Colin's Google Flights screenshots, 2026-11-04, not held)*:
+  - **Round trip CLE ⇄ DUB, May 9 / May 22: Aer Lingus EI 86 nonstop out, $2,391** (was $2,228 for May 10 / 23). Air Canada via YUL $2,269 and United via IAD $2,272 were cheaper, with connections. **The return leg wasn't in the screenshot**, so EI 87 on a Saturday is still unconfirmed.
+  - **Dublin → Inverness, Sun May 16: Aer Lingus 13:45 → 15:20, $358** (was $291). Same-day to Edinburgh: Ryanair 20:20 $138, 14:15 $189 (no carry-on); Aer Lingus 17:50 $226. "Prices are currently high."
+  - **Edinburgh → Dublin, Fri May 21: Aer Lingus 15:30 → 16:45, $296.** Ryanair 09:05 $154, 13:30 $197 (no carry-on). No evening flight in the top results; "Other flights" wasn't screenshotted.
+- **Day 13 gets tighter:** the 15:30 flight replaces the 20:25, so the afternoon in Edinburgh (optional Arthur's Seat) is gone. Lost Valley at 07:00, car back by ~13:30.
+- **Old values:** May 10–23, home Sun May 23; Portree May 18–21; the grandparents May 11–14 and the Kerry lift on May 15.
+- **Bookings that move:** Portree hostel → **May 17–20** (not booked yet, so nothing to change), both cars a day earlier, the grandparents' dates. Newfoundland gets three turnaround days.
+- **Return confirmed** *(Colin's screenshot, 2026-11-04)*: the selected pair is **EI 86 Sun May 9 20:40 → 08:45 and EI 87 Sat May 22 16:05 → 19:10, both nonstop, $2,260 for 3**. That's lower than the $2,391 on the first screen. Colin said "MERGE".

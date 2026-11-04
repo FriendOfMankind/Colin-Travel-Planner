@@ -8,7 +8,7 @@ mode: fly
 horizon: confirmed
 days: 13
 nights: "12 if re-fitted to the trip dates (1 plane, Dingle 4, Greece 7)"
-window: "Mon May 10 – Sun May 23, 2027, the same dates as `trips/dingle-marseille-2027` (was May 10–24 until 2026-11-03: Stick works Mon May 24; May 10–22, and May 9–20 before that). Commencement is Sat May 8; Newfoundland leaves Wed May 26"
+window: "Sun May 9 – Sat May 22, 2027, the same dates as `trips/dingle-marseille-2027` (was May 10–23 until 2026-11-04, May 10–24 until 2026-11-03: Stick works Mon May 24; May 10–22, and May 9–20 before that). Commencement is Sat May 8; Newfoundland leaves Wed May 26"
 region: Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion
 country: Ireland, Greece
 tags: [ friends, international, europe, fly-in, city trip, urban hiking, ruins, coast, free lodging ]

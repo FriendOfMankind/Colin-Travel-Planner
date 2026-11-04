@@ -489,3 +489,4 @@ No decisions, just copies that hadn't caught up:
 ## 2026-11-03 · Two turnaround days, not one
 
 - The Dingle & Skye trip now lands **Sun May 23**, not Mon May 24, because Stick works Monday *(Colin, 2026-11-03; see `trips/dingle-marseille-2027/log.md`)*. Newfoundland still leaves Wed May 26, so there are two days to turn around (was one). Nothing here moved.
+- **The Dingle & Skye trip now lands Sat May 22** *(Colin, 2026-11-04)*: three turnaround days before Wed May 26. Nothing here moved.
