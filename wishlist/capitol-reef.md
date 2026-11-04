@@ -22,7 +22,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland leaves May 23, three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the pick")*
+🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland was set to leave May 23 (it now leaves May 26), three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: subtitle "Maui return leg — the pick")*
 
 The **Waterpocket Fold is a 100-mile wrinkle in the Earth's crust** — a monocline about as well exposed as any on the planet, and the entire reason the park exists. ✅ **Least-visited of Utah's Mighty Five**: no shuttle, no timed entry, no permit lottery. That makes it the empty half of a Utah trip; Zion and Arches are the icons worth their crowds (`me/travel-style.md`).
 
