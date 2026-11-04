@@ -1,0 +1,478 @@
+<title>Ride Along 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column. The summer as one bar (what's open, what's taken), the deal, then a "pick your stretch" tool built from the same data as the get-on/get-off tables below it. Two trips, two accents: North Atlantic sea-slate for Newfoundland, lodgepole green for the Rockies, one ember for big days and warnings. Same type family as the Oregon and Newfoundland pages. */
+:root {
+  --bg: #f2f4f5;          /* fog */
+  --surface: #ffffff;
+  --ink: #1a2027;
+  --muted: #5a6470;
+  --line: #d7dce2;
+  --sea: #245a7c;         /* Newfoundland */
+  --sea-soft: #dde9f1;
+  --pine: #46672a;        /* the Rockies */
+  --pine-soft: #e5edd9;
+  --ember: #b4482b;       /* big days, warnings */
+  --ember-soft: #f6e3dc;
+  --taken: #c9ced5;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11161b; --surface: #182028; --ink: #e3e8ed; --muted: #9ba6b2; --line: #2a343f;
+    --sea: #82b8dc; --sea-soft: #172b39; --pine: #a8c983; --pine-soft: #1e2a15;
+    --ember: #ef8c6d; --ember-soft: #3a2119; --taken: #36404b;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11161b; --surface: #182028; --ink: #e3e8ed; --muted: #9ba6b2; --line: #2a343f;
+  --sea: #82b8dc; --sea-soft: #172b39; --pine: #a8c983; --pine-soft: #1e2a15;
+  --ember: #ef8c6d; --ember-soft: #3a2119; --taken: #36404b;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 16px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 780px; margin: 0 auto; padding-left: max(18px, env(safe-area-inset-left, 0px)); padding-right: max(18px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 44px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(36px, 8vw, 56px); }
+h2 { font-size: 26px; }
+h3 { font-size: 19px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--sea); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); }
+.lede { font-size: 18px; }
+section, header { display: flex; flex-direction: column; gap: 14px; }
+.note { font-size: 14px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.nf { --acc: var(--sea); --acc-soft: var(--sea-soft); }
+.rk { --acc: var(--pine); --acc-soft: var(--pine-soft); }
+
+/* the summer bar */
+.bar-wrap { overflow-x: auto; }
+.bar { display: flex; gap: 3px; min-width: 640px; }
+.seg { min-width: 0; border-radius: 6px; padding: 8px 8px 9px; display: flex; flex-direction: column; gap: 2px; font-size: 12.5px; line-height: 1.3; }
+.seg b { font-weight: 600; }
+.seg .d { font: 500 11.5px/1.2 var(--mono); font-variant-numeric: tabular-nums; }
+.seg.open { background: var(--acc-soft); border: 1.5px solid var(--acc); color: var(--ink); }
+.seg.open .d { color: var(--acc); }
+.seg.taken { background: var(--surface); border: 1.5px dashed var(--taken); color: var(--muted); }
+.seg.home { background: transparent; border: 1.5px dotted var(--line); color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 13px; color: var(--muted); }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.sw { width: 14px; height: 14px; border-radius: 3px; display: inline-block; }
+
+/* the deal */
+.deal { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.term { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.term .k { font: 400 19px/1.25 var(--display); }
+.term p { font-size: 15px; }
+
+/* picker */
+.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 16px; }
+.trips { display: flex; gap: 8px; flex-wrap: wrap; }
+.trips button, .presets button { font: 600 14px var(--body); border-radius: 999px; padding: 7px 14px; cursor: pointer; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); }
+.trips button[aria-pressed="true"] { background: var(--acc); border-color: var(--acc); color: var(--surface); }
+.presets { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+.presets .lab { font-size: 13px; color: var(--muted); margin-right: 4px; }
+.presets button { font-weight: 400; font-size: 13px; padding: 5px 11px; }
+.presets button[aria-pressed="true"] { border-color: var(--acc); color: var(--acc); background: var(--acc-soft); }
+button:focus-visible, select:focus-visible { outline: 2px solid var(--acc, var(--sea)); outline-offset: 2px; }
+.pick { display: flex; flex-wrap: wrap; gap: 12px 18px; }
+.pick label { display: flex; flex-direction: column; gap: 4px; font-size: 13px; font-weight: 600; color: var(--muted); min-width: 0; flex: 1 1 240px; }
+select { font: 16px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 9px 10px; width: 100%; }
+.sum { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+.sum div { background: var(--acc-soft); border-radius: 8px; padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sum b { font: 400 22px/1.15 var(--display); }
+.sum span { font-size: 13px; color: var(--muted); }
+.ends { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+.end { border-left: 3px solid var(--acc); padding: 2px 0 2px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.end .t { font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+.end .p { font-weight: 600; }
+.end p { font-size: 14px; }
+.days { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.days li { display: grid; grid-template-columns: 92px 1fr; gap: 4px 12px; padding: 9px 0; border-bottom: 1px solid var(--line); }
+.days li:last-child { border-bottom: 0; }
+.days .dt { font: 500 13px/1.5 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.days .w { min-width: 0; }
+.days .s { font-size: 13.5px; color: var(--muted); }
+.days li.group { background: var(--bg); border-radius: 6px; padding-inline: 8px; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; border-radius: 4px; padding: 3px 6px; margin-left: 6px; vertical-align: 2px; }
+.tag.big { background: var(--ember-soft); color: var(--ember); }
+.tag.drive { background: var(--bg); color: var(--muted); border: 1px solid var(--line); }
+.warn { background: var(--ember-soft); border-radius: 8px; padding: 10px 12px; font-size: 14px; display: flex; flex-direction: column; gap: 6px; }
+.warn p { max-width: none; }
+
+/* tables */
+.tw { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; min-width: 560px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+td.num { font-family: var(--mono); white-space: nowrap; font-variant-numeric: tabular-nums; }
+td .code { font: 500 12px var(--mono); color: var(--acc); }
+.yes { color: var(--acc); font-weight: 600; }
+.no { color: var(--muted); }
+.trip-h { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.trip-h .d { font: 500 13px var(--mono); color: var(--acc); }
+
+.two { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 14px; }
+.box { border-top: 3px solid var(--acc); padding-top: 10px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.box li { font-size: 15px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+@media (max-width: 480px) { .days li { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: no-preference) { .result { transition: opacity .15s; } }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Summer 2027 · two road trips · open seats</span>
+  <h1>Ride along</h1>
+  <p class="lede">Colin is driving two long loops this summer, mostly alone: <b>Newfoundland</b> (May 26 – June 24) and <b>the Rockies to Glacier</b> (July 12 – August 16). On the solo stretches there are two open seats. Fly into an airport on the route, ride for as long as you like, and fly home from another one.</p>
+</header>
+
+<section>
+  <h2>The summer at a glance</h2>
+  <div class="bar-wrap"><div class="bar" id="bar"></div></div>
+  <div class="legend">
+    <span><i class="sw" style="background:var(--sea-soft);border:1.5px solid var(--sea)"></i>Open, Newfoundland</span>
+    <span><i class="sw" style="background:var(--pine-soft);border:1.5px solid var(--pine)"></i>Open, Rockies</span>
+    <span><i class="sw" style="border:1.5px dashed var(--taken)"></i>Friends' weeks, with their own pages</span>
+  </div>
+  <p class="note">The two friends' weeks are planned already: <a href="https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc">Newfoundland, June 10–19</a> (hotels and boats) and <a href="https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP">Oregon, August 1–12</a> (motels and rafting). This page covers everything else.</p>
+</section>
+
+<section>
+  <h2>The deal</h2>
+  <div class="deal">
+    <div class="term"><span class="k">Two seats</span><p>Up to two people at a time. The rest of the car is camping gear.</p></div>
+    <div class="term"><span class="k">Your tent, Colin's site</span><p>Bring a tent, a pad and a warm bag. You pitch on Colin's campsite. A few nights are motels and one is a ferry.</p></div>
+    <div class="term"><span class="k">Split everything</span><p>Gas, campsites, park passes, ferries and shared groceries, split evenly for the days you're along. Your flights are yours.</p></div>
+    <div class="term"><span class="k">Share the wheel</span><p>Some days are 8–11 hours of road. You can take driving shifts.</p></div>
+  </div>
+  <p class="note">Nothing is booked yet. Campsites have people-and-tent limits, so Colin needs your dates before the bookings open. The dates are under <a href="#deadlines">Deadlines</a>.</p>
+</section>
+
+<section>
+  <h2>Pick your stretch</h2>
+  <p>Choose a trip, where you'd get on and where you'd get off. It shows the days you'd get, where you'd sleep and how the pickup works.</p>
+  <div class="tool" id="tool">
+    <div class="trips" role="group" aria-label="Trip">
+      <button type="button" id="t-rk" data-trip="rk">The Rockies to Glacier</button>
+      <button type="button" id="t-nf" data-trip="nf">Newfoundland</button>
+    </div>
+    <div class="presets" id="presets"></div>
+    <div class="pick">
+      <label for="on">Get on<select id="on"></select></label>
+      <label for="off">Get off<select id="off"></select></label>
+    </div>
+    <div class="result" id="result" aria-live="polite"></div>
+  </div>
+</section>
+
+<section>
+  <h2>Every place to get on or off</h2>
+  <p class="note">"On" means you start riding that day. "Off" means you fly home that day, after the night before with Colin. Drive times marked ~ are estimates, not routed.</p>
+  <div class="rk" id="tab-rk"></div>
+  <div class="nf" id="tab-nf"></div>
+</section>
+
+<section>
+  <h2>Know this before you say yes</h2>
+  <div class="two">
+    <div class="box rk">
+      <h3>The Rockies</h3>
+      <ul class="plain">
+        <li><b>Altitude.</b> Camps go up to about 10,500 ft in the Snowy Range and above 9,500 ft on the Beartooth Plateau.</li>
+        <li><b>Bears.</b> Grizzly country from the Beartooths north. Carry bear spray. You can't fly with it, so buy it out there.</li>
+        <li><b>Big hiking days.</b> Grinnell Glacier and the Highline are both over 11 miles. Every hike is optional.</li>
+        <li><b>Yellowstone's Slough Creek</b> has 16 sites that go in minutes. If it misses, that night moves.</li>
+      </ul>
+    </div>
+    <div class="box nf">
+      <h3>Newfoundland</h3>
+      <ul class="plain">
+        <li><b>You need a passport</b>, for Canada and Labrador.</li>
+        <li><b>It's cold.</b> Normal lows are 35–41°F on the island in early June, with highs in the 40s and 50s. The bigger problem is days of fog and drizzle.</li>
+        <li><b>Moose</b> on the road at dusk, and sunset isn't until 8:45–9:30 PM.</li>
+        <li><b>Ferries.</b> Four crossings, each charging a fare per passenger. The 2026 adult fare was roughly $60 one way on the big ferry (a search result, not checked on Marine Atlantic's site).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="deadlines">
+  <h2>Deadlines</h2>
+  <div class="two">
+    <div class="box rk">
+      <h3>Rockies: tell Colin by January 10</h3>
+      <p>The campground windows open January 13 (Vedauwoo) through January 27 (Glacier's west side). Slough Creek is January 21 and Many Glacier January 23. They sell out the day they open.</p>
+    </div>
+    <div class="box nf">
+      <h3>Newfoundland: tell Colin by January 31</h3>
+      <p>Acadia opens December 1, which only matters if you're riding from the start. Parks Canada opened its campgrounds in early February in 2026, and the Newfoundland provincial parks open in mid-April.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The airports</h2>
+  <p class="note">From Cleveland, plan on one connection to any of these. That wasn't checked airport by airport, and no 2027 fares exist yet.</p>
+  <div class="two">
+    <div class="box rk">
+      <ul class="plain">
+        <li><b>Cody (COD).</b> United from Denver several times a day. In summer 2026 there was also one Chicago flight a week, in on Fridays and out on Saturdays (Cody Yellowstone, Jan 2026). 2027 isn't announced.</li>
+        <li><b>Bozeman (BZN).</b> Montana's busiest, with about two dozen nonstops including Chicago and Denver, plus Detroit in summer (bozemanairport.com).</li>
+        <li><b>Kalispell (FCA).</b> Denver, Salt Lake City, Seattle and Minneapolis, plus Chicago in summer (iflyglacier.com; nonstopscout.com).</li>
+        <li><b>Denver (DEN).</b> Easy to fly into, but off the route. See the table.</li>
+        <li><b>Portland (PDX).</b> The Oregon week's airport.</li>
+      </ul>
+    </div>
+    <div class="box nf">
+      <ul class="plain">
+        <li><b>Bangor (BGR).</b> Chicago in summer, Newark, Detroit and others (nonstopscout.com, 2026).</li>
+        <li><b>Halifax (YHZ).</b> Atlantic Canada's main airport. Its routes weren't checked for this page.</li>
+        <li><b>Deer Lake (YDF).</b> Air Canada about 12 nonstops a week from Toronto, Porter about 7 a week from June to September, and a daily Halifax flight (search results, Oct 2026).</li>
+        <li><b>St. John's (YYT).</b> Through Toronto or Halifax. One-way fares to Cleveland ran about $295–436 in October 2026 (search results; current fares, not 2027).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>As of November 4, 2026. Nothing is booked, and every date can still move. Places to sleep are the plan, not reservations.</span>
+  <span>Questions go to Colin. He'll confirm your spot once your dates are in.</span>
+</footer>
+
+</div>
+
+<script>
+(function () {
+  // Day i of a trip is START + i. kind: camp | motel | ferry | home. grp: a block of days that belongs to a friends' page.
+  var TRIPS = {
+    rk: {
+      name: "The Rockies to Glacier", start: "2027-07-12", deadline: "Tell Colin by January 10.",
+      grpName: "The Oregon week", grpNote: "Oregon, Aug 1–12, with the boys. Motels, rafting, the coast, Bend and the Gorge. It has its own page.",
+      grpLink: "https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP",
+      days: [
+        { w: "Across Illinois to Iowa", s: "Motel, Des Moines area", k: "motel", drive: 1 },
+        { w: "Across Nebraska to the granite towers of Vedauwoo", s: "Vedauwoo, Wyoming", k: "camp", drive: 1 },
+        { w: "Medicine Bow Peak, 12,013 ft, then a lake camp", s: "Brooklyn Lake, Snowy Range (~10,500 ft)", k: "camp", big: 1 },
+        { w: "Across Wyoming to the Bighorns", s: "West Tensleep Lake, Bighorns", k: "camp", drive: 1 },
+        { w: "Lost Twin Lakes, two lakes under a cliff headwall", s: "West Tensleep Lake", k: "camp", big: 1 },
+        { w: "Soft day: a lake walk and Crazy Woman Canyon", s: "West Tensleep Lake", k: "camp" },
+        { w: "The Chief Joseph Highway up to the Beartooth Plateau", s: "Island Lake, Beartooth Plateau (9,500+ ft)", k: "camp" },
+        { w: "A loop past a dozen high lakes above the trees", s: "Island Lake", k: "camp" },
+        { w: "Becker Lake and a fire lookout over the range", s: "Island Lake", k: "camp" },
+        { w: "The Grand Canyon of the Yellowstone, then Lamar Valley at dusk", s: "Slough Creek, Yellowstone", k: "camp" },
+        { w: "Wolves at dawn in Lamar, geysers by afternoon", s: "Madison, Yellowstone", k: "camp" },
+        { w: "The long push across Montana to Glacier", s: "Many Glacier, Glacier NP", k: "camp", drive: 1 },
+        { w: "An easy Saturday of short walks from camp", s: "Many Glacier", k: "camp" },
+        { w: "Iceberg Lake, with ice floating in it in July", s: "Many Glacier", k: "camp" },
+        { w: "Grinnell Glacier, the hardest day of the trip", s: "Many Glacier", k: "camp", big: 1 },
+        { w: "Over Going-to-the-Sun Road", s: "Avalanche, Glacier's west side", k: "camp" },
+        { w: "The Highline: 11.8 miles along the Garden Wall", s: "Avalanche", k: "camp", big: 1 },
+        { w: "Slack day, two waterfalls", s: "Avalanche", k: "camp" },
+        { w: "West out of the mountains toward Oregon", s: "Motel, Wallace or Kellogg, Idaho", k: "motel", drive: 1 },
+        { w: "Hood River: laundry, showers, reset", s: "Motel, Hood River", k: "motel", drive: 1 }
+      ].concat(rep(11, { grp: 1 })).concat([
+        { w: "Drop the Oregon friends at PDX, then east", s: "Motel, east of Portland", k: "motel", drive: 1 },
+        { w: "East, ~2,400 miles in all, route not chosen", s: "Motel on the way", k: "motel", drive: 1 },
+        { w: "East", s: "Motel on the way", k: "motel", drive: 1 },
+        { w: "East", s: "Motel on the way", k: "motel", drive: 1 },
+        { w: "Home to Ohio", s: null, k: "home", drive: 1 }
+      ]),
+      stops: [
+        { id: "avon", i: 0, place: "Avon, Ohio", code: "", on: 1, how: "Leave with Colin from home. Two 11-hour days to Wyoming." },
+        { id: "den", i: 1, place: "Denver", code: "DEN", on: 1, how: "Colin doesn't pass Denver. You'd get yourself to Laramie or Cheyenne, ~2 h north (no bus or shuttle checked), and meet at Vedauwoo that evening." },
+        { id: "cod", i: 6, place: "Cody, Wyoming", code: "COD", on: 1, off: 1, how: "Cody is on the way from the Bighorns to the Chief Joseph Highway (not routed). Land the evening before; Colin collects you that morning." },
+        { id: "bzn", i: 11, place: "Bozeman, Montana", code: "BZN", on: 1, off: 1, how: "One of the two possible routes from Yellowstone to Glacier goes through Bozeman. It isn't chosen yet, so a Bozeman pickup or drop-off picks it." },
+        { id: "fca1", i: 15, place: "Kalispell, Montana", code: "FCA", on: 1, off: 1, how: "Going-to-the-Sun Road comes down on Glacier's west side, the side Kalispell is on (~45 min, not routed)." },
+        { id: "fca2", i: 18, place: "Kalispell, Montana", code: "FCA", off: 1, how: "On the way west out of the park, the morning after the slack day." },
+        { id: "pdx1", i: 20, place: "Portland, Oregon", code: "PDX", off: 1, how: "Colin is at PDX on Aug 1 to pick up the Oregon friends. Fly home from there, or stay for the Oregon week." },
+        { id: "pdx2", i: 31, place: "Portland, Oregon", code: "PDX", on: 1, how: "Skip the flight home after the Oregon week and ride back to Ohio instead." },
+        { id: "avon2", i: 35, place: "Avon, Ohio", code: "", off: 1, how: "Ride all the way home." }
+      ],
+      presets: [
+        { n: "Glacier week", on: "bzn", off: "fca2" },
+        { n: "Cody to Glacier", on: "cod", off: "fca2" },
+        { n: "Glacier, then Oregon", on: "fca1", off: "pdx1" },
+        { n: "Ohio to Cody", on: "avon", off: "cod" },
+        { n: "Ride home from Oregon", on: "pdx2", off: "avon2" }
+      ],
+      dflt: 0
+    },
+    nf: {
+      name: "Newfoundland", start: "2027-05-26", deadline: "Tell Colin by January 31 (December 1 if you're in from Ohio, for Acadia).",
+      grpName: "The friends' week", grpNote: "Newfoundland, Jun 10–19, with three friends. Hotels, boats and highlights, Gander to St. John's. It has its own page.",
+      grpLink: "https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc",
+      days: [
+        { w: "Out of Ohio, interstate to the Albany area", s: "Motel, Albany area", k: "motel", drive: 1 },
+        { w: "Into Acadia: the granite coast in the evening light", s: "Blackwoods, Acadia", k: "camp", drive: 1 },
+        { w: "Into Canada, and Fundy, over the highest tides on Earth", s: "Fundy National Park", k: "camp" },
+        { w: "Cape Breton, and the Skyline Trail at sunset", s: "Chéticamp, Cape Breton Highlands", k: "camp", drive: 1 },
+        { w: "Seven hours on the ferry to Newfoundland", s: "Motel, Port aux Basques", k: "motel" },
+        { w: "Straight up the Viking Trail to the Strait", s: "St. Barbe", k: "camp", drive: 1 },
+        { w: "Some of the oldest life on Earth, then the Norse site at L'Anse aux Meadows", s: "Pistolet Bay", k: "camp" },
+        { w: "Fortune: an abandoned outport on the iceberg coast", s: "Pistolet Bay", k: "camp" },
+        { w: "A boat out to the icebergs, then the ferry to Labrador", s: "Pinware River, Labrador", k: "camp" },
+        { w: "Red Bay: a 16th-century Basque whaling station", s: "Pinware River", k: "camp" },
+        { w: "Back across the Strait and down to Gros Morne", s: "Berry Hill, Gros Morne", k: "camp", drive: 1 },
+        { w: "Western Brook Pond, a landlocked fjord, by boat", s: "Berry Hill", k: "camp" },
+        { w: "The Lookout Trail over Bonne Bay, then the south side", s: "Trout River, Gros Morne", k: "camp" },
+        { w: "Green Gardens: sea stacks and sea caves", s: "Trout River", k: "camp" },
+        { w: "Rest, then the Tablelands, the Earth's mantle, at sunset", s: "Trout River", k: "camp" }
+      ].concat(rep(9, { grp: 1 })).concat([
+        { w: "The friends fly out; Ferryland, a 1620s colony dig", s: "La Manche", k: "camp" },
+        { w: "Mistaken Point: a 565-million-year-old seafloor of fossils; whales from the beach", s: "Argentia", k: "camp", drive: 1 },
+        { w: "Gannets at Cape St. Mary's, then 16 hours overnight on the ferry", s: "Overnight ferry to Nova Scotia", k: "ferry" },
+        { w: "Ashore, and west toward Maine", s: "Motel, Bangor", k: "motel", drive: 1 },
+        { w: "Maine to upstate New York", s: "Motel, Syracuse–Rochester area", k: "motel", drive: 1 },
+        { w: "Home to Ohio", s: null, k: "home", drive: 1 }
+      ]),
+      stops: [
+        { id: "avon", i: 0, place: "Avon, Ohio", code: "", on: 1, how: "Leave with Colin from home." },
+        { id: "bgr", i: 1, place: "Bangor, Maine", code: "BGR", on: 1, how: "Colin drives through Bangor on the way to Acadia. Land by midday." },
+        { id: "yhz", i: 3, place: "Halifax, Nova Scotia", code: "YHZ", on: 1, off: 1, how: "Between Fundy and Cape Breton. The airport is off the route, a ~1.5 h round-trip detour (not routed)." },
+        { id: "ydf1", i: 5, place: "Deer Lake, Newfoundland", code: "YDF", on: 1, off: 1, how: "The Viking Trail starts in Deer Lake, so Colin drives straight through." },
+        { id: "ydf2", i: 10, place: "Deer Lake, Newfoundland", code: "YDF", on: 1, off: 1, how: "On the way back from Labrador. The airport is ~1 h south of the first Gros Morne camp (not routed)." },
+        { id: "ydf3", i: 15, place: "Deer Lake, Newfoundland", code: "YDF", off: 1, how: "Colin drives through Deer Lake that morning on the way to meet the friends at Gander." },
+        { id: "yyt", i: 24, place: "St. John's", code: "YYT", on: 1, how: "The friends fly out of St. John's that morning, and you fly in. Or one of the friends stays on and rides home." },
+        { id: "bgr2", i: 28, place: "Bangor, Maine", code: "BGR", off: 1, how: "Fly home after the overnight ferry and the drive through Nova Scotia." },
+        { id: "avon2", i: 29, place: "Avon, Ohio", code: "", off: 1, how: "Ride all the way home." }
+      ],
+      presets: [
+        { n: "Gros Morne", on: "ydf2", off: "ydf3" },
+        { n: "Viking Trail and Labrador", on: "ydf1", off: "ydf2" },
+        { n: "Ohio to Gros Morne", on: "avon", off: "ydf3" },
+        { n: "Ride home from St. John's", on: "yyt", off: "avon2" }
+      ],
+      dflt: 0
+    }
+  };
+  function rep(n, o) { var a = []; for (var i = 0; i < n; i++) a.push(o); return a; }
+
+  var WD = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  var MO = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function dayDate(t, i) { var p = t.start.split("-"); return new Date(Date.UTC(+p[0], +p[1] - 1, +p[2] + i)); }
+  function lab(t, i, wd) { var d = dayDate(t, i); return (wd ? WD[d.getUTCDay()] + " " : "") + MO[d.getUTCMonth()] + " " + d.getUTCDate(); }
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+  function stop(t, id) { for (var i = 0; i < t.stops.length; i++) if (t.stops[i].id === id) return t.stops[i]; }
+  function stopLabel(t, s) { return lab(t, s.i, true) + " · " + s.place + (s.code ? " (" + s.code + ")" : ""); }
+
+  // the summer bar
+  var SEGS = [
+    { c: "nf open", d: "May 26 – Jun 10", t: "Newfoundland", x: "Acadia → Labrador → Gros Morne", n: 15 },
+    { c: "nf taken", d: "Jun 10–19", t: "Friends' week", x: "own page", n: 9 },
+    { c: "nf open", d: "Jun 19–24", t: "Ride home", x: "", n: 5 },
+    { c: "home", d: "Jun 24 – Jul 12", t: "Home", x: "", n: 18 },
+    { c: "rk open", d: "Jul 12 – Aug 1", t: "The Rockies", x: "Wyoming → Yellowstone → Glacier", n: 20 },
+    { c: "rk taken", d: "Aug 1–12", t: "Oregon week", x: "own page", n: 11 },
+    { c: "rk open", d: "Aug 12–16", t: "Ride home", x: "", n: 4 }
+  ];
+  document.getElementById("bar").innerHTML = SEGS.map(function (s) {
+    return '<div class="seg ' + s.c + '" style="flex:' + Math.max(s.n, 7) + ' 1 0"><span class="d">' + s.d + "</span><b>" + s.t + "</b>" + (s.x ? "<span>" + s.x + "</span>" : "") + "</div>";
+  }).join("");
+
+  // tables
+  ["rk", "nf"].forEach(function (k) {
+    var t = TRIPS[k], last = t.days.length - 1;
+    var rows = t.stops.map(function (s) {
+      return "<tr><td class=\"num\">" + lab(t, s.i, true) + "</td><td>" + esc(s.place) + (s.code ? ' <span class="code">' + s.code + "</span>" : "") +
+        "</td><td>" + (s.on ? '<span class="yes">On</span>' : '<span class="no">–</span>') + "</td><td>" + (s.off ? '<span class="yes">Off</span>' : '<span class="no">–</span>') +
+        "</td><td>" + esc(s.how) + "</td></tr>";
+    }).join("");
+    document.getElementById("tab-" + k).innerHTML =
+      '<div class="trip-h"><h3>' + t.name + '</h3><span class="d">' + lab(t, 0) + " – " + lab(t, last) + "</span></div>" +
+      '<div class="tw"><table><thead><tr><th>Date</th><th>Where</th><th>On</th><th>Off</th><th>How it works</th></tr></thead><tbody>' + rows + "</tbody></table></div>";
+  });
+
+  // the picker
+  var tool = document.getElementById("tool"), onSel = document.getElementById("on"), offSel = document.getElementById("off"), presetBox = document.getElementById("presets");
+  var cur = "rk";
+
+  function fillOn() {
+    var t = TRIPS[cur];
+    onSel.innerHTML = t.stops.filter(function (s) { return s.on; }).map(function (s) { return '<option value="' + s.id + '">' + esc(stopLabel(t, s)) + "</option>"; }).join("");
+  }
+  function fillOff(keep) {
+    var t = TRIPS[cur], on = stop(t, onSel.value);
+    var offs = t.stops.filter(function (s) { return s.off && s.i > on.i; });
+    offSel.innerHTML = offs.map(function (s) { return '<option value="' + s.id + '">' + esc(stopLabel(t, s)) + "</option>"; }).join("");
+    if (keep && offs.some(function (s) { return s.id === keep; })) offSel.value = keep;
+  }
+  function setTrip(k, preset) {
+    cur = k;
+    tool.className = "tool " + k;
+    document.getElementById("t-rk").setAttribute("aria-pressed", String(k === "rk"));
+    document.getElementById("t-nf").setAttribute("aria-pressed", String(k === "nf"));
+    var t = TRIPS[k];
+    presetBox.innerHTML = '<span class="lab">Good stretches:</span>' + t.presets.map(function (p, i) { return '<button type="button" data-i="' + i + '">' + esc(p.n) + "</button>"; }).join("");
+    fillOn();
+    var p = t.presets[preset == null ? t.dflt : preset];
+    onSel.value = p.on; fillOff(p.off);
+    render();
+  }
+
+  function render() {
+    var t = TRIPS[cur], on = stop(t, onSel.value), off = stop(t, offSel.value);
+    var a = on.i, b = off.i, nights = b - a, camp = 0, big = 0, crosses = false;
+    var items = [], i = a;
+    while (i <= b) {
+      var d = t.days[i];
+      if (d.grp && i < b) {
+        var j = i; while (j + 1 <= b && t.days[j + 1].grp) j++;
+        crosses = true;
+        items.push('<li class="group"><span class="dt">' + lab(t, i) + "–" + lab(t, j + 1).replace(/^\w+ /, "") + '</span><span class="w"><b>' + esc(t.grpName) + "</b><br><span class=\"s\">" + esc(t.grpNote) + ' <a href="' + t.grpLink + '">See it</a>.</span></span></li>');
+        i = j + 1; continue;
+      }
+      var isLast = i === b;
+      if (!isLast && d.k === "camp") camp++;
+      if (!isLast && d.big) big++;
+      var what = isLast ? (off.code ? "Fly home from " + off.place + " (" + off.code + ")" : "Home to Ohio") : d.w;
+      var tags = (!isLast && d.big ? '<span class="tag big">Big day</span>' : "") + (!isLast && d.drive ? '<span class="tag drive">Long drive</span>' : "");
+      var sleep = isLast ? "" : (d.s ? '<br><span class="s">Sleep: ' + esc(d.s) + "</span>" : "");
+      items.push('<li><span class="dt">' + lab(t, i, true) + '</span><span class="w">' + esc(what) + tags + sleep + "</span></li>");
+      i++;
+    }
+    var grpNights = 0; for (var g = a; g < b; g++) if (t.days[g].grp) grpNights++;
+    var html = '<div class="sum">' +
+      "<div><b>" + nights + " night" + (nights === 1 ? "" : "s") + "</b><span>" + lab(t, a) + " to " + lab(t, b) + "</span></div>" +
+      "<div><b>" + camp + "</b><span>nights in your tent</span></div>" +
+      "<div><b>" + big + "</b><span>big hiking day" + (big === 1 ? "" : "s") + ", all optional</span></div>" +
+      "</div>";
+    html += '<div class="ends"><div class="end"><span class="t">Get on</span><span class="p">' + esc(stopLabel(t, on)) + "</span><p>" + esc(on.how) + "</p></div>" +
+      '<div class="end"><span class="t">Get off</span><span class="p">' + esc(stopLabel(t, off)) + "</span><p>" + esc(off.how) + "</p></div></div>";
+    var warns = [];
+    if (crosses) warns.push("This runs through " + t.grpName.toLowerCase() + " (" + grpNights + " nights). That week is planned with its own group and its own costs, and the two seats belong to them, so staying through it means joining that group. Talk to Colin first.");
+    if (on.id === "den") warns.push("Getting from Denver to Vedauwoo is on you. Colin is already driving 11 hours that day.");
+    if (on.id === "bzn" || off.id === "bzn") warns.push("The Bozeman stop depends on which way Colin drives north from Yellowstone. It isn't picked yet.");
+    if (warns.length) html += '<div class="warn">' + warns.map(function (w) { return "<p>" + esc(w) + "</p>"; }).join("") + "</div>";
+    html += '<ul class="days">' + items.join("") + "</ul>";
+    html += '<p class="note">' + esc(t.deadline) + " You pay your flights, plus an even share of gas, campsites, park passes" + (cur === "nf" ? ", ferries" : "") + " and groceries while you're along.</p>";
+    document.getElementById("result").innerHTML = html;
+    Array.prototype.forEach.call(presetBox.querySelectorAll("button"), function (btn) {
+      var p = t.presets[+btn.getAttribute("data-i")];
+      btn.setAttribute("aria-pressed", String(p.on === on.id && p.off === off.id));
+    });
+  }
+
+  document.getElementById("t-rk").addEventListener("click", function () { setTrip("rk"); });
+  document.getElementById("t-nf").addEventListener("click", function () { setTrip("nf"); });
+  presetBox.addEventListener("click", function (e) {
+    var btn = e.target.closest("button"); if (!btn) return;
+    var p = TRIPS[cur].presets[+btn.getAttribute("data-i")];
+    onSel.value = p.on; fillOff(p.off); render();
+  });
+  onSel.addEventListener("change", function () { fillOff(offSel.value); render(); });
+  offSel.addEventListener("change", render);
+
+  // start on the Glacier week
+  setTrip("rk", 0);
+})();
+</script>

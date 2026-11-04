@@ -490,3 +490,8 @@ No decisions, just copies that hadn't caught up:
 
 - The Dingle & Skye trip now lands **Sun May 23**, not Mon May 24, because Stick works Monday *(Colin, 2026-11-03; see `trips/dingle-marseille-2027/log.md`)*. Newfoundland still leaves Wed May 26, so there are two days to turn around (was one). Nothing here moved.
 - **The Dingle & Skye trip now lands Sat May 22** *(Colin, 2026-11-04)*: three turnaround days before Wed May 26. Nothing here moved.
+
+## 2026-11-04 · Ride-alongs: who can join the solo legs, and where
+- Colin asked where friends could join outside the Oregon and Newfoundland friends' weeks. Built the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ), covering the solo parts of Newfoundland and the Rockies plus the drive home from Oregon, with links to the two friends' pages.
+- Rules *(Colin, 2026-11-04)*: up to 2 ride-alongs at a time ("two, packed tight", in the Legacy and in the Sienna); own tent on Colin's site; split everything evenly while along (gas, sites, passes, ferries, shared groceries), own flights; they can drive. ⚠️ Not checked: whether Colin's insurance covers another driver, and each campground's per-site people and tent limit.
+- Newfoundland get-on and get-off points: Avon (May 26), Bangor (May 27, on), Halifax (May 29, a ~1.5 h detour, not routed), Deer Lake (May 31, Jun 5, and off Jun 10), St. John's (Jun 19, on), Bangor (Jun 23, off), Avon (Jun 24). Deer Lake service is from the 2026-10-08 entry; Bangor's routes are from nonstopscout.com and loungefrog.com (search results, 2026-11-04).

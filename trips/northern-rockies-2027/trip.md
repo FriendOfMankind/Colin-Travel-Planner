@@ -110,7 +110,7 @@ page:
   dates: Monday, July 12 – Monday, August 16, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus group B (2–3 friends): get the service done before, not on the road."
+  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus group B (2 friends): get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. Group B (the longer stay) rides in the Legacy for Aug 1–12; group A rents its own car and picks its own dates."
   footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
@@ -140,13 +140,15 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 ### Group
 
-**Solo Jul 12 – Jul 31.** **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
+**Solo Jul 12 – Jul 31**, open to ride-alongs (below). **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
 
-- **Group B** stays the whole time and rides in the Legacy with Colin. This plan is built around them. About 3 people *(Colin, 2026-11-04; whether that counts Colin isn't recorded)*.
+- **Group B** stays the whole time and rides in the Legacy with Colin. This plan is built around them. **2 friends plus Colin, 3 in the car** *(Colin, 2026-11-04)*.
 - **Group A** is about 3 people who are less physically capable and probably staying shorter. They rent their own car at PDX, pick their own arrival and departure days, book their own rooms at the same places, and skip the hard days (South Sister on Day 26, Tunnel Falls on Day 30). They do want the rafting *(Colin, 2026-11-04)*. Each day has a **Group A** line.
 - Nobody's timeframe is asked yet. The friends' old limit was "not free after about Aug 12" *(stated 2026-10-14)*, reason not recorded.
 
-**Solo again Aug 12–16** for the drive home.
+**Solo again Aug 12–16** for the drive home, open to a ride-along (a Group B friend skipping the flight home is the obvious one).
+
+**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–27 campground windows.
 
 ### Why July, not June
 
