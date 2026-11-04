@@ -31,12 +31,12 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 17–20** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **Aer Lingus Dublin → Inverness, Sun May 16, 13:45**; (4) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,391 for 3, the parents; the Saturday EI 87 return still to confirm) and **EDI → DUB Fri May 21** (Aer Lingus 15:30); (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 17–20** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **Aer Lingus Dublin → Inverness, Sun May 16, 13:45**; (4) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents; both legs confirmed nonstop 2026-11-04) and **EDI → DUB Fri May 21** (Aer Lingus 15:30); (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
 booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
     target: 2027-05-09
-    note: "Parents are paying (Colin, 2026-11-02). $2,391 round trip for 3 for May 9 / May 22, Aer Lingus: EI 86 20:40 → 08:45 nonstop out (Colin's Google Flights screenshot, 2026-11-04, not held; bags extra). ⚠️ The return leg wasn't in the screenshot: confirm it's EI 87 DUB 16:05 → CLE 19:10 nonstop on Sat May 22 before booking. The May 10 / May 23 version was $2,228 (2026-11-03)."
+    note: "Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
   - system: flights
     what: DUB → INV Sun May 16, Aer Lingus 13:45 → 15:20
     target: 2027-05-16
@@ -142,7 +142,7 @@ overnight:
 **Schedule**
 - afternoon · note · Check in online. Carry-on and one checked bag each are in the observed Main Cabin fare; recheck on the actual ticket.
 - early evening · drive · To Cleveland Hopkins, 2 h before departure. · 📍 Cleveland Hopkins International Airport
-- 20:40 → 08:45 (7h 05m) · fly · **EI 86 CLE → DUB**, nonstop. Seen for Sun May 9, 2027 in the $2,391 round trip *(Colin's Google Flights screenshot, 2026-11-04)*. Sleep is the whole job. · 📍 Dublin Airport
+- 20:40 → 08:45 (7h 05m) · fly · **EI 86 CLE → DUB**, nonstop. Seen for Sun May 9, 2027 in the $2,260 round trip *(Colin's Google Flights screenshot, 2026-11-04)*. Sleep is the whole job. · 📍 Dublin Airport
 
 **Meals**
 - B: home
@@ -515,7 +515,7 @@ slack: The morning.
 
 **Schedule**
 - morning · rest · Sleep in. Shuttle back to the terminal by ~13:00 (US preclearance needs time; the airline's advised arrival not checked). · 📍 Maldron Hotel Dublin Airport
-- 16:05 → 19:10 (8h 05m) · fly · **Aer Lingus EI 87 Dublin → Cleveland, nonstop.** The return half of the $2,391 round trip *(Colin's screenshot, 2026-11-04)*. ⚠️ Saturday return not yet seen in a screenshot. **The parents are paying** *(Colin, 2026-11-02)* · 📍 Cleveland Hopkins International Airport
+- 16:05 → 19:10 (8h 05m) · fly · **Aer Lingus EI 87 Dublin → Cleveland, nonstop.** The return half of the $2,260 round trip, seen nonstop for Sat May 22 *(Colin's screenshot, 2026-11-04)*. **The parents are paying** *(Colin, 2026-11-02)* · 📍 Cleveland Hopkins International Airport
 
 **Meals**
 - B: hotel
@@ -536,7 +536,7 @@ slack: The morning.
 - [ ] May 10: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [x] Dublin → Inverness flies Sun May 16: Aer Lingus 13:45 → 15:20 *(Colin's screenshot, 2026-11-04)*
 - [x] Automatic, both cars *(Colin, 2026-11-02)*
-- [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,391 seen 2026-11-04; confirm the return leg)
+- [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
 - [ ] **EDI → DUB Fri May 21**, Aer Lingus 15:30 ($296 for 3 seen 2026-11-04)
 - [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
 - [ ] Doolin, Inverness, Glencoe and Dublin Airport beds
@@ -580,7 +580,7 @@ Observed prices, not quotes, none held; sources and alternatives in `log.md` (20
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
-| Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,391 | ~$797 | Observed 2026-11-04 for May 9 / 22; **parents pay** |
+| Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,260 | ~$753 | Observed 2026-11-04 for May 9 / 22, both legs nonstop; **parents pay** |
 | Dublin → Inverness, Aer Lingus | $358 | ~$119 | Observed 2026-11-04, bags extra |
 | Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
 | Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |

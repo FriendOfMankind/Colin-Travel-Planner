@@ -213,3 +213,4 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Day 13 gets tighter:** the 15:30 flight replaces the 20:25, so the afternoon in Edinburgh (optional Arthur's Seat) is gone. Lost Valley at 07:00, car back by ~13:30.
 - **Old values:** May 10–23, home Sun May 23; Portree May 18–21; the grandparents May 11–14 and the Kerry lift on May 15.
 - **Bookings that move:** Portree hostel → **May 17–20** (not booked yet, so nothing to change), both cars a day earlier, the grandparents' dates. Newfoundland gets three turnaround days.
+- **Return confirmed** *(Colin's screenshot, 2026-11-04)*: the selected pair is **EI 86 Sun May 9 20:40 → 08:45 and EI 87 Sat May 22 16:05 → 19:10, both nonstop, $2,260 for 3**. That's lower than the $2,391 on the first screen. Colin said "MERGE".
