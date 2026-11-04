@@ -1,10 +1,10 @@
-<title>Oregon, August 1–10</title>
+<title>Oregon, August 1–12</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Public+Sans:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: one reading column, a glance strip, then a day-by-day route from the Gorge to the high desert to the McKenzie (each day: the feel, the highlights, the bed); costs and logistics as plain tables. Same shape as the Newfoundland page, in Oregon's colours. */
+/* Layout: one reading column. The two groups first, then a 12-day strip, then a "pick your days" tool that answers "what do I get if I come Aug X to Aug Y", then the days in detail, beds, costs. Oregon's colours: river teal plus one high-desert rust. */
 :root {
   --bg: #f4f5f1;          /* sage-dust */
   --surface: #ffffff;
@@ -41,32 +41,64 @@ h3 { font-size: 20px; }
 p { margin: 0; max-width: 66ch; }
 a { color: var(--river); }
 .eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--river); }
-.lede { font-size: 18px; color: var(--ink); }
+.lede { font-size: 18px; }
 section { display: flex; flex-direction: column; gap: 14px; }
 header { display: flex; flex-direction: column; gap: 14px; }
+.note { font-size: 14px; color: var(--muted); }
 
-.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
-.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-.glance b { font: 400 20px/1.2 var(--display); }
-.glance span { font-size: 13px; color: var(--muted); }
+.groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.group { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.group.b { border-color: var(--river); }
+.group .who { font: 400 22px/1.2 var(--display); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
 
+/* the 12-day strip */
+.strip-wrap { overflow-x: auto; }
+.strip { display: grid; grid-template-columns: repeat(12, minmax(54px, 1fr)); gap: 4px; min-width: 660px; }
+.cell { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: 8px 6px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.cell .dd { font: 500 12px/1.2 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.cell .what { font-size: 12.5px; line-height: 1.3; }
+.cell.hard { background: var(--ember-soft); border-color: var(--ember); }
+.cell.travel { background: var(--river-soft); }
+.bases { display: grid; grid-template-columns: repeat(12, minmax(54px, 1fr)); gap: 4px; min-width: 660px; font: 600 11px/1.2 var(--body); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.bases span { border-top: 2px solid var(--river); padding-top: 4px; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px 16px; font-size: 13px; color: var(--muted); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -1px; margin-right: 6px; border: 1px solid var(--line); background: var(--surface); }
+.legend i.h { background: var(--ember-soft); border-color: var(--ember); }
+.legend i.t { background: var(--river-soft); }
+
+/* picker */
+.picker { background: var(--surface); border: 1px solid var(--river); border-radius: 12px; padding: 18px; display: flex; flex-direction: column; gap: 16px; }
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: end; }
+.controls label { display: flex; flex-direction: column; gap: 4px; font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+select { font: 16px var(--body); color: var(--ink); background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; min-width: 170px; }
+select:focus-visible, button:focus-visible { outline: 2px solid var(--river); outline-offset: 2px; }
+.presets { display: flex; flex-wrap: wrap; gap: 8px; }
+.presets button { font: 600 13px var(--body); color: var(--river); background: var(--river-soft); border: 0; border-radius: 999px; padding: 7px 12px; cursor: pointer; }
+.presets button[aria-pressed="true"] { background: var(--river); color: var(--surface); }
+.result { display: flex; flex-direction: column; gap: 12px; }
+.sum { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.sum div { background: var(--bg); padding: 10px 12px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.sum b { font: 400 20px/1.2 var(--display); }
+.sum span { font-size: 13px; color: var(--muted); }
+.list { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; }
+.list li { display: grid; grid-template-columns: 92px 1fr; gap: 10px; font-size: 15px; }
+.list .d { font: 500 13px/1.6 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.list li.skip { color: var(--muted); }
+.flag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; margin-right: 6px; vertical-align: 2px; background: var(--river-soft); color: var(--river); }
+.flag.h { background: var(--ember); color: var(--surface); }
+.flag.r { background: var(--ember-soft); color: var(--ember); }
+
+/* days */
 .route { display: flex; flex-direction: column; border-left: 2px solid var(--river-soft); margin-left: 6px; }
-.day { position: relative; padding: 4px 0 30px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day { position: relative; padding: 4px 0 26px 22px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--river); }
-.day.travel::before { background: var(--river); }
+.day.hard::before { border-color: var(--ember); background: var(--ember); }
 .day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
-.day .moments { font: 500 13px/1.5 var(--mono); color: var(--river); letter-spacing: .01em; }
-.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
-.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--river); }
-.primer dd { margin: 0; font-size: 15px; }
-.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
-.day li b { font-weight: 600; }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 5px; }
 .day .stay { font-size: 14px; color: var(--muted); }
 .day .stay b { color: var(--ink); font-weight: 600; }
-.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--river-soft); color: var(--river); margin-right: 6px; vertical-align: 2px; }
-.tag.opt { background: var(--ember-soft); color: var(--ember); }
-.tag.warn { background: var(--ember); color: var(--surface); }
+.day .alt { font-size: 14px; color: var(--ember); }
 
 .tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
 table { border-collapse: collapse; width: 100%; font-size: 15px; }
@@ -74,31 +106,79 @@ th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--li
 th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 tr:last-child td { border-bottom: 0; }
 td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
-tr.total td { font-weight: 700; background: var(--river-soft); }
 
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
 .fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
 .fact.key { border-color: var(--ember); }
-.note { font-size: 14px; color: var(--muted); }
-.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--river); }
+.primer dd { margin: 0; font-size: 15px; }
 .steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
 footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+@media (max-width: 480px) { .list li { grid-template-columns: 1fr; gap: 0; } }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style>
 
 <div class="wrap">
 
 <header>
   <span class="eyebrow">The pitch · summer 2027</span>
-  <h1>Oregon, August 1–10</h1>
-  <p class="lede">Colin is already out west with the car after Glacier. You fly into Portland on August 1, and we spend nine nights working from the Columbia River Gorge down to the high desert around Bend and over the Cascades to the McKenzie River: two rafting days with a waterfall drop and cliff jumps, a trail that goes behind a waterfall, a 10,358-ft volcano you can walk up, a lazy float through Bend, and hot springs at night. Everyone flies home from Portland on August 10.</p>
+  <h1>Oregon, August 1–12</h1>
+  <p class="lede">Colin is already out west with the car after Glacier. Twelve days, one loop from Portland: tide pools and sand dunes on the coast, hot springs on the McKenzie River, a volcano and a river float around Bend, then two rafting days and a waterfall tunnel in the Columbia River Gorge. <b>Come for all of it, or pick the days you want.</b></p>
 </header>
 
-<div class="glance">
-  <div><b>Aug 1 → 10</b><span>9 nights, 2027</span></div>
-  <div><b>Fly into Portland</b><span>round trip, home from PDX</span></div>
-  <div><b>4 of us</b><span>Colin + 3 friends (asking now)</span></div>
-  <div><b>2 rivers to raft</b><span>White Salmon + Deschutes</span></div>
-</div>
+<section>
+  <h2>Two ways to come</h2>
+  <div class="groups">
+    <div class="group b">
+      <span class="eyebrow">Group B · the whole trip</span>
+      <span class="who">Aug 1 → 12, in Colin's car</span>
+      <ul class="plain">
+        <li>Colin picks you up at PDX on Aug 1 and drops you there on Aug 12.</li>
+        <li>You do everything, including the two big days: <b>South Sister</b> (a 10,358-ft summit) and <b>Tunnel Falls</b> (a 12-mile cliffside hike).</li>
+        <li>You share Colin's rooms.</li>
+      </ul>
+    </div>
+    <div class="group">
+      <span class="eyebrow">Group A · your own dates</span>
+      <span class="who">Fly in and out when you want</span>
+      <ul class="plain">
+        <li>You rent your own car at PDX, so you can arrive and leave on any day.</li>
+        <li>You book your own room at the same motel or lodge as us each night, and do everything together.</li>
+        <li>Skip anything that's too much. The two big days each have an easy option.</li>
+        <li>Rafting doesn't take fitness, so you're in on both rafts if your dates cover them.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>The 12 days at a glance</h2>
+  <div class="strip-wrap">
+    <div class="strip" id="strip"></div>
+    <div class="bases" aria-hidden="true">
+      <span style="grid-column: span 2">Coast</span>
+      <span style="grid-column: span 2">McKenzie</span>
+      <span style="grid-column: span 3">Bend</span>
+      <span style="grid-column: span 5">Gorge · Hood River</span>
+    </div>
+  </div>
+  <div class="legend"><span><i class="t"></i>Travel day</span><span><i class="h"></i>Big physical day (group A has an easy option)</span><span><i></i>Everyone</span></div>
+</section>
+
+<section>
+  <h2>Pick your days</h2>
+  <p class="note">For group A. Choose when you'd land and when you'd fly home, and this shows what you'd catch, where to sleep and what it costs. It starts with an example.</p>
+  <div class="picker">
+    <div class="presets" id="presets" role="group" aria-label="Suggested windows"></div>
+    <div class="controls">
+      <label for="arrive">Land at PDX<select id="arrive"></select></label>
+      <label for="leave">Fly home<select id="leave"></select></label>
+    </div>
+    <div class="result" id="result" aria-live="polite"></div>
+  </div>
+</section>
 
 <section>
   <h2>Who handles what</h2>
@@ -106,18 +186,18 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
     <div class="fact">
       <h3>Colin handles</h3>
       <ul class="plain">
-        <li>The car and all the driving</li>
         <li>The route, the hikes and the day-to-day plan</li>
-        <li>Picking you up at PDX and dropping you back there</li>
-        <li>Booking the rooms and the rafts early, with everyone paying their share</li>
-        <li>Grabbing the South Sister permits the minute they open</li>
+        <li>Group B's driving, pickup and drop-off at PDX</li>
+        <li>Booking group B's rooms and everyone's raft spots early, with each person paying their share</li>
+        <li>Getting the South Sister permits for whoever's climbing</li>
       </ul>
     </div>
     <div class="fact">
       <h3>You handle</h3>
       <ul class="plain">
         <li>Your flight, Cleveland ⇄ Portland</li>
-        <li>Your share of the rooms and gas</li>
+        <li>Group B: your share of the rooms and gas</li>
+        <li>Group A: your rental car and your own room each night, at the places in the table below</li>
         <li>Your raft tickets, food and fun money</li>
       </ul>
     </div>
@@ -127,129 +207,121 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
 <section>
   <h2>Oregon in one minute</h2>
   <dl class="primer">
-    <div><dt>The Gorge</dt><dd>The Columbia River cuts straight through the Cascade Mountains here, leaving an 80-mile canyon of basalt cliffs. The Ice Age floods that carved it left waterfalls pouring off nearly every side canyon.</dd></div>
-    <div><dt>Two Oregons</dt><dd>The mountains split the state in two. West of them it's wet and green; an hour east it turns to dry high desert, sagebrush and rimrock canyons. This trip crosses that line twice.</dd></div>
-    <div><dt>The volcanoes</dt><dd>The Cascades are a chain of volcanoes. Mt. Hood watches over the Gorge, and the Three Sisters stand west of Bend. South Sister is the tallest of the three, and the one we climb.</dd></div>
+    <div><dt>The coast</dt><dd>Oregon's whole coastline is public. Black basalt headlands stick out into the Pacific, and on a few summer mornings the tide drops low enough to walk out over rock that is underwater the rest of the year.</dd></div>
+    <div><dt>Two Oregons</dt><dd>The Cascade Mountains split the state in two. West of them it's wet and green; an hour east it turns to dry high desert, sagebrush and rimrock canyons. This trip crosses that line twice.</dd></div>
+    <div><dt>The volcanoes</dt><dd>The Cascades are a chain of volcanoes. Mt. Hood watches over the Gorge, and the Three Sisters stand west of Bend. South Sister is the tallest of the three, and the one group B climbs.</dd></div>
     <div><dt>Lava country</dt><dd>Around McKenzie Pass, lava flows covered the land in black rock. One flow dammed a river and drowned a forest about 3,000 years ago. That's Clear Lake, and the dead trees are still standing underwater.</dd></div>
-    <div><dt>Glacier water</dt><dd>The White Salmon comes off the glaciers of Mt. Adams. It stays ice-cold all summer, which is exactly what you want after a hot day.</dd></div>
-    <div><dt>Hot springs</dt><dd>Volcanic heat means natural hot springs. We sleep at one and soak at another.</dd></div>
+    <div><dt>The Gorge</dt><dd>The Columbia River cuts straight through the Cascades here, leaving an 80-mile canyon of basalt cliffs. The Ice Age floods that carved it left waterfalls pouring off nearly every side canyon.</dd></div>
+    <div><dt>Hot springs</dt><dd>Volcanic heat means natural hot springs. We sleep at one and soak at another. Belknap requires swimsuits; Terwilliger is clothing-optional.</dd></div>
   </dl>
 </section>
 
 <section>
   <h2>Day by day</h2>
-  <p class="note">Every hike, jump and drop is optional. Raft trips and permits get booked once the 2027 calendars open. Drive times aren't routed yet. None of the drives is long, except getting over the mountains on day 8.</p>
+  <p class="note">Every hike, jump and drop is optional. Drive times aren't routed yet unless a time is given.</p>
   <div class="route">
 
-    <div class="day travel">
+    <div class="day">
       <span class="when">Sun Aug 1 · land at PDX</span>
-      <h3>Portland → Hood River</h3>
-      <p class="moments">Airport pickup · out the Gorge · switchback highway at sunset</p>
-      <ul>
-        <li>Colin meets you at arrivals and we head east up the Columbia to <b>Hood River</b>, the town in the middle of the Gorge.</li>
-        <li>Sunset at <b>Rowena Crest</b>, the viewpoint above the Rowena Loops, where the old highway coils down the cliff above the river.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 1 of 3)</span>
+      <h3>Straight to the ocean</h3>
+      <ul><li>Airport pickup, then west to <b>Newport</b> on the central coast (about 2 h 20 m).</li></ul>
+      <span class="stay">Sleep: <b>Newport</b> (motel not picked yet)</span>
     </div>
 
     <div class="day">
-      <span class="when">Mon Aug 2</span>
-      <h3>White Salmon: the waterfall drop</h3>
-      <p class="moments">Class III–IV whitewater · a 10–12 ft waterfall in a raft · ice-cold swims · Mt. Hood at golden hour</p>
+      <span class="when">Mon Aug 2 · dawn start</span>
+      <h3>Tide pools and spouting rock</h3>
       <ul>
-        <li><span class="tag">Raft</span><b>White Salmon River</b>, a half-day of nearly nonstop Class III–IV rapids through a narrow canyon.</li>
-        <li><span class="tag opt">Optional</span>It ends at <b>Husum Falls</b>, a 10–12 ft vertical drop and the tallest commercially rafted waterfall in the US. You can ride it over or walk around and watch. Guides only run it at safe water levels, and you have to be 16+.</li>
-        <li><b>Lost Lake</b> at golden hour: a mountain lake with Mt. Hood standing right over the water.</li>
+        <li><b>Yaquina Head tide pools</b> at the lowest tide of the summer: −2.3 ft at 6:59 AM, after a 6:04 sunrise. Rock that's underwater almost all year comes out, with sea stars, anemones and urchins in the pools.</li>
+        <li><b>Depoe Bay</b>, where about 200 gray whales feed close to shore all summer.</li>
+        <li><b>Thor's Well</b> on the incoming tide: a hole in the rock that the ocean pours into and sprays out of.</li>
       </ul>
-      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 2 of 3)</span>
+      <span class="stay">Sleep: <b>Florence or Yachats</b> (not picked yet)</span>
     </div>
 
     <div class="day">
-      <span class="when">Tue Aug 3 · the big Gorge hike</span>
-      <h3>Behind Tunnel Falls</h3>
-      <p class="moments">Cliffside trail with cables · a bridge 150 ft up · a tunnel blasted behind a 175-ft waterfall</p>
+      <span class="when">Tue Aug 3</span>
+      <h3>Dunes, then hot springs</h3>
       <ul>
-        <li><b>Eagle Creek to Tunnel Falls</b>: about 12 miles round trip and 1,200 ft of climbing, on a trail cut into the canyon wall with cable handholds. It crosses <b>High Bridge</b>, 150 ft above the creek, and the turnaround is a tunnel hand-blasted <i>behind</i> 175-ft Tunnel Falls.</li>
-        <li><span class="tag opt">Shorter</span>Punch Bowl Falls is 2 miles in. Anyone can stop there for a swim and wait.</li>
-        <li><span class="tag warn">Heads up</span>This canyon closes after storms some years. If it's shut in 2027, we swap in another Gorge waterfall hike.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 3 of 3)</span>
-    </div>
-
-    <div class="day travel">
-      <span class="when">Wed Aug 4 · Maupin, then on to Bend</span>
-      <h3>Desert whitewater</h3>
-      <p class="moments">Basalt canyon · Class III–IV · natural rock slides · 12-ft jump at Pirate's Cove · wool-boom ghost town</p>
-      <ul>
-        <li><span class="tag">Raft</span><b>Lower Deschutes, full day</b> out of Maupin: 13 miles through a desert canyon with Class III–IV rapids (Boxcar, Oak Springs), a riverside lunch, swim stops and natural rock slides.</li>
-        <li><span class="tag opt">Optional</span><b>Pirate's Cove</b>: a 12-ft jump into a calm, deep cove.</li>
-        <li><b>Shaniko</b> on the way south: a wool-boom town from 1900, now mostly empty.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 1 of 4)</span>
-    </div>
-
-    <div class="day">
-      <span class="when">Thu Aug 5 · dawn start</span>
-      <h3>South Sister</h3>
-      <p class="moments">10,358 ft · no ropes · glacier lake · crater rim · half of Oregon's volcanoes in one view</p>
-      <ul>
-        <li><b>The summit of South Sister</b>, Oregon's third-highest peak: about 12.5 miles round trip and 5,000 ft of climbing. It's a trail the whole way, with no ropes or technical gear, but it's long and steep, with loose red cinder near the top.</li>
-        <li>Partway up is <b>Lewis Glacier's</b> turquoise lake. From the rim you look down into a snow-filled crater and out to the other Sisters, Mt. Jefferson and Mt. Hood.</li>
-        <li><span class="tag warn">Heads up</span>Weather decides it. We set a turnaround time, and thunder means down. Anyone can stop at the lake and wait.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 2 of 4)</span>
-    </div>
-
-    <div class="day">
-      <span class="when">Fri Aug 6</span>
-      <h3>Jumps and rock</h3>
-      <p class="moments">Desert swimming hole · cliff jumps · Smith Rock at golden hour</p>
-      <ul>
-        <li><span class="tag opt">Optional</span><b>Steelhead Falls</b>: a swimming hole below a waterfall in a basalt canyon, with ledges to jump from.</li>
-        <li><b>Misery Ridge at Smith Rock</b>: a steep climb up the famous climbing park's spine for golden hour over the river bend and the spires.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 3 of 4)</span>
-    </div>
-
-    <div class="day">
-      <span class="when">Sat Aug 7 · off day</span>
-      <h3>Float through Bend</h3>
-      <p class="moments">Sleep in · two-hour tube float through town · nothing scheduled</p>
-      <ul>
-        <li><b>The Deschutes float</b>: rent a tube, ride the shuttle up, and drift about two hours back through the middle of Bend.</li>
-        <li>This is also our <b>spare day</b>. If smoke or weather wrecks South Sister or Smith Rock, it moves here.</li>
-      </ul>
-      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 4 of 4)</span>
-    </div>
-
-    <div class="day travel">
-      <span class="when">Sun Aug 8 · over the Cascades</span>
-      <h3>Lava and hot water</h3>
-      <p class="moments">Black lava fields at the pass · down into the forest · soak until dark</p>
-      <ul>
-        <li>West over <b>McKenzie Pass</b>, through miles of jagged black lava at the top.</li>
-        <li><b>Belknap Hot Springs</b>: a lodge on the McKenzie River with two hot-spring pools. The upper one is for overnight guests only, so we soak until it closes.</li>
+        <li><b>The Oregon Dunes</b>, the biggest coastal dunes in North America. Either drive a side-by-side on a guided 2-hour dune, forest and beach loop (18+ to drive), or ride in a sandrail.</li>
+        <li>Over the mountains to <b>Belknap Hot Springs</b> and soak until the pool closes.</li>
       </ul>
       <span class="stay">Sleep: <b>Belknap Hot Springs Lodge</b> (night 1 of 2)</span>
     </div>
 
     <div class="day">
-      <span class="when">Mon Aug 9 · last full day</span>
+      <span class="when">Wed Aug 4</span>
       <h3>Blue water</h3>
-      <p class="moments">Rowboat over a drowned forest · electric-blue pool · hot springs at dusk</p>
       <ul>
-        <li><span class="tag">Boat</span><b>Clear Lake</b>: rent a rowboat and drift over standing trees that drowned when lava dammed the lake about 3,000 years ago. The water is clear enough to see them.</li>
-        <li><b>Tamolitch Blue Pool</b>: a short hike to a pool so blue it looks fake, where the river comes back up out of the lava.</li>
-        <li><b>Terwilliger Hot Springs</b> at dusk: a string of rock pools stepping down a forested hillside. Open until 10 PM. Clothing-optional, fair warning. Last night together.</li>
+        <li>A <b>rowboat on Clear Lake</b> over a forest that drowned when lava dammed the lake about 3,000 years ago.</li>
+        <li><b>Tamolitch Blue Pool</b>, where the river comes back up out of the lava.</li>
+        <li><b>Terwilliger Hot Springs</b> at dusk: rock pools down a forested hillside. Clothing-optional, fair warning.</li>
       </ul>
       <span class="stay">Sleep: <b>Belknap Hot Springs Lodge</b> (night 2 of 2)</span>
     </div>
 
-    <div class="day travel">
+    <div class="day">
+      <span class="when">Thu Aug 5</span>
+      <h3>Lava, jumps and rock</h3>
+      <ul>
+        <li>Over <b>McKenzie Pass</b> through miles of black lava.</li>
+        <li><b>Steelhead Falls</b>: a desert swimming hole with ledges to jump from.</li>
+        <li><b>Smith Rock</b> at golden hour. Misery Ridge is a steep climb; the river trail below it is flat.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 1 of 3)</span>
+    </div>
+
+    <div class="day hard">
+      <span class="when">Fri Aug 6 · dawn start</span>
+      <h3>South Sister</h3>
+      <ul><li>The summit of a 10,358-ft volcano: about 12.5 miles round trip and 5,000 ft of climbing, trail the whole way, no ropes. Long, steep, loose cinder near the top.</li></ul>
+      <span class="alt">Group A: float the river through Bend, or take it slow in town.</span>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 2 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sat Aug 7 · off day</span>
+      <h3>Float through Bend</h3>
+      <ul><li>Sleep in, then two hours on a tube through the middle of town. Also our spare day if smoke or weather moves something.</li></ul>
+      <span class="stay">Sleep: <b>Holiday Motel, Bend</b> (night 3 of 3)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Sun Aug 8 · raft 1</span>
+      <h3>Desert whitewater</h3>
+      <ul><li><b>Lower Deschutes, full day</b> out of Maupin: 13 miles of Class III–IV through a desert canyon, lunch, swim stops and a 12-ft jump at Pirate's Cove. Then on to Hood River.</li></ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 1 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Mon Aug 9 · raft 2</span>
+      <h3>The waterfall drop</h3>
+      <ul>
+        <li><b>White Salmon River</b>, a half-day of Class III–IV ending at <b>Husum Falls</b>, a 10–12 ft drop. Ride it or walk around and watch (16+).</li>
+        <li><b>Lost Lake</b> at golden hour, with Mt. Hood over the water.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 2 of 4)</span>
+    </div>
+
+    <div class="day hard">
       <span class="when">Tue Aug 10</span>
+      <h3>Behind Tunnel Falls</h3>
+      <ul><li>About 12 miles round trip on a trail cut into the canyon wall, with cable handholds, a bridge 150 ft up and a tunnel behind a 175-ft waterfall. If the canyon is closed in 2027, we swap in another waterfall hike.</li></ul>
+      <span class="alt">Group A: Punch Bowl Falls is 2 miles in, with a swim. Turn around there.</span>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 3 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Wed Aug 11 · spare day</span>
+      <h3>Nothing booked</h3>
+      <ul><li>Catch-up day for anything smoke or weather moved. <b>Rowena Crest</b> at sunset.</li></ul>
+      <span class="stay">Sleep: <b>Sunset Motel, Hood River</b> (night 4 of 4)</span>
+    </div>
+
+    <div class="day">
+      <span class="when">Thu Aug 12</span>
       <h3>Fly home from Portland</h3>
-      <p class="moments">Airport drop</p>
-      <ul><li>Colin drives you back to PDX, then heads home east.</li></ul>
+      <ul><li>About an hour to PDX from Hood River.</li></ul>
     </div>
 
   </div>
@@ -257,82 +329,67 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
 
 <section>
   <h2>Where we stay</h2>
-  <p class="note">Three bases, nine nights, one room for the four of us at each: two to a queen bed. These are Colin's picks. Nothing is booked yet; rooms get booked on refundable rates once everyone's in.</p>
-  <div class="facts">
-    <div class="fact">
-      <span class="eyebrow">Aug 1–4 · 3 nights · Hood River</span>
-      <h3>Sunset Motel</h3>
-      <p>A small, recently redone motel close to downtown Hood River, with a grocery store across the street. Book the <b>Standard Room, 2 Queen Beds</b>, which is listed as sleeping 4, with a fridge and microwave. Guests rate it about 8.8 out of 10 across 1,000+ reviews.</p>
-      <p class="note">~$164–226 a night for the room in summer, about $125–170 each for 3 nights.</p>
-    </div>
-    <div class="fact">
-      <span class="eyebrow">Aug 4–8 · 4 nights · Bend</span>
-      <h3>Holiday Motel</h3>
-      <p>A cheap, no-frills motel about a mile from the Old Mill District and the river float. Book the <b>Double Queen</b> room (2 queens, for 2–4 people), with a fridge and microwave. Reviews call it clean and friendly but dated, with thin walls. We're there to sleep, not to hang out. If we end up five, its <b>Family Suite</b> has three queens.</p>
-      <p class="note">~$128–160 a night for the room in summer, about $130–160 each for 4 nights.</p>
-    </div>
-    <div class="fact key">
-      <span class="eyebrow">Aug 8–10 · 2 nights · McKenzie River</span>
-      <h3>Belknap Hot Springs Lodge</h3>
-      <p>A rustic lodge on the McKenzie River with two hot-spring pools. The upper pool is for overnight guests only, open 9 AM–9 PM, and lodge rooms get continental breakfast and pool towels. Book a <b>4-guest lodge room</b>. There are only 18 rooms in the lodge and just a few take four people, so <b>this is the first thing we book</b>.</p>
-      <p class="note">$140–215 a night plus 12% tax, about $80–120 each for 2 nights.</p>
-    </div>
+  <p class="note">Nothing is booked yet. Each group books its own room at the same place, on refundable rates where possible. Room prices are 2026 summer averages for the whole room; split them by however many share it.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Nights</th><th>Where</th><th>Room, per night</th></tr></thead>
+      <tbody>
+        <tr><td>Aug 1</td><td>A motel in Newport</td><td class="num">not picked</td></tr>
+        <tr><td>Aug 2</td><td>A motel in Florence or Yachats</td><td class="num">not picked</td></tr>
+        <tr><td>Aug 3–4</td><td><b>Belknap Hot Springs Lodge</b>. Only 18 rooms, and its upper pool is for guests only. Book this first.</td><td class="num">$140–215 + 12% tax</td></tr>
+        <tr><td>Aug 5–7</td><td><b>Holiday Motel, Bend</b>. Cheap and dated, thin walls. Double Queen room.</td><td class="num">~$128–160</td></tr>
+        <tr><td>Aug 8–11</td><td><b>Sunset Motel, Hood River</b>. Redone, rated ~8.8/10. 2-queen room.</td><td class="num">~$164–226</td></tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
 <section>
-  <h2>What it costs</h2>
-  <p class="note">Per person, in US dollars, for 4 of us sharing one room per stop (two to a queen) and riding in Colin's car. These are estimates from 2026 prices, not August 2027 prices.</p>
+  <h2>What things cost</h2>
+  <p class="note">Per person, US dollars, from 2026 prices. There's no single total because it depends on your dates; the picker above adds up what's priced.</p>
   <div class="tbl">
     <table>
-      <thead><tr><th>Item</th><th>Estimate</th><th>Basis</th></tr></thead>
+      <thead><tr><th>Item</th><th>Estimate</th><th>Notes</th></tr></thead>
       <tbody>
-        <tr><td>Flight Cleveland ⇄ Portland</td><td class="num">~$250–600</td><td>Typical August round trips on KAYAK; the cheapest seen was ~$240</td></tr>
-        <tr><td>Sunset Motel, Hood River, 3 nights</td><td class="num">~$125–170</td><td>~$164–226 a room a night in summer, split four ways</td></tr>
-        <tr><td>Holiday Motel, Bend, 4 nights</td><td class="num">~$130–160</td><td>~$128–160 a room a night in summer, split four ways</td></tr>
-        <tr><td>Belknap Hot Springs, 2 nights</td><td class="num">~$80–120</td><td>4-person lodge room, $140–215 a night plus 12% tax</td></tr>
-        <tr><td>White Salmon raft (Husum)</td><td class="num">~$80–95</td><td>Half-day, summer 2026 prices</td></tr>
-        <tr><td>Deschutes full-day raft</td><td class="num">$105</td><td>Weekday price, lunch and river fees included</td></tr>
-        <tr><td>Float, hot springs, boat, permits</td><td class="num">~$70</td><td>Tube + shuttle $28, Terwilliger $12, rowboat ~$20, park passes and the $1 summit permit</td></tr>
-        <tr><td>Food</td><td class="num">~$360–540</td><td>~$40–60 a day: grocery breakfasts, cheap lunches, real dinners</td></tr>
-        <tr><td>Gas</td><td class="num">~$35–45</td><td>~850 miles around Oregon in one car, split four ways</td></tr>
-        <tr class="total"><td>Total</td><td class="num">~$1,250–1,950</td><td>Plus room tax and raft-guide tips. The flight is the big variable</td></tr>
+        <tr><td>Flight Cleveland ⇄ Portland</td><td class="num">~$250–600</td><td>Typical August round trips; the cheapest seen was ~$240</td></tr>
+        <tr><td>Deschutes full-day raft</td><td class="num">~$105</td><td>2026 weekday price with lunch; Aug 8 is a Sunday, price not checked</td></tr>
+        <tr><td>White Salmon raft</td><td class="num">from $99</td><td>2027 half-day price</td></tr>
+        <tr><td>Dunes, ride a sandrail</td><td class="num">$75</td><td>1 hour, plus non-refundable taxes and fees</td></tr>
+        <tr><td>Dunes, drive yourselves</td><td class="num">$399 / $499</td><td>Per 2-seat / 4-seat side-by-side for 2 hours, split by the riders</td></tr>
+        <tr><td>Float, hot springs, boat</td><td class="num">~$60</td><td>Tube + shuttle $28, Terwilliger $12, a share of the rowboat</td></tr>
+        <tr><td>Food</td><td class="num">~$40–60 a day</td><td>Grocery breakfasts, cheap lunches, real dinners</td></tr>
+        <tr><td>Group A only: rental car</td><td class="num">not priced</td><td>Under 25 adds a young-renter fee, ~$25 a day at Hertz in 2026. Split it with whoever rides with you</td></tr>
       </tbody>
     </table>
   </div>
-  <p class="note">With 5 people the shared costs drop about 20% each, but we'd need a rental minivan (under-25 driver fees add roughly $70 a person, plus the rental itself) and a bigger room at Belknap.</p>
 </section>
 
 <section>
   <h2>Good to know</h2>
   <div class="facts">
     <div class="fact key">
+      <h3>The tides set the start</h3>
+      <p>The best low tides of the whole summer fall on August 1–4, and by August 9 they're gone. That's why the coast comes first. Coming later still gets you everything else.</p>
+    </div>
+    <div class="fact key">
       <h3>Smoke</h3>
-      <p>Wildfire smoke hits Oregon in late summer some years. It's the one thing that can really mess with this trip. We book refundable rooms where we can, and Saturday is a spare day for moving things around.</p>
+      <p>Wildfire smoke hits Oregon in some Augusts. Rooms stay refundable where we can, and Aug 7 and Aug 11 are spare days.</p>
     </div>
     <div class="fact">
-      <h3>Getting around</h3>
-      <p>Everyone rides in Colin's car, so no rental. It seats five, so four people plus bags fits; five doesn't. Pack a soft duffel or backpack, not a hard suitcase.</p>
+      <h3>The ocean</h3>
+      <p>Cold, and not for swimming. Watch for sneaker waves and never turn your back on the water on the rocks. Summer highs on the coast are in the upper 60s; bring layers for the dawn tide pools.</p>
     </div>
     <div class="fact">
-      <h3>Weather</h3>
-      <p>August is hot and dry in Bend and warm in the Gorge, with cool nights in the mountains. The South Sister summit is cold and windy even in summer. Bring a warm layer and a wind jacket for that day.</p>
+      <h3>Weather inland</h3>
+      <p>Hot and dry around Bend, warm in the Gorge, cool nights. The South Sister summit is cold and windy even in August.</p>
     </div>
     <div class="fact">
       <h3>The water</h3>
-      <p>The rivers and lakes are cold, the White Salmon especially. You need to be able to swim for the rafting and the jumps. Guides give the safety talk; the jumps are your call.</p>
+      <p>Rivers and lakes are cold, the White Salmon especially. You need to be able to swim for the rafts and the jumps.</p>
     </div>
     <div class="fact">
-      <h3>Hot springs</h3>
-      <p>Belknap requires swimsuits. Terwilliger is clothing-optional, so expect some of that.</p>
-    </div>
-    <div class="fact">
-      <h3>Phones</h3>
-      <p>Signal is fine in the towns and patchy in the mountains and canyons. Download offline maps before you come.</p>
-    </div>
-    <div class="fact">
-      <h3>Time zone</h3>
-      <p>Pacific time, 3 hours behind Cleveland. You land in the afternoon feeling like it's dinner.</p>
+      <h3>Phones and time</h3>
+      <p>Signal is patchy outside towns, so download offline maps. Pacific time, 3 hours behind Cleveland.</p>
     </div>
   </div>
 </section>
@@ -341,16 +398,140 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   <h2>What I need from you</h2>
   <ol class="steps">
     <li><b>In or out?</b></li>
-    <li><b>Can you do August 1–10?</b> If not, what's your window? (Nobody's free after about Aug 12, so this is the slot.)</li>
-    <li><b>Your real budget ceiling</b>, all-in with the flight.</li>
-    <li><b>Is anyone 25 or older?</b> Only matters if we end up five and need a rental.</li>
+    <li><b>Group A or group B?</b></li>
+    <li><b>Your dates:</b> when you'd land and when you'd fly home, and the latest date you have to be back (and why: school, move-in, work?).</li>
+    <li><b>Roughly what time you'd land on Aug 1</b>, if that's your day. An evening landing changes the first night.</li>
+    <li><b>Both rafts?</b> They book by headcount, so say yes or no for each.</li>
   </ol>
-  <p class="note">Once you're in: book your flight (Cleveland → Portland on <b>August 1</b>, back <b>August 10</b>) when fares look reasonable, and send Colin your arrival time. Colin books the rooms and the rafts as soon as the 2027 calendars open.</p>
+  <p class="note">Once you're in: book your flight when fares look reasonable and send Colin your times. Belknap and the White Salmon raft get booked as soon as the headcount is known.</p>
 </section>
 
 <footer>
-  <span>Updated October 15, 2026. Prices come from 2026 listings and will change by 2027. Drive times aren't routed yet.</span>
+  <span>Updated November 4, 2026. Prices come from 2026 listings and will change by 2027. Drive times aren't routed yet unless a time is given.</span>
   <span>Questions go to Colin.</span>
 </footer>
 
 </div>
+
+<script>
+(function () {
+  // base: where you sleep that night. Room prices are per room per night (Belknap includes 12.07% tax).
+  var BASES = {
+    newport:  { name: "a Newport motel", lo: null, hi: null, toPdx: "about 2 h 20 m" },
+    florence: { name: "a Florence or Yachats motel", lo: null, hi: null, toPdx: "about 3 h" },
+    belknap:  { name: "Belknap Hot Springs Lodge", lo: 157, hi: 241, toPdx: "3+ h (not routed)" },
+    bend:     { name: "Holiday Motel, Bend", lo: 128, hi: 160, toPdx: "3+ h (not routed)" },
+    hood:     { name: "Sunset Motel, Hood River", lo: 164, hi: 226, toPdx: "about 1 h (not routed)" }
+  };
+  var DAYS = [
+    { lab: "Sun Aug 1",  short: "Land · to the coast", base: "newport",  kind: "travel", what: "Land, drive to the coast" },
+    { lab: "Mon Aug 2",  short: "Tide pools · whales", base: "florence", what: "Tide pools at dawn, whales at Depoe Bay, Thor's Well" },
+    { lab: "Tue Aug 3",  short: "Dunes · hot springs", base: "belknap",  what: "The dunes, then Belknap Hot Springs", cost: "dunes" },
+    { lab: "Wed Aug 4",  short: "Blue water",          base: "belknap",  what: "Clear Lake rowboat, Blue Pool, Terwilliger hot springs", cost: 30 },
+    { lab: "Thu Aug 5",  short: "Lava · Smith Rock",   base: "bend",     what: "McKenzie Pass, Steelhead Falls jumps, Smith Rock" },
+    { lab: "Fri Aug 6",  short: "South Sister",        base: "bend",     kind: "hard", what: "South Sister summit", alt: "Float the river in Bend, or rest" },
+    { lab: "Sat Aug 7",  short: "Float · off day",     base: "bend",     what: "Tube float through Bend, the off day", cost: 28 },
+    { lab: "Sun Aug 8",  short: "Raft: Deschutes",     base: "hood",     raft: true, what: "Deschutes full-day raft, then to Hood River", cost: 105 },
+    { lab: "Mon Aug 9",  short: "Raft: White Salmon",  base: "hood",     raft: true, what: "White Salmon raft and Husum Falls, Lost Lake", cost: 99 },
+    { lab: "Tue Aug 10", short: "Tunnel Falls",        base: "hood",     kind: "hard", what: "Tunnel Falls hike", alt: "Punch Bowl Falls (2 mi in) and a swim" },
+    { lab: "Wed Aug 11", short: "Spare · Rowena",      base: "hood",     what: "Spare day, Rowena Crest at sunset" },
+    { lab: "Thu Aug 12", short: "Fly home",            base: null,       kind: "travel", what: "Fly home from PDX" }
+  ];
+  var PRESETS = [
+    { name: "Everything", a: 0, l: 11 },
+    { name: "Coast through both rafts", a: 0, l: 9 },
+    { name: "First half", a: 0, l: 4 },
+    { name: "Second half", a: 6, l: 11 }
+  ];
+  var SHARE = 3; // people per room, for the per-person room estimate
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
+
+  // the strip
+  var strip = document.getElementById("strip");
+  strip.innerHTML = DAYS.map(function (d) {
+    var cls = "cell" + (d.kind === "hard" ? " hard" : d.kind === "travel" ? " travel" : "");
+    return '<div class="' + cls + '"><span class="dd">' + esc(d.lab.replace(/^\w+ /, "")) + '</span><span class="what">' + esc(d.short) + "</span></div>";
+  }).join("");
+
+  var arrive = document.getElementById("arrive"), leave = document.getElementById("leave");
+  DAYS.forEach(function (d, i) {
+    if (i < DAYS.length - 1) arrive.add(new Option(d.lab, i));
+  });
+  function fillLeave(a, keep) {
+    leave.innerHTML = "";
+    for (var i = a + 1; i < DAYS.length; i++) leave.add(new Option(DAYS[i].lab, i));
+    leave.value = String(Math.max(a + 1, Math.min(keep, DAYS.length - 1)));
+  }
+
+  var presetBox = document.getElementById("presets");
+  presetBox.innerHTML = PRESETS.map(function (p, i) {
+    return '<button type="button" data-i="' + i + '" aria-pressed="false">' + esc(p.name) + ": " + esc(DAYS[p.a].lab.replace(/^\w+ /, "")) + "–" + esc(DAYS[p.l].lab.replace(/^\w+ Aug /, "")) + "</button>";
+  }).join("");
+  presetBox.addEventListener("click", function (e) {
+    var b = e.target.closest("button"); if (!b) return;
+    var p = PRESETS[+b.dataset.i];
+    arrive.value = String(p.a); fillLeave(p.a, p.l); render();
+  });
+
+  function money(lo, hi) { return lo === hi ? "$" + lo : "$" + lo + "–" + hi; }
+
+  function render() {
+    var a = +arrive.value, l = +leave.value;
+    var nights = l - a, rafts = 0, skipped = [], rows = [], roomLo = 0, roomHi = 0, unpriced = 0, act = 0, dunes = false;
+    var seen = {};
+
+    // arrival day
+    var firstBase = BASES[DAYS[a].base];
+    rows.push('<li><span class="d">' + esc(DAYS[a].lab) + '</span><span><span class="flag">Arrive</span>' +
+      (a === 0 ? "Land at PDX and ride out with everyone to the coast" : "Land at PDX, pick up your car, drive to " + esc(firstBase.name) + " (" + esc(firstBase.toPdx) + ")") + "</span></li>");
+
+    for (var i = a; i < l; i++) {
+      var b = BASES[DAYS[i].base];
+      if (b.lo == null) unpriced++; else { roomLo += b.lo; roomHi += b.hi; }
+      if (i === a) continue;
+      var d = DAYS[i];
+      if (d.raft) rafts++;
+      if (d.cost === "dunes") dunes = true; else if (d.cost) act += d.cost;
+      if (d.kind === "hard") {
+        skipped.push(d.short);
+        rows.push('<li class="skip"><span class="d">' + esc(d.lab) + '</span><span><span class="flag h">Big day</span>' + esc(d.what) + ". Your easy option: " + esc(d.alt) + "</span></li>");
+      } else {
+        rows.push('<li><span class="d">' + esc(d.lab) + '</span><span>' + (d.raft ? '<span class="flag r">Raft</span>' : "") + esc(d.what) + "</span></li>");
+      }
+    }
+    // arrival day still counts its own activity only on Aug 1 (travel anyway)
+    var lastBase = BASES[DAYS[l - 1].base];
+    rows.push('<li><span class="d">' + esc(DAYS[l].lab) + '</span><span><span class="flag">Leave</span>' +
+      (l === DAYS.length - 1 ? "Fly home from PDX, about 1 h from Hood River" : "Drive from " + esc(lastBase.name) + " to PDX (" + esc(lastBase.toPdx) + "), so book an afternoon or evening flight") + "</span></li>");
+
+    var full = Math.max(0, l - a - 1);
+    var roomPP = roomLo ? money(Math.round(roomLo / SHARE), Math.round(roomHi / SHARE)) : "$0";
+    var html = '<div class="sum">' +
+      "<div><b>" + nights + " night" + (nights === 1 ? "" : "s") + "</b><span>" + full + " full day" + (full === 1 ? "" : "s") + " with us</span></div>" +
+      "<div><b>" + rafts + " of 2</b><span>rafts</span></div>" +
+      "<div><b>" + roomPP + "</b><span>your share of rooms, " + SHARE + " to a room" + (unpriced ? ", plus " + unpriced + " coast night" + (unpriced === 1 ? "" : "s") + " not priced" : "") + "</span></div>" +
+      "<div><b>~$" + act + (dunes ? " + dunes" : "") + "</b><span>rafts and activities" + (dunes ? "; dunes $75 to ride, or a share of $399–499 to drive" : "") + "</span></div>" +
+      "</div>";
+    html += '<ul class="list">' + rows.join("") + "</ul>";
+    var notes = [];
+    if (skipped.length) notes.push("The big days in your window (" + skipped.join(", ") + ") have an easy option, so nobody sits around.");
+    if (!rafts) notes.push("No rafts in this window. They're Aug 8 and 9; stay through Aug 10 to get both.");
+    else if (rafts === 1) notes.push("You'd catch one raft. Both are Aug 8 and 9; stay through Aug 10 to get both.");
+    if (a > 1) notes.push("You'd miss the coast. Its best low tides are Aug 1–4.");
+    notes.push("Not included: your flight (~$250–600), food (~$40–60 a day), and your rental car and gas.");
+    html += '<p class="note">' + notes.map(esc).join(" ") + "</p>";
+    document.getElementById("result").innerHTML = html;
+
+    Array.prototype.forEach.call(presetBox.children, function (btn, i) {
+      btn.setAttribute("aria-pressed", String(PRESETS[i].a === a && PRESETS[i].l === l));
+    });
+  }
+
+  arrive.addEventListener("change", function () { fillLeave(+arrive.value, +leave.value); render(); });
+  leave.addEventListener("change", render);
+
+  // example to start: the coast through both rafts
+  arrive.value = "0"; fillLeave(0, 9); render();
+})();
+</script>
