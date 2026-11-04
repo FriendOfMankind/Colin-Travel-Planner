@@ -142,7 +142,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   <div class="legend">
     <span><i class="sw" style="background:var(--sea-soft);border:1.5px solid var(--sea)"></i>Open, Newfoundland</span>
     <span><i class="sw" style="background:var(--pine-soft);border:1.5px solid var(--pine)"></i>Open, Rockies</span>
-    <span><i class="sw" style="border:1.5px dashed var(--taken)"></i>Friends' weeks, with their own pages</span>
+    <span><i class="sw" style="border:1.5px dashed var(--taken)"></i>Friends' weeks and the drives home after them</span>
   </div>
   <p class="note">The two friends' weeks are planned already: <a href="https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc">Newfoundland, June 10–19</a> (hotels and boats) and <a href="https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP">Oregon, August 1–12</a> (motels and rafting). This page covers everything else.</p>
 </section>
@@ -155,6 +155,7 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
     <div class="term"><span class="k">Split everything</span><p>Gas, campsites, park passes, ferries and shared groceries, split evenly for the days you're along. Your flights are yours.</p></div>
     <div class="term"><span class="k">Share the wheel</span><p>Some days are 8–11 hours of road. You can take driving shifts.</p></div>
   </div>
+  <div class="term" style="border-style:dashed"><span class="k">Already coming on a friends' week?</span><p>You can skip your flight home and ride back with Colin. From St. John's (June 19): Ferryland, the Mistaken Point fossils, the gannets at Cape St. Mary's, an overnight ferry, then three days to Ohio. From Portland (August 12): four days of interstate to Ohio, with driving shifts. Either way you save a flight and split the gas.</p></div>
   <p class="note">Nothing is booked yet. Campsites have people-and-tent limits, so Colin needs your dates before the bookings open. The dates are under <a href="#deadlines">Deadlines</a>.</p>
 </section>
 
@@ -295,15 +296,13 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
         { id: "fca1", i: 15, place: "Kalispell, Montana", code: "FCA", on: 1, off: 1, how: "Going-to-the-Sun Road comes down on Glacier's west side, the side Kalispell is on (~45 min, not routed)." },
         { id: "fca2", i: 18, place: "Kalispell, Montana", code: "FCA", off: 1, how: "On the way west out of the park, the morning after the slack day." },
         { id: "pdx1", i: 20, place: "Portland, Oregon", code: "PDX", off: 1, how: "Colin is at PDX on Aug 1 to pick up the Oregon friends. Fly home from there, or stay for the Oregon week." },
-        { id: "pdx2", i: 31, place: "Portland, Oregon", code: "PDX", on: 1, how: "Skip the flight home after the Oregon week and ride back to Ohio instead." },
-        { id: "avon2", i: 35, place: "Avon, Ohio", code: "", off: 1, how: "Ride all the way home." }
+        { id: "avon2", i: 35, place: "Avon, Ohio", code: "", off: 1, how: "Ride all the way home, through the Oregon week." }
       ],
       presets: [
         { n: "Glacier week", on: "bzn", off: "fca2" },
         { n: "Cody to Glacier", on: "cod", off: "fca2" },
         { n: "Glacier, then Oregon", on: "fca1", off: "pdx1" },
-        { n: "Ohio to Cody", on: "avon", off: "cod" },
-        { n: "Ride home from Oregon", on: "pdx2", off: "avon2" }
+        { n: "Ohio to Cody", on: "avon", off: "cod" }
       ],
       dflt: 0
     },
@@ -342,15 +341,13 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
         { id: "ydf1", i: 5, place: "Deer Lake, Newfoundland", code: "YDF", on: 1, off: 1, how: "The Viking Trail starts in Deer Lake, so Colin drives straight through." },
         { id: "ydf2", i: 10, place: "Deer Lake, Newfoundland", code: "YDF", on: 1, off: 1, how: "On the way back from Labrador. The airport is ~1 h south of the first Gros Morne camp (not routed)." },
         { id: "ydf3", i: 15, place: "Deer Lake, Newfoundland", code: "YDF", off: 1, how: "Colin drives through Deer Lake that morning on the way to meet the friends at Gander." },
-        { id: "yyt", i: 24, place: "St. John's", code: "YYT", on: 1, how: "The friends fly out of St. John's that morning, and you fly in. Or one of the friends stays on and rides home." },
         { id: "bgr2", i: 28, place: "Bangor, Maine", code: "BGR", off: 1, how: "Fly home after the overnight ferry and the drive through Nova Scotia." },
         { id: "avon2", i: 29, place: "Avon, Ohio", code: "", off: 1, how: "Ride all the way home." }
       ],
       presets: [
         { n: "Gros Morne", on: "ydf2", off: "ydf3" },
         { n: "Viking Trail and Labrador", on: "ydf1", off: "ydf2" },
-        { n: "Ohio to Gros Morne", on: "avon", off: "ydf3" },
-        { n: "Ride home from St. John's", on: "yyt", off: "avon2" }
+        { n: "Ohio to Gros Morne", on: "avon", off: "ydf3" }
       ],
       dflt: 0
     }
@@ -369,11 +366,11 @@ footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line)
   var SEGS = [
     { c: "nf open", d: "May 26 – Jun 10", t: "Newfoundland", x: "Acadia → Labrador → Gros Morne", n: 15 },
     { c: "nf taken", d: "Jun 10–19", t: "Friends' week", x: "own page", n: 9 },
-    { c: "nf open", d: "Jun 19–24", t: "Ride home", x: "", n: 5 },
+    { c: "nf taken", d: "Jun 19–24", t: "Ride home", x: "friends already there", n: 5 },
     { c: "home", d: "Jun 24 – Jul 12", t: "Home", x: "", n: 18 },
     { c: "rk open", d: "Jul 12 – Aug 1", t: "The Rockies", x: "Wyoming → Yellowstone → Glacier", n: 20 },
     { c: "rk taken", d: "Aug 1–12", t: "Oregon week", x: "own page", n: 11 },
-    { c: "rk open", d: "Aug 12–16", t: "Ride home", x: "", n: 4 }
+    { c: "rk taken", d: "Aug 12–16", t: "Ride home", x: "friends already there", n: 4 }
   ];
   document.getElementById("bar").innerHTML = SEGS.map(function (s) {
     return '<div class="seg ' + s.c + '" style="flex:' + Math.max(s.n, 7) + ' 1 0"><span class="d">' + s.d + "</span><b>" + s.t + "</b>" + (s.x ? "<span>" + s.x + "</span>" : "") + "</div>";
