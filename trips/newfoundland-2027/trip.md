@@ -105,6 +105,8 @@ May 26 – June 24, 2027 (target)
 
 Solo, except June 10–19: **3 friends, confirmed** *(stated 2026-10-10: all three can fly out June 10–19; was: "planning for 3, not confirmed", 2026-10-08, and before that "up to 3")*, flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
 
+**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along.
+
 ### Why this direction
 
 The Argentia ferry only runs from June 16 (2027 schedule), and icebergs peak late May to early June. Sailing *out* of Argentia instead of in gets both. Gros Morne Mountain is closed for caribou calving until June 27, and it's over the day ceiling anyway (10.8 mi / 3,044 ft), so it's the cheap thing to lose.

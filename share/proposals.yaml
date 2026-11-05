@@ -85,6 +85,17 @@
   checked: 2026-11-04  # Jun 10–19 days and beds re-read 2026-11-01; the Nov 3–4 changes only touched the May turnaround before the trip
   note: All three confirmed 2026-10-10 (trips/newfoundland-2027/trip.md).
 
+- id: ride-along-2027
+  title: Ride Along 2027
+  url: https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ
+  format: page
+  source: share/proposals/ride-along-2027.html
+  trip: northern-rockies-2027
+  for: any friend who could fly in for part of the solo legs of Newfoundland or the Rockies (up to 2 at a time)
+  status: draft  # not sent yet
+  asOf: 2026-11-04
+  note: Covers both trips; it also depends on trips/newfoundland-2027, which this row can't track, so re-check it when Newfoundland's days change.
+
 - id: adirondacks-winter
   title: Adirondacks Ski Week 2027
   url: https://claude.ai/code/artifact/10e038c4-fe35-4378-82f2-de9e37aa7bdc
