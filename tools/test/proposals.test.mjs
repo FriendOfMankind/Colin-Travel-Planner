@@ -33,6 +33,10 @@ for (const p of rows) {
     if (p.checked != null) assert.match(String(p.checked), ISO, "checked: YYYY-MM-DD");
     assert.ok(p.trip || p.wishlist, "trip or wishlist: the plan it's built from");
     if (p.trip) assert.ok(has(`trips/${p.trip}/trip.md`), `no trips/${p.trip}/trip.md`);
+    if (p.also != null) {
+      assert.ok(p.trip && Array.isArray(p.also), "also: a list of extra trip slugs, beside trip");
+      for (const s of p.also) assert.ok(has(`trips/${s}/trip.md`), `also: no trips/${s}/trip.md`);
+    }
     if (p.wishlist) assert.ok(has(`wishlist/${p.wishlist}.md`), `no wishlist/${p.wishlist}.md`);
     if (p.format === "page") {
       assert.equal(p.source, `share/proposals/${p.id}.html`, "a page's source is share/proposals/<id>.html");
@@ -58,6 +62,8 @@ test("behind(): live rows only, against the newest plan change", () => {
   assert.equal(behind({ status: "sent", trip: "x", asOf: "2026-10-10" }, r).changed.date, "2026-10-20");
   assert.equal(behind({ status: "sent", trip: "x", wishlist: "y", asOf: "2026-10-21" }, r).changed.where, "wishlist/y.md");
   assert.equal(behind({ status: "sent", trip: "x", asOf: "2026-10-10", checked: "2026-10-22" }, r), null);
+  const r2 = (rel) => ({ ...files, "trips/z/log.md": "## 2026-10-30 · c\n" })[rel] ?? null;
+  assert.equal(behind({ status: "sent", trip: "x", also: ["z"], asOf: "2026-10-21" }, r2).changed.where, "trips/z/log.md");
   assert.equal(behind({ status: "parked", trip: "x", asOf: "2026-01-01" }, r), null);
   assert.ok(behind({ status: "draft", trip: "x", asOf: "2026-10-30", stale: "Day 3 is wrong" }, r).stale);
 });

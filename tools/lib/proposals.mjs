@@ -14,6 +14,10 @@ export const FORMATS = ["page", "doc"];
 
 export const parseProposals = (text) => YAML.parse(text) ?? [];
 
+/** Every trip a proposal belongs to: `trip`, then any in `also` (a page
+    that covers more than one trip, like the ride-along page). */
+export const tripsOf = (p) => [p.trip, ...(p.also ?? [])].filter(Boolean);
+
 const later = (a, b) => (!a ? b : !b ? a : a > b ? a : b);
 
 /** The newest dated change in a proposal's plan: the last log entry of its
@@ -21,10 +25,10 @@ const later = (a, b) => (!a ? b : !b ? a : a > b ? a : b);
     text or null. Returns { date, where } or null. */
 export function planChanged(p, read) {
   let best = null;
-  if (p.trip) {
-    const log = read(`trips/${p.trip}/log.md`) ?? "";
+  for (const slug of tripsOf(p)) {
+    const log = read(`trips/${slug}/log.md`) ?? "";
     const d = [...log.matchAll(/^## (\d{4}-\d{2}-\d{2}) · /gm)].map((m) => m[1]).sort().pop();
-    if (d && (!best || d > best.date)) best = { date: d, where: `trips/${p.trip}/log.md` };
+    if (d && (!best || d > best.date)) best = { date: d, where: `trips/${slug}/log.md` };
   }
   if (p.wishlist) {
     const m = /^updated:\s*(\S+)/m.exec(read(`wishlist/${p.wishlist}.md`) ?? "");

@@ -144,7 +144,7 @@
           <div><b>${t.located.verified}/${t.located.total}</b><span>places located</span></div>
           <div><b>${t.questions.length}</b><span>open questions</span></div>
         </div>
-        ${t.mymaps ? `<div class="links"><a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/d/viewer?mid=${encodeURIComponent(t.mymaps)}">My Map ↗</a></div>` : ""}
+        ${t.mymaps || invitesFor(t.slug).length ? `<div class="links">${t.mymaps ? `<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/d/viewer?mid=${encodeURIComponent(t.mymaps)}">My Map ↗</a>` : ""}${invitesFor(t.slug).map((p) => `<a class="btn" target="_blank" rel="noopener" href="${esc(p.url)}">Invite: ${esc(p.title)} · ${esc(PSTATUS[p.status] ?? p.status)}${p.behind ? " ⚠" : ""} ↗</a>`).join("")}</div>` : ""}
       </div>
       <nav class="seg" aria-label="Trip sections">${tabs.map(([k, l, n]) => `<a href="#t-${t.slug}-${k}" ${k === sec ? 'aria-current="page"' : ""}>${l}${n ? `<span class="count">${n}</span>` : ""}</a>`).join("")}</nav>`;
   }
@@ -350,7 +350,7 @@
   const plainWhat = (h) => strip(h).replace(/\s*\(.*$/, "").replace(/,.*$/, "").trim();
   function tripChips(t, today) {
     const chips = [];
-    for (const p of (D.proposals ?? []).filter((p) => p.trip === t.slug && !["superseded", "parked", "out"].includes(p.status))) {
+    for (const p of invitesFor(t.slug)) {
       chips.push(`<a class="chip ${p.status === "in" ? "ok" : p.status === "draft" || p.status === "unknown" ? "draft" : ""}" target="_blank" rel="noopener" href="${esc(p.url)}">Invite: ${esc(PSTATUS[p.status] ?? p.status)}${p.behind ? " ⚠" : ""} ↗</a>`);
     }
     const ws = (D.booking ?? []).filter((w) => w.slug === t.slug);
@@ -445,11 +445,13 @@
 
   /* Invite pages for the people joining a trip (share/proposals.yaml). Live
      ones first; parked and replaced ones fold away. Each opens the claude.ai page. */
+  /** The live invite pages for one trip: its own, plus pages covering several trips. */
+  const invitesFor = (slug) => (D.proposals ?? []).filter((p) => (p.trips ?? [p.trip]).includes(slug) && !["superseded", "parked", "out"].includes(p.status));
   const PSTATUS = { draft: "Draft", sent: "Sent", in: "They're in", out: "Said no", parked: "Parked", superseded: "Replaced", unknown: "Status?" };
   function proposalsBlock() {
     const all = D.proposals ?? [];
     if (!all.length) return "";
-    const plan = (p) => p.trip ? (D.trips.find((t) => t.slug === p.trip)?.title ?? p.trip) : ((D.ideas ?? []).find((i) => i.slug === p.wishlist)?.title ?? p.wishlist);
+    const plan = (p) => p.trip ? (p.trips ?? [p.trip]).map((s) => D.trips.find((t) => t.slug === s)?.title ?? s).join(" + ") : ((D.ideas ?? []).find((i) => i.slug === p.wishlist)?.title ?? p.wishlist);
     const row = (p) => `<a class="trip-row" target="_blank" rel="noopener" href="${esc(p.url)}">
         <div class="date"><span class="pill pill-${p.status === "in" ? "own" : p.status === "unknown" ? "unknown" : ""}" style="min-width:0">${PSTATUS[p.status] ?? esc(p.status)}</span></div>
         <div><h3>${esc(p.title)}</h3><div class="meta">${esc(p.for)} · ${esc(plan(p))}</div>
