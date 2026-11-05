@@ -14,6 +14,8 @@
 #   url      the claude.ai link
 #   format   page | doc
 #   source   share/proposals/<id>.html (pages only)
+#   also     optional: more trip slugs, for a page that covers several trips
+#            (it shows on each trip's page and checks each trip's log)
 #   trip / wishlist   the plan it's built from (one or both); the briefing
 #            compares the page's date against that plan's newest change
 #   for      who it's pitched to, in plain words
@@ -91,10 +93,11 @@
   format: page
   source: share/proposals/ride-along-2027.html
   trip: northern-rockies-2027
+  also: [ newfoundland-2027 ]
   for: any friend who could fly in for part of the solo legs of Newfoundland or the Rockies (up to 2 at a time)
   status: draft  # not sent yet
   asOf: 2026-11-04
-  note: Covers both trips; it also depends on trips/newfoundland-2027, which this row can't track, so re-check it when Newfoundland's days change.
+  note: Covers both trips. The also line makes it show on Newfoundland's page and go stale when either trip's log moves.
 
 - id: adirondacks-winter
   title: Adirondacks Ski Week 2027

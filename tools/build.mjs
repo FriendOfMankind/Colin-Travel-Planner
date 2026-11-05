@@ -31,7 +31,7 @@ import { keplerMap } from "./kepler.mjs";
 import { writeKml } from "./kml.mjs";
 import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
-import { parseProposals, behind } from "./lib/proposals.mjs";
+import { parseProposals, behind, tripsOf } from "./lib/proposals.mjs";
 import { buildTimeline, calendarFrom, addDays as plusDays } from "./lib/timeline.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -284,7 +284,7 @@ function buildProposals() {
     const b = behind(p, rd);
     return {
       id: p.id, title: p.title, url: p.url, format: p.format, status: p.status, for: p.for,
-      asOf: String(p.asOf), trip: p.trip ?? null, wishlist: p.wishlist ?? null, note: mdi(p.note),
+      asOf: String(p.asOf), trip: p.trip ?? null, trips: tripsOf(p), wishlist: p.wishlist ?? null, note: mdi(p.note),
       behind: b ? { stale: mdi(b.stale), changed: b.changed?.date ?? null } : null,
     };
   }).sort((a, b) => (a.asOf < b.asOf ? 1 : -1));
