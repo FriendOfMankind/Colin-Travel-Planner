@@ -159,16 +159,16 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
 
 Single places too small to be a trip: hikes, lakes, campgrounds, city walks, ruins. When a trip is planned, check its states here. Items tied to a trip or idea point to it (`trip:` / `wishlist:`), and the facts live there. ✓ done · ✗ dropped.
 
-123 items · want 109 · done 14
+134 items · want 120 · done 14
 
-By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 · campground 5 · cave 5 · ruin 5 · geology 4 · river 3 · swim 3 · walk 3 · city 1 · food 1 · wildlife 1
+By kind: hike 46 · other 15 · fossil 13 · geology 11 · view 8 · drive 6 · waterfall 6 · campground 5 · cave 5 · ruin 5 · walk 5 · river 3 · swim 3 · city 1 · food 1 · wildlife 1
 
 - **AK** (1): Harding Icefield Trail
 - **AL** (1): Sipsey box canyons
 - **AR** (2): Hemmed-In Hollow, Crystal Vista quartz digging
 - **AZ** (4): Heart of Rocks Loop, Cochise Stronghold, Kartchner Caverns, Big Room tour, West Fork of Oak Creek ✓
-- **CA** (10): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon
-- **CO** (7): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Zapata Falls ✓, Snowmobile to Georgia Pass
+- **CA** (12): Golden Canyon → Manly Beacon → Zabriskie, Kelso Dunes, Little Lakes Valley, Alabama Hills, Earthquake Trail, Pinnacles talus caves, Cinder Cone, Crosstown Trail, Racetrack Playa by rented Jeep, Fern Canyon, Humboldt Redwoods State Park (Avenue of Giants, Rockefeller Forest), Point Lobos State Natural Reserve
+- **CO** (8): Painted Wall, Ice Lakes Basin, Medano Creek, Crystal Park, Alpine Loop by rented Jeep, Zapata Falls ✓, Snowmobile to Georgia Pass, Indian Peaks Wilderness (Brainard Lake area)
 - **FL** (1): St. Joseph Peninsula, Shady Pines campground
 - **GA** (2): Atlanta BeltLine, Tallulah Gorge floor
 - **HI** (4): Keonehe'ehe'e (Sliding Sands), Pīpīwai Trail, Hoapili Trail (King's Highway), Molokini Crater, dawn small-boat snorkel
@@ -182,18 +182,18 @@ By kind: hike 45 · other 15 · fossil 13 · view 7 · drive 6 · waterfall 6 ·
 - **NC** (4): Hawksbill at sunrise, Black Balsam Knob, Western NC national forests, Big Creek to Mouse Creek Falls
 - **ND** (1): Theodore Roosevelt cross-country
 - **NL** (2): The Tablelands, L'Anse aux Meadows
-- **NM** (1): Middle Fork Gila to Jordan Hot Springs
+- **NM** (2): Middle Fork Gila to Jordan Hot Springs, Bisti/De-Na-Zin Wilderness
 - **NS** (1): Celtic Shores Coastal Trail
-- **NV** (5): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill, Gold Strike Canyon to Arizona Hot Springs
+- **NV** (6): Fire Wave, Lamoille Canyon, Wheeler Peak bristlecone grove, Garnet Hill, Gold Strike Canyon to Arizona Hot Springs, Cathedral Gorge State Park
 - **NY** (3): Letchworth Gorge falls, Penn Dixie Fossil Park, Watkins Glen Gorge Trail
 - **OH** (2): Caesar Creek Lake spillway, Flint Ridge
 - **OK** (1): Wichita Mountains bison and granite
-- **OR** (3): Sunstone Public Collection Area, Eagle Creek to Tunnel Falls, Tamolitch Blue Pool
+- **OR** (4): Sunstone Public Collection Area, Eagle Creek to Tunnel Falls, Tamolitch Blue Pool, Painted Hills (John Day Fossil Beds)
 - **PA** (7): Meadow Run natural waterslides, South Side Slopes steps, Carrie Blast Furnaces, Philadelphia, Great Allegheny Passage, Pine Creek Rail Trail, Hickory Run Boulder Field
 - **SD** (3): Notch Trail, George S. Mickelson Trail, Badlands off-trail wander
 - **TN** (8): Honey Creek Loop ✓, Oscar Blevins farm by moonlight ✓, Twin Arches ✓, Angel Falls Trail ✓, East Rim + Sunset Point ✓, Stone Door, Mount Cammerer, Fiery Gizzard Trail
 - **TX** (1): Padre Island North Beach camping
-- **UT** (14): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up ✓, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike
+- **UT** (19): Cassidy Arch, Quarry Exhibit Hall, Mirror Lake Highway, Lower Calf Creek Falls, House Range trilobites, Dugway geode beds, Goblin's Lair, guided rappel, Guided slot canyoneering (Egypt slot), The Narrows, bottom-up ✓, Kanarra Creek falls, Sulphur Creek route, Wire Pass into Buckskin Gulch, Willis Creek slot, White Rim Road by e-bike, San Rafael Swell (Little Wild Horse + Bell slots, the Wedge), Snow Canyon State Park, Kodachrome Basin State Park, Cedar Breaks National Monument, Coral Pink Sand Dunes State Park
 - **VA** (2): Mount Rogers via Wilburn Ridge, Virginia Creeper Trail
 - **WA** (1): Maple Pass Loop
 - **WV** (6): Bridge Day, Kaymoor Miners Trail, Greenbrier River Trail, Upper Gauley, guided raft, Lost World Caverns, wild cave tour, Red Creek

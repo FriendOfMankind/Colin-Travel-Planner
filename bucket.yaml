@@ -1402,3 +1402,122 @@ items:
     status: want
     source: nps.gov/asis camping page and 2026 compendium (search snippets, 2026-11-01)
     added: 2026-11-01
+
+  # -------------------------------------------- shadow parks (2026-11-07)
+  # Places that would headline a state back East but get skipped for the
+  # national park next door. Recalled general knowledge, nothing verified yet.
+
+  - id: san-rafael-swell
+    name: San Rafael Swell (Little Wild Horse + Bell slots, the Wedge)
+    kind: geology
+    where: San Rafael Swell (BLM), near Goblin Valley, Utah
+    state: UT
+    why: Shadow park. Would be a national park almost anywhere else; slot loop and "Little Grand Canyon" 20 min from Goblin Valley
+    status: want
+    wishlist: capitol-reef
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: snow-canyon
+    name: Snow Canyon State Park
+    kind: geology
+    where: St. George, Utah
+    state: UT
+    why: Shadow park. Red and white sandstone plus lava tubes that everyone drives past on the way to Zion
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: kodachrome-basin
+    name: Kodachrome Basin State Park
+    kind: geology
+    where: Cannonville, Utah, between Bryce and Grand Staircase
+    state: UT
+    why: Shadow park. Sedimentary sand pipes, 25 min from Bryce
+    status: want
+    wishlist: grand-staircase
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: cedar-breaks
+    name: Cedar Breaks National Monument
+    kind: view
+    where: above Cedar City, Utah
+    state: UT
+    why: Shadow park. A Bryce-style amphitheater at ~10,000 ft with a fraction of Bryce's crowd
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: coral-pink-sand-dunes
+    name: Coral Pink Sand Dunes State Park
+    kind: geology
+    where: near Kanab, Utah
+    state: UT
+    why: Shadow park. Pink dunes near Kanab, on the way to Wire Pass and Buckskin
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: cathedral-gorge
+    name: Cathedral Gorge State Park
+    kind: geology
+    where: Panaca, Nevada (US-93)
+    state: NV
+    why: Shadow park. Clay spires and slot-like caves; plausibly on the drive in to Great Basin (route not checked)
+    status: want
+    wishlist: great-basin
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: indian-peaks
+    name: Indian Peaks Wilderness (Brainard Lake area)
+    kind: hike
+    where: west of Boulder, Colorado, just south of Rocky Mountain NP
+    state: CO
+    why: Shadow park. Rocky Mountain NP's alpine lakes without its timed entry
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: bisti-de-na-zin
+    name: Bisti/De-Na-Zin Wilderness
+    kind: geology
+    where: south of Farmington, New Mexico
+    state: NM
+    why: Shadow park. Trailless hoodoo badlands, raw and explorable, nothing interpretive
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: humboldt-redwoods
+    name: Humboldt Redwoods State Park (Avenue of Giants, Rockefeller Forest)
+    kind: walk
+    where: Weott, California
+    state: CA
+    why: Shadow park. Arguably better old growth than Redwood National Park itself
+    status: want
+    wishlist: oregon-coast-crater
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: point-lobos
+    name: Point Lobos State Natural Reserve
+    kind: walk
+    where: Carmel, California
+    state: CA
+    why: Shadow park. Overshadowed by Big Sur, and better per mile
+    status: want
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
+
+  - id: painted-hills
+    name: Painted Hills (John Day Fossil Beds)
+    kind: geology
+    where: near Mitchell, Oregon
+    state: OR
+    why: Shadow park. Banded clay hills; a detour east of Bend if the Smith Rock day has room (distance not checked)
+    status: want
+    trip: northern-rockies-2027
+    source: Claude, recalled (unverified), daydream 2026-11-07
+    added: 2026-11-07
