@@ -269,6 +269,7 @@ overnight:
 - 9:30 AM (4h) · hike · **Medicine Bow Peak and Lakes Trail Loop**. ✅ AllTrails: **7.0 mi, 1,715 ft, Hard, loop, 4.8★**. Up to 12,013 ft. Bail-out: **Lakes Trail** out-and-back, 6.7 mi / 1,026 ft, Moderate, stays below the summit *(AllTrails, 2026-10-30)* · 📍 West Lake Marie Trailhead
 - 1:30 PM · stop · Sit at Lake Marie if the sky is still clear
 - 3:00 PM (17m) · drive · → Brooklyn Lake · 📍 Brooklyn Lake Campground Wyoming
+- 4:00 PM (1h 30m) · activity! · **Fish Brooklyn Lake from camp.** Brook trout, plus splake and golden trout (Medicine Bow NF Snowy Range fishing map; Fishbrain). Spinner from shore, catch-and-release. Wyoming nonresident daily license $14 (wgfd.wyo.gov, snippet, 2026-11-07): buy it online before the pass, since camp has Verizon signal only (campflare.com). ⚠️ Off the shore at the first thunder: a rod is the tallest thing on an open lakeshore at 10,500 ft · 📍 Brooklyn Lake Campground Wyoming
 - evening · sunset · From camp or Libby Flats. Sunset: TBD (pinned 2026-10-30; not recomputed yet)
 
 **Meals**
@@ -540,6 +541,7 @@ overnight:
 - 10:00 AM (1h 15m) · drive! · → Canyon Village via Tower Junction and Dunraven Pass. ⚠️ **Drive time is my estimate, unrouted** (Google +15% not applied because nothing was routed). · 📍 Artist Point Yellowstone
 - 11:15 AM (2h 30m) · hike · **The Grand Canyon of the Yellowstone.** ✅ AllTrails: **Artist Point, 0.3 mi, 13 ft, Easy** (South Rim, the classic Lower Falls view) and **Brink of the Lower Falls, 0.8 mi, 249 ft, Moderate, ~30 min** (North Rim, switchbacks down to the lip of the falls) *(AllTrails, 2026-10-29)*. Two short walks and the drive between the rims. **Busy at midday, and worth it**: the crowd rule (`me/travel-style.md`) says an icon earns its crowd when the trip has empty places too, and the Beartooth just was one. · 📍 Brink of the Lower Falls Trail Yellowstone
 - 2:00 PM (1h 15m) · drive · → back to Slough Creek. ⚠️ Estimate, unrouted. Rest before the evening.
+- 3:30 PM (1h 15m) · activity! · **Fish Slough Creek** from camp. Catch-and-release cutthroat. Needs a **Yellowstone fishing permit** (state licenses don't count; recreation.gov, no refunds; 2027 price TBD). Rules (2026 regs, snippets): lead-free lures only, **barbs pinched**, no bait. Every cutthroat goes back; any rainbow, brook trout or hybrid **must be killed**, it's illegal to release one. ⚠️ Bear spray on you, and 25 yards from any bison in the meadow · 📍 Slough Creek Campground Yellowstone
 - 5:00 PM (3h) · drive! · **Lamar Valley at last light.** Bison, elk, and the wolf packs the valley is famous for. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
 - 9:08 PM · sunset · Sunset. Dark 9:34 PM. Waning gibbous 92%.
 
@@ -659,6 +661,7 @@ overnight:
 - 8:00 AM (2h) · hike · **Redrock Falls.** ✅ AllTrails: **3.7 mi, 255 ft, Easy.** From the Swiftcurrent trailhead at camp. · 📍 Redrock Falls Trail Many Glacier
 - 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Redrock Falls Trail Many Glacier
 - afternoon · stop · Camp. Reorganise, wash something, look at the wall.
+- — · note · **If Slough Creek's fishing didn't happen (Day 10):** fish Swiftcurrent Lake from camp instead. No license needed inside Glacier; lead-free lures, natives go back; bait is allowed in this valley above the falls at Swiftcurrent's outlet (nps.gov/glac, snippet, 2026-11-07). What swims in Swiftcurrent isn't confirmed.
 - 9:31 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
 
 **Meals**
@@ -1066,7 +1069,7 @@ overnight:
 ```
 
 **Schedule**
-- morning · activity · **Clear Lake rowboat** over the drowned forest. Day-of rental only: small (4) $35/hr, large (5) $45/hr, parking $10 (Linn County parks). · 📍 Clear Lake Resort Oregon
+- morning · activity · **Clear Lake rowboat** over the drowned forest, **and fish from it.** Day-of rental only: small (4) $35/hr or $55/day, large (5) $45/hr or $75/day, 7 AM–7 PM, parking $10 (linncountyor.gov, 2026-11-07). Rainbows are stocked through the summer (Jul 6 and Aug 17 in 2026) and brook and cutthroat trout breed here; the resort sells tackle and has a fish-cleaning station. Oregon one-day angling + shellfish license $29 (2026 price, odfw.huntfishoregon.com, snippet); each friend who fishes needs their own. Catch-and-release. · 📍 Clear Lake Resort Oregon
 - midday · hike · **Tamolitch Blue Pool.** · 📍 Tamolitch Blue Pool Trailhead
 - dusk · stop · **Terwilliger Hot Springs**, $12 each per 2 hours, open until 10 PM, first come, closed Thu 8 AM – noon for cleaning. Clothing-optional (fs.usda.gov; visitmckenzieriver.com). · 📍 Terwilliger Hot Springs
 - — · note · **Group A:** all of it.
@@ -1572,6 +1575,13 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **Bear spray, on the person, not in the car.** Required thinking from Lamar Valley on Day 10 through the last Glacier morning on Day 19.
 - [ ] Discipline about the bear box: all food, cookware, toiletries, anything scented, every single night
 - [ ] Noise on blind corners. Iceberg Lake, Grinnell and the Swiftcurrent valley are all documented corridors.
+
+### Fishing — three stops, catch-and-release
+
+- [ ] **Licenses, bought online with signal:** Wyoming daily for Day 3 · Yellowstone permit for Day 10 (recreation.gov) · nothing for Glacier · Oregon one-day for Day 24
+- [ ] **Lead-free tackle only.** Yellowstone and Glacier both ban lead; read each lure's package. Pinch every barb before Yellowstone
+- [ ] Practise the knot at home, not on the shore
+- [ ] No felt-soled shoes in the water (Yellowstone and Glacier ban them)
 
 ### The car — it is the trip
 
