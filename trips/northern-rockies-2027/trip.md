@@ -541,7 +541,6 @@ overnight:
 - 10:00 AM (1h 15m) · drive! · → Canyon Village via Tower Junction and Dunraven Pass. ⚠️ **Drive time is my estimate, unrouted** (Google +15% not applied because nothing was routed). · 📍 Artist Point Yellowstone
 - 11:15 AM (2h 30m) · hike · **The Grand Canyon of the Yellowstone.** ✅ AllTrails: **Artist Point, 0.3 mi, 13 ft, Easy** (South Rim, the classic Lower Falls view) and **Brink of the Lower Falls, 0.8 mi, 249 ft, Moderate, ~30 min** (North Rim, switchbacks down to the lip of the falls) *(AllTrails, 2026-10-29)*. Two short walks and the drive between the rims. **Busy at midday, and worth it**: the crowd rule (`me/travel-style.md`) says an icon earns its crowd when the trip has empty places too, and the Beartooth just was one. · 📍 Brink of the Lower Falls Trail Yellowstone
 - 2:00 PM (1h 15m) · drive · → back to Slough Creek. ⚠️ Estimate, unrouted. Rest before the evening.
-- 3:30 PM (1h 15m) · activity! · **Fish Slough Creek** from camp. Catch-and-release cutthroat. Needs a **Yellowstone fishing permit** (state licenses don't count; recreation.gov, no refunds; 2027 price TBD). Rules (2026 regs, snippets): lead-free lures only, **barbs pinched**, no bait. Every cutthroat goes back; any rainbow, brook trout or hybrid **must be killed**, it's illegal to release one. Expect it to be hard: Parks Fly Shop rates Slough "not recommended for beginners", with large, selective fish, and the guides fish it with dry flies (parksflyshop.com; montanaangler.com, 2026-11-07). Fish it for the setting ⚠️ Bear spray on you, and 25 yards from any bison in the meadow · 📍 Slough Creek Campground Yellowstone
 - 5:00 PM (3h) · drive! · **Lamar Valley at last light.** Bison, elk, and the wolf packs the valley is famous for. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
 - 9:08 PM · sunset · Sunset. Dark 9:34 PM. Waning gibbous 92%.
 
@@ -661,7 +660,7 @@ overnight:
 - 8:00 AM (2h) · hike · **Redrock Falls.** ✅ AllTrails: **3.7 mi, 255 ft, Easy.** From the Swiftcurrent trailhead at camp. · 📍 Redrock Falls Trail Many Glacier
 - 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Redrock Falls Trail Many Glacier
 - afternoon · stop · Camp. Reorganise, wash something, look at the wall.
-- — · note · **If Slough Creek's fishing didn't happen (Day 10):** fish Swiftcurrent Lake from camp instead. No license needed inside Glacier; lead-free lures, natives go back; bait is allowed in this valley above the falls at Swiftcurrent's outlet (nps.gov/glac, snippet, 2026-11-07). What swims in Swiftcurrent isn't confirmed.
+- afternoon · activity · **Fish Swiftcurrent Lake** from camp, catch-and-release. No license needed inside Glacier; lead-free lures, natives go back; bait is allowed in this valley above the falls at Swiftcurrent's outlet (nps.gov/glac, snippet, 2026-11-07). What swims in Swiftcurrent isn't confirmed.
 - 9:31 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
 
 **Meals**
@@ -1578,10 +1577,10 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Fishing — three stops, catch-and-release
 
-- [ ] **Licenses, bought online with signal:** Wyoming daily for Day 3 · Yellowstone permit for Day 10 (recreation.gov) · nothing for Glacier · Oregon one-day for Day 24
-- [ ] **Lead-free tackle only.** Yellowstone and Glacier both ban lead; read each lure's package. Pinch every barb before Yellowstone
+- [ ] **Licenses, bought online with signal:** Wyoming daily for Day 3 · nothing for Glacier · Oregon one-day for Day 24
+- [ ] **Lead-free tackle for Glacier (Day 13).** The park bans lead; read each lure's package
 - [ ] Practise the knot at home, not on the shore
-- [ ] No felt-soled shoes in the water (Yellowstone and Glacier ban them)
+- [ ] No felt-soled shoes in the water (Glacier bans them)
 
 ### The car — it is the trip
 

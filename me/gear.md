@@ -373,7 +373,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 
 ## Fishing
 
-For catch-and-release spin fishing at three stops on `northern-rockies-2027` *(Colin, 2026-11-07: "add all three")*. Lead-free throughout, because Yellowstone and Glacier ban lead.
+For catch-and-release spin fishing at three stops on `northern-rockies-2027` *(Colin, 2026-11-07: "add all three")*. Lead-free for Glacier, which bans lead.
 
 ```yaml
 - name: Ultralight spinning rod and reel, 2- or 4-piece, spooled with 4–6 lb line
@@ -381,10 +381,10 @@ For catch-and-release spin fishing at three stops on `northern-rockies-2027` *(C
   note: "*(added 2026-11-07)* Packs into the trunk. Model and price not chosen."
 - name: Lead-free inline spinners and small spoons, about 6
   state: need
-  note: "*(added 2026-11-07)* Sizes 0–2 for brook trout and stocked rainbows. Check every package for lead: Yellowstone and Glacier ban it."
+  note: "*(added 2026-11-07)* Sizes 0–2 for brook trout and stocked rainbows. Check every package for lead: Glacier bans it."
 - name: Needle-nose pliers or forceps
   state: need
-  note: "*(added 2026-11-07)* To unhook fast and pinch barbs (Yellowstone requires barbless)."
+  note: "*(added 2026-11-07)* To unhook fast and pinch barbs (barbless releases fish faster)."
 - name: Line clippers
   state: need
   note: "*(added 2026-11-07)* Nail clippers work."
