@@ -91,3 +91,35 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - ✅ **Sandland Adventures**, Florence (sandland.com, 2026-11-04): sandrail tours ½ h $45 / 1 h $75 a person (4-person minimum for 1 h, 300 lb max); Giant Dune Buggy 1 h $25; taxes and fees (15%) non-refundable; open March–December.
 - 📋 Florence self-drive: side-by-sides need drivers 25–30+, single-seat quads 18+ (greetwell.com listings for Torex/Sand Dunes Frontier operators, 2026-11-04).
 - 📋 Oregon Dunes NRA: ~10,000 acres open to OHVs between Florence and Coos Bay (Oregon ATV Guide 2026–27, oregon.gov).
+
+## 2026-11-07 · Research sweep: catch-and-cook fishing
+
+Colin wants to catch and cook one fish for the novelty (2026-11-07 chat; `me/adventures.md` still says fishing isn't an interest on its own, and the charter rule stands). Not in the plan; whether it earns a slot is his call. Sources via Parallel search; nps.gov lines are snippets (📋). Apify Reddit run refused: the free plan's monthly $5 is spent, so no local reports this pass.
+
+**Wyoming (Days 2–6)**
+- 📋 Nonresident fishing: **daily $14, five consecutive days $56**, 12-month $102; daily and 5-day are exempt from the $21.50 conservation stamp (wgfd.wyo.gov license fee list and eregulations.com 2026 WY regs, snippets, 2026-11-07). 5 days of $14 = $70, so the 5-day covers Brooklyn + West Tensleep (Jul 14–17) and is cheaper than daily from day 5 on.
+- 📋 **Brooklyn Lake**: 36 acres, 38 ft deep, 10,526 ft; brook trout plus two other species in the Snowy Range fishing map table (twodogsfishing.com copy of the Medicine Bow NF "Snowy Range Area – Fishing" map, 2011). "The 36-acre lake provides excellent brook trout fishing" (campflare.com). Fishbrain logs 23 catches: brook trout, splake, golden trout. Map: Snowy Range trout are all non-native, most lakes self-sustaining, "the fishing is generally outstanding".
+- 📋 **West Tensleep Lake**: Fishbrain catches are brook trout (10 in) and tiger trout. Ten Sleep hatchery (8 mi east of town) raises rainbow, cutthroat, brook and splake (bighornmountaincountry.com). Bighorn high lakes are stocked by helicopter in even years; "only a small percentage… are stocked; others have natural reproducing populations and some are fishless" (wgfd.wyo.gov Sheridan Region news, 2020).
+- ⚠️ **Brook trout bag limit conflict**: Fishbrain shows 6 for Brooklyn's drainage and 16 for West Tensleep; Wyoming's general 6-trout rule excludes brook trout (Fishbrain's quote of the regs). Read the 2027 WY regs, don't trust either number.
+
+**Yellowstone (Days 10–11)**
+- 📋 A **park permit** is required; state licenses aren't valid. $40 / 3 days, $55 / 7 days, $75 / season (yellowstone.org 2021 and yellowstone.net; ⚠️ older quotes, 2027 price not confirmed). Sold on recreation.gov, no refunds.
+- 📋 Rules (2026 regs PDF and recreation.gov pass page, snippets): **lead-free artificial lures or flies only, barbless, no bait of any kind**, one rod. **All native fish (cutthroat, whitefish, grayling) must be released.**
+- 📋 **Slough Creek** (Lamar drainage): rainbow, brook trout and cutthroat × rainbow hybrids **must be killed**, illegal to release. So any non-native caught there is a fish you're required to keep. But Slough is a cutthroat stream; most catches go back.
+- 📋 **Madison River** (Madison campground): **fly fishing only**, so a spinner is illegal. Up to 5 brook trout may be kept; rainbow and brown are catch-and-release.
+
+**Glacier (Days 12–18)**
+- 📋 **No license needed inside the park** (nps.gov/glac fishing and things-to-do pages, snippets; Glacier Outfitters). Except: the Middle Fork of the Flathead from park land needs a Montana license.
+- 📋 Artificial lures and flies only, **no lead**; **bait allowed in the Many Glacier valley upstream of the falls at Swiftcurrent's outlet**. Native fish catch-and-release (bull trout always); Lower McDonald Creek catch-and-release, no possession. Non-natives: an older NPS page sets a park-wide **brook trout limit of 20**; Lakebrief (2026-07-22) says no limit on non-natives. Lake trout in Lake McDonald are deep in summer, a trolling fish, not a shore fish.
+- 📋 Glacier Outfitters in Apgar **rents spinning rods** with 2–3 compliant lures (goglacieroutfitters.com). Price not checked.
+- ⬜ What actually swims in Swiftcurrent and Josephine lakes: not found.
+
+**Idaho, the optional Sawtooth hold (Aug 13–18)**
+- 📋 Nonresident **daily $22.75 the first day, +$7 each consecutive day bought at the same time** (idfg.idaho.gov nonresident fees, snippet). Free fishing day is the second Saturday in June (gofishidaho.org).
+- 📋 **Redfish Lake**: recommended fish are kokanee and bull trout (catch-and-release); kokanee are best from a boat at 60–120 ft. Lakebrief, citing the IDFG planner: **kokanee are catch-and-release from Aug 8 to Dec 31**, which covers the Aug 13–18 dates. Sockeye are ESA-listed; release at once.
+- 📋 **Little Redfish Lake** (66 acres, next to Redfish): recommended fish brook trout; Salmon Region **brook trout limit 25**; no special rules (IDFG fishing planner). ⚠️ The better catch-and-cook water if the Sawtooth leg happens.
+
+**Claude's read (⚠️ inference)**
+- Brooklyn Lake (Jul 14) or West Tensleep (Jul 15–17) is the place: brook trout at the campsite, $14–56 for the license, black bears only. As far as I know the Bighorns and Snowy Range have no grizzlies; not checked.
+- In Yellowstone and Glacier, fish guts at a grizzly-country camp are a real hazard. Read each park's fish-cleaning rule before keeping one there.
+- August fire restrictions could ban campfires; a fish in foil works on the stove.
