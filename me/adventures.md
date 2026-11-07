@@ -27,7 +27,7 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 
 - **Guided tours are likely done with a friend or two,** not solo. Planning rule: a guided outing (a raft, a wild cave, canyoneering) is a reason to bring people, so flag it as a with-friends option rather than scheduling it into a solo trip by default. Solo guided pricing can run about double per person (see `wishlist/grand-staircase.md`).
 - **The Gauley is a separate trip with other people,** not a squeeze into a solo transfer day.
-- **Fishing: not an interest on its own.** Maybe something worth it turns up on a southern US road trip. Don't propose fishing charters otherwise.
+- **Fishing: spin fishing, catch-and-release, a few times a trip: yes. Charters: still no.** Cooking the catch is optional *(stated 2026-11-07; first planned on `northern-rockies-2027`, kit in [gear.md](gear.md))*. (was: "not an interest on its own… don't propose fishing charters")
 - **Own vs. rent:** own gear that's cheap, fits the trunk and gets used without a guide (the bike, snorkel gear; see [gear.md](gear.md)). Rent or hire the rest: vehicles, boats, guides.
 - Options researched 2026-10-01 live in [`bucket.yaml`](../bucket.yaml) under *paid experiences*.
 
