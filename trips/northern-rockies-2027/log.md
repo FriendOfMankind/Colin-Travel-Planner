@@ -325,3 +325,9 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 ## 2026-11-08 · Ride-alongs cut to one add-on
 - **Colin: the Rockies drive out is good solo** *(Colin, 2026-11-08)*. The only plausible fly-in stretch, Yellowstone (Cody Jul 18 → Bozeman Jul 23), was left off on purpose (Colin chose "leave it out"): few Cody flights, three nights at 9,500 ft. The Ride Along page is parked.
 - The one add-on, on the Oregon page (https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP): **a group B friend can ride home Aug 12–16** instead of flying out of PDX. Up to 2, split gas and motels, share the driving.
+
+## 2026-11-08 · Fishing: test early, add more only if it's good
+- **Colin: fish one of the first things, add more if there are bites, stick to the hiking plan if it's a bust** *(Colin, 2026-11-08)*. Ethan asked whether more fishing could fit.
+- West of the divide is lures only and the likely catch (cutthroat) goes back, so Day 14's **Lake McDonald stop on the drive in is a warm-up, not the test**. **The test is Day 16's evening at Swiftcurrent with worms** (bait is legal only in the Many Glacier valley here). Bites → Day 17's evening (Swiftcurrent, or Lake Josephine on the Grinnell walk back) and Day 18's long session with a fish for dinner. Bust → Day 18's afternoon is rest or Redrock Falls. No hike changes either way.
+- Left off: Hidden Lake (its outlet area is closed to fishing for most of July, nps.gov/glac), a whole fishing day. Page: second cheap rod suggested (one rod per person is the park rule). Lake McDonald has no pin yet.
+
