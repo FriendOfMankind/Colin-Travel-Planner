@@ -16,7 +16,7 @@ country: USA
 coords: [ 39.57, -106.1 ]
 budget: n/a
 tags: [ family, fixed, winter, nordic ski, snowshoe ]
-updated: 2026-10-30
+updated: 2026-11-08
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -61,3 +61,10 @@ From a handoff Colin built in another AI chat. Its facts are its own and unverif
 - ⚠️ **Mayflower Gulch:** ~3–4 mi round trip, ~550–600 ft, 15–20 min from Frisco on CO-91, toward the Boston Mine cabins. **Avalanche terrain around the basin, so the cabins aren't a safe default.** Snowshoe it. A ski descent only with a guide. Check CAIC (avalanche.state.co.us) the morning of. All of this is the handoff's, not checked.
 - Fits principle 10 in `me/principles.md` (explorable, unrestored mining ruins in a big basin), and sunset is ~4:40–4:50 PM, so it's a midday outing. Being at 9,100 ft the first day off a plane counts.
 
+### 2026-11-08 · A family Nordic plan, priced
+- The family plan is on the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd), with the extension after it (`wishlist/colorado-winter-2027.md`). **Finn skis**, and maybe one other family member has ski experience *(Colin, 2026-11-08)*. The family rents a car at DEN *(Colin, 2026-11-08)*.
+- The days: Sat Dec 26 lesson at Frisco Nordic; Sun Dec 27 Mayflower Gulch snowshoe; Mon Dec 28 the rec path to Breckenridge (groomed that day); Tue Dec 29 free.
+- ✅ **Frisco Nordic lessons: $95 per person, $80 per person for groups of 5–6**, 1 h 15 min, at 10:00, 12:00 or 2:00. A full-day trail pass is included and rentals aren't. Call 970-668-2570 to book more than one person *(townoffrisco.com Nordic Ski Lessons, read 2026-11-08; page updated 2026-11-03)*
+- ✅ **Day passes: $35 for ages 13–64, $30 for 65+**, kids 12 and under free; trails open 9–4; projected opening Nov 26, 2026 *(townoffrisco.com trail passes, read 2026-11-08)*
+- 📋 Rentals: adult classic $30/day, skate $40, $5 more each in holiday periods; first come, first served *(livegrandteam.com, search snippet, 2026-11-08)*. Snowshoe rental price: not found
+- 📋 Breckenridge Nordic: $35 trail pass; private lesson $150 for the first person *(breckenridgenordic.com, snippet, 2026-11-08)*

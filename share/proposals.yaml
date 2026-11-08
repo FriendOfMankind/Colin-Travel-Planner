@@ -139,3 +139,13 @@
   status: parked
   asOf: 2026-10-10
   note: Lost to Oregon on 2026-10-15. Re-date and re-price before it goes anywhere.
+
+- id: colorado-winter-2027
+  title: Colorado After Frisco
+  url: https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd
+  format: page
+  source: share/proposals/colorado-winter-2027.html
+  wishlist: colorado-winter-2027
+  for: the parents (a Christmas-gift ask) and Finn; also the Frisco-week Nordic plan for the whole family
+  status: draft  # not sent yet (Colin, 2026-11-08)
+  asOf: 2026-11-08

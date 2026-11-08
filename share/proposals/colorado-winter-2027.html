@@ -1,0 +1,247 @@
+<title>Colorado After Frisco</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column under a night-blue masthead with groomed-track lines. The ask and the money first, then the family's Frisco days, then the car, then the extension days. */
+:root {
+  --bg: #f1f4f7;
+  --surface: #e2e8ee;
+  --fg: #17212b;
+  --muted: #5b6875;
+  --spruce: #2b6450;
+  --wax: #b03a3a;
+  --line: #cdd6df;
+  --night1: #142233;
+  --night2: #2d4f6e;
+  --display: "Big Shoulders Display", "Arial Narrow", system-ui, sans-serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10171e; --surface: #1b252f; --fg: #e5ecf2; --muted: #98a6b3;
+    --spruce: #6cc3a2; --wax: #ec8b84; --line: #2b3742; --night1: #0b1520; --night2: #1d3a54;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10171e; --surface: #1b252f; --fg: #e5ecf2; --muted: #98a6b3;
+  --spruce: #6cc3a2; --wax: #ec8b84; --line: #2b3742; --night1: #0b1520; --night2: #1d3a54;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mast { background: linear-gradient(180deg, var(--night1) 0%, var(--night2) 100%); color: #eef3f8; position: relative; overflow: hidden; }
+.mast .wrap { padding-block: 48px 30px; position: relative; }
+.tracks { position: absolute; inset: auto 0 0 0; height: 46px; background: repeating-linear-gradient(90deg, rgba(255,255,255,0.10) 0 2px, transparent 2px 9px); border-top: 1px solid rgba(255,255,255,0.18); }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+h1 { font-family: var(--display); font-weight: 900; font-size: clamp(50px, 13vw, 88px); line-height: 0.92; margin: 10px 0 14px; text-transform: uppercase; text-wrap: balance; }
+.lede { font-size: 19px; max-width: 34em; margin: 0 0 20px; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 20px; font-family: var(--mono); font-size: 13px; padding-bottom: 54px; }
+main .wrap { padding-block: 34px 64px; display: grid; gap: 48px; }
+section { min-width: 0; }
+h2 { font-family: var(--display); font-weight: 900; font-size: 34px; line-height: 1.02; margin: 0 0 14px; text-transform: uppercase; text-wrap: balance; }
+h3 { font-family: var(--display); font-weight: 700; font-size: 23px; line-height: 1.15; margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+a { color: var(--spruce); }
+.note { color: var(--muted); font-size: 15px; }
+.ask { background: var(--surface); border-radius: 6px; padding: 18px 20px 8px; }
+.ask .big { font-family: var(--display); font-weight: 900; font-size: 40px; line-height: 1; color: var(--spruce); margin: 4px 0 8px; font-variant-numeric: tabular-nums; }
+.lbl { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; margin: 0 0 14px; }
+.toggle button { font: 500 14px var(--mono); padding: 8px 14px; background: transparent; color: var(--fg); border: 0; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--spruce); color: var(--bg); }
+.toggle button:focus-visible { outline: 2px solid var(--wax); outline-offset: -2px; }
+.money { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.money td { padding: 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.money td:last-child { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; padding-left: 14px; }
+.money .sub { display: block; color: var(--muted); font-size: 14px; }
+.money .tot td { border-bottom: 0; border-top: 2px solid var(--fg); font-weight: 600; }
+.money .tot td:last-child { font-size: 16px; }
+.days { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.days li { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.days .d { font-family: var(--mono); font-size: 13px; color: var(--muted); line-height: 1.35; padding-top: 3px; }
+.days .d b { display: block; color: var(--fg); font-weight: 500; font-size: 15px; }
+.days .what { min-width: 0; }
+.days .what p { margin-bottom: 6px; }
+.stat { font-family: var(--mono); font-size: 13px; color: var(--spruce); }
+.tag { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; background: var(--surface); color: var(--muted); margin-left: 6px; vertical-align: 3px; }
+.only7 { }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 560px) { .cols { grid-template-columns: 1fr; } .days li { grid-template-columns: 64px 1fr; } }
+.card { border-top: 3px solid var(--spruce); padding-top: 10px; min-width: 0; }
+.card.alt { border-top-color: var(--line); }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.warn { border-left: 3px solid var(--wax); padding: 2px 0 2px 16px; }
+.warn h3 { color: var(--wax); }
+.src { font-size: 14px; color: var(--muted); }
+.src li { margin-bottom: 4px; }
+footer .wrap { padding-block: 0 48px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">A proposal from Colin · as of Nov 8, 2026</div>
+    <h1>Colorado After Frisco</h1>
+    <p class="lede">A Nordic ski plan for all of us during the Frisco week. Then Finn and I stay on for a few days: two days of skiing on Colorado's biggest cross-country trail networks, then frozen alpine lakes in Rocky Mountain National Park. We fly home from Denver.</p>
+    <div class="facts"><span>Frisco · Dec 25–30</span><span>Extension · Dec 30 → Jan 4 or Jan 6</span><span>Colin + Finn</span></div>
+  </div>
+  <div class="tracks" aria-hidden="true"></div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section id="ask">
+  <h2>The ask</h2>
+  <p>Our flights out are already paid for, so the extension only costs the extra days. If you'd be up for covering it as a Christmas gift, this is what it costs, for Finn and me together.</p>
+  <div class="toggle" role="group" aria-label="Trip length">
+    <button type="button" id="len5" aria-pressed="true">5 nights · home Jan 4</button>
+    <button type="button" id="len7" aria-pressed="false">7 nights · home Jan 6</button>
+  </div>
+  <div class="ask">
+    <div class="lbl">Extension, Colin + Finn, before flight changes and Devil's Thumb rentals</div>
+    <div class="big" id="askTotal">$1,630 – $1,950</div>
+    <p class="note" id="askPer">About $815–975 each. The spread is mostly the car: the cheapest listing at the low end, Hertz without a AAA membership at the high end.</p>
+  </div>
+  <table class="money" aria-label="Extension budget">
+    <tbody id="moneyBody"></tbody>
+  </table>
+  <p class="note">Hotel and car prices were read on Booking.com and Kayak on Nov 8, 2026, for these exact dates. They will move, and New Year's is busy. Food and gas are my estimates. Changing our return flights isn't priced yet; it depends on the airline and fare type.</p>
+</section>
+
+<section id="frisco">
+  <h2>Frisco week: skiing for everyone</h2>
+  <p>Cross-country skiing is walking on skis on groomed track. Beginners are gliding within an hour. The Frisco Nordic Center is at the edge of town, at about 9,100 ft, with about 30 km of groomed ski trail and 8 km of snowshoe trail. It's projected to open Nov 26.</p>
+  <ul class="days">
+    <li><div class="d"><b>Fri 25</b>Dec</div><div class="what"><h3>Arrive, take it easy</h3><p>Frisco is at 9,100 ft. Drink water and skip anything hard on day one.</p></div></li>
+    <li><div class="d"><b>Sat 26</b>Dec</div><div class="what"><h3>Lesson day at Frisco Nordic</h3><p>A private lesson, 1 hour 15 minutes, at 10:00, 12:00 or 2:00. All lessons there are private. <b>The lesson includes a full-day trail pass</b>, so we keep skiing afterward. Finn already skis and can skip the lesson and just ski.</p><p class="stat">$95 per person lesson · ~$35 classic ski rental · book ahead by phone for more than one person: 970-668-2570</p></div></li>
+    <li><div class="d"><b>Sun 27</b>Dec</div><div class="what"><h3>Snowshoe to Mayflower Gulch</h3><p>15–20 minutes up CO-91 from Frisco. About 3–4 miles round trip on snowshoes, gaining 550–600 ft, to the old Boston Mine cabins under a big bowl. A midday outing: sunset is around 4:45.</p><p class="stat">Snowshoe rental price at Frisco Nordic: not checked yet</p></div></li>
+    <li><div class="d"><b>Mon 28</b>Dec</div><div class="what"><h3>Ski from Frisco to Breckenridge</h3><p>The town's recreation path is groomed for skiing on Mondays, Wednesdays and Fridays: <b>8 miles, point to point</b>, from the Frisco Nordic Center to the Breckenridge Recreation Center. Monday means fresh grooming. One person drives around to pick us up, or anyone tired skis part of it and rides the rest. Lunch in Breckenridge.</p><p class="stat">The path is free · rentals ~$35 each · a day pass is needed only where it crosses the Nordic Center trails</p></div></li>
+    <li><div class="d"><b>Tue 29</b>Dec</div><div class="what"><h3>Free day</h3><p>Another ski day at Frisco Nordic, Breckenridge Nordic or Gold Run. A day pass at one works at all three. Or Finn goes downhill. A splurge option: a guided snowmobile tour to Georgia Pass on the Continental Divide, listed from $258 per person (not checked for these dates).</p></div></li>
+    <li><div class="d"><b>Wed 30</b>Dec</div><div class="what"><h3>Everyone drives to Denver</h3><p>You two fly home. Finn and I keep going (the car plan is below).</p></div></li>
+  </ul>
+  <p class="note">Family ski cost, roughly: the lesson day is about $130 per beginner ($95 lesson with pass + ~$35 rental) and about $70 for Finn (pass + rental). The Breckenridge day is about $35 each in rentals. Day passes are $35 for ages 13–64 and $30 for 65 and up.</p>
+</section>
+
+<section id="car">
+  <h2>The car</h2>
+  <div class="cols">
+    <div class="card">
+      <h3>Best: one car for the whole trip</h3>
+      <p>If the Frisco rental isn't booked yet: one SUV at Denver airport (DEN), Dec 25 → Jan 4 (or 6), in my name, with you as extra drivers. On Dec 30 I drop you at departures and drive straight on. One rental, no second counter, and longer rentals usually cost less per day.</p>
+      <p class="note">Hertz waives the under-25 fee for AAA members aged 20–24, and AAA members get a free additional driver. A 10-day price isn't checked yet.</p>
+    </div>
+    <div class="card alt">
+      <h3>Or: a second car on Dec 30</h3>
+      <p>You return the Frisco car at DEN as planned. Finn and I pick up our own SUV at the same rental center and return it to DEN on Jan 4 (or 6). Same airport both ends, so no one-way fee.</p>
+      <p class="note">Kayak, Nov 8: an SUV for Dec 30 → Jan 4 was $322–465 all in; Dec 30 → Jan 6 was $286–480. Without AAA, add Hertz's under-25 fee: typically $25–29 a day.</p>
+    </div>
+  </div>
+  <p class="note">It needs to be an SUV with all-wheel drive. Colorado's traction law can apply on I-70 and on Berthoud Pass in snow, and "SUV" on a rental site doesn't guarantee AWD, so I'll confirm it at booking.</p>
+</section>
+
+<section id="extension">
+  <h2>Finn and me: the days after</h2>
+  <ul class="days">
+    <li><div class="d"><b>Wed 30</b>Dec</div><div class="what"><h3>DEN → Granby</h3><p>Over Berthoud Pass into Grand County, about 2 hours (rough estimate, not routed). Littletree Inn, Granby.</p></div></li>
+    <li><div class="d"><b>Thu 31</b>Dec</div><div class="what"><h3>Snow Mountain Ranch</h3><p>The YMCA's Nordic center: <b>82.5 km of groomed track</b>. Lessons there are cheap if we want a tune-up ($60 per person private). New Year's Eve in Granby.</p><p class="stat">$29 day pass · $25 ski rental</p></div></li>
+    <li><div class="d"><b>Fri 1</b>Jan</div><div class="what"><h3>Devil's Thumb Ranch</h3><p><b>Nearly 120 km of trail</b> at the foot of the Continental Divide. It's the biggest network in Colorado.</p><p class="stat">$35 day pass · rental price not checked</p></div></li>
+    <li><div class="d"><b>Sat 2</b>Jan</div><div class="what"><h3>Granby → Estes Park</h3><p>Trail Ridge Road through the park is closed in winter, so we drive around (about 3 hours, not routed). We'll rent microspikes and snowshoes in Estes Park and do a short walk around a lake.</p><p class="stat">Microspikes $15/day, snowshoes $8/day at Estes Park Mountain Shop</p></div></li>
+    <li><div class="d"><b>Sun 3</b>Jan</div><div class="what"><h3>Three frozen lakes</h3><p>Rocky Mountain National Park: Nymph Lake, Dream Lake and Emerald Lake, one above the other under Hallett Peak, ending at about 10,100 ft. You walk out onto the ice. No timed-entry reservation is needed in winter. My annual park pass covers the car.</p></div></li>
+    <li class="only5"><div class="d"><b>Mon 4</b>Jan</div><div class="what"><h3>Morning walk, fly home</h3><p>A shorter morning in the park, then about 1.5 hours to DEN.</p></div></li>
+    <li class="only7" hidden><div class="d"><b>Mon 4</b>Jan</div><div class="what"><h3>Sky Pond, if it's safe</h3><p>About 10 miles past Mills Lake and The Loch. Timberline Falls is a frozen step in winter. We go only if the avalanche report is good that morning, and we turn around if it looks wrong.</p></div></li>
+    <li class="only7" hidden><div class="d"><b>Tue 5</b>Jan</div><div class="what"><h3>Spare day</h3><p>Room for a storm or a closed road. If the weather's fine: Mills Lake and The Loch, or a third ski day.</p></div></li>
+    <li class="only7" hidden><div class="d"><b>Wed 6</b>Jan</div><div class="what"><h3>Fly home</h3><p>About 1.5 hours to DEN.</p></div></li>
+  </ul>
+</section>
+
+<section id="safety" class="warn">
+  <h3>What could go wrong, and the plan for it</h3>
+  <ul class="plain">
+    <li><b>Roads close in storms.</b> I-70 over Vail Pass, the Eisenhower Tunnel approach and Berthoud Pass all close sometimes. We check COtrip before each drive. The 7-night version has a spare day for this.</li>
+    <li><b>Avalanches.</b> The lake hikes run below avalanche slopes. We check the Colorado Avalanche Information Center (avalanche.state.co.us) every morning and stay on the trail.</li>
+    <li><b>Cold.</b> Expect single digits in the morning. We have layers, and every day ends at a motel.</li>
+  </ul>
+</section>
+
+<section id="open">
+  <h2>Still to find out</h2>
+  <ul class="plain">
+    <li>What it costs to move Finn's and my return flights to Jan 4 or Jan 6.</li>
+    <li>Whether the Frisco rental is booked yet, which decides the one-car plan.</li>
+    <li>Whether Snow Mountain Ranch has a room for New Year's. Overnight guests ski free there. Its rooms are booked on the YMCA's own site, so I haven't priced them.</li>
+    <li>Rental prices at Devil's Thumb and the Frisco snowshoe rental.</li>
+  </ul>
+</section>
+
+<section id="sources">
+  <h2>Where the numbers come from</h2>
+  <ul class="src">
+    <li>Frisco Nordic: townoffrisco.com, trail passes and lessons pages, read Nov 8, 2026. Rental prices and the holiday surcharge: livegrandteam.com (secondary source).</li>
+    <li>Snow Mountain Ranch: ymcarockies.org Nordic Center page, read Nov 8, 2026.</li>
+    <li>Devil's Thumb: devilsthumbranch.com (120 km) and kristenlmeyer.com (2026–27 day pass).</li>
+    <li>Hotels: Booking.com, Nov 8, 2026. 2 adults, one room, totals including taxes. Littletree Inn, Granby, Dec 30 → Jan 2: $528.96. Saddle &amp; Surrey Motel, Estes Park, Jan 2 → 4: $181.44, or Jan 2 → 6: $359.45. Both have free cancellation.</li>
+    <li>Cars: Kayak, DEN, SUV class, Nov 8, 2026. Hertz young-renter waiver: hertz.com AAA pages.</li>
+    <li>Rocky Mountain NP: no timed entry November to late May (kirksflyshop.com, secondary source). Microspikes and snowshoes: estesparkmountainshop.com.</li>
+    <li>Rec path grooming days and the Mayflower Gulch details: from Colin's earlier research (townoffrisco.com, Oct 30, 2026).</li>
+  </ul>
+</section>
+
+</div>
+</main>
+<footer><div class="wrap">Draft as of Nov 8, 2026. Nothing is booked.</div></footer>
+
+<script>
+(function () {
+  var rows = {
+    5: [
+      ["Car, 5 days at DEN", "SUV. Low: cheapest listing (may add its own under-25 fee). High: Hertz without AAA ($25–29/day fee). Hertz with AAA: $446", "$322 – $610"],
+      ["Granby, 3 nights", "Littletree Inn, Dec 30 → Jan 2, taxes in", "$529"],
+      ["Estes Park, 2 nights", "Saddle & Surrey Motel, Jan 2 → 4, taxes in", "$181"],
+      ["Skiing, 2 days, 2 people", "Passes $29 and $35, rentals $25 at Snow Mountain Ranch; Devil's Thumb rentals not checked", "$178 + ?"],
+      ["Microspikes + snowshoes", "2 people, 2–3 days", "$60 – $90"],
+      ["Gas", "my estimate, ~400 miles", "~$60"],
+      ["Food", "my estimate, ~$30 per person per day, mostly groceries", "~$300"],
+      ["Flight changes", "depends on airline and fare type", "TBD"]
+    ],
+    7: [
+      ["Car, 7 days at DEN", "SUV. Low: cheapest listing (may add its own under-25 fee). High: Hertz without AAA ($25–29/day fee). Hertz with AAA: $480", "$286 – $683"],
+      ["Granby, 3 nights", "Littletree Inn, Dec 30 → Jan 2, taxes in", "$529"],
+      ["Estes Park, 4 nights", "Saddle & Surrey Motel, Jan 2 → 6, taxes in", "$359"],
+      ["Skiing, 2 days, 2 people", "Passes $29 and $35, rentals $25 at Snow Mountain Ranch; Devil's Thumb rentals not checked", "$178 + ?"],
+      ["Microspikes + snowshoes", "2 people, 3–4 days", "$90 – $135"],
+      ["Gas", "my estimate", "~$70"],
+      ["Food", "my estimate, ~$30 per person per day, mostly groceries", "~$420"],
+      ["Flight changes", "depends on airline and fare type", "TBD"]
+    ]
+  };
+  var totals = {
+    5: ["$1,630 – $1,950", "About $815–975 each. The spread is mostly the car: the cheapest listing at the low end, Hertz without a AAA membership at the high end."],
+    7: ["$1,930 – $2,370", "About $965–1,185 each. Two more nights in Estes Park buy a shot at Sky Pond and a spare day for a storm."]
+  };
+  var body = document.getElementById("moneyBody");
+  function esc(s) { return s.replace(/&/g, "&amp;").replace(/</g, "&lt;"); }
+  function show(n) {
+    var html = rows[n].map(function (r) {
+      return "<tr><td>" + esc(r[0]) + "<span class=\"sub\">" + esc(r[1]) + "</span></td><td>" + esc(r[2]) + "</td></tr>";
+    }).join("");
+    html += "<tr class=\"tot\"><td>Total, before flight changes and Devil's Thumb rentals</td><td>" + totals[n][0] + "</td></tr>";
+    body.innerHTML = html;
+    document.getElementById("askTotal").textContent = totals[n][0];
+    document.getElementById("askPer").textContent = totals[n][1];
+    document.getElementById("len5").setAttribute("aria-pressed", n === 5 ? "true" : "false");
+    document.getElementById("len7").setAttribute("aria-pressed", n === 7 ? "true" : "false");
+    document.querySelectorAll(".only7").forEach(function (el) { el.hidden = n !== 7; });
+    document.querySelectorAll(".only5").forEach(function (el) { el.hidden = n !== 5; });
+    try { localStorage.setItem("len", String(n)); } catch (e) {}
+  }
+  document.getElementById("len5").addEventListener("click", function () { show(5); });
+  document.getElementById("len7").addEventListener("click", function () { show(7); });
+  var start = 5;
+  try { if (localStorage.getItem("len") === "7") start = 7; } catch (e) {}
+  show(start);
+})();
+</script>

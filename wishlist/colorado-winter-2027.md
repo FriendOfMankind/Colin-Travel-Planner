@@ -10,7 +10,7 @@ start: 2026-12-31
 window: "Dec 31, 2026 – Jan 4, 2027 (pencilled 2026-11-08): leave Frisco instead of flying home Dec 30, fly home from Denver. Spring term starts Jan 19, so it can run longer"
 region: Summit County → Grand County (Granby / Fraser) → Estes Park, Colorado
 country: USA
-budget: "TBD. The flight is already paid (Frisco). Extra: rental car (Colin is 22, so a young-driver surcharge), ~4–5 motel nights, trail passes and rentals, the airline's change fee. None priced. Family may pitch in as a Christmas gift (Colin, 2026-11-08)"
+budget: "~$1,630–1,950 for Colin + Finn, 5 nights; ~$1,930–2,370 for 7 nights. Before flight-change fees and Devil's Thumb rentals; car, lodging and passes read 2026-11-08, food and gas estimated. Family may cover it as a Christmas gift (Colin, 2026-11-08)"
 tags: [ winter, nordic ski, snowshoe, frozen lakes, motels, rental car, brother, extension ]
 updated: 2026-11-08
 source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
@@ -34,15 +34,21 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 ## The shape (draft, nothing booked)
 
-1. **Dec 31 – Jan 1 · Grand County, two ski days.** Devil's Thumb Ranch (Tabernash) and/or Snow Mountain Ranch (YMCA, Granby).
-2. **Jan 2 · Travel day** to Estes Park with a short hike. ⚠️ Trail Ridge Road is closed in winter (my memory, not checked), so Grand Lake → Estes means driving around, ~3 hr ⚠️ unrouted.
-3. **Jan 3 – 4 · Rocky Mountain NP, east side.** Emerald Lake (Nymph → Dream → Emerald), then Sky Pond if the snow and avalanche report allow. Fly home from DEN (~1.5 hr from Estes ⚠️ unrouted).
+- **Wed Dec 30:** Frisco → DEN (parents fly home) → over Berthoud Pass to Granby, ~2 hr ⚠️ unrouted. Littletree Inn ×3.
+- **Thu Dec 31:** Snow Mountain Ranch, 82.5 km.
+- **Fri Jan 1:** Devil's Thumb Ranch, ~120 km.
+- **Sat Jan 2:** Granby → Estes Park, around the park (⚠️ Trail Ridge Road closed in winter, my memory, not checked), ~3 hr ⚠️ unrouted. Rent microspikes and snowshoes. Saddle & Surrey Motel.
+- **Sun Jan 3:** Nymph → Dream → Emerald lakes.
+- **Mon Jan 4:** 5-night version: a morning walk, DEN ~1.5 hr ⚠️ unrouted. 7-night version: Sky Pond if the avalanche report allows, Tue Jan 5 spare day, fly Wed Jan 6.
+- **Car:** start and end at DEN, so no one-way fee. AWD SUV (Colorado traction law on I-70 and Berthoud Pass).
 
 ## Next
 
-1. Ask Finn whether he stays on, and for how long.
-2. Price the extra days for the family ask: the airline's change fee to a Jan 4 DEN return, an AWD rental Dec 30 → Jan 4 with the under-25 surcharge, motels in Granby/Fraser and Estes Park over New Year's, and trail passes plus rentals at Devil's Thumb or Snow Mountain Ranch.
-3. Then decide whether to book the New Year's motel nights early.
+The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd, `share/proposals/colorado-winter-2027.html`, private until Colin shares it). It covers the Frisco-week Nordic plan for everyone, the car, both lengths and the budget.
+
+1. Send it. Find out from the family whether the Frisco rental is booked yet; if not, one SUV in Colin's name, Dec 25 → Jan 4/6 at DEN, drops them at departures on Dec 30.
+2. Price the flight change for Colin and Finn to Jan 4 or Jan 6 (airline and fare type not recorded).
+3. If it's a yes: AAA membership (for Hertz's under-25 waiver), the Littletree Inn and Saddle & Surrey (both free cancellation), then the car. Check Snow Mountain Ranch rooms direct at ymcarockies.org (overnight guests ski free).
 
 ## Research notes
 
@@ -60,3 +66,14 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 - ⚠️ **Sky Pond in winter**, ~10 mi, past Mills Lake and The Loch: Timberline Falls becomes a frozen step. Avalanche exposure not researched. Check CAIC (avalanche.state.co.us) the morning of, and don't plan it as a sure thing
 - 📋 Optional ice stop, the wrong direction for this route: **Rifle Mountain Park ice caves**, frozen waterfalls you walk inside on a solid ice floor, microspikes essential; $10/vehicle *(sources: everydaylaura.com and rexby.com, search snippets, 2026-11-08)*
 - ⚠️ Winter driving: I-70 over Vail Pass and Berthoud Pass (if used) close in storms; AWD rental, and a buffer day before the flight
+
+### 2026-11-08 · Priced for the family pitch
+- Colin's answers *(2026-11-08)*: the family rents a car at DEN for Frisco; Finn skis, and maybe one other family member has ski experience; price both 5 nights (→ Jan 4) and 7 nights (→ Jan 6). Airline not given.
+- ✅ **Lodging, Booking.com, read 2026-11-08, 2 adults, 1 room, totals including taxes:** Littletree Inn, Granby, Dec 30 → Jan 1 $352.64, Dec 30 → Jan 2 **$528.96**, free cancellation. Saddle & Surrey Motel, Estes Park, Jan 2 → 4 **$181.44**, Jan 2 → 6 **$359.45**, free cancellation. Alpine Trail Ridge Inn, Estes, Jan 2 → 4 $177.99 (no free cancellation). Fraser's cheapest over Dec 30 – Jan 1 was $528.88 (Hideaway Mountain Lodge). Snow Mountain Ranch isn't on Booking.com; book direct
+- ✅ **Cars, Kayak DEN, SUV class, read 2026-11-08:** Dec 30 → Jan 4: $322 cheapest (EconomyBookings), Hertz $446–465. Dec 30 → Jan 6: $286 cheapest, Hertz $480. Totals as Kayak shows them; AWD not listed on any of them. Turo SUVs near DEN for 5 days quoted ~$292–319 before taxes and protection, for a 22-year-old *(Turo, 2026-11-08)*
+- ✅ **Hertz waives the Young Renter fee for AAA members aged 20–24** and gives AAA members a free additional driver *(hertz.com AAA pages, search snippets, 2026-11-08)*. The fee is "typically $29/day" *(ace.aaa.com, snippet)* or $25/day *(dailydrop.com, snippet)*. AAA membership cost: not checked
+- ✅ **Snow Mountain Ranch:** $29 day pass (13+); **free for overnight guests and YMCA members**; classic, skate or snowshoe rental $25 full day / $20 afternoon; one-hour private lesson $60 per person; daily 8:30–5:00; 82.5 km *(ymcarockies.org Nordic Center, read 2026-11-08)*
+- 📋 **Devil's Thumb:** $35 non-lodging day pass, ages 13–69 *(kristenlmeyer.com 2026–27 comparison, read 2026-11-08)*. Rental prices: not found
+- ✅ **Rocky Mountain NP:** $30 1-day, $35 7-day per vehicle *(nps.gov/romo fees, search snippet, 2026-11-08)*. Colin owns an America the Beautiful pass (`me/gear.md`); its expiry isn't recorded
+- 📋 **Estes Park rentals:** Estes Park Mountain Shop snowshoes $8, microspikes $15, microspikes + poles $17 *(estesparkmountainshop.com, snippet, 2026-11-08)*; Scot's Sporting Goods microspikes $10 *(snippet)*
+- ⚠️ Gas (~$60–70 for ~400 mi) and food (~$30 per person per day) are my estimates, not looked up

@@ -69,7 +69,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The Waterpocket Fold, and the least-visited of the Mighty Five
 - **Colorado National Monument** (`wishlist/colorado-nm.md`) · Fruita / Grand Junction, Colorado · fly · keeps (derived) · Mar/Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · 2 research notes · updated 2026-10-06
   The reliable Colorado option in May
-- **Colorado Winter, After Frisco** (`wishlist/colorado-winter-2027.md`) · Summit County → Grand County (Granby / Fraser) → Estes Park, Colorado · fly · keeps (derived) · Dec/Jan/Feb · 5 days · 1 research note · updated 2026-11-08
+- **Colorado Winter, After Frisco** (`wishlist/colorado-winter-2027.md`) · Summit County → Grand County (Granby / Fraser) → Estes Park, Colorado · fly · keeps (derived) · Dec/Jan/Feb · 5 days · 2 research notes · updated 2026-11-08
   Long Nordic days in Grand County, then frozen alpine lakes in Rocky Mountain NP
 - **Costa Rica Road Trip** (`wishlist/costa-rica-jan.md`) · Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica · fly · keeps (derived) · Jan/Feb/Mar/Apr · 10 days · 3 research notes · updated 2026-11-08
   A car, a crew, jungle wildlife, hot springs and a Guanacaste surf town
@@ -81,7 +81,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The best payoff per dollar, as a week
 - **The Atlantic North (Europe Boys Trip)** (`wishlist/europe-atlantic-north-2027.md`) · Northern Spain (Basque Country, Asturias, Galicia) + Porto. Open-jaw, fly into Bilbao and out of Porto · fly · keeps (derived) · Jun/Jul · 13 days · 3 research notes · updated 2026-11-02
   Bilbao → San Sebastián → Picos de Europa → Asturias → Galicia → Porto, with friends
-- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 2 research notes · updated 2026-10-30
+- **Frisco, Colorado** (`wishlist/frisco-2026.md`) · Summit County, Colorado · fly · confirmed · Dec · 6 days · 3 research notes · updated 2026-11-08
   Family week, plus a few easy winter days out
 - **Grand Staircase–Escalante** (`wishlist/grand-staircase.md`) · Escalante, Utah · fly · keeps (derived) · Apr/May/Oct · 6–8 nights · 2 research notes · updated 2026-10-03
   Warm desert water, which barely exists out west
