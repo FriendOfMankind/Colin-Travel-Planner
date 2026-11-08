@@ -100,7 +100,7 @@ booking:
     what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 13–18, 5 nights)"
     target: 2027-08-13
     note: "Only if the after-Oregon extension is still alive in February; see the open question. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
-updated: 2026-11-04
+updated: 2026-11-08
 map:
   center: [ 45.5, -106 ]
   zoom: 5
@@ -140,7 +140,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 ### Group
 
-**Solo Jul 12 – Jul 24**, open to ride-alongs (below). **Jul 25–30: Ethan and Finn at Glacier** (below), which fills both seats. **Solo again Jul 30–31** to Hood River, not offered as a ride-along. **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
+**Solo Jul 12 – Jul 24**. **Jul 25–30: Ethan and Finn at Glacier** (below), which fills both seats. **Solo again Jul 30–31** to Hood River, not offered as a ride-along. **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
 
 - **Group B** stays the whole time and rides in the Legacy with Colin. This plan is built around them. **2 friends plus Colin, 3 in the car** *(Colin, 2026-11-04)*.
 - **Group A** is about 3 people who are less physically capable and probably staying shorter. They rent their own car at PDX, pick their own arrival and departure days, book their own rooms at the same places, and skip the hard days (South Sister on Day 26, Tunnel Falls on Day 30). They do want the rafting *(Colin, 2026-11-04)*. Each day has a **Group A** line.
@@ -148,7 +148,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 **Solo again Aug 12–16** for the drive home, open to a Group B friend skipping the flight home. Not pitched as a fly-in leg: nobody flies out just for the drive home *(Colin, 2026-11-04)*.
 
-**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. **Since 2026-11-08 the Rockies ride-along window is Jul 12–25 only** *(Colin, 2026-11-08)*: the Glacier week fills both seats, and nobody is expected to rent a car to join it or to fly out for the Jul 30–31 drive to Portland. Get on at Avon (Jul 12), Denver (Jul 13, getting to Vedauwoo on their own), Cody (Jul 18), Bozeman (Jul 23, on the Day 12 road line) or Kalispell (Jul 23, on the way in); get off at Cody, Bozeman, or **Kalispell on Jul 25**, as Ethan and Finn land. Details on the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Per-site people and tent limits: **Glacier is 8 people and 2 tents** (checked 2026-11-08, so two riders share a tent there); every other campground is still unchecked; check before booking a site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–23 windows the riders' nights fall in.
+**Ride-alongs** *(Colin, 2026-11-08; was an open offer on every solo leg, 2026-11-04)*: **Jul 12–25 is solo.** Nobody is expected to fly in for the drive out or the Wyoming–Yellowstone stretch (Cody → Bozeman, Jul 18–23, was the only plausible one and was left off on purpose). The Glacier week fills both seats Jul 25–30, and Jul 30–31 isn't offered. **The one add-on: a group B friend can skip the flight home and ride back to Ohio Aug 12–16**, offered on the Oregon page; split gas and motels, share the driving. The old "Ride Along 2027" page is parked.
 
 **Glacier week: Ethan and Finn (Colin's brother)** *(Colin, 2026-11-08)*: after a wedding on Jul 24, they fly into Kalispell (FCA) on **Jul 25** (Day 14) and fly home from FCA on **Jul 30** (Day 19); Glacier only, not Portland. For them the Glacier halves were flipped: the west side first (Days 12–15), Many Glacier last (Days 16–18). 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so they share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
 

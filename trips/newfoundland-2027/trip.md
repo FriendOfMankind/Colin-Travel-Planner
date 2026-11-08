@@ -105,7 +105,7 @@ May 26 – June 24, 2027 (target)
 
 Solo, except June 10–19: **3 friends, confirmed** *(stated 2026-10-10: all three can fly out June 10–19; was: "planning for 3, not confirmed", 2026-10-08, and before that "up to 3")*, flying from Cleveland, Gander in / St. John's out, hotels, boats and highlights *(stated 2026-10-05)*. They're the same friends who'd have done Maui; this is the 2027 friend trip, and Maui is theirs for spring 2028 *(stated 2026-10-05)*.
 
-**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along.
+**Ride-alongs** *(Colin, 2026-11-08; was an open offer on every solo leg, 2026-11-04)*: only two add-ons, offered to the three friends on their own page. **Come early:** fly into Deer Lake Jun 5 and camp the Gros Morne nights (Jun 5–9), then ride to Gander Jun 10 for the friends' week; they need their own tent, which rides home in the Sienna. **Ride home:** Jun 19–24 from St. John's to Ohio (Ferryland, Mistaken Point, Cape St. Mary's, the Argentia ferry). Up to 2 at a time, everything split evenly while along, own flights; tell Colin by Jan 31. ⚠️ Gros Morne's per-site people and tent limit isn't checked. May 26 – Jun 5 is solo. The old "Ride Along 2027" page is parked.
 
 ### Why this direction
 
