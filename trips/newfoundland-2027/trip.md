@@ -64,7 +64,7 @@ booking:
     what: Argentia → North Sydney, overnight (Jun 21) + cabin decision
     target: 2027-06-21
     note: Posted for 2027. From Argentia Mon, Thu and Sat at 17.00, June 16 – Sept 30 (marineatlantic.ca schedule, read 2026-10-08). Check in 2 h before. Cabins "in high demand" and book out months ahead.
-updated: 2026-10-30
+updated: 2026-11-08
 map:
   center: [ 47.5, -60 ]
   zoom: 5
