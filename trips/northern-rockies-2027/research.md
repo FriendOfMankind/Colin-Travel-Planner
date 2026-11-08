@@ -62,7 +62,7 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 - ⬜ **Day 19 night** near Wallace / Kellogg, Idaho *(Colin, 2026-10-30)*: bed not picked
 - 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season and the basics; ⬜ fees, timing
 - ⬜ **Glacier → Hood River routing**: unrouted
-- ✅ **Headcount**: group B is 2 friends plus Colin in the Legacy; group A rents its own car *(Colin, 2026-11-04)*
+- ✅ **Headcount**: the riders are 2 friends plus Colin in the Legacy; the own-car group rents its own car *(Colin, 2026-11-04)*
 
 ## 8. The drive home (Days 30–34)
 - ⬜ **Route Portland → Avon**: not chosen (~2,400 mi, unrouted)

@@ -331,3 +331,7 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - West of the divide is lures only and the likely catch (cutthroat) goes back, so Day 14's **Lake McDonald stop on the drive in is a warm-up, not the test**. **The test is Day 16's evening at Swiftcurrent with worms** (bait is legal only in the Many Glacier valley here). Bites → Day 17's evening (Swiftcurrent, or Lake Josephine on the Grinnell walk back) and Day 18's long session with a fish for dinner. Bust → Day 18's afternoon is rest or Redrock Falls. No hike changes either way.
 - Left off: Hidden Lake (its outlet area is closed to fishing for most of July, nps.gov/glac), a whole fishing day. Page: second cheap rod suggested (one rod per person is the park rule). Lake McDonald has no pin yet.
 
+## 2026-11-08 · Oregon groups renamed by the car
+- **"Group B" and "group A" are now "the riders" and "the own-car group"** *(Colin, 2026-11-08: the distinction is "ride with me" versus "a more independent schedule with their own rental car")*. Renamed everywhere in the plan, `research.md`, the wishlist and the Oregon page ("Ride with Colin" / "Your own car"; the day notes say "Easy option"). Older log entries keep the old labels.
+- Raft order checked the same day: keep Deschutes (Aug 8) and White Salmon (Aug 9) back to back. Maupin is on the Bend → Hood River move, and the own-car group gets both rafts by staying Aug 8–10. A swap with Tunnel Falls was offered and not taken. The Deschutes weekend (Sunday) price still isn't checked.
+
