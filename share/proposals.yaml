@@ -73,6 +73,7 @@
   for: two groups of friends flying into Portland, ~3 staying the whole time (group B, in Colin's car) and ~3 picking their own dates (group A, own rental)
   status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-11-04
+  checked: 2026-11-08  # re-read after the Glacier flip and Ethan and Finn: the page covers Aug 1–12 and doesn't name the Glacier order
   note: Rebuilt 2026-11-04 for the coast-first loop and two groups, with a day picker for group A (was "Oregon, August 1–10", one group of 4).
 
 - id: newfoundland-2027
@@ -96,8 +97,8 @@
   also: [ newfoundland-2027 ]
   for: any friend who could fly in for part of the solo legs of Newfoundland or the Rockies (up to 2 at a time)
   status: draft  # not sent yet
-  asOf: 2026-11-04
-  note: Covers both trips. The also line makes it show on Newfoundland's page and go stale when either trip's log moves.
+  asOf: 2026-11-08
+  note: Rebuilt 2026-11-08 for the Glacier flip. The Rockies window is Jul 12–25 now (get off at Kalispell as Ethan and Finn land); the Glacier week, Glacier → Oregon and the PDX stops are gone. The also line makes it show on Newfoundland's page.
 
 - id: glacier-week-2027
   title: Glacier Week 2027
