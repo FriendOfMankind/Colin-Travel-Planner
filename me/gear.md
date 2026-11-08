@@ -334,6 +334,12 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 - name: Camp pillow
   state: own
   note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)*"
+- name: Frisbee
+  state: own
+  note: "*(stated 2026-11-08: \"I'll have a frisbee\")* Camp game; needs a second person."
+- name: Badminton rackets
+  state: need
+  note: "*(stated 2026-11-08, wants them)* Camp game; needs a second person. Model, net or no net, and price not decided. Feather and standard nylon shuttles blow away in any breeze; look at wind-resistant outdoor shuttles (recalled: Yonex's AirShuttle, made for outdoor \"AirBadminton\"; not verified)."
 ```
 
 ## Vehicle & road
