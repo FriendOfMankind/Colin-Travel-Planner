@@ -8,10 +8,10 @@ days: 9
 target: 2027-03-06
 emoji: 🌵
 theme: desert
-status: outline
+status: shelved
 pinned: true
 start: null
-dates: "Mar 6–14, 2027 (target, unbooked)"
+dates: "Shelved; was Mar 6–14, 2027"
 window: Nov–Apr — ⭐ Feb, March and April are the good months, and they are also the full ones
 region: Tucson → Dragoons → Chiricahua → Cave Creek
 states: [ AZ ]
@@ -31,7 +31,7 @@ tags:
   - fly-in
   - march
   - reservation race
-next: "**Nothing booked; waiting to see if the two friends commit** *(stated 2026-10-29)*. Plan rewritten 2026-10-27 for Mar 6–14 with them (likely yes, not confirmed). When it's go, in order: (1) check the max people and tents per site on Bonita's recreation.gov page, then book Mar 7–10 (one site if three fit, two if not; Mar 7 is insurance in case first-come Cochise is full, *Colin, 2026-11-01*); (2) book Gilbert Ray for Mar 6 and Mar 13; (3) the friends book their own CLE → TUS flights, which is what makes them confirmed; (4) the rental, an SUV, once three flights exist. Send them the proposal page."
+next: "**Shelved** *(Colin, 2026-11-08)*: spring break 2027 stays home to save money for the summer trips. The friends didn't want both this and a summer trip, and Colin doesn't want it solo. The plan below is kept as built for another year. Nothing was booked, so nothing to cancel."
 booking:
   - system: recreation.gov
     what: Bonita Canyon, Chiricahua NM (Mar 7–10; Mar 7 is the Cochise insurance night)

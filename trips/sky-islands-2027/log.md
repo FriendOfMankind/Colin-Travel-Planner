@@ -160,3 +160,10 @@ The crowd rule changed on 2026-10-29: the icon is worth its crowd as long as the
 
 - **Other friends invited Colin to Prague, Mar 5–15, 2027**, which is the same spring-break week. **He's sticking with Sky Islands** *(Colin, 2026-11-01: "save time and money")*. Nothing for Sky Islands was booked when this came up, and the two Sky Islands friends still hadn't committed.
 - Why it lost (Claude's case, which Colin agreed with): Dingle & Marseille is already a Europe trip in May (~$3,300 each), and a cold March city is weak on his top three (views, discovery, solitude). The one hook it had was a day trip to Bohemian Switzerland or an abandoned site, unresearched.
+
+## 2026-11-08 · Shelved: spring break 2027 stays home
+
+- **Sky Islands is shelved** *(Colin, 2026-11-08)*. Most of the friends he asked can't afford both this and a summer trip, and he isn't keen on going solo. He'd rather save for the summer (Dingle & Skye, Newfoundland, the Long Way to Glacier) and do Sky Islands some other year.
+- **March stays open.** If something spontaneous comes up, he'll say so; default is home, saving money and planning the summer.
+- Nothing was booked (Bonita and Gilbert Ray were both still unbooked), so nothing to cancel. Status was `outline`, target Mar 6–14. The invite page was never sent; its row in `share/proposals.yaml` is now `parked`.
+- The plan stays in `trip.md` as built (status `shelved`), so a future year starts from it rather than from scratch. Re-check every date, fee and booking row before reviving it.

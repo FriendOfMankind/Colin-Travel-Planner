@@ -33,8 +33,6 @@ Read this first. Open only the files the question needs. Paths are relative to t
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 16, 2027 (target, unbooked) · 36 days · 12 open questions · 64/69 places located · log 25 entries · updated 2026-11-08
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
-- **Sky Islands** (`trips/sky-islands-2027/`) · outline · Mar 6–14, 2027 (target, unbooked) · 9 days · 5 open questions · 26/26 places located · log 14 entries · updated 2026-10-27
-  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Done
 
@@ -43,6 +41,11 @@ Read this first. Open only the files the question needs. Paths are relative to t
 - **Red River Gorge + Big South Fork** (`trips/kentucky-2026/`) · done · Sept 22–27, 2026 · 6 days · 7 open questions · 8/27 places located · log 3 entries · retro written · updated 2026-09-29
   Two sandstone plateaus back to back — the Gorge's arch cluster, then Honey Creek's ladders and ropes on the busiest Saturday of the season, because that's what keeps it empty.
 - **The Ultimate American Southwest Adventure** (`trips/southwest-2026/`) · done · May 8–30, 2026 · 23 days · log 2 entries · retro written · updated 2026-10-06
+
+## Shelved (built, deferred on purpose; not a live plan)
+
+- **Sky Islands** (`trips/sky-islands-2027/`) · shelved · Shelved; was Mar 6–14, 2027 · 9 days · 5 open questions · 26/26 places located · log 15 entries · updated 2026-10-27
+  ⚠️ Heart of Rocks and Echo Canyon are the marquee day hikes through rhyolite hoodoo forests — welded ash from the Turkey Creek caldera, so the geology is the whole point rather than a footnote. The Dragoons are the…
 
 ## Wishlist: `wishlist/`
 
