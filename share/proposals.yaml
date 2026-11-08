@@ -99,6 +99,17 @@
   asOf: 2026-11-04
   note: Covers both trips. The also line makes it show on Newfoundland's page and go stale when either trip's log moves.
 
+- id: glacier-week-2027
+  title: Glacier Week 2027
+  url: https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj
+  format: page
+  source: share/proposals/glacier-week-2027.html
+  trip: northern-rockies-2027
+  for: two friends riding along for the Glacier week, BZN in Jul 22 (pickup Jul 23), FCA out Jul 30 (names not recorded)
+  status: in  # "they're in" (Colin, 2026-11-08); page not sent yet
+  asOf: 2026-11-08
+  note: A rundown, not a pitch. Picking them up in Bozeman settles the Day 12 route (via West Yellowstone and Bozeman).
+
 - id: adirondacks-winter
   title: Adirondacks Ski Week 2027
   url: https://claude.ai/code/artifact/10e038c4-fe35-4378-82f2-de9e37aa7bdc

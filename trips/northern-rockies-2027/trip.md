@@ -150,6 +150,8 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 **Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–27 campground windows.
 
+**Glacier week: two friends are in** *(Colin, 2026-11-08)*: fly into Bozeman Jul 22, picked up the morning of Jul 23 (Day 12), dropped at Kalispell (FCA) the morning of Jul 30 (Day 19). Names not recorded. 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so the two friends share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
+
 ### Why July, not June
 
 June is the gap month on this whole list: US-212 opened May 23 2026 and was closed again by snow until June 9, Snowy Range's campgrounds open July 4, and the San Juans hold snow into July. Moving three weeks fixed more than any destination swap.
@@ -604,7 +606,7 @@ Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yello
 date: 2027-07-23
 tagline: Out of Yellowstone the long way, across Montana, and then seven nights in one park.
 type: travel
-driving: ⚠️ ~450 mi, ~9h (my estimate, unrouted; route via Mammoth and Livingston or via West Yellowstone and Helena not chosen)
+driving: ⚠️ ~450 mi, ~9h (my estimate, unrouted), via West Yellowstone, Bozeman and Helena (Glacier-week friends picked up in Bozeman)
 slack: None. Longest day between anchors.
 overnight:
   name: Many Glacier Campground
@@ -618,7 +620,7 @@ overnight:
 
 **Schedule**
 - TBD · sunrise · Sunrise TBD (Madison is pinned; sun times not recomputed yet). Break camp in the dark if it saves an hour.
-- 6:00 AM (9h) · drive! · → Many Glacier via Great Falls and Browning. ⚠️ **Unrouted**: from Madison the old Slough Creek → Livingston line is longer, and the route north isn't picked. **Third and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
+- 6:00 AM (9h) · drive! · → Many Glacier via West Yellowstone, **Bozeman (pick up the two Glacier-week friends, ~8 AM, my estimate)**, Helena, Great Falls and Browning. ⚠️ **Unrouted.** **Third and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
 - 3:30 PM (1h) · stop · Check in. ✅ **No vehicle reservation.** Entry pass required and the America the Beautiful pass covers it.
 - 5:00 PM (1h) · hike · **Swiftcurrent Nature Trail.** ✅ AllTrails: **2.6 mi, 131 ft, Easy, loop.** A flat lap of Swiftcurrent Lake after nine hours of driving. · 📍 Swiftcurrent Nature Trail Many Glacier
 - 9:32 PM · sunset · Sunset. Dark 10:03 PM. Nearly 17 hours of light up here.
