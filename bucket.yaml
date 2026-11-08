@@ -425,7 +425,8 @@ items:
     where: Black Canyon of the Gunnison, Colorado
     state: CO
     why: Colorado's tallest cliff, in 1.7-billion-year-old gneiss
-    status: want
+    status: done
+    when: "a May; year not recorded (Colin, 2026-11-08)"
     wishlist: black-canyon
     source: wishlist/black-canyon.md
     added: 2026-09-30

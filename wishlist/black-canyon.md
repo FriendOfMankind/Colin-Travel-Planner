@@ -12,7 +12,7 @@ country: USA
 coords: [ 38.57, -107.72 ]
 budget: ~5 hr from DEN, ~1.5 hr from Montrose
 tags: [ car camping, geology, slot canyons, may, rim park ]
-updated: 2026-10-05
+updated: 2026-11-08
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -21,6 +21,8 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 *Colorado's one world-class May option*
 
 ## Why
+
+**Colin has been, in a May, and saw the Painted Wall** *(Colin, 2026-11-08; year not recorded)*. A repeat visit needs a new reason.
 
 🔻 **No longer a Maui bookend** *(decided 2026-10-05)*: Newfoundland was set to leave May 23 (it now leaves May 26), three days after Maui would have ended, so there was no room for a leg; Maui itself then moved to spring 2028 as a friends trip. This stands alone now, for a PTO year. *(was: tagged "maui bookend")*
 
