@@ -96,13 +96,13 @@ footer .wrap { padding-block: 0 48px; font-family: var(--mono); font-size: 12px;
 
 <section id="ask">
   <h2>The ask</h2>
-  <p>Our flights are already paid for and the condo is ours. That leaves skiing, food and two bus tickets to Denver. If you'd be up for covering it as a Christmas gift, this is the cost for Finn and me together.</p>
+  <p>Two things to ask first. <b>Can Finn and I stay on at the condo after Dec 30?</b> The whole plan depends on it. And I'll change my own return flight and pay any fare difference myself. That leaves skiing, food and bus tickets to Denver. If you'd be up for covering those as a Christmas gift, this is the cost for Finn and me together.</p>
   <div class="toggle" role="group" aria-label="Trip length">
     <button type="button" id="len5" aria-pressed="true">5 nights · home Jan 4</button>
     <button type="button" id="len7" aria-pressed="false">7 nights · home Jan 6</button>
   </div>
   <div class="ask">
-    <div class="lbl">Colin + Finn, before flight changes</div>
+    <div class="lbl">Colin + Finn, staying at the condo</div>
     <div class="big" id="askTotal">~$700</div>
     <p class="note" id="askPer">About $350 each.</p>
   </div>
@@ -169,7 +169,8 @@ footer .wrap { padding-block: 0 48px; font-family: var(--mono); font-size: 12px;
 <section id="open">
   <h2>Still to find out</h2>
   <ul class="plain">
-    <li>What it costs to move Finn's and my return flights to Jan 4 or Jan 6.</li>
+    <li>Whether we can stay on at the condo after Dec 30.</li>
+    <li>Whether Finn's flight can move too, and what it costs. I'll check mine and pay the difference.</li>
     <li>Where to rent snowshoes and microspikes in Frisco, and the price. Buying microspikes may be cheaper than renting them for six days.</li>
     <li>The bus schedule over Christmas and New Year's (the county says the buses run every day of the year).</li>
   </ul>
@@ -193,22 +194,22 @@ footer .wrap { padding-block: 0 48px; font-family: var(--mono); font-size: 12px;
 (function () {
   var rows = {
     5: [
-      ["Lodging", "The family condo", "$0"],
+      ["Lodging", "The family condo, if we can stay on", "$0"],
       ["Trail passes", "3 ski days, 2 people, $35 a day", "$210"],
       ["Ski rentals", "3 days, 2 people, ~$35 a day in the holidays", "~$210"],
       ["Buses", "Summit Stage free · Bustang to Denver $13 each (the airport train isn't priced yet)", "$26"],
       ["Food", "my estimate, groceries at the condo, ~$25 per person per day", "~$250"],
       ["Snowshoes + microspikes", "not priced yet", "TBD"],
-      ["Flight changes", "depends on airline and fare type", "TBD"]
+      ["Flight changes", "Colin pays any fare difference", "$0 to you"]
     ],
     7: [
-      ["Lodging", "The family condo", "$0"],
+      ["Lodging", "The family condo, if we can stay on", "$0"],
       ["Trail passes", "4 ski days, 2 people, $35 a day", "$280"],
       ["Ski rentals", "4 days, 2 people, ~$35 a day in the holidays", "~$280"],
       ["Buses", "Bustang to Denver $13 each, plus Vail and back $5 each way", "$46"],
       ["Food", "my estimate, groceries at the condo, ~$25 per person per day", "~$350"],
       ["Snowshoes + microspikes", "not priced yet", "TBD"],
-      ["Flight changes", "depends on airline and fare type", "TBD"]
+      ["Flight changes", "Colin pays any fare difference", "$0 to you"]
     ]
   };
   var totals = {

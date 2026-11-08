@@ -10,7 +10,7 @@ start: 2026-12-31
 window: "Dec 31, 2026 – Jan 4, 2027 (pencilled 2026-11-08), or to Jan 6: stay on at the Frisco condo after the parents fly home Dec 30, then Bustang + A Line to DEN. Spring term starts Jan 19"
 region: Summit County (Frisco, Breckenridge, Silverthorne), Colorado
 country: USA
-budget: "~$700 for Colin + Finn over 5 nights, ~$960 over 7, before flight changes, snowshoe and microspike rentals and the A Line fare. The condo is free (family-owned, Colin 2026-11-08); passes, rentals and bus fares read 2026-11-08, food estimated. (was: ~$1,630–1,950 with a car and Granby/Estes motels)"
+budget: "~$700 for Colin + Finn over 5 nights, ~$960 over 7, before flight changes, snowshoe and microspike rentals and the A Line fare. The condo is the family's place; a free stay after Dec 30 is being asked (Colin, 2026-11-08). Colin pays any fare difference on his own flight change; passes, rentals and bus fares read 2026-11-08, food estimated. (was: ~$1,630–1,950 with a car and Granby/Estes motels)"
 tags: [ winter, nordic ski, snowshoe, frozen lakes, bus, car-free, brother, extension ]
 updated: 2026-11-08
 source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
@@ -26,7 +26,7 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 **What he wants from it** *(Colin, 2026-11-08)*: quality long-distance cross-country ski tracks, high-value winter hikes, walking on ice, and exploring.
 
-**Frisco base, no car** *(Colin, 2026-11-08)*: ~$1,000 a person for the Granby + Estes road version "might be a tough sell". **The condo is free (family-owned)**, and he picked buses over a car: "the bus trips and free accommodation are so high value… I'm okay with returning to the same place again and exploring and maybe doing more challenging trails." What that gives up: Grand County's long trail networks, Rocky Mountain NP, Mayflower Gulch after Dec 30 (so do it in the family week), and a real Leadville day (see notes).
+**Frisco base, no car** *(Colin, 2026-11-08)*: ~$1,000 a person for the Granby + Estes road version "might be a tough sell". **The condo is the family's place; Colin is asking whether he and Finn can stay on for free** *(Colin, 2026-11-08)*, and he picked buses over a car: "the bus trips and free accommodation are so high value… I'm okay with returning to the same place again and exploring and maybe doing more challenging trails." What that gives up: Grand County's long trail networks, Rocky Mountain NP, Mayflower Gulch after Dec 30 (so do it in the family week), and a real Leadville day (see notes).
 
 **What he doesn't want** *(Colin, 2026-11-08)*: hot springs (been to Colorado ones, "it was okay"), red rock with snow ("idc about that"), Black Canyon (been in May), a guided ice-climbing day ("a little expensive"; $275–599 per person), and a ghost town as the point of a trip.
 
@@ -49,9 +49,10 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd, `share/proposals/colorado-winter-2027.html`, private until Colin shares it), rebuilt for the bus version on 2026-11-08.
 
-1. Price the flight change for Colin and Finn to Jan 4 or Jan 6 (airline and fare type not recorded).
-2. Find snowshoe and microspike rentals in Frisco; compare with buying microspikes.
-3. Send the page.
+1. **Colin asks the family:** can he and Finn stay on at the condo after Dec 30 for free? The plan depends on it.
+2. **Colin checks changing his return flight** to Jan 4 or Jan 6 and **pays any fare difference himself** *(Colin, 2026-11-08)*. Finn's flight: not discussed yet.
+3. Find snowshoe and microspike rentals in Frisco; compare with buying microspikes.
+4. Send the page.
 
 ## Research notes
 
@@ -82,7 +83,7 @@ The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/arti
 - ⚠️ Gas (~$60–70 for ~400 mi) and food (~$30 per person per day) are my estimates, not looked up
 
 ### 2026-11-08 · Frisco base, by bus
-- Colin: ~$1,000 a person "might be a tough sell"; the **Frisco condo is free (family-owned)**; he chose buses over keeping a car *(Colin, 2026-11-08)*.
+- Colin: ~$1,000 a person "might be a tough sell"; the Frisco condo is the family's place (whether they can stay on free is being asked); he chose buses over keeping a car *(Colin, 2026-11-08)*.
 - 📋 Renting instead would be dearer than the road version: Frisco Dec 30 → Jan 4, 2 adults, cheapest $1,157.02 (New Summit Inn); Silverthorne $1,090.39; Leadville $579.90 (Columbine Inn) *(Booking.com, read 2026-11-08)*
 - ✅ **Summit Stage is free**, serving Frisco, Breckenridge, Silverthorne, Keystone and Copper *(coppercolorado.com and friscogov.com, snippets, 2026-11-08)*; 6:00 a.m. to 1:30 a.m., 365 days a year *(allsummitcounty.com, snippet; holiday schedule not confirmed)*. Winter 2026–27 schedule runs Nov 15, 2026 – Apr 17, 2027 *(summitcountyco.gov, read 2026-11-08)*
 - ✅ **Transit to Trails** *(summitcountyco.gov, read 2026-11-08)*: Miners Creek TH (Rainbow Lake, Peaks Trail) 0.2 mi from the Frisco–Breck stop; Gold Hill TH 0.3 mi; Lily Pad and Buffalo Cabin TH 0.0 mi on the Wildernest loop; Salt Lick TH 0.3 mi; Willow Creek TH 0.9 mi; North Tenmile TH and Colorado Trailhead at Copper 0.2 mi; Sapphire Point 0.15 mi (X Flyer); Lower McCullough Gulch and Hoosier Pass 0.0 mi (Blue River / Park County commuter). The page lists no winter caveats
