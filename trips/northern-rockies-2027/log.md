@@ -322,3 +322,16 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Finn is Colin's brother; Ethan brings the fishing rod and tackle** *(Colin, 2026-11-08)*.
 - **Their all-in estimate on the page: ~$900–1,100 each.** Flights $609–697 (Google Flights, 2026-11-08); a checked bag both ways $90–110 (American: $45 online, $55 on Basic Economy, 2026 fees, aa.com and news.aa.com snippets); food ~$130–160 (Colin's ~$20/day grocery figure from `trips/newfoundland-2027/log.md` plus airport meals); bear spray ~$50 bought in Kalispell or ~$28 a week rented (wereintherockies.com, goglacieroutfitters.com snippets); campsites ~$40 (~$23/night split three ways, 2027 fee not out); gas ~$15 (~285 mi with them along, my estimate, at Montana's $4.07 AAA average on 2026-11-08, split three ways; the Legacy's mpg isn't recorded, ~27 assumed); Grinnell boat $20.85 and shuttle $1 (2026). The page was also trimmed for phones: shorter copy, sources moved into a drawer, the 2027-rules caveat dropped from their page (it stays in the plan).
 
+## 2026-11-08 · Ride-alongs cut to one add-on
+- **Colin: the Rockies drive out is good solo** *(Colin, 2026-11-08)*. The only plausible fly-in stretch, Yellowstone (Cody Jul 18 → Bozeman Jul 23), was left off on purpose (Colin chose "leave it out"): few Cody flights, three nights at 9,500 ft. The Ride Along page is parked.
+- The one add-on, on the Oregon page (https://claude.ai/artifact/LJt57xM7UtyTXgxPJr7gRP): **a group B friend can ride home Aug 12–16** instead of flying out of PDX. Up to 2, split gas and motels, share the driving.
+
+## 2026-11-08 · Fishing: test early, add more only if it's good
+- **Colin: fish one of the first things, add more if there are bites, stick to the hiking plan if it's a bust** *(Colin, 2026-11-08)*. Ethan asked whether more fishing could fit.
+- West of the divide is lures only and the likely catch (cutthroat) goes back, so Day 14's **Lake McDonald stop on the drive in is a warm-up, not the test**. **The test is Day 16's evening at Swiftcurrent with worms** (bait is legal only in the Many Glacier valley here). Bites → Day 17's evening (Swiftcurrent, or Lake Josephine on the Grinnell walk back) and Day 18's long session with a fish for dinner. Bust → Day 18's afternoon is rest or Redrock Falls. No hike changes either way.
+- Left off: Hidden Lake (its outlet area is closed to fishing for most of July, nps.gov/glac), a whole fishing day. Page: second cheap rod suggested (one rod per person is the park rule). Lake McDonald has no pin yet.
+
+## 2026-11-08 · Oregon groups renamed by the car
+- **"Group B" and "group A" are now "the riders" and "the own-car group"** *(Colin, 2026-11-08: the distinction is "ride with me" versus "a more independent schedule with their own rental car")*. Renamed everywhere in the plan, `research.md`, the wishlist and the Oregon page ("Ride with Colin" / "Your own car"; the day notes say "Easy option"). Older log entries keep the old labels.
+- Raft order checked the same day: keep Deschutes (Aug 8) and White Salmon (Aug 9) back to back. Maupin is on the Bend → Hood River move, and the own-car group gets both rafts by staying Aug 8–10. A swap with Tunnel Falls was offered and not taken. The Deschutes weekend (Sunday) price still isn't checked.
+

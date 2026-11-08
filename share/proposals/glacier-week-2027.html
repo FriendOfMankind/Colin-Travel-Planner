@@ -114,6 +114,8 @@ details.drawer.small > summary h3 { font-size: 19px; }
 .pack-foot button { font: inherit; font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 4px; padding: 6px 10px; cursor: pointer; }
 .pack-foot button:focus-visible { outline: 2px solid var(--ice); outline-offset: 2px; }
 .drawers { display: grid; gap: 0; }
+.fishplan { list-style: decimal; margin: 0 0 12px; }
+.fishplan li::marker { font-family: var(--mono); color: var(--ice); }
 .total { background: var(--sky1); color: #f1f7f6; border-radius: 6px; padding: 18px 18px 10px; margin-bottom: 8px; }
 .total .lbl { color: #cfe3e3; }
 .total .sum { font-family: var(--display); font-weight: 800; font-size: 52px; line-height: 1; margin: 4px 0 8px; font-variant-numeric: tabular-nums; }
@@ -196,11 +198,11 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
     <section>
       <h2>The week</h2>
       <ol class="days">
-        <li><div class="d"><b>Sun 25</b>Arrive</div><div class="what"><h3>Land and settle in</h3><p>Pickup at the airport, bear spray and groceries in Kalispell, camp on the west side.</p><span class="stat">optional: Avalanche Lake, 6.1 mi</span></div></li>
+        <li><div class="d"><b>Sun 25</b>Arrive</div><div class="what"><h3>Land and settle in</h3><p>Pickup at the airport, bear spray and groceries in Kalispell, a first cast at Lake McDonald on the way to camp.</p><span class="stat">optional: Avalanche Lake, 6.1 mi</span></div></li>
         <li><div class="d"><b>Mon 26</b></div><div class="what"><h3>The Highline <span class="tag big">big day</span></h3><p>A ledge along a cliff wall with a hand cable, then miles of trail to a backcountry chalet that sells snacks. One way, on the park shuttle. Heights not your thing? Hidden Lake Overlook instead.</p><span class="stat">11.8 mi · 2,388 ft up</span></div></li>
-        <li><div class="d"><b>Tue 27</b></div><div class="what"><h3>Going-to-the-Sun Road</h3><p>Over the pass to the east side, two waterfalls on the way down, then camp at Many Glacier.</p><span class="stat">~2.5 h driving · 3.1 mi</span></div></li>
+        <li><div class="d"><b>Tue 27</b></div><div class="what"><h3>Going-to-the-Sun Road</h3><p>Over the pass to the east side, two waterfalls on the way down, then camp at Many Glacier. Evening: the fishing test at Swiftcurrent Lake.</p><span class="stat">~2.5 h driving · 3.1 mi</span></div></li>
         <li><div class="d"><b>Wed 28</b></div><div class="what"><h3>Grinnell Glacier <span class="tag big">big day</span></h3><p>Up to the glacier the park is famous for. A boat across two lakes cuts the walk if you want.</p><span class="stat">11.1 mi · 2,047 ft · 7.7 mi with the boat</span></div></li>
-        <li><div class="d"><b>Thu 29</b></div><div class="what"><h3>Iceberg Lake, then fishing</h3><p>A lake that still has icebergs in July, at a 5 AM start. Afternoon fishing Swiftcurrent Lake, and maybe a trout for dinner.</p><span class="stat">9.7 mi · 1,453 ft</span></div></li>
+        <li><div class="d"><b>Thu 29</b></div><div class="what"><h3>Iceberg Lake</h3><p>A lake that still has icebergs in July, at a 5 AM start. Afternoon: a long fishing session and a trout for dinner if Tuesday went well, or rest if it didn't.</p><span class="stat">9.7 mi · 1,453 ft</span></div></li>
         <li><div class="d"><b>Fri 30</b>Leave</div><div class="what"><h3>Fly home</h3><p>About 3 hours to the airport. Colin keeps going west.</p></div></li>
       </ol>
       <p class="note">Every hike is optional. Sunset is around 9:30 PM.</p>
@@ -267,7 +269,7 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
 
     <div class="drawers">
       <details class="drawer" id="packing">
-        <summary><h2>Packing checklist</h2><span class="meta" id="pack-count">0 of 27</span><span class="chev" aria-hidden="true"></span></summary>
+        <summary><h2>Packing checklist</h2><span class="meta" id="pack-count">0 of 28</span><span class="chev" aria-hidden="true"></span></summary>
         <div class="body">
           <div class="pack-bar" aria-hidden="true"><span id="pack-fill"></span></div>
           <div class="pack-group">
@@ -310,6 +312,7 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
             <ul>
               <li><label><input type="checkbox" id="pk-rod" data-pack="rod"><span>Spinning rod that breaks down or telescopes<span class="who">Ethan</span><span class="why">Packed in a checked bag.</span></span></label></li>
               <li><label><input type="checkbox" id="pk-tackle" data-pack="tackle"><span>Line, small spinners and hooks, all lead-free<span class="who">Ethan</span><span class="why">No lead of any kind in the park.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-rod2" data-pack="rod2"><span>A second cheap rod<span class="who">optional</span><span class="why">So you can both fish at once.</span></span></label></li>
             </ul>
           </div>
           <div class="pack-group">
@@ -334,14 +337,20 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
         </div>
       </details>
       <details class="drawer" id="fishing">
-        <summary><h2>Fishing Swiftcurrent</h2><span class="meta">Thu · the rules</span><span class="chev" aria-hidden="true"></span></summary>
+        <summary><h2>Fishing</h2><span class="meta">the plan · the rules</span><span class="chev" aria-hidden="true"></span></summary>
         <div class="body">
-      <p>Thursday afternoon, after Iceberg Lake: shore fishing at Swiftcurrent Lake, a few minutes from camp. The goal is one trout for dinner. The fish here run small, so treat it as a bonus.</p>
+      <p>The plan: fish early, and add more only if it's fun. The hikes stay either way.</p>
+      <ol class="plain fishplan">
+        <li><b>Sun 25, first cast.</b> An hour at Lake McDonald on the drive in from the airport. Lures only on this side of the park, and most of what bites goes back. Just for fun.</li>
+        <li><b>Tue 27, the real test.</b> First evening at Many Glacier, Swiftcurrent Lake with worms, right by camp.</li>
+        <li><b>Getting bites?</b> Fish again Wednesday evening after Grinnell, and spend Thursday afternoon on it with a trout for dinner. <b>A bust?</b> Thursday afternoon is rest instead.</li>
+      </ol>
+      <p>Glacier's lakes are cold and low in food, so the fish run small. A trout for dinner is a hope, not a promise.</p>
       <ul class="plain">
-        <li><b>Ethan brings the rod and tackle:</b> a spinning rod that breaks down, in a checked bag, plus line, small spinners and hooks.</li>
+        <li><b>Ethan brings the rod and tackle:</b> a spinning rod that breaks down, in a checked bag, plus line, small spinners and hooks. <b>A second cheap rod</b> lets you both fish at once; the park allows one each.</li>
         <li><b>No license needed</b> inside the park.</li>
         <li><b>No lead of any kind.</b> Steel, tin or tungsten tackle only.</li>
-        <li><b>Worms are legal here,</b> which is rare in the park. Grab some in Kalispell if a shop has them.</li>
+        <li><b>Worms are legal at Many Glacier only.</b> Grab some in Kalispell on Sunday if a shop has them, and keep them in the cooler.</li>
         <li><b>Keep:</b> brook trout (red spots with blue rings) and rainbow trout. <b>Release:</b> everything else, including any cutthroat (red slash under the jaw). Not sure? Let it go.</li>
         <li><b>A kept fish:</b> guts in a garbage can, skin stays on, everything fishy in the bear box.</li>
       </ul>

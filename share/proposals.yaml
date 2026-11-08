@@ -70,11 +70,10 @@
   source: share/proposals/oregon-aug-2027.html
   trip: northern-rockies-2027
   wishlist: august-friends-2027
-  for: two groups of friends flying into Portland, ~3 staying the whole time (group B, in Colin's car) and ~3 picking their own dates (group A, own rental)
+  for: the Oregon friends, two ways (riders in Colin's car for the whole loop, ~2; their own rental car and their own dates, ~3)
   status: draft  # not sent yet (Colin, 2026-11-01)
-  asOf: 2026-11-04
-  checked: 2026-11-08  # re-read after the Glacier flip and Ethan and Finn: the page covers Aug 1–12 and doesn't name the Glacier order
-  note: Rebuilt 2026-11-04 for the coast-first loop and two groups, with a day picker for group A (was "Oregon, August 1–10", one group of 4).
+  asOf: 2026-11-08
+  note: Rebuilt 2026-11-04 for the coast-first loop and two groups, with a day picker for group A (was "Oregon, August 1–10", one group of 4). Added the ride-home add-on for group B on 2026-11-08.
 
 - id: newfoundland-2027
   title: Newfoundland, June 10–19
@@ -84,9 +83,8 @@
   trip: newfoundland-2027
   for: the 3 friends, Gander in, St. John's out
   status: in
-  asOf: 2026-10-10
-  checked: 2026-11-04  # Jun 10–19 days and beds re-read 2026-11-01; the Nov 3–4 changes only touched the May turnaround before the trip
-  note: All three confirmed 2026-10-10 (trips/newfoundland-2027/trip.md).
+  asOf: 2026-11-08
+  note: All three confirmed 2026-10-10 (trips/newfoundland-2027/trip.md). Added the come-early (Gros Morne) and ride-home add-ons on 2026-11-08.
 
 - id: ride-along-2027
   title: Ride Along 2027
@@ -96,9 +94,9 @@
   trip: northern-rockies-2027
   also: [ newfoundland-2027 ]
   for: any friend who could fly in for part of the solo legs of Newfoundland or the Rockies (up to 2 at a time)
-  status: draft  # not sent yet
+  status: parked  # replaced by add-on sections on the friends' pages (Colin, 2026-11-08)
   asOf: 2026-11-08
-  note: Rebuilt 2026-11-08 for the Glacier flip. The Rockies window is Jul 12–25 now (get off at Kalispell as Ethan and Finn land); the Glacier week, Glacier → Oregon and the PDX stops are gone. The also line makes it show on Newfoundland's page.
+  note: Parked 2026-11-08. Colin judged the open legs unlikely to draw anyone, so the real options moved onto the friends' pages (Newfoundland come-early (Gros Morne, Jun 5–10) and ride-home (Jun 19–24), Oregon ride-home (Aug 12–16)). The Rockies Jul 12–25 and Newfoundland May 26 – Jun 5 legs are solo.
 
 - id: glacier-week-2027
   title: Glacier Week 2027
@@ -107,7 +105,7 @@
   source: share/proposals/glacier-week-2027.html
   trip: northern-rockies-2027
   for: Ethan and Finn (Colin's brother), Glacier only, FCA in Jul 25 (after a wedding Jul 24) and out Jul 30
-  status: in  # "they're good with just glacier" (Colin, 2026-11-08); page not sent yet
+  status: in  # "they're good with just glacier"; page sent 2026-11-08 (Colin)
   asOf: 2026-11-08
   note: Glacier only, with an all-in cost estimate (~$900–1,100 each), two outbound flight options, a packing checklist and fishing (Ethan brings the rod), book by Jan 10.
 
