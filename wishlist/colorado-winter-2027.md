@@ -1,13 +1,13 @@
 ---
 slug: colorado-winter-2027
 title: Colorado Winter, After Frisco
-subtitle: Finn and Colin stay on at the Frisco condo, car-free, skiing and snowshoeing by free bus
+subtitle: Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30
 status: wishlist
 months: [ 12, 1, 2 ]
 mode: fly
-days: 5
-start: 2026-12-31
-window: "Dec 31, 2026 – Jan 4, 2027 (pencilled 2026-11-08), or to Jan 6: stay on at the Frisco condo after the parents fly home Dec 30, then Bustang + A Line to DEN. Spring term starts Jan 19"
+days: 4
+start: 2026-12-21
+window: "Dec 21–24, 2026, before the family arrives Dec 25 (pencilled 2026-11-08). Was: stay on after Dec 30, dropped because the family wants to be home for New Year's Eve. Fall finals end Dec 18"
 region: Summit County (Frisco, Breckenridge, Silverthorne), Colorado
 country: USA
 budget: "~$700 for Colin + Finn over 5 nights, ~$960 over 7, before flight changes, snowshoe and microspike rentals and the A Line fare. The condo is the family's place; a free stay after Dec 30 is being asked (Colin, 2026-11-08). Colin pays any fare difference on his own flight change; passes, rentals and bus fares read 2026-11-08, food estimated. (was: ~$1,630–1,950 with a car and Granby/Estes motels)"
@@ -18,9 +18,11 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 # Colorado Winter, After Frisco
 
-*Finn and Colin stay on at the Frisco condo, car-free, skiing and snowshoeing by free bus*
+*Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30*
 
 ## Why
+
+**Flipped to before Frisco** *(Colin, 2026-11-08)*: the family wants to be home for New Year's Eve, so nobody stays past Dec 30. Colin wants to fly out early instead, Dec 20 or 21, and fly home with the family on Dec 30. **He pays any fare difference himself.** Still open: whether the condo is free Dec 21–24, and whether Finn comes early. The after-Dec-30 plan below is kept as notes, not a plan.
 
 **January's pick for winter 2026–27** *(Colin, 2026-11-08)*. The friends' January trips (Adirondacks, Costa Rica, Guatemala) were dropped because the people who'd pay for them need that money for summer. This one rides on Frisco (`wishlist/frisco-2026.md`, Dec 25–30): **the flight to Denver is booked and the return can be changed**, **Finn (his brother) is already there and will probably stay on**, and family might cover the extra days as a Christmas gift *(all Colin, 2026-11-08)*. So the cost is only the extra days.
 
@@ -47,12 +49,9 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 ## Next
 
-The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd, `share/proposals/colorado-winter-2027.html`, private until Colin shares it), rebuilt for the bus version on 2026-11-08.
-
-1. **Colin asks the family:** can he and Finn stay on at the condo after Dec 30 for free? The plan depends on it.
-2. **Colin checks changing his return flight** to Jan 4 or Jan 6 and **pays any fare difference himself** *(Colin, 2026-11-08)*. Finn's flight: not discussed yet.
-3. Find snowshoe and microspike rentals in Frisco; compare with buying microspikes.
-4. Send the page.
+1. **Ask:** is the condo free and open Dec 21–24? Is Finn coming early too?
+2. **Change the outbound to Mon Dec 21** (Colin pays the difference). Nonstop one-way CLE → DEN on Dec 21 was $135 on United and Southwest; Dec 20 was $189–285 *(Google Flights, 2026-11-08)*. Take a morning flight so Bustang gets him to Frisco the same afternoon.
+3. Then rebuild the family page (`share/proposals/colorado-winter-2027.html`) around the early days plus the family week.
 
 ## Research notes
 
@@ -95,3 +94,8 @@ The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/arti
 - ⚠️ Avalanche: Mount Royal is steep, and Buffalo Mountain and the Tenmile Range sit above the Lily Pad and Peaks trails. Masontown, as I remember it (unverified), was wrecked by a snowslide. Check CAIC every morning
 - 📋 Parents' airport ride if they didn't drive: Epic Mountain Express $79 (Frisco Transportation Center) or $89 door to door per person *(epicmountainexpress.com, snippet, 2026-11-08)*. Not needed if they return their own rental at DEN
 - 📋 One SUV for the whole Dec 25 → Jan 4 at DEN would have been $663 cheapest, Hertz $811 *(Kayak, 2026-11-08)*; dropped with the car
+
+### 2026-11-08 · Arriving early instead
+- The family wants to be home for New Year's Eve *(Colin, 2026-11-08)*. The stay after Dec 30 is dropped; Colin wants to fly out Dec 20 or 21 and fly home with the family Dec 30, and he pays any fare difference.
+- ✅ **One-way nonstop CLE → DEN** *(Google Flights via Firecrawl, read 2026-11-08, 1 adult, no bags)*: **Mon Dec 21: $135** on United (8:30 → 10:07, 10:35 → 12:14, 4:41 → 6:20) and Southwest (5:40 → 7:15, 5:40 PM → 7:05 PM, carry-on included). Sun Dec 20: $189 Frontier (4:49 → 6:24 PM, no carry-on), else $285. Fri Dec 25: $145 United 8:30, $219–285 others. What Colin's current ticket is, and its change rules: not recorded
+- ✅ Bustang Pegasus reaches Frisco Mon–Thu at 7:40, 10:40 AM, 12:40, 2:40, 6:40 and 9:10 PM *(ridebustang.com Denver–Avon, read 2026-11-08)*. From DEN, the A Line to Union Station first (fare and time not checked)
