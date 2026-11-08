@@ -105,10 +105,10 @@
   format: page
   source: share/proposals/glacier-week-2027.html
   trip: northern-rockies-2027
-  for: two friends riding along for the Glacier week, BZN in Jul 22 (pickup Jul 23), FCA out Jul 30 (names not recorded)
+  for: two friends joining at Glacier, FCA in Jul 25 (after a wedding Jul 24), ending A/B/C to pick (names not recorded)
   status: in  # "they're in" (Colin, 2026-11-08); page not sent yet
   asOf: 2026-11-08
-  note: A rundown, not a pitch. Picking them up in Bozeman settles the Day 12 route (via West Yellowstone and Bozeman).
+  note: Rebuilt the same day for the Jul 25 start and three endings. It assumes the proposed Glacier flip (west side first), which trip.md doesn't carry yet.
 
 - id: adirondacks-winter
   title: Adirondacks Ski Week 2027
