@@ -1,0 +1,252 @@
+<title>Glacier Week 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column under a glacier-blue masthead. Flights first (the one thing they act on), then the days, then logistics, with Portland as a quiet aside near the end. */
+:root {
+  --bg: #f3f5f4;
+  --surface: #e3e9e8;
+  --fg: #1d2624;
+  --muted: #5d6b68;
+  --ice: #1f7f86;
+  --argillite: #a8473a;
+  --line: #cfd8d6;
+  --sky1: #18343a;
+  --sky2: #2f7d84;
+  --display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131a19; --surface: #1d2725; --fg: #e6eeec; --muted: #9aaba7;
+    --ice: #5cc3c9; --argillite: #e0806f; --line: #2e3a38; --sky1: #0e2125; --sky2: #1c5a60;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #131a19; --surface: #1d2725; --fg: #e6eeec; --muted: #9aaba7;
+  --ice: #5cc3c9; --argillite: #e0806f; --line: #2e3a38; --sky1: #0e2125; --sky2: #1c5a60;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.mast { background: linear-gradient(180deg, var(--sky1) 0%, var(--sky2) 100%); color: #f1f7f6; }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mast .wrap { padding-block: 52px 0; }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+h1 { font-family: var(--display); font-weight: 800; font-size: clamp(52px, 13vw, 92px); line-height: 0.9; margin: 10px 0 14px; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+.lede { font-size: 19px; max-width: 34em; margin: 0 0 26px; }
+.facts { display: flex; flex-wrap: wrap; gap: 8px 22px; font-family: var(--mono); font-size: 13px; padding-bottom: 22px; }
+.ridge { display: block; width: 100%; height: 72px; }
+.ridge path { fill: var(--bg); }
+main .wrap { padding-block: 8px 60px; display: grid; gap: 46px; }
+section { min-width: 0; }
+h2 { font-family: var(--display); font-weight: 800; font-size: 32px; line-height: 1.05; margin: 0 0 14px; text-transform: uppercase; letter-spacing: 0.01em; text-wrap: balance; }
+h3 { font-family: var(--display); font-weight: 600; font-size: 22px; line-height: 1.15; margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+.muted { color: var(--muted); }
+.note { color: var(--muted); font-size: 15px; }
+a { color: var(--ice); }
+.legs { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 560px) { .legs { grid-template-columns: 1fr; } }
+.leg { background: var(--surface); border-radius: 6px; padding: 18px 18px 8px; min-width: 0; }
+.code { font-family: var(--display); font-weight: 800; font-size: 46px; line-height: 1; color: var(--ice); }
+.lbl { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.when { font-family: var(--mono); font-size: 14px; margin: 4px 0 10px; }
+.legs .leg { display: grid; align-content: start; gap: 2px; }
+.leg .code { font-size: 40px; }
+.price { font-family: var(--display); font-weight: 800; font-size: 28px; margin: 4px 0 8px; }
+.price span { font-family: var(--mono); font-weight: 400; font-size: 12px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
+.leg.ret { margin-top: 14px; }
+.deadline { border: 2px solid var(--argillite); border-radius: 6px; padding: 16px 18px 6px; margin-bottom: 18px; }
+.deadline .big { font-family: var(--display); font-weight: 800; font-size: 34px; line-height: 1.05; color: var(--argillite); text-transform: uppercase; margin: 2px 0 6px; }
+.days { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.days li { display: grid; grid-template-columns: 74px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.days .d { font-family: var(--mono); font-size: 13px; color: var(--muted); line-height: 1.35; padding-top: 3px; }
+.days .d b { display: block; color: var(--fg); font-weight: 500; font-size: 15px; }
+.days .what { min-width: 0; }
+.days .what p { margin-bottom: 6px; }
+.stat { font-family: var(--mono); font-size: 13px; color: var(--ice); font-variant-numeric: tabular-nums; }
+.tag { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; background: var(--surface); color: var(--muted); margin-left: 6px; vertical-align: 3px; }
+.tag.big { color: var(--argillite); }
+.camps { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 560px) { .camps { grid-template-columns: 1fr; } }
+.camp { border-top: 3px solid var(--ice); padding-top: 10px; min-width: 0; }
+.camp .n { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.money { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.money td { padding: 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.money td:last-child { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; padding-left: 16px; }
+.money tr:last-child td { border-bottom: 0; }
+.money .h td { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); padding-top: 18px; }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.warn { border-left: 3px solid var(--argillite); padding: 2px 0 2px 16px; }
+.warn ul.plain li::marker { color: var(--argillite); }
+.aside { border: 1px dashed var(--line); border-radius: 6px; padding: 18px 18px 8px; }
+.aside h2 { font-size: 24px; }
+.ask { background: var(--surface); border-radius: 6px; padding: 22px 22px 12px; }
+.ask ol { margin: 0; padding-left: 22px; display: grid; gap: 10px; }
+.ask li::marker { font-family: var(--mono); color: var(--ice); }
+footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); display: grid; gap: 4px; }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">Glacier National Park, Montana · July 2027</div>
+    <h1>Glacier Week</h1>
+    <p class="lede">Ethan, Finn: you're in. Fly into Kalispell the day after the wedding, camp five nights in Glacier with Colin, and fly home from the same airport. The Highline, the Going-to-the-Sun Road, Grinnell Glacier and Iceberg Lake.</p>
+    <div class="facts">
+      <span>Sun Jul 25 → Fri Jul 30</span>
+      <span>3 people · 1 Subaru</span>
+      <span>5 nights camping</span>
+      <span>~38 mi if you hike everything</span>
+    </div>
+  </div>
+  <svg class="ridge" viewBox="0 0 680 72" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 72 L0 56 L36 48 L62 30 L80 38 L104 14 L122 26 L150 20 L176 42 L214 50 L250 36 L268 16 L284 24 L300 6 L322 28 L356 40 L392 32 L420 46 L452 26 L470 34 L498 12 L520 22 L548 18 L574 38 L612 46 L646 40 L680 44 L680 72 Z"/>
+  </svg>
+</header>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <h2>Your flights</h2>
+      <div class="deadline">
+        <div class="lbl">Decide and book by</div>
+        <div class="big">Sunday, January 10</div>
+        <p>Colin books the campsites on January 23 and 27, and wants to know you're locked in first. Tell him which flights you booked.</p>
+      </div>
+      <p>American, Cleveland to Kalispell (FCA) and back, one stop each way. The return is the same either way. The only choice is how early you leave on Sunday, the morning after the wedding.</p>
+      <div class="legs">
+        <div class="leg">
+          <div class="lbl">Option 1 · cheapest</div>
+          <div class="code">6:04 AM</div>
+          <div class="when">Sun Jul 25 · CLE 6:04 AM → FCA 12:46 PM<br>via Chicago (ORD), 3 h 15 m layover</div>
+          <div class="price">$609 <span>round trip</span></div>
+          <p><b>The plan:</b> a very early alarm the morning after the wedding. Land at 12:46, Colin picks you up, bear spray and groceries in Kalispell, camp mid-afternoon. Time for Avalanche Lake (6.1 mi) that evening if you're up for it.</p>
+        </div>
+        <div class="leg">
+          <div class="lbl">Option 2 · more sleep</div>
+          <div class="code">9:44 AM</div>
+          <div class="when">Sun Jul 25 · CLE 9:44 AM → FCA 4:09 PM<br>via Chicago (ORD), 2 h 45 m layover</div>
+          <div class="price">~$697 <span>round trip</span></div>
+          <p><b>The plan:</b> a normal morning after the wedding. Land at 4:09, pickup and errands in Kalispell, camp around 6 PM (an estimate). Dinner and an early night before Monday's 5 AM Highline start. Sunset is 9:29 PM.</p>
+        </div>
+      </div>
+      <div class="leg ret">
+        <div class="lbl">Home · both options</div>
+        <div class="when"><b>Fri Jul 30 · FCA 1:36 PM → CLE 9:55 PM</b>, via Chicago (ORD), 1 h 4 m layover</div>
+        <p>We leave Many Glacier around 9 AM and reach the airport around noon (about 3 hours, an estimate). Skip the 4:49 PM return. It has a 9-hour overnight layover in Chicago.</p>
+      </div>
+      <p class="note">Prices are Google Flights for one adult, seen November 8, 2026. They include Basic Economy, one carry-on and <b>no checked bag</b>, and they will move. The 9:44 price is that flight's own listing; paired with the 1:36 return, check the total. <b>Before you book:</b> a tent, sleeping bags and pads probably mean a checked bag, so use the Bags filter to compare real totals. Basic Economy may also seat you two apart. Skip the 7:36 AM flight through Phoenix: its 37-minute connection is the one that strands you if anything runs late.</p>
+    </section>
+
+    <section>
+      <h2>The week, day by day</h2>
+      <ol class="days">
+        <li><div class="d"><b>Sun 25</b>Pickup</div><div class="what"><h3>Land and settle in</h3><p>Pickup at FCA, bear spray and groceries in Kalispell, then camp on the west side. On the 6:04 flight there's time for Avalanche Lake from camp: a cedar forest, then a lake with waterfalls pouring in from three sides.</p><span class="stat">optional: 6.1 mi · 780 ft</span></div></li>
+        <li><div class="d"><b>Mon 26</b></div><div class="what"><h3>The Highline <span class="tag big">big day</span></h3><p>The first mile is a ledge cut into a cliff wall, with a hand cable and a long drop. Then miles along the wall to a backcountry chalet that sells snacks, and a long descent. One way, using the park shuttle. Not feeling the ledge? Hidden Lake Overlook instead (2.8 mi).</p><span class="stat">11.8 mi · +2,388 ft · −4,773 ft</span></div></li>
+        <li><div class="d"><b>Tue 27</b></div><div class="what"><h3>Over Going-to-the-Sun Road</h3><p>The drive people come to Glacier for, east over the pass. St. Mary and Virginia Falls on the way down, then camp at Many Glacier and an easy lap of Swiftcurrent Lake.</p><span class="stat">~2.5 h driving · 3.1 mi · 469 ft · 2.6 mi flat</span></div></li>
+        <li><div class="d"><b>Wed 28</b></div><div class="what"><h3>Grinnell Glacier <span class="tag big">big day</span></h3><p>Up to the glacier the park is famous for. A boat across two lakes cuts about 3.4 miles off if you want the shorter version. Hard turnaround at 10:30 AM wherever we are.</p><span class="stat">11.1 mi · 2,047 ft (about 7.7 mi with the boat)</span></div></li>
+        <li><div class="d"><b>Thu 29</b>Last day</div><div class="what"><h3>Iceberg Lake</h3><p>A lake in a 3,000-ft rock bowl that stays cold enough for icebergs to float in it into August. 5 AM start for the parking and the light. Then the afternoon is for fishing Swiftcurrent Lake from the shore, and with luck a trout in the pan for dinner.</p><span class="stat">9.7 mi · 1,453 ft · then fishing</span></div></li>
+        <li><div class="d"><b>Fri 30</b>Fly home</div><div class="what"><h3>Kalispell airport</h3><p>Pack up early and drive about 3 hours to FCA. Colin keeps going west to Oregon.</p></div></li>
+      </ol>
+      <p class="note">Every hike is optional. Trail numbers are from AllTrails, except the Highline (nps.gov). The sun sets around 9:30 PM, with nearly 17 hours of daylight.</p>
+    </section>
+
+    <section>
+      <h2>Fishing Swiftcurrent</h2>
+      <p>Thursday afternoon, after Iceberg Lake, we fish Swiftcurrent Lake from the shore a few minutes from camp. The goal is one trout cooked for dinner. Glacier's lakes are cold and low in food, so the fish run small and nothing is guaranteed. Treat a fish as a bonus.</p>
+      <ul class="plain">
+        <li><b>No license needed</b> inside the park.</li>
+        <li><b>One of you brings a rod.</b> A spinning rod that breaks down or telescopes, packed in your checked bag, plus line and a few small spinners and hooks. The park allows one rod per person, so we take turns.</li>
+        <li><b>No lead of any kind.</b> No lead sinkers, jigs or lures. Steel, tin or tungsten instead. Check the packaging.</li>
+        <li><b>Bait is allowed here.</b> Worms are legal in the Many Glacier valley, which most of the park doesn't allow. Worth grabbing in Kalispell if a shop has them (not checked).</li>
+        <li><b>Which fish we can keep:</b> brook trout (red or orange spots with blue rings around them) and rainbow trout. <b>Everything else goes back:</b> bull trout, lake trout, and any cutthroat (a red slash under the jaw). The park's rule if you're not sure what it is: let it go.</li>
+        <li><b>Bear country rules for a kept fish:</b> guts go in a garbage can, the skin stays on, and everything that smells of fish goes in the bear box after dinner.</li>
+      </ul>
+      <p class="note">Rules from Glacier's fishing page (nps.gov, updated June 17, 2026). Check the 2027 version before you buy tackle.</p>
+    </section>
+
+    <section>
+      <h2>Where we sleep</h2>
+      <div class="camps">
+        <div class="camp">
+          <h3>Avalanche <span class="muted">(or Apgar)</span></h3>
+          <div class="n">Sun–Mon · 2 nights · west side</div>
+          <p>Cedar forest at the foot of the Sun Road, close to the airport.</p>
+        </div>
+        <div class="camp">
+          <h3>Many Glacier</h3>
+          <div class="n">Tue–Thu · 3 nights · east side, ~4,900 ft</div>
+          <p>The valley that gave the park its reputation. Grinnell and Iceberg Lake start here.</p>
+        </div>
+      </div>
+      <p>Nothing is booked yet. These sites open six months ahead in late January, and they go the same day. If one misses, there are backups (Apgar on the west side, St. Mary on the east), and the week still happens.</p>
+      <p>Glacier allows <b>two tents per site</b>. Colin has his, so <b>you two share one tent</b>.</p>
+    </section>
+
+    <section>
+      <h2>What it costs you</h2>
+      <p class="muted">While you're with Colin, everything shared is split three ways.</p>
+      <table class="money">
+        <tr class="h"><td colspan="2">Split three ways</td></tr>
+        <tr><td>Campsites, 5 nights at ~$23 a night (an estimate; 2027 fees aren't out)</td><td>~$38 each</td></tr>
+        <tr><td>Shared groceries (we cook at camp) and gas</td><td>split</td></tr>
+        <tr><td>Park entry</td><td>$0, Colin's annual pass covers the car</td></tr>
+        <tr class="h"><td colspan="2">Yours</td></tr>
+        <tr><td>Flights, FCA round trip</td><td>not priced</td></tr>
+        <tr><td>Bear spray, bought in Kalispell</td><td>not priced</td></tr>
+        <tr><td>Optional: the Grinnell boat, one way (2026 price)</td><td>$20.85</td></tr>
+        <tr><td>The Highline shuttle ticket (2026 price)</td><td>$1</td></tr>
+      </table>
+    </section>
+
+    <section class="warn">
+      <h2>Know this before you go</h2>
+      <ul class="plain">
+        <li><b>Grizzly country.</b> Everyone carries bear spray on their body, not in the pack. You can't fly with it, so it gets bought in Kalispell on pickup day. Food and anything scented, toothpaste included, goes in the bear box every night.</li>
+        <li><b>Two big days.</b> Grinnell and the Highline are each over 11 miles. If you can comfortably walk 10 miles with some climbing now, you'll be fine. If not, start walking.</li>
+        <li><b>The Highline ledge is exposed.</b> It isn't climbing and kids do it, but if heights get to you, the turnaround is at the cable and there's no shame in it.</li>
+        <li><b>Early starts.</b> Iceberg, Grinnell and the Highline all start around 5–6 AM. The lots fill by 7.</li>
+        <li><b>Cold mornings.</b> Roughly 76°F days and 46°F nights at Many Glacier (an estimate from nearby weather normals). The passes run 15°F colder and windy.</li>
+        <li><b>Some 2027 rules aren't announced yet,</b> including the Highline shuttle and Logan Pass parking. Both ran as trials in 2026. There's a backup hike if the shuttle doesn't run.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What to bring</h2>
+      <ul class="plain">
+        <li><b>Soft bags only.</b> Three people and three people's camping gear go in one Subaru Legacy. A duffel squashes; a hard suitcase doesn't.</li>
+        <li><b>One tent for the two of you</b>, and a sleeping bag and pad each. Bags rated around 30–40°F are plenty.</li>
+        <li>Broken-in hiking shoes, a daypack that carries 2 liters of water, a rain shell, a warm layer and a hat.</li>
+        <li>A headlamp, sunscreen and sunglasses.</li>
+        <li><b>One fishing rod</b> between you, with lead-free tackle (see Fishing Swiftcurrent).</li>
+        <li>Colin brings the stove, pan, cooler and kitchen.</li>
+      </ul>
+    </section>
+
+    <section class="aside">
+      <h2>If you get the itch for Portland</h2>
+      <p>Colin drives on from Glacier to Portland anyway: Idaho on Jul 30 (with a 15-mile downhill bike ride through old railroad tunnels if there's time), Hood River in the Columbia Gorge on Jul 31, Portland on Aug 1. You could ride along instead of flying home Friday, spend a few days in Portland on your own, and fly home from PDX. Portland is a big airport, and the MAX light rail runs from it to downtown.</p>
+      <p>The catch: Colin's car is full from Aug 1, when two more friends arrive for an Oregon week, so Portland is on your own. You'd split the two motel nights and gas on the way. <b>Decide before you buy flights,</b> since it changes which airport you fly home from.</p>
+    </section>
+
+    <section class="ask">
+      <h2>What Colin needs from you</h2>
+      <ol>
+        <li><b>By January 10:</b> which outbound you booked (6:04 or 9:44), and your confirmation that you're on the 1:36 PM home.</li>
+        <li>Which of you brings the tent, and which brings the rod.</li>
+      </ol>
+    </section>
+
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>As of November 8, 2026. Nothing is booked yet; the campsites open January 23 and 27, and flight prices are from that day. Drive times marked "estimate" aren't routed.</span>
+    <span>Questions go to Colin.</span>
+  </div>
+</footer>

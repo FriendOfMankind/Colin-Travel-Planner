@@ -99,6 +99,17 @@
   asOf: 2026-11-04
   note: Covers both trips. The also line makes it show on Newfoundland's page and go stale when either trip's log moves.
 
+- id: glacier-week-2027
+  title: Glacier Week 2027
+  url: https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj
+  format: page
+  source: share/proposals/glacier-week-2027.html
+  trip: northern-rockies-2027
+  for: Ethan and Finn, Glacier only, FCA in Jul 25 (after a wedding Jul 24) and out Jul 30
+  status: in  # "they're good with just glacier" (Colin, 2026-11-08); page not sent yet
+  asOf: 2026-11-08
+  note: Glacier only, with a Portland aside and two outbound flight options (6:04 vs 9:44 AM), book by Jan 10. Built on the Glacier flip, now in trip.md.
+
 - id: adirondacks-winter
   title: Adirondacks Ski Week 2027
   url: https://claude.ai/code/artifact/10e038c4-fe35-4378-82f2-de9e37aa7bdc

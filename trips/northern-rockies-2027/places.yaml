@@ -143,7 +143,7 @@ groups:
         days: 7, 8, 9
         wpNote: 9,518 ft, Shoshone NF. Highest camp of the trip.
       - name: Cody, WY
-        note: Day 7. Last full resupply before Great Falls. Paid showers here if wanted.
+        note: Day 7. Last full resupply before Day 12's (Missoula or Kalispell). Paid showers here if wanted.
         maps: Cody Wyoming
         verified: true
         lat: 44.52148
@@ -257,65 +257,65 @@ groups:
   - group: Glacier
     places:
       - name: The Loop Trailhead
-        note: Day 17. End of the one-way Highline; 2026 shuttle stop.
+        note: Day 15. End of the one-way Highline; 2026 shuttle stop.
         maps: The Loop Trailhead Glacier National Park
         verified: true
         lat: 48.754859
         lng: -113.800369
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Granite Park Chalet
-        note: Day 17. Water and snacks for sale.
+        note: Day 15. Water and snacks for sale.
         maps: Granite Park Chalet
         verified: true
         lat: 48.770932
         lng: -113.772219
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Many Glacier Campground
-        note: 🚨 Nights 12–15. Book mid-January 2027.
+        note: 🚨 Nights 16–18 (Days 12–15 until the 2026-11-08 flip). Book mid-January 2027.
         maps: Many Glacier Campground Glacier National Park
         verified: true
         lat: 48.796608
         lng: -113.677575
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 12–15
+        days: 16–18
         wpNote: Book mid-January 2027. No walk-up fallback in July.
       - name: Apgar Campground
-        note: 🚨 Nights 16–18, the backup to Avalanche *(Colin, 2026-10-30)*. Same January booking.
+        note: 🚨 Nights 12–15, the backup to Avalanche *(Colin, 2026-10-30)*. Same January booking.
         maps: Apgar Campground Glacier National Park
         verified: true
         lat: 48.525647
         lng: -113.981772
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: ⛺
-        days: 16–18
+        days: 12–15
         wpNote: Glacier west side, backup to Avalanche.
       - name: Great Falls, MT
-        note: Day 12. Final resupply and the one realistic laundry stop.
+        note: Off the route since the 2026-11-08 flip (Day 12 now goes west via Missoula). Kept as a pin.
         maps: Great Falls Montana
         verified: true
         lat: 47.502995
         lng: -111.30743
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Iceberg Lake Trailhead
-        note: Day 14. Lot fills by 7 AM. Bear corridor.
+        note: Day 18. Lot fills by 7 AM. Bear corridor.
         maps: Iceberg Lake Trailhead Many Glacier
         verified: true
         lat: 48.799409
         lng: -113.677568
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🧊
-        days: "14"
+        days: "18"
         wpNote: Bear corridor. Lot fills by 7 AM.
       - name: Grinnell Glacier Trailhead
-        note: Day 15. Snowfields into late July.
+        note: Day 17. Snowfields into late July.
         maps: Grinnell Glacier Trailhead Many Glacier
         verified: true
         lat: 48.797347
         lng: -113.668127
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🏔️
-        days: "15"
+        days: "17"
         wpNote: Snowfields on the upper traverse into late July.
       - name: Logan Pass
         note: ⚠️ 3-hour parking cap from July 1. $1 shuttle.
@@ -325,31 +325,31 @@ groups:
         lng: -113.718158
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
         icon: 🅿️
-        days: 16, 17
+        days: 15, 16
         wpNote: 3-hour parking cap from July 1. $1 ticketed shuttle.
       - name: Swiftcurrent Nature Trail
-        note: "Day 12. Added 2026-10-30."
+        note: "Day 16. Added 2026-10-30."
         maps: Swiftcurrent Nature Trail Many Glacier
         verified: true
         lat: 48.7966
         lng: -113.656019
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Swiftcurrent Trailhead
-        note: "Day 13: Redrock Falls and Bullhead Lake are both on the Swiftcurrent trail, from this one trailhead *(Colin, 2026-10-30)*."
+        note: "Off the plan since the 2026-11-08 flip (was Day 13): Redrock Falls and Bullhead Lake are both on the Swiftcurrent trail, from this one trailhead *(Colin, 2026-10-30)*."
         maps: Redrock Falls Trail Many Glacier
         verified: true
         lat: 48.79762
         lng: -113.678529
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Avalanche Lake Trailhead
-        note: "Day 16. Added 2026-10-30."
+        note: "Day 13. Added 2026-10-30."
         maps: Avalanche Lake Trailhead Glacier
         verified: true
         lat: 48.676493
         lng: -113.814027
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: St Mary Falls Trailhead
-        note: "Day 18. Added 2026-10-30."
+        note: "Day 16. Added 2026-10-30."
         maps: St Mary Falls Trailhead Glacier
         verified: true
         lat: 48.674321
@@ -502,7 +502,7 @@ groups:
         lng: -122.232221
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Avalanche Campground
-        note: "Nights 16–18, first choice (Colin, 2026-10-30). Apgar is the backup."
+        note: "Nights 12–15, first choice (Colin, 2026-10-30; nights moved by the 2026-11-08 flip). Apgar is the backup."
         maps: Avalanche Campground Glacier National Park
         verified: true
         lat: 48.677999
