@@ -140,7 +140,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 ### Group
 
-**Solo Jul 12 – Jul 31**, open to ride-alongs (below). **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
+**Solo Jul 12 – Jul 24**, open to ride-alongs (below). **Jul 25–30: Ethan and Finn at Glacier** (below), which fills both seats. **Solo again Jul 30–31** to Hood River, not offered as a ride-along. **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
 
 - **Group B** stays the whole time and rides in the Legacy with Colin. This plan is built around them. **2 friends plus Colin, 3 in the car** *(Colin, 2026-11-04)*.
 - **Group A** is about 3 people who are less physically capable and probably staying shorter. They rent their own car at PDX, pick their own arrival and departure days, book their own rooms at the same places, and skip the hard days (South Sister on Day 26, Tunnel Falls on Day 30). They do want the rafting *(Colin, 2026-11-04)*. Each day has a **Group A** line.
@@ -148,7 +148,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 **Solo again Aug 12–16** for the drive home, open to a Group B friend skipping the flight home. Not pitched as a fly-in leg: nobody flies out just for the drive home *(Colin, 2026-11-04)*.
 
-**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–27 campground windows.
+**Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. **Since 2026-11-08 the Rockies ride-along window is Jul 12–25 only** *(Colin, 2026-11-08)*: the Glacier week fills both seats, and nobody is expected to rent a car to join it or to fly out for the Jul 30–31 drive to Portland. Get on at Avon (Jul 12), Denver (Jul 13, getting to Vedauwoo on their own), Cody (Jul 18), Bozeman (Jul 23, on the Day 12 road line) or Kalispell (Jul 23, on the way in); get off at Cody, Bozeman, or **Kalispell on Jul 25**, as Ethan and Finn land. Details on the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Per-site people and tent limits: **Glacier is 8 people and 2 tents** (checked 2026-11-08, so two riders share a tent there); every other campground is still unchecked; check before booking a site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–23 windows the riders' nights fall in.
 
 **Glacier week: Ethan and Finn** *(Colin, 2026-11-08)*: after a wedding on Jul 24, they fly into Kalispell (FCA) on **Jul 25** (Day 14) and fly home from FCA on **Jul 30** (Day 19); Glacier only, not Portland. For them the Glacier halves were flipped: the west side first (Days 12–15), Many Glacier last (Days 16–18). 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so they share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
 
@@ -1587,7 +1587,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Twenty-one days of food logistics
 
-- [ ] **Resupplies: Laramie (day 3), Cody (day 7), Great Falls (day 12).** Day 4 has no planned grocery stop. Nothing between Cody and Great Falls is a real grocery.
+- [ ] **Resupplies: Laramie (day 3), Cody (day 7), Bozeman, Missoula or Kalispell (day 12), Kalispell with Ethan and Finn (day 14).** Day 4 has no planned grocery stop. Many Glacier (Days 16–18) has none: shop for three in Kalispell on Day 14.
 - [ ] Block ice at every resupply, not cubes
 - [ ] This is roughly twice the longest trip ever run on this cooler system — **the meal plan needs rebuilding, not extending**
 
@@ -1706,7 +1706,7 @@ Every place in `places.yaml` is pinned (Pin Ledger, 2026-10-30), and each stop a
 
 ### Offline regions
 
-Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Great Falls–Browning–Glacier, the Spokane–Gorge corridor, the central coast (Newport–Florence–Coos Bay), Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
+Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Bozeman–Butte–Missoula–Kalispell–Glacier, St. Mary–Many Glacier, the Spokane–Gorge corridor, the central coast (Newport–Florence–Coos Bay), Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
 
 ## Notes
 
@@ -1719,7 +1719,7 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 **Three real costs, none hidden:**
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
 • **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. *(Restored 2026-10-30 by the Snowy Range swap: Vedauwoo 8,300 ft, then Brooklyn Lake 10,500 ft, then the Bighorns. See log.)*
-• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve with a paid shower in Cody or Great Falls; easy to forget until day nine.
+• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve with a paid shower in Cody or Missoula / Kalispell; easy to forget until day nine.
 
 ### Three hikes are over the ceiling, on purpose, with bail-outs
 

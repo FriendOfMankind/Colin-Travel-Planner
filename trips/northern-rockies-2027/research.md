@@ -39,19 +39,22 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Canyon Campground**: open May 28 – Sept 19, 2027 (📋). A possible Madison fallback, not chosen
 - ✅ **Grand Canyon of the Yellowstone** (Day 10): Artist Point 0.3 mi, Brink of the Lower Falls 0.8 mi / 249 ft (AllTrails, 2026-10-29). ⬜ Slough Creek ⇄ Canyon drive time (unrouted)
 - 🟡 **Old Faithful and Grand Prismatic** (Day 11): Grand Prismatic overlook 1.6 mi / 131 ft from the Fairy Falls trailhead (AllTrails, 2026-10-29). ⬜ Fairy Falls lot parking in July. ⬜ eruption predictions (day-of). ⬜ Slough Creek → Old Faithful drive time (unrouted)
-- ⬜ **Madison → Many Glacier** (Day 12): route not chosen (via Mammoth/Livingston or West Yellowstone/Helena), unrouted
+- 🟡 **Madison → Glacier's west side** (Day 12, since the 2026-11-08 flip): `tools/roads.py` draws 448 mi via West Yellowstone, Bozeman, Butte, Missoula and Kalispell (2026-11-08). ⬜ the line isn't chosen; ⬜ a real drive time
 
 ## 6. Glacier (Days 12–18)
 - 🟡 **Vehicle reservations**: dropped for 2026; **2027 still not announced** *(re-checked 2026-10-29)*. The 2026 decision came in February, so expect Feb 2027, after the January campground sitting
 - ✅ **Many Glacier, Apgar, Avalanche**: every site needs a reservation; most 6-month, a handful on a 4-day window (the second shot)
 - ✅ **Two Medicine**: closed all of 2026; road rehab to late 2027, maybe 2028. ⬜ the 2027 campground status
 - 🟡 **St. Mary**: partial closures fall 2026 to spring 2027 only
-- ✅ **Grinnell Glacier opening**: "typically mid-July" (boat operator); opened ~July 15 in 2026 (YouTube). Day 15 is July 26 (trip shifted a week, 2026-10-10; was July 19)
+- ✅ **Grinnell Glacier opening**: "typically mid-July" (boat operator); opened ~July 15 in 2026 (YouTube). Day 17 is July 28 (trip shifted a week 2026-10-10, was July 19; the 2026-11-08 flip moved it from July 26)
 - ✅ **Many Glacier boat**: 2026 prices, reserve by 5 PM the day before, return queues
 - 🟡 **Iceberg Lake**: AllTrails, a 2025 video not yet transcribed
-- 🟡 **Highline / Garden Wall** (Day 17, one way to The Loop): 11.8 mi, +2,388 / −4,773 ft (📋 nps.gov/places/highline-trailhead, 2026-10-29); Granite Park Chalet sells water and snacks, last 4 mi a 2,300 ft descent (graniteparkchalet.com)
-- 🟡 **Highline shuttle** (required for Day 17): 2026 pilot, $1 tickets on recreation.gov, Jul 1 – Sept 7; west-side express Apgar / Lake McDonald Lodge → Logan Pass, stopping at The Loop; westbound Loop pickups ~10:30 AM – 8 PM; released 7 PM the day before plus some on a 60-day window; sold out fast (📋 nps.gov/glac, morethanjustparks.com, 2026-10-29). Ended Sept 8. ⬜ **2027 rules** (likely Feb 2027)
+- 🟡 **Highline / Garden Wall** (Day 15, one way to The Loop): 11.8 mi, +2,388 / −4,773 ft (📋 nps.gov/places/highline-trailhead, 2026-10-29); Granite Park Chalet sells water and snacks, last 4 mi a 2,300 ft descent (graniteparkchalet.com)
+- 🟡 **Highline shuttle** (required for Day 15, three tickets): 2026 pilot, $1 tickets on recreation.gov, Jul 1 – Sept 7; west-side express Apgar / Lake McDonald Lodge → Logan Pass, stopping at The Loop; westbound Loop pickups ~10:30 AM – 8 PM; released 7 PM the day before plus some on a 60-day window; sold out fast (📋 nps.gov/glac, morethanjustparks.com, 2026-10-29). Ended Sept 8. ⬜ **2027 rules** (likely Feb 2027)
 - 🟡 **Flood risk**: Many Glacier valley shut June 29 to July 2, 2026 after heavy rain. One event, not a pattern
+- ✅ **Per-site limits**: 8 people, 2 vehicles, **2 tents** (nps.gov/glac and recreation.gov, snippets, 2026-11-08)
+- ✅ **Fishing** (Day 18, Swiftcurrent): park rules read on nps.gov/glac via Firecrawl (page updated 2026-06-17); no license, bait allowed in the Many Glacier valley, no lead, brook and rainbow keepable. ⬜ whether Kalispell sells worms
+- ⬜ **Glacier Park International (FCA)**: not pinned, so the Day 14 and 19 airport legs have no road line. Pin Ledger
 - ✅ ~~**Middle Fork Flathead half-day raft**~~: researched (Glacier Guides $84 adult + 8% river fee + tip, max 9 per boat, May 9 – Sept 12 (2026 page); Glacier Raft Co, 2.5 h, 8 mi, 9 Class II–III rapids, from ~$77 (GetYourGuide). Per-person pricing, so solo is fine.), then **skipped** (Colin, 2026-10-29: Oregon already has two raft days)
 
 ## 7. West to Oregon and the boys week (Days 19–30)
@@ -59,7 +62,7 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 - ⬜ **Day 19 night** near Wallace / Kellogg, Idaho *(Colin, 2026-10-30)*: bed not picked
 - 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season and the basics; ⬜ fees, timing
 - ⬜ **Glacier → Hood River routing**: unrouted
-- 🟡 **Headcount**: "a group"; the plan assumes Colin + 3, but it isn't recorded. Decides the car
+- ✅ **Headcount**: group B is 2 friends plus Colin in the Legacy; group A rents its own car *(Colin, 2026-11-04)*
 
 ## 8. The drive home (Days 30–34)
 - ⬜ **Route Portland → Avon**: not chosen (~2,400 mi, unrouted)
@@ -69,7 +72,7 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 ## 9. Cross-cutting
 - 🟡 **Weather**: station normals for Cooke City (74/39) and St. Mary (high 73), July, NOAA 1991–2020 *(2026-10-29)*. ⬜ Bighorns, Beartooth Plateau, Oregon
 - 🟡 **Wildfire smoke**: first pass done *(2026-10-29)*. Glacier County alert Jul 27 2026, smoke over north Glacier Jul 31 2026; Bend averages 7.8 USG+ days a year (2013–2025), 21 in 2023, 2 in 2025, peak in August. ⬜ a Glacier-specific multi-year count
-- 🟡 **Showers**: none verified before Hood River (Day 20); the old "Apgar has one" had no source. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests**. ⬜ any that sell a shower to non-guests. 🔒
+- 🟡 **Showers**: none verified before Hood River (Day 20); the old "Apgar has one" had no source. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests** (Great Falls is off the route since the 2026-11-08 flip). ⬜ any that sell a shower to non-guests. 🔒
 
 ## Fetch list
 1. **Crazy Woman Canyon in a car.** Facebook group "Bighorn Mountains" or "Buffalo Wyoming Community", search `Crazy Woman Canyon car` / `Crazy Woman Canyon sedan`. Look for: whether a normal car made it, which end is rougher, and 2025–26 washouts.
