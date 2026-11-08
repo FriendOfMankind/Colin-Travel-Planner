@@ -1,30 +1,32 @@
 ---
 slug: colorado-winter-2027
 title: Colorado Winter, After Frisco
-subtitle: Long Nordic days in Grand County, then frozen alpine lakes in Rocky Mountain NP
+subtitle: Finn and Colin stay on at the Frisco condo, car-free, skiing and snowshoeing by free bus
 status: wishlist
 months: [ 12, 1, 2 ]
 mode: fly
 days: 5
 start: 2026-12-31
-window: "Dec 31, 2026 – Jan 4, 2027 (pencilled 2026-11-08): leave Frisco instead of flying home Dec 30, fly home from Denver. Spring term starts Jan 19, so it can run longer"
-region: Summit County → Grand County (Granby / Fraser) → Estes Park, Colorado
+window: "Dec 31, 2026 – Jan 4, 2027 (pencilled 2026-11-08), or to Jan 6: stay on at the Frisco condo after the parents fly home Dec 30, then Bustang + A Line to DEN. Spring term starts Jan 19"
+region: Summit County (Frisco, Breckenridge, Silverthorne), Colorado
 country: USA
-budget: "~$1,630–1,950 for Colin + Finn, 5 nights; ~$1,930–2,370 for 7 nights. Before flight-change fees and Devil's Thumb rentals; car, lodging and passes read 2026-11-08, food and gas estimated. Family may cover it as a Christmas gift (Colin, 2026-11-08)"
-tags: [ winter, nordic ski, snowshoe, frozen lakes, motels, rental car, brother, extension ]
+budget: "~$700 for Colin + Finn over 5 nights, ~$960 over 7, before flight changes, snowshoe and microspike rentals and the A Line fare. The condo is free (family-owned, Colin 2026-11-08); passes, rentals and bus fares read 2026-11-08, food estimated. (was: ~$1,630–1,950 with a car and Granby/Estes motels)"
+tags: [ winter, nordic ski, snowshoe, frozen lakes, bus, car-free, brother, extension ]
 updated: 2026-11-08
 source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
 # Colorado Winter, After Frisco
 
-*Long Nordic days in Grand County, then frozen alpine lakes in Rocky Mountain NP*
+*Finn and Colin stay on at the Frisco condo, car-free, skiing and snowshoeing by free bus*
 
 ## Why
 
 **January's pick for winter 2026–27** *(Colin, 2026-11-08)*. The friends' January trips (Adirondacks, Costa Rica, Guatemala) were dropped because the people who'd pay for them need that money for summer. This one rides on Frisco (`wishlist/frisco-2026.md`, Dec 25–30): **the flight to Denver is booked and the return can be changed**, **Finn (his brother) is already there and will probably stay on**, and family might cover the extra days as a Christmas gift *(all Colin, 2026-11-08)*. So the cost is only the extra days.
 
-**What he wants from it** *(Colin, 2026-11-08)*: quality long-distance cross-country ski tracks, high-value winter hikes, walking on ice, and exploring. Motels and a rental car, not camping.
+**What he wants from it** *(Colin, 2026-11-08)*: quality long-distance cross-country ski tracks, high-value winter hikes, walking on ice, and exploring.
+
+**Frisco base, no car** *(Colin, 2026-11-08)*: ~$1,000 a person for the Granby + Estes road version "might be a tough sell". **The condo is free (family-owned)**, and he picked buses over a car: "the bus trips and free accommodation are so high value… I'm okay with returning to the same place again and exploring and maybe doing more challenging trails." What that gives up: Grand County's long trail networks, Rocky Mountain NP, Mayflower Gulch after Dec 30 (so do it in the family week), and a real Leadville day (see notes).
 
 **What he doesn't want** *(Colin, 2026-11-08)*: hot springs (been to Colorado ones, "it was okay"), red rock with snow ("idc about that"), Black Canyon (been in May), a guided ice-climbing day ("a little expensive"; $275–599 per person), and a ghost town as the point of a trip.
 
@@ -34,21 +36,22 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 ## The shape (draft, nothing booked)
 
-- **Wed Dec 30:** Frisco → DEN (parents fly home) → over Berthoud Pass to Granby, ~2 hr ⚠️ unrouted. Littletree Inn ×3.
-- **Thu Dec 31:** Snow Mountain Ranch, 82.5 km.
-- **Fri Jan 1:** Devil's Thumb Ranch, ~120 km.
-- **Sat Jan 2:** Granby → Estes Park, around the park (⚠️ Trail Ridge Road closed in winter, my memory, not checked), ~3 hr ⚠️ unrouted. Rent microspikes and snowshoes. Saddle & Surrey Motel.
-- **Sun Jan 3:** Nymph → Dream → Emerald lakes.
-- **Mon Jan 4:** 5-night version: a morning walk, DEN ~1.5 hr ⚠️ unrouted. 7-night version: Sky Pond if the avalanche report allows, Tue Jan 5 spare day, fly Wed Jan 6.
-- **Car:** start and end at DEN, so no one-way fee. AWD SUV (Colorado traction law on I-70 and Berthoud Pass).
+- **Dec 25–30, family week:** Sat 26 Frisco Nordic lesson · Sun 27 Mayflower Gulch snowshoe (family car) · Mon 28 rec path to Breckenridge · Tue 29 free. Parents drive the rental to DEN and fly Wed Dec 30.
+- **Wed Dec 30:** an easy afternoon at Frisco Nordic.
+- **Thu Dec 31:** Peaks Trail, Frisco → Breckenridge, 7.8 mi one way, snowshoes or skis, free bus back.
+- **Fri Jan 1:** Gold Run (Breck Free Ride) or Breckenridge Nordic.
+- **Sat Jan 2:** Mount Royal and the Masontown ruins on foot from Main Street; afternoon ski.
+- **Sun Jan 3:** Wildernest bus to the Lily Pad trailhead, the frozen lake, then down to Meadow Creek trailhead; Sapphire Point.
+- **Mon Jan 4 (5 nights):** Bustang to Union Station, A Line to DEN. **7 nights:** Mon Jan 4 Vail by Bustang ($5), Tue Jan 5 Boreas Pass Road (bus access to the winter trailhead unchecked), fly Wed Jan 6.
+- **Kept from the road version for another winter:** Grand County XC (Snow Mountain Ranch, Devil's Thumb), RMNP's frozen lakes from Estes Park. Prices are in the notes below.
 
 ## Next
 
-The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd, `share/proposals/colorado-winter-2027.html`, private until Colin shares it). It covers the Frisco-week Nordic plan for everyone, the car, both lengths and the budget.
+The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd, `share/proposals/colorado-winter-2027.html`, private until Colin shares it), rebuilt for the bus version on 2026-11-08.
 
-1. Send it. Find out from the family whether the Frisco rental is booked yet; if not, one SUV in Colin's name, Dec 25 → Jan 4/6 at DEN, drops them at departures on Dec 30.
-2. Price the flight change for Colin and Finn to Jan 4 or Jan 6 (airline and fare type not recorded).
-3. If it's a yes: AAA membership (for Hertz's under-25 waiver), the Littletree Inn and Saddle & Surrey (both free cancellation), then the car. Check Snow Mountain Ranch rooms direct at ymcarockies.org (overnight guests ski free).
+1. Price the flight change for Colin and Finn to Jan 4 or Jan 6 (airline and fare type not recorded).
+2. Find snowshoe and microspike rentals in Frisco; compare with buying microspikes.
+3. Send the page.
 
 ## Research notes
 
@@ -77,3 +80,17 @@ The family pitch is the page **"Colorado After Frisco"** (https://claude.ai/arti
 - ✅ **Rocky Mountain NP:** $30 1-day, $35 7-day per vehicle *(nps.gov/romo fees, search snippet, 2026-11-08)*. Colin owns an America the Beautiful pass (`me/gear.md`); its expiry isn't recorded
 - 📋 **Estes Park rentals:** Estes Park Mountain Shop snowshoes $8, microspikes $15, microspikes + poles $17 *(estesparkmountainshop.com, snippet, 2026-11-08)*; Scot's Sporting Goods microspikes $10 *(snippet)*
 - ⚠️ Gas (~$60–70 for ~400 mi) and food (~$30 per person per day) are my estimates, not looked up
+
+### 2026-11-08 · Frisco base, by bus
+- Colin: ~$1,000 a person "might be a tough sell"; the **Frisco condo is free (family-owned)**; he chose buses over keeping a car *(Colin, 2026-11-08)*.
+- 📋 Renting instead would be dearer than the road version: Frisco Dec 30 → Jan 4, 2 adults, cheapest $1,157.02 (New Summit Inn); Silverthorne $1,090.39; Leadville $579.90 (Columbine Inn) *(Booking.com, read 2026-11-08)*
+- ✅ **Summit Stage is free**, serving Frisco, Breckenridge, Silverthorne, Keystone and Copper *(coppercolorado.com and friscogov.com, snippets, 2026-11-08)*; 6:00 a.m. to 1:30 a.m., 365 days a year *(allsummitcounty.com, snippet; holiday schedule not confirmed)*. Winter 2026–27 schedule runs Nov 15, 2026 – Apr 17, 2027 *(summitcountyco.gov, read 2026-11-08)*
+- ✅ **Transit to Trails** *(summitcountyco.gov, read 2026-11-08)*: Miners Creek TH (Rainbow Lake, Peaks Trail) 0.2 mi from the Frisco–Breck stop; Gold Hill TH 0.3 mi; Lily Pad and Buffalo Cabin TH 0.0 mi on the Wildernest loop; Salt Lick TH 0.3 mi; Willow Creek TH 0.9 mi; North Tenmile TH and Colorado Trailhead at Copper 0.2 mi; Sapphire Point 0.15 mi (X Flyer); Lower McCullough Gulch and Hoosier Pass 0.0 mi (Blue River / Park County commuter). The page lists no winter caveats
+- ✅ Breck Free Ride serves the Gold Run Nordic Center, 6:15 a.m. – 11:15 p.m. *(breckenridgerecreation.com, snippet, 2026-11-08)*
+- ✅ **Bustang:** Frisco → Denver Union Station $12 (West Line) or $13 (Pegasus); Frisco → Vail $5–6 *(ridebustang.com, read 2026-11-08)*. Union Station → DEN by the RTD A Line; fare not checked
+- ✅ **Leadville by bus is weak:** the Lake County Commuter leaves Frisco at 12:00, 4:00, 6:30 and 10:30 PM and leaves Leadville at 5:20 AM, 6:20 AM, 1:00 PM and 7:30 PM *(Summit Stage winter 2026–27 PDF, read 2026-11-08)*. Days of operation and fare not shown. That's ~3.5 h of daylight in Leadville, so no full Mineral Belt loop (11.6 mi, groomed; Tennessee Pass Nordic 27 km, no bus)
+- ✅ **Trails** *(townoffrisco.com hiking page, read 2026-11-08)*: Peaks Trail 7.8 mi one way, 9,110 → 10,075 ft, bus back from Breckenridge. Mount Royal & Masontown: Forest Service "most difficult", ~2 mi one way, 9,097 → 10,347 ft, Masontown is mining history ("leave historic artifacts"). Lily Pad Lake 1.3 mi from Meadow Creek TH, or from Wildernest by bus. 📋 The Peaks Trail is used for cross-country skiing and snowshoeing in winter *(cmc.org, 5280.com, snippets)*
+- 📋 **Boreas Pass Road:** Bakers Tank 3.5 mi up; Section House 6.5 mi from the Boreas Pass trailhead *(summithuts.org, gogoodtravel.com, snippets, 2026-11-08)*. The Summit Stage Boreas Pass loop serves Breckenridge neighbourhoods (Gold Point, Rock Ridge, Bluffs…); whether a stop is near the winter trailhead isn't known
+- ⚠️ Avalanche: Mount Royal is steep, and Buffalo Mountain and the Tenmile Range sit above the Lily Pad and Peaks trails. Masontown, as I remember it (unverified), was wrecked by a snowslide. Check CAIC every morning
+- 📋 Parents' airport ride if they didn't drive: Epic Mountain Express $79 (Frisco Transportation Center) or $89 door to door per person *(epicmountainexpress.com, snippet, 2026-11-08)*. Not needed if they return their own rental at DEN
+- 📋 One SUV for the whole Dec 25 → Jan 4 at DEN would have been $663 cheapest, Hertz $811 *(Kayak, 2026-11-08)*; dropped with the car
