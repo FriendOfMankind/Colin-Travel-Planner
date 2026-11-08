@@ -22,7 +22,7 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 ## Why
 
-**Flipped to before Frisco** *(Colin, 2026-11-08)*: the family wants to be home for New Year's Eve, so nobody stays past Dec 30. Colin wants to fly out early instead, Dec 20 or 21, and fly home with the family on Dec 30. **He pays any fare difference himself.** Still open: whether the condo is free Dec 21–24, and whether Finn comes early. The after-Dec-30 plan below is kept as notes, not a plan.
+**Flipped to before Frisco** *(Colin, 2026-11-08)*: the family wants to be home for New Year's Eve, so nobody stays past Dec 30. Colin wants to fly out early instead, Dec 20 or 21, and fly home with the family on Dec 30. **He pays any fare difference himself.** Still open: whether the condo is free Dec 21–24. Finn is open to coming early *(Colin, 2026-11-08)*. The after-Dec-30 plan below is kept as notes, not a plan.
 
 **January's pick for winter 2026–27** *(Colin, 2026-11-08)*. The friends' January trips (Adirondacks, Costa Rica, Guatemala) were dropped because the people who'd pay for them need that money for summer. This one rides on Frisco (`wishlist/frisco-2026.md`, Dec 25–30): **the flight to Denver is booked and the return can be changed**, **Finn (his brother) is already there and will probably stay on**, and family might cover the extra days as a Christmas gift *(all Colin, 2026-11-08)*. So the cost is only the extra days.
 
@@ -49,7 +49,7 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 ## Next
 
-1. **Ask:** is the condo free and open Dec 21–24? Is Finn coming early too?
+1. **Colin is asking** *(2026-11-08)*: is the condo free and open Dec 21–24 (and who has a key)? Which airline and fare type are his and Finn's tickets on? **Finn is open to coming early** *(Colin, 2026-11-08)*.
 2. **Change the outbound to Mon Dec 21** (Colin pays the difference). Nonstop one-way CLE → DEN on Dec 21 was $135 on United and Southwest; Dec 20 was $189–285 *(Google Flights, 2026-11-08)*. Take a morning flight so Bustang gets him to Frisco the same afternoon.
 3. Then rebuild the family page (`share/proposals/colorado-winter-2027.html`) around the early days plus the family week.
 
