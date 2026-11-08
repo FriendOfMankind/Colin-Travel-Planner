@@ -30,7 +30,7 @@ tags:
   - july
   - long haul
   - reservation race
-next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 3–5, scarce) and the White Salmon raft (Aug 9, refundable to 7 days out)**, once the headcount for both groups is known — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Many Glacier and Avalanche (Apgar as backup). Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
+next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 3–5, scarce) and the White Salmon raft (Aug 9, refundable to 7 days out)**, once the headcount for both groups is known — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then four consecutive hard bookings all open in **mid-to-late January 2027** — Slough Creek (16 sites, gone in minutes), Madison, then Avalanche (Apgar as backup) and Many Glacier. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
 booking:
   - system: recreation.gov
     what: Vedauwoo, Medicine Bow NF (Jul 13)
@@ -53,13 +53,13 @@ booking:
     target: 2027-07-22
     note: 'Day 11, for Old Faithful and Grand Prismatic. "Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before" (nps.gov/yell campgrounds page, snippet, 2026-10-29). Open May 7 – Oct 17, 2027. Fee TBD.'
   - system: recreation.gov
-    what: Many Glacier, Glacier NP (Jul 23–26)
-    target: 2027-07-23
-    note: One of the three Glacier campgrounds that go the day the window opens. All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
-  - system: recreation.gov
-    what: Avalanche (first choice) or Apgar, Glacier NP (Jul 27–29)
+    what: Many Glacier, Glacier NP (Jul 27–29)
     target: 2027-07-27
-    note: Second competitive Glacier booking — do both halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
+    note: One of the three Glacier campgrounds that go the day the window opens. Second half of the Glacier stay since the 2026-11-08 flip (was Jul 23–26). All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
+  - system: recreation.gov
+    what: Avalanche (first choice) or Apgar, Glacier NP (Jul 23–26)
+    target: 2027-07-23
+    note: First half of the Glacier stay since the 2026-11-08 flip (was Jul 27–29), and the first Glacier window — do both halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
   - system: private
     what: Hood River motel, Jul 31 (Colin alone)
     target: 2027-07-31
@@ -128,7 +128,7 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 18, 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 14 (the morning), 20 and 27 are soft on purpose.
 
 ## Overview
 
@@ -150,7 +150,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 
 **Ride-alongs on the solo legs** *(Colin, 2026-11-04)*: up to **2 at a time**, each in their own tent on Colin's site, splitting everything evenly while along (gas, sites, passes, ferries, shared groceries; own flights), and they can take driving shifts. Where they can get on and off, with dates and airports: the "Ride Along 2027" page (https://claude.ai/artifact/LboteJ1DkP32GxSGVxuvLQ, `share/proposals/ride-along-2027.html`). ⚠️ Each campground's per-site people and tent limit isn't checked yet; check it before booking any site for a ride-along. Tell-by date for the Rockies: **Jan 10**, before the Jan 13–27 campground windows.
 
-**Glacier week: two friends are in, from Jul 25** *(Colin, 2026-11-08)*: a wedding on Jul 24, so they fly into Kalispell (FCA) on Jul 25 for about 7 days. Names not recorded. **Pending, not yet in the days below:** flip the Glacier halves (west side Jul 23–26, Many Glacier Jul 27–29) so the pickup is ~45 min from camp, and they choose an ending: **A** fly home from FCA Jul 30, **B** ride to Portland and fly home Aug 1, **C** ride to Portland and stay on without Colin's car (it's full from Aug 1). Days 12–20 get rewritten once they pick. 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so the two friends share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
+**Glacier week: Ethan and Finn** *(Colin, 2026-11-08)*: after a wedding on Jul 24, they fly into Kalispell (FCA) on **Jul 25** (Day 14) and fly home from FCA on **Jul 30** (Day 19); Glacier only, not Portland. For them the Glacier halves were flipped: the west side first (Days 12–15), Many Glacier last (Days 16–18). 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so they share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
 
 ### Why July, not June
 
@@ -166,7 +166,7 @@ The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation
 
 ### Length
 
-The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 18, 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
+The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 14 (the morning), 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
 
 ### Timing vs Newfoundland
 
@@ -604,51 +604,50 @@ Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yello
 
 ```yaml
 date: 2027-07-23
-tagline: Out of Yellowstone the long way, across Montana, and then seven nights in one park.
+tagline: Out of Yellowstone, across Montana, and then seven nights in one park, west side first.
 type: travel
-driving: ⚠️ ~450 mi, ~9h (my estimate, unrouted; route via Mammoth and Livingston or via West Yellowstone and Helena not chosen)
+driving: ⚠️ ~8–9h (my estimate, unrouted), Madison → West Yellowstone → Missoula → Kalispell → West Glacier; the line isn't chosen
 slack: None. Longest day between anchors.
 overnight:
-  name: Many Glacier Campground
-  place: Glacier National Park, MT
+  name: Avalanche Campground
+  place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
   checkin: 🚨 Book mid-January 2027
   confirmation: TBD
-  notes: "🚨 **THE booking of this trip.** ✅ 6-month rolling window on recreation.gov, released daily; Many Glacier is one of the three that go the day they open. **Arriving without a reservation is not a plan.** 📋 Every site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, which is the second shot if January fails (recreation.gov, snippet, 2026-10-10). If it fails: **St. Mary** is the fallback. ⚠️ **Two Medicine was closed all of 2026** for a water-system rebuild, and its road rehab runs to late 2027, possibly 2028; its 2027 status isn't announced (nps.gov/glac project page, snippet, 2026-10-10). St. Mary has partial closures fall 2026 – spring 2027 only."
+  notes: "🚨 **THE booking of this trip, with Many Glacier four days later.** Avalanche is the first choice, **Apgar the backup** *(Colin, 2026-10-30)*. Both go the day their window opens; book both halves of the Glacier stay in the same January sitting. 📋 Every Glacier site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, the second shot if January fails (recreation.gov, snippet, 2026-10-10). Max 8 people, 2 vehicles and **2 tents** per site (nps.gov/glac camping pages, snippets, 2026-11-08). Showers: not verified. West side first since 2026-11-08, so the Glacier-week friends' pickup at Kalispell (FCA) on Day 14 is ~45 min away (⚠️ unrouted)."
 ```
 
 **Schedule**
 - TBD · sunrise · Sunrise TBD (Madison is pinned; sun times not recomputed yet). Break camp in the dark if it saves an hour.
-- 6:00 AM (9h) · drive! · → Many Glacier via Great Falls and Browning. ⚠️ **Unrouted**: from Madison the old Slough Creek → Livingston line is longer, and the route north isn't picked. **Third and final resupply in Great Falls** — East Glacier has almost nothing. Last realistic laundry too. · 📍 Many Glacier Campground Glacier National Park
-- 3:30 PM (1h) · stop · Check in. ✅ **No vehicle reservation.** Entry pass required and the America the Beautiful pass covers it.
-- 5:00 PM (1h) · hike · **Swiftcurrent Nature Trail.** ✅ AllTrails: **2.6 mi, 131 ft, Easy, loop.** A flat lap of Swiftcurrent Lake after nine hours of driving. · 📍 Swiftcurrent Nature Trail Many Glacier
+- 6:00 AM (8h 30m) · drive! · → the west side of Glacier via Missoula and Kalispell. ⚠️ **Unrouted and the line isn't picked.** **Resupply and laundry in Missoula or Kalispell**, the last big towns; Kalispell again on Day 14 with the friends. · 📍 Avalanche Campground Glacier National Park
+- 3:30 PM (1h) · stop · Check in. ✅ **No vehicle reservation** (2026 rules). Entry pass required and the America the Beautiful pass covers it.
 - 9:32 PM · sunset · Sunset. Dark 10:03 PM. Nearly 17 hours of light up here.
 
 **Meals**
 - B: made at camp
-- L: bought — Great Falls
+- L: bought — on the road
 - D: made at camp
 
 #### Highlights
 
-The Many Glacier valley is the reason the park has the reputation it has, and you arrive with hours of light still in the day.
+Seven nights in one park start tonight, and the drive ends in a cedar forest instead of a parking lot.
 
 #### Warnings
 
-Nine hours after eleven days of driving is when the mistake happens. **Stop every two hours whether it feels necessary or not.** Deer and elk on the road after Browning at dusk.
+Nine hours after eleven days of driving is when the mistake happens. **Stop every two hours whether it feels necessary or not.** Deer and elk on US-93 at dusk.
 
 ### Day 13 — 2027-07-24 · Easy Saturday
 
 ```yaml
 date: 2027-07-24
-tagline: Short walks from camp on the busiest day of the week, on purpose.
+tagline: One lake from camp on the busiest day of the week, on purpose.
 type: rest
-driving: ~2 mi
+driving: none
 slack: Large.
 overnight:
-  name: Many Glacier Campground
-  place: Glacier NP, MT
+  name: Avalanche Campground
+  place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
   checkin: n/a — night 2 of 4
@@ -657,11 +656,10 @@ overnight:
 ```
 
 **Schedule**
-- 5:50 AM · sunrise · Sunrise. First light 5:19 AM. No alarm.
-- 8:00 AM (2h) · hike · **Redrock Falls.** ✅ AllTrails: **3.7 mi, 255 ft, Easy.** From the Swiftcurrent trailhead at camp. · 📍 Redrock Falls Trail Many Glacier
-- 11:00 AM (2h 30m) · hike · **Bullhead Lake via Swiftcurrent Pass Trail.** ✅ AllTrails: **6.8 mi, 446 ft, Easy, ~144 min.** Same valley, further in. **Pick one of these two if the legs are done** — this is a soft-landing day, not a target. · 📍 Redrock Falls Trail Many Glacier
-- afternoon · stop · Camp. Reorganise, wash something, look at the wall.
-- 9:31 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
+- 5:52 AM · sunrise · Sunrise. First light 5:20 AM. No alarm.
+- 8:00 AM (3h) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Starts at camp, so no parking fight on a Saturday. · 📍 Avalanche Lake Trailhead Glacier
+- afternoon · stop · Camp. Reorganise, wash something, sleep.
+- 9:30 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
 
 **Meals**
 - B: made at camp
@@ -670,61 +668,61 @@ overnight:
 
 #### Highlights
 
-Two easy valley walks with 3,000-foot walls on either side, on the day every trailhead in the park is at its worst.
+A big-payoff lake that starts at the tent, on the day every trailhead in the park is at its worst.
 
 #### Warnings
 
-**Saturday in Glacier in mid-July is the busiest combination on this route.** Everything today leaves on foot from the campground, which is why it is scheduled here rather than a marquee hike. Bear country — noise on the Swiftcurrent valley trails, they are heavily used by both people and bears.
+**Saturday in Glacier in mid-July is the busiest combination on this route.** Avalanche Lake is busy every day; going at 8 AM from camp beats the lot. Bear country: noise on the trail.
 
-### Day 14 — 2027-07-25 · Iceberg Lake
+### Day 14 — 2027-07-25 · Slack Morning, Friends Land
 
 ```yaml
 date: 2027-07-25
-tagline: A cirque lake with ice still floating in it in July.
-type: activity
-driving: ~1 mi
-slack: ~2 hours.
+tagline: The trip's spare morning, then Ethan and Finn at Kalispell.
+type: rest
+driving: ~1h 30m round trip to Kalispell (⚠️ my estimate, unrouted)
+slack: The morning IS the slack. ⭐ SOFT DAY 2 OF 2.
 overnight:
-  name: Many Glacier Campground
-  place: Glacier NP, MT
+  name: Avalanche Campground
+  place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
   checkin: n/a — night 3 of 4
   confirmation: TBD
-  notes: ""
+  notes: "From tonight, **Ethan and Finn** share the site (their own tent; Glacier's limit is 2 tents per site) *(Colin, 2026-11-08)*."
 ```
 
 **Schedule**
-- 5:51 AM · sunrise · Sunrise. First light 5:20 AM.
-- 5:00 AM (6h) · hike · **Iceberg Lake.** ✅ AllTrails: **9.7 mi, 1,453 ft, Moderate, out-and-back, ~257 min.** Fits the ceiling on both counts. The lake sits in a 3,000-ft cirque that keeps it frozen so late that bergs float in it into August. · 📍 Iceberg Lake Trailhead Many Glacier
-- 8:30 AM (1h) · stop · **Sit at the lake.** This is the hour the day is for.
-- afternoon · stop · Camp. Deliberate half-day before tomorrow.
-- 9:30 PM · sunset · Sunset. Dark 10:00 PM. Waning gibbous 60%.
+- 5:53 AM · sunrise · Sunrise. First light 5:21 AM.
+- — · note · **Unscheduled on purpose.** Thirteen days in, something will have been weathered out, closed, sold out or simply missed. The morning is where it goes; otherwise, nothing.
+- afternoon · drive · → **Kalispell (FCA, Glacier Park International)**: pick up Ethan and Finn whenever they land *(Colin, 2026-11-08; they're at a wedding on Jul 24)*. **Bear spray for both of them in Kalispell**, since it can't fly, and a grocery restock for three. · 📍 Glacier Park International Airport
+- evening · stop · Back at camp. If they land early, Avalanche Lake again with them is an option.
+- 9:29 PM · sunset · Sunset. Dark 10:00 PM. Waning gibbous 60%.
 
 **Meals**
-- B: made — pre-dawn
-- L: packed
-- D: made at camp
+- B: made at camp
+- L: made at camp
+- D: made at camp, for three
 
 #### Highlights
 
-Icebergs in July, on a trail that fits inside the day ceiling with room to spare. The best effort-to-payoff hike on the whole route.
+The one morning on the Glacier week that nothing claims, and then the company arrives.
 
 #### Warnings
 
-🚨 **Grizzly country and this is a known bear corridor.** Bear spray, noise on blind corners, do not hike it silent at dawn. **The Many Glacier lot fills by 7 AM in July** — the 5 AM start is the parking plan as much as the light plan. ⚠️ It lands on a Sunday. The crowd rule (`me/travel-style.md`) keeps it anyway: Iceberg is an icon worth its crowd, the 5 AM start beats most of it, and the trip has its empty places elsewhere.
+Ask for their flight times before January. A late landing (after a wedding the day before) still works, but tomorrow then needs a later start (see Day 15).
 
-### Day 15 — 2027-07-26 · Grinnell Glacier
+### Day 15 — 2027-07-26 · The Highline
 
 ```yaml
 date: 2027-07-26
-tagline: The hardest day of the trip, on a Monday, on the trail the park is named for.
+tagline: A ledge cut along the Garden Wall, then the whole Highline one way to The Loop, with Ethan and Finn, on a Monday.
 type: activity
-driving: ~1 mi
-slack: Thin. Everything else today bends around this.
+driving: ~35 mi plus the shuttle (⚠️ unrouted)
+slack: ~1 hour.
 overnight:
-  name: Many Glacier Campground
-  place: Glacier NP, MT
+  name: Avalanche Campground
+  place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
   checkin: n/a — night 4 of 4
@@ -733,88 +731,13 @@ overnight:
 ```
 
 **Schedule**
-- 5:52 AM · sunrise · Sunrise. First light 5:22 AM.
-- 5:00 AM (8h) · hike! · **Grinnell Glacier Trail.** ✅ AllTrails: **11.1 mi, 2,047 ft, Hard, out-and-back, ~319 min moving.** ⚠️ **Over the distance ceiling by about a mile**, under the gain half. The payoff is standing at a glacier that has lost most of its area in a century and is documented doing it. **The boat shuttle across Swiftcurrent and Josephine cuts ~3.4 mi off** if it is running and you want the shorter version. 📋 2026: one-way return $20.85 adult, reservations by 5 PM the day before; the return boats queue — the same couple gave up on their return tickets rather than wait ~45 min (glacierparkboats.com snippet; Packs-a-lot video, 2026). · 📍 Grinnell Glacier Trailhead Many Glacier
-- 9:15 AM (1h 30m) · stop · **Sit at the glacier basin.** Longest sit of the trip, and the one it was all built toward.
-- 9:29 PM · sunset · Sunset. Dark 9:59 PM.
-
-**Meals**
-- B: made — pre-dawn, hot
-- L: packed — eaten at the glacier
-- D: made at camp — low effort, you will be finished
-
-#### Highlights
-
-The single biggest day on the route and the reason the trip is Glacier-anchored rather than Beartooth-anchored — landed on a Monday, the best day of the week it could have got.
-
-#### Warnings
-
-**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **That's why the trip moved a week: Grinnell is now July 26, with about ten days of margin over 2026's opening**. If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day fifteen — **if yesterday hurt, take the boat.**
-
-### Day 16 — 2027-07-27 · Over the Sun Road
-
-```yaml
-date: 2027-07-27
-tagline: The drive people come to Glacier for, done as a transfer so it isn't a fight.
-type: travel + activity
-driving: ~60 mi, ~2h 30m over Going-to-the-Sun
-slack: ~2 hours.
-overnight:
-  name: Avalanche Campground
-  place: Glacier NP — west side, MT
-  kind: National park campground
-  cost: ~$23/night est.
-  checkin: 🚨 Same mid-January booking as Many Glacier
-  confirmation: TBD
-  notes: "⚠️ **Second competitive Glacier booking.** Avalanche is the first choice, Apgar the backup *(Colin, 2026-10-30)*. Avalanche Lake starts at the campground and The Loop is closer for the Highline morning. Both go the day their window opens; book both halves of the Glacier stay in the same January sitting. Showers at either: not verified."
-```
-
-**Schedule**
-- 5:53 AM · sunrise · Sunrise. Break camp slowly.
-- 8:00 AM (2h 30m) · drive! · → west side over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so mid-July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM** — pass through today, walk it tomorrow. · 📍 Logan Pass Visitor Center Glacier
-- 1:00 PM (2h 30m) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Busy, and worth it anyway. · 📍 Avalanche Lake Trailhead Glacier
-- afternoon (1h) · stop · Camp. The trail you just walked starts here.
-- 9:27 PM · sunset · Sunset. Dark 9:57 PM.
-
-**Meals**
-- B: made at camp
-- L: packed
-- D: made at camp
-
-#### Highlights
-
-The Sun Road as a transfer rather than a destination means you are not fighting for a parking space at the top of it.
-
-#### Warnings
-
-**Logan Pass at midday in July is the worst parking in the park.** Do not plan to stop there today. The 3-hour limit from July 1 means even if you get in, you are on a clock.
-
-### Day 17 — 2027-07-28 · The Highline
-
-```yaml
-date: 2027-07-28
-tagline: A ledge cut along the Garden Wall, then the whole Highline one way to The Loop, on the best day of the week for it.
-type: activity
-driving: ~35 mi plus the shuttle (⚠️ unrouted)
-slack: ~1 hour.
-overnight:
-  name: Avalanche Campground
-  place: Glacier NP — west side
-  kind: National park campground
-  cost: ~$23/night est.
-  checkin: n/a
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- 5:58 AM · sunrise · Sunrise. First light 5:27 AM.
-- 4:45 AM (1h) · drive! · → **The Loop**, park there, and ride the shuttle up to Logan Pass; or drive to Logan Pass and ride back down from The Loop at the end. 🚨 **The shuttle is what makes this one-way hike possible.** In 2026 it was a pilot ($1 tickets on recreation.gov, Jul 1 – Sept 7): the west-side express ran from Apgar Visitor Center / Lake McDonald Lodge to Logan Pass and stopped at The Loop, with westbound pickups at The Loop roughly 10:30 AM – 8 PM; tickets released 7 PM the day before plus some on a 60-day window, and they sold out fast (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). **The 2027 shuttle rules aren't announced**, so this plan rests on a 2026 pilot. · 📍 Logan Pass Visitor Center Glacier
+- 5:54 AM · sunrise · Sunrise. First light 5:23 AM.
+- 4:45 AM (1h) · drive! · → **The Loop**, park there, and ride the shuttle up to Logan Pass; or drive to Logan Pass and ride back down from The Loop at the end. 🚨 **The shuttle is what makes this one-way hike possible.** In 2026 it was a pilot ($1 tickets on recreation.gov, Jul 1 – Sept 7): the west-side express ran from Apgar Visitor Center / Lake McDonald Lodge to Logan Pass and stopped at The Loop, with westbound pickups at The Loop roughly 10:30 AM – 8 PM; tickets released 7 PM the day before plus some on a 60-day window, and they sold out fast (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). **The 2027 shuttle rules aren't announced**, so this plan rests on a 2026 pilot. **Three tickets.** If the friends landed late, start later on the shuttle instead; the 2026 Loop pickups ran to ~8 PM. · 📍 Logan Pass Visitor Center Glacier
 - 6:00 AM (7h) · hike! · **The Highline, Logan Pass → Granite Park Chalet → The Loop, one way.** 📋 **11.8 mi, +2,388 ft / −4,773 ft** (nps.gov/places/highline-trailhead, snippet, 2026-10-29). ⚠️ **Over the ~10 mi ceiling on distance only**, as Grinnell is, chosen by Colin *(Colin, 2026-10-29)*. The first mile is a ledge cut into the Garden Wall with a hand cable and a long drop; after that it opens out along the wall to the chalet. · 📍 Logan Pass Visitor Center Glacier
 - 10:30 AM (1h) · stop · **Sit at Granite Park Chalet.** It sells water and snacks (graniteparkchalet.com), so the refill is here.
 - 11:30 AM (2h) · hike · **Down to The Loop**: the last 4 mi from the chalet are a 2,300 ft descent (graniteparkchalet.com). Knees, not lungs. · 📍 The Loop Trailhead Glacier National Park
 - 1:30 PM · drive · Shuttle or car back from The Loop, inside the 2026 pickup hours. ⚠️ 2027 hours unknown.
-- 9:25 PM · sunset · Sunset. Dark 9:56 PM.
+- 9:28 PM · sunset · Sunset. Dark 9:59 PM.
 
 **Meals**
 - B: made — pre-dawn
@@ -829,52 +752,129 @@ The Highline Trail's opening ledge is the most exposed piece of trail on the rou
 
 🚨 **The Garden Wall ledge is genuinely exposed** — a hand cable bolted to the rock with a long drop below. It is not technical and it is not a scramble, but it is a bad place to be nervous, and the profile's line about caution around single high-consequence moves applies here. **If the ledge does not feel right, turn around at the cable**, walk back to Logan Pass, and do **Hidden Lake Overlook** (✅ AllTrails: 2.8 mi, 567 ft, Moderate, ~84 min) instead; that is a good day. ⚠️ **Logistics are the other risk**: if the shuttle doesn't run, or the tickets are gone, the one-way version needs a second car. Without one, the fallback is an out-and-back from Logan Pass (Haystack Butte, 8.6 mi / 1,768 ft). **Logan Pass parking is capped at 3 hours from July 1** (2026 rule), so a 6 AM start means the shuttle, not the lot, for the car.
 
-### Day 18 — 2027-07-29 · Slack
+### Day 16 — 2027-07-27 · Over the Sun Road
 
 ```yaml
-date: 2027-07-29
-tagline: The day the trip keeps in its pocket, with two waterfalls as the default.
-type: rest
-driving: ~70 mi if the falls happen
-slack: This day IS the slack. ⭐ SOFT DAY 2 OF 2.
+date: 2027-07-27
+tagline: The drive people come to Glacier for, done as a transfer east so it isn't a fight.
+type: travel + activity
+driving: ⚠️ ~2h 30m over Going-to-the-Sun, then St. Mary → Many Glacier (unrouted)
+slack: ~2 hours.
 overnight:
-  name: Avalanche Campground
-  place: Glacier NP — west side
+  name: Many Glacier Campground
+  place: Glacier National Park, MT
   kind: National park campground
   cost: ~$23/night est.
-  checkin: n/a — last Glacier night
+  checkin: 🚨 Same mid-January booking as Avalanche
+  confirmation: TBD
+  notes: "🚨 **Second competitive Glacier booking, and the harder one.** ✅ 6-month rolling window on recreation.gov, released daily; Many Glacier is one of the three that go the day they open. **Arriving without a reservation is not a plan.** 📋 Every site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, which is the second shot if January fails (recreation.gov, snippet, 2026-10-10). If it fails: **St. Mary** is the fallback. ⚠️ **Two Medicine was closed all of 2026** for a water-system rebuild, and its road rehab runs to late 2027, possibly 2028; its 2027 status isn't announced (nps.gov/glac project page, snippet, 2026-10-10). St. Mary has partial closures fall 2026 – spring 2027 only."
+```
+
+**Schedule**
+- 5:55 AM · sunrise · Sunrise. Break camp slowly.
+- 8:00 AM (2h 30m) · drive! · → east over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so late July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM**: pass through, don't plan to stop. · 📍 Logan Pass Visitor Center Glacier
+- 11:00 AM (1h 30m) · hike · **St. Mary and Virginia Falls.** ✅ AllTrails: **3.1 mi, 469 ft, Moderate, ~83 min.** Two waterfalls on a short trail off the east end of the Sun Road, on the way. · 📍 St Mary Falls Trailhead Glacier
+- 1:30 PM (1h) · drive · → Many Glacier via St. Mary and Babb. ⚠️ Unrouted. · 📍 Many Glacier Campground Glacier National Park
+- 3:00 PM (1h) · stop · Check in, set up.
+- 5:00 PM (1h) · hike · **Swiftcurrent Nature Trail.** ✅ AllTrails: **2.6 mi, 131 ft, Easy, loop.** A flat lap of Swiftcurrent Lake. · 📍 Swiftcurrent Nature Trail Many Glacier
+- 9:28 PM · sunset · Sunset. Dark 9:58 PM.
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+The Sun Road as a transfer, two waterfalls on the way down, and the Many Glacier valley with hours of light left.
+
+#### Warnings
+
+**Logan Pass at midday in July is the worst parking in the park.** Don't plan to stop there today. The 3-hour limit from July 1 means even if you get in, you are on a clock.
+
+### Day 17 — 2027-07-28 · Grinnell Glacier
+
+```yaml
+date: 2027-07-28
+tagline: The hardest day of the trip, on a Wednesday, on the trail the park is named for.
+type: activity
+driving: ~1 mi
+slack: Thin. Everything else today bends around this.
+overnight:
+  name: Many Glacier Campground
+  place: Glacier NP, MT
+  kind: National park campground
+  cost: ~$23/night est.
+  checkin: n/a — night 2 of 3
   confirmation: TBD
   notes: ""
 ```
 
 **Schedule**
-- — · note · **Unscheduled on purpose.** Eighteen days in, something will have been weathered out, closed, sold out or simply missed. This is where it goes. **Ptarmigan Tunnel** (10.7 mi / 2,362 ft) is the obvious ambitious use of it if nothing needs rescuing.
-- 7:00 AM (1h 30m) · hike · **Default if nothing needs the day: St. Mary and Virginia Falls.** ✅ AllTrails: **3.1 mi, 469 ft, Moderate, ~83 min.** Two waterfalls on a short trail off the east end of the Sun Road. · 📍 St Mary Falls Trailhead Glacier
-- 9:00 AM (3h) · stop · Sit at Virginia Falls, then drive the Sun Road slowly in whichever direction you have not done at leisure.
-- evening · stop · Pack for the drive west. Last night in the mountains.
-- 9:24 PM · sunset · Sunset. Dark 9:54 PM.
+- 5:54 AM · sunrise · Sunrise. First light 5:24 AM.
+- 5:00 AM (8h) · hike! · **Grinnell Glacier Trail.** ✅ AllTrails: **11.1 mi, 2,047 ft, Hard, out-and-back, ~319 min moving.** ⚠️ **Over the distance ceiling by about a mile**, under the gain half. The payoff is standing at a glacier that has lost most of its area in a century and is documented doing it. **The boat shuttle across Swiftcurrent and Josephine cuts ~3.4 mi off** if it is running and you want the shorter version. 📋 2026: one-way return $20.85 adult, reservations by 5 PM the day before; the return boats queue — the same couple gave up on their return tickets rather than wait ~45 min (glacierparkboats.com snippet; Packs-a-lot video, 2026). · 📍 Grinnell Glacier Trailhead Many Glacier
+- 9:15 AM (1h 30m) · stop · **Sit at the glacier basin.** Longest sit of the trip, and the one it was all built toward.
+- 9:26 PM · sunset · Sunset. Dark 9:56 PM.
 
 **Meals**
-- B: made at camp
+- B: made — pre-dawn, hot
+- L: packed — eaten at the glacier
+- D: made at camp — low effort, you will be finished
+
+#### Highlights
+
+The single biggest day on the route and the reason the trip is Glacier-anchored rather than Beartooth-anchored, on a midweek day.
+
+#### Warnings
+
+**Hard turnaround 10:30 AM at the glacier basin regardless of where you are.** ⚠️ **Snowfields across the upper trail persist into late July most years** and the traverse above the lake is exposed — if a snowfield looks doubtful, that is the turnaround, not a problem to solve. 🚨 **The upper trail "does not typically open until mid-July"** (glacierparkboats.com, snippet, 2026-10-10), and in 2026 it opened about July 15: a couple hiking it July 20 said it had "just opened like 5 days ago" and that people were walking through the waterfall on the cliff section (YouTube, Packs-a-lot, uploaded 2026-09-13, trip July 20 2026). **That's why the trip moved a week, and the 2026-11-08 flip moved Grinnell to July 28: about twelve days of margin over 2026's opening.** If it's still closed, Grinnell Lake (6.8 mi, no climb to the basin) is the same valley's consolation. Grizzly corridor again. Over the distance ceiling on day seventeen, two days after the Highline — **if the legs are gone, take the boat.**
+
+### Day 18 — 2027-07-29 · Iceberg Lake
+
+```yaml
+date: 2027-07-29
+tagline: A cirque lake with ice still floating in it in July, on the last Glacier day.
+type: activity
+driving: ~1 mi
+slack: ~2 hours.
+overnight:
+  name: Many Glacier Campground
+  place: Glacier NP, MT
+  kind: National park campground
+  cost: ~$23/night est.
+  checkin: n/a — night 3 of 3, last Glacier night
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 5:56 AM · sunrise · Sunrise. First light 5:26 AM.
+- 5:00 AM (6h) · hike · **Iceberg Lake.** ✅ AllTrails: **9.7 mi, 1,453 ft, Moderate, out-and-back, ~257 min.** Fits the ceiling on both counts. The lake sits in a 3,000-ft cirque that keeps it frozen so late that bergs float in it into August. · 📍 Iceberg Lake Trailhead Many Glacier
+- 8:30 AM (1h) · stop · **Sit at the lake.** This is the hour the day is for.
+- afternoon · stop · Camp. Pack for an early start; Ethan and Finn fly out of Kalispell tomorrow.
+- 9:25 PM · sunset · Sunset. Dark 9:54 PM.
+
+**Meals**
+- B: made — pre-dawn
 - L: packed
 - D: made at camp — start clearing the cooler
 
 #### Highlights
 
-A whole day held in reserve eighteen days into a trip is worth more than any hike that could be scheduled in it.
+Icebergs in July, on a trail that fits inside the day ceiling with room to spare. The best effort-to-payoff hike on the whole route, saved for last.
 
 #### Warnings
 
-The temptation is to fill this in advance. Don't. That is what the falls are for — a default, not a plan.
+🚨 **Grizzly country and this is a known bear corridor.** Bear spray, noise on blind corners, do not hike it silent at dawn. **The Many Glacier lot fills by 7 AM in July** — the 5 AM start is the parking plan as much as the light plan. Thursday is a better day for it than the old Sunday slot.
 
 ### Day 19 — 2027-07-30 · West Instead of Home
 
 ```yaml
 date: 2027-07-30
-tagline: Out of the mountains the other way, toward the friends.
+tagline: Out of the mountains the other way, dropping the friends at Kalispell on the way.
 type: travel
-driving: ⚠️ unrouted, roughly half of Glacier → the Gorge
-slack: Large. Nothing is booked until tomorrow night.
+driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on toward the Idaho line
+slack: Little. The Hiawatha is the first cut.
 overnight:
   name: TBD — Wallace / Kellogg, Idaho area
   place: Silver Valley, ID
@@ -882,12 +882,13 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked."
+  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked. Since the 2026-11-08 flip the day starts at Many Glacier, ~2h further east, so the ride may not fit."
 ```
 
 **Schedule**
-- morning · drive · → west out of Glacier toward I-90 and the Idaho line. ⚠️ Unrouted. Tomorrow (Day 20) is a reset day with nothing booked, so a long drive then is fine.
-- afternoon · ride · **Route of the Hiawatha** (bucket item, planned 2026-10-30): 15 mi downhill through 10 tunnels and 7 trestles, I-90 exit 5 at Taft MT, season May 22 – Sept 20 in 2026, rentals include lights (research notes in `log.md`, 2026-10). ⚠️ Fees, hours, shuttle times and whether to reserve not checked · 📍 Route of the Hiawatha East Portal Trailhead
+- 6:30 AM (3h) · drive · → **Kalispell (FCA): drop Ethan and Finn** for their flights home (they book after ~1 PM) *(Colin, 2026-11-08)*. Around the south of the park on US-2 or back over the Sun Road. ⚠️ Unrouted. · 📍 Glacier Park International Airport
+- late morning · drive · → west toward I-90 and the Idaho line. ⚠️ Unrouted. Tomorrow (Day 20) is a reset day with nothing booked, so a long drive then is fine.
+- afternoon · ride · **Route of the Hiawatha, only if there's time** (bucket item, planned 2026-10-30): 15 mi downhill through 10 tunnels and 7 trestles, I-90 exit 5 at Taft MT, season May 22 – Sept 20 in 2026, rentals include lights (research notes in `log.md`, 2026-10). ⚠️ Fees, hours, shuttle times and whether to reserve not checked · 📍 Route of the Hiawatha East Portal Trailhead
 
 **Meals**
 - B: made at camp
@@ -900,7 +901,7 @@ The trip turns west instead of home. That's the whole point of the day.
 
 #### Warnings
 
-Nineteen days in. If tired, skip the Hiawatha and just drive.
+Nineteen days in, and solo again. If tired, skip the Hiawatha and just drive.
 
 ### Day 20 — 2027-07-31 · Reset in Hood River
 
@@ -1506,7 +1507,7 @@ The Legacy will have done ~6,000+ miles (unrouted) in a month. **Get it looked a
 
 ## Hikes
 
-Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across the original 21 days *(not re-totalled since Theodore Roosevelt was cut and the Oregon week joined on, 2026-10-15; the Oregon hikes live in `wishlist/august-friends-2027.md`)*, and Day 13 is a pick-one-of-two rather than a target. **Three scheduled hikes exceed the ~10 mi soft ceiling**, all on distance only — Lost Twin Lakes, Grinnell Glacier and the one-way Highline — and each carries a shorter bail-out. The other well-known trails are named and explicitly NOT scheduled.
+Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across the original 21 days *(not re-totalled since Theodore Roosevelt was cut and the Oregon week joined on, 2026-10-15; the Oregon hikes live in `wishlist/august-friends-2027.md`)*. **Three scheduled hikes exceed the ~10 mi soft ceiling**, all on distance only — Lost Twin Lakes, Grinnell Glacier and the one-way Highline — and each carries a shorter bail-out. The other well-known trails are named and explicitly NOT scheduled.
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1520,20 +1521,20 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Artist Point | 10 | 0.3 mi RT | 13 ft | Easy | ~10 min | ✅ AllTrails, 2026-10-29. The South Rim view of the Lower Falls. |
 | Brink of the Lower Falls | 10 | 0.8 mi RT | 249 ft | Moderate | ~30 min | ✅ AllTrails, 2026-10-29. North Rim, down to the lip of the falls. |
 | Grand Prismatic Hot Spring Overlook | 11 | 1.6 mi RT | 131 ft | Easy | ~40 min | ✅ AllTrails, 2026-10-29. From the Fairy Falls trailhead. Packed in July; worth it. |
-| Swiftcurrent Nature Trail | 12 | 2.6 mi loop | 131 ft | Easy | ~1 hr | Flat lap after eight hours of driving. |
-| Redrock Falls | 13 | 3.7 mi RT | 255 ft | Easy | ~1.5 hr | Leaves from camp. Saturday soft-landing day. |
-| Bullhead Lake via Swiftcurrent Pass Trail | 13 | 6.8 mi RT | 446 ft | Easy | ~2.5 hr | Same valley, further in. **Pick one of these two, not both, if the legs are done.** |
-| Iceberg Lake | 14 | 9.7 mi RT | 1,453 ft | Moderate | ~5–6 hr | ⭐ Fits the ceiling on both counts. Bergs in the lake into August. Known bear corridor. Lot fills by 7 AM — 5 AM start. |
-| Grinnell Glacier | 15 | 11.1 mi RT | 2,047 ft | Hard | ~7–8 hr | ⚠️ **Over the 10 mi ceiling.** Biggest day of the trip, landed on a Monday. Snowfields on the upper traverse into late July. **Bail-out: the boat cuts ~3.4 mi.** Turnaround 10:30 AM. |
-| Avalanche Lake | 16 | 6.1 mi RT | 780 ft | Moderate | ~2.5 hr | Cedar forest to a lake with waterfalls on three sides. Busy; worth it. |
-| Highline: Logan Pass → Granite Park Chalet → The Loop | 17 | 11.8 mi one way | +2,388 / −4,773 ft | Hard | ~6–7 hr | 📋 nps.gov/places/highline-trailhead, snippet, 2026-10-29. ⚠️ **Over the 10 mi ceiling on distance only**, chosen by Colin *(Colin, 2026-10-29)*. 🚨 First mile is an exposed ledge with a hand cable: **turn around at the cable if it doesn't feel right.** Needs the shuttle (2027 rules not announced). |
-| Hidden Lake Overlook | 17 | 2.8 mi RT | 567 ft | Moderate | ~1.5 hr | Straight from the Logan Pass lot. The fallback if the ledge says no. |
-| St. Mary and Virginia Falls | 18 | 3.1 mi RT | 469 ft | Moderate | ~1.5 hr | The slack day's default, not its plan. |
+| Avalanche Lake | 13 | 6.1 mi RT | 780 ft | Moderate | ~2.5 hr | Cedar forest to a lake with waterfalls on three sides. Busy; worth it. Starts at camp, which is why it's the Saturday. |
+| Highline: Logan Pass → Granite Park Chalet → The Loop | 15 | 11.8 mi one way | +2,388 / −4,773 ft | Hard | ~6–7 hr | 📋 nps.gov/places/highline-trailhead, snippet, 2026-10-29. ⚠️ **Over the 10 mi ceiling on distance only**, chosen by Colin *(Colin, 2026-10-29)*. 🚨 First mile is an exposed ledge with a hand cable: **turn around at the cable if it doesn't feel right.** Needs the shuttle (2027 rules not announced). |
+| Hidden Lake Overlook | 15 | 2.8 mi RT | 567 ft | Moderate | ~1.5 hr | Straight from the Logan Pass lot. The fallback if the ledge says no. |
+| St. Mary and Virginia Falls | 16 | 3.1 mi RT | 469 ft | Moderate | ~1.5 hr | On the way down the east side of the Sun Road. |
+| Swiftcurrent Nature Trail | 16 | 2.6 mi loop | 131 ft | Easy | ~1 hr | Flat lap after the Sun Road. |
+| Grinnell Glacier | 17 | 11.1 mi RT | 2,047 ft | Hard | ~7–8 hr | ⚠️ **Over the 10 mi ceiling.** Biggest day of the trip, on a Wednesday. Snowfields on the upper traverse into late July. **Bail-out: the boat cuts ~3.4 mi.** Turnaround 10:30 AM. |
+| Iceberg Lake | 18 | 9.7 mi RT | 1,453 ft | Moderate | ~5–6 hr | ⭐ Fits the ceiling on both counts. Bergs in the lake into August. Known bear corridor. Lot fills by 7 AM — 5 AM start. |
+| Redrock Falls |  | 3.7 mi RT | 255 ft | Easy | ~1.5 hr | Leaves from the Many Glacier camp. Off the plan since the 2026-11-08 flip; a spare-afternoon option on Day 16 or 18. |
+| Bullhead Lake via Swiftcurrent Pass Trail |  | 6.8 mi RT | 446 ft | Easy | ~2.5 hr | Same valley, further in. Off the plan since the 2026-11-08 flip. |
 | ~~Big Plateau + Ekblom Loop~~ (cut 2026-10-15 with Theodore Roosevelt) | ~~19~~ | 5.2 mi loop | 534 ft | Moderate | ~2 hr | Plateau above the Little Missouri. Bison and wild horses on the trail. |
 | ~~Painted Canyon Trail~~ (cut 2026-10-15 with Theodore Roosevelt) | ~~19~~ | 4.2 mi RT | 446 ft | Moderate | ~1.5–2 hr | Down into the canyon from the overlook. Evening light. |
-| Ptarmigan Tunnel — SLACK-DAY OPTION |  | 10.7 mi RT | 2,362 ft | Hard | ~5.5 hr | A tunnel blasted through a rock wall in 1930. Over the distance ceiling and it competes with Iceberg Lake from the same trailhead — which is why it is the Day 18 option rather than a scheduled day. |
+| Ptarmigan Tunnel — SLACK-DAY OPTION |  | 10.7 mi RT | 2,362 ft | Hard | ~5.5 hr | A tunnel blasted through a rock wall in 1930. Over the distance ceiling and it competes with Iceberg Lake from the same trailhead — so it has no slot: since the 2026-11-08 flip, the slack morning (Day 14) is on the west side. |
 | Haystack Butte via the Highline Trail — NOT SCHEDULED |  | 8.6 mi RT | 1,768 ft | Hard | ~5–6 hr | The out-and-back that fits the ceiling. Replaced by the one-way Highline *(Colin, 2026-10-29)*; still the fallback if the shuttle fails. |
-| The full Highline Trail — NOT SCHEDULED |  | 15.2 mi RT | 2,572 ft | Hard | ~7 hr | ⚠️ **Over the ceiling on both counts.** Listed so the choice is visible: Day 17 does the one-way Logan Pass → Granite Park Chalet → The Loop version (11.8 mi) instead. |
+| The full Highline Trail — NOT SCHEDULED |  | 15.2 mi RT | 2,572 ft | Hard | ~7 hr | ⚠️ **Over the ceiling on both counts.** Listed so the choice is visible: Day 15 does the one-way Logan Pass → Granite Park Chalet → The Loop version (11.8 mi) instead. |
 | Cloud Peak via Mistymoon — NOT POSSIBLE |  | 22.6 mi RT | 5,337 ft | Strenuous | ~12 hr | 🚨 Double the ceiling and an overnight for almost everyone. The Bighorns' marquee summit is a backpacking trip, which the locked rule set excludes. |
 
 ## Weather
@@ -1591,8 +1592,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Showers and laundry — worse after the recut
 
-- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7) or Great Falls (Day 12).
-- [ ] Plan one laundry stop in Great Falls on Day 12, or wear it.
+- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7) or Missoula / Kalispell (Day 12).
+- [ ] Plan one laundry stop in Missoula or Kalispell on Day 12, or wear it.
 - [ ] This is the clearest cost of the 21-day version and it is worth knowing before departure rather than discovering on day nine.
 
 ## Reservations & checks
@@ -1614,7 +1615,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **Sunset Motel, Hood River, Jul 31 (Colin) and Aug 8–12 (the group, 2-queen, sleeps 4); Holiday Motel, Bend, Aug 5–8 (Double Queen)** — refundable rates.
 - [ ] **South Sister permits, Aug 6** — released Jul 27 and Aug 4 at 7:00 AM PDT (computed, see Day 26); a group B friend books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
-- [ ] 🚨 **Logan Pass shuttle tickets, Jul 28 (Day 17): required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
+- [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
 - [ ] *Optional:* **Outlet CG, Sawtooths, Aug 13–18** — hold only if the after-Oregon extension is still alive. The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
 - [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 33, 34, 35.** The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
 
@@ -1669,7 +1670,7 @@ The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then
 ### Nineteen days to the first shower — is that actually acceptable?
 
 **Blocks:** Nothing structural, but it is the other real cost of the recut
-Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Great Falls (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
+Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Missoula / Kalispell (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
 
 ### Is Crazy Woman Canyon Road drivable in a car with 5.9 in of clearance and a low air dam?
 
@@ -1679,7 +1680,7 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 ### Is 36 days still too much?
 
 **Blocks:** The whole shape
-**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 18, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, the Day 14 morning, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
@@ -1725,11 +1726,11 @@ The soft ceiling is ~10 mi and ~2,500 ft per day, exceeded "when the payoff just
 
 **Lost Twin Lakes (Day 5): 11.1 mi, 2,076 ft.** A mile over, at 9,000+ ft, on your fourth day at altitude, after a stepped climb (8,300 → 10,500 → 9,100 ft). Bail-out written into the day: Mirror Lake alone at 5.9 mi / 1,095 ft, which is a complete day.
 
-**Grinnell Glacier (Day 15): 11.1 mi, 2,047 ft.** A mile over, on day fifteen. Bail-out: the boat shuttle across Swiftcurrent and Josephine removes about 3.4 miles, and it exists precisely for this.
+**Grinnell Glacier (Day 17): 11.1 mi, 2,047 ft.** A mile over, on day seventeen. Bail-out: the boat shuttle across Swiftcurrent and Josephine removes about 3.4 miles, and it exists precisely for this.
 
-**The Highline to The Loop (Day 17): 11.8 mi one way, +2,388 / −4,773 ft.** Chosen by Colin *(Colin, 2026-10-29)*. Under the gain ceiling going up; the cost is the 2,300 ft descent from the chalet. Bail-outs: turn around at the cable for Hidden Lake, or the Haystack Butte out-and-back if the shuttle fails.
+**The Highline to The Loop (Day 15): 11.8 mi one way, +2,388 / −4,773 ft.** Chosen by Colin *(Colin, 2026-10-29)*. Under the gain ceiling going up; the cost is the 2,300 ft descent from the chalet. Bail-outs: turn around at the cable for Hidden Lake, or the Haystack Butte out-and-back if the shuttle fails.
 
-Four more are named in the Hikes tab and deliberately **not** scheduled: the full Highline Trail (15.2 mi / 2,572 ft — over on both counts, hence the one-way version), Haystack Butte (the out-and-back the one-way version replaced), Ptarmigan Tunnel (10.7 mi, now the Day 18 slack option rather than a scheduled day), and Cloud Peak (22.6 mi / 5,337 ft, a backpacking trip and therefore excluded by a locked rule). **Listing what was cut is the point — otherwise the ceiling gets crossed by accident rather than by decision.**
+Four more are named in the Hikes tab and deliberately **not** scheduled: the full Highline Trail (15.2 mi / 2,572 ft — over on both counts, hence the one-way version), Haystack Butte (the out-and-back the one-way version replaced), Ptarmigan Tunnel (10.7 mi, no slot since the 2026-11-08 flip), and Cloud Peak (22.6 mi / 5,337 ft, a backpacking trip and therefore excluded by a locked rule). **Listing what was cut is the point — otherwise the ceiling gets crossed by accident rather than by decision.**
 
 ### The Garden Wall ledge, stated plainly
 
