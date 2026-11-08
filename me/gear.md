@@ -340,6 +340,15 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 - name: Badminton rackets
   state: need
   note: "*(stated 2026-11-08, wants them)* Camp game; needs a second person. Model, net or no net, and price not decided. Feather and standard nylon shuttles blow away in any breeze; look at wind-resistant outdoor shuttles (recalled: Yonex's AirShuttle, made for outdoor \"AirBadminton\"; not verified)."
+- name: Deck of cards
+  state: need
+  note: "*(stated 2026-11-08, wants one)* Camp game. Works in rain, at night and solo."
+- name: Mölkky set
+  state: need
+  note: "*(stated 2026-11-08, wants one)* Camp game; wooden throwing pins, tolerates uneven ground. Heavy, so car trips only. Brand and price not decided."
+- name: Paddle ball set
+  state: need
+  note: "*(stated 2026-11-08, wants one)* Camp game; needs a second person. The windy-day fallback for badminton. Brand and price not decided."
 ```
 
 ## Vehicle & road
