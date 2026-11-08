@@ -851,13 +851,14 @@ overnight:
 - 5:56 AM · sunrise · Sunrise. First light 5:26 AM.
 - 5:00 AM (6h) · hike · **Iceberg Lake.** ✅ AllTrails: **9.7 mi, 1,453 ft, Moderate, out-and-back, ~257 min.** Fits the ceiling on both counts. The lake sits in a 3,000-ft cirque that keeps it frozen so late that bergs float in it into August. · 📍 Iceberg Lake Trailhead Many Glacier
 - 8:30 AM (1h) · stop · **Sit at the lake.** This is the hour the day is for.
-- afternoon · stop · Camp. Pack for an early start; Ethan and Finn fly out of Kalispell tomorrow.
+- 2:00 PM (3h) · stop · **Fish Swiftcurrent Lake from the shore, and try to cook one for dinner** *(Colin, 2026-11-08)*. One rod, which Ethan or Finn brings. ✅ Park rules (nps.gov/glac/planyourvisit/fishing.htm, updated 2026-06-17): **no license** inside the park; one rod per person; **bait allowed** in the Many Glacier valley upstream of the falls at Swiftcurrent's outlet (elsewhere, artificial only); **no lead of any kind**. Swiftcurrent is in the St. Mary drainage: **keep brook trout, rainbow trout and Yellowstone cutthroat** (no limit); **release bull trout, lake trout and westslope cutthroat**, all native here. A cutthroat's red jaw slash can't tell you which kind it is, so **release any cutthroat; if unsure, let it go** (the park's line). Brook trout: red or orange spots with blue halos. Clean it with the guts in a garbage can (the park's rule where cans exist), **skin left on**, then everything scented back in the bear box. 📋 Swiftcurrent holds brook and rainbow trout among the natives, and you can cast from the shore by the Many Glacier Hotel (glacierhikesandbikes.com, Dec 2025). ⚠️ Glacier's water is nutrient-poor and the fish run small; one fly-fishing thread calls it "not a fisherman's paradise" (r/flyfishing, snippet). A fish for dinner is a hope, not a plan. · 📍 Swiftcurrent Nature Trail Many Glacier
+- evening · stop · Camp. Pack for an early start; Ethan and Finn fly out of Kalispell tomorrow.
 - 9:25 PM · sunset · Sunset. Dark 9:54 PM.
 
 **Meals**
 - B: made — pre-dawn
 - L: packed
-- D: made at camp — start clearing the cooler
+- D: made at camp — **the fish, if one's caught**, pan-fried with the cooler's last butter; otherwise start clearing the cooler
 
 #### Highlights
 
