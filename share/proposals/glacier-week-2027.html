@@ -3,7 +3,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap">
 <style>
-/* Layout: one reading column under a glacier-blue masthead. Flights first (the one thing they act on), then the days, then logistics, with Portland as a quiet aside near the end. */
+/* Layout: one reading column under a glacier-blue masthead. Flights first (the one thing they act on), then the days, then logistics; optional and reference material sits in drawers. */
 :root {
   --bg: #f3f5f4;
   --surface: #e3e9e8;
@@ -82,11 +82,38 @@ a { color: var(--ice); }
 ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
 .warn { border-left: 3px solid var(--argillite); padding: 2px 0 2px 16px; }
 .warn ul.plain li::marker { color: var(--argillite); }
-.aside { border: 1px dashed var(--line); border-radius: 6px; padding: 18px 18px 8px; }
-.aside h2 { font-size: 24px; }
 .ask { background: var(--surface); border-radius: 6px; padding: 22px 22px 12px; }
 .ask ol { margin: 0; padding-left: 22px; display: grid; gap: 10px; }
 .ask li::marker { font-family: var(--mono); color: var(--ice); }
+/* Drawers: one component for everything optional or reference-only, so the page reads as the plan first. */
+details.drawer { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+details.drawer + details.drawer { border-top: 0; }
+details.drawer > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto 18px; align-items: center; gap: 12px; padding: 16px 2px; }
+details.drawer > summary::-webkit-details-marker { display: none; }
+details.drawer > summary:focus-visible { outline: 2px solid var(--ice); outline-offset: 2px; border-radius: 4px; }
+details.drawer > summary h2, details.drawer > summary h3 { margin: 0; }
+details.drawer .meta { font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); white-space: nowrap; }
+details.drawer .chev { width: 10px; height: 10px; border-right: 2px solid var(--ice); border-bottom: 2px solid var(--ice); transform: rotate(45deg) translate(-2px, -2px); transition: transform 0.2s; justify-self: center; }
+details.drawer[open] .chev { transform: rotate(225deg) translate(-2px, -2px); }
+details.drawer .body { padding: 0 2px 18px; }
+details.drawer.small > summary { padding: 12px 2px; }
+details.drawer.small > summary h3 { font-size: 19px; }
+@media (prefers-reduced-motion: reduce) { details.drawer .chev { transition: none; } }
+.pack-bar { height: 6px; background: var(--surface); border-radius: 3px; overflow: hidden; margin: 2px 0 16px; }
+.pack-bar span { display: block; height: 100%; width: 0; background: var(--ice); transition: width 0.25s; }
+.pack-group { margin: 0 0 16px; }
+.pack-group h4 { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); font-weight: 500; margin: 0 0 6px; }
+.pack-group ul { list-style: none; margin: 0; padding: 0; }
+.pack-group li { border-bottom: 1px solid var(--line); }
+.pack-group label { display: grid; grid-template-columns: 22px 1fr; gap: 10px; align-items: start; padding: 9px 0; cursor: pointer; }
+.pack-group input { width: 18px; height: 18px; margin: 3px 0 0; accent-color: var(--ice); }
+.pack-group input:checked + span { color: var(--muted); text-decoration: line-through; text-decoration-color: var(--line); }
+.pack-group .who { font-family: var(--mono); font-size: 11px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--argillite); margin-left: 6px; white-space: nowrap; }
+.pack-group .why { display: block; font-size: 14px; color: var(--muted); }
+.pack-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center; font-size: 14px; color: var(--muted); }
+.pack-foot button { font: inherit; font-family: var(--mono); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; background: none; border: 1px solid var(--line); color: var(--muted); border-radius: 4px; padding: 6px 10px; cursor: pointer; }
+.pack-foot button:focus-visible { outline: 2px solid var(--ice); outline-offset: 2px; }
+.drawers { display: grid; gap: 0; }
 footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); display: grid; gap: 4px; }
 </style>
 
@@ -139,7 +166,18 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
         <div class="when"><b>Fri Jul 30 · FCA 1:36 PM → CLE 9:55 PM</b>, via Chicago (ORD), 1 h 4 m layover</div>
         <p>We leave Many Glacier around 9 AM and reach the airport around noon (about 3 hours, an estimate). Skip the 4:49 PM return. It has a 9-hour overnight layover in Chicago.</p>
       </div>
-      <p class="note">Prices are Google Flights for one adult, seen November 8, 2026. They include Basic Economy, one carry-on and <b>no checked bag</b>, and they will move. The 9:44 price is that flight's own listing; paired with the 1:36 return, check the total. <b>Before you book:</b> a tent, sleeping bags and pads probably mean a checked bag, so use the Bags filter to compare real totals. Basic Economy may also seat you two apart. Skip the 7:36 AM flight through Phoenix: its 37-minute connection is the one that strands you if anything runs late.</p>
+      <details class="drawer small">
+        <summary><h3>Before you book</h3><span class="meta">4 checks</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="body">
+          <ul class="plain">
+            <li><b>Add a checked bag to the price.</b> These fares include one carry-on and no checked bag. The tent and sleeping gear probably need one, so use the Bags filter and compare real totals.</li>
+            <li><b>Basic Economy may seat you two apart.</b></li>
+            <li><b>Check the 9:44 total with the 1:36 return.</b> Its price above is that flight's own listing, not the paired round trip.</li>
+            <li><b>Skip the 7:36 AM through Phoenix.</b> A 37-minute connection is the one that strands you if anything runs late.</li>
+          </ul>
+          <p class="note">Prices are Google Flights for one adult, seen November 8, 2026. They will move.</p>
+        </div>
+      </details>
     </section>
 
     <section>
@@ -149,14 +187,16 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
         <li><div class="d"><b>Mon 26</b></div><div class="what"><h3>The Highline <span class="tag big">big day</span></h3><p>The first mile is a ledge cut into a cliff wall, with a hand cable and a long drop. Then miles along the wall to a backcountry chalet that sells snacks, and a long descent. One way, using the park shuttle. Not feeling the ledge? Hidden Lake Overlook instead (2.8 mi).</p><span class="stat">11.8 mi · +2,388 ft · −4,773 ft</span></div></li>
         <li><div class="d"><b>Tue 27</b></div><div class="what"><h3>Over Going-to-the-Sun Road</h3><p>The drive people come to Glacier for, east over the pass. St. Mary and Virginia Falls on the way down, then camp at Many Glacier and an easy lap of Swiftcurrent Lake.</p><span class="stat">~2.5 h driving · 3.1 mi · 469 ft · 2.6 mi flat</span></div></li>
         <li><div class="d"><b>Wed 28</b></div><div class="what"><h3>Grinnell Glacier <span class="tag big">big day</span></h3><p>Up to the glacier the park is famous for. A boat across two lakes cuts about 3.4 miles off if you want the shorter version. Hard turnaround at 10:30 AM wherever we are.</p><span class="stat">11.1 mi · 2,047 ft (about 7.7 mi with the boat)</span></div></li>
-        <li><div class="d"><b>Thu 29</b>Last day</div><div class="what"><h3>Iceberg Lake</h3><p>A lake in a 3,000-ft rock bowl that stays cold enough for icebergs to float in it into August. 5 AM start for the parking and the light. Then the afternoon is for fishing Swiftcurrent Lake from the shore, and with luck a trout in the pan for dinner.</p><span class="stat">9.7 mi · 1,453 ft · then fishing</span></div></li>
+        <li><div class="d"><b>Thu 29</b>Last day</div><div class="what"><h3>Iceberg Lake</h3><p>A lake in a 3,000-ft rock bowl that stays cold enough for icebergs to float in it into August. 5 AM start for the parking and the light. Then the afternoon is for fishing Swiftcurrent Lake from the shore, and with luck a trout in the pan for dinner (<a href="#fishing">the rules</a>).</p><span class="stat">9.7 mi · 1,453 ft · then fishing</span></div></li>
         <li><div class="d"><b>Fri 30</b>Fly home</div><div class="what"><h3>Kalispell airport</h3><p>Pack up early and drive about 3 hours to FCA. Colin keeps going west to Oregon.</p></div></li>
       </ol>
       <p class="note">Every hike is optional. Trail numbers are from AllTrails, except the Highline (nps.gov). The sun sets around 9:30 PM, with nearly 17 hours of daylight.</p>
     </section>
 
     <section>
-      <h2>Fishing Swiftcurrent</h2>
+      <details class="drawer" id="fishing">
+        <summary><h2>Fishing Swiftcurrent</h2><span class="meta">Thu · the rules</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="body">
       <p>Thursday afternoon, after Iceberg Lake, we fish Swiftcurrent Lake from the shore a few minutes from camp. The goal is one trout cooked for dinner. Glacier's lakes are cold and low in food, so the fish run small and nothing is guaranteed. Treat a fish as a bonus.</p>
       <ul class="plain">
         <li><b>No license needed</b> inside the park.</li>
@@ -167,6 +207,8 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
         <li><b>Bear country rules for a kept fish:</b> guts go in a garbage can, the skin stays on, and everything that smells of fish goes in the bear box after dinner.</li>
       </ul>
       <p class="note">Rules from Glacier's fishing page (nps.gov, updated June 17, 2026). Check the 2027 version before you buy tackle.</p>
+        </div>
+      </details>
     </section>
 
     <section>
@@ -194,7 +236,7 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
         <tr class="h"><td colspan="2">Split three ways</td></tr>
         <tr><td>Campsites, 5 nights at ~$23 a night (an estimate; 2027 fees aren't out)</td><td>~$38 each</td></tr>
         <tr><td>Shared groceries (we cook at camp) and gas</td><td>split</td></tr>
-        <tr><td>Park entry</td><td>$0, Colin's annual pass covers the car</td></tr>
+        <tr><td>Park entry (Colin's annual pass covers the car)</td><td>$0</td></tr>
         <tr class="h"><td colspan="2">Yours</td></tr>
         <tr><td>Flights, FCA round trip</td><td>not priced</td></tr>
         <tr><td>Bear spray, bought in Kalispell</td><td>not priced</td></tr>
@@ -216,21 +258,83 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
     </section>
 
     <section>
-      <h2>What to bring</h2>
-      <ul class="plain">
-        <li><b>Soft bags only.</b> Three people and three people's camping gear go in one Subaru Legacy. A duffel squashes; a hard suitcase doesn't.</li>
-        <li><b>One tent for the two of you</b>, and a sleeping bag and pad each. Bags rated around 30–40°F are plenty.</li>
-        <li>Broken-in hiking shoes, a daypack that carries 2 liters of water, a rain shell, a warm layer and a hat.</li>
-        <li>A headlamp, sunscreen and sunglasses.</li>
-        <li><b>One fishing rod</b> between you, with lead-free tackle (see Fishing Swiftcurrent).</li>
-        <li>Colin brings the stove, pan, cooler and kitchen.</li>
-      </ul>
+      <details class="drawer" id="packing">
+        <summary><h2>Packing checklist</h2><span class="meta" id="pack-count">0 of 27</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="body">
+          <div class="pack-bar" aria-hidden="true"><span id="pack-fill"></span></div>
+          <div class="pack-group">
+            <h4>Sleep</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-tent" data-pack="tent"><span>Tent<span class="who">one of you</span><span class="why">Glacier allows two tents per site, so you share one.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-bag" data-pack="bag"><span>Sleeping bag, rated around 30–40°F</span></label></li>
+              <li><label><input type="checkbox" id="pk-pad" data-pack="pad"><span>Sleeping pad</span></label></li>
+              <li><label><input type="checkbox" id="pk-pillow" data-pack="pillow"><span>Pillow, or a stuff sack of clothes</span></label></li>
+            </ul>
+          </div>
+          <div class="pack-group">
+            <h4>On the trail</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-shoes" data-pack="shoes"><span>Hiking shoes, broken in<span class="why">Two 11-mile days. New shoes are how blisters happen.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-daypack" data-pack="daypack"><span>Daypack</span></label></li>
+              <li><label><input type="checkbox" id="pk-water" data-pack="water"><span>Room for 2 liters of water<span class="why">Bottles or a bladder.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-shell" data-pack="shell"><span>Rain shell</span></label></li>
+              <li><label><input type="checkbox" id="pk-warm" data-pack="warm"><span>Warm layer, fleece or puffy<span class="why">Nights around 46°F, the passes colder and windy.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-hat" data-pack="hat"><span>Warm hat and light gloves</span></label></li>
+              <li><label><input type="checkbox" id="pk-sun" data-pack="sun"><span>Sun hat, sunglasses, sunscreen</span></label></li>
+              <li><label><input type="checkbox" id="pk-poles" data-pack="poles"><span>Trekking poles<span class="who">optional</span><span class="why">The Highline drops 4,773 ft. Knees will notice.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-blister" data-pack="blister"><span>Blister tape or moleskin</span></label></li>
+            </ul>
+          </div>
+          <div class="pack-group">
+            <h4>At camp</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-headlamp" data-pack="headlamp"><span>Headlamp<span class="why">5 AM starts are in the dark.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-campshoes" data-pack="campshoes"><span>Camp shoes</span></label></li>
+              <li><label><input type="checkbox" id="pk-campclothes" data-pack="campclothes"><span>Camp clothes for cold mornings</span></label></li>
+              <li><label><input type="checkbox" id="pk-toiletries" data-pack="toiletries"><span>Toiletries<span class="why">They go in the bear box at night, toothpaste included.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-towel" data-pack="towel"><span>Quick-dry towel</span></label></li>
+              <li><label><input type="checkbox" id="pk-battery" data-pack="battery"><span>Phone battery pack</span></label></li>
+              <li><label><input type="checkbox" id="pk-meds" data-pack="meds"><span>Any medications</span></label></li>
+            </ul>
+          </div>
+          <div class="pack-group">
+            <h4>Fishing</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-rod" data-pack="rod"><span>Spinning rod that breaks down or telescopes<span class="who">one of you</span><span class="why">Packed in a checked bag.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-tackle" data-pack="tackle"><span>Line, small spinners and hooks, all lead-free<span class="who">one of you</span><span class="why">No lead of any kind in the park.</span></span></label></li>
+            </ul>
+          </div>
+          <div class="pack-group">
+            <h4>Buy in Kalispell, Sun Jul 25</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-spray" data-pack="spray"><span>Bear spray<span class="why">Can't fly with it. Carried on your body on every hike.</span></span></label></li>
+              <li><label><input type="checkbox" id="pk-worms" data-pack="worms"><span>Worms for Swiftcurrent<span class="who">if a shop has them</span><span class="why">Not checked.</span></span></label></li>
+            </ul>
+          </div>
+          <div class="pack-group">
+            <h4>For the flights</h4>
+            <ul>
+              <li><label><input type="checkbox" id="pk-id" data-pack="id"><span>Photo ID</span></label></li>
+              <li><label><input type="checkbox" id="pk-checked" data-pack="checked"><span>A checked bag for the tent and sleeping gear</span></label></li>
+              <li><label><input type="checkbox" id="pk-flights" data-pack="flights"><span>Flights booked by January 10</span></label></li>
+            </ul>
+          </div>
+          <div class="pack-foot">
+            <span>Colin brings the stove, pot, pan, cooler and kitchen. Your checks save on this device only.</span>
+            <button type="button" id="pack-reset">Clear checks</button>
+          </div>
+        </div>
+      </details>
     </section>
 
-    <section class="aside">
-      <h2>If you get the itch for Portland</h2>
+    <section>
+      <details class="drawer">
+        <summary><h2>If you get the itch for Portland</h2><span class="meta">optional</span><span class="chev" aria-hidden="true"></span></summary>
+        <div class="body">
       <p>Colin drives on from Glacier to Portland anyway: Idaho on Jul 30 (with a 15-mile downhill bike ride through old railroad tunnels if there's time), Hood River in the Columbia Gorge on Jul 31, Portland on Aug 1. You could ride along instead of flying home Friday, spend a few days in Portland on your own, and fly home from PDX. Portland is a big airport, and the MAX light rail runs from it to downtown.</p>
       <p>The catch: Colin's car is full from Aug 1, when two more friends arrive for an Oregon week, so Portland is on your own. You'd split the two motel nights and gas on the way. <b>Decide before you buy flights,</b> since it changes which airport you fly home from.</p>
+        </div>
+      </details>
     </section>
 
     <section class="ask">
@@ -250,3 +354,38 @@ footer .wrap { padding-block: 0 48px; font-size: 14px; color: var(--muted); disp
     <span>Questions go to Colin.</span>
   </div>
 </footer>
+
+<script>
+(function () {
+  var KEY = "glacier-week-2027-pack";
+  var boxes = Array.prototype.slice.call(document.querySelectorAll("input[data-pack]"));
+  var count = document.getElementById("pack-count");
+  var fill = document.getElementById("pack-fill");
+  var saved = {};
+  try { saved = JSON.parse(localStorage.getItem(KEY) || "{}") || {}; } catch (e) { saved = {}; }
+  boxes.forEach(function (b) { b.checked = !!saved[b.dataset.pack]; });
+  function update() {
+    var done = boxes.filter(function (b) { return b.checked; }).length;
+    count.textContent = done + " of " + boxes.length;
+    fill.style.width = (boxes.length ? done / boxes.length * 100 : 0) + "%";
+  }
+  function save() {
+    var state = {};
+    boxes.forEach(function (b) { if (b.checked) state[b.dataset.pack] = 1; });
+    try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+  }
+  boxes.forEach(function (b) { b.addEventListener("change", function () { save(); update(); }); });
+  document.getElementById("pack-reset").addEventListener("click", function () {
+    boxes.forEach(function (b) { b.checked = false; });
+    save(); update();
+  });
+  function openFromHash() {
+    var id = location.hash.slice(1);
+    var el = id && document.getElementById(id);
+    if (el && el.tagName === "DETAILS") el.open = true;
+  }
+  window.addEventListener("hashchange", openFromHash);
+  openFromHash();
+  update();
+})();
+</script>
