@@ -355,38 +355,43 @@ groups:
         lat: 48.674321
         lng: -113.608633
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
-  - group: Oregon coast (added 2026-11-04, not pinned)
+  - group: Oregon coast (added 2026-11-04, pinned 2026-11-09)
     places:
       - name: Yaquina Head Outstanding Natural Area
         note: "Day 22, dawn. Pin the Cobble Beach / Quarry Cove parking, not the lighthouse."
         maps: Yaquina Head Outstanding Natural Area
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.676514
+        lng: -124.077856
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-09)
       - name: Depoe Bay Whale Watching Center
         note: "Day 22."
         maps: Depoe Bay Whale Watching Center
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.810236
+        lng: -124.062131
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-09)
       - name: Thor's Well, Cape Perpetua
         note: "Day 22, afternoon. Pin the Cook's Chasm / Thor's Well pullout."
         maps: Thor's Well Cape Perpetua
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.277897
+        lng: -124.111996
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-09)
       - name: Spinreel Dune Buggy and ATV Rentals
         note: "Day 23, option 1 (drive). 67045 Spinreel Rd, North Bend (ridetheoregondunes.com)."
         maps: Spinreel Dune Buggy and ATV Rentals
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.568231
+        lng: -124.203968
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-09)
       - name: Sandland Adventures
         note: "Day 23, option 2 (ride). 85366 US-101, Florence (frommers.com)."
         maps: Sandland Adventures Florence
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.953751
+        lng: -124.105071
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-09)
   - group: Oregon week (added 2026-10-30, pinned the same day)
     places:
       - name: Sunset Motel, Hood River
