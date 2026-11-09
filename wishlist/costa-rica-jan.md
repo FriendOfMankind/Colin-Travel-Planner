@@ -6,12 +6,12 @@ status: wishlist
 months: [ 1, 2, 3, 4 ]
 mode: fly
 days: 10
-window: Jan 7–16, 2027 is the working version (after the Dec 24 – Jan 6 crush, back before spring term on Jan 19). Colin picked Costa Rica over Guatemala 2026-11-03; the Adirondacks stays open as the backup. Dry season runs ~Dec–Apr, so it would also keep
+window: Not winter 2026–27 (dropped for this winter by Colin on 2026-11-08, since the crew needs its money for summer). Was Jan 7–16, 2027 (after the Dec 24 – Jan 6 crush, back before spring term on Jan 19). Colin had picked Costa Rica over Guatemala 2026-11-03, with the Adirondacks as backup. Dry season runs ~Dec–Apr, so it would also keep
 region: Arenal / La Fortuna → Río Celeste & Rincón de la Vieja → Guanacaste coast, Costa Rica
 country: Costa Rica
 budget: ~$1,750–3,100 pp for a crew of 4, flights included (estimate from published ranges, 2026-11-03; nothing quoted). Add ~$200–400 pp for a crew of 3
 tags: [ friends, international, fly-in, wildlife, jungle, hot springs, surf, beach, road trip, passport, winter ]
-updated: 2026-11-03
+updated: 2026-11-08
 source: daydream 2026-11-03 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
@@ -20,6 +20,8 @@ source: daydream 2026-11-03 (✅ read on the page, 📋 search snippet or second
 *A car, a crew, jungle wildlife, hot springs and a Guanacaste surf town*
 
 ## Why
+
+**Dropped for winter 2026–27** *(Colin, 2026-11-08)*: same reason as the Adirondacks, the crew's money goes to summer. January is a Colorado extension of Frisco now (`wishlist/colorado-winter-2027.md`). Kept for a later dry season.
 
 The easier, pricier alternative to `wishlist/guatemala-el-salvador-jan.md`, from the same brief: ~10 days in January with the Adirondacks crew, beach/surf for them, no Spanish, nobody 25+ *(stated 2026-11-03)*. Colin: "we don't NEED hard hiking, if Costa Rica is more wildlife and jungle and beach oriented so be it" *(stated 2026-11-03)*.
 

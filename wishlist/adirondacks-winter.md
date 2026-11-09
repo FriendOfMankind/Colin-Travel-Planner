@@ -6,20 +6,19 @@ status: wishlist
 months: [ 1 ]
 mode: drive
 days: 8
-start: 2027-01-07
 nights: 7, one rented cabin, split
-window: Jan 7–14, 2027 (Colin's pick, 2026-10-15; was Jan 10–17). After winter break starts, before spring term (Jan 19) and before Whiteface's MLK holiday pricing (Jan 16–18)
+window: Not winter 2026–27 (dropped for this winter by Colin on 2026-11-08, since the crew needs its money for summer). Was Jan 7–14, 2027. After winter break starts, before spring term (Jan 19) and before Whiteface's MLK holiday pricing (Jan 16–18)
 region: Lake Placid / Wilmington / Saranac Lake, New York
 country: USA
 budget: ~$950–1,150 pp for a 3-day skier, ~$700 pp for a non-skier, both before the bobsled (estimate, see 2026-10-15 notes); lift tickets estimated, bobsled not priced
 tags: [ friends, winter, skiing, cross-country, snowshoe, olympic, cabin, drive, january ]
-updated: 2026-10-27
+updated: 2026-11-09
 source: daydream 2026-10-15 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
 # Adirondacks Ski Week
 
-**Picked for winter break 2026–27** *(stated 2026-10-27)*: it's what he wants to use the Dec 19 → Jan 18 gap for (outside Frisco, Dec 25–30). Not booked, and the friends aren't confirmed, so `horizon` stays as is until they are. Next real step: lock the friends and the Jan 7–14 dates, then the cabin.
+**Dropped for winter 2026–27** *(Colin, 2026-11-08)*: the friends who'd pay for it need that money for the summer trips. January goes to a Colorado extension of Frisco instead (`wishlist/colorado-winter-2027.md`). The plan below is kept for a later winter (was: picked for winter break 2026–27, stated 2026-10-27). Nothing was booked.
 
 *Lake Placid in January with friends*
 
@@ -29,7 +28,7 @@ Colin asked for winter activities that are "realistic and affordable and fun for
 
 **It's a friends trip.** Colin "could get someone to come", friends who ski, and "as long as they get a day or two to ski it'll be worth it" *(stated 2026-10-15)*. Group: **3–4 including Colin, all students**, free any time after Jan 4 *(stated 2026-10-15)*. With friends, winter High Peaks stop breaking the solo rule in `me/hiking.md` ("I don't wanna get lost alone"); solo, Cascade in winter would.
 
-**Horizon: keeps.** A 5-day winter drive trip is easy on PTO after 2027-08-31. It's here because January is otherwise empty (`me/calendar.md`: Frisco ends Dec 30, spring term starts Jan 19), not because it's now-or-never. Snow trips also already cover December (Frisco), which is an argument for keeping spring break as the desert trip (`trips/sky-islands-2027/trip.md`).
+**Horizon: keeps.** A 5-day winter drive trip is easy on PTO after 2027-08-31. It's here because January is otherwise empty (`me/calendar.md`: Frisco ends Dec 30, spring term starts Jan 19), not because it's now-or-never. (Sky Islands, the spring-break desert trip this was weighed against, was shelved 2026-11-08.)
 
 **Cold:** `me/camping.md` records comfort to the 40s. That's why this is a cabin, not camping.
 

@@ -1,0 +1,166 @@
+<title>Frisco, Dec 21–30</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column under a night-blue masthead with groomed-track lines. The ask and the money first, then the family's Frisco days, then the car, then the extension days. */
+:root {
+  --bg: #f1f4f7;
+  --surface: #e2e8ee;
+  --fg: #17212b;
+  --muted: #5b6875;
+  --spruce: #2b6450;
+  --wax: #b03a3a;
+  --line: #cdd6df;
+  --night1: #142233;
+  --night2: #2d4f6e;
+  --display: "Big Shoulders Display", "Arial Narrow", system-ui, sans-serif;
+  --body: "Literata", Georgia, "Times New Roman", serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10171e; --surface: #1b252f; --fg: #e5ecf2; --muted: #98a6b3;
+    --spruce: #6cc3a2; --wax: #ec8b84; --line: #2b3742; --night1: #0b1520; --night2: #1d3a54;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10171e; --surface: #1b252f; --fg: #e5ecf2; --muted: #98a6b3;
+  --spruce: #6cc3a2; --wax: #ec8b84; --line: #2b3742; --night1: #0b1520; --night2: #1d3a54;
+  color-scheme: dark;
+}
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 17px; line-height: 1.6; }
+.wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.mast { background: linear-gradient(180deg, var(--night1) 0%, var(--night2) 100%); color: #eef3f8; position: relative; overflow: hidden; }
+.mast .wrap { padding-block: 48px 30px; position: relative; }
+.tracks { position: absolute; inset: auto 0 0 0; height: 46px; background: repeating-linear-gradient(90deg, rgba(255,255,255,0.10) 0 2px, transparent 2px 9px); border-top: 1px solid rgba(255,255,255,0.18); }
+.eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; opacity: 0.85; }
+h1 { font-family: var(--display); font-weight: 900; font-size: clamp(50px, 13vw, 88px); line-height: 0.92; margin: 10px 0 14px; text-transform: uppercase; text-wrap: balance; }
+.lede { font-size: 19px; max-width: 34em; margin: 0 0 20px; }
+.facts { display: flex; flex-wrap: wrap; gap: 6px 20px; font-family: var(--mono); font-size: 13px; padding-bottom: 54px; }
+main .wrap { padding-block: 34px 64px; display: grid; gap: 48px; }
+section { min-width: 0; }
+h2 { font-family: var(--display); font-weight: 900; font-size: 34px; line-height: 1.02; margin: 0 0 14px; text-transform: uppercase; text-wrap: balance; }
+h3 { font-family: var(--display); font-weight: 700; font-size: 23px; line-height: 1.15; margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+a { color: var(--spruce); }
+.note { color: var(--muted); font-size: 15px; }
+.ask { background: var(--surface); border-radius: 6px; padding: 18px 20px 8px; }
+.ask .big { font-family: var(--display); font-weight: 900; font-size: 40px; line-height: 1; color: var(--spruce); margin: 4px 0 8px; font-variant-numeric: tabular-nums; }
+.lbl { font-family: var(--mono); font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.toggle { display: inline-flex; border: 1px solid var(--line); border-radius: 6px; overflow: hidden; margin: 0 0 14px; }
+.toggle button { font: 500 14px var(--mono); padding: 8px 14px; background: transparent; color: var(--fg); border: 0; cursor: pointer; }
+.toggle button[aria-pressed="true"] { background: var(--spruce); color: var(--bg); }
+.toggle button:focus-visible { outline: 2px solid var(--wax); outline-offset: -2px; }
+.money { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.money td { padding: 10px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+.money td:last-child { text-align: right; font-family: var(--mono); font-size: 14px; white-space: nowrap; padding-left: 14px; }
+.money .sub { display: block; color: var(--muted); font-size: 14px; }
+.money .tot td { border-bottom: 0; border-top: 2px solid var(--fg); font-weight: 600; }
+.money .tot td:last-child { font-size: 16px; }
+.days { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.days li { display: grid; grid-template-columns: 78px 1fr; gap: 14px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.days .d { font-family: var(--mono); font-size: 13px; color: var(--muted); line-height: 1.35; padding-top: 3px; }
+.days .d b { display: block; color: var(--fg); font-weight: 500; font-size: 15px; }
+.days .what { min-width: 0; }
+.days .what p { margin-bottom: 6px; }
+.stat { font-family: var(--mono); font-size: 13px; color: var(--spruce); }
+.tag { display: inline-block; font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 7px; border-radius: 3px; background: var(--surface); color: var(--muted); margin-left: 6px; vertical-align: 3px; }
+.only7 { }
+.cols { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 560px) { .cols { grid-template-columns: 1fr; } .days li { grid-template-columns: 64px 1fr; } }
+.card { border-top: 3px solid var(--spruce); padding-top: 10px; min-width: 0; }
+.card.alt { border-top-color: var(--line); }
+ul.plain { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.warn { border-left: 3px solid var(--wax); padding: 2px 0 2px 16px; }
+.warn h3 { color: var(--wax); }
+.src { font-size: 14px; color: var(--muted); }
+.src li { margin-bottom: 4px; }
+footer .wrap { padding-block: 0 48px; font-family: var(--mono); font-size: 12px; color: var(--muted); }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">A plan from Colin · as of Nov 9, 2026 · dates not confirmed</div>
+    <h1>Frisco, Dec 21–30</h1>
+    <p class="lede">Finn and I fly out a few days early, on Dec 21, and get our legs and lungs used to 9,100 ft at the condo without a car. When you arrive on the 25th, we're ready to ski with you. Then a Nordic ski week for all of us, and we all fly home together on Dec 30 in time for New Year's Eve.</p>
+    <div class="facts"><span>Finn + Colin · from Dec 21</span><span>Everyone · Dec 25–30</span><span>Home together · Dec 30</span></div>
+  </div>
+  <div class="tracks" aria-hidden="true"></div>
+</header>
+
+<main>
+<div class="wrap">
+
+<section id="ask">
+  <h2>What I need from you</h2>
+  <ul class="plain">
+    <li><b>Can Finn and I use the condo from Dec 21?</b> And who can get us a key?</li>
+    <li><b>Our flight details</b>, so we can see whether our outbound flights can move to Dec 21. I'll pay any fare difference on mine.</li>
+  </ul>
+  <div class="ask">
+    <div class="lbl">The early days, Dec 21–24, per person</div>
+    <div class="big">~$300</div>
+    <p class="note">A ski lesson for me, ski rentals, a trail pass, groceries, and the bus and train up from the airport. Not counting any fare difference or snowshoe rental. One-way nonstop fares to Denver on Dec 21 were $135 on Nov 8, against $145 and up on Dec 25, so moving the date may cost little or nothing.</p>
+  </div>
+</section>
+
+<section id="early">
+  <h2>Dec 21–24: Finn and me, no car</h2>
+  <p>The county bus (Summit Stage) is free and runs between Frisco, Breckenridge, Silverthorne, Keystone and Copper, roughly 6 AM to 1:30 AM. It stops at several trailheads. From the airport, the A Line train goes to Denver Union Station, then the Bustang bus to Frisco costs $12–13.</p>
+  <ul class="days">
+    <li><div class="d"><b>Mon 21</b>Dec</div><div class="what"><h3>Fly in, bus up</h3><p>A morning flight (United 8:30 → 10:07 or Southwest 5:40 → 7:15), then the train and the bus. On Mondays the bus reaches Frisco at 12:40 or 2:40. An easy walk around town: day one at 9,100 ft is for adjusting.</p></div></li>
+    <li><div class="d"><b>Tue 22</b>Dec</div><div class="what"><h3>My first lesson</h3><p>A private Nordic lesson at the Frisco Nordic Center, then the rest of the day on its 30 km of groomed trail. The lesson includes the day pass. Finn already skis.</p><p class="stat">$95 lesson with pass · ~$35 ski rental</p></div></li>
+    <li><div class="d"><b>Wed 23</b>Dec</div><div class="what"><h3>Ski to Breckenridge</h3><p>The rec path is groomed on Mondays, Wednesdays and Fridays: 8 miles from the Frisco Nordic Center to the Breckenridge Recreation Center. The free bus brings us back.</p></div></li>
+    <li><div class="d"><b>Thu 24</b>Dec</div><div class="what"><h3>Mount Royal and Masontown</h3><p>Straight up from the end of Main Street on foot: about 1,250 ft in 2 miles, past the remains of an old mining camp, to the summit you can see from town. Or the Peaks Trail, 7.8 miles through the forest to Breckenridge, with the bus back.</p></div></li>
+  </ul>
+</section>
+
+<section id="frisco">
+  <h2>Dec 25–30: skiing for everyone</h2>
+  <p>Cross-country skiing is walking on skis on groomed track. Beginners are gliding within an hour. The Frisco Nordic Center is at the edge of town, with about 30 km of groomed ski trail and 8 km of snowshoe trail. A day pass there also works at Breckenridge Nordic and Gold Run.</p>
+  <ul class="days">
+    <li><div class="d"><b>Fri 25</b>Dec</div><div class="what"><h3>You arrive</h3><p>Christmas. Take it easy: the first day at altitude is for water and naps.</p></div></li>
+    <li><div class="d"><b>Sat 26</b>Dec</div><div class="what"><h3>Lesson day at Frisco Nordic</h3><p>A private lesson for the beginners, 1 hour 15 minutes, at 10:00, 12:00 or 2:00. All lessons there are private. The lesson includes a full-day trail pass, so we keep skiing afterward. Finn and I ski with you after.</p><p class="stat">$95 per person lesson · ~$35 classic ski rental · book ahead by phone for more than one person: 970-668-2570</p></div></li>
+    <li><div class="d"><b>Sun 27</b>Dec</div><div class="what"><h3>Snowshoe to Mayflower Gulch</h3><p>15–20 minutes up CO-91 by car. About 3–4 miles round trip on snowshoes, gaining 550–600 ft, to the old Boston Mine cabins under a big bowl. A midday outing: sunset is around 4:45.</p></div></li>
+    <li><div class="d"><b>Mon 28</b>Dec</div><div class="what"><h3>Ski from Frisco to Breckenridge</h3><p>The same 8-mile groomed path, freshly groomed on Monday. Anyone tired rides the free bus for part of it. Lunch in Breckenridge.</p><p class="stat">The path is free · rentals ~$35 each</p></div></li>
+    <li><div class="d"><b>Tue 29</b>Dec</div><div class="what"><h3>Free day</h3><p>Another ski day at Frisco Nordic, Breckenridge Nordic or Gold Run, or Finn goes downhill. With the car, an option: Leadville's Mineral Belt Trail, an 11.6-mile groomed loop around the old mines, about 40 minutes away.</p></div></li>
+    <li><div class="d"><b>Wed 30</b>Dec</div><div class="what"><h3>Home together</h3><p>Everyone drives to the airport and flies home, in time for New Year's Eve.</p></div></li>
+  </ul>
+  <p class="note">Rough ski cost for a beginner: the lesson day is about $130 ($95 lesson with pass + ~$35 rental), and the Breckenridge day is about $35 in rentals. Day passes are $35 for ages 13–64 and $30 for 65 and up.</p>
+</section>
+
+<section id="safety" class="warn">
+  <h3>What could go wrong, and the plan for it</h3>
+  <ul class="plain">
+    <li><b>Avalanches.</b> Mount Royal is steep, and Mayflower Gulch sits under avalanche slopes. We check the Colorado Avalanche Information Center (avalanche.state.co.us) the morning of and stay on the trail. The Boston Mine cabins aren't a safe place to linger.</li>
+    <li><b>Altitude.</b> Frisco is at 9,100 ft. Headaches and bad sleep are normal for a night or two. Water, and nothing hard on the first day.</li>
+    <li><b>Cold and short days.</b> Single digits in the morning, sunset around 4:45. Start late morning and finish by mid-afternoon.</li>
+  </ul>
+</section>
+
+<section id="open">
+  <h2>Still to find out</h2>
+  <ul class="plain">
+    <li>Whether the condo is free from Dec 21, and the key.</li>
+    <li>Whether our outbound flights can move to Dec 21, and what it costs.</li>
+    <li>Where to rent snowshoes and microspikes in Frisco, and the price.</li>
+    <li>The bus schedule around Christmas (the county says buses run every day of the year).</li>
+  </ul>
+</section>
+
+<section id="sources">
+  <h2>Where the numbers come from</h2>
+  <ul class="src">
+    <li>Frisco Nordic: townoffrisco.com, trail passes and lessons pages, read Nov 8, 2026. Rental prices and the holiday surcharge: livegrandteam.com (secondary source).</li>
+    <li>Buses: summitcountyco.gov (winter 2026–27 schedules and "Transit to Trails") and ridebustang.com (fares and the Denver–Frisco schedule), read Nov 8, 2026.</li>
+    <li>Fares: Google Flights, one-way nonstop Cleveland → Denver, 1 adult, no bags, read Nov 8, 2026.</li>
+    <li>Trails: townoffrisco.com hiking page (Mount Royal and Masontown, Peaks Trail). Leadville: leadvilletwinlakes.com. Mayflower Gulch and the rec path grooming days: Colin's earlier research (townoffrisco.com, Oct 30, 2026).</li>
+  </ul>
+</section>
+
+</div>
+</main>
+<footer><div class="wrap">Draft as of Nov 9, 2026. Nothing is booked, and the Dec 21 start isn't confirmed.</div></footer>

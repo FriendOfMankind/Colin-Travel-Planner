@@ -1752,7 +1752,7 @@ None of this is a reason not to go. It is a reason to have the habits before Day
 
 ### What this costs, and what it does not
 
-**The 36-day total isn't added up yet.** The old 21-day loop was about **$1,790**, and unusually for this list that number was nearly complete — **there is no airfare, no rental car and no under-25 surcharge in it**, because you are driving your own car. Compare the [Sky Islands](../sky-islands-2027/) trip: 11 days, ~$1,076, plus an unpriced flight that could add $400 on top.
+**The 36-day total isn't added up yet.** The old 21-day loop was about **$1,790**, and unusually for this list that number was nearly complete — **there is no airfare, no rental car and no under-25 surcharge in it**, because you are driving your own car.
 
 Fuel is the biggest line at ~$553 and it moves with the route rather than with choices. Campsites are ~$445 across nine places, all estimated. The 25-day version came to $2,038, so **the recut saved about $250** — which was never the argument for shortening it. The argument was day 19.
 

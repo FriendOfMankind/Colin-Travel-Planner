@@ -39,7 +39,7 @@
   source: share/proposals/sky-islands-2027.html
   trip: sky-islands-2027
   for: the two Sky Islands friends (likely yes, not confirmed)
-  status: draft  # not sent yet (Colin, 2026-11-01)
+  status: parked  # never sent; trip shelved (Colin, 2026-11-08)
   asOf: 2026-11-01
 
 - id: dingle-marseille-2027
@@ -115,7 +115,7 @@
   format: doc
   wishlist: adirondacks-winter
   for: 2–3 friends who ski
-  status: draft  # not sent yet (Colin, 2026-11-01)
+  status: parked  # never sent; dropped for winter 2026–27 (Colin, 2026-11-08)
   asOf: 2026-11-01
   note: 2026-11-01 fixed the cost table's day labels, left over from the Jan 10–17 version.
 
@@ -139,3 +139,14 @@
   status: parked
   asOf: 2026-10-10
   note: Lost to Oregon on 2026-10-15. Re-date and re-price before it goes anywhere.
+
+- id: colorado-winter-2027
+  title: Frisco, Dec 21–30
+  url: https://claude.ai/artifact/Mm2KWi9fN59Unah7gtyAAd
+  format: page
+  source: share/proposals/colorado-winter-2027.html
+  wishlist: colorado-winter-2027
+  for: the parents and Finn, covering the early days (Dec 21–24) and the family week's Nordic plan
+  note: Rebuilt 2026-11-09 for the early arrival (was an after-Dec-30 stay, by car and then by bus, 2026-11-08). Dates not confirmed yet.
+  status: draft  # not sent yet (Colin, 2026-11-08)
+  asOf: 2026-11-09

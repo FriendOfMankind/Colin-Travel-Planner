@@ -6,12 +6,12 @@ status: wishlist
 months: [ 1 ]
 mode: fly
 days: 10
-window: Inside Dec 31, 2026 – Jan 18, 2027 (Frisco ends Dec 30; spring term starts Jan 19). Competes with the Adirondacks for the same gap; both open *(Colin, 2026-11-03)*
+window: Not winter 2026–27. Was inside Dec 31, 2026 – Jan 18, 2027; Costa Rica beat it 2026-11-03, then all three January friends trips were dropped for this winter *(Colin, 2026-11-08)*
 region: Antigua / Acatenango, Guatemala → La Libertad surf coast and Los Volcanes, El Salvador
 country: Guatemala, El Salvador
 budget: TBD, not priced. Flights and shuttles have published ranges below; lodging and Acatenango not quoted
 tags: [ friends, international, fly-in, volcano, surf, beach, passport, winter, january ]
-updated: 2026-11-03
+updated: 2026-11-08
 source: daydream 2026-11-03 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
