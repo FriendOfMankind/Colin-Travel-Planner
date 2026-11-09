@@ -464,7 +464,7 @@
     keeps: ["Keeps", "Fits in PTO later. No rush."],
     weekend: ["Weekend", "Inside the weekend radius. Weekends outlast the horizon."],
   };
-  function ideasBlock() {
+  function ideasBlock({ top = false } = {}) {
     const month = store.get("ideaMonth", 0), mode = store.get("ideaMode", "");
     const all = D.ideas ?? [];
     const list = all.filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
@@ -475,7 +475,7 @@
         <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
         <span class="go" aria-hidden="true">›</span></a>`;
     const groups = Object.keys(HORIZON).map((h) => [h, list.filter((i) => i.horizon === h)]).filter(([, l]) => l.length);
-    return `<div class="section"><h2>Potential trips <span class="count-inline">${list.length} of ${all.length}</span></h2>
+    return `<div class="section"${top ? ' style="margin-top:0"' : ""}><h2>Potential trips <span class="count-inline">${list.length} of ${all.length}</span></h2>
       <div class="filters">${chip("ideaMonth", 0, "Any month", month)}${MON.map((m, i) => chip("ideaMonth", i + 1, m, month)).join("")}</div>
       <div class="filters">${chip("ideaMode", "", "Any way", mode)}${modes.map((m) => chip("ideaMode", m, m, mode)).join("")}</div>
       ${groups.map(([h, l]) => `<div class="section" style="margin-top:10px"><div><div class="eyebrow">${HORIZON[h][0]} · ${l.length}</div><div class="note">${HORIZON[h][1]}</div></div><div class="panel divide">${l.map(row).join("")}</div></div>`).join("")
@@ -496,7 +496,7 @@
   /** A check that repeats a booking row ("**CLE ⇄ DUB round trip** booked…") shows once, under Book. */
   const isBookingCheck = (t, r) => {
     const lead = norm((/^\W*<strong>(.*?)<\/strong>/.exec(r.text) ?? [])[1] ?? "");
-    return lead.length >= 8 && t.booking.some((b) => { const w = norm(b.what); return w.startsWith(lead) || lead.startsWith(w); });
+    return lead.length >= 8 && t.booking.some((b) => { if (b.booked) return false; const w = norm(b.what); return w.startsWith(lead) || lead.startsWith(w); });
   };
   const outIn = (today, iso) => { const d = daysBetween(today, iso); return d === 0 ? "today" : d < 0 ? `${-d} days ago` : `in ${d} day${d === 1 ? "" : "s"}`; };
   /** A proposal's date: its trip's, else its pencilled idea's. */
@@ -506,7 +506,14 @@
   };
   const planName = (p) => p.trip ? (p.trips ?? [p.trip]).map((s) => D.trips.find((t) => t.slug === s)?.title ?? s).join(" + ") : ((D.ideas ?? []).find((i) => i.slug === p.wishlist)?.title ?? p.wishlist);
 
+  let todoMemo = null;
   function todo(today) {
+    if (todoMemo?.today === today) return todoMemo.v;
+    const v = todoFor(today);
+    todoMemo = { today, v };
+    return v;
+  }
+  function todoFor(today) {
     const trips = liveTrips(today);
     const ask = [];
     for (const p of D.proposals ?? []) {
@@ -517,14 +524,13 @@
         note: p.behind ? (p.behind.stale || (p.behind.changed ? `The plan moved ${fmt(p.behind.changed)}.` : "")) : "" });
     }
     for (const t of trips) for (const q of t.questions) {
-      if (q.waitingOn) ask.push({ when: whenOf(t), kind: "wait", verb: "Ask", html: q.q, who: q.waitingOn, where: t.title, href: `#t-${t.slug}-prep`, note: q.blocks ? `Blocks: ${q.blocks}` : "" });
+      if (q.waitingOn) ask.push({ when: whenOf(t), kind: "wait", verb: "Ask", verbWho: q.waitingOn, html: q.q, where: t.title, href: `#t-${t.slug}-prep`, note: q.blocks ? `Blocks: ${q.blocks}` : "" });
     }
     ask.sort((a, b) => (a.when < b.when ? -1 : a.when > b.when ? 1 : 0));
 
-    const w = D.booking ?? [];
-    const soon = w.filter((x) => x.opens && x.opens > today && daysBetween(today, x.opens) <= 120).sort((a, b) => (a.opens < b.opens ? -1 : 1));
-    const openNow = w.filter((x) => x.opens && x.opens <= today);
-    const byTrip = trips.map((t) => ({ t, rows: w.filter((x) => x.slug === t.slug && (x.anytime || !x.opens)) })).filter((g) => g.rows.length);
+    // The same groups as the #book page, so the two can't disagree.
+    const { open: openNow, soon, anytime, unknown } = bookingGroups(today);
+    const byTrip = trips.map((t) => ({ t, rows: [...anytime, ...unknown].filter((x) => x.slug === t.slug) })).filter((g) => g.rows.length);
 
     const plan = trips.map((t) => ({
       t,
@@ -540,9 +546,9 @@
 
   const askRow = (x) => `<a class="todo-row ${x.kind}" href="${esc(x.href)}"${x.ext ? ' target="_blank" rel="noopener"' : ""}>
       <span class="dot"></span>
-      <div><div class="todo-verb">${esc(x.verb)}</div>
+      <div><div class="todo-verb">${esc(x.verb)}${x.verbWho ? ` <span class="who">${x.verbWho}</span>` : ""}</div>
       <div class="todo-what">${x.html}</div>
-      ${x.who ? `<div class="todo-who">${x.kind === "wait" && x.verb === "Ask" ? "Ask" : "For"}: ${x.who}</div>` : ""}
+      ${x.who ? `<div class="todo-who">For: ${x.who}</div>` : ""}
       <div class="where">${esc(x.where)}${x.note ? ` · ${x.note}` : ""}</div></div>
       <span class="go" aria-hidden="true">${x.ext ? "↗" : "›"}</span></a>`;
 
@@ -563,7 +569,7 @@
 
       <div class="section">${head("book", "Book", T.n.book, "Not marked booked. Opening dates are computed from <code>me/booking.md</code>.")}
         ${T.openNow.length ? `<div class="eyebrow">Open now</div><div class="panel divide">${T.openNow.map((x) => bookRow(x, `<span class="muted">opened</span><br>${fmt(x.opens)}`)).join("")}</div>` : ""}
-        ${T.soon.length ? `<div class="eyebrow">Windows opening in the next 4 months</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
+        ${T.soon.length ? `<div class="eyebrow">Windows not open yet</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
         ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary>${tripLabel(g.t)} · ${g.rows.length}</summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
         <a class="btn" href="#book">Every booking window, with calendar alarms ›</a></div>
 
@@ -603,7 +609,7 @@
 
   V.ideas = () => `<div class="stack"><h1>Ideas</h1>
     <p class="note" style="margin:0">Someday, in two sizes: potential trips (<code>wishlist/</code>, a place plus a season) and single places worth the detour (<code>bucket.yaml</code>). Add either by telling Claude: <span class="mono">daydream…</span> or <span class="mono">save that spot…</span></p>
-    ${ideasSeg("ideas")}${ideasBlock().replace('<div class="section">', '<div class="section" style="margin-top:0">')}</div>`;
+    ${ideasSeg("ideas")}${ideasBlock({ top: true })}</div>`;
 
   V.bucket = () => {
     const all = D.bucket ?? [];
@@ -678,7 +684,7 @@
       body = `<div class="stack">
         <div class="section" style="margin-top:6px"><h2>Bookings</h2><div class="panel divide">${t.booking.map((b) => `<div class="task ${b.booked ? "" : "warn"}"><span class="dot" style="background:${b.booked ? "var(--ok)" : "var(--warn)"}"></span><div>${b.what}<div class="where">${esc(b.system)} · ${b.booked ? "booked" : "not booked"}</div></div></div>`).join("")}</div></div>
         <div class="section"><h2>Checks</h2><div class="panel divide">${t.reservations.map((r, i) => checkRow(`${t.slug}:res:${i}`, r.text, r.done)).join("")}</div></div>
-        ${t.questions.length ? `<div class="section"><h2>Open questions</h2><div class="panel divide">${t.questions.map((q) => `<details class="fold"><summary>${strip(q.q)}</summary><div class="prose">${q.blocks ? `<p class="muted"><b>Blocks:</b> ${q.blocks}</p>` : ""}${q.detail}</div></details>`).join("")}</div></div>` : ""}
+        ${t.questions.length ? `<div class="section"><h2>Open questions</h2><div class="panel divide">${t.questions.map((q) => `<details class="fold"><summary>${strip(q.q)}</summary><div class="prose">${q.blocks ? `<p class="muted"><b>Blocks:</b> ${q.blocks}</p>` : ""}${q.waitingOn ? `<p class="muted"><b>Waiting on:</b> ${q.waitingOn}</p>` : ""}${q.detail}</div></details>`).join("")}</div></div>` : ""}
         ${t.provisions ? `<div class="section"><h2>Food and shopping</h2><div class="panel pad prose">${t.provisions.summary}</div>${t.provisions.critical ? `<div class="callout prose">${t.provisions.critical}</div>` : ""}
           ${t.provisions.stops.map((s, si) => `<details class="fold panel"><summary>${strip(s.group)}</summary><div>${s.note ? `<p class="muted" style="font-size:13.5px;margin:0 0 6px">${s.note}</p>` : ""}${s.items.map((it, ii) => checkRow(`${t.slug}:shop:${si}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>` : ""}
         <div class="section"><h2>Packing</h2>${t.packing.map((c, ci) => `<details class="fold panel"><summary>${strip(c.category)}</summary><div>${c.items.map((it, ii) => checkRow(`${t.slug}:pack:${ci}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>

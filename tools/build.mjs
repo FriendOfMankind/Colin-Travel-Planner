@@ -45,6 +45,8 @@ marked.use({ tokenizer: { del(src) {
   const m = /^~~(?=[^\s~])([\s\S]*?[^\s~])~~(?!~)/.exec(src);
   if (m) return { type: "del", raw: m[0], text: m[1], tokens: this.lexer.inlineTokens(m[1]) };
 } } });
+// A trailing "*(Colin, 2026-11-09)*" tag: the file keeps it, a short label drops it.
+const PROVENANCE = /\s*\*\([^)]*\)\*\s*$/;
 const md = (s) => (s ? marked.parse(String(s)) : "");
 const mdi = (s) => (s ? marked.parseInline(String(s)) : "");
 
@@ -150,7 +152,7 @@ function buildTrip(slug) {
     hikes: (page.hikes?.rows ?? []).map((h) => Object.fromEntries(Object.entries(h).map(([k, v]) => [k, typeof v === "string" ? mdi(v) : v]))),
     places: places.map((g) => ({ group: g.group, places: g.places.map((p) => ({ name: p.name, star: p.star, days: p.days, maps: p.maps, verified: !!p.verified, lat: p.lat, lng: p.lng, note: mdi(p.note) })) })),
     reservations: (page.reservations ?? []).map((x) => ({ done: !!x.booked, text: mdi(x.text) })),
-    questions: (page.openQuestions ?? []).map((q) => ({ q: mdi(q.question), blocks: mdi(q.blocks), waitingOn: q.waitingOn ? mdi(q.waitingOn) : null, detail: md(q.detail) })),
+    questions: (page.openQuestions ?? []).map((q) => ({ q: mdi(q.question), blocks: mdi(q.blocks), waitingOn: q.waitingOn ? mdi(q.waitingOn.replace(PROVENANCE, "")) : null, detail: md(q.detail) })),
     packing: (page.packing ?? []).map((c) => ({ category: mdi(c.category), items: c.items.map(mdi) })),
     provisions: page.provisions ? {
       summary: md(page.provisions.summary),
