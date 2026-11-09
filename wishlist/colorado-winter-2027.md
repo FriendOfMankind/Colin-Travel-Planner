@@ -1,6 +1,6 @@
 ---
 slug: colorado-winter-2027
-title: Colorado Winter, After Frisco
+title: Frisco Early, Dec 21–24
 subtitle: Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30
 status: wishlist
 months: [ 12, 1, 2 ]
@@ -10,13 +10,13 @@ start: 2026-12-21
 window: "Dec 21–24, 2026, before the family arrives Dec 25 (pencilled 2026-11-08). Was: stay on after Dec 30, dropped because the family wants to be home for New Year's Eve. Fall finals end Dec 18"
 region: Summit County (Frisco, Breckenridge, Silverthorne), Colorado
 country: USA
-budget: "~$700 for Colin + Finn over 5 nights, ~$960 over 7, before flight changes, snowshoe and microspike rentals and the A Line fare. The condo is the family's place; a free stay after Dec 30 is being asked (Colin, 2026-11-08). Colin pays any fare difference on his own flight change; passes, rentals and bus fares read 2026-11-08, food estimated. (was: ~$1,630–1,950 with a car and Granby/Estes motels)"
+budget: "~$300 a person for Dec 21–24 (lesson, rentals, passes, food, the bus from the airport), before snowshoe and microspike rentals. The condo is family-owned (free stay being asked). Colin pays any fare difference on his own outbound change (Colin, 2026-11-08)"
 tags: [ winter, nordic ski, snowshoe, frozen lakes, bus, car-free, brother, extension ]
-updated: 2026-11-08
+updated: 2026-11-09
 source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
-# Colorado Winter, After Frisco
+# Frisco Early, Dec 21–24
 
 *Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30*
 
@@ -36,16 +36,14 @@ source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or second
 
 **Horizon:** a Colorado winter week works on PTO later too. What's only-now is the combination: a paid flight, Finn already there, family money.
 
-## The shape (draft, nothing booked)
+## The shape (draft, nothing booked, dates not confirmed)
 
-- **Dec 25–30, family week:** Sat 26 Frisco Nordic lesson · Sun 27 Mayflower Gulch snowshoe (family car) · Mon 28 rec path to Breckenridge · Tue 29 free. Parents drive the rental to DEN and fly Wed Dec 30.
-- **Wed Dec 30:** an easy afternoon at Frisco Nordic.
-- **Thu Dec 31:** Peaks Trail, Frisco → Breckenridge, 7.8 mi one way, snowshoes or skis, free bus back.
-- **Fri Jan 1:** Gold Run (Breck Free Ride) or Breckenridge Nordic.
-- **Sat Jan 2:** Mount Royal and the Masontown ruins on foot from Main Street; afternoon ski.
-- **Sun Jan 3:** Wildernest bus to the Lily Pad trailhead, the frozen lake, then down to Meadow Creek trailhead; Sapphire Point.
-- **Mon Jan 4 (5 nights):** Bustang to Union Station, A Line to DEN. **7 nights:** Mon Jan 4 Vail by Bustang ($5), Tue Jan 5 Boreas Pass Road (bus access to the winter trailhead unchecked), fly Wed Jan 6.
-- **Kept from the road version for another winter:** Grand County XC (Snow Mountain Ranch, Devil's Thumb), RMNP's frozen lakes from Estes Park. Prices are in the notes below.
+- **Mon Dec 21:** a morning flight (United 8:30 → 10:07 or Southwest 5:40 → 7:15), A Line to Union Station, Bustang to Frisco (Monday arrivals 12:40 or 2:40). Easy walk; first day at 9,100 ft.
+- **Tue Dec 22:** Frisco Nordic: Colin's lesson ($95, includes the day pass), then ski. Finn skis already.
+- **Wed Dec 23:** the rec path to Breckenridge, 8 mi, groomed Wednesdays; free bus back.
+- **Thu Dec 24:** Mount Royal and Masontown on foot from Main Street, or the Peaks Trail to Breckenridge.
+- **Dec 25–30:** the family week (`wishlist/frisco-2026.md`). Bus-reachable spares for Colin and Finn: Peaks Trail, Lily Pad Lake, Gold Run. With the family car: Mayflower Gulch, and maybe Leadville's Mineral Belt Trail or Snow Mountain Ranch.
+- **Kept as notes, not plans:** the after-Dec-30 stay (bus or Granby + Estes road version). Prices are in the research notes.
 
 ## Next
 

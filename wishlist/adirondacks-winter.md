@@ -12,7 +12,7 @@ region: Lake Placid / Wilmington / Saranac Lake, New York
 country: USA
 budget: ~$950–1,150 pp for a 3-day skier, ~$700 pp for a non-skier, both before the bobsled (estimate, see 2026-10-15 notes); lift tickets estimated, bobsled not priced
 tags: [ friends, winter, skiing, cross-country, snowshoe, olympic, cabin, drive, january ]
-updated: 2026-11-08
+updated: 2026-11-09
 source: daydream 2026-10-15 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
@@ -28,7 +28,7 @@ Colin asked for winter activities that are "realistic and affordable and fun for
 
 **It's a friends trip.** Colin "could get someone to come", friends who ski, and "as long as they get a day or two to ski it'll be worth it" *(stated 2026-10-15)*. Group: **3–4 including Colin, all students**, free any time after Jan 4 *(stated 2026-10-15)*. With friends, winter High Peaks stop breaking the solo rule in `me/hiking.md` ("I don't wanna get lost alone"); solo, Cascade in winter would.
 
-**Horizon: keeps.** A 5-day winter drive trip is easy on PTO after 2027-08-31. It's here because January is otherwise empty (`me/calendar.md`: Frisco ends Dec 30, spring term starts Jan 19), not because it's now-or-never. Snow trips also already cover December (Frisco), which is an argument for keeping spring break as the desert trip (`trips/sky-islands-2027/trip.md`).
+**Horizon: keeps.** A 5-day winter drive trip is easy on PTO after 2027-08-31. It's here because January is otherwise empty (`me/calendar.md`: Frisco ends Dec 30, spring term starts Jan 19), not because it's now-or-never. (Sky Islands, the spring-break desert trip this was weighed against, was shelved 2026-11-08.)
 
 **Cold:** `me/camping.md` records comfort to the 40s. That's why this is a cabin, not camping.
 

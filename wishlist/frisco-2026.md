@@ -16,7 +16,7 @@ country: USA
 coords: [ 39.57, -106.1 ]
 budget: n/a
 tags: [ family, fixed, winter, nordic ski, snowshoe ]
-updated: 2026-11-08
+updated: 2026-11-09
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -26,7 +26,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-**This is the whole winter now.** The Mojave loop was deferred on Sept 6 2026, so Frisco is no longer the outbound half of an open jaw — it is a round trip to Colorado and back, and it stands on its own.
+**This is the whole winter now** *(confirmed again 2026-11-08)*: Sky Islands was shelved and the January friends trips (Adirondacks, Costa Rica, Guatemala) were dropped to save for summer. The family wants to be home for New Year's Eve, so nobody stays past Dec 30. **Colin (and probably Finn) may fly out early, Mon Dec 21**, and ride home with the family on Dec 30; not confirmed yet. Those early days are `wishlist/colorado-winter-2027.md`. (The Mojave loop was deferred on Sept 6 2026, so Frisco is a round trip that stands on its own.)
 
 ✅ **Dates confirmed: Dec 25–30, 2026** *(stated 2026-09-30; was: "Dec 25 for maybe 5 nights", a placeholder)*.
 
@@ -34,9 +34,10 @@ Summit County in late December is a family condo at 9,100 ft. **It's turning int
 
 ## Next
 
-1. Price CLE → DEN for Dec 25–30, so you don't overpay for the fare.
-2. **Who's skiing, and have they skied before?** (none, downhill, Nordic). That decides everything in the notes below.
-3. Then book a Frisco Nordic Center private lesson and rentals for day one. Lessons are private only, so book ahead for the holiday week.
+1. **Flights are booked** *(Colin, 2026-11-08)*. Colin is checking whether he can move his outbound to Dec 21 (he pays any fare difference), and whether the condo is free Dec 21–24.
+2. **Who skis:** Finn skis, and maybe one other family member has experience *(Colin, 2026-11-08)*. The rest are beginners.
+3. Book the Frisco Nordic private lessons for the beginners (call 970-668-2570 to book more than one person); holiday week, so book ahead.
+4. The family plan is on the page "Frisco, Dec 21–30" (`share/proposals/colorado-winter-2027.html`).
 
 ## Research notes
 

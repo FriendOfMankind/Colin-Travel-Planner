@@ -254,7 +254,7 @@ Smartwater 1 L bottles are the storage system: portable, and they stack in the t
   note: "*(stated 2026-10-01, wants one)* Users report it threads onto Smartwater bottles *(source: thruhiker Facebook group, search snippet, 2026-10-01)*. Hand-tighten only, because over-tightening damages the gasket *(source: sawyer.com/faqs, search snippet, 2026-10-01)*. **Never let it freeze:** Sawyer won't say freezing is safe and there's no test for damage, so a frozen filter means a new one *(source: backpackinglight.com forum quoting Sawyer, search snippet, 2026-10-01)*. On nights near 32°F it sleeps in the bag, not in the car."
 - name: Water jugs
   state: own
-  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)* Linville needs ~12 L and Sky Islands 5+ gallons of capacity beyond the bottles (see those trips)."
+  note: "*(stated 2026-10-01: \"pretty much own everything else\", answering a list of chair, lantern, jugs, filter, bottles, towel, binoculars, phone tripod and pillow; confirm at the next packing)* Linville needed ~12 L, and Sky Islands (shelved 2026-11-08) planned 5+ gallons beyond the bottles (see those trips)."
 ```
 
 ## Camp kitchen

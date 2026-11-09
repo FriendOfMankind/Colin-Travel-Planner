@@ -27,7 +27,7 @@ The keys were written from the files as they stand on 2026-09-28 (updated after 
 | 13 | Did Starlink work at Koomer Ridge? | Not at the tent site; it worked after moving to a better sky view in the campground | `me/gear.md`, `trips/kentucky-2026/log.md` |
 | 14 | When does recreation.gov release sites, in my time zone? | 6-month rolling window; 7 AM PT = **10 AM ET**, one instant nationwide | `me/booking.md` |
 | 15 | When is spring break 2027? | Mar 8–12, 2027 | `me/calendar.md` |
-| 16 | Are my Frisco dates set? | No. Dec 25–30 is a placeholder, marked unconfirmed | `me/calendar.md` |
+| 16 | Are my Frisco dates set? | The family week is Dec 25–30, confirmed 2026-09-30. Colin arriving early on Dec 21 is pencilled in, not confirmed | `me/calendar.md`, `wishlist/frisco-2026.md`, `wishlist/colorado-winter-2027.md` |
 | 17 | What did the Kentucky plan cut, and why? | Sky Bridge (faces E/SE, extra leg on lecture day), John Litton Farm Loop (to fit Friday under the ceiling and buy the rim sunset), Yahoo Falls (40 min detour on an 8-hr drive day). Red River Rockhouse was a closure, not a cut | `trips/kentucky-2026/trip.md` Notes |
 | 18 | What's my working style preference for how you talk to me? | Direct, push back, no flattery, flag confidence, don't nag about unbooked plans | `me/working-rules.md` |
 | 19 | Does cooking lunch during the lecture work? | Yes: he cooked during the lecture in Kentucky, "not a big deal." A great answer also notes the Kentucky plan contradicted itself on this ("workable" vs "conflict") and the log settled it | `trips/kentucky-2026/log.md` (+ `trip.md`) |
