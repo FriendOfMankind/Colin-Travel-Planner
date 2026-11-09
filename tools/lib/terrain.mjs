@@ -1,4 +1,4 @@
-// Elevation for the fun maps (tools/fly.mjs, tools/poster.mjs).
+// Elevation for the poster (tools/poster.mjs).
 //
 // Source: Mapzen "Terrarium" terrain tiles on AWS Open Data
 // (s3.amazonaws.com/elevation-tiles-prod), a mosaic of SRTM, USGS NED/3DEP

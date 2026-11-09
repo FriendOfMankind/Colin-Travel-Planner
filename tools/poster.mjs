@@ -5,7 +5,7 @@
 //
 //   node tools/build.mjs && node tools/poster.mjs <slug> [--dpi 200]
 //
-// Same inputs as tools/fly.mjs: the day lines and verified pins in site/maps/, terrain from
+// Inputs: the day lines and verified pins in site/maps/, terrain from
 // tools/lib/terrain.mjs. Every number on the sheet is computed here from those (miles from the
 // line, elevations from the terrain model, marked ≈). Nothing is typed in.
 import fs from "node:fs";
