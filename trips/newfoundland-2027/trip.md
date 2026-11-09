@@ -1187,7 +1187,7 @@ Coastal fog is the default. Blackflies are bad in still woods in late May and Ju
 ### Does Argentia Sunset RV Park take tents?
 
 **Blocks:** Day 26
-**Waiting on:** Argentia Sunset RV Park (709-227-6363)
+**Waiting on:** Argentia Sunset RV Park, 709-227-6363 *(Claude, 2026-11-09, from this question)*
 The night of June 20 is now Argentia Sunset RV Park, 2.5 km from the ferry: 40 serviced sites, washrooms, showers, reservations at 709-227-6363 or argentiarvpark@gmail.com *(portofargentia.ca, page read 2026-10-08)*. Its page doesn't mention tents. The fallback is the Placentia Paradise Hipcamp, "minutes from the Argentia ferry" *(snippet)*. Locals say the provincial parks near Argentia are day-use only *(Facebook, snippet)*.
 
 ### Is La Manche still the June 19 camp?

@@ -69,6 +69,8 @@
   // downloads capability's allowlist has no calendar type), so off Pages the
   // button points at the Pages copy, which .github/workflows/pages.yml deploys.
   const PAGES_URL = "https://friendofmankind.github.io/Colin-Travel-Planner/";
+  /** Where Colin drops pins (docs/MAPS.md step 2; source tools/coordsheet.html). Private: opens signed in. */
+  const LEDGER_URL = "https://claude.ai/artifact/79opjP1N8qdZqLrR5ifdUT";
   const hosted = /^https?:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(location.hostname);
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
   // Satellite view lives in Google Maps: the claude.ai page can't load outside tiles (Maps URLs API, basemap=satellite).
@@ -129,7 +131,7 @@
   function tripHeader(t, sec) {
     const today = now().date;
     const st = tripState(t, today);
-    const when = st === "upcoming" ? `${daysBetween(today, t.start)} days out` : st === "active" ? `Day ${daysBetween(t.start, today) + 1} of ${t.days.length}` : st === "past" ? "Done" : t.target ? `target ${daysBetween(today, t.target)} days out` : "No dates";
+    const when = st === "upcoming" ? `${daysBetween(today, t.start)} days out` : st === "active" ? `Day ${daysBetween(t.start, today) + 1} of ${t.days.length}` : st === "past" ? "Done" : t.target ? `${/target/i.test(t.datesLabel ?? "") ? "" : "target "}${daysBetween(today, t.target)} days out` : "No dates";
     const nightsBooked = t.booking.filter((b) => b.booked).length;
     const tabs = [["plan", "Plan"], ["places", "Places"], ["prep", "Prep", t.questions.length + t.reservations.filter((r) => !r.done).length], ["journal", "Journal", t.log.entries.length]];
     return `
@@ -137,7 +139,7 @@
         <a class="back" href="#trips">← Trips</a>
         <div class="eyebrow">${esc(t.datesLabel ?? "")} · ${esc(when)}</div>
         <h1>${esc(t.title)}</h1>
-        ${t.why ? `<div class="sub">${t.why}</div>` : ""}
+        ${t.why ? `<div class="sub${strip(t.why).length > 220 ? " clamp" : ""}">${t.why}</div>${strip(t.why).length > 220 ? `<button type="button" class="more" data-more>More</button>` : ""}` : ""}
         <div class="stats">
           <div><b>${t.days.length}</b><span>days</span></div>
           <div><b>${nightsBooked}/${t.booking.length}</b><span>bookings made</span></div>
@@ -224,7 +226,7 @@
     const T = todo(today);
     const top = [...T.ask.slice(0, 3).map(askRow), ...T.soon.slice(0, 2).map((x) => askRow({ kind: "send", verb: `Window opens ${fmt(x.opens)}, ${outIn(today, x.opens)}`, html: x.what, where: `${x.trip} · ${x.system}`, href: "#todo" }))];
     return `<div class="section">
-      <div class="row" style="justify-content:space-between;align-items:baseline"><h2>To-do</h2><span class="muted mono" style="font-size:12px">${T.n.ask} ask · ${T.n.book} book · ${T.n.plan} decide · ${T.n.buy} buy</span></div>
+      <div class="row" style="justify-content:space-between;align-items:baseline"><h2>To-do</h2><span class="muted mono" style="font-size:12px">${T.n.ask} ask · ${T.n.book} book · ${T.n.pins} pin · ${T.n.buy} buy</span></div>
       ${top.length ? `<div class="panel divide">${top.join("")}</div>` : ""}
       <a class="btn" href="#todo">All of it in To-do ›</a></div>`;
   }
@@ -425,7 +427,7 @@
     const cur = T.current && today <= T.current.end ? ` · ${esc(T.current.name)}, ${T.current.classDays.join("/")} classes until ${fmt(T.current.end).slice(4)}` : "";
     return `<div class="section"><h2>The plan</h2>
       <div class="tl-lead">${lead}</div>
-      <div class="panel"><div class="tgrid">${grid}</div>
+      <div class="panel"><div class="tgrid" aria-hidden="true">${grid}</div>
         <div class="tlegend"><span><i style="background:${TRIP_COLORS[0]}"></i>Trip</span><span><i class="lg-idea"></i>Pencilled in</span><span><i class="lg-gap"></i>Open 5+ days</span><span><i class="lg-class"></i>Class</span><span><i class="lg-block"></i>Finals, family</span><span><i class="lg-free"></i>Free</span></div></div>
       <div class="tl">
         <div class="tl-it now"><div><span class="t">Today · ${fmt(today)}</span><span class="when">${cur}</span></div></div>
@@ -464,18 +466,17 @@
     keeps: ["Keeps", "Fits in PTO later. No rush."],
     weekend: ["Weekend", "Inside the weekend radius. Weekends outlast the horizon."],
   };
-  function ideasBlock() {
+  function ideasBlock({ top = false } = {}) {
     const month = store.get("ideaMonth", 0), mode = store.get("ideaMode", "");
     const all = D.ideas ?? [];
     const list = all.filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
     const chip = (key, val, label, cur) => `<button type="button" class="chip${cur === val ? " accent" : ""}" data-filter="${key}" data-val="${esc(val)}">${label}</button>`;
     const modes = [...new Set(all.map((i) => i.mode).filter(Boolean))].sort();
-    const row = (i) => `<a class="trip-row" href="#w-${i.slug}">
-        <div class="date">${esc(i.mode)}</div>
-        <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
+    const row = (i) => `<a class="trip-row nodate" href="#w-${i.slug}">
+        <div><h3>${esc(i.title)}</h3><div class="meta">${i.mode ? `<span class="mode">${esc(i.mode)}</span> · ` : ""}${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
         <span class="go" aria-hidden="true">›</span></a>`;
     const groups = Object.keys(HORIZON).map((h) => [h, list.filter((i) => i.horizon === h)]).filter(([, l]) => l.length);
-    return `<div class="section"><h2>Potential trips <span class="count-inline">${list.length} of ${all.length}</span></h2>
+    return `<div class="section"${top ? ' style="margin-top:0"' : ""}><h2>Potential trips <span class="count-inline">${list.length} of ${all.length}</span></h2>
       <div class="filters">${chip("ideaMonth", 0, "Any month", month)}${MON.map((m, i) => chip("ideaMonth", i + 1, m, month)).join("")}</div>
       <div class="filters">${chip("ideaMode", "", "Any way", mode)}${modes.map((m) => chip("ideaMode", m, m, mode)).join("")}</div>
       ${groups.map(([h, l]) => `<div class="section" style="margin-top:10px"><div><div class="eyebrow">${HORIZON[h][0]} · ${l.length}</div><div class="note">${HORIZON[h][1]}</div></div><div class="panel divide">${l.map(row).join("")}</div></div>`).join("")
@@ -496,7 +497,7 @@
   /** A check that repeats a booking row ("**CLE ⇄ DUB round trip** booked…") shows once, under Book. */
   const isBookingCheck = (t, r) => {
     const lead = norm((/^\W*<strong>(.*?)<\/strong>/.exec(r.text) ?? [])[1] ?? "");
-    return lead.length >= 8 && t.booking.some((b) => { const w = norm(b.what); return w.startsWith(lead) || lead.startsWith(w); });
+    return lead.length >= 8 && t.booking.some((b) => { if (b.booked) return false; const w = norm(b.what); return w.startsWith(lead) || lead.startsWith(w); });
   };
   const outIn = (today, iso) => { const d = daysBetween(today, iso); return d === 0 ? "today" : d < 0 ? `${-d} days ago` : `in ${d} day${d === 1 ? "" : "s"}`; };
   /** A proposal's date: its trip's, else its pencilled idea's. */
@@ -506,7 +507,14 @@
   };
   const planName = (p) => p.trip ? (p.trips ?? [p.trip]).map((s) => D.trips.find((t) => t.slug === s)?.title ?? s).join(" + ") : ((D.ideas ?? []).find((i) => i.slug === p.wishlist)?.title ?? p.wishlist);
 
+  let todoMemo = null;
   function todo(today) {
+    if (todoMemo?.today === today) return todoMemo.v;
+    const v = todoFor(today);
+    todoMemo = { today, v };
+    return v;
+  }
+  function todoFor(today) {
     const trips = liveTrips(today);
     const ask = [];
     for (const p of D.proposals ?? []) {
@@ -517,14 +525,13 @@
         note: p.behind ? (p.behind.stale || (p.behind.changed ? `The plan moved ${fmt(p.behind.changed)}.` : "")) : "" });
     }
     for (const t of trips) for (const q of t.questions) {
-      if (q.waitingOn) ask.push({ when: whenOf(t), kind: "wait", verb: "Ask", html: q.q, who: q.waitingOn, where: t.title, href: `#t-${t.slug}-prep`, note: q.blocks ? `Blocks: ${q.blocks}` : "" });
+      if (q.waitingOn) ask.push({ when: whenOf(t), kind: "wait", verb: "Ask", verbWho: q.waitingOn, html: q.q, where: t.title, href: `#t-${t.slug}-prep`, note: q.blocks ? `Blocks: ${q.blocks}` : "" });
     }
     ask.sort((a, b) => (a.when < b.when ? -1 : a.when > b.when ? 1 : 0));
 
-    const w = D.booking ?? [];
-    const soon = w.filter((x) => x.opens && x.opens > today && daysBetween(today, x.opens) <= 120).sort((a, b) => (a.opens < b.opens ? -1 : 1));
-    const openNow = w.filter((x) => x.opens && x.opens <= today);
-    const byTrip = trips.map((t) => ({ t, rows: w.filter((x) => x.slug === t.slug && (x.anytime || !x.opens)) })).filter((g) => g.rows.length);
+    // The same groups as the #book page, so the two can't disagree.
+    const { open: openNow, soon, anytime, unknown } = bookingGroups(today);
+    const byTrip = trips.map((t) => ({ t, rows: [...anytime, ...unknown].filter((x) => x.slug === t.slug) })).filter((g) => g.rows.length);
 
     const plan = trips.map((t) => ({
       t,
@@ -532,17 +539,20 @@
       checks: t.reservations.filter((r) => !r.done && !isBookingCheck(t, r)),
     })).filter((g) => g.decide.length || g.checks.length);
 
+    // Places on a live trip with no verified coordinate: the Pin Ledger's job.
+    const pins = trips.map((t) => ({ t, places: t.places.flatMap((g) => g.places.filter((p) => !p.verified).map((p) => ({ ...p, group: g.group }))) })).filter((g) => g.places.length);
     const buy = D.gearNeeds ?? [];
     const nBook = openNow.length + soon.length + byTrip.reduce((a, g) => a + g.rows.length, 0);
     const nPlan = plan.reduce((a, g) => a + g.decide.length + g.checks.length, 0);
-    return { trips, ask, openNow, soon, byTrip, plan, buy, n: { ask: ask.length, book: nBook, plan: nPlan, buy: buy.length } };
+    const nPins = pins.reduce((a, g) => a + g.places.length, 0);
+    return { trips, ask, openNow, soon, byTrip, plan, pins, buy, n: { ask: ask.length, book: nBook, plan: nPlan, pins: nPins, buy: buy.length } };
   }
 
   const askRow = (x) => `<a class="todo-row ${x.kind}" href="${esc(x.href)}"${x.ext ? ' target="_blank" rel="noopener"' : ""}>
       <span class="dot"></span>
-      <div><div class="todo-verb">${esc(x.verb)}</div>
+      <div><div class="todo-verb">${esc(x.verb)}${x.verbWho ? ` <span class="who">${x.verbWho}</span>` : ""}</div>
       <div class="todo-what">${x.html}</div>
-      ${x.who ? `<div class="todo-who">${x.kind === "wait" && x.verb === "Ask" ? "Ask" : "For"}: ${x.who}</div>` : ""}
+      ${x.who ? `<div class="todo-who">For: ${x.who}</div>` : ""}
       <div class="where">${esc(x.where)}${x.note ? ` · ${x.note}` : ""}</div></div>
       <span class="go" aria-hidden="true">${x.ext ? "↗" : "›"}</span></a>`;
 
@@ -552,23 +562,29 @@
     const head = (id, title, n, note) => `<div id="todo-${id}"><h2>${title} <span class="count-inline">${n}</span></h2>${note ? `<div class="note">${note}</div>` : ""}</div>`;
     const tripLabel = (t) => `${esc(t.title)} <span class="muted mono" style="font-size:12px">${t.start ? outIn(today, t.start) : t.target ? `target ${outIn(today, t.target)}` : "no dates"}</span>`;
     const bookRow = (x, right) => `<div class="brow"><div><div>${x.what}</div><div class="where"><a href="#t-${x.slug}-prep">${esc(x.trip)}</a> · ${esc(x.system)}</div></div><div class="when mono">${right}</div></div>`;
-    const stat = (id, n, label) => `<button type="button" data-jump="todo-${id}"><b>${n}</b><span>${label}</span></button>`;
+    const stat = (id, n, label) => `<button type="button" data-jump="todo-${id}" aria-label="${n} ${esc(strip(label))}, jump to the list"><b>${n}</b> <span>${label}</span></button>`;
+    // Decide & check counts the nearest trip only: 54 across every trip is a number nobody can act on.
+    const firstPlan = T.plan[0];
     return `<div class="stack">
       <div class="row" style="justify-content:space-between;align-items:baseline"><h1>To-do</h1><span class="mono muted" style="font-size:13px">${fmt(today)}</span></div>
       <p class="note" style="margin:0">Every open thread across the live trips. It reads the files, so a thing leaves this list when its file says it's done: tell Claude (<span class="mono">log:</span>, <span class="mono">we booked…</span>, <span class="mono">they're in</span>).</p>
-      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${stat("plan", T.n.plan, "decide & check")}${stat("buy", T.n.buy, "to buy")}</div>
+      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${firstPlan ? stat("plan", firstPlan.decide.length + firstPlan.checks.length, `decide &amp; check · ${esc(firstPlan.t.title)}`) : stat("plan", 0, "decide &amp; check")}${stat("pins", T.n.pins, "to pin")}${stat("buy", T.n.buy, "to buy")}</div>
 
       <div class="section">${head("ask", "Ask people", T.n.ask, "Invite pages to send or chase, and open questions someone else has to answer (a <code>**Waiting on:**</code> line in <code>trip.md</code>). Soonest trip first.")}
         ${T.ask.length ? `<div class="panel divide">${T.ask.map(askRow).join("")}</div>` : '<div class="panel pad muted">Nobody to chase.</div>'}</div>
 
       <div class="section">${head("book", "Book", T.n.book, "Not marked booked. Opening dates are computed from <code>me/booking.md</code>.")}
         ${T.openNow.length ? `<div class="eyebrow">Open now</div><div class="panel divide">${T.openNow.map((x) => bookRow(x, `<span class="muted">opened</span><br>${fmt(x.opens)}`)).join("")}</div>` : ""}
-        ${T.soon.length ? `<div class="eyebrow">Windows opening in the next 4 months</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
-        ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary>${tripLabel(g.t)} · ${g.rows.length}</summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
+        ${T.soon.length ? `<div class="eyebrow">Windows not open yet</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
+        ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.rows.length}</span></summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
         <a class="btn" href="#book">Every booking window, with calendar alarms ›</a></div>
 
+      <div class="section">${head("pins", "Pins", T.n.pins, "Places on a live trip with no checked coordinate, so no Maps pin, map line or offline GPX yet. Place each in the Pin Ledger (about 30 seconds: Find in Maps, long-press, copy, paste), then tell Claude <span class=\"mono\">pins are in</span>.")}
+        <a class="btn primary" target="_blank" rel="noopener" href="${LEDGER_URL}">Open the Pin Ledger ↗</a>
+        ${T.pins.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.places.length}</span></summary><div class="divide flush">${g.places.map((p) => `<div class="place"><div><div class="pn">${esc(p.name)}</div><div class="pm">${esc(p.group)}${p.note ? ` · ${p.note}` : ""}</div></div><div class="links">${p.maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(p.maps)}">Find in Maps ↗</a>` : ""}</div></div>`).join("")}</div></details>`).join("") || '<div class="panel pad muted">Every place on the live trips is pinned.</div>'}</div>
+
       <div class="section">${head("plan", "Decide & check", T.n.plan, "Open questions that are yours to answer, and the unchecked checks (ones that repeat a booking are under Book).")}
-        ${T.plan.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary>${tripLabel(g.t)} · ${g.decide.length + g.checks.length}</summary><div class="divide flush">
+        ${T.plan.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.decide.length + g.checks.length}</span></summary><div class="divide flush">
           ${g.decide.map((q) => `<a class="todo-row decide" href="#t-${g.t.slug}-prep"><span class="dot"></span><div><div class="todo-verb">Decide</div><div class="todo-what">${q.q}</div>${q.blocks ? `<div class="where">Blocks: ${q.blocks}</div>` : ""}</div><span class="go" aria-hidden="true">›</span></a>`).join("")}
           ${g.checks.map((r) => `<a class="todo-row check-row" href="#t-${g.t.slug}-prep"><span class="dot"></span><div><div class="todo-verb">Check</div><div class="todo-what">${r.text}</div></div><span class="go" aria-hidden="true">›</span></a>`).join("")}
         </div></details>`).join("") || '<div class="panel pad muted">Nothing open.</div>'}</div>
@@ -603,7 +619,7 @@
 
   V.ideas = () => `<div class="stack"><h1>Ideas</h1>
     <p class="note" style="margin:0">Someday, in two sizes: potential trips (<code>wishlist/</code>, a place plus a season) and single places worth the detour (<code>bucket.yaml</code>). Add either by telling Claude: <span class="mono">daydream…</span> or <span class="mono">save that spot…</span></p>
-    ${ideasSeg("ideas")}${ideasBlock().replace('<div class="section">', '<div class="section" style="margin-top:0">')}</div>`;
+    ${ideasSeg("ideas")}${ideasBlock({ top: true })}</div>`;
 
   V.bucket = () => {
     const all = D.bucket ?? [];
@@ -658,6 +674,7 @@
             <span class="gs">${d.overnight ? strip(d.overnight.name).replace(/ Campground| — .*/g, "") : "Home"}</span></a>`; }).join("")}
           <div class="glance-key muted"><span><i class="h"></i> on foot</span><span><i class="dr"></i> driving</span><span><span class="mono early" style="padding:0 4px">6:00</span> wake before 6:30</span></div>
         </div>
+        <h2 class="sr-only">Days</h2>
         ${t.days.map((d) => dayCard(t, d, { open: d.date === n.date, today: d.date === n.date, nowMinutes: d.date === n.date ? n.minutes : null })).join("")}
         ${t.route ? `<details class="fold panel"><summary>Route and overview</summary><div class="prose">${t.route}${t.overview.map((c) => `<h3>${c.h}</h3>${c.p}`).join("")}</div></details>` : ""}
         ${t.notes.length ? `<details class="fold panel"><summary>Why the plan looks like this</summary><div class="prose">${t.notes.map((x) => `<h3>${x.h}</h3>${x.body}`).join("")}</div></details>` : ""}
@@ -669,7 +686,7 @@
           <div class="pm">${p.note || ""}${p.days ? ` · Day ${esc(p.days)}` : ""}</div>
           <div class="loc ${p.verified ? "ok" : "no"}">${p.verified ? `✓ ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}` : "Not located: search only"}</div></div>
           <div class="links">${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}${p.verified && p.lat != null ? `<a class="maps" target="_blank" rel="noopener" href="${satUrl(p.lat, p.lng)}">Satellite ↗</a>` : ""}</div></div>`).join("")}</div></div>`).join("")}
-        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
+        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl" tabindex="0" role="region" aria-label="Table, scrolls sideways"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
         ${(() => { const bl = bucketFor({ trip: t.slug, states: t.states }); if (!bl.length) return "";
           const on = bl.filter((b) => b.trip === t.slug), near = bl.filter((b) => b.trip !== t.slug);
           return `<div class="section"><h2>Bucket list</h2>${on.length ? `<div class="eyebrow">On this trip</div><div class="panel divide">${on.map((b) => bucketRow(b, { noLinks: true })).join("")}</div>` : ""}${near.length ? `<div class="eyebrow" style="margin-top:6px">Also in ${esc(t.states.join(", "))}, not on the plan</div><div class="panel divide">${near.map((b) => bucketRow(b)).join("")}</div>` : ""}</div>`; })()}
@@ -678,11 +695,11 @@
       body = `<div class="stack">
         <div class="section" style="margin-top:6px"><h2>Bookings</h2><div class="panel divide">${t.booking.map((b) => `<div class="task ${b.booked ? "" : "warn"}"><span class="dot" style="background:${b.booked ? "var(--ok)" : "var(--warn)"}"></span><div>${b.what}<div class="where">${esc(b.system)} · ${b.booked ? "booked" : "not booked"}</div></div></div>`).join("")}</div></div>
         <div class="section"><h2>Checks</h2><div class="panel divide">${t.reservations.map((r, i) => checkRow(`${t.slug}:res:${i}`, r.text, r.done)).join("")}</div></div>
-        ${t.questions.length ? `<div class="section"><h2>Open questions</h2><div class="panel divide">${t.questions.map((q) => `<details class="fold"><summary>${strip(q.q)}</summary><div class="prose">${q.blocks ? `<p class="muted"><b>Blocks:</b> ${q.blocks}</p>` : ""}${q.detail}</div></details>`).join("")}</div></div>` : ""}
+        ${t.questions.length ? `<div class="section"><h2>Open questions</h2><div class="panel divide">${t.questions.map((q) => `<details class="fold"><summary>${strip(q.q)}</summary><div class="prose">${q.blocks ? `<p class="muted"><b>Blocks:</b> ${q.blocks}</p>` : ""}${q.waitingOn ? `<p class="muted"><b>Waiting on:</b> ${q.waitingOn}</p>` : ""}${q.detail}</div></details>`).join("")}</div></div>` : ""}
         ${t.provisions ? `<div class="section"><h2>Food and shopping</h2><div class="panel pad prose">${t.provisions.summary}</div>${t.provisions.critical ? `<div class="callout prose">${t.provisions.critical}</div>` : ""}
           ${t.provisions.stops.map((s, si) => `<details class="fold panel"><summary>${strip(s.group)}</summary><div>${s.note ? `<p class="muted" style="font-size:13.5px;margin:0 0 6px">${s.note}</p>` : ""}${s.items.map((it, ii) => checkRow(`${t.slug}:shop:${si}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>` : ""}
         <div class="section"><h2>Packing</h2>${t.packing.map((c, ci) => `<details class="fold panel"><summary>${strip(c.category)}</summary><div>${c.items.map((it, ii) => checkRow(`${t.slug}:pack:${ci}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>
-        ${t.weather.length ? `<div class="section"><h2>Weather</h2><div class="panel tbl"><table><thead><tr><th>Where</th><th>High</th><th>Low</th><th>Notes</th></tr></thead><tbody>${t.weather.map((w) => `<tr><td>${esc(w.location)}</td><td class="num">${esc(w.high)}</td><td class="num">${esc(w.low)}</td><td>${w.notes}</td></tr>`).join("")}</tbody></table></div>${t.weatherNote ? `<div class="muted prose" style="font-size:13px">${t.weatherNote}</div>` : ""}</div>` : ""}
+        ${t.weather.length ? `<div class="section"><h2>Weather</h2><div class="panel tbl" tabindex="0" role="region" aria-label="Table, scrolls sideways"><table><thead><tr><th>Where</th><th>High</th><th>Low</th><th>Notes</th></tr></thead><tbody>${t.weather.map((w) => `<tr><td>${esc(w.location)}</td><td class="num">${esc(w.high)}</td><td class="num">${esc(w.low)}</td><td>${w.notes}</td></tr>`).join("")}</tbody></table></div>${t.weatherNote ? `<div class="muted prose" style="font-size:13px">${t.weatherNote}</div>` : ""}</div>` : ""}
         <div class="note">Ticks save on this phone only. The plan files are the record.</div>
       </div>`;
     } else {
@@ -714,7 +731,7 @@
   };
 
   V.me = () => `<div class="stack"><h1>Me</h1><p class="muted" style="margin:0">What Claude knows about you. Change any of it by telling Claude: <span class="mono">/remember …</span></p>
-    <div class="panel divide">${D.kitchen ? `<a class="me-link" href="#kitchen"><div><h3>kitchen</h3><p>The staples menu: ${D.kitchen.meals.length} meals with computed macros, the daily target and the shopping list.</p></div><span class="go muted" aria-hidden="true">›</span></a>` : ""}${D.me.map((m) => `<a class="me-link" href="#me-${m.id}"><div><h3>${esc(m.id.replace(/-/g, " "))}</h3><p>${esc(m.summary)}</p></div><span class="go muted" aria-hidden="true">›</span></a>`).join("")}</div></div>`;
+    <div class="panel divide">${D.kitchen ? `<a class="me-link" href="#kitchen"><div><h2>kitchen</h2><p>The staples menu: ${D.kitchen.meals.length} meals with computed macros, the daily target and the shopping list.</p></div><span class="go muted" aria-hidden="true">›</span></a>` : ""}${D.me.map((m) => `<a class="me-link" href="#me-${m.id}"><div><h2>${esc(m.id.replace(/-/g, " "))}</h2><p>${esc(m.summary)}</p></div><span class="go muted" aria-hidden="true">›</span></a>`).join("")}</div></div>`;
 
   V.meFile = (m) => `<div class="stack"><a class="back" href="#me">← Me</a><h1 style="text-transform:capitalize">${esc(m.id.replace(/-/g, " "))}</h1><p class="muted" style="margin:0">${esc(m.summary)}</p>
     ${m.lists.declined ? `<div class="panel pad"><div class="eyebrow">Declined</div><ul>${m.lists.declined.map((x) => `<li>${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
@@ -762,6 +779,8 @@
       try { navigator.clipboard.writeText(text).then(() => { msg.textContent = "Copied. Paste it into the Claude app and fill in what came up."; }, fallback); } catch { fallback(); }
       return;
     }
+    const mo = e.target.closest("[data-more]");
+    if (mo) { const sub = mo.previousElementSibling; const open = sub.classList.toggle("open"); mo.textContent = open ? "Less" : "More"; mo.setAttribute("aria-expanded", open); return; }
     const j = e.target.closest("[data-jump]");
     if (j) { document.getElementById(j.dataset.jump)?.scrollIntoView({ block: "start", behavior: "smooth" }); return; }
     const f = e.target.closest("[data-filter]");

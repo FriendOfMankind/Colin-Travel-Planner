@@ -4,7 +4,7 @@
   --sunk: #eaeee9;
   --ink: #1b2220;
   --ink-2: #3c4642;
-  --muted: #66716c;
+  --muted: #5f6a65;
   --line: #dce1db;
   --accent: #2e6a4f;
   --accent-ink: #ffffff;
@@ -15,6 +15,10 @@
   --warn-soft: #f8e6e1;
   --ok: #2f7a46;
   --water: #2c5e8c;
+  /* waiting on someone else (To-do): purple, so yellow stays "today" */
+  --wait: #7d5fa8;
+  /* the Now banner stays dark in both themes, so the yellow countdown always reads */
+  --hero-bg: #1b2220; --hero-ink: #f4f6f3;
   /* System fonts only: nothing to download, so the page renders the same
      with no signal. Condensed faces where the phone has one (iOS: Avenir
      Next Condensed; Android: Roboto Condensed via sans-serif-condensed). */
@@ -32,6 +36,7 @@
     --accent: #72c29a; --accent-ink: #0d1a14; --accent-soft: #1d2e25;
     --today: #f0c24b; --today-soft: #33290f;
     --warn: #f08a72; --warn-soft: #3a1f19; --ok: #7ccf96; --water: #7fb2e0;
+    --wait: #b59bdb; --hero-bg: #232c28; --hero-ink: #e6ebe7;
   }
 }
 :root[data-theme="dark"] {
@@ -41,6 +46,7 @@
   --accent: #72c29a; --accent-ink: #0d1a14; --accent-soft: #1d2e25;
   --today: #f0c24b; --today-soft: #33290f;
   --warn: #f08a72; --warn-soft: #3a1f19; --ok: #7ccf96; --water: #7fb2e0;
+  --wait: #b59bdb; --hero-bg: #232c28; --hero-ink: #e6ebe7;
 }
 
 * { box-sizing: border-box; }
@@ -100,9 +106,9 @@ code { font-family: var(--mono); font-size: .9em; background: var(--sunk); paddi
 
 /* segmented control */
 .seg { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; display: flex; gap: 4px; padding: 4px; margin-inline: -4px; background: var(--paper); border-bottom: 1px solid var(--line); overflow-x: auto; scrollbar-width: none; }
-.seg a { flex: 1 0 auto; text-align: center; font: 600 15px/1 var(--display); text-transform: uppercase; letter-spacing: .06em; padding: 11px 12px; border-radius: 8px; text-decoration: none; color: var(--muted); }
+.seg a { flex: 1 0 auto; text-align: center; font: 600 15px/1 var(--display); text-transform: uppercase; letter-spacing: .04em; padding: 11px 8px; border-radius: 8px; text-decoration: none; color: var(--muted); }
 .seg a[aria-current="page"] { background: var(--ink); color: var(--paper); }
-.seg .count { font: 500 11px var(--mono); opacity: .8; margin-left: 3px; }
+.seg .count { font: 500 11px var(--mono); margin-left: 3px; }
 
 /* tab bar */
 .tabbar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 10; display: grid; grid-template-columns: repeat(5, 1fr); background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
@@ -111,12 +117,12 @@ code { font-family: var(--mono); font-size: .9em; background: var(--sunk); paddi
 .tabbar a[aria-current="page"] { color: var(--accent); }
 
 /* now */
-.hero { padding: 18px; border-radius: var(--radius); background: var(--ink); color: var(--paper); display: flex; flex-direction: column; gap: 10px; }
+.hero { padding: 18px; border-radius: var(--radius); background: var(--hero-bg); color: var(--hero-ink); display: flex; flex-direction: column; gap: 10px; }
 .hero h2 { font-size: 30px; }
-.hero .eyebrow { color: color-mix(in srgb, var(--paper) 70%, transparent); }
+.hero .eyebrow { color: color-mix(in srgb, var(--hero-ink) 72%, transparent); }
 .hero a { color: inherit; }
 .countdown { font: 700 64px/0.9 var(--display); color: var(--today); }
-.countdown small { font-size: 18px; font-weight: 600; color: var(--paper); margin-left: 6px; }
+.countdown small { font-size: 18px; font-weight: 600; color: var(--hero-ink); margin-left: 6px; }
 .task { display: grid; grid-template-columns: 22px 1fr; gap: 10px; padding: 12px 14px; align-items: start; }
 .task .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 7px; background: var(--muted); justify-self: center; }
 .task.warn .dot { background: var(--warn); }
@@ -213,7 +219,7 @@ details.fold > div { padding: 0 16px 14px; }
 
 /* me */
 .me-link { display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 13px 16px; text-decoration: none; color: inherit; }
-.me-link h3 { font-size: 18px; text-transform: capitalize; }
+.me-link h2 { font-size: 18px; text-transform: capitalize; }
 .me-link p { margin: 2px 0 0; font-size: 13px; color: var(--muted); }
 .gear-row { display: grid; grid-template-columns: 70px 1fr; gap: 10px; padding: 9px 0; border-top: 1px solid var(--line); }
 .gear-name { font-weight: 500; }
@@ -360,7 +366,7 @@ details.fold > div { padding: 0 16px 14px; }
 .todo-row { display: grid; grid-template-columns: 14px 1fr auto; gap: 10px; align-items: start; padding: 12px 14px; text-decoration: none; color: inherit; }
 .todo-row .dot { width: 10px; height: 10px; border-radius: 50%; margin-top: 5px; background: var(--muted); }
 .todo-row.send .dot { background: var(--warn); }
-.todo-row.wait .dot { background: var(--today); }
+.todo-row.wait .dot { background: var(--wait); }
 .todo-row.decide .dot { background: var(--water); }
 .todo-row .go { color: var(--muted); font-size: 18px; }
 .todo-row .pill { align-self: center; }
@@ -370,3 +376,26 @@ details.fold > div { padding: 0 16px 14px; }
 .todo-row .where { font-size: 12px; color: var(--muted); margin-top: 3px; }
 #view [id^="todo-"] { scroll-margin-top: 12px; }
 details.fold > div.flush { padding: 0; border-top: 1px solid var(--line); }
+.todo-verb .who { font: 500 13px/1.3 var(--body); text-transform: none; letter-spacing: 0; color: var(--ink-2); }
+
+/* 2026-11-09 accessibility pass: tap targets of at least 24px (32 for the ones used one-handed), screen-reader-only text */
+.maps { display: inline-flex; align-items: center; min-height: 32px; padding: 4px 10px; }
+.filters .chip { min-height: 32px; padding-inline: 11px; }
+a.chip { min-height: 28px; }
+.btn, .preview button { min-height: 40px; text-transform: none; letter-spacing: .01em; font-size: 15px; }
+.back { display: inline-block; padding: 8px 0; margin: -8px 0; text-transform: none; letter-spacing: .01em; font-size: 15px; }
+summary.muted, .srow details summary, .tl-more summary { padding: 6px 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.tbl:focus-visible { outline-offset: -2px; }
+
+/* a trip's intro: three lines, the rest one tap away */
+.head .sub.clamp:not(.open) { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.more { all: unset; cursor: pointer; align-self: flex-start; font-size: 14px; font-weight: 600; color: var(--accent); padding: 6px 0; }
+.more:focus-visible { outline: 2px solid var(--accent); }
+
+/* idea rows: no date to show, so no date column */
+.trip-row.nodate { grid-template-columns: 1fr auto; }
+.trip-row .mode { font: 600 11.5px var(--display); text-transform: uppercase; letter-spacing: .08em; }
+/* five To-do counts in two columns: the last one spans the row */
+.stats-btn > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+@media (min-width: 481px) { .stats-btn { grid-template-columns: repeat(5, minmax(0, 1fr)); } .stats-btn > :last-child:nth-child(odd) { grid-column: auto; } }

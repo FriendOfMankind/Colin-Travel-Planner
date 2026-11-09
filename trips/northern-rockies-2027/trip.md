@@ -1649,7 +1649,7 @@ Hike menu, all inside the ~10 mi / ~2,500 ft ceiling *(AllTrails, 2026-11-02)*: 
 ### When does each friend come and go, and why is Aug 12 the limit?
 
 **Blocks:** Days 21–32: the headcount, both cars, every room and both rafts
-**Waiting on:** the Oregon friends (their page isn't sent yet)
+**Waiting on:** the Oregon friends, through their invite page *(Claude, 2026-11-09, from this question)*
 Nobody has been asked yet *(Colin, 2026-11-04)*. The riders' end date decides whether Day 31 (the spare) survives: the old "not free after about Aug 12" *(stated 2026-10-14)* has no recorded reason, and Colin guesses school. Thursday Aug 12 is the latest; if it's Aug 11, Day 31 goes. The own-car group picks its own window from the invite page. **Both rafts are in the back half (Aug 8–9)**, so an own-car friend who wants rafting comes for the second half or the whole thing. Also needed: **flight arrival times on Aug 1**, because an evening landing breaks Day 21 (see its warning).
 
 ### The dunes: drive, ride, or skip?

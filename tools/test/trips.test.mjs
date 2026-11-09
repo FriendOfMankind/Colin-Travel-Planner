@@ -26,7 +26,7 @@ test("schedule lines survive text containing the separator", () => {
 test("an open question's **Waiting on:** line is read apart from its detail", () => {
   const { page } = parseTrip(readFileSync(join(TRIPS, "dingle-marseille-2027", "trip.md"), "utf8"));
   const q = page.openQuestions.find((x) => /^Is a 4th person coming/.test(x.question));
-  assert.equal(q.waitingOn, "Jake");
+  assert.match(q.waitingOn, /^Jake\b/);
   assert.ok(!/Waiting on/.test(q.detail));
   assert.equal(page.openQuestions.find((x) => /automatic/.test(x.question)).waitingOn, undefined);
 });
