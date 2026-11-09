@@ -3,3 +3,4 @@ node_modules/
 site/*
 !site/src/
 .claude/worktrees/
+.cache/

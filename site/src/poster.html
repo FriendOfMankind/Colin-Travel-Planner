@@ -1,0 +1,38 @@
+<title>__TITLE__ Poster</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: the sheet hangs on a plain wall; print notes sit under it. The sheet itself keeps one paper look in both themes. */
+:root {
+  --wall: #dfe3dc; --ink: #1b2220; --muted: #5f6a65; --line: #c9cfc7; --surface: #f4f6f3; --accent: #2e6a4f;
+  --display: "Avenir Next Condensed", "Roboto Condensed", sans-serif-condensed, "Arial Narrow", system-ui, sans-serif;
+  --body: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --mono: ui-monospace, "SF Mono", Menlo, "Roboto Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { color-scheme: dark; --wall: #171c1a; --ink: #e6ebe7; --muted: #93a09a; --line: #2a332f; --surface: #19201d; --accent: #72c29a; } }
+:root[data-theme="dark"] { color-scheme: dark; --wall: #171c1a; --ink: #e6ebe7; --muted: #93a09a; --line: #2a332f; --surface: #19201d; --accent: #72c29a; }
+* { box-sizing: border-box; }
+body { background: var(--wall); color: var(--ink); font: 15px/1.55 var(--body); padding-block: 24px 40px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.wrap { max-width: 1500px; margin: 0 auto; display: grid; gap: 22px; }
+.sheet { overflow-x: auto; }
+.sheet svg { display: block; width: 100%; min-width: 900px; height: auto; box-shadow: 0 1px 2px rgba(0,0,0,.25), 0 14px 40px rgba(0,0,0,.22); }
+.hint { font: 12px/1.3 var(--mono); color: var(--muted); margin: 0; }
+@media (min-width: 932px) { .hint { display: none; } }
+h1 { font: 700 26px/1.1 var(--display); letter-spacing: .01em; margin: 0 0 8px; }
+dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px 28px; margin: 0; max-width: 1000px; }
+dt { font: 600 12px/1.2 var(--display); text-transform: uppercase; letter-spacing: .09em; color: var(--muted); margin-bottom: 2px; }
+dd { margin: 0; }
+</style>
+<div class="wrap">
+  <p class="hint">Scroll sideways to see the whole sheet.</p>
+  <div class="sheet">__POSTER__</div>
+  <section>
+    <h1>Printing it</h1>
+    <dl>
+      <div><dt>Sheet</dt><dd>__SIZE__, a standard frame size. The PDF has no bleed, so ask for it printed to size with a white border, or trimmed to the frame line.</dd></div>
+      <div><dt>File</dt><dd>The PDF from <code>tools/poster.mjs</code>: type and route are vector, the relief is a __DPI__ dpi image. This page shows a lighter copy of the relief.</dd></div>
+      <div><dt>Paper</dt><dd>Matte or uncoated stock suits the fine contour lines. Gloss will fight them.</dd></div>
+      <div><dt>What it shows</dt><dd>The plan as it stood when the file was built. Rebuild after the route changes.</dd></div>
+    </dl>
+  </section>
+</div>
