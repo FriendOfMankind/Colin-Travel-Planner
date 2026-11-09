@@ -150,7 +150,7 @@ function buildTrip(slug) {
     hikes: (page.hikes?.rows ?? []).map((h) => Object.fromEntries(Object.entries(h).map(([k, v]) => [k, typeof v === "string" ? mdi(v) : v]))),
     places: places.map((g) => ({ group: g.group, places: g.places.map((p) => ({ name: p.name, star: p.star, days: p.days, maps: p.maps, verified: !!p.verified, lat: p.lat, lng: p.lng, note: mdi(p.note) })) })),
     reservations: (page.reservations ?? []).map((x) => ({ done: !!x.booked, text: mdi(x.text) })),
-    questions: (page.openQuestions ?? []).map((q) => ({ q: mdi(q.question), blocks: mdi(q.blocks), detail: md(q.detail) })),
+    questions: (page.openQuestions ?? []).map((q) => ({ q: mdi(q.question), blocks: mdi(q.blocks), waitingOn: q.waitingOn ? mdi(q.waitingOn) : null, detail: md(q.detail) })),
     packing: (page.packing ?? []).map((c) => ({ category: mdi(c.category), items: c.items.map(mdi) })),
     provisions: page.provisions ? {
       summary: md(page.provisions.summary),

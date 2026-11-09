@@ -195,7 +195,11 @@ export function parseTrip(md) {
   if (oq) {
     page.openQuestions = oq.children.map((c) => {
       const m = /^\*\*Blocks:\*\* (.*)\n?([\s\S]*)$/.exec(c.text);
-      return { question: c.title, blocks: m ? m[1] : "", detail: (m ? m[2] : c.text).trim() };
+      let detail = (m ? m[2] : c.text).trim();
+      // Optional, right under Blocks: who has to answer it ("**Waiting on:** Stick's grandparents").
+      const w = /^\*\*Waiting on:\*\* (.*)\n?([\s\S]*)$/.exec(detail);
+      if (w) detail = w[2].trim();
+      return { question: c.title, blocks: m ? m[1] : "", ...(w ? { waitingOn: w[1].trim() } : {}), detail };
     });
   }
 
@@ -324,7 +328,7 @@ export function emitTrip({ registry, page, header = "" }) {
   }
   if (page.openQuestions) {
     out.push("## Open questions", "");
-    for (const q of page.openQuestions) out.push(`### ${q.question}`, "", `**Blocks:** ${q.blocks}`, q.detail, "");
+    for (const q of page.openQuestions) out.push(`### ${q.question}`, "", `**Blocks:** ${q.blocks}`, ...(q.waitingOn ? [`**Waiting on:** ${q.waitingOn}`] : []), q.detail, "");
   }
   if (page.placesNote || page.offlineRegions) {
     out.push("## Field notes", "");

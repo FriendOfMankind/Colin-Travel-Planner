@@ -67,6 +67,19 @@ Colin asked for four things: works with no signal, a today view for the field, a
 - **Next trip on Now** falls back to a trip's `target` date, as the briefing does, labelled "target, not booked".
 - **Live since 2026-10-30** at https://friendofmankind.github.io/Colin-Travel-Planner/. Two snags on the way, worth knowing if a deploy fails again in ~2 seconds with no log: the repo's default branch was a stale `claude/pensive-euler-g7bybq` (now `main`), and the `github-pages` environment only allowed that branch to deploy (now `main`). The claude.ai copy can't save an `.ics` (the viewer blocks downloads and its allowlist has no calendar type), so its calendar button opens this copy's file instead.
 
+## v5 (2026-11-09): a To-do tab, and tabs by job
+
+Colin: *"add a tab thing for to-do list including getting answers to questions from other people."* Trips are at the asking-people stage, then the booking stage, and the things that needed a move were spread over five places: Now (the next trip only), `#book` (no tab), each trip's Prep, the proposals list in Trips, and gear in Me. The Trips tab was ~13,000 px on a phone, the same problem as the old hub's 29,616 px, because it held the timeline, the invite pages, all 54 ideas and the done trips.
+
+The tabs are now **Now · To-do · Trips · Ideas · Me**:
+- **To-do** (new) is computed, nothing stored: **Ask people** (invite pages to send, chase or update, and open questions with a `**Waiting on:**` line), **Book** (open windows, windows opening in the next 4 months, then per-trip anytime/unknown rows; the full `#book` page is one tap on), **Decide & check** (the other open questions and the unchecked checks, per trip; a check that repeats a booking row shows once, under Book), **Buy** (gear `need`/`unknown`), then every invite page, live and parked. Soonest trip first. Nothing ticks on the site: an item leaves when its file says so.
+- **Now** keeps the countdown and swaps its next-trip-only *Before you go* for a To-do card: the first three people to chase and the next two windows. The hero's long `next:` line is clamped to four lines.
+- **Trips** is the timeline, undated trips and done trips: 13,000 → 3,300 px.
+- **Ideas** replaces Bucket: potential trips and the bucket list under one segmented control, the repo's two "someday" sizes side by side.
+- **Kitchen** moves under **Me** (it's a `me/` kind of thing and rarely opened in the field). Old `#kitchen` and `#bucket` links still work.
+- Fixed: a trip with only a target date said "No dates" in its header.
+- One look for counts beside a heading (`.count-inline`) and the small explainer under it (`.note`), replacing copies of inline styles.
+
 ## Not built yet
 
 Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it.
