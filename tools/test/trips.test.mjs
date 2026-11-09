@@ -23,6 +23,14 @@ test("schedule lines survive text containing the separator", () => {
   assert.deepEqual(parseSchedule(emitSchedule(rows)), rows);
 });
 
+test("an open question's **Waiting on:** line is read apart from its detail", () => {
+  const { page } = parseTrip(readFileSync(join(TRIPS, "dingle-marseille-2027", "trip.md"), "utf8"));
+  const q = page.openQuestions.find((x) => /^Is a 4th person coming/.test(x.question));
+  assert.equal(q.waitingOn, "Jake");
+  assert.ok(!/Waiting on/.test(q.detail));
+  assert.equal(page.openQuestions.find((x) => /automatic/.test(x.question)).waitingOn, undefined);
+});
+
 for (const slug of slugs) {
   test(`${slug}: trip.md round-trips with nothing lost`, () => {
     const a = parseTrip(readFileSync(join(TRIPS, slug, "trip.md"), "utf8"));

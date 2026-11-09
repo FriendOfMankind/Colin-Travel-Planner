@@ -548,6 +548,7 @@ slack: The morning.
 ### Can Stick's grandparents confirm beds and the May 14 lift?
 
 **Blocks:** Days 2–6
+**Waiting on:** Stick's grandparents (through Stick)
 Their address decides the May 10 route and the leave time for Kerry Airport on Fri May 14. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
 ### What does an automatic cost in Ireland?
@@ -560,6 +561,7 @@ Their address decides the May 10 route and the leave time for Kerry Airport on F
 ### Is a 4th person coming: Jake, from near Belfast?
 
 **Blocks:** car size, Portree beds, flights
+**Waiting on:** Jake
 Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ## Field notes

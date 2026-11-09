@@ -24,6 +24,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | Mapping a trip, start to finish (pins, roads, My Maps, Organic Maps, Kepler) | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
+| Everything that needs a move: people to ask, things to book, questions to decide, gear to buy | the site's To-do tab, computed from `share/proposals.yaml`, every live `trip.md` and `me/gear.md`; nothing is stored for it |
 | The overall plan: trips, pencilled ideas and open stretches from today to the horizon | the site's Trips tab ("The plan"), computed by `tools/lib/timeline.mjs` from `trips/`, `wishlist/` and `me/calendar.md`. An idea is **pencilled in** only when its wishlist file has `start:` (with `days:`); a `window:` line is not a plan |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
@@ -69,6 +70,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 - **When a fact copied into several files changes,** update its pin in `garden/pins.yaml`; `node tools/garden.mjs` then lists every stale copy.
 - **After any change:** `npm test && node tools/index.mjs`, and commit `INDEX.md` with it. Never hand-edit `INDEX.md`.
 - **Update, don't append.** When a fact changes, change it in place. **In a `trip.md`, no "(was: …)" notes:** the plan shows only current facts, and the old value and the reason go in that trip's `log.md` as a dated line *(Colin, 2026-10-29)*. Elsewhere (`me/`, `wishlist/`), a short "(was: …)" is still fine when the history matters. Two versions of one fact is the failure this repo exists to prevent. A decision in `log.md` that isn't in `trip.md` yet is drift; fix the plan in the same change.
+- **An open question someone else has to answer** gets a `**Waiting on:** <who>` line right under its `**Blocks:**` line. The site's To-do tab lists it under *Ask people*, and the briefing shows who. Delete the line when they answer (and close or rewrite the question).
 - **Provenance on every new fact,** in italics: `*(stated 2026-09-27)*`, `*(confirmed: kentucky-2026 log)*`, `*(recalled, ~2023)*`, `*(source: site/page, 2026-09)*`.
 - **Hypotheses stay hypotheses** until Colin confirms them.
 - **Three sizes, pointing down, never copying.** `trips/` (dated), `wishlist/` (potential trips: places plus a season), `bucket.yaml` (single places). A bucket item that belongs to a trip or idea carries `trip:` or `wishlist:` and a one-line `why`; its facts stay in the trip or idea. **When planning any trip, check `bucket.yaml` for its `states`.** Potential trips sort by `horizon` (only-now / confirmed / keeps / weekend), the test in `me/calendar.md`.

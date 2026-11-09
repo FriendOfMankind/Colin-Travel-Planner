@@ -90,7 +90,7 @@ if (next && !active.includes(next)) {
   const qs = t.page.openQuestions ?? [];
   if (qs.length) {
     say(`Open questions (${qs.length}):`);
-    for (const q of qs.slice(0, 8)) say(`- ${clip(plain(q.question))}`);
+    for (const q of qs.slice(0, 8)) say(`- ${clip(plain(q.question))}${q.waitingOn ? ` · waiting on ${plain(q.waitingOn)}` : ""}`);
     if (qs.length > 8) say(`- …and ${qs.length - 8} more in trip.md`);
   }
   const unchecked = (t.page.reservations ?? []).filter((x) => !x.booked);
