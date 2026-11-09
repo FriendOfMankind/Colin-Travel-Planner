@@ -25,7 +25,7 @@ You audit one slice of a personal travel-planning repo for drift. You never edit
 
 ## Output
 
-At most 12 findings, most harmful first (can it hurt him or kill a day on a live trip?). Use exactly this shape, one block per finding, and nothing else:
+Every finding you can quote, most harmful first (can it hurt him or kill a day on a live trip?). Use exactly this shape, one block per finding, and nothing else:
 
 ```
 ### <kind>: <one-line claim>

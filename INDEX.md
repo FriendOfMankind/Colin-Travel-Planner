@@ -29,9 +29,9 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 - **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 54/54 places located · log 19 entries · updated 2026-11-04
   ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 16:** a ~3-hour drive to…
-- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 80/80 places located · log 46 entries · updated 2026-11-08
+- **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 81/81 places located · log 47 entries · updated 2026-11-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
-- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 16, 2027 (target, unbooked) · 36 days · 12 open questions · 69/69 places located · log 25 entries · updated 2026-11-08
+- **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 16, 2027 (target, unbooked) · 36 days · 12 open questions · 72/72 places located · log 26 entries · updated 2026-11-08
   Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand…
 
 ## Done

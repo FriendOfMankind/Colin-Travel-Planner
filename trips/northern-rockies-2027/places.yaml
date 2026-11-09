@@ -549,3 +549,26 @@ groups:
         icon: 🪜
         days: "3"
         wpNote: Log ladder and ledge traverse. Dawn only in July.
+  - group: Towns standing in for undecided beds (pinned 2026-11-09)
+    places:
+      - name: Newport, OR
+        note: "Night 21. The town, standing in until a motel is picked."
+        maps: Newport OR
+        verified: true
+        lat: 44.636554
+        lng: -124.053044
+        source: Google Maps dropped pin, pasted in chat (Colin, 2026-11-09)
+      - name: Yachats, OR
+        note: "Night 22. The town, standing in. The bed is still Florence or Yachats."
+        maps: Yachats OR
+        verified: true
+        lat: 44.311917
+        lng: -124.104098
+        source: Google Maps dropped pin, pasted in chat (Colin, 2026-11-09)
+      - name: Wallace, ID
+        note: "Night 19. The town, standing in. The bed is still Wallace or Kellogg."
+        maps: Wallace ID
+        verified: true
+        lat: 47.473705
+        lng: -115.925458
+        source: Google Maps dropped pin, pasted in chat (Colin, 2026-11-09)

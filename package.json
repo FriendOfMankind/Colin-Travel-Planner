@@ -9,6 +9,8 @@
     "now": "node tools/now.mjs"
   },
   "devDependencies": {
+    "@fontsource/barlow-condensed": "^5.2.8",
+    "@fontsource/ibm-plex-mono": "^5.2.7",
     "marked": "^14.1.4",
     "yaml": "^2.9.1"
   }

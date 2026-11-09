@@ -335,3 +335,6 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **"Group B" and "group A" are now "the riders" and "the own-car group"** *(Colin, 2026-11-08: the distinction is "ride with me" versus "a more independent schedule with their own rental car")*. Renamed everywhere in the plan, `research.md`, the wishlist and the Oregon page ("Ride with Colin" / "Your own car"; the day notes say "Easy option"). Older log entries keep the old labels.
 - Raft order checked the same day: keep Deschutes (Aug 8) and White Salmon (Aug 9) back to back. Maupin is on the Bend → Hood River move, and the own-car group gets both rafts by staying Aug 8–10. A swap with Tunnel Falls was offered and not taken. The Deschutes weekend (Sunday) price still isn't checked.
 
+## 2026-11-09 · Town stand-ins for three undecided beds, and the coast on real roads
+- **Colin pinned Newport, Yachats and Wallace** as town stand-ins *(Colin, 2026-11-09, pasted in chat)* so the maps and the poster can show nights 19, 21 and 22. `mapStandIn:` added to those three overnights. **No bed was decided:** night 19 is still Wallace or Kellogg, night 22 still Florence or Yachats.
+- Road lines for days 22 and 23 were drawn for the first time (the coast places were pinned earlier the same day), and days 19–23 re-routed to the stand-ins.

@@ -584,3 +584,10 @@ groups:
     lat: 47.576512
     lng: -59.142139
     source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+  - name: Trinity, NL
+    note: "Nights 18–20. The town, standing in until a hotel is picked."
+    maps: Trinity NL
+    verified: true
+    lat: 48.369201
+    lng: -53.360086
+    source: Google Maps dropped pin, pasted in chat (Colin, 2026-11-09)
