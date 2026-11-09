@@ -881,6 +881,7 @@ driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on 
 slack: Little. The Hiawatha is the first cut.
 overnight:
   name: TBD — Wallace / Kellogg, Idaho area
+  mapStandIn: Wallace, ID
   place: Silver Valley, ID
   kind: Not picked (camp or motel)
   cost: TBD
@@ -952,6 +953,7 @@ driving: Hood River → PDX → Newport. PDX → Newport ~2 h 20 m, 134 mi (oreg
 slack: Depends on their flight time.
 overnight:
   name: TBD — Newport
+  mapStandIn: Newport, OR
   place: Newport, OR
   kind: Motel, not picked
   cost: TBD
@@ -988,6 +990,7 @@ driving: Short, Newport → Depoe Bay → Yachats → Florence (⚠️ unrouted)
 slack: Midday.
 overnight:
   name: TBD — Florence or Yachats
+  mapStandIn: Yachats, OR
   place: Florence, OR
   kind: Motel, not picked
   cost: TBD

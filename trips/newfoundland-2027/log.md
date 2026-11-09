@@ -500,3 +500,7 @@ No decisions, just copies that hadn't caught up:
 ## 2026-11-08 · Ride-alongs cut to two add-ons
 - **Colin: nobody will join outside the friends' plan, except maybe one of them on the way home** *(Colin, 2026-11-08)*. So the open ride-along offer is gone, and the Ride Along page is parked.
 - Two add-ons are now on the friends' page (https://claude.ai/artifact/1EESijkmfXhJjvQcXJKXhc): **come early for Gros Morne** (fly YDF Jun 5, camp Jun 5–9, ride to Gander Jun 10; the camping gear rides home in the Sienna) and **ride home Jun 19–24**. Both: up to 2, split evenly, own flights, tell Colin by Jan 31. Whether any of the three has already booked Gander/St. John's flights isn't recorded; if so, an add-on means changing a ticket.
+
+## 2026-11-09 · Town stand-ins for the undecided hotel nights
+- **Colin pinned Trinity** *(Colin, 2026-11-09, pasted in chat)* and chose to show undecided beds at their town on the maps. `mapStandIn:` added to nights 1 (Albany), 17 (Twillingate), 18–20 (Trinity) and 21–24 (St. John's). **No hotel was decided.**
+- Night 16's overnight name now reads "Escape by the Sea — 2-bedroom cottage" (was "Escape by the Sea (2-bedroom cottage)") so it matches its pin. Days 16–25 re-routed to start from those beds.

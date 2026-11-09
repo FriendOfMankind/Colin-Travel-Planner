@@ -139,6 +139,7 @@ driving: 8h 29m (routed +15%)
 slack: None needed.
 overnight:
   name: TBD — Albany area
+  mapStandIn: Albany area transit night
   place: New York
   kind: Transit night — not identified
   cost: ~$35 est.
@@ -626,7 +627,7 @@ type: travel
 driving: 4h 48m (Trout River → Gander airport, routed +15%) + ~1h (Gander → Farewell, not routed) + the ferry
 slack: Thin but covered. Three or four evening boats, a morning check of 511NL, and a written Plan B (below).
 overnight:
-  name: Escape by the Sea (2-bedroom cottage)
+  name: Escape by the Sea — 2-bedroom cottage
   place: 27 Burnt Point Road, Seldom, Fogo Island, NL
   kind: Cottage (friends' week)
   cost: $289/night (2-bedroom, May 1 – Sept 30; currency not stated, presumably CAD), split four ways
@@ -663,6 +664,7 @@ driving: ~1h (Farewell → Twillingate, not routed) + the ferry + local
 slack: Moderate. The Twillingate boat time decides which ferry to take.
 overnight:
   name: TBD — hotel in Twillingate
+  mapStandIn: Twillingate
   place: Twillingate, NL
   kind: Hotel (friends' week)
   cost: ~$124/night average (TripAdvisor snippet), split
@@ -694,6 +696,7 @@ driving: 4h 47m (routed +15%) + local
 slack: Moderate. First cut — Cape Bonavista lighthouse.
 overnight:
   name: TBD — hotel, Trinity area
+  mapStandIn: Trinity, NL
   place: Trinity, NL
   kind: Hotel (friends' week)
   cost: TBD (not priced), split
@@ -724,6 +727,7 @@ driving: depends on the choice
 slack: Loose.
 overnight:
   name: TBD — hotel, Trinity area
+  mapStandIn: Trinity, NL
   place: Trinity, NL
   kind: Hotel (friends' week)
   cost: TBD, split
@@ -752,6 +756,7 @@ driving: none
 slack: All of it.
 overnight:
   name: TBD — hotel, Trinity area
+  mapStandIn: Trinity, NL
   place: Trinity, NL
   kind: Hotel (friends' week)
   cost: TBD, split
@@ -779,6 +784,7 @@ driving: 3h 20m (routed +15%)
 slack: Loose. Early night; tomorrow starts at 3:30 for whoever's in.
 overnight:
   name: TBD — hotel in St. John's
+  mapStandIn: St. John's
   place: St. John's, NL
   kind: Hotel (friends' week)
   cost: ~$112–205/night (Skyscanner snippet), split
@@ -807,6 +813,7 @@ driving: ~1h total (not routed from the hotel)
 slack: Very loose after 8 AM, on purpose.
 overnight:
   name: TBD — hotel in St. John's
+  mapStandIn: St. John's
   place: St. John's, NL
   kind: Hotel (friends' week)
   cost: TBD, split
@@ -837,6 +844,7 @@ driving: minimal
 slack: Loose.
 overnight:
   name: TBD — hotel in St. John's
+  mapStandIn: St. John's
   place: St. John's, NL
   kind: Hotel (friends' week)
   cost: TBD, split
@@ -865,6 +873,7 @@ driving: ~2h total (not routed from the hotel)
 slack: Moderate.
 overnight:
   name: TBD — hotel in St. John's
+  mapStandIn: St. John's
   place: St. John's, NL
   kind: Hotel (friends' week)
   cost: TBD, split

@@ -168,7 +168,9 @@ export function tripGeo(slug, md, groups = [], routes = new Map()) {
     const flown = cum.reduce((a, c, k) => a + (k && inAir(k) ? c - cum[k - 1] : 0), 0);
     const bed = camp(d.overnight);
     const props = { ...base, kind: "leg", shape: road ? "road" : "straight", miles: Math.round((total - flown) / 1.609344),
-      ...(fly.length ? { fly, flownMiles: Math.round(flown / 1.609344), flyHops: flyHop.flatMap((f, k) => (f ? [k + 1] : [])) } : {}),
+      ...(fly.length ? { fly, flownMiles: Math.round(flown / 1.609344) } : {}),
+      // flyHops come from the plan, not the drawn line: a road line made before the plan gained a flight must not hide it from roads.py
+      ...(flyHop.some(Boolean) ? { flyHops: flyHop.flatMap((f, k) => (f ? [k + 1] : [])) } : {}),
       ...(bed?.standIn ? { bedStandIn: bed.label } : {}),
       ...((d.schedule ?? []).some((r) => r.kind === "ferry" && !/^(option|fallback)\b/i.test(r.time)) ? { planFerry: true } : {}), stops: pinned.length, startGuessed: !!startGuessed, skipped: all.length - pinned.length, stroke: color, "stroke-width": 3, ...(road ? { source: road.source } : {}) };
     flat.push({ type: "Feature", properties: props, geometry: { type: "LineString", coordinates: line } });

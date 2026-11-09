@@ -3,7 +3,7 @@
 // elevation along the line. Writes site/posters/<slug>.pdf (24 x 18 in), a .jpg preview and a
 // self-contained .html page.
 //
-//   node tools/build.mjs && node tools/poster.mjs <slug> [--dpi 200]
+//   node tools/build.mjs && node tools/poster.mjs <slug> [--dpi 200] [--days 2-27]
 //
 // Inputs: the day lines and verified pins in site/maps/, terrain from
 // tools/lib/terrain.mjs. Every number on the sheet is computed here from those (miles from the
@@ -14,8 +14,10 @@ import zlib from "node:zlib";
 import { createRequire } from "node:module";
 import { TERRAIN_SOURCE, boxOf, elevation, grid, haversineKm, pad } from "./lib/terrain.mjs";
 
-const slug = process.argv[2], dpiArg = process.argv.indexOf("--dpi"), DPI = dpiArg > 0 ? +process.argv[dpiArg + 1] : 200;
-if (!slug) { console.error("usage: node tools/poster.mjs <slug> [--dpi 200]   (after node tools/build.mjs)"); process.exit(1); }
+const slug = process.argv[2], arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; }, DPI = +(arg("--dpi") ?? 200);
+// --days 2-27 frames the sheet on those days only (the drive out and back runs off the edge) and counts only them.
+const [dayFrom, dayTo] = (arg("--days") ?? "0-9999").split("-").map(Number), inRange = (d) => d >= dayFrom && d <= dayTo;
+if (!slug) { console.error("usage: node tools/poster.mjs <slug> [--dpi 200] [--days 2-27]   (after node tools/build.mjs)"); process.exit(1); }
 const read = (f) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { console.error(`missing ${f}: run node tools/build.mjs first`); process.exit(1); } };
 const lines = read(`site/maps/${slug}-trip.geojson`).features.filter((f) => f.geometry?.type === "LineString").sort((a, b) => a.properties.day - b.properties.day);
 const points = read(`site/maps/${slug}.geojson`).features.filter((f) => f.geometry?.type === "Point" && f.properties.name);
@@ -30,8 +32,13 @@ const f1 = (v) => (Math.round(v * 10) / 10).toString();
 const INK = "#1b2220", PAPER = "#f1f3ee", FOREST = "#2e6a4f", BLAZE = "#e4b02e", WATER = "#2c5e8c";
 
 // ---- the sheet, in points (72 per inch) -------------------------------------
-const all = lines.flatMap((f) => f.geometry.coordinates);
-let box = pad(boxOf(all), 0.07, 60);
+// A day's line, cut into runs on the ground and runs in the air (the `fly` vertex ranges from tools/geojson.mjs).
+const runsOf = (f) => { const c = f.geometry.coordinates, fly = f.properties.fly ?? [], air = (k) => fly.some(([a, b]) => k > a && k <= b), out = [];
+  for (let k = 1; k < c.length; k++) { const a = air(k), last = out[out.length - 1]; if (last && last.air === a) last.c.push(c[k]); else out.push({ air: a, c: [c[k - 1], c[k]] }); }
+  return out; };
+const ground = lines.filter((f) => inRange(f.properties.day)).flatMap((f) => runsOf(f).filter((r) => !r.air).flatMap((r) => r.c));
+if (!ground.length) { console.error("no ground line in that range of days"); process.exit(1); }
+let box = pad(boxOf(ground), 0.07, 60);
 const lat0 = (box.s + box.n) / 2, kmLon = 111.32 * Math.cos((lat0 * Math.PI) / 180);
 const landscape = (box.e - box.w) * kmLon >= (box.n - box.s) * KM_LAT;
 const PW = landscape ? 1728 : 1296, PH = landscape ? 1296 : 1728, M = 50, STRIP = 150, GAP = 44, FOOT = 26;
@@ -52,7 +59,9 @@ const mix = (c, t, a) => { c[0] += (t[0] - c[0]) * a; c[1] += (t[1] - c[1]) * a;
 const sstep = (a, b, v) => { const t = Math.max(0, Math.min(1, (v - a) / (b - a))); return t * t * (3 - 2 * t); };
 const iso = (h, grad, step, half) => { const d = Math.abs(h - Math.round(h / step) * step) / Math.max(grad, 1e-6); return Math.max(0, Math.min(1, half + 0.5 - d)); };
 const L = (() => { const az = (315 * Math.PI) / 180, alt = (42 * Math.PI) / 180; return [Math.sin(az) * Math.cos(alt), Math.cos(az) * Math.cos(alt), Math.sin(alt)]; })();
-const ZF = 2.6, STEP = 200, k = DPI / 200;
+// The 99.9th percentile, not the maximum: the tiles carry the odd spike.
+const peak = (() => { const v = []; for (let i = 0; i < H.length; i += 97) v.push(H[i]); v.sort((x, y) => x - y); return v[Math.floor(v.length * 0.999)]; })();
+const ZF = peak < 1500 ? 4 : 2.6, STEP = peak < 1500 ? 100 : 200, k = DPI / 200;
 for (let j = 0; j < ny; j++) for (let i = 0; i < nx; i++) {
   const a = j * nx + i, h = H[a];
   const dx = (H[j * nx + Math.min(nx - 1, i + 1)] - H[j * nx + Math.max(0, i - 1)]) / 2, dy = (H[Math.min(ny - 1, j + 1) * nx + i] - H[Math.max(0, j - 1) * nx + i]) / 2;
@@ -61,7 +70,7 @@ for (let j = 0; j < ny; j++) for (let i = 0; i < nx; i++) {
     c[0] = 205; c[1] = 220; c[2] = 229;
     mix(c, [44, 94, 140], 0.22 * iso(h, grad, 500, 0.4 * k));
   } else {
-    mix(c, [208, 223, 208], 0.6 * sstep(900, 150, h));
+    mix(c, [208, 223, 208], 0.6 * sstep(peak < 1500 ? 250 : 900, peak < 1500 ? 20 : 150, h));
     mix(c, [250, 250, 247], 0.55 * sstep(2300, 3300, h));
     const nxv = (-dx * ZF) / cellM, nyv = (dy * ZF) / cellM, len = Math.hypot(nxv, nyv, 1), s = (nxv * L[0] + nyv * L[1] + L[2]) / len - L[2];
     if (s < 0) mix(c, [27, 34, 32], Math.min(0.5, -s * 1.15)); else mix(c, [255, 255, 255], Math.min(0.7, s * 2.2));
@@ -85,26 +94,31 @@ fs.writeFileSync(`${outDir}/${slug}-plate.png`, png(nx, ny, rgb));
 console.log(`${nx}×${ny} px plate`);
 
 // ---- the route, the nights, the profile -------------------------------------
-const days = lines.map((f) => {
-  const c = f.geometry.coordinates;
-  let km = 0; const cum = [0];
-  for (let i = 1; i < c.length; i++) cum.push((km += haversineKm(c[i - 1], c[i])));
-  return { day: f.properties.day, date: f.properties.date, title: f.properties.title, road: f.properties.shape === "road", c, km, cum };
+const allDays = lines.map((f) => {
+  const segs = runsOf(f); let km = 0;
+  for (const r of segs) { r.cum = [0]; for (let i = 1; i < r.c.length; i++) r.cum.push(r.cum[i - 1] + haversineKm(r.c[i - 1], r.c[i])); r.km = r.cum[r.cum.length - 1]; if (!r.air) km += r.km; }
+  return { day: f.properties.day, date: f.properties.date, title: f.properties.title, road: f.properties.shape === "road", standIn: f.properties.bedStandIn, segs, km };
 });
+const days = allDays.filter((d) => inRange(d.day));
 const roadDays = days.filter((d) => d.road), totalKm = roadDays.reduce((s, d) => s + d.km, 0), straight = days.filter((d) => !d.road && d.km > 4);
+const inFrame = (lon, lat) => lon > box.w && lon < box.e && lat > box.s && lat < box.n;
+const standIns = new Set(allDays.map((d) => d.standIn).filter(Boolean));
 const nights = new Map();
-for (const f of points) if (f.properties.role === "camp") { const n = nights.get(f.properties.name) ?? { name: f.properties.name, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1], days: [] }; if (!n.days.includes(f.properties.day)) n.days.push(f.properties.day); nights.set(n.name, n); }
+for (const f of points) if (f.properties.role === "camp" && inRange(f.properties.day) && inFrame(...f.geometry.coordinates)) { const n = nights.get(f.properties.name) ?? { name: f.properties.name, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1], days: [] }; if (!n.days.includes(f.properties.day)) n.days.push(f.properties.day); nights.set(n.name, n); }
 const runs = (ds) => { const s = [...ds].sort((a, b) => a - b), out = []; for (let i = 0; i < s.length; i++) { let j = i; while (s[j + 1] === s[j] + 1) j++; out.push(j > i ? `${s[i]}–${s[j]}` : `${s[i]}`); i = j; } return out.join(", "); };
 
 const prof = []; let hi = { m: -Infinity };
 { let off = 0;
   for (const d of roadDays) {
     d.x0 = off;
-    if (d.km > 4) for (let s = 0, i = 0, n = Math.max(2, Math.round(d.km / 1.2)); s <= n; s++) {
-      const at = (d.km * s) / n; while (i < d.c.length - 2 && d.cum[i + 1] < at) i++;
-      const t = d.cum[i + 1] > d.cum[i] ? (at - d.cum[i]) / (d.cum[i + 1] - d.cum[i]) : 0, lon = d.c[i][0] + (d.c[i + 1][0] - d.c[i][0]) * t, lat = d.c[i][1] + (d.c[i + 1][1] - d.c[i][1]) * t;
-      const m = Math.max(0, elevation(lon, lat, 10)); prof.push([off + at, m]); if (m > hi.m) hi = { m, km: off + at, day: d.day, lon, lat };
-    }
+    let o = off;
+    if (d.km > 4) for (const r of d.segs) { if (r.air) continue;
+      for (let s = 0, i = 0, n = Math.max(2, Math.round(r.km / 1.2)); s <= n; s++) {
+        const at = (r.km * s) / n; while (i < r.c.length - 2 && r.cum[i + 1] < at) i++;
+        const t = r.cum[i + 1] > r.cum[i] ? (at - r.cum[i]) / (r.cum[i + 1] - r.cum[i]) : 0, lon = r.c[i][0] + (r.c[i + 1][0] - r.c[i][0]) * t, lat = r.c[i][1] + (r.c[i + 1][1] - r.c[i][1]) * t;
+        const m = Math.max(0, elevation(lon, lat, 10)); prof.push([o + at, m]); if (m > hi.m) hi = { m, km: o + at, day: d.day, lon, lat };
+      }
+      o += r.km; }
     off += d.km; d.x1 = off;
   } }
 
@@ -120,14 +134,23 @@ for (let lon = Math.ceil(box.w / gstep) * gstep; lon < box.e; lon += gstep) { co
 for (let lat = Math.ceil(box.s / gstep) * gstep; lat < box.n; lat += gstep) { const y = Y(lat); if (y < F.y + 20 || y > F.y + F.h - 20) continue; S.push(`<path d="M${F.x} ${f1(y)}h-6M${F.x + F.w} ${f1(y)}h6" stroke="${INK}" stroke-width=".8"/>`); S.push(`<text class="m" font-size="7.5" text-anchor="middle" transform="translate(${F.x - 10} ${f1(y)}) rotate(-90)">${Math.abs(lat)}°${lat < 0 ? "S" : "N"}</text>`); }
 
 // the line: every day, cased
-const routePts = [], paths = { road: "", straight: "" };
-for (const d of days) {
+const routePts = [], paths = { road: "", straight: "", air: "" }, seen = (x, y) => x > F.x && x < F.x + F.w && y > F.y && y < F.y + F.h;
+for (const d of allDays) for (const r of d.segs) {
   let last = null, p = "";
-  for (const [lon, lat] of d.c) { const x = X(lon), y = Y(lat); if (last && Math.hypot(x - last[0], y - last[1]) < 0.35) continue; p += `${last ? "L" : "M"}${f1(x)} ${f1(y)}`; last = [x, y]; routePts.push(last); }
-  if (!d.road && d.km > 4) for (let i = 1; i < d.c.length; i++) for (let s = 1; s < 12; s++) routePts.push([X(d.c[i - 1][0] + ((d.c[i][0] - d.c[i - 1][0]) * s) / 12), Y(d.c[i - 1][1] + ((d.c[i][1] - d.c[i - 1][1]) * s) / 12)]);
+  if (r.air) { // a flight: a shallow arc between its two ends. One that leaves the sheet isn't drawn.
+    if (!inFrame(...r.c[0]) || !inFrame(...r.c[r.c.length - 1])) continue;
+    const [x0, y0] = [X(r.c[0][0]), Y(r.c[0][1])], [x1, y1] = [X(r.c[r.c.length - 1][0]), Y(r.c[r.c.length - 1][1])], len = Math.hypot(x1 - x0, y1 - y0), bow = Math.min(len * 0.16, 90) * (x1 >= x0 ? -1 : 1);
+    const cx = (x0 + x1) / 2 + ((y1 - y0) / len) * bow, cy = (y0 + y1) / 2 - ((x1 - x0) / len) * bow;
+    paths.air += `M${f1(x0)} ${f1(y0)}Q${f1(cx)} ${f1(cy)} ${f1(x1)} ${f1(y1)}`;
+    for (let s = 0; s <= 24; s++) { const t = s / 24, x = (1 - t) * (1 - t) * x0 + 2 * t * (1 - t) * cx + t * t * x1, y = (1 - t) * (1 - t) * y0 + 2 * t * (1 - t) * cy + t * t * y1; if (seen(x, y)) routePts.push([x, y]); }
+    continue;
+  }
+  for (const [lon, lat] of r.c) { const x = X(lon), y = Y(lat); if (last && Math.hypot(x - last[0], y - last[1]) < 0.35) continue; p += `${last ? "L" : "M"}${f1(x)} ${f1(y)}`; last = [x, y]; if (seen(x, y)) routePts.push(last); }
+  if (!d.road && d.km > 4) for (let i = 1; i < r.c.length; i++) for (let s = 1; s < 12; s++) { const x = X(r.c[i - 1][0] + ((r.c[i][0] - r.c[i - 1][0]) * s) / 12), y = Y(r.c[i - 1][1] + ((r.c[i][1] - r.c[i - 1][1]) * s) / 12); if (seen(x, y)) routePts.push([x, y]); }
   paths[d.road ? "road" : "straight"] += p;
 }
-S.push(`<g fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="${paths.road}" stroke="${INK}" stroke-width="5"/><path d="${paths.road}" stroke="${BLAZE}" stroke-width="2.8"/><path d="${paths.straight}" stroke="${INK}" stroke-width="2.2" stroke-dasharray="1 5"/></g>`);
+S.push(`<clipPath id="frame"><rect x="${F.x}" y="${F.y}" width="${F.w}" height="${F.h}"/></clipPath><g clip-path="url(#frame)" fill="none" stroke-linejoin="round" stroke-linecap="round"><path d="${paths.air}" stroke="${INK}" stroke-width="1.3" stroke-dasharray="7 5"/><path d="${paths.road}" stroke="${INK}" stroke-width="5"/><path d="${paths.road}" stroke="${BLAZE}" stroke-width="2.8"/><path d="${paths.straight}" stroke="${INK}" stroke-width="2.2" stroke-dasharray="1 5"/></g>`);
+const flies = paths.air !== "";
 
 // where he sleeps: a dot and a two-line label, placed where it collides least
 const taken = [], hits = (r) => taken.some((t) => r[0] < t[2] && r[2] > t[0] && r[1] < t[3] && r[3] > t[1]);
@@ -135,14 +158,14 @@ const crowd = (r) => routePts.reduce((n, p) => n + (p[0] > r[0] && p[0] < r[2] &
 const sleeps = [...nights.values()].sort((a, b) => Math.min(...a.days) - Math.min(...b.days));
 for (const n of sleeps) taken.push([X(n.lon) - 6, Y(n.lat) - 6, X(n.lon) + 6, Y(n.lat) + 6]);
 for (const n of sleeps) {
-  const x = X(n.lon), y = Y(n.lat), name = n.name.toUpperCase(), sub = `NIGHT${n.days.length > 1 ? "S" : ""} ${runs(n.days)}`, w = Math.max(wOf(name, 11.5) + 4, wOf(sub, 7, true)), h = 24;
+  const x = X(n.lon), y = Y(n.lat), tbd = standIns.has(n.name), name = n.name.toUpperCase(), sub = `NIGHT${n.days.length > 1 ? "S" : ""} ${runs(n.days)}${tbd ? " · STAND-IN" : ""}`, w = Math.max(wOf(name, 11.5) + 4, wOf(sub, 7, true)), h = 24;
   const spots = [[9, -h / 2, "start"], [-9 - w, -h / 2, "end"], [9, -h - 3, "start"], [9, 5, "start"], [-9 - w, -h - 3, "end"], [-9 - w, 5, "end"], [-w / 2, -h - 9, "middle"], [-w / 2, 9, "middle"]];
   let best = null;
   for (const [dx, dy, anchor] of spots) { const r = [x + dx, y + dy, x + dx + w, y + dy + h]; if (r[0] < F.x + 4 || r[2] > F.x + F.w - 4 || r[1] < F.y + 4 || r[3] > F.y + F.h - 4) continue; const score = (hits(r) ? 1000 : 0) + crowd(r); if (!best || score < best.score) best = { r, anchor, score }; }
   if (!best) continue;
   taken.push(best.r);
   const tx = best.anchor === "start" ? best.r[0] : best.anchor === "end" ? best.r[2] : (best.r[0] + best.r[2]) / 2;
-  S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="4.6" fill="${INK}" stroke="${BLAZE}" stroke-width="1.8"/>`);
+  S.push(tbd ? `<circle cx="${f1(x)}" cy="${f1(y)}" r="4.4" fill="${PAPER}" stroke="${INK}" stroke-width="1.8"/>` : `<circle cx="${f1(x)}" cy="${f1(y)}" r="4.6" fill="${INK}" stroke="${BLAZE}" stroke-width="1.8"/>`);
   text(tx, best.r[1] + 11, name, { size: 11.5, anchor: best.anchor, halo: 3.2, weight: 700, ls: ".03em" });
   text(tx, best.r[1] + 21, sub, { cls: "m", size: 7, anchor: best.anchor, halo: 2.6 });
 }
@@ -167,20 +190,22 @@ const panel = (x, y, w, h) => S.push(`<rect x="${f1(x)}" y="${f1(y)}" width="${f
   const first = new Date(days[0].date + "T12:00:00"), lastD = new Date(days[days.length - 1].date + "T12:00:00"), mo = (d) => d.toLocaleDateString("en-US", { month: "long" });
   const when = `${mo(first)}${mo(first) === mo(lastD) ? "" : "–" + mo(lastD)} ${lastD.getFullYear()}`.toUpperCase();
   const words = subtitle.split(/\s+/).filter(Boolean), sub = [""]; for (const wd of words) { if (wOf(sub[sub.length - 1] + " " + wd, 15) > bw - 48) sub.push(wd); else sub[sub.length - 1] += (sub[sub.length - 1] ? " " : "") + wd; }
-  const bh = 34 + ts * 0.86 + (subtitle ? sub.length * 19 + 8 : 0) + 58, b = emptiest(bw, bh);
+  const bh = 34 + ts * 0.86 + (subtitle ? sub.length * 19 + 8 : 0) + 58 + (straight.length && (standIns.size || lines.some((f) => f.properties.fly)) ? 10 : 0), b = emptiest(bw, bh);
   panel(b.x, b.y, bw, bh);
   let y = b.y + 26;
-  text(b.x + 22, y, `${when} · ${days.length} DAYS DRAWN`, { cls: "m", size: 9.5, ls: ".12em" });
+  text(b.x + 22, y, `${when} · ${dayTo < 9999 ? `DAYS ${days[0].day}–${days[days.length - 1].day}` : `${days.length} DAYS DRAWN`}`, { cls: "m", size: 9.5, ls: ".12em" });
   y += ts * 0.84; text(b.x + 20, y, T, { size: ts, weight: 700, ls: ".005em" });
   if (subtitle) { y += 10; for (const l of sub) { y += 19; text(b.x + 22, y, l, { size: 15, weight: 500 }); } }
   y += 26;
-  const stats = [`${Math.round(totalKm * MI).toLocaleString("en-US")} MI OF ROAD LINE`, `${sleeps.length} PLACES TO SLEEP`, `HIGH POINT ≈ ${(Math.round((hi.m * FT) / 50) * 50).toLocaleString("en-US")} FT`];
+  const stats = [`${Math.round(totalKm * MI).toLocaleString("en-US")} MI ${lines.some((f) => inRange(f.properties.day) && f.properties.planFerry) ? "BY ROAD AND FERRY" : "OF ROAD LINE"}`, `${sleeps.length} PLACES TO SLEEP`, `HIGH POINT ≈ ${(Math.round((hi.m * FT) / 50) * 50).toLocaleString("en-US")} FT`];
   text(b.x + 22, y, stats.join("   ·   "), { cls: "m", size: 9, ls: ".06em" });
   // scale bar
   const miles = [200, 100, 50, 25, 10].find((m) => (m / MI) * ptPerKm < bw * 0.3) ?? 5, len = (miles / MI) * ptPerKm, sx = b.x + bw - 22 - len, sy = y - 3;
   S.push(`<path d="M${f1(sx)} ${f1(sy - 4)}v4h${f1(len)}v-4M${f1(sx + len / 2)} ${f1(sy - 3)}v3" fill="none" stroke="${INK}" stroke-width="1"/>`);
   text(sx + len, sy - 8, `${miles} MI`, { cls: "m", size: 7.5, anchor: "end" }); text(sx, sy - 8, "0", { cls: "m", size: 7.5 });
-  y += 16; if (straight.length) text(b.x + 22, y, `Dotted: day${straight.length > 1 ? "s" : ""} ${runs(straight.map((d) => d.day))}, straight between stops until the road line is drawn. Not in the miles or the profile.`, { cls: "m", size: 7, fill: "#3c4642" });
+  y += 16; const notes = [standIns.size ? "Hollow dot: a stand-in for a bed with no pin yet." : "", flies ? "Dashed arc: a flight." : ""].filter(Boolean).join(" ");
+  if (notes) text(b.x + 22, y, notes, { cls: "m", size: 7, fill: "#3c4642" });
+  if (straight.length) text(b.x + 22, y + (notes ? 10 : 0), `Dotted: day${straight.length > 1 ? "s" : ""} ${runs(straight.map((d) => d.day))}, straight between stops until the road line is drawn. Not in the miles or the profile.`, { cls: "m", size: 7, fill: "#3c4642" });
 }
 
 // the days, as a legend
@@ -201,10 +226,10 @@ const panel = (x, y, w, h) => S.push(`<rect x="${f1(x)}" y="${f1(y)}" width="${f
 
 // elevation along the line
 {
-  const x0 = F.x, y1 = PH - M - FOOT, y0 = y1 - STRIP + 26, w = F.w, top = Math.max(1500, Math.ceil((hi.m * FT) / 2500) * 2500 / FT), px = (km) => x0 + (km / totalKm) * w, py = (m) => y1 - (m / top) * (y1 - y0);
+  const x0 = F.x, y1 = PH - M - FOOT, y0 = y1 - STRIP + 26, w = F.w, tick = hi.m * FT > 6000 ? 5000 : hi.m * FT > 2500 ? 1000 : 500, top = (Math.ceil((hi.m * FT * 1.12) / tick) * tick) / FT, px = (km) => x0 + (km / totalKm) * w, py = (m) => y1 - (m / top) * (y1 - y0);
   text(x0, y0 - 14, "ELEVATION ALONG THE LINE", { size: 13, weight: 700, ls: ".1em" });
   text(x0 + w, y0 - 14, "feet, from the terrain model · one tick per day with a road line", { cls: "m", size: 7.5, anchor: "end", fill: "#5f6a65" });
-  for (let ft = 0; ft <= top * FT + 1; ft += top * FT > 6000 ? 5000 : 1000) { const y = py(ft / FT); S.push(`<path d="M${x0} ${f1(y)}h${w}" stroke="${INK}" stroke-width="${ft ? 0.35 : 1}" ${ft ? 'stroke-dasharray="1 4"' : ""}/>`); if (ft) text(x0 + 3, y - 3, ft.toLocaleString("en-US"), { cls: "m", size: 7 }); }
+  for (let ft = 0; ft <= top * FT + 1; ft += tick) { const y = py(ft / FT); S.push(`<path d="M${x0} ${f1(y)}h${w}" stroke="${INK}" stroke-width="${ft ? 0.35 : 1}" ${ft ? 'stroke-dasharray="1 4"' : ""}/>`); if (ft) text(x0 + 3, y - 3, ft.toLocaleString("en-US"), { cls: "m", size: 7 }); }
   let area = ""; let prev = -1e9;
   const segs = []; for (const p of prof) { if (p[0] - prev > 3) segs.push([]); segs[segs.length - 1].push(p); prev = p[0]; }
   let top2 = "";
@@ -212,7 +237,7 @@ const panel = (x, y, w, h) => S.push(`<rect x="${f1(x)}" y="${f1(y)}" width="${f
   S.push(`<path d="${area}" fill="${FOREST}" fill-opacity=".26"/><path d="${top2}" fill="none" stroke="${FOREST}" stroke-width="1.1" stroke-linejoin="round"/>`);
   let lastLabel = -1e9;
   for (const d of roadDays) { const xa = px(d.x0), xm = (px(d.x0) + px(d.x1)) / 2; S.push(`<path d="M${f1(xa)} ${f1(y1)}v5" stroke="${INK}" stroke-width=".8"/>`); if (px(d.x1) - xa > 11 && xm - lastLabel > 11) { text(xm, y1 + 13, String(d.day), { cls: "m", size: 7, anchor: "middle" }); lastLabel = xm; } }
-  if (isFinite(hi.m)) { const x = px(hi.km), y = py(hi.m); S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="3" fill="${BLAZE}" stroke="${INK}" stroke-width="1"/>`); text(x + (x > x0 + w - 160 ? -7 : 7), y - 5, `≈ ${(Math.round((hi.m * FT) / 50) * 50).toLocaleString("en-US")} ft · day ${hi.day}`, { cls: "m", size: 8, anchor: x > x0 + w - 160 ? "end" : "start", halo: 2.5 }); S.push(`<circle cx="${f1(X(hi.lon))}" cy="${f1(Y(hi.lat))}" r="3" fill="${BLAZE}" stroke="${INK}" stroke-width="1"/>`); }
+  if (isFinite(hi.m) && inFrame(hi.lon, hi.lat)) { const x = px(hi.km), y = py(hi.m); S.push(`<circle cx="${f1(x)}" cy="${f1(y)}" r="3" fill="${BLAZE}" stroke="${INK}" stroke-width="1"/>`); text(x + (x > x0 + w - 160 ? -7 : 7), y - 5, `≈ ${(Math.round((hi.m * FT) / 50) * 50).toLocaleString("en-US")} ft · day ${hi.day}`, { cls: "m", size: 8, anchor: x > x0 + w - 160 ? "end" : "start", halo: 2.5 }); S.push(`<circle cx="${f1(X(hi.lon))}" cy="${f1(Y(hi.lat))}" r="3" fill="${BLAZE}" stroke="${INK}" stroke-width="1"/>`); }
 }
 text(F.x, PH - M + 6, `Plan as of ${new Date().toISOString().slice(0, 10)}. Roads: ${lines[0].properties.source ?? "routes.yaml"}. Terrain: ${TERRAIN_SOURCE}. Contours every ${STEP} m, heavy every ${STEP * 5} m. A poster, not a map to drive by.`, { cls: "m", size: 6.6, fill: "#5f6a65" });
 
