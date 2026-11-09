@@ -80,6 +80,17 @@ The tabs are now **Now · To-do · Trips · Ideas · Me**:
 - Fixed: a trip with only a target date said "No dates" in its header.
 - One look for counts beside a heading (`.count-inline`) and the small explainer under it (`.note`), replacing copies of inline styles.
 
+## Accessibility and critique pass (2026-11-09)
+
+An axe-core scan of 14 views in both themes, a keyboard tab-through, reflow at 320 px, and a design critique. All fixed the same day; axe now reports nothing in light or dark.
+- **Dark mode's Now banner** used `--ink` as its background, which turns light in dark mode, so the yellow countdown sat at 1.38:1. The banner now has its own `--hero-bg`/`--hero-ink`, dark in both themes (8.5:1).
+- `--muted` darkened a touch (`#66716c` → `#5f6a65`) so small gray text on `--sunk` passes 4.5:1. The trip-tab counts lost their 0.8 opacity (3.19:1).
+- Tap targets: Maps links and filter chips 32 px, buttons 40 px, back links and fold headers padded past 24 px (WCAG 2.2's minimum). Buttons and back links are sentence case now; uppercase stays on eyebrows, pills, trip tabs and the tab bar.
+- Screen readers: the year grid is hidden (the list under it says the same), retro tick boxes render as ☑/☐ text, wide tables take focus, headings don't skip levels, the To-do counts have labels.
+- **Waiting on someone is purple** (`--wait`), so yellow keeps meaning today. Open stretches on the timeline are still yellow.
+- A trip's intro is three lines with a More button. Idea rows dropped the date column (the mode moved into the meta line). The header no longer says "target" twice. To-do's decide-and-check count is the nearest trip's.
+- Not done: a real VoiceOver pass on the phone. The scan is the floor.
+
 ## Not built yet
 
 Trees was frozen on 2026-09-29, so these are now gaps, not a checklist for replacing it.

@@ -129,7 +129,7 @@
   function tripHeader(t, sec) {
     const today = now().date;
     const st = tripState(t, today);
-    const when = st === "upcoming" ? `${daysBetween(today, t.start)} days out` : st === "active" ? `Day ${daysBetween(t.start, today) + 1} of ${t.days.length}` : st === "past" ? "Done" : t.target ? `target ${daysBetween(today, t.target)} days out` : "No dates";
+    const when = st === "upcoming" ? `${daysBetween(today, t.start)} days out` : st === "active" ? `Day ${daysBetween(t.start, today) + 1} of ${t.days.length}` : st === "past" ? "Done" : t.target ? `${/target/i.test(t.datesLabel ?? "") ? "" : "target "}${daysBetween(today, t.target)} days out` : "No dates";
     const nightsBooked = t.booking.filter((b) => b.booked).length;
     const tabs = [["plan", "Plan"], ["places", "Places"], ["prep", "Prep", t.questions.length + t.reservations.filter((r) => !r.done).length], ["journal", "Journal", t.log.entries.length]];
     return `
@@ -137,7 +137,7 @@
         <a class="back" href="#trips">← Trips</a>
         <div class="eyebrow">${esc(t.datesLabel ?? "")} · ${esc(when)}</div>
         <h1>${esc(t.title)}</h1>
-        ${t.why ? `<div class="sub">${t.why}</div>` : ""}
+        ${t.why ? `<div class="sub${strip(t.why).length > 220 ? " clamp" : ""}">${t.why}</div>${strip(t.why).length > 220 ? `<button type="button" class="more" data-more>More</button>` : ""}` : ""}
         <div class="stats">
           <div><b>${t.days.length}</b><span>days</span></div>
           <div><b>${nightsBooked}/${t.booking.length}</b><span>bookings made</span></div>
@@ -425,7 +425,7 @@
     const cur = T.current && today <= T.current.end ? ` · ${esc(T.current.name)}, ${T.current.classDays.join("/")} classes until ${fmt(T.current.end).slice(4)}` : "";
     return `<div class="section"><h2>The plan</h2>
       <div class="tl-lead">${lead}</div>
-      <div class="panel"><div class="tgrid">${grid}</div>
+      <div class="panel"><div class="tgrid" aria-hidden="true">${grid}</div>
         <div class="tlegend"><span><i style="background:${TRIP_COLORS[0]}"></i>Trip</span><span><i class="lg-idea"></i>Pencilled in</span><span><i class="lg-gap"></i>Open 5+ days</span><span><i class="lg-class"></i>Class</span><span><i class="lg-block"></i>Finals, family</span><span><i class="lg-free"></i>Free</span></div></div>
       <div class="tl">
         <div class="tl-it now"><div><span class="t">Today · ${fmt(today)}</span><span class="when">${cur}</span></div></div>
@@ -470,9 +470,8 @@
     const list = all.filter((i) => (!month || i.months.includes(month)) && (!mode || i.mode === mode));
     const chip = (key, val, label, cur) => `<button type="button" class="chip${cur === val ? " accent" : ""}" data-filter="${key}" data-val="${esc(val)}">${label}</button>`;
     const modes = [...new Set(all.map((i) => i.mode).filter(Boolean))].sort();
-    const row = (i) => `<a class="trip-row" href="#w-${i.slug}">
-        <div class="date">${esc(i.mode)}</div>
-        <div><h3>${esc(i.title)}</h3><div class="meta">${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
+    const row = (i) => `<a class="trip-row nodate" href="#w-${i.slug}">
+        <div><h3>${esc(i.title)}</h3><div class="meta">${i.mode ? `<span class="mode">${esc(i.mode)}</span> · ` : ""}${esc(i.region)}${i.length ? " · " + esc(i.length) : ""}${i.noteCount ? ` · ${i.noteCount} note${i.noteCount === 1 ? "" : "s"}` : ""}${bucketFor({ idea: i.slug }).length ? ` · ${bucketFor({ idea: i.slug }).length} on bucket list` : ""}</div><div class="meta">${esc(i.subtitle)}</div></div>
         <span class="go" aria-hidden="true">›</span></a>`;
     const groups = Object.keys(HORIZON).map((h) => [h, list.filter((i) => i.horizon === h)]).filter(([, l]) => l.length);
     return `<div class="section"${top ? ' style="margin-top:0"' : ""}><h2>Potential trips <span class="count-inline">${list.length} of ${all.length}</span></h2>
@@ -558,11 +557,13 @@
     const head = (id, title, n, note) => `<div id="todo-${id}"><h2>${title} <span class="count-inline">${n}</span></h2>${note ? `<div class="note">${note}</div>` : ""}</div>`;
     const tripLabel = (t) => `${esc(t.title)} <span class="muted mono" style="font-size:12px">${t.start ? outIn(today, t.start) : t.target ? `target ${outIn(today, t.target)}` : "no dates"}</span>`;
     const bookRow = (x, right) => `<div class="brow"><div><div>${x.what}</div><div class="where"><a href="#t-${x.slug}-prep">${esc(x.trip)}</a> · ${esc(x.system)}</div></div><div class="when mono">${right}</div></div>`;
-    const stat = (id, n, label) => `<button type="button" data-jump="todo-${id}"><b>${n}</b><span>${label}</span></button>`;
+    const stat = (id, n, label) => `<button type="button" data-jump="todo-${id}" aria-label="${n} ${esc(strip(label))}, jump to the list"><b>${n}</b> <span>${label}</span></button>`;
+    // Decide & check counts the nearest trip only: 54 across every trip is a number nobody can act on.
+    const firstPlan = T.plan[0];
     return `<div class="stack">
       <div class="row" style="justify-content:space-between;align-items:baseline"><h1>To-do</h1><span class="mono muted" style="font-size:13px">${fmt(today)}</span></div>
       <p class="note" style="margin:0">Every open thread across the live trips. It reads the files, so a thing leaves this list when its file says it's done: tell Claude (<span class="mono">log:</span>, <span class="mono">we booked…</span>, <span class="mono">they're in</span>).</p>
-      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${stat("plan", T.n.plan, "decide & check")}${stat("buy", T.n.buy, "to buy")}</div>
+      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${firstPlan ? stat("plan", firstPlan.decide.length + firstPlan.checks.length, `decide &amp; check · ${esc(firstPlan.t.title)}`) : stat("plan", 0, "decide &amp; check")}${stat("buy", T.n.buy, "to buy")}</div>
 
       <div class="section">${head("ask", "Ask people", T.n.ask, "Invite pages to send or chase, and open questions someone else has to answer (a <code>**Waiting on:**</code> line in <code>trip.md</code>). Soonest trip first.")}
         ${T.ask.length ? `<div class="panel divide">${T.ask.map(askRow).join("")}</div>` : '<div class="panel pad muted">Nobody to chase.</div>'}</div>
@@ -664,6 +665,7 @@
             <span class="gs">${d.overnight ? strip(d.overnight.name).replace(/ Campground| — .*/g, "") : "Home"}</span></a>`; }).join("")}
           <div class="glance-key muted"><span><i class="h"></i> on foot</span><span><i class="dr"></i> driving</span><span><span class="mono early" style="padding:0 4px">6:00</span> wake before 6:30</span></div>
         </div>
+        <h2 class="sr-only">Days</h2>
         ${t.days.map((d) => dayCard(t, d, { open: d.date === n.date, today: d.date === n.date, nowMinutes: d.date === n.date ? n.minutes : null })).join("")}
         ${t.route ? `<details class="fold panel"><summary>Route and overview</summary><div class="prose">${t.route}${t.overview.map((c) => `<h3>${c.h}</h3>${c.p}`).join("")}</div></details>` : ""}
         ${t.notes.length ? `<details class="fold panel"><summary>Why the plan looks like this</summary><div class="prose">${t.notes.map((x) => `<h3>${x.h}</h3>${x.body}`).join("")}</div></details>` : ""}
@@ -675,7 +677,7 @@
           <div class="pm">${p.note || ""}${p.days ? ` · Day ${esc(p.days)}` : ""}</div>
           <div class="loc ${p.verified ? "ok" : "no"}">${p.verified ? `✓ ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}` : "Not located: search only"}</div></div>
           <div class="links">${p.maps || p.verified ? `<a class="maps" target="_blank" rel="noopener" href="${p.verified ? mapsUrl(p.lat + "," + p.lng) : mapsUrl(p.maps)}">Maps ↗</a>` : ""}${p.verified && p.lat != null ? `<a class="maps" target="_blank" rel="noopener" href="${satUrl(p.lat, p.lng)}">Satellite ↗</a>` : ""}</div></div>`).join("")}</div></div>`).join("")}
-        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
+        ${t.hikes.length ? `<div class="section"><h2>Hikes</h2><div class="panel tbl" tabindex="0" role="region" aria-label="Table, scrolls sideways"><table><thead><tr><th>Hike</th><th>Day</th><th>Dist</th><th>Gain</th><th>Time</th></tr></thead><tbody>${t.hikes.map((h) => `<tr><td>${h.name} <a class="maps" style="margin-left:4px" target="_blank" rel="noopener" href="https://www.google.com/search?q=${encodeURIComponent(strip(h.name).replace(/[⭐✅]/g, "").trim() + " AllTrails")}">AllTrails ↗</a></td><td class="num">${h.day ?? ""}</td><td class="num">${h.distance ?? ""}</td><td class="num">${h.gain ?? ""}</td><td class="num">${h.duration ?? ""}</td></tr>`).join("")}</tbody></table></div></div>` : ""}
         ${(() => { const bl = bucketFor({ trip: t.slug, states: t.states }); if (!bl.length) return "";
           const on = bl.filter((b) => b.trip === t.slug), near = bl.filter((b) => b.trip !== t.slug);
           return `<div class="section"><h2>Bucket list</h2>${on.length ? `<div class="eyebrow">On this trip</div><div class="panel divide">${on.map((b) => bucketRow(b, { noLinks: true })).join("")}</div>` : ""}${near.length ? `<div class="eyebrow" style="margin-top:6px">Also in ${esc(t.states.join(", "))}, not on the plan</div><div class="panel divide">${near.map((b) => bucketRow(b)).join("")}</div>` : ""}</div>`; })()}
@@ -688,7 +690,7 @@
         ${t.provisions ? `<div class="section"><h2>Food and shopping</h2><div class="panel pad prose">${t.provisions.summary}</div>${t.provisions.critical ? `<div class="callout prose">${t.provisions.critical}</div>` : ""}
           ${t.provisions.stops.map((s, si) => `<details class="fold panel"><summary>${strip(s.group)}</summary><div>${s.note ? `<p class="muted" style="font-size:13.5px;margin:0 0 6px">${s.note}</p>` : ""}${s.items.map((it, ii) => checkRow(`${t.slug}:shop:${si}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>` : ""}
         <div class="section"><h2>Packing</h2>${t.packing.map((c, ci) => `<details class="fold panel"><summary>${strip(c.category)}</summary><div>${c.items.map((it, ii) => checkRow(`${t.slug}:pack:${ci}:${ii}`, it, false)).join("")}</div></details>`).join("")}</div>
-        ${t.weather.length ? `<div class="section"><h2>Weather</h2><div class="panel tbl"><table><thead><tr><th>Where</th><th>High</th><th>Low</th><th>Notes</th></tr></thead><tbody>${t.weather.map((w) => `<tr><td>${esc(w.location)}</td><td class="num">${esc(w.high)}</td><td class="num">${esc(w.low)}</td><td>${w.notes}</td></tr>`).join("")}</tbody></table></div>${t.weatherNote ? `<div class="muted prose" style="font-size:13px">${t.weatherNote}</div>` : ""}</div>` : ""}
+        ${t.weather.length ? `<div class="section"><h2>Weather</h2><div class="panel tbl" tabindex="0" role="region" aria-label="Table, scrolls sideways"><table><thead><tr><th>Where</th><th>High</th><th>Low</th><th>Notes</th></tr></thead><tbody>${t.weather.map((w) => `<tr><td>${esc(w.location)}</td><td class="num">${esc(w.high)}</td><td class="num">${esc(w.low)}</td><td>${w.notes}</td></tr>`).join("")}</tbody></table></div>${t.weatherNote ? `<div class="muted prose" style="font-size:13px">${t.weatherNote}</div>` : ""}</div>` : ""}
         <div class="note">Ticks save on this phone only. The plan files are the record.</div>
       </div>`;
     } else {
@@ -720,7 +722,7 @@
   };
 
   V.me = () => `<div class="stack"><h1>Me</h1><p class="muted" style="margin:0">What Claude knows about you. Change any of it by telling Claude: <span class="mono">/remember …</span></p>
-    <div class="panel divide">${D.kitchen ? `<a class="me-link" href="#kitchen"><div><h3>kitchen</h3><p>The staples menu: ${D.kitchen.meals.length} meals with computed macros, the daily target and the shopping list.</p></div><span class="go muted" aria-hidden="true">›</span></a>` : ""}${D.me.map((m) => `<a class="me-link" href="#me-${m.id}"><div><h3>${esc(m.id.replace(/-/g, " "))}</h3><p>${esc(m.summary)}</p></div><span class="go muted" aria-hidden="true">›</span></a>`).join("")}</div></div>`;
+    <div class="panel divide">${D.kitchen ? `<a class="me-link" href="#kitchen"><div><h2>kitchen</h2><p>The staples menu: ${D.kitchen.meals.length} meals with computed macros, the daily target and the shopping list.</p></div><span class="go muted" aria-hidden="true">›</span></a>` : ""}${D.me.map((m) => `<a class="me-link" href="#me-${m.id}"><div><h2>${esc(m.id.replace(/-/g, " "))}</h2><p>${esc(m.summary)}</p></div><span class="go muted" aria-hidden="true">›</span></a>`).join("")}</div></div>`;
 
   V.meFile = (m) => `<div class="stack"><a class="back" href="#me">← Me</a><h1 style="text-transform:capitalize">${esc(m.id.replace(/-/g, " "))}</h1><p class="muted" style="margin:0">${esc(m.summary)}</p>
     ${m.lists.declined ? `<div class="panel pad"><div class="eyebrow">Declined</div><ul>${m.lists.declined.map((x) => `<li>${esc(x.what)}</li>`).join("")}</ul></div>` : ""}
@@ -768,6 +770,8 @@
       try { navigator.clipboard.writeText(text).then(() => { msg.textContent = "Copied. Paste it into the Claude app and fill in what came up."; }, fallback); } catch { fallback(); }
       return;
     }
+    const mo = e.target.closest("[data-more]");
+    if (mo) { const sub = mo.previousElementSibling; const open = sub.classList.toggle("open"); mo.textContent = open ? "Less" : "More"; mo.setAttribute("aria-expanded", open); return; }
     const j = e.target.closest("[data-jump]");
     if (j) { document.getElementById(j.dataset.jump)?.scrollIntoView({ block: "start", behavior: "smooth" }); return; }
     const f = e.target.closest("[data-filter]");

@@ -47,7 +47,12 @@ marked.use({ tokenizer: { del(src) {
 } } });
 // A trailing "*(Colin, 2026-11-09)*" tag: the file keeps it, a short label drops it.
 const PROVENANCE = /\s*\*\([^)]*\)\*\s*$/;
-const md = (s) => (s ? marked.parse(String(s)) : "");
+// Task-list boxes in a retro are a record, not a control: plain ☑/☐ text, so a
+// screen reader doesn't find unlabeled checkboxes. Wide tables scroll, so they take focus.
+const md = (s) => (s ? marked.parse(String(s))
+  .replace(/<input checked="" disabled="" type="checkbox">\s?/g, '<span aria-label="done">☑</span> ')
+  .replace(/<input disabled="" type="checkbox">\s?/g, '<span aria-label="not done">☐</span> ')
+  .replace(/<table>/g, '<table tabindex="0">') : "");
 const mdi = (s) => (s ? marked.parseInline(String(s)) : "");
 
 /* --------------------------------------------------------------- trips */
