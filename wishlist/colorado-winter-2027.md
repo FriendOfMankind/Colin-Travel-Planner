@@ -3,7 +3,7 @@ slug: colorado-winter-2027
 title: Frisco Early, Dec 21–24
 subtitle: Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30
 status: wishlist
-months: [ 12, 1, 2 ]
+months: [ 12 ]
 mode: fly
 days: 4
 start: 2026-12-21
