@@ -69,6 +69,8 @@
   // downloads capability's allowlist has no calendar type), so off Pages the
   // button points at the Pages copy, which .github/workflows/pages.yml deploys.
   const PAGES_URL = "https://friendofmankind.github.io/Colin-Travel-Planner/";
+  /** Where Colin drops pins (docs/MAPS.md step 2; source tools/coordsheet.html). Private: opens signed in. */
+  const LEDGER_URL = "https://claude.ai/artifact/79opjP1N8qdZqLrR5ifdUT";
   const hosted = /^https?:$/.test(location.protocol) && !/(^|\.)claude(usercontent)?\.(ai|com)$/.test(location.hostname);
   const mapsUrl = (q) => `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
   // Satellite view lives in Google Maps: the claude.ai page can't load outside tiles (Maps URLs API, basemap=satellite).
@@ -224,7 +226,7 @@
     const T = todo(today);
     const top = [...T.ask.slice(0, 3).map(askRow), ...T.soon.slice(0, 2).map((x) => askRow({ kind: "send", verb: `Window opens ${fmt(x.opens)}, ${outIn(today, x.opens)}`, html: x.what, where: `${x.trip} · ${x.system}`, href: "#todo" }))];
     return `<div class="section">
-      <div class="row" style="justify-content:space-between;align-items:baseline"><h2>To-do</h2><span class="muted mono" style="font-size:12px">${T.n.ask} ask · ${T.n.book} book · ${T.n.plan} decide · ${T.n.buy} buy</span></div>
+      <div class="row" style="justify-content:space-between;align-items:baseline"><h2>To-do</h2><span class="muted mono" style="font-size:12px">${T.n.ask} ask · ${T.n.book} book · ${T.n.pins} pin · ${T.n.buy} buy</span></div>
       ${top.length ? `<div class="panel divide">${top.join("")}</div>` : ""}
       <a class="btn" href="#todo">All of it in To-do ›</a></div>`;
   }
@@ -537,10 +539,13 @@
       checks: t.reservations.filter((r) => !r.done && !isBookingCheck(t, r)),
     })).filter((g) => g.decide.length || g.checks.length);
 
+    // Places on a live trip with no verified coordinate: the Pin Ledger's job.
+    const pins = trips.map((t) => ({ t, places: t.places.flatMap((g) => g.places.filter((p) => !p.verified).map((p) => ({ ...p, group: g.group }))) })).filter((g) => g.places.length);
     const buy = D.gearNeeds ?? [];
     const nBook = openNow.length + soon.length + byTrip.reduce((a, g) => a + g.rows.length, 0);
     const nPlan = plan.reduce((a, g) => a + g.decide.length + g.checks.length, 0);
-    return { trips, ask, openNow, soon, byTrip, plan, buy, n: { ask: ask.length, book: nBook, plan: nPlan, buy: buy.length } };
+    const nPins = pins.reduce((a, g) => a + g.places.length, 0);
+    return { trips, ask, openNow, soon, byTrip, plan, pins, buy, n: { ask: ask.length, book: nBook, plan: nPlan, pins: nPins, buy: buy.length } };
   }
 
   const askRow = (x) => `<a class="todo-row ${x.kind}" href="${esc(x.href)}"${x.ext ? ' target="_blank" rel="noopener"' : ""}>
@@ -563,7 +568,7 @@
     return `<div class="stack">
       <div class="row" style="justify-content:space-between;align-items:baseline"><h1>To-do</h1><span class="mono muted" style="font-size:13px">${fmt(today)}</span></div>
       <p class="note" style="margin:0">Every open thread across the live trips. It reads the files, so a thing leaves this list when its file says it's done: tell Claude (<span class="mono">log:</span>, <span class="mono">we booked…</span>, <span class="mono">they're in</span>).</p>
-      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${firstPlan ? stat("plan", firstPlan.decide.length + firstPlan.checks.length, `decide &amp; check · ${esc(firstPlan.t.title)}`) : stat("plan", 0, "decide &amp; check")}${stat("buy", T.n.buy, "to buy")}</div>
+      <div class="stats stats-btn">${stat("ask", T.n.ask, "ask people")}${stat("book", T.n.book, "to book")}${firstPlan ? stat("plan", firstPlan.decide.length + firstPlan.checks.length, `decide &amp; check · ${esc(firstPlan.t.title)}`) : stat("plan", 0, "decide &amp; check")}${stat("pins", T.n.pins, "to pin")}${stat("buy", T.n.buy, "to buy")}</div>
 
       <div class="section">${head("ask", "Ask people", T.n.ask, "Invite pages to send or chase, and open questions someone else has to answer (a <code>**Waiting on:**</code> line in <code>trip.md</code>). Soonest trip first.")}
         ${T.ask.length ? `<div class="panel divide">${T.ask.map(askRow).join("")}</div>` : '<div class="panel pad muted">Nobody to chase.</div>'}</div>
@@ -571,11 +576,15 @@
       <div class="section">${head("book", "Book", T.n.book, "Not marked booked. Opening dates are computed from <code>me/booking.md</code>.")}
         ${T.openNow.length ? `<div class="eyebrow">Open now</div><div class="panel divide">${T.openNow.map((x) => bookRow(x, `<span class="muted">opened</span><br>${fmt(x.opens)}`)).join("")}</div>` : ""}
         ${T.soon.length ? `<div class="eyebrow">Windows not open yet</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
-        ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary>${tripLabel(g.t)} · ${g.rows.length}</summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
+        ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.rows.length}</span></summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
         <a class="btn" href="#book">Every booking window, with calendar alarms ›</a></div>
 
+      <div class="section">${head("pins", "Pins", T.n.pins, "Places on a live trip with no checked coordinate, so no Maps pin, map line or offline GPX yet. Place each in the Pin Ledger (about 30 seconds: Find in Maps, long-press, copy, paste), then tell Claude <span class=\"mono\">pins are in</span>.")}
+        <a class="btn primary" target="_blank" rel="noopener" href="${LEDGER_URL}">Open the Pin Ledger ↗</a>
+        ${T.pins.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.places.length}</span></summary><div class="divide flush">${g.places.map((p) => `<div class="place"><div><div class="pn">${esc(p.name)}</div><div class="pm">${esc(p.group)}${p.note ? ` · ${p.note}` : ""}</div></div><div class="links">${p.maps ? `<a class="maps" target="_blank" rel="noopener" href="${mapsUrl(p.maps)}">Find in Maps ↗</a>` : ""}</div></div>`).join("")}</div></details>`).join("") || '<div class="panel pad muted">Every place on the live trips is pinned.</div>'}</div>
+
       <div class="section">${head("plan", "Decide & check", T.n.plan, "Open questions that are yours to answer, and the unchecked checks (ones that repeat a booking are under Book).")}
-        ${T.plan.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary>${tripLabel(g.t)} · ${g.decide.length + g.checks.length}</summary><div class="divide flush">
+        ${T.plan.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.decide.length + g.checks.length}</span></summary><div class="divide flush">
           ${g.decide.map((q) => `<a class="todo-row decide" href="#t-${g.t.slug}-prep"><span class="dot"></span><div><div class="todo-verb">Decide</div><div class="todo-what">${q.q}</div>${q.blocks ? `<div class="where">Blocks: ${q.blocks}</div>` : ""}</div><span class="go" aria-hidden="true">›</span></a>`).join("")}
           ${g.checks.map((r) => `<a class="todo-row check-row" href="#t-${g.t.slug}-prep"><span class="dot"></span><div><div class="todo-verb">Check</div><div class="todo-what">${r.text}</div></div><span class="go" aria-hidden="true">›</span></a>`).join("")}
         </div></details>`).join("") || '<div class="panel pad muted">Nothing open.</div>'}</div>

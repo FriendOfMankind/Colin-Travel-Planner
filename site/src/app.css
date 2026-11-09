@@ -396,3 +396,6 @@ summary.muted, .srow details summary, .tl-more summary { padding: 6px 0; }
 /* idea rows: no date to show, so no date column */
 .trip-row.nodate { grid-template-columns: 1fr auto; }
 .trip-row .mode { font: 600 11.5px var(--display); text-transform: uppercase; letter-spacing: .08em; }
+/* five To-do counts in two columns: the last one spans the row */
+.stats-btn > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+@media (min-width: 481px) { .stats-btn { grid-template-columns: repeat(5, minmax(0, 1fr)); } .stats-btn > :last-child:nth-child(odd) { grid-column: auto; } }

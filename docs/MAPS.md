@@ -37,6 +37,8 @@ Claude seeds the new places into the **Pin Ledger** (https://claude.ai/artifact/
 
 **"Not a pin"** is for something that isn't one spot (a whole harbour, a road).
 
+The site's **To-do tab → Pins** lists every unplaced place on a live trip, with Find in Maps links and a button to the ledger, so the queue is visible without asking. A place has to be seeded into the ledger too: the To-do list comes from `places.yaml`, the ledger from its own saved data.
+
 Colin says **"pins are in"** when done. Or, without the ledger, paste `Name: lat, lng` lines into the chat.
 
 ### 3. Import (Claude)

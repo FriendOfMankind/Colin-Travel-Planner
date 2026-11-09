@@ -24,7 +24,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | Mapping a trip, start to finish (pins, roads, My Maps, Organic Maps, Kepler) | `docs/MAPS.md` |
 | A trip's research map (covered / thin / gap, plus the fetch list) | `trips/<slug>/research.md` |
 | A potential trip and its research | `wishlist/<slug>.md` |
-| Everything that needs a move: people to ask, things to book, questions to decide, gear to buy | the site's To-do tab, computed from `share/proposals.yaml`, every live `trip.md` and `me/gear.md`; nothing is stored for it |
+| Everything that needs a move: people to ask, things to book, questions to decide, gear to buy | the site's To-do tab, computed from `share/proposals.yaml`, every live `trip.md` and `places.yaml`, and `me/gear.md`; nothing is stored for it. Its Pins section lists unplaced places and links the Pin Ledger |
 | The overall plan: trips, pencilled ideas and open stretches from today to the horizon | the site's Trips tab ("The plan"), computed by `tools/lib/timeline.mjs` from `trips/`, `wishlist/` and `me/calendar.md`. An idea is **pencilled in** only when its wishlist file has `start:` (with `days:`); a `window:` line is not a plan |
 | A single place worth the detour (hike, lake, campground, city walk, ruin), or one already done | `bucket.yaml` |
 | What to eat | `kitchen/staples.md` |
