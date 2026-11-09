@@ -63,7 +63,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   - One branch and one PR per piece of work, always **into** `main`. Never open a PR *from* `main`.
   - Don't leave the checkout on `main` after committing work: the app's "Create PR" button uses the current branch.
   - If this chat's earlier PR is already merged, restart the branch from `main` before new work.
-  - **Never push a branch again after its PR merges.** GitHub deleted it, and the push resurrects it as a dead branch. If the stop hook asks for a push, run `git merge-base --is-ancestor HEAD origin/main`; if it passes, answer "already in main" instead of pushing.
+  - **Don't push a branch whose commits are all in `main` already.** GitHub deleted it when its PR merged, and the push resurrects it as a dead branch. New work on a branch restarted from `main` is a new change, and pushing that is fine. If the stop hook asks for a push with nothing new, run `git merge-base --is-ancestor HEAD origin/main`; if it passes, answer "already in main" instead of pushing.
   - End every change **merged and confirmed** (`git merge-base --is-ancestor HEAD origin/main`) **or** with the line "⚠️ not in memory yet, merge PR #N". Never neither.
   - When Colin says "merged": pull `main`, confirm, and republish the site.
 - **Invite pages** (the pitch pages for friends) are tracked in `share/proposals.yaml`. A new one: write `share/proposals/<id>.html`, publish it as a new page, add its row. Changing one: edit the source, publish to the **same** `url`, set `asOf`. If a page still matches after its plan changes, set `checked:` instead. Status changes ("they're in", "sent it") are a one-line edit there. The briefing lists live pages whose plan moved after them.
@@ -114,6 +114,8 @@ node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every win
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins and road lines, for Drive and Organic Maps
 node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
 node tools/kml.mjs <slug>     # site/maps/<slug>-lines.kml + -pins.kml: Google My Maps, two layers (build runs it)
+node tools/fly.mjs <slug>     # site/fly/<slug>.html: a 3D flythrough of the day lines over real terrain (after build; a toy for a computer)
+node tools/poster.mjs <slug>  # site/posters/<slug>.pdf: a 24x18 in print poster of the route (after build)
 node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
 node tools/mymaps.mjs [<slug> <file.kml>]  # is each trip's My Map (`mymaps:` in trip.md) still current? Weekly in CI; needs google.com, so in a session pass a Firecrawl-scraped file
 python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)

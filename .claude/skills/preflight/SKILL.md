@@ -10,7 +10,7 @@ description: Read-only pre-departure check for an upcoming trip at T-14, T-7 and
 ## 1. Which trip, and how far out
 
 - `date +%F`. **Never guess the date.**
-- The trip is the next `planned` entry in `INDEX.md` (or the one he names). Compute T-minus from `start:` in its `trip.md` frontmatter.
+- The trip is the next live trip in `INDEX.md`, whatever its status, as long as it isn't `done` or `shelved` (or the one he names). Compute T-minus from `start:` in its `trip.md` frontmatter.
 - The bucket sets the emphasis:
   - **T-30 to T-8:** calls, bookings, purchases, contradictions. Anything that needs shipping time is urgent now.
   - **T-7 to T-2:** add the weather (step 5), pre-mix and packing, burn bans.
