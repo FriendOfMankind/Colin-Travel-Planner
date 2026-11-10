@@ -52,6 +52,16 @@
   status: sent  # Colin sending it 2026-11-03, right after the May 23 change
   asOf: 2026-11-04
 
+- id: ireland-only-may-2027
+  title: Ireland, May 9–22
+  url: https://claude.ai/artifact/WtBnyLPVdcefReEKcGuFxu
+  format: page
+  source: share/proposals/ireland-only-may-2027.html
+  wishlist: ireland-only-may-2027
+  for: Finn (brother), Stick (cousin), Jake (maybe), and the parents; shown beside the Dingle & Skye page so they can pick
+  status: draft  # made 2026-11-10; Colin is taking it to Finn and Stick
+  asOf: 2026-11-10
+
 - id: athens-may-2027
   title: Athens, May 13–20
   url: https://claude.ai/artifact/FE5pLf7MjWZKCFAxhcEKfu

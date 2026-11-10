@@ -1,0 +1,330 @@
+<title>Ireland, May 9–22</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column, a glance strip, then a day-by-day route split into its two halves (Kerry field green, then Atlantic slate for Clare and Galway); costs and logistics as plain tables. Same shape as the Athens, Oregon and Newfoundland pitches. */
+:root {
+  --bg: #eff0f1;          /* wet basalt in daylight, cool grey */
+  --surface: #ffffff;
+  --ink: #1a2230;         /* peat-dark loch water */
+  --muted: #5a6270;
+  --line: #d5d9de;
+  --sea: #3d5a80;         /* accent: Atlantic slate-blue */
+  --sea-soft: #dfe6ef;
+  --kerry: #3d6a3a;       /* second voice: Kerry fields */
+  --kerry-soft: #e3eedf;
+  --display: "Young Serif", Georgia, "Times New Roman", serif;
+  --body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #11151b; --surface: #1a2029; --ink: #e4e8ee; --muted: #9ea7b4; --line: #2b3340;
+    --sea: #93b3db; --sea-soft: #1d2c40; --kerry: #9fcf8f; --kerry-soft: #1f3420;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #11151b; --surface: #1a2029; --ink: #e4e8ee; --muted: #9ea7b4; --line: #2b3340;
+  --sea: #93b3db; --sea-soft: #1d2c40; --kerry: #9fcf8f; --kerry-soft: #1f3420;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 17px/1.6 var(--body); -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 760px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 32px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; line-height: 1.15; margin: 0; text-wrap: balance; }
+h1 { font-size: clamp(34px, 7.5vw, 54px); }
+h2 { font-size: 26px; }
+h3 { font-size: 20px; }
+p { margin: 0; max-width: 66ch; }
+a { color: var(--sea); }
+.eyebrow { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; color: var(--sea); }
+.lede { font-size: 19px; }
+.aside { font-family: var(--display); color: var(--muted); font-size: 16px; }
+section, header { display: flex; flex-direction: column; gap: 14px; }
+
+.glance { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+.glance div { background: var(--surface); padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.glance b { font: 400 20px/1.2 var(--display); }
+.glance span { font-size: 13px; color: var(--muted); }
+
+.leg { font: 600 12px/1.3 var(--body); letter-spacing: .12em; text-transform: uppercase; padding: 18px 0 6px; }
+.leg.ire { color: var(--kerry); }
+.leg.fra { color: var(--sea); }
+.route { display: flex; flex-direction: column; border-left: 2px solid var(--sea-soft); margin-left: 6px; }
+.route.ire { border-left-color: var(--kerry-soft); }
+.day { position: relative; padding: 4px 0 28px 22px; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.day::before { content: ""; position: absolute; left: -7px; top: 9px; width: 12px; height: 12px; border-radius: 50%; background: var(--bg); border: 2px solid var(--sea); }
+.route.ire .day::before { border-color: var(--kerry); }
+.day.travel::before { background: var(--sea); }
+.route.ire .day.travel::before { background: var(--kerry); }
+.day .when { font: 500 13px/1.4 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.day .moments { font: 500 13px/1.5 var(--mono); color: var(--sea); }
+.route.ire .day .moments { color: var(--kerry); }
+.day ul { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 6px; }
+.day li b { font-weight: 700; }
+.day .stay { font-size: 15px; color: var(--muted); }
+.day .stay b { color: var(--ink); font-weight: 600; }
+
+.primer { margin: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px 20px; }
+.primer div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.primer dt { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--sea); }
+.primer dd { margin: 0; font-size: 16px; }
+.tag { display: inline-block; font: 600 11px/1 var(--body); letter-spacing: .06em; text-transform: uppercase; padding: 4px 7px; border-radius: 4px; background: var(--sea); color: var(--surface); margin-right: 6px; vertical-align: 2px; }
+
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 15px; }
+th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font: 600 12px/1.3 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+tr:last-child td { border-bottom: 0; }
+td.num { font-family: var(--mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 700; background: var(--sea-soft); }
+
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; }
+.fact { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+.fact.key { border-color: var(--sea); }
+.note { font-size: 15px; color: var(--muted); }
+.plain { margin: 0; padding-left: 1.1em; display: flex; flex-direction: column; gap: 4px; }
+.steps { margin: 0; padding-left: 1.3em; display: flex; flex-direction: column; gap: 8px; }
+footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 16px; display: flex; flex-direction: column; gap: 6px; }
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">The other version · May 2027</span>
+  <h1>Ireland, May 9–22</h1>
+  <p class="lede">Same dates, same flights from Cleveland, no Scotland. Four nights with Stick's grandparents in Dingle, then one car up the west coast: Killarney and a boat to Skellig Michael, three nights in Doolin for the Cliffs of Moher, the Aran Islands and the Burren, two nights in Galway with a day in Connemara, and the nonstop home on Saturday, May 22.</p>
+  <p class="aside">Colin's pitch for switching: we were going to get a rushed Ireland and a rushed Scotland. This is one country done properly, with boats, bikes, kayaks and a cave in place of two flights and a second rental car.</p>
+</header>
+
+<div class="glance">
+  <div><b>May 9 → 22</b><span>14 days, 13 nights</span></div>
+  <div><b>Colin, Finn, Stick</b><span>+ Jake, if he can</span></div>
+  <div><b>Dingle · 4 nights</b><span>Stick's grandparents</span></div>
+  <div><b>One car</b><span>no flights in the middle</span></div>
+  <div><b>Flights covered</b><span>Cleveland ⇄ Dublin, for 3</span></div>
+</div>
+
+<section>
+  <h2>What changes from the Skye version</h2>
+  <div class="tbl">
+    <table>
+      <thead><tr><th></th><th>Ireland only</th><th>Dingle &amp; Skye</th></tr></thead>
+      <tbody>
+        <tr><td>Flights inside the trip</td><td>None</td><td>Two</td></tr>
+        <tr><td>Rental cars</td><td>One</td><td>Two</td></tr>
+        <tr><td>Beds</td><td>Five</td><td>Six, three of them for one night</td></tr>
+        <tr><td>Besides hiking</td><td>Skellig Michael, sea kayaks, island bikes, a cave, Galway</td><td>Dunvegan Castle</td></tr>
+        <tr><td>Mountain hikes</td><td>Diamond Hill, the Burren, the Gap of Dunloe</td><td>The Storr, the Quiraing, the Lost Valley</td></tr>
+        <tr><td>Family roots</td><td>Stick's family, and the O'Dee side (Dysert O'Dea Castle)</td><td>The McLeod side (Dunvegan)</td></tr>
+        <tr><td>Cost to us</td><td colspan="2">About the same. The money moves from flights and a second car to boats and outings.</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">What we'd give up is Skye: Dunvegan and the clan book, the Storr, the Quiraing, Glencoe. Finn, that's your call as much as Colin's. The Skye version is still here: <a href="https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf">Dingle &amp; Skye, May 9–22</a>.</p>
+</section>
+
+<section>
+  <h2>For the parents</h2>
+  <p>The flights don't change: one Aer Lingus round trip for three, Cleveland ⇄ Dublin, nonstop both ways, $2,260 when we looked on November 4 (not held, checked bags extra). What changes is that the boys stay in one country. There are no extra flights to catch and no second car to collect, and Colin drives one automatic for a week instead of two cars in two countries.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Dates</th><th>Where</th></tr></thead>
+      <tbody>
+        <tr><td>Sun May 9</td><td>Leave Cleveland 8:40 PM, overnight to Dublin</td></tr>
+        <tr><td>May 10–13</td><td>Dingle, with Stick's grandparents</td></tr>
+        <tr><td>May 14–15</td><td>Killarney: the Gap of Dunloe, Skellig Michael</td></tr>
+        <tr><td>May 16–18</td><td>Doolin, County Clare: the Cliffs of Moher, the Aran Islands, the Burren</td></tr>
+        <tr><td>May 19–20</td><td>Galway, with a day in Connemara</td></tr>
+        <tr><td>Fri May 21</td><td>Drive to Dublin Airport, return the car, airport hotel</td></tr>
+        <tr><td>Sat May 22</td><td>Dublin → Cleveland 4:05 PM, landing 7:10 PM</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section>
+  <h2>Day by day</h2>
+  <p class="note">A draft. Nothing is booked, and the drive times are estimates. Boats depend on the sea.</p>
+
+  <span class="leg ire">Kerry · May 9–15</span>
+  <div class="route ire">
+    <div class="day travel">
+      <span class="when">Sun May 9 · evening</span>
+      <h3>Overnight to Dublin</h3>
+      <p class="moments">Cleveland → Dublin nonstop · sleep on the plane</p>
+      <span class="stay">Sleep: <b>on the plane</b></span>
+    </div>
+    <div class="day travel">
+      <span class="when">Mon May 10</span>
+      <h3>Across Ireland to Dingle</h3>
+      <p class="moments">Land ~8:45 · coach to Killarney · local bus to Dingle by 7:30</p>
+      <ul><li>No driving on the day we land. The 11:00 coach from Dublin Airport, then the 6 PM local bus out to Dingle. Dinner and an early night.</li></ul>
+      <span class="stay">Sleep: <b>with family in Dingle</b> (night 1 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Tue May 11</span>
+      <h3>Slea Head and the Great Blasket</h3>
+      <p class="moments">Local bus to the end of Ireland · a boat to an abandoned island village</p>
+      <ul>
+        <li>The 9 AM bus to Dunquin, then the boat out to <b>Great Blasket Island</b> (about €60 each): an abandoned village, open to wander.</li>
+        <li>If the boat isn't running: the cliff path at Dunquin Pier, the Blasket Centre and the 1,200-year-old Gallarus Oratory.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 2 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Wed May 12</span>
+      <h3>Dingle from the water</h3>
+      <p class="moments">Sea kayaks into the harbour caves · Eask Tower · fish and chips</p>
+      <ul><li>Half a day of guided <b>sea kayaking</b> around the harbour and into its sea caves (about €60–65 each, wetsuits included). Then the steep walk up to Eask Tower above the bay, or nothing at all.</li></ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 3 of 4)</span>
+    </div>
+    <div class="day">
+      <span class="when">Thu May 13</span>
+      <h3>The spare Kerry day</h3>
+      <p class="moments">Rain backup · or Inch Beach and a castle ruin · farewell dinner</p>
+      <ul><li>Whatever the weather pushed off moves here. If nothing did: Inch, a three-mile sand spit, Minard Castle on its boulder beach, and the pub an Antarctic explorer opened. Then a farewell dinner with the family.</li></ul>
+      <span class="stay">Sleep: <b>Dingle</b> (night 4 of 4)</span>
+    </div>
+    <div class="day travel">
+      <span class="when">Fri May 14</span>
+      <h3>The car, and the Gap of Dunloe</h3>
+      <p class="moments">Pick up the car at Kerry Airport · 20 minutes to Killarney · a walk through a mountain pass</p>
+      <ul><li>A lift from the family to Kerry Airport (still to confirm) and the car. A very short first drive to Killarney, then the <b>Gap of Dunloe</b> on foot: a narrow mountain pass.</li></ul>
+      <span class="stay">Sleep: <b>Killarney</b> (night 1 of 2)</span>
+    </div>
+    <div class="day">
+      <span class="when">Sat May 15</span>
+      <h3>Skellig Michael</h3>
+      <p class="moments">A boat to a sea rock · about 600 stone steps · an early-medieval monastery</p>
+      <ul>
+        <li>An early drive to Portmagee and the boat out to <b>Skellig Michael</b>: stone beehive huts that monks built on top of a rock out in the Atlantic. About €140–145 each.</li>
+        <li><span class="tag">Heads up</span>Landings are limited to 180 people a day and cancelled when there's swell. If ours is cancelled, we walk the Kerry Cliffs and go looking for the 385-million-year-old footprints on Valentia Island instead.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Killarney</b> (night 2 of 2)</span>
+    </div>
+  </div>
+
+  <span class="leg fra">Clare and Galway · May 16–22</span>
+  <div class="route">
+    <div class="day travel">
+      <span class="when">Sun May 16</span>
+      <h3>Over the Shannon to Doolin</h3>
+      <p class="moments">A car ferry across the river · the Cliffs of Moher at sunset</p>
+      <ul><li>About three hours with the 20-minute Tarbert ferry in the middle. The <b>Cliffs of Moher</b> in the evening, once the tour coaches have gone, then music in a Doolin pub.</li></ul>
+      <span class="stay">Sleep: <b>Doolin</b> (night 1 of 3)</span>
+    </div>
+    <div class="day">
+      <span class="when">Mon May 17</span>
+      <h3>Inis Mór</h3>
+      <p class="moments">35-minute ferry · bikes · a stone fort on a cliff edge</p>
+      <ul>
+        <li>The morning boat from Doolin, bikes from the pier, and out to <b>Dún Aonghasa</b>, a prehistoric fort on the edge of a sheer sea cliff. Back on the afternoon boat.</li>
+        <li><span class="tag">Heads up</span>There's no railing at the cliff edge. We stay well back, especially in wind.</li>
+      </ul>
+      <span class="stay">Sleep: <b>Doolin</b> (night 2 of 3)</span>
+    </div>
+    <div class="day">
+      <span class="when">Tue May 18</span>
+      <h3>The Burren, and the O'Dea castle</h3>
+      <p class="moments">A hike over bare limestone · the O'Dee family's tower house · a cave</p>
+      <ul>
+        <li>A 3-hour loop up <b>Mullaghmore</b> in Burren National Park, a hill of folded bare limestone. Free.</li>
+        <li><b>Dysert O'Dea Castle</b>, the O'Dea clan's 15th-century tower. Colin and Finn's mom's side is O'Dee. It's due to reopen in May 2027; the date isn't posted yet.</li>
+        <li>If there's time: the Poulnabrone tomb, and <b>Doolin Cave</b>, with one of the world's largest stalactites (from €19.50).</li>
+      </ul>
+      <span class="stay">Sleep: <b>Doolin</b> (night 3 of 3)</span>
+    </div>
+    <div class="day travel">
+      <span class="when">Wed May 19</span>
+      <h3>Galway</h3>
+      <p class="moments">An hour and a half up the coast · the city on foot · a night out</p>
+      <ul><li>A short drive, then the afternoon and evening in Galway, the one proper city night of the trip.</li></ul>
+      <span class="stay">Sleep: <b>Galway</b> (night 1 of 2)</span>
+    </div>
+    <div class="day">
+      <span class="when">Thu May 20</span>
+      <h3>Connemara</h3>
+      <p class="moments">Diamond Hill · a fjord · an island you walk to at low tide</p>
+      <ul><li><b>Diamond Hill</b>: a 4.6-mile loop with about 1,240 feet of climbing and a view over the whole coast. Then Killary Fjord, or Omey Island across the sand if the tide is out.</li></ul>
+      <span class="stay">Sleep: <b>Galway</b> (night 2 of 2)</span>
+    </div>
+    <div class="day travel">
+      <span class="when">Fri May 21</span>
+      <h3>Back to Dublin</h3>
+      <p class="moments">A monastery on the Shannon · return the car · airport hotel</p>
+      <ul><li>About two and a half hours of motorway, with a stop at <b>Clonmacnoise</b>, a ruined monastery on the river (€8). Return the car at Dublin Airport and sleep there.</li></ul>
+      <span class="stay">Sleep: <b>Dublin Airport</b></span>
+    </div>
+    <div class="day travel">
+      <span class="when">Sat May 22</span>
+      <h3>Home</h3>
+      <p class="moments">A slow morning · Dublin → Cleveland nonstop</p>
+      <ul><li>Aer Lingus nonstop at 4:05 PM, landing in Cleveland at 7:10 PM. US customs is done in Dublin before boarding, and Stick has Sunday to spare before work.</li></ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What it costs</h2>
+  <p class="note">A first pass, nothing held. The Cleveland flights are covered for Colin, Finn and Stick. Everything else splits between whoever's along.</p>
+  <div class="tbl">
+    <table>
+      <thead><tr><th>Item</th><th>Known so far</th></tr></thead>
+      <tbody>
+        <tr><td>Flights, Cleveland ⇄ Dublin</td><td>Paid by parents (Colin, Finn, Stick)</td></tr>
+        <tr><td>One car, automatic, 7 days</td><td>Not priced yet</td></tr>
+        <tr><td>Beds: Killarney 2, Doolin 3, Galway 2, Dublin Airport 1</td><td>Not priced yet; hostels or B&amp;Bs, sharing</td></tr>
+        <tr><td>Skellig Michael landing, each</td><td class="num">€140–145</td></tr>
+        <tr><td>Sea kayaking, each</td><td class="num">€60–65</td></tr>
+        <tr><td>Great Blasket boat, each</td><td class="num">€60</td></tr>
+        <tr><td>Inis Mór ferry, return, each</td><td class="num">€25–47</td></tr>
+        <tr><td>Doolin Cave, each</td><td class="num">from €19.50</td></tr>
+        <tr><td>Clonmacnoise, each</td><td class="num">€8</td></tr>
+        <tr><td>Shannon car ferry, per car</td><td class="num">~€22.50</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p class="note">Prices are 2026 figures from each operator's site. The outings come to about €320–350 each if we do all of them, and any of them can be skipped. Not included yet: food, fuel, the under-25 car fee (about €30–40 a day), travel insurance.</p>
+</section>
+
+<section>
+  <h2>Good to know</h2>
+  <div class="facts">
+    <div class="fact key">
+      <h3>One driver, short days</h3>
+      <p>Colin drives everything, on the left, in one automatic. Most days are under two hours at the wheel; the Skellig day and the last day are the long ones, at about three.</p>
+    </div>
+    <div class="fact">
+      <h3>Boats</h3>
+      <p>Skellig Michael, the Great Blasket and Inis Mór all depend on the sea. Each has a plan for the day it doesn't sail.</p>
+    </div>
+    <div class="fact">
+      <h3>Weather</h3>
+      <p>Plan for rain any day and sun some of them. Bring a real rain jacket, layers, and boots or trail shoes.</p>
+    </div>
+    <div class="fact">
+      <h3>Jake</h3>
+      <p>Staying in Ireland makes this easier from Belfast. Meet us off the plane in Dublin on May 10, or join wherever suits: Galway on the 19th is the simplest. Tell Colin which.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What I need from you</h2>
+  <ol class="steps">
+    <li><b>Finn and Stick:</b> this version or the Skye one? Say which you'd rather do, and what you'd hate to lose from the other.</li>
+    <li><b>Stick:</b> the same ask of your grandparents either way: May 10–13, and a lift to Kerry Airport on the morning of the 14th.</li>
+    <li><b>Jake:</b> in or out, and where you'd join.</li>
+  </ol>
+</section>
+
+<footer>
+  <span>Drafted November 10, 2026 as an alternative to the Dingle &amp; Skye plan. Nothing is booked. Prices and opening times come from 2026 listings and will change for 2027.</span>
+  <span>Questions go to Colin.</span>
+</footer>
+
+</div>

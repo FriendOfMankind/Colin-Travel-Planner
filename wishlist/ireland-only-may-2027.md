@@ -85,7 +85,7 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 
 ## Next
 
-Colin decides whether this replaces the Skye plan, with Finn and Stick (their pitch page shows Skye). If yes: move it into `trips/dingle-marseille-2027/trip.md`; watch for 2027 Skellig landing bookings; price the 7-day automatic and the eight beds; run a `/research` sweep (Reddit through Apify) for Kerry, Clare and Galway. Open choices: Killarney or Portmagee for the Skellig nights; Galway with one Connemara day, or Connemara itself.
+Colin is taking this to Finn and Stick *(2026-11-10)* with its own pitch page, "Ireland, May 9–22" (`share/proposals.yaml`). If they pick it: move it into `trips/dingle-marseille-2027/trip.md`; watch for 2027 Skellig landing bookings; price the 7-day automatic and the eight beds; run a `/research` sweep (Reddit through Apify) for Kerry, Clare and Galway. Open choices: Killarney or Portmagee for the Skellig nights; Galway with one Connemara day, or Connemara itself.
 
 ## Research notes
 
