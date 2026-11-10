@@ -64,6 +64,37 @@ Dingle's Day 4 (the town day) stays the rest day. First cuts if it feels full: L
 - **Clonmacnoise** (May 21): the monastic site on the Shannon, €8 an adult; "avoid arriving between 10:30 and 15:00" ✅ *(heritageireland.ie)*.
 - **Evenings:** trad sessions in Dingle and Doolin, and Galway ⚠️ *(recalled, not sourced)*. Finn and Stick are over 18, Ireland's drinking age ⚠️ *(recalled)*.
 
+## Evenings, food and a match
+
+*(Sweep of 2026-11-10; sources in the research note of that date. Colin doesn't drink beer (`me/food.md`); the sessions are free and nobody checks what's in the glass.)*
+
+**Pubs and music, by stop**
+- **Dingle** (May 10–13): trad at **O'Sullivan's Courthouse**, O'Flaherty's, **John Benny's** and Neligan's; **Foxy John's** and the Dingle Pub are the busy ones with more locals; **Dick Mack's** for the room. Sessions start after 9 PM 📋 *(youririshadventure.com; vagabondtoursofireland.com; r/irishtourism, 2025-01)*. Kennedy's has an open mic every Tuesday, about 6–11:30 PM, and Neligan's has set dancing with live trad on Mondays 📋 *(one r/irishtourism commenter, 2025-01)*: May 10 is a Monday and May 11 a Tuesday.
+- **Killarney** (May 14–15): Courtney's Bar; the Dunloe Lodge "with live music every night"; Buckley's Bar at the Arbutus Hotel for trad 📋 *(Yelp; texaslifestylemag.com; TripAdvisor forum)*. One vlogger calls it "the best live Irish pub music in Ireland" 📋 *(YouTube, not transcribed)*.
+- **Doolin** (May 16–18): **Gus O'Connor's**, **McGann's** and **McDermott's** all "run free live music sessions most nights, usually from around 9pm"; Fitzpatrick's is the quieter fourth 📋 *(youririshadventure.com; justchasingsunsets.com)*. Gus O'Connor's is open daily from 10 AM ✅ *(gusoconnorsdoolin.com)*. Three nights, three pubs.
+- **Galway** (May 19–20): **Taaffes** has nightly trad sessions; **Tigh Neachtain** is the historic one 📋 *(lallytours.com)*.
+
+**Named food so far** (thin: one source each, no prices)
+- Dingle: The Fish Box, fish and chips (already in the trip).
+- Galway: **McDonagh's**, 22 Quay St, "the oldest fish and chip shop in Galway", cod and chips; open from noon 📋 *(TripAdvisor review; Yelp listing)*.
+- Killarney, Doolin: nothing named yet beyond pub food.
+
+**The Galway day, May 19** (a 2.5-mile, half-day walk 📋 *(workingjoetravel.com)*): Galway Cathedral → Salmon Weir Bridge → Eyre Square → the Latin Quarter's pedestrian streets (Shop St, High St, Quay St, Kirwan's Lane) → the Spanish Arch and the Long Walk → over Wolfe Tone Bridge to the Claddagh and Nimmo's Pier → South Park and the Mutton Island causeway → the Famine Ship memorial → Grattan Beach. Salthill's promenade is another 30 minutes on foot 📋 *(Rick Steves forum)*. Fish and chips at McDonagh's on Quay St, then Taaffes or Tigh Neachtain.
+
+**A match**
+- **Hurling is the one that may line up.** The provisional 2027 Munster championship has **Clare v Cork in Ennis** in round 3 and **Limerick v Clare** in round 4; dates aren't out ✅ *(Irish Examiner, 2026-08-06)*. In 2026 the round-robin ran into late May 📋 *(a 2026 fixture list snippet: Cork v Clare on Sun May 24)*. ⚠️ If Clare v Cork lands on Sun May 16, that's the day the trip arrives in Clare, with Ennis on the way. Munster GAA's fixtures page showed no 2027 championship dates on 2026-11-10 ✅.
+- **Gaelic football:** Kerry play at Fitzgerald Stadium, Killarney. In 2026 an All-Ireland round 1 game was there on Sat May 23 📋 *(gaa.ie snippet)*. 2027 dates not found.
+- **Soccer:** Galway United play Friday nights at 7:45 PM 📋 *(their 2026 fixtures)*; the trip is in Galway on a Wednesday and Thursday. Kerry FC play Fridays in Tralee 📋 *(kerryfc.com, 2026)*, and May 14 is a Friday in Killarney. 2027 League of Ireland fixtures aren't out.
+- **Rugby:** Connacht's listed home games end on Apr 24, 2027 📋 *(connachtrugby.ie fixtures)*.
+- A club game costs nothing: "you just show up and watch in the local club or park" 📋 *(r/GAA, snippet)*.
+
+**Small towns on the route** ⚠️ leads, each from one source
+- **Kenmare:** named with Doolin and Dingle as a top town for live sessions 📋 *(Ireland Travel Facebook group, snippet)*. Off the route unless the Skellig day goes home that way.
+- **Portmagee and Valentia:** "we visited a ton of random ruins and graveyards" between Valentia and Ballinskelligs 📋 *(r/irishtourism, 2024-01)*. Already on the Skellig day.
+- **Kinvara** (May 19, on the way to Galway): Dunguaire Castle, a 16th-century tower on the bay. Its own site says "Temporarily Closed" 📋 *(dunguairecastle.com)*, so a look from outside.
+- **Loop Head** got a second, independent vote: "If you love cliffs, Loop Head is spectacular" 📋 *(r/irishtourism, 2024-01)*.
+- Ennistymon, Kilfenora, Lahinch: nothing found this sweep.
+
 ## Against the Skye half
 
 *(Claude's judgment, 2026-11-10, by the tests in `me/travel-style.md`.)*
@@ -83,9 +114,21 @@ Ireland has more than enough: the list above needed cuts to fit. What only Skye 
 
 Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 2026-11-10)*: the two flights ($654), the Scotland car and fee (~$600) and Scotland's fuel and entries (~$190) come out. One Ireland car for 7 days instead of 3 goes in (⚠️ ~$350–450 more by extrapolating the 3-day manual quote; the automatic is still unpriced). Beds are 8 nights either way and none of these is priced. That left roughly $600–1,000 for three. **The fun spends most of it:** Skellig, the kayaks, the Blasket boat, Inis Mór and the cave come to about €320–350 a person if all are done. So this version costs about what Skye did, and buys activities instead of flights.
 
+## Research tree
+
+*(Built 2026-11-10. ✅ covered · 🟡 thin · ⬜ gap · 🔒 walled.)*
+
+- **Dingle:** ✅ buses, Slea Head sites (the trip's own research) · 🟡 pubs and music (guides + one Reddit thread) · 🟡 sea kayaking, Blasket boat (operator snippets) · ⬜ May sailing dates for the Blasket boat · ⬜ named dishes
+- **Killarney and Skellig:** 🟡 Skellig landing (three operators' snippets; 2027 dates and booking not read on a page) · ⬜ Gap of Dunloe route and stats · 🟡 pubs · ⬜ beds · ⬜ drive times
+- **Clare:** ✅ Burren National Park · ✅ Doolin Cave price · 🟡 Dysert O'Dea (reopening date) · 🟡 Doolin pubs · 🟡 Inis Mór 2027 timetable · 🟡 Cliffs coastal path status · ⬜ beds · ⬜ named dishes
+- **Galway and Connemara:** 🟡 city walk (one blog) · 🟡 pubs · 🟡 Diamond Hill · ⬜ Omey tide times for May 20 · ⬜ beds
+- **Sport:** 🟡 Munster hurling (pairings known, dates not) · ⬜ Kerry football, League of Ireland 2027
+- **Money:** ⬜ 7-day automatic, under-25 fee · ⬜ all eight beds
+- 🔒 **Fetch list:** the "Ireland Travel" Facebook group (search "Doolin music Sunday", "Dingle dinner music"); Munster GAA's Facebook and Instagram posts titled "2027 Munster Hurling Championship fixtures"
+
 ## Next
 
-Colin is taking this to Finn and Stick *(2026-11-10)* with its own pitch page, "Ireland, May 9–22" (`share/proposals.yaml`). If they pick it: move it into `trips/dingle-marseille-2027/trip.md`; watch for 2027 Skellig landing bookings; price the 7-day automatic and the eight beds; run a `/research` sweep (Reddit through Apify) for Kerry, Clare and Galway. Open choices: Killarney or Portmagee for the Skellig nights; Galway with one Connemara day, or Connemara itself.
+Colin is taking this to Finn and Stick *(2026-11-10)* with its own pitch page, "Ireland, May 9–22" (`share/proposals.yaml`). If they pick it: move it into `trips/dingle-marseille-2027/trip.md`; watch for 2027 Skellig landing bookings; price the 7-day automatic and the eight beds; check the Munster hurling dates when they're published (Clare v Cork in Ennis). Open choices: Killarney or Portmagee for the Skellig nights; Galway with one Connemara day, or Connemara itself.
 
 ## Research notes
 
@@ -100,3 +143,11 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 ### 2026-11-10 · Second draft: the most fun version
 - Colin asked for "the most fun version of Ireland that we can", to see how it compares with Scotland. Changed: Killarney ×2 with a Skellig Michael day went in; Connemara ×3 became Galway ×2 with one Connemara day; Dublin ×2 became the airport night. Sources are on each line above.
 - Not found: 2027 Munster hurling fixtures (a May championship match in Ennis or Killarney would be on the way); surf-lesson and coasteering prices; stats for the Kerry hikes.
+
+### 2026-11-10 · Sweep: pubs, food, towns, a match, the Galway day
+- **Asked by Colin:** full days with small towns, named restaurants, culture and history; "good pubs would definitely be fun", and "an Irish football game", which he thinks the parents might pay for (his guess).
+- **Reddit:** Apify's `trudax/reddit-scraper-lite` failed three times in 2–3 seconds (exit code 4, no items, nothing charged that I can see). Two threads were read in full through Firecrawl's `scrapecreators` `reddit/post-comments` provider instead: r/irishtourism "Pubs in Dingle during the week in early March" (2025-01-29) and "What are some hidden gems in Ireland?" (2024-01-09). Quotes are on the lines above. From the second, off this route but repeated: Donegal, Sligo and north Mayo (top comment, 25 votes), the Doolough/Delphi valley drive from Leenaun, Newgrange.
+- **Guides and operator pages** behind the pub lists: youririshadventure.com, vagabondtoursofireland.com, justchasingsunsets.com, lallytours.com, gusoconnorsdoolin.com.
+- **Fixtures:** Irish Examiner, "Cork hurlers set to be away in opening two 2027 Munster SHC fixtures" (2026-08-06), read on the page; munster.gaa.ie/fixtures/senior read 2026-11-10, no 2027 championship dates.
+- **Not done:** YouTube transcripts; prices for any meal; hostel beds; drive times.
+- **Spend:** about 45 Firecrawl credits; Apify three failed runs.
