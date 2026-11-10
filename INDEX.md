@@ -27,7 +27,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 54/54 places located · log 19 entries · updated 2026-11-04
+- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 54/54 places located · log 20 entries · updated 2026-11-04
   ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 16:** a ~3-hour drive to…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 81/81 places located · log 47 entries · updated 2026-11-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
@@ -101,6 +101,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Payette whitewater, Stanley hot springs, the Sawtooths and Twin Falls with friends
 - **Athens + Kerry (May, the alternative)** (`wishlist/ireland-may-2027.md`) · Co. Kerry, then Athens as the base for Delphi, Meteora and Sounion · fly · confirmed · May · 13 days · 3 research notes · updated 2026-11-02
   The Athens alternative to the Dingle & Marseille trip. Kerry first, then a week of Athens, Delphi and Meteora
+- **Ireland only (May, the slower alternative)** (`wishlist/ireland-only-may-2027.md`) · Cleveland → Dublin → Dingle → Doolin → Connemara → Dublin → home · fly · confirmed · May · 14 days · 1 research note · updated 2026-11-10
+  The same May 9–22 trip with Scotland cut. Dingle, Clare, Connemara and Dublin, one car, no flights in the middle
 - **Japan** (`wishlist/japan.md`) · Japan · fly · keeps (derived) · May/Oct · 12 days · 1 research note · updated 2026-11-01
   Culture and cities, in hotels
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30

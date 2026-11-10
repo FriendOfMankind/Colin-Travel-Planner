@@ -214,3 +214,10 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Old values:** May 10–23, home Sun May 23; Portree May 18–21; the grandparents May 11–14 and the Kerry lift on May 15.
 - **Bookings that move:** Portree hostel → **May 17–20** (not booked yet, so nothing to change), both cars a day earlier, the grandparents' dates. Newfoundland gets three turnaround days.
 - **Return confirmed** *(Colin's screenshot, 2026-11-04)*: the selected pair is **EI 86 Sun May 9 20:40 → 08:45 and EI 87 Sat May 22 16:05 → 19:10, both nonstop, $2,260 for 3**. That's lower than the $2,391 on the first screen. Colin said "MERGE".
+
+## 2026-11-10 · An Ireland-only alternative drafted; nothing decided
+
+- **Colin is weighing cutting Scotland** *(2026-11-10)*: the pace bothers him ("getting on and off… a plane may not be the best most immersive experience"), two of the three have never travelled internationally (Claude reads that as Finn and Stick; not confirmed), and he thinks the parents might pay for more of an Ireland-only trip (his guess, not asked). The draft is `wishlist/ireland-only-may-2027.md`: Dingle 4, Doolin 3, Connemara 3, Dublin 2, one car, no flights inside the trip. **The plan in `trip.md` is unchanged** until he picks, and the pitch page Finn, Stick and the parents have still shows Skye.
+- **Colin's mom's side is O'Dee** *(stated 2026-11-10)*. Dysert O'Dea Castle near Corofin, Co. Clare, is the O'Dea clan's tower house *(odeaclan.org, snippet)*; its site said "Closed until May 2027" *(dysertcastle.ie, snippet)*. It fits the current plan's Day 6 too. O'Dee = O'Dea is Claude's recollection, and the family line isn't traced.
+- **The grandparents could host every night** if wanted *(Colin, 2026-11-10; not confirmed with them, like the 4 nights)*.
+- Claude's estimates that day, all soft: the Skye plan runs ~$1,100–1,250 each on the ground before food; Ireland-only saves ~$200–350 each; food is unbudgeted in both.
