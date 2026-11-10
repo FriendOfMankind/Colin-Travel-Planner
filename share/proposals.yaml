@@ -49,17 +49,18 @@
   source: share/proposals/dingle-marseille-2027.html
   trip: dingle-marseille-2027
   for: Finn (brother), Stick (cousin), Jake (friend near Belfast, maybe), and the parents (their own section, 2026-11-03)
-  status: sent  # Colin sending it 2026-11-03, right after the May 23 change
-  asOf: 2026-11-04
+  status: superseded  # replaced by the Ireland-only page when the trip dropped Scotland (2026-11-10)
+  by: ireland-only-may-2027
+  asOf: 2026-11-10
 
 - id: ireland-only-may-2027
   title: Ireland, May 9–22
   url: https://claude.ai/artifact/WtBnyLPVdcefReEKcGuFxu
   format: page
   source: share/proposals/ireland-only-may-2027.html
-  wishlist: ireland-only-may-2027
-  for: Finn (brother), Stick (cousin), Jake (maybe), and the parents; shown beside the Dingle & Skye page so they can pick
-  status: draft  # made 2026-11-10; Colin is taking it to Finn and Stick
+  trip: dingle-marseille-2027
+  for: Finn (brother), Stick (cousin), Jake (maybe), and the parents
+  status: in  # Finn and Stick picked this version (2026-11-10); Jake not yet
   asOf: 2026-11-10
 
 - id: athens-may-2027
