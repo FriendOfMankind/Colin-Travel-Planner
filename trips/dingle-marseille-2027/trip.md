@@ -435,6 +435,7 @@ slack: The morning. The walk can stop anywhere.
 driving: Doolin → Kinvara → Galway (⚠️ unrouted; ~1.5 h, recalled)
 overnight:
   name: TBD, Galway
+  mapStandIn: Galway Cathedral
   place: Galway
   kind: Hostel or B&B (not picked)
   cost: TBD
@@ -461,6 +462,7 @@ slack: Late afternoon. Omey is the first cut if the tide is wrong.
 driving: Galway → Letterfrack → Claddaghduff → Galway (⚠️ unrouted; ~1.5 h each way, recalled)
 overnight:
   name: TBD, Galway
+  mapStandIn: Galway Cathedral
   place: Galway
   kind: Hostel or B&B (not picked)
   cost: TBD
@@ -570,7 +572,7 @@ Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated
 
 ### Places
 
-The handoff's map markers were approximate centres typed by hand, so they weren't imported. Dingle and Clare places are pinned (Pin Ledger, 2026-10-30 and 2026-11-02). The Killarney, Skellig, Burren, Galway and Connemara places added on 2026-11-10 are unplaced. The Scotland pins were taken off this trip's map on 2026-11-10 (see `log.md`). Every stop has a Maps search.
+The handoff's map markers were approximate centres typed by hand, so they weren't imported. Dingle and Clare places are pinned (Pin Ledger, 2026-10-30 and 2026-11-02). The Killarney, Skellig, Burren, Galway and Connemara places were placed in the Pin Ledger on 2026-11-11. Road lines for every day were drawn the same day by `tools/roads.py`; the Galway nights use Galway Cathedral as the bed stand-in. The Scotland pins were taken off this trip's map on 2026-11-10 (see `log.md`). Every stop has a Maps search.
 
 ### Offline regions
 

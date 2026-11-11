@@ -233,3 +233,10 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Map:** the 19 Scotland pins came off this trip (kept at commit `c3e7868` and in the Pin Ledger). 18 new Ireland places are unplaced. Road lines for old days 6, 8 and 10–13 are deleted (they followed the Scotland route); old day 7 (Inis Mór) is now day 9. **Colin's Google My Map is stale** until the KML is re-imported after the site rebuild.
 - **Pitch pages:** "Ireland, May 9–22" is the current page; "Dingle & Skye, May 9–22" is superseded and says so at the top.
 - The Ireland-only wishlist file is retired: its findings are in `research-log.md`, and the plan is here.
+
+## 2026-11-11 · Pins in, roads drawn, a poster
+
+- **18 Ireland places pinned** by Colin in the Pin Ledger, all with no warnings; written into `places.yaml` as verified.
+- **Road lines for Days 2–13** redrawn by `tools/roads.py` on Overture data (1,033 mi by road and ferry for Days 2–13). Day 7's last leg out to Skellig Michael is a straight line: it's the boat, 13.6 km from any road.
+- **Galway's two nights** stand in at Galway Cathedral (`mapStandIn`) until a bed is picked.
+- **A print poster** of Days 2–13 (`node tools/poster.mjs dingle-marseille-2027 --days 2-13`, after the build), at Colin's request. It writes `site/posters/`, which git ignores, so it's regenerated rather than stored.
