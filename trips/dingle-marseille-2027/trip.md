@@ -1,7 +1,7 @@
 ---
 slug: dingle-marseille-2027
-title: Dingle & Skye
-subtitle: Three full days with family in Dingle, the Burren and Inis Mór, then Skye, the MacLeod homeland, and Glencoe
+title: Dingle & the West of Ireland
+subtitle: Three full days with family in Dingle, then Skellig Michael, the Cliffs of Moher, Inis Mór, the Burren, Galway and Connemara by car
 months: [ 5 ]
 mode: fly
 days: 14
@@ -13,14 +13,14 @@ pinned: false
 start: null
 dates: May 9–22, 2027 (target, unbooked)
 window: Sun May 9, the day after Commencement (Sat May 8), to a Sat May 22 landing, so Stick has Sunday as a buffer before work Mon May 24 (Colin, 2026-11-04). Newfoundland leaves Wed May 26 (Colin, 2026-10-30)
-region: Cleveland → Dublin → Dingle → Doolin → Dublin → Inverness → Skye → Glencoe → Edinburgh Airport → Dublin → home
-states: [ IE, GB ]
-country: Ireland, Scotland
-coords: [ 55, -7 ]
+region: Cleveland → Dublin → Dingle → Killarney → Doolin → Galway → Dublin Airport → home
+states: [ IE ]
+country: Ireland
+coords: [ 52.4, -9.7 ]  # mean of the trip's 34 verified Ireland pins, computed 2026-11-10
 mymaps: 1OEss3hq9FmWO11ZhM7HtJ4KaRPwgyJA  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
-nights: 13 (1 plane, 4 Dingle, 2 Doolin, 1 Inverness, 3 Skye, 1 Glencoe, 1 Dublin Airport)
-distance: Coaches to Dingle, then two one-way rental cars (Kerry → Dublin, Inverness → Edinburgh) with Colin the only driver. ⚠️ Unrouted
-budget: TBD. Parents are paying the flights (Colin, 2026-11-02). Cars, beds and the Dublin → Inverness flight aren't priced (see Notes)
+nights: 13 (1 plane, 4 Dingle, 2 Killarney, 3 Doolin, 2 Galway, 1 Dublin Airport)
+distance: Coaches to Dingle, then one one-way rental car, Kerry Airport → Dublin Airport (May 14–21), with Colin the only driver. ⚠️ Unrouted
+budget: TBD. Parents are paying the flights (Colin, 2026-11-02). The car, the beds and the outings aren't priced in full (see Notes)
 tags:
   - international
   - europe
@@ -31,77 +31,64 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland + Skye picked 2026-11-02; this day-by-day drafted the same day)*. First, in order: (1) **book Portree Youth Hostel, May 17–20** (picked 2026-11-02: £319.50 for 3 beds in a shared room, on hostellingscotland.org.uk); (2) **price the Ireland automatic** (economy or compact; automatic is decided, 2026-11-02); (3) book **Aer Lingus Dublin → Inverness, Sun May 16, 13:45**; (4) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents; both legs confirmed nonstop 2026-11-04) and **EDI → DUB Fri May 21** (Aer Lingus 15:30); (5) the two one-way cars. Prices so far are in Notes. Marseille is saved as `wishlist/marseille-may-2027.md`"
+next: "**Draft, nothing booked** *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. First, in order: (1) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents); (2) the **Skellig Michael landing** for Sat May 15, once 2027 bookings open (one operator says November); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
 booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
     target: 2027-05-09
     note: "Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
-  - system: flights
-    what: DUB → INV Sun May 16, Aer Lingus 13:45 → 15:20
-    target: 2027-05-16
-    note: "$358 for 3, bags extra (Colin's Google Flights screenshot for Sun May 16, 2026-11-04, not held; 'prices are currently high'). The only nonstop to Inverness. Same times as EI 3372 on Mondays; the number isn't shown. The three travellers split it, not the parents (Colin, 2026-11-03, 'we probably will'). Fallback to Edinburgh the same day: Aer Lingus 17:50 → 19:10 $226, Ryanair 14:15 or 20:20 ($189 / $138, no carry-on)."
   - system: rental-car
-    what: Ireland car, Kerry Airport May 14 → Dublin Airport May 16, one way
+    what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
-    note: Kayak, driver 22, 2026-11-02 — Hertz mini manual $216 total, Thrifty/Avis/Budget $235–257, all manual; whether the young-driver and one-way fees are inside isn't shown. Europcar (from 22) and Avis have desks at Kerry Airport.
-  - system: rental-car
-    what: Scotland car, Inverness Airport May 16 → Edinburgh Airport May 21, one way
-    target: 2027-05-16
-    note: "Kayak totals for the old dates, May 17 16:00 → May 22 12:00, observed 2026-11-02, not held; not re-priced for May 16–21. Manual: Toyota Aygo mini $295, Vauxhall Corsa economy $319, Ford Focus compact $335 (all Enterprise); Europcar Corsa or Cupra Leon compact $372. Automatic: Enterprise Corsa $392–403, Focus compact $402, Nissan Juke $404. ⚠️ The cheap rows are Enterprise, which wanted 25 at its Glasgow branch; Europcar rents from 22, about £30 a day per under-25 driver (myhighlands.de, 2026-09), not in the totals. Kayak doesn't price by age. One-way fee not shown separately."
+    note: "Not priced for these dates. The only quote was for the old 3-day plan: Kayak, driver 22, 2026-11-02, Hertz mini manual $216 total, Thrifty/Avis/Budget $235–257, all manual; whether the young-driver and one-way fees are inside isn't shown. Europcar (from 22) and Avis have desks at Kerry Airport. Under-25 fees run about €30–40 a day (secondary)."
   - system: private
-    what: Doolin, 2 nights May 14–16 (3 adults)
+    what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
   - system: private
-    what: Inverness, 1 night May 16
+    what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
+    target: 2027-05-15
+    note: "€145 a person, landings 9 May – 1 Oct in 2026 (skelligislands.com, snippet); €140, a 5-hour trip, bookings opening for 2027 (kerryaquaterra.ie, snippet); landings from May 15, 2027 bookings open in November (skelligmichaelcruises.com, snippet). Capped at 180 people a day and cancelled in swell."
+  - system: private
+    what: Doolin, 3 nights May 16–19 (3 adults)
     target: 2027-05-16
-    note: Late arrival likely; check the desk hours.
   - system: private
-    what: Portree, Skye, 3 nights May 17–20
-    target: 2027-05-17
-    note: "Picked, not booked (Colin, 2026-11-02): Portree Youth Hostel, Hostelling Scotland, beds in a shared room for 3 adults, £319.50 for the 3 nights, paid in full at booking; towel hire £3 a person is optional (hostellingscotland.org.uk, quoted 2026-11-02). Nothing on Airbnb or Booking.com beat ~£330 (Colin). Cancellation terms not checked. The scarce booking: 'For May to September, book months ahead' (scotlandswild.com)."
-  - system: private
-    what: Glencoe, 1 night May 20
-    target: 2027-05-20
-  - system: flights
-    what: EDI → DUB Fri May 21, Aer Lingus 15:30 → 16:45, 3 adults
-    target: 2027-05-21
-    note: $296 for 3, carry-on included, bags extra (Colin's Google Flights screenshot for Fri May 21, 2026-11-04, not held). The latest flight in the top results; an evening one may be further down the list (not seen). Ryanair 13:30 $197 has no carry-on and is too early after the Lost Valley. Who pays isn't settled.
+    what: Galway, 2 nights May 19–21 (3 adults)
+    target: 2027-05-19
   - system: private
     what: Dublin Airport hotel, 1 night May 21 (3 adults)
     target: 2027-05-21
     note: Lead, not picked - Maldron Hotel Dublin Airport has triple rooms (three single beds) and a free 24 h shuttle (maldronhotels.com, booking.com); Kayak shows roughly $183-294 a night, undated (searched 2026-11-03).
-updated: 2026-11-04
+updated: 2026-11-10
 map:
-  center: [ 55, -7 ]
-  zoom: 5
+  center: [ 52.4, -9.7 ]
+  zoom: 7
 page:
-  title: Dingle & Skye
-  subtitle: 3 adults, all on the same flights · Cleveland → Dingle → the Burren → Skye → Glencoe → home via Dublin
+  title: Dingle & the West of Ireland
+  subtitle: 3 adults, all on the same flights · Cleveland → Dingle → Killarney → Doolin → Galway → home via Dublin
   dates: Sunday, May 9 – Saturday, May 22, 2027
   emoji: 🏰
   theme: ocean
-  vehicle: "**Coaches to Dingle, then two rental cars, Colin driving.** Kerry Airport → Dublin Airport (May 14–16), then Inverness → Edinburgh (May 16–21). Both one-way, both with an under-25 surcharge, neither priced."
-  gettingThere: "Round trip: **EI 86** CLE 20:40 → DUB 08:45 on May 9–10, Edinburgh → Dublin Fri May 21 afternoon, home Sat May 22 on **EI 87** DUB 16:05 → CLE 19:10 nonstop; one round-trip ticket (not booked). **Dublin → Inverness** on Sun May 16: Aer Lingus 13:45 → 15:20 (on sale, not booked). The parents are paying the flights."
-  footerNote: "Draft as of Nov 2, 2026. **Nothing booked.** Dingle days are unchanged from the earlier plan; Days 6–15 were drafted on 2026-11-02 and every drive is unrouted. The Marseille version is in `wishlist/marseille-may-2027.md`. [← All trips](../../index.html)"
+  vehicle: "**Coaches to Dingle, then one rental car, Colin driving.** Kerry Airport → Dublin Airport, May 14–21, one way, automatic, with an under-25 surcharge. Not priced."
+  gettingThere: "Round trip: **EI 86** CLE 20:40 → DUB 08:45 on May 9–10, home Sat May 22 on **EI 87** DUB 16:05 → CLE 19:10 nonstop; one round-trip ticket (not booked). No other flights. The parents are paying the flights."
+  footerNote: "Draft as of Nov 10, 2026. **Nothing booked.** Ireland only since Nov 10: Skye is saved in `wishlist/skye-highlands.md`, Marseille in `wishlist/marseille-may-2027.md`. Every drive time is unrouted. [← All trips](../../index.html)"
   stats:
     - num: 14 days
       lbl: Length
     - num: "3"
       lbl: Full Dingle days
     - num: "3"
-      lbl: Skye nights
+      lbl: Doolin nights
     - num: "1"
       lbl: Driver
 ---
 
-# Dingle & Skye
+# Dingle & the West of Ireland
 
-> ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 16:** a ~3-hour drive to Dublin Airport and a car drop before the **13:45** Dublin → Inverness flight (seen for Sun May 16 on 2026-11-04). And Colin drives every mile, on the left. May 10, Dublin Airport → Dingle by public transport, is still a 7½-hour planning block, not a timetable.
+> ⚠️ Two things can kill a day here, and neither is checked yet. **Skellig Michael** (May 15) lands only in calm seas and only 180 people a day, so it's a bonus with a backup, not a promise. **Omey Island** (May 20) is reached across sand at low tide only; the tide times aren't checked. And Colin drives every mile, on the left. May 10, Dublin Airport → Dingle by public transport, is still a 7½-hour planning block, not a timetable.
 
 ## Overview
 
-Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents. On May 14 pick up a car at Kerry Airport: across the Shannon by ferry to the Cliffs of Moher and Doolin, a day on Inis Mór, the Burren, then drop the car in Dublin and fly to Inverness. A second car: Loch Ness and Eilean Donan to **Skye for three nights**, with a day at **Dunvegan Castle, the seat of Clan MacLeod**, the Storr and the Quiraing, the Fairy Pools, then Glencoe and the Lost Valley. Drop the car at Edinburgh Airport, fly to Dublin that evening, and home nonstop on Sat May 22.
+Fly overnight from Cleveland, cross Ireland to Dingle by coach the day you land, then four nights and three full days with Stick's grandparents: Slea Head, the Great Blasket, sea kayaks. On May 14 pick up one car at Kerry Airport for the rest of the trip. Two nights in **Killarney** for the Gap of Dunloe and a boat to **Skellig Michael**; three in **Doolin** for the Cliffs of Moher, a day on **Inis Mór** and the **Burren**, with the O'Dea clan's castle; two in **Galway** for the city and a day in **Connemara**. Then Clonmacnoise on the way to Dublin Airport, and home nonstop on Sat May 22. No flights inside the trip, one car, five beds.
 
 ### Dates
 
@@ -115,13 +102,15 @@ May 9–22, 2027 (target). 14 days, 13 nights. **Home Saturday, so Stick has all
 
 **It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
-### Why Skye
+### Roots
 
-**Ireland + Skye instead of Marseille** *(Colin, 2026-11-02: people he's talked to say Marseille "isn't the best"; he wants roots)*. Ireland is Stick's roots. **Colin and his brother are McLeods, and Skye is Clan MacLeod's homeland**: Dunvegan Castle has been the chiefs' seat for about 800 years *(dunvegancastle.com)*. **Skye over the Giant's Causeway** *(Colin, 2026-11-02)*. Colin's own line (grandfather Douglas McLeod, born in Detroit) isn't traced yet; see `log.md`. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
+**Ireland only, no Scotland** *(decided 2026-11-10; Finn and Stick both said yes, Colin: Finn is fine with it)*. Colin's reasons: one country done properly instead of "a rushed version of Ireland, and a rushed version of Scotland"; no flights or second car inside the trip; two of the three have never travelled abroad; and he'll get Scotland-like mountains in Newfoundland and the rest of the summer *(Colin, 2026-11-10)*. Old plan and reasons in `log.md`; the Skye half is saved in `wishlist/skye-highlands.md`.
+
+**Stick's side is Dingle.** **Colin and Finn's mom's side is O'Dee** *(stated 2026-11-10)*: Dysert O'Dea Castle in Clare, the O'Dea clan's tower house, is on Day 10. That O'Dee is a spelling of O'Dea is Claude's recollection, and the family line isn't traced to Clare. The McLeod side (Dunvegan, Skye) waits for the Skye trip. Marseille is saved in `wishlist/marseille-may-2027.md`, Athens in `wishlist/ireland-may-2027.md`.
 
 ### Clocks
 
-Cleveland is UTC−4; Ireland and Scotland are both UTC+1 in May (summer time). Every time on this page is local to where you stand.
+Cleveland is UTC−4; Ireland is UTC+1 in May (summer time). Every time on this page is local to where you stand.
 
 ## Days
 
@@ -209,6 +198,7 @@ overnight:
   - **277b** ("Lower Slea Head") is a 1-hour loop with no stop-off: Dingle 10:35 or 15:40, back 11:35 or 16:40. A ride, not a visit.
   - Pre-booking is only needed for door-to-door detours and the 277a 09:34 inbound and 12:40 outbound legs. Bookings 066 714 7002, bookings@locallinkkerry.ie
   - A day that works: 277a 09:00 to Dunquin → pier and Blasket Centre → 13:20 back to Ballyferriter → An Riasc → 277a 18:17 home. Kilmalkedar and Gallarus go on the 268, on Day 5 or another afternoon · 📍 Dingle Co. Kerry
+- option · ferry · **Great Blasket Island** from Dunquin Pier: €60 an adult *(blasketislandferry.com, snippet, 2026-11-10)*; the abandoned island village, open to wander. Sailing days and times for mid-May not checked. The best fit on the peninsula for the explorable-ruins rule (`me/principles.md` 10) · 📍 Dunquin Pier
 - optional · stop · **Dunquin Pier**: a zig-zag path down 600 ft cliffs to the old Blasket ferry pier. A viewpoint, not a beach. Unguarded edges, so skip it in wind or swell. On the 277 route *(Meta AI results pasted by Colin, 2026-10-30, citing Instagram 2026-07-14, Facebook reel 2026-09-11)* · 📍 Dunquin Pier
 - optional · ruins · Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*. · 📍 Gallarus Oratory
 - optional · ruins · **Kilmalkedar**, 2 km from Gallarus: a roofless 12th-century Romanesque church with carved doorways, a medieval sundial (one of nine in Ireland) and the Alphabet Stone. Free, open ground *(dingle-peninsula.ie)* · 📍 Kilmalkedar Church
@@ -243,7 +233,9 @@ overnight:
 - morning · walk · Dingle town and the harbour on foot. · 📍 Dingle Harbour
 - lunch · food · **The Fish Box**: a family-run seafood bar and takeaway in a bright blue building next to T.N. Walsh chemist (fish and chips, fish tacos, chowder-style soup). Prices not found *(Meta AI results pasted by Colin, citing its own Facebook, 2026-06-30)* · 📍 The Fish Box Dingle
 - afternoon · hike · **Eask Tower**: an 1847 famine-era stone daymark 600 ft above the harbour mouth, 360° views to the Blaskets and Iveragh. About 4 km west of town, steep, 1.5–2 h return. A **WWII lookout post (No. 36)**, concrete and half-ruined, sits on the same hill *(Meta AI results pasted by Colin, 2026-10-30, citing Facebook reel 2026-08-15)*. ⚠️ Access and any farm fee not checked · 📍 Eask Tower Dingle
+- option · paddle · **Sea kayaking** in Dingle Harbour and its sea caves, half a day, from €60–65 an adult, wetsuit and booties included *(irishadventures.ie, snippets, 2026-11-10)*. Not booked · 📍 Dingle Harbour
 - afternoon · stop · Family, or a genuinely easy afternoon.
+- night · music · **Dingle's music pubs:** trad at O'Sullivan's Courthouse, O'Flaherty's, John Benny's and Neligan's; Foxy John's and the Dingle Pub are the busy ones with more locals; Dick Mack's for the room. Sessions start after 9 PM *(youririshadventure.com; vagabondtoursofireland.com; r/irishtourism, 2025-01)*. Kennedy's has an open mic on Tuesdays, Neligan's set dancing on Mondays *(one r/irishtourism commenter, 2025-01)* · 📍 Dingle Co. Kerry
 
 **Meals**
 - B: family
@@ -270,21 +262,85 @@ overnight:
 - option · ruins · **East, by Local Link 276** (Dingle 11:45 → Annascaul 12:09 → Inch Beach 12:20; back from Inch Beach 15:30 or 18:55, Annascaul 15:41 or 19:06) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*: **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
 - option · hike · **North, by taxi:** **Brandon Creek**, the cove where St Brendan is said to have set out, and **Brandon Point** headland, with Brandon Bay views and a WWII lookout. Or **Glanteenassig Forest Park**, lake boardwalks under the Slieve Mish mountains. All of them need a car or taxi *(Meta AI results pasted by Colin, citing Instagram 2026-07-13, 2026-09-01, 2026-10-13 and 2026-10-15)* · 📍 Brandon Creek Kerry
 - evening · food · Farewell dinner with family.
-- night · note · Pack completely. Tomorrow the car starts at Kerry Airport.
+- night · note · Pack completely. Tomorrow the car starts at Kerry Airport, and it's the only car for the rest of the trip.
 
 **Meals**
 - B: family
 - L: open
 - D: farewell dinner
 
-### Day 6 — 2027-05-14 · Over the Shannon to Doolin
+### Day 6 — 2027-05-14 · The car, and the Gap of Dunloe
 
 ```yaml
 date: 2027-05-14
-tagline: First day on the left. Short drive, one ferry, the Cliffs of Moher.
+tagline: First day on the left, and the shortest drive of the trip.
 type: travel
-slack: Plenty. Nothing today is timed except the car desk.
-driving: Kerry Airport → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin, ~116 mi including the family lift from Dingle to Kerry Airport (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
+slack: The afternoon. Nothing today is timed except the car desk.
+driving: Family lift Dingle → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
+overnight:
+  name: TBD, Killarney
+  mapStandIn: Killarney Bus Station
+  place: Killarney, Co. Kerry
+  kind: B&B or hostel (not picked)
+  cost: TBD
+```
+
+**Schedule**
+- morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
+- morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. Automatic, one way to Dublin Airport on May 21, not priced. A lap of the car park before the road
+- midday · drive · To Killarney. · 📍 Killarney Co. Kerry
+- afternoon · hike · **The Gap of Dunloe** on foot, a narrow mountain pass *(recalled; start point, length and the boat back from Lord Brandon's Cottage not checked)*. · 📍 Gap of Dunloe
+- night · music · **Killarney pubs:** Courtney's Bar; the Dunloe Lodge, "live music every night"; Buckley's Bar at the Arbutus Hotel for trad *(Yelp; texaslifestylemag.com; TripAdvisor forum; all snippets, 2026-11-10)*. · 📍 Courtneys Bar Killarney
+
+**Meals**
+- B: family, the goodbye breakfast
+- L: Killarney
+- D: Killarney
+
+#### Warnings
+
+**First drive on the left.** Keep today short and in daylight. Every road day on this trip stays under ~4 hours behind the wheel (Colin is the only driver).
+
+### Day 7 — 2027-05-15 · Skellig Michael
+
+```yaml
+date: 2027-05-15
+tagline: A boat to a sea rock, six hundred steps, and the monks' beehive huts at the top.
+type: activity
+slack: None before the boat. The afternoon after it.
+driving: Killarney → Portmagee → Valentia → Killarney (⚠️ unrouted; ~1.5 h each way, recalled)
+overnight:
+  name: TBD, Killarney
+  mapStandIn: Killarney Bus Station
+  place: Killarney, Co. Kerry
+  kind: B&B or hostel (not picked)
+  cost: TBD
+```
+
+**Schedule**
+- early · drive · Killarney → **Portmagee**. Boats leave in the morning; the time comes with the booking. · 📍 Portmagee Pier
+- morning · ferry! · **Skellig Michael landing**: a 6th-century monastery of stone beehive huts on a sea rock, ~600 steps up *(recalled)*. €140–145 a person; landings from mid-May to the end of September *(skelligislands.com, kerryaquaterra.ie, skelligmichaelcruises.com; all snippets, 2026-11-10)*. Capped at 180 people a day; in 2026's first week, landings ran on 3 days *(wishlist/ireland-may-2027.md, 2026-10-12)* · 📍 Skellig Michael
+- afternoon · fossil · **Valentia tetrapod trackway**: 385-million-year-old footprints of one of the first animals to walk on land, in the shore rock "in its original condition", down a steep path by the radio station. Protected by law: look, don't touch *(theringofkerry.com, read 2026-11-10)*. · 📍 Valentia Island Tetrapod Trackway
+- option · stop · **If the boat doesn't sail:** the Kerry Cliffs at Portmagee and Valentia Island (Geokaun is its high point, *arcgis.com geosites story map*). No second try at Skellig: there's no spare day. · 📍 Kerry Cliffs Portmagee
+- evening · drive · Back to Killarney.
+
+**Meals**
+- B: Killarney, early
+- L: packed
+- D: Killarney or Portmagee
+
+#### Warnings
+
+**Skellig's steps are old, steep and unrailed** *(recalled, not checked)*. Slowly, and not at all in rain-wet wind. The boat crew decides whether you land.
+
+### Day 8 — 2027-05-16 · Over the Shannon to Doolin
+
+```yaml
+date: 2027-05-16
+tagline: A car ferry across the Shannon, maybe a hurling match, the Cliffs at sunset.
+type: travel
+slack: Plenty without Loop Head. Loop Head is the first cut.
+driving: Killarney → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin (⚠️ unrouted; ~3 h without Loop Head, Claude's estimate)
 overnight:
   name: TBD, Doolin
   mapStandIn: Doolin Pier
@@ -294,29 +350,29 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
-- morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. One-way to Dublin Airport, fee not priced. A lap of the car park before the road
-- midday · drive · To the ferry at Tarbert, Co. Kerry. · 📍 Tarbert Ferry Terminal
+- morning · drive · To the ferry at Tarbert, Co. Kerry. · 📍 Tarbert Ferry Terminal
 - midday · ferry · **Tarbert → Killimer car ferry** across the Shannon, ~20 min. **No reservations.** In May it runs every half hour in the daytime, and Tarbert leaves 30 min after each Killimer departure. One car fare covers everyone: €22.50 online in 2026 *(transitemerald.com guide, 2026-07, citing shannonferries.com)* · 📍 Killimer Ferry Terminal
-- afternoon · stop · **Cliffs of Moher.** Fee, hours and parking not checked · 📍 Cliffs of Moher Visitor Centre
-- evening · music · Doolin: a trad music session in a pub *(recalled)*. · 📍 Doolin Co. Clare
+- optional · stop · **Loop Head**: a lighthouse headland 90 m above the Atlantic, the Bridges of Ross sea arch and the Kilkee cliff walk; a 1.1-mile cliff loop from the lighthouse car park; free parking *(wildatlanticwayfarers.ie; komoot; cyclingholidays.ie; snippets)*. "If you love cliffs, Loop Head is spectacular" *(r/irishtourism, 2024-01)*. Adds ~2 h *(Claude's estimate)* · 📍 Loop Head Lighthouse
+- optional · sport · **Clare v Cork, Munster hurling, in Ennis**, if the 2027 championship puts it on this Sunday. The pairing is provisional and has no date yet *(Irish Examiner, 2026-08-06)*. Ennis is on the way · 📍 Cusack Park Ennis
+- evening · stop · **The Cliffs of Moher**, after the tour coaches leave. Fee, hours and parking not checked. Part of the coastal path from Doolin was closed for repairs from 2025 *(hillwalktours.com, 2026-04)* · 📍 Cliffs of Moher Visitor Centre
+- night · music · **Doolin:** Gus O'Connor's, McGann's and McDermott's all run free sessions most nights from about 9 PM; Fitzpatrick's is the quieter fourth *(youririshadventure.com; justchasingsunsets.com)*. Gus O'Connor's opens daily at 10 AM *(gusoconnorsdoolin.com)*. One a night · 📍 Doolin Co. Clare
 
 **Meals**
-- B: family, the goodbye breakfast
+- B: Killarney
 - L: on the road
 - D: Doolin
 
 #### Warnings
 
-**First drive on the left, on narrow roads.** Keep today short and in daylight. Every road day on this trip stays under ~4 hours behind the wheel (Colin is the only driver).
+**Away from the visitor centre the cliff edges aren't fenced** *(recalled, not checked)*. Stay well back in wind.
 
-### Day 7 — 2027-05-15 · Inis Mór
+### Day 9 — 2027-05-17 · Inis Mór
 
 ```yaml
-date: 2027-05-15
+date: 2027-05-17
 tagline: A bike, stone walls, and a 2,000-year-old fort on a cliff edge.
 type: activity
-slack: Afternoon on the island. If the sea is up, swap with Day 8's Burren morning.
+slack: Afternoon on the island. If the sea is up, swap with Day 10's Burren.
 overnight:
   name: TBD, Doolin
   mapStandIn: Doolin Pier
@@ -330,6 +386,7 @@ overnight:
 - morning · ride · Rent bikes at Kilronan (Aran Bike Hire, *galwaytourism.ie*). · 📍 Kilronan Inis Mór
 - midday · ruins · **Dún Aonghasa**, the stone fort on the cliff edge *(recalled; fee and hours not checked)*. · 📍 Dún Aonghasa
 - 16:15 → 16:50 (35m) · ferry · Inis Mór → Doolin. · 📍 Doolin Pier
+- night · music · Doolin, the second pub.
 
 **Meals**
 - B: Doolin
@@ -340,148 +397,97 @@ overnight:
 
 **Dún Aonghasa's edge is a sheer drop to the sea, with no railing** *(recalled, not checked)*. Stay well back in wind.
 
-### Day 8 — 2027-05-16 · The Burren, then Scotland
+### Day 10 — 2027-05-18 · The Burren and the O'Dea castle
 
 ```yaml
-date: 2027-05-16
-tagline: A Neolithic tomb on bare limestone, a long drive, a short flight.
-type: travel
-slack: The Burren stop is the slack, and the only slack. For the 13:45 flight, leave Doolin by ~7:30 and Poulnabrone by ~8:30; drop the car by ~12:00.
-driving: Doolin → Burren → Dublin Airport, ~3–3.5 h of driving (rome2rio says 2 h 57 m; a Rick Steves forum thread and the Doolin Inn both say allow 3.5 h; searched 2026-11-02). ~174 mi via Poulnabrone, routed 2026-11-02 by tools/roads.py. Right at the 4-hour ceiling
+date: 2027-05-18
+tagline: A hill of bare folded limestone, then the O'Dea clan's tower house.
+type: activity
+slack: Late afternoon. Doolin Cave is the first cut, then Poulnabrone.
+driving: Doolin → Corofin → Dysert O'Dea → Poulnabrone → Doolin (⚠️ unrouted)
 overnight:
-  name: TBD, Inverness
-  mapStandIn: Inverness Airport
-  place: Inverness
-  kind: Hotel (not picked)
+  name: TBD, Doolin
+  mapStandIn: Doolin Pier
+  place: Doolin, Co. Clare
+  kind: B&B or hostel (not picked)
   cost: TBD
 ```
 
 **Schedule**
-- morning · geology · **The Burren**: limestone pavement and the **Poulnabrone dolmen**, a Neolithic portal tomb *(recalled)*. · 📍 Poulnabrone Dolmen
-- midday · drive · To Dublin Airport and drop the car **by ~12:00**: the rental return, the shuttle to the terminal and bag drop all sit between the car and a 13:45 regional flight *(Claude's judgment)*. If Poulnabrone runs late, skip it: the flight is the day. ⚠️ The **M50 toll** near Dublin has no barrier: pay it online or the rental company adds an admin fee, €30–60 *(odo.ie, 2026-04)* · 📍 Dublin Airport
-- 13:45 → 15:20 (1h 35m) · fly · **Aer Lingus Dublin → Inverness**, nonstop. **$358 for all 3**, bags extra *(Colin's Google Flights screenshot for Sun May 16, 2026-11-04, not held)*. **Fallback:** Ryanair FR 814 Dublin → Edinburgh 16:05 → 17:15 ($118 for 3, same source), then the train to Inverness (times not checked) · 📍 Inverness Airport
-- afternoon · drive · Pick up the Scotland car at Inverness Airport (company TBD; Europcar rents from 22). Loch Ness Drumnadrochit Hotel (£139 for 3, Expedia 2026-11-02) is on tomorrow's road.
+- morning · hike · **Burren National Park, Mullaghmore**: the red, blue and green trails each climb the hill in 2.5–3.5 h; free, open all year. **No parking at the trailhead:** park free in Corofin and take the free shuttle from the Information Point, every 30 min from May *(nationalparks.ie/burren, read 2026-11-10)* · 📍 Burren National Park Information Point Corofin
+- afternoon · ruins · **Dysert O'Dea Castle**, near Corofin: the O'Dea clan's 15th-century tower house, now the Clare Archaeology Centre *(odeaclan.org; discoverireland.ie)*. Its site said "Closed until May 2027", with no date *(dysertcastle.ie, snippet, 2026-11-10)*. ~€5 *(TripAdvisor review)* · 📍 Dysert O'Dea Castle
+- afternoon · ruins · **The Poulnabrone dolmen**, a Neolithic portal tomb on limestone pavement *(recalled)*. · 📍 Poulnabrone Dolmen
+- optional · cave · **Doolin Cave**: a 50-minute guided tour to one of the world's largest stalactites, from €19.50 *(doolincave.ie, 2026-11-10)*. · 📍 Doolin Cave
+- night · music · Doolin, the third pub.
 
 **Meals**
 - B: Doolin
-- L: the road, or Dublin Airport
-- D: Inverness
+- L: packed, or Corofin
+- D: Doolin
 
-### Day 9 — 2027-05-17 · To Skye
-
-```yaml
-date: 2027-05-17
-tagline: Loch Ness, Eilean Donan, over the bridge.
-type: travel
-slack: Afternoon, once you're on Skye.
-driving: Inverness → Loch Ness → Eilean Donan → Skye Bridge → Portree, ~123 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed)
-overnight:
-  name: Portree Youth Hostel — Hostelling Scotland
-  place: Portree, Isle of Skye
-  kind: Hostel, beds in a shared room (picked, not booked)
-  cost: £319.50 for all 3, all 3 nights
-```
-
-**Schedule**
-- morning · drive · Down Loch Ness. · 📍 Urquhart Castle
-- midday · stop · **Eilean Donan**, the castle on the islet at the Skye road *(recalled; fee and hours not checked)*. · 📍 Eilean Donan Castle
-- afternoon · drive · Over the Skye Bridge to **Portree, the base for all three Skye nights** *(Colin, 2026-11-02)*. It has the most beds and places to eat on the island *(hiddenscotland.com, 2026-09)* · 📍 Portree Harbour
-
-**Meals**
-- B: Inverness
-- L: on the road
-- D: Portree
-
-#### Warnings
-
-**Single-track roads start here.** Pull into a passing place on your left to let traffic by, and never park in one *(scotlandswild.com)*. Journeys take longer than the map says.
-
-### Day 10 — 2027-05-18 · Dunvegan, the MacLeod day
-
-```yaml
-date: 2027-05-18
-tagline: Eight hundred years of the family name, then the lighthouse at the end of the island.
-type: activity
-slack: Evening, unless you stay for Neist Point at sunset.
-overnight:
-  name: Portree Youth Hostel — Hostelling Scotland
-  place: Portree, Isle of Skye
-  kind: Hostel, beds in a shared room (picked, not booked)
-  cost: £319.50 for all 3, all 3 nights
-```
-
-**Schedule**
-- 10:00 · stop · **Dunvegan Castle and Gardens**, the seat of the Clan MacLeod chiefs. Open daily Apr 1 – Oct 15, 10:00–17:30, last entry 17:00 *(dunvegancastle.com)*. £17.50 an adult *(castlescotland.app, secondary)*. **Visiting MacLeods sign the clan's own visitors' book** *(clanmacleod.org)*: you and your brother. Allow two hours or more. Seal boat trips are separate and weather-dependent · 📍 Dunvegan Castle
-- afternoon · walk · **Coral Beach**, north of Dunvegan, one of Skye's quieter places *(scotlandswild.com)*. · 📍 Coral Beach Skye
-- evening · sunset · **Neist Point** lighthouse, best at sunset, about an hour on foot *(scotlandswild.com)*. · 📍 Neist Point Lighthouse
-
-**Meals**
-- B: base
-- L: Dunvegan village
-- D: base, or Dunvegan if you stay for Neist
-
-### Day 11 — 2027-05-19 · Trotternish: the Storr and the Quiraing
+### Day 11 — 2027-05-19 · Galway
 
 ```yaml
 date: 2027-05-19
-tagline: Park early, beat the coaches, two landslips before lunch.
-type: activity
-slack: Late afternoon.
+tagline: The rest day with a city in it. Fish and chips, then music.
+type: rest
+slack: The morning. The walk can stop anywhere.
+driving: Doolin → Kinvara → Galway (⚠️ unrouted; ~1.5 h, recalled)
 overnight:
-  name: Portree Youth Hostel — Hostelling Scotland
-  place: Portree, Isle of Skye
-  kind: Hostel, beds in a shared room (picked, not booked)
-  cost: £319.50 for all 3, all 3 nights
-```
-
-**Schedule**
-- 07:30 · hike · **The Old Man of Storr**: park by 7:30, before the crowds. 5 km and 340 m to the knoll behind the pinnacle. **£6 for up to 6 hours in 2026**, no reserving, never park on the verges *(hiddenscotland.com, 2026-09; Highland Council parking review, 2026-02)* · 📍 Old Man of Storr car park
-- morning · stop · **Lealt Falls** (free community car park) and **Kilt Rock**, £3 for up to 2 hours in 2026 *(hiddenscotland.com)*. · 📍 Kilt Rock Viewpoint
-- afternoon · hike · **The Quiraing circuit**: 6.5 km, 3–4 hours, under the cliffs to the Prison and the Needle. Needs the 6-hour ticket, £6 in 2026. If the car park is full, use the roadside bays toward Uig, never the hairpins *(hiddenscotland.com)* · 📍 Quiraing car park
-- optional · stop · **Fairy Glen**, on the way back by Uig *(scotlandswild.com)*. · 📍 Fairy Glen Skye
-
-**Meals**
-- B: base, early
-- L: packed
-- D: base
-
-#### Warnings
-
-**The Quiraing path crosses a rocky gully under the cliffs.** In wind or wet, turn back at the gully.
-
-### Day 12 — 2027-05-20 · Fairy Pools, then Glencoe
-
-```yaml
-date: 2027-05-20
-tagline: Blue pools under the Cuillin, then south to the glen.
-type: travel
-slack: Midday, between the pools and the drive.
-driving: Portree → Fairy Pools → Fort William → Glencoe, ~146 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; time not computed; ~3 h of it from Skye to Glencoe, recalled)
-overnight:
-  name: TBD, Glencoe
-  mapStandIn: Glencoe Village
-  place: Glencoe
+  name: TBD, Galway
+  place: Galway
   kind: Hostel or B&B (not picked)
   cost: TBD
 ```
 
 **Schedule**
-- morning · walk · **The Fairy Pools**, 2.4 km from the car park on a gravel path *(dunvegancastle.com)*. Car parking is £8 *(Highland Council report, 2026-02)*. The road in from Carbost is single track · 📍 Fairy Pools car park
-- afternoon · drive · South to Glencoe. · 📍 Glencoe Village
+- morning · drive · Up the coast past **Dunguaire Castle** at Kinvara, a 16th-century tower on the bay. Its site says "Temporarily Closed" *(dunguairecastle.com, snippet, 2026-11-10)*, so from outside · 📍 Dunguaire Castle
+- afternoon · walk · **Galway on foot, ~2.5 mi** *(workingjoetravel.com)*: Galway Cathedral → Salmon Weir Bridge → Eyre Square → the Latin Quarter's pedestrian streets (Shop St, High St, Quay St, Kirwan's Lane) → the Spanish Arch and the Long Walk → Wolfe Tone Bridge → the Claddagh and Nimmo's Pier → South Park and the Mutton Island causeway → the Famine Ship memorial → Grattan Beach. Salthill's promenade is another 30 min *(Rick Steves forum)* · 📍 Galway Cathedral
+- evening · food · **McDonagh's**, 22 Quay St: cod and chips at "the oldest fish and chip shop in Galway", open from noon *(TripAdvisor review; Yelp listing)* · 📍 McDonagh's Galway
+- night · music · **Taaffes**, nightly trad, or **Tigh Neachtain** *(lallytours.com)*. · 📍 Taaffes Bar Galway
 
 **Meals**
-- B: base
-- L: Carbost or the road
-- D: Glencoe
+- B: Doolin
+- L: Galway
+- D: McDonagh's
 
-### Day 13 — 2027-05-21 · The Lost Valley, then Dublin
+### Day 12 — 2027-05-20 · Connemara
+
+```yaml
+date: 2027-05-20
+tagline: Diamond Hill, then an island you walk to when the sea goes out.
+type: activity
+slack: Late afternoon. Omey is the first cut if the tide is wrong.
+driving: Galway → Letterfrack → Claddaghduff → Galway (⚠️ unrouted; ~1.5 h each way, recalled)
+overnight:
+  name: TBD, Galway
+  place: Galway
+  kind: Hostel or B&B (not picked)
+  cost: TBD
+```
+
+**Schedule**
+- morning · hike · **Diamond Hill**, Connemara National Park: a 4.6-mile loop, 1,236 ft, 2.5–3 h *(AllTrails, snippet; walkingholidayireland.com)*. · 📍 Connemara National Park Visitor Centre
+- afternoon · walk · **Omey Island**, across the sand at low tide only, ~6 km around *(theculturetrip.com; community.ireland.com)*. Or **Killary Fjord** if the tide is wrong · 📍 Omey Island
+- night · music · Galway, the second night.
+
+**Meals**
+- B: Galway
+- L: packed
+- D: Galway
+
+#### Warnings
+
+**Omey is tidal.** Cross only on a falling tide with plenty of time, and know the turn before you go; the May 20 tide times aren't checked. Don't get caught on the island side.
+
+### Day 13 — 2027-05-21 · Clonmacnoise, then Dublin Airport
 
 ```yaml
 date: 2027-05-21
-tagline: The valley the MacDonalds hid their cattle in, then back to Ireland for the night.
+tagline: A monastery on the Shannon, then the car goes back.
 type: travel
-slack: Little. Car back at Edinburgh Airport by ~13:30 for the 15:30 flight; if the Lost Valley runs long, turn around, the flight is the day.
-driving: Glencoe → Lost Valley → Edinburgh Airport, ~118 mi (routed 2026-11-02 by tools/roads.py on Colin's pins; ~2.5–3 h, Claude's estimate, not computed)
+slack: Clonmacnoise is the slack. Car back at Dublin Airport by evening.
+driving: Galway → Clonmacnoise → Dublin Airport (⚠️ unrouted; ~2.5 h plus the detour, recalled)
 overnight:
   name: TBD, Dublin Airport (lead - Maldron Hotel Dublin Airport)
   mapStandIn: Maldron Hotel Dublin Airport
@@ -491,18 +497,14 @@ overnight:
 ```
 
 **Schedule**
-- 07:00 · hike · **Coire Gabhail (the Lost Valley)**: 3.1 mi out and back, 980 ft, moderate, river and waterfall *(AllTrails, 2026-11-02)*. Early, so the drive isn't rushed. The cattle story is legend *(recalled)* · 📍 Lost Valley Glencoe car park
-- late morning · drive · To Edinburgh Airport and return the car, ~2.5–3 h. · 📍 Edinburgh Airport
-- 15:30 → 16:45 (1h 15m) · fly · **Aer Lingus Edinburgh → Dublin**, $296 for 3, carry-on included *(Colin's Google Flights screenshot for Fri May 21, 2026-11-04, not held)*. Hotel shuttle from the terminal. · 📍 Dublin Airport
+- morning · ruins · **Clonmacnoise**, the monastic site on the Shannon, €8 an adult. "Avoid arriving between 10:30 and 15:00" *(heritageireland.ie, 2026-11-10)*, so be there before 10:30 · 📍 Clonmacnoise
+- afternoon · drive · To Dublin Airport and return the car. ⚠️ The **M50 toll** near Dublin has no barrier: pay it online or the rental company adds an admin fee, €30–60 *(odo.ie, 2026-04)* · 📍 Dublin Airport
+- evening · stop · Hotel shuttle from the terminal. · 📍 Maldron Hotel Dublin Airport
 
 **Meals**
-- B: Glencoe, early
-- L: packed or on the road
-- D: Dublin
-
-#### Warnings
-
-**The Lost Valley path crosses the river on stepping stones.** After heavy rain it can be impassable *(recalled)*. Don't wade a fast river: turn around.
+- B: Galway, early
+- L: on the road
+- D: Dublin Airport
 
 ### Day 14 — 2027-05-22 · Home
 
@@ -528,20 +530,20 @@ slack: The morning.
 
 ## Reservations & checks
 
-- [x] Newfoundland shift decided: it leaves Wed May 26 (2026-10-30). This trip now lands Sat May 22, leaving Sunday as Stick's buffer before work *(2026-11-04)*
+- [x] Newfoundland shift decided: it leaves Wed May 26 (2026-10-30). This trip lands Sat May 22, leaving Sunday as Stick's buffer before work *(2026-11-04)*
 - [x] Third traveler: in, Colin's brother *(2026-10-30, 2026-11-02)*
 - [x] Parents pay the flights *(Colin, 2026-11-02)*
-- [ ] **Portree Youth Hostel, May 17–20**: book it (£319.50 for 3, shared room, picked 2026-11-02). Check the cancellation terms first
+- [x] Ireland only, no Scotland *(2026-11-10, Finn and Stick agreed)*
+- [x] Automatic *(Colin, 2026-11-02)*
+- [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
 - [ ] Family: beds for May 10–13, and the May 14 lift to Kerry Airport (address → leave time)
 - [ ] May 10: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
-- [x] Dublin → Inverness flies Sun May 16: Aer Lingus 13:45 → 15:20 *(Colin's screenshot, 2026-11-04)*
-- [x] Automatic, both cars *(Colin, 2026-11-02)*
-- [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
-- [ ] **EDI → DUB Fri May 21**, Aer Lingus 15:30 ($296 for 3 seen 2026-11-04)
-- [ ] Ireland car (Kerry → Dublin) and Scotland car (Inverness → Edinburgh): one-way fees, under-25 fee, excess cover
-- [ ] Doolin, Inverness, Glencoe and Dublin Airport beds
-- [ ] Doolin → Inis Mór 2027 timetable
-- [ ] Colin: driving on the left practised, and the UK and Irish road rules read
+- [ ] **Skellig Michael landing**, Sat May 15, once 2027 bookings open
+- [ ] Ireland car, Kerry Airport → Dublin Airport, May 14–21: one-way fee, under-25 fee, excess cover
+- [ ] Beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1
+- [ ] Doolin → Inis Mór 2027 timetable; Dysert O'Dea's 2027 opening date; Omey tide times for May 20
+- [ ] Munster hurling 2027 dates (Clare v Cork in Ennis)
+- [ ] Colin: driving on the left practised, and the Irish road rules read
 
 ## Open questions
 
@@ -554,48 +556,47 @@ Their address decides the May 10 route and the leave time for Kerry Airport on F
 ### What does an automatic cost in Ireland?
 
 **Blocks:** the Ireland car
-**Both cars are automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. Scotland is priced: Focus compact automatic $402 for the 5 days *(Kayak, 2026-11-02)*. Ireland isn't: every cheap Kerry → Dublin offer was a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
+**Automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. The car now runs 7 days, Kerry Airport May 14 → Dublin Airport May 21, and isn't priced: the only quote was for the old 3-day plan, every cheap offer a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
 
-**And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* and **£25–30 a day in Scotland** *(roadgenius.com, a 2024 Facebook group post; Europcar ~£30, myhighlands.de)*, so check whether the Kayak totals include them.
+**And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* so check whether the Kayak totals include them.
 
 ### Is a 4th person coming: Jake, from near Belfast?
 
-**Blocks:** car size, Portree beds, flights
+**Blocks:** car size, beds
 **Waiting on:** Jake *(Claude, 2026-11-09, from this question)*
-Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known (Ireland, Scotland, or both). The plan stays at 3 until he's in. **Both cars are sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: Portree needs a 4th bed added while beds remain, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
+Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known. Staying in Ireland makes it easier from Belfast. The plan stays at 3 until he's in. **The car is sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: every bed after Dingle needs a 4th, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ## Field notes
 
 ### Places
 
-The handoff's map markers were approximate centres typed by hand, so they weren't imported. Some Ireland places are pinned (Pin Ledger, 2026-10-30); every Scotland and Clare place drafted on 2026-11-02 is unplaced. Every stop has a Maps search.
+The handoff's map markers were approximate centres typed by hand, so they weren't imported. Dingle and Clare places are pinned (Pin Ledger, 2026-10-30 and 2026-11-02). The Killarney, Skellig, Burren, Galway and Connemara places added on 2026-11-10 are unplaced. The Scotland pins were taken off this trip's map on 2026-11-10 (see `log.md`). Every stop has a Maps search.
 
 ### Offline regions
 
-Before leaving: Kerry (Dingle peninsula to Killarney), Clare (Doolin and the Burren), the Dublin Airport area, Inverness to Skye, Glencoe, the Edinburgh Airport area.
+Before leaving: Kerry (the Dingle peninsula, Killarney, Portmagee and Valentia), Clare (Loop Head to Doolin and the Burren), Galway and Connemara, and the Midlands to Dublin Airport.
 
 ## Notes
 
-### Budget (first pass, 2026-11-02)
+### Budget (second pass, 2026-11-10)
 
-Observed prices, not quotes, none held; sources and alternatives in `log.md` (2026-11-02). Per person = total ÷ 3.
+Observed prices, not quotes, none held. Per person = total ÷ 3.
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
 | Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,260 | ~$753 | Observed 2026-11-04 for May 9 / 22, both legs nonstop; **parents pay** |
-| Dublin → Inverness, Aer Lingus | $358 | ~$119 | Observed 2026-11-04, bags extra |
-| Ireland car, 3 days, automatic | TBD (manuals were $216–257) | TBD | Automatic not priced; young-driver and one-way fees may be extra |
-| Scotland car, 5 days, automatic | $402 (compact), + ~£150 under-25 fee | ~$134, + fee | Observed, Kayak 2026-11-02; Enterprise may refuse a 22-year-old, Europcar from $372 |
-| Beds, Portree, 3 nights | £319.50 | £106.50 | Quoted by Hostelling Scotland 2026-11-02, shared room, not booked |
-| Beds, other 5 nights (cheapest → next up) | TBD | TBD | Expedia's ~£1,520–2,000 for 9 nights (with 2 Edinburgh nights) included Portree; Inverness and Glencoe hostels not quoted; Dublin Airport hotel ~$183–294 (Kayak, undated) |
-| Fuel, parking, ferries, entries | TBD | TBD | Fixed bits below |
+| Ireland car, 7 days, automatic | TBD | TBD | Not priced; under-25 fee ~€30–40 a day on top (secondary) |
+| Beds: Killarney 2, Doolin 3, Galway 2 | TBD | TBD | Not searched for these towns and dates |
+| Beds: Dublin Airport, 1 night | ~$183–294 | ~$61–98 | Maldron, Kayak, undated |
+| Outings, if all done | ~€960–1,050 | ~€320–350 | Skellig €140–145, kayaks €60–65, Blasket €60, Inis Mór €25–47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5; 2026 prices |
+| Fuel, ferry, parking | TBD | TBD | Shannon ferry €22.50 a car (2026) |
 
-**Fixed bits found:** Tarbert ferry €22.50 a car; Inis Mór return €25–47 each; Dunvegan £17.50 each; parking £6 (Storr), £6 (Quiraing), £3 (Kilt Rock), £8 (Fairy Pools) a car, all 2026 figures (sources in the days). Not counted yet: food, the Scotland car, insurance. The earlier ~US$3,300 each was the Marseille version with flights included; it's in `wishlist/marseille-may-2027.md`.
+Not counted yet: food, insurance. The Skye version's car, flights and beds are in `wishlist/skye-highlands.md`; the Ireland-only switch is costed in `log.md` (2026-11-10).
 
-### The pitch page
+### The pitch pages
 
-**"Dingle & Skye, May 9–22"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf), for Finn, Stick and Jake (Jake added 2026-11-02, with two ways to join). Rebuilt for Ireland + Skye on 2026-11-02 (same link as the Marseille version). It's private until Colin shares it. Its "What I need from you" list asks: passport, sharing a room, how much hiking, and the Dingle family's yes.
+**"Ireland, May 9–22"** (https://claude.ai/artifact/WtBnyLPVdcefReEKcGuFxu) is the current one, and Finn and Stick said yes to it *(2026-11-10)*. The older **"Dingle & Skye, May 9–22"** (https://claude.ai/artifact/R8YdXRMPBiX5UcjHVmKMDf) is superseded. Both are tracked in `share/proposals.yaml`.
 
 ### What this is built from
 
-Days 1–5 come from a planning handoff written in another tool on 2026-10-29, imported 2026-10-30. Days 6–15 were drafted in a chat on 2026-11-02 from searches that day (sources inline); every drive time is unrouted. The evidence ledger for the Ireland half is in `research.md`.
+Days 1–5 come from a planning handoff written in another tool on 2026-10-29, imported 2026-10-30. Days 6–13 were redrafted for Ireland only on 2026-11-10 from that day's searches (sources inline; the sweep is in `research-log.md`); every drive time is unrouted. The evidence ledger for the Ireland half is in `research.md`.

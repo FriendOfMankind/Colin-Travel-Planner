@@ -22,7 +22,7 @@ source: daydream 2026-10-12 and 2026-10-29 (✅ read on the page, 📋 search sn
 
 ## Start here (handoff for a new chat)
 
-**The working plan moved to `trips/dingle-marseille-2027/`** *(2026-10-30)*, and on 2026-11-02 it became **Ireland + Skye**, with no Marseille or Athens *(Colin)*. Marseille is saved in `wishlist/marseille-may-2027.md`. Colin: **"Marseille for now, I'm leaning that, but remember Athens, nothing is set"** *(stated 2026-10-30)*. This file is now **the Athens alternative**: keep it researched, don't delete it.
+**The working plan moved to `trips/dingle-marseille-2027/`** *(2026-10-30)*, and on 2026-11-02 it became **Ireland + Skye**, with no Marseille or Athens *(Colin)*, then **Ireland only** on 2026-11-10. Marseille is saved in `wishlist/marseille-may-2027.md`. Colin: **"Marseille for now, I'm leaning that, but remember Athens, nothing is set"** *(stated 2026-10-30)*. This file is now **the Athens alternative**: keep it researched, don't delete it.
 
 **What changed on 2026-10-30** (from a planning handoff built in another tool, then confirmed by Colin):
 - **City: Marseille, leaning** (was: Athens, "athensmaxx", 2026-10-29).

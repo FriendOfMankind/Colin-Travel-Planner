@@ -27,8 +27,8 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & Skye** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 54/54 places located · log 19 entries · updated 2026-11-04
-  ⚠️ Two things decide whether this works, and neither is checked yet. **Beds on Skye:** the island has far fewer beds than visitors, so May needs booking months ahead *(scotlandswild.com)*. **May 16:** a ~3-hour drive to…
+- **Dingle & the West of Ireland** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 35/53 places located · log 21 entries · updated 2026-11-10
+  ⚠️ Two things can kill a day here, and neither is checked yet. **Skellig Michael** (May 15) lands only in calm seas and only 180 people a day, so it's a bonus with a backup, not a promise. **Omey Island** (May 20) is…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 81/81 places located · log 47 entries · updated 2026-11-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
 - **The Long Way to Glacier** (`trips/northern-rockies-2027/`) · outline · Jul 12 – Aug 16, 2027 (target, unbooked) · 36 days · 12 open questions · 72/72 places located · log 26 entries · updated 2026-11-08
@@ -143,7 +143,7 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   The big-tree bookend
 - **Sipsey Wilderness** (`wishlist/sipsey-wilderness.md`) · Bankhead NF, Alabama · drive · keeps (derived) · Feb/Mar/Apr · 4–5 nights · updated 2026-09-06
   Land of a Thousand Waterfalls
-- **Skye and the West Highlands** (`wishlist/skye-highlands.md`) · Isle of Skye + West Highlands, Scotland · fly · keeps (derived) · May/Sep · 9 days · 1 research note · updated 2026-11-01
+- **Skye and the West Highlands** (`wishlist/skye-highlands.md`) · Isle of Skye + West Highlands, Scotland · fly · keeps (derived) · May/Sep · 9 days · 2 research notes · updated 2026-11-10
   A beach campsite under the Cuillin, and the villages the Clearances emptied
 - **Sleeping Bear Dunes** (`wishlist/sleeping-bear.md`) · Leelanau / Glen Arbor, Michigan · drive · keeps (derived) · Jun/Jul/Aug/Sep · 4–5 nights · 1 research note · updated 2026-09-30
   Ride out of camp, swim at the end

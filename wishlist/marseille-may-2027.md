@@ -22,7 +22,7 @@ source: moved out of trips/dingle-marseille-2027/trip.md on 2026-11-02, when tha
 
 ## Start here (handoff for a new chat)
 
-**Not the plan anymore.** On 2026-11-02 Colin leaned Ireland + Skye instead *(people he talked to say Marseille "isn't the best"; Skye is the Clan MacLeod homeland)*. The trip is `trips/dingle-marseille-2027/`; the reasons are in its `log.md`. Everything below is moved here unchanged, so it can come back without re-research. Dated facts (bus times, prices, shop hours) are 2026 observations: re-check before using. The Athens alternative is `wishlist/ireland-may-2027.md`.
+**Not the plan anymore.** On 2026-11-02 Colin leaned Ireland + Skye instead (Ireland only since 2026-11-10) *(people he talked to say Marseille "isn't the best"; Skye is the Clan MacLeod homeland)*. The trip is `trips/dingle-marseille-2027/`; the reasons are in its `log.md`. Everything below is moved here unchanged, so it can come back without re-research. Dated facts (bus times, prices, shop hours) are 2026 observations: re-check before using. The Athens alternative is `wishlist/ireland-may-2027.md`.
 
 ## Why
 
