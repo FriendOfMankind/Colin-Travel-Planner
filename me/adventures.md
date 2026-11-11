@@ -8,7 +8,7 @@ source: Colin, 2026-09-28 (two multiple-choice rounds in a planning session)
 
 Hiking is the backbone, not the whole point. Colin wants the sightseeing and thrill side of a place too: floating a river, going underground, hunting for something rare. *(stated 2026-09-28)*
 
-Ruins already have their own rule: *explorable, unrestored* ruins count as destinations. See principle 10 in [principles.md](principles.md). This file covers everything else.
+Ruins already have their own rule: *explorable, unrestored* ruins are a bonus when they're on the way, not a destination (since 2026-11-11). See principle 10 in [principles.md](principles.md). This file covers everything else.
 
 ## The swap rule: when an activity earns a slot
 
