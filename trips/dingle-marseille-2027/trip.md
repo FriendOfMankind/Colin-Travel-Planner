@@ -40,7 +40,7 @@ booking:
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
-    note: "$714.10 total ($102.01 a day), VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, pickup Kerry Airport May 14 10:00, return Dublin Airport May 21 10:00 (Colin's screenshot, 2026-11-11; the company isn't named in it, not held). The page says the price is 'without coverage' and 'availability and surcharge subject to age', so cover and any under-25 fee are on top. ⚠️ The return time is 10:00, but the plan drops the car on the evening of May 21: re-price with a later return. Avis showed nothing for these dates (Colin, 2026-11-11)."
+    note: "$785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
@@ -590,7 +590,7 @@ Observed prices, not quotes, none held. Per person = total ÷ 3.
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
 | Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,260 | ~$753 | Observed 2026-11-04 for May 9 / 22, both legs nonstop; **parents pay** |
-| Ireland car, 7 days, automatic | $714 + cover + any under-25 fee | ~$238 + | Colin's screenshot 2026-11-11, VW Golf or similar, returned 10:00 May 21 (the plan needs evening) |
+| Ireland car, 8 days, automatic | $785.79 | ~$262 | Colin's checkout screenshot 2026-11-11, incl. $376.85 young-driver surcharge; free cancellation to 48 h; cover and deposit not seen |
 | Beds: Killarney 2, Doolin 3, Galway 2 | TBD | TBD | Not searched for these towns and dates |
 | Beds: Dublin Airport, 1 night | ~$183–294 | ~$61–98 | Maldron, Kayak, undated |
 | Outings, if all done | ~€1,050–1,140 | ~€350–380 | Skellig landing €140–170 (or €80 to circle it without landing), kayaks €60–65, Blasket €60, Inis Mór €25–47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5; 2026 prices |
