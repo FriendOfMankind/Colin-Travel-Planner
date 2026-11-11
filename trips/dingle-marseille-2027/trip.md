@@ -44,7 +44,7 @@ booking:
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
-    note: "Hostelworld, May 14–16, 3 guests: only Killarney Railway Hostel came up, 5.2 from 4,573 reviews, privates from €104, dorms from €27 (Colin's screenshot, 2026-11-11). The Black Sheep Hostel (town centre, 9.2 on Expedia) didn't appear there; not yet checked on its own site or Booking.com."
+    note: "Booking.com, May 14–16, 3 adults, sorted 'Top Picks for Groups', all with free cancellation (Colin's screenshot, 2026-11-11, not held): Killaran House, 0.8 mi from town, 9.5, triple room (1 double + 1 single), $501 at the signed-in Genius price ($557 otherwise); Killarney Dromhall Hotel, 0.4 mi, 9.0, triple room, $542; Killeen House Hotel, 2.8 mi, 9.0, triple (1 twin + 1 full), $556; The Ross, 0.2 mi, 9.3, 2 full beds, breakfast included, $726. Not yet sorted by price or filtered to whole homes. Hostelworld had only Killarney Railway Hostel (5.2)."
   - system: private
     what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
     target: 2027-05-15
