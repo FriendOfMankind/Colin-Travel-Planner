@@ -40,11 +40,11 @@ booking:
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
-    note: "$785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
+    note: "**Picked, not booked: this quote** (Colin, 2026-11-11). $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
-    note: "Pick on price (Claude's recommendation, 2026-11-11): The Black Sheep Hostel, 0.1 mi from the town centre, 8.9 from 1,331 reviews, location 9.5, 3 beds in a 4-bed mixed dorm (bunks, so a stranger may take the 4th), breakfast included, free cancellation, no prepayment, $280 for 2 nights (Booking.com, sorted by price, Colin's screenshot, 2026-11-11, not held). Others: Killarney Railway Hostel private triple $224 but rated 5.4; Siopa an Tsaoir own room for 3, 9.6 from only 8 reviews, 6.8 mi out, $265; Killaran House 9.5, 0.8 mi, triple with a shared double, $501 signed in; Killarney Dromhall Hotel, 0.4 mi, $542 Whole homes, sorted by price (Booking.com, Colin's screenshots, 2026-11-11, not held, free cancellation on all named here): Self catering cottage, Muckross, 2.5 mi, 8.4, 4 beds, $418; Spacious 2-bedroom apartment, 0.9 mi, 9.4 from 175 reviews, 5 beds, $571 signed in; St Judes House, 0.5 mi, 8.2, 3 beds (1 twin, 2 full), $564 signed in; 10 Killarney Holiday Village, 1.4 mi, 8.9, $575."
+    note: "**Picked, not booked: The Black Sheep Hostel, $280** (Colin, 2026-11-11). Pick on price (Claude's recommendation, 2026-11-11): The Black Sheep Hostel, 0.1 mi from the town centre, 8.9 from 1,331 reviews, location 9.5, 3 beds in a 4-bed mixed dorm (bunks, so a stranger may take the 4th), breakfast included, free cancellation, no prepayment, $280 for 2 nights (Booking.com, sorted by price, Colin's screenshot, 2026-11-11, not held). Others: Killarney Railway Hostel private triple $224 but rated 5.4; Siopa an Tsaoir own room for 3, 9.6 from only 8 reviews, 6.8 mi out, $265; Killaran House 9.5, 0.8 mi, triple with a shared double, $501 signed in; Killarney Dromhall Hotel, 0.4 mi, $542 Whole homes, sorted by price (Booking.com, Colin's screenshots, 2026-11-11, not held, free cancellation on all named here): Self catering cottage, Muckross, 2.5 mi, 8.4, 4 beds, $418; Spacious 2-bedroom apartment, 0.9 mi, 9.4 from 175 reviews, 5 beds, $571 signed in; St Judes House, 0.5 mi, 8.2, 3 beds (1 twin, 2 full), $564 signed in; 10 Killarney Holiday Village, 1.4 mi, 8.9, $575."
   - system: private
     what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
     target: 2027-05-15
@@ -52,15 +52,15 @@ booking:
   - system: private
     what: Doolin, 3 nights May 16–19 (3 adults)
     target: 2027-05-16
-    note: "No hostel on Hostelworld for these dates (Colin, 2026-11-11). Booking.com, 3 nights, 3 adults (Colin's screenshot, 2026-11-11, totals not held): Doolin Court two-bedroom townhouse, 0.2 mi from the village, kitchen, 3 beds, 9.2, $619; 11 Doolin Court, whole house, 9.5, $737, free cancellation; Ceol na dTonnta, family room with sea view and breakfast, 1.2 mi out, 9.6, $664, free cancellation. Aille River Tourist Hostel (village centre, 9.5) not yet checked on its own site."
+    note: "**Picked, not booked: Doolin Court two-bedroom townhouse, $619** (Colin, 2026-11-11); check its cancellation terms before paying. No hostel on Hostelworld for these dates (Colin, 2026-11-11). Booking.com, 3 nights, 3 adults (Colin's screenshot, 2026-11-11, totals not held): Doolin Court two-bedroom townhouse, 0.2 mi from the village, kitchen, 3 beds, 9.2, $619; 11 Doolin Court, whole house, 9.5, $737, free cancellation; Ceol na dTonnta, family room with sea view and breakfast, 1.2 mi out, 9.6, $664, free cancellation. Aille River Tourist Hostel (village centre, 9.5) not yet checked on its own site."
   - system: private
     what: Galway, 2 nights May 19–21 (3 adults)
     target: 2027-05-19
-    note: "Hostelworld, 3 guests (Colin's screenshot, 2026-11-11): Kinlay Eyre Square, 9.5 from 8,780 reviews, privates from €218, dorms from €48; Galway City Hostel, 9.6 from 3,930, 0.3 km from the centre, dorms from €48, no privates. Free cancellation on both. Whether 'from' is per bed, per night or the stay total isn't shown."
+    note: "**Picked, not booked: Kinlay Eyre Square** (Colin, 2026-11-11). Budgeted at €288 = 3 dorm beds × 2 nights × €48, assuming the listing price is per bed per night. Hostelworld, 3 guests (Colin's screenshot, 2026-11-11): Kinlay Eyre Square, 9.5 from 8,780 reviews, privates from €218, dorms from €48; Galway City Hostel, 9.6 from 3,930, 0.3 km from the centre, dorms from €48, no privates. Free cancellation on both. Whether 'from' is per bed, per night or the stay total isn't shown."
   - system: private
     what: Dublin Airport hotel, 1 night May 21 (3 adults)
     target: 2027-05-21
-    note: "Maldron Hotel Dublin Airport, direct, May 21–22, 3 people: Prepay & Save, room only, from €255.65 (Colin's screenshot, 2026-11-11). Triples and a free 24 h shuttle (maldronhotels.com). Prepay terms not seen."
+    note: "**Picked, not booked: the Maldron, €255.65** (Colin, 2026-11-11). Maldron Hotel Dublin Airport, direct, May 21–22, 3 people: Prepay & Save, room only, from €255.65 (Colin's screenshot, 2026-11-11). Triples and a free 24 h shuttle (maldronhotels.com). Prepay terms not seen."
 updated: 2026-11-10
 map:
   center: [ 52.4, -9.7 ]
@@ -281,11 +281,11 @@ type: travel
 slack: The afternoon. Nothing today is timed except the car desk.
 driving: Family lift Dingle → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
 overnight:
-  name: TBD, Killarney
+  name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
   place: Killarney, Co. Kerry
-  kind: B&B or hostel (not picked)
-  cost: TBD
+  kind: Hostel, 3 beds in a 4-bed dorm, breakfast included
+  cost: $280 for 3, both nights
 ```
 
 **Schedule**
@@ -313,7 +313,7 @@ type: activity
 slack: None before the boat. The afternoon after it.
 driving: Killarney → Portmagee → Valentia → Killarney (⚠️ unrouted; ~1.5 h each way, recalled)
 overnight:
-  name: TBD, Killarney
+  name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
   place: Killarney, Co. Kerry
   kind: B&B or hostel (not picked)
@@ -345,11 +345,11 @@ type: travel
 slack: Plenty without Loop Head. Loop Head is the first cut.
 driving: Killarney → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin (⚠️ unrouted; ~3 h without Loop Head, Claude's estimate)
 overnight:
-  name: TBD, Doolin
+  name: Doolin Court townhouse (picked, not booked)
   mapStandIn: Doolin Pier
   place: Doolin, Co. Clare
-  kind: B&B or hostel (not picked)
-  cost: TBD
+  kind: Two-bedroom townhouse with a kitchen, 0.2 mi from the pubs
+  cost: $619 for 3, all 3 nights
 ```
 
 **Schedule**
@@ -377,11 +377,11 @@ tagline: A bike, stone walls, and a 2,000-year-old fort on a cliff edge.
 type: activity
 slack: Afternoon on the island. If the sea is up, swap with Day 10's Burren.
 overnight:
-  name: TBD, Doolin
+  name: Doolin Court townhouse (picked, not booked)
   mapStandIn: Doolin Pier
   place: Doolin, Co. Clare
-  kind: B&B or hostel (not picked)
-  cost: TBD
+  kind: Two-bedroom townhouse with a kitchen, 0.2 mi from the pubs
+  cost: $619 for 3, all 3 nights
 ```
 
 **Schedule**
@@ -409,11 +409,11 @@ type: activity
 slack: Late afternoon. Doolin Cave is the first cut, then Poulnabrone.
 driving: Doolin → Corofin → Dysert O'Dea → Poulnabrone → Doolin (⚠️ unrouted)
 overnight:
-  name: TBD, Doolin
+  name: Doolin Court townhouse (picked, not booked)
   mapStandIn: Doolin Pier
   place: Doolin, Co. Clare
-  kind: B&B or hostel (not picked)
-  cost: TBD
+  kind: Two-bedroom townhouse with a kitchen, 0.2 mi from the pubs
+  cost: $619 for 3, all 3 nights
 ```
 
 **Schedule**
@@ -437,11 +437,11 @@ type: rest
 slack: The morning. The walk can stop anywhere.
 driving: Doolin → Kinvara → Galway (⚠️ unrouted; ~1.5 h, recalled)
 overnight:
-  name: TBD, Galway
+  name: Kinlay Eyre Square (picked, not booked)
   mapStandIn: Galway Cathedral
   place: Galway
-  kind: Hostel or B&B (not picked)
-  cost: TBD
+  kind: Hostel, dorm beds
+  cost: ~€288 for 3, both nights (if €48 is per bed per night)
 ```
 
 **Schedule**
@@ -464,11 +464,11 @@ type: activity
 slack: Late afternoon. Omey is the first cut if the tide is wrong.
 driving: Galway → Letterfrack → Claddaghduff → Galway (⚠️ unrouted; ~1.5 h each way, recalled)
 overnight:
-  name: TBD, Galway
+  name: Kinlay Eyre Square (picked, not booked)
   mapStandIn: Galway Cathedral
   place: Galway
-  kind: Hostel or B&B (not picked)
-  cost: TBD
+  kind: Hostel, dorm beds
+  cost: ~€288 for 3, both nights (if €48 is per bed per night)
 ```
 
 **Schedule**
@@ -494,11 +494,11 @@ type: travel
 slack: Clonmacnoise is the slack. Car back at Dublin Airport by evening.
 driving: Galway → Clonmacnoise → Dublin Airport (⚠️ unrouted; ~2.5 h plus the detour, recalled)
 overnight:
-  name: TBD, Dublin Airport (lead - Maldron Hotel Dublin Airport)
+  name: Maldron Hotel Dublin Airport (picked, not booked)
   mapStandIn: Maldron Hotel Dublin Airport
   place: Dublin Airport
-  kind: Airport hotel, triple room (not picked)
-  cost: TBD (~$183–294 a night, Kayak, undated)
+  kind: Airport hotel, room for 3, free shuttle
+  cost: €255.65, prepay rate
 ```
 
 **Schedule**
@@ -583,20 +583,26 @@ Before leaving: Kerry (the Dingle peninsula, Killarney, Portmagee and Valentia),
 
 ## Notes
 
-### Budget (second pass, 2026-11-10)
+### Budget (third pass, 2026-11-11)
 
-Observed prices, not quotes, none held. Per person = total ÷ 3.
+Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 = $1.12 *(Bloomberg and Wise mid-market, 2026-11-10/11)*; cards add their own fee. Each = ÷ 3; with Jake along, the car, rooms and fuel split 4 ways.
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
-| Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,260 | ~$753 | Observed 2026-11-04 for May 9 / 22, both legs nonstop; **parents pay** |
-| Ireland car, 8 days, automatic | $785.79 | ~$262 | Colin's checkout screenshot 2026-11-11, incl. $376.85 young-driver surcharge; free cancellation to 48 h; cover and deposit not seen |
-| Beds: Killarney 2, Doolin 3, Galway 2 | TBD | TBD | Not searched for these towns and dates |
-| Beds: Dublin Airport, 1 night | ~$183–294 | ~$61–98 | Maldron, Kayak, undated |
-| Outings, if all done | ~€1,050–1,140 | ~€350–380 | Skellig landing €140–170 (or €80 to circle it without landing), kayaks €60–65, Blasket €60, Inis Mór €25–47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5; 2026 prices |
-| Fuel, ferry, parking | TBD | TBD | Shannon ferry €22.50 a car (2026) |
-
-Not counted yet: food, insurance. The Skye version's car, flights and beds are in `wishlist/skye-highlands.md`; the Ireland-only switch is costed in `log.md` (2026-11-10).
+| Flights, CLE ⇄ DUB round trip | $2,260 | $753 | Observed 2026-11-04; **parents pay** |
+| Car, Kerry Airport → Dublin Airport, 8 days, automatic | $785.79 | $262 | Checkout total incl. $376.85 young-driver surcharge; cover and deposit not seen |
+| Killarney, The Black Sheep Hostel, 2 nights | $280 | $93 | Dorm beds, breakfast included, pay at the property |
+| Doolin, Doolin Court townhouse, 3 nights | $619 | $206 | Whole house, kitchen |
+| Galway, Kinlay Eyre Square, 2 nights | ~$323 (€288) | ~$108 | ⚠️ Assumes €48 is per bed per night |
+| Dublin Airport, the Maldron, 1 night | $286 (€255.65) | $95 | Prepay rate, direct |
+| FlightLink coach, May 10 | $131 (€117) | $44 | €39 each (flightlink.ie fares, 2026); the Local Link 276 fare isn't known |
+| Shannon car ferry | $25 (€22.50) | $8 | 2026 fare |
+| Fuel and tolls | ~$146 (~€130) | ~$49 | Claude's estimate: ~700 car miles at ~6 L/100 km and ~€1.75/L (recalled), plus the M50 |
+| **Shared costs** | **~$2,596** | **~$865** | |
+| Outings, all of them | | ~$419 (€374) | Skellig landing €170, kayaks €65, Blasket €60, Inis Mór ferry up to €47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5 |
+| Outings, lean | | ~$221 (€198) | Skellig boat-around €80 instead of landing, no kayaks, Inis Mór €25 |
+| Food | | ~$350 (~€315) | Claude's estimate: ~€35 a day for 9 days off the family's table, cooking in Doolin |
+| **Each, all in** | | **~$1,440–1,640** | Plus car cover if a card doesn't cover Ireland, and bike hire on Inis Mór |
 
 ### The pitch pages
 

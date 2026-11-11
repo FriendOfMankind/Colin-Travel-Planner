@@ -246,3 +246,8 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Car:** $714.10 for May 14–21, automatic VW Golf or similar, without cover, from a site Colin used (screenshot; company not named in it). Avis had nothing. Its return time was 10:00 on May 21; the plan needs the car until evening, so it needs re-pricing. Written into `trip.md` (booking row, budget).
 - **Skellig:** the €80 tours Colin found for May 15 circle the island and don't land. Landing tours run €140–170 for 2027, and one operator opens bookings this month. Both are in the booking row; which one he wants is his call.
 - **Bed leads** (not picked): The Black Sheep Hostel (Killarney), Aille River Tourist Hostel (Doolin), Kinlay Eyre Square (Galway). Sources on the booking rows.
+
+## 2026-11-11 · Picked: beds and the car (not booked)
+
+- **Colin picked Claude's top picks** *(2026-11-11: "lets go with ur top picks for each")*: The Black Sheep Hostel, Killarney ($280); Doolin Court townhouse ($619); Kinlay Eyre Square, Galway (~€288 if dorm beds are €48 a night); the Maldron, Dublin Airport (€255.65); the car at $785.79 for 8 days. **None booked.** Was: all beds TBD.
+- Budget in `trip.md` rebuilt on these: about **$865 each in shared costs, ~$1,440–1,640 each all in**, flights not included (the parents' $2,260). Food and fuel are Claude's estimates.
