@@ -379,3 +379,9 @@ groups:
         lat: 53.325615
         lng: -7.986821
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
+      - name: "Mount Brandon, Faha trailhead"
+        note: "Day 5. Taxi drop-off and pickup for the Faha route, near Cloghane."
+        maps: "Faha Mount Brandon trailhead Cloghane"
+        verified: false
+        lat: null
+        lng: null

@@ -251,3 +251,8 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 
 - **Colin picked Claude's top picks** *(2026-11-11: "lets go with ur top picks for each")*: The Black Sheep Hostel, Killarney ($280); Doolin Court townhouse ($619); Kinlay Eyre Square, Galway (~€288 if dorm beds are €48 a night); the Maldron, Dublin Airport (€255.65); the car at $785.79 for 8 days. **None booked.** Was: all beds TBD.
 - Budget in `trip.md` rebuilt on these: about **$865 each in shared costs, ~$1,440–1,640 each all in**, flights not included (the parents' $2,260). Food and fuel are Claude's estimates.
+
+## 2026-11-11 · Decided: Mount Brandon is in
+
+- **Mount Brandon is a definite** *(Colin, 2026-11-11: "we definitely want to do Mount Brandon, Stick did it as a kid")*. It's the main event of Day 5 (Thu May 13), by taxi to the Faha trailhead, and swaps onto Tue or Wed if one of them has the clearer forecast. Was: Day 5 the spare day (Slea Head rain swap, Inch and Minard), with Brandon an option added earlier the same day. Inch and Minard are now the rain plan; Slea Head's rain swap is Day 4.
+- Budget: the taxi, ~€20 each, added to both outing totals; all in now ~$1,460–1,660 each.

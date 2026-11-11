@@ -184,7 +184,7 @@ overnight:
 date: 2027-05-11
 tagline: The best road in Kerry, if someone who isn't family is driving it.
 type: activity
-slack: Afternoon onward is family time.
+slack: Afternoon onward is family time. In rain, swap with Day 4 (the town day); if Tuesday is the clear day, Brandon can swap in.
 overnight:
   name: Family
   mapStandIn: Dingle Harbour
@@ -245,13 +245,13 @@ overnight:
 - L: town
 - D: family
 
-### Day 5 — 2027-05-13 · Third Dingle day
+### Day 5 — 2027-05-13 · Mount Brandon
 
 ```yaml
 date: 2027-05-13
-tagline: The weather buffer, then the farewell dinner. Pack tonight.
-type: flex
-slack: Whole day. If Day 3 was rained out, Slea Head moves here.
+tagline: Stick climbed it as a kid. Now the three of you, then the farewell dinner.
+type: activity
+slack: The evening. If Thursday's forecast is bad and Tuesday's or Wednesday's is clear, swap Brandon onto that day.
 overnight:
   name: Family
   mapStandIn: Dingle Harbour
@@ -261,17 +261,22 @@ overnight:
 ```
 
 **Schedule**
-- day · stop · Free. Rain swap for Slea Head. Pick one side of the peninsula:
-- option · ruins · **East, by Local Link 276** (Dingle 11:45 → Annascaul 12:09 → Inch Beach 12:20; back from Inch Beach 15:30 or 18:55, Annascaul 15:41 or 19:06) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*: **Minard Castle**, a 16th-century tower on a boulder beach. It's private and unsafe inside, so look from the beach, at low tide. Then **Inch Beach**, a 3-mile sand spit, and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)*. Minard has no bus: taxi from Annascaul · 📍 Minard Castle Kerry
-- option · hike · **Mount Brandon from Faha, by taxi** (the clear-weather pick for this day): 6.2 mi out and back, 2,582 ft, rated hard, past corrie lakes to the summit *(AllTrails, 2026-11-11)*. At Colin's ~10 mi / 2,500 ft ceiling on gain. Taxi Dingle → the mountain about €25–30 each way *(rome2rio, snippet)*; book the pickup time before you go, since there's no Uber and signal may be thin *(Claude's judgment)*. Only in clear weather: Inch and Minard are the rain plan · 📍 Faha Mount Brandon
-- option · hike · **North, by taxi:** **Brandon Creek**, the cove where St Brendan is said to have set out, and **Brandon Point** headland, with Brandon Bay views and a WWII lookout. Or **Glanteenassig Forest Park**, lake boardwalks under the Slieve Mish mountains. All of them need a car or taxi *(Meta AI results pasted by Colin, citing Instagram 2026-07-13, 2026-09-01, 2026-10-13 and 2026-10-15)* · 📍 Brandon Creek Kerry
+- morning · drive · **Taxi Dingle → the Faha trailhead** near Cloghane, about €25–30 each way *(rome2rio, snippet)*, or a family lift. Book the pickup time back before you leave town: there's no Uber, and signal on the mountain may be thin *(Claude's judgment)* · 📍 Mount Brandon Faha trailhead
+- morning · hike · **Mount Brandon from Faha**: 6.2 mi out and back, 2,582 ft, rated hard, 4.8 stars, past corrie lakes below the summit *(AllTrails, 2026-11-11)*. **Stick did it as a kid** *(Colin, 2026-11-11)*. At Colin's ~2,500 ft daily ceiling · 📍 Mount Brandon Faha trailhead
+- afternoon · drive · Taxi back to Dingle.
+- optional · stop · **Brandon Creek and Brandon Point**, on the same side of the peninsula, if the legs and the taxi allow: the cove St Brendan is said to have sailed from, and a headland with a WWII lookout *(Meta AI results pasted by Colin, citing Instagram 2026-07-13 and 2026-09-01)* · 📍 Brandon Creek Kerry
+- option · ruins · **The rain plan, east by Local Link 276** (Dingle 11:45 → Annascaul 12:09 → Inch Beach 12:20; back from Inch Beach 15:30 or 18:55) *(locallinkkerry.ie/dingle, timetable read 2026-10-30)*: **Minard Castle**, a 16th-century tower on a boulder beach, private and unsafe inside, so look from the beach at low tide (taxi from Annascaul); **Inch Beach**, a 3-mile sand spit; and the **South Pole Inn** in Annascaul, Tom Crean's pub *(Meta AI results pasted by Colin, citing Facebook 2026-06-13, Instagram 2026-10-13, Facebook 2026-07-16 and 2026-09-11)* · 📍 Minard Castle Kerry
 - evening · food · Farewell dinner with family.
 - night · note · Pack completely. Tomorrow the car starts at Kerry Airport, and it's the only car for the rest of the trip.
 
 **Meals**
 - B: family
-- L: open
+- L: packed, on the mountain
 - D: farewell dinner
+
+#### Warnings
+
+**A mountain in cloud is the risk.** Brandon catches the Atlantic weather first *(recalled)*. Turn back at the corrie lakes if the cloud is down on the ridge or the wind is strong, and set a turnaround time before you start: on top by about 2 PM or head down *(Claude's call, per `me/principles.md` 6)*. Download the route for offline use first.
 
 ### Day 6 — 2027-05-14 · The car, and the Gap of Dunloe
 
@@ -600,10 +605,10 @@ Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 =
 | Shannon car ferry | $25 (€22.50) | $8 | 2026 fare |
 | Fuel and tolls | ~$146 (~€130) | ~$49 | Claude's estimate: ~700 car miles at ~6 L/100 km and ~€1.75/L (recalled), plus the M50 |
 | **Shared costs** | **~$2,596** | **~$865** | |
-| Outings, all of them | | ~$419 (€374) | Skellig landing €170, kayaks €65, Blasket €60, Inis Mór ferry up to €47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5 |
-| Outings, lean | | ~$221 (€198) | Skellig boat-around €80 instead of landing, no kayaks, Inis Mór €25 |
+| Outings, all of them | | ~$440 (€394) | Mount Brandon taxi ~€20 each, Skellig landing €170, kayaks €65, Blasket €60, Inis Mór ferry up to €47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5 |
+| Outings, lean | | ~$243 (€218) | Brandon taxi kept; Skellig boat-around €80 instead of landing, no kayaks, Inis Mór €25 |
 | Food | | ~$350 (~€315) | Claude's estimate: ~€35 a day for 9 days off the family's table, cooking in Doolin |
-| **Each, all in** | | **~$1,440–1,640** | Plus car cover if a card doesn't cover Ireland, and bike hire on Inis Mór |
+| **Each, all in** | | **~$1,460–1,660** | Plus car cover if a card doesn't cover Ireland, and bike hire on Inis Mór |
 
 ### The pitch pages
 
