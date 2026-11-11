@@ -382,6 +382,7 @@ groups:
       - name: "Mount Brandon, Faha trailhead"
         note: "Day 5. Taxi drop-off and pickup for the Faha route, near Cloghane."
         maps: "Faha Mount Brandon trailhead Cloghane"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.239284
+        lng: -10.205593
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
