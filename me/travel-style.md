@@ -10,7 +10,7 @@ From the traveller interview on 2026-09-28 unless marked.
 ## What makes a trip great
 
 1. **Big views and scenery**
-2. **Exploring and discovery:** ruins, odd places, finding things that weren't on the list. This matches the Blevins-farm night (`trips/kentucky-2026/log.md`).
+2. **Exploring and discovery:** odd places, finding things that weren't on the list, and ruins when they're along the way (principle 10). This matches the Blevins-farm night (`trips/kentucky-2026/log.md`).
 3. **Solitude:** having it to himself. Consistent with "put the hard, empty hike on the busiest day" (`me/hiking.md`).
 
 *(stated 2026-09-28)*
@@ -22,6 +22,8 @@ From the traveller interview on 2026-09-28 unless marked.
 ## Budget
 
 **Bang for buck is the test.** There's no fixed budget, but a trip has to earn what it costs. The worked example is Mojave in January: flight + rental car + campgrounds, solo, "kind of forcing it". That stack of costs has to buy something that couldn't be had cheaper or at a better time. *(stated 2026-09-30; was: "Not tracked. He spends what the trip takes. Don't optimise plans for cost; pick on quality." (stated 2026-09-28), which contradicted the Sept 6 Mojave deferral "because the money is going to better places")* Planning rule: pick on quality per dollar, not quality alone, and say what the expensive parts buy. (Trees' old intake brief said "$1–2k excluding airfare"; treat that as a rough scale, not a limit.) **Summer 2027: still no budget, and some financial support may come, but keep a running cost estimate for each trip** so the summer total stays visible *(stated 2026-10-04)*. Newfoundland's is in `trips/newfoundland-2027/`.
+
+**Sleep cheap in an expensive-beautiful place.** "Living/sleeping like a bum, cheaply, in a luxurious, clean, beautiful area is better" than a cheap, gritty region *(stated 2026-11-11)*. Planning rule: Switzerland- or Norway-grade scenery on a tent or hostel budget beats a cheap country with rougher scenery. Cut the bed, not the place.
 
 ## Crowds, water, rest
 
