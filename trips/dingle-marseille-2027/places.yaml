@@ -256,108 +256,133 @@ groups:
       - name: "Killarney (town)"
         note: "Days 6–7. The bed is TBD; Killarney Bus Station stands in. Pubs: Courtney's, the Dunloe Lodge, Buckley's at the Arbutus."
         maps: "Killarney Co. Kerry"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.059991
+        lng: -9.504415
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Gap of Dunloe"
         note: "Day 6, afternoon walk. Start point not checked."
         maps: "Gap of Dunloe"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.040495
+        lng: -9.631939
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Portmagee Pier"
         note: "Day 7. Skellig Michael boats."
         maps: "Portmagee Pier"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 51.886258
+        lng: -10.36685
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Skellig Michael"
         note: "Day 7. The landing."
         maps: "Skellig Michael"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 51.771639
+        lng: -10.539542
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Valentia Island Tetrapod Trackway"
         note: "Day 7, afternoon. By the radio station."
         maps: "Valentia Island Tetrapod Trackway"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 51.930973
+        lng: -10.343164
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Kerry Cliffs"
         note: "Day 7, the backup if the boat is cancelled."
         maps: "Kerry Cliffs Portmagee"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 51.868547
+        lng: -10.385418
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Loop Head Lighthouse"
         note: "Day 8, optional."
         maps: "Loop Head Lighthouse"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.560993
+        lng: -9.930349
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Cusack Park, Ennis"
         note: "Day 8, only if Clare v Cork hurling lands on Sun May 16."
         maps: "Cusack Park Ennis"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.846226
+        lng: -8.977168
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Burren National Park Information Point, Corofin"
         note: "Day 10. Free parking and the shuttle to the Mullaghmore trailhead."
         maps: "Burren National Park Information Point Corofin"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.944926
+        lng: -9.062718
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Dysert O'Dea Castle"
         note: "Day 10. The O'Dea clan tower house."
         maps: "Dysert O'Dea Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 52.911656
+        lng: -9.065904
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Doolin Cave"
         note: "Day 10, optional."
         maps: "Doolin Cave"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.041563
+        lng: -9.344752
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Dunguaire Castle"
         note: "Day 11, from outside."
         maps: "Dunguaire Castle"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.14008
+        lng: -8.927423
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Galway Cathedral"
         note: "Day 11. Start of the city walk."
         maps: "Galway Cathedral"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.2755
+        lng: -9.057338
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "McDonagh's, Galway"
         note: "Day 11, dinner. 22 Quay St."
         maps: "McDonagh's Galway"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.270936
+        lng: -9.054383
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Taaffes Bar, Galway"
         note: "Day 11, music."
         maps: "Taaffes Bar Galway"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.272335
+        lng: -9.053178
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Connemara National Park Visitor Centre"
         note: "Day 12. Diamond Hill trailhead."
         maps: "Connemara National Park Visitor Centre"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.550512
+        lng: -9.945646
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Omey Island"
         note: "Day 12. Tidal crossing from Claddaghduff."
         maps: "Omey Island"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.532482
+        lng: -10.164917
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
       - name: "Clonmacnoise"
         note: "Day 13, before 10:30."
         maps: "Clonmacnoise"
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 53.325615
+        lng: -7.986821
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
+      - name: "Mount Brandon, Faha trailhead"
+        note: "Day 5. Taxi drop-off and pickup for the Faha route, near Cloghane."
+        maps: "Faha Mount Brandon trailhead Cloghane"
+        verified: true
+        lat: 52.239284
+        lng: -10.205593
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-11)
