@@ -44,7 +44,7 @@ booking:
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
-    note: "Lead, not picked: The Black Sheep Hostel, in the town centre, free continental breakfast, beds with blackout curtains, lights and plugs, 9.2 on Expedia (Expedia, Travelocity, TripAdvisor snippets, 2026-11-11). Avoid Killarney Railway Hostel: cheapest (dorms from €11) but 5.2 from 4,569 reviews (Hostelworld)."
+    note: "Hostelworld, May 14–16, 3 guests: only Killarney Railway Hostel came up, 5.2 from 4,573 reviews, privates from €104, dorms from €27 (Colin's screenshot, 2026-11-11). The Black Sheep Hostel (town centre, 9.2 on Expedia) didn't appear there; not yet checked on its own site or Booking.com."
   - system: private
     what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
     target: 2027-05-15
@@ -52,15 +52,15 @@ booking:
   - system: private
     what: Doolin, 3 nights May 16–19 (3 adults)
     target: 2027-05-16
-    note: "Lead, not picked: Aille River Tourist Hostel, a family-run 300-year-old renovated house on the river in the centre of Doolin, five minutes' walk from all three music pubs; every room en-suite, family rooms for 3–5 and dorms, free kitchen and parking; 9.5 on Hostelworld, Lonely Planet's 'best of the bunch' (ailleriverhosteldoolin.ie; hostelworld.com, read 2026-11-11). Prices not seen."
+    note: "No hostel on Hostelworld for these dates (Colin, 2026-11-11). Booking.com, 3 nights, 3 adults (Colin's screenshot, 2026-11-11, totals not held): Doolin Court two-bedroom townhouse, 0.2 mi from the village, kitchen, 3 beds, 9.2, $619; 11 Doolin Court, whole house, 9.5, $737, free cancellation; Ceol na dTonnta, family room with sea view and breakfast, 1.2 mi out, 9.6, $664, free cancellation. Aille River Tourist Hostel (village centre, 9.5) not yet checked on its own site."
   - system: private
     what: Galway, 2 nights May 19–21 (3 adults)
     target: 2027-05-19
-    note: "Lead, not picked: Kinlay Eyre Square, on the corner of Eyre Square, a short walk to the Latin Quarter; its listing says 'Best Hostel in Ireland 2025' (hostelworld.com snippet, 2026-11-11). Snoozles on Quay Street is listed as permanently closed on trip.com but still reviewed on TripAdvisor: don't plan on it."
+    note: "Hostelworld, 3 guests (Colin's screenshot, 2026-11-11): Kinlay Eyre Square, 9.5 from 8,780 reviews, privates from €218, dorms from €48; Galway City Hostel, 9.6 from 3,930, 0.3 km from the centre, dorms from €48, no privates. Free cancellation on both. Whether 'from' is per bed, per night or the stay total isn't shown."
   - system: private
     what: Dublin Airport hotel, 1 night May 21 (3 adults)
     target: 2027-05-21
-    note: Lead, not picked - Maldron Hotel Dublin Airport has triple rooms (three single beds) and a free 24 h shuttle (maldronhotels.com, booking.com); Kayak shows roughly $183-294 a night, undated (searched 2026-11-03).
+    note: "Maldron Hotel Dublin Airport, direct, May 21–22, 3 people: Prepay & Save, room only, from €255.65 (Colin's screenshot, 2026-11-11). Triples and a free 24 h shuttle (maldronhotels.com). Prepay terms not seen."
 updated: 2026-11-10
 map:
   center: [ 52.4, -9.7 ]
