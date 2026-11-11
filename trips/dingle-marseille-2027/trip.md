@@ -40,20 +40,23 @@ booking:
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
-    note: "Not priced for these dates. The only quote was for the old 3-day plan: Kayak, driver 22, 2026-11-02, Hertz mini manual $216 total, Thrifty/Avis/Budget $235–257, all manual; whether the young-driver and one-way fees are inside isn't shown. Europcar (from 22) and Avis have desks at Kerry Airport. Under-25 fees run about €30–40 a day (secondary)."
+    note: "$714.10 total ($102.01 a day), VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, pickup Kerry Airport May 14 10:00, return Dublin Airport May 21 10:00 (Colin's screenshot, 2026-11-11; the company isn't named in it, not held). The page says the price is 'without coverage' and 'availability and surcharge subject to age', so cover and any under-25 fee are on top. ⚠️ The return time is 10:00, but the plan drops the car on the evening of May 21: re-price with a later return. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
+    note: "Lead, not picked: The Black Sheep Hostel, in the town centre, free continental breakfast, beds with blackout curtains, lights and plugs, 9.2 on Expedia (Expedia, Travelocity, TripAdvisor snippets, 2026-11-11). Avoid Killarney Railway Hostel: cheapest (dorms from €11) but 5.2 from 4,569 reviews (Hostelworld)."
   - system: private
     what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
     target: 2027-05-15
-    note: "€145 a person, landings 9 May – 1 Oct in 2026 (skelligislands.com, snippet); €140, a 5-hour trip, bookings opening for 2027 (kerryaquaterra.ie, snippet); landings from May 15, 2027 bookings open in November (skelligmichaelcruises.com, snippet). Capped at 180 people a day and cancelled in swell."
+    note: "2027 landing prices quoted: €170 (skelligmichael.ie; skelligmichael.tours, 18+, waiting list for 2027), €145 in 2026 (skelligislands.com), €140 (skelligsrock.com). Skellig Michael Cruises: 'Landing Begins 9th May 2027', bookings open in November (all search snippets, 2026-11-11). Not the same as the 'Boat Tour Around Skellig Michael' Colin found for Sat May 15 at 10:00, 12:30, 15:00 and 17:15, €80 (screenshot, 2026-11-11, operator not named): that one circles the island and doesn't land. Capped at 180 landings a day and cancelled in swell."
   - system: private
     what: Doolin, 3 nights May 16–19 (3 adults)
     target: 2027-05-16
+    note: "Lead, not picked: Aille River Tourist Hostel, a family-run 300-year-old renovated house on the river in the centre of Doolin, five minutes' walk from all three music pubs; every room en-suite, family rooms for 3–5 and dorms, free kitchen and parking; 9.5 on Hostelworld, Lonely Planet's 'best of the bunch' (ailleriverhosteldoolin.ie; hostelworld.com, read 2026-11-11). Prices not seen."
   - system: private
     what: Galway, 2 nights May 19–21 (3 adults)
     target: 2027-05-19
+    note: "Lead, not picked: Kinlay Eyre Square, on the corner of Eyre Square, a short walk to the Latin Quarter; its listing says 'Best Hostel in Ireland 2025' (hostelworld.com snippet, 2026-11-11). Snoozles on Quay Street is listed as permanently closed on trip.com but still reviewed on TripAdvisor: don't plan on it."
   - system: private
     what: Dublin Airport hotel, 1 night May 21 (3 adults)
     target: 2027-05-21
@@ -587,10 +590,10 @@ Observed prices, not quotes, none held. Per person = total ÷ 3.
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
 | Transatlantic flights (CLE ⇄ DUB round trip, Aer Lingus) | $2,260 | ~$753 | Observed 2026-11-04 for May 9 / 22, both legs nonstop; **parents pay** |
-| Ireland car, 7 days, automatic | TBD | TBD | Not priced; under-25 fee ~€30–40 a day on top (secondary) |
+| Ireland car, 7 days, automatic | $714 + cover + any under-25 fee | ~$238 + | Colin's screenshot 2026-11-11, VW Golf or similar, returned 10:00 May 21 (the plan needs evening) |
 | Beds: Killarney 2, Doolin 3, Galway 2 | TBD | TBD | Not searched for these towns and dates |
 | Beds: Dublin Airport, 1 night | ~$183–294 | ~$61–98 | Maldron, Kayak, undated |
-| Outings, if all done | ~€960–1,050 | ~€320–350 | Skellig €140–145, kayaks €60–65, Blasket €60, Inis Mór €25–47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5; 2026 prices |
+| Outings, if all done | ~€1,050–1,140 | ~€350–380 | Skellig landing €140–170 (or €80 to circle it without landing), kayaks €60–65, Blasket €60, Inis Mór €25–47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5; 2026 prices |
 | Fuel, ferry, parking | TBD | TBD | Shannon ferry €22.50 a car (2026) |
 
 Not counted yet: food, insurance. The Skye version's car, flights and beds are in `wishlist/skye-highlands.md`; the Ireland-only switch is costed in `log.md` (2026-11-10).

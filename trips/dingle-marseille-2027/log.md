@@ -240,3 +240,9 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Road lines for Days 2–13** redrawn by `tools/roads.py` on Overture data (1,033 mi by road and ferry for Days 2–13). Day 7's last leg out to Skellig Michael is a straight line: it's the boat, 13.6 km from any road.
 - **Galway's two nights** stand in at Galway Cathedral (`mapStandIn`) until a bed is picked.
 - **A print poster** of Days 2–13 (`node tools/poster.mjs dingle-marseille-2027 --days 2-13`, after the build), at Colin's request. It writes `site/posters/`, which git ignores, so it's regenerated rather than stored.
+
+## 2026-11-11 · First real car price; Skellig is two different tours
+
+- **Car:** $714.10 for May 14–21, automatic VW Golf or similar, without cover, from a site Colin used (screenshot; company not named in it). Avis had nothing. Its return time was 10:00 on May 21; the plan needs the car until evening, so it needs re-pricing. Written into `trip.md` (booking row, budget).
+- **Skellig:** the €80 tours Colin found for May 15 circle the island and don't land. Landing tours run €140–170 for 2027, and one operator opens bookings this month. Both are in the booking row; which one he wants is his call.
+- **Bed leads** (not picked): The Black Sheep Hostel (Killarney), Aille River Tourist Hostel (Doolin), Kinlay Eyre Square (Galway). Sources on the booking rows.

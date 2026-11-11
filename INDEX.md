@@ -27,7 +27,7 @@ Read this first. Open only the files the question needs. Paths are relative to t
 
 ## Outlines
 
-- **Dingle & the West of Ireland** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 53/53 places located · log 22 entries · updated 2026-11-10
+- **Dingle & the West of Ireland** (`trips/dingle-marseille-2027/`) · outline · May 9–22, 2027 (target, unbooked) · 14 days · 3 open questions · 53/53 places located · log 23 entries · updated 2026-11-10
   ⚠️ Two things can kill a day here, and neither is checked yet. **Skellig Michael** (May 15) lands only in calm seas and only 180 people a day, so it's a bonus with a backup, not a promise. **Omey Island** (May 20) is…
 - **Newfoundland by Road** (`trips/newfoundland-2027/`) · outline · May 26 – Jun 24, 2027 (target, unbooked) · 30 days · 3 open questions · 81/81 places located · log 47 entries · updated 2026-11-08
   ⭐ **The Tablelands are exposed oceanic mantle** — the rock that confirmed plate tectonics and the reason Gros Morne is UNESCO. Add **L'Anse aux Meadows** (the only confirmed Norse site in North America, opens June 1),…
