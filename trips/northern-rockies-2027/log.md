@@ -338,3 +338,6 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 ## 2026-11-09 · Town stand-ins for three undecided beds, and the coast on real roads
 - **Colin pinned Newport, Yachats and Wallace** as town stand-ins *(Colin, 2026-11-09, pasted in chat)* so the maps and the poster can show nights 19, 21 and 22. `mapStandIn:` added to those three overnights. **No bed was decided:** night 19 is still Wallace or Kellogg, night 22 still Florence or Yachats.
 - Road lines for days 22 and 23 were drawn for the first time (the coast places were pinned earlier the same day), and days 19–23 re-routed to the stand-ins.
+
+## 2026-11-12 · The car is now a 2019 Outback
+- **Colin: "I WILL be driving a 2019 subaru outback on this trip"** *(Colin, 2026-11-12)*. 8.7 in clearance (irasubaru.com, snippet), "somewhere in the middle", not high-clearance. Was: the 2013 Legacy, ~5.9 in, low air dam. `me/profile.md` and this plan's `vehicle:` line changed in place. Fuel economy not recorded, so the gas estimates on the friends' pages (~27 mpg assumed for the Legacy) aren't redone yet.
