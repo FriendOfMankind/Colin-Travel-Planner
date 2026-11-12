@@ -341,3 +341,6 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 
 ## 2026-11-12 · The car is now a 2019 Outback
 - **Colin: "I WILL be driving a 2019 subaru outback on this trip"** *(Colin, 2026-11-12)*. 8.7 in clearance (irasubaru.com, snippet), "somewhere in the middle", not high-clearance. Was: the 2013 Legacy, ~5.9 in, low air dam. `me/profile.md` and this plan's `vehicle:` line changed in place. Fuel economy not recorded, so the gas estimates on the friends' pages (~27 mpg assumed for the Legacy) aren't redone yet.
+
+## 2026-11-12 · Hut nights skipped
+- **Colin: skip the Glacier chalets and the other hut options, "too expensive"** *(Colin, 2026-11-12)*. Granite Park was ~$475 a night for a 4-person room plus $40 a person for linens in 2026, via a Dec 1–31 lottery. Findings are in `research-log.md` (2026-11-12, later). Nothing changes in the plan.
