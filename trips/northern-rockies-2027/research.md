@@ -69,6 +69,15 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 - ⬜ **Transit nights, Days 30–33**: nothing identified
 - ~~TRNP, Cottonwood, Makoshika~~: cut or skipped 2026-10-10 / 10-15; the old notes are in `log.md`
 
+## 8b. The Sawtooths extension (Aug 13–20, optional; proposal in `trip.md`'s open questions)
+*(added 2026-11-12)*
+- 🟡 **Hike-to hot springs**: Slate Creek/Hoodoo (short hike, bumpy FSR 666, mine ruins, heavy use, extreme bugs; 0.3 vs 4.6 mi disagreement) and Goldbug (~2 mi / ~1,400 ft, BLM, crowded by 9 AM, north via Challis, unrouted). ⬜ trail length and trailhead for Shower Bath (wilderness, roads Jul–Oct). 🔒 a 2025–26 report on the FSR 666 road
+- ✅ **Roadside soaks near Stanley**: Boat Box, Sunbeam (heavy use), Cove/Basin Creek (often too cool), Valley Creek (free pool vs reservation-only tubs: split); Kirkham, Bonneville, Pine Flats on the SH-21 drive in *(2026-11-12)*
+- 🟡 **Frenchman's Bend** (Ketchum, on the way out): roadside per idahohotsprings.com vs "4 mile hike" per a Facebook post. ⬜ current Warm Springs Road access
+- 🟡 **Roads for the Outback**: Fourth of July Creek Road "rough" but sedans reach it; FSR 666 bumpy with storm washouts. ⬜ tires on the Outback (`me/profile.md` doesn't say)
+- ✅ **Hikes**: the 2026-11-02 menu (AllTrails). 🟡 Fourth of July Lake, 1.77 mi / 615 ft (Idaho Statesman), not on the menu
+- 🟡 **Campgrounds**: Iron Creek, Mount Heyburn, Sockeye first-come; Outlet all reservable (log 2026-11-02). ⬜ how fast first-come fills in mid-August
+
 ## 9. Cross-cutting
 - 🟡 **Weather**: station normals for Cooke City (74/39) and St. Mary (high 73), July, NOAA 1991–2020 *(2026-10-29)*. ⬜ Bighorns, Beartooth Plateau, Oregon
 - 🟡 **Wildfire smoke**: first pass done *(2026-10-29)*. Glacier County alert Jul 27 2026, smoke over north Glacier Jul 31 2026; Bend averages 7.8 USG+ days a year (2013–2025), 21 in 2023, 2 in 2025, peak in August. ⬜ a Glacier-specific multi-year count
@@ -79,3 +88,5 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 2. **FR 27 to West Tensleep.** Same groups, or r/wyoming, search `West Tensleep road`. Look for: washboard, rocks, anyone in a sedan.
 3. **Island Lake on a July Sunday.** r/Montana or the "Beartooth Highway" Facebook group, search `Island Lake campground full`. Look for: what time it fills on a Sunday in July.
 4. **Pay showers in Cody / Great Falls.** r/roadtrip or the "Cody Wyoming Community" Facebook group, search `shower Cody non guest` / `pay shower Great Falls`. Look for: a rec center, truck stop or RV park that sells a one-off shower, and the price.
+5. **Slate Creek (Hoodoo) road and pools, recent.** Facebook group "Idaho Hot Springs" (facebook.com/idahohotsprings) or "Stanley Idaho Community", search `Slate Creek hot springs road` / `Hoodoo hot springs`. Look for: 2025–26 road condition on FSR 666, how far the walk really is, and bugs in August.
+6. **Shower Bath trailhead.** Facebook group 994048235167246 has a thread "What's the Shower Bath Hot Springs hike like near Challis?" Look for: which trailhead, how many miles, the road in, and whether solo felt OK.

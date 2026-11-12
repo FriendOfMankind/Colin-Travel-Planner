@@ -91,3 +91,39 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - ✅ **Sandland Adventures**, Florence (sandland.com, 2026-11-04): sandrail tours ½ h $45 / 1 h $75 a person (4-person minimum for 1 h, 300 lb max); Giant Dune Buggy 1 h $25; taxes and fees (15%) non-refundable; open March–December.
 - 📋 Florence self-drive: side-by-sides need drivers 25–30+, single-seat quads 18+ (greetwell.com listings for Torex/Sand Dunes Frontier operators, 2026-11-04).
 - 📋 Oregon Dunes NRA: ~10,000 acres open to OHVs between Florence and Coos Bay (Oregon ATV Guide 2026–27, oregon.gov).
+
+## 2026-11-12 · The Sawtooths extension: hike-to hot springs, and what the Outback opens
+Colin asked for "wild hot springs where you can hike to them, not glorified public pools", and whether the 2019 Outback (8.7 in, `me/profile.md`) changes road logic. Scope: around Stanley, the SH-21 drive in, and the way out toward Ketchum. Nothing here is a decision; nothing was applied to `trip.md`.
+
+### Official pages
+- ✅ **Goldbug (Elk Bend) Hot Springs** (blm.gov, read 2026-11-12): BLM, no fees; "23 miles south of Salmon on Highway 93", then 0.3 mi of county road to the trailhead; "access requires a hike"; the first 1/4 mile crosses private land on an easement, dogs leashed. ⚠️ Stanley → Elk Bend is unrouted (it's north, via Challis, not on the way home).
+- ✅ **Kirkham Hot Springs** (fs.usda.gov Boise NF, read 2026-11-12): riverside pools east of Lowman on SH-21, 4,000 ft, little shade, "very hot and sunny" in summer, gate closes daily at 9 PM. A developed roadside day-use site, not a hike.
+- 📋 **Pine Flats** (fs.usda.gov / recreation.gov snippets): campground a few miles west of Lowman on the Banks–Lowman road, "soaking in the hot springs at the river's edge"; AllTrails lists the walk at 0.5–1 h.
+- 📋 **Bonneville** (recreation.gov snippet): campground on SH-21 with a soaking pool nearby.
+
+### Hot-spring guides (secondary; heavy use = their rating)
+- ✅ **Slate Creek / Hoodoo** (idahohotsprings.com, page modified 2026-11-07): a plumbed 6-person wooden box plus two natural pools at the old Hoodoo Mines site in the White Clouds (Sawtooth NRA), "a short hike at the end of bumpy, unpaved FSR 666"; 7,040 ft; "abandoned out-buildings and shafts stand within sight of the pool"; bugs "rated extreme on past visits"; usage heavy; "harsh summer storms can turn the road into a muck pot and have washed it away entirely". Primitive camping along the forest road. **Distance disagreement:** AllTrails lists 0.3 mi / 55 ft; hotspringsguides.com says 4.6 mi / 1,801 ft (probably the hike on to Hoodoo Lake, which idahohotsprings calls "2 miles/2K ft… rustic"). Not resolved.
+- ✅ **West Pass** (idahohotsprings.com, modified 2026-11-07): three bathtubs by West Pass Creek up the East Fork Salmon near Clayton, 6,800 ft, "sees almost nobody"; roadside once the seasonal high road is open; primitive sites nearby. Not a hike.
+- ✅ **Shower Bath** (idahohotsprings.com, modified 2026-11-07): Frank Church Wilderness; roads to either trailhead open only ~July–October; the last 0.25 mi of trail is in Warm Springs Creek ("the Narrows"); two 1–2 tent sites; "many snakes, black bear… mountain lion". **Trail length and trailhead not found.** A Facebook thread asks about mountain lions on the hike (snippet).
+- ✅ **Frenchman's Bend** (idahohotsprings.com, modified 2026-11-07): wide shallow creekside pools on Warm Springs Creek ~11 mi from Ketchum, "Access Type: Roadside", usage heavy, day use only, prime season late June–late October. **Split:** a Facebook group post says "roundtrip 4 mile hike" (snippet, undated). Not resolved.
+- 📋 **Sunbeam**: "heavy use, extreme in summer", restroom and changing room (idahohotsprings.com). **Basin Creek / Cove Creek**: short walk from SH-75; "found semi-submerged and too cool to soak" on repeated visits (idahohotsprings.com). **Mountain Village Resort** tubs on Valley Creek in Stanley: reservation only (idahohotsprings.com).
+- 📋 Further off the route, both low-use hikes: **Buckhorn** (5 mi, 1,000+ ft on an old road, Warm Lake / Yellow Pine) and **Bull Creek** (Middle Fork Payette, July–September). Not pursued.
+- 📋 **Goldbug** crowds: "nearly 2-mile trail… nearly 1,400 feet in elevation gain", "go early and beat the crowd" (Facebook "Meanwhile in Idaho", snippet); "Arrived… before 9am and there were already many people" (TripAdvisor review, snippet, undated).
+
+### YouTube
+- **Live That Adventure, "5 Awesome and Free Hot Springs Near Stanley, Idaho"** (uploaded 2022-06-09, trip month not stated, not sponsored as far as shown): Valley Creek ("left on Valley Creek Road… parking lot… just on the other side of this really cool bridge"), Boat Box (~4 mi from Stanley, a chained tub for 2–3, little parking), Cove Creek (~8.3 mi, small, "we had the entire thing to ourselves", picnic tables, camping), Sunbeam (~12 mi; volunteers rebuild the pools each spring), and Kirkham ($5 or free with an America the Beautiful pass; small cliff jump into the Payette). All roadside or a short walk.
+- **Live That Adventure, "How to Find Valley Creek Hot Springs"** (2022-05-26): ~0.3 mi of dirt road past the Stanley museum; "a large hump" at the lot made them leave the rental car on the road; a free ~20 ft pool on one side of the bridge and a paid, reserved one in a barn on the other. ⚠️ idahohotsprings.com (2026) lists the Valley Creek tubs as Mountain Village Resort's, reservation only. Whether a free pool remains isn't settled.
+
+### Reddit
+- The Apify actor `trudax/reddit-scraper-lite` now **requires a Reddit session token** (input validation, 2026-11-12), so no Apify run was made. Fallback: Firecrawl `site:reddit.com` search plus the scrapecreators reader.
+- r/Idaho, "Salmon R rafting trip canceled, any ideas for 6 days in Idaho?" (2023-08-06, 58 comments): "Stanley is one of the most beautiful places in the country. Mountain lakes, hot springs, tough hikes" (30 upvotes); "Hot pots on Salmon (near Sunbeam)"; "Petit Lake, and yellowbelly lake is an easy hike"; Challis was "super crowded" for the Braun Brothers Reunion festival on Aug 10–12, 2023 (a 2023 date; 2027's isn't checked).
+
+### The Outback and the roads
+- 📋 **Fourth of July Creek Road** (White Clouds, ~15 mi south of Stanley off SH-75): "It's a rough road but easy hike" (Idaho Statesman headline); "I saw some sedans at the trailhead, so it's passable by most cars" (AllTrails review, undated). Fourth of July Lake: 1.77 mi / 615 ft (Idaho Statesman); trailhead ~8,760–8,880 ft (idahocampgroundreview.com; sawtoothtrails.com). Not on the plan's hike menu.
+- 📋 **FSR 666 to Slate Creek**: "bumpy, unpaved"; washouts after summer storms (above).
+- 📋 **Valley Creek lot**: a hump a rental car avoided (above).
+- 📋 For contrast, **Indian Bathtub** (Bruneau, off route): "the access road can defeat anything without clearance and four-wheel drive" (idahohotsprings.com).
+
+### Questions for Colin (not applied)
+- Which hot springs to add to the extension's menu, if any (Slate Creek as the one hike-plus-ruins soak near Stanley; Goldbug as a day trip north; the roadside ones as evening soaks).
+- Fourth of July Lake as a White Clouds hike now that the car can take a rough road.
