@@ -123,6 +123,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Motel nights are functional here
 - **Oregon Coast + Crater Lake** (`wishlist/oregon-coast-crater.md`) · Oregon / Northern California · fly · keeps (derived) · Sep · 12 nights, three landscapes · updated 2026-09-03
   Inverts the effort-equals-payoff model
+- **Outer Banks Bodyboard Week** (`wishlist/outer-banks.md`) · Hatteras and Ocracoke Islands, North Carolina · drive · keeps (derived) · Jun/Jul/Aug/Sep · 6 days · 1 research note · updated 2026-11-12
+  Dune-top camp, warm Atlantic, small waves over a sandbar
 - **Owens Valley + Alabama Hills** (`wishlist/owens-valley.md`) · Lone Pine, California · fly · keeps (derived) · Apr/May/Oct · 3–4 nights · updated 2026-10-05
   Alabama Hills granite under the Sierra wall
 - **Pinnacles** (`wishlist/pinnacles.md`) · Central California · fly · keeps (derived) · Mar/Apr/May/Oct · 2–3 nights · updated 2026-10-05
