@@ -127,3 +127,28 @@ Colin asked for "wild hot springs where you can hike to them, not glorified publ
 ### Questions for Colin (not applied)
 - Which hot springs to add to the extension's menu, if any (Slate Creek as the one hike-plus-ruins soak near Stanley; Goldbug as a day trip north; the roadside ones as evening soaks).
 - Fourth of July Lake as a White Clouds hike now that the car can take a rough road.
+
+## 2026-11-12 (later) · Hike-to huts, and Shower Bath in detail
+Colin asked about huts he could reserve and hike to, with "not too long of a hike… carrying sleeping pad and sleeping bag is a pain, only if it's like right there", and asked for a closer look at Shower Bath. Nothing applied to `trip.md`.
+
+### Glacier's chalets (official sites, read 2026-11-12)
+- ✅ **Granite Park Chalet** (graniteparkchalet.com): reached only by trail; **Highline from Logan Pass 7.6 mi, moderate; the Loop 4.2 mi with a 2,300 ft climb** (FAQ). 2026 rates per room: **2-person $265, 4-person $475, 6-person $685**, plus Montana accommodations tax; twin bunk beds; **optional linen package $40 a person (sheets, pillow, pillowcase, blankets), ordered at least 14 days ahead**. Food is self-cooked in the chalet kitchen, or pre-ordered from its retail menu. 2026 season Jun 29 – Sep 12. Cancellation: full refund less $25 at 30+ days; the deposit is forfeited at 15–29 days; nothing back at 14 days or fewer. AllTrails adds "There is no water source at the chalet".
+- ✅ **2027 lottery** (graniteparkchalet.com/reservationlottery.php): two separate lotteries, Granite Park and Sperry. **Entries Dec 1–31, 2026** (11:59 PM MST), one per person per chalet, **$3 nonrefundable fee**, no advantage to entering early. Results by **Jan 6, 2027**; selected applicants book **Jan 11–15**; waitlist **Jan 18–19**; **public first-come from Jan 20, 2027**. A 50% deposit at booking; max 3 nights and 12 people; one reservation per selected applicant; "Being selected does not guarantee a reservation."
+- ✅ **Sperry Chalet** (sperrychalet.com): "Three meals with each night's stay", "plenty of warm blankets"; the Sperry Trail starts at Lake McDonald Lodge, **6.7 mi and 3,300 ft** (FAQ snippet). Same lottery dates. 3,300 ft is over the ~2,500 ft ceiling (`me/hiking.md`).
+- 📋 Granite Park via the Highline, AllTrails (11.6 mi point to point Logan Pass → the Loop, 1,233 ft gain, Hard): Aug 2026 reviews mention a grizzly in berry patches near the chalet, a trail closure for a goat carcass, and the Loop descent being hot and sun-exposed.
+
+### Near the Sawtooths
+- 📋 **Redfish Cabin** (recreation.gov facility page): a 1930s CCC cabin above the north shore of Redfish Lake, 6,570 ft, sleeps 3 on a log bunk/futon (single mattress above, double below), electric lights, outhouse 50 ft away, picnic table and fire ring. It's **beside the Redfish amphitheater, so drive-up, not hike-in**. Fee and window not read.
+- 📋 **Idaho City backcountry yurts** (parksandrecreation.idaho.gov): ~1.5 h (56–63 mi) north of Boise; "In summer, the yurts are accessed by a few hundred yard hike". Banner Ridge's summer guide: views of the South Fork Payette canyon and "the scenic Sawtooth Mountains". ⬜ What bedding is provided, fees, and whether they're open to summer bookings in 2027 weren't read.
+- ⚠️ **Basin Butte Lookout**, north of Stanley, "available for rent" (a 2013 blog post). Current status unknown.
+
+### Shower Bath, in detail
+- ✅ **AllTrails** (MCP, 2026-11-12): "Shower Bath Hot Springs via Mahoney Creek Trail", **11.8 mi out and back, 2,595 ft, Hard**, ~6 h 8 min. 10Adventures (updated 2026-07-21): 11.3 mi, 2,598 ft, 5.5–7.5 h. hotspringsguides.com: 11.4 mi, ~2,591 ft. **Trailhead: Mahoney Creek, off Sleeping Deer Road, from Challis.**
+- ✅ **10Adventures route description:** "the road to the trailhead is rough and rugged — only vehicles with high ground clearance should attempt the journey"; "the poorly signposted trail and overgrowth"; "You may want to use the GPS here as it is easy to get off-track"; several creek crossings in a steep-walled canyon; past the Warm Springs Ranger Cabin and the **Sitz Bath** ("not the Shower Bath Springs"); then the ford through **the Narrows**; "the water runs high year-round"; "The insects are relentless". Passes "an old rustic run-down cabin" near the start.
+- 📋 **AllTrails reviews** (undated in the snippet): "one lane mountain road and you need a high clearance vehicle"; vs. "you don't need anything crazy just some clearance and good tires so you don't get a flat"; "Camped at the trailhead, nice and flat"; "3hrs down, 3.5hrs back up"; "about 1300ft of elevation gain in the last mile on the way back"; the creek ford "shin deep most of the way" (vs. 10Adventures' "runs high"); "didn't encounter any other campers".
+- 📋 Gaia GPS lists "Sleeping Deer Road ★★★ DIFFICULT 41.6 mi" on the route page (snippet; what the rating covers isn't clear).
+- 📋 hotspringsguides.com: source ~122°F, cooling as it pours over the cliff faces. idahohotsprings.com (earlier entry): roads open ~July–October; snakes, black bear, mountain lion.
+
+### Questions for Colin (not applied)
+- Granite Park Chalet on Day 15 (Jul 26, the Highline with Ethan and Finn): the lottery entry window is Dec 1–31, 2026. It breaks principle 1 (a hike-in night and a lottery), so it needs his call and a written reason.
+- Shower Bath: whether it's worth an exception to the solo limits in `me/hiking.md` (no route-finding where getting lost is the risk) and the clearance rule.

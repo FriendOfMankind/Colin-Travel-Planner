@@ -71,7 +71,9 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 
 ## 8b. The Sawtooths extension (Aug 13–20, optional; proposal in `trip.md`'s open questions)
 *(added 2026-11-12)*
-- 🟡 **Hike-to hot springs**: Slate Creek/Hoodoo (short hike, bumpy FSR 666, mine ruins, heavy use, extreme bugs; 0.3 vs 4.6 mi disagreement) and Goldbug (~2 mi / ~1,400 ft, BLM, crowded by 9 AM, north via Challis, unrouted). ⬜ trail length and trailhead for Shower Bath (wilderness, roads Jul–Oct). 🔒 a 2025–26 report on the FSR 666 road
+- 🟡 **Hike-to hot springs**: Slate Creek/Hoodoo (short hike, bumpy FSR 666, mine ruins, heavy use, extreme bugs; 0.3 vs 4.6 mi disagreement) and Goldbug (~2 mi / ~1,400 ft, BLM, crowded by 9 AM, north via Challis, unrouted). 🔒 a 2025–26 report on the FSR 666 road
+- 🟡 **Shower Bath**: Mahoney Creek TH off Sleeping Deer Road from Challis; 11.3–11.8 mi / ~2,600 ft, downhill in and the climb on the way out; fords plus the Narrows; poorly signed, GPS advised; the road is "high clearance" per two sources vs "some clearance and good tires" per one review; flat camping at the TH *(2026-11-12)*. ⬜ Stanley → TH drive time; a 2025–26 road report (fetch list 6)
+- 🟡 **Hike-to huts** *(2026-11-12)*: Glacier's Granite Park Chalet (linens rentable, so no bag or pad; 2027 lottery Dec 1–31, 2026) and Sperry (meals and blankets, 3,300 ft); Idaho City yurts (a few hundred yards in summer) ⬜ bedding and fees; Redfish Cabin is drive-up
 - ✅ **Roadside soaks near Stanley**: Boat Box, Sunbeam (heavy use), Cove/Basin Creek (often too cool), Valley Creek (free pool vs reservation-only tubs: split); Kirkham, Bonneville, Pine Flats on the SH-21 drive in *(2026-11-12)*
 - 🟡 **Frenchman's Bend** (Ketchum, on the way out): roadside per idahohotsprings.com vs "4 mile hike" per a Facebook post. ⬜ current Warm Springs Road access
 - 🟡 **Roads for the Outback**: Fourth of July Creek Road "rough" but sedans reach it; FSR 666 bumpy with storm washouts. ⬜ tires on the Outback (`me/profile.md` doesn't say)
