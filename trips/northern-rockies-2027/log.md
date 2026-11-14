@@ -375,3 +375,9 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Distance:** "~6,000+ mi, unrouted" → ~6,300 mi in all: 3,307 mi now drawn on real roads (Days 2–31), Day 1's routed 640, and ~2,400 for the undrawn drive home. **Fuel ~$1,100–1,300** at the V6's ~22 mpg (Claude's estimate; no July 2027 gas price sourced). Added to `budget:`, which is otherwise still TBD.
 - The after-Oregon flex row still offered "the Tetons" as a maybe; they're on Day 12 now. Two "(was …)" notes removed from the plan (the history is in this log).
 - **Calendar:** the five January windows (Slough Creek 21, Madison 22, Colter Bay 23, Avalanche 25, Many Glacier 27) are in `booking-alarms.ics` at 10:00 AM ET, alarms at 7 PM the night before and 10 min before. Colin subscribes to the Pages copy.
+
+## 2026-11-14 · Sun times: one method for the whole trip
+
+- **Every sun time on Days 2–18 recomputed** at the verified pins with the standard convention (sunrise/sunset at −0.833°, no horizon dip), which is what weather apps show *(Colin asked, 2026-11-14: "fix the sun times too")*. The old Trees rows added a dip for elevation and ran 7–10 min generous on sunsets, most at the high camps: the Bighorns now set at 8:50 PM (was 9:00), Glacier at 9:17–9:23 (was 9:25–9:32). Days 2–3 had "TBD" though Vedauwoo and Brooklyn Lake were pinned on 2026-10-30. Rule: dawn at the camp the day starts from, dusk at that night's camp. Day 1 stays TBD (its motel isn't picked).
+- Day 31's Rowena Crest sunset computed too (Pacific Time). The Glacier invite's "Sunset is around 9:30 PM" → 9:20, republished.
+- These are astronomical times: behind a ridge the light goes earlier.
