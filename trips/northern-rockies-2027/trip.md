@@ -19,8 +19,8 @@ country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 35 nights
-distance: ⚠️ ~6,000+ mi, unrouted
-budget: TBD — the old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+distance: "~6,300 mi in all (Claude's estimate): 3,307 mi drawn on real roads for Days 2–31 (tools/roads.py, 2026-11-14), plus Day 1 (640 mi, routed) and the drive home (Days 32–36, ~2,400 mi, unrouted)"
+budget: TBD. Fuel alone ~$1,100–1,300 (Claude's estimate, 2026-11-14 — ~6,300 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -55,7 +55,7 @@ booking:
   - system: recreation.gov
     what: Many Glacier, Glacier NP (Jul 27–29)
     target: 2027-07-27
-    note: One of the three Glacier campgrounds that go the day the window opens. Second half of the Glacier stay since the 2026-11-08 flip (was Jul 23–26). All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
+    note: One of the three Glacier campgrounds that go the day the window opens. Second half of the Glacier stay since the 2026-11-08 flip. All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
   - system: recreation.gov
     what: Avalanche (first choice) or Apgar, Glacier NP (Jul 25–26)
     target: 2027-07-25
@@ -108,7 +108,7 @@ booking:
     what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 13–18, 5 nights)"
     target: 2027-08-13
     note: "Only if the after-Oregon extension is still alive in February; see the open question. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
-updated: 2026-11-08
+updated: 2026-11-14
 map:
   center: [ 45.5, -106 ]
   zoom: 5
@@ -1651,7 +1651,7 @@ Optional, decided from the road *(Colin, 2026-11-02)*. If extended: **the Sawtoo
 | Aug 12 | Friends to PDX, then east on I-84 to Pendleton or La Grande. Transit night. ⚠️ unrouted |
 | Aug 13 | → Boise → SH-21 → Stanley. Boise → Stanley is ~2.5–3 h *(idahorivers.com, in log.md)*; the leg to Boise is unrouted. If SH-21 is closed, go US-20 → SH-75 over Galena Summit instead (longer, unrouted). |
 | Aug 13–18 | **5 nights in the Sawtooths**, Outlet CG at Redfish Lake if held (below) |
-| Aug 18–20 | **Flex, 0–3 nights** (was 0–5 before the coast days): more Sawtooths, or start east early with a stop at Craters of the Moon, the Tetons / Wind Rivers or the High Uintas (none researched for camping) |
+| Aug 18–20 | **Flex, 0–3 nights**: more Sawtooths, or start east early with a stop at Craters of the Moon, the Wind Rivers or the High Uintas (the Tetons are on Day 12 now) (none researched for camping) |
 | **Aug 21, morning** | **The latest you can leave the west.** Stanley → Avon is ~2,000 mi *(recalled, unrouted)*, so 4 driving days at ~500 mi → home the evening of Aug 24, with Aug 25 spare before work on Aug 31 |
 
 Hike menu, all inside the ~10 mi / ~2,500 ft ceiling *(AllTrails, 2026-11-02)*: Fishhook Creek 4.6 mi / 262 ft (the arrival-day leg stretch, from Redfish), Bench Lakes 8.2 mi / 1,190 ft (from Redfish), Alpine Lake via Iron Creek 7.7 mi / 1,240 ft, **Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft (the headliner, right at the ceiling)**, Yellow Belly Lake from Pettit 5.1 mi / 964 ft. Alice–Toxaway is 18.8 mi / 3,116 ft on AllTrails, so it's off the menu.

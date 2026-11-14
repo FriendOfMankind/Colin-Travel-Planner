@@ -369,3 +369,9 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Sun computed** at the Oxbow pin: Day 12 sunset 8:56 PM, Day 13 sunrise 6:02 AM (first light 5:28).
 - **Still needed:** Colter Bay's own pin (seeded in the ledger), then `tools/roads.py` for Days 12–13 and the poster.
 - **Colter Bay pinned** *(Colin, 2026-11-14)*, and **"the $59 is what it is, it's only one night"** *(Colin, 2026-11-14)*. Days 12–13 routed by `tools/roads.py`: Day 12 117 mi; Day 13 464 mi, which the router sent **north through Yellowstone** to Butte and Missoula, not south via Jackson (~485 mi). Close to a wash; the plan says pick on the morning. Madison's sun times were still "TBD, no verified coordinate" though it's been pinned since 2026-10-30: computed (Jul 22 sunset 9:00 PM, Jul 23 sunrise 6:00 AM).
+
+## 2026-11-14 · Consistency pass after the Tetons
+
+- **Distance:** "~6,000+ mi, unrouted" → ~6,300 mi in all: 3,307 mi now drawn on real roads (Days 2–31), Day 1's routed 640, and ~2,400 for the undrawn drive home. **Fuel ~$1,100–1,300** at the V6's ~22 mpg (Claude's estimate; no July 2027 gas price sourced). Added to `budget:`, which is otherwise still TBD.
+- The after-Oregon flex row still offered "the Tetons" as a maybe; they're on Day 12 now. Two "(was …)" notes removed from the plan (the history is in this log).
+- **Calendar:** the five January windows (Slough Creek 21, Madison 22, Colter Bay 23, Avalanche 25, Many Glacier 27) are in `booking-alarms.ics` at 10:00 AM ET, alarms at 7 PM the night before and 10 min before. Colin subscribes to the Pages copy.
