@@ -4,23 +4,23 @@ title: The Long Way to Glacier
 subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week
 months: [ 7, 8 ]
 mode: drive
-days: 36
+days: 41
 target: 2027-07-12
 emoji: 🏔️
 theme: alpine
 status: outline
 pinned: true
 start: null
-dates: Jul 12 – Aug 16, 2027 (target, unbooked)
+dates: Jul 12 – Aug 21, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
 region: Avon OH → IA → NE → WY → MT → WY (Tetons) → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → home
 states: [ WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
-nights: 35 nights
-distance: "~6,300 mi in all (Claude's estimate): 3,307 mi drawn on real roads for Days 2–31 (tools/roads.py, 2026-11-14), plus Day 1 (640 mi, routed) and the drive home (Days 32–36, ~2,400 mi, unrouted)"
-budget: TBD. Fuel alone ~$1,100–1,300 (Claude's estimate, 2026-11-14 — ~6,300 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+nights: 40 nights
+distance: "~6,600 mi in all (Claude's estimate) — 3,307 mi drawn on real roads for Days 2–31 (tools/roads.py, 2026-11-14), Day 1 (640 mi, routed), Portland → Stanley (~560 mi) and Stanley → home (~2,000 mi), both unrouted, plus ~150 mi around the Sawtooths"
+budget: TBD. Fuel alone ~$1,150–1,350 (Claude's estimate, 2026-11-14 — ~6,600 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -105,24 +105,24 @@ booking:
     target: 2027-08-09
     note: 2027 calendar already live; 50% deposit, full refund 7+ days out (wetplanetwhitewater.com, 2026-10-15).
   - system: recreation.gov
-    what: "Optional hold: Outlet CG, Redfish Lake, Sawtooths (Aug 13–18, 5 nights)"
+    what: "Outlet CG, Redfish Lake, Sawtooths (Aug 13–18, 5 nights)"
     target: 2027-08-13
-    note: "Only if the after-Oregon extension is still alive in February; see the open question. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
+    note: "The Sawtooths are in the plan (Colin, 2026-11-14), skippable: see Notes. 19 sites, all reservable, $26/night standard single, $52 double, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancel before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet, 2026-11-02); whether the reservation fee comes back isn't checked."
 updated: 2026-11-14
 map:
   center: [ 45.5, -106 ]
   zoom: 5
 page:
   title: The Long Way to Glacier
-  subtitle: Solo, then friends · Avon OH → Snowy Range → Bighorns → Beartooth → Yellowstone → Glacier → Oregon → home
-  dates: Monday, July 12 – Monday, August 16, 2027
+  subtitle: Solo, then friends · Avon OH → Snowy Range → Bighorns → Beartooth → Yellowstone → Glacier → Oregon → Sawtooths → home
+  dates: Monday, July 12 – Saturday, August 21, 2027
   emoji: 🏔️
   theme: alpine
   vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Outback for Aug 1–12; the own-car group rents its own car and picks its own dates."
-  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
+  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days, the Sawtooths and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
-    - num: 36 days
+    - num: 41 days
       lbl: Length
     - num: ~6,000+ mi
       lbl: Driving (unrouted)
@@ -136,7 +136,7 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **a night under the Tetons and one on Flathead Lake**, then **five nights at Glacier with Ethan and Finn**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **a night under the Tetons and one on Flathead Lake**, then **five nights at Glacier with Ethan and Finn**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, then **five nights in the Sawtooths** on the way home (skip them if you want). July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 40 nights, nearly four times your longest trip.** Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are soft on purpose.
 
 ## Overview
 
@@ -144,7 +144,7 @@ Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy R
 
 ### Dates
 
-July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days added to the Oregon week)* *(Colin, 2026-10-29: leave a day earlier to make room for a second Yellowstone day. The 2026-10-10 week-later shift still holds, so the Grinnell Glacier trail is open: it opened ~July 15 in 2026)*
+July 12 – August 21, 2027 · 41 days / 40 nights *(2026-11-14: the Sawtooths added, skippable; without them, home Aug 16)* *(2026-11-04: two coast days added to the Oregon week)* *(Colin, 2026-10-29: leave a day earlier to make room for a second Yellowstone day. The 2026-10-10 week-later shift still holds, so the Grinnell Glacier trail is open: it opened ~July 15 in 2026)*
 
 ### Group
 
@@ -175,7 +175,7 @@ The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation
 
 ### Length
 
-The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
+The profile says 2–5 campgrounds and 5–10 nights. This is **40 nights**, nearly four times the 11-day Appalachians run. **Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
 
 ### Timing vs Newfoundland
 
@@ -1361,26 +1361,249 @@ None.
 
 ```yaml
 date: 2027-08-12
-tagline: Airport drop, then the long way home starts.
+tagline: Airport drop, then east up the Columbia toward Idaho.
 type: travel
-driving: Hood River → PDX, then east (⚠️ unrouted)
+driving: ⚠️ Hood River → PDX, then I-84 east to La Grande, ~260 mi from PDX (my estimate, unrouted)
+slack: Some. Nothing is booked tonight.
+overnight:
+  name: TBD — motel, La Grande area
+  mapStandIn: La Grande, OR
+  place: La Grande, OR
+  kind: Transit night — not identified
+  cost: TBD
+  checkin: Unknown
+  confirmation: TBD
+  notes: ⚠️ Transit night. Pendleton is the shorter fallback.
+```
+
+**Schedule**
+- morning · drive · **The riders to PDX** for their flights. The own-car group returns its car whenever it leaves. · 📍 Portland International Airport
+- afternoon · drive · East on I-84 through the Gorge and up onto the plateau. ⚠️ Unrouted. · 📍 La Grande Oregon
+
+**Meals**
+- B: bought
+- L: bought
+- D: bought
+
+#### Highlights
+
+The end of the friends' week, and the start of the last good part instead of four days of interstate.
+
+#### Warnings
+
+Twelve days with friends, then a solo afternoon on I-84. Stop early if it's going badly; Pendleton is closer.
+
+### Day 33 — 2027-08-13 · Over the Mountains to Stanley
+
+```yaml
+date: 2027-08-13
+tagline: Boise for groceries, then the Payette canyon on SH-21, a soak at Kirkham, and the Sawtooths at the end of it.
+type: travel
+driving: ⚠️ ~6h + stops, La Grande → I-84 → Boise → SH-21 (Idaho City, Lowman) → Stanley. Boise → Stanley is ~2.5–3h (idahorivers.com, in log.md); the rest is unrouted
+slack: Some. Kirkham is the first cut.
+overnight:
+  name: Outlet Campground
+  place: Redfish Lake, Sawtooth NRA, ID
+  kind: USFS campground
+  cost: "$26/night standard single (recreation.gov facility data, 2026-11-02), plus a reservation fee not checked"
+  checkin: 🚨 Book 6 months out on recreation.gov (the briefing computes it) · night 1 of 5
+  confirmation: TBD
+  notes: "19 sites, all reservable, 6,500 ft, flush toilets and water; peak season May 21 – Sep 16, 2027; max stay 10 nights (recreation.gov facility data, 2026-11-02). Cancelling costs $10 until 12:00 AM local the day before arrival (recreation.gov rules page, snippet). Dispersed camping around Redfish, Stanley Lake, Iron Creek and Pettit is only at designated sites with the camping symbol (fs.usda.gov Sawtooth NRA order, in log.md)."
+```
+
+**Schedule**
+- 6:30 AM (3h 30m) · drive · → Boise on I-84. ⚠️ Unrouted. **Resupply in Boise**: five nights of camp food, the last big town. · 📍 Boise Idaho
+- 11:00 AM (2h) · drive · → SH-21 through Idaho City toward Lowman. ⚠️ **Check SH-21 is open before leaving Boise** (a 2023 thread had it "closed most of the week"; in log.md). If it's closed: US-20 → SH-75 over Galena Summit, longer, unrouted. · 📍 Lowman Idaho
+- 1:00 PM (1h) · stop · **Kirkham Hot Springs**: riverside pools on the South Fork Payette, roadside, "very hot and sunny" in summer, gate closes 9 PM (fs.usda.gov Boise NF, read 2026-11-12). A soak to break the drive. · 📍 Kirkham Hot Springs Lowman
+- 2:00 PM (1h 30m) · drive · → Stanley over Banner Summit. · 📍 Stanley Idaho
+- 4:00 PM (1h) · stop · Set up at Outlet. Then the Redfish Lake shore. · 📍 Outlet Campground Redfish Lake
+- TBD · sunset · Sunset TBD until Outlet is pinned.
+
+**Meals**
+- B: bought
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+Five nights in one place after two travel days: the first real stop since the friends left, and the Sawtooths across Redfish Lake from camp.
+
+#### Warnings
+
+**Fire and smoke are this stretch's real risk.** The 2024 Wapiti Fire evacuated Lower Stanley on Aug 27 and closed SH-21 and parts of SH-75 (itd.idaho.gov, in log.md); SW Idaho had smoke advisories Aug 3–7, 2026. See "The Sawtooths ending, and how to skip it" in Notes.
+
+### Day 34 — 2027-08-14 · Fishhook Creek and a Hot Pot
+
+```yaml
+date: 2027-08-14
+tagline: A flat walk up a creek to the wall of the range, then a soak by the Salmon.
+type: activity
+driving: ⚠️ ~30 mi round trip for the hot springs (my estimate)
+slack: Large. The first soft day after the drive in.
+overnight:
+  name: Outlet Campground
+  place: Redfish Lake, Sawtooth NRA, ID
+  kind: USFS campground
+  cost: "$26/night"
+  checkin: n/a — night 2 of 5
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- morning · stop · Slow camp morning. A Saturday, so the busy trails wait.
+- 10:00 AM (2h 30m) · hike · **Fishhook Creek.** ✅ AllTrails: **4.6 mi, 262 ft** *(2026-11-02)*. From Redfish, an easy leg-stretch into a meadow under the peaks. · 📍 Fishhook Creek Trailhead Redfish Lake
+- afternoon · stop · Redfish Lake beach. Swim if it's warm.
+- 6:00 PM (1h 30m) · stop · **A hot pot by the Salmon River**: Boat Box (~4 mi from Stanley, a chained tub for 2–3) or Sunbeam (~12 mi, "heavy use, extreme in summer") *(YouTube, Live That Adventure, 2022; idahohotsprings.com; in research-log.md)*. Roadside. · 📍 Sunbeam Hot Springs Idaho
+- TBD · sunset · Sunset TBD until Outlet is pinned.
+
+**Meals**
+- B: made at camp
+- L: made at camp
+- D: made at camp
+
+#### Highlights
+
+The soft day, with a soak at the end of it.
+
+#### Warnings
+
+The river pools by the highway are hot and slippery. Test the water before getting in.
+
+### Day 35 — 2027-08-15 · Bench Lakes
+
+```yaml
+date: 2027-08-15
+tagline: Up from Redfish to a string of lakes under Mount Heyburn.
+type: activity
+driving: none (the trail starts at Redfish)
+slack: ~2 hours.
+overnight:
+  name: Outlet Campground
+  place: Redfish Lake, Sawtooth NRA, ID
+  kind: USFS campground
+  cost: "$26/night"
+  checkin: n/a — night 3 of 5
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 8:00 AM (4h 30m) · hike · **Bench Lakes.** ✅ AllTrails: **8.2 mi, 1,190 ft** *(2026-11-02)*. From the Redfish trailhead. · 📍 Bench Lakes Trailhead Redfish Lake
+- afternoon · stop · Back at camp. Lake, book, nap.
+- TBD · sunset · Sunset TBD until Outlet is pinned.
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+A big view for moderate work, from camp, on the Sunday.
+
+#### Warnings
+
+None beyond the usual: water, layers, bear-aware food storage at camp.
+
+### Day 36 — 2027-08-16 · Sawtooth Lake
+
+```yaml
+date: 2027-08-16
+tagline: The headliner, on a Monday, past Alpine Lake to the big lake under Mount Regan.
+type: activity
+driving: ⚠️ ~20 mi each way to Iron Creek (my estimate)
+slack: Little. The longest hike of the Sawtooths.
+overnight:
+  name: Outlet Campground
+  place: Redfish Lake, Sawtooth NRA, ID
+  kind: USFS campground
+  cost: "$26/night"
+  checkin: n/a — night 4 of 5
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 6:30 AM (30m) · drive · → Iron Creek Trailhead, west of Stanley. ⚠️ Estimate. · 📍 Iron Creek Trailhead Stanley
+- 7:00 AM (6h) · hike! · **Sawtooth Lake via Iron Creek.** ✅ AllTrails: **9.8 mi, 1,791 ft** *(2026-11-02)*, right at the ~10 mi ceiling. Alpine Lake is a short side trip on the way. Turnaround: 12:30 PM wherever you are. · 📍 Iron Creek Trailhead Stanley
+- afternoon · stop · Back to camp. Rest.
+- TBD · sunset · Sunset TBD until Outlet is pinned.
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+The lake in every Sawtooths photo, on a weekday.
+
+#### Warnings
+
+**At the ceiling, solo.** Turnaround 12:30 PM; afternoon storms build over the range in August *(Claude's recall)*.
+
+### Day 37 — 2027-08-17 · White Clouds and Pettit
+
+```yaml
+date: 2027-08-17
+tagline: A short climb to an alpine lake on the rough road the Outback can now take, then a lake walk from Pettit.
+type: activity
+driving: ⚠️ ~60 mi round trip, part on Fourth of July Creek Road (unpaved; my estimate)
+slack: Large. Either half drops cleanly.
+overnight:
+  name: Outlet Campground
+  place: Redfish Lake, Sawtooth NRA, ID
+  kind: USFS campground
+  cost: "$26/night"
+  checkin: n/a — night 5 of 5
+  confirmation: TBD
+  notes: ""
+```
+
+**Schedule**
+- 8:00 AM (1h) · drive! · → Fourth of July Trailhead, ~15 mi south of Stanley off SH-75. "It's a rough road but easy hike" (Idaho Statesman); "I saw some sedans at the trailhead" (AllTrails review, undated). **The trailer test** (`me/principles.md` 2): if it turns rough, turn around. · 📍 Fourth of July Trailhead Idaho
+- 9:00 AM (2h) · hike · **Fourth of July Lake.** 📋 **1.77 mi, 615 ft** (Idaho Statesman, in research-log.md). A White Clouds lake from a trailhead near 8,800 ft. · 📍 Fourth of July Trailhead Idaho
+- 1:00 PM (2h 30m) · hike · **Yellow Belly Lake from Pettit.** ✅ AllTrails: **5.1 mi, 964 ft** *(2026-11-02)*. Pettit parking was $10 a day (bellebucket.com, in log.md). · 📍 Pettit Lake Trailhead Idaho
+- evening · stop · Last night at Outlet. Pack the car for the drive home.
+- TBD · sunset · Sunset TBD until Outlet is pinned.
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+
+The White Clouds, the range across the valley that most visitors skip, and the first rough road this car was bought for.
+
+#### Warnings
+
+Fourth of July Creek Road is unpaved and not checked for the Outback. Turn around without regret; Pettit alone fills the day.
+
+### Day 38 — 2027-08-18 · East
+
+```yaml
+date: 2027-08-18
+tagline: Long day 1 of 4.
+type: travel
+driving: ⚠️ ~550 mi, unrouted. Stanley → Avon is ~2,000 mi (recalled, unrouted)
 slack: None.
 overnight:
-  name: TBD — east of Portland on the way home
+  name: TBD
   place: TBD
   kind: Transit night — not identified
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 2 of 5.
+  notes: ⚠️ Transit night 1 of 3.
 ```
 
 **Schedule**
-- morning · drive · **The riders to PDX** for their flights. The own-car group returns its car whenever it leaves.
-- afternoon · drive · Start east. ⚠️ Route home not chosen; ~2,400 mi to Avon is my unrouted estimate.
+- 6:00 AM · drive! · East. Two-hour stops, no exceptions.
 
 **Meals**
-- B: bought
+- B: made at camp
 - L: bought
 - D: bought
 
@@ -1390,15 +1613,15 @@ Nothing. That is fine.
 
 #### Warnings
 
-Twelve days with friends, then straight into four days alone on the interstate. Stop early if it's going badly.
+Long days at the end of five weeks on the road.
 
-### Day 33 — 2027-08-13 · East
+### Day 39 — 2027-08-19 · East
 
 ```yaml
-date: 2027-08-13
-tagline: Long day 1 of 3.
+date: 2027-08-19
+tagline: Long day 2 of 4.
 type: travel
-driving: ⚠️ ~550–650 mi, unrouted
+driving: ⚠️ ~550 mi, unrouted
 slack: None.
 overnight:
   name: TBD
@@ -1407,41 +1630,7 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 3 of 5.
-```
-
-**Schedule**
-- 6:00 AM · drive! · East. Two-hour stops, no exceptions.
-
-**Meals**
-- B: packed
-- L: bought
-- D: bought
-
-#### Highlights
-
-Nothing.
-
-#### Warnings
-
-Long days at the end of a month on the road.
-
-### Day 34 — 2027-08-14 · East
-
-```yaml
-date: 2027-08-14
-tagline: Long day 2 of 3.
-type: travel
-driving: ⚠️ ~550–650 mi, unrouted
-slack: None.
-overnight:
-  name: TBD
-  place: TBD
-  kind: Transit night — not identified
-  cost: TBD
-  checkin: Unknown
-  confirmation: TBD
-  notes: ⚠️ Transit night 4 of 5.
+  notes: ⚠️ Transit night 2 of 3.
 ```
 
 **Schedule**
@@ -1460,13 +1649,13 @@ Nothing.
 
 Same as yesterday.
 
-### Day 35 — 2027-08-15 · East
+### Day 40 — 2027-08-20 · East
 
 ```yaml
-date: 2027-08-15
-tagline: Long day 3 of 3.
+date: 2027-08-20
+tagline: Long day 3 of 4.
 type: travel
-driving: ⚠️ ~550–650 mi, unrouted
+driving: ⚠️ ~550 mi, unrouted
 slack: None.
 overnight:
   name: TBD
@@ -1475,7 +1664,7 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 5 of 5.
+  notes: ⚠️ Transit night 3 of 3.
 ```
 
 **Schedule**
@@ -1494,20 +1683,20 @@ Nothing.
 
 If the split goes badly, make tomorrow the long one. Nothing depends on it.
 
-### Day 36 — 2027-08-16 · Home
+### Day 41 — 2027-08-21 · Home
 
 ```yaml
-date: 2027-08-16
+date: 2027-08-21
 tagline: The long way home, the really long way.
 type: travel
-driving: The rest of it
+driving: The rest of it, ~350 mi
 slack: All of it — work starts Aug 31.
 overnight: null
 ```
 
 **Schedule**
 - morning · drive · → Avon OH.
-- arrival · note · Fifteen days before full-time work starts.
+- arrival · note · Ten days before full-time work starts.
 
 **Meals**
 - B: packed
@@ -1516,11 +1705,11 @@ overnight: null
 
 #### Highlights
 
-The Snowy Range, Bighorns, Beartooth, Glacier and twelve days of Oregon with friends, in one trip.
+The Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, Glacier, twelve days of Oregon with friends, and the Sawtooths, in one trip.
 
 #### Warnings
 
-The Outback will have done ~6,000+ miles (unrouted) in a month. **Get it looked at.**
+The Outback will have done ~6,600 miles in five and a half weeks. **Get it looked at.**
 
 ## Hikes
 
@@ -1577,7 +1766,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### The range problem — this trip's defining one
 
-- [ ] **Full cold kit AND full heat kit, simultaneously, for 36 days.** Beartooth at 34°F and the Deschutes canyon in August are in the same duffel.
+- [ ] **Full cold kit AND full heat kit, simultaneously, for 41 days.** Beartooth at 34°F and the Deschutes canyon in August are in the same duffel.
 - [ ] Siesta 20 + MondoKing — right for Beartooth, overkill everywhere else. Take both anyway.
 - [ ] Sun hoody and a wide-brim hat for the Oregon desert days
 - [ ] Rain shell that actually works — Bighorn and Beartooth afternoon storms are near-daily in July
@@ -1634,31 +1823,10 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **South Sister permits, Aug 6** — released Jul 27 and Aug 4 at 7:00 AM PDT (computed, see Day 26); a rider books.
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
-- [ ] *Optional:* **Outlet CG, Sawtooths, Aug 13–18** — hold only if the after-Oregon extension is still alive. The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 33, 34, 35.** The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
+- [ ] **Outlet CG, Sawtooths, Aug 13–18** — in the plan (2026-11-14). The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
+- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 38, 39, 40.**  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
 
 ## Open questions
-
-### Extend the trip after Oregon, or drive straight home?
-
-**Blocks:** Aug 12–16 (the drive home) and the open stretch to Aug 31
-Optional, decided from the road *(Colin, 2026-11-02)*. If extended: **the Sawtooths (Stanley, Idaho) or somewhere new, not Colorado**; day hikes from a car camp; **home by about Aug 25**. Smoke is the deciding risk: check air quality from Bend. Findings and fallbacks are in `log.md` (2026-11-02).
-
-**The proposal** *(Claude's suggestion, 2026-11-02, shifted two days on 2026-11-04 when the coast was added; nothing booked; Days 32–36 stay as the default until you choose this)*:
-
-| When | What |
-| --- | --- |
-| Aug 12 | Friends to PDX, then east on I-84 to Pendleton or La Grande. Transit night. ⚠️ unrouted |
-| Aug 13 | → Boise → SH-21 → Stanley. Boise → Stanley is ~2.5–3 h *(idahorivers.com, in log.md)*; the leg to Boise is unrouted. If SH-21 is closed, go US-20 → SH-75 over Galena Summit instead (longer, unrouted). |
-| Aug 13–18 | **5 nights in the Sawtooths**, Outlet CG at Redfish Lake if held (below) |
-| Aug 18–20 | **Flex, 0–3 nights**: more Sawtooths, or start east early with a stop at Craters of the Moon, the Wind Rivers or the High Uintas (the Tetons are on Day 12 now) (none researched for camping) |
-| **Aug 21, morning** | **The latest you can leave the west.** Stanley → Avon is ~2,000 mi *(recalled, unrouted)*, so 4 driving days at ~500 mi → home the evening of Aug 24, with Aug 25 spare before work on Aug 31 |
-
-Hike menu, all inside the ~10 mi / ~2,500 ft ceiling *(AllTrails, 2026-11-02)*: Fishhook Creek 4.6 mi / 262 ft (the arrival-day leg stretch, from Redfish), Bench Lakes 8.2 mi / 1,190 ft (from Redfish), Alpine Lake via Iron Creek 7.7 mi / 1,240 ft, **Sawtooth Lake via Iron Creek 9.8 mi / 1,791 ft (the headliner, right at the ceiling)**, Yellow Belly Lake from Pettit 5.1 mi / 964 ft. Alice–Toxaway is 18.8 mi / 3,116 ft on AllTrails, so it's off the menu.
-
-**Hold a site? Yes: a refundable hold at Outlet for Aug 13–18.** Every one of its 19 sites is reservable, so in peak season it has no first-come sites at all, and taking first-come at Iron Creek, Sockeye or Mount Heyburn for a 5-night stay in mid-August is a gamble. It's $26/night ($130 for five, plus a reservation fee I haven't checked). Cancelling before 12:00 AM local the day before arrival costs **$10** *(recreation.gov rules page, snippet)*, and the call from Bend on Aug 5–8 is comfortably before that. Its rules include a cutoff value of 4, which reads as no new bookings within 4 days of arrival *(recreation.gov facility data; unit not stated)*. If that's right, you can't decide in Bend and book then, so the hold is the only way to have a reserved site. **The briefing computes when the window opens** (`tools/now.mjs`, from the `booking:` row; recreation.gov's own release data for Outlet shows the same 6-month rolling window). It's not part of the January sitting, so it's a separate alarm.
-
-**The go/no-go from Bend:** if Stanley is smoked out, or SH-21 and SH-75 are closed for fire (the 2024 Wapiti Fire closed both, `log.md`), cancel the hold and either take a fallback or drive straight home as Days 32–36 have it.
 
 ### When does each friend come and go, and why is Aug 12 the limit?
 
@@ -1696,10 +1864,10 @@ Custer State Park was the trip's only mid-route shower and it went with the fron
 **Blocks:** Day 6 afternoon only
 The registry lists its dispersed sites as the best-reviewed in the Bighorns. It is also unpaved, narrow and shelf-like in places. **Not a trip-breaker — Day 6 has a zero-risk alternative already written — but decide at the road, not from a map.** Bighorn NF, Buffalo Ranger District.
 
-### Is 36 days still too much?
+### Is 41 days too much?
 
 **Blocks:** The whole shape
-**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 12 (a 2-hour drive), the Day 14 morning, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 41 days** with the Sawtooths on the end (36 without them), **nearly four times the longest trip ever taken** (11 days, Appalachians 2026), and eleven days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 12 (a 2-hour drive), the Day 14 morning, the Hood River reset (Day 20) and the Bend off day (Day 27). The Sawtooths' five nights are the end's soft landing before four solo days of interstate, and the easiest thing to cut: skipping them takes you home Aug 16. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
@@ -1771,6 +1939,14 @@ None of this is a reason not to go. It is a reason to have the habits before Day
 
 Fuel is the biggest line at ~$553 and it moves with the route rather than with choices. Campsites are ~$445 across nine places, all estimated. The 25-day version came to $2,038, so **the recut saved about $250** — which was never the argument for shortening it. The argument was day 19.
 
+### The Sawtooths ending, and how to skip it
+
+**In the plan** *(Colin, 2026-11-14: "add sawtooths on the way home into the trip officially, and a 'skip if want' thing, not a 'decide on the road'")*. Days 32–37: Portland → La Grande, then Boise → SH-21 → Stanley, five nights at Outlet Campground on Redfish Lake (Aug 13–18), then four days home (Aug 18–21). Ten days spare before work on Aug 31.
+
+**To skip it:** from Portland, drive straight home instead, ~2,400 mi in four days, home ~Aug 16. Cancel Outlet before 12:00 AM local the day before arrival and it costs $10 (recreation.gov rules page, snippet). Nothing else depends on it. Good reasons, no guilt needed: AQI over ~150 in Stanley (fire.airnow.gov, checked from Bend), SH-21 and SH-75 closed for fire (as in 2024), or simply being done.
+
+**Hike menu, all inside the ~10 mi / ~2,500 ft ceiling** *(AllTrails, 2026-11-02)*: Fishhook Creek 4.6 mi / 262 ft, Bench Lakes 8.2 / 1,190, Alpine Lake via Iron Creek 7.7 / 1,240, **Sawtooth Lake via Iron Creek 9.8 / 1,791 (the headliner)**, Yellow Belly Lake 5.1 / 964; Fourth of July Lake 1.77 / 615 (Idaho Statesman). Alice–Toxaway (18.8 mi / 3,116 ft) is off the menu. Hot springs and hut research: `research-log.md` (2026-11-12).
+
 ### The shape of the summer this sits in
 
-Newfoundland (May 26 – June 24, by road), then this (July 12 – August 16, with the Oregon week joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**
+Newfoundland (May 26 – June 24, by road), then this (July 12 – August 21, with the Oregon week and the Sawtooths joined on). Maui waits for spring 2028 (`wishlist/maui.md`). The Oregon week is the first thing to drop if the summer runs long: a week with friends works on two weeks of PTO, and a 6,000-mile drive doesn't. **The horizon is Aug 31 2027, when full-time work starts.**

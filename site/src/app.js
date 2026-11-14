@@ -137,7 +137,7 @@
     return `
       <div class="head">
         <a class="back" href="#trips">← Trips</a>
-        ${t.poster ? `<a class="poster-banner" ${t.poster.full ? `href="${esc(t.poster.full)}" target="_blank" rel="noopener"` : ""} style="--c:${tripColor(t.slug, today)}"><img src="${t.poster.thumb}" alt="Route poster: ${esc(t.title)}"><span class="pb-tag">${t.poster.full ? "Poster ↗" : "Poster"}${t.poster.stale ? ` · route changed since ${esc(fmt(t.poster.made))}` : ""}</span></a>` : ""}
+        ${t.poster ? `<button type="button" class="poster-banner" data-poster="${esc(t.poster.full || t.poster.thumb)}" data-fallback="${esc(t.poster.thumb)}" aria-label="Open the route poster full screen" style="--c:${tripColor(t.slug, today)}"><img src="${t.poster.thumb}" alt="Route poster: ${esc(t.title)}"><span class="pb-tag">Poster${t.poster.stale ? ` · route changed since ${esc(fmt(t.poster.made))}` : ""}</span></button>` : ""}
         <div class="eyebrow">${esc(t.datesLabel ?? "")} · ${esc(when)}</div>
         <h1>${esc(t.title)}</h1>
         ${t.why ? `<div class="sub${strip(t.why).length > 220 ? " clamp" : ""}">${t.why}</div>${strip(t.why).length > 220 ? `<button type="button" class="more" data-more>More</button>` : ""}` : ""}
@@ -799,6 +799,23 @@
     if (el.id === "pv" && el.value) { store.set("previewAt", el.value); render(); }
   });
   $view.addEventListener("click", (e) => {
+    // The poster opens over the page, not in a new tab: Firefox refuses to open a
+    // file from inside the claude.ai frame in a new tab (NS_ERROR_DOM_COOP_FAILED).
+    const pb = e.target.closest("[data-poster]");
+    if (pb) {
+      const box = document.createElement("div");
+      box.className = "lightbox"; box.setAttribute("role", "dialog"); box.setAttribute("aria-label", "Route poster");
+      box.innerHTML = `<button type="button" class="lb-close" aria-label="Close">✕</button><div class="lb-scroll"><img alt="Route poster"></div>`;
+      const img = box.querySelector("img");
+      img.onerror = () => { if (img.src !== new URL(pb.dataset.fallback, location.href).href) img.src = pb.dataset.fallback; };
+      img.src = pb.dataset.poster;
+      const close = () => { box.remove(); document.removeEventListener("keydown", onKey); pb.focus(); };
+      const onKey = (k) => { if (k.key === "Escape") close(); };
+      box.addEventListener("click", (c) => { if (c.target === box || c.target.closest(".lb-close")) close(); });
+      document.addEventListener("keydown", onKey);
+      document.body.appendChild(box); box.querySelector(".lb-close").focus();
+      return;
+    }
     const g = e.target.closest(".glance-row");
     if (g) { e.preventDefault(); const el = document.getElementById("day-" + g.dataset.day); if (el) { el.open = true; el.scrollIntoView({ block: "start", behavior: "smooth" }); } return; }
     const a = e.target.closest("[data-ask]");

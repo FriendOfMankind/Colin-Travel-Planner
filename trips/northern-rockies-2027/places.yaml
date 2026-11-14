@@ -599,6 +599,80 @@ groups:
         lat: 47.397042
         lng: -115.634741
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+  - group: Sawtooths (added 2026-11-14)
+    places:
+      - name: Portland International Airport
+        note: "Day 32, the riders' flights home."
+        maps: Portland International Airport
+        verified: false
+        lat: null
+        lng: null
+      - name: Outlet Campground
+        note: "Nights 33–37, five nights (Colin, 2026-11-14). Recreation.gov, 6 months out."
+        maps: Outlet Campground Redfish Lake
+        verified: false
+        lat: null
+        lng: null
+      - name: Boise
+        note: "Day 33 resupply, the last big town."
+        maps: Boise Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Lowman
+        note: "Day 33, on SH-21."
+        maps: Lowman Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Kirkham Hot Springs
+        note: "Day 33 soak, roadside. Gate closes 9 PM."
+        maps: Kirkham Hot Springs Lowman
+        verified: false
+        lat: null
+        lng: null
+      - name: Stanley
+        note: "Day 33, the town."
+        maps: Stanley Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Fishhook Creek Trailhead
+        note: "Day 34 hike."
+        maps: Fishhook Creek Trailhead Redfish Lake
+        verified: false
+        lat: null
+        lng: null
+      - name: Sunbeam Hot Springs
+        note: "Day 34 evening soak (or Boat Box, nearer Stanley)."
+        maps: Sunbeam Hot Springs Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Bench Lakes Trailhead
+        note: "Day 35 hike, from Redfish."
+        maps: Bench Lakes Trailhead Redfish Lake
+        verified: false
+        lat: null
+        lng: null
+      - name: Iron Creek Trailhead
+        note: "Day 36, Sawtooth Lake."
+        maps: Iron Creek Trailhead Stanley
+        verified: false
+        lat: null
+        lng: null
+      - name: Fourth of July Trailhead
+        note: "Day 37, White Clouds. Unpaved road: the trailer test."
+        maps: Fourth of July Trailhead Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Pettit Lake Trailhead
+        note: "Day 37, Yellow Belly Lake."
+        maps: Pettit Lake Trailhead Idaho
+        verified: false
+        lat: null
+        lng: null
   - group: The drive home
     places:
       - name: Cottonwood Campground
@@ -630,6 +704,12 @@ groups:
         wpNote: Log ladder and ledge traverse. Dawn only in July.
   - group: Towns standing in for undecided beds (pinned 2026-11-09)
     places:
+      - name: La Grande, OR
+        note: "Night 32. The town, standing in until a motel is picked."
+        maps: La Grande OR
+        verified: false
+        lat: null
+        lng: null
       - name: Newport, OR
         note: "Night 21. The town, standing in until a motel is picked."
         maps: Newport OR
