@@ -381,3 +381,14 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Every sun time on Days 2–18 recomputed** at the verified pins with the standard convention (sunrise/sunset at −0.833°, no horizon dip), which is what weather apps show *(Colin asked, 2026-11-14: "fix the sun times too")*. The old Trees rows added a dip for elevation and ran 7–10 min generous on sunsets, most at the high camps: the Bighorns now set at 8:50 PM (was 9:00), Glacier at 9:17–9:23 (was 9:25–9:32). Days 2–3 had "TBD" though Vedauwoo and Brooklyn Lake were pinned on 2026-10-30. Rule: dawn at the camp the day starts from, dusk at that night's camp. Day 1 stays TBD (its motel isn't picked).
 - Day 31's Rowena Crest sunset computed too (Pacific Time). The Glacier invite's "Sunset is around 9:30 PM" → 9:20, republished.
 - These are astronomical times: behind a ridge the light goes earlier.
+
+## 2026-11-14 · Decided: the Sawtooths on the way home, in the plan and skippable
+
+- **The Sawtooths are in** *(Colin, 2026-11-14: "can we add sawtooths on the way home into the trip officially, and a 'skip if want' thing, not a 'decide on the road'")*. Days 32–41: PDX → La Grande; Boise → SH-21 (Kirkham Hot Springs) → Stanley; **five nights at Outlet Campground, Redfish Lake** (Aug 13–18): Fishhook Creek + a hot pot, Bench Lakes, **Sawtooth Lake on the Monday**, Fourth of July Lake + Yellow Belly Lake; then four days home, **home Sat Aug 21**. Was: optional, "decided from the road", with 0–3 flex nights and home ~Aug 24. Flex nights dropped; ten days spare before work.
+- **Skip rule** (Notes): drive straight home from Portland instead, home ~Aug 16; cancelling Outlet costs $10 until the day before. Reasons: smoke over ~150 AQI, fire closures on SH-21/75, or being done.
+- No Tetons on the way home *(Colin, 2026-11-14)*.
+- The trip is now **41 days / 40 nights** (36 without the Sawtooths). Distance ~6,600 mi, fuel ~$1,150–1,350 (Claude's estimates). Outlet's booking row is no longer "optional"; its window is computed by the briefing.
+- 13 new places seeded in the Pin Ledger. Sun times, road lines and the poster wait for the pins.
+- The Oregon invite (draft) ride-home add-on now says Aug 12–21 via the Sawtooths; republished.
+- Also: the bucket list's Dugway geode beds still said "Questionable for the Legacy"; now points at the trailer test.
+- Site: the poster banner opens over the page instead of a new tab. Firefox blocked the new tab from the claude.ai frame with NS_ERROR_DOM_COOP_FAILED (Colin's screenshot, 2026-11-14).

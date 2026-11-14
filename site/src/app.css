@@ -422,3 +422,9 @@ summary.muted, .srow details summary, .tl-more summary { padding: 6px 0; }
 .pb-tag { position: absolute; right: 8px; bottom: 8px; font: 600 11.5px/1 var(--display); text-transform: uppercase; letter-spacing: .07em; padding: 6px 9px; border-radius: 6px; background: rgba(27, 34, 32, .78); color: #fff; }
 .glance-row .gt { font-size: 13px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 [hidden] { display: none !important; }
+button.poster-banner { padding: 0; width: 100%; cursor: zoom-in; font: inherit; color: inherit; text-align: left; }
+.lightbox { position: fixed; inset: 0; z-index: 100; background: rgba(10, 14, 12, .92); display: flex; flex-direction: column; }
+.lightbox .lb-scroll { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; display: grid; place-items: center; padding: 48px 8px 8px; }
+.lightbox img { max-width: none; width: min(1800px, 240vw); height: auto; display: block; }
+@media (min-width: 900px) { .lightbox img { width: min(1800px, 96vw); } }
+.lightbox .lb-close { position: absolute; top: max(10px, env(safe-area-inset-top, 0px)); right: 12px; width: 40px; height: 40px; border-radius: 50%; border: 0; background: rgba(255,255,255,.15); color: #fff; font-size: 18px; cursor: pointer; }
