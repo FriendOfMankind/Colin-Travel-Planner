@@ -61,7 +61,8 @@
   trip: dingle-marseille-2027
   for: Finn (brother), Stick (cousin), Jake (maybe), and the parents
   status: in  # Finn and Stick picked this version (2026-11-10); Jake not yet
-  asOf: 2026-11-11
+  asOf: 2026-11-14
+  checked: 2026-11-14  # the consistency pass (car question, Skellig on sale) doesn't change the page: it already shows the $786 car and flags the missing insurance
 
 - id: athens-may-2027
   title: Athens, May 13–20
@@ -119,8 +120,7 @@
   trip: northern-rockies-2027
   for: Ethan and Finn (Colin's brother), Glacier only, FCA in Jul 25 (after a wedding Jul 24) and out Jul 30
   status: in  # "they're good with just glacier"; page sent 2026-11-08 (Colin)
-  asOf: 2026-11-08
-  checked: 2026-11-12  # the car change (Legacy → Outback) doesn't touch the page
+  asOf: 2026-11-14  # gas ~$15 → ~$18 at the V6's ~22 mpg (was ~27 assumed)
   note: Glacier only, with an all-in cost estimate (~$900–1,100 each), two outbound flight options, a packing checklist and fishing (Ethan brings the rod), book by Jan 10.
 
 - id: adirondacks-winter
