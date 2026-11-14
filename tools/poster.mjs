@@ -13,6 +13,7 @@ import path from "node:path";
 import zlib from "node:zlib";
 import { createRequire } from "node:module";
 import { TERRAIN_SOURCE, boxOf, elevation, grid, haversineKm, pad } from "./lib/terrain.mjs";
+import { POSTER_DIR, routePrint } from "./lib/posters.mjs";
 
 const slug = process.argv[2], arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; }, DPI = +(arg("--dpi") ?? 200);
 // --days 2-27 frames the sheet on those days only (the drive out and back runs off the edge) and counts only them.
@@ -101,6 +102,8 @@ const allDays = lines.map((f) => {
 });
 const days = allDays.filter((d) => inRange(d.day));
 const roadDays = days.filter((d) => d.road), totalKm = roadDays.reduce((s, d) => s + d.km, 0), straight = days.filter((d) => !d.road && d.km > 4);
+// A poster of straight lines between half the stops would look finished and be invented. Pin first, then roads.py.
+if (!roadDays.length) { console.error(`${slug} has no road line to draw: place its pins (node tools/geojson.mjs --todo), run python3 tools/roads.py ${slug}, then try again`); process.exit(1); }
 const inFrame = (lon, lat) => lon > box.w && lon < box.e && lat > box.s && lat < box.n;
 const standIns = new Set(allDays.map((d) => d.standIn).filter(Boolean));
 const nights = new Map();
@@ -262,11 +265,22 @@ const pw = Math.min(nx, 2600), ph = Math.round((ny * pw) / nx);
 await page.setViewportSize({ width: pw, height: ph });
 await page.setContent(`<!doctype html><style>html,body{margin:0}img{display:block;width:${pw}px;height:${ph}px}</style><img id="p">`);
 const jpg = await (async () => { const b64 = fs.readFileSync(`${outDir}/${slug}-plate.png`).toString("base64"); await page.evaluate((u) => new Promise((ok, no) => { const i = document.getElementById("p"); i.onload = ok; i.onerror = no; i.src = u; }), `data:image/png;base64,${b64}`); return page.screenshot({ type: "jpeg", quality: 86 }); })();
+// the small copies the site shows, kept in git (tools/lib/posters.mjs)
+fs.mkdirSync(POSTER_DIR, { recursive: true });
+const shrink = async (src, long, q, out) => { const r = long / Math.max(PW, PH), w = Math.round(PW * r), h = Math.round(PH * r);
+  await page.setViewportSize({ width: w, height: h });
+  await page.setContent(`<!doctype html><style>html,body{margin:0}img{display:block;width:${w}px;height:${h}px}</style><img id="p">`);
+  await page.evaluate((u) => new Promise((ok, no) => { const i = document.getElementById("p"); i.onload = ok; i.onerror = no; i.src = u; }), `data:image/jpeg;base64,${fs.readFileSync(src).toString("base64")}`);
+  await page.screenshot({ path: out, type: "jpeg", quality: q }); };
+await shrink(`${outDir}/${slug}.jpg`, 1800, 80, `${POSTER_DIR}/${slug}.jpg`);
+await shrink(`${outDir}/${slug}.jpg`, 900, 68, `${POSTER_DIR}/${slug}-thumb.jpg`);
+fs.writeFileSync(`${POSTER_DIR}/${slug}.json`, JSON.stringify({ made: new Date().toISOString().slice(0, 10), route: routePrint(read(`site/maps/${slug}-trip.geojson`).features), days: dayTo < 9999 ? `${dayFrom}-${dayTo}` : null }, null, 2) + "\n");
 await browser.close();
 fs.unlinkSync(`${outDir}/.${slug}-print.html`);
 
 const shell = fs.readFileSync("site/src/poster.html", "utf8").replaceAll("__TITLE__", esc(title)).replaceAll("__SIZE__", `${PW / 72} × ${PH / 72} in`).replace("__DPI__", String(DPI)).replace("__POSTER__", () => svg(`data:image/jpeg;base64,${jpg.toString("base64")}`));
 fs.writeFileSync(`${outDir}/${slug}.html`, shell);
 const mb = (f) => (fs.statSync(f).size / 1e6).toFixed(1);
+console.log(`wrote ${POSTER_DIR}/${slug}.jpg, -thumb.jpg, .json (for the site)`);
 console.log(`wrote ${outDir}/${slug}.pdf (${mb(`${outDir}/${slug}.pdf`)} MB, ${PW / 72}×${PH / 72} in at ${DPI} dpi) · .jpg · .html (${mb(`${outDir}/${slug}.html`)} MB)`);
 console.log(`high point on the line ≈ ${Math.round(hi.m * FT)} ft (day ${hi.day}, ${hi.lat.toFixed(4)}, ${hi.lon.toFixed(4)}; terrain model)`);

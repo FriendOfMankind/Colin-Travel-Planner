@@ -42,7 +42,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 
 ### 2026-10-03 · Free camping and showers
 - Context: Colin daydreaming a dispersed-first drive-out western loop, showering at places that sell one. Not a standing preference *(stated 2026-10-03; `me/camping.md` still says developed + showers)*
-- 📋 Free BLM dispersed camping along the valley floor on Blanca Peak / Mount Blanca Road near Zapata Falls, about 15 min from the park *(source: rvshare.com, thedyrt.com, facebook, search snippets, 2026-10-03)*. The road is unpaved; roughness for 5.9 in clearance not checked
+- 📋 Free BLM dispersed camping along the valley floor on Blanca Peak / Mount Blanca Road near Zapata Falls, about 15 min from the park *(source: rvshare.com, thedyrt.com, facebook, search snippets, 2026-10-03)*. The road is unpaved; roughness for the Outback (8.7 in, AWD) not checked
 - 📋 Zapata Falls BLM campground: 23 sites *(source: blm.gov, search snippet, 2026-10-03)*, about $11/night *(source: ramble.camp 2026 guide, search snippet, 2026-10-03)*
 - 📋 Shower: Great Sand Dunes Oasis (campground and store at the entrance) has showers *(source: greatdunes.com, yelp, search snippets, 2026-10-03)*. ⚠️ Whether non-guests can pay to use them: not confirmed
 

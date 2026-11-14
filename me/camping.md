@@ -10,7 +10,8 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 ## Campsites
 
 - **Favourites: developed campgrounds with showers, and scenic sites where the view beats the facilities.** *(stated 2026-09-28)*
-- Not chosen: private/bike-farm character stays, or dispersed/primitive sites. Those aren't banned, but a no-facilities night needs a reason: a scenic payoff, or a region with nothing else.
+- Not chosen: private/bike-farm character stays.
+- **Boondocking a night or two sounds fun:** a flat dirt road out to the middle of nowhere, a dispersed site at the end of it *(stated 2026-11-14: "little flat dirt roads out to the middle of nowhere would be fun to explore, boondock for a night or two")*. The road test is in `me/principles.md` 2. A night or two, not a run of them: showers daily if possible still holds. (was: "dispersed/primitive sites… a no-facilities night needs a reason", stated 2026-09-28)
 - Showers daily if possible (`me/profile.md`). **Late at night is fine**, so a shower doesn't need a daytime block *(stated 2026-10-20)*.
 
 ## Evenings

@@ -31,7 +31,7 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. First, in order: (1) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents); (2) the **Skellig Michael landing** for Sat May 15, once 2027 bookings open (one operator says November); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
+next: "**Draft, nothing booked** *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. First, in order: (1) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents); (2) the **Skellig Michael landing** for Sat May 15: **one operator is taking 2027 bookings now** (Skellig Michael Cruises, 12 seats a day; 2026-11-14); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
 booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
@@ -48,7 +48,7 @@ booking:
   - system: private
     what: Skellig Michael landing tour from Portmagee, Sat May 15 (3 adults)
     target: 2027-05-15
-    note: "2027 landing prices quoted: €170 (skelligmichael.ie; skelligmichael.tours, 18+, waiting list for 2027), €145 in 2026 (skelligislands.com), €140 (skelligsrock.com). Skellig Michael Cruises: 'Landing Begins 9th May 2027', bookings open in November (all search snippets, 2026-11-11). Not the same as the 'Boat Tour Around Skellig Michael' Colin found for Sat May 15 at 10:00, 12:30, 15:00 and 17:15, €80 (screenshot, 2026-11-11, operator not named): that one circles the island and doesn't land. Capped at 180 landings a day and cancelled in swell."
+    note: "2027 landing prices quoted: €170 (skelligmichael.ie; skelligmichael.tours, 18+, waiting list for 2027), €145 in 2026 (skelligislands.com), €140 (skelligsrock.com). Skellig Michael Cruises: 'Landing Begins 9th May 2027', bookings open in November (all search snippets, 2026-11-11). **Now open: Skellig Michael Cruises 'Landing tours for 2027 – BOOKINGS NOW OPEN… just 12 passenger spaces available per day', departing Portmagee between 8:00 and 10:30** (skelligmichaelcruises.com, search snippet, 2026-11-14). skelligislands.com: 2027 'not on sale yet'. Kerry Aqua Terra: 2027 opening, season 'mid-May to the end of September' (search snippets, 2026-11-14), so May 15 sits at its edge. Not the same as the 'Boat Tour Around Skellig Michael' Colin found for Sat May 15 at 10:00, 12:30, 15:00 and 17:15, €80 (screenshot, 2026-11-11, operator not named): that one circles the island and doesn't land. Capped at 180 landings a day and cancelled in swell."
   - system: private
     what: Doolin, 3 nights May 16–19 (3 adults)
     target: 2027-05-16
@@ -71,7 +71,7 @@ page:
   dates: Sunday, May 9 – Saturday, May 22, 2027
   emoji: 🏰
   theme: ocean
-  vehicle: "**Coaches to Dingle, then one rental car, Colin driving.** Kerry Airport → Dublin Airport, May 14–21, one way, automatic, with an under-25 surcharge. Not priced."
+  vehicle: "**Coaches to Dingle, then one rental car, Colin driving.** Kerry Airport → Dublin Airport, May 14–21, one way, automatic. **Picked, not booked: $785.79 for 8 days, including a $376.85 under-25 surcharge** (Colin, 2026-11-11; booking row). Its cover, deposit and fuel policy aren't seen yet (Open questions)."
   gettingThere: "Round trip: **EI 86** CLE 20:40 → DUB 08:45 on May 9–10, home Sat May 22 on **EI 87** DUB 16:05 → CLE 19:10 nonstop; one round-trip ticket (not booked). No other flights. The parents are paying the flights."
   footerNote: "Draft as of Nov 10, 2026. **Nothing booked.** Ireland only since Nov 10: Skye is saved in `wishlist/skye-highlands.md`, Marseille in `wishlist/marseille-may-2027.md`. Every drive time is unrouted. [← All trips](../../index.html)"
   stats:
@@ -550,7 +550,7 @@ slack: The morning.
 - [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
 - [ ] Family: beds for May 10–13, and the May 14 lift to Kerry Airport (address → leave time)
 - [ ] May 10: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
-- [ ] **Skellig Michael landing**, Sat May 15, once 2027 bookings open
+- [ ] **Skellig Michael landing**, Sat May 15: Skellig Michael Cruises is open for 2027 (12 seats a day, 2026-11-14)
 - [ ] Ireland car, Kerry Airport → Dublin Airport, May 14–21: one-way fee, under-25 fee, excess cover
 - [ ] Beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1
 - [ ] Doolin → Inis Mór 2027 timetable; Dysert O'Dea's 2027 opening date; Omey tide times for May 20
@@ -566,12 +566,12 @@ slack: The morning.
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
 Their address decides the May 10 route and the leave time for Kerry Airport on Fri May 14. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
-### What does an automatic cost in Ireland?
+### What does the Ireland car's cover cost, and do the bags fit?
 
-**Blocks:** the Ireland car
-**Automatic** *(Colin, 2026-11-02: less of a headache on roads that are already new to him)*. The car now runs 7 days, Kerry Airport May 14 → Dublin Airport May 21, and isn't priced: the only quote was for the old 3-day plan, every cheap offer a manual (Hertz mini, $216 for 3 days), and a second Kayak search returned no offers. Automatics are the scarcer class in Ireland, so book this car early once it's priced *(Claude's judgment)*.
-
-**And the size: price for 4 adults** *(Colin, 2026-11-02)*, a compact estate or similar, not a big SUV, because of the narrow roads. The $216 Hertz offer is the **mini** class. Three adults with two weeks of luggage in a mini is a bad bet: price an economy or compact (and the automatic) before treating ~$72–86 each as the number *(Claude's judgment, 2026-11-02)*. Under-25 surcharges run about **€30–40 a day in Ireland** *(Facebook travel group, secondary)* so check whether the Kayak totals include them.
+**Blocks:** booking the Ireland car
+The price is picked: **$785.79 for 8 days**, automatic VW Golf or similar, including the under-25 surcharge *(Colin, 2026-11-11; booking row)*. Two things can still change the real number at the desk:
+- **Cover.** The quote says "without coverage". Many US credit cards exclude Ireland from their rental car cover, and Irish desks then either sell their own collision cover or put a large hold on the card *(Claude's recall, not checked for this company or card)*. Before booking: read the quote's cover lines and the deposit, and check the card's own benefits guide for Ireland.
+- **Bags.** The Golf class is listed at **2 large bags**. Three adults with two weeks of luggage won't fit that unless the bags are carry-on size. The size rule was "price for 4 adults, a compact estate" *(Colin, 2026-11-02)*; this quote is a hatchback. Either pack small or price an estate. Colin's call.
 
 ### Is a 4th person coming: Jake, from near Belfast?
 

@@ -25,12 +25,12 @@
 
 - id: ground clearance
   home: me/profile.md
-  says: ~5.9 in
+  says: 8.7 in
   patterns:
     - re: "(\\d\\.\\d)[ -]?(?:in|inch|inches)\\b\\.?\\)? (?:of )?(?:ground )?clearance"
-      expect: "5.9"
+      expect: "8.7"
     - re: "clearance (?:for|and you have|of) (\\d\\.\\d) ?(?:in|inch)"
-      expect: "5.9"
+      expect: "8.7"
 
 - id: glacier departure
   home: trips/northern-rockies-2027/trip.md

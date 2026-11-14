@@ -205,3 +205,10 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 - **Ceann Sibéal (Dingle Golf Links)**, 14 km from Dingle: €200 May–Sept, €300 for a second round the same day ✅ *(dinglelinks.com)*. "Fun rather than great" 📋 *(golftourism.org)*.
 - **Dooks** ~€120 high season "in recent years"; **Killarney Killeen** ~€80–160 by season 📋 *(golfforkings.com, 2026-06, operator listings)*.
 - **Not checked:** Castle Course club hire and tee-time booking, Lahinch shops and Sunday hours, surf lesson prices.
+
+## 2026-11-14 · Skellig 2027 landings: one operator open
+
+- **Skellig Michael Cruises:** "Michael Landing tours for 2027 – BOOKINGS NOW OPEN. With just 12 passenger spaces available per day… departs daily from Portmagee"; "The Skellig Michael Landing tour will depart daily between 8:00am and 10:30am" *(skelligmichaelcruises.com and its booking page, search snippets, 2026-11-14)*.
+- **skelligislands.com:** "Our 2027 tour dates aren't on sale yet" *(search snippet, 2026-11-14)*.
+- **Kerry Aqua Terra:** "Bookings are now opening for the 2027 Skellig season… mid-May to the end of September" *(kerryaquaterra.ie, search snippet, 2026-11-14)*.
+- **skelligmichael.ie:** book by email or the booking page; open status not shown *(search snippet, 2026-11-14)*.

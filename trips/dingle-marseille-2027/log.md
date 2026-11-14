@@ -263,3 +263,8 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 - **Picked: Lahinch Castle Course (€60), Sun May 16 afternoon**, on the way from the Shannon ferry to the Cliffs (Claude's pick). Why: only Colin drives, so the stop has to be somewhere the car is going anyway. Day 10 was the other option but would have cut the O'Dea castle. Ballybunion is visitors-only on weekday mornings, so not on a Sunday.
 - Day 8 now: Loop Head is out unless the golf is dropped, and the Ennis hurling (if it lands that Sunday) clashes with the golf.
 - The rejected options and their prices are in `research-log.md`.
+
+## 2026-11-14 · Consistency pass: the car question caught up
+
+- The open question "What does an automatic cost in Ireland?" was answered on 2026-11-11 (the $785.79 pick) but never closed, and `vehicle:` still said "Not priced." Both now carry the pick. The question is rewritten to what's still unknown: **the cover** (the quote says "without coverage"; many US cards exclude Ireland, Claude's recall, unchecked) and **the bags** (the Golf class lists 2 large bags for 3 adults and two weeks; Colin's own rule was a compact estate for 4).
+- **Skellig: one operator's 2027 landings are on sale** (Skellig Michael Cruises, 12 seats a day, boats out 8:00–10:30; snippet, 2026-11-14; details in `research-log.md`). `next:`, the booking row and the checklist now say so. Not booked; which tour is still Colin's call.

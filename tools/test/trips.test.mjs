@@ -28,7 +28,7 @@ test("an open question's **Waiting on:** line is read apart from its detail", ()
   const q = page.openQuestions.find((x) => /^Is a 4th person coming/.test(x.question));
   assert.match(q.waitingOn, /^Jake\b/);
   assert.ok(!/Waiting on/.test(q.detail));
-  assert.equal(page.openQuestions.find((x) => /automatic/.test(x.question)).waitingOn, undefined);
+  assert.equal(page.openQuestions.find((x) => /cover cost/.test(x.question)).waitingOn, undefined);
 });
 
 for (const slug of slugs) {
