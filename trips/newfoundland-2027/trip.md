@@ -138,14 +138,14 @@ type: travel
 driving: 8h 29m (routed +15%)
 slack: None needed.
 overnight:
-  name: TBD — Albany area
+  name: TBD — motel, Albany area
   mapStandIn: Albany area transit night
   place: New York
-  kind: Transit night — not identified
-  cost: ~$35 est.
+  kind: Motel, night 1 (a solo-motel exception, Colin 2026-11-14)
+  cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Not identified. A state park, a KOA or a cheap motel.
+  notes: ⚠️ Not picked. A cheap motel off the Thruway after ~8.5 h.
 ```
 
 **Schedule**
@@ -1000,9 +1000,9 @@ type: travel
 driving: depends on arrival; North Sydney → Bangor is 10h 14m (routed +15%)
 slack: n/a
 overnight:
-  name: Bangor — motel TBD
+  name: TBD — camp near Bangor, or the car
   place: Bangor, ME
-  kind: Transit night *(Colin, 2026-10-30)*
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD
@@ -1026,13 +1026,13 @@ type: travel
 driving: TBD — Bangor → Avon is ~13h, a guess (the routing tool failed twice)
 slack: n/a
 overnight:
-  name: Syracuse–Rochester area — motel TBD
+  name: TBD — camp, Syracuse–Rochester area, or the car
   place: Upstate New York
-  kind: Transit night; town not picked *(Colin, 2026-10-30)*
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14); town not picked
   cost: ~$35 est.
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Not identified.
+  notes: "⚠️ Not picked. The last night, but upstate New York isn't the Midwest-farmland exception, so camp or the car (Colin, 2026-11-14). If a friend rides home with you (the add-on), revisit."
 ```
 
 **Schedule**
@@ -1072,7 +1072,7 @@ total: Not totalled; the hotel week isn't priced
 
 | Night | Date | Location | Type | Name | Cost | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Wed 5/26 | Albany area, NY | Transit | TBD | ~$35 est. | Not identified |
+| 1 | Wed 5/26 | Albany area, NY | Motel (night-1 exception) | TBD | TBD | Not picked |
 | 2 | Thu 5/27 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Opens Dec 1, 10 AM ET (first release) |
 | 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters | ~$30 est. | Jan or Feb launch (2026: Feb 6–11) |
 | 4 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | Jan or Feb launch (2026: Feb 6–11); open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
@@ -1099,8 +1099,8 @@ total: Not totalled; the hotel week isn't priced
 | 25 | Sat 6/19 | Southern Shore, NL | ParksNL | La Manche | C$20.15 | Assumed, not decided |
 | 26 | Sun 6/20 | Argentia, NL | Private RV park | Argentia Sunset RV Park | TBD | Tents unconfirmed; 709-227-6363 |
 | 27 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | 2027 is posted: book now, cabins sell out |
-| 28 | Tue 6/22 | NS / NB / ME | Transit | TBD | ~$35 est. | Not identified |
-| 29 | Wed 6/23 | New York | Transit | TBD | ~$35 est. | Not identified |
+| 28 | Tue 6/22 | NS / NB / ME | Camp or car | TBD | ~$35 est. | Not picked; no solo motels |
+| 29 | Wed 6/23 | New York | Camp or car | TBD | ~$35 est. | Not picked; no solo motels |
 
 ## Hikes
 

@@ -198,7 +198,7 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
+  notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*; night 1 is one of the solo-motel exceptions *(Colin, 2026-11-14)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
 ```
 
 **Schedule**
@@ -890,10 +890,10 @@ type: travel
 driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on toward the Idaho line
 slack: Little. The Hiawatha is the first cut.
 overnight:
-  name: TBD — Wallace / Kellogg, Idaho area
+  name: TBD — camp near Wallace / Kellogg, Idaho, or the car
   mapStandIn: Wallace, ID
   place: Silver Valley, ID
-  kind: Not picked (camp or motel)
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
@@ -1366,14 +1366,14 @@ type: travel
 driving: Hood River → PDX → I-84 east to La Grande, 313 mi drawn (tools/roads.py; times unrouted)
 slack: Some. Nothing is booked tonight.
 overnight:
-  name: TBD — motel, La Grande area
+  name: TBD — camp near La Grande, or the car
   mapStandIn: La Grande, OR
   place: La Grande, OR
-  kind: Transit night — not identified
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night. Pendleton is the shorter fallback.
+  notes: "⚠️ Not picked. Hilgard Junction State Park sits on I-84 just west of La Grande (Claude's recall, not checked). Pendleton is the shorter fallback."
 ```
 
 **Schedule**
@@ -1597,11 +1597,11 @@ slack: None.
 overnight:
   name: TBD
   place: TBD
-  kind: Transit night — not identified
+  kind: Camp or car, solo (no motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 1 of 3.
+  notes: "⚠️ Camp near the route, else the car (no solo motels, Colin 2026-11-14). The route home isn't picked; western Wyoming has BLM land for dispersed nights (Claude's recall). If a rider comes home with you, revisit."
 ```
 
 **Schedule**
@@ -1632,11 +1632,11 @@ slack: None.
 overnight:
   name: TBD
   place: TBD
-  kind: Transit night — not identified
+  kind: Camp or car, solo (no motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 2 of 3.
+  notes: "⚠️ Camp near the route, else the car (no solo motels, Colin 2026-11-14). Route home not picked."
 ```
 
 **Schedule**
@@ -1666,11 +1666,11 @@ slack: None.
 overnight:
   name: TBD
   place: TBD
-  kind: Transit night — not identified
+  kind: Camp or car, or a motel if it's Midwest farmland (the last-night exception, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night 3 of 3.
+  notes: "⚠️ The last night out: a motel is allowed here if it's Midwest farmland with no camping nearby (Colin, 2026-11-14); otherwise camp or the car."
 ```
 
 **Schedule**
@@ -1830,7 +1830,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
 - [ ] **Outlet CG, Sawtooths, Aug 13–18** — in the plan (2026-11-14). The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 38, 39, 40.**  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
+- [ ] ⚠️ **Solo nights not picked: Days 1, 19, 32, 38, 39, 40.** No solo motels *(Colin, 2026-11-14)*: camp near the route, else the car. Exceptions: Day 1's motel, and Day 40 if it's Midwest farmland with no camping. Pick the Days 38–40 camps once the route home is chosen.  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
 
 ## Open questions
 

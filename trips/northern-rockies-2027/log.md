@@ -395,3 +395,8 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - **Sawtooth pins in** *(Colin, 2026-11-14)*: 13 places, written as verified. The ledger flagged Bench Lakes as ~5 m from Fishhook Creek; kept, since both trails leave the same Redfish trailhead (Claude's recall) and the numbers differ (not a stale clipboard).
 - **Days 32–37 routed** (tools/roads.py): 313, 308, 42, 3, 24 and 56 mi. Drawn total now 4,140 mi (Days 2–37, with Day 14 routed too: 87 mi); trip ~6,700 mi, fuel ~$1,150–1,400 (Claude's estimates).
 - **Sun computed** at the pins: La Grande (Pacific) sunset 8:04 PM on Aug 12; Outlet sunrise 6:42–6:47 AM (Stanley is far west in Mountain Time) and sunset 8:47 → 8:41 PM, Aug 13–17.
+
+## 2026-11-14 · No solo motels
+
+- **Colin: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions"** *(Colin, 2026-11-14)*. Solo nights are now a campground or dispersed site near the route, else the car. Exceptions he picked: night 1 of each trip, Hood River on Jul 31, Port aux Basques off the ferry, and one of the last nights if it's Midwest farmland with no camping. The rule lives in `me/camping.md`.
+- Here: Days 19 (Wallace/Kellogg), 32 (La Grande), 38 and 39 are camp or car; Day 1 (Des Moines) stays a motel; Day 40 may be a motel if it lands in farmland. Was: "motel" or "camp or motel" on those nights.

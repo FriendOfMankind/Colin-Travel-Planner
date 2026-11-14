@@ -504,3 +504,8 @@ No decisions, just copies that hadn't caught up:
 ## 2026-11-09 · Town stand-ins for the undecided hotel nights
 - **Colin pinned Trinity** *(Colin, 2026-11-09, pasted in chat)* and chose to show undecided beds at their town on the maps. `mapStandIn:` added to nights 1 (Albany), 17 (Twillingate), 18–20 (Trinity) and 21–24 (St. John's). **No hotel was decided.**
 - Night 16's overnight name now reads "Escape by the Sea — 2-bedroom cottage" (was "Escape by the Sea (2-bedroom cottage)") so it matches its pin. Days 16–25 re-routed to start from those beds.
+
+## 2026-11-14 · No solo motels
+
+- **Colin: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions"** *(Colin, 2026-11-14)*. Solo nights are now a campground or dispersed site near the route, else the car. Exceptions he picked: night 1 of each trip, Hood River on Jul 31, Port aux Basques off the ferry, and one of the last nights if it's Midwest farmland with no camping. The rule lives in `me/camping.md`.
+- Here: Day 1 (Albany) is a motel; Day 5 (Port aux Basques) stays a motel; Days 28 (Bangor) and 29 (Syracuse–Rochester) are camp or car. Was: "motel TBD" on Days 28–29. If a friend takes the ride-home add-on, those two nights aren't solo: revisit.

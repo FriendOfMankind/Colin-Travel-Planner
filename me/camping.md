@@ -11,6 +11,7 @@ All stated in the 2026-09-28 interview unless marked otherwise.
 
 - **Favourites: developed campgrounds with showers, and scenic sites where the view beats the facilities.** *(stated 2026-09-28)*
 - Not chosen: private/bike-farm character stays.
+- **No solo motels on road trips** *(Colin, 2026-11-14: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions")*. A solo travel night is a cheap campground or free dispersed site near the route, else sleeping in the car. **Exceptions** *(Colin, 2026-11-14)*: night 1 of a road trip; one of the last nights if it's Midwest farmland with no camping nearby; planned resets (Hood River before the Oregon week); and Port aux Basques off the ferry. Nights with friends follow the group.
 - **Boondocking a night or two sounds fun:** a flat dirt road out to the middle of nowhere, a dispersed site at the end of it *(stated 2026-11-14: "little flat dirt roads out to the middle of nowhere would be fun to explore, boondock for a night or two")*. The road test is in `me/principles.md` 2. A night or two, not a run of them: showers daily if possible still holds. (was: "dispersed/primitive sites… a no-facilities night needs a reason", stated 2026-09-28)
 - Showers daily if possible (`me/profile.md`). **Late at night is fine**, so a shower doesn't need a daytime block *(stated 2026-10-20)*.
 
