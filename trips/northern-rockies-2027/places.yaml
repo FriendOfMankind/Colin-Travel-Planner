@@ -400,7 +400,7 @@ groups:
         lat: null
         lng: null
       - name: Gros Ventre Campground
-        note: Night 12 backup, the optional January hold.
+        note: Night 12 bail-out if Shadow Mountain is full. Not held (Colin, 2026-11-14), so only if a site is open that day.
         maps: Gros Ventre Campground Grand Teton
         verified: false
         lat: null

@@ -60,10 +60,6 @@ booking:
     what: Avalanche (first choice) or Apgar, Glacier NP (Jul 25–26)
     target: 2027-07-25
     note: First half of the Glacier stay, 2 nights from the day Ethan and Finn land (the Tetons and Flathead Lake took Jul 23–24, Colin, 2026-11-14). Do both Glacier halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
-  - system: recreation.gov
-    what: "Optional hold: Gros Ventre, Grand Teton NP (Jul 23), the backup if Shadow Mountain is full"
-    target: 2027-07-23
-    note: "Shadow Mountain (the plan) is free and first-come and 'fills up very quickly, even by 10 a.m. most days' (btfriends.org, snippet, 2026-11-14). Gros Ventre is the big reservable one: 279 standard sites, 'reserve your site up to six months in advance' (nps.gov/grte, snippets, 2026-11-14). Fee and cancellation terms not read. Hold or not is Colin's call; same January stretch as Yellowstone."
   - system: montana-sp
     what: Flathead Lake State Park, Big Arm (West Shore as backup), Jul 24
     target: 2027-07-24
@@ -623,14 +619,14 @@ overnight:
   kind: Designated dispersed, free, first-come
   cost: Free
   checkin: 🚨 First-come. "Fills up very quickly, even by 10 a.m. most days" (btfriends.org, snippet, 2026-11-14)
-  confirmation: n/a. Backup is Gros Ventre, if held in January (Reservations)
+  confirmation: "n/a. No backup held; Colin races for the site (2026-11-14)"
   notes: "The boondock night *(Colin, 2026-11-14)*. A 'Designated Dispersed Camping Area' (btfriends.org, snippet). Reddit: 'It's sooo busy… get there late morning/early afternoon on a weekday' (r/GrandTetonNatlPark, snippet, 2026-11-14). Road surface for the Outback not checked: use the trailer test (`me/principles.md` 2), and take a lower site before a rougher upper one."
 ```
 
 **Schedule**
 - TBD · sunrise · Sunrise TBD (Madison has no verified coordinate). Break camp early: this is a race day.
 - 7:00 AM (2h) · drive! · → Shadow Mountain via the South Entrance and Moran. ⚠️ **My estimate, unrouted**, through Yellowstone's south end in July traffic. · 📍 Shadow Mountain dispersed camping Wyoming
-- 9:15 AM (30m) · stop · **Claim a site before anything else.** Take the first acceptable one. Full? Gros Ventre if the January hold is in place; otherwise the bail-out is a paid campground, not researched. · 📍 Shadow Mountain dispersed camping Wyoming
+- 9:15 AM (30m) · stop · **Claim a site before anything else.** Take the first acceptable one. Full? **Bail-out: Gros Ventre** (279 sites, reservable; not held, so only if a site is still open that day, nps.gov/grte, snippet), then a paid campground, not researched. · 📍 Shadow Mountain dispersed camping Wyoming
 - 10:15 AM (30m) · drive · → Jenny Lake, the east shore boat dock. ⚠️ Estimate. · 📍 Jenny Lake East Shore Boat Dock
 - 11:00 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
 - 4:15 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
@@ -647,7 +643,7 @@ overnight:
 The Teton front rises straight out of the valley floor with no foothills in front of it, and the boondock site looks right at it. The first free night on the trip, and the one Colin asked for.
 
 #### Warnings
-**The site race.** First-come, full by about 10 AM most days: be there by 9:30 or have the Gros Ventre hold. **Grand Teton is grizzly country too**: food and anything scented in the car, nothing in the tent, bear spray on the trail.
+**The site race.** First-come, full by about 10 AM most days: be there by 9:30. No backup is held *(Colin, 2026-11-14)*. **Grand Teton is grizzly country too**: food and anything scented in the car, nothing in the tent, bear spray on the trail.
 
 ### Day 13 — 2027-07-24 · Teton Sunrise, Then North
 
@@ -1621,7 +1617,6 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Slough Creek and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
 - [ ] 🚨 **Glacier — Avalanche first, Apgar backup, Jul 25–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Many Glacier, Jul 27–29** — same system, same January sitting. Both equally competitive.
-- [ ] **Grand Teton — Gros Ventre, Jul 23, optional hold** — recreation.gov, 6 months out, the backup if Shadow Mountain is full by 10 AM. Hold or not: Colin's call.
 - [ ] **Flathead Lake State Park — Big Arm, Jul 24** — Montana State Parks, 3-month window (the briefing computes it). A July Saturday: book the day it opens.
 - [ ] **Vedauwoo, Jul 13** — recreation.gov, mix of reservable and first-come sites. Free designated dispersed sites behind it as the fallback.
 - [ ] **Brooklyn Lake, Jul 14** — recreation.gov, mix of reservable and first-come. ⚠️ Confirm it is open by Jul 14 (the FS page says both "mid-July" and "7/04").
