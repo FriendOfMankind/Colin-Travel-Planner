@@ -1,6 +1,6 @@
 {
   "generatedBy": "Trees tools/sun.mjs (ad-hoc --lat/--lng/--elev/--tz America/Denver), run 2026-10-29 for the Jul 12 departure; Glacier rows (7/23 on) unchanged from the 2026-10-10 run",
-  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip). 2026-10-29 run: the verified places.yaml coordinates for Cedar Pass, West Tensleep Lake, Island Lake and Slough Creek, at 744 m, 2,774 m, 2,901 m and 1,905 m; these reproduce the 2026-10-10 table to the minute. Glacier rows are from the 2026-10-10 run (stateparks.com points for Many Glacier and Apgar). Everything is Mountain Time. **Madison Campground has no verified coordinate**, so Jul 22's sunset and Jul 23's sunrise there are TBD. Rows are per night's location; on travel days trip.md shows the departure camp's sunrise, computed the same way (Badlands 7/15 5:14 AM, Bighorns 7/18 5:31 AM, Beartooth 7/21 5:41 AM).Full moon (July 17–19) falls on the last Bighorn night and the first two Beartooth nights. The Fri 7/30 and Sat 7/31 rows are Theodore Roosevelt, cut 2026-10-15; kept as a record, not on the plan. 2026-10-30: the two Badlands rows were replaced by Jul 12–14 rows (Des Moines, Vedauwoo, Snowy Range; no verified coordinates yet, so TBD) and the cut Theodore Roosevelt rows were removed. That also fixes a one-day offset: the site reads rows by day index, and since the Jul 12 departure every day had been showing the next day's sun. 2026-11-08: the Glacier halves flipped (west side Jul 23–26, Many Glacier Jul 27–29); those 7 rows recomputed with Trees tools/sun.mjs at the verified places.yaml pins for Avalanche Campground (~1,070 m, elevation approximate) and Many Glacier Campground (1,490 m). 2026-11-14: the Tetons and Flathead Lake took Jul 23–24 (Colin). Those rows' Teton times are TBD until Shadow Mountain and Oxbow Bend are pinned. The Big Arm times (7/24 sunset and dark, 7/25 first light and sunrise) were computed in-session with the NOAA solar equations at the fwp.mt.gov Big Arm coordinate, sunrise/sunset at −0.833° and civil twilight at −6°, with NO horizon dip, so they are a few minutes 'shorter-day' than the Trees rows, which add dip for elevation (checked: the same code gives Apgar 7/23 as 5:59 AM / 9:25 PM against this table's 5:50 / 9:32). The 7/25 sunset and dark stay the Avalanche values from the 2026-11-08 run.",
+  "note": "Computed with Trees astro.mjs (NOAA solar position, refraction and horizon dip). 2026-10-29 run: the verified places.yaml coordinates for Cedar Pass, West Tensleep Lake, Island Lake and Slough Creek, at 744 m, 2,774 m, 2,901 m and 1,905 m; these reproduce the 2026-10-10 table to the minute. Glacier rows are from the 2026-10-10 run (stateparks.com points for Many Glacier and Apgar). Everything is Mountain Time. **Madison Campground has no verified coordinate**, so Jul 22's sunset and Jul 23's sunrise there are TBD. Rows are per night's location; on travel days trip.md shows the departure camp's sunrise, computed the same way (Badlands 7/15 5:14 AM, Bighorns 7/18 5:31 AM, Beartooth 7/21 5:41 AM).Full moon (July 17–19) falls on the last Bighorn night and the first two Beartooth nights. The Fri 7/30 and Sat 7/31 rows are Theodore Roosevelt, cut 2026-10-15; kept as a record, not on the plan. 2026-10-30: the two Badlands rows were replaced by Jul 12–14 rows (Des Moines, Vedauwoo, Snowy Range; no verified coordinates yet, so TBD) and the cut Theodore Roosevelt rows were removed. That also fixes a one-day offset: the site reads rows by day index, and since the Jul 12 departure every day had been showing the next day's sun. 2026-11-08: the Glacier halves flipped (west side Jul 23–26, Many Glacier Jul 27–29); those 7 rows recomputed with Trees tools/sun.mjs at the verified places.yaml pins for Avalanche Campground (~1,070 m, elevation approximate) and Many Glacier Campground (1,490 m). 2026-11-14: the Tetons and Flathead Lake took Jul 23–24 (Colin). Those rows' Teton times are TBD until Shadow Mountain and Oxbow Bend are pinned. The Big Arm times (7/24 sunset and dark, 7/25 first light and sunrise) were computed in-session with the NOAA solar equations at the fwp.mt.gov Big Arm coordinate, sunrise/sunset at −0.833° and civil twilight at −6°, with NO horizon dip, so they are a few minutes 'shorter-day' than the Trees rows, which add dip for elevation (checked: the same code gives Apgar 7/23 as 5:59 AM / 9:25 PM against this table's 5:50 / 9:32). The 7/25 sunset and dark stay the Avalanche values from the 2026-11-08 run. 2026-11-14 later: Colter Bay replaced Shadow Mountain for 7/23. The Teton times (7/23 sunset 8:56 PM and dark 9:29 PM; 7/24 first light 5:28 AM and sunrise 6:02 AM) were computed the same way at Colin's Oxbow Bend pin (43.8661, -110.5476), ~10 km from Colter Bay; the difference is well under a minute. 7/23's sunrise at Madison stays TBD. Madison has been pinned since 2026-10-30 (places.yaml), so its TBDs were stale: 7/22 sunset 9:00 PM and dark 9:35 PM, 7/23 first light 5:25 AM and sunrise 6:00 AM, computed 2026-11-14 the same way at that pin.",
   "rows": [
     {
       "date": "Mon 7/12",
@@ -97,24 +97,24 @@
       "location": "Slough Creek (dawn) → Madison (night)",
       "firstLight": "5:20 AM",
       "sunrise": "5:47 AM",
-      "sunset": "TBD (no verified coordinate)",
-      "dark": "TBD (no verified coordinate)",
+      "sunset": "9:00 PM",
+      "dark": "9:35 PM",
       "moon": "85.6% waning"
     },
     {
       "date": "Fri 7/23",
-      "location": "Madison (dawn) → Shadow Mountain, Grand Teton (night)",
-      "firstLight": "TBD (no verified coordinate)",
-      "sunrise": "TBD (no verified coordinate)",
-      "sunset": "TBD (no verified coordinate)",
-      "dark": "TBD (no verified coordinate)",
+      "location": "Madison (dawn) → Colter Bay, Grand Teton (night)",
+      "firstLight": "5:25 AM",
+      "sunrise": "6:00 AM",
+      "sunset": "8:56 PM",
+      "dark": "9:29 PM",
       "moon": "78.1% waning"
     },
     {
       "date": "Sat 7/24",
-      "location": "Grand Teton (dawn) → Flathead Lake, Big Arm (night)",
-      "firstLight": "TBD (no verified coordinate)",
-      "sunrise": "TBD (no verified coordinate)",
+      "location": "Oxbow Bend, Grand Teton (dawn) → Flathead Lake, Big Arm (night)",
+      "firstLight": "5:28 AM",
+      "sunrise": "6:02 AM",
       "sunset": "9:23 PM",
       "dark": "10:00 PM",
       "moon": "69.4% waning"
