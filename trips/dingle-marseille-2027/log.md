@@ -256,3 +256,10 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 
 - **Mount Brandon is a definite** *(Colin, 2026-11-11: "we definitely want to do Mount Brandon, Stick did it as a kid")*. It's the main event of Day 5 (Thu May 13), by taxi to the Faha trailhead, and swaps onto Tue or Wed if one of them has the clearer forecast. Was: Day 5 the spare day (Slea Head rain swap, Inch and Minard), with Brandon an option added earlier the same day. Inch and Minard are now the rain plan; Slea Head's rain swap is Day 4.
 - Budget: the taxi, ~€20 each, added to both outing totals; all in now ~$1,460–1,660 each.
+
+## 2026-11-14 · Decided: one golf stop, Lahinch Castle on Day 8
+
+- **One round of golf, for Finn and Stick** *(Colin, 2026-11-14: "lets do one golf stop")*. Colin won't golf ("never done it, not gonna embarrass myself and waste money"); he (and Jake, if he comes) does something else or a solo restock.
+- **Picked: Lahinch Castle Course (€60), Sun May 16 afternoon**, on the way from the Shannon ferry to the Cliffs (Claude's pick). Why: only Colin drives, so the stop has to be somewhere the car is going anyway. Day 10 was the other option but would have cut the O'Dea castle. Ballybunion is visitors-only on weekday mornings, so not on a Sunday.
+- Day 8 now: Loop Head is out unless the golf is dropped, and the Ennis hurling (if it lands that Sunday) clashes with the golf.
+- The rejected options and their prices are in `research-log.md`.
