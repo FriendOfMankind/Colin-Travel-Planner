@@ -248,7 +248,7 @@ groups:
         lng: -110.832518
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Madison Campground
-        note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Pinned 2026-10-30; sun times not recomputed yet.
+        note: 🚨 Night 11. recreation.gov from 2027, 6 months out. 6,800 ft. Pinned 2026-10-30; sun times computed 2026-11-14.
         maps: Madison Campground Yellowstone
         verified: true
         lat: 44.645186
@@ -416,9 +416,10 @@ groups:
       - name: Colter Bay Campground
         note: Night 12, reserved (Colin, 2026-11-14). Showers and laundry at the Launderette.
         maps: Colter Bay Campground Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.908646688681515
+        lng: -110.64397718187641
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Flathead Lake State Park — Big Arm
         note: Night 13 (Colin, 2026-11-14). 3-month booking window.
         maps: Big Arm State Park Montana

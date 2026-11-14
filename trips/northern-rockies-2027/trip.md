@@ -594,7 +594,7 @@ overnight:
 - 2:30 PM (1h 30m) · hike · **Grand Prismatic from the Fairy Falls trail overlook.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*. The view from above is the one in the photographs; the boardwalk is the one from inside the steam. · 📍 Fairy Falls Trailhead Yellowstone
 - 4:30 PM (30m) · drive · → Madison Campground, 📋 16 mi north of Old Faithful. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
 - 5:00 PM (1h) · stop · Set up at Madison, 6,800 ft.
-- TBD · sunset · Sunset TBD (Madison is pinned; sun times not recomputed yet). Waning gibbous 86%.
+- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Madison *(computed 2026-11-14 at Colin's pin; NOAA method, see `_gen/sun.json`)*. Waning gibbous 86%.
 
 **Meals**
 - B: made at camp — after Lamar, not before
@@ -628,7 +628,7 @@ overnight:
 ```
 
 **Schedule**
-- TBD · sunrise · Sunrise at Madison TBD (no verified coordinate). No race today: the site is booked.
+- 6:00 AM · sunrise · Sunrise 6:00 AM at Madison *(computed 2026-11-14 at Colin's pin)*. No race today: the site is booked.
 - 7:00 AM (2h) · drive · → Jenny Lake via the South Entrance. ⚠️ **My estimate, unrouted.** Still early on purpose: Jenny Lake's parking fills in July mornings *(Claude's recall, not checked)*. · 📍 Jenny Lake East Shore Boat Dock
 - 9:15 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
 - 2:30 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
@@ -653,7 +653,7 @@ The Teton front rises straight out of the valley floor with no foothills in fron
 date: 2027-07-24
 tagline: The east face lit up at dawn, then the long drive north to a lake an hour short of Kalispell.
 type: travel
-driving: ⚠️ ~8h + stops, line not picked — back south via Jackson, Idaho Falls and I-15, or north through Yellowstone and West Yellowstone (not compared; `tools/roads.py` draws the faster), then Missoula → US-93 → Big Arm. Jackson → Missoula is 365–386 mi, ~6–6.5h (rome2rio, travelmath, snippets, 2026-11-14); Missoula → Big Arm not checked
+driving: "⚠️ ~8h + stops. 464 mi drawn by tools/roads.py, north back through Yellowstone (Old Faithful, West Yellowstone), Butte, Missoula, US-93 to Big Arm (Overture road data, 2026-11-14; its speeds are road-class guesses). Back south via Jackson and Idaho Falls is ~485 mi by the Jackson → Missoula figures (rome2rio, travelmath). Close to a wash: Yellowstone's roads are slow in July, so pick on the morning by traffic."
 slack: Little. The longest day of the stretch, after a dawn start.
 overnight:
   name: Flathead Lake State Park — Big Arm
@@ -669,7 +669,7 @@ overnight:
 - 6:02 AM · sunrise · Sunrise 6:02 AM, first light 5:28 AM at Oxbow Bend *(computed 2026-11-14 at Colin's pin; NOAA method, see `_gen/sun.json`)*. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up. Leave camp by ~5:15.
 - before sunrise (1h 30m) · stop · ⭐ **Oxbow Bend at sunrise**, ~10–15 min from Colter Bay *(my estimate)*; Schwabacher Landing for the reflection is ~40 min south *(my estimate)*. Moose at Oxbow at dawn are common *(Claude's recall)*. The moon is 69% waning, so it should still be up in the west at dawn *(inference; its position over the range is not computed)*. · 📍 Oxbow Bend Turnout Grand Teton
 - 7:00 AM (1h) · stop · Back to camp. Hot breakfast, break camp.
-- 8:00 AM (7h 30m) · drive! · → Big Arm, via Missoula. ⚠️ **Line not picked** (via Jackson or via Yellowstone). **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
+- 8:00 AM (7h 30m) · drive! · → Big Arm via Missoula: **north through Yellowstone (the drawn line, 464 mi) or south via Jackson (~485 mi)**, close to a wash; pick by the morning's traffic. ⚠️ Times unrouted. **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
 - 4:30 PM (1h) · stop · Check in, then a swim in Flathead Lake if there's anything left. · 📍 Big Arm State Park Montana
 - 9:23 PM · sunset · Sunset 9:23 PM, dark 10:00 PM *(computed 2026-11-14, NOAA method, at the fwp.mt.gov Big Arm coordinate; see `_gen/sun.json`)*. Waning gibbous 69%.
 
