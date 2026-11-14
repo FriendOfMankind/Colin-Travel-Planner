@@ -1,7 +1,7 @@
 ---
 slug: northern-rockies-2027
 title: The Long Way to Glacier
-subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week
+subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week, and the Sawtooths on the way home
 months: [ 7, 8 ]
 mode: drive
 days: 41
@@ -19,8 +19,8 @@ country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 40 nights
-distance: "~6,600 mi in all (Claude's estimate) — 3,307 mi drawn on real roads for Days 2–31 (tools/roads.py, 2026-11-14), Day 1 (640 mi, routed), Portland → Stanley (~560 mi) and Stanley → home (~2,000 mi), both unrouted, plus ~150 mi around the Sawtooths"
-budget: TBD. Fuel alone ~$1,150–1,350 (Claude's estimate, 2026-11-14 — ~6,600 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+distance: "~6,700 mi in all (Claude's estimate) — 4,140 mi drawn on real roads for Days 2–37 (tools/roads.py, 2026-11-14), Day 1 (640 mi, routed), and Stanley → home (~2,000 mi, recalled, unrouted)"
+budget: TBD. Fuel alone ~$1,150–1,400 (Claude's estimate, 2026-11-14 — ~6,700 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -1363,7 +1363,7 @@ None.
 date: 2027-08-12
 tagline: Airport drop, then east up the Columbia toward Idaho.
 type: travel
-driving: ⚠️ Hood River → PDX, then I-84 east to La Grande, ~260 mi from PDX (my estimate, unrouted)
+driving: Hood River → PDX → I-84 east to La Grande, 313 mi drawn (tools/roads.py; times unrouted)
 slack: Some. Nothing is booked tonight.
 overnight:
   name: TBD — motel, La Grande area
@@ -1379,6 +1379,7 @@ overnight:
 **Schedule**
 - morning · drive · **The riders to PDX** for their flights. The own-car group returns its car whenever it leaves. · 📍 Portland International Airport
 - afternoon · drive · East on I-84 through the Gorge and up onto the plateau. ⚠️ Unrouted. · 📍 La Grande Oregon
+- 8:04 PM · sunset · Sunset 8:04 PM, dark 8:37 PM at La Grande (Pacific Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: bought
@@ -1399,7 +1400,7 @@ Twelve days with friends, then a solo afternoon on I-84. Stop early if it's goin
 date: 2027-08-13
 tagline: Boise for groceries, then the Payette canyon on SH-21, a soak at Kirkham, and the Sawtooths at the end of it.
 type: travel
-driving: ⚠️ ~6h + stops, La Grande → I-84 → Boise → SH-21 (Idaho City, Lowman) → Stanley. Boise → Stanley is ~2.5–3h (idahorivers.com, in log.md); the rest is unrouted
+driving: ⚠️ ~6h + stops, 308 mi drawn (tools/roads.py), La Grande → I-84 → Boise → SH-21 (Idaho City, Lowman) → Stanley. Boise → Stanley is ~2.5–3h (idahorivers.com, in log.md); times unrouted
 slack: Some. Kirkham is the first cut.
 overnight:
   name: Outlet Campground
@@ -1417,7 +1418,7 @@ overnight:
 - 1:00 PM (1h) · stop · **Kirkham Hot Springs**: riverside pools on the South Fork Payette, roadside, "very hot and sunny" in summer, gate closes 9 PM (fs.usda.gov Boise NF, read 2026-11-12). A soak to break the drive. · 📍 Kirkham Hot Springs Lowman
 - 2:00 PM (1h 30m) · drive · → Stanley over Banner Summit. · 📍 Stanley Idaho
 - 4:00 PM (1h) · stop · Set up at Outlet. Then the Redfish Lake shore. · 📍 Outlet Campground Redfish Lake
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:47 PM · sunset · Sunset 8:47 PM, dark 9:19 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: bought
@@ -1451,11 +1452,12 @@ overnight:
 ```
 
 **Schedule**
+- 6:42 AM · sunrise · Sunrise 6:42 AM, first light 6:10 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - morning · stop · Slow camp morning. A Saturday, so the busy trails wait.
 - 10:00 AM (2h 30m) · hike · **Fishhook Creek.** ✅ AllTrails: **4.6 mi, 262 ft** *(2026-11-02)*. From Redfish, an easy leg-stretch into a meadow under the peaks. · 📍 Fishhook Creek Trailhead Redfish Lake
 - afternoon · stop · Redfish Lake beach. Swim if it's warm.
 - 6:00 PM (1h 30m) · stop · **A hot pot by the Salmon River**: Boat Box (~4 mi from Stanley, a chained tub for 2–3) or Sunbeam (~12 mi, "heavy use, extreme in summer") *(YouTube, Live That Adventure, 2022; idahohotsprings.com; in research-log.md)*. Roadside. · 📍 Sunbeam Hot Springs Idaho
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:46 PM · sunset · Sunset 8:46 PM, dark 9:17 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1489,9 +1491,10 @@ overnight:
 ```
 
 **Schedule**
+- 6:43 AM · sunrise · Sunrise 6:43 AM, first light 6:12 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 8:00 AM (4h 30m) · hike · **Bench Lakes.** ✅ AllTrails: **8.2 mi, 1,190 ft** *(2026-11-02)*. From the Redfish trailhead. · 📍 Bench Lakes Trailhead Redfish Lake
 - afternoon · stop · Back at camp. Lake, book, nap.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:44 PM · sunset · Sunset 8:44 PM, dark 9:16 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1525,10 +1528,11 @@ overnight:
 ```
 
 **Schedule**
+- 6:44 AM · sunrise · Sunrise 6:44 AM, first light 6:13 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:30 AM (30m) · drive · → Iron Creek Trailhead, west of Stanley. ⚠️ Estimate. · 📍 Iron Creek Trailhead Stanley
 - 7:00 AM (6h) · hike! · **Sawtooth Lake via Iron Creek.** ✅ AllTrails: **9.8 mi, 1,791 ft** *(2026-11-02)*, right at the ~10 mi ceiling. Alpine Lake is a short side trip on the way. Turnaround: 12:30 PM wherever you are. · 📍 Iron Creek Trailhead Stanley
 - afternoon · stop · Back to camp. Rest.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:43 PM · sunset · Sunset 8:43 PM, dark 9:14 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1562,11 +1566,12 @@ overnight:
 ```
 
 **Schedule**
+- 6:45 AM · sunrise · Sunrise 6:45 AM, first light 6:14 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 8:00 AM (1h) · drive! · → Fourth of July Trailhead, ~15 mi south of Stanley off SH-75. "It's a rough road but easy hike" (Idaho Statesman); "I saw some sedans at the trailhead" (AllTrails review, undated). **The trailer test** (`me/principles.md` 2): if it turns rough, turn around. · 📍 Fourth of July Trailhead Idaho
 - 9:00 AM (2h) · hike · **Fourth of July Lake.** 📋 **1.77 mi, 615 ft** (Idaho Statesman, in research-log.md). A White Clouds lake from a trailhead near 8,800 ft. · 📍 Fourth of July Trailhead Idaho
 - 1:00 PM (2h 30m) · hike · **Yellow Belly Lake from Pettit.** ✅ AllTrails: **5.1 mi, 964 ft** *(2026-11-02)*. Pettit parking was $10 a day (bellebucket.com, in log.md). · 📍 Pettit Lake Trailhead Idaho
 - evening · stop · Last night at Outlet. Pack the car for the drive home.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:41 PM · sunset · Sunset 8:41 PM, dark 9:12 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1600,6 +1605,7 @@ overnight:
 ```
 
 **Schedule**
+- 6:47 AM · sunrise · Sunrise 6:47 AM, first light 6:16 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:00 AM · drive! · East. Two-hour stops, no exceptions.
 
 **Meals**

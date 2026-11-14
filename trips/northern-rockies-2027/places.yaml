@@ -604,75 +604,87 @@ groups:
       - name: Portland International Airport
         note: "Day 32, the riders' flights home."
         maps: Portland International Airport
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.58886670625243
+        lng: -122.59293844502427
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Outlet Campground
         note: "Nights 33–37, five nights (Colin, 2026-11-14). Recreation.gov, 6 months out."
         maps: Outlet Campground Redfish Lake
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.14093765707615
+        lng: -114.9110767207021
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Boise
         note: "Day 33 resupply, the last big town."
         maps: Boise Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.592816936943116
+        lng: -116.28474470134017
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Lowman
         note: "Day 33, on SH-21."
         maps: Lowman Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.08223253972135
+        lng: -115.61470328177857
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Kirkham Hot Springs
         note: "Day 33 soak, roadside. Gate closes 9 PM."
         maps: Kirkham Hot Springs Lowman
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.07243048504044
+        lng: -115.54457056235032
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Stanley
         note: "Day 33, the town."
         maps: Stanley Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.216278596136874
+        lng: -114.93739676671267
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Fishhook Creek Trailhead
         note: "Day 34 hike."
         maps: Fishhook Creek Trailhead Redfish Lake
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.147271771399296
+        lng: -114.91936287509238
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Sunbeam Hot Springs
         note: "Day 34 evening soak (or Boat Box, nearer Stanley)."
         maps: Sunbeam Hot Springs Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.267807857980756
+        lng: -114.7468128633288
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Bench Lakes Trailhead
         note: "Day 35 hike, from Redfish."
         maps: Bench Lakes Trailhead Redfish Lake
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.147307921829565
+        lng: -114.919420928024
+        source: "Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14). ~5 m from the Fishhook Creek pin, since both trails leave the same Redfish trailhead (Claude's recall); the ledger flagged it, kept"
       - name: Iron Creek Trailhead
         note: "Day 36, Sawtooth Lake."
         maps: Iron Creek Trailhead Stanley
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.1985586018782
+        lng: -115.01376730511548
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Fourth of July Trailhead
         note: "Day 37, White Clouds. Unpaved road: the trailer test."
         maps: Fourth of July Trailhead Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.0463323603352
+        lng: -114.65792018681235
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Pettit Lake Trailhead
         note: "Day 37, Yellow Belly Lake."
         maps: Pettit Lake Trailhead Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.982009419860255
+        lng: -114.86605966376364
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
   - group: The drive home
     places:
       - name: Cottonwood Campground
@@ -707,9 +719,10 @@ groups:
       - name: La Grande, OR
         note: "Night 32. The town, standing in until a motel is picked."
         maps: La Grande OR
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.3250123873849
+        lng: -118.08770221233249
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Newport, OR
         note: "Night 21. The town, standing in until a motel is picked."
         maps: Newport OR
