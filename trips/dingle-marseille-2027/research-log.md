@@ -195,3 +195,13 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 - **Fixtures:** Irish Examiner, "Cork hurlers set to be away in opening two 2027 Munster SHC fixtures" (2026-08-06), read on the page; munster.gaa.ie/fixtures/senior read 2026-11-10, no 2027 championship dates.
 - **Not done:** YouTube transcripts; prices for any meal; hostel beds; drive times.
 - **Spend:** about 45 Firecrawl credits; Apify three failed runs.
+
+## 2026-11-14 · Golf on the route
+
+- **Asked by Colin:** "anywhere worth golfing in ireland? stick is interested." Search snippets and club pages via Parallel search, 2026-11-14. **All 2026 rates;** the Irish Times reports top-course fees rising to €500–550 in 2027 📋 *(golftourism.org, 2026-09, citing Irish Times 2026-08-19)*.
+- **Lahinch Old** €450, at least one caddie per group; **Lahinch Castle** €60, 27 Apr–16 Oct ✅ *(lahinchgolf.com)*. Visitors 7 days 📋 *(irelandnewspaper.com, 2026-08)*. "At €60, the best-value afternoon round in the southwest" 📋 *(golftourism.org)*.
+- **Ballybunion Old** €450 high season from 1 May; visitors weekday mornings only, weekends members only; club hire €65 ✅ *(ballybuniongolfclub.com)*. Men's handicap cap 24 📋 *(golftourism.org)*.
+- **Waterville** €400 Mon/Tue/Thu/Fri, €425 Wed/weekends, 1 Apr–31 Oct ✅ *(watervillegolflinks.ie)*; carts €50, clubs €50–60 📋.
+- **Ceann Sibéal (Dingle Golf Links)**, 14 km from Dingle: €200 May–Sept, €300 for a second round the same day ✅ *(dinglelinks.com)*. "Fun rather than great" 📋 *(golftourism.org)*.
+- **Dooks** ~€120 high season "in recent years"; **Killarney Killeen** ~€80–160 by season 📋 *(golfforkings.com, 2026-06, operator listings)*.
+- **Not checked:** Castle Course club hire and tee-time booking, Lahinch shops and Sunday hours, surf lesson prices.

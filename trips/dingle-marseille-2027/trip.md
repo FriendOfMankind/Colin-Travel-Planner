@@ -346,10 +346,10 @@ overnight:
 
 ```yaml
 date: 2027-05-16
-tagline: A car ferry across the Shannon, maybe a hurling match, the Cliffs at sunset.
+tagline: A car ferry across the Shannon, golf at Lahinch, the Cliffs at sunset.
 type: travel
-slack: Plenty without Loop Head. Loop Head is the first cut.
-driving: Killarney → Tarbert → Shannon ferry → Killimer → Cliffs of Moher → Doolin (⚠️ unrouted; ~3 h without Loop Head, Claude's estimate)
+slack: Little with golf. Loop Head is out unless golf is dropped; the hurling clashes with golf.
+driving: Killarney → Tarbert → Shannon ferry → Killimer → Lahinch → Cliffs of Moher → Doolin (⚠️ unrouted; ~3 h of driving, Claude's estimate)
 overnight:
   name: Doolin Court townhouse (picked, not booked)
   mapStandIn: Doolin Pier
@@ -361,8 +361,9 @@ overnight:
 **Schedule**
 - morning · drive · To the ferry at Tarbert, Co. Kerry. · 📍 Tarbert Ferry Terminal
 - midday · ferry · **Tarbert → Killimer car ferry** across the Shannon, ~20 min. **No reservations.** In May it runs every half hour in the daytime, and Tarbert leaves 30 min after each Killimer departure. One car fare covers everyone: €22.50 online in 2026 *(transitemerald.com guide, 2026-07, citing shannonferries.com)* · 📍 Killimer Ferry Terminal
+- afternoon · sport · **Golf for Finn and Stick: Lahinch Castle Course**, the 18-hole course next to Lahinch Old, **€60** in season *(lahinchgolf.com, 2026 rates, 27 Apr–16 Oct; 2027 not published)*. Lahinch's visitors play 7 days a week, so a Sunday works *(irelandnewspaper.com, 2026-08)*. Allow ~4 h *(Claude's estimate)*. Club hire and tee times not checked; book ahead. Colin isn't golfing *(Colin, 2026-11-14)*: Lahinch is a beach and surf town, so a walk on the strand or a surf lesson (not priced), or a grocery restock for the Doolin kitchen (shop and Sunday hours not checked). Only Colin drives, so he stays in Lahinch with the car · 📍 Lahinch Golf Club
 - optional · stop · **Loop Head**: a lighthouse headland 90 m above the Atlantic, the Bridges of Ross sea arch and the Kilkee cliff walk; a 1.1-mile cliff loop from the lighthouse car park; free parking *(wildatlanticwayfarers.ie; komoot; cyclingholidays.ie; snippets)*. "If you love cliffs, Loop Head is spectacular" *(r/irishtourism, 2024-01)*. Adds ~2 h *(Claude's estimate)* · 📍 Loop Head Lighthouse
-- optional · sport · **Clare v Cork, Munster hurling, in Ennis**, if the 2027 championship puts it on this Sunday. The pairing is provisional and has no date yet *(Irish Examiner, 2026-08-06)*. Ennis is on the way · 📍 Cusack Park Ennis
+- optional · sport · **Clare v Cork, Munster hurling, in Ennis**, if the 2027 championship puts it on this Sunday. Clashes with the golf: pick one. The pairing is provisional and has no date yet *(Irish Examiner, 2026-08-06)*. Ennis is on the way · 📍 Cusack Park Ennis
 - evening · stop · **The Cliffs of Moher**, after the tour coaches leave. Fee, hours and parking not checked. Part of the coastal path from Doolin was closed for repairs from 2025 *(hillwalktours.com, 2026-04)* · 📍 Cliffs of Moher Visitor Centre
 - night · music · **Doolin:** Gus O'Connor's, McGann's and McDermott's all run free sessions most nights from about 9 PM; Fitzpatrick's is the quieter fourth *(youririshadventure.com; justchasingsunsets.com)*. Gus O'Connor's opens daily at 10 AM *(gusoconnorsdoolin.com)*. One a night · 📍 Doolin Co. Clare
 
@@ -554,6 +555,7 @@ slack: The morning.
 - [ ] Beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1
 - [ ] Doolin → Inis Mór 2027 timetable; Dysert O'Dea's 2027 opening date; Omey tide times for May 20
 - [ ] Munster hurling 2027 dates (Clare v Cork in Ennis)
+- [ ] Lahinch Castle tee time for Finn and Stick, Sun May 16 afternoon, and club hire if they're not bringing clubs
 - [ ] Colin: driving on the left practised, and the Irish road rules read
 
 ## Open questions
@@ -606,6 +608,7 @@ Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 =
 | Fuel and tolls | ~$146 (~€130) | ~$49 | Claude's estimate: ~700 car miles at ~6 L/100 km and ~€1.75/L (recalled), plus the M50 |
 | **Shared costs** | **~$2,596** | **~$865** | |
 | Outings, all of them | | ~$440 (€394) | Mount Brandon taxi ~€20 each, Skellig landing €170, kayaks €65, Blasket €60, Inis Mór ferry up to €47, Doolin Cave €19.50, Clonmacnoise €8, Dysert O'Dea ~€5 |
+| Golf, Finn and Stick only | | €60 each | Lahinch Castle, 2026 rate; club hire extra if they don't bring clubs |
 | Outings, lean | | ~$243 (€218) | Brandon taxi kept; Skellig boat-around €80 instead of landing, no kayaks, Inis Mór €25 |
 | Food | | ~$350 (~€315) | Claude's estimate: ~€35 a day for 9 days off the family's table, cooking in Doolin |
 | **Each, all in** | | **~$1,460–1,660** | Plus car cover if a card doesn't cover Ireland, and bike hire on Inis Mór |
