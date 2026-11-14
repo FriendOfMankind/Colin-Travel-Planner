@@ -2,6 +2,16 @@
 # verified:false with null lat/lng is the CORRECT answer for an unlocated place.
 # A coordinate needs a source. Never invent one.
 groups:
+  - group: Home
+    places:
+      - name: Home (Avon)
+        note: Day 1 start and Day 41 end. A town-level pin is enough for drawing the loop.
+        maps: Avon, Ohio
+        home: true
+        verified: true
+        lat: 41.439321
+        lng: -82.016741
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30; the same pin as newfoundland-2027, copied 2026-11-14)
   - group: The drive out
     places:
       - name: Chicago I-90 corridor
@@ -690,51 +700,59 @@ groups:
       - name: Idaho Falls
         note: "Day 38, on the way north."
         maps: Idaho Falls Idaho
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.491747501618384
+        lng: -112.04072872271371
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Livingston
         note: "Day 38 resupply."
         maps: Livingston Montana
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.64233098841962
+        lng: -110.57565943990555
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Itch-Kep-Pe Park
         note: "Night 38. Free, first-come, on the Yellowstone River."
         maps: Itch-Kep-Pe Park Columbus Montana
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.62784649184433
+        lng: -109.25209278222175
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Billings
         note: "Day 39."
         maps: Billings Montana
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 45.78151232294647
+        lng: -108.50530305232738
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Devils Tower Visitor Center
         note: "Day 39 stop: the Tower Trail."
         maps: Devils Tower Visitor Center
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 44.590260482982174
+        lng: -104.7196607599557
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Sage Creek Campground
         note: "Night 39. Free, first-come, unpaved road."
         maps: Sage Creek Campground Badlands
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.89386425489202
+        lng: -102.41457958346528
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Sioux Falls
         note: "Day 40."
         maps: Sioux Falls South Dakota
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.545780207807816
+        lng: -96.73159380802511
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Great River Bluffs State Park
         note: "Night 40. Reservable 120 days out."
         maps: Great River Bluffs State Park
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.939089543854216
+        lng: -91.40781584937794
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
   - group: The drive home
     places:
       - name: Cottonwood Campground

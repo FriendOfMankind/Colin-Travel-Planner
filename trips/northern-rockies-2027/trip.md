@@ -19,8 +19,8 @@ country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 40 nights
-distance: "~6,700 mi in all (Claude's estimate) — 4,140 mi drawn on real roads for Days 2–37 (tools/roads.py, 2026-11-14), Day 1 (640 mi, routed), and Stanley → home on I-90 (~2,170 mi, from rome2rio/travelmath legs, unrouted)"
-budget: TBD. Fuel alone ~$1,150–1,400 (Claude's estimate, 2026-11-14 — ~6,700 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+distance: "~7,000 mi in all (Claude's estimate) — 6,370 mi drawn on real roads for Days 2–41 (tools/roads.py, 2026-11-14), plus Day 1 (640 mi, routed)"
+budget: TBD. Fuel alone ~$1,200–1,450 (Claude's estimate, 2026-11-14 — ~7,000 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -124,11 +124,11 @@ page:
   theme: alpine
   vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Outback for Aug 1–12; the own-car group rents its own car and picks its own dates."
-  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days, the Sawtooths and the drive home aren't computed yet. [← All trips](../../index.html)
+  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days (Days 20–30) aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 41 days
       lbl: Length
-    - num: ~6,000+ mi
+    - num: ~7,000 mi
       lbl: Driving (unrouted)
     - num: "35"
       lbl: Nights out
@@ -1596,7 +1596,7 @@ Fourth of July Creek Road is unpaved and not checked for the Outback. Turn aroun
 date: 2027-08-18
 tagline: Out of the Sawtooths, across eastern Idaho, and up into Montana to a free riverside camp.
 type: travel
-driving: ⚠️ ~505 mi, unrouted. Stanley → Arco → Idaho Falls, then Idaho Falls → Livingston 225 mi (rome2rio, snippet), then I-90 to Columbus
+driving: ⚠️ 506 mi drawn (tools/roads.py), Stanley → Idaho Falls → Livingston → I-90 → Columbus; times unrouted
 slack: Little.
 overnight:
   name: Itch-Kep-Pe Park
@@ -1609,9 +1609,11 @@ overnight:
 ```
 
 **Schedule**
+- 6:47 AM · sunrise · Sunrise 6:47 AM, first light 6:16 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:00 AM · drive! · Stanley → SH-75 → US-93 → Arco → Idaho Falls → north into Montana. Two-hour stops. ⚠️ Unrouted. · 📍 Idaho Falls Idaho
 - afternoon · stop · **Resupply in Bozeman or Livingston.** · 📍 Livingston Montana
 - evening · stop · Camp at Itch-Kep-Pe, on the river. · 📍 Itch-Kep-Pe Park Columbus Montana
+- 8:20 PM · sunset · Sunset 8:20 PM, dark 8:52 PM at Itch-Kep-Pe Park *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1632,7 +1634,7 @@ The first of four long days, straight after five nights in one place. Stop every
 date: 2027-08-19
 tagline: Across the Wyoming plains to the one stop on the way home you haven't seen, then the Badlands for a free bed.
 type: travel + activity
-driving: ⚠️ ~510 mi + the Tower, unrouted. Columbus → Billings → I-90 → Moorcroft → US-14 → Devils Tower → Sundance → I-90 → Wall → Sage Creek
+driving: ⚠️ 515 mi drawn (tools/roads.py) + the Tower, Columbus → Billings → I-90 → Devils Tower → I-90 → Wall → Sage Creek; times unrouted
 slack: Little. The Tower is the only stop.
 overnight:
   name: Sage Creek Campground
@@ -1645,10 +1647,12 @@ overnight:
 ```
 
 **Schedule**
+- 6:22 AM · sunrise · Sunrise 6:22 AM, first light 5:50 AM at Itch-Kep-Pe Park *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:00 AM · drive! · → Billings → east on I-90 into Wyoming. ⚠️ Unrouted. · 📍 Billings Montana
 - midday · drive · Off at Moorcroft (or Sundance) onto US-14 to the Tower, "the most common route" (nps.gov/deto, snippet). · 📍 Devils Tower Visitor Center
 - 1:30 PM (1h 30m) · hike · ⭐ **Devils Tower, the Tower Trail.** The paved loop around the base: **1.3 mi** (evansoutdooradventures.com) or **1.6 mi, ~38 min, 150 ft** (AllTrails and hikespeak, snippets, 2026-11-14). The one place on the drive home Colin hasn't seen *(Colin, 2026-11-14)*. America the Beautiful pass covers entry. · 📍 Devils Tower Visitor Center
 - afternoon · drive · → Sundance → I-90 → past Rapid City → Wall → Sage Creek Rim Road. **Trailer test** on the gravel (`me/principles.md` 2). · 📍 Sage Creek Campground Badlands
+- 7:48 PM · sunset · Sunset 7:48 PM, dark 8:18 PM at Sage Creek *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1669,7 +1673,7 @@ A ~10-hour day with a stop in the middle. Leave the Tower by ~3 PM. Keep your di
 date: 2027-08-20
 tagline: The plains in one push, ending on a bluff above the river.
 type: travel
-driving: ⚠️ ~545 mi, unrouted. Wall → I-90 → Sioux Falls → Albert Lea → Great River Bluffs, near Winona
+driving: ⚠️ 593 mi drawn (tools/roads.py), Sage Creek → I-90 → Sioux Falls → Great River Bluffs, near Winona; times unrouted. The longest of the four
 slack: None.
 overnight:
   name: Great River Bluffs State Park
@@ -1682,8 +1686,10 @@ overnight:
 ```
 
 **Schedule**
+- 5:59 AM · sunrise · Sunrise 5:59 AM, first light 5:29 AM at Sage Creek *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:00 AM · drive! · East on I-90 across South Dakota and southern Minnesota. ⚠️ Unrouted. · 📍 Sioux Falls South Dakota
 - evening · stop · Camp on the bluff. · 📍 Great River Bluffs State Park
+- 8:02 PM · sunset · Sunset 8:02 PM, dark 8:33 PM at Great River Bluffs (Central Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1704,12 +1710,13 @@ Long and flat. If the split goes badly, make tomorrow the long one. Nothing depe
 date: 2027-08-21
 tagline: The long way home, the really long way.
 type: travel
-driving: ⚠️ ~610 mi, unrouted. Winona → La Crosse → I-90/94 → Chicago → Avon
+driving: ⚠️ 616 mi drawn (tools/roads.py), Winona → Chicago → Avon; times unrouted
 slack: All of it — work starts Aug 31.
 overnight: null
 ```
 
 **Schedule**
+- 6:16 AM · sunrise · Sunrise 6:16 AM, first light 5:46 AM at Great River Bluffs (Central Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:00 AM · drive! · → Chicago. **Time the Chicago window:** before 10 AM or after 7 PM. ⚠️ Unrouted. · 📍 I-90 Chicago Skyway
 - arrival · note · Ten days before full-time work starts.
 
@@ -1724,7 +1731,7 @@ The Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, Glacier, twelve d
 
 #### Warnings
 
-The Outback will have done ~6,700 miles in five and a half weeks. **Get it looked at.**
+The Outback will have done ~7,000 miles in five and a half weeks. **Get it looked at.**
 
 ## Hikes
 
