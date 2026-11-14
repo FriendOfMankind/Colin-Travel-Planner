@@ -281,7 +281,7 @@ groups:
         days: 16–18
         wpNote: Book mid-January 2027. No walk-up fallback in July.
       - name: Apgar Campground
-        note: 🚨 Nights 12–15, the backup to Avalanche *(Colin, 2026-10-30)*. Same January booking.
+        note: 🚨 Nights 14–15, the backup to Avalanche *(Colin, 2026-10-30; nights 12–13 went to the Tetons and Flathead Lake, 2026-11-14)*. Same January booking.
         maps: Apgar Campground Glacier National Park
         verified: true
         lat: 48.525647
@@ -355,6 +355,70 @@ groups:
         lat: 48.674321
         lng: -113.608633
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+  - group: Grand Teton + Flathead Lake (added 2026-11-14)
+    places:
+      - name: Shadow Mountain dispersed
+        note: "Night 12, the boondock night (Colin, 2026-11-14). Free, first-come, full by ~10 AM most days. Pin the lower road's first sites."
+        maps: Shadow Mountain dispersed camping Wyoming
+        verified: false
+        lat: null
+        lng: null
+      - name: Jenny Lake East Shore Boat Dock
+        note: Day 12, the boat across to Cascade Canyon.
+        maps: Jenny Lake East Shore Boat Dock
+        verified: false
+        lat: null
+        lng: null
+      - name: Cascade Canyon Trail
+        note: Day 12 hike, from the west shore boat landing.
+        maps: Cascade Canyon Trail Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: String Lake
+        note: Day 12 afternoon swim.
+        maps: String Lake Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: Signal Mountain Lodge
+        note: Day 12, optional. "Pay showers and laundry nearby" per the nps.gov/grte camping table (snippet); exact building not read.
+        maps: Signal Mountain Lodge Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: Oxbow Bend Turnout
+        note: Day 13 sunrise. Its pin also lets the sunrise time be computed.
+        maps: Oxbow Bend Turnout Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: Schwabacher Landing
+        note: Day 13 sunrise, the alternative to Oxbow.
+        maps: Schwabacher Landing Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: Gros Ventre Campground
+        note: Night 12 bail-out if Shadow Mountain is full. Not held (Colin, 2026-11-14), so only if a site is open that day.
+        maps: Gros Ventre Campground Grand Teton
+        verified: false
+        lat: null
+        lng: null
+      - name: Flathead Lake State Park — Big Arm
+        note: Night 13 (Colin, 2026-11-14). 3-month booking window.
+        maps: Big Arm State Park Montana
+        verified: true
+        lat: 47.80534
+        lng: -114.31339
+        source: "fwp.mt.gov Big Arm page, its listed latitude/longitude (read 2026-11-14)"
+      - name: Flathead Lake State Park — West Shore
+        note: Night 13 backup.
+        maps: West Shore State Park Lakeside Montana
+        verified: true
+        lat: 47.951
+        lng: -114.187
+        source: "montanastateparks.reserveamerica.com West Shore page, its GPS info (read 2026-11-14)"
   - group: Oregon coast (added 2026-11-04, pinned 2026-11-09)
     places:
       - name: Yaquina Head Outstanding Natural Area
@@ -507,7 +571,7 @@ groups:
         lng: -122.232221
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Avalanche Campground
-        note: "Nights 12–15, first choice (Colin, 2026-10-30; nights moved by the 2026-11-08 flip). Apgar is the backup."
+        note: "Nights 14–15, first choice (Colin, 2026-10-30; nights moved by the 2026-11-08 flip, and to 14–15 by the Tetons, 2026-11-14). Apgar is the backup."
         maps: Avalanche Campground Glacier National Park
         verified: true
         lat: 48.677999
