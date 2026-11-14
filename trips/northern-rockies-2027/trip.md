@@ -240,7 +240,7 @@ overnight:
 - 6:30 AM (11h 08m) · drive · Des Moines → I-80 W through Nebraska → exit 329, Vedauwoo Rd · 📍 Vedauwoo Campground Wyoming
 - ~4:45 PM MT (45m) · camp · Set up. Fill water at the hand pump
 - 6:00 PM (1h 15m) · hike · **Turtle Rock Loop**, from the campground. ✅ AllTrails: **2.9 mi, 282 ft, Easy, 4.8★, ~1h 08m**. Through the granite towers, past beaver ponds. The right first walk after two days in a car · 📍 Turtle Rock Trail Vedauwoo
-- evening · sunset · Sit on the rocks for golden hour. Sunset: TBD (pinned 2026-10-30; not recomputed yet)
+- 8:34 PM · sunset · Sunset 8:34 PM, dark 9:07 PM at Vedauwoo *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Sit on the rocks for golden hour.
 
 **Meals**
 - B: transit camp
@@ -280,7 +280,7 @@ overnight:
 - 9:30 AM (4h) · hike · **Medicine Bow Peak and Lakes Trail Loop**. ✅ AllTrails: **7.0 mi, 1,715 ft, Hard, loop, 4.8★**. Up to 12,013 ft. Bail-out: **Lakes Trail** out-and-back, 6.7 mi / 1,026 ft, Moderate, stays below the summit *(AllTrails, 2026-10-30)* · 📍 West Lake Marie Trailhead
 - 1:30 PM · stop · Sit at Lake Marie if the sky is still clear
 - 3:00 PM (17m) · drive · → Brooklyn Lake · 📍 Brooklyn Lake Campground Wyoming
-- evening · sunset · From camp or Libby Flats. Sunset: TBD (pinned 2026-10-30; not recomputed yet)
+- 8:38 PM · sunset · Sunset 8:38 PM, dark 9:10 PM at Brooklyn Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. From camp or Libby Flats.
 
 **Meals**
 - B: made at camp
@@ -319,7 +319,7 @@ overnight:
 - 7:30 AM (6h 47m) · drive! · Brooklyn Lake → WY-789 north → US-16 east through Ten Sleep → the West Tensleep road. Routed via firecrawl-maps, 2026-10-30. **Fuel stop on WY-789 not picked**; fill in Laramie the day before · 📍 West Tensleep Lake Campground Wyoming
 - 3:00 PM (1h) · stop · Set up at ~9,100 ft, which is lower than last night
 - 5:00 PM (45m) · hike · **West Tensleep Falls.** ✅ AllTrails: **1.6 mi, 219 ft, Easy.** A leg-stretch from camp · 📍 West Tensleep Falls Trailhead
-- 9:00 PM · sunset · Sunset. Dark 9:25 PM. Waxing gibbous 93%.
+- 8:50 PM · sunset · Sunset 8:50 PM, dark 9:25 PM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waxing gibbous 93%.
 
 **Meals**
 - B: made at camp
@@ -353,11 +353,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:29 AM · sunrise · Sunrise. First light 5:04 AM.
+- 5:40 AM · sunrise · Sunrise 5:40 AM, first light 5:05 AM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 5:00 AM (7h) · hike! · **Mirror Lake and Lost Twin Lakes.** ✅ AllTrails: **11.1 mi, 2,076 ft, Hard, out-and-back, ~321 min moving.** ⚠️ **Over the ~10 mi soft ceiling** — by a mile, at altitude, on your fourth night at altitude. It is in because the payoff is two lakes in a granite cirque with a wall straight above them, and the gain is comfortably under the 2,500 ft half of the ceiling. · 📍 West Tensleep Trailhead Bighorn National Forest
 - 9:15 AM (1h) · stop · **Sit at Lost Twin.** The turnaround is the destination — an hour under the headwall is what the eleven miles buy.
 - 1:00 PM (rest) · stop · Back at camp. Eat, lie down, do nothing.
-- 8:59 PM · sunset · Sunset. Dark 9:24 PM. Waxing gibbous 97%.
+- 8:49 PM · sunset · Sunset 8:49 PM, dark 9:24 PM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waxing gibbous 97%.
 
 **Meals**
 - B: made — pre-dawn, hot
@@ -391,11 +391,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:30 AM · sunrise · Sunrise. Sleep past it. First soft day of the trip.
+- 5:41 AM · sunrise · Sunrise 5:41 AM, first light 5:06 AM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Sleep past it. First soft day of the trip.
 - 8:00 AM (2h) · hike · **Sherd Lake Trail.** ✅ AllTrails: **3.5 mi, 570 ft, Moderate.** Short, and the correct grade the day after eleven miles. · 📍 Sherd Lake Trailhead Bighorn National Forest
 - 12:00 PM (3h) · drive! · 🚨 **Crazy Woman Canyon Road (FSR 33) — decide at the road, not before.** The registry lists this canyon's dispersed sites as the best-reviewed in the range. It is also unpaved, narrow, rocky and shelf-like in places, and the Outback has **8.7 in of clearance, AWD, not a 4x4**. Drive to the top, look, and turn around without regret if it is not obviously fine. The test (`me/principles.md` 2): would someone tow a trailer down this? If not, turn around. · 📍 Crazy Woman Canyon Road Wyoming
 - afternoon · stop · If the canyon is out: the Skyway overlooks and Meadowlark Lake fill the afternoon with zero risk.
-- 8:58 PM · sunset · Sunset. Dark 9:23 PM. **Full moon.**
+- 8:49 PM · sunset · Sunset 8:49 PM, dark 9:24 PM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **Full moon.**
 
 **Meals**
 - B: made at camp
@@ -430,12 +430,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:31 AM · sunrise · Sunrise. Break camp.
+- 5:42 AM · sunrise · Sunrise 5:42 AM, first light 5:07 AM at West Tensleep Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Break camp.
 - 6:30 AM (3h) · drive! · → Cody WY via Ten Sleep and the Bighorn Basin. **Second resupply — fuel, groceries, block ice.** Nothing between here and Great Falls is a real grocery. · 📍 Cody Wyoming
 - 10:30 AM (2h 30m) · drive · **Chief Joseph Scenic Byway (WY-296) then US-212 west.** Dead Indian Pass, then the switchbacks up onto the plateau. Paved throughout. · 📍 Chief Joseph Scenic Byway Wyoming
 - 1:30 PM (1h) · stop · Set up at Island Lake. ⚠️ **You are at 9,518 ft and it can snow here in July.** Pitch properly, not quickly.
 - 3:00 PM (2h) · stop · Nothing. Walk the lakeshore, look at the plateau.
-- 9:10 PM · sunset · Sunset. Dark 9:34 PM. **Full moon.**
+- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **Full moon.**
 
 **Meals**
 - B: made at camp
@@ -469,11 +469,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:39 AM · sunrise · Sunrise. First light 5:14 AM.
+- 5:50 AM · sunrise · Sunrise 5:50 AM, first light 5:14 AM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 6:00 AM (5h) · hike · **Beauty Lake and Beartooth High Lakes Loop.** ✅ AllTrails: **7.7 mi, 1,161 ft, Moderate, loop, ~205 min.** The trailhead is **half a mile from the campground**. Above treeline almost immediately, past lake after lake. This is the single best expression of the car-camping rule set on the entire route. · 📍 Beartooth High Lakes Trailhead Island Lake
 - 9:00 AM (1h 30m) · stop · **Sit at Beauty Lake.** An hour and a half. Nothing to hurry for.
 - afternoon · stop · Camp. Watching a thunderstorm build from a safe place is the correct plateau afternoon.
-- 9:09 PM · sunset · Sunset. Dark 9:33 PM. **Full moon** (99%).
+- 8:59 PM · sunset · Sunset 8:59 PM, dark 9:34 PM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **Full moon** (99%).
 
 **Meals**
 - B: made — hot, it will be near freezing
@@ -507,11 +507,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:40 AM · sunrise · Sunrise. First light 5:15 AM.
+- 5:51 AM · sunrise · Sunrise 5:51 AM, first light 5:15 AM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 6:00 AM (4h) · hike · **Becker Lake via Beartooth High Lakes Trail.** ✅ AllTrails: **8.0 mi, 715 ft, Moderate, ~181 min.** Longer than yesterday and much flatter — the gain is a third of it. A good second day at altitude. · 📍 Beartooth High Lakes Trail Wyoming
 - 1:00 PM (45m) · drive! · → **Clay Butte Lookout.** A fire tower on a spur road with the Beartooths on one side and the Absarokas on the other. ⚠️ The spur is gravel — assess it. · 📍 Clay Butte Lookout Wyoming
 - 2:00 PM (1h 30m) · stop · The lookout. Best single view on the route that costs no walking.
-- 9:08 PM · sunset · Sunset. Dark 9:32 PM. Waning gibbous 96%.
+- 8:58 PM · sunset · Sunset 8:58 PM, dark 9:33 PM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 96%.
 
 **Meals**
 - B: made — hot
@@ -545,14 +545,14 @@ overnight:
 ```
 
 **Schedule**
-- 5:41 AM · sunrise · Sunrise. Break camp.
+- 5:52 AM · sunrise · Sunrise 5:52 AM, first light 5:17 AM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Break camp.
 - 7:00 AM (2h) · drive · → Yellowstone NE entrance via Cooke City. **Cooke City is the last fuel for a long way and it is expensive.** Fill anyway. · 📍 Yellowstone Northeast Entrance Cooke City
 - 9:00 AM (1h) · stop · Take the site. If it did not come through, trigger the fallback by 10 AM — do not spend the day hoping.
 - 10:00 AM (1h 15m) · drive! · → Canyon Village via Tower Junction and Dunraven Pass. ⚠️ **Drive time is my estimate, unrouted** (Google +15% not applied because nothing was routed). · 📍 Artist Point Yellowstone
 - 11:15 AM (2h 30m) · hike · **The Grand Canyon of the Yellowstone.** ✅ AllTrails: **Artist Point, 0.3 mi, 13 ft, Easy** (South Rim, the classic Lower Falls view) and **Brink of the Lower Falls, 0.8 mi, 249 ft, Moderate, ~30 min** (North Rim, switchbacks down to the lip of the falls) *(AllTrails, 2026-10-29)*. Two short walks and the drive between the rims. **Busy at midday, and worth it**: the crowd rule (`me/travel-style.md`) says an icon earns its crowd when the trip has empty places too, and the Beartooth just was one. · 📍 Brink of the Lower Falls Trail Yellowstone
 - 2:00 PM (1h 15m) · drive · → back to Slough Creek. ⚠️ Estimate, unrouted. Rest before the evening.
 - 5:00 PM (3h) · drive! · **Lamar Valley at last light.** Bison, elk, and the wolf packs the valley is famous for. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
-- 9:08 PM · sunset · Sunset. Dark 9:34 PM. Waning gibbous 92%.
+- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Slough Creek *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 92%.
 
 **Meals**
 - B: made at camp
@@ -586,7 +586,7 @@ overnight:
 ```
 
 **Schedule**
-- 5:20 AM · note · First light at Slough Creek. Sunrise 5:47 AM. **The one early alarm this week, and it earns it**: wildlife at dawn is the whole reason for the Slough Creek night (principle 4's exception).
+- 5:21 AM · note · First light at Slough Creek. Sunrise 5:56 AM *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **The one early alarm this week, and it earns it**: wildlife at dawn is the whole reason for the Slough Creek night (principle 4's exception).
 - 5:15 AM (2h 30m) · drive! · **Lamar Valley at dawn.** Same rules as last night: pull-outs only, 25 yards from bison, 100 from wolves and bears. · 📍 Lamar Valley Yellowstone
 - 8:00 AM (1h 30m) · stop · Back to camp. Hot breakfast, break camp slowly.
 - 9:30 AM (2h 30m) · drive · → Old Faithful via Tower Junction, Canyon, Norris and Madison. ⚠️ **Drive time is my estimate, unrouted**, and July traffic in the geyser basins is slow. · 📍 Old Faithful Geyser
@@ -594,7 +594,7 @@ overnight:
 - 2:30 PM (1h 30m) · hike · **Grand Prismatic from the Fairy Falls trail overlook.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*. The view from above is the one in the photographs; the boardwalk is the one from inside the steam. · 📍 Fairy Falls Trailhead Yellowstone
 - 4:30 PM (30m) · drive · → Madison Campground, 📋 16 mi north of Old Faithful. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
 - 5:00 PM (1h) · stop · Set up at Madison, 6,800 ft.
-- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Madison *(computed 2026-11-14 at Colin's pin; NOAA method, see `_gen/sun.json`)*. Waning gibbous 86%.
+- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Madison *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 86%.
 
 **Meals**
 - B: made at camp — after Lamar, not before
@@ -628,13 +628,13 @@ overnight:
 ```
 
 **Schedule**
-- 6:00 AM · sunrise · Sunrise 6:00 AM at Madison *(computed 2026-11-14 at Colin's pin)*. No race today: the site is booked.
+- 6:00 AM · sunrise · Sunrise 6:00 AM, first light 5:25 AM at Madison *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. No race today: the site is booked.
 - 7:00 AM (2h) · drive · → Jenny Lake via the South Entrance. ⚠️ **My estimate, unrouted.** Still early on purpose: Jenny Lake's parking fills in July mornings *(Claude's recall, not checked)*. · 📍 Jenny Lake East Shore Boat Dock
 - 9:15 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
 - 2:30 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
 - 4:15 PM (30m) · drive · → Colter Bay. ⚠️ Estimate. · 📍 Colter Bay Campground Grand Teton
 - 4:45 PM (1h 30m) · stop · Set up, then **a hot shower and a load of laundry at the Colter Bay Launderette**, 12 days in: the first shower on the route. Hours not read. · 📍 Colter Bay Campground Grand Teton
-- 8:56 PM · sunset · Sunset 8:56 PM, dark 9:29 PM *(computed 2026-11-14 at the Oxbow Bend pin, ~10 km from camp; NOAA method, see `_gen/sun.json`)*. **Walk down to the Jackson Lake shore**: Mount Moran across the water, the sun going down behind the range. Waning gibbous 78%.
+- 8:56 PM · sunset · Sunset 8:56 PM, dark 9:30 PM at Colter Bay *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **Walk down to the Jackson Lake shore**: Mount Moran across the water, the sun going down behind the range. Waning gibbous 78%.
 
 **Meals**
 - B: made at camp
@@ -666,12 +666,12 @@ overnight:
 ```
 
 **Schedule**
-- 6:02 AM · sunrise · Sunrise 6:02 AM, first light 5:28 AM at Oxbow Bend *(computed 2026-11-14 at Colin's pin; NOAA method, see `_gen/sun.json`)*. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up. Leave camp by ~5:15.
+- 6:02 AM · sunrise · Sunrise 6:02 AM, first light 5:28 AM at Oxbow Bend *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up. Leave camp by ~5:15.
 - before sunrise (1h 30m) · stop · ⭐ **Oxbow Bend at sunrise**, ~10–15 min from Colter Bay *(my estimate)*; Schwabacher Landing for the reflection is ~40 min south *(my estimate)*. Moose at Oxbow at dawn are common *(Claude's recall)*. The moon is 69% waning, so it should still be up in the west at dawn *(inference; its position over the range is not computed)*. · 📍 Oxbow Bend Turnout Grand Teton
 - 7:00 AM (1h) · stop · Back to camp. Hot breakfast, break camp.
 - 8:00 AM (7h 30m) · drive! · → Big Arm via Missoula: **north through Yellowstone (the drawn line, 464 mi) or south via Jackson (~485 mi)**, close to a wash; pick by the morning's traffic. ⚠️ Times unrouted. **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
 - 4:30 PM (1h) · stop · Check in, then a swim in Flathead Lake if there's anything left. · 📍 Big Arm State Park Montana
-- 9:23 PM · sunset · Sunset 9:23 PM, dark 10:00 PM *(computed 2026-11-14, NOAA method, at the fwp.mt.gov Big Arm coordinate; see `_gen/sun.json`)*. Waning gibbous 69%.
+- 9:23 PM · sunset · Sunset 9:23 PM, dark 10:00 PM at Big Arm *(computed 2026-11-14 at the fwp.mt.gov coordinate, NOAA method; `_gen/sun.json`)*. Waning gibbous 69%.
 
 **Meals**
 - B: made at camp
@@ -703,13 +703,13 @@ overnight:
 ```
 
 **Schedule**
-- 6:05 AM · sunrise · Sunrise 6:05 AM, first light 5:28 AM at Big Arm *(computed 2026-11-14, NOAA method; see `_gen/sun.json`)*. No alarm.
+- 6:05 AM · sunrise · Sunrise 6:05 AM, first light 5:28 AM at Big Arm *(computed 2026-11-14 at the fwp.mt.gov coordinate, NOAA method; `_gen/sun.json`)*. No alarm.
 - morning · stop · **A slow lake morning.** Hot breakfast by the water, break camp late. This used to be the trip's spare morning; the Tetons took it, so anything weathered out earlier no longer has a slot before the Highline.
 - late morning (1h) · drive · → Kalispell. ⚠️ Estimate. · 📍 Kalispell Montana
 - afternoon · drive · → **Kalispell (FCA, Glacier Park International)**: pick up Ethan and Finn whenever they land *(Colin, 2026-11-08; they're at a wedding on Jul 24)*. **Bear spray for both of them in Kalispell**, since it can't fly, and a grocery restock for three. · 📍 Glacier Park International Airport
 - on the way back (1h) · stop · **Fishing warm-up at a Lake McDonald pull-off**, on the drive from Kalispell to camp *(Colin, 2026-11-08: fish early, add more if it's good)*. A fun first cast, not the verdict: west of the divide it's **artificial lures and flies only** and the natives (westslope cutthroat, bull trout) go back; lake trout, rainbow and brook trout are keepable but unlikely from shore in a deep, cold lake (nps.gov/glac fishing page, updated 2026-06-17; glacierhikesandbikes.com, Dec 2025). · 📍 Lake McDonald Glacier National Park
 - evening · stop · Check in at Avalanche. **If they land early: Avalanche Lake together**, the first Glacier hike for all three. ✅ AllTrails: 6.1 mi, 780 ft, Moderate, ~153 min; it starts at camp. · 📍 Avalanche Lake Trailhead Glacier
-- 9:29 PM · sunset · Sunset. Dark 10:00 PM. Waning gibbous 60%.
+- 9:23 PM · sunset · Sunset 9:23 PM, dark 10:01 PM at Avalanche *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 60%.
 
 **Meals**
 - B: made at camp
@@ -743,13 +743,13 @@ overnight:
 ```
 
 **Schedule**
-- 5:54 AM · sunrise · Sunrise. First light 5:23 AM.
+- 6:01 AM · sunrise · Sunrise 6:01 AM, first light 5:23 AM at Avalanche *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 4:45 AM (1h) · drive! · → **The Loop**, park there, and ride the shuttle up to Logan Pass; or drive to Logan Pass and ride back down from The Loop at the end. 🚨 **The shuttle is what makes this one-way hike possible.** In 2026 it was a pilot ($1 tickets on recreation.gov, Jul 1 – Sept 7): the west-side express ran from Apgar Visitor Center / Lake McDonald Lodge to Logan Pass and stopped at The Loop, with westbound pickups at The Loop roughly 10:30 AM – 8 PM; tickets released 7 PM the day before plus some on a 60-day window, and they sold out fast (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). **The 2027 shuttle rules aren't announced**, so this plan rests on a 2026 pilot. **Three tickets.** If the friends landed late, start later on the shuttle instead; the 2026 Loop pickups ran to ~8 PM. · 📍 Logan Pass Visitor Center Glacier
 - 6:00 AM (7h) · hike! · **The Highline, Logan Pass → Granite Park Chalet → The Loop, one way.** 📋 **11.8 mi, +2,388 ft / −4,773 ft** (nps.gov/places/highline-trailhead, snippet, 2026-10-29). ⚠️ **Over the ~10 mi ceiling on distance only**, as Grinnell is, chosen by Colin *(Colin, 2026-10-29)*. The first mile is a ledge cut into the Garden Wall with a hand cable and a long drop; after that it opens out along the wall to the chalet. · 📍 Logan Pass Visitor Center Glacier
 - 10:30 AM (1h) · stop · **Sit at Granite Park Chalet.** It sells water and snacks (graniteparkchalet.com), so the refill is here.
 - 11:30 AM (2h) · hike · **Down to The Loop**: the last 4 mi from the chalet are a 2,300 ft descent (graniteparkchalet.com). Knees, not lungs. · 📍 The Loop Trailhead Glacier National Park
 - 1:30 PM · drive · Shuttle or car back from The Loop, inside the 2026 pickup hours. ⚠️ 2027 hours unknown.
-- 9:28 PM · sunset · Sunset. Dark 9:59 PM.
+- 9:21 PM · sunset · Sunset 9:21 PM, dark 10:00 PM at Avalanche *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 
 **Meals**
 - B: made — pre-dawn
@@ -783,13 +783,13 @@ overnight:
 ```
 
 **Schedule**
-- 5:55 AM · sunrise · Sunrise. Break camp slowly.
+- 6:03 AM · sunrise · Sunrise 6:03 AM, first light 5:25 AM at Avalanche *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Break camp slowly.
 - 8:00 AM (2h 30m) · drive! · → east over **Going-to-the-Sun Road**. ✅ It opened June 22 in 2026 and typically opens late June/early July, so late July is safe. ⚠️ **Logan Pass parking is capped at 3 hours from July 1 and the lot fills by 8 AM**: pass through, don't plan to stop. · 📍 Logan Pass Visitor Center Glacier
 - 11:00 AM (1h 30m) · hike · **St. Mary and Virginia Falls.** ✅ AllTrails: **3.1 mi, 469 ft, Moderate, ~83 min.** Two waterfalls on a short trail off the east end of the Sun Road, on the way. · 📍 St Mary Falls Trailhead Glacier
 - 1:30 PM (1h) · drive · → Many Glacier via St. Mary and Babb. ⚠️ Unrouted. · 📍 Many Glacier Campground Glacier National Park
 - 3:00 PM (1h) · stop · Check in, set up.
 - 5:00 PM (2h) · stop · **The fishing test: Swiftcurrent Lake with worms** *(Colin, 2026-11-08)*. Bait is legal here, the only place on this trip it is. **Decide tonight:** bites → add Day 17's evening and make Day 18's afternoon the long session; a bust → Day 18's afternoon goes back to rest, and the hikes don't change either way. Rules as on Day 18. Instead of the **Swiftcurrent Nature Trail** (✅ AllTrails: 2.6 mi, 131 ft, Easy, loop), which can still be walked while one person fishes. · 📍 Swiftcurrent Nature Trail Many Glacier
-- 9:28 PM · sunset · Sunset. Dark 9:58 PM.
+- 9:20 PM · sunset · Sunset 9:20 PM, dark 9:58 PM at Many Glacier *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 
 **Meals**
 - B: made at camp
@@ -823,11 +823,11 @@ overnight:
 ```
 
 **Schedule**
-- 5:54 AM · sunrise · Sunrise. First light 5:24 AM.
+- 6:03 AM · sunrise · Sunrise 6:03 AM, first light 5:25 AM at Many Glacier *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 5:00 AM (8h) · hike! · **Grinnell Glacier Trail.** ✅ AllTrails: **11.1 mi, 2,047 ft, Hard, out-and-back, ~319 min moving.** ⚠️ **Over the distance ceiling by about a mile**, under the gain half. The payoff is standing at a glacier that has lost most of its area in a century and is documented doing it. **The boat shuttle across Swiftcurrent and Josephine cuts ~3.4 mi off** if it is running and you want the shorter version. 📋 2026: one-way return $20.85 adult, reservations by 5 PM the day before; the return boats queue — the same couple gave up on their return tickets rather than wait ~45 min (glacierparkboats.com snippet; Packs-a-lot video, 2026). · 📍 Grinnell Glacier Trailhead Many Glacier
 - 9:15 AM (1h 30m) · stop · **Sit at the glacier basin.** Longest sit of the trip, and the one it was all built toward.
 - evening · stop · **Only if Tuesday's test had bites:** fish Swiftcurrent again from camp, or Lake Josephine on the walk back (📋 brook trout, glacierhikesandbikes.com, Dec 2025). Skip it if the legs are gone.
-- 9:26 PM · sunset · Sunset. Dark 9:56 PM.
+- 9:19 PM · sunset · Sunset 9:19 PM, dark 9:57 PM at Many Glacier *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 
 **Meals**
 - B: made — pre-dawn, hot
@@ -861,12 +861,12 @@ overnight:
 ```
 
 **Schedule**
-- 5:56 AM · sunrise · Sunrise. First light 5:26 AM.
+- 6:04 AM · sunrise · Sunrise 6:04 AM, first light 5:26 AM at Many Glacier *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 - 5:00 AM (6h) · hike · **Iceberg Lake.** ✅ AllTrails: **9.7 mi, 1,453 ft, Moderate, out-and-back, ~257 min.** Fits the ceiling on both counts. The lake sits in a 3,000-ft cirque that keeps it frozen so late that bergs float in it into August. · 📍 Iceberg Lake Trailhead Many Glacier
 - 8:30 AM (1h) · stop · **Sit at the lake.** This is the hour the day is for.
 - 2:00 PM (3h) · stop · **If Tuesday's test had bites: the long session at Swiftcurrent, and try to cook one for dinner** *(Colin, 2026-11-08)*. If it was a bust, rest, or Redrock Falls from camp (3.7 mi, 255 ft), with an optional last cast. One rod and the tackle, **Ethan brings them** *(Colin, 2026-11-08)*. ✅ Park rules (nps.gov/glac/planyourvisit/fishing.htm, updated 2026-06-17): **no license** inside the park; one rod per person; **bait allowed** in the Many Glacier valley upstream of the falls at Swiftcurrent's outlet (elsewhere, artificial only); **no lead of any kind**. Swiftcurrent is in the St. Mary drainage: **keep brook trout, rainbow trout and Yellowstone cutthroat** (no limit); **release bull trout, lake trout and westslope cutthroat**, all native here. A cutthroat's red jaw slash can't tell you which kind it is, so **release any cutthroat; if unsure, let it go** (the park's line). Brook trout: red or orange spots with blue halos. Clean it with the guts in a garbage can (the park's rule where cans exist), **skin left on**, then everything scented back in the bear box. 📋 Swiftcurrent holds brook and rainbow trout among the natives, and you can cast from the shore by the Many Glacier Hotel (glacierhikesandbikes.com, Dec 2025). ⚠️ Glacier's water is nutrient-poor and the fish run small; one fly-fishing thread calls it "not a fisherman's paradise" (r/flyfishing, snippet). A fish for dinner is a hope, not a plan. · 📍 Swiftcurrent Nature Trail Many Glacier
 - evening · stop · Camp. Pack for an early start; Ethan and Finn fly out of Kalispell tomorrow.
-- 9:25 PM · sunset · Sunset. Dark 9:54 PM.
+- 9:17 PM · sunset · Sunset 9:17 PM, dark 9:55 PM at Many Glacier *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*.
 
 **Meals**
 - B: made — pre-dawn
@@ -1340,7 +1340,7 @@ overnight:
 ```
 
 **Schedule**
-- sunset · stop · **Rowena Crest** above the Rowena Loops. ⚠️ Sunset time not computed yet. · 📍 Rowena Crest Viewpoint
+- 8:19 PM · stop · **Rowena Crest** above the Rowena Loops at sunset: **8:19 PM, dark 8:52 PM** *(computed 2026-11-14 at Colin's pin, NOAA method, Pacific Time)*. · 📍 Rowena Crest Viewpoint
 - — · note · If smoke or a closure took the raft or Tunnel Falls, it moves here.
 - — · note · **Own car:** all of it.
 
