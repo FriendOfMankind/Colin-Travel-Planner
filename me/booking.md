@@ -52,6 +52,11 @@ trip's start date.
   what: First-come dispersed
   when: No reservation possible
   note: Arrive early, drive the road once from the top, take the first acceptable site. Bail-out named in advance.
+- system: montana-sp
+  leadMonths: 3
+  what: Montana State Parks (montanastateparks.reserveamerica.com)
+  when: 3-month rolling window, at least 1 day ahead
+  note: "montanastateparks.reserveamerica.com West Shore page, read 2026-11-14: 'Reservations must be made 1 Day(s) ahead of arrival and can be made up to 3 Month(s) in advance.' Release time of day not read. Check-in 2 PM, 8 people per site. *(added 2026-11-14 for Flathead Lake on the Rockies trip)*"
 - system: glacier-np
   leadMonths: null
   what: Glacier NP

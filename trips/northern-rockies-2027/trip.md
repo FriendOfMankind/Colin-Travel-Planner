@@ -1,7 +1,7 @@
 ---
 slug: northern-rockies-2027
 title: The Long Way to Glacier
-subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, seven nights at Glacier, then west to Oregon for the boys week
+subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week
 months: [ 7, 8 ]
 mode: drive
 days: 36
@@ -13,7 +13,7 @@ pinned: true
 start: null
 dates: Jul 12 – Aug 16, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
-region: Avon OH → IA → NE → WY → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → home
+region: Avon OH → IA → NE → WY → MT → WY (Tetons) → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → home
 states: [ WY, MT, ID, WA, OR ]
 country: USA
 coords: [ 46, -106.5 ]
@@ -57,9 +57,17 @@ booking:
     target: 2027-07-27
     note: One of the three Glacier campgrounds that go the day the window opens. Second half of the Glacier stay since the 2026-11-08 flip (was Jul 23–26). All sites need a reservation; most open 6 months out, and "a good handful" on a 4-day window, which is the second shot (recreation.gov facility page, snippet, 2026-10-10).
   - system: recreation.gov
-    what: Avalanche (first choice) or Apgar, Glacier NP (Jul 23–26)
+    what: Avalanche (first choice) or Apgar, Glacier NP (Jul 25–26)
+    target: 2027-07-25
+    note: First half of the Glacier stay, 2 nights from the day Ethan and Finn land (the Tetons and Flathead Lake took Jul 23–24, Colin, 2026-11-14). Do both Glacier halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
+  - system: recreation.gov
+    what: "Optional hold: Gros Ventre, Grand Teton NP (Jul 23), the backup if Shadow Mountain is full"
     target: 2027-07-23
-    note: First half of the Glacier stay since the 2026-11-08 flip (was Jul 27–29), and the first Glacier window — do both halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
+    note: "Shadow Mountain (the plan) is free and first-come and 'fills up very quickly, even by 10 a.m. most days' (btfriends.org, snippet, 2026-11-14). Gros Ventre is the big reservable one: 279 standard sites, 'reserve your site up to six months in advance' (nps.gov/grte, snippets, 2026-11-14). Fee and cancellation terms not read. Hold or not is Colin's call; same January stretch as Yellowstone."
+  - system: montana-sp
+    what: Flathead Lake State Park, Big Arm (West Shore as backup), Jul 24
+    target: 2027-07-24
+    note: "The night between the Tetons and Kalispell (Colin, 2026-11-14). Big Arm: 41 sites, 3 yurts, bear-resistant lockers, on Big Arm Bay 15 mi north of Polson, views of the Mission Mountains (fwp.mt.gov Big Arm page, read 2026-11-14). West Shore: 5.5 mi south of Lakeside, 'the most quiet park on Flathead Lake', rocky beach, check-in 2 PM (montanastateparks.reserveamerica.com, read 2026-11-14). Both on a 3-month window, at least 1 day ahead. A Saturday in July: book the day it opens. Fee TBD."
   - system: private
     what: Hood River motel, Jul 31 (Colin alone)
     target: 2027-07-31
@@ -128,11 +136,11 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **seven nights at Glacier**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 14 (the morning), 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **a night under the Tetons and one on Flathead Lake**, then **five nights at Glacier with Ethan and Finn**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, and home from Portland. July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 35 nights, three times your longest trip.** Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are soft on purpose.
 
 ## Overview
 
-Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy Range), north across Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–12** (the central coast → McKenzie River → Bend → back to the Gorge, a loop from PDX; reordered 2026-11-04 for the tides). Then the long drive home from Portland. Five anchors on the way out (the Snowy Range, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, **seven nights at Glacier**), then the friends' week.
+Out on I-80 to southern Wyoming (Vedauwoo, then Medicine Bow Peak in the Snowy Range), north across Wyoming and Montana to Glacier, then **west to the Columbia River Gorge**, where the friends fly into Portland for **the Oregon boys week, Aug 1–12** (the central coast → McKenzie River → Bend → back to the Gorge, a loop from PDX; reordered 2026-11-04 for the tides). Then the long drive home from Portland. Five anchors on the way out (the Snowy Range, the Cloud Peak Skyway, the Beartooth Plateau, two nights in Yellowstone, a night under the Tetons, **five nights at Glacier**), then the friends' week.
 
 ### Dates
 
@@ -151,7 +159,7 @@ Two ways to come, told apart by the car *(Colin, 2026-11-08; were "group B" and 
 
 **Ride-alongs** *(Colin, 2026-11-08; was an open offer on every solo leg, 2026-11-04)*: **Jul 12–25 is solo.** Nobody is expected to fly in for the drive out or the Wyoming–Yellowstone stretch (Cody → Bozeman, Jul 18–23, was the only plausible one and was left off on purpose). The Glacier week fills both seats Jul 25–30, and Jul 30–31 isn't offered. **The one add-on: a rider can skip the flight home and ride back to Ohio Aug 12–16**, offered on the Oregon page; split gas and motels, share the driving. The old "Ride Along 2027" page is parked.
 
-**Glacier week: Ethan and Finn (Colin's brother)** *(Colin, 2026-11-08)*: after a wedding on Jul 24, they fly into Kalispell (FCA) on **Jul 25** (Day 14) and fly home from FCA on **Jul 30** (Day 19); Glacier only, not Portland. For them the Glacier halves were flipped: the west side first (Days 12–15), Many Glacier last (Days 16–18). 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so they share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
+**Glacier week: Ethan and Finn (Colin's brother)** *(Colin, 2026-11-08)*: after a wedding on Jul 24, they fly into Kalispell (FCA) on **Jul 25** (Day 14) and fly home from FCA on **Jul 30** (Day 19); Glacier only, not Portland. For them the Glacier halves were flipped: the west side first (Days 14–15), Many Glacier last (Days 16–18). Since 2026-11-14 Colin reaches Glacier the same day they do, so all three see it for the first time together. 🚨 **Glacier allows 2 tents per site** (nps.gov/glac camping pages and the recreation.gov Many Glacier page, snippets, 2026-11-08), so they share one tent. Their page: "Glacier Week 2027" (https://claude.ai/artifact/W9y4v3SQpdL6NBFotnGyKj, `share/proposals/glacier-week-2027.html`).
 
 ### Why July, not June
 
@@ -167,7 +175,7 @@ The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation
 
 ### Length
 
-The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 14 (the morning), 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
+The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, three times the 11-day Appalachians run. **Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are deliberately soft**, and that's the mitigation. The lever if it's too much: a friend rides home and splits the driving.
 
 ### Timing vs Newfoundland
 
@@ -601,29 +609,71 @@ Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yello
 
 **The busiest ground in the park, on purpose.** Old Faithful and Grand Prismatic are packed in July. Under the crowd rule (`me/travel-style.md`) they're worth it: they're world-class icons, Thursday is a weekday, and the solitude is already on this trip (the Beartooth Plateau, Lamar at dawn). **Stay on the boardwalks**: the thermal ground breaks through and the water scalds.
 
-### Day 12 — 2027-07-23 · The Long Push North
+### Day 12 — 2027-07-23 · The Tetons
 
 ```yaml
 date: 2027-07-23
-tagline: Out of Yellowstone, across Montana, and then seven nights in one park, west side first.
-type: travel
-driving: ⚠️ ~8–9h (my estimate, unrouted), Madison → West Yellowstone → Missoula → Kalispell → West Glacier; the line isn't chosen
-slack: None. Longest day between anchors.
+tagline: Out the south gate of Yellowstone to a range with no foothills in front of it, a boat, a canyon, a swim, and a free night facing the wall.
+type: travel + activity
+driving: ⚠️ ~2h Madison → South Entrance → Moran → Shadow Mountain (my estimate, unrouted)
+slack: None before 10 AM (the site race), plenty after.
 overnight:
-  name: Avalanche Campground
-  place: Glacier NP — west side, MT
-  kind: National park campground
-  cost: ~$23/night est.
-  checkin: 🚨 Book mid-January 2027
-  confirmation: TBD
-  notes: "🚨 **THE booking of this trip, with Many Glacier four days later.** Avalanche is the first choice, **Apgar the backup** *(Colin, 2026-10-30)*. Both go the day their window opens; book both halves of the Glacier stay in the same January sitting. 📋 Every Glacier site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, the second shot if January fails (recreation.gov, snippet, 2026-10-10). Max 8 people, 2 vehicles and **2 tents** per site (nps.gov/glac camping pages, snippets, 2026-11-08). Showers: not verified. West side first since 2026-11-08, so the Glacier-week friends' pickup at Kalispell (FCA) on Day 14 is ~45 min away (⚠️ unrouted)."
+  name: Shadow Mountain dispersed
+  place: Bridger-Teton NF, on the east edge of Grand Teton NP, WY
+  kind: Designated dispersed, free, first-come
+  cost: Free
+  checkin: 🚨 First-come. "Fills up very quickly, even by 10 a.m. most days" (btfriends.org, snippet, 2026-11-14)
+  confirmation: n/a. Backup is Gros Ventre, if held in January (Reservations)
+  notes: "The boondock night *(Colin, 2026-11-14)*. A 'Designated Dispersed Camping Area' (btfriends.org, snippet). Reddit: 'It's sooo busy… get there late morning/early afternoon on a weekday' (r/GrandTetonNatlPark, snippet, 2026-11-14). Road surface for the Outback not checked: use the trailer test (`me/principles.md` 2), and take a lower site before a rougher upper one."
 ```
 
 **Schedule**
-- TBD · sunrise · Sunrise TBD (Madison is pinned; sun times not recomputed yet). Break camp in the dark if it saves an hour.
-- 6:00 AM (8h 30m) · drive! · → the west side of Glacier via Missoula and Kalispell. ⚠️ **Unrouted and the line isn't picked.** **Resupply and laundry in Missoula or Kalispell**, the last big towns; Kalispell again on Day 14 with the friends. · 📍 Avalanche Campground Glacier National Park
-- 3:30 PM (1h) · stop · Check in. ✅ **No vehicle reservation** (2026 rules). Entry pass required and the America the Beautiful pass covers it.
-- 9:32 PM · sunset · Sunset. Dark 10:03 PM. Nearly 17 hours of light up here.
+- TBD · sunrise · Sunrise TBD (Madison has no verified coordinate). Break camp early: this is a race day.
+- 7:00 AM (2h) · drive! · → Shadow Mountain via the South Entrance and Moran. ⚠️ **My estimate, unrouted**, through Yellowstone's south end in July traffic. · 📍 Shadow Mountain dispersed camping Wyoming
+- 9:15 AM (30m) · stop · **Claim a site before anything else.** Take the first acceptable one. Full? Gros Ventre if the January hold is in place; otherwise the bail-out is a paid campground, not researched. · 📍 Shadow Mountain dispersed camping Wyoming
+- 10:15 AM (30m) · drive · → Jenny Lake, the east shore boat dock. ⚠️ Estimate. · 📍 Jenny Lake East Shore Boat Dock
+- 11:00 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
+- 4:15 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
+- optional · stop · **A shower and laundry, 12 days in.** Signal Mountain Campground lists "pay showers and laundry nearby" (nps.gov/grte camping table, snippet, 2026-11-14); where exactly, and the hours, not read. · 📍 Signal Mountain Lodge Grand Teton
+- 6:30 PM · stop · Back at camp. Dinner facing the range.
+- TBD · sunset · Sunset TBD (Shadow Mountain not pinned). The range faces east, so at sunset it goes into silhouette; tomorrow's sunrise is the show. Waning gibbous 78%.
+
+**Meals**
+- B: made at camp
+- L: packed
+- D: made at camp
+
+#### Highlights
+The Teton front rises straight out of the valley floor with no foothills in front of it, and the boondock site looks right at it. The first free night on the trip, and the one Colin asked for.
+
+#### Warnings
+**The site race.** First-come, full by about 10 AM most days: be there by 9:30 or have the Gros Ventre hold. **Grand Teton is grizzly country too**: food and anything scented in the car, nothing in the tent, bear spray on the trail.
+
+### Day 13 — 2027-07-24 · Teton Sunrise, Then North
+
+```yaml
+date: 2027-07-24
+tagline: The east face lit up at dawn, then the long drive north to a lake an hour short of Kalispell.
+type: travel
+driving: ⚠️ ~7.5h + stops, Jackson → Idaho Falls → I-15 → Butte → Missoula → US-93 → Big Arm. Jackson → Missoula is 365–386 mi, ~6–6.5h (rome2rio, travelmath, snippets, 2026-11-14); Missoula → Big Arm not checked
+slack: Little. The longest day of the stretch, after a dawn start.
+overnight:
+  name: Flathead Lake State Park — Big Arm
+  place: Big Arm, MT (Flathead Lake, west shore)
+  kind: State park campground
+  cost: TBD
+  checkin: 🚨 3-month window (the briefing computes it). Check-in 2 PM
+  confirmation: TBD
+  notes: "41 sites, 3 yurts, bear-resistant lockers, on Big Arm Bay 15 mi north of Polson, with views of the Mission Mountains (fwp.mt.gov, read 2026-11-14). The park sits inside the Flathead Reservation: recreation or fishing on tribal land outside it needs a tribal permit (same page). Backup: the West Shore unit, 5.5 mi south of Lakeside, quieter and rockier (montanastateparks.reserveamerica.com, read 2026-11-14)."
+```
+
+**Schedule**
+- TBD · sunrise · Sunrise TBD until Oxbow Bend is pinned. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up.
+- before sunrise (1h 30m) · stop · ⭐ **Oxbow Bend at sunrise**, or Schwabacher Landing for the reflection. ~15 min from camp *(my estimate)*. Moose at Oxbow at dawn are common *(Claude's recall)*. The moon is 69% waning, so it should still be up in the west at dawn *(inference; its position over the range is not computed)*. · 📍 Oxbow Bend Turnout Grand Teton
+- 7:00 AM (1h) · stop · Back to camp. Hot breakfast, break camp.
+- 8:00 AM (7h 30m) · drive! · → Big Arm via Idaho Falls, I-15, Butte and Missoula. ⚠️ **Unrouted.** **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
+- 4:30 PM (1h) · stop · Check in, then a swim in Flathead Lake if there's anything left. · 📍 Big Arm State Park Montana
+- 9:23 PM · sunset · Sunset 9:23 PM, dark 10:00 PM *(computed 2026-11-14, NOAA method, at the fwp.mt.gov Big Arm coordinate; see `_gen/sun.json`)*. Waning gibbous 69%.
 
 **Meals**
 - B: made at camp
@@ -631,74 +681,36 @@ overnight:
 - D: made at camp
 
 #### Highlights
-
-Seven nights in one park start tonight, and the drive ends in a cedar forest instead of a parking lot.
-
-#### Warnings
-
-Nine hours after eleven days of driving is when the mistake happens. **Stop every two hours whether it feels necessary or not.** Deer and elk on US-93 at dusk.
-
-### Day 13 — 2027-07-24 · Easy Saturday
-
-```yaml
-date: 2027-07-24
-tagline: One lake from camp on the busiest day of the week, on purpose.
-type: rest
-driving: none
-slack: Large.
-overnight:
-  name: Avalanche Campground
-  place: Glacier NP — west side, MT
-  kind: National park campground
-  cost: ~$23/night est.
-  checkin: n/a — night 2 of 4
-  confirmation: TBD
-  notes: ""
-```
-
-**Schedule**
-- 5:52 AM · sunrise · Sunrise. First light 5:20 AM. No alarm.
-- 8:00 AM (3h) · hike · **Avalanche Lake.** ✅ AllTrails: **6.1 mi, 780 ft, Moderate, ~153 min.** Cedar forest, then a lake with waterfalls dropping into it from three sides. Starts at camp, so no parking fight on a Saturday. · 📍 Avalanche Lake Trailhead Glacier
-- afternoon · stop · Camp. Reorganise, wash something, sleep.
-- 9:30 PM · sunset · Sunset. Dark 10:02 PM. Waning gibbous 69%.
-
-**Meals**
-- B: made at camp
-- L: made at camp
-- D: made at camp
-
-#### Highlights
-
-A big-payoff lake that starts at the tent, on the day every trailhead in the park is at its worst.
+The Tetons at first light, the one sunrise on this whole leg worth setting an alarm for, and a lake to wash the drive off at the end.
 
 #### Warnings
-
-**Saturday in Glacier in mid-July is the busiest combination on this route.** Avalanche Lake is busy every day; going at 8 AM from camp beats the lot. Bear country: noise on the trail.
+**A dawn start, then ~8.5 hours at the wheel solo (Google plus 15%).** Stop every two hours whether it feels necessary or not. If it isn't happening, stop in Missoula (motels not researched): Missoula → Kalispell is ~2h *(my estimate)*, so Day 14 still works. Deer and elk on US-93 at dusk.
 
 ### Day 14 — 2027-07-25 · Slack Morning, Friends Land
 
 ```yaml
 date: 2027-07-25
-tagline: The trip's spare morning, then Ethan and Finn at Kalispell.
+tagline: A lake morning, Ethan and Finn at Kalispell, and Glacier for the first time, all three of you together.
 type: rest
-driving: ~1h 30m round trip to Kalispell (⚠️ my estimate, unrouted)
-slack: The morning IS the slack. ⭐ SOFT DAY 2 OF 2.
+driving: ~1h Big Arm → Kalispell, then ~45 min to Avalanche (⚠️ my estimates, unrouted)
+slack: The morning IS the slack. ⭐ SOFT MORNING.
 overnight:
   name: Avalanche Campground
   place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
-  checkin: n/a — night 3 of 4
+  checkin: 🚨 Book mid-January 2027 · night 1 of 2
   confirmation: TBD
-  notes: "From tonight, **Ethan and Finn** share the site (their own tent; Glacier's limit is 2 tents per site) *(Colin, 2026-11-08)*."
+  notes: "🚨 **THE booking of this trip, with Many Glacier four days later.** Avalanche is the first choice, **Apgar the backup** *(Colin, 2026-10-30)*. Both go the day their window opens; book both halves of the Glacier stay in the same January sitting. 📋 Every Glacier site needs a reservation; most open 6 months out and \"a good handful\" on a **4-day window**, the second shot if January fails (recreation.gov, snippet, 2026-10-10). Max 8 people, 2 vehicles and **2 tents** per site (nps.gov/glac camping pages, snippets, 2026-11-08). Showers: not verified. West side first since 2026-11-08, so the Glacier-week friends' pickup at Kalispell (FCA) on Day 14 is ~45 min away (⚠️ unrouted). From tonight, **Ethan and Finn** share the site (their own tent; Glacier's limit is 2 tents per site) *(Colin, 2026-11-08)*."
 ```
 
 **Schedule**
-- 5:53 AM · sunrise · Sunrise. First light 5:21 AM.
-- — · note · **Unscheduled on purpose.** Thirteen days in, something will have been weathered out, closed, sold out or simply missed. The morning is where it goes; otherwise, nothing.
+- 6:05 AM · sunrise · Sunrise 6:05 AM, first light 5:28 AM at Big Arm *(computed 2026-11-14, NOAA method; see `_gen/sun.json`)*. No alarm.
+- morning · stop · **A slow lake morning.** Hot breakfast by the water, break camp late. This used to be the trip's spare morning; the Tetons took it, so anything weathered out earlier no longer has a slot before the Highline.
+- late morning (1h) · drive · → Kalispell. ⚠️ Estimate. · 📍 Kalispell Montana
 - afternoon · drive · → **Kalispell (FCA, Glacier Park International)**: pick up Ethan and Finn whenever they land *(Colin, 2026-11-08; they're at a wedding on Jul 24)*. **Bear spray for both of them in Kalispell**, since it can't fly, and a grocery restock for three. · 📍 Glacier Park International Airport
 - on the way back (1h) · stop · **Fishing warm-up at a Lake McDonald pull-off**, on the drive from Kalispell to camp *(Colin, 2026-11-08: fish early, add more if it's good)*. A fun first cast, not the verdict: west of the divide it's **artificial lures and flies only** and the natives (westslope cutthroat, bull trout) go back; lake trout, rainbow and brook trout are keepable but unlikely from shore in a deep, cold lake (nps.gov/glac fishing page, updated 2026-06-17; glacierhikesandbikes.com, Dec 2025). · 📍 Lake McDonald Glacier National Park
-- evening · stop · Back at camp. If they land early, Avalanche Lake again with them is an option.
+- evening · stop · Check in at Avalanche. **If they land early: Avalanche Lake together**, the first Glacier hike for all three. ✅ AllTrails: 6.1 mi, 780 ft, Moderate, ~153 min; it starts at camp. · 📍 Avalanche Lake Trailhead Glacier
 - 9:29 PM · sunset · Sunset. Dark 10:00 PM. Waning gibbous 60%.
 
 **Meals**
@@ -708,7 +720,7 @@ overnight:
 
 #### Highlights
 
-The one morning on the Glacier week that nothing claims, and then the company arrives.
+Glacier for the first time, for all three of you, on the same afternoon.
 
 #### Warnings
 
@@ -727,7 +739,7 @@ overnight:
   place: Glacier NP — west side, MT
   kind: National park campground
   cost: ~$23/night est.
-  checkin: n/a — night 4 of 4
+  checkin: n/a — night 2 of 2
   confirmation: TBD
   notes: ""
 ```
@@ -1593,22 +1605,24 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Twenty-one days of food logistics
 
-- [ ] **Resupplies: Laramie (day 3), Cody (day 7), Bozeman, Missoula or Kalispell (day 12), Kalispell with Ethan and Finn (day 14).** Day 4 has no planned grocery stop. Many Glacier (Days 16–18) has none: shop for three in Kalispell on Day 14.
+- [ ] **Resupplies: Laramie (day 3), Cody (day 7), Missoula (day 13), Kalispell with Ethan and Finn (day 14).** Day 4 has no planned grocery stop. Many Glacier (Days 16–18) has none: shop for three in Kalispell on Day 14.
 - [ ] Block ice at every resupply, not cubes
 - [ ] This is roughly twice the longest trip ever run on this cooler system — **the meal plan needs rebuilding, not extending**
 
 ### Showers and laundry — worse after the recut
 
-- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7) or Missoula / Kalispell (Day 12).
-- [ ] Plan one laundry stop in Missoula or Kalispell on Day 12, or wear it.
+- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7), or the pay showers near Signal Mountain in the Tetons (Day 12; nps.gov/grte, snippet).
+- [ ] Plan one laundry stop: near Signal Mountain (Day 12) or Missoula (Day 13), or wear it.
 - [ ] This is the clearest cost of the 21-day version and it is worth knowing before departure rather than discovering on day nine.
 
 ## Reservations & checks
 
 - [ ] 🚨 **Slough Creek, Yellowstone, Jul 21** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it. The campground road is 2 mi of dirt (recreation.gov, snippet).
 - [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Slough Creek and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
-- [ ] 🚨 **Glacier — Many Glacier, Jul 23–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
-- [ ] 🚨 **Glacier — Avalanche first, Apgar backup, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] 🚨 **Glacier — Avalanche first, Apgar backup, Jul 25–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
+- [ ] 🚨 **Glacier — Many Glacier, Jul 27–29** — same system, same January sitting. Both equally competitive.
+- [ ] **Grand Teton — Gros Ventre, Jul 23, optional hold** — recreation.gov, 6 months out, the backup if Shadow Mountain is full by 10 AM. Hold or not: Colin's call.
+- [ ] **Flathead Lake State Park — Big Arm, Jul 24** — Montana State Parks, 3-month window (the briefing computes it). A July Saturday: book the day it opens.
 - [ ] **Vedauwoo, Jul 13** — recreation.gov, mix of reservable and first-come sites. Free designated dispersed sites behind it as the fallback.
 - [ ] **Brooklyn Lake, Jul 14** — recreation.gov, mix of reservable and first-come. ⚠️ Confirm it is open by Jul 14 (the FS page says both "mid-July" and "7/04").
 - [ ] **Bighorns — West Tensleep, Jul 15–17** — 📋 10 sites, reservable on recreation.gov per the Forest Service page (one aggregator says first-come). 6-month window, same January stretch.
@@ -1678,7 +1692,7 @@ The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then
 ### Nineteen days to the first shower — is that actually acceptable?
 
 **Blocks:** Nothing structural, but it is the other real cost of the recut
-Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Missoula / Kalispell (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
+Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7), or **the Tetons on Day 12: Signal Mountain Campground lists "pay showers and laundry nearby"** (nps.gov/grte camping table, snippet, 2026-11-14; exact place and hours not read), or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
 
 ### Is Crazy Woman Canyon Road drivable in the Outback (8.7 in, AWD, not 4x4)?
 
@@ -1688,7 +1702,7 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 ### Is 36 days still too much?
 
 **Blocks:** The whole shape
-**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, the Day 14 morning, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
+**Now 36 days** with the Oregon week joined on, the extra Yellowstone day and the two coast days, **three times the longest trip ever taken** (11 days, Appalachians 2026), and six days longer than Newfoundland (30). Theodore Roosevelt was cut to make room. Soft days: Day 6, Day 12 (a 2-hour drive), the Day 14 morning, the Hood River reset (Day 20) and the Bend off day (Day 27). The real cost is the end: four solo days of interstate straight after twelve days with friends. **Lever if it's too much: a friend rides home with Colin and splits the driving, then flies back from Cleveland.**
 
 ### Where does the camping gear go when the friends get in?
 
@@ -1713,7 +1727,7 @@ Every place in `places.yaml` is pinned (Pin Ledger, 2026-10-30), and each stop a
 
 ### Offline regions
 
-Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Bozeman–Butte–Missoula–Kalispell–Glacier, St. Mary–Many Glacier, the Spokane–Gorge corridor, the central coast (Newport–Florence–Coos Bay), Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
+Download offline Google Maps for the whole corridor before leaving: Chicago–Des Moines–Omaha, I-80 across Nebraska, Cheyenne–Laramie–the Snowy Range, WY-789 to Ten Sleep, the Bighorns, Cody–Beartooth, Yellowstone (NE, Canyon and the geyser basins), Yellowstone's South Entrance and Jackson Hole, Jackson–Idaho Falls–Butte–Missoula, Flathead Lake–Kalispell–Glacier, St. Mary–Many Glacier, the Spokane–Gorge corridor, the central coast (Newport–Florence–Coos Bay), Bend–McKenzie, and the drive home from Portland. **Trails are a separate download** — AllTrails or Gaia for Cloud Peak Wilderness, the Beartooth High Lakes, Cascade Canyon, and all of Glacier. There is effectively no signal on the Cloud Peak Skyway, across the Beartooth Plateau, in Lamar, or in the Many Glacier valley.
 
 ## Notes
 
@@ -1721,12 +1735,12 @@ Download offline Google Maps for the whole corridor before leaving: Chicago–De
 
 This started as a 25-day draft and the four days came off the **front end**: Custer State Park and Devils Tower are gone. On 2026-10-30 the Badlands went too, for the Snowy Range: Des Moines → Vedauwoo → Brooklyn Lake → the Bighorns.
 
-That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is the better trade — **it added a seventh Glacier night rather than costing one.** Seven nights is what makes the Glacier block work: an easy Saturday, Iceberg on Sunday, Grinnell on a Monday, the transfer on Tuesday, the Highline Trail on a Wednesday, and a whole day held in reserve on Thursday. The two hardest hikes land on the two best days of the week available.
+That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is the better trade — **it added a seventh Glacier night rather than costing one.** Two of those seven later went to the Tetons and Flathead Lake *(Colin, 2026-11-14)*, so Glacier is now five nights with Ethan and Finn: the Highline on a Monday, the Sun Road Tuesday, Grinnell Wednesday, Iceberg Thursday.
 
 **Three real costs, none hidden:**
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
 • **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. *(Restored 2026-10-30 by the Snowy Range swap: Vedauwoo 8,300 ft, then Brooklyn Lake 10,500 ft, then the Bighorns. See log.)*
-• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve with a paid shower in Cody or Missoula / Kalispell; easy to forget until day nine.
+• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve: Cody (Day 7), or the pay showers near Signal Mountain (Day 12).
 
 ### Three hikes are over the ceiling, on purpose, with bail-outs
 
