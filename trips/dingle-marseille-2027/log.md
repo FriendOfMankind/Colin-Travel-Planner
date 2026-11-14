@@ -256,3 +256,8 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 
 - **Mount Brandon is a definite** *(Colin, 2026-11-11: "we definitely want to do Mount Brandon, Stick did it as a kid")*. It's the main event of Day 5 (Thu May 13), by taxi to the Faha trailhead, and swaps onto Tue or Wed if one of them has the clearer forecast. Was: Day 5 the spare day (Slea Head rain swap, Inch and Minard), with Brandon an option added earlier the same day. Inch and Minard are now the rain plan; Slea Head's rain swap is Day 4.
 - Budget: the taxi, ~€20 each, added to both outing totals; all in now ~$1,460–1,660 each.
+
+## 2026-11-14 · Consistency pass: the car question caught up
+
+- The open question "What does an automatic cost in Ireland?" was answered on 2026-11-11 (the $785.79 pick) but never closed, and `vehicle:` still said "Not priced." Both now carry the pick. The question is rewritten to what's still unknown: **the cover** (the quote says "without coverage"; many US cards exclude Ireland, Claude's recall, unchecked) and **the bags** (the Golf class lists 2 large bags for 3 adults and two weeks; Colin's own rule was a compact estate for 4).
+- **Skellig: one operator's 2027 landings are on sale** (Skellig Michael Cruises, 12 seats a day, boats out 8:00–10:30; snippet, 2026-11-14; details in `research-log.md`). `next:`, the booking row and the checklist now say so. Not booked; which tour is still Colin's call.

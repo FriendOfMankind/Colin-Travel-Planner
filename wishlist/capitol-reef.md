@@ -48,7 +48,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 BLM land along Hwy 24 east of the park has dispersed sites "reachable by standard vehicle on maintained surfaces" *(source: thedyrt.com Capitol Reef dispersed, search snippet, 2026-10-03)*. Within 150 ft of roads *(source: wereintherockies.com, search snippet, 2026-10-03)*
 - 📋 Dixie/Fishlake NF land nearby also allows dispersed camping; the Loa ranger office is the contact *(source: nps.gov/care camping-alternatives, search snippet, 2026-10-03)*
 - 📋 Shower: the Chuckwagon Lodge in Torrey is "currently the only place offering public showers for a fee" *(source: nps.gov/care local-services, search snippet, 2026-10-03)*. About $5, and only "a couple" of stalls *(source: yelp and facebook, search snippets, 2026-10-03)*
-- ⚠️ Road surface of the specific Hwy 24 sites for 5.9 in clearance: not checked
+- ⚠️ Road surface of the specific Hwy 24 sites for the Outback (8.7 in, AWD): not checked
 
 ### 2026-10-06 · Already been (southwest-2026)
 - Colin camped at **Fruita** and hiked **Hickman Bridge** on May 23, 2026, on a group trip *(confirmed: southwest-2026 log)*. A return is for what that day didn't reach: Sulphur Creek (in `bucket.yaml`), Cassidy Arch, Cathedral Valley

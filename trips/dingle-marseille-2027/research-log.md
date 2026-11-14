@@ -195,3 +195,10 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 - **Fixtures:** Irish Examiner, "Cork hurlers set to be away in opening two 2027 Munster SHC fixtures" (2026-08-06), read on the page; munster.gaa.ie/fixtures/senior read 2026-11-10, no 2027 championship dates.
 - **Not done:** YouTube transcripts; prices for any meal; hostel beds; drive times.
 - **Spend:** about 45 Firecrawl credits; Apify three failed runs.
+
+## 2026-11-14 · Skellig 2027 landings: one operator open
+
+- **Skellig Michael Cruises:** "Michael Landing tours for 2027 – BOOKINGS NOW OPEN. With just 12 passenger spaces available per day… departs daily from Portmagee"; "The Skellig Michael Landing tour will depart daily between 8:00am and 10:30am" *(skelligmichaelcruises.com and its booking page, search snippets, 2026-11-14)*.
+- **skelligislands.com:** "Our 2027 tour dates aren't on sale yet" *(search snippet, 2026-11-14)*.
+- **Kerry Aqua Terra:** "Bookings are now opening for the 2027 Skellig season… mid-May to the end of September" *(kerryaquaterra.ie, search snippet, 2026-11-14)*.
+- **skelligmichael.ie:** book by email or the booking page; open status not shown *(search snippet, 2026-11-14)*.

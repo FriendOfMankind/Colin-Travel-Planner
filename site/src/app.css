@@ -399,3 +399,26 @@ summary.muted, .srow details summary, .tl-more summary { padding: 6px 0; }
 /* five To-do counts in two columns: the last one spans the row */
 .stats-btn > :last-child:nth-child(odd) { grid-column: 1 / -1; }
 @media (min-width: 481px) { .stats-btn { grid-template-columns: repeat(5, minmax(0, 1fr)); } .stats-btn > :last-child:nth-child(odd) { grid-column: auto; } }
+
+/* shelf: every trip as a cover, swipeable (Trips tab) */
+.shelf { display: grid; grid-auto-flow: column; grid-auto-columns: min(78%, 300px); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; margin: 0 -24px; padding: 2px 24px 10px; scroll-padding-inline: 24px; scrollbar-width: none; }
+.shelf::-webkit-scrollbar { display: none; }
+.cover { scroll-snap-align: start; display: flex; flex-direction: column; text-decoration: none; color: inherit; background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--c); border-radius: var(--radius); overflow: hidden; transition: transform .15s ease; }
+.cover:active { transform: scale(.98); }
+.cover .art { aspect-ratio: 4 / 3; background: var(--sunk); overflow: hidden; }
+.cover .art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.cover .blank { height: 100%; display: flex; flex-direction: column; justify-content: flex-end; gap: 4px; padding: 14px; background: linear-gradient(160deg, color-mix(in srgb, var(--c) 22%, var(--surface)), color-mix(in srgb, var(--c) 55%, var(--surface))); }
+.cover .blank b { font: 700 44px/1 var(--display); text-transform: uppercase; color: var(--ink); opacity: .85; }
+.cover .blank span { font-size: 12.5px; color: var(--ink-2); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.cover .cap { padding: 10px 12px 12px; display: flex; flex-direction: column; gap: 3px; }
+.cover .cap h3 { font-size: 17px; line-height: 1.2; }
+.cover .cap .eyebrow { color: var(--c); }
+.cover.is-done .art img { filter: saturate(.75); }
+.small { font-size: 12.5px; }
+
+/* trip page: the poster as a banner */
+.poster-banner { position: relative; display: block; border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); border-top: 4px solid var(--c); aspect-ratio: 16 / 9; background: var(--sunk); }
+.poster-banner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.pb-tag { position: absolute; right: 8px; bottom: 8px; font: 600 11.5px/1 var(--display); text-transform: uppercase; letter-spacing: .07em; padding: 6px 9px; border-radius: 6px; background: rgba(27, 34, 32, .78); color: #fff; }
+.glance-row .gt { font-size: 13px; color: var(--ink-2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+[hidden] { display: none !important; }

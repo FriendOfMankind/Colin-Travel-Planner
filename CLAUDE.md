@@ -114,7 +114,7 @@ node tools/ics.mjs     # site/booking-alarms.ics: a calendar alarm for every win
 node tools/pack.mjs <slug> --pdf   # site/packs/: offline PDF + GPX of verified pins and road lines, for Drive and Organic Maps
 node tools/geojson.mjs # site/maps/: GeoJSON per trip for Kepler/Felt (build runs it); --todo lists unplaced places
 node tools/kml.mjs <slug>     # site/maps/<slug>-lines.kml + -pins.kml: Google My Maps, two layers (build runs it)
-node tools/poster.mjs <slug> [--days 2-27]  # site/posters/<slug>.pdf: a 24x18 in print poster of the route (after build); --days frames it on part of the trip
+node tools/poster.mjs <slug> [--days 2-27]  # site/posters/<slug>.pdf: a 24x18 in print poster of the route (after build); --days frames it on part of the trip. Also writes share/posters/ (web copy, thumb, route fingerprint): commit those, and the Trips tab and trip page show it, flagged when the route changes. Refuses a trip with no road line
 node tools/kepler.mjs <slug>  # site/maps/<slug>.kepler.json: a ready-made Kepler map, drag onto kepler.gl/demo (build runs it)
 node tools/mymaps.mjs [<slug> <file.kml>]  # is each trip's My Map (`mymaps:` in trip.md) still current? Weekly in CI; needs google.com, so in a session pass a Firecrawl-scraped file
 python3 tools/roads.py <slug> # trips/<slug>/routes/: each day along real roads, from Overture data (after build; see docs/MAPS.md)

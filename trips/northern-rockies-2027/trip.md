@@ -385,7 +385,7 @@ overnight:
 **Schedule**
 - 5:30 AM · sunrise · Sunrise. Sleep past it. First soft day of the trip.
 - 8:00 AM (2h) · hike · **Sherd Lake Trail.** ✅ AllTrails: **3.5 mi, 570 ft, Moderate.** Short, and the correct grade the day after eleven miles. · 📍 Sherd Lake Trailhead Bighorn National Forest
-- 12:00 PM (3h) · drive! · 🚨 **Crazy Woman Canyon Road (FSR 33) — decide at the road, not before.** The registry lists this canyon's dispersed sites as the best-reviewed in the range. It is also unpaved, narrow, rocky and shelf-like in places, and this car has **5.9 inches of clearance and a low front air dam**. Drive to the top, look, and turn around without regret if it is not obviously fine. There is no prize for the bottom of that canyon in this car. · 📍 Crazy Woman Canyon Road Wyoming
+- 12:00 PM (3h) · drive! · 🚨 **Crazy Woman Canyon Road (FSR 33) — decide at the road, not before.** The registry lists this canyon's dispersed sites as the best-reviewed in the range. It is also unpaved, narrow, rocky and shelf-like in places, and the Outback has **8.7 in of clearance, AWD, not a 4x4**. Drive to the top, look, and turn around without regret if it is not obviously fine. The test (`me/principles.md` 2): would someone tow a trailer down this? If not, turn around. · 📍 Crazy Woman Canyon Road Wyoming
 - afternoon · stop · If the canyon is out: the Skyway overlooks and Meadowlark Lake fill the afternoon with zero risk.
 - 8:58 PM · sunset · Sunset. Dark 9:23 PM. **Full moon.**
 
@@ -1510,7 +1510,7 @@ The Snowy Range, Bighorns, Beartooth, Glacier and twelve days of Oregon with fri
 
 #### Warnings
 
-The Legacy will have done ~6,000+ miles (unrouted) in a month. **Get it looked at.**
+The Outback will have done ~6,000+ miles (unrouted) in a month. **Get it looked at.**
 
 ## Hikes
 
@@ -1585,7 +1585,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### The car — it is the trip
 
-- [ ] **Full service before departure.** ~6,000+ miles (unrouted) on a 2013 Legacy with no rental to fall back on.
+- [ ] **Full service before departure.** ~6,000+ miles (unrouted) on the 2019 Outback with no rental to fall back on.
 - [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + the 2 riders and their bags. The own-car group has its own rental. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
 - [ ] Spare confirmed inflated, jack, tire plug kit — FR 27, Crazy Woman, Clay Butte and Slough Creek's road are all gravel or dirt
 - [ ] Jump pack. Cold nights at 9,500 ft and a fortnight of short trips are hard on a battery.
@@ -1680,7 +1680,7 @@ The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then
 **Blocks:** Nothing structural, but it is the other real cost of the recut
 Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7) or Missoula / Kalispell (Day 12), both of which are already resupply stops, or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
 
-### Is Crazy Woman Canyon Road drivable in a car with 5.9 in of clearance and a low air dam?
+### Is Crazy Woman Canyon Road drivable in the Outback (8.7 in, AWD, not 4x4)?
 
 **Blocks:** Day 6 afternoon only
 The registry lists its dispersed sites as the best-reviewed in the Bighorns. It is also unpaved, narrow and shelf-like in places. **Not a trip-breaker — Day 6 has a zero-risk alternative already written — but decide at the road, not from a map.** Bighorn NF, Buffalo Ranger District.
@@ -1693,7 +1693,7 @@ The registry lists its dispersed sites as the best-reviewed in the Bighorns. It 
 ### Where does the camping gear go when the friends get in?
 
 **Blocks:** Day 20 onward
-The Legacy seats five, and the own-car group has its own car, so the Legacy carries Colin + the riders. Colin + 2 with camp kit is likely fine; Colin + 3 + three weeks of camp kit + a cooler probably isn't (⚠️ not measured). Options: ship the camp kit home from Hood River (cost TBD), a roof box, or the friends bring one soft bag each. Decide before Jul 12.
+The Outback seats five, and the own-car group has its own car, so the Outback carries Colin + the riders. It has more cargo room than the Legacy did, which helps but isn't measured against this load. Colin + 2 with camp kit is likely fine; Colin + 3 + three weeks of camp kit + a cooler probably isn't (⚠️ not measured). Options: ship the camp kit home from Hood River (cost TBD), a roof box, or the friends bring one soft bag each. Decide before Jul 12.
 
 ### What's the smoke plan?
 

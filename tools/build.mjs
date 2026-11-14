@@ -33,6 +33,7 @@ import { pngIcon, svgIcon } from "./lib/icon.mjs";
 import { scriptJson, serviceWorker, manifest } from "./lib/site.mjs";
 import { parseProposals, behind, tripsOf } from "./lib/proposals.mjs";
 import { buildTimeline, calendarFrom, addDays as plusDays } from "./lib/timeline.mjs";
+import { POSTER_DIR, routePrint } from "./lib/posters.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -324,9 +325,28 @@ function buildTimelineData(today) {
 
 /* --------------------------------------------------------------- write */
 
+// A trip's poster (tools/poster.mjs keeps a web copy, a thumbnail and a note in
+// share/posters/). The thumbnail rides inside the page so it shows offline; the
+// web copy is a file next to it. `stale`: the day lines changed since it was drawn.
+const posterFiles = {};
+function posterFor(slug) {
+  const meta = `${POSTER_DIR}/${slug}.json`, thumb = `${POSTER_DIR}/${slug}-thumb.jpg`, web = `${POSTER_DIR}/${slug}.jpg`;
+  if (!has(meta) || !has(thumb)) return null;
+  const m = JSON.parse(read(meta)), geo = `site/maps/${slug}-trip.geojson`;
+  const route = has(geo) ? routePrint(JSON.parse(read(geo)).features) : null;
+  if (has(web)) posterFiles[`posters/${slug}-web.jpg`] = readFileSync(join(ROOT, web));
+  return { made: m.made, stale: route !== m.route, days: m.days ?? null,
+    thumb: `data:image/jpeg;base64,${readFileSync(join(ROOT, thumb)).toString("base64")}`,
+    full: has(web) ? `posters/${slug}-web.jpg` : null };
+}
+
 const localIso = (d) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+// The day lines first: a poster's freshness is checked against them.
+mkdirSync(join(ROOT, "site"), { recursive: true });
+writeMaps();
 const trips = ls("trips").filter((s) => has(`trips/${s}/trip.md`)).map(buildTrip)
   .sort((a, b) => (a.start ?? "9") < (b.start ?? "9") ? -1 : 1);
+for (const t of trips) t.poster = posterFor(t.slug);
 const ideas = ls("wishlist").filter((f) => f.endsWith(".md")).sort().map(buildIdea);
 const bucket = buildBucket();
 const { windows, ics } = buildBooking(localIso(new Date()));
@@ -347,14 +367,14 @@ const files = {
   "icon-512.png": pngIcon(512),
   "apple-touch-icon.png": pngIcon(180),
   "booking-alarms.ics": ics,
+  ...posterFiles,
 };
 const hash = createHash("sha256");
 for (const [name, body] of Object.entries(files)) hash.update(name).update(body);
 files["sw.js"] = serviceWorker(hash.digest("hex").slice(0, 12), Object.keys(files));
-mkdirSync(join(ROOT, "site"), { recursive: true });
+mkdirSync(join(ROOT, "site/posters"), { recursive: true });
 for (const [name, body] of Object.entries(files)) writeFileSync(join(ROOT, "site", name), body);
 console.log(`wrote site/index.html (${Math.round(tpl.length / 1024)} KB): ${trips.length} trips, ${ideas.length} ideas, ${bucket.length} bucket items, ${data.me.length} me files, ${data.kitchen?.meals.length ?? 0} meals, ${windows.length} booking windows`);
-writeMaps();
 // A ready-made Kepler map per trip that has at least one day line to animate.
 for (const slug of ls("trips").filter((s) => has(`trips/${s}/trip.md`))) {
   const groups = has(`trips/${slug}/places.yaml`) ? YAML.parse(read(`trips/${slug}/places.yaml`)).groups ?? [] : [];

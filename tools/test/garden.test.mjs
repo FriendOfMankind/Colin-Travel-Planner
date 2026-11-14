@@ -50,8 +50,8 @@ test("the pins hold on today's wording, and catch a stale copy when the fact cha
     "me/food.md": "Spice **1–2 of 5**: background heat. Target **~3,300 kcal/day** on a hiking trip.",
     "CLAUDE.md": "Spice ceiling 1–2 of 5. No coffee, no beer.",
     "kitchen/staples.md": "OAS respected, spice ≤ 2/5 (mild taco seasoning only)",
-    "me/profile.md": "Hyundai, ~5.9 in ground clearance, low front air dam",
-    "trips/x/trip.md": "the road wants more clearance for 5.9 in",
+    "me/profile.md": "2019 Subaru Outback, AWD, 8.7 in ground clearance",
+    "trips/x/trip.md": "the road wants more clearance for 8.7 in",
   };
   assert.deepEqual(pinMismatches(pins, files), []);
 

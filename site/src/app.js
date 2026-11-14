@@ -137,6 +137,7 @@
     return `
       <div class="head">
         <a class="back" href="#trips">← Trips</a>
+        ${t.poster ? `<a class="poster-banner" ${t.poster.full ? `href="${esc(t.poster.full)}" target="_blank" rel="noopener"` : ""} style="--c:${tripColor(t.slug, today)}"><img src="${t.poster.thumb}" alt="Route poster: ${esc(t.title)}"><span class="pb-tag">${t.poster.full ? "Poster ↗" : "Poster"}${t.poster.stale ? ` · route changed since ${esc(fmt(t.poster.made))}` : ""}</span></a>` : ""}
         <div class="eyebrow">${esc(t.datesLabel ?? "")} · ${esc(when)}</div>
         <h1>${esc(t.title)}</h1>
         ${t.why ? `<div class="sub${strip(t.why).length > 220 ? " clamp" : ""}">${t.why}</div>${strip(t.why).length > 220 ? `<button type="button" class="more" data-more>More</button>` : ""}` : ""}
@@ -322,6 +323,7 @@
     // Undated trips have no place on the timeline, so they keep a list.
     const undated = groups.idea.filter((t) => !t.target);
     return `<div class="stack"><h1>Trips</h1>
+      ${shelf(today)}
       ${block("On the road", groups.active)}
       ${D.timeline ? timelineBlock(today) : block("Coming up", groups.upcoming)}
       ${block("Not scheduled", undated)}
@@ -329,6 +331,32 @@
       <a class="panel booksum" href="#ideas"><div><div class="eyebrow">Ideas</div><div>${(D.ideas ?? []).length} potential trips and ${(D.bucket ?? []).filter((b) => b.status === "want").length} bucket-list places</div></div><span class="go muted" aria-hidden="true">›</span></a>
     </div>`;
   };
+
+  /* --------------------------------------------------------------- shelf */
+  /* Every trip as a cover, swipeable: what's coming in date order, then
+     what's done, newest first. A trip with a poster (tools/poster.mjs) shows
+     it; one without gets its trip colour. Shelved trips stay off. */
+  function tripColor(slug, today) {
+    const order = (D.timeline?.items ?? []).filter((x) => x.type === "trip" && x.end >= today).map((x) => x.slug);
+    const i = order.indexOf(slug);
+    return i >= 0 ? TRIP_COLORS[i % TRIP_COLORS.length] : "#6b756f";
+  }
+  function shelf(today) {
+    const when = (t) => t.start ?? t.target;
+    const live = D.trips.filter((t) => !["done", "shelved"].includes(t.status) && when(t) && tripState(t, today) !== "past").sort((a, b) => when(a) < when(b) ? -1 : 1);
+    const done = D.trips.filter((t) => tripState(t, today) === "past" || t.status === "done").sort((a, b) => (a.start ?? "") < (b.start ?? "") ? 1 : -1);
+    const list = [...live, ...done.filter((t) => !live.includes(t))];
+    if (!list.length) return "";
+    const card = (t) => {
+      const st = tripState(t, today), w = when(t), s = w ? short(w) : null;
+      const label = st === "active" ? "On the road" : st === "past" || t.status === "done" ? `Done · ${s ? `${s.m} ${w.slice(0, 4)}` : ""}` : `${daysBetween(today, w)} days${t.start ? "" : " · target"}`;
+      const art = t.poster ? `<img src="${t.poster.thumb}" alt="" loading="lazy">` : `<div class="blank"><b>${s ? s.m : "—"}</b><span>${esc(t.region ?? "")}</span></div>`;
+      return `<a class="cover${st === "past" || t.status === "done" ? " is-done" : ""}" href="#t-${t.slug}-${st === "past" ? "journal" : "plan"}" style="--c:${tripColor(t.slug, today)}">
+        <div class="art">${art}</div>
+        <div class="cap"><div class="eyebrow">${esc(label)}</div><h3>${esc(t.title)}</h3><div class="muted small">${esc(t.datesLabel ?? "")}</div></div></a>`;
+    };
+    return `<div class="shelf" aria-label="All trips, swipe for more">${list.map(card).join("")}</div>`;
+  }
 
   /* ------------------------------------------------------------ timeline */
   /* Today → the horizon (me/calendar.md), built by tools/lib/timeline.mjs:
@@ -664,15 +692,17 @@
     if (sec === "plan") {
       const loads = t.days.map(load);
       const maxM = Math.max(600, ...loads.map((l) => l.hike + l.drive));
+      // An outline trip has no estimates yet: the day's title says more than a row of empty bars.
+      const timed = loads.some((l) => l.hike + l.drive > 0);
       body = `<div class="stack">
         <div class="panel glance">
-          <div class="glance-head"><span>Day</span><span>Wake</span><span>On foot / driving</span><span>Sleep</span></div>
+          <div class="glance-head"><span>Day</span><span>Wake</span><span>${timed ? "On foot / driving" : "The day"}</span><span>Sleep</span></div>
           ${t.days.map((d, i) => { const l = loads[i]; const early = l.wake != null && l.wake < 6 * 60 + 30; return `<a class="glance-row${d.date === n.date ? " is-today" : ""}" href="#t-${t.slug}-plan" data-day="${d.n}">
             <span class="gd"><b>${d.n}</b> ${short(d.date).w}</span>
             <span class="gw mono${early ? " early" : ""}">${l.wake != null ? clock(l.wake).replace(" AM", "").replace(" PM", "p") : "—"}</span>
-            <span class="gb"><span class="bars"><i class="h" style="width:${(100 * l.hike) / maxM}%"></i><i class="dr" style="width:${(100 * l.drive) / maxM}%"></i></span><span class="mono gl">${hm(l.hike)} · ${hm(l.drive)}</span></span>
+            ${timed ? "" : `<span class="gt">${strip(d.title)}</span>`}<span class="gb"${timed ? "" : " hidden"}><span class="bars"><i class="h" style="width:${(100 * l.hike) / maxM}%"></i><i class="dr" style="width:${(100 * l.drive) / maxM}%"></i></span><span class="mono gl">${hm(l.hike)} · ${hm(l.drive)}</span></span>
             <span class="gs">${d.overnight ? strip(d.overnight.name).replace(/ Campground| — .*/g, "") : "Home"}</span></a>`; }).join("")}
-          <div class="glance-key muted"><span><i class="h"></i> on foot</span><span><i class="dr"></i> driving</span><span><span class="mono early" style="padding:0 4px">6:00</span> wake before 6:30</span></div>
+          <div class="glance-key muted"${timed ? "" : " hidden"}><span><i class="h"></i> on foot</span><span><i class="dr"></i> driving</span><span><span class="mono early" style="padding:0 4px">6:00</span> wake before 6:30</span></div>
         </div>
         <h2 class="sr-only">Days</h2>
         ${t.days.map((d) => dayCard(t, d, { open: d.date === n.date, today: d.date === n.date, nowMinutes: d.date === n.date ? n.minutes : null })).join("")}

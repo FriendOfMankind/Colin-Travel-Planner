@@ -344,3 +344,6 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 
 ## 2026-11-12 · Hut nights skipped
 - **Colin: skip the Glacier chalets and the other hut options, "too expensive"** *(Colin, 2026-11-12)*. Granite Park was ~$475 a night for a 4-person room plus $40 a person for linens in 2026, via a Dec 1–31 lottery. Findings are in `research-log.md` (2026-11-12, later). Nothing changes in the plan.
+
+- **2026-11-14 · Fixed: Day 6 still described the old car.** The Crazy Woman Canyon line and its open question said "5.9 in and a low air dam" (the Legacy) after the switch to the Outback on 2026-11-12. Both now say 8.7 in, AWD, not 4x4, with Colin's road test: "if people can drag a trailer out there I can get my Outback up there, and if it's too rough I can turn around" *(Colin, 2026-11-14)*. The decide-at-the-road call stands.
+- Same pass: three more lines still named the Legacy (the service reminder, the Reservations service line, and the "where does the camping gear go" question). All now say the Outback; the question's "Colin + 3 probably doesn't fit" stays unmeasured.

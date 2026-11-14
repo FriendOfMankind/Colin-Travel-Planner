@@ -68,7 +68,8 @@ for (const t of trips.filter((t) => t.status !== "shelved" && has(`trips/${t.slu
 }
 
 const pins = has("garden/pins.yaml") ? YAML.parse(read("garden/pins.yaml")) ?? [] : [];
-findings.push(...pinMismatches(pins, files));
+// A pin is a current fact; a finished trip records what was true then (the old car, say).
+findings.push(...pinMismatches(pins, Object.fromEntries(Object.entries(files).filter(([f]) => !pastDirs.some((d) => f.startsWith(d))))));
 
 const dismissed = has("garden/dismissed.yaml") ? YAML.parse(read("garden/dismissed.yaml")) ?? [] : [];
 const { shown, hidden } = partition(findings, dismissed);

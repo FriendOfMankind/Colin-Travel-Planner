@@ -70,7 +70,7 @@ Dated entries, newest last. What was found while daydreaming, with a source on e
 - 📋 Wilmington is the base pick: closest to Whiteface (listings say 2–15 min), ~20 min to Lake Placid. 2BR cabins listed at $335–463/night, dates not shown *(sun-ski.com, snippet)*
 - 📋 Adirondak Loj (ADK, Heart Lake): 38 guests, private rooms, 6-person bunkrooms and a loft, shared baths, breakfast included, open year-round, no cell service, Mt Jo from the door *(adk.org, 2026-10-15)*. Bunkrooms "$81–91" *(tenereteam.com, third-party, unclear if per bed)*
 - 📋 Motels: Quality Inn Lake Placid ~$129/night; Adirondack Spruce Lodge (Wilmington, suites for up to 6) "from $149" *(nyhotels.net, dates not shown)*
-- ⚠️ Ask any host: is the driveway plowed, does it need AWD? Whether the Legacy has winter tires: not recorded. Some hosts block under-25 groups
+- ⚠️ Ask any host: is the driveway plowed, does it need AWD? Whether the Outback has winter tires: not recorded. Some hosts block under-25 groups
 
 ### 2026-10-15 · What to tell the friends it costs
 Estimate per person, 3–4 people, Jan 7–14. Built from the prices above plus my assumptions, labelled:
