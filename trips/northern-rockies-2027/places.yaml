@@ -358,50 +358,64 @@ groups:
   - group: Grand Teton + Flathead Lake (added 2026-11-14)
     places:
       - name: Shadow Mountain dispersed
-        note: "Night 12, the boondock night (Colin, 2026-11-14). Free, first-come, full by ~10 AM most days. Pin the lower road's first sites."
+        note: "Not the plan since 2026-11-14 (Colin reserved Colter Bay); kept as the free alternative. Free, first-come, full by ~10 AM most days."
         maps: Shadow Mountain dispersed camping Wyoming
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.77090274650384
+        lng: -110.48847641301766
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Jenny Lake East Shore Boat Dock
         note: Day 12, the boat across to Cascade Canyon.
         maps: Jenny Lake East Shore Boat Dock
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.750717256480016
+        lng: -110.72325788283993
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Cascade Canyon Trail
         note: Day 12 hike, from the west shore boat landing.
         maps: Cascade Canyon Trail Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.76723400943989
+        lng: -110.74417132161483
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: String Lake
         note: Day 12 afternoon swim.
         maps: String Lake Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.78796737523177
+        lng: -110.7305261310239
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Signal Mountain Lodge
-        note: Day 12, optional. "Pay showers and laundry nearby" per the nps.gov/grte camping table (snippet); exact building not read.
+        note: Not used since 2026-11-14 (showers at Colter Bay instead).
         maps: Signal Mountain Lodge Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.8435476740861
+        lng: -110.61089323669883
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Oxbow Bend Turnout
         note: Day 13 sunrise. Its pin also lets the sunrise time be computed.
         maps: Oxbow Bend Turnout Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.86613502761091
+        lng: -110.54755751580095
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Schwabacher Landing
         note: Day 13 sunrise, the alternative to Oxbow.
         maps: Schwabacher Landing Grand Teton
-        verified: false
-        lat: null
-        lng: null
+        verified: true
+        lat: 43.71148722000554
+        lng: -110.67042008186061
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
       - name: Gros Ventre Campground
-        note: Night 12 bail-out if Shadow Mountain is full. Not held (Colin, 2026-11-14), so only if a site is open that day.
+        note: Not needed since Colter Bay is reserved (2026-11-14).
         maps: Gros Ventre Campground Grand Teton
+        verified: true
+        lat: 43.6159777190971
+        lng: -110.66592119558254
+        source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
+      - name: Colter Bay Campground
+        note: Night 12, reserved (Colin, 2026-11-14). Showers and laundry at the Launderette.
+        maps: Colter Bay Campground Grand Teton
         verified: false
         lat: null
         lng: null

@@ -60,6 +60,10 @@ booking:
     what: Avalanche (first choice) or Apgar, Glacier NP (Jul 25–26)
     target: 2027-07-25
     note: First half of the Glacier stay, 2 nights from the day Ethan and Finn land (the Tetons and Flathead Lake took Jul 23–24, Colin, 2026-11-14). Do both Glacier halves in the same January sitting. Try Avalanche first; take Apgar if it's gone (Colin, 2026-10-30).
+  - system: recreation.gov
+    what: Colter Bay, Grand Teton NP (Jul 23)
+    target: 2027-07-23
+    note: "Reserved instead of racing for Shadow Mountain (Colin, 2026-11-14). $59/night with a vehicle; reservation-only, 6-month rolling on recreation.gov; showers and laundry at the Colter Bay Launderette (nps.gov/grte and gtlc.com, snippets, 2026-11-14). Same January sitting as Slough Creek, Madison and Glacier."
   - system: montana-sp
     what: Flathead Lake State Park, Big Arm (West Shore as backup), Jul 24
     target: 2027-07-24
@@ -609,30 +613,28 @@ Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yello
 
 ```yaml
 date: 2027-07-23
-tagline: Out the south gate of Yellowstone to a range with no foothills in front of it, a boat, a canyon, a swim, and a free night facing the wall.
+tagline: Out the south gate of Yellowstone to a range with no foothills in front of it, a boat, a canyon, a swim, a hot shower, and Mount Moran across Jackson Lake at dusk.
 type: travel + activity
-driving: ⚠️ ~2h Madison → South Entrance → Moran → Shadow Mountain (my estimate, unrouted)
-slack: None before 10 AM (the site race), plenty after.
+driving: ⚠️ ~2h Madison → South Entrance → Jenny Lake, then ~30 min to Colter Bay (my estimates, unrouted)
+slack: ~1 hour. Cascade Canyon is as long as you make it.
 overnight:
-  name: Shadow Mountain dispersed
-  place: Bridger-Teton NF, on the east edge of Grand Teton NP, WY
-  kind: Designated dispersed, free, first-come
-  cost: Free
-  checkin: 🚨 First-come. "Fills up very quickly, even by 10 a.m. most days" (btfriends.org, snippet, 2026-11-14)
-  confirmation: "n/a. No backup held; Colin races for the site (2026-11-14)"
-  notes: "The boondock night *(Colin, 2026-11-14)*. A 'Designated Dispersed Camping Area' (btfriends.org, snippet). Reddit: 'It's sooo busy… get there late morning/early afternoon on a weekday' (r/GrandTetonNatlPark, snippet, 2026-11-14). Road surface for the Outback not checked: use the trailer test (`me/principles.md` 2), and take a lower site before a rougher upper one."
+  name: Colter Bay Campground
+  place: Grand Teton NP, WY (Jackson Lake)
+  kind: National park campground
+  cost: "$59/night for a site with a vehicle (nps.gov/grte Colter Bay page, snippet, 2026-11-14), plus showers at the Launderette, ~$5 each (exploregtnp.com, snippet)"
+  checkin: 🚨 Book mid-January 2027 (recreation.gov, 6 months out; the briefing computes it)
+  confirmation: TBD
+  notes: "Reserved, not raced *(Colin, 2026-11-14: \"im cool with reserving one tbh, especially bc of the flexibility it offers and showers and peace of mind\")*. Reservation-only: \"All in-park camping is by reservation only and can be booked on a six-month rolling basis at Recreation.gov\" (gtlc.com, snippet, 2026-11-14). Flush toilets, cold water; \"showers and laundry services are available for an additional fee at the Colter Bay Launderette\" (nps.gov/grte, snippet). An older page says $26 and first-come tent sites (jacksonholewy.net, snippet): out of date, nps.gov wins. A big, busy village campground in the trees *(Claude's recall)*: the view is at the lakeshore, not the site. Shadow Mountain, the free boondock, is the alternative if plans change."
 ```
 
 **Schedule**
-- TBD · sunrise · Sunrise TBD (Madison has no verified coordinate). Break camp early: this is a race day.
-- 7:00 AM (2h) · drive! · → Shadow Mountain via the South Entrance and Moran. ⚠️ **My estimate, unrouted**, through Yellowstone's south end in July traffic. · 📍 Shadow Mountain dispersed camping Wyoming
-- 9:15 AM (30m) · stop · **Claim a site before anything else.** Take the first acceptable one. Full? **Bail-out: Gros Ventre** (279 sites, reservable; not held, so only if a site is still open that day, nps.gov/grte, snippet), then a paid campground, not researched. · 📍 Shadow Mountain dispersed camping Wyoming
-- 10:15 AM (30m) · drive · → Jenny Lake, the east shore boat dock. ⚠️ Estimate. · 📍 Jenny Lake East Shore Boat Dock
-- 11:00 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
-- 4:15 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
-- optional · stop · **A shower and laundry, 12 days in.** Signal Mountain Campground lists "pay showers and laundry nearby" (nps.gov/grte camping table, snippet, 2026-11-14); where exactly, and the hours, not read. · 📍 Signal Mountain Lodge Grand Teton
-- 6:30 PM · stop · Back at camp. Dinner facing the range.
-- TBD · sunset · Sunset TBD (Shadow Mountain not pinned). The range faces east, so at sunset it goes into silhouette; tomorrow's sunrise is the show. Waning gibbous 78%.
+- TBD · sunrise · Sunrise at Madison TBD (no verified coordinate). No race today: the site is booked.
+- 7:00 AM (2h) · drive · → Jenny Lake via the South Entrance. ⚠️ **My estimate, unrouted.** Still early on purpose: Jenny Lake's parking fills in July mornings *(Claude's recall, not checked)*. · 📍 Jenny Lake East Shore Boat Dock
+- 9:15 AM (5h) · hike · **Cascade Canyon via the Jenny Lake boat**: Hidden Falls, Inspiration Point, then up the canyon toward the Forks as far as it's fun. ⚠️ **Distance, gain, and the boat's 2027 fare and hours are not checked** (AllTrails next). Moose are common in the canyon *(Claude's recall)*. Bear spray. · 📍 Cascade Canyon Trail Grand Teton
+- 2:30 PM (1h 30m) · stop · **Swim at String Lake.** Shallow and warmer than the big lakes, the peaks straight overhead *(Claude's recall)*. · 📍 String Lake Grand Teton
+- 4:15 PM (30m) · drive · → Colter Bay. ⚠️ Estimate. · 📍 Colter Bay Campground Grand Teton
+- 4:45 PM (1h 30m) · stop · Set up, then **a hot shower and a load of laundry at the Colter Bay Launderette**, 12 days in: the first shower on the route. Hours not read. · 📍 Colter Bay Campground Grand Teton
+- 8:56 PM · sunset · Sunset 8:56 PM, dark 9:29 PM *(computed 2026-11-14 at the Oxbow Bend pin, ~10 km from camp; NOAA method, see `_gen/sun.json`)*. **Walk down to the Jackson Lake shore**: Mount Moran across the water, the sun going down behind the range. Waning gibbous 78%.
 
 **Meals**
 - B: made at camp
@@ -640,10 +642,10 @@ overnight:
 - D: made at camp
 
 #### Highlights
-The Teton front rises straight out of the valley floor with no foothills in front of it, and the boondock site looks right at it. The first free night on the trip, and the one Colin asked for.
+The Teton front rises straight out of the valley floor with no foothills in front of it. Boat, canyon, swim, shower, and the range across Jackson Lake at dusk: the best single day of the drive out.
 
 #### Warnings
-**The site race.** First-come, full by about 10 AM most days: be there by 9:30. No backup is held *(Colin, 2026-11-14)*. **Grand Teton is grizzly country too**: food and anything scented in the car, nothing in the tent, bear spray on the trail.
+**Grand Teton is grizzly country too**: food and anything scented in the car or the site's locker, nothing in the tent, bear spray on the trail.
 
 ### Day 13 — 2027-07-24 · Teton Sunrise, Then North
 
@@ -651,7 +653,7 @@ The Teton front rises straight out of the valley floor with no foothills in fron
 date: 2027-07-24
 tagline: The east face lit up at dawn, then the long drive north to a lake an hour short of Kalispell.
 type: travel
-driving: ⚠️ ~7.5h + stops, Jackson → Idaho Falls → I-15 → Butte → Missoula → US-93 → Big Arm. Jackson → Missoula is 365–386 mi, ~6–6.5h (rome2rio, travelmath, snippets, 2026-11-14); Missoula → Big Arm not checked
+driving: ⚠️ ~8h + stops, line not picked — back south via Jackson, Idaho Falls and I-15, or north through Yellowstone and West Yellowstone (not compared; `tools/roads.py` draws the faster), then Missoula → US-93 → Big Arm. Jackson → Missoula is 365–386 mi, ~6–6.5h (rome2rio, travelmath, snippets, 2026-11-14); Missoula → Big Arm not checked
 slack: Little. The longest day of the stretch, after a dawn start.
 overnight:
   name: Flathead Lake State Park — Big Arm
@@ -664,10 +666,10 @@ overnight:
 ```
 
 **Schedule**
-- TBD · sunrise · Sunrise TBD until Oxbow Bend is pinned. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up.
-- before sunrise (1h 30m) · stop · ⭐ **Oxbow Bend at sunrise**, or Schwabacher Landing for the reflection. ~15 min from camp *(my estimate)*. Moose at Oxbow at dawn are common *(Claude's recall)*. The moon is 69% waning, so it should still be up in the west at dawn *(inference; its position over the range is not computed)*. · 📍 Oxbow Bend Turnout Grand Teton
+- 6:02 AM · sunrise · Sunrise 6:02 AM, first light 5:28 AM at Oxbow Bend *(computed 2026-11-14 at Colin's pin; NOAA method, see `_gen/sun.json`)*. ⭐ **The early alarm earns it here** (principle 4's exception): the range faces east, so dawn is when it lights up. Leave camp by ~5:15.
+- before sunrise (1h 30m) · stop · ⭐ **Oxbow Bend at sunrise**, ~10–15 min from Colter Bay *(my estimate)*; Schwabacher Landing for the reflection is ~40 min south *(my estimate)*. Moose at Oxbow at dawn are common *(Claude's recall)*. The moon is 69% waning, so it should still be up in the west at dawn *(inference; its position over the range is not computed)*. · 📍 Oxbow Bend Turnout Grand Teton
 - 7:00 AM (1h) · stop · Back to camp. Hot breakfast, break camp.
-- 8:00 AM (7h 30m) · drive! · → Big Arm via Idaho Falls, I-15, Butte and Missoula. ⚠️ **Unrouted.** **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
+- 8:00 AM (7h 30m) · drive! · → Big Arm, via Missoula. ⚠️ **Line not picked** (via Jackson or via Yellowstone). **Resupply and laundry in Missoula**, the last big town before Kalispell. · 📍 Big Arm State Park Montana
 - 4:30 PM (1h) · stop · Check in, then a swim in Flathead Lake if there's anything left. · 📍 Big Arm State Park Montana
 - 9:23 PM · sunset · Sunset 9:23 PM, dark 10:00 PM *(computed 2026-11-14, NOAA method, at the fwp.mt.gov Big Arm coordinate; see `_gen/sun.json`)*. Waning gibbous 69%.
 
@@ -1607,8 +1609,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ### Showers and laundry — worse after the recut
 
-- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). Plan a paid one in Cody (Day 7), or the pay showers near Signal Mountain in the Tetons (Day 12; nps.gov/grte, snippet).
-- [ ] Plan one laundry stop: near Signal Mountain (Day 12) or Missoula (Day 13), or wear it.
+- [ ] ⚠️ **The Custer State Park shower stop was cut with the front end.** No shower on the route is verified before Hood River (Day 20). ✅ **Colter Bay Launderette on Day 12** (showers and laundry, extra fee; nps.gov/grte, snippet). Cody (Day 7) if you want one sooner.
+- [ ] Laundry: the Colter Bay Launderette (Day 12), or Missoula (Day 13).
 - [ ] This is the clearest cost of the 21-day version and it is worth knowing before departure rather than discovering on day nine.
 
 ## Reservations & checks
@@ -1687,7 +1689,7 @@ The first night up is now Vedauwoo at 8,300 ft after a night near 1,000 ft. Then
 ### Nineteen days to the first shower — is that actually acceptable?
 
 **Blocks:** Nothing structural, but it is the other real cost of the recut
-Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. Options: a paid shower in Cody (Day 7), or **the Tetons on Day 12: Signal Mountain Campground lists "pay showers and laundry nearby"** (nps.gov/grte camping table, snippet, 2026-11-14; exact place and hours not read), or a motel night on one of the transit days. Cheap to solve, easy to forget until day nine.
+Custer State Park was the trip's only mid-route shower and it went with the front end. **No shower before Hood River (Day 20) is verified**; the old "Apgar has one" had no source, and the west-side bed is now Avalanche. **Mostly answered on 2026-11-14: Day 12 sleeps at Colter Bay, with showers and laundry at the Launderette** (nps.gov/grte, snippet; hours not read). That's 12 days in; Cody (Day 7) is the option for an earlier one. Cheap to solve, easy to forget until day nine.
 
 ### Is Crazy Woman Canyon Road drivable in the Outback (8.7 in, AWD, not 4x4)?
 
@@ -1735,7 +1737,7 @@ That was chosen over cutting Theodore Roosevelt or a Glacier night, and it is th
 **Three real costs, none hidden:**
 • **Black Elk Peak is gone** — the best hike on the eastern half, and it was nearly free since I-90 passes it either way. Devils Tower goes with it.
 • **The altitude step is gone.** The Black Hills at 6,200 ft used to break the climb from the plains to the Bighorns in two. *(Restored 2026-10-30 by the Snowy Range swap: Vedauwoo 8,300 ft, then Brooklyn Lake 10,500 ft, then the Bighorns. See log.)*
-• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Cheap to solve: Cody (Day 7), or the pay showers near Signal Mountain (Day 12).
+• **No verified shower until Hood River, Day 20.** Custer State Park was the only mid-route one. Solved on Day 12: Colter Bay's Launderette.
 
 ### Three hikes are over the ceiling, on purpose, with bail-outs
 
