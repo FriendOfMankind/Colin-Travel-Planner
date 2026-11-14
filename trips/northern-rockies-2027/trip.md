@@ -110,8 +110,8 @@ page:
   dates: Monday, July 12 – Monday, August 16, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2013 Subaru Legacy, ~5.9 in clearance, low air dam. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
-  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Legacy for Aug 1–12; the own-car group rents its own car and picks its own dates."
+  vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
+  gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Outback for Aug 1–12; the own-car group rents its own car and picks its own dates."
   footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for Madison (Days 11–12), the Oregon days and the drive home aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 36 days
@@ -143,7 +143,7 @@ July 12 – August 16, 2027 · 36 days / 35 nights *(2026-11-04: two coast days 
 **Solo Jul 12 – Jul 24**. **Jul 25–30: Ethan and Finn at Glacier** (below), which fills both seats. **Solo again Jul 30–31** to Hood River, not offered as a ride-along. **Aug 1–12: two groups of friends**, who fly CLE ⇄ PDX *(Colin, 2026-11-04)*:
 
 Two ways to come, told apart by the car *(Colin, 2026-11-08; were "group B" and "group A", 2026-11-04)*:
-- **The riders** ride with Colin in the Legacy for the whole loop, Aug 1–12, and share his rooms. This plan is built around them. **2 friends plus Colin, 3 in the car** *(Colin, 2026-11-04)*.
+- **The riders** ride with Colin in the Outback for the whole loop, Aug 1–12, and share his rooms. This plan is built around them. **2 friends plus Colin, 3 in the car** *(Colin, 2026-11-04)*.
 - **The own-car group** rents its own car at PDX, picks its own arrival and departure days, and books its own rooms at the same places. About 3 people, probably staying shorter and less into the hard days (South Sister on Day 26, Tunnel Falls on Day 30), and they do want the rafting *(Colin, 2026-11-04)*. Each day has an **Own car** line.
 - Nobody's timeframe is asked yet. The friends' old limit was "not free after about Aug 12" *(stated 2026-10-14)*, reason not recorded.
 
@@ -171,7 +171,7 @@ The profile says 2–5 campgrounds and 5–10 nights. This is **35 nights**, thr
 
 ### Timing vs Newfoundland
 
-**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24, and this leaves July 12: eighteen days to rest and repack. Newfoundland goes in the Sienna, so the Legacy starts this trip fresh.
+**Newfoundland** (`trips/newfoundland-2027/`) gets home ~June 24, and this leaves July 12: eighteen days to rest and repack. Newfoundland goes in the Sienna, so the Outback starts this trip fresh.
 
 ## Days
 

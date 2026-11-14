@@ -19,10 +19,10 @@ source: Trees@c6e693c data/profile.js (rebuilt there 2026-09-04 from the Sept 20
 
 ## Vehicle
 
-2013 Subaru Legacy. AWD, ~5.9 in ground clearance, low front air dam. **Not high-clearance.** Road quality is a trip-breaker, not an inconvenience — check the access road before getting attached to a campground.
+**2019 Subaru Outback, AWD, for the 2027 road trips** *(stated 2026-11-12: "I WILL be driving a 2019 subaru outback on this trip so I may be able to access more areas")*. **8.7 in ground clearance** *(source: irasubaru.com, search snippet, 2026-11-12)*. **Somewhere in the middle, not high-clearance** *(Colin, 2026-11-12)*: maintained gravel and forest roads open up that the old car couldn't take, but rocky, rutted 4x4 roads still don't. Still check the access road before getting attached to a campground. Fuel economy not recorded. Newfoundland goes in the Sienna (`trips/newfoundland-2027/trip.md`). *(was: 2013 Subaru Legacy, AWD, ~5.9 in clearance, low front air dam, "not high-clearance; road quality is a trip-breaker". Whether the Legacy is still owned isn't recorded.)*
 
 **Road evidence:**
-- Divide Road → Twin Arches, Big South Fork (5 unpaved miles): easy maintained gravel, no concern. *(confirmed: kentucky-2026 log, 2026-09-27)*
+- Divide Road → Twin Arches, Big South Fork (5 unpaved miles): easy maintained gravel, no concern, in the Legacy. *(confirmed: kentucky-2026 log, 2026-09-27)*
 
 ## Renting a car
 

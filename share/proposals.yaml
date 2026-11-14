@@ -84,6 +84,7 @@
   for: the Oregon friends, two ways (riders in Colin's car for the whole loop, ~2; their own rental car and their own dates, ~3)
   status: draft  # not sent yet (Colin, 2026-11-01)
   asOf: 2026-11-08
+  checked: 2026-11-12  # the car change (Legacy → Outback) doesn't touch the page
   note: Rebuilt 2026-11-04 for the coast-first loop and two groups, with a day picker for group A (was "Oregon, August 1–10", one group of 4). Added the ride-home add-on for group B on 2026-11-08.
 
 - id: newfoundland-2027
@@ -118,6 +119,7 @@
   for: Ethan and Finn (Colin's brother), Glacier only, FCA in Jul 25 (after a wedding Jul 24) and out Jul 30
   status: in  # "they're good with just glacier"; page sent 2026-11-08 (Colin)
   asOf: 2026-11-08
+  checked: 2026-11-12  # the car change (Legacy → Outback) doesn't touch the page
   note: Glacier only, with an all-in cost estimate (~$900–1,100 each), two outbound flight options, a packing checklist and fishing (Ethan brings the rod), book by Jan 10.
 
 - id: adirondacks-winter

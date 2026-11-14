@@ -91,3 +91,64 @@ Second `/research` pass. Tree: `research.md` (branches 7–8 added for Oregon an
 - ✅ **Sandland Adventures**, Florence (sandland.com, 2026-11-04): sandrail tours ½ h $45 / 1 h $75 a person (4-person minimum for 1 h, 300 lb max); Giant Dune Buggy 1 h $25; taxes and fees (15%) non-refundable; open March–December.
 - 📋 Florence self-drive: side-by-sides need drivers 25–30+, single-seat quads 18+ (greetwell.com listings for Torex/Sand Dunes Frontier operators, 2026-11-04).
 - 📋 Oregon Dunes NRA: ~10,000 acres open to OHVs between Florence and Coos Bay (Oregon ATV Guide 2026–27, oregon.gov).
+
+## 2026-11-12 · The Sawtooths extension: hike-to hot springs, and what the Outback opens
+Colin asked for "wild hot springs where you can hike to them, not glorified public pools", and whether the 2019 Outback (8.7 in, `me/profile.md`) changes road logic. Scope: around Stanley, the SH-21 drive in, and the way out toward Ketchum. Nothing here is a decision; nothing was applied to `trip.md`.
+
+### Official pages
+- ✅ **Goldbug (Elk Bend) Hot Springs** (blm.gov, read 2026-11-12): BLM, no fees; "23 miles south of Salmon on Highway 93", then 0.3 mi of county road to the trailhead; "access requires a hike"; the first 1/4 mile crosses private land on an easement, dogs leashed. ⚠️ Stanley → Elk Bend is unrouted (it's north, via Challis, not on the way home).
+- ✅ **Kirkham Hot Springs** (fs.usda.gov Boise NF, read 2026-11-12): riverside pools east of Lowman on SH-21, 4,000 ft, little shade, "very hot and sunny" in summer, gate closes daily at 9 PM. A developed roadside day-use site, not a hike.
+- 📋 **Pine Flats** (fs.usda.gov / recreation.gov snippets): campground a few miles west of Lowman on the Banks–Lowman road, "soaking in the hot springs at the river's edge"; AllTrails lists the walk at 0.5–1 h.
+- 📋 **Bonneville** (recreation.gov snippet): campground on SH-21 with a soaking pool nearby.
+
+### Hot-spring guides (secondary; heavy use = their rating)
+- ✅ **Slate Creek / Hoodoo** (idahohotsprings.com, page modified 2026-11-07): a plumbed 6-person wooden box plus two natural pools at the old Hoodoo Mines site in the White Clouds (Sawtooth NRA), "a short hike at the end of bumpy, unpaved FSR 666"; 7,040 ft; "abandoned out-buildings and shafts stand within sight of the pool"; bugs "rated extreme on past visits"; usage heavy; "harsh summer storms can turn the road into a muck pot and have washed it away entirely". Primitive camping along the forest road. **Distance disagreement:** AllTrails lists 0.3 mi / 55 ft; hotspringsguides.com says 4.6 mi / 1,801 ft (probably the hike on to Hoodoo Lake, which idahohotsprings calls "2 miles/2K ft… rustic"). Not resolved.
+- ✅ **West Pass** (idahohotsprings.com, modified 2026-11-07): three bathtubs by West Pass Creek up the East Fork Salmon near Clayton, 6,800 ft, "sees almost nobody"; roadside once the seasonal high road is open; primitive sites nearby. Not a hike.
+- ✅ **Shower Bath** (idahohotsprings.com, modified 2026-11-07): Frank Church Wilderness; roads to either trailhead open only ~July–October; the last 0.25 mi of trail is in Warm Springs Creek ("the Narrows"); two 1–2 tent sites; "many snakes, black bear… mountain lion". **Trail length and trailhead not found.** A Facebook thread asks about mountain lions on the hike (snippet).
+- ✅ **Frenchman's Bend** (idahohotsprings.com, modified 2026-11-07): wide shallow creekside pools on Warm Springs Creek ~11 mi from Ketchum, "Access Type: Roadside", usage heavy, day use only, prime season late June–late October. **Split:** a Facebook group post says "roundtrip 4 mile hike" (snippet, undated). Not resolved.
+- 📋 **Sunbeam**: "heavy use, extreme in summer", restroom and changing room (idahohotsprings.com). **Basin Creek / Cove Creek**: short walk from SH-75; "found semi-submerged and too cool to soak" on repeated visits (idahohotsprings.com). **Mountain Village Resort** tubs on Valley Creek in Stanley: reservation only (idahohotsprings.com).
+- 📋 Further off the route, both low-use hikes: **Buckhorn** (5 mi, 1,000+ ft on an old road, Warm Lake / Yellow Pine) and **Bull Creek** (Middle Fork Payette, July–September). Not pursued.
+- 📋 **Goldbug** crowds: "nearly 2-mile trail… nearly 1,400 feet in elevation gain", "go early and beat the crowd" (Facebook "Meanwhile in Idaho", snippet); "Arrived… before 9am and there were already many people" (TripAdvisor review, snippet, undated).
+
+### YouTube
+- **Live That Adventure, "5 Awesome and Free Hot Springs Near Stanley, Idaho"** (uploaded 2022-06-09, trip month not stated, not sponsored as far as shown): Valley Creek ("left on Valley Creek Road… parking lot… just on the other side of this really cool bridge"), Boat Box (~4 mi from Stanley, a chained tub for 2–3, little parking), Cove Creek (~8.3 mi, small, "we had the entire thing to ourselves", picnic tables, camping), Sunbeam (~12 mi; volunteers rebuild the pools each spring), and Kirkham ($5 or free with an America the Beautiful pass; small cliff jump into the Payette). All roadside or a short walk.
+- **Live That Adventure, "How to Find Valley Creek Hot Springs"** (2022-05-26): ~0.3 mi of dirt road past the Stanley museum; "a large hump" at the lot made them leave the rental car on the road; a free ~20 ft pool on one side of the bridge and a paid, reserved one in a barn on the other. ⚠️ idahohotsprings.com (2026) lists the Valley Creek tubs as Mountain Village Resort's, reservation only. Whether a free pool remains isn't settled.
+
+### Reddit
+- The Apify actor `trudax/reddit-scraper-lite` now **requires a Reddit session token** (input validation, 2026-11-12), so no Apify run was made. Fallback: Firecrawl `site:reddit.com` search plus the scrapecreators reader.
+- r/Idaho, "Salmon R rafting trip canceled, any ideas for 6 days in Idaho?" (2023-08-06, 58 comments): "Stanley is one of the most beautiful places in the country. Mountain lakes, hot springs, tough hikes" (30 upvotes); "Hot pots on Salmon (near Sunbeam)"; "Petit Lake, and yellowbelly lake is an easy hike"; Challis was "super crowded" for the Braun Brothers Reunion festival on Aug 10–12, 2023 (a 2023 date; 2027's isn't checked).
+
+### The Outback and the roads
+- 📋 **Fourth of July Creek Road** (White Clouds, ~15 mi south of Stanley off SH-75): "It's a rough road but easy hike" (Idaho Statesman headline); "I saw some sedans at the trailhead, so it's passable by most cars" (AllTrails review, undated). Fourth of July Lake: 1.77 mi / 615 ft (Idaho Statesman); trailhead ~8,760–8,880 ft (idahocampgroundreview.com; sawtoothtrails.com). Not on the plan's hike menu.
+- 📋 **FSR 666 to Slate Creek**: "bumpy, unpaved"; washouts after summer storms (above).
+- 📋 **Valley Creek lot**: a hump a rental car avoided (above).
+- 📋 For contrast, **Indian Bathtub** (Bruneau, off route): "the access road can defeat anything without clearance and four-wheel drive" (idahohotsprings.com).
+
+### Questions for Colin (not applied)
+- Which hot springs to add to the extension's menu, if any (Slate Creek as the one hike-plus-ruins soak near Stanley; Goldbug as a day trip north; the roadside ones as evening soaks).
+- Fourth of July Lake as a White Clouds hike now that the car can take a rough road.
+
+## 2026-11-12 (later) · Hike-to huts, and Shower Bath in detail
+Colin asked about huts he could reserve and hike to, with "not too long of a hike… carrying sleeping pad and sleeping bag is a pain, only if it's like right there", and asked for a closer look at Shower Bath. Nothing applied to `trip.md`.
+
+### Glacier's chalets (official sites, read 2026-11-12)
+- ✅ **Granite Park Chalet** (graniteparkchalet.com): reached only by trail; **Highline from Logan Pass 7.6 mi, moderate; the Loop 4.2 mi with a 2,300 ft climb** (FAQ). 2026 rates per room: **2-person $265, 4-person $475, 6-person $685**, plus Montana accommodations tax; twin bunk beds; **optional linen package $40 a person (sheets, pillow, pillowcase, blankets), ordered at least 14 days ahead**. Food is self-cooked in the chalet kitchen, or pre-ordered from its retail menu. 2026 season Jun 29 – Sep 12. Cancellation: full refund less $25 at 30+ days; the deposit is forfeited at 15–29 days; nothing back at 14 days or fewer. AllTrails adds "There is no water source at the chalet".
+- ✅ **2027 lottery** (graniteparkchalet.com/reservationlottery.php): two separate lotteries, Granite Park and Sperry. **Entries Dec 1–31, 2026** (11:59 PM MST), one per person per chalet, **$3 nonrefundable fee**, no advantage to entering early. Results by **Jan 6, 2027**; selected applicants book **Jan 11–15**; waitlist **Jan 18–19**; **public first-come from Jan 20, 2027**. A 50% deposit at booking; max 3 nights and 12 people; one reservation per selected applicant; "Being selected does not guarantee a reservation."
+- ✅ **Sperry Chalet** (sperrychalet.com): "Three meals with each night's stay", "plenty of warm blankets"; the Sperry Trail starts at Lake McDonald Lodge, **6.7 mi and 3,300 ft** (FAQ snippet). Same lottery dates. 3,300 ft is over the ~2,500 ft ceiling (`me/hiking.md`).
+- 📋 Granite Park via the Highline, AllTrails (11.6 mi point to point Logan Pass → the Loop, 1,233 ft gain, Hard): Aug 2026 reviews mention a grizzly in berry patches near the chalet, a trail closure for a goat carcass, and the Loop descent being hot and sun-exposed.
+
+### Near the Sawtooths
+- 📋 **Redfish Cabin** (recreation.gov facility page): a 1930s CCC cabin above the north shore of Redfish Lake, 6,570 ft, sleeps 3 on a log bunk/futon (single mattress above, double below), electric lights, outhouse 50 ft away, picnic table and fire ring. It's **beside the Redfish amphitheater, so drive-up, not hike-in**. Fee and window not read.
+- 📋 **Idaho City backcountry yurts** (parksandrecreation.idaho.gov): ~1.5 h (56–63 mi) north of Boise; "In summer, the yurts are accessed by a few hundred yard hike". Banner Ridge's summer guide: views of the South Fork Payette canyon and "the scenic Sawtooth Mountains". ⬜ What bedding is provided, fees, and whether they're open to summer bookings in 2027 weren't read.
+- ⚠️ **Basin Butte Lookout**, north of Stanley, "available for rent" (a 2013 blog post). Current status unknown.
+
+### Shower Bath, in detail
+- ✅ **AllTrails** (MCP, 2026-11-12): "Shower Bath Hot Springs via Mahoney Creek Trail", **11.8 mi out and back, 2,595 ft, Hard**, ~6 h 8 min. 10Adventures (updated 2026-07-21): 11.3 mi, 2,598 ft, 5.5–7.5 h. hotspringsguides.com: 11.4 mi, ~2,591 ft. **Trailhead: Mahoney Creek, off Sleeping Deer Road, from Challis.**
+- ✅ **10Adventures route description:** "the road to the trailhead is rough and rugged — only vehicles with high ground clearance should attempt the journey"; "the poorly signposted trail and overgrowth"; "You may want to use the GPS here as it is easy to get off-track"; several creek crossings in a steep-walled canyon; past the Warm Springs Ranger Cabin and the **Sitz Bath** ("not the Shower Bath Springs"); then the ford through **the Narrows**; "the water runs high year-round"; "The insects are relentless". Passes "an old rustic run-down cabin" near the start.
+- 📋 **AllTrails reviews** (undated in the snippet): "one lane mountain road and you need a high clearance vehicle"; vs. "you don't need anything crazy just some clearance and good tires so you don't get a flat"; "Camped at the trailhead, nice and flat"; "3hrs down, 3.5hrs back up"; "about 1300ft of elevation gain in the last mile on the way back"; the creek ford "shin deep most of the way" (vs. 10Adventures' "runs high"); "didn't encounter any other campers".
+- 📋 Gaia GPS lists "Sleeping Deer Road ★★★ DIFFICULT 41.6 mi" on the route page (snippet; what the rating covers isn't clear).
+- 📋 hotspringsguides.com: source ~122°F, cooling as it pours over the cliff faces. idahohotsprings.com (earlier entry): roads open ~July–October; snakes, black bear, mountain lion.
+
+### Questions for Colin (not applied)
+- Granite Park Chalet on Day 15 (Jul 26, the Highline with Ethan and Finn): the lottery entry window is Dec 1–31, 2026. It breaks principle 1 (a hike-in night and a lottery), so it needs his call and a written reason.
+- Shower Bath: whether it's worth an exception to the solo limits in `me/hiking.md` (no route-finding where getting lost is the risk) and the clearance rule.
