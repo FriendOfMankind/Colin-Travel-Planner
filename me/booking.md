@@ -52,6 +52,11 @@ trip's start date.
   what: First-come dispersed
   when: No reservation possible
   note: Arrive early, drive the road once from the top, take the first acceptable site. Bail-out named in advance.
+- system: mn-sp
+  leadDays: 120
+  what: Minnesota State Parks (Minnesota DNR reservation system)
+  when: Up to 120 days ahead
+  note: "campflare.com, Great River Bluffs page (snippet, 2026-11-14): 'Reservations available online up to 120 days in advance through the Minnesota DNR reservation system.' Not read on the DNR's own page; release time of day unknown. *(added 2026-11-14 for the Rockies drive home)*"
 - system: montana-sp
   leadMonths: 3
   what: Montana State Parks (montanastateparks.reserveamerica.com)

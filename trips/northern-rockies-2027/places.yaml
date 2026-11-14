@@ -685,6 +685,56 @@ groups:
         lat: 43.982009419860255
         lng: -114.86605966376364
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-11-14)
+  - group: The drive home via I-90 (added 2026-11-14)
+    places:
+      - name: Idaho Falls
+        note: "Day 38, on the way north."
+        maps: Idaho Falls Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Livingston
+        note: "Day 38 resupply."
+        maps: Livingston Montana
+        verified: false
+        lat: null
+        lng: null
+      - name: Itch-Kep-Pe Park
+        note: "Night 38. Free, first-come, on the Yellowstone River."
+        maps: Itch-Kep-Pe Park Columbus Montana
+        verified: false
+        lat: null
+        lng: null
+      - name: Billings
+        note: "Day 39."
+        maps: Billings Montana
+        verified: false
+        lat: null
+        lng: null
+      - name: Devils Tower Visitor Center
+        note: "Day 39 stop: the Tower Trail."
+        maps: Devils Tower Visitor Center
+        verified: false
+        lat: null
+        lng: null
+      - name: Sage Creek Campground
+        note: "Night 39. Free, first-come, unpaved road."
+        maps: Sage Creek Campground Badlands
+        verified: false
+        lat: null
+        lng: null
+      - name: Sioux Falls
+        note: "Day 40."
+        maps: Sioux Falls South Dakota
+        verified: false
+        lat: null
+        lng: null
+      - name: Great River Bluffs State Park
+        note: "Night 40. Reservable 120 days out."
+        maps: Great River Bluffs State Park
+        verified: false
+        lat: null
+        lng: null
   - group: The drive home
     places:
       - name: Cottonwood Campground

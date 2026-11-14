@@ -60,3 +60,8 @@ From the traveller interview on 2026-09-28 unless marked.
 
 Researched 2026-09-29: Pittsburgh, San Francisco's Crosstown Trail, Philadelphia and Atlanta's BeltLine. They now live in [`bucket.yaml`](../bucket.yaml) (`kind: walk` / `city`), and Pittsburgh is also a potential trip (`wishlist/pittsburgh.md`) *(moved 2026-09-30; was: listed here, "not saved as ideas yet")*. Route sources: AllTrails for the named routes, Komoot for building custom ones, GPSmyCity for themed self-guided walks.
 
+## Already done
+
+Places Colin has been, so a plan doesn't route him back to them as a stop (a free bed nearby is fine):
+- **The Black Hills, Black Elk Peak, Badlands NP, Mount Rushmore** *(Colin, 2026-11-14: "no, ive been here", asked about a Black Elk Peak day)*. Not Devils Tower.
+

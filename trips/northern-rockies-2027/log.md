@@ -400,3 +400,9 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 
 - **Colin: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions"** *(Colin, 2026-11-14)*. Solo nights are now a campground or dispersed site near the route, else the car. Exceptions he picked: night 1 of each trip, Hood River on Jul 31, Port aux Basques off the ferry, and one of the last nights if it's Midwest farmland with no camping. The rule lives in `me/camping.md`.
 - Here: Days 19 (Wallace/Kellogg), 32 (La Grande), 38 and 39 are camp or car; Day 1 (Des Moines) stays a motel; Day 40 may be a motel if it lands in farmland. Was: "motel" or "camp or motel" on those nights.
+
+## 2026-11-14 · Decided: home on I-90, with Devils Tower
+
+- **I-90, not I-80** *(Colin, 2026-11-14: "yes")*. Same ~2,100–2,200 mi either way (I-90 legs: Idaho Falls → Billings 344, Billings → Rapid City 328 on US-212 or 383 on I-90, Rapid City → Cleveland 1,226–1,264; travelmath, rome2rio, FB; I-80 not checked), but I-80 repeats the outbound. **No Black Elk Peak day**: Colin has done the Black Hills, the Badlands and Rushmore, not Devils Tower *(Colin, 2026-11-14; now in `me/travel-style.md`)*.
+- **Days 38–41:** Stanley → Idaho Falls → Livingston → **Itch-Kep-Pe Park, Columbus MT** (free, ~50 sites, Yellowstone River) · Billings → I-90 → **Devils Tower** (Tower Trail, 1.3–1.6 mi) → **Sage Creek, Badlands** (free, 22 sites, unpaved road; a bed only) · I-90 → Sioux Falls → **Great River Bluffs State Park**, Winona MN (reservable 120 days ahead; full → the farmland-motel exception) · → Chicago → home Aug 21. ~505 / 510 / 545 / 610 mi, unrouted. Pine Creek (south of Livingston) was the first idea for night 38; it made Day 39 ~600 mi plus the Tower, past the ~11 h cap, so the camp moved 80 mi east.
+- New booking system `mn-sp` (120 days) in `me/booking.md`; 8 places to pin.
