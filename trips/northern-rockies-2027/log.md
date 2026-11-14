@@ -392,3 +392,19 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - The Oregon invite (draft) ride-home add-on now says Aug 12–21 via the Sawtooths; republished.
 - Also: the bucket list's Dugway geode beds still said "Questionable for the Legacy"; now points at the trailer test.
 - Site: the poster banner opens over the page instead of a new tab. Firefox blocked the new tab from the claude.ai frame with NS_ERROR_DOM_COOP_FAILED (Colin's screenshot, 2026-11-14).
+- **Sawtooth pins in** *(Colin, 2026-11-14)*: 13 places, written as verified. The ledger flagged Bench Lakes as ~5 m from Fishhook Creek; kept, since both trails leave the same Redfish trailhead (Claude's recall) and the numbers differ (not a stale clipboard).
+- **Days 32–37 routed** (tools/roads.py): 313, 308, 42, 3, 24 and 56 mi. Drawn total now 4,140 mi (Days 2–37, with Day 14 routed too: 87 mi); trip ~6,700 mi, fuel ~$1,150–1,400 (Claude's estimates).
+- **Sun computed** at the pins: La Grande (Pacific) sunset 8:04 PM on Aug 12; Outlet sunrise 6:42–6:47 AM (Stanley is far west in Mountain Time) and sunset 8:47 → 8:41 PM, Aug 13–17.
+
+## 2026-11-14 · No solo motels
+
+- **Colin: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions"** *(Colin, 2026-11-14)*. Solo nights are now a campground or dispersed site near the route, else the car. Exceptions he picked: night 1 of each trip, Hood River on Jul 31, Port aux Basques off the ferry, and one of the last nights if it's Midwest farmland with no camping. The rule lives in `me/camping.md`.
+- Here: Days 19 (Wallace/Kellogg), 32 (La Grande), 38 and 39 are camp or car; Day 1 (Des Moines) stays a motel; Day 40 may be a motel if it lands in farmland. Was: "motel" or "camp or motel" on those nights.
+
+## 2026-11-14 · Decided: home on I-90, with Devils Tower
+
+- **I-90, not I-80** *(Colin, 2026-11-14: "yes")*. Same ~2,100–2,200 mi either way (I-90 legs: Idaho Falls → Billings 344, Billings → Rapid City 328 on US-212 or 383 on I-90, Rapid City → Cleveland 1,226–1,264; travelmath, rome2rio, FB; I-80 not checked), but I-80 repeats the outbound. **No Black Elk Peak day**: Colin has done the Black Hills, the Badlands and Rushmore, not Devils Tower *(Colin, 2026-11-14; now in `me/travel-style.md`)*.
+- **Days 38–41:** Stanley → Idaho Falls → Livingston → **Itch-Kep-Pe Park, Columbus MT** (free, ~50 sites, Yellowstone River) · Billings → I-90 → **Devils Tower** (Tower Trail, 1.3–1.6 mi) → **Sage Creek, Badlands** (free, 22 sites, unpaved road; a bed only) · I-90 → Sioux Falls → **Great River Bluffs State Park**, Winona MN (reservable 120 days ahead; full → the farmland-motel exception) · → Chicago → home Aug 21. ~505 / 510 / 545 / 610 mi, unrouted. Pine Creek (south of Livingston) was the first idea for night 38; it made Day 39 ~600 mi plus the Tower, past the ~11 h cap, so the camp moved 80 mi east.
+- New booking system `mn-sp` (120 days) in `me/booking.md`; 8 places to pin.
+- **Drive-home pins in** *(Colin, 2026-11-14)*: 8 places, no warnings. Routed: Day 38 506 mi, Day 39 515, Day 40 593 (longer than the ~545 estimate), Day 41 616. **Home (Avon) was never a place on this trip**, so Day 41's line stopped at Chicago: copied the Newfoundland trip's home pin. Drawn total 6,370 mi (Days 2–41); trip ~7,000 mi, fuel ~$1,200–1,450 (estimates). The page's "~6,000+ mi" stat and the footer's "Sawtooth sun not computed" caught up.
+- **Sun:** Itch-Kep-Pe sunset 8:20 PM; Sage Creek 7:48 PM (Mountain); Great River Bluffs 8:02 PM (Central); first light at Sage Creek 5:29 AM, sunrise 5:59.

@@ -1,7 +1,7 @@
 ---
 slug: northern-rockies-2027
 title: The Long Way to Glacier
-subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week
+subtitle: The July road trip — the Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, five nights at Glacier, then west to Oregon for the boys week, and the Sawtooths on the way home
 months: [ 7, 8 ]
 mode: drive
 days: 41
@@ -13,14 +13,14 @@ pinned: true
 start: null
 dates: Jul 12 – Aug 21, 2027 (target, unbooked)
 window: July–August. ⭐ July specifically — June was checked destination by destination and every anchor here is out of season in it.
-region: Avon OH → IA → NE → WY → MT → WY (Tetons) → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → home
-states: [ WY, MT, ID, WA, OR ]
+region: Avon OH → IA → NE → WY → MT → WY (Tetons) → MT → ID → WA → OR (boys week, Aug 1–12, coast → McKenzie → Bend → Gorge) → ID (Sawtooths) → MT → WY (Devils Tower) → SD → MN → home on I-90
+states: [ WY, MT, ID, WA, OR, SD, MN ]
 country: USA
 coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 40 nights
-distance: "~6,600 mi in all (Claude's estimate) — 3,307 mi drawn on real roads for Days 2–31 (tools/roads.py, 2026-11-14), Day 1 (640 mi, routed), Portland → Stanley (~560 mi) and Stanley → home (~2,000 mi), both unrouted, plus ~150 mi around the Sawtooths"
-budget: TBD. Fuel alone ~$1,150–1,350 (Claude's estimate, 2026-11-14 — ~6,600 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+distance: "~7,000 mi in all (Claude's estimate) — 6,370 mi drawn on real roads for Days 2–41 (tools/roads.py, 2026-11-14), plus Day 1 (640 mi, routed)"
+budget: TBD. Fuel alone ~$1,200–1,450 (Claude's estimate, 2026-11-14 — ~7,000 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
 tags:
   - car camping
   - alpine
@@ -64,6 +64,10 @@ booking:
     what: Colter Bay, Grand Teton NP (Jul 23)
     target: 2027-07-23
     note: "Reserved instead of racing for Shadow Mountain (Colin, 2026-11-14). $59/night with a vehicle; reservation-only, 6-month rolling on recreation.gov; showers and laundry at the Colter Bay Launderette (nps.gov/grte and gtlc.com, snippets, 2026-11-14). Same January sitting as Slough Creek, Madison and Glacier."
+  - system: mn-sp
+    what: Great River Bluffs State Park, Winona MN (Aug 20)
+    target: 2027-08-20
+    note: "The last night out, on the drive home via I-90 (Colin, 2026-11-14). Up to 120 days ahead on the Minnesota DNR system (campflare.com, snippet, 2026-11-14). Full: the last-night motel exception applies."
   - system: montana-sp
     what: Flathead Lake State Park, Big Arm (West Shore as backup), Jul 24
     target: 2027-07-24
@@ -120,11 +124,11 @@ page:
   theme: alpine
   vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~6,000+ mi trip (unrouted; was ~4,300) on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Outback for Aug 1–12; the own-car group rents its own car and picks its own dates."
-  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days, the Sawtooths and the drive home aren't computed yet. [← All trips](../../index.html)
+  footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days (Days 20–30) aren't computed yet. [← All trips](../../index.html)
   stats:
     - num: 41 days
       lbl: Length
-    - num: ~6,000+ mi
+    - num: ~7,000 mi
       lbl: Driving (unrouted)
     - num: "35"
       lbl: Nights out
@@ -198,7 +202,7 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
+  notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*; night 1 is one of the solo-motel exceptions *(Colin, 2026-11-14)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
 ```
 
 **Schedule**
@@ -890,10 +894,10 @@ type: travel
 driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on toward the Idaho line
 slack: Little. The Hiawatha is the first cut.
 overnight:
-  name: TBD — Wallace / Kellogg, Idaho area
+  name: TBD — camp near Wallace / Kellogg, Idaho, or the car
   mapStandIn: Wallace, ID
   place: Silver Valley, ID
-  kind: Not picked (camp or motel)
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
@@ -1363,22 +1367,23 @@ None.
 date: 2027-08-12
 tagline: Airport drop, then east up the Columbia toward Idaho.
 type: travel
-driving: ⚠️ Hood River → PDX, then I-84 east to La Grande, ~260 mi from PDX (my estimate, unrouted)
+driving: Hood River → PDX → I-84 east to La Grande, 313 mi drawn (tools/roads.py; times unrouted)
 slack: Some. Nothing is booked tonight.
 overnight:
-  name: TBD — motel, La Grande area
+  name: TBD — camp near La Grande, or the car
   mapStandIn: La Grande, OR
   place: La Grande, OR
-  kind: Transit night — not identified
+  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Transit night. Pendleton is the shorter fallback.
+  notes: "⚠️ Not picked. Hilgard Junction State Park sits on I-84 just west of La Grande (Claude's recall, not checked). Pendleton is the shorter fallback."
 ```
 
 **Schedule**
 - morning · drive · **The riders to PDX** for their flights. The own-car group returns its car whenever it leaves. · 📍 Portland International Airport
 - afternoon · drive · East on I-84 through the Gorge and up onto the plateau. ⚠️ Unrouted. · 📍 La Grande Oregon
+- 8:04 PM · sunset · Sunset 8:04 PM, dark 8:37 PM at La Grande (Pacific Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: bought
@@ -1399,7 +1404,7 @@ Twelve days with friends, then a solo afternoon on I-84. Stop early if it's goin
 date: 2027-08-13
 tagline: Boise for groceries, then the Payette canyon on SH-21, a soak at Kirkham, and the Sawtooths at the end of it.
 type: travel
-driving: ⚠️ ~6h + stops, La Grande → I-84 → Boise → SH-21 (Idaho City, Lowman) → Stanley. Boise → Stanley is ~2.5–3h (idahorivers.com, in log.md); the rest is unrouted
+driving: ⚠️ ~6h + stops, 308 mi drawn (tools/roads.py), La Grande → I-84 → Boise → SH-21 (Idaho City, Lowman) → Stanley. Boise → Stanley is ~2.5–3h (idahorivers.com, in log.md); times unrouted
 slack: Some. Kirkham is the first cut.
 overnight:
   name: Outlet Campground
@@ -1417,7 +1422,7 @@ overnight:
 - 1:00 PM (1h) · stop · **Kirkham Hot Springs**: riverside pools on the South Fork Payette, roadside, "very hot and sunny" in summer, gate closes 9 PM (fs.usda.gov Boise NF, read 2026-11-12). A soak to break the drive. · 📍 Kirkham Hot Springs Lowman
 - 2:00 PM (1h 30m) · drive · → Stanley over Banner Summit. · 📍 Stanley Idaho
 - 4:00 PM (1h) · stop · Set up at Outlet. Then the Redfish Lake shore. · 📍 Outlet Campground Redfish Lake
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:47 PM · sunset · Sunset 8:47 PM, dark 9:19 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: bought
@@ -1451,11 +1456,12 @@ overnight:
 ```
 
 **Schedule**
+- 6:42 AM · sunrise · Sunrise 6:42 AM, first light 6:10 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - morning · stop · Slow camp morning. A Saturday, so the busy trails wait.
 - 10:00 AM (2h 30m) · hike · **Fishhook Creek.** ✅ AllTrails: **4.6 mi, 262 ft** *(2026-11-02)*. From Redfish, an easy leg-stretch into a meadow under the peaks. · 📍 Fishhook Creek Trailhead Redfish Lake
 - afternoon · stop · Redfish Lake beach. Swim if it's warm.
 - 6:00 PM (1h 30m) · stop · **A hot pot by the Salmon River**: Boat Box (~4 mi from Stanley, a chained tub for 2–3) or Sunbeam (~12 mi, "heavy use, extreme in summer") *(YouTube, Live That Adventure, 2022; idahohotsprings.com; in research-log.md)*. Roadside. · 📍 Sunbeam Hot Springs Idaho
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:46 PM · sunset · Sunset 8:46 PM, dark 9:17 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1489,9 +1495,10 @@ overnight:
 ```
 
 **Schedule**
+- 6:43 AM · sunrise · Sunrise 6:43 AM, first light 6:12 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 8:00 AM (4h 30m) · hike · **Bench Lakes.** ✅ AllTrails: **8.2 mi, 1,190 ft** *(2026-11-02)*. From the Redfish trailhead. · 📍 Bench Lakes Trailhead Redfish Lake
 - afternoon · stop · Back at camp. Lake, book, nap.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:44 PM · sunset · Sunset 8:44 PM, dark 9:16 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1525,10 +1532,11 @@ overnight:
 ```
 
 **Schedule**
+- 6:44 AM · sunrise · Sunrise 6:44 AM, first light 6:13 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 6:30 AM (30m) · drive · → Iron Creek Trailhead, west of Stanley. ⚠️ Estimate. · 📍 Iron Creek Trailhead Stanley
 - 7:00 AM (6h) · hike! · **Sawtooth Lake via Iron Creek.** ✅ AllTrails: **9.8 mi, 1,791 ft** *(2026-11-02)*, right at the ~10 mi ceiling. Alpine Lake is a short side trip on the way. Turnaround: 12:30 PM wherever you are. · 📍 Iron Creek Trailhead Stanley
 - afternoon · stop · Back to camp. Rest.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:43 PM · sunset · Sunset 8:43 PM, dark 9:14 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1562,11 +1570,12 @@ overnight:
 ```
 
 **Schedule**
+- 6:45 AM · sunrise · Sunrise 6:45 AM, first light 6:14 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 - 8:00 AM (1h) · drive! · → Fourth of July Trailhead, ~15 mi south of Stanley off SH-75. "It's a rough road but easy hike" (Idaho Statesman); "I saw some sedans at the trailhead" (AllTrails review, undated). **The trailer test** (`me/principles.md` 2): if it turns rough, turn around. · 📍 Fourth of July Trailhead Idaho
 - 9:00 AM (2h) · hike · **Fourth of July Lake.** 📋 **1.77 mi, 615 ft** (Idaho Statesman, in research-log.md). A White Clouds lake from a trailhead near 8,800 ft. · 📍 Fourth of July Trailhead Idaho
 - 1:00 PM (2h 30m) · hike · **Yellow Belly Lake from Pettit.** ✅ AllTrails: **5.1 mi, 964 ft** *(2026-11-02)*. Pettit parking was $10 a day (bellebucket.com, in log.md). · 📍 Pettit Lake Trailhead Idaho
 - evening · stop · Last night at Outlet. Pack the car for the drive home.
-- TBD · sunset · Sunset TBD until Outlet is pinned.
+- 8:41 PM · sunset · Sunset 8:41 PM, dark 9:12 PM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
@@ -1581,107 +1590,119 @@ The White Clouds, the range across the valley that most visitors skip, and the f
 
 Fourth of July Creek Road is unpaved and not checked for the Outback. Turn around without regret; Pettit alone fills the day.
 
-### Day 38 — 2027-08-18 · East
+### Day 38 — 2027-08-18 · Over to the Yellowstone River
 
 ```yaml
 date: 2027-08-18
-tagline: Long day 1 of 4.
+tagline: Out of the Sawtooths, across eastern Idaho, and up into Montana to a free riverside camp.
 type: travel
-driving: ⚠️ ~550 mi, unrouted. Stanley → Avon is ~2,000 mi (recalled, unrouted)
-slack: None.
+driving: ⚠️ 506 mi drawn (tools/roads.py), Stanley → Idaho Falls → Livingston → I-90 → Columbus; times unrouted
+slack: Little.
 overnight:
-  name: TBD
-  place: TBD
-  kind: Transit night — not identified
-  cost: TBD
-  checkin: Unknown
-  confirmation: TBD
-  notes: ⚠️ Transit night 1 of 3.
+  name: Itch-Kep-Pe Park
+  place: Columbus, MT
+  kind: Free city park campground, first-come (no solo motels, Colin 2026-11-14)
+  cost: Free (a donation box)
+  checkin: First-come
+  confirmation: n/a
+  notes: "Free, on the Yellowstone River, 'about 50 campsites with fire rings and picnic tables, first come', '5 minutes off I-90', a donation box, 10-day limit (Stillwater County chamber; Facebook review; The Dyrt; YouTube; snippets, 2026-11-14). Full or rained out: the car."
 ```
 
 **Schedule**
-- 6:00 AM · drive! · East. Two-hour stops, no exceptions.
+- 6:47 AM · sunrise · Sunrise 6:47 AM, first light 6:16 AM at Outlet Campground *(computed 2026-11-14 at Colin's pin, NOAA method)*.
+- 6:00 AM · drive! · Stanley → SH-75 → US-93 → Arco → Idaho Falls → north into Montana. Two-hour stops. ⚠️ Unrouted. · 📍 Idaho Falls Idaho
+- afternoon · stop · **Resupply in Bozeman or Livingston.** · 📍 Livingston Montana
+- evening · stop · Camp at Itch-Kep-Pe, on the river. · 📍 Itch-Kep-Pe Park Columbus Montana
+- 8:20 PM · sunset · Sunset 8:20 PM, dark 8:52 PM at Itch-Kep-Pe Park *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
 - B: made at camp
 - L: bought
-- D: bought
+- D: made at camp
 
 #### Highlights
 
-Nothing. That is fine.
+A free night on the Yellowstone River, the same river the trip followed through Lamar three weeks earlier.
 
 #### Warnings
 
-Long days at the end of five weeks on the road.
+The first of four long days, straight after five nights in one place. Stop every two hours.
 
-### Day 39 — 2027-08-19 · East
+### Day 39 — 2027-08-19 · Devils Tower
 
 ```yaml
 date: 2027-08-19
-tagline: Long day 2 of 4.
-type: travel
-driving: ⚠️ ~550 mi, unrouted
-slack: None.
+tagline: Across the Wyoming plains to the one stop on the way home you haven't seen, then the Badlands for a free bed.
+type: travel + activity
+driving: ⚠️ 515 mi drawn (tools/roads.py) + the Tower, Columbus → Billings → I-90 → Devils Tower → I-90 → Wall → Sage Creek; times unrouted
+slack: Little. The Tower is the only stop.
 overnight:
-  name: TBD
-  place: TBD
-  kind: Transit night — not identified
-  cost: TBD
-  checkin: Unknown
-  confirmation: TBD
-  notes: ⚠️ Transit night 2 of 3.
+  name: Sage Creek Campground
+  place: Badlands NP, SD
+  kind: Free NPS campground, first-come (no solo motels, Colin 2026-11-14)
+  cost: Free
+  checkin: First-come
+  confirmation: n/a
+  notes: "'A free, first-come first-serve campground with 22 sites located on Sage Creek Rim Road, an unpaved road that may temporarily close after winter storms and spring rains' (nps.gov/badl, snippet, 2026-11-14); 'rarely fills to capacity' (AAA, snippet). Colin has done the Badlands *(Colin, 2026-11-14)*: this is a bed, not a stop. Road closed or full: the car, near Wall."
 ```
 
 **Schedule**
-- 6:00 AM · drive! · East.
+- 6:22 AM · sunrise · Sunrise 6:22 AM, first light 5:50 AM at Itch-Kep-Pe Park *(computed 2026-11-14 at Colin's pin, NOAA method)*.
+- 6:00 AM · drive! · → Billings → east on I-90 into Wyoming. ⚠️ Unrouted. · 📍 Billings Montana
+- midday · drive · Off at Moorcroft (or Sundance) onto US-14 to the Tower, "the most common route" (nps.gov/deto, snippet). · 📍 Devils Tower Visitor Center
+- 1:30 PM (1h 30m) · hike · ⭐ **Devils Tower, the Tower Trail.** The paved loop around the base: **1.3 mi** (evansoutdooradventures.com) or **1.6 mi, ~38 min, 150 ft** (AllTrails and hikespeak, snippets, 2026-11-14). The one place on the drive home Colin hasn't seen *(Colin, 2026-11-14)*. America the Beautiful pass covers entry. · 📍 Devils Tower Visitor Center
+- afternoon · drive · → Sundance → I-90 → past Rapid City → Wall → Sage Creek Rim Road. **Trailer test** on the gravel (`me/principles.md` 2). · 📍 Sage Creek Campground Badlands
+- 7:48 PM · sunset · Sunset 7:48 PM, dark 8:18 PM at Sage Creek *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
-- B: packed
-- L: bought
-- D: bought
+- B: made at camp
+- L: packed
+- D: made at camp
 
 #### Highlights
 
-Nothing.
+Devils Tower, finally, and a free camp in the Badlands with bison often wandering through *(Claude's recall)*.
 
 #### Warnings
 
-Same as yesterday.
+A ~10-hour day with a stop in the middle. Leave the Tower by ~3 PM. Keep your distance from bison at Sage Creek.
 
-### Day 40 — 2027-08-20 · East
+### Day 40 — 2027-08-20 · To the Mississippi
 
 ```yaml
 date: 2027-08-20
-tagline: Long day 3 of 4.
+tagline: The plains in one push, ending on a bluff above the river.
 type: travel
-driving: ⚠️ ~550 mi, unrouted
+driving: ⚠️ 593 mi drawn (tools/roads.py), Sage Creek → I-90 → Sioux Falls → Great River Bluffs, near Winona; times unrouted. The longest of the four
 slack: None.
 overnight:
-  name: TBD
-  place: TBD
-  kind: Transit night — not identified
+  name: Great River Bluffs State Park
+  place: Winona, MN
+  kind: Minnesota state park, reservable (no solo motels, Colin 2026-11-14)
   cost: TBD
-  checkin: Unknown
+  checkin: Reservable up to 120 days ahead (the briefing computes it)
   confirmation: TBD
-  notes: ⚠️ Transit night 3 of 3.
+  notes: "On the Mississippi bluffs near Winona (mn DNR park page, snippet). Reservations up to 120 days ahead through the Minnesota DNR system (campflare.com, snippet, 2026-11-14); tent sites with tables and fire rings (outdoorsy.com, snippet). **If it's full: the last-night exception allows a motel here** (Midwest farmland, Colin 2026-11-14)."
 ```
 
 **Schedule**
-- 6:00 AM · drive! · East. **Time the Chicago window** if the route goes through it: before 10 AM or after 7 PM.
+- 5:59 AM · sunrise · Sunrise 5:59 AM, first light 5:29 AM at Sage Creek *(computed 2026-11-14 at Colin's pin, NOAA method)*.
+- 6:00 AM · drive! · East on I-90 across South Dakota and southern Minnesota. ⚠️ Unrouted. · 📍 Sioux Falls South Dakota
+- evening · stop · Camp on the bluff. · 📍 Great River Bluffs State Park
+- 8:02 PM · sunset · Sunset 8:02 PM, dark 8:33 PM at Great River Bluffs (Central Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
 
 **Meals**
-- B: packed
+- B: made at camp
 - L: bought
-- D: bought
+- D: made at camp
 
 #### Highlights
 
-Nothing.
+The last night out, above the Mississippi instead of in a motel off the interstate.
 
 #### Warnings
 
-If the split goes badly, make tomorrow the long one. Nothing depends on it.
+Long and flat. If the split goes badly, make tomorrow the long one. Nothing depends on it.
 
 ### Day 41 — 2027-08-21 · Home
 
@@ -1689,27 +1710,28 @@ If the split goes badly, make tomorrow the long one. Nothing depends on it.
 date: 2027-08-21
 tagline: The long way home, the really long way.
 type: travel
-driving: The rest of it, ~350 mi
+driving: ⚠️ 616 mi drawn (tools/roads.py), Winona → Chicago → Avon; times unrouted
 slack: All of it — work starts Aug 31.
 overnight: null
 ```
 
 **Schedule**
-- morning · drive · → Avon OH.
+- 6:16 AM · sunrise · Sunrise 6:16 AM, first light 5:46 AM at Great River Bluffs (Central Time) *(computed 2026-11-14 at Colin's pin, NOAA method)*.
+- 6:00 AM · drive! · → Chicago. **Time the Chicago window:** before 10 AM or after 7 PM. ⚠️ Unrouted. · 📍 I-90 Chicago Skyway
 - arrival · note · Ten days before full-time work starts.
 
 **Meals**
-- B: packed
+- B: made at camp
 - L: bought
 - D: home
 
 #### Highlights
 
-The Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, Glacier, twelve days of Oregon with friends, and the Sawtooths, in one trip.
+The Snowy Range, Bighorns, Beartooth, Yellowstone, the Tetons, Glacier, twelve days of Oregon with friends, the Sawtooths, and Devils Tower, in one trip.
 
 #### Warnings
 
-The Outback will have done ~6,600 miles in five and a half weeks. **Get it looked at.**
+The Outback will have done ~7,000 miles in five and a half weeks. **Get it looked at.**
 
 ## Hikes
 
@@ -1824,7 +1846,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
 - [ ] **Outlet CG, Sawtooths, Aug 13–18** — in the plan (2026-11-14). The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Six transit nights have no lodging identified: Days 1, 19, 32, 38, 39, 40.**  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
+- [ ] ⚠️ **Solo nights not picked: Days 1, 19, 32, 38, 39, 40.** No solo motels *(Colin, 2026-11-14)*: camp near the route, else the car. Exceptions: Day 1's motel, and Day 40 if it's Midwest farmland with no camping. Days 38–40 picked on 2026-11-14: Itch-Kep-Pe (free), Sage Creek (free), Great River Bluffs (reservable, 120 days).  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
 
 ## Open questions
 
