@@ -105,6 +105,8 @@ Potential trips, not plans: one file each, with a Why, a Next and dated research
   Culture and cities, in hotels
 - **Kenai Peninsula** (`wishlist/kenai-peninsula.md`) · Alaska · fly · keeps (derived) · Jun/Jul/Aug/Sep · 14 days · updated 2026-09-30
   The one that gets harder to justify, not easier
+- **Keys Boys Week** (`wishlist/keys-boys-week.md`) · Marathon, Florida Keys (fly CLE ⇄ MIA, drive down) · fly · keeps (derived) · Dec/Jan/Feb/Mar/Apr/May · 9 days · 1 research note · updated 2026-11-15
+  A nice waterfront house with a pool and a dock in Marathon, two boats for the week, and nothing else booked
 - **Lassen Volcanic** (`wishlist/lassen.md`) · California · fly · keeps (derived) · Jul/Aug/Sep · 1 research note · updated 2026-10-10
   Best day-hike fit in California
 - **Letchworth** (`wishlist/letchworth.md`) · New York · weekend · weekend (derived) · Apr/May/Jun/Jul/Aug/Sep/Oct · 2–3 nights · updated 2026-09-04
