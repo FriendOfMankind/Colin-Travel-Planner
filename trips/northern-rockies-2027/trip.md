@@ -892,7 +892,7 @@ date: 2027-07-30
 tagline: Out of the mountains the other way, dropping the friends at Kalispell on the way.
 type: travel
 driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on toward the Idaho line
-slack: Little. The Hiawatha is the first cut.
+slack: "Little. **Cutoff: not at East Portal by 12:45 PM PT → skip the ride and drive on.**"
 overnight:
   name: TBD — camp near Wallace / Kellogg, Idaho, or the car
   mapStandIn: Wallace, ID
@@ -901,13 +901,13 @@ overnight:
   cost: TBD
   checkin: Unknown
   confirmation: TBD
-  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked. Since the 2026-11-08 flip the day starts at Many Glacier, ~2h further east, so the ride may not fit."
+  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked. Since the 2026-11-08 flip the day starts at Many Glacier; it still fits if the drop-off runs on time, because the trail keeps Pacific time (`research-log.md`, 2026-11-16)."
 ```
 
 **Schedule**
 - 6:30 AM (3h) · drive · → **Kalispell (FCA): drop Ethan and Finn** for their flights home (they book after ~1 PM) *(Colin, 2026-11-08)*. Around the south of the park on US-2 or back over the Sun Road. ⚠️ Unrouted. · 📍 Glacier Park International Airport
 - late morning · drive · → west toward I-90 and the Idaho line. ⚠️ Unrouted. Tomorrow (Day 20) is a reset day with nothing booked, so a long drive then is fine.
-- afternoon · ride · **Route of the Hiawatha, only if there's time** (bucket item, planned 2026-10-30): 15 mi downhill through 10 tunnels and 7 trestles, I-90 exit 5 at Taft MT, season May 22 – Sept 20 in 2026, rentals include lights (research notes in `log.md`, 2026-10). ⚠️ Fees, hours, shuttle times and whether to reserve not checked · 📍 Route of the Hiawatha East Portal Trailhead
+- ~11:00 AM–12:45 PM PT · ride! · **Route of the Hiawatha** (planned, with a cutoff: *Colin, 2026-11-16*): 14.4 mi at a 1.6–2% downhill through 10 tunnels (the first is 1.66 mi, pitch dark) and 7 trestles, then the shuttle back up and the tunnel again. **~4–5 h** with the ~45 min shuttle wait. **Be at East Portal (I-90 exit 5, Taft MT) by 12:45 PM PT, or skip it:** the last shuttle up leaves Pearson at **4:15 PM PT on a Friday**. Rent there: 2026's Adult Combo Pass (trail, shuttle, bike, helmet and light) was $70 online / $79 day-of; online sales close 48 h before *(ridethehiawatha.com, snippets, 2026-11-16; 2027 not published)*. Buy once the drop-off time is known · 📍 Route of the Hiawatha East Portal Trailhead
 
 **Meals**
 - B: made at camp
@@ -920,7 +920,7 @@ The trip turns west instead of home. That's the whole point of the day.
 
 #### Warnings
 
-Nineteen days in, and solo again. If tired, skip the Hiawatha and just drive.
+Nineteen days in, and solo again. The 12:45 PM PT cutoff decides the ride, not how the morning felt: late means drive on, with no second try.
 
 ### Day 20 — 2027-07-31 · Reset in Hood River
 
