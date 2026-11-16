@@ -1,0 +1,37 @@
+{
+  "skill_name": "log",
+  "note": "Run each case in a fresh agent in a throwaway worktree: no commit, push or PR. Grade the reply and the diff against the expectations. Keys checked against the files on 2026-11-16; if a file changes, fix the case in the same commit.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "log: Thurmond was a drive-by, didn't even get out of the car",
+      "expected_output": "One dated entry in trips/appalachians-2026/log.md, Colin's words quoted, tagged as his.",
+      "expectations": [
+        "Writes to trips/appalachians-2026/log.md (the only trip that had Thurmond)",
+        "Does not edit trips/appalachians-2026/trip.md",
+        "The entry carries today's date and quotes or closely paraphrases Colin, tagged as stated or recalled",
+        "npm test passes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "log: Honey Creek took me about 5 hours",
+      "expected_output": "Flags the conflict before writing: the Kentucky retro records ~3.5 h against a 6 h budget.",
+      "expectations": [
+        "Names the conflict with trips/kentucky-2026/log.md (~3.5 h) before writing anything",
+        "Asks which is right (multiple choice is best) instead of silently writing 5 hours",
+        "Does not rewrite the retro's 3.5 h"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "log: we biked the Gap of Dunloe, brutal hill",
+      "expected_output": "The Ireland trip hasn't happened (target May 2027). Asks what he means instead of logging a future day as done.",
+      "expectations": [
+        "Notices the Gap of Dunloe is on dingle-marseille-2027, which hasn't started",
+        "Does not write a 'what happened' entry to trips/dingle-marseille-2027/log.md as if the day were done",
+        "Asks a short question (a past trip, a recce, or a typo)"
+      ]
+    }
+  ]
+}

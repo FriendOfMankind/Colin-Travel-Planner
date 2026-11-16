@@ -78,6 +78,15 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   `- 6:15 → 6:40 (25m) · drive · Text · 📍 Maps search`. A `!` after the kind means warn.
 - **After content changes, rebuild and republish the site:** `node tools/build.mjs`, then publish `site/index.html` to https://claude.ai/artifact/FWuwTKkLnDTCYn9z4QNaP9 (the Artifact tool's `url`). Never publish it as a new page.
 
+## Lessons: when he corrects how you work
+
+A correction of *behaviour* ("you forgot the sunset again", "I told you not to nag") is a lesson, not a fact. Facts go to their own file as always. A Stop hook (`.claude/hooks/lessons-guard.mjs`) nudges you when his last message looks like one; in a chat with no hooks, notice it yourself.
+
+- Find the matching lesson in `garden/lessons.yaml` or start one: `target` (the skill or `me/working-rules.md` it would change), one imperative `lesson`, and an episode with today's date, this session and his words.
+- **One episode per session.** Repeating a correction until it lands is one episode.
+- **1 episode:** record it, say nothing. **2:** one line at the end of your reply: "second time; logged as a lesson." **3+:** propose the edit to `target` as its own PR, quoting the episodes, and set `status: proposed`. He merges it (`promoted`) or says no (`rejected`, with his reason, so it's never proposed again).
+- Never edit the target to "fix" a lesson without that PR, and never touch the Non-negotiables from a lesson. A lessons-only change is `garden/`, so it merges itself.
+
 ## Non-negotiables
 
 1. **Never invent a coordinate.** Unknown means `verified: false` with null lat/lng. Every coordinate carries a `source`, and the tests enforce it.
