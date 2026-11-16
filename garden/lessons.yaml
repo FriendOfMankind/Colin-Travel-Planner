@@ -1,0 +1,23 @@
+# Lessons: corrections to how Claude works, not facts about Colin or a trip.
+# A fact goes to its own file (/remember, a plan fix). A lesson goes here
+# when Colin corrects *behaviour*: "you forgot X again", "I told you not to Y".
+#
+# Each lesson counts independent episodes (different sessions). The
+# escalation, from the claude-lessons pattern (CLAUDE.md § Lessons):
+#   1 episode  → recorded silently
+#   2 episodes → one line at the end of the reply saying it's the 2nd time
+#   3+         → propose the edit to `target` as its own PR; status: proposed.
+#                Colin merges it (status: promoted) or says no (status:
+#                rejected, with his reason, so it's never proposed again).
+# tools/garden.mjs lists lessons at 3+ that are still open.
+#
+# Shape:
+# - id: kebab-case
+#   target: .claude/skills/<name>/SKILL.md | me/working-rules.md | CLAUDE.md
+#   lesson: one imperative sentence
+#   status: open | proposed | promoted | rejected
+#   episodes:
+#     - { date: 2026-11-16, session: <session link or id>, quote: "his words" }
+#   pr: <link, once proposed>
+#   reason: <his words, if rejected>
+[]

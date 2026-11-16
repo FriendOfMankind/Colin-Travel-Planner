@@ -408,3 +408,24 @@ Findings only; nothing decided, `trip.md` still ends Aug 14.
 - New booking system `mn-sp` (120 days) in `me/booking.md`; 8 places to pin.
 - **Drive-home pins in** *(Colin, 2026-11-14)*: 8 places, no warnings. Routed: Day 38 506 mi, Day 39 515, Day 40 593 (longer than the ~545 estimate), Day 41 616. **Home (Avon) was never a place on this trip**, so Day 41's line stopped at Chicago: copied the Newfoundland trip's home pin. Drawn total 6,370 mi (Days 2–41); trip ~7,000 mi, fuel ~$1,200–1,450 (estimates). The page's "~6,000+ mi" stat and the footer's "Sawtooth sun not computed" caught up.
 - **Sun:** Itch-Kep-Pe sunset 8:20 PM; Sage Creek 7:48 PM (Mountain); Great River Bluffs 8:02 PM (Central); first light at Sage Creek 5:29 AM, sunrise 5:59.
+
+## 2026-11-16 · Garden pass: stale lines fixed, two hikes flagged
+
+Found by the gardener's test run, confirmed by its verifier. Old values, for the record:
+- "four consecutive hard bookings" / "The four hardest bookings" (`next:` and the open question): five since Colter Bay joined (Jan 21–27). The question's Blocks line said "Days 10–11 and 12–18".
+- The stat card said 35 nights (front matter: 40). "~6,000+ mi" in three places (front matter: ~7,000). "a 34-day trip" (41). "The 36-day total". The old 21-day loop's fuel line ($553) read as current; the `budget:` estimate is ~$1,200–1,450.
+- "Solo again Aug 12–16" (now Aug 12–21 via the Sawtooths). "Solo nights not picked: Days 1, 19, 32, 38, 39, 40" while the same line said 38–40 were picked.
+- Day 12 listed as a soft day ("a 2-hour drive"); it's the Tetons day now.
+- Shower lines said none was verified before Day 20 next to the Colter Bay Day 12 fix; the heading said "Nineteen days".
+- "Custer State Park and Devils Tower are gone": Devils Tower came back as Day 39.
+- Cody's "Nothing between here and Great Falls is a real grocery" (Great Falls dropped 2026-11-08). The resupply list omitted Boise (Day 33) and Bozeman/Livingston (Day 38).
+- Avalanche Lake listed on Day 13, "the Saturday" (it's Day 14, a Sunday); Apgar `days: 12–15` against its own "Nights 14–15".
+- Madison's "sunset isn't recomputed yet" above the computed sunset.
+- `research.md`: the drive home "not chosen", transit nights "nothing identified", the Sawtooths "optional", "in the Legacy", showers none before Day 20, Madison → Glacier on Day 12.
+
+- **South Sister (Day 26) and Tunnel Falls (Day 30) stay, flagged as over the ceiling on purpose** *(Colin, 2026-11-16)*. The ceiling section said only three hikes went over, all on distance; South Sister is over on both (~5,000 ft).
+
+## 2026-11-16 · Decided: the Hiawatha stays, with a cutoff
+
+- **Day 19's Hiawatha is planned, with one rule: not at East Portal by 12:45 PM PT means skip it** *(Colin, 2026-11-16: "Keep it, with a cutoff")*. Was: "only if there's time" and "the first cut" in `trip.md`, against the 2026-10-30 log's "planned, not optional", a contradiction the gardener found. Why it fits after all: the trail keeps Pacific time, so a 9:30 MT Kalispell drop-off plus ~3–3.5 h of driving arrives ~11 AM–noon PT (estimate, unrouted). Rent there (~$70–80 in 2026); his own hybrid stays home. Facts in `research-log.md`.
+

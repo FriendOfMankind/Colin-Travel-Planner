@@ -1,0 +1,39 @@
+{
+  "skill_name": "remember",
+  "note": "Run each case in a fresh agent in a throwaway worktree: no commit, push or PR. The prompts are fiction written for the test; never merge their output. Keys checked against the files on 2026-11-16.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "remember I bought a bug head net",
+      "expected_output": "me/gear.md: the bug head net goes from need to own, with a dated provenance note. The Newfoundland packing copy follows (the update-every-copy rule). *(Key fixed after the 2026-11-16 run, which was right and the first key wrong.)*",
+      "expectations": [
+        "Edits the bug head net entry in me/gear.md from need to own",
+        "Adds provenance with today's date (stated 2026-11-16 or equivalent)",
+        "Touches no other gear entry; updates (or names) the other copy, the Newfoundland Buy-before-May line \"Bug head net + repellent (need)\", and says a trip.md change waits for Colin's merge",
+        "npm test passes"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "remember I hate hostels, never book me one",
+      "expected_output": "Flags that two picked Ireland beds are hostels (The Black Sheep Hostel, Kinlay Eyre Square) before or while recording the preference.",
+      "expectations": [
+        "Names the hostel picks in trips/dingle-marseille-2027/trip.md as conflicting",
+        "Either asks first (A/B/C on how far the rule goes) or records the preference in one me/ file with today's date; never both silently and wrongly",
+        "Does not silently swap or delete the Ireland picks (a trip.md change waits for Colin)",
+        "Asks whether the rule covers trips with friends on a budget, or just says the picks need his call"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "from now on coffee is fine, I started drinking it",
+      "expected_output": "Updates me/food.md with a 'was' note, and names every other copy of 'no coffee' including the CLAUDE.md non-negotiable, which waits for Colin's merge.",
+      "expectations": [
+        "Updates the coffee line in me/food.md and keeps the old value as a short (was: ...) note",
+        "Finds the 'No coffee' copy in CLAUDE.md's Non-negotiables and either updates it or names it for Colin",
+        "Does not change 'no beer' along with it",
+        "Says the change can't merge itself if it touches CLAUDE.md"
+      ]
+    }
+  ]
+}

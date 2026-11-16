@@ -268,3 +268,26 @@ One-way, economy, **1 passenger**, prices shown per person; not held *(Colin's s
 
 - The open question "What does an automatic cost in Ireland?" was answered on 2026-11-11 (the $785.79 pick) but never closed, and `vehicle:` still said "Not priced." Both now carry the pick. The question is rewritten to what's still unknown: **the cover** (the quote says "without coverage"; many US cards exclude Ireland, Claude's recall, unchecked) and **the bags** (the Golf class lists 2 large bags for 3 adults and two weeks; Colin's own rule was a compact estate for 4).
 - **Skellig: one operator's 2027 landings are on sale** (Skellig Michael Cruises, 12 seats a day, boats out 8:00–10:30; snippet, 2026-11-14; details in `research-log.md`). `next:`, the booking row and the checklist now say so. Not booked; which tour is still Colin's call.
+
+## 2026-11-16 · Garden pass: stale lines fixed
+
+Found by the gardener's test run, confirmed by its verifier; no decisions changed. Old values:
+- Day 1: "Carry-on and one checked bag each are in the observed Main Cabin fare" was the dropped American open-jaw fare's; the Aer Lingus pick has bags extra. Its overnight cost said "In the open-jaw fare". Its tagline said Commencement was "two days ago" (from the old May 10 departure).
+- Day 2's "six hours between" and the Overview's "7½-hour planning block" disagreed; the schedule runs 08:45 → ~19:30, so ~10¾ h.
+- Day 6 said the car was "not priced"; the 11-11 pick prices it. Day 7's overnight said "B&B or hostel (not picked), cost TBD" under a Black Sheep Hostel name.
+- Day 7 priced the landing at "€140–145, landings from mid-May" against the budget's €170 and Skellig Michael Cruises' May 9 start; it now shows the range and budgets €170.
+- `coords:` was the mean of 34 pins (2026-11-10); recomputed from 53 → [52.5, -9.7].
+- `research.md` still showed the car, the Maldron and the beds as gaps; `places.yaml` called the Killarney bed TBD.
+
+## 2026-11-16 · Gallarus Oratory: free, open in May
+
+- Day 3's ruins line said "Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*". Gallarus now has its own line: free by the OPW right of way at any hour, or €5 an adult through the private Visitor Centre (open 09:00–20:00 in May). Dunbeg and the huts stay recalled, now pinned to Dunbeg. Asked by Colin; sources in `research-log.md`, 2026-11-16.
+
+## 2026-11-16 · Skellig climb: the warning now has a source
+
+- Day 7's warning said the steps are "old, steep and unrailed" *(recalled, not checked)*. Three Reddit threads (2025–26) back it and add detail: a chain only in the steepest bits, a narrow cliff path near the top, "like ice" when wet, and cancellation texts that can arrive mid-drive. The warning now cites them. Findings in `research-log.md` (2026-11-16). No plan change.
+
+## 2026-11-16 · Decided: the Skellig landing, not the circle tour
+
+- **The landing is the plan** *(Colin, 2026-11-16: "Landing, it's the plan")*, budgeted at €170 each. The €80 boat tour that circles the island without landing is only the bad-weather idea now. Why (Claude's case, which he took): the ~€90 difference buys the only part that's the actual thing, the unrailed climb to the monastery, which is his kind of place (unrestored ruins, terrain as scenery: `trips/kentucky-2026/log.md`, `me/travel-style.md`).
+- Before paying: read the operator's cancellation and refund terms. Landings cancel in swell, and Skellig Michael Cruises sells 12 seats a day.

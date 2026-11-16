@@ -81,7 +81,9 @@ The gardener improves from evidence, never from vibes, and never by editing itse
 
 1. **Read the ledger.** A check or finding kind that keeps landing in `dismissed.yaml` is noisy: tighten its wording in `garden-finder.md`, or its pattern in `tools/lib/garden.mjs`, and add a test that pins the false alarm.
 2. **Read the misses.** Drift found by hand (by `/preflight`, a retro, or Colin) goes into `evals/questions.md` § Seeds for the gardener, and the run that should have caught it gets **Missed** +1. If the class is pattern-decidable, make it a mechanical check with a test. If not, add one line to the finder's "What counts".
-3. **Gate.** `npm test` must pass, and a lite run on the current data must not raise anything already in `dismissed.yaml`. One change per PR, and Colin merges it. Keep a short list of rejected changes at the bottom of this file, so the same bad idea isn't proposed twice.
+3. **Read the lessons.** `garden/lessons.yaml` holds Colin's corrections of how Claude works. One aimed at the gardener (its `target` is this skill or `garden-finder.md`) is evidence like a miss. The mechanical pass lists any open lesson seen in 3+ sessions.
+4. **Re-run the eval.** After any change to a skill or `CLAUDE.md`, run `evals/questions.md` again (one fresh agent per batch of questions, the edits in throwaway worktrees) and log the run. A change that loses a question it used to pass is a regression, even if it fixed another.
+5. **Gate.** `npm test` must pass, and a lite run on the current data must not raise anything already in `dismissed.yaml`. One change per PR, and Colin merges it. Keep a short list of rejected changes at the bottom of this file, so the same bad idea isn't proposed twice.
 
 ## Rejected changes
 

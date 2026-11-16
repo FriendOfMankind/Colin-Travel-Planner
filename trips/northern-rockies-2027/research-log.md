@@ -152,3 +152,12 @@ Colin asked about huts he could reserve and hike to, with "not too long of a hik
 ### Questions for Colin (not applied)
 - Granite Park Chalet on Day 15 (Jul 26, the Highline with Ethan and Finn): the lottery entry window is Dec 1–31, 2026. It breaks principle 1 (a hike-in night and a lottery), so it needs his call and a written reason.
 - Shower Bath: whether it's worth an exception to the solo limits in `me/hiking.md` (no route-finding where getting lost is the risk) and the clearance rule.
+
+## 2026-11-16 · Route of the Hiawatha: hours, shuttle, price (for the Day 19 call)
+
+Day 19 is **Fri Jul 30, 2027** (`date`). All from the 2026 pages; 2027 isn't published.
+- **Clock is Pacific.** Trailhead opens 8:30 AM PT. "Make sure you are peddling down the trail no later than 1:00 pm"; midweek you can arrive at East Portal as late as ~12:45 PM PT. **Last shuttle up 4:15 PM** on weekdays and Fridays in peak season; 5:45 Sat, 5:00 Sun *(ridethehiawatha.com schedule and FAQ, search snippets, 2026-11-16)*.
+- **Time:** East Portal → Pearson 14.4 mi at 1.6–2% downhill, "a leisurely 2.5 to 3.5 hour pedal", then ~45 min average wait for the shuttle, a 30–35 min bus to Roland, and 15–20 min back through the 1.66 mi St. Paul Pass tunnel. **~4–5 h door to door** *(ridethehiawatha.com FAQ, snippet, 2026-11-16)*. A 2026 rider: ~2.5 h down, ~45 min wait *(visitidaho.org, 2026-08-11, snippet)*.
+- **Price (2026):** Fri–Sun adult trail pass $40, shuttle included; adult rental bike $40 online / $45 day-of, with helmet and a 300–400 lumen light; Adult Combo Pass (trail, shuttle, rental) $70 online / $79 day-of. Reservations "recommended but not required" *(ridethehiawatha.com tickets and rentals, snippets, 2026-11-16)*.
+- **Own bike:** "Mountain bike tires are recommended. Hybrid tires are OK" *(FAQ)*. Not needed: rentals include the light.
+- **Fit on Day 19 (Claude's arithmetic, not routed):** leave Many Glacier 6:30 AM MT, Kalispell ~9:30 MT (the plan's 3 h), then Kalispell → East Portal ~3–3.5 h (the 2026-09 note said 3.5–4 h from West Glacier, also an estimate) → **~12:00–1:00 PM MT = 11:00 AM–12:00 PM PT**, inside the 12:45 PT cutoff with ~45–100 min to spare. Ride done ~4–5 PM PT; Wallace is ~12 mi west.

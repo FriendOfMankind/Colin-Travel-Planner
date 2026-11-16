@@ -19,7 +19,7 @@ import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import YAML from "yaml";
 import { parseTrip } from "./lib/format.mjs";
-import { gearQuestions, promises, logDrift, logEntries, pinMismatches, partition, fingerprint } from "./lib/garden.mjs";
+import { gearQuestions, promises, logDrift, logEntries, pinMismatches, partition, fingerprint, lessonsDue } from "./lib/garden.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const read = (rel) => readFileSync(join(ROOT, rel), "utf8");
@@ -71,6 +71,8 @@ const pins = has("garden/pins.yaml") ? YAML.parse(read("garden/pins.yaml")) ?? [
 // A pin is a current fact; a finished trip records what was true then (the old car, say).
 findings.push(...pinMismatches(pins, Object.fromEntries(Object.entries(files).filter(([f]) => !pastDirs.some((d) => f.startsWith(d))))));
 
+if (has("garden/lessons.yaml")) findings.push(...lessonsDue(YAML.parse(read("garden/lessons.yaml")) ?? []));
+
 const dismissed = has("garden/dismissed.yaml") ? YAML.parse(read("garden/dismissed.yaml")) ?? [] : [];
 const { shown, hidden } = partition(findings, dismissed);
 
@@ -107,7 +109,7 @@ if (flag("--scope")) {
 
 const out = [`# Garden · ${TODAY} · mechanical pass`, ""];
 if (!shown.length) out.push("Nothing mechanical. (That's the free half: contradictions in meaning need /gardener.)");
-const label = { "gear-question-open": "Gear questions a finished trip should have answered", "promise-past-trip": "Promises about trips that are over", "log-drift": "Decisions logged after the plan last changed", "pin-mismatch": "Copies of a pinned fact that disagree" };
+const label = { "gear-question-open": "Gear questions a finished trip should have answered", "promise-past-trip": "Promises about trips that are over", "log-drift": "Decisions logged after the plan last changed", "pin-mismatch": "Copies of a pinned fact that disagree", "lesson-ready": "Lessons seen 3+ times, ready to propose" };
 for (const [check, title] of Object.entries(label)) {
   const fs = shown.filter((f) => f.check === check);
   if (!fs.length) continue;

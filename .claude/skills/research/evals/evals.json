@@ -1,0 +1,28 @@
+{
+  "skill_name": "research",
+  "note": "2026-11-16 run: case 1 passed all; case 2 passed except it didn't notice CLAUDE.md contradicting me/research.md on Reddit (since fixed, so that expectation now checks it uses the Firecrawl route). Run in a fresh agent in a throwaway worktree: no commit, push or PR. Web results change, so grade the method (sources, labels, where things are written), not the facts found. Checked 2026-11-16.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "research: can we get into Gallarus Oratory in May, and is there a fee?",
+      "expected_output": "Findings in trips/dingle-marseille-2027/research-log.md with a source and date on each; plain facts applied to trip.md only with provenance; nothing invented.",
+      "expectations": [
+        "Writes findings to trips/dingle-marseille-2027/research-log.md, each with a source and a date",
+        "Labels search-snippet facts as snippets",
+        "Any price or opening hours in the diff carries a source; a missing one is TBD, never a guess",
+        "Adds a one-line pointer in log.md or explains why not, per the skill",
+        "Says the change waits for Colin's merge (research never merges itself)"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "research what Reddit says about the Skellig Michael landing climb",
+      "expected_output": "Tries the route me/research.md currently says works, reports honestly if Reddit is unreachable, and hands Colin a fetch list rather than inventing thread content.",
+      "expectations": [
+        "Follows the current Reddit route (Firecrawl site:reddit.com search, then scrapecreators reddit/post-comments), not the login-walled Apify actor",
+        "Never quotes or summarises a Reddit thread it did not actually read",
+        "If Reddit is unreachable, gives Colin a concrete fetch list (what to search, what to look for)"
+      ]
+    }
+  ]
+}

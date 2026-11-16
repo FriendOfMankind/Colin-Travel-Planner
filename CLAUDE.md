@@ -78,6 +78,15 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
   `- 6:15 → 6:40 (25m) · drive · Text · 📍 Maps search`. A `!` after the kind means warn.
 - **After content changes, rebuild and republish the site:** `node tools/build.mjs`, then publish `site/index.html` to https://claude.ai/artifact/FWuwTKkLnDTCYn9z4QNaP9 (the Artifact tool's `url`). Never publish it as a new page.
 
+## Lessons: when he corrects how you work
+
+A correction of *behaviour* ("you forgot the sunset again", "I told you not to nag") is a lesson, not a fact. Facts go to their own file as always. A Stop hook (`.claude/hooks/lessons-guard.mjs`) nudges you when his last message looks like one; in a chat with no hooks, notice it yourself.
+
+- Find the matching lesson in `garden/lessons.yaml` or start one: `target` (the skill or `me/working-rules.md` it would change), one imperative `lesson`, and an episode with today's date, this session and his words.
+- **One episode per session.** Repeating a correction until it lands is one episode.
+- **1 episode:** record it, say nothing. **2:** one line at the end of your reply: "second time; logged as a lesson." **3+:** propose the edit to `target` as its own PR, quoting the episodes, and set `status: proposed`. He merges it (`promoted`) or says no (`rejected`, with his reason, so it's never proposed again).
+- Never edit the target to "fix" a lesson without that PR, and never touch the Non-negotiables from a lesson. A lessons-only change is `garden/`, so it merges itself.
+
 ## Non-negotiables
 
 1. **Never invent a coordinate.** Unknown means `verified: false` with null lat/lng. Every coordinate carries a `source`, and the tests enforce it.
@@ -91,8 +100,8 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 ## Limits of this environment
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
-- **Social sources, re-tested 2026-10-30** (details in `me/research.md`):
-  - **Reddit: readable through the Apify MCP**, full threads with comments and dates (`trudax/reddit-scraper-lite`). Plain web search almost never surfaces Reddit, and Firecrawl and old.reddit.com still refuse it, so go straight to Apify. An empty result can mean a bad query, not an empty subreddit: "Chiricahua March" in r/arizona came back with 0 items on 2026-10-30.
+- **Social sources, re-tested 2026-11-16** (details in `me/research.md`):
+  - **Reddit: readable through Firecrawl**, not Apify any more. Find the thread with a `site:reddit.com` Firecrawl search, then read it with `firecrawl_scrape` and an `alexandria` body (`scrapecreators`, `reddit/post-comments`): full comment trees with dates, ~2 credits a thread *(worked 2026-11-10 and 2026-11-16)*. Apify's `trudax/reddit-scraper-lite` needs a Reddit login since 2026-11-12, and logging in is off the table. Details in `me/research.md`.
   - **YouTube:** Firecrawl scrape gives the transcript and description. Apify (`streamers/youtube-comments-scraper`) gives comments.
   - **Instagram and Facebook:** untested through Apify. Facebook *private* groups need a login: unreachable, fetch list.
   - For anything you still can't read, ask Colin to fetch it (`me/working-rules.md`).
@@ -126,6 +135,7 @@ Built: the file format, `me/`, 7 trips (three done, Sky Islands shelved), the wi
 
 Next, in order. Change this list when one lands:
 1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-2. **A weekly `/gardener` run**, scheduled once a few manual runs show it earns it (`docs/PLAN.md` Phase 4b).
+2. **A weekly `/gardener` run.** The gate passed on 2026-11-16 (8/8 planted, 1 false alarm; `garden/runs.md`), so it's earned; scheduling it waits for Colin's yes.
+3. **A lesson ledger that earns its keep:** `garden/lessons.yaml` started empty on 2026-11-16. If nothing lands in it in a month, the Stop hook's markers are too narrow or corrections aren't happening; check before adding anything else.
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

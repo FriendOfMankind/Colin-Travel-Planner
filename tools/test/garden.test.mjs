@@ -53,10 +53,16 @@ test("the pins hold on today's wording, and catch a stale copy when the fact cha
     "me/profile.md": "2019 Subaru Outback, AWD, 8.7 in ground clearance",
     "trips/x/trip.md": "the road wants more clearance for 8.7 in",
   };
-  assert.deepEqual(pinMismatches(pins, files), []);
+  // Freeze the pins at the fixture's values, so a real change to garden/pins.yaml
+  // (Colin really saying "call it 2–3") tests the patterns, not today's value.
+  const frozen = structuredClone(pins);
+  const at = (id) => frozen.find((p) => p.id === id);
+  at("spice ceiling").patterns[0].expect = "1–2"; at("spice ceiling").patterns[1].expect = "2";
+  at("ground clearance").patterns.forEach((p) => { p.expect = "8.7"; });
+  assert.deepEqual(pinMismatches(frozen, files), []);
 
   // Colin says "call it 2–3": the home file and the pin change, the copies don't.
-  const raised = structuredClone(pins);
+  const raised = structuredClone(frozen);
   raised[0].says = "2–3 of 5"; raised[0].patterns[0].expect = "2–3"; raised[0].patterns[1].expect = "3";
   const changed = { ...files, "me/food.md": files["me/food.md"].replace("1–2", "2–3 (was: 1–2 of 5)") };
   const stale = pinMismatches(raised, changed).map((f) => f.file).sort();

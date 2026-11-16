@@ -124,6 +124,21 @@ export function pinMismatches(pins, files) {
   return out;
 }
 
+/* ---------------------------------------------------------------- lessons
+   garden/lessons.yaml: corrections to how Claude works. A lesson seen in 3+
+   independent sessions and still open is ready to become an edit to its
+   target, proposed by PR (CLAUDE.md § Lessons). Episodes from one session
+   count once: repeating a correction until it lands is one episode. */
+export function lessonsDue(lessons) {
+  const out = [];
+  for (const l of lessons ?? []) {
+    if ((l.status ?? "open") !== "open") continue;
+    const n = new Set((l.episodes ?? []).map((e) => e.session ?? e.date)).size;
+    if (n >= 3) out.push({ check: "lesson-ready", file: "garden/lessons.yaml", line: null, subject: l.id, says: plain(l.lesson), why: `${n} independent episodes: propose the edit to ${l.target ?? "its target"} as its own PR, then set status: proposed.` });
+  }
+  return out;
+}
+
 /* ---------------------------------------------------------------- dismissals
    A finding Colin has looked at and called fine is never raised again.
    The fingerprint ignores line numbers, so an edit above it doesn't

@@ -16,7 +16,7 @@ window: Sun May 9, the day after Commencement (Sat May 8), to a Sat May 22 landi
 region: Cleveland → Dublin → Dingle → Killarney → Doolin → Galway → Dublin Airport → home
 states: [ IE ]
 country: Ireland
-coords: [ 52.4, -9.7 ]  # mean of the trip's 34 verified Ireland pins, computed 2026-11-10
+coords: [ 52.5, -9.7 ]  # mean of the trip's 53 verified Ireland pins, computed 2026-11-16
 mymaps: 1OEss3hq9FmWO11ZhM7HtJ4KaRPwgyJA  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 13 (1 plane, 4 Dingle, 2 Killarney, 3 Doolin, 2 Galway, 1 Dublin Airport)
 distance: Coaches to Dingle, then one one-way rental car, Kerry Airport → Dublin Airport (May 14–21), with Colin the only driver. ⚠️ Unrouted
@@ -87,7 +87,7 @@ page:
 
 # Dingle & the West of Ireland
 
-> ⚠️ Two things can kill a day here, and neither is checked yet. **Skellig Michael** (May 15) lands only in calm seas and only 180 people a day, so it's a bonus with a backup, not a promise. **Omey Island** (May 20) is reached across sand at low tide only; the tide times aren't checked. And Colin drives every mile, on the left. May 10, Dublin Airport → Dingle by public transport, is still a 7½-hour planning block, not a timetable.
+> ⚠️ Two things can kill a day here, and neither is checked yet. **Skellig Michael** (May 15) lands only in calm seas and only 180 people a day, so it's a bonus with a backup, not a promise. **Omey Island** (May 20) is reached across sand at low tide only; the tide times aren't checked. And Colin drives every mile, on the left. May 10, Dublin Airport → Dingle by public transport, is a ~10¾-hour day (08:45 landing, ~19:30 in Dingle, Day 2) on buses that need no booking.
 
 ## Overview
 
@@ -121,18 +121,18 @@ Cleveland is UTC−4; Ireland is UTC+1 in May (summer time). Every time on this 
 
 ```yaml
 date: 2027-05-09
-tagline: Commencement was two days ago. Pack light enough to haul through three coaches.
+tagline: Commencement was yesterday. Pack light enough to haul through three coaches.
 type: travel
 slack: All day until the airport.
 overnight:
   name: Aer Lingus EI 86
   place: Over the Atlantic
   kind: Plane
-  cost: In the open-jaw fare
+  cost: In the round-trip fare (the parents are paying)
 ```
 
 **Schedule**
-- afternoon · note · Check in online. Carry-on and one checked bag each are in the observed Main Cabin fare; recheck on the actual ticket.
+- afternoon · note · Check in online. **Bags are extra** on the picked fare (Google Flights screenshot, 2026-11-04); the allowance and the fee aren't checked, so check them when booking.
 - early evening · drive · To Cleveland Hopkins, 2 h before departure. · 📍 Cleveland Hopkins International Airport
 - 20:40 → 08:45 (7h 05m) · fly · **EI 86 CLE → DUB**, nonstop. Seen for Sun May 9, 2027 in the $2,260 round trip *(Colin's Google Flights screenshot, 2026-11-04)*. Sleep is the whole job. · 📍 Dublin Airport
 
@@ -149,7 +149,7 @@ The 2026 schedule had EI 86 at 20:10 → 08:10 with no Thursday flights *(flight
 
 ```yaml
 date: 2027-05-10
-tagline: Land at 8:45, sleep in Dingle. The only hard part is the six hours between.
+tagline: Land at 8:45, sleep in Dingle. The only hard part is the ~10 hours between.
 type: travel
 slack: None needed beyond the block. Nothing else is planned today.
 overnight:
@@ -203,7 +203,8 @@ overnight:
   - A day that works: 277a 09:00 to Dunquin → pier and Blasket Centre → 13:20 back to Ballyferriter → An Riasc → 277a 18:17 home. Kilmalkedar and Gallarus go on the 268, on Day 5 or another afternoon · 📍 Dingle Co. Kerry
 - option · ferry · **Great Blasket Island** from Dunquin Pier: €60 an adult *(blasketislandferry.com, snippet, 2026-11-10)*; the abandoned island village, open to wander. Sailing days and times for mid-May not checked. The best fit on the peninsula for the explorable-ruins rule (`me/principles.md` 10) · 📍 Dunquin Pier
 - optional · stop · **Dunquin Pier**: a zig-zag path down 600 ft cliffs to the old Blasket ferry pier. A viewpoint, not a beach. Unguarded edges, so skip it in wind or swell. On the 277 route *(Meta AI results pasted by Colin, 2026-10-30, citing Instagram 2026-07-14, Facebook reel 2026-09-11)* · 📍 Dunquin Pier
-- optional · ruins · Dunbeg fort, the beehive huts, Gallarus Oratory *(recalled, unchecked)*. · 📍 Gallarus Oratory
+- optional · ruins · Dunbeg fort, the beehive huts *(recalled, unchecked)*. · 📍 Dunbeg Promontory Fort
+- optional · ruins · **Gallarus Oratory**: a dry-stone early-Christian oratory, roof intact, a National Monument (OPW). **Free**, open at all hours, by the OPW public right of way: a small lay-by on the same road, 100–300 m from the Visitor Centre, with a brown OPW sign "Public Right of Way" (blogs disagree on which side; follow the sign). The private **Visitor Centre** is the other way in: €5 an adult, €4 student, €12 family, for its video, café, toilets and big car park; open daily 09:00–20:00, Apr 1–Sep 30 *(heritageireland.ie; gallarusoratory.ie; search snippets, 2026-11-16)*. You can step inside the oratory *(TripAdvisor reviews, Apr–May 2026, snippet)*. 15–30 min the free way, ~45 min with the centre. The 268 stops here · 📍 Gallarus Oratory
 - optional · ruins · **Kilmalkedar**, 2 km from Gallarus: a roofless 12th-century Romanesque church with carved doorways, a medieval sundial (one of nine in Ireland) and the Alphabet Stone. Free, open ground *(dingle-peninsula.ie)* · 📍 Kilmalkedar Church
 - optional · ruins · **An Riasc (Reask)**: an excavated early-medieval monastery, with hut foundations, a church outline and a 6th-century carved cross-pillar. Free (OPW). Signposted off the road by Bric's pub *(dingle-peninsula.ie)* · 📍 Reask Monastic Site
 - afternoon · stop · Family.
@@ -296,7 +297,7 @@ overnight:
 
 **Schedule**
 - morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
-- morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. Automatic, one way to Dublin Airport on May 21, not priced. A lap of the car park before the road
+- morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. The picked quote is a $785.79 automatic, one way to Dublin Airport on May 21, company not named on it (booking row); Avis showed nothing for these dates. A lap of the car park before the road
 - midday · drive · To Killarney. · 📍 Killarney Co. Kerry
 - afternoon · hike · **The Gap of Dunloe** on foot, a narrow mountain pass *(recalled; start point, length and the boat back from Lord Brandon's Cottage not checked)*. · 📍 Gap of Dunloe
 - night · music · **Killarney pubs:** Courtney's Bar; the Dunloe Lodge, "live music every night"; Buckley's Bar at the Arbutus Hotel for trad *(Yelp; texaslifestylemag.com; TripAdvisor forum; all snippets, 2026-11-10)*. · 📍 Courtneys Bar Killarney
@@ -322,13 +323,13 @@ overnight:
   name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
   place: Killarney, Co. Kerry
-  kind: B&B or hostel (not picked)
-  cost: TBD
+  kind: Hostel, dorm beds
+  cost: In Day 6's $280 for both nights
 ```
 
 **Schedule**
 - early · drive · Killarney → **Portmagee**. Boats leave in the morning; the time comes with the booking. · 📍 Portmagee Pier
-- morning · ferry! · **Skellig Michael landing**: a 6th-century monastery of stone beehive huts on a sea rock, ~600 steps up *(recalled)*. €140–145 a person; landings from mid-May to the end of September *(skelligislands.com, kerryaquaterra.ie, skelligmichaelcruises.com; all snippets, 2026-11-10)*. Capped at 180 people a day; in 2026's first week, landings ran on 3 days *(wishlist/ireland-may-2027.md, 2026-10-12)* · 📍 Skellig Michael
+- morning · ferry! · **Skellig Michael landing**: a 6th-century monastery of stone beehive huts on a sea rock, ~600 steps up *(recalled)*. €140–170 a person, by operator: €170 quoted for 2027 (skelligmichael.ie; skelligmichael.tours), €140–145 at 2026 rates elsewhere *(snippets, 2026-11-10/11)*. Skellig Michael Cruises lands from May 9, 2027; others start mid-May *(snippets, 2026-11-11/14)*. Budgeted at €170. Capped at 180 people a day; in 2026's first week, landings ran on 3 days *(wishlist/ireland-may-2027.md, 2026-10-12)* · 📍 Skellig Michael
 - afternoon · fossil · **Valentia tetrapod trackway**: 385-million-year-old footprints of one of the first animals to walk on land, in the shore rock "in its original condition", down a steep path by the radio station. Protected by law: look, don't touch *(theringofkerry.com, read 2026-11-10)*. · 📍 Valentia Island Tetrapod Trackway
 - option · stop · **If the boat doesn't sail:** the Kerry Cliffs at Portmagee and Valentia Island (Geokaun is its high point, *arcgis.com geosites story map*). No second try at Skellig: there's no spare day. · 📍 Kerry Cliffs Portmagee
 - evening · drive · Back to Killarney.
@@ -340,7 +341,7 @@ overnight:
 
 #### Warnings
 
-**Skellig's steps are old, steep and unrailed** *(recalled, not checked)*. Slowly, and not at all in rain-wet wind. The boat crew decides whether you land.
+**Skellig's steps are old, steep and unrailed**: about 600 of them, no handrails, a chain to hold in only the few steepest bits, and drops to the sea beside a narrow upper path. Dry, most visitors call them fine taken slowly; wet, they're "like ice" and people come down sitting *(r/irishtourism 2025-08, r/ireland 2026-05, both read through Firecrawl 2026-11-16)*. Slowly, and not at all in rain-wet wind. The boat crew decides whether you land, and a cancellation can arrive by text while you're still driving *(r/irishtourism, 2025-04)*.
 
 ### Day 8 — 2027-05-16 · Over the Shannon to Doolin
 
