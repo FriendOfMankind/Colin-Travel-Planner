@@ -135,6 +135,7 @@ Built: the file format, `me/`, 7 trips (three done, Sky Islands shelved), the wi
 
 Next, in order. Change this list when one lands:
 1. **`/new-trip`**, to promote a wishlist idea into `trips/<slug>/`.
-2. **A weekly `/gardener` run**, scheduled once a few manual runs show it earns it (`docs/PLAN.md` Phase 4b).
+2. **A weekly `/gardener` run.** The gate passed on 2026-11-16 (8/8 planted, 1 false alarm; `garden/runs.md`), so it's earned; scheduling it waits for Colin's yes.
+3. **A lesson ledger that earns its keep:** `garden/lessons.yaml` started empty on 2026-11-16. If nothing lands in it in a month, the Stop hook's markers are too narrow or corrections aren't happening; check before adding anything else.
 
 Colin's how-to for branches and merging is `docs/GUIDE.md`. Design history lives in `docs/PLAN.md`; the eval set is in `evals/questions.md`.

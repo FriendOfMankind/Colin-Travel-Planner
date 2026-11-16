@@ -66,6 +66,8 @@ Real contradictions and stale facts already in the data. The weekly gardener has
 
 *Status (2026-10-12):* `/gardener` is built. Its first trial run (Colin slice only) found the OAS-paragraph seed, and the verifier then refuted it as "stale, not wrong", which is a defensible call. The other seeds were fixed before this clone's history begins (2026-09-30), so they can't be backtested here. New seeds go below when drift turns up by hand, and the run that missed them gets **Missed** +1 in `garden/runs.md`.
 
+*Gate (2026-11-16): **passed.*** 8 planted defects in a scratch copy (Colin: a 14 mi ceiling in travel-style.md, instant coffee in staples B2, a stale "the October trip will answer it" in gear.md; Ireland: Finn driving on Day 12, golf "at Ballybunion" in the Overview, a reopened Mount Brandon question; Rockies: a 4/5-hot Thai dinner, a stale I-94-or-I-90 checklist line). Finders found **8/8**; of 31 other findings the verifier refuted **1**. Bar was ≥7/8 with ≤2 false alarms. None of the 8 is caught by `npm test` or the mechanical pass, which is the case for the AI half. The weekly run is earned; scheduling it is Colin's call. Ledger: `garden/runs.md`.
+
 - **"A retro question for Kentucky"** (`me/hiking.md`): a question deferred to a retro that already happened. The verifier wrongly refuted it on the first trial run; it's now a mechanical check *(2026-10-12)*.
 
 - **K-L2 lecture lunch:** "confirmed workable" (Overview card + Day 2 meals) vs "conflict… either build cold or swap" (Provisions → Critical slots). `trips/kentucky-2026/trip.md`
