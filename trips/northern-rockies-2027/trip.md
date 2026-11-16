@@ -73,17 +73,21 @@ booking:
     target: 2027-07-24
     note: "The night between the Tetons and Kalispell (Colin, 2026-11-14). Big Arm: 41 sites, 3 yurts, bear-resistant lockers, on Big Arm Bay 15 mi north of Polson, views of the Mission Mountains (fwp.mt.gov Big Arm page, read 2026-11-14). West Shore: 5.5 mi south of Lakeside, 'the most quiet park on Flathead Lake', rocky beach, check-in 2 PM (montanastateparks.reserveamerica.com, read 2026-11-14). Both on a 3-month window, at least 1 day ahead. A Saturday in July: book the day it opens. Fee TBD."
   - system: private
+    what: Quality Inn Des Moines North (Jul 12, 1 person)
+    target: 2027-07-12
+    note: "Picked (Colin, 2026-11-16). ~$88 with tax on the free-cancel rate (until 4 PM Jul 12, no prepayment); $79 non-refundable (Booking.com, live quote 2026-11-16). booking.com/hotel/us/hotel-ne-fourtheenth-street-des-moines.html"
+  - system: private
     what: Hood River motel, Jul 31 (Colin alone)
     target: 2027-07-31
     note: Recommended Sunset Motel, Standard Room 2 Queen Beds, sleeps 4 (hotwire.com, snippet); ~$164 Aug average (vio.com, snippet). Refundable rate. (Cottonwood, TRNP, Jul 30–31 was here until 2026-10-15; cut with Theodore Roosevelt.)
   - system: private
-    what: Newport motel, Aug 1 (the riders; the own-car group books its own)
+    what: Rodeway Inn Newport, Aug 1 (the riders; the own-car group books its own)
     target: 2027-08-01
-    note: Not researched (added 2026-11-04 with the coast). Close to Yaquina Head for the Aug 2 dawn tide.
+    note: "Picked (Colin, 2026-11-16). $172.63 with tax for 2 queens, free cancellation before Jul 29, no prepayment (Booking.com, live quote 2026-11-16). booking.com/hotel/us/rodeway-inn-newport.html"
   - system: private
-    what: Florence or Yachats motel, Aug 2 (the riders; the own-car group books its own)
+    what: The Dublin House Motel, Yachats, Aug 2 (the riders; the own-car group books its own)
     target: 2027-08-02
-    note: Not researched (added 2026-11-04 with the coast).
+    note: "Picked (Colin, 2026-11-16). $186.63 with tax for 2 queens, free cancellation before Jul 31, no prepayment (Booking.com, live quote 2026-11-16). booking.com/hotel/us/the-dublin-house-motel.html"
   - system: private
     what: "Optional: Oregon Dunes, Spinreel follow-me tour or Sandland sandrail (Aug 3)"
     target: 2027-08-03
@@ -196,10 +200,10 @@ type: travel
 driving: 640 mi, 11h 04m (routed 9h 37m +15%)
 slack: None needed. Nothing happens today except distance.
 overnight:
-  name: TBD — cheap motel, Des Moines area
-  place: Iowa
-  kind: Motel (which one not picked)
-  cost: TBD
+  name: Quality Inn Des Moines North (picked, not booked)
+  place: 4950 NE 14th St, Des Moines IA, at I-35/80 and US 69
+  kind: Motel (a solo-motel exception, Colin 2026-11-14)
+  cost: "~$88 with tax, free-cancel rate (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: Unknown
   confirmation: TBD
   notes: "A cheap motel off I-80 *(Colin, 2026-10-30)*; night 1 is one of the solo-motel exceptions *(Colin, 2026-11-14)*. A shower and no pitching after 11 hours, with another 11 tomorrow. Book a refundable rate anytime."
@@ -966,14 +970,14 @@ type: travel
 driving: Hood River → PDX → Newport. PDX → Newport ~2 h 20 m, 134 mi (oregonessential.com, snippet, 2026-11-04); Hood River → PDX ⚠️ unrouted
 slack: Depends on their flight time.
 overnight:
-  name: TBD — Newport
+  name: Rodeway Inn Newport (picked, not booked)
   mapStandIn: Newport, OR
-  place: Newport, OR
-  kind: Motel, not picked
-  cost: TBD
+  place: 206 N Coast Hwy, Newport, OR
+  kind: Motel, 2 queens (the riders)
+  cost: "$172.63 with tax, free-cancel rate, ~$58 each (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: TBD
   confirmation: TBD
-  notes: Not researched. Tomorrow starts at dawn at Yaquina Head, so sleep close to it.
+  notes: "Picked *(Colin, 2026-11-16)*. Free cancellation before Jul 29, no prepayment. Rated 7.3 (662). Central; tomorrow starts at dawn at Yaquina Head."
 ```
 
 **Schedule**
@@ -1003,14 +1007,14 @@ type: activity
 driving: Short, Newport → Depoe Bay → Yachats → Florence (⚠️ unrouted)
 slack: Midday.
 overnight:
-  name: TBD — Florence or Yachats
+  name: The Dublin House Motel (picked, not booked)
   mapStandIn: Yachats, OR
-  place: Florence, OR
-  kind: Motel, not picked
-  cost: TBD
+  place: 251 W 7th St, Yachats, OR
+  kind: Motel, superior room with 2 queens (the riders)
+  cost: "$186.63 with tax (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: TBD
   confirmation: TBD
-  notes: Not researched. Florence puts tomorrow's dunes closer.
+  notes: "Picked *(Colin, 2026-11-16)*. Free cancellation before Jul 31, no prepayment. Rated 8.4 (410); 5 rooms were left at read time. Fallback if the day ends further south: Super 8 Florence, $201.34."
 ```
 
 **Schedule**

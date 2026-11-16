@@ -154,3 +154,31 @@ Source: youtube.com/watch?v=hHL6scMh-tg, full transcript and chapter list via Fi
 - **Cape Norman** (northern tip, near Pistolet Bay): limestone shelf rock, "an alien looking landscape". Near Days 10–11; not checked against the plan
 - **On the Gander–Bonavista stretch, not on the plan**: Cape Freels beach; Newtown, a town spread over small islands joined by bridges, with the Barbour Living Heritage Village; Greenspond; Terra Nova National Park's Blue Hill lookout and a visitor centre with a touch tank and showers; wild horses in the Bonavista community pasture. All on coastal Route 320 or the TCH; none routed
 - Elsewhere in the video and off this route: Port au Port's Long Point, Piccadilly Head PP, the Baie Verte Peninsula (Round Harbour ghost town, humpbacks at La Scie), Englee, Cape Pine
+
+## 2026-11-16 · Beds shortlist: the friends' week, Albany, Port aux Basques
+
+Live Booking.com availability for the exact dates and party size, read 2026-11-16 through Firecrawl's `booking-com` provider. Quotes, not averages; they'll move. Totals include Booking's itemised taxes (~15% HST in NL). Not booked; Colin picks.
+
+**Twillingate, Fri Jun 11, 4 adults** (CAD)
+- **North 99 Motel**, 148 Main St: "Deluxe Double Room with Extra Bed", max 4 (layout not stated): **$149.44** (~$37 pp). Free cancel until Jun 9. 7.8 (280). ⚠️ Confirm it really sleeps 4 adults.
+- Long Beach Lookout Vacation Rental, Crow Head: whole home, max 6: $381.80. Free cancel before Jun 6. 9.3 (33).
+- Historic Hillside Vacation Home, 14 Blanfords Ln: whole home, max 4: $428.95. Free cancel before May 28. 9.2 (43).
+
+**Trinity / Port Rexton, Jun 12–14 (3 nights), 4 adults** (CAD)
+- **Trinity Suites**, 5 Ash's Lane, Trinity: two-bedroom apartment, max 4, **1 left**: **$850.84** (~$71 pp/night). Free cancel until Jun 9. 8.6 (84). Kitchen not verified.
+- Eriksen Premises, 8 West St, Trinity: 2 queen rooms: $1,424.85. Free cancel until Jun 9. 8.1 (227).
+- The Harbourside Inn, Port Union (14 mi from Port Rexton): 2 rooms: $1,373.10. 9.3 (343). Cancellation not read.
+- Booking.com covers the area thinly (6 properties); VRBO and Airbnb not priced.
+
+**St. John's, Jun 15–18 (4 nights), 4 adults** (CAD)
+- **Monastery Hotel**, 63 Patrick St: two doubles, breakfast included: **~$1,462.53** (~$91 pp/night). Free cancel until Jun 14. 0.6 mi from downtown; free parking (Hotels.com snippet). 8.2 (489).
+- DoubleTree Harbourview: two queens: $1,396.96 non-refundable, or $1,250.48 + tax refundable until Jun 11. Parking cost unknown. 8.2 (533).
+- Two-bedroom apartment near Avalon Mall, Lions Rd, **1 left**: $1,127.20 refundable until Jun 1 ($1,065.32 non-refundable). 1.8 mi out. 8.8 (72).
+
+**Albany NY, Wed May 26, 1 person** (USD)
+- **Days Inn Albany SUNY**, 1230 Western Ave (~2 mi from Thruway exit 24, inferred): **$93.89** with tax. Free cancel before May 25, no prepayment. 7.1 (1,261).
+- Comfort Inn Albany-South, Glenmont, at exit 23 (inferred): $118.11, not free-cancel. 7.4.
+
+**Port aux Basques, Sun May 30, 1 person** (Booking lists 3 places)
+- **Hotel Port Aux Basques**, 2 Grand Bay Rd (~5 min from the ferry, TripAdvisor review): **CAD 165 + tax ($136.63 USD)**. **Free cancel until 2 PM NL time on arrival day**, no prepayment, 24-hour desk. 8.2 (469).
+- St. Christopher's Hotel, 146 Caribou Rd: about the same price, but free cancel only before May 29, so a slipped sailing costs the night. 8.2 (791).

@@ -30,6 +30,7 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 | What to eat | `kitchen/staples.md` |
 | An invite page for people joining a trip (a "proposal" or "pitch"): who it's for, sent or not, out of date or not | `share/proposals.yaml`; a page's HTML source is `share/proposals/<id>.html` |
 | A packing checklist to send a friend joining a trip | `share/gear-checklist.html`, published at https://claude.ai/artifact/WS4dhD88SF9XEoCmarduwQ. Generic for now. To customize for a trip, edit the `TRIP`/`SECTIONS` block at the top of the script, change `TRIP.id`, and publish a copy as a new page so the generic one stays |
+| A receipt or confirmation PDF | Google Drive, **Travel receipts / <slug>** (private; folder https://drive.google.com/drive/folders/1Te-sAaWTn7O_MqKP0-cG749PFxBmnAzb). Never in the repo: it's public. See "Receipts" below |
 | What's in the repo | `INDEX.md` (generated) |
 | Drift checks: pinned facts, dismissed findings, run ledger | `garden/` |
 
@@ -77,6 +78,14 @@ Colin talks to you from the Claude app, usually on a phone. A website renders th
 - **Machine data is YAML, judgment is Markdown.** Schedule lines have one shape:
   `- 6:15 → 6:40 (25m) · drive · Text · 📍 Maps search`. A `!` after the kind means warn.
 - **After content changes, rebuild and republish the site:** `node tools/build.mjs`, then publish `site/index.html` to https://claude.ai/artifact/FWuwTKkLnDTCYn9z4QNaP9 (the Artifact tool's `url`). Never publish it as a new page.
+
+## Receipts and confirmation numbers
+
+**This repo is public on GitHub.** So receipts and confirmation numbers never go in it *(Colin, 2026-11-16)*.
+
+- When Colin sends a receipt (a PDF or a screenshot in chat), read it, then upload it to Drive under **Travel receipts / <slug>** (`mcp__Google_Drive__create_file`, a file reference, `parentId` the trip's subfolder; create the subfolder if it's missing, as a child of `1Te-sAaWTn7O_MqKP0-cG749PFxBmnAzb`). Name it `YYYY-MM-DD <what>.pdf`.
+- Then mark the `booking:` row: `booked: true`, `paid:` (amount, exactly as printed), `cancelBy:` (the terms, exactly), and `confirmation: "in Drive (<file name>)"`. Same for the day's `overnight.confirmation`, and a dated line in that trip's `log.md`. Never invent any of it (non-negotiable 2).
+- A test fails if a live trip's `confirmation:` looks like a real number. Finished trips keep theirs as history.
 
 ## Lessons: when he corrects how you work
 

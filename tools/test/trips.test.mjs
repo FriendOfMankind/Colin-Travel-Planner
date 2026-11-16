@@ -68,3 +68,19 @@ for (const slug of slugs) {
     });
   }
 }
+
+// The repo is public, so a live trip never stores a real confirmation number (Colin, 2026-11-16; CLAUDE.md "Receipts").
+test("live trips keep confirmation numbers out of the repo", () => {
+  const bad = [];
+  for (const slug of slugs) {
+    const md = readFileSync(join(TRIPS, slug, "trip.md"), "utf8");
+    const { registry } = parseTrip(md);
+    if (["done", "shelved"].includes(registry.status)) continue;
+    md.split("\n").forEach((line, i) => {
+      const m = /^\s*confirmation:\s*(.*)$/.exec(line);
+      if (m && !/\bin (?:Drive|Gmail)\b/.test(m[1]) && /[A-Z0-9][A-Z0-9-]{5,}/i.test(m[1].replace(/\b(?:TBD|n\/a|first-come|night \d of \d)\b/gi, "")) && /\d{4,}/.test(m[1])) bad.push(`${slug}/trip.md:${i + 1} ${m[1].slice(0, 40)}`);
+    });
+  }
+  assert.deepEqual(bad, [], "put the number in Drive and write `in Drive (<file>)` instead");
+});
+

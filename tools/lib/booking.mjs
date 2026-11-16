@@ -25,7 +25,8 @@ export function bookingSystems(md) {
   return out;
 }
 
-/** Every unbooked booking row across trips → { slug, title, b, opens, anytime, releaseET }. */
+/** Every unbooked booking row across trips → { slug, title, b, opens, anytime, releaseET }.
+    A row with `onSale: "<source>"` counts as bookable now even when its system has no window. */
 export function bookingWindows(trips, systems) {
   const out = [];
   for (const t of trips) for (const b of t.r.booking ?? []) {
@@ -34,7 +35,8 @@ export function bookingWindows(trips, systems) {
     const opens = b.opens && b.opensSource ? String(b.opens)
       : sys.lead != null ? monthsBefore(b.target, sys.lead)
       : sys.leadDays != null ? daysBefore(b.target, sys.leadDays) : null;
-    out.push({ t, b, opens, anytime: !opens && !!sys.anytime, releaseET: b.releaseET ?? sys.releaseET ?? null });
+    // `onSale:` on a row = seen on sale (a live price or quote), with its source, for systems with no published window.
+    out.push({ t, b, opens, anytime: !opens && (!!sys.anytime || !!b.onSale), releaseET: b.releaseET ?? sys.releaseET ?? null });
   }
   return out;
 }

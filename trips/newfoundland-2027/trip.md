@@ -60,6 +60,38 @@ booking:
     what: St. Barbe ↔ Blanc-Sablon (Thu Jun 3, 3:30 PM over · Sat Jun 5, 10:30 AM back)
     target: 2027-06-03
     note: Times from the 2024 spring schedule, all in Newfoundland Time; confirm against 2027. Regular vehicles can book full-fare reservations; check in 1 h early. Reservations reportedly open in April (unverified). Labrador Marine 1-866-535-2567.
+  - system: private
+    what: Days Inn Albany SUNY (May 26, 1 person)
+    target: 2027-05-26
+    note: "Picked (Colin, 2026-11-16). ~US$94 with tax, free cancellation before May 25, no prepayment (Booking.com, live quote 2026-11-16). booking.com/hotel/us/days-inn-suny-albany.html"
+  - system: private
+    what: Hotel Port Aux Basques (May 30, 1 person)
+    target: 2027-05-30
+    note: "Picked (Colin, 2026-11-16). CAD 165 + tax; free cancellation until 2 PM NL time on May 30, no prepayment, 24-hour desk (Booking.com, live quote and hotel page, 2026-11-16). booking.com/hotel/ca/port-aux-basques.html"
+  - system: private
+    what: St. Barbe RV Park, tent site (May 31)
+    target: 2027-05-31
+    note: "Picked, not booked. Tent sites, showers, laundromat, kitchen, across from the Belle Isle ferry (NL tourism listing). Fee not found (~$30 est.). Booking method and window not checked: call or check the listing. Row added 2026-11-16 so the briefing tracks it."
+  - system: private
+    what: Escape by the Sea, 2-bedroom cottage, Seldom, Fogo Island (Jun 10, 4 adults)
+    target: 2027-06-10
+    note: "Found by Colin, not booked (2026-10-10). $289/night for the 2-bedroom, May 1 – Sept 30, currency not stated (escapebythesea.ca, read 2026-10-10). Cancellation policy not seen. The Fogo ferry can't be reserved. Row added 2026-11-16."
+  - system: private
+    what: North 99 Motel, Twillingate (Jun 11, 4 adults)
+    target: 2027-06-11
+    note: "Picked (Colin, 2026-11-16). CAD $149.44 with tax, free cancellation until Jun 9 (Booking.com, live quote 2026-11-16). Confirm the room sleeps 4 adults before booking. booking.com/hotel/ca/north-99-motel.html"
+  - system: private
+    what: Trinity Suites, two-bedroom apartment (Jun 12–14, 4 adults)
+    target: 2027-06-12
+    note: "Picked (Colin, 2026-11-16). CAD $850.84 with tax for 3 nights, free cancellation until Jun 9; only 1 unit was left (Booking.com, live quote 2026-11-16). booking.com/hotel/ca/trinity-suites.html"
+  - system: private
+    what: Monastery Hotel, St. John's (Jun 15–18, 4 adults)
+    target: 2027-06-15
+    note: "Picked (Colin, 2026-11-16). ~CAD $1,462.53 with tax for 4 nights, breakfast included, free cancellation until Jun 14 (Booking.com, live quote 2026-11-16). booking.com/hotel/ca/monastery-spa-amp-suites.html"
+  - system: private
+    what: Argentia Sunset RV Park (Jun 20), if it takes tents
+    target: 2027-06-20
+    note: "Not confirmed: its page doesn't mention tents. Call 709-227-6363 or email argentiarvpark@gmail.com (portofargentia.ca, read 2026-10-08); fallback is the Placentia Paradise Hipcamp. Row added 2026-11-16."
   - system: marine-atlantic
     what: Argentia → North Sydney, overnight (Jun 21) + cabin decision
     target: 2027-06-21
@@ -138,14 +170,14 @@ type: travel
 driving: 8h 29m (routed +15%)
 slack: None needed.
 overnight:
-  name: TBD — motel, Albany area
+  name: Days Inn by Wyndham Albany SUNY (picked, not booked)
   mapStandIn: Albany area transit night
-  place: New York
+  place: 1230 Western Ave, Albany NY (~2 mi from Thruway exit 24, inferred)
   kind: Motel, night 1 (a solo-motel exception, Colin 2026-11-14)
-  cost: TBD
+  cost: "~US$94 with tax (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: Unknown
   confirmation: TBD
-  notes: ⚠️ Not picked. A cheap motel off the Thruway after ~8.5 h.
+  notes: "Picked *(Colin, 2026-11-16)*. Free cancellation before May 25, no prepayment. Rated 7.1 (1,261)."
 ```
 
 **Schedule**
@@ -269,13 +301,13 @@ type: travel
 driving: 2h 07m to North Sydney (routed +15%)
 slack: Tight in the morning; check-in closes 2 h before sailing.
 overnight:
-  name: Port aux Basques motel — TBD
-  place: Port aux Basques, NL
+  name: Hotel Port Aux Basques (picked, not booked)
+  place: 2 Grand Bay Rd, Port aux Basques, NL (~5 min from the ferry, TripAdvisor review)
   kind: Motel *(Colin, 2026-10-30)*
-  cost: TBD
-  checkin: TBD — confirm late arrival works with the ferry's early-evening landing
+  cost: "CAD 165 + tax, ~US$137 (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
+  checkin: 24-hour front desk, check-in from 2 PM (hotel page, 2026-11-16)
   confirmation: TBD
-  notes: Book it; locals' most-agreed advice is to book the first night off the ferry (Facebook, via Colin's scrape, 2026-10-07). If the midday sailing fails and you take the overnight one, this night is lost, so check the cancellation terms when booking.
+  notes: "Picked *(Colin, 2026-11-16)*. **Free cancellation until 2 PM NL time on May 30**, no prepayment: if the midday sailing slips to the overnight one, cancel by then. Rated 8.2 (469). Locals agree: book the first night off the ferry."
 ```
 
 **Schedule**
@@ -663,14 +695,14 @@ type: activity
 driving: ~1h (Farewell → Twillingate, not routed) + the ferry + local
 slack: Moderate. The Twillingate boat time decides which ferry to take.
 overnight:
-  name: TBD — hotel in Twillingate
+  name: North 99 Motel (picked, not booked)
   mapStandIn: Twillingate
-  place: Twillingate, NL
-  kind: Hotel (friends' week)
-  cost: ~$124/night average (TripAdvisor snippet), split
+  place: 148 Main St, Twillingate, NL
+  kind: Motel, double room with an extra bed, max 4 (friends' week)
+  cost: "CAD $149.44 with tax, ~$37 each (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: TBD
   confirmation: TBD
-  notes: Book early for June (Facebook thread).
+  notes: "Picked *(Colin, 2026-11-16)*. ⚠️ Confirm before booking that \"double plus extra bed\" really sleeps 4 adults; if not, Long Beach Lookout (whole home, $381.80). Free cancellation until Jun 9. Rated 7.8 (280)."
 ```
 
 **Schedule**
@@ -695,14 +727,14 @@ type: travel + activity
 driving: 4h 47m (routed +15%) + local
 slack: Moderate. First cut — Cape Bonavista lighthouse.
 overnight:
-  name: TBD — hotel, Trinity area
+  name: Trinity Suites, two-bedroom apartment (picked, not booked)
   mapStandIn: Trinity, NL
-  place: Trinity, NL
-  kind: Hotel (friends' week)
-  cost: TBD (not priced), split
+  place: 5 Ash's Lane, Trinity, NL
+  kind: Apartment, 2 bedrooms, max 4 (friends' week)
+  cost: "CAD $850.84 with tax for all 3 nights, ~$71 each a night (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: TBD
   confirmation: TBD
-  notes: Three nights (6/12–6/14). Was Lockston Path PP *(changed 2026-10-05)*.
+  notes: "Picked *(Colin, 2026-11-16)*. Only 1 unit was left for these dates. Free cancellation until Jun 9. Rated 8.6 (84). Kitchen not verified. Was Lockston Path PP (changed 2026-10-05)."
 ```
 
 **Schedule**
@@ -726,11 +758,11 @@ type: activity
 driving: depends on the choice
 slack: Loose.
 overnight:
-  name: TBD — hotel, Trinity area
+  name: Trinity Suites, two-bedroom apartment (picked, not booked)
   mapStandIn: Trinity, NL
-  place: Trinity, NL
-  kind: Hotel (friends' week)
-  cost: TBD, split
+  place: 5 Ash's Lane, Trinity, NL
+  kind: Apartment (friends' week)
+  cost: In night 1 of 3
   checkin: n/a — night 2 of 3
   confirmation: TBD
   notes: ""
@@ -755,11 +787,11 @@ type: rest
 driving: none
 slack: All of it.
 overnight:
-  name: TBD — hotel, Trinity area
+  name: Trinity Suites, two-bedroom apartment (picked, not booked)
   mapStandIn: Trinity, NL
-  place: Trinity, NL
-  kind: Hotel (friends' week)
-  cost: TBD, split
+  place: 5 Ash's Lane, Trinity, NL
+  kind: Apartment (friends' week)
+  cost: In night 1 of 3
   checkin: n/a — night 3 of 3
   confirmation: TBD
   notes: ""
@@ -783,14 +815,14 @@ type: travel + activity
 driving: 3h 20m (routed +15%)
 slack: Loose. Early night; tomorrow starts at 3:30 for whoever's in.
 overnight:
-  name: TBD — hotel in St. John's
+  name: Monastery Hotel (picked, not booked)
   mapStandIn: St. John's
-  place: St. John's, NL
-  kind: Hotel (friends' week)
-  cost: ~$112–205/night (Skyscanner snippet), split
+  place: 63 Patrick St, St. John's, NL (0.6 mi from downtown)
+  kind: Hotel, room with two double beds, breakfast included (friends' week)
+  cost: "~CAD $1,462.53 with tax for all 4 nights, ~$91 each a night (live Booking.com quote for these dates, read 2026-11-16; `research-log.md`)"
   checkin: TBD
   confirmation: TBD
-  notes: Four nights (6/15–6/18); the Witless Bay and La Manche days run from here. Was Butter Pot PP and La Manche PP *(changed 2026-10-05)*.
+  notes: "Picked *(Colin, 2026-11-16)*. Free cancellation until Jun 14; free parking (Hotels.com snippet). Two doubles, not queens. Rated 8.2 (489). The Witless Bay and La Manche days run from here."
 ```
 
 **Schedule**
@@ -812,11 +844,11 @@ type: activity
 driving: ~1h total (not routed from the hotel)
 slack: Very loose after 8 AM, on purpose.
 overnight:
-  name: TBD — hotel in St. John's
+  name: Monastery Hotel (picked, not booked)
   mapStandIn: St. John's
-  place: St. John's, NL
+  place: 63 Patrick St, St. John's, NL
   kind: Hotel (friends' week)
-  cost: TBD, split
+  cost: In night 1 of 4
   checkin: n/a — night 2 of 4
   confirmation: TBD
   notes: ""
@@ -843,11 +875,11 @@ type: activity
 driving: minimal
 slack: Loose.
 overnight:
-  name: TBD — hotel in St. John's
+  name: Monastery Hotel (picked, not booked)
   mapStandIn: St. John's
-  place: St. John's, NL
+  place: 63 Patrick St, St. John's, NL
   kind: Hotel (friends' week)
-  cost: TBD, split
+  cost: In night 1 of 4
   checkin: n/a — night 3 of 4
   confirmation: TBD
   notes: ""
@@ -872,11 +904,11 @@ type: activity
 driving: ~2h total (not routed from the hotel)
 slack: Moderate.
 overnight:
-  name: TBD — hotel in St. John's
+  name: Monastery Hotel (picked, not booked)
   mapStandIn: St. John's
-  place: St. John's, NL
+  place: 63 Patrick St, St. John's, NL
   kind: Hotel (friends' week)
-  cost: TBD, split
+  cost: In night 1 of 4
   checkin: n/a — night 4 of 4
   confirmation: TBD
   notes: Last night with the friends.
@@ -1072,11 +1104,11 @@ total: Not totalled; the hotel week isn't priced
 
 | Night | Date | Location | Type | Name | Cost | Status |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Wed 5/26 | Albany area, NY | Motel (night-1 exception) | TBD | TBD | Not picked |
+| 1 | Wed 5/26 | Albany area, NY | Motel (night-1 exception) | Days Inn Albany SUNY (picked) | ~US$94 | Free cancel before May 25 |
 | 2 | Thu 5/27 | Acadia NP, ME | NPS campground | Blackwoods | $30 | Opens Dec 1, 10 AM ET (first release) |
 | 3 | Fri 5/28 | Fundy NP, NB | Parks Canada | Headquarters | ~$30 est. | Jan or Feb launch (2026: Feb 6–11) |
 | 4 | Sat 5/29 | Cape Breton Highlands, NS | Parks Canada | Chéticamp | ~$30 est. | Jan or Feb launch (2026: Feb 6–11); open May 15 – Oct 26 in 2026 (parks.canada.ca, snippet) |
-| 5 | Sun 5/30 | Port aux Basques, NL | Motel | TBD | TBD | Not identified; book with free cancellation |
+| 5 | Sun 5/30 | Port aux Basques, NL | Motel | Hotel Port Aux Basques (picked) | C$165 + tax | Free cancel until 2 PM on the day |
 | 6 | Mon 5/31 | St. Barbe, NL | Private | St. Barbe RV Park | ~$30 est. | Fee not found |
 | 7 | Tue 6/1 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Mid-April |
 | 8 | Wed 6/2 | St. Anthony area, NL | ParksNL | Pistolet Bay | C$20.15 | Same booking |
@@ -1088,14 +1120,14 @@ total: Not totalled; the hotel week isn't priced
 | 14 | Tue 6/8 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 15 | Wed 6/9 | Gros Morne south, NL | Parks Canada | Trout River | C$34 | Same booking |
 | 16 | Thu 6/10 | Fogo Island, NL | Cottage | Escape by the Sea, Seldom (found, not booked) | $289, split | Friends' week. The ferry can't be reserved |
-| 17 | Fri 6/11 | Twillingate, NL | Hotel | TBD | ~$124 avg, split | Friends' week |
-| 18 | Sat 6/12 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
-| 19 | Sun 6/13 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
-| 20 | Mon 6/14 | Trinity area, NL | Hotel | TBD | Not priced | Friends' week |
-| 21 | Tue 6/15 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
-| 22 | Wed 6/16 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
-| 23 | Thu 6/17 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
-| 24 | Fri 6/18 | St. John's, NL | Hotel | TBD | ~$112–205, split | Friends' week |
+| 17 | Fri 6/11 | Twillingate, NL | Motel | North 99 Motel (picked) | C$149, split | Friends' week; confirm it sleeps 4 |
+| 18 | Sat 6/12 | Trinity, NL | Apartment | Trinity Suites (picked) | C$851 for 3 nights, split | Friends' week |
+| 19 | Sun 6/13 | Trinity, NL | Apartment | Trinity Suites | Same booking | Friends' week |
+| 20 | Mon 6/14 | Trinity, NL | Apartment | Trinity Suites | Same booking | Friends' week |
+| 21 | Tue 6/15 | St. John's, NL | Hotel | Monastery Hotel (picked) | ~C$1,463 for 4 nights, split | Friends' week; breakfast, free parking |
+| 22 | Wed 6/16 | St. John's, NL | Hotel | Monastery Hotel | Same booking | Friends' week |
+| 23 | Thu 6/17 | St. John's, NL | Hotel | Monastery Hotel | Same booking | Friends' week |
+| 24 | Fri 6/18 | St. John's, NL | Hotel | Monastery Hotel | Same booking | Friends' week |
 | 25 | Sat 6/19 | Southern Shore, NL | ParksNL | La Manche | C$20.15 | Assumed, not decided |
 | 26 | Sun 6/20 | Argentia, NL | Private RV park | Argentia Sunset RV Park | TBD | Tents unconfirmed; 709-227-6363 |
 | 27 | Mon 6/21 | At sea | Ferry | Marine Atlantic, Argentia route | C$182 + cabin C$177 | 2027 is posted: book now, cabins sell out |
