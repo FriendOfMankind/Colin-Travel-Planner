@@ -18,7 +18,7 @@ The workflow that uses this is `/research` (`.claude/skills/research/SKILL.md`).
 
 ## Reddit and YouTube through Apify *(tested 2026-10-10, re-tested 2026-10-30)*
 
-The 2026-10-07 test said Reddit was walled. It isn't: the **Apify MCP** reads it.
+The 2026-10-07 test said Reddit was walled. It isn't. **Since 2026-11-12 the working route is the Firecrawl fallback at the end of this section** (the Apify actor now needs a login); the Apify notes stay for when a login-free actor is found.
 
 - **Reddit:** use `trudax/reddit-scraper-lite`. It returns posts and full comment trees with dates and upvotes.
   - **Always scope to a subreddit** (`searchCommunityName`). Unscoped, "blackflies Gros Morne June" came back with an Adirondacks thread first; scoped to r/newfoundland, "bugs June" returned two on-topic threads and 15 comments from locals.

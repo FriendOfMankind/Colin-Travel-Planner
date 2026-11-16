@@ -100,8 +100,8 @@ A correction of *behaviour* ("you forgot the sunset again", "I told you not to n
 ## Limits of this environment
 
 - `nps.gov`, `recreation.gov`, `parks.canada.ca`, `overpass-api.de` and `nominatim.openstreetmap.org` are blocked. Their facts arrive only as search-result snippets; label them that way. Firecrawl, AllTrails and AccuWeather work.
-- **Social sources, re-tested 2026-10-30** (details in `me/research.md`):
-  - **Reddit: readable through the Apify MCP**, full threads with comments and dates (`trudax/reddit-scraper-lite`). Plain web search almost never surfaces Reddit, and Firecrawl and old.reddit.com still refuse it, so go straight to Apify. An empty result can mean a bad query, not an empty subreddit: "Chiricahua March" in r/arizona came back with 0 items on 2026-10-30.
+- **Social sources, re-tested 2026-11-16** (details in `me/research.md`):
+  - **Reddit: readable through Firecrawl**, not Apify any more. Find the thread with a `site:reddit.com` Firecrawl search, then read it with `firecrawl_scrape` and an `alexandria` body (`scrapecreators`, `reddit/post-comments`): full comment trees with dates, ~2 credits a thread *(worked 2026-11-10 and 2026-11-16)*. Apify's `trudax/reddit-scraper-lite` needs a Reddit login since 2026-11-12, and logging in is off the table. Details in `me/research.md`.
   - **YouTube:** Firecrawl scrape gives the transcript and description. Apify (`streamers/youtube-comments-scraper`) gives comments.
   - **Instagram and Facebook:** untested through Apify. Facebook *private* groups need a login: unreachable, fetch list.
   - For anything you still can't read, ask Colin to fetch it (`me/working-rules.md`).
