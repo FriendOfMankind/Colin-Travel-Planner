@@ -286,3 +286,8 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 ## 2026-11-16 · Skellig climb: the warning now has a source
 
 - Day 7's warning said the steps are "old, steep and unrailed" *(recalled, not checked)*. Three Reddit threads (2025–26) back it and add detail: a chain only in the steepest bits, a narrow cliff path near the top, "like ice" when wet, and cancellation texts that can arrive mid-drive. The warning now cites them. Findings in `research-log.md` (2026-11-16). No plan change.
+
+## 2026-11-16 · Decided: the Skellig landing, not the circle tour
+
+- **The landing is the plan** *(Colin, 2026-11-16: "Landing, it's the plan")*, budgeted at €170 each. The €80 boat tour that circles the island without landing is only the bad-weather idea now. Why (Claude's case, which he took): the ~€90 difference buys the only part that's the actual thing, the unrailed climb to the monastery, which is his kind of place (unrestored ruins, terrain as scenery: `trips/kentucky-2026/log.md`, `me/travel-style.md`).
+- Before paying: read the operator's cancellation and refund terms. Landings cancel in swell, and Skellig Michael Cruises sells 12 seats a day.

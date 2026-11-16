@@ -60,7 +60,7 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 ## 7. West to Oregon and the boys week (Days 19–30)
 Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging, rafts, South Sister permits, the smoke swap list).
 - ⬜ **Day 19 night** near Wallace / Kellogg, Idaho *(Colin, 2026-10-30)*: bed not picked
-- 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season and the basics; ⬜ fees, timing
+- 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season, fees, shuttle times and the Day 19 fit (`research-log.md`, 2026-11-16); ⬜ 2027 dates and prices
 - ⬜ **Glacier → Hood River routing**: unrouted
 - ✅ **Headcount**: the riders are 2 friends plus Colin in the Outback; the own-car group rents its own car *(Colin, 2026-11-04)*
 

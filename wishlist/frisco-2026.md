@@ -26,7 +26,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-**This is the whole winter now** *(confirmed again 2026-11-08)*: Sky Islands was shelved and the January friends trips (Adirondacks, Costa Rica, Guatemala) were dropped to save for summer. The family wants to be home for New Year's Eve, so nobody stays past Dec 30. **Colin (and probably Finn) may fly out early, Mon Dec 21**, and ride home with the family on Dec 30; not confirmed yet. Those early days are `wishlist/colorado-winter-2027.md`. (The Mojave loop was deferred on Sept 6 2026, so Frisco is a round trip that stands on its own.)
+**This is the whole winter now** *(confirmed again 2026-11-08)*: Sky Islands was shelved and the January friends trips (Adirondacks, Costa Rica, Guatemala) were dropped to save for summer. The family wants to be home for New Year's Eve, so they leave Dec 30. **Colin may stay on solo after they go** *(stated 2026-11-16: "idc about new years eve. Id rather do stuff in colorado"; was: nobody stays past Dec 30)*. **Flying out early, Mon Dec 21**, with Finn probably, is still possible; neither end is confirmed. Those early days are `wishlist/colorado-winter-2027.md`. (The Mojave loop was deferred on Sept 6 2026, so Frisco is a round trip that stands on its own.)
 
 ✅ **Dates confirmed: Dec 25–30, 2026** *(stated 2026-09-30; was: "Dec 25 for maybe 5 nights", a placeholder)*.
 
