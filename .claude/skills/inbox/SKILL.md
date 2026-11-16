@@ -31,11 +31,12 @@ For a matched confirmation, edit that `booking:` row in place:
 
 ```yaml
     booked: true
-    confirmation: "0864063574-1 (recreation.gov email, 2026-08-29)"
+    confirmation: "in Gmail and Drive (recreation.gov email, 2026-08-29)"
     cancelBy: "full refund to Fri Oct 16 2026 (from the email)"
+    paid: "$30.00 (from the email)"
 ```
 
-Also tick the matching line in **Reservations & checks**, and put the confirmation in the day's `overnight.confirmation`. Add one log line per trip: `## YYYY-MM-DD · inbox sweep` with each thing found, its sender and date. Copy confirmation numbers, dates and refund terms exactly from the email. **Never infer them** (non-negotiable 2). Then `npm test && node tools/index.mjs`, commit and push. If the change is only booking marks and log lines, open the PR and merge it yourself. Anything else waits for Colin.
+**The repo is public, so the confirmation number itself never goes in it** *(Colin, 2026-11-16)*: write where it lives instead ("in Gmail and Drive"). If the email has a PDF receipt, save it to the trip's folder under Drive's **Travel receipts** (CLAUDE.md, "Receipts"). Also tick the matching line in **Reservations & checks**, and set the day's `overnight.confirmation` to the same "in Gmail and Drive" line. Add one log line per trip: `## YYYY-MM-DD · inbox sweep` with each thing found, its sender and date. Copy dates, amounts and refund terms exactly from the email. **Never infer them** (non-negotiable 2). Then `npm test && node tools/index.mjs`, commit and push. If the change is only booking marks and log lines, open the PR and merge it yourself. Anything else waits for Colin.
 
 ## 4. Report
 
