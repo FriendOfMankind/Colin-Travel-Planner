@@ -509,3 +509,8 @@ No decisions, just copies that hadn't caught up:
 
 - **Colin: "I dont want solo motels tbh, id rather be driving if im not sleeping, there can be exceptions"** *(Colin, 2026-11-14)*. Solo nights are now a campground or dispersed site near the route, else the car. Exceptions he picked: night 1 of each trip, Hood River on Jul 31, Port aux Basques off the ferry, and one of the last nights if it's Midwest farmland with no camping. The rule lives in `me/camping.md`.
 - Here: Day 1 (Albany) is a motel; Day 5 (Port aux Basques) stays a motel; Days 28 (Bangor) and 29 (Syracuse–Rochester) are camp or car. Was: "motel TBD" on Days 28–29. If a friend takes the ride-home add-on, those two nights aren't solo: revisit.
+
+## 2026-11-16 · Decided: beds for the friends' week and the two motel nights
+
+- **Picked** *(Colin, 2026-11-16: "Cheapest picks", "Yes, all five")*: Days Inn Albany SUNY (May 26), Hotel Port Aux Basques (May 30), North 99 Motel in Twillingate (Jun 11), Trinity Suites (Jun 12–14) and the Monastery Hotel in St. John's (Jun 15–18). Was: TBD at each. Live quotes and the alternatives are in `research-log.md`. ~C$616 each for the 8 friends' nights. Nothing booked; all cancel free.
+- **Booking rows added** for those five, plus St. Barbe RV Park, the Escape by the Sea cottage and Argentia Sunset RV Park, which were picked but had no row, so the briefing never listed them.

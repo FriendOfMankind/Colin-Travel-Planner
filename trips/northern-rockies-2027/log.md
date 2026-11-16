@@ -429,3 +429,6 @@ Found by the gardener's test run, confirmed by its verifier. Old values, for the
 
 - **Day 19's Hiawatha is planned, with one rule: not at East Portal by 12:45 PM PT means skip it** *(Colin, 2026-11-16: "Keep it, with a cutoff")*. Was: "only if there's time" and "the first cut" in `trip.md`, against the 2026-10-30 log's "planned, not optional", a contradiction the gardener found. Why it fits after all: the trail keeps Pacific time, so a 9:30 MT Kalispell drop-off plus ~3–3.5 h of driving arrives ~11 AM–noon PT (estimate, unrouted). Rent there (~$70–80 in 2026); his own hybrid stays home. Facts in `research-log.md`.
 
+## 2026-11-16 · Decided: the three motel nights
+
+- **Picked** *(Colin, 2026-11-16: "Yes, all five")*: Quality Inn Des Moines North (Jul 12), Rodeway Inn Newport (Aug 1) and The Dublin House Motel in Yachats (Aug 2). Was: TBD / "not researched". Live quotes and alternatives in `research-log.md`. Nothing booked; all cancel free.

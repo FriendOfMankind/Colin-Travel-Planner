@@ -17,3 +17,13 @@ test("day-counted windows (Cadillac's 90 days) count back calendar days", async 
   const [w] = bookingWindows([{ r: { booking: [{ system: "s", what: "x", target: "2027-05-26" }] } }], { s: { lead: null, leadDays: 90 } });
   assert.equal(w.opens, "2027-02-25");
 });
+
+test("a row seen on sale (onSale:) is bookable now even when its system has no window", async () => {
+  const { bookingWindows } = await import("../lib/booking.mjs");
+  const t = { r: { booking: [
+    { system: "flights", what: "x", target: "2027-05-09", onSale: "screenshot, 2026-11-04" },
+    { system: "flights", what: "y", target: "2027-05-09" },
+  ] } };
+  const w = bookingWindows([t], { flights: { lead: null, leadDays: null, anytime: false } });
+  assert.deepEqual(w.map((x) => x.anytime), [true, false]);
+});

@@ -225,7 +225,7 @@
   /** Now's slice of To-do: the counts, the first people to chase and the next windows to open. */
   function todoCard(today) {
     const T = todo(today);
-    const top = [...T.ask.slice(0, 3).map(askRow), ...T.soon.slice(0, 2).map((x) => askRow({ kind: "send", verb: `Window opens ${fmt(x.opens)}, ${outIn(today, x.opens)}`, html: x.what, where: `${x.trip} · ${x.system}`, href: "#todo" }))];
+    const top = [...(T.bookNow.length ? [askRow({ kind: "send", verb: `Bookable now: ${T.bookNow.length}`, html: esc(strip(T.bookNow[0].what)) + (T.bookNow.length > 1 ? ` and ${T.bookNow.length - 1} more` : ""), where: "soonest trip first", href: "#todo" })] : []), ...T.ask.slice(0, 3).map(askRow), ...T.soon.slice(0, 2).map((x) => askRow({ kind: "send", verb: `Window opens ${fmt(x.opens)}, ${outIn(today, x.opens)}`, html: x.what, where: `${x.trip} · ${x.system}`, href: "#todo" }))];
     return `<div class="section">
       <div class="row" style="justify-content:space-between;align-items:baseline"><h2>To-do</h2><span class="muted mono" style="font-size:12px">${T.n.ask} ask · ${T.n.book} book · ${T.n.pins} pin · ${T.n.buy} buy</span></div>
       ${top.length ? `<div class="panel divide">${top.join("")}</div>` : ""}
@@ -559,7 +559,10 @@
 
     // The same groups as the #book page, so the two can't disagree.
     const { open: openNow, soon, anytime, unknown } = bookingGroups(today);
-    const byTrip = trips.map((t) => ({ t, rows: [...anytime, ...unknown].filter((x) => x.slug === t.slug) })).filter((g) => g.rows.length);
+    const live = new Set(trips.map((t) => t.slug));
+    // Everything that can be booked today, in one list: windows already open, plus no-window rows (anytime, or seen on sale).
+    const bookNow = [...openNow, ...anytime].filter((x) => live.has(x.slug)).sort((a, b) => (a.target < b.target ? -1 : a.target > b.target ? 1 : 0));
+    const byTrip = trips.map((t) => ({ t, rows: unknown.filter((x) => x.slug === t.slug) })).filter((g) => g.rows.length);
 
     const plan = trips.map((t) => ({
       t,
@@ -570,10 +573,10 @@
     // Places on a live trip with no verified coordinate: the Pin Ledger's job.
     const pins = trips.map((t) => ({ t, places: t.places.flatMap((g) => g.places.filter((p) => !p.verified).map((p) => ({ ...p, group: g.group }))) })).filter((g) => g.places.length);
     const buy = D.gearNeeds ?? [];
-    const nBook = openNow.length + soon.length + byTrip.reduce((a, g) => a + g.rows.length, 0);
+    const nBook = bookNow.length + soon.length + byTrip.reduce((a, g) => a + g.rows.length, 0);
     const nPlan = plan.reduce((a, g) => a + g.decide.length + g.checks.length, 0);
     const nPins = pins.reduce((a, g) => a + g.places.length, 0);
-    return { trips, ask, openNow, soon, byTrip, plan, pins, buy, n: { ask: ask.length, book: nBook, plan: nPlan, pins: nPins, buy: buy.length } };
+    return { trips, ask, openNow, bookNow, soon, byTrip, plan, pins, buy, n: { ask: ask.length, book: nBook, bookNow: bookNow.length, plan: nPlan, pins: nPins, buy: buy.length } };
   }
 
   const askRow = (x) => `<a class="todo-row ${x.kind}" href="${esc(x.href)}"${x.ext ? ' target="_blank" rel="noopener"' : ""}>
@@ -602,9 +605,9 @@
         ${T.ask.length ? `<div class="panel divide">${T.ask.map(askRow).join("")}</div>` : '<div class="panel pad muted">Nobody to chase.</div>'}</div>
 
       <div class="section">${head("book", "Book", T.n.book, "Not marked booked. Opening dates are computed from <code>me/booking.md</code>.")}
-        ${T.openNow.length ? `<div class="eyebrow">Open now</div><div class="panel divide">${T.openNow.map((x) => bookRow(x, `<span class="muted">opened</span><br>${fmt(x.opens)}`)).join("")}</div>` : ""}
+        ${T.bookNow.length ? `<div class="eyebrow">Bookable now <span class="muted">· ${T.bookNow.length}, soonest trip first</span></div><div class="panel divide">${T.bookNow.map((x) => bookRow(x, x.opens ? `<span class="muted">opened</span><br>${fmt(x.opens)}` : `<span class="muted">for</span><br>${fmt(x.target)}`)).join("")}</div>` : ""}
         ${T.soon.length ? `<div class="eyebrow">Windows not open yet</div><div class="panel divide">${T.soon.map((x) => bookRow(x, `${fmt(x.opens)}<br><b>${outIn(today, x.opens)}</b>`)).join("")}</div>` : ""}
-        ${T.byTrip.length ? `<div class="eyebrow">Bookable anytime, or window unknown</div>${T.byTrip.map((g, i) => `<details class="fold panel"${i === 0 ? " open" : ""}><summary><span>${tripLabel(g.t)} · ${g.rows.length}</span></summary><div class="divide flush">${g.rows.map((x) => bookRow(x, x.anytime ? `<span class="muted">anytime</span>` : `<span class="muted">window</span><br>unknown`)).join("")}</div></details>`).join("")}` : ""}
+        ${T.byTrip.length ? `<div class="eyebrow">Window unknown: confirm by hand</div>${T.byTrip.map((g) => `<details class="fold panel"><summary><span>${tripLabel(g.t)} · ${g.rows.length}</span></summary><div class="divide flush">${g.rows.map((x) => bookRow(x, `<span class="muted">for</span><br>${fmt(x.target)}`)).join("")}</div></details>`).join("")}` : ""}
         <a class="btn" href="#book">Every booking window, with calendar alarms ›</a></div>
 
       <div class="section">${head("pins", "Pins", T.n.pins, "Places on a live trip with no checked coordinate, so no Maps pin, map line or offline GPX yet. Place each in the Pin Ledger (about 30 seconds: Find in Maps, long-press, copy, paste), then tell Claude <span class=\"mono\">pins are in</span>.")}

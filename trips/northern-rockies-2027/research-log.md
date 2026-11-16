@@ -161,3 +161,19 @@ Day 19 is **Fri Jul 30, 2027** (`date`). All from the 2026 pages; 2027 isn't pub
 - **Price (2026):** Fri–Sun adult trail pass $40, shuttle included; adult rental bike $40 online / $45 day-of, with helmet and a 300–400 lumen light; Adult Combo Pass (trail, shuttle, rental) $70 online / $79 day-of. Reservations "recommended but not required" *(ridethehiawatha.com tickets and rentals, snippets, 2026-11-16)*.
 - **Own bike:** "Mountain bike tires are recommended. Hybrid tires are OK" *(FAQ)*. Not needed: rentals include the light.
 - **Fit on Day 19 (Claude's arithmetic, not routed):** leave Many Glacier 6:30 AM MT, Kalispell ~9:30 MT (the plan's 3 h), then Kalispell → East Portal ~3–3.5 h (the 2026-09 note said 3.5–4 h from West Glacier, also an estimate) → **~12:00–1:00 PM MT = 11:00 AM–12:00 PM PT**, inside the 12:45 PT cutoff with ~45–100 min to spare. Ride done ~4–5 PM PT; Wallace is ~12 mi west.
+
+## 2026-11-16 · Beds shortlist: Des Moines and the two coast nights
+
+Live Booking.com availability for the exact dates and party size, read 2026-11-16 (Firecrawl `booking-com` provider). USD; totals include Booking's listed taxes. Not booked; Colin picks.
+
+**Des Moines, Mon Jul 12, 1 person**
+- **Quality Inn Des Moines North**, 4950 NE 14th St, at I-35/80 and US 69: **$88.21** free-cancel until 4 PM Jul 12, no prepayment ($79.08 non-refundable). 7.1 (264).
+- Quality Inn & Suites Altoona: $82.91, not free-cancel. 7.6. AmericInn Johnston: $76.16, not free-cancel. 7.1. Avoid Motel 6 Altoona (4.4).
+
+**Newport, Sun Aug 1, 3 people, 2 queens (peak season)**
+- **Rodeway Inn**, 206 N Coast Hwy: **$172.63** free-cancel before Jul 29 (~$58 each). 7.3 (662).
+- Econo Lodge: $206.61 free-cancel. 6.9. Summer Wind Budget Motel: $90.65 but rated 6.2. Travelodge and Days Inn were cheaper but two doubles, not queens.
+
+**Florence or Yachats, Mon Aug 2, 3 people, 2 queens**
+- **The Dublin House Motel, Yachats**: **$186.63** free-cancel before Jul 31. 8.4 (410). 5 rooms left at read time.
+- Super 8 Florence: $201.34 free-cancel before Aug 1. 8.3 (614). Quality Inn Florence: $190.54, not free-cancel. Avoid Silver Sands (5.0).

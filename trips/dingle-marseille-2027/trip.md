@@ -36,10 +36,12 @@ booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
     target: 2027-05-09
+    onSale: "Colin's Google Flights screenshot of the pair at $2,260 for 3, 2026-11-04"
     note: "Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
+    onSale: "Colin's checkout screenshot, $785.79, 2026-11-11"
     note: "**Picked, not booked: this quote** (Colin, 2026-11-11). $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
