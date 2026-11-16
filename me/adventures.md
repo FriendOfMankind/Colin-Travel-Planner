@@ -66,7 +66,7 @@ That fits "one outing per day" in [hiking.md](hiking.md): a raft day or a cave t
 
 *(stated 2026-10-29)* Colin wants to get into birding, and he wants it remembered. The style he described is **finding remote corners and trails, then sitting in a good spot for a while and surveying.** He's "cool with sitting around and relaxing in nature", so a long sit counts as time well spent, not dead time.
 
-- **It rides along with a hike** (swap rule 4): the sit happens at the hike's destination, or as a rest-day walk. When planning, flag the known birding spots on a trip's route (eBird hotspots, famous canyons, seabird colonies). Sky Islands' South Fork Trail and Newfoundland's puffin and seabird sites are already on trips.
+- **It rides along with a hike** (swap rule 4): the sit happens at the hike's destination, or as a rest-day walk. When planning, flag the known birding spots on a trip's route (eBird hotspots, famous canyons, seabird colonies). Newfoundland's puffin and seabird sites are already on a trip (Sky Islands' South Fork Trail was too, until that trip was shelved on 2026-11-08).
 - ⚠️ **Open: dawn vs. the dusk default.** Birds are most active in the first few hours after sunrise, and the dusk default above was written for big mammals. Whether birding earns an early alarm hasn't been asked yet.
 - **A beginner, as of 2026-10-29.** The plan is to learn the common local birds first, using the free Merlin (sound ID) and eBird apps.
 

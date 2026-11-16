@@ -16,7 +16,7 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 - **No measuring water.** Every meal here is forgiving: pasta gets drained; couscous, oats and potato flakes get stirred until they look right, with a splash more water if they're too thick or a longer simmer if they're too thin.
 - **Buy in bulk, keep in the car.** Fresh add-ons are optional upgrades, never load-bearing.
 
-**Where the numbers come from.** Brami and the Quaker packet are from label photos (`basis: label`). Everything else is an **estimate** from typical US nutrition labels for that kind of product (`basis: estimate`): expect ±15% by brand. Totals are computed by `node tools/macros.mjs`, never added by hand. **Constraints respected:** OAS (fruit and veg are all cooked here; roasted nuts are fine), spice ≤ 2/5 (mild taco seasoning only), and nothing from the rejected list. The ramen bomb stays plain, because loaded ramen was voted down, so its protein sits on the side.
+**Where the numbers come from.** Brami and the Quaker packet are from label photos (`basis: label`). Everything else is an **estimate** from typical US nutrition labels for that kind of product (`basis: estimate`): expect ±15% by brand. Totals are computed by `node tools/macros.mjs`, never added by hand. **Constraints respected:** spice ≤ 2/5 (mild taco seasoning only), and nothing from the rejected list. The ramen bomb stays plain, because loaded ramen was voted down, so its protein sits on the side.
 
 ## What changed from what you ate in Kentucky
 
@@ -32,12 +32,12 @@ How Colin actually eats on the road (`me/food.md`, Kentucky log): a **shelf-stab
 ## The menu: two per slot
 
 **Breakfast**
-- **B1 · Power oats.** Boil some water. Dump in the oats and stir until it's as thick as you like it (thin it with a splash of water, thicken it by cooking longer). Take it off the heat, then stir in milk powder, whey and PB, and sweeten with brown sugar to taste. *(Whey clumps if it's boiled, so always stir it in off the heat.)* Works in the thermos too.
+- **B1 · Power oats.** Boil some water. Dump in the oats and stir until it's as thick as you like it (thin it with a splash of water, thicken it by cooking longer). Take it off the heat, then stir in milk powder, whey and PB, and sweeten with brown sugar to taste. *(Whey clumps if it's boiled, so always stir it in off the heat.)*
 - **B2 · Loaded potato scramble.** Boil a mug or two of water in the pot. Stir in potato flakes until it's thick, then milk powder and butter. Crack in 2 eggs over low heat and keep stirring until they set. Finish with cheddar and bacon bits.
 
 **Lunch** *(the trailhead meal)*
 - **L1 · Ramen bomb + jerky.** Boil water, add the ramen block with half the seasoning, and stir in potato flakes until it's thick. Eat the jerky alongside.
-- **L2 · Couscous + black beans.** Heat the drained beans and taco seasoning in some water, kill the heat, dump in the couscous and cover for 5 min. Too wet: simmer a minute. Too dry: splash of water. Stir in the chicken, cheddar and olive oil. Works in the thermos.
+- **L2 · Couscous + black beans.** Heat the drained beans and taco seasoning in some water, kill the heat, dump in the couscous and cover for 5 min. Too wet: simmer a minute. Too dry: splash of water. Stir in the chicken, cheddar and olive oil.
 
 **Dinner**
 - **D1 · Brami + sauce + chicken.** Boil a pot of water, cook the pasta, and add frozen broccoli for the last 3 minutes. Drain. Stir in marinara and 2 chicken pouches, warm through, and top with parmesan. *Fresh upgrade:* brown 4 oz ground beef in the pot first and set it aside on the lid, then use it in place of the chicken.

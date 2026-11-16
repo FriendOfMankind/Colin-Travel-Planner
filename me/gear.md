@@ -109,7 +109,7 @@ A remote lecture runs 11:00–3:00 on a Wednesday of both 2026 trips, taken at c
   note: "Owned; Colin calls it a mountain bike, and it's a hybrid. *(stated 2026-09-30)* Right tool for rail trails and gravel, not for technical singletrack. See the scenic rides in [bucket.yaml](../bucket.yaml)."
 - name: Trunk bike rack
   state: own
-  note: "*(stated 2026-09-30)* On a sedan it sits across the trunk lid, and the trunk is where camp lives. Worth checking before the first bike trip: can the trunk open with the rack on, or does the bike come off every time?"
+  note: "*(stated 2026-09-30, when the car was the Legacy sedan)* Whether it fits the 2019 Outback's liftgate, and whether the hatch opens with it on, isn't checked. On the sedan it sat across the trunk lid, where camp lives, so the bike came off every time the trunk opened."
 - name: Bike helmet
   state: need
   note: "*(stated 2026-09-30)*"

@@ -35,11 +35,11 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - ✅ **Pebble Creek**: closed 2026, "likely for the foreseeable future". Not a fallback
 - ✅ **Slough Creek**: 16 sites, 2 mi dirt road, fills in minutes; season ran **June 15 – Oct 12 in 2026** (nps.gov/yell, 📋). Jul 21 is safely inside
 - ✅ **Northeast Entrance Road reconstruction**: construction slated to begin **2029** (spartnerships.com, 2026-08-12). Not a 2027 problem
-- 🟡 **Madison Campground** (Day 11): open May 7 – Oct 17, 2027, 6,800 ft, 16 mi north of Old Faithful; recreation.gov, 6 months out from 2027 (📋 snippets, 2026-10-29). ⬜ fee. ✅ coordinate (Pin Ledger, 2026-10-30); ⬜ sun times not recomputed. ⬜ how fast it fills on the new system
+- 🟡 **Madison Campground** (Day 11): open May 7 – Oct 17, 2027, 6,800 ft, 16 mi north of Old Faithful; recreation.gov, 6 months out from 2027 (📋 snippets, 2026-10-29). ⬜ fee. ✅ coordinate (Pin Ledger, 2026-10-30); ✅ sun times (2026-11-14). ⬜ how fast it fills on the new system
 - 🟡 **Canyon Campground**: open May 28 – Sept 19, 2027 (📋). A possible Madison fallback, not chosen
 - ✅ **Grand Canyon of the Yellowstone** (Day 10): Artist Point 0.3 mi, Brink of the Lower Falls 0.8 mi / 249 ft (AllTrails, 2026-10-29). ⬜ Slough Creek ⇄ Canyon drive time (unrouted)
 - 🟡 **Old Faithful and Grand Prismatic** (Day 11): Grand Prismatic overlook 1.6 mi / 131 ft from the Fairy Falls trailhead (AllTrails, 2026-10-29). ⬜ Fairy Falls lot parking in July. ⬜ eruption predictions (day-of). ⬜ Slough Creek → Old Faithful drive time (unrouted)
-- 🟡 **Madison → Glacier's west side** (Day 12, since the 2026-11-08 flip): `tools/roads.py` draws 448 mi via West Yellowstone, Bozeman, Butte, Missoula and Kalispell (2026-11-08). ⬜ the line isn't chosen; ⬜ a real drive time
+- 🟡 **Tetons → Glacier's west side** (Day 13, since the Tetons night went in on 2026-11-14): north through Yellowstone (the drawn line, 464 mi) or south via Jackson (~485 mi), per `trip.md` Day 13. The older Madison line (448 mi, 2026-11-08) is superseded. ⬜ the line isn't chosen; ⬜ a real drive time
 
 ## 6. Glacier (Days 12–18)
 - 🟡 **Vehicle reservations**: dropped for 2026; **2027 still not announced** *(re-checked 2026-10-29)*. The 2026 decision came in February, so expect Feb 2027, after the January campground sitting
@@ -62,14 +62,14 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 - ⬜ **Day 19 night** near Wallace / Kellogg, Idaho *(Colin, 2026-10-30)*: bed not picked
 - 🟡 **Route of the Hiawatha** (planned, Day 19, *Colin, 2026-10-30*): 2026 season and the basics; ⬜ fees, timing
 - ⬜ **Glacier → Hood River routing**: unrouted
-- ✅ **Headcount**: the riders are 2 friends plus Colin in the Legacy; the own-car group rents its own car *(Colin, 2026-11-04)*
+- ✅ **Headcount**: the riders are 2 friends plus Colin in the Outback; the own-car group rents its own car *(Colin, 2026-11-04)*
 
-## 8. The drive home (Days 30–34)
-- ⬜ **Route Portland → Avon**: not chosen (~2,400 mi, unrouted)
-- ⬜ **Transit nights, Days 30–33**: nothing identified
+## 8. The drive home (Days 32–41)
+- ✅ **Route**: via the Sawtooths, then home on I-90 with Devils Tower *(Colin, 2026-11-14)*; Days 38–41 on real roads
+- 🟡 **Transit nights**: Days 38–40 picked (Itch-Kep-Pe, Sage Creek, Great River Bluffs, 2026-11-14); ⬜ Day 32
 - ~~TRNP, Cottonwood, Makoshika~~: cut or skipped 2026-10-10 / 10-15; the old notes are in `log.md`
 
-## 8b. The Sawtooths extension (Aug 13–20, optional; proposal in `trip.md`'s open questions)
+## 8b. The Sawtooths (Aug 13–18, in the plan since 2026-11-14)
 *(added 2026-11-12)*
 - 🟡 **Hike-to hot springs**: Slate Creek/Hoodoo (short hike, bumpy FSR 666, mine ruins, heavy use, extreme bugs; 0.3 vs 4.6 mi disagreement) and Goldbug (~2 mi / ~1,400 ft, BLM, crowded by 9 AM, north via Challis, unrouted). 🔒 a 2025–26 report on the FSR 666 road
 - 🟡 **Shower Bath**: Mahoney Creek TH off Sleeping Deer Road from Challis; 11.3–11.8 mi / ~2,600 ft, downhill in and the climb on the way out; fords plus the Narrows; poorly signed, GPS advised; the road is "high clearance" per two sources vs "some clearance and good tires" per one review; flat camping at the TH *(2026-11-12)*. ⬜ Stanley → TH drive time; a 2025–26 road report (fetch list 6)
@@ -83,7 +83,7 @@ Research for the Oregon days lives in `wishlist/august-friends-2027.md` (lodging
 ## 9. Cross-cutting
 - 🟡 **Weather**: station normals for Cooke City (74/39) and St. Mary (high 73), July, NOAA 1991–2020 *(2026-10-29)*. ⬜ Bighorns, Beartooth Plateau, Oregon
 - 🟡 **Wildfire smoke**: first pass done *(2026-10-29)*. Glacier County alert Jul 27 2026, smoke over north Glacier Jul 31 2026; Bend averages 7.8 USG+ days a year (2013–2025), 21 in 2023, 2 in 2025, peak in August. ⬜ a Glacier-specific multi-year count
-- 🟡 **Showers**: none verified before Hood River (Day 20); the old "Apgar has one" had no source. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests** (Great Falls is off the route since the 2026-11-08 flip). ⬜ any that sell a shower to non-guests. 🔒
+- 🟡 **Showers**: the first verified one is the Colter Bay Launderette, Day 12 (2026-11-14); the old "Apgar has one" had no source. Cody's RV parks (Absaroka Bay, Buffalo Bluff, the KOA) and Great Falls RV Park have showers, **for guests** (Great Falls is off the route since the 2026-11-08 flip). ⬜ any that sell a shower to non-guests. 🔒
 
 ## Fetch list
 1. **Crazy Woman Canyon in a car.** Facebook group "Bighorn Mountains" or "Buffalo Wyoming Community", search `Crazy Woman Canyon car` / `Crazy Woman Canyon sedan`. Look for: whether a normal car made it, which end is rougher, and 2025–26 washouts.

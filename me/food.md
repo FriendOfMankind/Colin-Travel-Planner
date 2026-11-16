@@ -146,7 +146,7 @@ confirmed or knocked down, because acting on an unconfirmed pattern is how
 a preference list starts banning food nobody objected to:
   - grits, congee and rice pudding all rejected → savoury or sweet porridge
     is out, even though oats are in. Oats may simply be the exception.
-  - both ramen entries rejected → ramen is out as a format.
+  - ~~both ramen entries rejected → ramen is out as a format~~ Refuted: plain cup ramen is a trailhead fuel he likes (resolved 2026-09-27, above).
   - tuna salad, egg salad and bánh mì all rejected → possibly mayonnaise.
   - hummus, refried beans, white chicken chili and gumbo rejected → possibly
     beans as the centre of a dish. Note lentil stew and cannellini pasta
