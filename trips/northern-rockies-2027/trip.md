@@ -1743,7 +1743,7 @@ The Outback will have done ~7,000 miles in five and a half weeks. **Get it looke
 
 ## Hikes
 
-Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across the original 21 days *(not re-totalled since Theodore Roosevelt was cut and the Oregon week joined on, 2026-10-15; the Oregon hikes live in `wishlist/august-friends-2027.md`)*. **Three scheduled hikes exceed the ~10 mi soft ceiling**, all on distance only — Lost Twin Lakes, Grinnell Glacier and the one-way Highline — and each carries a shorter bail-out. The other well-known trails are named and explicitly NOT scheduled.
+Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across the original 21 days *(not re-totalled since Theodore Roosevelt was cut and the Oregon week joined on, 2026-10-15; the Oregon hikes live in `wishlist/august-friends-2027.md`)*. **Five scheduled hikes exceed the ~10 mi soft ceiling**: Lost Twin Lakes, the one-way Highline, Grinnell Glacier and Tunnel Falls on distance, South Sister on both (see Notes), and each carries a shorter bail-out. The other well-known trails are named and explicitly NOT scheduled.
 
 | Name | Day | Distance | Gain | Difficulty | Duration | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -1756,7 +1756,10 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 | Becker Lake via Beartooth High Lakes | 9 | 8.0 mi RT | 715 ft | Moderate | ~3–4 hr | Longer and much flatter than Day 8. Good second day at 9,500 ft. |
 | Artist Point | 10 | 0.3 mi RT | 13 ft | Easy | ~10 min | ✅ AllTrails, 2026-10-29. The South Rim view of the Lower Falls. |
 | Brink of the Lower Falls | 10 | 0.8 mi RT | 249 ft | Moderate | ~30 min | ✅ AllTrails, 2026-10-29. North Rim, down to the lip of the falls. |
-| Grand Prismatic Hot Spring Overlook | 11 | 1.6 mi RT | 131 ft | Easy | ~40 min | ✅ AllTrails, 2026-10-29. From the Fairy Falls trailhead. Packed in July; worth it. |
+| Trout Lake Loop | 10 | 1.2 mi loop | 219 ft | Easy | ~35 min | ✅ AllTrails 4.7★, 2026-11-17. Above Lamar, on the way in. |
+| Observation Point | 11 | 1.5 mi RT | 275 ft | Moderate | ~45 min | ✅ AllTrails, 2026-11-17. Old Faithful from above, early. |
+| Grand Prismatic Hot Spring Overlook | 11 | 1.6 mi RT | 131 ft | Easy | ~40 min | ✅ AllTrails, 2026-10-29. From the Fairy Falls trailhead. Packed whenever the light is good; worth it. |
+| Fairy Falls (Imperial Geyser optional) | 11 | 4.9 mi RT (6.7 to Imperial) | 154 ft (275) | Easy | ~1.5–2 hr | ✅ AllTrails, 2026-11-17. Past the overlook, the midday quiet corner. Marked "[CLOSED]" on 2026-11-17, probably winter. |
 | Avalanche Lake | 14 | 6.1 mi RT | 780 ft | Moderate | ~2.5 hr | Cedar forest to a lake with waterfalls on three sides. Busy; worth it. Starts at camp, so it's Day 14's if-they-land-early hike. |
 | Highline: Logan Pass → Granite Park Chalet → The Loop | 15 | 11.8 mi one way | +2,388 / −4,773 ft | Hard | ~6–7 hr | 📋 nps.gov/places/highline-trailhead, snippet, 2026-10-29. ⚠️ **Over the 10 mi ceiling on distance only**, chosen by Colin *(Colin, 2026-10-29)*. 🚨 First mile is an exposed ledge with a hand cable: **turn around at the cable if it doesn't feel right.** Needs the shuttle (2027 rules not announced). |
 | Hidden Lake Overlook | 15 | 2.8 mi RT | 567 ft | Moderate | ~1.5 hr | Straight from the Logan Pass lot. The fallback if the ledge says no. |
@@ -1845,7 +1848,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] **Beartooth — Island Lake, Jul 18–20** — 📋 **first-come only**, 21 sites, cash or check; Beartooth Lake (21, first-come) is the fallback. Bring cash.
 - [x] ~~Theodore Roosevelt — Cottonwood, Jul 30–31~~ — **cut 2026-10-15** with Theodore Roosevelt, when the trip turned west for the Oregon week. Nothing was booked.
 - [ ] 🚨 **Belknap Hot Springs Lodge, Aug 3–5** — book first, once each group's headcount is known. 18 rooms, few take 4; each party books its own.
-- [ ] **Coast motels: Newport Aug 1, Florence or Yachats Aug 2** — not researched yet.
+- [ ] **Coast motels: Rodeway Inn Newport, Aug 1, and The Dublin House Motel, Yachats, Aug 2** — picked, not booked *(Colin, 2026-11-16)*; the riders' rooms, the own-car group books its own.
 - [ ] *Optional:* **Oregon Dunes, Aug 3** — Spinreel (drive) or Sandland (ride); undecided.
 - [ ] **White Salmon raft, Aug 9** (Wet Planet) — 2027 calendar live; refundable to 7 days out.
 - [ ] **Deschutes full day, Aug 8** (Deschutes River Adventures) — a Sunday now; deposit refundable 30+ days out.
@@ -1854,7 +1857,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
 - [ ] **Outlet CG, Sawtooths, Aug 13–18** — in the plan (2026-11-14). The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Solo nights not picked: Days 1, 19, 32.** No solo motels *(Colin, 2026-11-14)*: camp near the route, else the car. Exceptions: Day 1's motel, and Day 40 if it's Midwest farmland with no camping. Days 38–40 picked on 2026-11-14: Itch-Kep-Pe (free), Sage Creek (free), Great River Bluffs (reservable, 120 days).  The two coast nights (Days 21–22) aren't picked either. Solve them together, once, before departure.
+- [ ] ⚠️ **Solo nights not picked: Days 19 and 32.** No solo motels *(Colin, 2026-11-14)*: camp near the route, else the car. Day 1 is the Quality Inn Des Moines North (picked 2026-11-16). Days 38–40 picked on 2026-11-14: Itch-Kep-Pe (free), Sage Creek (free), Great River Bluffs (reservable, 120 days). Solve the last two together, once, before departure.
 
 ## Open questions
 
@@ -1918,7 +1921,7 @@ Every fee on this page is an estimate. recreation.gov and nps.gov are blocked fr
 
 ### Places
 
-Every place in `places.yaml` is pinned (Pin Ledger, 2026-10-30), and each stop also carries a Maps search string. New places go through the Pin Ledger (`docs/MAPS.md`).
+Every place in `places.yaml` was pinned on 2026-10-30 (Pin Ledger); three added on 2026-11-17 aren't yet (Canyon Campground, Trout Lake Trailhead, Hayden Valley). Each stop also carries a Maps search string. New places go through the Pin Ledger (`docs/MAPS.md`).
 
 ### Offline regions
 
