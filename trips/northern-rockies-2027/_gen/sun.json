@@ -85,7 +85,7 @@
     },
     {
       "date": "Wed 7/21",
-      "location": "Lamar / Slough Creek",
+      "location": "Island Lake (dawn) → Canyon, at the Artist Point pin (night; Canyon Campground not pinned; recomputed 2026-11-17)",
       "firstLight": "5:17 AM",
       "sunrise": "5:52 AM",
       "sunset": "9:00 PM",
@@ -94,9 +94,9 @@
     },
     {
       "date": "Thu 7/22",
-      "location": "Slough Creek (dawn) → Madison (night)",
-      "firstLight": "5:21 AM",
-      "sunrise": "5:56 AM",
+      "location": "Canyon, at the Artist Point pin (dawn; recomputed 2026-11-17) → Madison (night)",
+      "firstLight": "5:22 AM",
+      "sunrise": "5:57 AM",
       "sunset": "9:00 PM",
       "dark": "9:35 PM",
       "moon": "85.6% waning"
