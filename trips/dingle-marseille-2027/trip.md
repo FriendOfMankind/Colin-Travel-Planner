@@ -31,13 +31,14 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. First, in order: (1) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents); (2) the **Skellig Michael landing** for Sat May 15: **one operator is taking 2027 bookings now** (Skellig Michael Cruises, 12 seats a day; 2026-11-14); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
+next: "**Flights booked** (the parents, 2026-11-17); nothing else yet *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. Next, in order: (1) file the flight confirmation in Drive; (2) the **Skellig Michael landing** for Sat May 15: **one operator is taking 2027 bookings now** (Skellig Michael Cruises, 12 seats a day; 2026-11-14); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
 booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
+    booked: true
     target: 2027-05-09
     onSale: "Colin's Google Flights screenshot of the pair at $2,260 for 3, 2026-11-04"
-    note: "Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
+    note: "**Booked by the parents (Colin, 2026-11-17).** Flight numbers, times and the price paid not seen on a receipt yet; the confirmation goes in Drive. Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
@@ -289,7 +290,7 @@ date: 2027-05-14
 tagline: First day on the left, and the shortest drive of the trip.
 type: travel
 slack: The afternoon. Nothing today is timed except the car desk.
-driving: Family lift Dingle → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
+driving: Family lift Ballynavenooragh → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
 overnight:
   name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
@@ -299,7 +300,7 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
+- morning · drive · **Family lift to Kerry Airport** (Farranfore), from the house: ~1¼ h each way *(Claude's estimate from a 53 km straight line; not routed)*. Leave about 1½ h before the car's pickup time, which comes with the booking. Not confirmed with the family yet (Open questions). · 📍 Kerry Airport
 - morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. The picked quote is a $785.79 automatic, one way to Dublin Airport on May 21, company not named on it (booking row); Avis showed nothing for these dates. A lap of the car park before the road
 - midday · drive · To Killarney. · 📍 Killarney Co. Kerry
 - afternoon · hike · **The Gap of Dunloe** on foot, a narrow mountain pass *(recalled; start point, length and the boat back from Lord Brandon's Cottage not checked)*. · 📍 Gap of Dunloe

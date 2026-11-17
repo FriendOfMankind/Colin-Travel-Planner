@@ -305,3 +305,7 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 - The lifts (the Dingle Quay pickup on May 10 and Kerry Airport on May 14) aren't covered by that yes; the open question now asks only about them.
 - **Decided: keep the original shape** (4 farm nights, then Killarney, Doolin, Galway) *(Colin, 2026-11-17)*. Weighed and turned down the same day: 6, 8 or ~11 nights at the farm, cutting Killarney, Galway or all of Clare. Claude's numbers: ~$93, ~$200 or ~$400 each saved. The farm's remoteness means a car is needed either way.
 - Train checked as an arrival-day option: Heuston → Tralee leaves every 2 h on the hour, 07:00–19:00, changing at Mallow *(irishrail.ie timetable PDF, valid from 14 Dec 2025)*. Only faster than the coach if the 11:00 is made. Not adopted.
+
+## 2026-11-17 · Flights booked
+
+- **The CLE ⇄ DUB round trip is booked**, by the parents *(Colin, 2026-11-17)*. The booking row says `booked: true`; the price paid, the exact flights and the confirmation aren't seen yet (no receipt in Drive). The plan assumes EI 86 out May 9 and EI 87 home Sat May 22, as picked on 2026-11-04.
