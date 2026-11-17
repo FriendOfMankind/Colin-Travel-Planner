@@ -799,8 +799,20 @@ groups:
         wpNote: Log ladder and ledge traverse. Dawn only in July.
   - group: Towns standing in for undecided beds (pinned 2026-11-09)
     places:
+      - name: Wallace RV Park
+        note: Night 19, picked 2026-11-17. Tent sites, showers. Town pin stands in until this one is pinned.
+        maps: Wallace RV Park Wallace Idaho
+        verified: false
+        lat: null
+        lng: null
+      - name: Hilgard Junction State Park
+        note: Night 32, picked 2026-11-17. 18 first-come sites on I-84. La Grande's pin stands in until this one is pinned.
+        maps: Hilgard Junction State Park Oregon
+        verified: false
+        lat: null
+        lng: null
       - name: La Grande, OR
-        note: "Night 32. The town, standing in until a motel is picked."
+        note: "Night 32. The town, standing in until Hilgard Junction State Park is pinned."
         maps: La Grande OR
         verified: true
         lat: 45.3250123873849

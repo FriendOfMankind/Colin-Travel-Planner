@@ -442,3 +442,16 @@ Found by the gardener's test run, confirmed by its verifier. Old values, for the
 - **Madison kept over Grant Village** for the Day 11 night *(Colin, 2026-11-17: "Madison")*: dusk wildlife on the Madison over a shorter Day 12 and a lakeside sunset at West Thumb.
 - Midday is for exploring, not wildlife: animals bed down in the heat (Claude's recall), so the wildlife drives sit at dusk.
 - **Open:** Canyon and Trout Lake Trailhead and Hayden Valley need pins; Dunraven Pass 2027 construction; AllTrails marked Fairy Falls, Imperial Geyser and Observation Point "[CLOSED]" on 2026-11-17 (probably the winter road closure); Canyon showers and both fees not read. Sun times for the Canyon night and morning are computed at the Artist Point pin until Canyon is pinned.
+
+## 2026-11-17 · Decided: the weak-points answers, the budget and the last two beds
+
+From the weak-points review *(Colin, 2026-11-17)*:
+- **Friends:** assume both groups come, the riders in the Outback and the own-car group in a rental; Colin has details to give. The plan already assumes this.
+- **Length:** stays at 41 days. "Only one way to find out."
+- **Days 26–30 spacing:** asked for options (in chat, not decided).
+- **Budget:** totalled at **~$4,000–5,300, Colin's share** (Notes, "What this costs"). Was: "TBD", with only fuel estimated.
+- **Glacier:** if the January bookings miss, a backup for those days gets worked out then. The shuttle gets figured out once the 2027 rules are out.
+- **Bear spray:** added to `me/gear.md` as need.
+- **The car:** damage gets assessed and repaired on the road as needed; no plan B vehicle.
+- **The cooler:** not essential; Colin can go many days without iced food (`me/food.md`). The 6-day Cody → Missoula gap without ice is fine. The packing line changed from "block ice at every resupply".
+- **Beds picked:** Day 19 **Wallace RV Park** (tent sites, showers; ridethehiawatha.com area camping page, read 2026-11-17), with free primitive sites on Rainy Creek Road as the fallback. Day 32 **Hilgard Junction State Park** (18 first-come sites; stateparks.oregon.gov, snippet). Was: "TBD, or the car". Neither is pinned.
