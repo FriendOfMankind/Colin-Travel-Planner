@@ -9,8 +9,9 @@
 //
 // The words come from trips/<slug>/trip.md every time it's built. The pictures are listed in
 // trips/<slug>/slides.yaml (tools/lib/slides.mjs has the format) and never live in the repo:
-//   1. Colin's own pick, .cache/slides/<slug>/mine/<id>.<jpg|png|webp>, pulled from his Drive folder
-//      (a session lists the folder into .cache/slides/<slug>/drive.json, then --pull fetches them);
+//   1. Colin's own pick, .cache/slides/<slug>/mine/<id>.<jpg|png|webp>. He adds them in the Photo
+//      Ledger (tools/photosheet.html; --ledger prints the rows to load into it) and a session saves
+//      each stored picture into that folder. The older way, a Drive folder and --pull, still works;
 //   2. else the shot's `commons:` file, fetched from upload.wikimedia.org and credited;
 //   3. else a "photo wanted" slide that names the file to save.
 import fs from "node:fs";
@@ -23,7 +24,7 @@ import { checkSlides, deck, parseSlides } from "./lib/slides.mjs";
 import { POSTER_DIR, dayColor } from "./lib/posters.mjs";
 
 const slug = process.argv[2], has = (k) => process.argv.includes(k), arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; };
-if (!slug || slug.startsWith("-")) { console.error('usage: node tools/slides.mjs <slug> [--list | --pull | --find "words"]'); process.exit(1); }
+if (!slug || slug.startsWith("-")) { console.error('usage: node tools/slides.mjs <slug> [--list | --ledger | --adopt <rows dir> <pictures dir>]'); process.exit(1); }
 const UA = "trail-notes-slides/1.0 (personal trip deck)", CACHE = `.cache/slides/${slug}`;
 // Wikimedia throttles this network hard (429 after a handful of requests), so: one request at a time, a pause after each, a long wait on a refusal.
 const pause = (s) => execFileSync("sleep", [String(s)]);
@@ -53,6 +54,22 @@ if (has("--pull")) { // Colin's picks: drive.json is [{ id, name }], listed by a
     const head = fs.existsSync(out) ? fs.readFileSync(out).subarray(0, 12) : Buffer.alloc(0), image = head[0] === 0xff || head.toString("latin1", 1, 4) === "PNG" || head.toString("latin1", 8, 12) === "WEBP";
     if (image) console.log(`pulled ${f.name}`); else { fs.rmSync(out, { force: true }); console.log(`couldn't fetch ${f.name}: Drive asked for a sign-in. Share the "Trip photos" folder as "Anyone with the link" (viewer).`); } }
   process.exit(0);
+}
+if (has("--ledger")) { // the rows to load into the Photo Ledger (tools/photosheet.html), as ArtifactData batch operations
+  const title = fm("title") || slug, where = fm("country"), ops = [{ op: "set", collection: "trips", doc_id: slug, data: { title } }];
+  let order = 0;
+  for (const d of deck(spec, days)) for (const s of d.slides) ops.push({ op: "update", collection: "shots", doc_id: `${slug}--${s.id}`, data: { trip: slug, id: s.id, day: d.day, dayTitle: d.title, order: order++, title: s.title, shot: s.shot, q: [s.title.replace(/^.*: /, ""), where].filter(Boolean).join(" ") } });
+  console.log(JSON.stringify(ops)); process.exit(0);
+}
+if (has("--adopt")) { // --adopt <rows dir> <pictures dir>: the Photo Ledger's rows (ArtifactData list, out_dir) and its stored pictures (Artifact read, path = asset id), filed as Colin's picks
+  const i = process.argv.indexOf("--adopt"), rows = process.argv[i + 1], pics = process.argv[i + 2], files = fs.readdirSync(pics); let n = 0;
+  fs.mkdirSync(`${CACHE}/mine`, { recursive: true });
+  for (const f of fs.readdirSync(rows).filter((f) => f.startsWith(`${slug}--`) && f.endsWith(".json"))) { const j = JSON.parse(fs.readFileSync(path.join(rows, f), "utf8")), row = j.data ?? j;
+    if (!row.asset) continue; const pic = files.find((x) => x.startsWith(row.asset));
+    if (!pic) { console.log(`${row.id}: stored picture ${row.asset} isn't in ${pics} yet`); continue; }
+    for (const e of ["jpg", "jpeg", "png", "webp"]) fs.rmSync(`${CACHE}/mine/${row.id}.${e}`, { force: true });
+    fs.copyFileSync(path.join(pics, pic), `${CACHE}/mine/${row.id}${path.extname(pic).toLowerCase() || ".jpg"}`); n++; }
+  console.log(`${n} of Colin's pictures filed in ${CACHE}/mine`); process.exit(0);
 }
 if (has("--list")) {
   for (const d of days) { const shots = spec.shots.filter((s) => s.day === d.day); if (!shots.length) continue;
