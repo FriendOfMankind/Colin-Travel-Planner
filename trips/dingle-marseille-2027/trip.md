@@ -569,7 +569,7 @@ slack: The morning.
 
 **Blocks:** Days 2 and 6
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
-The beds are confirmed for the three *(2026-11-17)*. The lifts are the open part, and both are bigger asks than first thought: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
+The beds are confirmed for the three *(2026-11-17)*. The lifts are the open part, and both are bigger asks than first thought: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). **Without the airport lift (only a ~20 min drop in Dingle):** Bus Éireann 275 Dingle 07:15 → Tralee (~1 h), then the **train Tralee 09:05 → Farranfore 09:18** *(Irish Rail timetable PDF, valid from 14 Dec 2025, read by extraction 2026-11-17; check the printed table)*, then Farranfore station → the airport on foot (distance not checked). Car desk ~09:45. Other trains: 07:05 → 07:19, 11:05 → 11:18. Or the 276 Dingle 07:10 → Killarney 08:40, then the FlightLink or a taxi to Farranfore (not checked).
 
 ### What does the Ireland car's cover cost, and do the bags fit?
 

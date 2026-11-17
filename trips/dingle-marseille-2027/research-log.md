@@ -237,3 +237,8 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 - **Toilets.** "No toilets anywhere near" (CorkyMuso-5678, 2025-04) vs "they've added toilets (albeit very simple ones) near the landing?" (the OP, unconfirmed). Skelligs Rock tours "have toilets on the boat" (grania17, 2019 trip). ⬜ not settled.
 - **Lead:** the OPW's own "Visiting Skellig Michael – A Safety Guide" on YouTube (https://youtu.be/EuJ8Dw_iNwU, linked by AlwaysTravel, 2025-08). Not watched.
 - **Spend:** about 8 Firecrawl credits (2 search, 6 for three threads). No Apify.
+
+#### 2026-11-17 · Rail: Heuston ↔ Tralee, and Tralee → Farranfore
+- ✅ **Heuston → Tralee**: leaves every 2 h on the hour, 07:00–19:00, Mon–Sat, change at Mallow *(irishrail.ie "Dublin Heuston – Tralee" PDF, valid from 14.12.2025)*. The arrival times the extraction gave (e.g. 09:00 → 10:58) are impossible for ~4 h, so treat them as unread.
+- ✅ **Tralee → Farranfore → Killarney**, Mon–Sat mornings: 05:45 → 06:00 → 06:22; 07:05 → 07:19 → 07:45; 09:05 → 09:18 → 09:41; 11:05 → 11:18 → 11:41 *(same PDF, by extraction; plausible, but check the printed table)*.
+- ⬜ Farranfore station → Kerry Airport on foot; the Dingle → Tralee 275 times after 07:15.
