@@ -291,3 +291,10 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 
 - **The landing is the plan** *(Colin, 2026-11-16: "Landing, it's the plan")*, budgeted at €170 each. The €80 boat tour that circles the island without landing is only the bad-weather idea now. Why (Claude's case, which he took): the ~€90 difference buys the only part that's the actual thing, the unrailed climb to the monastery, which is his kind of place (unrestored ruins, terrain as scenery: `trips/kentucky-2026/log.md`, `me/travel-style.md`).
 - Before paying: read the operator's cancellation and refund terms. Landings cancel in swell, and Skellig Michael Cruises sells 12 seats a day.
+
+## 2026-11-17 · Where the grandparents live: Ballynavenooragh
+
+- **Ballynavenooragh**, near Brandon Creek, under Mount Brandon *(Colin's Google Maps pin, 2026-11-17)*. The postal address says Tralee; Colin first thought Tralee was nearer. It isn't: ~10 km to Dingle town, ~41 km to Tralee (straight line, computed from his pin).
+- **Was:** beds in "Dingle" with Dingle Harbour as the map stand-in, "Family home (assumed)". Now the four nights point at the new place, and Day 2 has a last leg from Dingle Quay (lift or taxi).
+- **Bigger asks than the plan assumed:** a Dingle Quay pickup on May 10, and the May 14 lift to Kerry Airport at ~1¼ h each way. The open question says so.
+- **Privacy:** the repo is public, so `places.yaml` holds the townland rounded to ~1 km, and no name or street address. The exact pin stays in Colin's Google Maps.

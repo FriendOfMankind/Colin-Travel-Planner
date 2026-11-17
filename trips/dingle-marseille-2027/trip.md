@@ -105,7 +105,7 @@ May 9–22, 2027 (target). 14 days, 13 nights. **Home Saturday, so Stick has all
 
 ### Family in Dingle
 
-**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. Free beds for 4 nights, and **a lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Roots
 
@@ -156,9 +156,9 @@ type: travel
 slack: None needed beyond the block. Nothing else is planned today.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle, Co. Kerry
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek, Co. Kerry
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -169,7 +169,8 @@ overnight:
 - option · travel · **Faster, with one unknown leg:** off at Farranfore, then on to Tralee (family lift, or train or bus 271, times not checked), then **Bus Éireann 275** 16:15 → 17:24. Later 275s run 18:00 → 19:00, 19:30 → 20:26, and the last 22:00 → 22:54 *(NTA via bustimes.org, Oct 2026)*
 - optional · stop · **Blennerville Windmill** is a stop on the 275, just outside Tralee: Ireland's largest working windmill, on Tralee Bay *(Meta AI results pasted by Colin, citing LoveTralee on Facebook, 2026-09-09; the 275 stop list is from dingle-peninsula.ie)*. Only if the day has slack: next bus 18:00
 - fallback · travel · Dublin Coach 300 via a Red Cow change to Tralee, then the 275. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
-- evening · stop · Dingle. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Dingle Co. Kerry
+- ~19:30 → ~19:50 · travel! · **The last leg isn't a bus: Dingle Quay → the house, ~10 km north on the R549 (straight line 9.6 km; ~20 min by road is Claude's estimate).** The family collects you or it's a taxi; nothing scheduled runs there in the evening (Local Link 268 runs 1–3 days a week, booked ahead). Ask Stick which. · 📍 Dingle Quay bus stop
+- evening · stop · Ballynavenooragh. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Ballynavenooragh Co. Kerry
 
 **Meals**
 - B: Dublin Airport
@@ -189,9 +190,9 @@ type: activity
 slack: Afternoon onward is family time. In rain, swap with Day 4 (the town day); if Tuesday is the clear day, Brandon can swap in.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -229,9 +230,9 @@ type: rest
 slack: The whole afternoon.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -257,9 +258,9 @@ type: activity
 slack: The evening. If Thursday's forecast is bad and Tuesday's or Wednesday's is clear, swap Brandon onto that day.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -567,7 +568,7 @@ slack: The morning.
 
 **Blocks:** Days 2–6
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
-Their address decides the May 10 route and the leave time for Kerry Airport on Fri May 14. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
+The address is known now (Ballynavenooragh, see *Family in Dingle*), so the open part is the yes, plus two asks it makes bigger: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
 ### What does the Ireland car's cover cost, and do the bags fit?
 

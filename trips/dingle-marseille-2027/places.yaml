@@ -69,6 +69,13 @@ groups:
         lat: 52.138352
         lng: -10.275029
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+      - name: Ballynavenooragh (family)
+        note: Nights 2–5, Stick's grandparents. Townland under Mount Brandon's west side, near Brandon Creek, off the R549 north of Feohanagh. Pin rounded to ~1 km on purpose (this repo is public); the house itself is in Colin's Google Maps.
+        maps: Ballynavenooragh Co. Kerry
+        verified: true
+        lat: 52.23
+        lng: -10.3
+        source: Google Maps dropped pin (Colin, screenshot, 2026-11-17), rounded to 2 decimals for privacy
       - name: Slea Head Drive
         note: Day 3, needs a tour or driver.
         maps: Slea Head Drive

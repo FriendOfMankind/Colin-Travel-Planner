@@ -5,7 +5,7 @@ url: https://claude.ai/artifact/8GobA4o1TCzks3TUWws3wn   # the published deck (a
 drive: 1ictni28ufV7NIaOYxuTGz6cMoyPMJgQ5   # Drive folder "Trip photos / dingle-marseille-2027": save a picture as <id>.jpg
 shots:
   - { id: d02-inch-beach, day: 2, stop: Local Link 276, title: Inch Beach, shot: "Inch Beach from the road: the long strand the 276 bus passes on the way in" }
-  - { id: d02-dingle-harbour, day: 2, stop: Dingle. Family, title: Dingle, shot: "Dingle harbour and the town behind it, as you arrive" }
+  - { id: d02-dingle-harbour, day: 2, stop: "Dingle Quay → the house", title: Dingle, shot: "Dingle harbour and the town behind it, as you arrive" }
 
   - { id: d03-slea-head, day: 3, stop: Slea Head loop, shot: "The Slea Head road cut into the cliff, with the Blaskets offshore" }
   - { id: d03-dunquin-pier, day: 3, stop: Dunquin Pier, shot: "The zig-zag path down to Dunquin Pier, from above" }
