@@ -314,3 +314,8 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 
 - Asked by Colin: can the car be picked up somewhere that skips the airport? **No.** For a 22-year-old, Enterprise Tralee (25+), Budget Killarney and Avis (licence held 8 years) are all out; Europcar takes 22+ with 2 years' licence, and in Kerry it's airport only. Sources in `research-log.md`, 2026-11-17.
 - Day 6 gains the no-lift option: a short drop in Dingle, bus 275 to Tralee, train to Farranfore, a 1.4 km walk. The family lift stays the first plan until they answer.
+
+## 2026-11-17 · Decided: no airport run for the grandparents
+
+- **May 14 is plan B** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*: they drop us in Dingle ~06:55, then bus 275 07:15 → Tralee, train 09:05 → Farranfore, walk to the Europcar desk, car at ~10:00. **Was:** a family lift to Kerry Airport (~1¼ h each way).
+- **The car quote is Europcar** *(Colin, 2026-11-17)*. His licence dates from 2020, so Europcar's 2-year rule is met.

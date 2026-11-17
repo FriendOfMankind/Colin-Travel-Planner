@@ -43,7 +43,7 @@ booking:
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
     onSale: "Colin's checkout screenshot, $785.79, 2026-11-11"
-    note: "**Picked, not booked: this quote** (Colin, 2026-11-11). $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
+    note: "**Picked, not booked: this quote, from Europcar** (Colin, 2026-11-11; company 2026-11-17). Book the pickup for ~10:00, after the 09:18 train. Europcar Ireland: 22+, licence held 2+ years; Colin's since 2020. $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
@@ -106,7 +106,7 @@ May 9–22, 2027 (target). 14 days, 13 nights. **Home Saturday, so Stick has all
 
 ### Family in Dingle
 
-**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. **Free beds for the three of us, 4 nights, are confirmed** *(Colin, 2026-11-17: they approved the three, not Jake)*. **A lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car; not confirmed yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. **Free beds for the three of us, 4 nights, are confirmed** *(Colin, 2026-11-17: they approved the three, not Jake)*. **May 14: only a drop in Dingle, ~06:55, not the airport run** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*; the bus and train do the rest. Not asked yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Roots
 
@@ -290,7 +290,7 @@ date: 2027-05-14
 tagline: First day on the left, and the shortest drive of the trip.
 type: travel
 slack: The afternoon. Nothing today is timed except the car desk.
-driving: Family lift Ballynavenooragh → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
+driving: Family drop Ballynavenooragh → Dingle; bus and train to Farranfore; then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
 overnight:
   name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
@@ -300,8 +300,8 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Family lift to Kerry Airport** (Farranfore), from the house: ~1¼ h each way *(Claude's estimate from a 53 km straight line; not routed)*. Leave about 1½ h before the car's pickup time, which comes with the booking. Not confirmed with the family yet (Open questions). · 📍 Kerry Airport
-- option · travel · **Without the airport lift:** a ~20 min drop in Dingle, then **Bus Éireann 275 07:15 → Tralee** (~1 h), then the **train Tralee 09:05 → Farranfore 09:18** *(Irish Rail PDF, valid from 14 Dec 2025, by extraction; check the printed table)*, then walk **1.4 km** to the terminal *(kerryairport.ie)*, ~15–20 min with bags. At the desk ~09:40; **Europcar Kerry Airport opens 09:00 on Fridays** *(europcar.ie, read 2026-11-17)*. Book the car for 10:00. · 📍 Tralee Bus Station
+- ~06:55 · drive · **Family drop in Dingle**, ~20 min from the house *(Claude's estimate)*. Not the airport run *(Colin, 2026-11-17)*; not asked yet. · 📍 Dingle Quay bus stop
+- 07:15 → ~09:40 · travel! · **Bus Éireann 275 Dingle → Tralee** (~1 h), then the **train Tralee 09:05 → Farranfore 09:18** *(Irish Rail PDF, valid from 14 Dec 2025, by extraction; check the printed table)*, then walk **1.4 km** to the terminal *(kerryairport.ie)*, ~15–20 min with bags. At the desk ~09:40; **Europcar Kerry Airport opens 09:00 on Fridays** *(europcar.ie, read 2026-11-17)*. Book the car for 10:00. Next train if the bus runs late: 11:05 → 11:18. · 📍 Tralee Bus Station
 - morning · drive · **Pick up the car.** Europcar has a desk at Kerry Airport, open Fri 09:00–17:30 *(europcar.ie, 2026-11-17)*: 22+, licence held 2+ years *(europcar.ie FAQ)*. **Avis and Budget are out:** most car groups need a licence held 8 years *(avis.ie country conditions, Nov 2025; budget.ie Ireland terms)*. **No town pickup works:** Enterprise Tralee is 25+, and Budget Killarney (Kenmare Place) has the 8-year rule *(enterprise.com; budget.ie, 2026-11-17)*. The picked quote is a $785.79 automatic, one way to Dublin Airport on May 21, company not named on it (booking row); Avis showed nothing for these dates. A lap of the car park before the road
 - midday · drive · To Killarney. · 📍 Killarney Co. Kerry
 - afternoon · hike · **The Gap of Dunloe** on foot, a narrow mountain pass *(recalled; start point, length and the boat back from Lord Brandon's Cottage not checked)*. · 📍 Gap of Dunloe
@@ -554,7 +554,7 @@ slack: The morning.
 - [x] Ireland only, no Scotland *(2026-11-10, Finn and Stick agreed)*
 - [x] Automatic *(Colin, 2026-11-02)*
 - [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
-- [ ] Family: beds for May 10–13, and the May 14 lift to Kerry Airport (address → leave time)
+- [ ] Family: the Dingle pickup on May 10 (~19:30) and the Dingle drop on May 14 (~06:55)
 - [ ] May 10: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [ ] **Skellig Michael landing**, Sat May 15: Skellig Michael Cruises is open for 2027 (12 seats a day, 2026-11-14)
 - [ ] Ireland car, Kerry Airport → Dublin Airport, May 14–21: one-way fee, under-25 fee, excess cover
@@ -566,11 +566,11 @@ slack: The morning.
 
 ## Open questions
 
-### Will the grandparents do the two lifts: Dingle Quay on May 10, Kerry Airport on May 14?
+### Will the grandparents do the two Dingle runs: pickup May 10 ~19:30, drop May 14 ~06:55?
 
 **Blocks:** Days 2 and 6
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
-The beds are confirmed for the three *(2026-11-17)*. The lifts are the open part, and both are bigger asks than first thought: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). **Without the airport lift (only a ~20 min drop in Dingle):** Bus Éireann 275 Dingle 07:15 → Tralee (~1 h), then the **train Tralee 09:05 → Farranfore 09:18** *(Irish Rail timetable PDF, valid from 14 Dec 2025, read by extraction 2026-11-17; check the printed table)*, then Farranfore station → the airport on foot (distance not checked). Car desk ~09:45. Other trains: 07:05 → 07:19, 11:05 → 11:18. Or the 276 Dingle 07:10 → Killarney 08:40, then the FlightLink or a taxi to Farranfore (not checked).
+The beds are confirmed for the three *(2026-11-17)*. Both asks are now ~20 min each way (Claude's estimate): **collect us in Dingle around 19:30 on Mon May 10** (the 276's Dingle stop isn't recorded; the 275 ends at Dingle Quay), and **drop us in Dingle for the 07:15 bus on Fri May 14**. The airport run is off *(Colin, 2026-11-17)*. If the early drop doesn't suit them: a taxi to Dingle, booked by phone the day before (no Uber).
 
 ### What does the Ireland car's cover cost, and do the bags fit?
 
