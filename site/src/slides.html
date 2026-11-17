@@ -1,0 +1,127 @@
+<title>__TITLE__, day by day</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500&family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* One screen per slide, swiped sideways. A slide is a full-bleed picture with the plan's words on a
+   scrim at the foot; the day's poster colour (--c, set per slide) is the only accent.
+   A single dark look by choice: a picture deck reads best on ink in either theme. */
+:root {
+  color-scheme: dark;
+  --ink: #101614;        /* the ground, the poster's ink a shade deeper */
+  --ink-2: #1b2422;      /* raised: the rail, the wanted frame */
+  --paper: #f1f3ee;      /* text */
+  --dim: #aab4ae;        /* secondary text */
+  --line: #3a4743;
+  --blaze: #e4b02e;      /* warnings, the poster's gold */
+  --display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", sans-serif;
+  --body: "Barlow", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --gl: max(20px, env(safe-area-inset-left, 0px));
+  --gr: max(20px, env(safe-area-inset-right, 0px));
+}
+html, body { height: 100%; }
+body { background: var(--ink); color: var(--paper); font: 400 17px/1.45 var(--body); overflow: hidden; }
+.deck { height: 100%; display: flex; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; }
+.deck::-webkit-scrollbar { display: none; }
+.slide { position: relative; flex: 0 0 100%; height: 100%; scroll-snap-align: start; scroll-snap-stop: always; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; background: var(--ink); }
+.slide .bg { position: absolute; inset: 0; width: 100%; height: 100%; max-width: none; object-fit: cover; }
+.slide .body { position: relative; padding-block: 5rem 4.4rem; padding-left: var(--gl); padding-right: var(--gr); max-width: 46rem; display: flex; flex-direction: column; gap: .55rem; }
+.photo .body, .cover:not(.bare) .body, .trip .body { background: linear-gradient(to top, rgba(16, 22, 20, .94) 0%, rgba(16, 22, 20, .86) 55%, rgba(16, 22, 20, 0) 100%); max-width: none; }
+.photo .body > *, .cover .body > *, .trip .body > * { max-width: 44rem; }
+.eyebrow { margin: 0; font: 500 .74rem/1.3 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--c); }
+h1, h2, h3 { margin: 0; font-family: var(--display); font-weight: 700; line-height: .98; text-wrap: balance; text-transform: uppercase; letter-spacing: .005em; }
+h1 { font-size: clamp(3rem, 11vw, 6.4rem); }
+h2 { font-size: clamp(2.6rem, 9vw, 5.2rem); }
+h3 { font-size: clamp(1.9rem, 6vw, 3rem); }
+.tag { margin: 0; font-size: 1.06rem; color: var(--paper); max-width: 60ch; }
+.hint { margin: .6rem 0 0; font: 400 .72rem var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+
+/* the trip cover and a day's cover */
+.trip .bg { opacity: .5; }
+.cover .bg { filter: saturate(.75) brightness(.5); }
+.cover { border-top: 6px solid var(--c); }
+.cover.bare { justify-content: center; background: linear-gradient(160deg, color-mix(in srgb, var(--c) 26%, var(--ink)) 0%, var(--ink) 62%); }
+.cover dl { margin: .7rem 0 0; display: grid; gap: .5rem; max-width: 44rem; }
+.cover dl div { display: grid; grid-template-columns: 4.6rem minmax(0, 1fr); gap: .8rem; align-items: baseline; padding-top: .5rem; border-top: 1px solid rgba(241, 243, 238, .18); }
+.cover dt { font: 500 .68rem var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--dim); }
+.cover dd { margin: 0; font-size: .95rem; }
+
+/* a picture */
+.credit { position: absolute; right: var(--gr); bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); margin: 0; font: 400 .62rem var(--mono); color: var(--dim); max-width: 70%; text-align: right; }
+.credit a { color: inherit; text-decoration: none; }
+.credit a:hover, .credit a:focus-visible { text-decoration: underline; }
+
+/* a picture still to find */
+.wanted { justify-content: flex-end; }
+.wanted .frame { position: absolute; inset: calc(4.2rem + env(safe-area-inset-top, 0px)) var(--gr) 46% var(--gl); border: 2px dashed var(--line); border-radius: 6px; background: var(--ink-2); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .5rem; padding: 1.2rem; text-align: center; }
+.wanted .brief { margin: 0; font: 600 1.5rem/1.1 var(--display); text-transform: uppercase; max-width: 22ch; }
+.wanted .file { margin: 0; font: 400 .74rem var(--mono); color: var(--dim); }
+.wanted .file b { color: var(--paper); font-weight: 500; }
+.wanted .body { padding-top: 0; }
+
+/* the day's warnings */
+.warn { justify-content: center; border-top: 6px solid var(--blaze); }
+.warn .eyebrow { color: var(--blaze); }
+.warn .body { gap: 1.1rem; overflow-y: auto; padding-block: 5rem 4rem; }
+.warn h3 { font-size: clamp(1.5rem, 5vw, 2.3rem); margin-bottom: .35rem; }
+.warn p { margin: 0; max-width: 62ch; }
+
+/* credits */
+.credits { justify-content: flex-start; }
+.credits .body { overflow-y: auto; max-height: 100%; }
+.credits ul { margin: .6rem 0 0; padding: 0; list-style: none; display: grid; gap: .4rem; font-size: .86rem; }
+.credits a { color: var(--paper); }
+.credits span { color: var(--dim); font: 400 .7rem var(--mono); }
+
+/* the day rail and the arrows */
+.rail { position: fixed; inset: 0 0 auto; z-index: 5; display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding: calc(10px + env(safe-area-inset-top, 0px)) var(--gr) 14px var(--gl); background: linear-gradient(to bottom, rgba(16, 22, 20, .88), rgba(16, 22, 20, 0)); }
+.rail::-webkit-scrollbar { display: none; }
+.rail button { flex: 0 0 auto; min-width: 2.1rem; height: 2.1rem; border: 0; border-bottom: 3px solid var(--c); border-radius: 3px 3px 0 0; background: rgba(27, 36, 34, .78); color: var(--dim); font: 500 .78rem var(--mono); cursor: pointer; }
+.rail button[aria-current="true"] { background: var(--c); color: #101614; }
+.nav { position: fixed; top: 50%; z-index: 5; width: 2.8rem; height: 4.4rem; margin-top: -2.2rem; border: 0; border-radius: 4px; background: rgba(27, 36, 34, .6); color: var(--paper); font: 700 1.5rem var(--display); cursor: pointer; }
+.nav.prev { left: env(safe-area-inset-left, 0px); } .nav.next { right: env(safe-area-inset-right, 0px); }
+.nav:disabled { opacity: 0; pointer-events: none; }
+@media (hover: none), (max-width: 640px) { .nav { display: none; } }
+.count { position: fixed; left: var(--gl); bottom: calc(1.5rem + env(safe-area-inset-bottom, 0px)); z-index: 5; margin: 0; font: 400 .66rem var(--mono); letter-spacing: .08em; color: var(--dim); }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--paper); outline-offset: 2px; }
+@media (min-width: 900px) { body { font-size: 19px; } .slide .body { padding-block: 6rem 4.6rem; padding-left: max(4rem, env(safe-area-inset-left, 0px)); } .count { left: max(4rem, env(safe-area-inset-left, 0px)); } }
+</style>
+
+<nav class="rail" aria-label="Days">__RAIL__</nav>
+<main class="deck" id="deck" tabindex="0" aria-label="__TITLE__, day by day">
+__SLIDES__
+</main>
+<button type="button" class="nav prev" id="prev" aria-label="Previous slide">‹</button>
+<button type="button" class="nav next" id="next" aria-label="Next slide">›</button>
+<p class="count" id="count" aria-live="polite"></p>
+
+<script>
+(() => {
+  const deck = document.getElementById("deck"), slides = [...deck.children], rail = [...document.querySelectorAll(".rail button")];
+  const count = document.getElementById("count"), prev = document.getElementById("prev"), next = document.getElementById("next");
+  const KEY = "slide:" + document.title;
+  const at = () => Math.round(deck.scrollLeft / deck.clientWidth);
+  const go = (i, smooth = true) => deck.scrollTo({ left: Math.max(0, Math.min(slides.length - 1, i)) * deck.clientWidth, behavior: smooth && !matchMedia("(prefers-reduced-motion: reduce)").matches ? "smooth" : "auto" });
+  let last = -1;
+  const mark = () => {
+    const i = at(); if (i === last) return; last = i;
+    const day = slides[i].dataset.day;
+    for (const b of rail) { const on = b.dataset.go === day; b.setAttribute("aria-current", on); if (on) b.scrollIntoView({ block: "nearest", inline: "center" }); }
+    count.textContent = (i + 1) + " / " + slides.length;
+    prev.disabled = i === 0; next.disabled = i === slides.length - 1;
+    try { localStorage.setItem(KEY, String(i)); } catch {}
+  };
+  deck.addEventListener("scroll", () => requestAnimationFrame(mark), { passive: true });
+  addEventListener("resize", () => go(last, false));
+  prev.addEventListener("click", () => go(at() - 1)); next.addEventListener("click", () => go(at() + 1));
+  for (const b of rail) b.addEventListener("click", () => go(slides.findIndex((s) => s.dataset.day === b.dataset.go)));
+  addEventListener("keydown", (e) => {
+    if (e.key === "ArrowRight" || e.key === " " || e.key === "PageDown") { e.preventDefault(); go(at() + 1); }
+    else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); go(at() - 1); }
+    else if (e.key === "Home") go(0); else if (e.key === "End") go(slides.length - 1);
+  });
+  let start = 0; try { start = +localStorage.getItem(KEY) || 0; } catch {}
+  if (start) go(start, false);
+  mark();
+})();
+</script>

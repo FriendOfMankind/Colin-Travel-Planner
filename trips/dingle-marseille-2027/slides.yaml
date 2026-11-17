@@ -1,0 +1,54 @@
+# The Ireland slideshow: which pictures, on which day. The words on each slide come from trip.md
+# when the deck is built (node tools/slides.mjs dingle-marseille-2027); format in tools/lib/slides.mjs.
+# A picture is Colin's own pick if one is saved in Drive under the shot's id, else the Commons default.
+url: https://claude.ai/artifact/8GobA4o1TCzks3TUWws3wn   # the published deck (a private claude.ai page); republish to this url, never as a new page
+drive: 1ictni28ufV7NIaOYxuTGz6cMoyPMJgQ5   # Drive folder "Trip photos / dingle-marseille-2027": save a picture as <id>.jpg
+shots:
+  - { id: d02-inch-beach, day: 2, stop: Local Link 276, title: Inch Beach, shot: "Inch Beach from the road: the long strand the 276 bus passes on the way in" }
+  - { id: d02-dingle-harbour, day: 2, stop: Dingle. Family, title: Dingle, shot: "Dingle harbour and the town behind it, as you arrive" }
+
+  - { id: d03-slea-head, day: 3, stop: Slea Head loop, shot: "The Slea Head road cut into the cliff, with the Blaskets offshore" }
+  - { id: d03-dunquin-pier, day: 3, stop: Dunquin Pier, shot: "The zig-zag path down to Dunquin Pier, from above" }
+  - { id: d03-great-blasket, day: 3, stop: Great Blasket Island, shot: "The abandoned village on Great Blasket" }
+  - { id: d03-gallarus-oratory, day: 3, stop: Gallarus Oratory, shot: "Gallarus Oratory, the whole dry-stone building" }
+  - { id: d03-kilmalkedar, day: 3, stop: Kilmalkedar, shot: "Kilmalkedar's roofless Romanesque church" }
+
+  - { id: d04-dingle-town, day: 4, stop: Dingle town and the harbour, title: Dingle town, shot: "A Dingle street: painted shopfronts and pubs" }
+  - { id: d04-eask-tower, day: 4, stop: Eask Tower, shot: "Eask Tower on its hill, or the harbour mouth from it" }
+
+  - { id: d05-brandon-faha, day: 5, stop: Mount Brandon from Faha, shot: "The Faha route: the corrie lakes under the summit ridge" }
+  - { id: d05-brandon-summit, day: 5, stop: Mount Brandon from Faha, title: The summit, shot: "The summit of Mount Brandon and the view from it" }
+  - { id: d05-brandon-creek, day: 5, stop: Brandon Creek and Brandon Point, shot: "Brandon Creek, the cove, or the cliffs at Brandon Point" }
+
+  - { id: d06-gap-of-dunloe, day: 6, stop: The Gap of Dunloe, shot: "The Gap of Dunloe: the road through the pass, with a lake" }
+  - { id: d06-killarney, day: 6, stop: Killarney pubs, title: Killarney, shot: "A Killarney street in the evening" }
+
+  - { id: d07-skellig-boat, day: 7, stop: Skellig Michael landing, title: The boat out, shot: "Skellig Michael from the boat, the whole rock" }
+  - { id: d07-skellig-steps, day: 7, stop: Skellig Michael landing, shot: "The stone steps, so you can see how steep and unrailed they are" }
+  - { id: d07-skellig-huts, day: 7, stop: Skellig Michael landing, title: The beehive huts, shot: "The monks' beehive huts at the top" }
+  - { id: d07-tetrapod, day: 7, stop: Valentia tetrapod trackway, shot: "The tetrapod footprints in the shore rock" }
+  - { id: d07-kerry-cliffs, day: 7, stop: Kerry Cliffs, title: "If the boat doesn't sail: the Kerry Cliffs", shot: "The Kerry Cliffs at Portmagee" }
+
+  - { id: d08-shannon-ferry, day: 8, stop: Killimer car ferry, shot: "The Shannon car ferry at Tarbert or Killimer" }
+  - { id: d08-lahinch, day: 8, stop: Lahinch Castle Course, shot: "Lahinch: the links and the bay" }
+  - { id: d08-loop-head, day: 8, stop: Loop Head, shot: "Loop Head lighthouse on its headland, or the Bridges of Ross arch" }
+  - { id: d08-cliffs-of-moher, day: 8, stop: The Cliffs of Moher, shot: "The Cliffs of Moher in evening light, looking along the cliff line" }
+
+  - { id: d09-ferry, day: 9, stop: Doolin → Inis Mór, shot: "The Doolin ferry, or Doolin pier" }
+  - { id: d09-inis-mor, day: 9, stop: Rent bikes at Kilronan, title: Inis Mór by bike, shot: "An Inis Mór lane between dry-stone walls" }
+  - { id: d09-dun-aonghasa, day: 9, stop: Dún Aonghasa, shot: "Dún Aonghasa: the fort wall ending at the cliff edge" }
+
+  - { id: d10-mullaghmore, day: 10, stop: Mullaghmore, shot: "Mullaghmore: the folded limestone hill in the Burren" }
+  - { id: d10-dysert-odea, day: 10, stop: Dysert O'Dea Castle, shot: "Dysert O'Dea Castle, the tower house" }
+  - { id: d10-poulnabrone, day: 10, stop: Poulnabrone dolmen, shot: "The Poulnabrone dolmen on its limestone pavement" }
+  - { id: d10-doolin-cave, day: 10, stop: Doolin Cave, shot: "The great stalactite in Doolin Cave" }
+
+  - { id: d11-dunguaire, day: 11, stop: Dunguaire Castle, shot: "Dunguaire Castle on the bay at Kinvara" }
+  - { id: d11-galway-quay, day: 11, stop: Galway on foot, shot: "Quay Street or Shop Street in Galway's Latin Quarter" }
+  - { id: d11-galway-cathedral, day: 11, stop: Galway on foot, title: Galway Cathedral, shot: "Galway Cathedral across the river from the Salmon Weir Bridge" }
+
+  - { id: d12-diamond-hill, day: 12, stop: Diamond Hill, shot: "Diamond Hill: the path up, or the view from the top" }
+  - { id: d12-omey, day: 12, stop: Omey Island, shot: "The strand to Omey Island at low tide" }
+  - { id: d12-killary, day: 12, stop: Omey Island, title: "Or Killary Fjord", shot: "Killary Fjord, if the tide is wrong for Omey" }
+
+  - { id: d13-clonmacnoise, day: 13, stop: Clonmacnoise, shot: "Clonmacnoise: the round tower and high crosses above the Shannon" }
