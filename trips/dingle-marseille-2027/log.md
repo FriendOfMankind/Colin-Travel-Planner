@@ -309,3 +309,8 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 ## 2026-11-17 · Flights booked
 
 - **The CLE ⇄ DUB round trip is booked**, by the parents *(Colin, 2026-11-17)*. The booking row says `booked: true`; the price paid, the exact flights and the confirmation aren't seen yet (no receipt in Drive). The plan assumes EI 86 out May 9 and EI 87 home Sat May 22, as picked on 2026-11-04.
+
+## 2026-11-17 · May 14: Kerry Airport stays; there's a no-lift way there
+
+- Asked by Colin: can the car be picked up somewhere that skips the airport? **No.** For a 22-year-old, Enterprise Tralee (25+), Budget Killarney and Avis (licence held 8 years) are all out; Europcar takes 22+ with 2 years' licence, and in Kerry it's airport only. Sources in `research-log.md`, 2026-11-17.
+- Day 6 gains the no-lift option: a short drop in Dingle, bus 275 to Tralee, train to Farranfore, a 1.4 km walk. The family lift stays the first plan until they answer.
