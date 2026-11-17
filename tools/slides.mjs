@@ -20,7 +20,7 @@ import { createHash } from "node:crypto";
 import { execFileSync } from "node:child_process";
 import { createRequire } from "node:module";
 import { parseTrip } from "./lib/format.mjs";
-import { checkSlides, deck, parseSlides } from "./lib/slides.mjs";
+import { beds, checkSlides, deck, lede, parseSlides, plain } from "./lib/slides.mjs";
 import { POSTER_DIR, dayColor } from "./lib/posters.mjs";
 
 const slug = process.argv[2], has = (k) => process.argv.includes(k), arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; };
@@ -58,7 +58,7 @@ if (has("--pull")) { // Colin's picks: drive.json is [{ id, name }], listed by a
 if (has("--ledger")) { // the rows to load into the Photo Ledger (tools/photosheet.html), as ArtifactData batch operations
   const title = fm("title") || slug, where = fm("country"), ops = [{ op: "set", collection: "trips", doc_id: slug, data: { title } }];
   let order = 0;
-  for (const d of deck(spec, days)) for (const s of d.slides) ops.push({ op: "update", collection: "shots", doc_id: `${slug}--${s.id}`, data: { trip: slug, id: s.id, day: d.day, dayTitle: d.title, order: order++, title: s.title, shot: s.shot, q: [s.title.replace(/^.*: /, ""), where].filter(Boolean).join(" ") } });
+  for (const d of deck(spec, days)) for (const s of d.slides.filter((x) => x.kind === "photo")) ops.push({ op: "update", collection: "shots", doc_id: `${slug}--${s.id}`, data: { trip: slug, id: s.id, day: d.day, dayTitle: d.title, order: order++, title: s.title, shot: s.shot, q: [s.title.replace(/^.*: /, ""), where].filter(Boolean).join(" ") } });
   console.log(JSON.stringify(ops)); process.exit(0);
 }
 if (has("--adopt")) { // --adopt <rows dir> <pictures dir>: the Photo Ledger's rows (ArtifactData list, out_dir) and its stored pictures (Artifact read, path = asset id), filed as Colin's picks
@@ -83,7 +83,7 @@ const commonsUrl = (title, width) => { const name = title.replace(/^File:/, "").
   return width ? `${base}/thumb/${h[0]}/${h.slice(0, 2)}/${e}/${width}px-${e}` : `${base}/${h[0]}/${h.slice(0, 2)}/${e}`; };
 fs.mkdirSync(`${CACHE}/commons`, { recursive: true });
 const model = deck(spec, days), want = [];
-for (const d of model) for (const s of d.slides) {
+for (const d of model) for (const s of d.slides) { if (s.kind !== "photo") continue;
   s.src = mineOf(s.id) ?? null; s.mine = !!s.src;
   if (!s.src && s.commons) { const f = `${CACHE}/commons/${s.id}-${createHash("md5").update(s.commons).digest("hex").slice(0, 8)}.jpg`;
     if (!fs.existsSync(f)) { try { curl(commonsUrl(s.commons, 1280), f); } catch { try { curl(commonsUrl(s.commons), f); } catch { console.error(`⚠ ${s.id}: couldn't fetch ${s.commons}`); } } }
@@ -107,20 +107,48 @@ await browser.close();
 // ---- the page ---------------------------------------------------------------
 const first = days[0].day, last = days[days.length - 1].day, col = (n) => dayColor(n, first, last);
 const dateOf = (iso) => new Date(iso + "T12:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" });
-const title = fm("title") || slug, S = [];
+// Line drawings for the kinds of thing a day holds. 24-unit grid, drawn here: no outside artwork.
+const I = {
+  fly: "M12 2.5c.8 0 1.4.9 1.4 2v4.6l7.1 4.4v1.8l-7.1-2.2v4.4l2.1 1.6v1.4L12 19.6l-3.5.9v-1.4l2.1-1.6v-4.4l-7.1 2.2v-1.8l7.1-4.4V4.5c0-1.1.6-2 1.4-2z",
+  travel: "M5 17V6.5A1.5 1.5 0 0 1 6.5 5h11A1.5 1.5 0 0 1 19 6.5V17zM5 12h14M3.5 17h17M7.5 17v2M16.5 17v2M8 14.6h.01M16 14.6h.01M3 9v3M21 9v3",
+  drive: "M3.5 16.5v-4l2-5a1.5 1.5 0 0 1 1.4-1h10.2a1.5 1.5 0 0 1 1.4 1l2 5v4zM3.5 12.5h17M6 16.5v2M18 16.5v2M7 14.6h.01M17 14.6h.01",
+  ferry: "M4 14l1.6 5h12.8L20 14zM6.5 14V9.5h11V14M9.5 9.5v-4h5v4M12 5.5V3M2.5 21.5c1.6-1.2 3.2-1.2 4.8 0s3.2 1.2 4.7 0 3.2-1.2 4.8 0 3.1 1.2 4.7 0",
+  hike: "M2.5 19.5l6-10.5 3.2 5 2.3-3.5 7.5 9zM8.5 9l1.6-2.6M14 10.5l1.4-2",
+  walk: "M12.5 5.2a1.4 1.4 0 1 0 0-.1M9 21l2.5-6-2-3 1-4.5 3.5 1 2 3.5M10.5 7.5L7.5 10M13.5 15l2.5 6",
+  food: "M6 3v7a2 2 0 0 0 4 0V3M8 3v18M16.5 3c-2 1.5-2.5 4-2.5 7h2.5zM16.5 10v11",
+  music: "M9 18.5V5.5l10-2v13M9 18.5a2.4 2.4 0 1 1-4.800 0 2.4 2.4 0 0 1 4.800 0zM19 16.500a2.400 2.400 0 1 1-4.800 0 2.400 2.400 0 0 1 4.800 0z",
+  ruins: "M5 21V8l2-1.5V4h2v2h2V4h2v2h2V4h2v2.500L19 8v13zM10 21v-4.500a2 2 0 0 1 4 0V21M3 21h18",
+  bed: "M3 19v-12M3 15.500h18V19M21 15.500v-2.500a3 3 0 0 0-3-3h-7v5.500M6.800 13.200a1.600 1.600 0 1 0 0-.100",
+  stop: "M12 21.500s-6.500-6.300-6.500-11a6.500 6.500 0 0 1 13 0c0 4.700-6.500 11-6.500 11zM12 12.300a2.200 2.200 0 1 0 0-4.400 2.200 2.200 0 0 0 0 4.400z",
+  sun: "M3 17.500h18M6.500 17.500a5.500 5.500 0 0 1 11 0M12 6.500V4M5.300 10.300L3.600 8.600M18.700 10.300l1.700-1.700M8 21h8",
+  camp: "M3 20L12 5l9 15zM12 5V3M9.500 20l2.500-5 2.500 5",
+  note: "M6 3.500h9l4 4V20.500H6zM15 3.500v4h4M9 12h7M9 15.500h7",
+  sport: "M6 21V3.500M6 4.500h11l-2.500 3.500 2.500 3.500H6M3.500 21h5",
+  ride: "M6 19.500a3.500 3.500 0 1 0 0-7 3.500 3.500 0 0 0 0 7zM18 19.500a3.500 3.500 0 1 0 0-7 3.500 3.500 0 0 0 0 7zM6 16l4-7h6l2 7M10 9l3 7M9 6h3",
+};
+Object.assign(I, { boat: I.ferry, paddle: I.ferry, sunrise: I.sun, sunset: I.sun, wake: I.sun, fossil: I.stop, cave: I.hike, geology: I.hike, activity: I.stop, shop: I.stop, rest: I.bed });
+const icon = (kind, cls = "") => `<svg class="ic ${cls} k-${I[kind] === I.fly ? "fly" : "other"}" viewBox="0 0 24 24" aria-hidden="true"><path d="${(I[kind] ?? I.stop).replace(/(\d)\.(\d)00\b/g, "$1.$2")}"/></svg>`;
+const title = fm("title") || slug, S = [], meta = trip.page.meta ?? {};
 const slide = (day, cls, inner, bg) => S.push(`<section class="slide ${cls}" data-day="${day}" style="--c:${day ? col(day) : "#e4b02e"}">${bg ? `<img class="bg" src="${bg}" alt="" loading="lazy">` : ""}${inner}</section>`);
-slide(0, "trip", `<div class="body"><p class="eyebrow">${esc(fm("dates"))}</p><h1>${esc(title)}</h1><p class="tag">${esc(fm("subtitle"))}</p><p class="hint">${days.length} days · swipe, or use the arrow keys</p></div>`, poster);
+const eyebrow = (d, more) => `<p class="eyebrow">Day ${String(d.day).padStart(2, "0")}${more ? ` · ${esc(more)}` : ""}</p>`;
+slide(0, "trip", `<div class="body"><p class="eyebrow">${esc(fm("dates"))}</p><h1>${esc(title)}</h1><p class="tag">${esc(plain(meta.subtitle ?? fm("subtitle")))}</p><p class="hint">${days.length} days · swipe, or use the arrow keys</p></div>`, poster);
+// the trip before the days: the route, how you get there and around, where you sleep, what's booked
+if (poster) slide(0, "map", `<img class="fit" src="${poster}" alt="The route poster: ${esc(title)}"><div class="body"><p class="eyebrow">The route</p>${meta.route ? `<p class="tag">${esc(lede(meta.route, 330))}</p>` : ""}</div>`);
+if (meta.gettingThere || meta.vehicle) slide(0, "leg", `${icon("fly", "big")}<div class="body"><p class="eyebrow">Getting there and around</p>${meta.gettingThere ? `<h3>Flights</h3><p class="tag">${esc(lede(meta.gettingThere, 300))}</p>` : ""}${meta.vehicle ? `<h3>Wheels</h3><p class="tag">${esc(lede(meta.vehicle, 300))}</p>` : ""}</div>`);
+{ const b = beds(model); if (b.length) slide(0, "list", `<div class="body"><p class="eyebrow">Where you sleep</p><h3>${b.length} beds, ${model.filter((d) => d.bedName).length} nights</h3><ul class="rows">${b.map((x) => `<li style="--c:${col(x.from)}"><span class="t">${x.from === x.to ? `Night ${x.from}` : `Nights ${x.from}–${x.to}`}</span>${icon("bed")}<span class="n">${esc(x.name)}<small>${esc(x.place)}</small></span></li>`).join("")}</ul></div>`); }
+{ const bk = trip.registry.booking ?? []; if (bk.length) slide(0, "list", `<div class="body"><p class="eyebrow">Bookings · as the plan has them</p><h3>${bk.filter((x) => x.booked).length} of ${bk.length} booked</h3><ul class="rows">${bk.map((x) => `<li class="${x.booked ? "yes" : "no"}"><span class="t">${x.booked ? "booked" : "not yet"}</span><span class="n">${esc(plain(x.what))}</span></li>`).join("")}</ul></div>`); }
 for (const d of model) {
-  const cover = d.slides.find((s) => s.data)?.data;
+  const cover = d.slides.find((s) => s.data)?.data, lead = d.slides.find((s) => s.kind === "leg")?.rowKind ?? d.plan.find((r) => I[r.kind])?.kind;
   const facts = [["Driving", d.driving], ["Sleep", d.bed], ["Eat", d.meals.join(" · ")], ["Slack", d.slack]].filter(([, v]) => v);
-  slide(d.day, `cover${cover ? "" : " bare"}`, `<div class="body"><p class="eyebrow">Day ${String(d.day).padStart(2, "0")} · ${esc(dateOf(d.date))}${d.type ? ` · ${esc(d.type)}` : ""}</p><h2>${esc(d.title)}</h2><p class="tag">${esc(d.tagline)}</p><dl>${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`, cover);
+  slide(d.day, `cover${cover ? "" : " bare"}`, `${cover ? "" : icon(lead, "big")}<div class="body">${eyebrow(d, `${dateOf(d.date)}${d.type ? ` · ${d.type}` : ""}`)}<h2>${esc(d.title)}</h2><p class="tag">${esc(d.tagline)}</p><dl>${facts.map(([k, v]) => `<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl></div>`, cover);
+  if (d.plan.length > 1) slide(d.day, "list", `<div class="body">${eyebrow(d, "the plan")}<h3>${esc(d.title)}</h3><ul class="rows plan">${d.plan.map((r) => `<li class="${r.soft ? "soft" : ""}"><span class="t">${esc(r.time)}</span>${icon(r.kind)}<span class="n">${esc(r.name)}${r.warn ? ` <b class="flag">careful</b>` : ""}</span></li>`).join("")}</ul></div>`);
   for (const s of d.slides) {
-    const meta = [s.when, s.soft ? "" : null].filter(Boolean).join(" · ");
-    const text = `<div class="body"><p class="eyebrow">Day ${String(d.day).padStart(2, "0")}${meta ? ` · ${esc(meta)}` : ""}</p><h3>${esc(s.title)}</h3><p class="tag">${esc(s.text)}</p></div>`;
-    if (s.data) slide(d.day, "photo", `${text}<p class="credit">${s.mine ? "Colin's pick" : `<a href="https://commons.wikimedia.org/wiki/${encodeURIComponent(s.commons.replace(/ /g, "_"))}" target="_blank" rel="noopener">${esc(s.credit)}</a>`}</p>`, s.data);
+    const text = `<div class="body">${eyebrow(d, s.when)}<h3>${esc(s.title)}</h3>${s.text ? `<p class="tag">${esc(s.text)}</p>` : ""}</div>`;
+    if (s.kind === "leg") slide(d.day, "leg", `${icon(s.rowKind, "big")}${text}`);
+    else if (s.data) slide(d.day, "photo", `${text}<p class="credit">${s.mine ? "Colin's pick" : `<a href="https://commons.wikimedia.org/wiki/${encodeURIComponent(s.commons.replace(/ /g, "_"))}" target="_blank" rel="noopener">${esc(s.credit)}</a>`}</p>`, s.data);
     else slide(d.day, "wanted", `<div class="frame"><p class="eyebrow">Photo wanted</p><p class="brief">${esc(s.shot)}</p><p class="file">save as <b>${esc(s.id)}</b></p></div>${s.text === s.shot ? text.replace(/<p class="tag">.*?<\/p>/, "") : text}`);
   }
-  if (d.warnings.length) slide(d.day, "warn", `<div class="body"><p class="eyebrow">Day ${String(d.day).padStart(2, "0")} · watch for</p>${d.warnings.map((w) => `<div class="w">${w.lead ? `<h3>${esc(w.lead)}</h3>` : ""}<p>${esc(w.text)}</p></div>`).join("")}</div>`);
+  if (d.warnings.length) slide(d.day, "warn", `<div class="body">${eyebrow(d, "watch for")}${d.warnings.map((w) => `<div class="w">${w.lead ? `<h3>${esc(w.lead)}</h3>` : ""}<p>${esc(w.text)}</p></div>`).join("")}</div>`);
 }
 const credits = model.flatMap((d) => d.slides.filter((s) => s.data && !s.mine).map((s) => `<li><a href="https://commons.wikimedia.org/wiki/${encodeURIComponent(s.commons.replace(/ /g, "_"))}" target="_blank" rel="noopener">${esc(s.title)}</a> <span>${esc(s.credit)}</span></li>`));
 if (credits.length) slide(0, "credits", `<div class="body"><p class="eyebrow">Pictures</p><h3>Credits</h3><p class="tag">From Wikimedia Commons, under the licence named with each. Resized for this deck.</p><ul>${credits.join("")}</ul></div>`);
@@ -129,6 +157,6 @@ const shell = fs.readFileSync("site/src/slides.html", "utf8");
 const html = shell.replaceAll("__TITLE__", esc(title)).replace("__RAIL__", () => days.map((d) => `<button type="button" data-go="${d.day}" style="--c:${col(d.day)}" aria-label="Day ${d.day}: ${esc(d.title)}">${d.day}</button>`).join("")).replace("__SLIDES__", () => S.join("\n"));
 fs.mkdirSync("site/slides", { recursive: true });
 fs.writeFileSync(`site/slides/${slug}.html`, html);
-const n = model.reduce((a, d) => a + d.slides.length, 0);
+const n = model.reduce((a, d) => a + d.slides.filter((s) => s.kind === "photo").length, 0);
 console.log(`wrote site/slides/${slug}.html (${(html.length / 1e6).toFixed(1)} MB): ${S.length} slides, ${n - want.length} of ${n} pictures in${want.length ? `; wanted: ${want.map((s) => s.id).join(", ")}` : ""}`);
 if (html.length > 15.5e6) console.error("⚠ over the 16 MB page limit: split the deck or lower the picture size");
