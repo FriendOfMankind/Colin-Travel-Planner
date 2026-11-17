@@ -20,6 +20,7 @@ export const parseSlides = (text) => { const y = YAML.parse(text) ?? {}; return 
 // Plan text for a slide: no provenance notes, no Markdown marks.
 export const plain = (s) => String(s ?? "")
   .replace(/\s*\*\((?:[^()]|\([^()]*\))*\)\*/g, "")   // *(source, date)*
+  .replace(/\s*\((?:[^()]*\b20\d\d-\d\d-\d\d[^()]*|Open questions)\)/g, "")   // (Colin, 2026-11-11; booking row)
   .replace(/\*\*|`/g, "").replace(/(^|[\s(])\*([^*\n]+)\*/g, "$1$2")
   .replace(/\s+([.,;:])/g, "$1").replace(/\s{2,}/g, " ").trim();
 
@@ -54,25 +55,45 @@ export function checkSlides({ shots }, days) {
   return out;
 }
 
-/** The deck: per day a cover, a slide per shot, and a warning slide when the day has one. */
+// A row that moves you (a flight, a coach, a ferry, a named drive) gets its own slide when it has no picture.
+const TRANSIT = new Set(["fly", "travel", "ferry", "boat"]);
+const short = (text, max = 64) => { const n = rowName(text); if (n) return n; const t = lede(text, max); return t.length > max ? t.slice(0, max - 1).replace(/\s+\S*$/, "") + "…" : t; };
+
+/** The deck: per day a cover, the day's plan as a list, then in the order of the day a slide per
+    picture and per unpictured leg of travel, and a warning slide when the day has one. */
 export function deck({ shots }, days) {
   return days.map((d) => {
-    const used = new Set(), slides = [];
-    for (const s of shots.filter((x) => x.day === d.day)) {
-      const row = s.stop ? d.schedule?.find((r) => plain(r.text).toLowerCase().includes(s.stop.toLowerCase())) : null;
-      const first = row && !used.has(row); if (row) used.add(row);
-      slides.push({ kind: "photo", id: s.id, shot: s.shot, commons: s.commons ?? null, credit: s.credit ?? null,
-        title: s.title ?? (row && rowName(row.text)) ?? s.stop,
-        when: row ? [row.time, row.kind].filter(Boolean).join(" · ") : "",
-        soft: !!row && SOFT.test(row.time ?? ""), warn: !!row?.warn,
-        text: first && !s.title ? lede(rowBody(row.text)) : plain(s.shot) });
+    const mine = shots.filter((x) => x.day === d.day), rows = d.schedule ?? [], slides = [], placed = new Set();
+    const rowOf = (s) => (s.stop ? rows.find((r) => plain(r.text).toLowerCase().includes(s.stop.toLowerCase())) : null);
+    const photo = (s, row, first) => ({ kind: "photo", id: s.id, shot: s.shot, commons: s.commons ?? null, credit: s.credit ?? null,
+      title: s.title ?? (row && rowName(row.text)) ?? s.stop, rowKind: row?.kind ?? null,
+      when: row ? [row.time, row.kind].filter(Boolean).join(" · ") : "",
+      soft: !!row && SOFT.test(row.time ?? ""), warn: !!row?.warn,
+      text: first && !s.title ? lede(rowBody(row.text)) : plain(s.shot) });
+    for (const row of rows) {
+      const here = mine.filter((s) => rowOf(s) === row);
+      here.forEach((s, i) => { slides.push(photo(s, row, i === 0)); placed.add(s); });
+      const soft = SOFT.test(row.time ?? "");
+      if (!here.length && !soft && (TRANSIT.has(row.kind) || (row.kind === "drive" && rowName(row.text))))
+        slides.push({ kind: "leg", rowKind: row.kind, title: short(row.text), when: [row.time, row.kind].filter(Boolean).join(" · "), warn: !!row.warn, text: rowName(row.text) ? lede(rowBody(row.text)) : "" });
     }
+    for (const s of mine) if (!placed.has(s)) slides.push(photo(s, null, false));
+    const plan = rows.map((r) => ({ time: r.time ?? "", kind: r.kind, name: short(r.text), soft: SOFT.test(r.time ?? ""), warn: !!r.warn }));
     const warnings = String(d.warnings ?? "").split(/\n{2,}/).map((w) => w.trim()).filter(Boolean)
       .map((w) => ({ lead: rowName(w), text: lede(rowBody(w), 420) }));
     return { day: d.day, date: d.date, title: d.title, tagline: plain(d.tagline), type: d.type,
       driving: plain(d.driving), slack: plain(d.slack),
       bed: d.overnight ? [plain(d.overnight.name), plain(d.overnight.place)].filter(Boolean).join(" · ") : "",
+      bedName: d.overnight ? plain(d.overnight.name).replace(/\s*\((picked|booked)[^)]*\)/i, "") : "", bedPlace: d.overnight ? plain(d.overnight.place) : "",
       meals: d.meals ? ["b", "l", "d"].filter((k) => d.meals[k]).map((k) => `${k.toUpperCase()} ${plain(d.meals[k])}`) : [],
-      slides, warnings };
+      plan, slides, warnings };
   });
+}
+
+/** Where you sleep: consecutive nights in one bed, as one line. */
+export function beds(model) {
+  const out = [];
+  for (const d of model) { if (!d.bedName) continue; const last = out[out.length - 1];
+    if (last && last.name === d.bedName && last.to === d.day - 1) last.to = d.day; else out.push({ name: d.bedName, place: d.bedPlace, from: d.day, to: d.day }); }
+  return out;
 }

@@ -40,3 +40,14 @@ test("the first picture of a stop carries the plan's words; a second carries its
   assert.deepEqual(d.warnings, [{ lead: "Steep", text: "No handrails." }]);
   assert.deepEqual(checkSlides({ shots: [{ id: "d07-a", day: 7, stop: "Gone", shot: "x" }] }, days), ['d07-a: no row on day 7 mentions "Gone" any more']);
 });
+
+test("a leg of travel with no picture gets its own slide, in the order of the day; options don't", () => {
+  const days = [{ day: 1, date: "2027-05-09", title: "Out", schedule: [
+    { time: "20:40", kind: "fly", text: "**EI 86 CLE → DUB**, nonstop *(screenshot, 2026-11-04)*." },
+    { time: "option", kind: "travel", text: "**A slower coach**." },
+    { time: "evening", kind: "stop", text: "**Dingle**. Family." }] }];
+  const d = deck({ shots: [{ id: "d01-dingle", day: 1, stop: "Dingle", shot: "The harbour" }] }, days)[0];
+  assert.deepEqual(d.slides.map((s) => [s.kind, s.title]), [["leg", "EI 86 CLE → DUB"], ["photo", "Dingle"]]);
+  assert.equal(d.plan.length, 3);
+  assert.equal(d.plan[1].soft, true);
+});
