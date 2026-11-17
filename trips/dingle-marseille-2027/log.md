@@ -291,3 +291,31 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 
 - **The landing is the plan** *(Colin, 2026-11-16: "Landing, it's the plan")*, budgeted at €170 each. The €80 boat tour that circles the island without landing is only the bad-weather idea now. Why (Claude's case, which he took): the ~€90 difference buys the only part that's the actual thing, the unrailed climb to the monastery, which is his kind of place (unrestored ruins, terrain as scenery: `trips/kentucky-2026/log.md`, `me/travel-style.md`).
 - Before paying: read the operator's cancellation and refund terms. Landings cancel in swell, and Skellig Michael Cruises sells 12 seats a day.
+
+## 2026-11-17 · Where the grandparents live: Ballynavenooragh
+
+- **Ballynavenooragh**, near Brandon Creek, under Mount Brandon *(Colin's Google Maps pin, 2026-11-17)*. The postal address says Tralee; Colin first thought Tralee was nearer. It isn't: ~10 km to Dingle town, ~41 km to Tralee (straight line, computed from his pin).
+- **Was:** beds in "Dingle" with Dingle Harbour as the map stand-in, "Family home (assumed)". Now the four nights point at the new place, and Day 2 has a last leg from Dingle Quay (lift or taxi).
+- **Bigger asks than the plan assumed:** a Dingle Quay pickup on May 10, and the May 14 lift to Kerry Airport at ~1¼ h each way. The open question says so.
+- **Privacy:** the repo is public, so `places.yaml` holds the townland rounded to ~1 km, and no name or street address. The exact pin stays in Colin's Google Maps.
+
+## 2026-11-17 · Beds confirmed for three; Jake's out for now; the plan stays as it is
+
+- **The grandparents approved the three** (Colin, Finn, Stick) for the 4 nights, **not Jake** *(Colin, 2026-11-17)*. So the group is three, and the Jake question is closed. **Was:** "possibly a 4th: Jake", waiting on him since 2026-11-02.
+- The lifts (the Dingle Quay pickup on May 10 and Kerry Airport on May 14) aren't covered by that yes; the open question now asks only about them.
+- **Decided: keep the original shape** (4 farm nights, then Killarney, Doolin, Galway) *(Colin, 2026-11-17)*. Weighed and turned down the same day: 6, 8 or ~11 nights at the farm, cutting Killarney, Galway or all of Clare. Claude's numbers: ~$93, ~$200 or ~$400 each saved. The farm's remoteness means a car is needed either way.
+- Train checked as an arrival-day option: Heuston → Tralee leaves every 2 h on the hour, 07:00–19:00, changing at Mallow *(irishrail.ie timetable PDF, valid from 14 Dec 2025)*. Only faster than the coach if the 11:00 is made. Not adopted.
+
+## 2026-11-17 · Flights booked
+
+- **The CLE ⇄ DUB round trip is booked**, by the parents *(Colin, 2026-11-17)*. The booking row says `booked: true`; the price paid, the exact flights and the confirmation aren't seen yet (no receipt in Drive). The plan assumes EI 86 out May 9 and EI 87 home Sat May 22, as picked on 2026-11-04.
+
+## 2026-11-17 · May 14: Kerry Airport stays; there's a no-lift way there
+
+- Asked by Colin: can the car be picked up somewhere that skips the airport? **No.** For a 22-year-old, Enterprise Tralee (25+), Budget Killarney and Avis (licence held 8 years) are all out; Europcar takes 22+ with 2 years' licence, and in Kerry it's airport only. Sources in `research-log.md`, 2026-11-17.
+- Day 6 gains the no-lift option: a short drop in Dingle, bus 275 to Tralee, train to Farranfore, a 1.4 km walk. The family lift stays the first plan until they answer.
+
+## 2026-11-17 · Decided: no airport run for the grandparents
+
+- **May 14 is plan B** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*: they drop us in Dingle ~06:55, then bus 275 07:15 → Tralee, train 09:05 → Farranfore, walk to the Europcar desk, car at ~10:00. **Was:** a family lift to Kerry Airport (~1¼ h each way).
+- **The car quote is Europcar** *(Colin, 2026-11-17)*. His licence dates from 2020, so Europcar's 2-year rule is met.

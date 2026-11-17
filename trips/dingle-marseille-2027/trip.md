@@ -31,18 +31,19 @@ tags:
   - coast
   - family
   - free lodging
-next: "**Draft, nothing booked** *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. First, in order: (1) book the **CLE ⇄ DUB round trip** (EI 86 / EI 87, $2,260 for 3, the parents); (2) the **Skellig Michael landing** for Sat May 15: **one operator is taking 2027 bookings now** (Skellig Michael Cruises, 12 seats a day; 2026-11-14); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
+next: "**Flights booked** (the parents, 2026-11-17); nothing else yet *(Ireland only, decided 2026-11-10 with Finn and Stick; Skye is in `wishlist/skye-highlands.md`)*. Next, in order: (1) file the flight confirmation in Drive; (2) the **Skellig Michael landing** for Sat May 15: **one operator is taking 2027 bookings now** (Skellig Michael Cruises, 12 seats a day; 2026-11-14); (3) price and book the **7-day automatic**, Kerry Airport → Dublin Airport; (4) beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1; (5) watch for the **2027 Munster hurling dates** (Clare v Cork in Ennis)"
 booking:
   - system: flights
     what: CLE ⇄ DUB round trip, out May 9 (EI 86), back Sat May 22 (EI 87), one ticket for 3
+    booked: true
     target: 2027-05-09
     onSale: "Colin's Google Flights screenshot of the pair at $2,260 for 3, 2026-11-04"
-    note: "Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
+    note: "**Booked by the parents (Colin, 2026-11-17).** Flight numbers, times and the price paid not seen on a receipt yet; the confirmation goes in Drive. Parents are paying (Colin, 2026-11-02). $2,260 round trip for 3, Aer Lingus, both nonstop: EI 86 Sun May 9 20:40 → 08:45, EI 87 Sat May 22 16:05 → 19:10 (Colin's Google Flights screenshot of the selected pair, 2026-11-04, not held; bags extra)."
   - system: rental-car
     what: Ireland car, automatic, Kerry Airport May 14 → Dublin Airport May 21, one way
     target: 2027-05-14
     onSale: "Colin's checkout screenshot, $785.79, 2026-11-11"
-    note: "**Picked, not booked: this quote** (Colin, 2026-11-11). $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
+    note: "**Picked, not booked: this quote, from Europcar** (Colin, 2026-11-11; company 2026-11-17). Book the pickup for ~10:00, after the 09:18 train. Europcar Ireland: 22+, licence held 2+ years; Colin's since 2020. $785.79 total to pay online, 8 days, including a Young Driver Surcharge of $376.85; free cancellation up to 48 h before pickup (Colin's checkout screenshot, 2026-11-11, return time moved later; company not named, not held). Earlier screen: $714.10 for 7 days, VW Golf Auto or similar compact, 5 seats, 2 large bags, unlimited mileage, 'without coverage'. Not yet seen: the lines above the surcharge (base rate, any cover), the deposit, and the fuel policy. Avis showed nothing for these dates (Colin, 2026-11-11)."
   - system: private
     what: Killarney, 2 nights May 14–16 (3 adults)
     target: 2027-05-14
@@ -101,11 +102,11 @@ May 9–22, 2027 (target). 14 days, 13 nights. **Home Saturday, so Stick has all
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Possibly a 4th: Jake, a friend from near Belfast** (open question below), so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Jake isn't coming for now:** the grandparents approved the three, not a 4th *(Colin, 2026-11-17)*. Youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
-**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. Free beds for 4 nights, and **a lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. **Free beds for the three of us, 4 nights, are confirmed** *(Colin, 2026-11-17: they approved the three, not Jake)*. **May 14: only a drop in Dingle, ~06:55, not the airport run** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*; the bus and train do the rest. Not asked yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Roots
 
@@ -156,9 +157,9 @@ type: travel
 slack: None needed beyond the block. Nothing else is planned today.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle, Co. Kerry
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek, Co. Kerry
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -169,7 +170,8 @@ overnight:
 - option · travel · **Faster, with one unknown leg:** off at Farranfore, then on to Tralee (family lift, or train or bus 271, times not checked), then **Bus Éireann 275** 16:15 → 17:24. Later 275s run 18:00 → 19:00, 19:30 → 20:26, and the last 22:00 → 22:54 *(NTA via bustimes.org, Oct 2026)*
 - optional · stop · **Blennerville Windmill** is a stop on the 275, just outside Tralee: Ireland's largest working windmill, on Tralee Bay *(Meta AI results pasted by Colin, citing LoveTralee on Facebook, 2026-09-09; the 275 stop list is from dingle-peninsula.ie)*. Only if the day has slack: next bus 18:00
 - fallback · travel · Dublin Coach 300 via a Red Cow change to Tralee, then the 275. €32 + €11 each at current fares. Pick the actual departures from the dated timetables before booking. · 📍 Tralee Bus Station
-- evening · stop · Dingle. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Dingle Co. Kerry
+- ~19:30 → ~19:50 · travel! · **The last leg isn't a bus: Dingle Quay → the house, ~10 km north on the R549 (straight line 9.6 km; ~20 min by road is Claude's estimate).** The family collects you or it's a taxi; nothing scheduled runs there in the evening (Local Link 268 runs 1–3 days a week, booked ahead). Ask Stick which. · 📍 Dingle Quay bus stop
+- evening · stop · Ballynavenooragh. Family. Bed early: the body thinks it's mid-afternoon. · 📍 Ballynavenooragh Co. Kerry
 
 **Meals**
 - B: Dublin Airport
@@ -189,9 +191,9 @@ type: activity
 slack: Afternoon onward is family time. In rain, swap with Day 4 (the town day); if Tuesday is the clear day, Brandon can swap in.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -229,9 +231,9 @@ type: rest
 slack: The whole afternoon.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -257,9 +259,9 @@ type: activity
 slack: The evening. If Thursday's forecast is bad and Tuesday's or Wednesday's is clear, swap Brandon onto that day.
 overnight:
   name: Family
-  mapStandIn: Dingle Harbour
-  place: Dingle
-  kind: Family home (assumed)
+  mapStandIn: Ballynavenooragh (family)
+  place: Ballynavenooragh, near Brandon Creek
+  kind: Family home
   cost: Free (assumed)
 ```
 
@@ -288,7 +290,7 @@ date: 2027-05-14
 tagline: First day on the left, and the shortest drive of the trip.
 type: travel
 slack: The afternoon. Nothing today is timed except the car desk.
-driving: Family lift Dingle → Kerry Airport, then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
+driving: Family drop Ballynavenooragh → Dingle; bus and train to Farranfore; then Kerry Airport → Killarney (⚠️ unrouted; ~20 min, recalled)
 overnight:
   name: The Black Sheep Hostel (picked, not booked)
   mapStandIn: Killarney Bus Station
@@ -298,8 +300,9 @@ overnight:
 ```
 
 **Schedule**
-- morning · drive · **Family lift to Kerry Airport** (Farranfore). The leave time depends on the family's address, which isn't recorded. · 📍 Kerry Airport
-- morning · drive · **Pick up the car.** Europcar (from age 22) and Avis have desks at Kerry Airport *(europcar.ie locations; avis.ie)*. The picked quote is a $785.79 automatic, one way to Dublin Airport on May 21, company not named on it (booking row); Avis showed nothing for these dates. A lap of the car park before the road
+- ~06:55 · drive · **Family drop in Dingle**, ~20 min from the house *(Claude's estimate)*. Not the airport run *(Colin, 2026-11-17)*; not asked yet. · 📍 Dingle Quay bus stop
+- 07:15 → ~09:40 · travel! · **Bus Éireann 275 Dingle → Tralee** (~1 h), then the **train Tralee 09:05 → Farranfore 09:18** *(Irish Rail PDF, valid from 14 Dec 2025, by extraction; check the printed table)*, then walk **1.4 km** to the terminal *(kerryairport.ie)*, ~15–20 min with bags. At the desk ~09:40; **Europcar Kerry Airport opens 09:00 on Fridays** *(europcar.ie, read 2026-11-17)*. Book the car for 10:00. Next train if the bus runs late: 11:05 → 11:18. · 📍 Tralee Bus Station
+- morning · drive · **Pick up the car.** Europcar has a desk at Kerry Airport, open Fri 09:00–17:30 *(europcar.ie, 2026-11-17)*: 22+, licence held 2+ years *(europcar.ie FAQ)*. **Avis and Budget are out:** most car groups need a licence held 8 years *(avis.ie country conditions, Nov 2025; budget.ie Ireland terms)*. **No town pickup works:** Enterprise Tralee is 25+, and Budget Killarney (Kenmare Place) has the 8-year rule *(enterprise.com; budget.ie, 2026-11-17)*. The picked quote is a $785.79 automatic, one way to Dublin Airport on May 21, company not named on it (booking row); Avis showed nothing for these dates. A lap of the car park before the road
 - midday · drive · To Killarney. · 📍 Killarney Co. Kerry
 - afternoon · hike · **The Gap of Dunloe** on foot, a narrow mountain pass *(recalled; start point, length and the boat back from Lord Brandon's Cottage not checked)*. · 📍 Gap of Dunloe
 - night · music · **Killarney pubs:** Courtney's Bar; the Dunloe Lodge, "live music every night"; Buckley's Bar at the Arbutus Hotel for trad *(Yelp; texaslifestylemag.com; TripAdvisor forum; all snippets, 2026-11-10)*. · 📍 Courtneys Bar Killarney
@@ -551,7 +554,7 @@ slack: The morning.
 - [x] Ireland only, no Scotland *(2026-11-10, Finn and Stick agreed)*
 - [x] Automatic *(Colin, 2026-11-02)*
 - [ ] **CLE ⇄ DUB round trip** booked for 3: EI 86 May 9, EI 87 Sat May 22 ($2,260 seen 2026-11-04, both legs nonstop)
-- [ ] Family: beds for May 10–13, and the May 14 lift to Kerry Airport (address → leave time)
+- [ ] Family: the Dingle pickup on May 10 (~19:30) and the Dingle drop on May 14 (~06:55)
 - [ ] May 10: FlightLink 11:00 → Farranfore, then Farranfore → Tralee (family lift?) for the 16:15 bus 275. Last 275 leaves Tralee 22:00
 - [ ] **Skellig Michael landing**, Sat May 15: Skellig Michael Cruises is open for 2027 (12 seats a day, 2026-11-14)
 - [ ] Ireland car, Kerry Airport → Dublin Airport, May 14–21: one-way fee, under-25 fee, excess cover
@@ -563,11 +566,11 @@ slack: The morning.
 
 ## Open questions
 
-### Can Stick's grandparents confirm beds and the May 14 lift?
+### Will the grandparents do the two Dingle runs: pickup May 10 ~19:30, drop May 14 ~06:55?
 
-**Blocks:** Days 2–6
+**Blocks:** Days 2 and 6
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
-Their address decides the May 10 route and the leave time for Kerry Airport on Fri May 14. "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
+The beds are confirmed for the three *(2026-11-17)*. Both asks are now ~20 min each way (Claude's estimate): **collect us in Dingle around 19:30 on Mon May 10** (the 276's Dingle stop isn't recorded; the 275 ends at Dingle Quay), and **drop us in Dingle for the 07:15 bus on Fri May 14**. The airport run is off *(Colin, 2026-11-17)*. If the early drop doesn't suit them: a taxi to Dingle, booked by phone the day before (no Uber).
 
 ### What does the Ireland car's cover cost, and do the bags fit?
 
@@ -575,12 +578,6 @@ Their address decides the May 10 route and the leave time for Kerry Airport on F
 The price is picked: **$785.79 for 8 days**, automatic VW Golf or similar, including the under-25 surcharge *(Colin, 2026-11-11; booking row)*. Two things can still change the real number at the desk:
 - **Cover.** The quote says "without coverage". Many US credit cards exclude Ireland from their rental car cover, and Irish desks then either sell their own collision cover or put a large hold on the card *(Claude's recall, not checked for this company or card)*. Before booking: read the quote's cover lines and the deposit, and check the card's own benefits guide for Ireland.
 - **Bags.** The Golf class is listed at **2 large bags**. Three adults with two weeks of luggage won't fit that unless the bags are carry-on size. The size rule was "price for 4 adults, a compact estate" *(Colin, 2026-11-02)*; this quote is a hatchback. Either pack small or price an estate. Colin's call.
-
-### Is a 4th person coming: Jake, from near Belfast?
-
-**Blocks:** car size, beds
-**Waiting on:** Jake *(Claude, 2026-11-09, from this question)*
-Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known. Staying in Ireland makes it easier from Belfast. The plan stays at 3 until he's in. **The car is sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: every bed after Dingle needs a 4th, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ## Field notes
 
@@ -596,7 +593,7 @@ Before leaving: Kerry (the Dingle peninsula, Killarney, Portmagee and Valentia),
 
 ### Budget (third pass, 2026-11-11)
 
-Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 = $1.12 *(Bloomberg and Wise mid-market, 2026-11-10/11)*; cards add their own fee. Each = ÷ 3; with Jake along, the car, rooms and fuel split 4 ways.
+Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 = $1.12 *(Bloomberg and Wise mid-market, 2026-11-10/11)*; cards add their own fee. Each = ÷ 3.
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |

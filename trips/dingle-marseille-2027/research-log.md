@@ -237,3 +237,15 @@ Against the Skye plan's ~$3,250–3,750 *(Claude's arithmetic from `trip.md`, 20
 - **Toilets.** "No toilets anywhere near" (CorkyMuso-5678, 2025-04) vs "they've added toilets (albeit very simple ones) near the landing?" (the OP, unconfirmed). Skelligs Rock tours "have toilets on the boat" (grania17, 2019 trip). ⬜ not settled.
 - **Lead:** the OPW's own "Visiting Skellig Michael – A Safety Guide" on YouTube (https://youtu.be/EuJ8Dw_iNwU, linked by AlwaysTravel, 2025-08). Not watched.
 - **Spend:** about 8 Firecrawl credits (2 search, 6 for three threads). No Apify.
+
+#### 2026-11-17 · Rail: Heuston ↔ Tralee, and Tralee → Farranfore
+- ✅ **Heuston → Tralee**: leaves every 2 h on the hour, 07:00–19:00, Mon–Sat, change at Mallow *(irishrail.ie "Dublin Heuston – Tralee" PDF, valid from 14.12.2025)*. The arrival times the extraction gave (e.g. 09:00 → 10:58) are impossible for ~4 h, so treat them as unread.
+- ✅ **Tralee → Farranfore → Killarney**, Mon–Sat mornings: 05:45 → 06:00 → 06:22; 07:05 → 07:19 → 07:45; 09:05 → 09:18 → 09:41; 11:05 → 11:18 → 11:41 *(same PDF, by extraction; plausible, but check the printed table)*.
+- ⬜ Farranfore station → Kerry Airport on foot; the Dingle → Tralee 275 times after 07:15.
+
+#### 2026-11-17 · Where a 22-year-old can rent in Kerry
+- ❌ **Town pickup, to skip the airport:** Enterprise Tralee (John Joe Sheehy Road): "The minimum age to rent is 25 years old" *(enterprise.com branch page)*. Budget Killarney, 5b Kenmare Place, Mon–Sat 09:30–17:30 *(budget.ie)*, but Budget needs a licence held **8 years** for nearly every car group, estates and automatics included *(budget.ie/terms/republic-of-ireland)*. Avis: "no minimum age", but the licence must be held "at least 8 to 12 years" *(avis.ie country conditions PDF, 13 Nov 2025)*. That's likely why Avis showed nothing on 2026-11-11.
+- ✅ **Europcar Ireland:** 22+, full licence held 2+ years, young driver surcharge for ages 22–25 *(europcar.ie FAQ, snippet)*. Kerry Airport, main terminal: Mon–Fri 09:00–17:30, Sat–Sun 10:00–17:30 *(europcar.ie, read 2026-11-17)*. No Europcar town office found in Kerry.
+- 📋 Sixt from 21, Hertz from 23 *(RentalVerdict, snippet)*; no Sixt branch in Kerry found (Dublin, Cork, Shannon airports).
+- ✅ **Farranfore station → Kerry Airport: 1.4 km** *(kerryairport.ie)*; "a 10 minute walk, max. Even with luggage" *(r/ireland, snippet)*.
+- Budget excess on a Compact Auto: €3,000, cut to zero for €25.50 a day *(budget.ie terms)*. Kept as a reference for what cover costs; Europcar's isn't read.
