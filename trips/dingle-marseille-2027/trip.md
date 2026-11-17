@@ -101,11 +101,11 @@ May 9–22, 2027 (target). 14 days, 13 nights. **Home Saturday, so Stick has all
 
 ### Group
 
-**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Possibly a 4th: Jake, a friend from near Belfast** (open question below), so youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
+**Everyone flies from Cleveland together on the same flights** *(stated 2026-10-30)*. **Three adults: Colin (22), his brother Finn, and his cousin Stick, whose grandparents are in Dingle; Finn and Stick are 20 and 19** *(stated 2026-11-02; names 2026-11-02)*. **Jake isn't coming for now:** the grandparents approved the three, not a 4th *(Colin, 2026-11-17)*. Youth fares apply where they exist. **Only Colin drives** *(stated 2026-11-02: "I'll get better at it", and he'll learn the rules and practise beforehand)*. Willing to share a double bed or take a sofa bed to save money. **Passports are good, sharing a room is fine, and they want plenty of hiking** (full versions of the walks) *(Colin, 2026-11-02)*. The repo's earlier note (friend out of school May 1, already in Kerry, flight paid by his family) is superseded by this; see `log.md`.
 
 ### Family in Dingle
 
-**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. Free beds for 4 nights, and **a lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car. Neither is confirmed with the family yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
+**It's Stick's grandparents** *(stated 2026-10-30, 2026-11-02)*. **They live in Ballynavenooragh**, a townland near Brandon Creek on the north-west of the peninsula, under Mount Brandon: ~10 km from Dingle town, ~41 km from Tralee and ~53 km from Kerry Airport, all straight-line *(Colin's Google Maps pin, 2026-11-17; distances computed from it)*. The postal address says "Tralee", but that's the post town; Dingle is the nearest town. Brandon Creek is a ~1.5 km walk. **Free beds for the three of us, 4 nights, are confirmed** *(Colin, 2026-11-17: they approved the three, not Jake)*. **A lift on the morning of May 14 is likely** *(stated 2026-10-30)*, now to Kerry Airport for the car; not confirmed yet. Colin's words for the lift: "maybe a short ride at a reasonable hour." Nobody is assumed to drive to Dublin or Cork, chauffeur a sightseeing day, or leave before dawn.
 
 ### Roots
 
@@ -564,11 +564,11 @@ slack: The morning.
 
 ## Open questions
 
-### Can Stick's grandparents confirm beds and the May 14 lift?
+### Will the grandparents do the two lifts: Dingle Quay on May 10, Kerry Airport on May 14?
 
-**Blocks:** Days 2–6
+**Blocks:** Days 2 and 6
 **Waiting on:** Stick's grandparents, through Stick *(Claude, 2026-11-09, from this question)*
-The address is known now (Ballynavenooragh, see *Family in Dingle*), so the open part is the yes, plus two asks it makes bigger: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). "Likely" until they say yes *(2026-10-30)*. Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
+The beds are confirmed for the three *(2026-11-17)*. The lifts are the open part, and both are bigger asks than first thought: **a pickup at Dingle Quay on the evening of May 10** (~20 min each way), and **the May 14 lift to Kerry Airport, which is ~1¼ h each way from the house, not a short ride** (Claude's estimate by road from a 53 km straight line; not checked). Without a lift: Local Link 276 from Dingle to Killarney, then a taxi or the FlightLink 15 minutes on to Farranfore (not checked).
 
 ### What does the Ireland car's cover cost, and do the bags fit?
 
@@ -576,12 +576,6 @@ The address is known now (Ballynavenooragh, see *Family in Dingle*), so the open
 The price is picked: **$785.79 for 8 days**, automatic VW Golf or similar, including the under-25 surcharge *(Colin, 2026-11-11; booking row)*. Two things can still change the real number at the desk:
 - **Cover.** The quote says "without coverage". Many US credit cards exclude Ireland from their rental car cover, and Irish desks then either sell their own collision cover or put a large hold on the card *(Claude's recall, not checked for this company or card)*. Before booking: read the quote's cover lines and the deposit, and check the card's own benefits guide for Ireland.
 - **Bags.** The Golf class is listed at **2 large bags**. Three adults with two weeks of luggage won't fit that unless the bags are carry-on size. The size rule was "price for 4 adults, a compact estate" *(Colin, 2026-11-02)*; this quote is a hatchback. Either pack small or price an estate. Colin's call.
-
-### Is a 4th person coming: Jake, from near Belfast?
-
-**Blocks:** car size, beds
-**Waiting on:** Jake *(Claude, 2026-11-09, from this question)*
-Jake, a friend of Colin's who lives near Belfast, "may join us somehow" *(stated 2026-11-02)*. Not confirmed, and where he'd join isn't known. Staying in Ireland makes it easier from Belfast. The plan stays at 3 until he's in. **The car is sized for 4 regardless** *(Colin, 2026-11-02: if he doesn't come, the car just has more room)*. If he comes: every bed after Dingle needs a 4th, and his own travel to the meeting point is his to sort out (the parents' flight offer covers 3).
 
 ## Field notes
 
@@ -597,7 +591,7 @@ Before leaving: Kerry (the Dingle peninsula, Killarney, Portmagee and Valentia),
 
 ### Budget (third pass, 2026-11-11)
 
-Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 = $1.12 *(Bloomberg and Wise mid-market, 2026-11-10/11)*; cards add their own fee. Each = ÷ 3; with Jake along, the car, rooms and fuel split 4 ways.
+Prices Colin pulled on 2026-11-11 (screenshots, none held) unless marked. €1 = $1.12 *(Bloomberg and Wise mid-market, 2026-11-10/11)*; cards add their own fee. Each = ÷ 3.
 
 | Line | All 3 | Each | Kind |
 | --- | --- | --- | --- |
