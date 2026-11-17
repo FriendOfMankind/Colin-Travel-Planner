@@ -18,3 +18,11 @@ export function routePrint(features) {
     .sort((a, b) => a[0] - b[0]);
   return createHash("sha1").update(JSON.stringify(lines)).digest("hex").slice(0, 12);
 }
+
+// One colour per day, first to last: gold at the start, through orange and crimson, to blue at the
+// end. The poster's line, its day list and its elevation strip use it, and so does the slideshow.
+const RAMP = [[242, 178, 31], [232, 102, 42], [199, 48, 90], [123, 58, 154], [43, 79, 158]];
+export function dayColor(day, first, last) {
+  const t = last > first ? (Math.max(first, Math.min(last, day)) - first) / (last - first) * (RAMP.length - 1) : 0, i = Math.min(RAMP.length - 2, Math.floor(t)), u = t - i;
+  return "#" + RAMP[i].map((v, k) => Math.round(v + (RAMP[i + 1][k] - v) * u).toString(16).padStart(2, "0")).join("");
+}

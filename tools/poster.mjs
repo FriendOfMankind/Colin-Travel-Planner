@@ -18,7 +18,7 @@ import path from "node:path";
 import zlib from "node:zlib";
 import { createRequire } from "node:module";
 import { TERRAIN_SOURCE, boxOf, elevation, grid, haversineKm, pad } from "./lib/terrain.mjs";
-import { POSTER_DIR, routePrint } from "./lib/posters.mjs";
+import { POSTER_DIR, dayColor as rampColor, routePrint } from "./lib/posters.mjs";
 
 const slug = process.argv[2], arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; }, DPI = +(arg("--dpi") ?? 200);
 // --days 2-27 frames the sheet on those days only (the drive out and back runs off the edge) and counts only them.
@@ -68,10 +68,7 @@ if (arg("--days") === null && arg("--frame") !== "all") {
 }
 const ground = groundOf(framed);
 let box = pad(boxOf(ground), 0.07, 60);
-// One colour per day, first to last: gold at the start, through orange and crimson, to blue at the end.
-const RAMP = [[242, 178, 31], [232, 102, 42], [199, 48, 90], [123, 58, 154], [43, 79, 158]];
-const dayColor = (day) => { const a = allDays[0].day, b = allDays[allDays.length - 1].day, t = b > a ? ((day - a) / (b - a)) * (RAMP.length - 1) : 0, i = Math.min(RAMP.length - 2, Math.floor(t)), u = t - i;
-  return "#" + RAMP[i].map((v, k) => Math.round(v + (RAMP[i + 1][k] - v) * u).toString(16).padStart(2, "0")).join(""); };
+const dayColor = (day) => rampColor(day, allDays[0].day, allDays[allDays.length - 1].day);
 const lat0 = (box.s + box.n) / 2, kmLon = 111.32 * Math.cos((lat0 * Math.PI) / 180);
 const landscape = (box.e - box.w) * kmLon >= (box.n - box.s) * KM_LAT;
 const PW = landscape ? 1728 : 1296, PH = landscape ? 1296 : 1728, M = 50, STRIP = 150, GAP = 44, FOOT = 26;
