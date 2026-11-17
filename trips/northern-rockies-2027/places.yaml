@@ -180,15 +180,12 @@ groups:
         days: "9"
         wpNote: Fire tower. Gravel spur — assess before driving it.
       - name: Slough Creek Campground
-        note: 🚨 Night 10. 16 sites, fills in minutes.
+        note: Dropped 2026-11-17 for Canyon (16 sites, fills in minutes; Lamar at dawn cut).
         maps: Slough Creek Campground Yellowstone
         verified: true
         lat: 44.948578
         lng: -110.308987
         source: Google Maps, placed via mapbench.html (Colin, Sept 2026)
-        icon: ⛺
-        days: "10"
-        wpNote: Yellowstone. 16 sites, fills in minutes. Grizzly country.
       - name: Pebble Creek Campground
         note: ⚠️ Closed for flood recovery since 2022. Check 2027 status.
         maps: Pebble Creek Campground Yellowstone
@@ -197,7 +194,7 @@ groups:
         lng: -110.114025
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Lamar Valley
-        note: Day 10 evening. Pull-outs only. Grizzly country.
+        note: Day 10 mid-morning, on the way through. Pull-outs only. Grizzly country.
         maps: Lamar Valley Yellowstone
         verified: true
         lat: 44.868566
@@ -227,10 +224,16 @@ groups:
         lat: 45.004495
         lng: -110.010485
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+      - name: Trout Lake Trailhead
+        note: Day 10. Trout Lake Loop, 1.2 mi. Added 2026-11-17.
+        maps: Trout Lake Trailhead Yellowstone
+        verified: false
+        lat: null
+        lng: null
   - group: Yellowstone interior
     places:
       - name: Artist Point
-        note: Day 10. South Rim view of the Lower Falls.
+        note: Day 10 evening. South Rim view of the Lower Falls.
         maps: Artist Point Yellowstone
         verified: true
         lat: 44.721015
@@ -243,15 +246,27 @@ groups:
         lat: 44.71978
         lng: -110.49634
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
+      - name: Canyon Campground
+        note: Night 10. 273 sites, recreation.gov from 2027, 6 months out. Added 2026-11-17.
+        maps: Canyon Campground Yellowstone
+        verified: false
+        lat: null
+        lng: null
+      - name: Hayden Valley
+        note: Day 10 at last light. Pull-outs only. Added 2026-11-17.
+        maps: Hayden Valley Yellowstone
+        verified: false
+        lat: null
+        lng: null
       - name: Old Faithful
-        note: Day 11. Upper Geyser Basin boardwalks.
+        note: Day 11, early. Eruption, Observation Point (1.5 mi), Upper Geyser Basin boardwalks.
         maps: Old Faithful Geyser
         verified: true
         lat: 44.460513
         lng: -110.82837
         source: Google Maps dropped pin, via the Pin Ledger (Colin, 2026-10-30)
       - name: Fairy Falls Trailhead (Grand Prismatic overlook)
-        note: Day 11. 1.6 mi to the overlook.
+        note: Day 11 late morning. 1.6 mi to the overlook, 4.9 mi to Fairy Falls, 6.7 mi to Imperial Geyser.
         maps: Fairy Falls Trailhead Yellowstone
         verified: true
         lat: 44.515627

@@ -32,13 +32,14 @@ What's known, what's thin, and what's still a gap, leg by leg. Findings live in 
 - 🟡 **Clay Butte Lookout spur**: gravel, condition unchecked
 
 ## 5. Yellowstone (Days 10–11)
-- ✅ **Pebble Creek**: closed 2026, "likely for the foreseeable future". Not a fallback
-- ✅ **Slough Creek**: 16 sites, 2 mi dirt road, fills in minutes; season ran **June 15 – Oct 12 in 2026** (nps.gov/yell, 📋). Jul 21 is safely inside
+- ✅ **Pebble Creek**: closed 2026, "likely for the foreseeable future". Moot since Slough Creek was dropped (2026-11-17)
+- ✅ **Slough Creek** (dropped for Canyon, Colin 2026-11-17): 16 sites, 2 mi dirt road, fills in minutes; season ran **June 15 – Oct 12 in 2026** (nps.gov/yell, 📋). Jul 21 is safely inside
 - ✅ **Northeast Entrance Road reconstruction**: construction slated to begin **2029** (spartnerships.com, 2026-08-12). Not a 2027 problem
 - 🟡 **Madison Campground** (Day 11): open May 7 – Oct 17, 2027, 6,800 ft, 16 mi north of Old Faithful; recreation.gov, 6 months out from 2027 (📋 snippets, 2026-10-29). ⬜ fee. ✅ coordinate (Pin Ledger, 2026-10-30); ✅ sun times (2026-11-14). ⬜ how fast it fills on the new system
-- 🟡 **Canyon Campground**: open May 28 – Sept 19, 2027 (📋). A possible Madison fallback, not chosen
-- ✅ **Grand Canyon of the Yellowstone** (Day 10): Artist Point 0.3 mi, Brink of the Lower Falls 0.8 mi / 249 ft (AllTrails, 2026-10-29). ⬜ Slough Creek ⇄ Canyon drive time (unrouted)
-- 🟡 **Old Faithful and Grand Prismatic** (Day 11): Grand Prismatic overlook 1.6 mi / 131 ft from the Fairy Falls trailhead (AllTrails, 2026-10-29). ⬜ Fairy Falls lot parking in July. ⬜ eruption predictions (day-of). ⬜ Slough Creek → Old Faithful drive time (unrouted)
+- 🟡 **Canyon Campground** (Night 10 since 2026-11-17): 273 sites (📋 nps.gov, 2026-11-17), open May 28 – Sept 19, 2027 (📋). ⬜ fee. ⬜ showers. ⬜ coordinate (sun times computed at the Artist Point pin meanwhile)
+- 🟡 **Day 10–11 walks** (added 2026-11-17): Trout Lake Loop 1.2 mi, Observation Point 1.5 mi, Fairy Falls 4.9 mi, Imperial Geyser 6.7 mi (AllTrails, 2026-11-17). ⬜ AllTrails shows Fairy Falls, Imperial and Observation Point "[CLOSED]" (probably winter). ⬜ Dunraven Pass 2027 construction. ⬜ Trout Lake and Hayden Valley pins
+- ✅ **Grand Canyon of the Yellowstone** (Day 10): Artist Point 0.3 mi, Brink of the Lower Falls 0.8 mi / 249 ft (AllTrails, 2026-10-29). ⬜ Island Lake → Canyon drive time (unrouted)
+- 🟡 **Old Faithful and Grand Prismatic** (Day 11): Grand Prismatic overlook 1.6 mi / 131 ft from the Fairy Falls trailhead (AllTrails, 2026-10-29). ⬜ Fairy Falls lot parking in July. ⬜ eruption predictions (day-of). ⬜ Canyon → Old Faithful drive time (unrouted)
 - 🟡 **Tetons → Glacier's west side** (Day 13, since the Tetons night went in on 2026-11-14): north through Yellowstone (the drawn line, 464 mi) or south via Jackson (~485 mi), per `trip.md` Day 13. The older Madison line (448 mi, 2026-11-08) is superseded. ⬜ the line isn't chosen; ⬜ a real drive time
 
 ## 6. Glacier (Days 12–18)

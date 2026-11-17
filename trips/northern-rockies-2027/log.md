@@ -432,3 +432,13 @@ Found by the gardener's test run, confirmed by its verifier. Old values, for the
 ## 2026-11-16 · Decided: the three motel nights
 
 - **Picked** *(Colin, 2026-11-16: "Yes, all five")*: Quality Inn Des Moines North (Jul 12), Rodeway Inn Newport (Aug 1) and The Dublin House Motel in Yachats (Aug 2). Was: TBD / "not researched". Live quotes and alternatives in `research-log.md`. Nothing booked; all cancel free.
+
+## 2026-11-17 · Decided: Yellowstone reworked, icons early and Canyon instead of Slough Creek
+
+- **The shape** *(Colin, 2026-11-17: "spend the mornings checking out the crowd attractions, and then retreat to a quiet corner of the park for wildlife or exploration during the day, then a dispersed campsite or real reservable campsite that isnt a gamble")*. Lamar at dawn was "meh"; he'd rather put the time into the geysers ahead of the crowds.
+- **Day 10 (Jul 21)**: Lamar as a mid-morning look on the way in, Trout Lake Loop, set up at **Canyon**, the canyon rims in the evening, Hayden Valley at last light. Was: Slough Creek camp, the canyon rims at midday, Lamar at dusk.
+- **Day 11 (Jul 22)**: leave Canyon ~6 AM, Old Faithful and Observation Point early, Grand Prismatic overlook and Fairy Falls (Imperial Geyser optional) late morning, nap at Madison, the Madison River at dusk. Was: Lamar at dawn, Old Faithful at noon, Grand Prismatic at 2:30 PM, the peak-crowd hours.
+- **Slough Creek dropped for Canyon.** Slough Creek is 16 sites and goes in minutes; it was "kept on purpose" only for the Lamar dawn. Canyon has 273 sites (nps.gov, snippet, 2026-11-17), so it's reserved, not raced. Dispersed camping isn't allowed inside Yellowstone (Claude's recall), and camping outside the gates would put an hour of driving before every early morning.
+- **Madison kept over Grant Village** for the Day 11 night *(Colin, 2026-11-17: "Madison")*: dusk wildlife on the Madison over a shorter Day 12 and a lakeside sunset at West Thumb.
+- Midday is for exploring, not wildlife: animals bed down in the heat (Claude's recall), so the wildlife drives sit at dusk.
+- **Open:** Canyon and Trout Lake Trailhead and Hayden Valley need pins; Dunraven Pass 2027 construction; AllTrails marked Fairy Falls, Imperial Geyser and Observation Point "[CLOSED]" on 2026-11-17 (probably the winter road closure); Canyon showers and both fees not read. Sun times for the Canyon night and morning are computed at the Artist Point pin until Canyon is pinned.

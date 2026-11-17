@@ -30,7 +30,7 @@ tags:
   - july
   - long haul
   - reservation race
-next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 3–5, scarce) and the White Salmon raft (Aug 9, refundable to 7 days out)**, once the headcount for both groups is known — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then five hard bookings on consecutive-ish January days, **Jan 21–27, 2027** — Slough Creek (16 sites, gone in minutes), Madison, Colter Bay, then Avalanche (Apgar as backup) and Many Glacier. Book them in one sitting with the fallbacks already written. Pebble Creek won't rescue Slough Creek: closed for 2026 and \"likely for the foreseeable future\""
+next: "**Oregon first (Oct–Nov 2026): Belknap Hot Springs (Aug 3–5, scarce) and the White Salmon raft (Aug 9, refundable to 7 days out)**, once the headcount for both groups is known — order and reasons in `wishlist/august-friends-2027.md`, 2026-10-15. Then five bookings on consecutive-ish January days, **Jan 21–27, 2027** — Canyon, Madison, Colter Bay, then Avalanche (Apgar as backup) and Many Glacier; the last two are the hard ones. Book them in one sitting with the fallbacks already written."
 booking:
   - system: recreation.gov
     what: Vedauwoo, Medicine Bow NF (Jul 13)
@@ -41,9 +41,9 @@ booking:
     target: 2027-07-14
     note: 19 sites, 10,500 ft, $20; mix of reservable and first-come (fs.usda.gov, 2026-10-30). ⚠️ The FS page gives both "mid-July" and "7/04" for opening, so Jul 14 is on the edge; the fallback is a second Vedauwoo night.
   - system: recreation.gov
-    what: Slough Creek, Yellowstone (Jul 21)
+    what: Canyon, Yellowstone (Jul 21)
     target: 2027-07-21
-    note: 16 sites, fills within minutes — the tightest booking on the trip. Pebble Creek is closed for 2026 and "likely for the foreseeable future" (nps.gov/yell, snippet, 2026-10-10), so it is not a fallback.
+    note: 'Day 10, replacing Slough Creek (Colin, 2026-11-17: reserved, not raced). 273 sites (nps.gov/yell, snippet, 2026-11-17). Open May 28 – Sept 19, 2027. recreation.gov, exactly six months before (nps.gov/yell, snippet, 2026-10-29). Fee TBD.'
   - system: recreation.gov
     what: West Tensleep Lake, Bighorn NF (Jul 15–17)
     target: 2027-07-15
@@ -126,7 +126,7 @@ page:
   dates: Monday, July 12 – Saturday, August 21, 2027
   emoji: 🏔️
   theme: alpine
-  vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, apart from Slough Creek's last 2 mi of dirt; Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~7,000 mi trip on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
+  vehicle: "2019 Subaru Outback, AWD, 8.7 in clearance (`me/profile.md`, 2026-11-12): more room than the old car on gravel, still not a 4x4. **Every anchor except West Tensleep is reachable on pavement, Brooklyn Lake's road surface isn't checked.** West Tensleep Lake is 7 mi up FR 27, gravel (“dirt/rock” in one review, “easily accessible gravel” in another; thedyrt.com and stateparks.com, snippets, 2026-10-10). Crazy Woman Canyon is the rough one — see Day 6. This is now a ~7,000 mi trip on your own car, and from Aug 1 it carries Colin plus the 2 riders: get the service done before, not on the road."
   gettingThere: "Driving. No flights, no rental, no under-25 surcharge, no fuel canisters to buy on arrival. The friends fly CLE ⇄ PDX. The riders are in the Outback for Aug 1–12; the own-car group rents its own car and picks its own dates."
   footerNote: Outline. Road and season facts are verified; every fee and six transit nights are not. Places are pinned (Pin Ledger, 2026-10-30). Sun times for the Oregon days (Days 20–30) aren't computed yet. [← All trips](../../index.html)
   stats:
@@ -144,7 +144,7 @@ page:
 
 # The Long Way to Glacier
 
-> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: Lamar Valley at dusk and dawn, and the icons, the Grand Canyon of the Yellowstone, Old Faithful and Grand Prismatic**, then **a night under the Tetons and one on Flathead Lake**, then **five nights at Glacier with Ethan and Finn**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, then **five nights in the Sawtooths** on the way home (skip them if you want). July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 40 nights, nearly four times your longest trip.** Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are soft on purpose.
+> Solo out on I-80 (Vedauwoo and the Snowy Range, then the Bighorns and the Beartooth Plateau), then **Yellowstone: the icons early, before the crowds (Old Faithful and Grand Prismatic), the Grand Canyon of the Yellowstone in the evening, quiet trails at midday, and Lamar, Hayden Valley and the Madison for wildlife**, then **a night under the Tetons and one on Flathead Lake**, then **five nights at Glacier with Ethan and Finn**, then west for **the Oregon boys week, Aug 1–12: the coast first, then the McKenzie, Bend and the Gorge**, then **five nights in the Sawtooths** on the way home (skip them if you want). July, because every anchor is out of season in June. ✅ Glacier has no vehicle reservation (2026 rules; 2027 not announced). 🚨 **The risk is length: 40 nights, nearly four times your longest trip.** Days 6, 12 (a 2-hour drive), 14 (the morning), 20 and 27 are soft on purpose.
 
 ## Overview
 
@@ -179,7 +179,7 @@ The best hikes per day on the list, and ✅ **no timed-entry vehicle reservation
 
 ### The booking date
 
-**Mid-January 2027.** Glacier camping is a 6-month rolling window released daily, and the good campgrounds go the day they open. Slough Creek is worse: **16 sites, gone in minutes.** Yellowstone's other campgrounds, Madison included, move to the same 6-month recreation.gov window from 2027 (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes each date.
+**Mid-January 2027.** Glacier camping is a 6-month rolling window released daily, and the good campgrounds go the day they open. Yellowstone's big campgrounds, Canyon (273 sites) and Madison (276), move to the same 6-month recreation.gov window from 2027 (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes each date.
 
 ### Length
 
@@ -534,55 +534,57 @@ Eight nearly-flat miles at 9,500 ft, then a fire lookout you can drive most of t
 
 Same storm pattern. Clay Butte's access road is gravel and its condition is unverified — the lookout is optional and the car is not.
 
-### Day 10 — 2027-07-21 · Down Into Lamar
+### Day 10 — 2027-07-21 · Lamar on the Way, the Canyon at Evening
 
 ```yaml
 date: 2027-07-21
-tagline: Off the plateau, the Grand Canyon of the Yellowstone at midday, the best wildlife valley in the lower 48 at dusk.
+tagline: Through Lamar on the way in, a quiet lake at midday, the canyon rims as the crowd thins, Hayden Valley at last light.
 type: travel + activity
-driving: ~70 mi, ~2h to camp, plus ⚠️ ~2h round trip to Canyon (my estimate, unrouted)
-slack: ~1 hour if the site came through; the canyon is the first cut. See the warning.
+driving: ⚠️ ~75 mi Island Lake → Lamar → Canyon, plus ~1h round trip to Hayden Valley (my estimates, unrouted)
+slack: ~1 hour. Trout Lake is the first cut.
 overnight:
-  name: ⚠️ Slough Creek Campground — 16 sites
+  name: Canyon Campground
   place: Yellowstone NP, WY
   kind: National park campground
-  cost: ~$20/night est.
-  checkin: Reservable — and it goes in minutes
+  cost: TBD (not read)
+  checkin: Reservable on recreation.gov from the 2027 season, 6 months out
   confirmation: TBD
-  notes: "🚨 **The single worst booking risk on this trip, kept on purpose.** **Pebble Creek**, the obvious base at the foot of the Beartooth Highway, has been **closed for flood recovery since June 2022**, was closed again for 2026, and nps.gov says \"likely for the foreseeable future\" (snippet, 2026-10-10) — assume closed in 2027. That leaves **Slough Creek at 16 sites, which fills within minutes**. It is kept because the alternative — Lamar as a day trip off the plateau — loses the dawn, and dawn is the whole point of a wildlife valley. **Fallback if it fails: a fourth plateau night with Lamar as a long day trip, or a motel in Cooke City or Gardiner.** 📋 Season: **June 15 – October 12 in 2026** (nps.gov/yell operating dates, snippet, 2026-10-29), so Jul 21 is well inside it. $20/night, 6,250 ft, no showers (recreation.gov, snippet). The **Northeast Entrance Road rebuild** (27 mi, Tower Junction to the NE entrance, ~$268M) is slated to **begin construction in 2029** (spartnerships.com, 2026-08-12), so it shouldn't slow Lamar in 2027."
+  notes: "Reserved, not raced *(Colin, 2026-11-17)*: replaces Slough Creek (16 sites, gone in minutes). 📋 **273 sites** (nps.gov/yell canyoncg, snippet, 2026-11-17). 📋 Open **May 28 – Sept 19, 2027** (yellowstonenationalparklodges.com; recreation.gov POI, snippets, 2026-10-29). 📋 \"Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before\" (nps.gov/yell campgrounds page, snippet, 2026-10-29). **Fee: TBD. Showers: not checked.** Not pinned yet. Fallback if it fails: not chosen."
 ```
 
 **Schedule**
 - 5:52 AM · sunrise · Sunrise 5:52 AM, first light 5:17 AM at Island Lake *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Break camp.
 - 7:00 AM (2h) · drive · → Yellowstone NE entrance via Cooke City. **Cooke City is the last fuel for a long way and it is expensive.** Fill anyway. · 📍 Yellowstone Northeast Entrance Cooke City
-- 9:00 AM (1h) · stop · Take the site. If it did not come through, trigger the fallback by 10 AM — do not spend the day hoping.
-- 10:00 AM (1h 15m) · drive! · → Canyon Village via Tower Junction and Dunraven Pass. ⚠️ **Drive time is my estimate, unrouted** (Google +15% not applied because nothing was routed). · 📍 Artist Point Yellowstone
-- 11:15 AM (2h 30m) · hike · **The Grand Canyon of the Yellowstone.** ✅ AllTrails: **Artist Point, 0.3 mi, 13 ft, Easy** (South Rim, the classic Lower Falls view) and **Brink of the Lower Falls, 0.8 mi, 249 ft, Moderate, ~30 min** (North Rim, switchbacks down to the lip of the falls) *(AllTrails, 2026-10-29)*. Two short walks and the drive between the rims. **Busy at midday, and worth it**: the crowd rule (`me/travel-style.md`) says an icon earns its crowd when the trip has empty places too, and the Beartooth just was one. · 📍 Brink of the Lower Falls Trail Yellowstone
-- 2:00 PM (1h 15m) · drive · → back to Slough Creek. ⚠️ Estimate, unrouted. Rest before the evening.
-- 5:00 PM (3h) · drive! · **Lamar Valley at last light.** Bison, elk, and the wolf packs the valley is famous for. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
-- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Slough Creek *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 92%.
+- 9:00 AM (1h) · drive · **Lamar Valley, on the way through.** Mid-morning, so the animals may already be bedding down; it's a look, not the event. **Pull-outs only, stay in or beside the car, 25 yards from bison and 100 from wolves and bears.** · 📍 Lamar Valley Yellowstone
+- 10:00 AM (1h) · hike · **Trout Lake Loop.** ✅ AllTrails: **1.2 mi, 219 ft, Easy, loop, 4.7★, ~34 min** *(AllTrails, 2026-11-17)*. A small lake above the valley; otters are often seen there *(Claude's recall)*. The quiet corner of the day. · 📍 Trout Lake Trailhead Yellowstone
+- 11:30 AM (1h 15m) · drive! · → Canyon via Tower Junction and Dunraven Pass. ⚠️ **Drive time is my estimate, unrouted.** ⚠️ **2027 road construction on Dunraven Pass is not checked**; if it's closed, the detour via Mammoth and Norris is far longer. · 📍 Canyon Campground Yellowstone
+- 1:00 PM (3h) · stop · **Set up at Canyon, then rest.** Midday is when the rims are busiest and the animals are bedded down, so be in camp.
+- 4:30 PM (1h) · stop · Early dinner at camp, so the evening is free.
+- 5:30 PM (2h) · hike · **The Grand Canyon of the Yellowstone, as the day crowd thins** *(timing: Claude's recall, not checked)*. ✅ AllTrails: **Artist Point, 0.3 mi, 13 ft, Easy** (South Rim, the classic Lower Falls view) and **Brink of the Lower Falls, 0.8 mi, 249 ft, Moderate, ~30 min** (North Rim, switchbacks down to the lip of the falls) *(AllTrails, 2026-10-29)*. Lookout Point, Grand View and Inspiration Point along the North Rim drive are short add-ons if there's light *(Claude's recall)*. · 📍 Artist Point Yellowstone
+- 7:45 PM (1h 30m) · drive · **Hayden Valley at last light**, south of Canyon: bison, elk, sometimes a grizzly *(Claude's recall)*. Same rules: pull-outs only. ⚠️ Unrouted. · 📍 Hayden Valley Yellowstone
+- 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at the Artist Point pin, ~nearest pin to camp *(computed 2026-11-17, NOAA method; Canyon Campground isn't pinned)*. Waning gibbous 92%.
 
 **Meals**
 - B: made at camp
-- L: packed — eaten at the canyon
-- D: made — early, so the valley gets last light
+- L: packed — eaten at Trout Lake or in camp
+- D: made at camp — early, before the rims
 
 #### Highlights
 
-The Lower Falls from both rims at midday, then the Lamar at dusk with the plateau you came off filling the rear-view. Almost no hiking today and that is correct: the canyon is a viewpoint day and wildlife happens from a pull-out.
+Lamar on the way in, a small lake nobody hurries past, then the Lower Falls in evening light and Hayden Valley as the day ends. The midday hours, when the canyon is a parking lot, go to a nap.
 
 #### Warnings
 
-**Grizzly country, properly, and it starts here.** Bear spray on the person, not in the car. All food and anything scented in the bear box, every time, including toothpaste. **Do not approach anything.** The valley injures someone walking toward a bison for a photograph roughly every other year.
+**Grizzly country, properly, and it starts here.** Bear spray on the person, not in the car. All food and anything scented in the bear box, every time, including toothpaste. **Do not approach anything.** The valleys injure someone walking toward a bison for a photograph roughly every other year.
 
-### Day 11 — 2027-07-22 · Lamar at Dawn, Geysers by Afternoon
+### Day 11 — 2027-07-22 · Geysers Early, Fairy Falls at Midday
 
 ```yaml
 date: 2027-07-22
-tagline: The wolves' valley at first light, then the two most famous thermal features on earth.
+tagline: Old Faithful before the buses, Grand Prismatic once the steam lifts, the quiet trail past the overlook, the Madison at dusk.
 type: travel + activity
-driving: ⚠️ ~70 mi Slough Creek → Old Faithful, plus Lamar at dawn (my estimate, unrouted)
-slack: ~1 hour. The Upper Geyser Basin wander is the first cut.
+driving: ⚠️ ~45 mi Canyon → Norris → Madison → Old Faithful, then ~15 mi back north to Madison, plus the dusk drive (my estimates, unrouted)
+slack: ~1 hour. Imperial Geyser is the first cut, then Observation Point.
 overnight:
   name: Madison Campground
   place: Yellowstone NP, WY
@@ -590,32 +592,34 @@ overnight:
   cost: TBD (not read)
   checkin: Reservable on recreation.gov from the 2027 season, 6 months out
   confirmation: TBD
-  notes: "📋 **Open May 7 – Oct 17, 2027; 6,800 ft; ~14 mi east of West Yellowstone and 16 mi north of Old Faithful** (yellowstonenationalparklodges.com; recreation.gov POI, snippets, 2026-10-29). 📋 \"Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before\" (nps.gov/yell campgrounds page, snippet, 2026-10-29). **Fee: TBD.** Pinned 2026-10-30; tonight's sunset is computed below. Fallback if it fails: not chosen. **Canyon Campground** is open on the night (📋 May 28 – Sept 19, 2027, same snippets) and sits by Day 10's canyon, but it puts the geysers an hour further away."
+  notes: "📋 **Open May 7 – Oct 17, 2027; 6,800 ft; ~14 mi east of West Yellowstone and 16 mi north of Old Faithful** (yellowstonenationalparklodges.com; recreation.gov POI, snippets, 2026-10-29). 📋 **276 sites** (nps.gov/yell campgrounds page, snippet, 2026-11-17). 📋 \"Beginning with the 2027 summer camping season, all campground reservations will be handled through Recreation.gov… book your site exactly six months before\" (nps.gov/yell campgrounds page, snippet, 2026-10-29). **Fee: TBD.** Pinned 2026-10-30; tonight's sunset is computed below. Kept over Grant Village for the dusk wildlife on the Madison *(Colin, 2026-11-17)*; Grant would have put Day 12 nearer the Tetons. Fallback if it fails: not chosen."
 ```
 
 **Schedule**
-- 5:21 AM · note · First light at Slough Creek. Sunrise 5:56 AM *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. **The one early alarm this week, and it earns it**: wildlife at dawn is the whole reason for the Slough Creek night (principle 4's exception).
-- 5:15 AM (2h 30m) · drive! · **Lamar Valley at dawn.** Same rules as last night: pull-outs only, 25 yards from bison, 100 from wolves and bears. · 📍 Lamar Valley Yellowstone
-- 8:00 AM (1h 30m) · stop · Back to camp. Hot breakfast, break camp slowly.
-- 9:30 AM (2h 30m) · drive · → Old Faithful via Tower Junction, Canyon, Norris and Madison. ⚠️ **Drive time is my estimate, unrouted**, and July traffic in the geyser basins is slow. · 📍 Old Faithful Geyser
-- 12:00 PM (2h) · stop · **Old Faithful and the Upper Geyser Basin boardwalks.** ⚠️ Eruption times are predicted daily; not checked. · 📍 Old Faithful Geyser
-- 2:30 PM (1h 30m) · hike · **Grand Prismatic from the Fairy Falls trail overlook.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*. The view from above is the one in the photographs; the boardwalk is the one from inside the steam. · 📍 Fairy Falls Trailhead Yellowstone
-- 4:30 PM (30m) · drive · → Madison Campground, 📋 16 mi north of Old Faithful. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
-- 5:00 PM (1h) · stop · Set up at Madison, 6,800 ft.
+- 5:22 AM · note · First light 5:22 AM, sunrise 5:57 AM at the Artist Point pin, near camp *(computed 2026-11-17, NOAA method; Canyon Campground isn't pinned)*. Break camp; pack most of it the night before.
+- 6:00 AM (1h 30m) · drive! · → Old Faithful via Norris and Madison. ⚠️ **Drive time is my estimate, unrouted.** · 📍 Old Faithful Geyser
+- 7:30 AM (1h) · stop · **Old Faithful, before the crowd.** Watch an eruption from the main boardwalk. ⚠️ Eruption times are predicted daily; not checked. Breakfast here, packed. · 📍 Old Faithful Geyser
+- 8:30 AM (1h) · hike · **Observation Point**, the eruption from above, away from the boardwalk crowd. ✅ AllTrails: **1.5 mi, 275 ft, Moderate, ~43 min** *(AllTrails, 2026-11-17)*. Time it to the next predicted eruption. · 📍 Old Faithful Geyser
+- 9:30 AM (30m) · stop · **Upper Geyser Basin boardwalks** toward Morning Glory Pool, as far as time allows (distance not checked). · 📍 Old Faithful Geyser
+- 10:00 AM (20m) · drive · → Fairy Falls Trailhead, back north. ⚠️ Estimate. · 📍 Fairy Falls Trailhead Yellowstone
+- 10:30 AM (3h 30m) · hike · **Grand Prismatic overlook, then on to Fairy Falls.** ✅ AllTrails: **Grand Prismatic Hot Spring Overlook Trail, 1.6 mi, 131 ft, Easy, ~36 min** *(AllTrails, 2026-10-29)*; **Fairy Falls Trail, 4.9 mi, 154 ft, Easy** and **Imperial Geyser via Fairy Falls, 6.7 mi, 275 ft, Easy** *(AllTrails, 2026-11-17)*. The overlook is crowded whenever the light is good; past it, most people have turned back, and that's the quiet corner. On cool mornings the spring is under steam, which is why it's late morning and not dawn *(Claude's recall)*. · 📍 Fairy Falls Trailhead Yellowstone
+- 2:00 PM (30m) · drive · → Madison Campground. ⚠️ Estimate. · 📍 Madison Campground Yellowstone
+- 2:30 PM (4h) · stop · Set up at Madison, 6,800 ft. Nap. Dinner early.
+- 7:30 PM (1h 30m) · drive · **The Madison River at dusk**: elk and bison in the meadows near camp *(Claude's recall)*. Pull-outs only, same distances. · 📍 Madison Campground Yellowstone
 - 9:00 PM · sunset · Sunset 9:00 PM, dark 9:35 PM at Madison *(computed 2026-11-14 at Colin's pin, NOAA method; `_gen/sun.json`)*. Waning gibbous 86%.
 
 **Meals**
-- B: made at camp — after Lamar, not before
-- L: packed
-- D: made at camp
+- B: packed — eaten at Old Faithful after the eruption
+- L: packed — on the Fairy Falls trail
+- D: made at camp — early, before the river
 
 #### Highlights
 
-Wolves at dawn and Old Faithful at noon on the same day. The two halves of Yellowstone, back to back.
+Old Faithful from above before the tour buses arrive, Grand Prismatic in good light, then the part of the Fairy Falls trail most people never reach, and elk on the Madison at dusk.
 
 #### Warnings
 
-**The busiest ground in the park, on purpose.** Old Faithful and Grand Prismatic are packed in July. Under the crowd rule (`me/travel-style.md`) they're worth it: they're world-class icons, Thursday is a weekday, and the solitude is already on this trip (the Beartooth Plateau, Lamar at dawn). **Stay on the boardwalks**: the thermal ground breaks through and the water scalds.
+**Stay on the boardwalks and the trail**: the thermal ground breaks through and the water scalds. ⚠️ **AllTrails marked Fairy Falls, Imperial Geyser and Observation Point "[CLOSED]" on 2026-11-17**, most likely the park's winter road closure; not checked. Confirm all three are open in spring.
 
 ### Day 12 — 2027-07-23 · The Tetons
 
@@ -1812,7 +1816,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 - [ ] **Full service before departure.** ~7,000 miles on the 2019 Outback with no rental to fall back on.
 - [ ] 🚨 **Make room for the friends.** From Aug 1 the car carries Colin + the 2 riders and their bags. The own-car group has its own rental. Three weeks of camping gear and the cooler can't all stay in it. Decide before leaving: ship the camp kit home from Hood River, a roof box, or the friends pack one soft bag each. See Open questions.
-- [ ] Spare confirmed inflated, jack, tire plug kit — FR 27, Crazy Woman, Clay Butte and Slough Creek's road are all gravel or dirt
+- [ ] Spare confirmed inflated, jack, tire plug kit — FR 27, Crazy Woman and Clay Butte are all gravel or dirt
 - [ ] Jump pack. Cold nights at 9,500 ft and a fortnight of short trips are hard on a battery.
 - [ ] Paper atlas as well as offline maps. Four days of the route have effectively no signal.
 
@@ -1830,8 +1834,8 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 
 ## Reservations & checks
 
-- [ ] 🚨 **Slough Creek, Yellowstone, Jul 21** — **16 sites, fills within minutes** of its 6-month window opening. The tightest booking on the trip, kept deliberately over the day-trip alternative because a wildlife valley is worth a dawn. 📋 Pebble Creek is closed for 2026 and "likely for the foreseeable future"; don't count on it. The campground road is 2 mi of dirt (recreation.gov, snippet).
-- [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Slough Creek and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
+- [ ] 🚨 **Canyon, Yellowstone, Jul 21** — recreation.gov, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). 273 sites. The briefing computes the date. Fee TBD. Open May 28 – Sept 19, 2027.
+- [ ] 🚨 **Madison, Yellowstone, Jul 22** — recreation.gov from the 2027 season, "exactly six months before" (📋 nps.gov/yell, snippet, 2026-10-29). The briefing computes the date: the same January sitting as Canyon and Glacier. Fee TBD. Open May 7 – Oct 17, 2027.
 - [ ] 🚨 **Glacier — Avalanche first, Apgar backup, Jul 25–26** — recreation.gov, 6-month rolling, released daily. **The briefing computes the opening date** (`tools/now.mjs`). One of the three campgrounds that go the day the window opens. No realistic walk-up fallback in July.
 - [ ] 🚨 **Glacier — Many Glacier, Jul 27–29** — same system, same January sitting. Both equally competitive.
 - [ ] **Flathead Lake State Park — Big Arm, Jul 24** — Montana State Parks, 3-month window (the briefing computes it). A July Saturday: book the day it opens.
@@ -1865,15 +1869,15 @@ Nobody has been asked yet *(Colin, 2026-11-04)*. The riders' end date decides wh
 **Blocks:** Day 23 morning
 Spinreel lets 18+ drivers take a RZR on a guided 2-hour dune, forest and beach loop ($399 per 2-seat, $499 per 4-seat, per vehicle). Sandland's sandrail is a passenger ride ($75 a person, 1 hour). Florence's self-drive side-by-sides need 25–30+, which rules out this group (ages: `wishlist/august-friends-2027.md`). Undecided.
 
-### Can you actually get Slough Creek, Madison, Many Glacier and a west-side campground for these dates?
+### Can you actually get Canyon, Madison, Many Glacier and a west-side campground for these dates?
 
 **Blocks:** Days 10–18 — nearly a quarter of the trip
-🚨 The five hardest bookings on the trip, on five days in one week (Jan 21–27). Slough Creek is 16 sites and gone in minutes; Madison moves to recreation.gov for 2027, so how fast it goes is unknown; Many Glacier and Avalanche (Apgar as backup) go the day their windows open. **All five windows fall Jan 21–27, 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, St. Mary reshapes the middle (Two Medicine was closed all of 2026). If Slough Creek fails, Day 10 becomes a fourth plateau night with Lamar as a long day trip.
+🚨 The five hardest bookings on the trip, on five days in one week (Jan 21–27). Canyon (273 sites) and Madison (276) move to recreation.gov for 2027, so how fast they go is unknown, but they're seventeen times the size of Slough Creek, which was dropped for that reason *(Colin, 2026-11-17)*; Many Glacier and Avalanche (Apgar as backup) go the day their windows open. **All five windows fall Jan 21–27, 2027 — book them in one sitting, with fallbacks already written.** If Many Glacier fails, St. Mary reshapes the middle (Two Medicine was closed all of 2026).
 
 ### Has Pebble Creek reopened?
 
-**Blocks:** Day 10, and how bad the Slough Creek race actually is
-📋 **Answered, mostly: no.** Closed for 2026 and "likely for the foreseeable future" (nps.gov/yell and yellowstone.org, snippets, 2026-10-10). A Facebook post says it gets rebuilt with the Northeast Entrance Road reconstruction, whose environmental review was still underway in 2026. Plan as if Slough Creek is the only option, with the written fallback.
+**Blocks:** nothing now: Slough Creek was dropped for Canyon *(Colin, 2026-11-17)*, so this only matters if Lamar at dawn comes back
+📋 **Answered, mostly: no.** Closed for 2026 and "likely for the foreseeable future" (nps.gov/yell and yellowstone.org, snippets, 2026-10-10). A Facebook post says it gets rebuilt with the Northeast Entrance Road reconstruction, whose environmental review was still underway in 2026. 
 
 ### Is 8,300 ft the night after the plains fine?
 
