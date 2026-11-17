@@ -384,4 +384,7 @@ One burner, one pot, one pan. The meal plans are built to that exact constraint.
 - name: America the Beautiful pass
   state: own
   note: Covers NPS entry. Not state park fees, not timed entry.
+- name: Bear spray
+  state: need
+  note: "*(added 2026-11-17, Colin: \"okay add it\")* For grizzly country on `trips/northern-rockies-2027/` (Days 10–19: Yellowstone, the Tetons, Glacier), carried on the person, not in the pack or the car. Driving from Ohio, so it can be bought before leaving; it can't go on a plane. One can; check the date."
 ```

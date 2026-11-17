@@ -20,7 +20,7 @@ coords: [ 46, -106.5 ]
 mymaps: 1QF-aDHucZRtQcZJw8CANZEAqtq-H-gQ  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 40 nights
 distance: "~7,000 mi in all (Claude's estimate) — 6,370 mi drawn on real roads for Days 2–41 (tools/roads.py, 2026-11-14), plus Day 1 (640 mi, routed)"
-budget: TBD. Fuel alone ~$1,200–1,450 (Claude's estimate, 2026-11-14 — ~7,000 mi at the V6's ~22 mpg, $3.75–4.50/gal; no gas price sourced for July 2027). The old 21-day loop was ~$1,790; the Oregon week (~$1,000–1,350 your share for the old Aug 1–10 version, `wishlist/august-friends-2027.md`; the two coast nights aren't priced), a solo Hood River night and a ~2,400 mi drive home aren't added up yet
+budget: "~$4,000–5,300, Colin's share, all estimated (Claude, 2026-11-17; breakdown in Notes, \"What this costs\"): beds ~$1,450–1,750, fuel ~$1,200–1,450, food ~$1,000–1,550, activities ~$400–550. Not in it: the pre-trip car service, gear still to buy, and anything the Glacier campground misses would cost."
 tags:
   - car camping
   - alpine
@@ -902,14 +902,14 @@ type: travel
 driving: ⚠️ unrouted. Many Glacier → Kalispell ~3h (my estimate), then on toward the Idaho line
 slack: "Little. **Cutoff: not at East Portal by 12:45 PM PT → skip the ride and drive on.**"
 overnight:
-  name: TBD — camp near Wallace / Kellogg, Idaho, or the car
+  name: Wallace RV Park (picked, not booked)
   mapStandIn: Wallace, ID
-  place: Silver Valley, ID
-  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
-  cost: TBD
-  checkin: Unknown
+  place: Wallace, ID (I-90 exit 61/62)
+  kind: Private campground, tent site
+  cost: TBD (not read)
+  checkin: Unknown; contact 208-753-7121
   confirmation: TBD
-  notes: "Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Bed not picked. Since the 2026-11-08 flip the day starts at Many Glacier; it still fits if the drop-off runs on time, because the trail keeps Pacific time (`research-log.md`, 2026-11-16)."
+  notes: "Picked *(Colin, 2026-11-17: \"lets pick em\")*. Listed on the Hiawatha's own camping page: 43 sites with tenting, **showers**, a dump station and ice, open spring through October, in town next to a brewpub (ridethehiawatha.com area camping, read 2026-11-17). About 20 mi west of Lookout Pass *(Claude's recall)*, the right direction for tomorrow. Whether tent sites take reservations isn't read. **Free fallback:** the primitive sites along Rainy Creek Road, the East Portal's access road, or along Loop Creek and the North Fork St. Joe near Pearson (same page). Near the Hiawatha, so the ride fits the afternoon *(Colin, 2026-10-30)*. Since the 2026-11-08 flip the day starts at Many Glacier; it still fits if the drop-off runs on time, because the trail keeps Pacific time (`research-log.md`, 2026-11-16)."
 ```
 
 **Schedule**
@@ -1378,14 +1378,14 @@ type: travel
 driving: Hood River → PDX → I-84 east to La Grande, 313 mi drawn (tools/roads.py; times unrouted)
 slack: Some. Nothing is booked tonight.
 overnight:
-  name: TBD — camp near La Grande, or the car
+  name: Hilgard Junction State Park (picked, first-come)
   mapStandIn: La Grande, OR
-  place: La Grande, OR
-  kind: Camp, else the car (no solo motels, Colin 2026-11-14)
-  cost: TBD
-  checkin: Unknown
-  confirmation: TBD
-  notes: "⚠️ Not picked. Hilgard Junction State Park sits on I-84 just west of La Grande (Claude's recall, not checked). Pendleton is the shorter fallback."
+  place: near La Grande, OR, on I-84
+  kind: State park campground, first-come, first-served
+  cost: ~$10/night (wheelingit.us, 2015; not current)
+  checkin: First-come, first-served, no reservations
+  confirmation: n/a
+  notes: "Picked *(Colin, 2026-11-17: \"lets pick em\")*. **18 sites, all first-come, first-served**, camping May 1 – Oct 1, on the Grande Ronde River (stateparks.oregon.gov park page and tripadvisor, snippets, 2026-11-17). A Thursday in mid-August, solo, so the gamble is small. Fallback: the car, or Pendleton, shorter."
 ```
 
 **Schedule**
@@ -1826,7 +1826,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 ### Food logistics: 41 days
 
 - [ ] **Resupplies: Laramie (day 3), Cody (day 7), Missoula (day 13), Kalispell with Ethan and Finn (day 14), Boise (day 33, five nights of camp food), Bozeman or Livingston (day 38).** Day 4 has no planned grocery stop. Many Glacier (Days 16–18) has none: shop for three in Kalispell on Day 14.
-- [ ] Block ice at every resupply, not cubes
+- [ ] Ice only when it's handy: going days without it is fine *(stated 2026-11-17, `me/food.md`)*
 - [ ] This is roughly twice the longest trip ever run on this cooler system — **the meal plan needs rebuilding, not extending**
 
 ### Showers and laundry — worse after the recut
@@ -1857,7 +1857,7 @@ Every figure is AllTrails, looked up 2026-09-06. Roughly 95 miles on foot across
 - [ ] Full booking order and sources: `wishlist/august-friends-2027.md`, 2026-10-15.
 - [ ] 🚨 **Logan Pass shuttle tickets, Jul 26 (Day 15), three of them: required** — the one-way Highline to The Loop depends on it. In 2026: $1 on recreation.gov, released 7 PM the day before plus some on a 60-day window, and they sold out fast; westbound pickups at The Loop roughly 10:30 AM – 8 PM (📋 nps.gov/glac shuttle-service-2026; morethanjustparks.com, 2026-10-29). 📋 It was a **2026 pilot** (Jul 1 – Sept 7, with 3-hour parking at Logan Pass); it ended Sept 8 and the 2027 version isn't announced. The 2026 rules were posted in February 2026, so expect the 2027 ones around Feb 2027, *after* the January campground bookings (nps.gov/glac news releases and nationalparkfees.pages.dev, snippets, 2026-10-29).
 - [ ] **Outlet CG, Sawtooths, Aug 13–18** — in the plan (2026-11-14). The briefing computes the window from the `booking:` row; cancelling costs $10 until the day before arrival. See the open question.
-- [ ] ⚠️ **Solo nights not picked: Days 19 and 32.** No solo motels *(Colin, 2026-11-14)*: camp near the route, else the car. Day 1 is the Quality Inn Des Moines North (picked 2026-11-16). Days 38–40 picked on 2026-11-14: Itch-Kep-Pe (free), Sage Creek (free), Great River Bluffs (reservable, 120 days). Solve the last two together, once, before departure.
+- [x] **Solo nights all picked.** Day 1 Quality Inn Des Moines North (2026-11-16); Day 19 Wallace RV Park and Day 32 Hilgard Junction State Park, first-come (2026-11-17); Days 38–40 Itch-Kep-Pe (free), Sage Creek (free), Great River Bluffs (reservable, 120 days) (2026-11-14). No solo motels *(Colin, 2026-11-14)*.
 
 ## Open questions
 
@@ -1972,9 +1972,19 @@ None of this is a reason not to go. It is a reason to have the habits before Day
 
 ### What this costs, and what it does not
 
-**The 41-day total isn't added up yet.** The old 21-day loop was about **$1,790**, and unusually for this list that number was nearly complete — **there is no airfare, no rental car and no under-25 surcharge in it**, because you are driving your own car.
+**~$4,000–5,300, Colin's share** *(Claude's total, 2026-11-17)*. Every line is an estimate; nothing is booked. No airfare, no rental car, no under-25 surcharge, because it's your own car. The Oregon rooms split three ways with the riders; the own-car group pays its own.
 
-In that old loop, fuel was the biggest line at ~$553 (the current estimate is ~$1,200–1,450, `budget:`), and it moves with the route rather than with choices. Campsites are ~$445 across nine places, all estimated. The 25-day version came to $2,038, so **the recut saved about $250** — which was never the argument for shortening it. The argument was day 19.
+| Line | Low | High | How it's counted |
+| --- | --- | --- | --- |
+| Beds, 40 nights | $1,450 | $1,750 | Each night's `cost:`. Quoted: Des Moines $88, Newport $172.63 and Yachats $186.63 split three ways. Ranges: Hood River $164–226 (Day 20 alone, Aug 8–11 split), Bend $128–160 split, Belknap $140–215 + 12.07% tax split, campgrounds $20–26. **Estimated by Claude, no source:** Canyon and Madison ~$30–40 each, Flathead Big Arm ~$30–40, Wallace RV Park ~$25–40, Great River Bluffs ~$30–40, Hilgard ~$10–20, the Outlet reservation fee. Glacier's five nights counted as Colin's alone (~$115); Ethan and Finn may split them. |
+| Fuel | $1,200 | $1,450 | The `budget:` estimate from 2026-11-14: ~7,000 mi at ~22 mpg, $3.75–4.50/gal. The riders split Aug 1–12 gas, which saves Colin maybe ~$80 *(guess)*. |
+| Food | $1,000 | $1,550 | Groceries ~$15–20/day *(stated ~$20 as an upper bound, 2026-10-04, newfoundland-2027 log)* for ~29 days of cooking, plus **38 bought meals** in the plan at ~$15–25 each *(guess)*. |
+| Activities | $400 | $550 | Hiawatha $70–79, Deschutes raft $105, White Salmon $99, Deschutes float $28, Terwilliger $12, Smith Rock $12 split, Clear Lake boat split, Pettit $10, South Sister $1, Glacier shuttle $1 (2026 prices), Jenny Lake boat ~$20 *(guess, not checked)*, showers and laundry ~$30–40 *(guess)*. The dunes: $0 if skipped, $75 for Sandland, ~$133 for a third of a Spinreel 4-seat. NPS entry is $0 (America the Beautiful pass, `me/gear.md`). |
+| **Total** | **~$4,050** | **~$5,300** | |
+
+**Outside the total:** the pre-departure service on the Outback (not priced), gear still marked `need` that this trip uses (binoculars ~$229–239 street, `me/gear.md`; bear spray and rain pants not priced), and road repairs, handled as they come *(Colin, 2026-11-17)*.
+
+**The swing items:** food is the softest line. Belknap and Hood River are the biggest beds; skipping the Sawtooths saves only ~$130 in beds but ~4 days of food and some fuel. The old 21-day loop was ~$1,790.
 
 ### The Sawtooths ending, and how to skip it
 
