@@ -12,7 +12,9 @@
      shot:    what the picture should show (the brief, and the caption on a second picture of one stop)
      commons: "File:….jpg"        optional: Claude's default, from Wikimedia Commons
      credit:  "Author · CC BY-SA 4.0"   required with commons: shown on the slide and the credits page
-     title:   optional heading, when the row has no bold name or the shot needs its own */
+     title:   optional heading, when the row has no bold name or the shot needs its own
+     q:       optional: what the Photo Ledger's "Find pictures" searches for, when the heading alone
+              ("The summit") wouldn't find the place */
 import YAML from "yaml";
 
 export const parseSlides = (text) => { const y = YAML.parse(text) ?? {}; return { ...y, shots: y.shots ?? [] }; };
@@ -65,7 +67,7 @@ export function deck({ shots }, days) {
   return days.map((d) => {
     const mine = shots.filter((x) => x.day === d.day), rows = d.schedule ?? [], slides = [], placed = new Set();
     const rowOf = (s) => (s.stop ? rows.find((r) => plain(r.text).toLowerCase().includes(s.stop.toLowerCase())) : null);
-    const photo = (s, row, first) => ({ kind: "photo", id: s.id, shot: s.shot, commons: s.commons ?? null, credit: s.credit ?? null,
+    const photo = (s, row, first) => ({ kind: "photo", id: s.id, shot: s.shot, q: s.q ?? null, commons: s.commons ?? null, credit: s.credit ?? null,
       title: s.title ?? (row && rowName(row.text)) ?? s.stop, rowKind: row?.kind ?? null,
       when: row ? [row.time, row.kind].filter(Boolean).join(" · ") : "",
       soft: !!row && SOFT.test(row.time ?? ""), warn: !!row?.warn,

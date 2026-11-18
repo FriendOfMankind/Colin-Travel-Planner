@@ -1,0 +1,159 @@
+# The Long Way to Glacier slideshow: which pictures, on which day. The words on each slide come from
+# trip.md when the deck is built (node tools/slides.mjs northern-rockies-2027); format in tools/lib/slides.mjs.
+# Colin picks every picture in the Photo Ledger; a shot with none shows as a "photo wanted" slide.
+url: https://claude.ai/artifact/3PsJJmUgnyTxuwjmMW1rXn   # the published deck (a private claude.ai page); republish to this url, never as a new page
+shots:
+  - { id: d02-vedauwoo-granite, day: 2, stop: Turtle Rock Loop, shot: "Vedauwoo's granite towers along the Turtle Rock loop" }
+  - { id: d02-vedauwoo-golden-hour, day: 2, stop: Sit on the rocks, title: Golden hour at Vedauwoo, shot: "Vedauwoo's rocks in low evening light", q: "Vedauwoo sunset" }
+
+  - { id: d03-snowy-range-road, day: 3, stop: WY-130 west, title: The Snowy Range road, shot: "WY-130 climbing toward the Snowy Range" }
+  - { id: d03-medicine-bow-peak, day: 3, stop: Medicine Bow Peak and Lakes Trail Loop, shot: "Medicine Bow Peak above the lakes, the whole ridge" }
+  - { id: d03-medicine-bow-summit, day: 3, stop: Medicine Bow Peak and Lakes Trail Loop, title: The summit, shot: "The view from the top of Medicine Bow Peak, 12,013 ft", q: "Medicine Bow Peak summit view" }
+  - { id: d03-lake-marie, day: 3, stop: Sit at Lake Marie, title: Lake Marie, shot: "Lake Marie under the peak" }
+  - { id: d03-brooklyn-lake, day: 3, stop: Sunset 8:38 PM, title: Brooklyn Lake, shot: "Brooklyn Lake in the evening, from the campground side", q: "Brooklyn Lake Snowy Range Wyoming" }
+
+  - { id: d04-ten-sleep-canyon, day: 4, stop: US-16 east through Ten Sleep, title: Ten Sleep Canyon, shot: "US-16 climbing through Ten Sleep Canyon" }
+  - { id: d04-west-tensleep-falls, day: 4, stop: West Tensleep Falls, shot: "West Tensleep Falls" }
+  - { id: d04-west-tensleep-lake, day: 4, stop: Sunset 8:50 PM, title: West Tensleep Lake, shot: "West Tensleep Lake at evening, from the shore" }
+
+  - { id: d05-mirror-lake, day: 5, stop: Mirror Lake and Lost Twin Lakes, shot: "Mirror Lake, on the way up to Lost Twin" }
+  - { id: d05-lost-twin-lakes, day: 5, stop: Sit at Lost Twin, title: Lost Twin Lakes, shot: "Lost Twin Lakes under the headwall" }
+
+  - { id: d06-sherd-lake, day: 6, stop: Sherd Lake Trail, shot: "Sherd Lake" }
+  - { id: d06-crazy-woman-canyon, day: 6, stop: Crazy Woman Canyon Road, title: Crazy Woman Canyon, shot: "Crazy Woman Canyon: the road between the canyon walls, so you can see how narrow it is" }
+  - { id: d06-meadowlark-lake, day: 6, stop: Meadowlark Lake, title: Meadowlark Lake, shot: "Meadowlark Lake from the highway overlooks" }
+
+  - { id: d07-chief-joseph, day: 7, stop: Chief Joseph Scenic Byway, title: Chief Joseph Scenic Byway, shot: "The switchbacks of the Chief Joseph Byway from Dead Indian Pass" }
+  - { id: d07-beartooth-plateau, day: 7, stop: Chief Joseph Scenic Byway, title: Up onto the plateau, shot: "US-212 on the Beartooth Plateau: road, tundra, lakes", q: "Beartooth Highway US-212 plateau" }
+  - { id: d07-island-lake, day: 7, stop: Set up at Island Lake, title: Island Lake, shot: "Island Lake and the campground" }
+
+  - { id: d08-beauty-lake, day: 8, stop: Beauty Lake and Beartooth High Lakes Loop, shot: "Beauty Lake" }
+  - { id: d08-high-lakes, day: 8, stop: Beauty Lake and Beartooth High Lakes Loop, title: The high lakes, shot: "One of the plateau lakes on the loop, open tundra around it", q: "Beartooth High Lakes trail" }
+
+  - { id: d09-becker-lake, day: 9, stop: Becker Lake, shot: "Becker Lake" }
+  - { id: d09-clay-butte-lookout, day: 9, stop: Clay Butte Lookout, shot: "Clay Butte Lookout, the fire tower" }
+  - { id: d09-clay-butte-view, day: 9, stop: Best single view, title: The view from Clay Butte, shot: "The view from Clay Butte: the Beartooths one way, the Absarokas the other", q: "Clay Butte Lookout view" }
+
+  - { id: d10-lamar-valley, day: 10, stop: Lamar Valley, shot: "Lamar Valley with bison" }
+  - { id: d10-trout-lake, day: 10, stop: Trout Lake Loop, shot: "Trout Lake", q: "Trout Lake Yellowstone" }
+  - { id: d10-lower-falls, day: 10, stop: The Grand Canyon of the Yellowstone, title: The Grand Canyon of the Yellowstone, shot: "Lower Falls from Artist Point" }
+  - { id: d10-canyon-walls, day: 10, stop: The Grand Canyon of the Yellowstone, title: The canyon, shot: "The yellow canyon walls downstream of the falls", q: "Grand Canyon of the Yellowstone canyon walls" }
+  - { id: d10-hayden-valley, day: 10, stop: Hayden Valley, shot: "Hayden Valley at dusk, bison by the river" }
+
+  - { id: d11-old-faithful, day: 11, stop: "Old Faithful, before the crowd", shot: "Old Faithful erupting, from the boardwalk" }
+  - { id: d11-observation-point, day: 11, stop: Observation Point, shot: "Old Faithful and the basin from Observation Point" }
+  - { id: d11-morning-glory, day: 11, stop: Morning Glory Pool, title: Morning Glory Pool, shot: "Morning Glory Pool's colours, from the boardwalk" }
+  - { id: d11-grand-prismatic, day: 11, stop: Grand Prismatic overlook, shot: "Grand Prismatic from the overlook trail" }
+  - { id: d11-fairy-falls, day: 11, stop: Grand Prismatic overlook, title: Fairy Falls, shot: "Fairy Falls, the whole drop" }
+  - { id: d11-madison-river, day: 11, stop: The Madison River at dusk, shot: "Elk or bison in the Madison River meadows at dusk" }
+
+  - { id: d12-jenny-lake, day: 12, stop: Jenny Lake via the South Entrance, title: Jenny Lake, shot: "Jenny Lake with the Tetons behind it" }
+  - { id: d12-cascade-canyon, day: 12, stop: Cascade Canyon via the Jenny Lake boat, shot: "Cascade Canyon: the trail under the peaks" }
+  - { id: d12-hidden-falls, day: 12, stop: Cascade Canyon via the Jenny Lake boat, title: Hidden Falls, shot: "Hidden Falls, on the way into the canyon", q: "Hidden Falls Grand Teton" }
+  - { id: d12-inspiration-point, day: 12, stop: Cascade Canyon via the Jenny Lake boat, title: Inspiration Point, shot: "Jenny Lake from Inspiration Point", q: "Inspiration Point Jenny Lake" }
+  - { id: d12-string-lake, day: 12, stop: Swim at String Lake, title: String Lake, shot: "String Lake: shallow clear water, the peaks overhead" }
+  - { id: d12-jackson-lake-sunset, day: 12, stop: Walk down to the Jackson Lake shore, title: Jackson Lake at sunset, shot: "Mount Moran across Jackson Lake from Colter Bay", q: "Mount Moran Jackson Lake sunset Colter Bay" }
+
+  - { id: d13-oxbow-bend, day: 13, stop: Oxbow Bend at sunrise, shot: "Oxbow Bend at sunrise, Mount Moran in the water" }
+  - { id: d13-schwabacher-landing, day: 13, stop: Oxbow Bend at sunrise, title: Schwabacher Landing, shot: "The Teton reflection at Schwabacher Landing" }
+  - { id: d13-flathead-lake, day: 13, stop: a swim in Flathead Lake, title: Flathead Lake, shot: "Flathead Lake from the shore at Big Arm" }
+
+  - { id: d14-lake-mcdonald, day: 14, stop: Lake McDonald pull-off, title: Lake McDonald, shot: "Lake McDonald: the coloured stones under clear water, mountains behind" }
+  - { id: d14-avalanche-lake, day: 14, stop: Check in at Avalanche, title: Avalanche Lake, shot: "Avalanche Lake and the waterfalls on its headwall" }
+
+  - { id: d15-logan-pass, day: 15, stop: ride the shuttle up to Logan Pass, title: Logan Pass, shot: "Logan Pass at first light" }
+  - { id: d15-highline-ledge, day: 15, stop: "The Highline, Logan Pass", title: The Highline, shot: "The Highline's ledge section with the hand cable, so you can see the drop", q: "Highline Trail Glacier ledge cable" }
+  - { id: d15-highline-garden-wall, day: 15, stop: "The Highline, Logan Pass", title: Along the Garden Wall, shot: "The Highline running along the Garden Wall, the valley far below", q: "Highline Trail Garden Wall Glacier" }
+  - { id: d15-granite-park-chalet, day: 15, stop: Sit at Granite Park Chalet, title: Granite Park Chalet, shot: "Granite Park Chalet on its bench, peaks behind" }
+  - { id: d15-loop-descent, day: 15, stop: Down to The Loop, shot: "The descent from the chalet toward The Loop", q: "Granite Park Chalet trail to The Loop Glacier" }
+
+  - { id: d16-sun-road, day: 16, stop: Going-to-the-Sun Road, shot: "Going-to-the-Sun Road cut into the mountainside" }
+  - { id: d16-st-mary-lake, day: 16, stop: Going-to-the-Sun Road, title: St. Mary Lake, shot: "Wild Goose Island in St. Mary Lake", q: "Wild Goose Island St. Mary Lake" }
+  - { id: d16-st-mary-falls, day: 16, stop: St. Mary and Virginia Falls, shot: "St. Mary Falls" }
+  - { id: d16-virginia-falls, day: 16, stop: St. Mary and Virginia Falls, title: Virginia Falls, shot: "Virginia Falls, the full drop", q: "Virginia Falls Glacier National Park" }
+  - { id: d16-swiftcurrent-lake, day: 16, stop: Swiftcurrent Lake with worms, title: Swiftcurrent Lake, shot: "Swiftcurrent Lake with the peaks behind it" }
+
+  - { id: d17-grinnell-lake, day: 17, stop: Grinnell Glacier Trail, shot: "Grinnell Lake's turquoise water from the trail above" }
+  - { id: d17-grinnell-climb, day: 17, stop: Grinnell Glacier Trail, title: The climb, shot: "The trail along the cliffs toward the glacier", q: "Grinnell Glacier Trail cliffs" }
+  - { id: d17-upper-grinnell, day: 17, stop: Sit at the glacier basin, title: Upper Grinnell Lake, shot: "Upper Grinnell Lake with icebergs and the glacier behind" }
+  - { id: d17-lake-josephine, day: 17, stop: Lake Josephine, title: Lake Josephine, shot: "Lake Josephine from the trail", q: "Lake Josephine Glacier National Park" }
+
+  - { id: d18-iceberg-trail, day: 18, stop: Iceberg Lake, shot: "The trail to Iceberg Lake under the Ptarmigan Wall", q: "Iceberg Lake trail Ptarmigan Wall" }
+  - { id: d18-iceberg-lake, day: 18, stop: Sit at the lake, title: At the lake, shot: "Iceberg Lake in its cirque, ice floating in it", q: "Iceberg Lake Glacier National Park" }
+  - { id: d18-redrock-falls, day: 18, stop: Redrock Falls, title: Redrock Falls, shot: "Redrock Falls, the short walk from camp", q: "Redrock Falls Glacier National Park" }
+
+  - { id: d19-hiawatha-trestle, day: 19, stop: Route of the Hiawatha, shot: "A Hiawatha trestle from the trail, high over the forest" }
+  - { id: d19-hiawatha-tunnel, day: 19, stop: Route of the Hiawatha, title: The first tunnel, shot: "The mouth of the 1.66-mile tunnel", q: "Route of the Hiawatha Taft Tunnel entrance" }
+
+  - { id: d20-columbia-gorge, day: 20, stop: Columbia River Gorge, shot: "The Columbia River Gorge on the drive in" }
+  - { id: d20-hood-river, day: 20, stop: "Laundry, shower", title: Hood River, shot: "Hood River town, with the river or Mt. Hood behind" }
+
+  - { id: d21-newport-bayfront, day: 21, stop: bayfront, title: Newport's bayfront, shot: "Newport's bayfront: boats, the bridge, sea lions on the docks" }
+
+  - { id: d22-yaquina-head, day: 22, stop: Yaquina Head, shot: "Yaquina Head lighthouse above Cobble Beach" }
+  - { id: d22-tide-pools, day: 22, stop: Yaquina Head, title: The tide pools, shot: "Sea stars and anemones in the Cobble Beach pools at low tide", q: "Yaquina Head Cobble Beach tide pools" }
+  - { id: d22-depoe-bay, day: 22, stop: Depoe Bay, shot: "A gray whale close to shore at Depoe Bay" }
+  - { id: d22-devils-punchbowl, day: 22, stop: Depoe Bay, title: Devil's Punchbowl, shot: "Devil's Punchbowl from the rim" }
+  - { id: d22-thors-well, day: 22, stop: Cape Perpetua, title: Thor's Well, shot: "Thor's Well draining" }
+  - { id: d22-spouting-horn, day: 22, stop: Cape Perpetua, title: The Spouting Horn, shot: "The Spouting Horn going off at Cape Perpetua", q: "Spouting Horn Cape Perpetua" }
+
+  - { id: d23-oregon-dunes, day: 23, stop: "Oregon Dunes, option 1", title: Oregon Dunes, shot: "The open dunes with a buggy on them, for scale" }
+  - { id: d23-mckenzie-river, day: 23, stop: up the McKenzie, title: The McKenzie, shot: "The McKenzie River through old forest", q: "McKenzie River Oregon" }
+  - { id: d23-belknap, day: 23, stop: Check in at Belknap, title: Belknap Hot Springs, shot: "Belknap's hot pool beside the river" }
+
+  - { id: d24-clear-lake, day: 24, stop: Clear Lake rowboat, shot: "A rowboat on Clear Lake, the water clear to the bottom" }
+  - { id: d24-drowned-forest, day: 24, stop: Clear Lake rowboat, title: The drowned forest, shot: "The standing trunks under Clear Lake's surface", q: "Clear Lake Oregon underwater forest" }
+  - { id: d24-blue-pool, day: 24, stop: Tamolitch Blue Pool, shot: "Tamolitch Blue Pool from the rim" }
+  - { id: d24-terwilliger, day: 24, stop: Terwilliger Hot Springs, shot: "Terwilliger's pools in the forest" }
+
+  - { id: d25-mckenzie-pass, day: 25, stop: McKenzie Pass, shot: "The lava fields at McKenzie Pass with the Sisters behind" }
+  - { id: d25-steelhead-falls, day: 25, stop: Steelhead Falls, shot: "Steelhead Falls and the ledges people jump from" }
+  - { id: d25-smith-rock, day: 25, stop: Misery Ridge, shot: "Smith Rock and the Crooked River from Misery Ridge" }
+  - { id: d25-monkey-face, day: 25, stop: Misery Ridge, title: Monkey Face, shot: "Monkey Face from the Misery Ridge trail", q: "Monkey Face Smith Rock" }
+
+  - { id: d26-south-sister, day: 26, stop: South Sister summit, shot: "South Sister from below, the whole climb" }
+  - { id: d26-south-sister-top, day: 26, stop: South Sister summit, title: The top, shot: "The summit crater and the view north to Middle and North Sister", q: "South Sister summit crater view" }
+
+  - { id: d27-bend-float, day: 27, stop: Deschutes float, shot: "Tubers on the Deschutes through Bend", q: "Deschutes River float Bend" }
+
+  - { id: d28-deschutes-raft, day: 28, stop: Deschutes River Adventures, shot: "A raft in whitewater on the lower Deschutes, desert canyon walls" }
+
+  - { id: d29-white-salmon, day: 29, stop: White Salmon half-day raft, shot: "A raft in the White Salmon's narrow gorge" }
+  - { id: d29-husum-falls, day: 29, stop: White Salmon half-day raft, title: Husum Falls, shot: "A raft going over Husum Falls" }
+  - { id: d29-lost-lake, day: 29, stop: Lost Lake, shot: "Mt. Hood reflected in Lost Lake at golden hour", q: "Lost Lake Mt. Hood" }
+
+  - { id: d30-eagle-creek, day: 30, stop: Eagle Creek to Tunnel Falls, shot: "The Eagle Creek trail cut into the cliff, with the cable handhold" }
+  - { id: d30-tunnel-falls, day: 30, stop: Eagle Creek to Tunnel Falls, title: Tunnel Falls, shot: "Tunnel Falls with the trail passing behind it" }
+  - { id: d30-punch-bowl-falls, day: 30, stop: "Punch Bowl Falls, 2 mi in", title: Punch Bowl Falls, shot: "Punch Bowl Falls and its pool" }
+
+  - { id: d31-rowena-crest, day: 31, stop: Rowena Crest, shot: "The Rowena Loops from the crest at sunset" }
+
+  - { id: d32-gorge-east, day: 32, stop: East on I-84 through the Gorge, title: The dry end of the Gorge, shot: "I-84 along the Columbia where the Gorge opens into grassland", q: "Columbia River Gorge east I-84 dry hills" }
+
+  - { id: d33-kirkham, day: 33, stop: Kirkham Hot Springs, shot: "Kirkham's riverside pools on the South Fork Payette" }
+  - { id: d33-into-stanley, day: 33, stop: Stanley over Banner Summit, title: Into Stanley, shot: "The Sawtooths rising behind Stanley as you drive in", q: "Stanley Idaho Sawtooth Mountains" }
+  - { id: d33-redfish-lake, day: 33, stop: Then the Redfish Lake shore, title: Redfish Lake, shot: "Redfish Lake with the peaks at its head" }
+
+  - { id: d34-fishhook-creek, day: 34, stop: Fishhook Creek, shot: "The Fishhook Creek meadow under the peaks" }
+  - { id: d34-redfish-beach, day: 34, stop: Redfish Lake beach, shot: "The beach at Redfish Lake" }
+  - { id: d34-boat-box, day: 34, stop: A hot pot by the Salmon River, title: Boat Box hot spring, shot: "The Boat Box tub beside the Salmon River" }
+
+  - { id: d35-bench-lakes, day: 35, stop: Bench Lakes, shot: "One of the Bench Lakes with the peak above it" }
+  - { id: d35-redfish-from-above, day: 35, stop: Bench Lakes, title: Redfish from above, shot: "Redfish Lake seen from the Bench Lakes trail", q: "Redfish Lake from Bench Lakes trail" }
+
+  - { id: d36-alpine-lake, day: 36, stop: Sawtooth Lake via Iron Creek, shot: "Alpine Lake, the side trip on the way up", q: "Alpine Lake Sawtooths Iron Creek" }
+  - { id: d36-sawtooth-lake, day: 36, stop: Sawtooth Lake via Iron Creek, title: Sawtooth Lake, shot: "Sawtooth Lake with Mount Regan behind it" }
+
+  - { id: d37-fourth-of-july-lake, day: 37, stop: Fourth of July Lake, shot: "Fourth of July Lake in the White Clouds" }
+  - { id: d37-yellow-belly-lake, day: 37, stop: Yellow Belly Lake, shot: "Yellow Belly Lake" }
+  - { id: d37-pettit-lake, day: 37, stop: Yellow Belly Lake, title: Pettit Lake, shot: "Pettit Lake, where the trail starts" }
+
+  - { id: d38-salmon-river, day: 38, stop: SH-75, title: Down the Salmon River, shot: "SH-75 following the Salmon River below Stanley", q: "Salmon River Highway 75 Idaho" }
+  - { id: d38-itch-kep-pe, day: 38, stop: Camp at Itch-Kep-Pe, title: Itch-Kep-Pe Park, shot: "The Yellowstone River from the camp at Itch-Kep-Pe" }
+
+  - { id: d39-tower-from-the-road, day: 39, stop: US-14 to the Tower, title: The Tower from the road, shot: "Devils Tower rising over the prairie from the approach road", q: "Devils Tower from the road" }
+  - { id: d39-devils-tower, day: 39, stop: "Devils Tower, the Tower Trail", shot: "Devils Tower's columns from the base trail" }
+  - { id: d39-sage-creek, day: 39, stop: Sage Creek Rim Road, title: "Sage Creek, Badlands", shot: "Bison on the grass at Sage Creek with the badlands behind" }
+
+  - { id: d40-badlands-sunrise, day: 40, stop: Sunrise 5:59 AM, title: Badlands sunrise, shot: "First light on the Badlands from Sage Creek", q: "Badlands sunrise Sage Creek" }
+  - { id: d40-great-river-bluffs, day: 40, stop: Camp on the bluff, title: Great River Bluffs, shot: "The Mississippi from the bluff at Great River Bluffs" }

@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 // A trip as a slideshow: for each day a cover, a slide per picture, and the day's warnings.
-// Writes site/slides/<slug>.html, one self-contained page (pictures inside it) to publish as a
-// private claude.ai page.
+// Writes site/slides/<slug>.html to publish as a private claude.ai page. The pictures are separate
+// files beside it (site/slides/<slug>/, listed in site/slides/<slug>.files.json), because a page
+// tops out at 16 MB and a picture inside it costs ~265 KB: about 55 pictures. As files there is no
+// such ceiling (15 MB a file, 255 files a publish). Publish with the Artifact tool: `file_path` the
+// page, `root: "site/slides"`, `files` the list in <slug>.files.json.
 //
 //   node tools/slides.mjs <slug>            build the deck
+//   node tools/slides.mjs <slug> --inline   one self-contained page, pictures inside it (a small deck, or a file to hand someone)
 //   node tools/slides.mjs <slug> --list     the shot list: what each picture should show, and what it has
 //   node tools/slides.mjs <slug> --find "Skellig Michael steps"   Commons candidates, with credit lines
 //
@@ -24,7 +28,7 @@ import { beds, checkSlides, deck, lede, parseSlides, plain } from "./lib/slides.
 import { POSTER_DIR, dayColor } from "./lib/posters.mjs";
 
 const slug = process.argv[2], has = (k) => process.argv.includes(k), arg = (k) => { const i = process.argv.indexOf(k); return i > 0 ? process.argv[i + 1] : null; };
-if (!slug || slug.startsWith("-")) { console.error('usage: node tools/slides.mjs <slug> [--list | --ledger | --adopt <rows dir> <pictures dir>]'); process.exit(1); }
+if (!slug || slug.startsWith("-")) { console.error('usage: node tools/slides.mjs <slug> [--inline | --list | --ledger | --adopt <rows dir> <pictures dir>]'); process.exit(1); }
 const UA = "trail-notes-slides/1.0 (personal trip deck)", CACHE = `.cache/slides/${slug}`;
 // Wikimedia throttles this network hard (429 after a handful of requests), so: one request at a time, a pause after each, a long wait on a refusal.
 const pause = (s) => execFileSync("sleep", [String(s)]);
@@ -55,11 +59,13 @@ if (has("--pull")) { // Colin's picks: drive.json is [{ id, name }], listed by a
     if (image) console.log(`pulled ${f.name}`); else { fs.rmSync(out, { force: true }); console.log(`couldn't fetch ${f.name}: Drive asked for a sign-in. Share the "Trip photos" folder as "Anyone with the link" (viewer).`); } }
   process.exit(0);
 }
-if (has("--ledger")) { // the rows to load into the Photo Ledger (tools/photosheet.html), as ArtifactData batch operations
+if (has("--ledger")) { // the rows to load into the Photo Ledger (tools/photosheet.html), as ArtifactData batch `writes` (50 a batch). Each row's data is a file, so the call stays short.
+  // "update" keeps a stored picture on a re-load, but fails on a row the ledger doesn't have yet: send those as "set".
   const title = fm("title") || slug, where = fm("country"), ops = [{ op: "set", collection: "trips", doc_id: slug, data: { title } }];
   let order = 0;
-  for (const d of deck(spec, days)) for (const s of d.slides.filter((x) => x.kind === "photo")) ops.push({ op: "update", collection: "shots", doc_id: `${slug}--${s.id}`, data: { trip: slug, id: s.id, day: d.day, dayTitle: d.title, order: order++, title: s.title, shot: s.shot, q: [s.title.replace(/^.*: /, ""), where].filter(Boolean).join(" ") } });
-  console.log(JSON.stringify(ops)); process.exit(0);
+  for (const d of deck(spec, days)) for (const s of d.slides.filter((x) => x.kind === "photo")) ops.push({ op: "update", collection: "shots", doc_id: `${slug}--${s.id}`, data: { trip: slug, id: s.id, day: d.day, dayTitle: d.title, order: order++, title: s.title, shot: s.shot, q: s.q ?? [s.title.replace(/^.*: /, ""), where].filter(Boolean).join(" ") } });
+  const dir = `${CACHE}/ledger`; fs.rmSync(dir, { recursive: true, force: true }); fs.mkdirSync(dir, { recursive: true });
+  console.log(JSON.stringify(ops.map((o, i) => { const f = `${dir}/${i}.json`; fs.writeFileSync(f, JSON.stringify(o.data)); return { op: o.op, collection: o.collection, doc_id: o.doc_id, file_path: f }; }))); process.exit(0);
 }
 if (has("--adopt")) { // --adopt <rows dir> <pictures dir>: the Photo Ledger's rows (ArtifactData list, out_dir) and its stored pictures (Artifact read, path = asset id), filed as Colin's picks
   const i = process.argv.indexOf("--adopt"), rows = process.argv[i + 1], pics = process.argv[i + 2], files = fs.readdirSync(pics); let n = 0;
@@ -92,16 +98,21 @@ for (const d of model) for (const s of d.slides) { if (s.kind !== "photo") conti
 }
 
 // Shrink every picture to 1,400 px on its long side, in a browser canvas (no image library needed).
+// A picture is then a file beside the page, named by its content so a changed pick is never served
+// stale; with --inline it goes inside the page instead.
+const INLINE = has("--inline"), PICS = `site/slides/${slug}`, served = [];
+fs.rmSync(PICS, { recursive: true, force: true }); fs.mkdirSync(`${CACHE}/small`, { recursive: true }); if (!INLINE) fs.mkdirSync(PICS, { recursive: true });
 const require = createRequire(import.meta.url), { chromium } = require("playwright");
 const browser = await chromium.launch(), page = await browser.newPage();
-const shrink = async (file, long = 1400, q = 0.7) => { const out = `${file}.${long}.jpg`;
+const shrink = async (file, long = 1400, q = 0.7, name = path.basename(file).replace(/\.[a-z0-9]+$/i, "")) => { const out = `${CACHE}/small/${name}.${long}.jpg`;
   if (!fs.existsSync(out) || fs.statSync(out).mtimeMs < fs.statSync(file).mtimeMs) {
     const mime = /\.png$/i.test(file) ? "image/png" : /\.webp$/i.test(file) ? "image/webp" : "image/jpeg";
     const b64 = await page.evaluate(async ([u, long, q]) => { const i = new Image(); i.src = u; await i.decode(); const r = Math.min(1, long / Math.max(i.naturalWidth, i.naturalHeight)), c = document.createElement("canvas"); c.width = Math.round(i.naturalWidth * r); c.height = Math.round(i.naturalHeight * r); c.getContext("2d").drawImage(i, 0, 0, c.width, c.height); return c.toDataURL("image/jpeg", q).split(",")[1]; }, [`data:${mime};base64,${fs.readFileSync(file).toString("base64")}`, long, q]);
     fs.writeFileSync(out, Buffer.from(b64, "base64")); }
-  return `data:image/jpeg;base64,${fs.readFileSync(out).toString("base64")}`; };
+  const buf = fs.readFileSync(out); if (INLINE) return `data:image/jpeg;base64,${buf.toString("base64")}`;
+  const as = `${slug}/${name}.${createHash("md5").update(buf).digest("hex").slice(0, 6)}.jpg`; fs.writeFileSync(`site/slides/${as}`, buf); served.push({ path: as, bytes: buf.length }); return as; };
 for (const d of model) for (const s of d.slides) if (s.src) { try { s.data = await shrink(s.src); } catch (e) { console.error(`⚠ ${s.id}: not a readable picture (${String(e.message).split("\n")[0]})`); want.push(s); } }
-const posterFile = `${POSTER_DIR}/${slug}.jpg`, poster = fs.existsSync(posterFile) ? await shrink(posterFile, 1400, 0.72) : null;
+const posterFile = `${POSTER_DIR}/${slug}.jpg`, poster = fs.existsSync(posterFile) ? await shrink(posterFile, 1400, 0.72, "poster") : null;
 await browser.close();
 
 // ---- the page ---------------------------------------------------------------
@@ -158,5 +169,9 @@ const html = shell.replaceAll("__TITLE__", esc(title)).replace("__RAIL__", () =>
 fs.mkdirSync("site/slides", { recursive: true });
 fs.writeFileSync(`site/slides/${slug}.html`, html);
 const n = model.reduce((a, d) => a + d.slides.filter((s) => s.kind === "photo").length, 0);
-console.log(`wrote site/slides/${slug}.html (${(html.length / 1e6).toFixed(1)} MB): ${S.length} slides, ${n - want.length} of ${n} pictures in${want.length ? `; wanted: ${want.map((s) => s.id).join(", ")}` : ""}`);
-if (html.length > 15.5e6) console.error("⚠ over the 16 MB page limit: split the deck or lower the picture size");
+const list = `site/slides/${slug}.files.json`; fs.rmSync(list, { force: true });
+if (!INLINE) fs.writeFileSync(list, JSON.stringify(served.map((f) => ({ path: f.path }))));
+console.log(`wrote site/slides/${slug}.html (${(html.length / 1e6).toFixed(1)} MB): ${S.length} slides, ${n - want.length} of ${n} pictures in${want.length ? `; wanted: ${want.length > 12 ? `${want.length} (--list names them)` : want.map((s) => s.id).join(", ")}` : ""}`);
+if (!INLINE) console.log(`pictures: ${served.length} files, ${(served.reduce((a, f) => a + f.bytes, 0) / 1e6).toFixed(1)} MB, in ${PICS}/. Publish the page with root "site/slides" and the files listed in ${list}`);
+if (html.length > 15.5e6) console.error(`⚠ over the 16 MB page limit${INLINE ? ": build without --inline, so the pictures are files beside the page" : ""}`);
+if (served.length > 255) console.error(`⚠ ${served.length} picture files: one publish takes 255, so send them in two publishes to the same url`);
