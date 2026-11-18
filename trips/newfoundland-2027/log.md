@@ -514,3 +514,8 @@ No decisions, just copies that hadn't caught up:
 
 - **Picked** *(Colin, 2026-11-16: "Cheapest picks", "Yes, all five")*: Days Inn Albany SUNY (May 26), Hotel Port Aux Basques (May 30), North 99 Motel in Twillingate (Jun 11), Trinity Suites (Jun 12–14) and the Monastery Hotel in St. John's (Jun 15–18). Was: TBD at each. Live quotes and the alternatives are in `research-log.md`. ~C$616 each for the 8 friends' nights. Nothing booked; all cancel free.
 - **Booking rows added** for those five, plus St. Barbe RV Park, the Escape by the Sea cottage and Argentia Sunset RV Park, which were picked but had no row, so the briefing never listed them.
+
+## 2026-11-18 · Budget re-priced
+
+- **~US$3,500–4,350, Colin's share** (was ~US$3,100 core, 2026-10-04). What changed: the friends' hotel week at the picked quotes (÷ 4), the Albany and Port aux Basques motels, the Sienna's ~21 mpg instead of the Legacy's 25, the friends taking 3/4 of that week's gas, C$1 = US$0.70 (XE, 2026-11-18; was an assumed 0.72). Breakdown in `trip.md` Notes, "Budget" *(Claude, 2026-11-18, Colin asked)*.
+- ⚠️ The friends' page (share/proposals/newfoundland-2027.html) still prices hotels at two per room, ~$500–750 each for 8 nights; the picked units for 4 come to ~C$690 (~US$480) each for 4-way split. Not changed here.
