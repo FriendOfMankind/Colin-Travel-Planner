@@ -372,6 +372,7 @@ overnight:
 - optional · sport · **Clare v Cork, Munster hurling, in Ennis**, if the 2027 championship puts it on this Sunday. Clashes with the golf: pick one. The pairing is provisional and has no date yet *(Irish Examiner, 2026-08-06)*. Ennis is on the way · 📍 Cusack Park Ennis
 - evening · stop · **The Cliffs of Moher**, after the tour coaches leave. Fee, hours and parking not checked. Part of the coastal path from Doolin was closed for repairs from 2025 *(hillwalktours.com, 2026-04)* · 📍 Cliffs of Moher Visitor Centre
 - night · music · **Doolin:** Gus O'Connor's, McGann's and McDermott's all run free sessions most nights from about 9 PM; Fitzpatrick's is the quieter fourth *(youririshadventure.com; justchasingsunsets.com)*. Gus O'Connor's opens daily at 10 AM *(gusoconnorsdoolin.com)*. One a night · 📍 Doolin Co. Clare
+- option · stop · **Sit-and-stare, decided on the day by weather** *(Colin, 2026-11-19)*: an earlier ferry and **Loop Head** in the morning before the golf, only if the day's driving stays under ~4 h (not routed); else Colin alone near Lahinch while Finn and Stick golf. · 📍 Loop Head Lighthouse
 
 **Meals**
 - B: Killarney
@@ -435,6 +436,7 @@ overnight:
 - afternoon · ruins · **The Poulnabrone dolmen**, a Neolithic portal tomb on limestone pavement *(recalled)*. · 📍 Poulnabrone Dolmen
 - optional · cave · **Doolin Cave**: a 50-minute guided tour to one of the world's largest stalactites, from €19.50 *(doolincave.ie, 2026-11-10)*. · 📍 Doolin Cave
 - night · music · Doolin, the third pub.
+- option · stop · **Sit-and-stare, decided on the day** *(Colin, 2026-11-19)*: drop Doolin Cave for the Burren coast at **Fanore and Black Head** *(recalled, not checked)*; keep Dysert O'Dea if it's open (the family-roots stop). · 📍 Fanore Beach
 
 **Meals**
 - B: Doolin
@@ -488,6 +490,7 @@ overnight:
 - morning · hike · **Diamond Hill**, Connemara National Park: a 4.6-mile loop, 1,236 ft, 2.5–3 h *(AllTrails, snippet; walkingholidayireland.com)*. · 📍 Connemara National Park Visitor Centre
 - afternoon · walk · **Omey Island**, across the sand at low tide only, ~6 km around *(theculturetrip.com; community.ireland.com)*. Or **Killary Fjord** if the tide is wrong · 📍 Omey Island
 - night · music · Galway, the second night.
+- option · stop · **Sit-and-stare, decided by the tide and weather** *(Colin, 2026-11-19)*: if low tide falls late morning to mid-afternoon, Omey only and stay out; otherwise Diamond Hill and Killary. · 📍 Omey Island
 
 **Meals**
 - B: Galway
