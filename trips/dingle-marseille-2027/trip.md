@@ -559,6 +559,7 @@ slack: The morning.
 - [ ] **Skellig Michael landing**, Sat May 15: Skellig Michael Cruises is open for 2027 (12 seats a day, 2026-11-14)
 - [ ] Ireland car, Kerry Airport → Dublin Airport, May 14–21: one-way fee, under-25 fee, excess cover
 - [ ] Beds: Killarney ×2, Doolin ×3, Galway ×2, Dublin Airport ×1
+- [ ] **Flex rule: book only free-cancellation rates, and cancel or move on the fly** *(Colin, 2026-11-19)*. The car cancels free up to 48 h before pickup; the Maldron's prepay rate does not, so take a refundable rate there. Fixed: the flight home (Sat May 22, 16:05) and the grandparents' 4 approved nights (more is their call). Skellig (May 15) is the one fixed-date booking
 - [ ] Doolin → Inis Mór 2027 timetable; Dysert O'Dea's 2027 opening date; Omey tide times for May 20
 - [ ] Munster hurling 2027 dates (Clare v Cork in Ennis)
 - [ ] Lahinch Castle tee time for Finn and Stick, Sun May 16 afternoon, and rental clubs for both

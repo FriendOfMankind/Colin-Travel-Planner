@@ -319,3 +319,7 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 
 - **May 14 is plan B** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*: they drop us in Dingle ~06:55, then bus 275 07:15 → Tralee, train 09:05 → Farranfore, walk to the Europcar desk, car at ~10:00. **Was:** a family lift to Kerry Airport (~1¼ h each way).
 - **The car quote is Europcar** *(Colin, 2026-11-17)*. His licence dates from 2020, so Europcar's 2-year rule is met.
+
+## 2026-11-19 · Decided: refundable bookings, changed on the fly
+
+- **Book everything on free-cancellation rates and cancel or rebook as the trip goes** *(Colin, 2026-11-19: "let's just book stuff and refund on the fly")*. Prompted by wanting the option to stay longer at Stick's grandparents' and pick up the car later. Not decided: whether the grandparents want more than 4 nights (not asked), the cut order if Dingle grows, and whether the Skellig landing (fixed date, May 15) still gets booked.
