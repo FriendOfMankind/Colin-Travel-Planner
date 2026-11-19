@@ -20,7 +20,7 @@ coords: [ 49, -56 ]
 mymaps: 1vTXdAYpegjzytLlLT4KvreO_DMyV1WU  # Colin's Google My Map of this trip, imported from site/maps/*.kml (shared 2026-11-02)
 nights: 29 nights
 distance: ~5,700 mi + four ferry crossings
-budget: ~US$3,100 core as camped (2026-10-04); the friends' hotel week and the night-5 Port aux Basques motel add to it and aren't recomputed
+budget: "~US$3,500–4,350, Colin's share, all estimated (Claude, 2026-11-18; breakdown in Notes, \"Budget\"): beds ~$1,050–1,150, fuel ~$1,050–1,350, food ~$800–1,100, boats and fees ~$360–400, ferries ~$230–360. Not in it: gear still to buy."
 tags:
   - car camping
   - geology
@@ -1099,7 +1099,7 @@ overnight: null
 
 ```yaml
 summary: 29 nights · 16 camping, 9 hotel with the friends, 1 ferry, 3 transit/TBD
-total: Not totalled; the hotel week isn't priced
+total: "~C$1,273 + US$194 ≈ US$1,085, Colin's share (2026-11-18): the friends' week split four ways, estimates for the unpriced camps"
 ```
 
 | Night | Date | Location | Type | Name | Cost | Status |
@@ -1265,7 +1265,18 @@ Download before leaving: Mount Desert Island; Fundy + Hopewell; Cape Breton (the
 
 ### Budget
 
-From the 2026-10-04 estimate, as camped: **~US$3,100 core** (≈ $95/day), ~$3,300 with the Argentia cabin and the Western Brook boat. Fuel is the biggest line (~$1,100 at 25 mpg; ~$1,300 at the Sienna's ~21, recalled mpg, not recomputed properly). Ferries ~$240 USD total thanks to the 2025 federal rate cut, which could lapse. **The friends' week replaces ~9 ParksNL nights (C$20 each) with hotels at ~$110–205/night; the split depends on the headcount. Not recomputed.** Gear is extra (~$250–300). Full table in `log.md`.
+**~US$3,500–4,350, Colin's share** *(Claude, 2026-11-18)*. Nothing is booked, so every line is an estimate. C$1 = US$0.70 *(XE mid-market, 2026-11-18)*. The friends' week rooms split four ways, as the picked units are booked for 4 adults.
+
+| Line | Low | High | How it's counted |
+| --- | --- | --- | --- |
+| Beds, 28 nights | $1,050 | $1,150 | The Lodging table: C$1,273 + US$194. Quoted: Albany US$94, Port aux Basques C$165 + 15% HST, North 99 C$149.44, Trinity Suites C$850.84, Monastery C$1,462.53 (Booking.com, 2026-11-16), each ÷ 4 for the friends' week. Fogo's $289 is assumed CAD, tax not seen. **Estimated, no source:** Fundy, Chéticamp, St. Barbe ~C$30, Argentia ~C$35, the two drive-home nights ~US$35 |
+| Fuel, ~5,700 mi | $1,050 | $1,350 | The Sienna at ~21 mpg *(recalled, not checked)*; US $4.38/gal and C$1.86/L (the 2026-10-04 prices, not refreshed) ≈ $1,280; the friends pay 3/4 of ~700 mi that week ≈ −$120 *(Claude's mileage guess)* |
+| Food | $800 | $1,100 | Groceries ~$20/day upper bound × 30, plus ~12–20 bought meals at ~$25 *(guess)*; the Monastery includes breakfast |
+| Boats and fees | $360 | $400 | St. Anthony icebergs ~C$95, Western Brook C$99, Twillingate ~C$100+ (Facebook), Witless Bay C$94, Mistaken Point C$23, Discovery Pass C$83.50, Hopewell C$18.15 (2026 prices); high end adds the Screech-in and Sullivan's |
+| Ferries | $230 | $360 | North Sydney → Port aux Basques C$79, Belle Isle C$71, Argentia C$182 (2026 rates); high end adds the Argentia cabin C$176.75. Fogo's ferry is a few dollars |
+| **Total** | **~$3,500** | **~$4,350** | |
+
+**Outside the total:** gear still marked `need` (~$250–300 on the 2026-10-04 list; some overlaps the Rockies trip). **What moves it:** fuel (every $0.25/gal ≈ ±$65 at 21 mpg), the cabin, and food. Breaking the friends' rooms into two-per-room would roughly double the hotel-week line.
 
 ### Food
 

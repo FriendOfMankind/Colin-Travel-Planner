@@ -319,3 +319,11 @@ Found by the gardener's test run, confirmed by its verifier; no decisions change
 
 - **May 14 is plan B** *(Colin, 2026-11-17: "Don't wanna make them drive all that way")*: they drop us in Dingle ~06:55, then bus 275 07:15 → Tralee, train 09:05 → Farranfore, walk to the Europcar desk, car at ~10:00. **Was:** a family lift to Kerry Airport (~1¼ h each way).
 - **The car quote is Europcar** *(Colin, 2026-11-17)*. His licence dates from 2020, so Europcar's 2-year rule is met.
+
+## 2026-11-19 · Decided: refundable bookings, changed on the fly
+
+- **Book everything on free-cancellation rates and cancel or rebook as the trip goes** *(Colin, 2026-11-19: "let's just book stuff and refund on the fly")*. Prompted by wanting the option to stay longer at Stick's grandparents' and pick up the car later. Not decided: whether the grandparents want more than 4 nights (not asked), the cut order if Dingle grows, and whether the Skellig landing (fixed date, May 15) still gets booked.
+
+## 2026-11-19 · Decided: sit-and-stare time, picked on the fly
+
+- **Three on-the-day options added, not fixed changes** *(Colin, 2026-11-19: "we might have to decide on the fly, weather could be a big factor")*: Day 8 Loop Head before golf (if under ~4 h of driving) or Colin alone near Lahinch; Day 10 Doolin Cave out for the Fanore/Black Head coast, Dysert O'Dea kept if open; Day 12 Omey only if the tide suits, else Diamond Hill and Killary. Already open: the Day 4 afternoon (Eask Tower) and Brandon Point evenings from the house. The Inis Mór overnight was not taken.
