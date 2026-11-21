@@ -70,3 +70,10 @@ From a handoff Colin built in another AI chat. Its facts are its own and unverif
 - ✅ **Day passes: $35 for ages 13–64, $30 for 65+**, kids 12 and under free; trails open 9–4; projected opening Nov 26, 2026 *(townoffrisco.com trail passes, read 2026-11-08)*
 - 📋 Rentals: adult classic $30/day, skate $40, $5 more each in holiday periods; first come, first served *(livegrandteam.com, search snippet, 2026-11-08)*. Snowshoe rental price: not found
 - 📋 Breckenridge Nordic: $35 trail pass; private lesson $150 for the first person *(breckenridgenordic.com, snippet, 2026-11-08)*
+
+### 2026-11-21 · Ski the rec path downhill: Breckenridge → Frisco
+- **Colin wants a gentle downhill, not a slight climb** *(Colin, 2026-11-21)*. So the solo rec-path day runs **Breckenridge → Frisco**: free bus to Breck, ski back to Frisco.
+- 📋 Frisco → Breck is "a fairly steady climb … all the way to Breckenridge" *(Facebook paved-trails group, search snippet, 2026-11-21)*. Breck → Frisco on AllTrails: 9.2 mi point to point, **157 ft of elevation gain** *(alltrails.com Breckenridge to Frisco Cycling Route, search snippet, 2026-11-21)*, so mostly downhill with a few short rises. The net drop isn't recorded; Breck sitting ~500 ft above Frisco is my recollection, unverified.
+- ✅ **Skis are allowed on Summit Stage buses**, kept out of the aisle *(summitcountyco.gov Riding the Bus, search snippet, 2026-11-21)*. So: rent at Frisco Nordic, bus to Breck with the skis, ski back to where you return them.
+- Grooming is unchanged by direction: Mon, Wed, Fri, so **Mon Dec 28** is still the fresh-corduroy day.
+- ⚠️ Where the path ends in Breck (Breckenridge Recreation Center) vs where the bus drops you: not checked.
