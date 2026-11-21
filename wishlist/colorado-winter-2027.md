@@ -6,19 +6,20 @@ status: wishlist
 months: [ 12 ]
 mode: fly
 days: 4
-start: 2026-12-21
-window: "Dec 21–24, 2026, before the family arrives Dec 25 (pencilled 2026-11-08). Was: stay on after Dec 30, dropped because the family wants to be home for New Year's Eve. Fall finals end Dec 18"
+window: "Dropped 2026-11-21 (Colin: Dec 25–30, that's it). Was Dec 21–24, 2026, before the family arrives Dec 25 (pencilled 2026-11-08). Was: stay on after Dec 30, dropped because the family wants to be home for New Year's Eve. Fall finals end Dec 18"
 region: Summit County (Frisco, Breckenridge, Silverthorne), Colorado
 country: USA
 budget: "~$300 a person for Dec 21–24 (lesson, rentals, passes, food, the bus from the airport), before snowshoe and microspike rentals. The condo is family-owned (free stay being asked). Colin pays any fare difference on his own outbound change (Colin, 2026-11-08)"
 tags: [ winter, nordic ski, snowshoe, frozen lakes, bus, car-free, brother, extension ]
-updated: 2026-11-09
+updated: 2026-11-21
 source: daydream 2026-11-08 (✅ read on the page, 📋 search snippet or secondary source, ⚠️ unverified lead or my estimate)
 ---
 
 # Frisco Early, Dec 21–24
 
 *Colin flies out early to the family condo, car-free, skiing and snowshoeing by free bus, then flies home with the family Dec 30*
+
+**Dropped** *(Colin, 2026-11-21: "I'm not gonna stay longer. 25-30 that's it")*: no early arrival and no staying on after Dec 30. Frisco is Dec 25–30 only (`wishlist/frisco-2026.md`). Everything below is kept as notes, for the bus and trail facts, not as a plan.
 
 ## Why
 

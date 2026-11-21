@@ -16,7 +16,7 @@ country: USA
 coords: [ 39.57, -106.1 ]
 budget: n/a
 tags: [ family, fixed, winter, nordic ski, snowshoe ]
-updated: 2026-11-09
+updated: 2026-11-21
 source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verified Sept 2026, 📋 verified earlier in 2026, ⚠️ unverified lead)
 ---
 
@@ -26,7 +26,7 @@ source: Trees@008d775 data/trips.js (from the Sept 3 2026 bucket list; ✅ verif
 
 ## Why
 
-**This is the whole winter now** *(confirmed again 2026-11-08)*: Sky Islands was shelved and the January friends trips (Adirondacks, Costa Rica, Guatemala) were dropped to save for summer. The family wants to be home for New Year's Eve, so they leave Dec 30. **Colin may stay on solo after they go** *(stated 2026-11-16: "idc about new years eve. Id rather do stuff in colorado"; was: nobody stays past Dec 30)*. **Flying out early, Mon Dec 21**, with Finn probably, is still possible; neither end is confirmed. Those early days are `wishlist/colorado-winter-2027.md`. (The Mojave loop was deferred on Sept 6 2026, so Frisco is a round trip that stands on its own.)
+**This is the whole winter now** *(confirmed again 2026-11-08)*: Sky Islands was shelved and the January friends trips (Adirondacks, Costa Rica, Guatemala) were dropped to save for summer. **Dec 25–30 and nothing else: no early arrival, no staying on** *(Colin, 2026-11-21: "I'm not gonna stay longer. 25-30 that's it"; was: maybe fly out Dec 21, and maybe stay on solo after Dec 30, stated 2026-11-16)*. The dropped early days are kept as notes in `wishlist/colorado-winter-2027.md`. (The Mojave loop was deferred on Sept 6 2026, so Frisco is a round trip that stands on its own.)
 
 ✅ **Dates confirmed: Dec 25–30, 2026** *(stated 2026-09-30; was: "Dec 25 for maybe 5 nights", a placeholder)*.
 
@@ -34,10 +34,11 @@ Summit County in late December is a family condo at 9,100 ft. **It's turning int
 
 ## Next
 
-1. **Flights are booked** *(Colin, 2026-11-08)*. Colin is checking whether he can move his outbound to Dec 21 (he pays any fare difference), and whether the condo is free Dec 21–24.
-2. **Who skis:** Finn skis, and maybe one other family member has experience *(Colin, 2026-11-08)*. The rest are beginners.
-3. Book the Frisco Nordic private lessons for the beginners (call 970-668-2570 to book more than one person); holiday week, so book ahead.
-4. The family plan is on the page "Frisco, Dec 21–30" (`share/proposals/colorado-winter-2027.html`).
+1. **Flights are booked** for Dec 25–30 *(Colin, 2026-11-08)*. Nothing to change *(Colin, 2026-11-21)*.
+2. **The skiing shape** *(Colin, 2026-11-21)*: the family joins for **one** cross-country day only: everyone rents, everyone takes a lesson, then one trail, "the best one". **Every ski day after that is Colin solo.** Which day is the group day, and which trail, isn't decided.
+3. **Who skis:** Finn skis, and maybe one other family member has experience *(Colin, 2026-11-08)*. The rest are beginners.
+4. Book the Frisco Nordic private lessons for the group day (call 970-668-2570 to book more than one person); holiday week, so book ahead.
+5. ⚠️ The family page "Frisco, Dec 21–30" (`share/proposals/colorado-winter-2027.html`, a draft, never sent) still pitches the early days and a multi-day family Nordic plan. Out of date as of 2026-11-21.
 
 ## Research notes
 
