@@ -77,3 +77,8 @@ From a handoff Colin built in another AI chat. Its facts are its own and unverif
 - ✅ **Skis are allowed on Summit Stage buses**, kept out of the aisle *(summitcountyco.gov Riding the Bus, search snippet, 2026-11-21)*. So: rent at Frisco Nordic, bus to Breck with the skis, ski back to where you return them.
 - Grooming is unchanged by direction: Mon, Wed, Fri, so **Mon Dec 28** is still the fresh-corduroy day.
 - ⚠️ Where the path ends in Breck (Breckenridge Recreation Center) vs where the bus drops you: not checked.
+
+### 2026-11-21 · The group day: Frisco Nordic, lesson then the Frisco Bay Loop
+- **Recommendation, not decided:** Sat Dec 26, 10:00 private lessons at Frisco Nordic (pass included), lunch at the lodge, then the **Frisco Bay Loop**. It has to come before Mon Dec 28, because Colin's solo Breck → Frisco day needs a lesson behind it.
+- 📋 Frisco Nordic has "a large and (almost) perfectly flat learning area right outside the lodge". **Frisco Bay Loop**: "a short but sweet loop with a lot of variety (including some punchy little hills)". **Crown Point**: "a mellow and wide trail that gradually climbs to the high point of the area for great views of Lake Frisco and the surrounding mountain ranges", pitched at intermediates, then **Olympian's Link** "for a taste of downhill fun" *(sisuskiretreat.com, "The Best Places to Cross-Country Ski in Colorado", 2024-09-15, updated 2026-11-10, read 2026-11-21)*. One source, a ski-retreat blog; loop lengths not found.
+- ⚠️ "Parking fills up quick … next to the town sledding hill! Get there early or … visit on a weekday" *(same source)*. Dec 26 is a holiday Saturday, so be there at 9:00 opening.
